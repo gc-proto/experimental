@@ -1,2 +1,6 @@
 .DS_store
 DS_store
+.vscode
+.frontmatter
+frontmatter.json
+*.tmp
