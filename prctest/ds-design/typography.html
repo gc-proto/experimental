@@ -5,16 +5,16 @@
 <!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-    <title>Typography</title>
-    <meta content="width=device-width,initial-scale=1" name="viewport">
-    <!-- Meta data -->
-    <meta name="description"
+<meta charset="utf-8">
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+<title>Typography</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<!-- Meta data -->
+<meta name="description"
         content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
-    <!-- Meta data-->
-    <!-- Load closure template scripts -->
-    <!--
+<!-- Meta data--> 
+<!-- Load closure template scripts --> 
+<!--
 			Note: a relative path is being used in this sample. In order to incorporate the script tags in your code, use the following absolute path (depending on the choice of domain). 
 			This path can be used for the following three file names: soyutils.js, wet-en.js, and wet-fr.js.
 
@@ -27,20 +27,16 @@
 			canada.ca: https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/[file name]
 			ssl-templates.services.gc.ca: https://ssl-templates.services.gc.ca/rn/cls/WET/gcweb/cdts/compiled/[file name]
 			templates.service.gc.ca: https://templates.service.gc.ca/rn/cls/WET/gcweb/cdts/compiled/[file name]
-		-->
+		--> 
 
-
-    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script>
-    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-en.js"></script>
-
-
-
-    <noscript>
-        <!-- Write closure fall-back static file -->
-        <!-- refTop.html -->
-    </noscript>
-    <!-- Write closure template -->
-    <script>
+<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script> 
+<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-en.js"></script>
+<noscript>
+<!-- Write closure fall-back static file --> 
+<!-- refTop.html -->
+</noscript>
+<!-- Write closure template --> 
+<script>
         document.write(wet.builder.refTop({
             "cdnEnv": "esdcprod"
         }));
@@ -48,15 +44,15 @@
 </head>
 
 <body vocab="https://schema.org/" typeof="WebPage">
-    <div class="container-fluid well">
-        <div class="container"><strong>Design system header</strong></div>
-    </div>
-    <div id="def-tops">
-        <!-- Write closure fall-back static file -->
-        <!-- top-en.html -->
-    </div>
-    <!-- Write closure template -->
-    <script>
+<div class="container-fluid well">
+  <div class="container"><strong>Design system header</strong></div>
+</div>
+<div id="def-tops"> 
+  <!-- Write closure fall-back static file --> 
+  <!-- top-en.html --> 
+</div>
+<!-- Write closure template --> 
+<script>
         var defTop = document.getElementById("def-top");
         defTop.outerHTML = wet.builder.top({
             "cdnEnv": "esdcprod",
@@ -73,374 +69,279 @@
             }],
         });
     </script>
-    <main property="mainContentOfPage" typeof="WebPageElement" class="container">
-        <h1 property="name" id="wb-cont">Typography</h1>
-        <div class="row">
-            <div class="col-md-8">
-
-                <div class="well">
-                    <p>Typography is the presentation of text. It includes fonts, sizing, and spacing as
-                        applied to
-                        the style,
-                        arrangement, and appearance of letters, numbers, and symbols.</p>
-                </div>
-
-                <p>On this page:</p>
-
-                <ul>
-                    <li><a href="#a-1">How topography works</a>
-
-                        <ul>
-                            <li><a href="#a-2">Fonts for desktop and tablet</a></li>
-                            <li><a href="#a-3">Fonts for smaller devices</a></li>
-
-                            <li><a href="#a-4">Line length</a></li>
-
-                            <li><a href="#a-5">Link appearance</a></li>
-
-                            <li><a href="#a-6">HTML tags and style considerations</a></li>
-
-                        </ul>
-                    </li>
-                    <li><a href="#a-7">The code: Design tokens</a></li>
-                    <li><a href="#a-9">Accessibility requirements</a>
-                        <ul>
-                            <li><a href="#a-10">W3C recomendations</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#a-8">Related components</a></li>
-
-
-                </ul>
-
-
-
-                <h2 id="a-1">How topography works</h2>
-
-
-                <p>The default fonts and styled size settings make Canada.ca pages consistent and
-                    easily
-                    readable across
-                    devices. Visitors can adjust these defaults to suit their reading needs.</p>
-            </div>
-        </div>
-        </div>
-        <h3 id="a-2">Fonts for desktop and tablet</h3>
-
-        <div class="panel panel-default">
-            <table class="table table-striped">
-                <caption class="wb-inv">Caption text</caption>
-                <thead>
-                    <tr>
-
-                        <th scope="col" class="col-sm-4">Display</th>
-                        <th scope="col" class="col-sm-1">Tag/style</th>
-                        <th scope="col" class="col-sm-2">Font name</th>
-                        <th scope="col" class="col-sm-1">Size</th>
-                        <th scope="col" class="col-sm-2">Weight</th>
-                        <th scope="col" class="col-sm-2">Decoration</th>
-
-
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-
-                        <td>
-                            <h1 class="mrgn-tp-0">Heading 1</h1>
-                        </td>
-                        <td>h1</td>
-                        <td>Lato</td>
-                        <td>38px</td>
-                        <td>bold</td>
-                        <td>Red underline</td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h2 class="mrgn-tp-0">Heading 2</h2>
-                        </td>
-                        <td>h2</td>
-                        <td>Lato</td>
-                        <td>36px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h3 class="mrgn-tp-0">Heading 3</h3>
-                        </td>
-                        <td>h3</td>
-                        <td>Lato</td>
-                        <td>24px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h4 class="mrgn-tp-0">Heading 4</h4>
-                        </td>
-                        <td>h4</td>
-                        <td>Lato</td>
-                        <td>22px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h5 class="mrgn-tp-0">Heading 5</h5>
-                        </td>
-                        <td>h5</td>
-                        <td>Lato</td>
-                        <td>20px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h6 class="mrgn-tp-0">Heading 6</h6>
-                        </td>
-                        <td>h6</td>
-                        <td>Lato</td>
-                        <td>19px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <p class="mrgn-tp-0">Body</p>
-                        </td>
-                        <td>body</td>
-                        <td>Lato</td>
-                        <td>20px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-
-                </tbody>
-            </table>
-
-
-        </div>
-
-
-
-
-        <h3 id="a-3">Fonts for smaller devices</h3>
-        <div class="panel panel-default">
-            <table class="table table-striped">
-                <caption class="wb-inv">Caption text</caption>
-                <thead>
-                    <tr>
-
-                        <th scope="col" class="col-sm-4">Display</th>
-                        <th scope="col" class="col-sm-1">Tag/style</th>
-                        <th scope="col" class="col-sm-2">Font name</th>
-                        <th scope="col" class="col-sm-1">Size</th>
-                        <th scope="col" class="col-sm-2">Weight</th>
-                        <th scope="col" class="col-sm-2">Decoration</th>
-
-
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-
-                        <td>
-                            <h1 class="mrgn-tp-0">Heading 1</h1>
-                        </td>
-                        <td>h1</td>
-                        <td>Lato</td>
-                        <td>34px</td>
-                        <td>bold</td>
-                        <td>Red underline</td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h2 class="mrgn-tp-0">Heading 2</h2>
-                        </td>
-                        <td>h2</td>
-                        <td>Lato</td>
-                        <td>32px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h3 class="mrgn-tp-0">Heading 3</h3>
-                        </td>
-                        <td>h3</td>
-                        <td>Lato</td>
-                        <td>24px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h4 class="mrgn-tp-0">Heading 4</h4>
-                        </td>
-                        <td>h4</td>
-                        <td>Lato</td>
-                        <td>22px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h5 class="mrgn-tp-0">Heading 5</h5>
-                        </td>
-                        <td>h5</td>
-                        <td>Lato</td>
-                        <td>20px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <h6 class="mrgn-tp-0">Heading 6</h6>
-                        </td>
-                        <td>h6</td>
-                        <td>Lato</td>
-                        <td>19px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            <p class="mrgn-tp-0">Body</p>
-                        </td>
-                        <td>body</td>
-                        <td>Lato</td>
-                        <td>20px</td>
-                        <td>bold</td>
-                        <td></td>
-                    </tr>
-
-                </tbody>
-            </table>
-
-
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <h3 id="a-4">Line length</h3>
-                <p>Constrain text line length to 65 characters. This ensures that no lines extend beyond a comfortable
-                    reading
-                    length.</p>
-                <p>Page layouts may be wider than 65 characters. The line length restriction applies only to characters
-                    in
-                    a line
-                    of text.</p>
-                <h3 id="a-5">Link appearance</h3>
-                Links in the content area are underlined. The exceptions are:
-                <uL>
-                    <li>links in the banner and footer</li>
-                </ul>
-                <p>For full details, refer to: <a href="#">Links</a></p>
-                <h3 id="a-5">HTML tags and style considerations</h3>
-                <ul>
-                    <li><strong>Bold</strong>: use sparingly for emphasis.</li>
-                    <li><strong>Italics</strong>: use <a
+<main property="mainContentOfPage" typeof="WebPageElement" class="container">
+  <h1 property="name" id="wb-cont">Typography</h1>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="well">
+        <p>Typography is the presentation of text. It includes fonts, sizing, and spacing as
+          applied to
+          the style,
+          arrangement, and appearance of letters, numbers, and symbols.</p>
+      </div>
+      <p>On this page:</p>
+      <ul>
+        <li><a href="#a-1">How topography works</a>
+          <ul>
+            <li><a href="#a-2">Fonts for desktop and tablet</a></li>
+            <li><a href="#a-3">Fonts for smaller devices</a></li>
+            <li><a href="#a-4">Line length</a></li>
+            <li><a href="#a-5">Link appearance</a></li>
+            <li><a href="#a-6">HTML tags and style considerations</a></li>
+          </ul>
+        </li>
+        <li><a href="#a-7">The code: Design tokens</a></li>
+        <li><a href="#a-9">Accessibility requirements</a>
+          <ul>
+            <li><a href="#a-10">W3C recomendations</a></li>
+          </ul>
+        </li>
+        <li><a href="#a-8">Related components</a></li>
+      </ul>
+      <h2 id="a-1">How topography works</h2>
+      <p>The default fonts and styled size settings make Canada.ca pages consistent and
+        easily
+        readable across
+        devices. Visitors can adjust these defaults to suit their reading needs.</p>
+    </div>
+  </div>
+  </div>
+  <h3 id="a-2">Fonts for desktop and tablet</h3>
+  <div class="panel panel-default">
+    <table class="table table-striped">
+      <caption class="wb-inv">
+      Caption text
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col" class="col-sm-4">Display</th>
+          <th scope="col" class="col-sm-1">Tag/style</th>
+          <th scope="col" class="col-sm-2">Font name</th>
+          <th scope="col" class="col-sm-1">Size</th>
+          <th scope="col" class="col-sm-2">Weight</th>
+          <th scope="col" class="col-sm-2">Decoration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><h1 class="mrgn-tp-0">Heading 1</h1></td>
+          <td>h1</td>
+          <td>Lato</td>
+          <td>38px</td>
+          <td>bold</td>
+          <td>Red underline</td>
+        </tr>
+        <tr>
+          <td><h2 class="mrgn-tp-0">Heading 2</h2></td>
+          <td>h2</td>
+          <td>Lato</td>
+          <td>36px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><h3 class="mrgn-tp-0">Heading 3</h3></td>
+          <td>h3</td>
+          <td>Lato</td>
+          <td>24px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><h4 class="mrgn-tp-0">Heading 4</h4></td>
+          <td>h4</td>
+          <td>Lato</td>
+          <td>22px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><h5 class="mrgn-tp-0">Heading 5</h5></td>
+          <td>h5</td>
+          <td>Lato</td>
+          <td>20px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><h6 class="mrgn-tp-0">Heading 6</h6></td>
+          <td>h6</td>
+          <td>Lato</td>
+          <td>19px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><p class="mrgn-tp-0">Body</p></td>
+          <td>body</td>
+          <td>Lato</td>
+          <td>20px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h3 id="a-3">Fonts for smaller devices</h3>
+  <div class="panel panel-default">
+    <table class="table table-striped">
+      <caption class="wb-inv">
+      Caption text
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col" class="col-sm-4">Display</th>
+          <th scope="col" class="col-sm-1">Tag/style</th>
+          <th scope="col" class="col-sm-2">Font name</th>
+          <th scope="col" class="col-sm-1">Size</th>
+          <th scope="col" class="col-sm-2">Weight</th>
+          <th scope="col" class="col-sm-2">Decoration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><h1 class="mrgn-tp-0">Heading 1</h1></td>
+          <td>h1</td>
+          <td>Lato</td>
+          <td>34px</td>
+          <td>bold</td>
+          <td>Red underline</td>
+        </tr>
+        <tr>
+          <td><h2 class="mrgn-tp-0">Heading 2</h2></td>
+          <td>h2</td>
+          <td>Lato</td>
+          <td>32px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><h3 class="mrgn-tp-0">Heading 3</h3></td>
+          <td>h3</td>
+          <td>Lato</td>
+          <td>24px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><h4 class="mrgn-tp-0">Heading 4</h4></td>
+          <td>h4</td>
+          <td>Lato</td>
+          <td>22px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><h5 class="mrgn-tp-0">Heading 5</h5></td>
+          <td>h5</td>
+          <td>Lato</td>
+          <td>20px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><h6 class="mrgn-tp-0">Heading 6</h6></td>
+          <td>h6</td>
+          <td>Lato</td>
+          <td>19px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><p class="mrgn-tp-0">Body</p></td>
+          <td>body</td>
+          <td>Lato</td>
+          <td>20px</td>
+          <td>bold</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <h3 id="a-4">Line length</h3>
+      <p>Constrain text line length to 65 characters. This ensures that no lines extend beyond a comfortable
+        reading
+        length.</p>
+      <p>Page layouts may be wider than 65 characters. The line length restriction applies only to characters
+        in
+        a line
+        of text.</p>
+      <h3 id="a-5">Link appearance</h3>
+      Links in the content area are underlined. The exceptions are:
+      <uL>
+        <li>links in the banner and footer</li>
+      </ul>
+      <p>For full details, refer to: <a href="#">Links</a></p>
+      <h3 id="a-5">HTML tags and style considerations</h3>
+      <ul>
+        <li><strong>Bold</strong>: use sparingly for emphasis.</li>
+        <li><strong>Italics</strong>: use <a
                             href="https://www.btb.termiumplus.gc.ca/tcdnstyl-chap?lang=eng&lettr=chap_catlog&info0=6#zz6">The
-                            Canadian Style's</a> rules. Don't use italics for emphasis, design, or decorative purposes.
-                    </li>
-                    <li><strong>Strikethrough</strong>: do not use the strikethrough element</li>
-                </ul>
-
-                <h2 id="a-7">The code: Design tokens</h2>
-                <p>Design tokens are used to manage and render typography. They are open source and managed at Github.
-                </p>
-
-                <h2 id="a-9">Accessibility requirements</h2>
-
-                <p>Typography considerations:</p>
-                <ul>
-                    <li>Open source</li>
-                    <li>Noto Sans supports more than 800 languages, including indigenous languages</li>
-                    <li>Passes the test to distinguish between “I”,”l”, and ”1”.</li>
-
-                </ul>
-
-                <h3 id="a-10">W3C recomendations</h3>
-                <ul>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">1.4.12 Text Spacing [AA]</a></li>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4 Resize text [AA]</a></li>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced">1.4.6 Contrast (Enhanced) [AAA]</a>
-                        <ul>
-                            <li>Minimum for AA is 3:1 contrast</li>
-                            <li>AAA is enhanced contrast 7:1 except heading which can be 4.5:1</li>
-                        </ul>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">1.4.8 Presentation [AAA]</a></li>
-                    </li>
-                </ul>
-
-
-
-
-
-                <h2 id="a-8">Related components</h2>
-                <p><a href="#">Headings</a>, <a href="#">body text</a>, <a href="#">paragraphs</a>, <a
+          Canadian Style's</a> rules. Don't use italics for emphasis, design, or decorative purposes. </li>
+        <li><strong>Strikethrough</strong>: do not use the strikethrough element</li>
+      </ul>
+      <h2 id="a-7">The code: Design tokens</h2>
+      <p>Design tokens are used to manage and render typography. They are open source and managed at Github. </p>
+      <h2 id="a-9">Accessibility requirements</h2>
+      <p>Typography considerations:</p>
+      <ul>
+        <li>Open source</li>
+        <li>Noto Sans supports more than 800 languages, including indigenous languages</li>
+        <li>Passes the test to distinguish between “I”,”l”, and ”1”.</li>
+      </ul>
+      <h3 id="a-10">W3C recomendations</h3>
+      <ul>
+        <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">1.4.12 Text Spacing [AA]</a></li>
+        <li><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4 Resize text [AA]</a></li>
+        <li><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced">1.4.6 Contrast (Enhanced) [AAA]</a>
+          <ul>
+            <li>Minimum for AA is 3:1 contrast</li>
+            <li>AAA is enhanced contrast 7:1 except heading which can be 4.5:1</li>
+          </ul>
+        <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">1.4.8 Presentation [AAA]</a></li>
+        </li>
+      </ul>
+      <h2 id="a-8">Related components</h2>
+      <p><a href="#">Headings</a>, <a href="#">body text</a>, <a href="#">paragraphs</a>, <a
                         href="#">lists</a>, <a href="#">buttons</a>, <a href="#">links</a>, <a href="#">tables (headings
-                        and captions)</a></p>
-
-
-
-
-
-
-            </div>
-        </div>
-
-
-
-
-        <div id="def-preFooter">
-            <!-- Write closure fall-back static file -->
-            <!-- preFooter-en.html -->
-        </div>
-        <!-- Write closure template -->
-        <script>
+        and captions)</a></p>
+    </div>
+  </div>
+  <div id="def-preFooter"> 
+    <!-- Write closure fall-back static file --> 
+    <!-- preFooter-en.html --> 
+  </div>
+  <!-- Write closure template --> 
+  <script>
             var defPreFooter = document.getElementById("def-preFooter");
             defPreFooter.outerHTML = wet.builder.preFooter({
                 "cdnEnv": "esdcprod",
                 "dateModified": "2022-03-02"
             });
-        </script>
-    </main>
-    <div id="def-footers">
-        <!-- Write closure fall-back static file -->
-        <!-- footer-en.html -->
-
-        <div class="container-fluid well">
-            <div class="container"><strong>Design system footer</strong></div>
-        </div>
-    </div>
-    <!-- Write closure template -->
-    <script>
+        </script> 
+</main>
+<div id="def-footers"> 
+  <!-- Write closure fall-back static file --> 
+  <!-- footer-en.html -->
+  
+  <div class="container-fluid well">
+    <div class="container"><strong>Design system footer</strong></div>
+  </div>
+</div>
+<!-- Write closure template --> 
+<script>
         var defFooter = document.getElementById("def-footer");
         defFooter.outerHTML = wet.builder.footer({
             "cdnEnv": "esdcprod"
         });
-    </script>
-    <!-- Write closure template -->
-    <script>
+    </script> 
+<!-- Write closure template --> 
+<script>
         document.write(wet.builder.refFooter({
             "cdnEnv": "esdcprod"
         }));
     </script>
 </body>
-
 </html>
