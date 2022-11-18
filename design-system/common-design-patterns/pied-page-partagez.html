@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-	<title>Signaler un problème sur cette page - Configuration de conception de Canada.ca - Canada.ca</title>
+	<title>Partagez cette page - Configuration de conception de Canada.ca - Canada.ca</title>
 
 	<meta content="width=device-width,initial-scale=1" name="viewport">
 
@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 	<link rel="stylesheet" href="../css/custom.css">
-			<link rel="stylesheet" href="../css/split-h1.css">
-	<link rel="stylesheet" href="../css/new-alerts.css">
+	<link rel="stylesheet" href="../css/split-h1.css">
+
 
 	<!--<![endif]-->
 	<!--[if lt IE 9]>
@@ -85,8 +85,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="list-inline margin-bottom-none">
-							<li><a lang="en" href="https://design.canada.ca/common-design-patterns/report-problem.html">English</a>
-							</li>
+							<li><a lang="en" href="https://design.canada.ca/common-design-patterns/share-page.html">English</a></li>
 						</ul>
 					</div>
 				</div>
@@ -214,56 +213,103 @@
 		</nav>
 	</header>
 
-
-	</div>
-
-
-
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<!--/* Hide Nav; Hide Right Rail /*-->
 
 
-	<main role="main" property="mainContentOfPage" class="container wb-prettify all-pre">
-	<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Content footer</span>: <span>Configuration de conception de
-	Canada.ca</h1>
+	<main role="main" property="mainContentOfPage" class="container">
+
+	<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Partagez cette page</span>: <span>Configuration de
+				conception de
+				Canada.ca</h1>
+
 		<p class="gc-byline"><strong>De : <a href="https://www.canada.ca/fr/secretariat-conseil-tresor.html">Secrétariat du
 					Conseil du Trésor du Canada</a></strong></p>
-<div class="gc-stp-stp">
-	<div class="row">
-		<ul class="toc lst-spcd col-md-12">
-			<li class="col-md-4 col-sm-6"><a class="list-group-item active">Content
-					footer</a></li>
-			<li class="col-md-4 col-sm-6"><a class="list-group-item" href="pied-page-signaler-probleme.html">Signaler un problème sur cette page</a></li>
-			<li class="col-md-4 col-sm-6"><a class="list-group-item" href="pied-page-partagez.html">Partagez cette page</a></li>
-			<li class="col-md-4 col-sm-6"><a class="list-group-item" href="pied-page-date-modification.html">Date de modification</a>
-			</li>
-		</ul>
-	</div>
-</div>
-		<mark>where is the translation for this?</mark>
+		<div class="gc-stp-stp">
+			<div class="row">
+				<ul class="toc lst-spcd col-md-12">
+					<li class="col-md-4 col-sm-6"><a class="list-group-item" href="pied-page-contenu.html">Content
+							footer</a></li>
+					<li class="col-md-4 col-sm-6"><a class="list-group-item" href="pied-page-signaler-probleme.html">Signaler un
+							problème sur cette page</a></li>
+					<li class="col-md-4 col-sm-6"><a class="list-group-item active">Partagez cette page</a>
+					</li>
+					<li class="col-md-4 col-sm-6"><a class="list-group-item" href="pied-page-date-modification.html">Date de
+							modification</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-
-			<section>
-				<h2 id="discussion">Discussion</h2>
-				<p><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuter de ce modèle dans
-						GitHub</a></p>
-			</section>
-
+		<p>La composante «&nbsp;Partagez cette page&nbsp;» est destinée à permettre aux gens de partager le contenu de la
+			page à d’autres personnes. </p>
+		<section>
+			<h2>Objectifs</h2>
+			<p>La composante «&nbsp;Partagez cette page&nbsp;» permet aux gens de partager la page Web actuelle à l’aide de
+				plates-formes de partage et de services de livraison.</p>
 		</section>
+		<section>
+			<h2>Quand utiliser la configuration «&nbsp;Partagez cette page&nbsp;»</h2>
+			<p>La configuration «&nbsp;Partagez cette page&nbsp;» est facultative sur toutes les pages. Pour en savoir plus,
+				allez à <a
+					href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada/elements-obligatoires.html#entete-piedpage">Éléments
+					obligatoires du système de conception</a>.</p>
+		</section>
+		<section>
+			<h2>Comment mettre en œuvre&nbsp;«&nbsp;Partagez cette page&nbsp;»</h2>
+			<ul>
+				<li>La composante est présentée comme un bouton à l’aide du style de la <abbr
+						title="Boîte à outil de l'expérience Web">BOEW</abbr> pour les actions secondaires.</li>
+				<li>L’étiquette indique&nbsp;: «&nbsp;Partagez cette page&nbsp;», précédée par l’icône de partage dans
+					l’ensemble d’icônes défini inclus dans la <abbr title="Boîte à outil de l'expérience Web">BOEW</abbr>.</li>
+				<li>Placement&nbsp;: cette composante est située sous le contenu principal, alignée à droite.</li>
+				<li>Lorsqu’on clique dessus, une fenêtre révocable s’ouvre.
+					<ul>
+						<li>La fenêtre est intitulée «&nbsp;Partagez cette page&nbsp;» et comprend des boutons pour une sélection
+							des plates-formes de partage et des services de livraison, et le message «&nbsp;Aucun appui n’est accordé,
+							soit de façon expresse ou tacite, à aucun produit ou service&nbsp;». </li>
+						<li>Dans de grands écrans, les boutons s’affichent en deux colonnes. </li>
+						<li>Dans de petits écrans, la personne voit une seule colonne de boutons.</li>
+					</ul>
+				</li>
+				<li>Dans la fenêtre, le bouton de chaque plate-forme de partage ou service de livraison utilise le style de
+					<abbr title="Boîte à outil de l'expérience Web">BOEW</abbr> pour les actions secondaires.</li>
+				<li>L’étiquette pour chaque bouton dans la fenêtre comprend le nom de la plate-forme de partage ou du service de
+					livraison, précédé par une icône ou un logo pertinent.</li>
+				<li>Lorsqu’on clique dessus, chaque bouton de la fenêtre déclenche un lien vers cette plate-forme ou ce service,
+					y compris les paramètres appropriés, comme l’URL ou le titre de la page partagée.
+					<ul>
+						<li>Ces liens s’ouvrent dans de nouveaux onglets du navigateur ou de nouvelles fenêtres, dans la mesure du
+							possible. </li>
+					</ul>
+				</li>
+			</ul>
+
+			<figure class="mrgn-bttm-lg">
+				<figcaption><b>Fenêtre «&nbsp;Partagez cette page&nbsp;» (version grand écran)</b></figcaption>
+				<img
+					src="https://www.canada.ca/content/dam/tbs-sct/images/government-communications/canada-content-style-guide/share-this-page-overlay-fra.jpg"
+					class="img-responsive center-block"
+					alt="Diagramme de la fenêtre «&nbsp;Partagez cette page&nbsp;» pour les grands écrans. La version textuelle se trouve ci-dessous&nbsp;:">
+				<details>
+					<summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Version textuelle</summary>
+					<p>Cet exemple de grand écran de «&nbsp;Partagez cette page&nbsp;» contient des liens vers diverses
+						plates-formes de médias sociaux qui sont organisés en 2 colonnes.</p>
+				</details>
+			</figure>
+			<figure class="mrgn-bttm-lg">
+				<figcaption><b>Fenêtre «&nbsp;Partagez cette page&nbsp;» (version petit écran)</b></figcaption>
+				<img
+					src="https://www.canada.ca/content/dam/tbs-sct/images/government-communications/canada-content-style-guide/share-this-page-overlay-small-screen-fra.jpg"
+					class="img-responsive"
+					alt="Diagramme de la fenêtre «&nbsp;Partagez cette page&nbsp;» pour les petits écrans. La version textuelle se trouve ci-dessous&nbsp;:">
+				<details>
+					<summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Version textuelle</summary>
+					<p>Cet exemple de grand écran de «&nbsp;Partagez cette page&nbsp;» contient des liens vers diverses
+						plates-formes de médias sociaux qui sont organisés en une seule colonne.</p>
+				</details>
+			</figure>
+		</section>
+
 		<!-- START PAGE FEEDBACK WIDGET -->
 		<div class="row row-no-gutters mrgn-tp-xl">
 			<div class="col-sm-7 col-lg-6">
@@ -275,7 +321,7 @@
 							<input type="hidden" name="language" value="FR">
 							<input type="hidden" name="pageTitle" value="Concevoir du contenu pour Canada.ca">
 							<input type="hidden" name="submissionPage"
-								value="https://conception.canada.ca/configurations-conception-communes/pied-page-contenu.html">
+								value="https://conception.canada.ca/configurations-conception-communes/partagez-page.html">
 							<input type="hidden" name="sectionopt" value="Design system">
 
 
@@ -357,11 +403,10 @@
 		<div class="pagedetails">
 			<dl id="wb-dtmd">
 				<dt>Date de modification :</dt>
-				<dd><time property="dateModified">2021-06-18</time></dd>
+				<dd><time property="dateModified">2018-12-19</time></dd>
 			</dl>
 		</div>
 	</main>
-
 	<footer id="wb-info">
 		<div class="landscape">
 			<nav class="container wb-navcurr">
