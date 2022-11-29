@@ -52,7 +52,8 @@
 	<main role="main" property="mainContentOfPage">
 		<section class="container">
 			<h1 property="name" id="wb-cont" dir="ltr" class="gc-thickline">Sign in to [Account name]</h1>
-			<p>Use this account to <strong>[do these main user tasks]</strong>.</p>
+			<p>[MANDATORY description of the tasks that people can do from this account - in user's language, just a
+				sentence or two. If there are a LOT, add an expand-collapse with a bulleted list.]</p>
 			<p>[If there is another account that is often confused with this one, add a line here to redirect users, for
 				example: If you are looking
 				to [do x or y], use [this account with link] instead.]</p>
@@ -72,7 +73,7 @@
 			<div class="well well-sm brdr-rds-0">
 				<div class="panel panel-default mrgn-bttm-0 brdr-rds-0">
 					<div class="panel-body">
-						<h2 class="wb-inv">[Name of account] access</h2>
+						<h2 class="wb-inv">[MANDATORY block][Name of account] access</h2>
 						<div class="cnjnctn-type-or cnjnctn-md mrgn-tp-0">
 							<div class="cnjnctn-col">
 								<h3 class="mrgn-tp-sm">Sign in to your account the same way every time</h3>
@@ -154,40 +155,40 @@
 			</div>
 		</section>
 		<section class="container">
-				<h3>Security steps to protect your account</h3>
-				<ul class="lst-spcd list-unstyled">
-					<li>
-						<details>
-							<summary>You need to have an email address on file</summary>
-							<p>All [account name] users will need to have an email address on file to help protect their
-								online accounts from fraudulent activity. If you do not currently have an email address
-								on file, you will be prompted to provide one when you sign in.</p>
-						</details>
-					</li>
-					<li>
-						<details>
-							<summary>More authentication while you sign in</summary>
-							<p>To protect your account from access by someone else, you'll be asked for another personal
-								identification step (like a number that is sent to your phone) after you enter your
-								username and password &nbsp;<a
-									href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/multi-factor-authentication-access-cra-login-services.html">Multi-factor
-									authentication to access CRA sign-in services</a>.</p>
-						</details>
-					</li>
-				</ul>
+			<h3>Security steps to protect your account</h3>
+			<ul class="lst-spcd list-unstyled">
+				<li>
+					<details>
+						<summary>You need to have an email address on file</summary>
+						<p>All [account name] users will need to have an email address on file to help protect their
+							online accounts from fraudulent activity. If you do not currently have an email address
+							on file, you will be prompted to provide one when you sign in.</p>
+					</details>
+				</li>
+				<li>
+					<details>
+						<summary>More authentication while you sign in</summary>
+						<p>To protect your account from access by someone else, you'll be asked for another personal
+							identification step (like a number that is sent to your phone) after you enter your
+							username and password &nbsp;<a
+								href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/multi-factor-authentication-access-cra-login-services.html">Multi-factor
+								authentication to access CRA sign-in services</a>.</p>
+					</details>
+				</li>
+			</ul>
 		</section>
-		<section class="container gc-srvinfo">
-			<h2 class="wb-inv">[OPTIONAL About this account - only for BIG accounts]</h2>
+		<!--	<section class="container gc-srvinfo">
+			<h2 class="wb-inv">[About this account - only for BIG accounts]</h2>
 			<div class="row wb-eqht-grd">
 				<div class="col-sm-6 ">
 					<h3 class="mrgn-tp-0"><a href="#">About this account</a></h3>
-					<p>Why and how to use this account, and what's new in the account.</p>
+					<p>What's new in the account.</p>
 				</div>
 			</div>
-		</section>
+		</section>-->
 		<div class="well brdr-0 brdr-rds-0 mrgn-tp-lg">
 			<section class="container gc-srvinfo">
-				<h2 id="help" class="mrgn-tp-0">Get help with your account</h2>
+				<h2 id="help" class="mrgn-tp-0">[MANDATORY] Get help with your account</h2>
 				<div class="row wb-eqht-grd">
 					<div class="col-sm-6 ">
 						<h3 id="code" class="mrgn-tp-0"><a href="">Get a [security code/registration code]</a></h3>
@@ -196,11 +197,10 @@
 					</div>
 					<div class="col-sm-6">
 						<h3 class="mrgn-tp-0">Forgot your GCKey password or username</h3>
-						<p>First select
-							<a
-								href="https://onlineservices-servicesenligne-cic.fjgc-gccf.gc.ca/mycic/gccf?lang=eng&idp=gckey&svc=/mycic/start">sign-in
-								with GCkey</a></br>
 						<ul>
+							<li>First select
+								<a href="">sign-in with GCkey</a>
+							</li>
 							<li>then select <strong>Forgot your username</strong> or <strong>Forgot
 									your password</strong></li>
 						</ul>
@@ -221,10 +221,10 @@
 						</p>
 					</div>
 					<div class="col-sm-6">
-						<h3 class="mrgn-tp-0">Your GCKey username and password isn't working</h3>
-						<p>Your GCKey username and password will expire if you haven't used it at least once in the last
-							2 years. You'll need to <a href="./register-pattern.html">register for the service</a> again
-							and sign up for a new GCKey or choose a different sign-in option.</p>
+						<h3 class="mrgn-tp-0">Your GCKey username and password are missing, invalid or incomplete</h3>
+						<p>If you haven't used your GCKey username and password at least once in the last
+							2 years, it expired and has been deleted. You'll need to <a href="./register-pattern.html">register for the service</a> again
+							and sign up for a new GCKey or choose a different sign-in option. [NOTE check if this is the same for all services?]</p>
 					</div>
 					<div class="col-sm-6">
 						<h3 class="mrgn-tp-0">Your browser shows an error message</h3>
