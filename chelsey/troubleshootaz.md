@@ -1,28 +1,4 @@
 
-
-
-<!DOCTYPE HTML>
-<html lang="en" dir="ltr">
-    <head>
-        <!-- Google tag (gtag.js) --> 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NRQEV4E62G"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-NRQEV4E62G'); </script>
-         <script src="//assets.adobedtm.com/be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js"></script>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta charset="utf-8" /><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" /><meta name="dcterms.title"  content="A to Z tools and guides" />
-<meta name="dcterms.description"  content="" />
-<meta name="description"  content="" />
-<meta name="keywords"  content="a to z, a-z, a-z index, tools, guides, lac, help, research, resources, military, newspapers, genealogy, subject guide, mircorform, database" />
-<meta name="author"  content="Library and Archives Canada" />
-<meta name="dcterms.creator"  content="Library and Archives Canada" />
-<meta name="dcterms.service"  content="BAC-LAC" />
-<meta name="dcterms.accessRights"  content="2" />
-<meta name="dcterms.language" title="ISO639-2" content="eng" />
-<meta name="dcterms.subject" title="gccore" content="" />
-<meta name="dcterms.issued" title="W3CDTF" content="2022-08-05" />
-<meta name="dcterms.modified" title="W3CDTF" content="2022-11-16" />
-
-
-        <!-- ===== STARTER: Favicon / Windows Tile ======================================================================================== -->
-        <link rel="shortcut icon" href="/_layouts/15/GCWeb/assets/favicon.ico" type="image/vnd.microsoft.icon" id="favicon" /><title>
 	
 	A to Z tools and guides
 
