@@ -58,6 +58,12 @@ dateModified: 2022-11-15
 
 Yes that is very neat.
 
+<marquee behavior="alternate" scrollamount="1">This...</marquee>
+<marquee behavior="alternate" scrollamount="12">is...</marquee>
+<marquee behavior="alternate" scrollamount="25">Even...</marquee>
+<marquee behavior="alternate" scrollamount="55">BETTER!</marquee>
+
+
 ## This is so cool
 
 Yes, yes it is.
