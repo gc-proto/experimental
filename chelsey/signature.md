@@ -23,7 +23,7 @@ The purpose of the Government of Canada signature is to provide an easily identi
 </figure>
 <h2>On this page</h2>
 <ul>
-  <li>When to use</li>
+  <li><a href="#when-to-use">When to use</a></li>
   <li>What to avoid</li>
   <li>Content and design</li>
   <li>How to implement</li>
