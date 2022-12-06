@@ -17,16 +17,12 @@ dateModified: 2022-12-06
 <p><span class="label label-danger">Mandatory</span></p>
 The Government of Canada signature is prominently featured in the global header on all public-facing websites.
 The purpose of the Government of Canada signature is to provide an easily identifiable corporate identity. This signature also serves as a universal link back to the site’s home page in each language. 
-<figure>
-<figcaption><b>Government of Canada signature</b></figcaption>
-<img class="img-border" src="https://design.canada.ca/images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
-</figure>
 <h2>On this page</h2>
 <ul>
   <li><a href="#when-use">When to use</a></li>
   <li><a href="#what-avoid">What to avoid</a></li>
   <li><a href="#content-design">Content and design</a></li>
-  <li>How to implement</li>
+  <li><a href="#implement">How to implement</a></li>
   <li><a href="#changes">Latest changes</a></li>
 </ul>
 <h2 id="when-use">When to use</h2>
@@ -55,6 +51,24 @@ Design specifications for this signature are:
   <li>Text size: ??</li>
   <li>Font: Helvetica (bold/regular/medium?)</li>
  </ul>
+ <h3>Visual examples</h3>
+<figure>
+<figcaption><b>Government of Canada signature</b></figcaption>
+  <p></p>
+<img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada signature">
+<img class="img-border" src="https://design.canada.ca/images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
+ <details>
+      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+      <p>The Government of Canada signature in the top left. It is composed of the flag symbol in red, followed by the words Government of Canada in English and then Gouvernment du Canada in French, both in black text.</p>
+    </details>
+</figure>
+<h2 id="implement">How to implement</h2>
+Use the code below in the header section of your page. 
+<pre>
+"(a href="https://www.canada.ca")
+(img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" 
+alt="Government of Canada signature")(/a)"
+</pre>
 <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
