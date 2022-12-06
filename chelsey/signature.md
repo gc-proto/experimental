@@ -5,7 +5,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 layout: default
 lang: en
-title: Signature prototype
+title: Government of Canada signature
 share: True
 breadcrumbs:
 - title: Canada.ca design system
@@ -13,8 +13,7 @@ breadcrumbs:
 description: The GoC signature in the new content pattern
 en: GoC signature 
 dateModified: 2022-12-06
----
-<h1>Government of Canada signature</h1> 
+--- 
 <p><span class="label label-danger">Mandatory</span></p>
 The Government of Canada signature is prominently featured in the global header on all public-facing websites.
 The purpose of the Government of Canada signature is to provide an easily identifiable corporate identity. This signature also serves as a universal link back to the site’s home page in each language. 
@@ -40,7 +39,23 @@ If you have the global header applied to the page, do not also apply this patter
 Find content and design specifications and visual examples.
 <h3>Content specifications</h3>
 <ul>
-  <li>The signature appears in the upper left corner of the header.</li> 
-  <li>The signature must appear as English first on English pages and French first on French pages.</li>
+<li>The Government of Canada signature appears in the upper-left corner of the page
+•	The image is presented as an image file and must be formatted according to Federal Identity Program design specifications
+•	The image is provided as a Scalable Vector Graphics (SVG) file, configured to scale automatically according to screen size
+•	The image is hyperlinked to the Canada.ca home page in the appropriate official language
+•	The signature must appear as English first on English pages and French first on French pages.  
+
 </ul>  
+<h4>Content interactions</h4>
+<ul>
+  <li>When clicked, the signature brings the user to the homepage of Canada.ca.</li>
+ </ul>
+ <h3>Design specifications</h3>
+Design specifications for this signature are:
+<ul>
+  <li>Flag symbol colour: FIP red (#eb4837)</li>
+  <li>Text colour: black (#000000)</li>
+  <li>Text size: ??</li>
+  <li>Font: Helvetica (bold/regular/medium?)</li>
+ </ul>
 
