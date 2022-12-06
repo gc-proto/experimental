@@ -21,7 +21,7 @@ dateModified: 2022-11-15
 		<div>
 			<img class="img-responsive full-width" src="https://www.pc.gc.ca/index.aspx/?asset=3156-ig-18238337467016719" alt="trees">
 			<div class="well header-rwd pstn-tp-sm mrgn-tp-lg mrgn-bttm-md">
-				<h4 class="mrgn-tp-md">Heading</h4>
+				<h4 class="mrgn-tp-md">All the trees you could ever code</h4>
 				<p>A place to design a beautiful world</p>
 			</div>
 		</div>
