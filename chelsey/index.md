@@ -8,7 +8,7 @@ lang: en
 title: Testing out GitHub
 share: True
 breadcrumbs:
-- title: Accessibility
+- title: Trees on the web
   link: https://prycrane.github.io/experimental/prycrane/accessibility/
 description: A place for me to try out code
 en: Index of mockups for accessibility requirements. 
