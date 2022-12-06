@@ -10,7 +10,7 @@ share: True
 breadcrumbs:
 - title: Accessibility
   link: https://prycrane.github.io/experimental/prycrane/accessibility/
-description: 
+description: A place for me to try out code
 en: Index of mockups for accessibility requirements. 
 dateModified: 2022-11-15
 ---
