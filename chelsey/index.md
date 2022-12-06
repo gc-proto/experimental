@@ -5,16 +5,16 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 layout: default
 lang: en
-title: Testing out GitHub: Chelsey's space
+title: Testing out GitHub
 share: True
 breadcrumbs:
-- title: Accessibility
+- title: Trees on the web
   link: https://prycrane.github.io/experimental/prycrane/accessibility/
-description: 
+description: A place for me to try out code
 en: Index of mockups for accessibility requirements. 
 dateModified: 2022-11-15
 ---
-<p>Hello world!</p>
+# Chelsey’s test
 <div class="row">
 	<div class="col-xs-12">
 		<div>
@@ -73,6 +73,19 @@ Yes that is very neat.
 <marquee behavior="alternate" scrollamount="55">BETTER!</marquee>
 
 
-## This is so cool
+## Birthdays of note
 
-Yes, yes it is.
+<div id="calendar1"></div>
+
+<div class="wb-calevt" data-calevt-src="calendar1">
+	<ul>
+		<li>
+			<section>
+				<h4><a href="https://www.canada.gc.ca">Single-Day Event</a></h4>
+				<p><time datetime="2023-01-26">January 26, 1987</time></p>
+				<p>Chelsey's birthday</p>
+			</section>
+		</li>
+		
+	</ul>
+</div>
