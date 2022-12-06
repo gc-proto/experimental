@@ -62,6 +62,9 @@ Design specifications for this signature are:
 </figure>
 <h2 id="implement">How to implement</h2>
 Insert text here. 
+<pre>
+<img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada signature">
+</pre>
 <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
