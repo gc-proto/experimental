@@ -27,7 +27,7 @@ The purpose of the Government of Canada signature is to provide an easily identi
   <li><a href="#what-avoid">What to avoid</a></li>
   <li><a href="#content-design">Content and design</a></li>
   <li>How to implement</li>
-  <li><a href="#changes">Latest changes</li>
+  <li><a href="#changes">Latest changes</a></li>
 </ul>
 <h2 id="when-use">When to use</h2>
 The Government of Canada signature is mandatory on all pages. 
