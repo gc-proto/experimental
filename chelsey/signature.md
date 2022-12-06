@@ -57,4 +57,10 @@ Design specifications for this signature are:
   <li>Text size: ??</li>
   <li>Font: Helvetica (bold/regular/medium?)</li>
  </ul>
-
+<h2 id="changes">Latest changes</h2>
+<dl class="dl-horizontal">
+  <dt>
+    <time datetime="2022-12-06" class="link-muted">2022-12-06</time>
+  </dt>
+  <dd>Updated content to fit within the new design template.</dd>
+</dl>
