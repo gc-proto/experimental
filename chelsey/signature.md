@@ -23,19 +23,17 @@ The purpose of the Government of Canada signature is to provide an easily identi
 </figure>
 <h2>On this page</h2>
 <ul>
-  <li><a href="#when-to-use">When to use</a></li>
-  <li><a href="#what-to-avoid">What to avoid</a></li>
-  <li><a href="#content-and-design">Content and design</a></li>
+  <li><a href="#when-use">When to use</a></li>
+  <li><a href="#what-avoid">What to avoid</a></li>
+  <li><a href="#content-design">Content and design</a></li>
   <li>How to implement</li>
-  <li>Research and rationale</li> 
-  <li>Latest changes</li>
-  <li>Discussion</li>
+  <li><a href="#changes">Latest changes</li>
 </ul>
-<h2>When to use</h2>
+<h2 id="when-use">When to use</h2>
 The Government of Canada signature is mandatory on all pages. 
-<h2>What to avoid</h2>
+<h2 id="what-avoid">What to avoid</h2>
 If you have the global header applied to the page, do not also apply this pattern. The global header incorporates the Government of Canada signature requirements. 
-<h2>Content and design</h2>
+<h2 id="content-design">Content and design</h2>
 Find content and design specifications and visual examples.
 <h3>Content specifications</h3>
 <ul>
