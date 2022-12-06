@@ -54,6 +54,7 @@ Design specifications for this signature are:
  <h3>Visual examples</h3>
 <figure>
 <figcaption><b>Government of Canada signature</b></figcaption>
+  <p></p>
 <img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada signature">
 <img class="img-border" src="https://design.canada.ca/images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
  <details>
