@@ -45,7 +45,7 @@ Find content and design specifications and visual examples.
 </ul>  
 <h4>Content interactions</h4>
 <ul>
-  <li>When clicked, the signature brings the user to the homepage of Canada.ca.</li>
+  <li>When clicked, the signature brings the user to the homepage of Canada.ca</li>
  </ul>
  <h3>Design specifications</h3>
 Design specifications for this signature are:
