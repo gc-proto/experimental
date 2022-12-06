@@ -22,7 +22,7 @@ The purpose of the Government of Canada signature is to provide an easily identi
   <li><a href="#when-use">When to use</a></li>
   <li><a href="#what-avoid">What to avoid</a></li>
   <li><a href="#content-design">Content and design</a></li>
-  <li>How to implement</li>
+  <li><a href="#implement">How to implement</a></li>
   <li><a href="#changes">Latest changes</a></li>
 </ul>
 <h2 id="when-use">When to use</h2>
@@ -57,9 +57,11 @@ Design specifications for this signature are:
 <img class="img-border" src="https://design.canada.ca/images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
  <details>
       <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p>The global header has the Government of Canada signature in the top left. Under the signature is the theme and topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the language toggle is the site search box. </p>
+      <p>The Government of Canada signature in the top left. It is composed of the flag symbol in red, followed by the words Government of Canada in English and then Gouvernment du Canada in French, both in black text.</p>
     </details>
-</figure> 
+</figure>
+<h2 id="implement">How to implement</h2>
+Insert text here. 
 <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
