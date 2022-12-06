@@ -39,12 +39,11 @@ If you have the global header applied to the page, do not also apply this patter
 Find content and design specifications and visual examples.
 <h3>Content specifications</h3>
 <ul>
-<li>The Government of Canada signature appears in the upper-left corner of the page
-•	The image is presented as an image file and must be formatted according to Federal Identity Program design specifications
-•	The image is provided as a Scalable Vector Graphics (SVG) file, configured to scale automatically according to screen size
-•	The image is hyperlinked to the Canada.ca home page in the appropriate official language
-•	The signature must appear as English first on English pages and French first on French pages.  
-
+  <li>The Government of Canada signature appears in the upper-left corner of the page</li>
+<li>The image is presented as an image file and must be formatted according to Federal Identity Program design specifications</li>
+<li>The image is provided as a Scalable Vector Graphics (SVG) file, configured to scale automatically according to screen size</li>
+  <li>The image is hyperlinked to the Canada.ca home page in the appropriate official language</li>
+<li>The signature must appear as English first on English pages and French first on French pages</li>
 </ul>  
 <h4>Content interactions</h4>
 <ul>
