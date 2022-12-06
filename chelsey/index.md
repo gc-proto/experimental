@@ -5,7 +5,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 layout: default
 lang: en
-title: Testing out GitHub
+title: Testing out GitHub: Chelsey's space
 share: True
 breadcrumbs:
 - title: Accessibility
@@ -15,7 +15,6 @@ en: Index of mockups for accessibility requirements.
 dateModified: 2022-11-15
 ---
 <p>Hello world!</p>
-# Chelsey’s test
 <div class="row">
 	<div class="col-xs-12">
 		<div>
@@ -32,7 +31,7 @@ dateModified: 2022-11-15
  height: 50px;	
  overflow: hidden;
  position: relative;
- background: pink;
+ background: green;
  color: white;
  border: 1px solid orange;
 }
