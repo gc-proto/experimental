@@ -61,8 +61,9 @@ Design specifications for this signature are:
     </details>
 </figure>
 <h2 id="implement">How to implement</h2>
-Insert text here. 
+Use the code below in the header section of your page. 
 <pre>
+"(a href="https://www.canada.ca")(img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada signature")(/a)"
 <img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada signature">
 </pre>
 <h2 id="changes">Latest changes</h2>
