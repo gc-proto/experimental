@@ -73,6 +73,25 @@ Yes that is very neat.
 <marquee behavior="alternate" scrollamount="55">BETTER!</marquee>
 
 
-## This is so cool
+## Birthdays of note
 
-Yes, yes it is.
+<div id="calendar1"></div>
+
+<div class="wb-calevt" data-calevt-src="calendar1">
+	<ul>
+		<li>
+			<section>
+				<h4><a href="https://www.canada.gc.ca">Single-Day Event</a></h4>
+				<p><time datetime="2023-01-26">January 26, 1987</time></p>
+				<p>Chelsey's birthday</p>
+			</section>
+		</li>
+		<li>
+			<section>
+				<h4><a href="https://www.canada.gc.ca">Multi-Day Event</a></h4>
+				<p><time datetime="2011-03-11">March 11, 2023</time> to <time datetime="2011-04-26">April 26th, 2011</time></p>
+				<p>Chance's birthday</p>
+			</section>
+		</li>
+	</ul>
+</div>
