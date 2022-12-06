@@ -17,10 +17,6 @@ dateModified: 2022-12-06
 <p><span class="label label-danger">Mandatory</span></p>
 The Government of Canada signature is prominently featured in the global header on all public-facing websites.
 The purpose of the Government of Canada signature is to provide an easily identifiable corporate identity. This signature also serves as a universal link back to the site’s home page in each language. 
-<figure>
-<figcaption><b>Government of Canada signature</b></figcaption>
-<img class="img-border" src="https://design.canada.ca/images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
-</figure>
 <h2>On this page</h2>
 <ul>
   <li><a href="#when-use">When to use</a></li>
@@ -55,6 +51,15 @@ Design specifications for this signature are:
   <li>Text size: ??</li>
   <li>Font: Helvetica (bold/regular/medium?)</li>
  </ul>
+ <h3>Visual examples</h3>
+<figure>
+<figcaption><b>Government of Canada signature</b></figcaption>
+<img class="img-border" src="https://design.canada.ca/images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
+ <details>
+      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+      <p>The global header has the Government of Canada signature in the top left. Under the signature is the theme and topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the language toggle is the site search box. </p>
+    </details>
+</figure> 
 <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
