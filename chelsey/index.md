@@ -5,7 +5,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 layout: default
 lang: en
-title: Testing out GitHub: Chelsey's space
+title: Testing out GitHub
 share: True
 breadcrumbs:
 - title: Accessibility
