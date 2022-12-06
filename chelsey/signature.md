@@ -15,10 +15,10 @@ en: GoC signature
 dateModified: 2022-12-06
 ---
 #Government of Canada signature 
-<p>Mandatory <span class="label label-danger">(Label info)</span></p>
+<p><span class="label label-danger">Mandatory</span></p>
 The Government of Canada signature is prominently featured in the global header on all public-facing websites.
 The purpose of the Government of Canada signature is to provide an easily identifiable corporate identity. This signature also serves as a universal link back to the site’s home page in each language. 
 <figure>
 <figcaption><b>Government of Canada signature</b></figcaption>
-<img class="img-border" src="../images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
+<img class="img-border" src="https://design.canada.ca/images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
 </figure>
