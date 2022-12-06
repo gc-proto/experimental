@@ -54,17 +54,19 @@ Design specifications for this signature are:
  <h3>Visual examples</h3>
 <figure>
 <figcaption><b>Government of Canada signature</b></figcaption>
+<img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada signature">
 <img class="img-border" src="https://design.canada.ca/images/sig-en.png" alt="Government of Canada signature at the top left of the Canada.ca standard page design">
  <details>
       <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p>The Government of Canada signature in the top left. It is composed of the flag symbol in red, followed by the words Government of Canada in English and then Gouvernment du Canada in French, both in black text.</p>
     </details>
 </figure>
-<img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada signature">
 <h2 id="implement">How to implement</h2>
 Use the code below in the header section of your page. 
 <pre>
-"(a href="https://www.canada.ca")(img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada signature")(/a)"
+"(a href="https://www.canada.ca")
+(img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" 
+alt="Government of Canada signature")(/a)"
 </pre>
 <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
