@@ -61,9 +61,8 @@ Design specifications for this signature are:
 <h2 id="implement">How to implement</h2>
 <p>Use the code below in the header section of your page.</p>
 <span class="wb-prettify"></span>
-<code><pre><p>Hi Cheslsey!</p>
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
+<code><p>Hi Cheslsey!</p>
+
 	&lt;head&gt;
 		&lt;title&gt;Codebeautify.org Text to HTML Converter&lt;/title&gt;
 	&lt;/head&gt;
@@ -76,8 +75,8 @@ Design specifications for this signature are:
 				&lt;/div&gt;
 			&lt;/p&gt;
 		&lt;/body&gt;
-	&lt;/html&gt;
-<!--<div id=&quot;header&quot;>  <a href=&quot;https://www.canada.ca/en.html&quot; title=&quot;Canada.ca hompepage&quot;><img src=&quot;https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg&quot; alt=&quot;Government of Canada&quot;></a>  </div>--></pre>
+
+<!--<div id=&quot;header&quot;>  <a href=&quot;https://www.canada.ca/en.html&quot; title=&quot;Canada.ca hompepage&quot;><img src=&quot;https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg&quot; alt=&quot;Government of Canada&quot;></a>  </div>-->
 </code>
   <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
