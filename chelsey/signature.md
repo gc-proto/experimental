@@ -65,9 +65,8 @@ Design specifications for this signature are:
 &lt;div id=&quot;header&quot;&gt;
    &lt;a href=&quot;https://www.canada.ca/en.html&quot; title=&quot;Canada.ca hompepage&quot;&gt;
    &lt;img src=&quot;https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg&quot; alt=&quot;Government of Canada&quot;&gt;&lt;/a&gt;
-&lt;/div&gt;	
-<!--<div id=&quot;header&quot;>  <a href=&quot;https://www.canada.ca/en.html&quot; title=&quot;Canada.ca hompepage&quot;><img src=&quot;https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg&quot; alt=&quot;Government of Canada&quot;></a></div>-->
-  </pre></code>
+&lt;/div&gt;
+</pre></code>
   <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
