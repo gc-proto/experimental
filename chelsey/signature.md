@@ -50,8 +50,6 @@ Design specifications for this signature are:
 <ul>
   <li>Flag symbol colour: FIP red (#eb4837)</li>
   <li>Text colour: black (#000000)</li>
-  <li>Text size: ??</li>
-  <li>Font: Helvetica (bold/regular/medium?)</li>
  </ul>
  <h3>Visual examples</h3>
  <p><img class="img-border" src="https://canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada signature"></p>
