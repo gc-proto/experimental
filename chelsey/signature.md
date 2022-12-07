@@ -59,10 +59,8 @@ Design specifications for this signature are:
       <p>The Government of Canada signature in the top left. It is composed of the flag symbol in red, followed by the words Government of Canada in English and Gouvernment du Canada in French, both in black text.</p>
     </details>
 <h2 id="implement">How to implement</h2>
-Use the code below in the header section of your page. 
-<pre>
+<p>Use the code below in the header section of your page.</p>
 <code><div id="header"><a href="https://www.canada.ca/en.html" title="Canada.ca hompepage"><img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada"></a></code>
-</pre>
 <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
