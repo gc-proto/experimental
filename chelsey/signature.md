@@ -60,7 +60,7 @@ Design specifications for this signature are:
     </details>
 <h2 id="implement">How to implement</h2>
 <p>Use the code below in the header section of your page.</p>
-<span class="wb-prettify"></span>
+<!--<span class="wb-prettify"></span>-->
   <code><pre>
 &lt;div id=&quot;header&quot;&gt;
    &lt;a href=&quot;https://www.canada.ca/en.html&quot; title=&quot;Canada.ca hompepage&quot;&gt;
