@@ -86,6 +86,5 @@ Yes that is very neat.
 				<p>Chelsey's birthday</p>
 			</section>
 		</li>
-		
 	</ul>
 </div>
