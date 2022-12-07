@@ -61,14 +61,12 @@ Design specifications for this signature are:
 <h2 id="implement">How to implement</h2>
 <p>Use the code below in the header section of your page.</p>
 <span class="wb-prettify"></span>
-<div class="col-md-8">
   <code><pre>
 &lt;div id=&quot;header&quot;&gt;
    &lt;a href=&quot;https://www.canada.ca/en.html&quot; title=&quot;Canada.ca hompepage&quot;&gt;
    &lt;img src=&quot;https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg&quot; alt=&quot;Government of Canada&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 </pre></code>
-</div>
   <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
