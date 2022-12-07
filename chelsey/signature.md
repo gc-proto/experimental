@@ -60,6 +60,7 @@ Design specifications for this signature are:
     </details>
 <h2 id="implement">How to implement</h2>
 <p>Use the code below in the header section of your page.</p>
+<span class="wb-prettify"></span>
 <code>
   <div id="header">
     <a href="https://www.canada.ca/en.html" title="Canada.ca hompepage"><img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada"></a>
