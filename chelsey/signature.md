@@ -63,10 +63,6 @@ Design specifications for this signature are:
 <span class="wb-prettify"></span>
 <code><p>Hi Cheslsey!</p>
 
-	&lt;head&gt;
-		&lt;title&gt;Codebeautify.org Text to HTML Converter&lt;/title&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
 		&lt;p&gt;
 			&lt;div id=&quot;header&quot;&gt;
 				&lt;a href=&quot;https://www.canada.ca/en.html&quot; title=&quot;Canada.ca hompepage&quot;&gt;
@@ -74,7 +70,6 @@ Design specifications for this signature are:
 					&lt;/a&gt;
 				&lt;/div&gt;
 			&lt;/p&gt;
-		&lt;/body&gt;
 
 <!--<div id=&quot;header&quot;>  <a href=&quot;https://www.canada.ca/en.html&quot; title=&quot;Canada.ca hompepage&quot;><img src=&quot;https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg&quot; alt=&quot;Government of Canada&quot;></a>  </div>-->
 </code>
