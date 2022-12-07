@@ -60,8 +60,12 @@ Design specifications for this signature are:
     </details>
 <h2 id="implement">How to implement</h2>
 <p>Use the code below in the header section of your page.</p>
-<code><div id="header"><a href="https://www.canada.ca/en.html" title="Canada.ca hompepage"><img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada"></a></code>
-<h2 id="changes">Latest changes</h2>
+<code>
+  <div id="header">
+    <a href="https://www.canada.ca/en.html" title="Canada.ca hompepage"><img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada"></a>
+  </div>
+</code>
+  <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
     <time datetime="2022-12-06" class="link-muted">2022-12-06</time>
