@@ -62,8 +62,8 @@ Design specifications for this signature are:
 <p>Use the code below in the header section of your page.</p>
 <span class="wb-prettify"></span>
 <code><pre><p>Hi Cheslsey!</p>
- <div id="header">
-    <a href="https://www.canada.ca/en.html" title="Canada.ca hompepage"><img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.jpg" alt="Government of Canada"></a>
+ <div id="headera">
+    <a href="https://www.canada.ca/en.html" title="Canada.ca hompepage"><img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada"></a>
   </div></pre>
 </code>
   <h2 id="changes">Latest changes</h2>
