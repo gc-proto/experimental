@@ -25,6 +25,7 @@ The purpose of the Government of Canada signature is to provide an easily identi
   <li><a href="#what-avoid">What to avoid</a></li>
   <li><a href="#content-design">Content and design</a></li>
   <li><a href="#implement">How to implement</a></li>
+  <li><a href="#research">Research and rationale</a></li>
   <li><a href="#changes">Latest changes</a></li>
 </ul>
 <h2 id="when-use">When to use</h2>
@@ -67,10 +68,25 @@ Design specifications for this signature are:
    &lt;img src=&quot;https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg&quot; alt=&quot;Government of Canada&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 </pre></code>
-  <h2 id="changes">Latest changes</h2>
+<h2 id="research">Research and rationale</h2>
+<h3>Research findings</h3>
+<p><a href="https://blog.canada.ca/2020/08/10/canadadotca-trusted-source"> Canada.ca is a trusted source:</a> The Canada.ca design allows users to easily identify Government of Canada web pages. This means users can immediately see that what they are looking at comes from a trusted source.</p>
+<h3>Policy rationale</h3>
+<ul>
+  <li><a href='https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/design-standard/colour-design-standard-fip.html'>Design Standard for the Federal Identity Program</a></li>
+  <li><a href='https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html#header-footer'>Mandatory elements of the design system</a></li>
+</ul>         
+<h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
     <time datetime="2022-12-06" class="link-muted">2022-12-06</time>
   </dt>
   <dd>Updated content to fit within the new design template.</dd>
 </dl>
+
+<h2>Discussion</h2>
+<ul>
+  <li><a href='https://github.com/canada-ca/design-system-systeme-conception/issues'>Discuss the pattern in github issues</a></li>
+  <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
+  <li>Send an email to the Digital Transformation Office  <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></li>
+</ul>
