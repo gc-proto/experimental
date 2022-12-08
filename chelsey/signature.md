@@ -67,6 +67,7 @@ Design specifications for this signature are:
    &lt;img src=&quot;https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg&quot; alt=&quot;Government of Canada&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 </pre></code>
+<h2 id="research">Research and rationale</h2>
   <h2 id="changes">Latest changes</h2>
 <dl class="dl-horizontal">
   <dt>
@@ -74,3 +75,11 @@ Design specifications for this signature are:
   </dt>
   <dd>Updated content to fit within the new design template.</dd>
 </dl>
+
+<h2>Discussion</h2>
+<ul>
+  <li><a href='https://github.com/canada-ca/design-system-systeme-conception/issues'>Discuss the pattern in github issues</a></li>
+  <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
+  <li><a href="https://wet-boew.github.io/GCWeb/sites/authentication/authentication-en.html">GCWeb (WET): Authentication patterns</a></li>
+  <li>Send an email to the Digital Transformation Office dto.btn@tbs-sct.gc.ca</li>
+</ul>
