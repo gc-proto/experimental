@@ -8,11 +8,7 @@
     display: none;
 }
 
-#jobs:focus + #gc-mnu-jobs {
-    display:block;
-}
-
-#jobs:hover + #gc-mnu-jobs {
+#jobs:focus + #gc-mnu-jobs, #jobs:hover + #gc-mnu-jobs {
     display:block;
 }
 
