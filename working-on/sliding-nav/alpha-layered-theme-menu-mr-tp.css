@@ -5,6 +5,11 @@
     padding: 0 0 0 28px;
     border-left: 5px solid #26374a;
     border-top: 0;
+    display: none;
+}
+
+#jobs:focus + #gc-mnu-jobs {
+    display:block;
 }
 
 .most-requested li {
@@ -27,7 +32,7 @@
     width: 50%;
 }
 
-/*  not needed because container with classes col- works already 
+/*  not needed because container with classes col- works already fairly well
 @media screen and (min-width: 1201px) and (max-width: 1440px)  {
     #gc-mnu-jobs {
         width: 816px;
