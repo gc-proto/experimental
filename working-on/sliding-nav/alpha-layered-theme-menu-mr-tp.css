@@ -15,11 +15,15 @@
     list-style-type: disc;
 }
 
+.most-requested .well-sm {
+    margin-left:-25px;
+}
+
 .lst-responsive-2 li {
     width: 50%;
 }
 
-/* 
+/*  not needed because container with classes col- works already 
 @media screen and (min-width: 1201px) and (max-width: 1440px)  {
     #gc-mnu-jobs {
         width: 816px;
