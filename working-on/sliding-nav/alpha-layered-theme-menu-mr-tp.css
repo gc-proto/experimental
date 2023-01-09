@@ -8,3 +8,10 @@
     border-top: 0;
 }
 
+.most-requested h3 {
+    font-size: 1.2em;
+}
+
+.lst-responsive-2 li {
+    width: 50%;
+}
