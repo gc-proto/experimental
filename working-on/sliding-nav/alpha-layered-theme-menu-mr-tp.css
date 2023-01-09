@@ -11,9 +11,17 @@
     font-size: 1.2em;
 }
 
+.most-requested li {
+    font-family: Lato,sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
 .lst-responsive-2 li {
     width: 50%;
 }
+
 
 @media screen and (min-width: 1024px) and (max-width: 1440px)  {
     #gc-mnu-jobs {
