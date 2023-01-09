@@ -16,17 +16,17 @@
 }
 
 @media (min-width: 1200px) {
-    #gc-mnu-job {
+    #gc-mnu-jobs {
         width: 816px;
     }
 }
 @media (min-width: 992px) {
-    #gc-mnu-job {
+    #gc-mnu-jobs {
         width: 970px;
     }
 }
 @media (min-width: 768px) {
-    #gc-mnu-job{
+    #gc-mnu-jobs {
         width: 750px;
     }
 }
