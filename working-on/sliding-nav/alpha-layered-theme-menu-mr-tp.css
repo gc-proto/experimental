@@ -13,7 +13,7 @@
 }
 
 
-/* mobile needs to toggle it on click  - cant work though because I have to use the href field being used by the ajax ...  */
+/* mobile needs to toggle it on click  - cant work though because I have to use the href field being used by the ajax ? ...  */
 /* #jobs:target ~ div a[href="#gc-mnu-jobs"],
 #jobs-2:target ~ div a[href="#gc-mnu-jobs"] {
   display: none;
