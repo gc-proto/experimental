@@ -15,7 +15,7 @@
     width: 50%;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1400px)  {
+@media screen and (min-width: 1024px) and (max-width: 1440px)  {
     #gc-mnu-jobs {
         width: 816px;
     }
