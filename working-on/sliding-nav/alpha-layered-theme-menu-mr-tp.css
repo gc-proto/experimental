@@ -1,7 +1,7 @@
 #gc-mnu-jobs {
     position: relative;
     left: 305px;
-    width: 816px;
+    /* width: 816px; it's supposed to be responsive, this breaks that */
     top: -40px;
     padding: 0 0 0 28px;
     border-left: 5px solid #26374a;
