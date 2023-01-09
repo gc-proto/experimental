@@ -7,9 +7,24 @@
 }
 
 
+/* for desktop  - but it's fine if it can toggle too */
 #jobs:focus + #gc-mnu-jobs, #jobs:hover + #gc-mnu-jobs {
-    display:block;
+    display: block;
 }
+
+
+/* mobile needs to toggle it on click  - cant work though because I have to use the href field being used by the ajax ...  */
+/* #jobs:target ~ div a[href="#gc-mnu-jobs"],
+#jobs-2:target ~ div a[href="#gc-mnu-jobs"] {
+  display: none;
+}
+#showdiv1:target ~ div a[href="#hidediv1"],
+#showdiv2:target ~ div a[href="#hidediv2"] {
+  display: inline-block;
+} */
+
+/* other methods for the toggle CSS involve using a label / input */
+
 
 .most-requested li {
     font-family: Lato,sans-serif;
