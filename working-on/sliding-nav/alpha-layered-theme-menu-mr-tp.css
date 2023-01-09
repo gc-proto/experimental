@@ -1,12 +1,11 @@
 #gc-mnu-jobs {
     position: relative;
-    left: 305px;
-    top: -40px;
     padding: 0 0 0 28px;
     border-left: 5px solid #26374a;
     border-top: 0;
     display: none;
 }
+
 
 #jobs:focus + #gc-mnu-jobs, #jobs:hover + #gc-mnu-jobs {
     display:block;
@@ -30,6 +29,13 @@
 
 .lst-responsive-2 li {
     width: 50%;
+}
+
+@media (min-width: 768px) {
+    #gc-mnu-jobs {
+        left: 305px;
+        top: -40px;
+    }
 }
 
 /*  not needed because container with classes col- works already fairly well
