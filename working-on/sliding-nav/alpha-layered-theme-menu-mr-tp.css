@@ -46,7 +46,7 @@
     width: 50%;
 }
 
-@media (min-width: 991px) {
+@media (min-width: 990px) {
     #gc-mnu-jobs {
         left: 305px;
         top: -40px;
