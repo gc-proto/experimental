@@ -23,17 +23,17 @@
 }
 
 
-@media screen and (min-width: 1024px) and (max-width: 1440px)  {
+@media screen and (min-width: 1025px) and (max-width: 1440px)  {
     #gc-mnu-jobs {
         width: 816px;
     }
 }
-/* @media (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1024px){
     #gc-mnu-jobs {
-        width: 970px;
+        width: 750px;
     }
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     #gc-mnu-jobs {
         width: 750px;
     }
