@@ -66,7 +66,7 @@ title: "Canada.ca design system"
             </section>
          </div>
          <h2>Find guidance</h2>
-         <table class="wb-tables table table-striped " data-wb-tables="{ 'paging&': true, 'info': true  }">
+         <table class="wb-tables table table-striped " data-wb-tables="{ 'paging': true, 'info': true  }">
             <thead>
                <tr>
                   <th>Name</th>
