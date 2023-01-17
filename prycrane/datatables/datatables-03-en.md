@@ -72,10 +72,10 @@ title: "Canada.ca design system"
 				{ "data": "NAME", "className": "" },
 				{ "data": "SOURCE", "className": "" },
 				{ "data": "DESCRIPTION", "className": "" },
-				{ "data": "WHENTOUSE", "className": "" },
-				{ "data": "CATEGORY",  "className": "" },
-				{ "data": "TYPE",  "className": "" },
-				{ "data": "MANDATORY",  "className": "" }								      
+				{ "data": "WHENTOUSE",  "visible": false },
+				{ "data": "CATEGORY",  "visible": false },
+				{ "data": "TYPE",  "visible": false },
+				{ "data": "MANDATORY",  "visible": false }								      
 			]}'>
 <thead>
 <tr>
