@@ -1,0 +1,11 @@
+{
+  "data": [{
+    "NAME": "<a href=\"https://design.canada.ca/continuous-improvement/monitoring/feedback.html\">Page feedback tool</a>",
+    "SOURCE": "Source text",
+    "DESCRIPTION": "Description text",
+    "WHENTOUSE": "The feedback tool is an optional pattern to uncover specific page-level issues affecting task performance.",
+    "CATEGORY": "Design pattern",
+    "TYPE": "Interaction",
+    "MANDATORY": "No"
+  }]
+}
