@@ -67,14 +67,15 @@ title: "Canada.ca design system"
 	<table class="wb-tables table table-striped table-hover" id="dataset-filter1" data-wb-tables='{
 			"bDeferRender": true,
 			"order": [5, "desc"],												      ,
-			"ajaxSource": ./ajax/patterns-01-en.json,
+			"ajaxSource": ../ajax/patterns-01-en.json,
 			"columns": [
 				{ "data": "NAME", "className": "" },
 				{ "data": "SOURCE", "className": "" },
 				{ "data": "DESCRIPTION", "className": "" },
 				{ "data": "WHENTOUSE", "className": "" },
 				{ "data": "CATEGORY",  "className": "" },
-				{ "data": "TYPE",  "className": "" }
+				{ "data": "TYPE",  "className": "" },
+				{ "data": "MANDATORY",  "className": "" },								      
 			]}'>
 <thead>
 <tr>
@@ -84,6 +85,7 @@ title: "Canada.ca design system"
 <th>When to use</th>
 <th>Category</th>
 <th>Type</th>
+<th>Mandatory</th>	
 </tr>
 </thead>
 </table>
