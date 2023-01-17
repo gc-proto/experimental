@@ -65,7 +65,8 @@ title: "Canada.ca design system"
          </div>
          <h2>Find guidance</h2>
 	<div class="panel panel-default">
-	<table class="wb-tables table table-striped small mrgn-tp-lg mrgn-bttm-lg" aria-live="polite" id="design" data-page-length="25" data-wb-tables='{
+		<div class="mrgn-tp-lg mrgn-bttm-lg">
+	<table class="wb-tables table table-striped small" aria-live="polite" id="design" data-page-length="25" data-wb-tables='{
 			"bDeferRender": true,
 			"ajaxSource": "./ajax/patterns-01-en.json",
 			"order": [0, "asc"],
@@ -89,8 +90,4 @@ title: "Canada.ca design system"
 <th>Mandatory</th>	
 </tr>
 </thead>
-</table>
-	</div>
-  
-
-  
+</table></div></div>
