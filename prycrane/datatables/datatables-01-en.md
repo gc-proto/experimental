@@ -19,7 +19,7 @@ title: "Canada.ca design system"
 ---
 <h1 property="name" id="wb-cont" dir="ltr">Canada.ca design system</h1>
  <p>Use this design system to provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.</p>
-      <section>
+<section>
          <div class="row">
             <div class="col-md-12">
                <h2></h2>
