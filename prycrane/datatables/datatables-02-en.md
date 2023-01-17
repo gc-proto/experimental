@@ -64,7 +64,7 @@ title: "Canada.ca design system"
             </section>
          </div>
          <h2>Find guidance</h2>
-	<table class="wb-tables table table-striped table-hover" id="dataset-filter1" data-wb-tables='{
+	<table class="wb-tables table table-striped table-hover" id="design" data-wb-tables='{
 			"bDeferRender": true,
 			"ajaxSource": "https://prycrane.github.io/experimental/prycrane/datatables/ajax/patterns-01-en.json",
 			"order": [5, "desc"],
@@ -90,5 +90,28 @@ title: "Canada.ca design system"
 </thead>
 </table>
   
-  
+  <div class="col-md-9 small">
+        <table class="wb-tables table table-striped" id="dataset-filter" aria-live="polite" data-wb-tables="{
+			&quot;iDisplayLength&quot;: 100,
+                        &quot;bDeferRender&quot;: true,
+			&quot;ajaxSource&quot;: &quot;https://design.canada.ca/ajax/patterns.json&quot;,
+			&quot;order&quot;: [0, &quot;asc&quot;],
+			&quot;columns&quot;: [
+				{ &quot;data&quot;: &quot;NAME&quot;, &quot;className&quot;: &quot;nws-tbl-name h4&quot; },
+				{ &quot;data&quot;: &quot;USE&quot;, &quot;className&quot;: &quot;nws-tbl-use&quot; },
+				{ &quot;data&quot;: &quot;CAT&quot;, &quot;className&quot;: &quot;nws-tbl-cat&quot; },
+				{ &quot;data&quot;: &quot;TYPE&quot;, &quot;className&quot;: &quot;nws-tbl-type&quot; },
+				{ &quot;data&quot;: &quot;MANDATORY&quot;, &quot;visible&quot;: false }
+			]}">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>When to use this pattern</th>
+              <th>Category</th>
+              <th>Type</th>
+              <th>Mandatory</th>
+            </tr>
+          </thead>
+        </table>
+      </div> 
   
