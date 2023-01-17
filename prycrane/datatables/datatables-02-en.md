@@ -67,7 +67,7 @@ title: "Canada.ca design system"
 	<table class="wb-tables table table-striped table-hover" id="dataset-filter1" data-wb-tables='{
 			"bDeferRender": true,
 			"order": [5, "desc"],												      ,
-			"ajaxSource": "../ajax/patterns-01-en.json",
+			"ajaxSource": "./ajax/patterns-01-en.json",
 			"columns": [
 				{ "data": "NAME", "className": "" },
 				{ "data": "SOURCE", "className": "" },
