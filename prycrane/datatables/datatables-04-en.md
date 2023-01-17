@@ -114,7 +114,6 @@ title: "Canada.ca design system"
           </form>
         </details>
       </div>
-	
 	<div class="panel panel-default">
 		<div class="mrgn-tp-md mrgn-bttm-md">
 			<table class="wb-tables table table-striped small" aria-live="polite" id="design" data-page-length="100" data-wb-tables='{
