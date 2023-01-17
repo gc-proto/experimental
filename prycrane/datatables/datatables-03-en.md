@@ -81,9 +81,9 @@ title: "Canada.ca design system"
 			]}'>
 <thead>
 <tr>
-<th>Name</th>
-<th>Source</th>
-<th>Description</th>
+<th class="col-md-03">Name</th>
+<th class="col-md-03">Source</th>
+<th class="col-md-06">Description</th>
 <th>When to use</th>
 <th>Category</th>
 <th>Type</th>
