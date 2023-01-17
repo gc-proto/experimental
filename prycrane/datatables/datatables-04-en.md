@@ -128,7 +128,8 @@ title: "Canada.ca design system"
 				{ "data": "WHENTOUSE", "className": "" },
 				{ "data": "CATEGORY", "className": "" },
 				{ "data": "TYPE", "className": "" },
-				{ "data": "MANDATORY",  "visible": false }								      
+				{ "data": "MANDATORY",  "visible": false },
+				{ "data": "TANDP",  "visible": false }
 			]}'>
 <thead>
 <tr>
@@ -138,7 +139,8 @@ title: "Canada.ca design system"
 <th class="col-md-05">When to use this pattern</th>
 <th class="col-md-02">Category</th>
 <th class="col-md-02">Type</th>
-<th>Mandatory</th>	
+<th>Mandatory</th>
+<th>Tempalates and patterns</th>
 </tr>
 </thead>
 </table></div></div>
