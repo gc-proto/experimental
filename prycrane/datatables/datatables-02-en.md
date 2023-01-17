@@ -66,7 +66,7 @@ title: "Canada.ca design system"
          <h2>Find guidance</h2>
 	<table class="wb-tables table table-striped small" aria-live="polite" id="design" data-wb-tables='{
 			"bDeferRender": true,
-			"ajaxSource": "../ajax/patterns-01-en.json",
+			"ajaxSource": "./ajax/patterns-01-en.json",
 			"order": [5, "desc"],
 			"columns": [
 				{ "data": "NAME", "className": "" },
