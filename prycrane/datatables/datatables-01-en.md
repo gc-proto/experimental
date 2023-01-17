@@ -19,7 +19,7 @@ pageclass: cnt-wdth-lmtd
 title: "Canada.ca design system"
 ---
 <h1 property="name" id="wb-cont" dir="ltr">Canada.ca design system</h1>
-   <p>Use this design system to provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.</p
+   <p>Use this design system to provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.</p>
 <section>
          <div class="row">
             <div class="col-md-12">
@@ -67,7 +67,7 @@ title: "Canada.ca design system"
             </section>
          </div>
          <h2>Find guidance</h2>
-         <table class="wb-tables table table-striped " data-wb-tables="{ 'paging': true, 'info': true  }">
+         <table class="wb-tables table table-striped" data-wb-tables='{"paging": true, "info": true  }'> 
             <thead>
                <tr>
                   <th>Name</th>
