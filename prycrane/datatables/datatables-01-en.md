@@ -22,9 +22,6 @@ title: "Canada.ca design system"
    <p>Use this design system to provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.</p>
 <section>
          <div class="row">
-            <div class="col-md-12">
-               <h2></h2>
-            </div>
             <section class="wb-eqht gc-drmt">
                <div class="col-md-4">
                   <section>
