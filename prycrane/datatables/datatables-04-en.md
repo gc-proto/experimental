@@ -71,7 +71,6 @@ title: "Canada.ca design system"
           <summary class="btn btn-primary">Filter options</summary>
           <p class="mrgn-tp-md">Use these filters to find templates and patterns.</p>
           <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="design">
-	  <input type="hidden" id="tandp" name="tandp" value="1" data-column="7">
             <div class="row">
               <div class="form-group">
                 <label for="dt_cat">Pattern, template or style</label>
