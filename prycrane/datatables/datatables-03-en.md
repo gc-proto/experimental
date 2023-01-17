@@ -84,7 +84,7 @@ title: "Canada.ca design system"
 <th class="col-md-03">Name</th>
 <th class="col-md-03">Source</th>
 <th class="col-md-06">Description</th>
-<th>When to use</th>
+<th>When to use this pattern</th>
 <th>Category</th>
 <th>Type</th>
 <th>Mandatory</th>	
