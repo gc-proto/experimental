@@ -75,7 +75,7 @@ title: "Canada.ca design system"
 				{ "data": "WHENTOUSE", "className": "" },
 				{ "data": "CATEGORY",  "className": "" },
 				{ "data": "TYPE",  "className": "" },
-				{ "data": "MANDATORY",  "className": "" },								      
+				{ "data": "MANDATORY",  "className": "" }								      
 			]}'>
 <thead>
 <tr>
