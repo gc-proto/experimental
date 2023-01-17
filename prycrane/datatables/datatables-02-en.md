@@ -64,8 +64,8 @@ title: "Canada.ca design system"
             </section>
          </div>
          <h2>Find guidance</h2>
-  
-  <table class="wb-tables table table-striped table-hover" id="dataset-filter1" data-wb-tables='{
+	
+	<table class="wb-tables table table-striped table-hover" id="dataset-filter1" data-wb-tables='{
 			"bDeferRender": true,
 			"order": [5, "desc"],
 			"columns": [
