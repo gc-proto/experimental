@@ -64,7 +64,7 @@ title: "Canada.ca design system"
             </section>
          </div>
          <h2>Find guidance</h2>
-	<table class="wb-tables table table-striped table-hover" id="design" data-wb-tables='{
+	<table class="wb-tables table table-striped" aria-live="polite" id="design" data-wb-tables='{
 			"bDeferRender": true,
 			"ajaxSource": "https://prycrane.github.io/experimental/prycrane/datatables/ajax/patterns-01-en.json",
 			"order": [5, "desc"],
