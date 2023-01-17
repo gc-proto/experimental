@@ -79,7 +79,7 @@ title: "Canada.ca design system"
 <thead>
 <tr>
 <th>Name</th>
-<th>Source/th>
+<th>Source</th>
 <th>Description</th>
 <th>When to use</th>
 <th>Category</th>
@@ -89,7 +89,7 @@ title: "Canada.ca design system"
 <tbody>
 <tr>
 <td>Name</td>
-<td>Source/td>
+<td>Source</td>
 <td>Description</td>
 <td>When to use</td>
 <td>Category</td>
