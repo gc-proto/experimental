@@ -64,7 +64,8 @@ title: "Canada.ca design system"
             </section>
          </div>
          <h2>Find guidance</h2>
-	<table class="wb-tables table table-striped table-bordered small" aria-live="polite" id="design" data-wb-tables='{
+	<div class="panel panel-default">
+	<table class="wb-tables table table-striped small" aria-live="polite" id="design" data-wb-tables='{
 			"bDeferRender": true,
 			"ajaxSource": "./ajax/patterns-01-en.json",
 			"order": [0, "asc"],
@@ -89,6 +90,7 @@ title: "Canada.ca design system"
 </tr>
 </thead>
 </table>
+	</div>
   
 
   
