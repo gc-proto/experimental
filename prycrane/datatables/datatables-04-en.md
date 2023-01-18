@@ -130,7 +130,7 @@ title: "Canada.ca design system"
 				{ "data": "MANDATORY",  "visible": false },
 				{ "data": "TANDP",  "visible": false }
 			]
-	                  '>
+	                  }'>
 <thead>
 <tr>
 <th class="col-md-03">Name</th>
