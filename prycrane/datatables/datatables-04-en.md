@@ -138,7 +138,7 @@ title: "Canada.ca design system"
                                         null,
                                         null, 
                                         null,
-                                        { "sSearch": "1" }]
+                                        { "Search": "1" }]
 	                  '>
 <thead>
 <tr>
