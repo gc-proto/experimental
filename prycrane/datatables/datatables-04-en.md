@@ -129,17 +129,7 @@ title: "Canada.ca design system"
 				{ "data": "TYPE", "className": "" },
 				{ "data": "MANDATORY",  "visible": false },
 				{ "data": "TANDP",  "visible": false, "Search": "1" }
-			],
-			"searchCols": [
-                                        null,
-                                        null,
-                                        null,
-                                        null,
-                                        null,
-                                        null, 
-                                        null,
-                                        { "sSearch": "1" }]																 
-		        }'>
+			]'>
 <thead>
 <tr>
 <th class="col-md-03">Name</th>
