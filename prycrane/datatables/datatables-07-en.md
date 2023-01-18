@@ -114,8 +114,8 @@ title: "Canada.ca design system"
             }'>
             <thead>
                <tr>
-                  <th class="col-md-04">Name</th>
-                  <th class="col-md-03">Source</th>
+                  <th class="col-md-05">Name</th>
+                  <th class="col-md-02">Source</th>
                   <th class="col-md-05">Description</th>
                   <th>When to use this pattern</th>
                   <th>Category</th>
