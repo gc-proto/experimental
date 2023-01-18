@@ -24,7 +24,7 @@ title: "Template and pattern library for Canada.ca"
 <div class="row mrgn-tp-md">
 <div class="col-md-3 small">
    <details open="open">
-      <summary class="bg-primary">Filter options</summary>
+      <summary class="bg-primary text-center">Filter options</summary>
       <p class="mrgn-tp-md">Use these filters to find templates and patterns.</p>
       <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="design">
          <div class="row">
