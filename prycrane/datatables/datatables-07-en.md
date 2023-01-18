@@ -86,7 +86,7 @@ title: "Canada.ca design system"
                <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter">Filter</button>
             </div>
             <div class="col-md-12">
-              <button type="reset" class="btn btn-link">Reset to defaults</button>
+              <button type="reset" class="btn btn-default full-width">Reset to defaults</button>
             </div>
          </div>
       </form>
