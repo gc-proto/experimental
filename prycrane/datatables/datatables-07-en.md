@@ -63,7 +63,7 @@ title: "Canada.ca design system"
     </div>
     <h2 id="guidance">Find guidance</h2>
   <div class="row mrgn-tp-md">
-<div class="col-md-3 small">
+<div class="col-md-2 small">
    <details open="open">
       <summary class="bg-primary text-center">Sources</summary>
       <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="design">
@@ -92,7 +92,7 @@ title: "Canada.ca design system"
       </form>
    </details>
 </div>
-<div class="col-md-9">
+<div class="col-md-10">
    <div class="panel panel-default">
       <div class="mrgn-tp-md mrgn-bttm-md">
          <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="design" data-page-length="25" data-wb-tables='{
