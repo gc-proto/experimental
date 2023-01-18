@@ -65,13 +65,12 @@ title: "Canada.ca design system"
   <div class="row mrgn-tp-md">
 <div class="col-md-3 small">
    <details open="open">
-      <summary class="bg-primary text-center">Filter options</summary>
-      <p class="mrgn-tp-md">Use these filters to find templates and patterns.</p>
+      <summary class="bg-primary text-center">Sources</summary>
       <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="design">
          <div class="row">
             <div class="form-group">
               <fieldset>
-              <legend><span class="field-name">Sources</span></legend>
+              <legend class="wb-inv"><span class="field-name">Sources</span></legend>
               <ul class="list-unstyled">
                 <li class="checkbox"><label for="dt_source1"><input type="checkbox" id="dt_source1" name="dt_source" data-column="1" value=""> All sources</label></li>
                 <li class="checkbox"><label for="dt_source1"><input type="checkbox" id="dt_source1" name="dt_source" data-column="1" value="Blog post"> Blog post</label></li>
