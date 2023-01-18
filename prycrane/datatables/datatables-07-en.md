@@ -72,7 +72,6 @@ title: "Canada.ca design system"
               <fieldset>
               <legend class="wb-inv"><span class="field-name">Sources</span></legend>
               <ul class="list-unstyled">
-                <li class="checkbox"><label for="dt_source1"><input type="checkbox" id="dt_source1" name="dt_source" data-column="1" value=""> All sources</label></li>
                 <li class="checkbox"><label for="dt_source1"><input type="checkbox" id="dt_source1" name="dt_source" data-column="1" value="Blog post"> Blog post</label></li>
                 <li class="checkbox"><label for="dt_source2"><input type="checkbox" id="dt_source2" name="dt_source" data-column="1" value="Content Style Guide"> Content Style Guide</label></li>
                 <li class="checkbox"><label for="dt_source3"><input type="checkbox" id="dt_source3" name="dt_source" data-column="1" value="Content and Information Architecture Specification"> Content and Information Architecture Specification</label></li>
