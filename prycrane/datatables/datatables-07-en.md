@@ -82,10 +82,10 @@ title: "Canada.ca design system"
 </fieldset>
             </div>
             
-            <div class="col-md-3">
-               <button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
+            <div class="col-md-12">
+               <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter">Filter</button>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-12">
               <button type="reset" class="btn btn-link">Reset to defaults</button>
             </div>
          </div>
