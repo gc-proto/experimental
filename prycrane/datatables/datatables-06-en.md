@@ -80,7 +80,8 @@ title: "Canada.ca design system"
 				{ "data": "WHENTOUSE",  "visible": false },
 				{ "data": "CATEGORY",  "visible": false },
 				{ "data": "TYPE",  "visible": false },
-				{ "data": "MANDATORY",  "visible": false }								      
+				{ "data": "MANDATORY",  "visible": false },
+				{ "data": "TANDP",  "visible": false }
 			]}'
             >
                 <thead>
@@ -92,6 +93,7 @@ title: "Canada.ca design system"
                         <th>Category</th>
                         <th>Type</th>
                         <th>Mandatory</th>
+  		        <th>Template or pattern</th>
                     </tr>
                 </thead>
             </table>
