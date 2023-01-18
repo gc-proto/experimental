@@ -64,7 +64,7 @@ title: "Template and pattern library for Canada.ca"
                <button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
             </div>
             <div class="col-md-6">
-               <a href="#" class="btn btn-default">Clear</a>
+               <a href="datatables-05-en.html" class="btn btn-default">Clear</a>
             </div>
          </div>
       </form>
