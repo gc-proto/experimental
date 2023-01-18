@@ -127,7 +127,7 @@ title: "Canada.ca design system"
 	null, 
 	null,
         { sSearch: '1' }
-      ]												 
+     ],												 
 			"ajaxSource": "./ajax/patterns-01-en.json",
 			"order": [0, "asc"],
 			"columns": [
