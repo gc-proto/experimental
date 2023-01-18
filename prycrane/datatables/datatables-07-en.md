@@ -70,42 +70,25 @@ title: "Canada.ca design system"
       <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="design">
          <div class="row">
             <div class="form-group">
-               <label for="dt_cat">Pattern, template or style</label>
-               <select class="form-control maxwidth" id="dt_cat" name="dt_cat" data-column="4">
-                  <option value="">All</option>
-                  <option value="Design pattern">Design patterns</option>
-                  <option value="Template">Template</option>
-                  <option value="Style">Style</option>
-               </select>
+              <fieldset>
+              <legend><span class="field-name">Sources</span></legend>
+              <ul class="list-unstyled">
+                <li class="checkbox"><label for="dt_source1"><input type="checkbox" id="dt_source1" name="dt_source" data-column="1" value=""> All sources</label></li>
+                <li class="checkbox"><label for="dt_source1"><input type="checkbox" id="dt_source1" name="dt_source" data-column="1" value="Blog post"> Blog post</label></li>
+                <li class="checkbox"><label for="dt_source2"><input type="checkbox" id="dt_source2" name="dt_source" data-column="1" value="Content Style Guide"> Content Style Guide</label></li>
+                <li class="checkbox"><label for="dt_source3"><input type="checkbox" id="dt_source3" name="dt_source" data-column="1" value="Content and Information Architecture Specification"> Content and Information Architecture Specification</label></li>
+                <li class="checkbox"><label for="dt_source4"><input type="checkbox" id="dt_source4" name="dt_source" data-column="1" value="Designing content"> Designing content</label></li>
+                <li class="checkbox"><label for="dt_source5"><input type="checkbox" id="dt_source5" name="dt_source" data-column="1" value="Research summary"> Research summary</label></li>
+                <li class="checkbox"><label for="dt_source6"><input type="checkbox" id="dt_source6" name="dt_source" data-column="1" value="Template and pattern library"> Template and pattern library</label></li>
+                </ul>
+</fieldset>
             </div>
-            <div class="form-group">
-               <label for="dt_type">Types</label>
-               <select class="form-control maxwidth" id="dt_type" name="dt_type" data-column="5">
-                  <option value="">All</option>
-                  <option value="Destination">Destination</option>
-                  <option value="Government-wide template">Government-wide</option>
-                  <option value="Institutional">Institutional</option>
-                  <option value="Interaction">Interaction</option>
-                  <option value="Navigation">Navigation</option>
-                  <option value="Promotion">Promotional</option>
-                  <option value="Site">Site-wide</option>
-                  <option value="Theme template">Theme and topic</option>
-                  <option value="Visual">Visual</option>
-               </select>
-            </div>
-            <div class="form-group">
-               <label for="dt_mand">Mandatory or suggested</label>
-               <select class="form-control maxwidth" id="dt_mand" name="dt_mand" data-column="6">
-                  <option value="">All</option>
-                  <option value="Mandatory">Mandatory</option>
-                  <option value="No">Suggested</option>
-               </select>
-            </div>
+            
             <div class="col-md-6">
                <button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
             </div>
             <div class="col-md-6">
-               <a href="datatables-05-en.html" class="btn btn-default">Clear</a>
+               <a href="datatables-07-en.html" class="btn btn-default">Clear</a>
             </div>
          </div>
       </form>
