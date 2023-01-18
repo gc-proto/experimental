@@ -83,7 +83,7 @@ title: "Canada.ca design system"
             </div>
             
             <div class="col-md-12">
-               <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter"><span class="fas fa-filter"></span> Filter</button>
+               <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> Filter</button>
             </div>
             <div class="col-md-12 mrgn-tp-md">
               <button type="reset" class="btn btn-default full-width">Reset to defaults</button>
