@@ -118,7 +118,7 @@ title: "Canada.ca design system"
 		<div class="mrgn-tp-md mrgn-bttm-md">
 			<table class="wb-tables table table-striped small" aria-live="polite" id="design" data-page-length="100" data-wb-tables='{
 			"bDeferRender": true,
-			searchCols: [
+			"searchCols:" [
         null,
         null,
         null,
