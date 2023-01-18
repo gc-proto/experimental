@@ -100,7 +100,7 @@ title: "Canada.ca design system"
             "ajaxSource": "https://design.canada.ca/ajax/patterns-01-en.json",
             "order": [0, "asc"],
             "paging": true,
-            "info": true,
+            "info": false,
             "columns": [
             { "data": "NAME", "className": "" },
             { "data": "SOURCE", "className": "" },
