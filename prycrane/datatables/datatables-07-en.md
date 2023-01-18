@@ -122,32 +122,23 @@ title: "Canada.ca design system"
             "info": false,
             "columns": [
             { "data": "NAME", "className": "" },
-            { "data": "SOURCE",  "visible": false },
-            { "data": "DESCRIPTION",  "visible": false },
-            { "data": "WHENTOUSE", "className": "", "orderable": false },
-            { "data": "CATEGORY", "className": "" },
-            { "data": "TYPE", "className": "" },
+            { "data": "SOURCE", "className": "" },
+            { "data": "DESCRIPTION", "className": "", "orderable": false },
+            { "data": "WHENTOUSE",  "visible": false },
+            { "data": "CATEGORY",  "visible": false },
+            { "data": "TYPE",  "visible": false },
             { "data": "MANDATORY",  "visible": false },
-            { "data": "TANDP",  "visible": false, "Search": "1" }
-            ], 
-            "searchCols": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null, 
-            null,
-            { "sSearch": &quot;1&quot; }]
+            { "data": "TANDP",  "visible": false }
+            ]
             }'>
             <thead>
                <tr>
                   <th class="col-md-03">Name</th>
-                  <th>Source</th>
-                  <th>Description</th>
-                  <th class="col-md-05">When to use this pattern</th>
-                  <th class="col-md-02">Category</th>
-                  <th class="col-md-02">Type</th>
+                  <th class="col-md-03">Source</th>
+                  <th class="col-md-06">Description</th>
+                  <th>When to use this pattern</th>
+                  <th>Category</th>
+                  <th>Type</th>
                   <th>Mandatory</th>
                   <th>Tempalates and patterns</th>
                </tr>
