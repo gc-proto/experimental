@@ -336,10 +336,10 @@
 		"NAME": "<a href=\"https//design.canada.ca/common-design-patterns/contextual-alerts.html\">Contextual alerts</a>",
 		"SOURCE": "Template and pattern library",
 		"DESCRIPTION": "Alerts are notices for important new information that needs to appear on a page.",
-		"WHENTOUSE": "Alerts are notices for important new information that needs to appear on a page.",
-		"CATEGORY": "",
-		"TYPE": "",
-		"MANDATORY": "",
+		"WHENTOUSE": "Use to present important new information that needs to appear in a pre-existing context",
+		"CATEGORY": "Design pattern",
+		"TYPE": "Visual",
+		"MANDATORY": "No",
 		"TANDP": "1"
 	}, {
 		"NAME": "<a href=\"https//design.canada.ca/common-design-patterns/checkboxes-radio-buttons.html\">Checkboxes and radio buttons</a>",
@@ -354,10 +354,10 @@
 		"NAME": "<a href=\"https//design.canada.ca/mandatory-templates/theme-topic.html\">Theme and topic page</a>",
 		"SOURCE": "Template and pattern library",
 		"DESCRIPTION": "Theme and topic pages provide access to topics and destination pages that support task completion.",
-		"WHENTOUSE": "",
-		"CATEGORY": "",
-		"TYPE": "",
-		"MANDATORY": "",
+		"WHENTOUSE": "Allows people to discover services and information related to a specific theme or topic across government - <strong>Mandatory template</strong>",
+		"CATEGORY": "Template",
+		"TYPE": "Theme template, Navigation",
+		"MANDATORY": "Mandatory",
 		"TANDP": "1"
 	}, {
 		"NAME": "<a href=\"https//design.canada.ca/mandatory-templates/institutional-profile-pages.html\">Institutional landing page</a>",
