@@ -121,7 +121,8 @@ title: "Canada.ca design system"
 			"ajaxSource": "./ajax/patterns-01-en.json",
 			"order": [0, "asc"],
 			"bFilter": true,
-			"bInfo": true,															 
+			"bInfo": true,	
+			"info": false,
                         "columns": [
 				{ "data": "NAME", "className": "" },
 				{ "data": "SOURCE",  "visible": false },
