@@ -118,7 +118,16 @@ title: "Canada.ca design system"
 		<div class="mrgn-tp-md mrgn-bttm-md">
 			<table class="wb-tables table table-striped small" aria-live="polite" id="design" data-page-length="100" data-wb-tables='{
 			"bDeferRender": true,
-			"search": "pattern",														 
+			searchCols: [
+        null,
+        null,
+        null,
+	null,
+	null,
+	null, 
+	null,
+        { sSearch: '1' }
+      ]												 
 			"ajaxSource": "./ajax/patterns-01-en.json",
 			"order": [0, "asc"],
 			"columns": [
