@@ -139,7 +139,7 @@ title: "Canada.ca design system"
                                         null, 
                                         null,
                                         { "sSearch": "1" }]
-			'>
+	                  '>
 <thead>
 <tr>
 <th class="col-md-03">Name</th>
