@@ -126,11 +126,11 @@ title: "Canada.ca design system"
 				{ "data": "NAME", "className": "" },
 				{ "data": "SOURCE",  "visible": false },
 				{ "data": "DESCRIPTION",  "visible": false },
-				{ "data": "WHENTOUSE", "className": "" },
+				{ "data": "WHENTOUSE", "className": "", "orderable": false },
 				{ "data": "CATEGORY", "className": "" },
 				{ "data": "TYPE", "className": "" },
 				{ "data": "MANDATORY",  "visible": false },
-				{ "data": "TANDP",  "visible": false, "Search": "1" }
+				{ "data": "TANDP",  "visible": false, "Search": 1 }
 			],
          		"searchCols": [
                                         null,
