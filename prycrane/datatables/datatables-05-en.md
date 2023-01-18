@@ -127,8 +127,8 @@ title: "Canada.ca design system"
 				{ "data": "SOURCE",  "visible": false },
 				{ "data": "DESCRIPTION",  "visible": false },
 				{ "data": "WHENTOUSE", "className": "", "orderable": false },
-				{ "data": "CATEGORY", "className": "", "orderable": false },
-				{ "data": "TYPE", "className": "", "orderable": false },
+				{ "data": "CATEGORY", "className": "" },
+				{ "data": "TYPE", "className": "" },
 				{ "data": "MANDATORY",  "visible": false },
 				{ "data": "TANDP",  "visible": false, "Search": 1 }
 			]
