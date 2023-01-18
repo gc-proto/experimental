@@ -61,7 +61,7 @@ title: "Canada.ca design system"
             </div>
         </section>
     </div>
-    <h2>Find guidance</h2>
+    <h2 id="guidance">Find guidance</h2>
   <div class="row mrgn-tp-md">
 <div class="col-md-3 small">
    <details open="open">
@@ -86,7 +86,7 @@ title: "Canada.ca design system"
                <button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
             </div>
             <div class="col-md-6">
-               <a href="datatables-07-en.html" class="btn btn-default">Clear</a>
+               <a href="datatables-07-en.html#guidance" class="btn btn-default">Clear</a>
             </div>
          </div>
       </form>
