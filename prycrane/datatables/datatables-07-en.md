@@ -3,8 +3,6 @@ altLangPage: "/resumes-recherche/design-conversationnel"
 breadcrumbs:
   - title: "About Canada.ca"
     link:  "https://www.canada.ca/en/government/about.html"
-  - title: Improving content on Canada.ca
-    link: "https://blog.canada.ca/pages/project-overview.html"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
