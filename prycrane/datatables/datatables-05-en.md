@@ -66,8 +66,8 @@ title: "Canada.ca design system"
 <h2>Find guidance</h2>
 <div class="row mrgn-tp-md">
 <div class="col-md-3">
-   <details open>
-      <summary class="btn btn-primary">Filter options</summary>
+   <details open="open">
+      <summary class="bg-primary">Filter options</summary>
       <p class="mrgn-tp-md">Use these filters to find templates and patterns.</p>
       <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="design">
          <div class="row">
