@@ -128,7 +128,7 @@ title: "Canada.ca design system"
 				{ "data": "CATEGORY", "className": "" },
 				{ "data": "TYPE", "className": "" },
 				{ "data": "MANDATORY",  "visible": false },
-				{ "data": "TANDP",  "visible": false }
+				{ "data": "TANDP",  "visible": false, "Search": "1" }
 			],
 			"searchCols": [
                                         null,
@@ -138,7 +138,7 @@ title: "Canada.ca design system"
                                         null,
                                         null, 
                                         null,
-                                        { "Search": "1" }]																 
+                                        { "sSearch": "1" }]																 
 		        }'>
 <thead>
 <tr>
