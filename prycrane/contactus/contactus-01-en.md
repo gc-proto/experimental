@@ -27,7 +27,6 @@ title: "Contact the Digital Transformation Office"
 			<label for="email1" class="required"><span class="field-name">Email address</span> (yourname@domain.com) <strong class="required" aria-hidden="true">(required)</strong></label>
 			<input class="form-control" id="email1" name="email1" type="email" autocomplete="email" />
 		</div>
-		
 		<div class="form-group">
 			<label for="message" class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 			<input class="form-control" id="message" name="message" type="text" data-rule-rangeWords="[2,300]" />
