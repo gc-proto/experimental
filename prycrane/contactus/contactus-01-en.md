@@ -31,11 +31,9 @@ title: "Contact the Digital Transformation Office"
                     <input class="form-control full-width" id="email1" name="email1" type="email" autocomplete="email" />
                 </div>
                 <div class="form-group">
-                    <label for="message" class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></label>
-                    <textarea class="form-control full-width" rows="6" id="message" name="message" type="text" data-rule-rangeWords="[2,300]" /></textarea>
+                    <label for="message" class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></label><textarea class="form-control full-width" rows="6" id="message" name="message" type="text" data-rule-rangeWords="[2,300]" /></textarea>
                 </div>
-
-                <ul class="list-unstyled list-inline mrgn-tp-lg">
+          <ul class="list-unstyled list-inline mrgn-tp-lg">
                     <li><input type="submit" value="Submit" class="btn btn-primary" /></li>
                     <li><a href="#" class="btn btn-default">Cancel</a></li>
                 </ul>
