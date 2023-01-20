@@ -48,7 +48,7 @@ title: "Contact the Digital Transformation Office"
                     <p for="message" class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></p><textarea class="form-control full-width" rows="6" id="message" name="message" type="text" data-rule-rangeWords="[2,300]" /></textarea>
                 </div>
 		<ul class="list-unstyled list-inline mrgn-tp-lg">
-                    <li><input type="submit" value="Submit" class="btn btn-primary" /></li>
+                    <li><button type="button" class="btn btn-primary">Submit</button></li>
                     <li><a href="#" class="btn btn-default">Cancel</a></li>
                 </ul>
             </form>
