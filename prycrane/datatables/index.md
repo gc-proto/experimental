@@ -36,3 +36,19 @@ title: "Canada.ca design system"
       </ul>
    </li>
 </ul>
+
+<h2>Mockups using one json data file</h2>
+<ul>
+   <li>
+      <a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-02-en.html">Canada.ca design system landing page</a> (All data sets)
+      <ul>
+         <li>Page stays hosted on AEM</li>
+         <li>Built with a json file hosted on Github - <a href="https://design.canada.ca/ajax/patterns-01-en.json">patterns-01-en.json</a></li>
+      </ul>
+   </li>
+
+
+
+
+
+
