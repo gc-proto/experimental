@@ -62,7 +62,7 @@ title: "Template and pattern library for Canada.ca"
             <div class="col-md-12">
                <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter">Filter</button>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 mrgn-tp-md">
                 <button type="reset" class="btn btn-default full-width">Reset to defaults</button>
             </div>
          </div>
