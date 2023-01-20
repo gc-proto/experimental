@@ -32,9 +32,9 @@ title: "Contact the Digital Transformation Office"
                     <label for="email1" class="required"><span class="field-name">Email address</span> (yourname@domain.com) <strong class="required" aria-hidden="true">(required)</strong></label>
                     <input class="form-control full-width" id="email1" name="email1" type="email" autocomplete="email" />
                 </div>
-				<div class="form-group">
-			<label for="role"><span class="field-name">Role</span></label>
-			<select class="form-control" id="role" name="role"role>
+		    <div class="form-group">
+			    <label for="role"><span class="field-name">Role</span></label>
+			    <select class="form-control" id="role" name="role"role>
 				<option label="Select a role"></option>
 				<option value="1">Comunications advisor</option>
 				<option value="6">Designer</option>
@@ -43,10 +43,9 @@ title: "Contact the Digital Transformation Office"
 				<option value="4">Project manager</option>				
 				<option value="5">Web writer</option>
 			</select>
-		</div>
-                <div class="form-group">
-                    <label for="message" class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></label>
-                    <textarea class="form-control full-width" rows="6" id="message" name="message" type="text" data-rule-rangeWords="[2,300]" /></textarea>
+		    </div>
+		    <div class="form-group">
+                    <label for="message" class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></label><textarea class="form-control full-width" rows="6" id="message" name="message" type="text" data-rule-rangeWords="[2,300]" /></textarea>
                 </div>
 
                 <ul class="list-unstyled list-inline mrgn-tp-lg">
