@@ -31,8 +31,8 @@ title: "Canada.ca design system"
    <li>
       <a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Template and pattern library for Canada.ca</a> (All templates and patterns)
       <ul>
-         <li>hosted on GitHub</li>
-         <li>Built with a json file - <a href="https://design.canada.ca/ajax/patterns.json">patterns.json</a></li>
+         <li>page hosted on AEM</li>
+         <li>Built with a json file on GitHub - <a href="https://design.canada.ca/ajax/patterns.json">patterns.json</a></li>
       </ul>
    </li>
 </ul>
