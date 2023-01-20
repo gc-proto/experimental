@@ -31,8 +31,8 @@ title: "Contact the Digital Transformation Office"
                     <input class="form-control full-width" id="email1" name="email1" type="email" autocomplete="email">
                 </div>
 		    <div class="form-group">
-			    <label for="role"><span class="field-name">Role</span></label>
-<select class="form-control" id="role" name="role">
+			<label for="role"><span class="field-name">Role</span></label>
+			<select class="form-control" id="role" name="role">
 				<option label="Select a role"></option>
 				<option value="1">Comunications advisor</option>
 				<option value="6">Designer</option>
@@ -40,8 +40,21 @@ title: "Contact the Digital Transformation Office"
 				<option value="3">Interaction designer</option>
 				<option value="4">Project manager</option>				
 				<option value="5">Web writer</option>
-			    </select>
-		    </div>
+			</select>
+		</div>
+					<div class="form-group">
+			<label for="about"><span class="field-name">I am contacting DTO about</span></label>
+			<select class="form-control" id="about" name="about">
+				<option label="Select an item"></option>
+				<option value="1">General inquiry (Don't be shy we want to hear from you)</option>
+				<option value="6">I am having touble with a current template or pattern</option>
+				<option value="6">I have a contribution idea</option>				
+				<option value="2">Canada.ca design blog</option>
+				<option value="3">Content Style Guide</option>
+				<option value="4">Content and Information Architecture Specification</option>								
+				<option value="5">Research</option>					
+			</select>
+		</div>
 		    <div class="form-group">
 			    <p class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></p>
 			    <div><textarea class="form-control full-width required" rows="6" id="message" name="message" data-rule-rangeWords="[2,300]">Text2</textarea></div>
