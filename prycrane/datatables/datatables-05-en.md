@@ -26,7 +26,7 @@ title: "Template and pattern library for Canada.ca"
    <details open="open">
       <summary class="bg-primary text-center">Filter options</summary>
       <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="design">
-         <div class="row">
+         <div class="row mrgn-tp-lg mrgn-bttm-lg">
             <div class="form-group">
                <label for="dt_cat">Pattern, template or style</label>
                <select class="form-control maxwidth" id="dt_cat" name="dt_cat" data-column="4">
@@ -59,11 +59,11 @@ title: "Template and pattern library for Canada.ca"
                   <option value="No">Suggested</option>
                </select>
             </div>
-            <div class="col-md-6">
-               <button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
+            <div class="col-md-12">
+               <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter">Filter</button>
             </div>
-            <div class="col-md-6">
-               <a href="datatables-05-en.html" class="btn btn-default">Clear</a>
+            <div class="col-md-12">
+                <button type="reset" class="btn btn-default full-width">Reset to defaults</button>
             </div>
          </div>
       </form>
