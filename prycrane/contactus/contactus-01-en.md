@@ -16,9 +16,7 @@ share: true
 pageclass: cnt-wdth-lmtd
 title: "Contact the Digital Transformation Office"
 ---
-<h1 property="name" id="wb-cont" dir="ltr">
-    <span class="stacked"><span>Contact the Digital Transformation Office</span>: <span>Canada.ca design system</span></span>
-</h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contact the Digital Transformation Office</span>: <span>Canada.ca design system</span></span></h1>
 <p>Contact the Digital transformation Office to ask questions or make suggestions about the Canada.ca design system. Request a pattern or component you'd like to see.</p>
 <div class="wb-frmvld mrgn-tp-lg">
     <div class="row">
@@ -26,15 +24,15 @@ title: "Contact the Digital Transformation Office"
             <form action="#" method="get" id="contact-dto">
                 <div class="form-group">
                     <label for="name1" class="required"><span class="field-name">Name</span> <strong class="required" aria-hidden="true">(required)</strong></label>
-                    <input class="form-control full-width" id="name1" name="name1" type="text" autocomplete="given-name" required="required" data-rule-minlength="2" />
+                    <input class="form-control full-width" id="name1" name="name1" type="text" autocomplete="given-name" required="required" data-rule-minlength="2">
                 </div>
                 <div class="form-group">
                     <label for="email1" class="required"><span class="field-name">Email address</span> (yourname@domain.com) <strong class="required" aria-hidden="true">(required)</strong></label>
-                    <input class="form-control full-width" id="email1" name="email1" type="email" autocomplete="email" />
+                    <input class="form-control full-width" id="email1" name="email1" type="email" autocomplete="email">
                 </div>
 		    <div class="form-group">
 			    <label for="role"><span class="field-name">Role</span></label>
-<select class="form-control" id="role" name="role"role>
+<select class="form-control" id="role" name="role">
 				<option label="Select a role"></option>
 				<option value="1">Comunications advisor</option>
 				<option value="6">Designer</option>
@@ -45,8 +43,8 @@ title: "Contact the Digital Transformation Office"
 			    </select>
 		    </div>
 		    <div class="form-group">
-			    <p for="message" class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></p>
-			    <div><textarea class="form-control full-width" rows="6" id="message" name="message" type="text" data-rule-rangeWords="[2,300]" />Text1</textarea></div>
+			    <p class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></p>
+			    <div><textarea class="form-control full-width" rows="6" id="message" name="message" data-rule-rangeWords="[2,300]">Text1</textarea></div>
 </div>
 <ul class="list-unstyled list-inline mrgn-tp-lg">
                     <li><button type="button" class="btn btn-primary">Submit</button></li>
