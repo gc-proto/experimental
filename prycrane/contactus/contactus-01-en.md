@@ -34,7 +34,7 @@ title: "Contact the Digital Transformation Office"
                 </div>
 		    <div class="form-group">
 			    <label for="role"><span class="field-name">Role</span></label>
-			    <select class="form-control" id="role" name="role"role>
+<select class="form-control" id="role" name="role"role>
 				<option label="Select a role"></option>
 				<option value="1">Comunications advisor</option>
 				<option value="6">Designer</option>
