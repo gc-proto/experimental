@@ -13,6 +13,7 @@ description: "Contact the Digital Transformation Office about the Canada.ca desi
 lang: en
 layout: without-h1
 share: false
+showFeedback: false
 pageclass: cnt-wdth-lmtd
 title: "Contact the Digital Transformation Office"
 ---
