@@ -36,7 +36,6 @@ title: "Canada.ca design system"
       </ul>
    </li>
 </ul>
-
 <h2>Mockups using one json data file</h2>
 <ul>
    <li>
@@ -46,8 +45,13 @@ title: "Canada.ca design system"
          <li>Built with a json file hosted on Github - <a href="https://design.canada.ca/ajax/patterns-01-en.json">patterns-01-en.json</a></li>
       </ul>
    </li>
-
-
+   <li>
+      <a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-06-en.html">Canada.ca design system landing page</a> (Matches current page)
+   </li>
+   <li>
+      <a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-07-en.html">Canada.ca design system landing page</a> (small Source filter)
+   </li>
+</ul>
 
 
 
