@@ -37,7 +37,7 @@ title: "Canada.ca design system"
    </li>
 </ul>
 <h2>Mockups using one json data file</h2>
-<p>Only the json file need to be updated</p>
+<p>Only the json file needs to be updated when changes are made.</p>
 <ul>
    <li>
       <a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-02-en.html">Canada.ca design system landing page</a> (All data sets)
