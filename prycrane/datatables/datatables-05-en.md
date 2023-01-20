@@ -59,7 +59,7 @@ title: "Template and pattern library for Canada.ca"
                   <option value="No">Suggested</option>
                </select>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 mrgn-tp-lg">
                <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter">Filter</button>
             </div>
             <div class="col-md-12 mrgn-tp-md">
