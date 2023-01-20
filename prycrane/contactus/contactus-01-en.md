@@ -1,8 +1,6 @@
 ---
 altLangPage: "contactus-01-fr.html"
-breadcrumbs:
-  - title: "About Canada.ca"
-    link:  "https://www.canada.ca/en/government/about.html"
+breadcrumbs: false
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
