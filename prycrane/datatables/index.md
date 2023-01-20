@@ -37,6 +37,7 @@ title: "Canada.ca design system"
    </li>
 </ul>
 <h2>Mockups using one json data file</h2>
+<p>Only the json file need to be updated</p>
 <ul>
    <li>
       <a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-02-en.html">Canada.ca design system landing page</a> (All data sets)
@@ -55,7 +56,7 @@ title: "Canada.ca design system"
       <a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-en.html">Canada.ca design system landing page</a> (large Source filter)
    </li>  
 </ul>
-
-
-
-
+<h2>Technical stuff</h2>
+<ul>
+  <li>The json file can be imported into and exported from excel (CSV file).  There are a few tricks to export it back to a json file.</li>
+</ul>
