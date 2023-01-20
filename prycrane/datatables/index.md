@@ -51,6 +51,9 @@ title: "Canada.ca design system"
    <li>
       <a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-07-en.html">Canada.ca design system landing page</a> (small Source filter)
    </li>
+   <li>
+      <a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-en.html">Canada.ca design system landing page</a> (large Source filter)
+   </li>  
 </ul>
 
 
