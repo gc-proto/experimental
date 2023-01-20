@@ -56,7 +56,7 @@ title: "Contact the Digital Transformation Office"
 			</select>
 		</div>
 		    <div class="form-group">
-			    <p class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></p>
+			    <label for="message" class="required"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 			    <div><textarea class="form-control full-width required" rows="6" id="message" name="message" data-rule-rangeWords="[2,300]">Text2</textarea></div>
 </div>
 <ul class="list-unstyled list-inline mrgn-tp-lg">
