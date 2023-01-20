@@ -58,5 +58,10 @@ title: "Canada.ca design system"
 </ul>
 <h2>Technical stuff</h2>
 <ul>
-  <li>The json file can be imported into and exported from excel (CSV file).  There are a few tricks to export it back to a json file.</li>
+   <li>
+      The json file can be imported into and exported from excel (CSV file).  There are a few tricks to export it back to a json file.
+      <ul>
+         <li><a href="https://github.com/prycrane/experimental/tree/master/prycrane/datatables/files">dataforweb.csv</a></li>
+      </ul>
+   </li>
 </ul>
