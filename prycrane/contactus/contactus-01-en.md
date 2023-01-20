@@ -14,6 +14,7 @@ lang: en
 layout: without-h1
 share: false
 showFeedback: false
+noReportProblem: true
 pageclass: cnt-wdth-lmtd
 title: "Contact the Digital Transformation Office"
 ---
