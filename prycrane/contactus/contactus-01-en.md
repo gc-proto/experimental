@@ -12,7 +12,7 @@ dateModified: 2023-01-19
 description: "Contact the Digital Transformation Office about the Canada.ca design system."
 lang: en
 layout: without-h1
-share: true
+share: false
 pageclass: cnt-wdth-lmtd
 title: "Contact the Digital Transformation Office"
 ---
