@@ -1,14 +1,14 @@
 ---
 altLangPage: "datatables-09-en.html"
 breadcrumbs:
-  - title: "About Canada.ca"
-    link:  "https://www.canada.ca/en/government/about.html"
+  - title: "À propos de Canada.ca"
+    link:  "https://www.canada.ca/fr/gouvernement/a-propos.html"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
-date: 2023-01-17
-dateModified: 2023-01-17
+date: 2023-01-23
+dateModified: 2023-01-23
 description: "The Canada.ca design system provides a usable, consistent and trustworthy online experience for people who access Government of Canada digital services."
 lang: fr
 layout: without-h1
@@ -16,50 +16,53 @@ share: true
 pageclass: cnt-wdth-lmtd
 title: "Canada.ca design system"
 ---
-<h1 property="name" id="wb-cont" dir="ltr">Canada.ca design system</h1>
-<p>Use this design system to provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.</p>
+<h1 property="name" id="wb-cont" dir="ltr">Système de conception de Canada.ca</h1>
+<p>Utilisez ce système de conception pour offrir aux personnes qui accèdent aux services numériques du gouvernement du Canada une expérience en ligne plus conviviale, cohérente et fiable.</p>
 <section>
     <div class="row">
         <section class="wb-eqht gc-drmt">
-            <div class="col-md-4">
-                <section>
-                    <h3 class="h5"><a href="/en/government/about/design-system/pattern-library.html">Template and design pattern library</a></h3>
-                    <p>User-tested templates, page layouts, design patterns, guidelines, and code samples</p>
-                </section>
-            </div>
-            <div class="col-md-4">
-                <section>
-                    <h3 class="h5"><a href="/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html">Canada.ca Content Style guide</a></h3>
-                    <p>Writing principles and techniques to make content clear and accessible to all</p>
-                </section>
-            </div>
-            <div class="col-md-4">
-                <section>
-                    <h3 class="h5"><a href="/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html">Canada.ca Content and Information Architecture Specification</a></h3>
-                    <p>Who has to use the Canada.ca design system, mandatory elements, how to organize content and design principles</p>
-                </section>
-            </div>
-            <div class="col-md-4">
-                <section>
-                    <h3 class="h5"><a href="https://design.canada.ca/continuous-improvement.html">Continuous improvement of web content </a></h3>
-                    <p>Choosing what to improve, organizing and preparing your team, research and prototyping, designing content, monitoring and measuring success</p>
-                </section>
-            </div>
-            <div class="col-md-4">
-                <section>
-                    <h3 class="h5"><a href="https://blog.canada.ca/">Canada.ca blog</a></h3>
-                    <p>Evidence and insights on improving information and services on Canada.ca</p>
-                </section>
-            </div>
-            <div class="col-md-4">
-                <section>
-                    <h3 class="h5"><a href="/en/government/about/design-system/latest-changes.html">Latest changes to the Canada.ca design system</a></h3>
-                    <p>Latest changes to the design system, templates and patterns, style guide and other tools</p>
-                </section>
-            </div>
-        </section>
+ 	<div class="col-md-4">
+ 	  <section>
+ 	   <h3 class="h5"><a href="/fr/gouvernement/a-propos/systeme-conception/bibliotheque-modeles.html">Bibliothèque de modèles et configurations de conception</a></h3>
+ 	   <p>Modèles, mises en page, configurations de conception, directives et exemples de code, testés par les utilisateurs.</p>
+ 	  </section>
+ 	 </div>
+    <div class="col-md-4">
+    <section>
+     <h3 class="h5"><a href="/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html">Guide de rédaction du contenu du site Canada.ca</a></h3>
+     <p>Techniques d’écriture et principes qui aident à rendre le contenu clair et adapté aux besoins de tous.</p>
+    </section>
+   </div>
+   <div class="col-md-4">
+   <section>
+    <h3 class="h5"><a href="/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada.html">Spécifications du contenu et de l'architecture de l'information pour Canada.ca</a></h3>
+    <p>Qui doit utiliser le système de conception de Canada.ca, éléments obligatoires, comment organiser et concevoir du contenu.</p>
+   </section>
+   </div>
+ 	 <div class="col-md-4">
+ 	  <section>
+ 	   <h3 class="h5"><a href="https://conception.canada.ca/amelioration-continue.html">Amélioration continue du contenu Web
+</a></h3>
+ 	   <p>Choisir quoi améliorer, organiser et préparer votre équipe, recherche et prototypage, concevoir le contenu, suivi et mesure du succès.</p>
+ 	  </section>
+ 	 </div>
+ 	<div class="col-md-4">
+ 	  <section>
+ 	   <h3 class="h5"><a href="https://blogue.canada.ca/">Blogue Canada.ca</a></h3>
+ 		<p>Données probantes et observations sur l’amélioration des renseignements et des services sur Canada.ca.</p>
+ 	  </section>
+ 	 </div>
+
+      <div class="col-md-4">
+       <section>
+          <h3 class="h5"><a href="/fr/gouvernement/a-propos/systeme-conception/derniers-changements.html">Derniers changements apportés au système de conception de Canada.ca</a></h3>
+          <p>Derniers changements apportés au système de conception, aux modèles et conceptions de configuration, au guide de rédaction et aux autres outils.</p>
+       </section>
+      </div>
+
+ </section>
     </div>
-    <h2 id="guidance">Find guidance</h2>
+    <h2 id="guidance">Trouver des directives</h2>
   <div class="row mrgn-tp-md">
 <div class="col-md-3 small">
    <details open="open">
@@ -70,12 +73,12 @@ title: "Canada.ca design system"
               <fieldset>
               <legend class="wb-inv"><span class="field-name">Sources</span></legend>
               <ul class="list-unstyled">
-                <li class="checkbox"><label for="dt_source1"><input type="checkbox" id="dt_source1" name="dt_source" data-column="1" value="Blog post"> Blog post</label></li>
-                <li class="checkbox"><label for="dt_source2"><input type="checkbox" id="dt_source2" name="dt_source" data-column="1" value="Content Style Guide"> Content Style Guide</label></li>
-                <li class="checkbox"><label for="dt_source3"><input type="checkbox" id="dt_source3" name="dt_source" data-column="1" value="Content and Information Architecture Specification"> Content and Information Architecture Specification</label></li>
-                <li class="checkbox"><label for="dt_source4"><input type="checkbox" id="dt_source4" name="dt_source" data-column="1" value="Designing content"> Designing content</label></li>
-                <li class="checkbox"><label for="dt_source5"><input type="checkbox" id="dt_source5" name="dt_source" data-column="1" value="Research summary"> Research summary</label></li>
-                <li class="checkbox"><label for="dt_source6"><input type="checkbox" id="dt_source6" name="dt_source" data-column="1" value="Template and pattern library"> Template and pattern library</label></li>
+                <li class="checkbox"><label for="dt_source1"><input type="checkbox" id="dt_source1" name="dt_source" data-column="1" value="Blogue"> Blogue</label></li>
+                <li class="checkbox"><label for="dt_source2"><input type="checkbox" id="dt_source2" name="dt_source" data-column="1" value="Guide de rédaction du contenu"> Guide de rédaction du contenu</label></li>
+                <li class="checkbox"><label for="dt_source3"><input type="checkbox" id="dt_source3" name="dt_source" data-column="1" value="Spécifications du contenu et de l’architecture de l'information"> Spécifications du contenu et de l’architecture de l'information</label></li>
+                <li class="checkbox"><label for="dt_source4"><input type="checkbox" id="dt_source4" name="dt_source" data-column="1" value="Concevoir le contenu"> Concevoir le contenu</label></li>
+                <li class="checkbox"><label for="dt_source5"><input type="checkbox" id="dt_source5" name="dt_source" data-column="1" value="Résumé de recherche"> Résumé de recherche</label></li>
+                <li class="checkbox"><label for="dt_source6"><input type="checkbox" id="dt_source6" name="dt_source" data-column="1" value="Bibliothèque de modèles et de configurations de conception"> Bibliothèque de modèles et de configurations de conception</label></li>
                 </ul>
 </fieldset>
             </div>
@@ -112,14 +115,14 @@ title: "Canada.ca design system"
             }'>
             <thead>
                <tr>
-                  <th class="col-md-05">Name</th>
+                  <th class="col-md-05">Nom</th>
                   <th class="col-md-02">Source</th>
                   <th class="col-md-05">Description</th>
-                  <th>When to use this pattern</th>
+                  <th>Quand utiliser ce modèle</th>
                   <th>Category</th>
-                  <th>Type</th>
-                  <th>Mandatory</th>
-                  <th>Tempalates and patterns</th>
+                  <th>Catégorie</th>
+                  <th>Obligatoire</th>
+                  <th>les modèles</th>
                </tr>
             </thead>
          </table>
