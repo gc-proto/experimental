@@ -52,15 +52,18 @@
 	</script>
 	<main role="main" property="mainContentOfPage">
 		<section class="container">
-			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>IRCC Secure Account</span>:  <span>Sign in</span></span></h1>
+			<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>IRCC Secure Account</span>:
+					<span>Sign in</span></span></h1>
 			</h1>
-			<p>There are different accounts for various immigration and citizenship application forms, paying, checking status and making changes. Before you register or sign in, check when to use this secure
+			<p>There are different accounts for various immigration and citizenship application forms, paying, checking
+				status and making changes. Before you register or sign in, check when to use this secure
 				account.</p>
 			<details>
 				<summary>When to use this secure account</summary>
 				<p>Use this account to:</p>
 				<ul>
-					<li>start an application for work and study permits, Express Entry, and International Experience Canada
+					<li>start an application for work and study permits, Express Entry, and International Experience
+						Canada
 					</li>
 					<ul>
 						<li>you will need your <a
@@ -115,27 +118,17 @@
 										<ul class="list-unstyled lst-spcd-2">
 											<li><a class="btn btn-default btn-lg btn-block p-sm-3"
 													href="https://onlineservices-servicesenligne-cic.fjgc-gccf.gc.ca/mycic/gccf?lang=eng&idp=gckey&svc=/mycic/start"><span
-														class="h4"><span
-															class="fa-solid fa-key fa-lg fa-pull-left" style="margin-top: 10px;"></span>With
+														class="h4"><span class="fa-solid fa-key fa-lg fa-pull-left"
+															style="margin-top: 10px;"></span>With
 														your GCKey username and password<span class="wb-inv">
 															GCKeysign-in</span></span></a></li>
 											<li><a class="btn btn-default btn-lg btn-block p-sm-3"
 													href="https://onlineservices-servicesenligne-cic.fjgc-gccf.gc.ca/mycic/gccf?lang=eng&idp=securekey&svc=/mycic/start"><span
-														class="h4"><span
-															class="fas fa-university fa-lg fa-pull-left" style="margin-top: 10px;"></span>Through
+														class="h4"><span class="fas fa-university fa-lg fa-pull-left"
+															style="margin-top: 10px;"></span>Through
 														your <em>Interac</em>&reg Sign-in Partner<span class="wb-inv">
 															bank
 															sign-in</span></span></a></li>
-											<!--<li><a class="btn btn-default btn-lg btn-block p-sm-3" href=""><span
-														class="h4"><span
-															class="fas fa-id-card fa-lg mrgn-rght-sm fa-pull-left"></span>Through
-														your province<span class="wb-inv"> province
-															sign-in</span></span></a></li>
-											<li><a class="btn btn-default btn-lg btn-block p-sm-3" href=""><span
-														class="h4"><span
-															class="fas fa-fingerprint fa-lg mrgn-rght-sm fa-pull-left"></span>With
-														your device<span class="wb-inv"> device
-															sign-in</span></span></a></li>-->
 										</ul>
 									</div>
 								</div>
@@ -213,48 +206,102 @@
 				<h2 id="help" class="mrgn-tp-0">Help with your account</h2>
 				<div class="row wb-eqht-grd">
 					<div class="col-sm-6 ">
-						<h3 class="mrgn-tp-0">Get
+						<h3 class="mrgn-tp-0" id="code">Get
 							a personal reference code</a></h3>
 						<p>In most cases, you'll need this code to begin an online application to come to Canada.
 							</br><a href="https://www.cic.gc.ca/english/helpcentre/answer.asp?qnum=830">How to get a
 								personal reference code</a></p>
 					</div>
 					<div class="col-sm-6">
-						<h3 class="mrgn-tp-0">Forgot your GCKey password or username</h3>
+						<h3 class="mrgn-tp-0" id="forgot">Forgot your GCKey username, password, or both</h3>
+						<p>If you added a recovery email address to GCKey:</p>
 						<ul>
-							<li>First select
-								<a
-									href="https://onlineservices-servicesenligne-cic.fjgc-gccf.gc.ca/mycic/gccf?lang=eng&idp=gckey&svc=/mycic/start">sign-in
-									with GCkey</a>
+							<li>select <strong>Forgot your username</strong> or <strong>Forgot
+									your password</strong> on the
+								<a href="">Sign-in with GCkey</a> page<!-- add same URL as GCKey button above-->
 							</li>
-							<li>then select <strong>Forgot your username</strong> or <strong>Forgot
-									your password</strong></li>
+							<li>if you've forgotten both, select
+								<strong>Forgot your
+									username</strong> to have it emailed, then use
+								<strong>Forgot
+									your password</strong>
+							</li>
 						</ul>
-						</p>
+						<details>
+							<summary>if you didn't add a recovery email address to GCKey</summary>
+							Follow the steps to <a href="#recover"> make a new account and link your applications</a>.
+						</details>
 					</div>
 					<div class="col-sm-6">
-						<h3 class="mrgn-tp-0">Use a different Sign-in partner</h3>
+						<h3 class="mrgn-tp-0" id="switch">Use a different Sign-in partner</h3>
 						<p>If you've moved to
 							a new bank or credit union, and already sign in through <em>Interac</em>&reg Sign-in
 							Partner, you may be able to switch:</p>
 						<ul>
-							<li>first, select <a
-									href="https://onlineservices-servicesenligne-cic.fjgc-gccf.gc.ca/mycic/gccf?lang=eng&idp=securekey&svc=/mycic/start">
-									<em>Interac</em>&reg Sign-in Partner</a></li>
+							<li>first, select <a href="">
+									<em>Interac</em>&reg Sign-in Partner</a><!-- add same URL as Interac button above-->
+							</li>
 							<li>then select <strong>Switch My Sign-in Partner</strong> from
 								the menu bar</li>
 						</ul>
 					</div>
 					<div class="col-sm-6">
-						<h3 class="mrgn-tp-0">Your GCKey username and password are missing, invalid or incomplete</h3>
+						<h3 class="mrgn-tp-0" id="revoked">Your GCKey username and password are revoked, missing, invalid or
+							incomplete</h3>
 						<p>If you haven't used your GCKey username and password at least once in the last
-							2 years, it expired and has been deleted. You'll need to <a href="./register-pattern.html">register for the service</a> again
-							and sign up for a new GCKey or choose a different sign-in option. [NOTE check if this is the same for all services?]</p>
+							2 years, they have been revoked and removed. You'll need to: </p>
+						<details>
+							<summary><span id="recover">Link your applications to a new account</span></summary>
+							<ol>
+								<li>select the <strong>Sign up button</strong> to make a new GCKey username and password
+									on the <a href="">Sign-in with GCkey</a>
+									page<!-- add same URL as GCKey button above--></li>
+								<li>follow all the steps to register for a new account</li>
+								<li>once you've got the new account, if you have applications in progress, select
+									<strong>Link application to this account</strong>
+									under the heading “What would you like to do today?” </li>
+								<li>as a security measure you will have to enter specific information about your
+									application </li>
+								<ul>
+									<li>have a copy of your application form on hand so that you can enter the
+										information exactly as it appears on your application form</li>
+								</ul>
+							</ol>
+						</details>
 					</div>
 					<div class="col-sm-6">
-						<h3 class="mrgn-tp-0">Your browser shows an error message</h3>
+						<h3 class="mrgn-tp-0" id="errors">Errors when you sign in</h3>
 						<details>
-							<summary>Update your browser</summary>
+							<summary>403 error - login session expired or invalid</summary>
+							<p>If you see this error message, your browser may have stored old GCKey information. Try
+								one of these three approaches to sign in again - whichever is easiest for you: </p>
+							<ul>
+								<li>if you have another browser (e.g. Safari, Google Chrome, etc.), try signing in from
+									there</li>
+								<li>or use your browser menu to open a <strong>New Incognito or New Private
+										window</strong></li> and sign in from there so it can't use the old information
+								</li>
+								<li>or <a
+										href="https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=315&top=23">clear
+										your browser history, cache and cookies</a>. Note that this could cause you to
+									lose other information stored in your browser like usernames and passwords for
+									remembered sites.</li>
+							</ul>
+						</details>
+						<details>
+							<summary>Bounce out after you sign in</summary>
+							<p>Your connection to the account may have failed. Try
+								one of these three approaches to sign in again - whichever is easiest for you: </p>
+							<ul>
+								<li>if you have another browser (e.g. Safari, Google Chrome, etc.), try signing in from
+									there</li>
+								<li>or use your browser menu to open a <strong>New Incognito or New Private
+										window</strong></li> and sign in from there so it can't use the old information
+								</li>
+							</ul>
+						</details>
+						<details>
+							<summary>Errors if your browser is out of date</summary>
 							<p>Update your browser if you see one of these messages when you try to sign in:</p>
 							<ul>
 								<li>Page Can’t Be Displayed</li>
@@ -265,17 +312,18 @@
 								settings or preferences. The latest versions of browsers have security features to keep
 								your
 								personal information safe.</p>
+							<p>Use a modern web browser like Google Chrome or Microsoft Edge, rather than Internet Explorer.</p>
 						</details>
 					</div>
 					<div class="col-sm-6">
 						<h3 class="mrgn-tp-0">More help options</h3>
 						<ul>
-							<li><a href="https://clegc-gckey.gc.ca/j/eng/FQ-01">Help with GCKey usernames, passwords and
+							<li><a href="./gckey-help.html">Help with GCKey usernames, passwords and
 									recovery questions
 								</a></li>
 							<li><a href="https://services.signin.interac-id.ca/cbs/nav/faq-eng">Help with
-									<em>Interac</em>&reg
-									Sign-in Partner</a></li>
+									Canadian <em>Interac</em>&reg
+									Sign-in Partners</a></li>
 							<li><a href="https://www.cic.gc.ca/english/helpcentre/index-featured-can.asp">IRCC Help
 									Centre</a></li>
 						</ul>
@@ -288,7 +336,8 @@
 			<h2 id="other-accounts" class="mrgn-tp-0">Find another government account</h2>
 			<div class="row wb-eqht-grd">
 				<div class="col-sm-6">
-					<h3 class="mrgn-tp-0"><a href="./ircc-accounts-en.html">All Immigration, Refugees and Citizenship Canada online accounts and portals</a></h3>
+					<h3 class="mrgn-tp-0"><a href="./ircc-accounts-en.html">All Immigration, Refugees and Citizenship
+							Canada online accounts and portals</a></h3>
 				</div>
 				<div class="col-sm-6">
 					<h3 class="mrgn-tp-0"><a href="https://www.canada.ca/en/government/sign-in-online-account.html">All

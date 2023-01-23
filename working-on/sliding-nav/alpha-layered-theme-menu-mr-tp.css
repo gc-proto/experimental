@@ -1,18 +1,39 @@
-#gc-mnu-jobs {
-    position: relative;
+#gc-mnu * {
+    outline: 1px solid green;
+}
+
+#gc-mnu-jobs { /* DELISMA: I think that was required for debugging purposes on desktop. It breaks the mobile view */
+    position: relative; /* DELISMA: for mobile this needs to be overriden */
     padding: 0 0 0 28px;
     border-left: 5px solid #26374a;
     border-top: 0;
-    display: none;
+    display: block; /* DELISMA: for mobile this needs to be overriden */
 }
 
 
 /* for desktop  - but it's fine if it can toggle too */
-#jobs:focus + #gc-mnu-jobs, #jobs:hover + #gc-mnu-jobs {
-    display: block;
+#jobs:focus + #gc-mnu-jobs,
+#jobs:hover + #gc-mnu-jobs {
+    display: block; /* DELISMA: for mobile this needs to be overriden */
+}
+.alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem] {
+    background-color: transparent;
+    border: none;
+    color: #284162;
+    font-size: 15px;
+    line-height: 1.1em;
+    padding: 14px 30px;
+    text-align: left;
+    text-transform: initial;
 }
 
+.alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem]:hover {
+    background-color: #f5f5f5;
+}
 
+.alpha .test-gcweb-menu [role=menuitem] {
+    width: 100%;
+}
 /* mobile needs to toggle it on click  - cant work though because I have to use the href field being used by the ajax ? ...  */
 /* #jobs:target ~ div a[href="#gc-mnu-jobs"],
 #jobs-2:target ~ div a[href="#gc-mnu-jobs"] {
@@ -48,7 +69,7 @@
 
 @media (min-width: 990px) {
     #gc-mnu-jobs {
-        left: 305px;
+        left: -40px;
         top: -40px;
     }
 }

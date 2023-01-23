@@ -1,0 +1,127 @@
+---
+auth:
+  type: contextual
+  link: https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html
+  label: Sign in
+  labelExtended: Sign in to CRA
+contextualFooter:
+  title: Canada.ca
+  links: 
+    - url: someUrl.html
+      text: Contextual link 1
+title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
+---
+<style>
+    ul.menu {
+        list-style-type: none;
+    }
+    
+    .menu-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .menu-items button {
+        /* border: 1px solid red; */
+        flex-basis: 20rem;
+        /* flex-grow: 1; */
+    }    
+    
+    .sub-menu,
+    .section {
+        border: 1px solid green;
+        container: not-sidebar / inlinr-size;
+        display: none;
+    }
+    button:hover + .sub-menu,
+    button:hover + .section {
+        flex-basis: 0;
+        flex-grow: 999;
+        display: block;
+    }
+    
+    @container not-sidebar {
+        .container {
+            width: calc( 1170px - 20rem );
+        }
+    }
+</style>
+<nav class="menu-container">
+    <ul class="menu">
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-ajax-after="themes/jobs.html #gc-mnu-jobs">Menu item 1</button>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu2" }'>Menu item 2</button>
+            <div class="sub-menu" id="submenu2">
+                <div class="row">
+                    <section class="col-md-8">
+                        <h3>
+                            Ajax content goes here container
+                        </h3>
+                    </section>
+                </div>
+            </div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu3" }'>Menu item 3</button>
+            <div class="sub-menu" id="submenu3">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu4" }'>Menu item 4</button>
+            <div class="sub-menu" id="submenu4">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu5" }'>Menu item 5</button>
+            <div class="sub-menu" id="submenu5">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu6" }'>Menu item 6</button>
+            <div class="sub-menu" id="submenu6">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu7" }'>Menu item 7</button>
+            <div class="sub-menu" id="submenu7">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu8" }'>Menu item 8</button>
+            <div class="sub-menu" id="submenu8">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu9" }'>Menu item 9</button>
+            <div class="sub-menu" id="submenu9">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu10 "}'>Menu item 10</button>
+            <div class="sub-menu" id="submenu10">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu11 "}'>Menu item 11</button>
+            <div class="sub-menu" id="submenu11">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu12 "}'>Menu item 12</button>
+            <div class="sub-menu" id="submenu12">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu13 "}'>Menu item 13</button>
+            <div class="sub-menu" id="submenu13">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu14 "}'>Menu item 14</button>
+            <div class="sub-menu" id="submenu14">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu15 "}'>Menu item 15</button>
+            <div class="sub-menu" id="submenu15">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu16 "}'>Menu item 16</button>
+            <div class="sub-menu" id="submenu16">Ajax content goes here</div>
+        </li>
+        <li class="menu-items">
+            <button type="button" class="btn btn-link" data-wb-doaction='{ "action":"ajax", "type": "replace", "url":"themes/theme.html", "container":"#submenu17 "}'>Menu item 17</button>
+            <div class="sub-menu" id="submenu17">Ajax content goes here</div>
+        </li>
+    </ul>
+</nav>

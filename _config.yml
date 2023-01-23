@@ -5,7 +5,7 @@ defaults:
       path: working-on/sliding-nav/
     values:
       css:
-        - ../layered-theme-menu-mr-tp.css
+        - /working-on/sliding-nav/layered-theme-menu-mr-tp.css
         - https://use.fontawesome.com/releases/v5.6.3/css/all.css
       layout: without-h1
       lang: en
