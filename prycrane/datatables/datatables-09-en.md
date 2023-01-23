@@ -1,5 +1,5 @@
 ---
-altLangPage: "/resumes-recherche/design-conversationnel"
+altLangPage: "datatables-09-fr.html"
 breadcrumbs:
   - title: "About Canada.ca"
     link:  "https://www.canada.ca/en/government/about.html"
