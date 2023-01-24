@@ -74,7 +74,7 @@ title: "Bibliothèque de modèles et de configurations de conception"
       <div class="mrgn-tp-md mrgn-bttm-md">
          <table class="wb-tables table table-striped small" aria-live="polite" id="design" data-page-length="100" data-wb-tables='{
             "bDeferRender": true,
-            "ajaxSource": "https://design.canada.ca/ajax/patterns-01-en.json",
+            "ajaxSource": "https://design.canada.ca/ajax/patterns-01-fr.json",
             "order": [0, "asc"],
             "paging": false,
             "info": false,
