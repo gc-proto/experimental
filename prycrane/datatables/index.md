@@ -41,12 +41,12 @@ title: "Canada.ca design system"
 <h3>Iteration 2 (January 24, 2023)</h3>
 <p>Data contains blog update.  Research Summaries to come.</p>
 <ul>
-  <li>landing page
+  <li><strong>Landing page</strong>
 <ul>
  <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-en.html">Canada.ca design system landing page</a></li>
  <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-fr.html">Système de conception de Canada.ca</a></li>
     </ul></li>
-  <li>Pattern library
+  <li><strong>Pattern library</strong>
 <ul>
  <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-en.html">Template and pattern library for Canada.ca</a></li>
  <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-fr.html">Bibliothèque de modèles et de configurations de conception</a></li>
