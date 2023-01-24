@@ -58,8 +58,8 @@ title: "Canada.ca design system"
     <li>
         <strong>Pattern library</strong>
         <ul>
-            <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-en.html">Template and pattern library for Canada.ca</a></li>
-            <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-fr.html">Bibliothèque de modèles et de configurations de conception</a></li>
+            <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-05-en.html">Template and pattern library for Canada.ca</a></li>
+            <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-05-fr.html">Bibliothèque de modèles et de configurations de conception</a></li>
         </ul>
     </li>
 </ul> </details>
