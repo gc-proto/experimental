@@ -94,7 +94,6 @@ title: "Canada.ca design system"
             <li><a href="https://github.com/prycrane/experimental/tree/master/prycrane/datatables/files">dataforweb.csv</a></li>
         </ul>
     </li>
-</ul>
-</div>
+</ul></div>
 <div class="col-md-4"><img class="img-responsive" src="./images/1.-acanthus.2006AU5054_2500.jpg"></div>
 </div>
