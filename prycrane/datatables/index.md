@@ -94,5 +94,5 @@ title: "Canada.ca design system"
          </li>
       </ul>
    </div>
-  <div class="col-md-4"><!--<div><img src="./images/1.-acanthus.2006AU5054_2500.jpg" class="img-responsive"></div>--><div><img src="./images/74cbb5e87318b0b73f902fac91eb6c59--owl-wallpaper-wallpaper-designs.jpg" class="img-responsive"></div><div class="mrgn-tp-sm"><img src="./images/floral-seamless-pattern-flowers-abstract-background-summer-theme-vector-wallpaper-summer-texture-wrapping-spring-summer-50435238.jpg" class="img-responsive"></div><div class="mrgn-tp-sm"><img src="./images/wp8824836.jpg" class="img-responsive"></div></div>
+  <div class="col-md-4"><div><img src="./images/4f4709d6c0609124d48d3f7a82eab053.jpg" class="img-responsive"></div><!--<div><img src="./images/1.-acanthus.2006AU5054_2500.jpg" class="img-responsive"></div>--><div><img src="./images/74cbb5e87318b0b73f902fac91eb6c59--owl-wallpaper-wallpaper-designs.jpg" class="img-responsive"></div><div class="mrgn-tp-sm"><img src="./images/floral-seamless-pattern-flowers-abstract-background-summer-theme-vector-wallpaper-summer-texture-wrapping-spring-summer-50435238.jpg" class="img-responsive"></div><div class="mrgn-tp-sm"><img src="./images/wp8824836.jpg" class="img-responsive"></div>>--></div>
 </div>
