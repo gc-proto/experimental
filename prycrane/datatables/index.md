@@ -93,6 +93,6 @@ title: "Canada.ca design system"
             </ul>
          </li>
       </ul>
-   </div>
-  <div class="col-md-4"><div><img src="./images/1.-acanthus.2006AU5054_2500.jpg" class="img-responsive"></div><div><img src="./images/wp8824836.jpg" class="img-responsive"></div><div><img src="./images/74cbb5e87318b0b73f902fac91eb6c59--owl-wallpaper-wallpaper-designs.jpg" class="img-responsive"></div></div>
+   </div>floral-seamless-pattern-flowers-abstract-background-summer-theme-vector-wallpaper-summer-texture-wrapping-spring-summer-50435238.jpg
+  <div class="col-md-4"><div><img src="./images/1.-acanthus.2006AU5054_2500.jpg" class="img-responsive"></div><div><img src="./images/wp8824836.jpg" class="img-responsive"></div><div><img src="./images/74cbb5e87318b0b73f902fac91eb6c59--owl-wallpaper-wallpaper-designs.jpg" class="img-responsive"></div><div><img src="./images/floral-seamless-pattern-flowers-abstract-background-summer-theme-vector-wallpaper-summer-texture-wrapping-spring-summer-50435238.jpg" class="img-responsive"></div></div>
 </div>
