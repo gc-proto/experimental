@@ -84,10 +84,10 @@ title: "Canada.ca design system"
             </div>
             
             <div class="col-md-12">
-               <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> Filter</button>
+               <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> Filtre</button>
             </div>
             <div class="col-md-12 mrgn-tp-md">
-              <button type="reset" class="btn btn-default full-width">Reset to defaults</button>
+              <button type="reset" class="btn btn-default full-width">Réinitialiser aux valeurs par défaut</button>
             </div>
          </div>
       </form>
@@ -119,8 +119,8 @@ title: "Canada.ca design system"
                   <th class="col-md-02">Source</th>
                   <th class="col-md-05">Description</th>
                   <th>Quand utiliser ce modèle</th>
-                  <th>Category</th>
                   <th>Catégorie</th>
+                  <th>Type</th>
                   <th>Obligatoire</th>
                   <th>les modèles</th>
                </tr>
