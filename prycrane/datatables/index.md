@@ -39,7 +39,7 @@ title: "Canada.ca design system"
 <h2>Mockups using one json data file</h2>
 <p>Only the json file needs to be updated when changes are made.</p>
 <h3>Iteration 2 (January 24, 2023)</h3>
-<p>Data contains blog update.  Research Summaries to come.</p?
+<p>Data contains blog update.  Research Summaries to come.</p>
 <ul>
  <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-en.html">Canada.ca design system landing page</a></li>
  <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-fr.html">Système de conception de Canada.ca</a></li>
