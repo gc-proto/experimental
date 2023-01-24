@@ -47,7 +47,7 @@ title: "Canada.ca design system"
             <summary>Iteration 2 (January 24, 2023)</summary>
 
 <p class="mrgn-tp-lg">Data contains blog update. Research Summaries to come.</p>
-<ul>
+ <ul class="mrgn-bttm-lg">
     <li>
         <strong>Landing page</strong>
         <ul>
