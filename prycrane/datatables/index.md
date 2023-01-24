@@ -58,11 +58,11 @@ title: "Canada.ca design system"
         </ul>
     </li>
 </ul>
-<ul class="list-unstyled">
+<ul class="list-unstyled mrgn-tp-lg">
     <li>
         <details>
             <summary>Iteration 1 (January 18, 2023)</summary>
-            <ul>
+            <ul class="mrgn-tp-lg mrgn-bttm-lg">
                 <li>
                     <a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-02-en.html">Canada.ca design system landing page</a> (All data sets)
                     <ul>
