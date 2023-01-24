@@ -22,7 +22,7 @@ title: "Canada.ca design system"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>dataTable fun</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-8">
-      <h2>Current dataTables</h2>
+      <h2 class="mrgn-tp-sm">Current dataTables</h2>
       <ul>
          <li>
             <a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca design system landing page</a> (Find guidance)
