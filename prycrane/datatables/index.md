@@ -40,8 +40,13 @@ title: "Canada.ca design system"
 </ul>
 <h2>Mockups using one json data file</h2>
 <p>Only the json file needs to be updated when changes are made.</p>
-<h3>Iteration 2 (January 24, 2023)</h3>
-<p>Data contains blog update. Research Summaries to come.</p>
+
+<ul class="list-unstyled mrgn-tp-lg">
+    <li>
+        <details open="open">
+            <summary>Iteration 2 (January 24, 2023)</summary>
+
+<p class="mrgn-tp=lg">Data contains blog update. Research Summaries to come.</p>
 <ul>
     <li>
         <strong>Landing page</strong>
@@ -57,8 +62,8 @@ title: "Canada.ca design system"
             <li><a href="https://prycrane.github.io/experimental/prycrane/datatables/datatables-09-fr.html">Bibliothèque de modèles et de configurations de conception</a></li>
         </ul>
     </li>
-</ul>
-<ul class="list-unstyled mrgn-tp-lg">
+</ul> </details>
+    </li>
     <li>
         <details>
             <summary>Iteration 1 (January 18, 2023)</summary>
