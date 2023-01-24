@@ -18,7 +18,8 @@ share: true
 pageclass: cnt-wdth-lmtd
 title: "Canada.ca design system"
 ---
-<div class="col-md-4 pull-right"><img class="img-responsive" src="./images/1.-acanthus.2006AU5054_2500.jpg"></div>
+<div class="row">
+<div class="col-md-8>
 <h1 property="name" id="wb-cont" dir="ltr">
     <span class="stacked"><span>dataTable fun</span>: <span>Canada.ca design system</span></span>
 </h1>
@@ -94,3 +95,5 @@ title: "Canada.ca design system"
         </ul>
     </li>
 </ul>
+<div class="col-md-4"><img class="img-responsive" src="./images/1.-acanthus.2006AU5054_2500.jpg"></div>
+</div>
