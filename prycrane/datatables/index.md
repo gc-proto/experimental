@@ -94,5 +94,5 @@ title: "Canada.ca design system"
          </li>
       </ul>
    </div>
-  <div class="col-md-4 morris"><p>This is a test</p><div><img src=".images/1.-acanthus.2006AU5054_2500.jpg" class="img-responsive"></div></div>
+  <div class="col-md-4 morris"><p>This is a test</p><div><img src="./images/1.-acanthus.2006AU5054_2500.jpg" class="img-responsive"></div></div>
 </div>
