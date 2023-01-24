@@ -37,6 +37,7 @@ title: "Canada.ca design system"
             <li>Built with a json file on GitHub - <a href="https://design.canada.ca/ajax/patterns.json">patterns.json</a></li>
         </ul>
     </li>
+  <li><a href="https://docs.google.com/spreadsheets/d/1EJ3bttMTpqn59UvNW7w1OIZmOr8CT9GC/edit#gid=361390331">Design system inventory and planning (update spreadsheet)</a></li>
 </ul>
 <h2>Mockups using one json data file</h2>
 <p>Only the json file needs to be updated when changes are made.</p>
