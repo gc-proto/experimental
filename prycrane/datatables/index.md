@@ -9,6 +9,7 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
+- /css/datatables-fun.css
 date: 2023-01-17
 dateModified: 2023-01-24
 description: "The Canada.ca design system provides a usable, consistent and trustworthy online experience for people who access Government of Canada digital services."
