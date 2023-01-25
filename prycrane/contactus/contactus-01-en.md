@@ -11,6 +11,7 @@ description: "Contact the Digital Transformation Office about the Canada.ca desi
 lang: en
 layout: without-h1
 share: false
+nositesearch: true
 showFeedback: false
 noReportProblem: true
 pageclass: cnt-wdth-lmtd
@@ -34,7 +35,7 @@ title: "Contact the Digital Transformation Office"
 			<label for="role"><span class="field-name">Role</span></label>
 			<select class="form-control" id="role" name="role">
 				<option label="Select a role"></option>
-				<option value="1">Comunications advisor</option>
+				<option value="1">Communications advisor</option>
 				<option value="6">Designer</option>
 				<option value="2">Developer</option>				
 				<option value="3">Interaction designer</option>
@@ -47,7 +48,7 @@ title: "Contact the Digital Transformation Office"
 			<select class="form-control" id="about" name="about">
 				<option label="Select an item"></option>
 				<option value="1">General inquiry (Don't be shy we want to hear from you)</option>
-				<option value="6">I am having touble with a current template or pattern</option>
+				<option value="6">I am having trouble with a current template or pattern</option>
 				<option value="6">I have a contribution idea</option>				
 				<option value="2">Canada.ca design blog</option>
 				<option value="3">Content Style Guide</option>
