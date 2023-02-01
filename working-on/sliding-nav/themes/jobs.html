@@ -1,34 +1,9 @@
 ---
 title: Jobs - Canada.ca mandatory template - Canada.ca
 ---
-<style>
-  #gc-auth-jobs,
-  #gc-footer-jobs {
-    display: none;
-  } /* DELISMA: This content is for ajax consumption not for display */
-</style>
-
-  <div id="gc-auth-jobs">
-    <dl>
-      <dt>link</dt>
-      <dd>https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html</dd>
-      <dt>label</dt>
-      <dd>Sign in</dd>
-      <dt>labelExtended</dt>
-      <dd>Sign in to CRA</dd>
-    </dl>
-  </div>
-  <div id="gc-footer-jobs">
-    <ul>
-      <li>contextualFooter:
-        title: Canada.ca
-        links: 
-          - url: someUrl.html
-            text: Contextual link 1
-      </li>
-    </ul>
-  </div>
-  <div class="section" role="menu" id="gc-mnu-jobs">
+  <div class="section" role="menu" id="gc-mnu-jobs" 
+       data-gc-auth='{ "link": "/landing/sign-government-canada-online-account", "labelExtended": "Sign in" }'
+       data-gc-footer='{ "contextualFooter": { "links": [ { "url": "someUrl.html", "text": "Contextual link 1" } ] } }'>
     <div class="provisional profile">
       <div class="container">
         <div class="row">
