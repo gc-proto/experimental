@@ -1,8 +1,8 @@
-#gc-mnu * {
+/* #gc-mnu * {
     outline: 1px solid green;
-}
+} */
 
-#gc-mnu-jobs { /* DELISMA: I think that was required for debugging purposes on desktop. It breaks the mobile view */
+#gc-mnu * { /* DELISMA: I think that was required for debugging purposes on desktop. It breaks the mobile view */
     position: relative; /* DELISMA: for mobile this needs to be overriden */
     padding: 0 0 0 28px;
     border-left: 5px solid #26374a;
