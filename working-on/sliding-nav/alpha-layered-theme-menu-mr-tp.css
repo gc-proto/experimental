@@ -2,14 +2,20 @@
     outline: 1px solid green;
 } */
 
-#gc-mnu-jobs { /* DELISMA: I think that was required for debugging purposes on desktop. It breaks the mobile view */
-    position: relative; /* DELISMA: for mobile this needs to be overriden */
+/* #gc-mnu-jobs {  DELISMA: I think that was required for debugging purposes on desktop. It breaks the mobile view
+    position: relative;  DELISMA: for mobile this needs to be overriden 
     padding: 0 0 0 28px;
     border-left: 5px solid #26374a;
     border-top: 0;
-    display: block; /* DELISMA: for mobile this needs to be overriden */
-}
+    display: block; DELISMA: for mobile this needs to be overriden
+} */
 
+
+#gc-mnu-jobs {  
+    padding: 0 0 0 28px;
+    border-left: 5px solid #26374a;
+    border-top: 0;
+}
 
 /* for desktop  - but it's fine if it can toggle too */
 #jobs:focus + #gc-mnu-jobs,
@@ -71,8 +77,17 @@
     #gc-mnu-jobs {
         left: -40px;
         top: -40px;
+        position: relative;
+        padding: 0 0 0 28px;
+        border-left: 5px solid #26374a;
+        border-top: 0;
+        display: block;
     }
 }
+
+
+
+
 
 /*  not needed because container with classes col- works already fairly well
 @media screen and (min-width: 1201px) and (max-width: 1440px)  {
