@@ -10,6 +10,12 @@
     display: block; DELISMA: for mobile this needs to be overriden
 } */
 
+/* need button when selected to turn dark blue */
+
+.alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem]:active {
+    background-color: #284162;
+    color: white;
+}
 
 #gc-mnu-jobs, 
 #gc-mnu-cit, 
@@ -21,13 +27,13 @@
 #gc-mnu-enviro, 
 #gc-mnu-defence, 
 #gc-mnu-culture,
- #gc-mnu-policing, 
- #gc-mnu-trans, 
- #gc-mnu-canworld, 
- #gc-mnu-money,
- #gc-mnu-science, /* JM: this had a typo and was mn-science */
- #gc-mnu-indigenous,
- #gc-mnu-veterans {  
+#gc-mnu-policing, 
+#gc-mnu-trans, 
+#gc-mnu-canworld, 
+#gc-mnu-money,
+#gc-mnu-science, /* JM: this had a typo and was mn-science */
+#gc-mnu-indigenous,
+#gc-mnu-veterans {  
     padding: 0 0 0 28px;
     border-left: 5px solid #26374a;
     border-top: 0;
