@@ -34,7 +34,8 @@
 #gc-mnu-science, /* JM: this had a typo and was mn-science */
 #gc-mnu-indigenous,
 #gc-mnu-veterans {  
-    padding: 0 0 0 28px;
+    padding: 0 0 20px 28px;
+    border-bottom: 5px solid #f5f5f5;
     border-left: 5px solid #26374a;
     border-top: 0;
     margin-bottom: 15px;
@@ -117,8 +118,7 @@
         left: -90px;
         top: -40px;
         position: relative;
-        padding: 0 0 20px 28px;
-        border-bottom: 5px solid #f5f5f5;
+        padding: 0 0 0 28px;
         border-left: 5px solid #26374a;
         border-top: 0;
         display: block;
