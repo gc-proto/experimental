@@ -11,7 +11,23 @@
 } */
 
 
-#gc-mnu-jobs, #gc-mnu-cit {  
+#gc-mnu-jobs, 
+#gc-mnu-cit, 
+#gc-mnu-travel, 
+#gc-mnu-biz, 
+#gc-mnu-benny, 
+#gc-mnu-health, 
+#gc-mnu-taxes, 
+#gc-mnu-enviro, 
+#gc-mnu-defence, 
+#gc-mnu-culture,
+ #gc-mnu-policing, 
+ #gc-mnu-trans, 
+ #gc-mnu-canworld, 
+ #gc-mnu-money,
+ #gc-mnu-science, /* JM: this had a typo and was mn-science */
+ #gc-mnu-indigenous,
+ #gc-mnu-veterans {  
     padding: 0 0 0 28px;
     border-left: 5px solid #26374a;
     border-top: 0;
@@ -75,7 +91,23 @@
 }
 
 @media (min-width: 990px) {
-    #gc-mnu-jobs, #gc-mnu-cit {
+    #gc-mnu-jobs,
+    #gc-mnu-cit,
+    #gc-mnu-travel,
+    #gc-mnu-biz,
+    #gc-mnu-benny,
+    #gc-mnu-health,
+    #gc-mnu-taxes,
+    #gc-mnu-enviro,
+    #gc-mnu-defence,
+    #gc-mnu-culture,
+    #gc-mnu-policing,
+    #gc-mnu-trans,
+    #gc-mnu-canworld,
+    #gc-mnu-money,
+    #gc-mnu-science, /* JM: this had a typo and was mn-science */
+    #gc-mnu-indigenous,
+    #gc-mnu-veterans {
         left: -90px;
         top: -40px;
         position: relative;
