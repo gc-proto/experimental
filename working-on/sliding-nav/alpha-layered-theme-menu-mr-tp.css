@@ -10,9 +10,9 @@
     display: block; DELISMA: for mobile this needs to be overriden
 } */
 
-/* need button when selected to turn dark blue */
+/* JM: need button when selected to turn dark blue - this isn't working */
 
-.alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem]:active {
+button.selected { 
     background-color: #284162;
     color: white;
 }
