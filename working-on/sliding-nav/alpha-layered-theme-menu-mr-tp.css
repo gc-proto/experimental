@@ -13,7 +13,7 @@
 /* JM: need button when selected to turn dark blue - this isn't working */
 
 button.selected { 
-    background-color: #284162 !important;
+    background-color: #26374a !important;
     color: white !important;
 }
 
