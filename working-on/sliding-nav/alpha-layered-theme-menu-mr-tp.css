@@ -13,8 +13,8 @@
 /* JM: need button when selected to turn dark blue - this isn't working */
 
 button.selected { 
-    background-color: #284162;
-    color: white;
+    background-color: #284162 !important;
+    color: white !important;
 }
 
 #gc-mnu-jobs, 
