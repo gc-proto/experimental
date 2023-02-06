@@ -12,11 +12,17 @@
 
 /* JM: need button when selected to turn dark blue - this isn't working */
 
-button.selected { 
-    background-color: #26374a !important;
-    color: white !important;
+.alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem]:hover {
+    background-color: #f5f5f5;
 }
 
+.alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem][aria-expanded=true]:focus,
+.alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem][aria-expanded=true]:active { 
+    background-color: #26374a;
+    color: white;
+}
+
+#gc-mnu,
 #gc-mnu-jobs, 
 #gc-mnu-cit, 
 #gc-mnu-travel, 
@@ -42,10 +48,10 @@ button.selected {
 }
 
 /* for desktop  - but it's fine if it can toggle too */
-#jobs:focus + #gc-mnu-jobs,
+/* #jobs:focus + #gc-mnu-jobs,
 #jobs:hover + #gc-mnu-jobs {
-    display: block; /* DELISMA: for mobile this needs to be overriden */
-}
+    display: block; /* DELISMA: for mobile this needs to be overriden
+} */
 .alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem] {
     background-color: transparent;
     border: none;
@@ -55,10 +61,6 @@ button.selected {
     padding: 14px 30px;
     text-align: left;
     text-transform: initial;
-}
-
-.alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem]:hover {
-    background-color: #f5f5f5;
 }
 
 .alpha .test-gcweb-menu [role=menuitem] {
@@ -98,6 +100,7 @@ button.selected {
 }
 
 @media (min-width: 990px) {
+    #gc-mnu,
     #gc-mnu-jobs,
     #gc-mnu-cit,
     #gc-mnu-travel,
@@ -150,3 +153,8 @@ button.selected {
         width: 750px;
     }
 } */
+
+/* DEBUG CSS */
+.gc-mnu * {
+    out_line: 1px solid limegreen;
+}
