@@ -18,7 +18,7 @@ body {
 
 .breadcrumb { /* JM fixing the BC alignment */
     position: relative;
-    top: -40px;
+    top: -50px;
 }
 
 /* JM: need button when selected to turn dark blue - this isn't working */
