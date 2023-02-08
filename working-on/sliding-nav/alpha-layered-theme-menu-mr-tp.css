@@ -10,6 +10,17 @@
     display: block; DELISMA: for mobile this needs to be overriden
 } */
 
+
+
+body {
+    margin-top: 30px; /* JM fixing the spacing above the FIP */
+}
+
+.breadcrumb { /* JM fixing the BC alignment */
+    position: relative;
+    top: -40px;
+}
+
 /* JM: need button when selected to turn dark blue - this isn't working */
 
 .alpha .test-gcweb-menu .visible-md.visible-lg button[role=menuitem]:hover {
