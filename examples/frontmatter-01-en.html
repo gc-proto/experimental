@@ -22,11 +22,17 @@ title: "Font awesome"
 <p><a href="https://github.com/gc-proto/experimental/edit/master/examples/frontmatter-01-en.html"><span class="fab fa-github fa-2x"></span></a></p>
 <div class="panel panel-default mrgn-tp-lg">
   <div class="mrgn-tp-md">
-    <table class="wb-tables table small" data-wb-tables='{ 
-															"ordering" : true,
-															"paging": true,
-															"info": false
-																							}'>
+    <table class="wb-tables table small" data-wb-tables='{  
+	    "bDeferRender": true,
+            "ajaxSource": "https://design.canada.ca/ajax/patterns-01-en.json",
+            "order": [0, "asc"],
+            "paging": true,
+            "info": true,
+            "columns": [
+            { "data": "NAME", "className": "" },
+            { "data": "EXAMPLE", "className": "" }
+            ]
+            }'>																		}'>
       <thead>
         <tr>
           <th class="col-md-2">Name</th>
