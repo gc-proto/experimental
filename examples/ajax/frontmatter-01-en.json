@@ -169,7 +169,7 @@
     "TYPE": "Layout"
   }, {
     "NAME": "auth",
-    "CODEEXAMPLE": "auth: \r\n   type: contextual \r\n   link: [link] \r\n   label: Sign in label\r\n   Extended: Sign in to [name]",
+    "CODEEXAMPLE": "<pre>auth: \r\n   type: contextual \r\n   link: [link] \r\n   label: Sign in label\r\n   Extended: Sign in to [name]</pre>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
