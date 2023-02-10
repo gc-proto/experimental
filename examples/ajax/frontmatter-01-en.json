@@ -9,8 +9,38 @@
     "NAME": "breadcrumbs",
     "CODEEXAMPLE": "<pre>breadcrumbs:\r\n - title: [first page title]\r\n   link: [first absolute url of page]\r\n - title: [second page title]\r\n \t link: [second absolute url of page]<\/pre>",
     "DESCRIPTION": "An array of a title and a link. Set by default in posts to Canada.ca > About Canada.ca  > Canada.ca blog. Can be overridden in that format.",
+    "MANDATORY": "Optional",
+	"STATUS": "Stable"  
+  },{
+    "NAME": "date",
+    "CODEEXAMPLE": "<pre>\r\ndate:&nbsp;YYYY&#45;MM&#45;DD\r\n\t<\/pre>",
+    "DESCRIPTION": "Date in ISO format of creation date of post",
     "MANDATORY": "Mandatory",
-	"STATUS": "Optional"  
+	"STATUS": "Stable"  
+  },{
+    "NAME": "description",
+    "CODEEXAMPLE": "<pre>\r\ndateModified:&nbsp;YYYY&#45;MM&#45;DD\r\n\t<\/pre>",
+    "DESCRIPTION": "Will be used in meta name="description" and meta name="dcterm.description". Can't be empty, if not present the site description will be used. Page descriptions should be between 100 and 320 characters.",
+    "MANDATORY": "Mandatory",
+	"STATUS": "Stable"  
+  },{
+    "NAME": "title",
+    "CODEEXAMPLE": "<pre>\r\ntitle:&nbsp;&quot;[Title]&quot;\r\n\t<\/pre>",
+    "DESCRIPTION": "Used for the title tag in the head, the h1 and the meta name="dcterms.title" tag. Page titles should be between 10 and 60 characters.",
+    "MANDATORY": "Mandatory",
+	"STATUS": "Stable"  
+  },{
+    "NAME": "dateModified",
+    "CODEEXAMPLE": "<pre>\r\ndateModified:&nbsp;YYYY&#45;MM&#45;DD\r\n\t<\/pre>",
+    "DESCRIPTION": "Date in ISO format of last modification date of post",
+    "MANDATORY": "Optional",
+	"STATUS": "Stable"  
+  },{
+    "NAME": "lang",
+    "CODEEXAMPLE": "<pre>\r\nlang:&nbsp;en\r\n\t<\/pre>\r\n            <pre>\r\nlang:&nbsp;fr\r\n\t<\/pre>",
+    "DESCRIPTION": "Current language for the post. en and fr are the available options.",
+    "MANDATORY": "Mandatory",
+	"STATUS": "Stable"  
   }
   ]
 }
