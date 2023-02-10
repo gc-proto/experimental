@@ -4,96 +4,112 @@
     "CODEEXAMPLE": "<pre>altLangPage:&nbsp;&quot;[path]/[filename]&quot;</pre>",
     "DESCRIPTION": "Link of translated web page without the site url. Start with a /, lowercase, word separated with dashes (not spaces) and no special characters. When this option is declared the language toggle is present, otherwise it's hidden.",
     "MANDATORY": "Mandatory",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Format"  
   }, {
     "NAME": "breadcrumbs",
     "CODEEXAMPLE": "<pre>breadcrumbs:\r\n - title: [first page title]\r\n   link: [first absolute url of page]\r\n - title: [second page title]\r\n \t link: [second absolute url of page]<\/pre>",
     "DESCRIPTION": "An array of a title and a link. Set by default in posts to Canada.ca > About Canada.ca  > Canada.ca blog. Can be overridden in that format.",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Format"
   }, {
     "NAME": "date",
     "CODEEXAMPLE": "<pre>\r\ndate:&nbsp;YYYY&#45;MM&#45;DD\r\n\t<\/pre>",
     "DESCRIPTION": "Date in ISO format of creation date of post",
     "MANDATORY": "Mandatory",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Metadada"
   }, {
     "NAME": "description",
     "CODEEXAMPLE": "<pre>\r\ndatedescription:&nbsp;[description]\r\n\t<\/pre>",
     "DESCRIPTION": "Will be used in meta name=\"description\" and meta name=\"dcterm.description\". Can't be empty, if not present the site description will be used. Page descriptions should be between 100 and 320 characters.",
     "MANDATORY": "Mandatory",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Metadada"
   }, {
     "NAME": "title",
     "CODEEXAMPLE": "<pre>\r\ntitle:&nbsp;&quot;[Title]&quot;\r\n\t<\/pre>",
     "DESCRIPTION": "Used for the title tag in the head, the h1 and the meta name=\"dcterms.title\" tag. Page titles should be between 10 and 60 characters.",
     "MANDATORY": "Mandatory",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Metadada"
   }, {
     "NAME": "dateModified",
     "CODEEXAMPLE": "<pre>\r\ndateModified:&nbsp;YYYY&#45;MM&#45;DD\r\n\t<\/pre>",
     "DESCRIPTION": "Date in ISO format of last modification date of post",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Metadada"
   }, {
     "NAME": "lang",
     "CODEEXAMPLE": "<pre>\r\nlang:&nbsp;en\r\n\t<\/pre>\r\n            <pre>\r\nlang:&nbsp;fr\r\n\t<\/pre>",
     "DESCRIPTION": "Current language for the post. en and fr are the available options.",
     "MANDATORY": "Mandatory",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Metadada"
   }, {
     "NAME": "css",
     "CODEEXAMPLE": "<pre>\r\ncss:\r\n&nbsp;&nbsp;&nbsp;&#45;&nbsp;https:\/\/design.canada.ca\/css\/split&#45;h1.css\r\n&nbsp;&nbsp;&nbsp;&#45;&nbsp;https:\/\/design.canada.ca\/css\/custom.css\r\n&nbsp;&nbsp;&nbsp;&#45;&nbsp;https:\/\/use.fontawesome.com\/releases\/v5.15.4\/css\/all.css\r\n\t<\/pre>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Format"
   }, {
     "NAME": "nositesearch",
     "CODEEXAMPLE": "<pre>\r\nnositesearch:&nbsp;false\r\n\t<\/pre>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Format"
   }, {
     "NAME": "showFeedback",
     "CODEEXAMPLE": "<pre>\r\nshowFeedback:&nbsp;false\r\n\t<\/pre>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Format"
   }, {
     "NAME": "nomenu",
     "CODEEXAMPLE": "<pre>\r\nnomenu:&nbsp;true\r\n\t<\/pre>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Format"
   }, {
     "NAME": "share",
     "CODEEXAMPLE": "<pre>\r\nshare:&nbsp;false\r\n\t<\/pre>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Format"
   }, {
     "NAME": "author",
     "CODEEXAMPLE": "<pre>\r\nauthor:&nbsp;&quot;[Author]&quot;\r\n\t<\/pre>",
     "DESCRIPTION": "Optional. meta name=\"dcterm.author\" and meta name=\"dcterm.creator\"",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "metadata"
   }, {
     "NAME": "pageclass",
     "CODEEXAMPLE": "<pre>\r\napageclass:&nbsp;cnt-wdth-lmtd\r\n\t<\/pre>",
     "DESCRIPTION": "Allow to add a class to the body tag",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Format"
   }, {
     "NAME": "pageType",
     "CODEEXAMPLE": "",
     "DESCRIPTION": "To use when archived page are necessary.",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Metadada"
   }, {
     "NAME": "subject",
     "CODEEXAMPLE": "",
     "DESCRIPTION": "Comma-separated list of topics to fill meta name=\"dcterms.subject\" tag",
     "MANDATORY": "Optional",
-    "STATUS": "Stable"
+    "STATUS": "Stable",
+    "TYPE": "Metadada"
   }]
 }
