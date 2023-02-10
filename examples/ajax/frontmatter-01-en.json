@@ -168,8 +168,8 @@
     "STATUS": "Stable",
     "TYPE": "Layout"
   }, {
-    "NAME": "",
-    "CODEEXAMPLE": "",
+    "NAME": "auth",
+    "CODEEXAMPLE": "auth: \r\n   type: contextual \r\n   link: [link] \r\n   label: Sign in label\r\n   Extended: Sign in to [name]",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
