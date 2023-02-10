@@ -19,7 +19,7 @@
     "STATUS": "Stable"
   }, {
     "NAME": "description",
-    "CODEEXAMPLE": "<pre>\r\ndateModified:&nbsp;YYYY&#45;MM&#45;DD\r\n\t<\/pre>",
+    "CODEEXAMPLE": "<pre>\r\ndatedescription:&nbsp;[description]\r\n\t<\/pre>",
     "DESCRIPTION": "Will be used in meta name=\"description\" and meta name=\"dcterm.description\". Can't be empty, if not present the site description will be used. Page descriptions should be between 100 and 320 characters.",
     "MANDATORY": "Mandatory",
     "STATUS": "Stable"
@@ -45,55 +45,55 @@
     "NAME": "css",
     "CODEEXAMPLE": "<pre>\r\ncss:\r\n&nbsp;&nbsp;&nbsp;&#45;&nbsp;https:\/\/design.canada.ca\/css\/split&#45;h1.css\r\n&nbsp;&nbsp;&nbsp;&#45;&nbsp;https:\/\/design.canada.ca\/css\/custom.css\r\n&nbsp;&nbsp;&nbsp;&#45;&nbsp;https:\/\/use.fontawesome.com\/releases\/v5.15.4\/css\/all.css\r\n\t<\/pre>",
     "DESCRIPTION": "",
-    "MANDATORY": "Mandatory",
+    "MANDATORY": "Optional",
     "STATUS": "Stable"
   }, {
     "NAME": "nositesearch",
     "CODEEXAMPLE": "<pre>\r\nnositesearch:&nbsp;false\r\n\t<\/pre>",
     "DESCRIPTION": "",
-    "MANDATORY": "Mandatory",
+    "MANDATORY": "Optional",
     "STATUS": "Stable"
   }, {
     "NAME": "showFeedback",
     "CODEEXAMPLE": "<pre>\r\nshowFeedback:&nbsp;false\r\n\t<\/pre>",
     "DESCRIPTION": "",
-    "MANDATORY": "Mandatory",
+    "MANDATORY": "Optional",
     "STATUS": "Stable"
   }, {
     "NAME": "nomenu",
     "CODEEXAMPLE": "<pre>\r\nnomenu:&nbsp;true\r\n\t<\/pre>",
     "DESCRIPTION": "",
-    "MANDATORY": "Mandatory",
+    "MANDATORY": "Optional",
     "STATUS": "Stable"
   }, {
     "NAME": "share",
     "CODEEXAMPLE": "<pre>\r\nshare:&nbsp;false\r\n\t<\/pre>",
     "DESCRIPTION": "",
-    "MANDATORY": "Mandatory",
+    "MANDATORY": "Optional",
     "STATUS": "Stable"
   }, {
     "NAME": "author",
     "CODEEXAMPLE": "<pre>\r\nauthor:&nbsp;&quot;[Author]&quot;\r\n\t<\/pre>",
     "DESCRIPTION": "Optional. meta name=\"dcterm.author\" and meta name=\"dcterm.creator\"",
-    "MANDATORY": "Mandatory",
+    "MANDATORY": "Optional",
     "STATUS": "Stable"
   }, {
     "NAME": "pageclass",
     "CODEEXAMPLE": "<pre>\r\napageclass:&nbsp;cnt-wdth-lmtd\r\n\t<\/pre>",
     "DESCRIPTION": "Allow to add a class to the body tag",
-    "MANDATORY": "Mandatory",
+    "MANDATORY": "Optional",
     "STATUS": "Stable"
   }, {
     "NAME": "pageType",
     "CODEEXAMPLE": "",
     "DESCRIPTION": "To use when archived page are necessary.",
-    "MANDATORY": "Mandatory",
+    "MANDATORY": "Optional",
     "STATUS": "Stable"
   }, {
     "NAME": "subject",
     "CODEEXAMPLE": "",
     "DESCRIPTION": "Comma-separated list of topics to fill meta name=\"dcterms.subject\" tag",
-    "MANDATORY": "Mandatory",
+    "MANDATORY": "Optional",
     "STATUS": "Stable"
   }]
 }
