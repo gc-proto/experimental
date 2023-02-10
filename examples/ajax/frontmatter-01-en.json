@@ -89,7 +89,7 @@
     "DESCRIPTION": "Optional. meta name=\"dcterm.author\" and meta name=\"dcterm.creator\"",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
-    "TYPE": "metadata"
+    "TYPE": "Metadata"
   }, {
     "NAME": "pageclass",
     "CODEEXAMPLE": "<pre>\r\napageclass:&nbsp;cnt-wdth-lmtd\r\n\t<\/pre>",
@@ -111,5 +111,68 @@
     "MANDATORY": "Optional",
     "STATUS": "Stable",
     "TYPE": "Metadada"
+  }, {
+    "NAME": "core",
+    "CODEEXAMPLE": "",
+    "DESCRIPTION": "",
+    "MANDATORY": "Optional",
+    "STATUS": "Stable",
+    "TYPE": "Layout"
+  }, {
+    "NAME": "default",
+    "CODEEXAMPLE": "",
+    "DESCRIPTION": "",
+    "MANDATORY": "Optional",
+    "STATUS": "Stable",
+    "TYPE": "Layout"
+  }, {
+    "NAME": "fluid",
+    "CODEEXAMPLE": "",
+    "DESCRIPTION": "",
+    "MANDATORY": "Optional",
+    "STATUS": "Stable",
+    "TYPE": "Layout"
+  }, {
+    "NAME": "layout-home",
+    "CODEEXAMPLE": "",
+    "DESCRIPTION": "",
+    "MANDATORY": "Optional",
+    "STATUS": "Stable",
+    "TYPE": "Layout"
+  }, {
+    "NAME": "layout-servermesssage",
+    "CODEEXAMPLE": "",
+    "DESCRIPTION": "",
+    "MANDATORY": "Optional",
+    "STATUS": "Stable",
+    "TYPE": "Layout"
+  }, {
+    "NAME": "layout-splashpage",
+    "CODEEXAMPLE": "",
+    "DESCRIPTION": "",
+    "MANDATORY": "Optional",
+    "STATUS": "Stable",
+    "TYPE": "Layout"
+  }, {
+    "NAME": "no-container",
+    "CODEEXAMPLE": "",
+    "DESCRIPTION": "",
+    "MANDATORY": "Optional",
+    "STATUS": "Stable",
+    "TYPE": "Layout"
+  }, {
+    "NAME": "without-h1",
+    "CODEEXAMPLE": "",
+    "DESCRIPTION": "",
+    "MANDATORY": "Optional",
+    "STATUS": "Stable",
+    "TYPE": "Layout"
+  }, {
+    "NAME": "",
+    "CODEEXAMPLE": "",
+    "DESCRIPTION": "",
+    "MANDATORY": "Optional",
+    "STATUS": "Stable",
+    "TYPE": "Layout"
   }]
 }
