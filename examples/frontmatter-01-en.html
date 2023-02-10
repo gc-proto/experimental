@@ -24,94 +24,26 @@ title: "Font awesome"
   <div class="mrgn-tp-md">
     <table class="wb-tables table small mrgn-tp-lg brdr-tp" aria-live="polite" id="design" data-page-length="10" data-wb-tables='{  
 	    "bDeferRender": true,
+	    "ajaxSource": "./ajax/fronmatter-01-en.json"														 
             "order": [0, "asc"],
             "paging": true,
             "info": true,
             "columns": [
             { "data": "NAME", "className": "" },
-            { "data": "EXAMPLE", "className": "", "orderable": false }
-            ]
+            { "data": "CODEEXAMPLE", "className": "", "orderable": false },
+            { "data": "DESCRIPTION", "className": "" },
+	    { "data": "MANDATORY", "className": "" },
+	    { "data": "STATUS", "className": "" }
             }'>																	
       <thead>
         <tr>
           <th class="col-md-2">Name</th>
-          <th class="col-md-10">Format example</th>
+          <th class="col-md-3">Format example</th>
+		          <th class="col-md-3">Description</th>
+		          <th class="col-md-2">Mandatory</th>
+		          <th class="col-md-2">Status</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <td><strong>altLangPage</strong></td>
-          <td><pre>altLangPage:&nbsp;&quot;[path]/[filename]&quot;</pre></td>
-        </tr>
-        <tr>
-          <td><strong>breadcrumbs</strong></td>
-          <td><pre>
-breadcrumbs:
-&nbsp;&nbsp;&nbsp;&#45;&nbsp;title:&nbsp;[Page&nbsp;title]
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;link:&nbsp;&quot;[link&nbsp;url]&quot;
-	</pre></td>
-        </tr>
-        <tr>
-          <td><strong>css</strong></td>
-          <td><pre>
-css:
-&nbsp;&nbsp;&nbsp;&#45;&nbsp;https://design.canada.ca/css/split&#45;h1.css
-&nbsp;&nbsp;&nbsp;&#45;&nbsp;https://design.canada.ca/css/custom.css
-&nbsp;&nbsp;&nbsp;&#45;&nbsp;https://use.fontawesome.com/releases/v5.15.4/css/all.css
-	</pre></td>
-        </tr>
-        <tr>
-          <td><strong>date</strong></td>
-          <td><pre>
-date:&nbsp;YYYY&#45;MM&#45;DD
-	</pre></td>
-        </tr>
-        <tr>
-          <td><strong>dateModified</strong></td>
-          <td><pre>
-dateModified:&nbsp;YYYY&#45;MM&#45;DD
-	</pre></td>
-        </tr>
-        <tr>
-          <td><strong>description</strong></td>
-          <td><pre>
-description:&nbsp;&quot;[Description]&quot;
-	</pre></td>
-        </tr>
-        <tr>
-          <td><strong>lang</strong></td>
-          <td><pre>
-lang:&nbsp;en
-	</pre>
-            <pre>
-lang:&nbsp;fr
-	</pre></td>
-        </tr>
-        <tr>
-          <td><strong>share</strong></td>
-          <td><pre>
-share:&nbsp;false
-	</pre></td>
-        </tr>
-        <tr>
-          <td><strong>nositesearch</strong></td>
-          <td><pre>
-nositesearch:&nbsp;true
-	</pre></td>
-        </tr>
-        <tr>
-          <td><strong>showFeedback</strong></td>
-          <td><pre>
-showFeedback:&nbsp;false
-	</pre></td>
-        </tr>
-        <tr>
-          <td><strong>nomenu</strong></td>
-          <td><pre>
-nomenu:&nbsp;true
-	</pre></td>
-        </tr>
-      </tbody>
-    </table>
+      </table>
   </div>
 </div>
