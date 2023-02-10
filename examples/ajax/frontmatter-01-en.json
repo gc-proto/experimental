@@ -170,7 +170,7 @@
   }, {
     "NAME": "auth",
     "CODEEXAMPLE": "<pre>auth: \r\n   type: contextual \r\n   link: [link] \r\n   label: Sign in label\r\n   Extended: Sign in to [name]</pre>",
-    "DESCRIPTION": "",
+    "DESCRIPTION": "Use to include the Sign in button",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
     "TYPE": "Layout"
