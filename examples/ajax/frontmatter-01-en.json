@@ -113,7 +113,7 @@
     "TYPE": "Metadada"
   }, {
     "NAME": "core",
-    "CODEEXAMPLE": "",
+    "CODEEXAMPLE": "<a href=\"https://test.canada.ca/experimental/examples/ex-layout-core-01-en.html\">layout: core</a>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
