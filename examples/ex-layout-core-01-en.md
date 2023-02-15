@@ -1,9 +1,9 @@
 ---
 date: 2023-02-15
 dateModified: 2023-02-15
-description: "Layout-CORE"
+description: "no-container"
 lang: en
-layout: core
-title: "Layout-CORE"
+layout: no-container
+title: "no-container"
 ---
-<div class="well mrgn-tp-lg"><p>Hi!  I'm Layout: CORE</p></div>
+<div class="well mrgn-tp-lg"><p>Hi!  I'm Layout: no-container</p></div>
