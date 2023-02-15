@@ -120,49 +120,49 @@
     "TYPE": "Layout"
   }, {
     "NAME": "default",
-    "CODEEXAMPLE": "",
+    "CODEEXAMPLE": "<a href=\"https://test.canada.ca/experimental/examples/ex-layout-default-01-en.html\">layout: default</a>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
     "TYPE": "Layout"
   }, {
     "NAME": "fluid",
-    "CODEEXAMPLE": "",
+    "CODEEXAMPLE": "<a href=\"https://test.canada.ca/experimental/examples/ex-layout-fuid-01-en.html\">layout: fluid</a>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
     "TYPE": "Layout"
   }, {
     "NAME": "layout-home",
-    "CODEEXAMPLE": "",
+    "CODEEXAMPLE": "<a href=\"https://test.canada.ca/experimental/examples/ex-layout-home-01-en.html\">layout: layout-home</a>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
     "TYPE": "Layout"
   }, {
     "NAME": "layout-servermesssage",
-    "CODEEXAMPLE": "",
+    "CODEEXAMPLE": "<a href=\"https://test.canada.ca/experimental/examples/ex-layout-servermesssage-01-en.html\">layout: layout-servermesssage</a>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
     "TYPE": "Layout"
   }, {
     "NAME": "layout-splashpage",
-    "CODEEXAMPLE": "",
+    "CODEEXAMPLE": "<a href=\"https://test.canada.ca/experimental/examples/ex-layout-splashpage-01-en.html\">layout: layout-splashpage</a>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
     "TYPE": "Layout"
   }, {
     "NAME": "no-container",
-    "CODEEXAMPLE": "",
+    "CODEEXAMPLE": "<a href=\"https://test.canada.ca/experimental/examples/ex-layout-no-container-01-en.html\">layout: no-container</a>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
     "TYPE": "Layout"
   }, {
     "NAME": "without-h1",
-    "CODEEXAMPLE": "",
+    "CODEEXAMPLE": "<a href=\"https://test.canada.ca/experimental/examples/ex-without-h1-01-en.html\">layout: without-h1</a>",
     "DESCRIPTION": "",
     "MANDATORY": "Optional",
     "STATUS": "Stable",
