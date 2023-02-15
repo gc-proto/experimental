@@ -1,9 +1,9 @@
 ---
 date: 2023-02-15
 dateModified: 2023-02-15
-description: "layout-home"
+description: "servermesssage"
 lang: en
-layout: layout-servermesssage
+layout: servermesssage
 title: "layout-servermesssage"
 ---
 <div class="well mrgn-tp-lg"><p>Hi!  I'm Layout: layout-servermesssage</p></div>
