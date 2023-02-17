@@ -22,7 +22,7 @@
     "TYPE": "Metadada"
   }, {
     "NAME": "description",
-    "CODEEXAMPLE": "<pre>\r\ndatedescription:&nbsp;[description]\r\n\t<\/pre>",
+    "CODEEXAMPLE": "<pre>\r\ndescription:&nbsp;[description]\r\n\t<\/pre>",
     "DESCRIPTION": "Will be used in meta name=\"description\" and meta name=\"dcterm.description\". Can't be empty, if not present the site description will be used. Page descriptions should be between 100 and 320 characters.",
     "MANDATORY": "Mandatory",
     "STATUS": "Stable",
