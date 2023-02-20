@@ -112,8 +112,8 @@
   
       // Can the menu be closed?
       // Get the menu item that has the focus.
-      var currentFocusIsOn = elm.nextElementSibling.querySelector( "[role=menuitem]:focus" );
-      var siblingHasFocus = elm.parentElement.parentElement.querySelector( "[role=menuitem]:focus" );
+      var currentFocusIsOn = elm.nextElementSibling.querySelector( "[role=menu]:focus" );
+      var siblingHasFocus = elm.parentElement.parentElement.querySelector( "[role=menu]:focus" );
   
       // Check if we keep the menu opon
       if ( currentFocusIsOn || siblingHasFocus === elm ) {
@@ -217,7 +217,7 @@
         OpenMenu( elm );
   
         // Focus on the first menu item
-        elmToGiveFocus = elm.nextElementSibling.querySelector( "[role=menuitem]" );
+        elmToGiveFocus = elm.nextElementSibling.querySelector( "[role=menu]" );
         elmToGiveFocus.focus();
         elmToGiveFocus.setAttribute( "tabindex", "0" );
   

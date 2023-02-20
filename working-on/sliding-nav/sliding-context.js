@@ -18,6 +18,7 @@
         },
         render = function ( event, data ) {
             var elm = event.currentTarget,
+                data = data,
                 $elm = $( elm );
 
             if ( elm.getAttribute( "aria-expanded" ) === "true" ) {
@@ -26,15 +27,9 @@
                 $( "button" ).attr( "aria-expanded", false );
                 $elm.attr( "aria-expanded", true );
             }
-            /* $( "#wb-so a" ).attr( "href" );
-            $( "#wb-so .hidden-xs" ).text( );
-            $each( function( key, value ) {
-                $( "#gc-contextual a" ).text( value.text );
-                $( "#gc-contextual a").attr( "href", value.url );
-            } ) */
         };
 
-    $document.on( "click", ".gc-mnu button", function( event, data ) {
+    $document.on( "click", ".gcweb-v2 [aria-haspopup]", function( event, data ) {
         render( event, data )
     });
     $document.on( "timerpoke.wb" + initEvent, selector, init );

@@ -1,21 +1,19 @@
 ---
 auth:
   type: contextual
-  link: https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html
-  label: Sign in
-  labelExtended: Sign in to CRA
+  label: "Sign in"
+  labelExtended: "Sign in"
+  json: true
 css:
   - ./layered-theme-menu-mr-tp.css
   - https://use.fontawesome.com/releases/v5.6.3/css/all.css
   - ./alpha-layered-theme-menu-mr-tp.css
 contextualFooter:
   title: Canada.ca
-  links: 
-    - url: someUrl.html
-      text: Contextual link 1
-feedbackPath: "ajax/report-problem-en.html"
+  links: ""
+noReportProblem: true
 script:
-  - ./sliding-nav.js
+  - ./sliding-nav-cleaned.js
   - ./sliding-context.js
 title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 ---
@@ -25,55 +23,55 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 		<div class="gc-nav container visible-xs visible-sm">
 			<ul aria-orientation="vertical" class="parent-list" role="menu">
 				<li role="presentation">
-					<a aria-controls="gc-mnu-jobs" aria-expanded="false" aria-haspopup="true" href="./themes/jobs.html" id="jobs" role="menuitem" data-ajax-after="themes/jobs.html #gc-mnu-jobs" tabindex="-1">Jobs</a>
+					<a aria-controls="gc-mnu-jobs" aria-expanded="false" aria-haspopup="true" href="./themes/jobs.html" id="jobs" role="menuitem" data-ajax-after="themes/jobs.html #gc-mnu" tabindex="-1">Jobs</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-cit" aria-expanded="false" aria-haspopup="true" href="./themes/immigration.html" id="immigration" role="menuitem" data-ajax-after="themes/immigration.html #gc-mnu-cit" tabindex="-1">Immigration and citizenship</a>
+					<a aria-controls="gc-mnu-cit" aria-expanded="false" aria-haspopup="true" href="./themes/immigration.html" id="immigration" role="menuitem" data-ajax-after="themes/immigration.html #gc-mnu" tabindex="-1">Immigration and citizenship</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-travel" aria-expanded="false" aria-haspopup="true" href="./themes/travel.html" id="travel" role="menuitem" data-ajax-after="themes/travel.html #gc-mnu-travel" tabindex="-1">Travel and tourism</a>
+					<a aria-controls="gc-mnu-travel" aria-expanded="false" aria-haspopup="true" href="./themes/travel.html" id="travel" role="menuitem" data-ajax-after="themes/travel.html #gc-mnu" tabindex="-1">Travel and tourism</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-biz" aria-expanded="false" aria-haspopup="true" href="./themes/business.html" id="business" role="menuitem" data-ajax-after="themes/business.html #gc-mnu-biz" tabindex="-1">Business</a>
+					<a aria-controls="gc-mnu-biz" aria-expanded="false" aria-haspopup="true" href="./themes/business.html" id="business" role="menuitem" data-ajax-after="themes/business.html #gc-mnu" tabindex="-1">Business</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-benny" aria-expanded="false" aria-haspopup="true" href="./themes/benefits.html" id="benefits" role="menuitem" data-ajax-after="themes/benefits.html #gc-mnu-benny" tabindex="-1">Benefits</a>
+					<a aria-controls="gc-mnu-benny" aria-expanded="false" aria-haspopup="true" href="./themes/benefits.html" id="benefits" role="menuitem" data-ajax-after="themes/benefits.html #gc-mnu" tabindex="-1">Benefits</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-health" aria-expanded="false" aria-haspopup="true" href="./themes/health.html" id="health" role="menuitem" data-ajax-after="themes/health.html #gc-mnu-health" tabindex="-1">Health</a>
+					<a aria-controls="gc-mnu-health" aria-expanded="false" aria-haspopup="true" href="./themes/health.html" id="health" role="menuitem" data-ajax-after="themes/health.html #gc-mnu" tabindex="-1">Health</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-taxes" aria-expanded="false" aria-haspopup="true" href="./themes/taxes.html" id="taxes" role="menuitem" data-ajax-after="themes/taxes.html #gc-mnu-taxes" tabindex="-1">Taxes</a>
+					<a aria-controls="gc-mnu-taxes" aria-expanded="false" aria-haspopup="true" href="./themes/taxes.html" id="taxes" role="menuitem" data-ajax-after="themes/taxes.html #gc-mnu" tabindex="-1">Taxes</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-enviro" aria-expanded="false" aria-haspopup="true" href="./themes/environment.html" role="menuitem" data-ajax-after="themes/environment.html #gc-mnu-enviro" tabindex="-1">Environment and natural resources</a>
+					<a aria-controls="gc-mnu-enviro" aria-expanded="false" aria-haspopup="true" href="./themes/environment.html" role="menuitem" data-ajax-after="themes/environment.html #gc-mnu" tabindex="-1">Environment and natural resources</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-defence" aria-expanded="false" aria-haspopup="true" href="./themes/defence.html" role="menuitem" data-ajax-after="themes/defence.html #gc-mnu-defence" tabindex="-1">National security and defence</a>
+					<a aria-controls="gc-mnu-defence" aria-expanded="false" aria-haspopup="true" href="./themes/defence.html" role="menuitem" data-ajax-after="themes/defence.html #gc-mnu" tabindex="-1">National security and defence</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-culture" aria-expanded="false" aria-haspopup="true" href="./themes/culture.html" role="menuitem" data-ajax-after="themes/culture.html #gc-mnu-culture" tabindex="-1">Culture, history and sport</a>
+					<a aria-controls="gc-mnu-culture" aria-expanded="false" aria-haspopup="true" href="./themes/culture.html" role="menuitem" data-ajax-after="themes/culture.html #gc-mnu" tabindex="-1">Culture, history and sport</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-policing" aria-expanded="false" aria-haspopup="true" href="./themes/policing.html" role="menuitem" data-ajax-after="themes/policing.html #gc-mnu-policing" tabindex="-1">Policing, justice and emergencies</a>
+					<a aria-controls="gc-mnu-policing" aria-expanded="false" aria-haspopup="true" href="./themes/policing.html" role="menuitem" data-ajax-after="themes/policing.html #gc-mnu" tabindex="-1">Policing, justice and emergencies</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-trans" aria-expanded="false" aria-haspopup="true" href="./themes/transport.html" role="menuitem" data-ajax-after="themes/transport.html #gc-mnu-trans" tabindex="-1">Transport and infrastructure</a>
+					<a aria-controls="gc-mnu-trans" aria-expanded="false" aria-haspopup="true" href="./themes/transport.html" role="menuitem" data-ajax-after="themes/transport.html #gc-mnu" tabindex="-1">Transport and infrastructure</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-canworld" aria-expanded="false" aria-haspopup="true" href="./themes/canada-world.html" role="menuitem" data-ajax-after="themes/canada-world.html #gc-mnu-canworld" tabindex="-1">Canada and the world</a>
+					<a aria-controls="gc-mnu-canworld" aria-expanded="false" aria-haspopup="true" href="./themes/canada-world.html" role="menuitem" data-ajax-after="themes/canada-world.html #gc-mnu" tabindex="-1">Canada and the world</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-money" aria-expanded="false" aria-haspopup="true" href="./themes/money.html" role="menuitem" data-ajax-after="themes/money.html #gc-mnu-money" tabindex="-1">Money and finances</a>
+					<a aria-controls="gc-mnu-money" aria-expanded="false" aria-haspopup="true" href="./themes/money.html" role="menuitem" data-ajax-after="themes/money.html #gc-mnu" tabindex="-1">Money and finances</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-science" aria-expanded="false" aria-haspopup="true" href="./themes/science.html" role="menuitem" data-ajax-after="themes/science.html #gc-mnu-science" tabindex="-1">Science and innovation</a>
+					<a aria-controls="gc-mnu-science" aria-expanded="false" aria-haspopup="true" href="./themes/science.html" role="menuitem" data-ajax-after="themes/science.html #gc-mnu" tabindex="-1">Science and innovation</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-indigenous" aria-expanded="false" aria-haspopup="true" href="./themes/indigenous.html" role="menuitem" data-ajax-after="themes/indigenous.html #gc-mnu-indigenous" tabindex="-1">Indigenous peoples</a>
+					<a aria-controls="gc-mnu-indigenous" aria-expanded="false" aria-haspopup="true" href="./themes/indigenous.html" role="menuitem" data-ajax-after="themes/indigenous.html #gc-mnu" tabindex="-1">Indigenous peoples</a>
 				</li>
 				<li role="presentation">
-					<a aria-controls="gc-mnu-veterans" aria-expanded="false" aria-haspopup="true" href="./themes/veterans.html" id="veterans" role="menuitem" data-ajax-after="themes/veterans.html #gc-mnu-veterans" tabindex="-1">Veterans and military</a>
+					<a aria-controls="gc-mnu-veterans" aria-expanded="false" aria-haspopup="true" href="./themes/veterans.html" id="veterans" role="menuitem" data-ajax-after="themes/veterans.html #gc-mnu" tabindex="-1">Veterans and military</a>
 				</li>
 			</ul>
 		</div>
@@ -81,17 +79,47 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 			<div class="row">
 				<ul aria-orientation="vertical" class="parent-list col-md-4" role="menu">
 					<li role="presentation">
+						<button type="button" id="debug" role="menuitem" tabindex="-1" data-wb-docation='[
+						{
+							"action": "addClass",
+							"source": "#debug",
+							"class": "hidden"
+						},
+						{
+							"action": "ajax",
+							"url": "themes/reset.html #gc-mnu",
+							"container": "#gc-mnu-container",
+							"type": "replace"
+						},
+						{
+							"action": "patch",
+							"source": "#contact",
+							"patches":
+								{
+									"op": "move",
+									"path": "/current",
+									"from": "/reset"
+								}
+						}
+					]'>First, debug</button></li>
+					<li role="presentation">
 						<button 
 							aria-controls="gc-mnu" 
 							aria-expanded="false" 
 							aria-haspopup="true"
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/jobs.html #gc-mnu",
 									"container": "#gc-mnu-container",
 									"type": "replace"
-								},{
+								},
+								{
 									"action": "patch",
 									"source": "#contact",
 									"patches": [
@@ -115,6 +143,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-expanded="false" 
 							aria-haspopup="true" 
 							data-wb-doaction='[
+								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
 								{
 									"action": "ajax", 
 									"url": "themes/immigration.html #gc-mnu", 
@@ -145,6 +178,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-haspopup="true" 
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/travel.html #gc-mnu", 
 									"container": "#gc-mnu-container",
@@ -169,6 +207,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-expanded="false"
 							aria-haspopup="true"
 							data-wb-doaction='[
+								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
 								{
 									"action": "ajax",
 									"url": "themes/business.html #gc-mnu",
@@ -195,6 +238,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-haspopup="true"
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/benefits.html #gc-mnu",
 									"container": "#gc-mnu-container",
@@ -207,7 +255,7 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 										{
 											"op": "move",
 											"path": "/current",
-											"from": "/benny"
+											"from": "/benefits"
 										}
 									]
 								}
@@ -219,6 +267,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-expanded="false"
 							aria-haspopup="true"
 							data-wb-doaction='[
+								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
 								{
 									"action": "ajax",
 									"url": "themes/health.html #gc-mnu",
@@ -243,6 +296,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-expanded="false"
 							aria-haspopup="true"
 							data-wb-doaction='[
+								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
 								{
 									"action": "ajax",
 									"url": "themes/taxes.html #gc-mnu",
@@ -269,6 +327,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-haspopup="true" 
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/environment.html #gc-mnu",
 									"container": "#gc-mnu-container",
@@ -293,6 +356,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-expanded="false"
 							aria-haspopup="true"
 							data-wb-doaction='[
+								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
 								{
 									"action": "ajax",
 									"url": "themes/defence.html #gc-mnu",
@@ -319,6 +387,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-haspopup="true"
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/culture.html #gc-mnu",
 									"container": "#gc-mnu-container",
@@ -343,6 +416,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-expanded="false"
 							aria-haspopup="true"
 							data-wb-doaction='[
+								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
 								{
 									"action": "ajax",
 									"url": "themes/policing.html #gc-mnu",
@@ -369,6 +447,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-haspopup="true"
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/transport.html #gc-mnu",
 									"container": "#gc-mnu-container",
@@ -394,6 +477,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-haspopup="true"
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/canada-world.html #gc-mnu",
 									"container": "#gc-mnu-container",
@@ -406,7 +494,7 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 										{
 											"op": "move",
 											"path": "/current",
-											"from": "/canada-world"
+											"from": "/world"
 										}
 									]
 								}
@@ -418,6 +506,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-expanded="false"
 							aria-haspopup="true"
 							data-wb-doaction='[
+								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
 								{
 									"action": "ajax",
 									"url": "themes/money.html #gc-mnu",
@@ -444,6 +537,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-haspopup="true"
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/science.html #gc-mnu",
 									"container": "#gc-mnu-container",
@@ -469,6 +567,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-haspopup="true"
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/indigenous.html #gc-mnu",
 									"container": "#gc-mnu-container",
@@ -477,13 +580,12 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 								{
 									"action": "patch",
 									"source": "#contact",
-									"patches": [
+									"patches":
 										{
 											"op": "move",
 											"path": "/current",
 											"from": "/indigenous"
 										}
-									]
 								}
 							]' id="indigenous-lg" role="menuitem" tabindex="-1" type="button">Indigenous peoples</button>
 					</li>
@@ -494,6 +596,11 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 							aria-haspopup="true"
 							data-wb-doaction='[
 								{
+									"action": "addClass",
+									"source": "[data-display-none]",
+									"class": "hidden"
+								},
+								{
 									"action": "ajax",
 									"url": "themes/veterans.html #gc-mnu",
 									"container": "#gc-mnu-container",
@@ -502,13 +609,12 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 								{
 									"action": "patch",
 									"source": "#contact",
-									"patches": [
+									"patches":
 										{
 											"op": "move",
 											"path": "/current",
 											"from": "/veterans"
 										}
-									]
 								}
 							]' id="veterans-lg" role="menuitem" tabindex="-1" type="button">Veterans and military</button>
 					</li>
@@ -518,22 +624,23 @@ title: Sliding navigation demo - Canada.ca mandatory template - Canada.ca
 		</div>
 	</div>
 </div>
-<!-- <div id="contact" data-wb-jsonmanager='{
+<div id="contact" data-wb-jsonmanager='{
 	"url": "contextual.json",
 	"name": "contextual",
 	"wait": true
 }'></div>
-<ul data-json-replace='{
-	"url": "#[contextual]/current/contextualFooter/links/0/url",
+<!-- <h2 class="small text-primary" data-json-replace='#[contextual]/current/auth/labelExtended'>Nothing to see</h2>
+<ul class="small" data-wb-json='{
+	"url": "#[contextual]/current/contextualFooter/links",
 	"mapping": [
-		{ 
-			"selector": "a",
-			"type": "attr",
-			"attr": "href"
-		}
-	],
-	"text": "#[contextual]/current/contextualFooter/links/0/text/"
-	}'
+		{ "selector": "a", "value": "/text" },
+		{ "selector": "a", "attr": "href", "value": "/url" }
+	]
+}'
 >
-	<template><li><a href></a></li></template>
+	<template>
+		<li data-display-none>
+			<a href></a>
+		</li>
+	</template>
 </ul> -->
