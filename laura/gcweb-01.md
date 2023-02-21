@@ -16,16 +16,17 @@ pageclass: cnt-wdth-lmtd
 title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
+<h2>Current iteration</h2>
 <div class="row">
-  <div class="col-md-3 brdr-bttm"><strong>Status</strong></div>
+  <div class="col-md-3 brdr-lft"><strong>Status</strong></div>
   <div class="col-md-9">Stable</div>
 </div>  
  <div class="row"> 
-  <div class="col-md-3 brdr-bttm"><strong>Type</strong></div>
+  <div class="col-md-3 brdr-lft"><strong>Type</strong></div>
   <div class="col-md-9">Canada.ca site functionality</div>
 </div>  
  <div class="row"> 
-  <div class="col-md-3 brdr-bttm"><strong>API</strong></div>
+  <div class="col-md-3 brdr-lft"><strong>API</strong></div>
   <div class="col-md-9">Version 2.0</div>
 </div>  
 <div class="row">  
