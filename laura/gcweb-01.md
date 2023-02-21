@@ -23,3 +23,13 @@ title: "Global header"
   <div class="col-md-2"><strong>Last review</strong></div>
   <div class="col-md-10">2022-08-31</div>
 </div>
+<h2>Purpose</h2>
+<p>The global header serves as a container to display the various components that make up the header. Available componenets include:</p>
+<ul>
+	<li>Government of Canada signature (always required)</li>
+	<li>Language toggle (always required)</li>
+	<li>Theme and topic menu</li>
+	<li>Breadcrumb trail</li>
+	<li>Site search box</li>
+	<li>Sign in button</li>
+</ul>
