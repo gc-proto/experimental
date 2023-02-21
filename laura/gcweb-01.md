@@ -28,18 +28,16 @@ title: "Global header"
 <p>The global header serves as a container to display the various components that make up the header.</p>
 <p>Available componenets include:</p>
 <ul>
-	<li>Government of Canada signature (always required)</li>
-	<li>Language toggle (always required)</li>
-	<li>Theme and topic menu</li>
-	<li>Breadcrumb trail</li>
-	<li>Site search box</li>
-	<li>Sign in button</li>
+  <li>Government of Canada signature (always required)</li>
+  <li>Language toggle (always required)</li>
+  <li>Theme and topic menu</li>
+  <li>Breadcrumb trail</li>
+  <li>Site search box</li>
+  <li>Sign in button</li>
 </ul>
-
 <h2>How to implement</h2>
-	
-	<h3>Working example</h3>
+<h3>Working example</h3>
 <ul>
-	<li><a href="https://wet-boew.github.io/GCWeb/templates/content-en.html">Content page including Header v4.0</a></li>
-	<li><a href="https://wet-boew.github.io/GCWeb/sites/authentication/contextual-signin-en.html">Content page including Header v4.0 and Authentication section</a></li>
-</ul> 
+  <li><a href="https://wet-boew.github.io/GCWeb/templates/content-en.html">Content page including Header v4.0</a></li>
+  <li><a href="https://wet-boew.github.io/GCWeb/sites/authentication/contextual-signin-en.html">Content page including Header v4.0 and Authentication section</a></li>
+</ul>
