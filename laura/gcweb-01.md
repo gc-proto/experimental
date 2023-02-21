@@ -35,3 +35,11 @@ title: "Global header"
 	<li>Site search box</li>
 	<li>Sign in button</li>
 </ul>
+
+<h2>How to implement</h2>
+	
+	<h3>Working example</h3>
+<ul>
+	<li><a href="https://wet-boew.github.io/GCWeb/templates/content-en.html">Content page including Header v4.0</a></li>
+	<li><a href="https://wet-boew.github.io/GCWeb/sites/authentication/contextual-signin-en.html">Content page including Header v4.0 and Authentication section</a></li>
+</ul> 
