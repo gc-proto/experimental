@@ -17,21 +17,34 @@ title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
 <div class="row">
-  <div class="col-md-2"><strong>Status</strong></div>
-  <div class="col-md-10">Stable</div>
-  <div class="col-md-2"><strong>Type</strong></div>
-  <div class="col-md-10">Canada.ca site functionality</div>
-  <div class="col-md-2"><strong>API</strong></div>
-  <div class="col-md-10">Version 2.0</div>
-  <div class="col-md-2"><strong>Component version</strong></div>
-  <div class="col-md-10">4.0.0</div>
-  <div class="col-md-2"><strong>Template version</strong></div>
-  <div class="col-md-10">4.0</div>
-  <div class="col-md-2"><strong>Visual rendering</strong></div>
-  <div class="col-md-10">1.0</div>
-  <div class="col-md-2"><strong>Last review</strong></div>
-  <div class="col-md-10">2022-08-31</div>
-</div>
+  <div class="col-md-3"><strong>Status</strong></div>
+  <div class="col-md-9">Stable</div>
+</div>  
+ <div class="row"> 
+  <div class="col-md-3"><strong>Type</strong></div>
+  <div class="col-md-9">Canada.ca site functionality</div>
+</div>  
+ <div class="row"> 
+  <div class="col-md-3"><strong>API</strong></div>
+  <div class="col-md-9">Version 2.0</div>
+</div>  
+<div class="row">  
+  <div class="col-md-3"><strong>Component version</strong></div>
+  <div class="col-md-9">4.0.0</div>
+</div>  
+<div class="row">  
+  <div class="col-md-3"><strong>Template version</strong></div>
+  <div class="col-md-9">4.0</div>
+</div>  
+<div class="row">  
+  <div class="col-md-3"><strong>Visual rendering</strong></div>
+  <div class="col-md-9">1.0</div>
+</div>  
+<div class="row">  
+  <div class="col-md-3"><strong>Last review</strong></div>
+  <div class="col-md-9">2022-08-31</div>
+</div>  
+
 <h2>Purpose</h2>
 <p>The global header serves as a container to display the various components that make up the header.</p>
 <p>Available components include:</p>
