@@ -19,10 +19,10 @@ title: "Global header"
 <p>Type: Canada.ca site functionality</p>
 <p>Last review: 2022-08-31</p>
 <div class="row">
-  <div class="col-md-4">Status</div>
-  <div class="col-md-8">Stable</div>
-  <div class="col-md-4">Type</div>
-  <div class="col-md-8">Canada.ca site functionality</div>
-  <div class="col-md-4">Last review</div>
-  <div class="col-md-8">2022-08-31</div>
+  <div class="col-md-3"><strong>Status</strong></div>
+  <div class="col-md-9">Stable</div>
+  <div class="col-md-3"><strong>Type</strong></div>
+  <div class="col-md-9">Canada.ca site functionality</div>
+  <div class="col-md-3"><strong>Last review</strong></div>
+  <div class="col-md-9">2022-08-31</div>
 </div>
