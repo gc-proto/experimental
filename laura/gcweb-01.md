@@ -12,6 +12,7 @@ dateModified: 2023-02-23
 description: "Global header"
 lang: en
 layout: without-h1
+pageclass: cnt-wdth-lmtd
 title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
