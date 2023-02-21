@@ -15,3 +15,14 @@ layout: without-h1
 title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
+<p>Status: Stable</p>
+<p>Type: Canada.ca site functionality</p>
+<p>Last review: 2022-08-31</p>
+<div class="row">
+  <div class="col-md-4">Status</div>
+  <div class="col-md-8">Stable</div>
+  <div class="col-md-4">Type</div>
+  <div class="col-md-8">Canada.ca site functionality</div>
+  <div class="col-md-4">Last review</div>
+  <div class="col-md-8">2022-08-31</div>
+</div>
