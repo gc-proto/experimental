@@ -21,6 +21,14 @@ title: "Global header"
   <div class="col-md-10">Stable</div>
   <div class="col-md-2"><strong>Type</strong></div>
   <div class="col-md-10">Canada.ca site functionality</div>
+  <div class="col-md-2"><strong>API</strong></div>
+  <div class="col-md-10">Version 2.0</div>
+  <div class="col-md-2"><strong>Component version</strong></div>
+  <div class="col-md-10">4.0.0</div>
+  <div class="col-md-2"><strong>Template version</strong></div>
+  <div class="col-md-10">4.0</div>
+  <div class="col-md-2"><strong>Visual rendering</strong></div>
+  <div class="col-md-10">1.0</div>
   <div class="col-md-2"><strong>Last review</strong></div>
   <div class="col-md-10">2022-08-31</div>
 </div>
