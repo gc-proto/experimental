@@ -26,7 +26,7 @@ title: "Global header"
 </div>
 <h2>Purpose</h2>
 <p>The global header serves as a container to display the various components that make up the header.</p>
-<p>Available components include:</p>
+<p>Available componenets include:</p>
 <ul>
   <li>Government of Canada signature (always required)</li>
   <li>Language toggle (always required)</li>
@@ -36,11 +36,13 @@ title: "Global header"
   <li>Sign in button</li>
 </ul>
 <h2>How to implement</h2>
+<h3>Page types</h3>
+<p>Components are used and configured for different page types.   Consult the Canada.ca Design system guidance for using these components on <strong>Standard</strong>, <strong>Transactional</strong>, and <strong>Campaign</strong> pages.</p>
+<p><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></p>
 <h3>Working example</h3>
 <ul>
   <li><a href="https://wet-boew.github.io/GCWeb/templates/content-en.html">Content page including Header v4.0</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/sites/authentication/contextual-signin-en.html">Content page including Header v4.0 and Authentication section</a></li>
 </ul>
-<h3>Page types</h3>
-<p>Components are used and configured for different page types.   Consult the Canada.ca Design system guidance for using these components on <strong>Standard</strong>, <strong>Transactional</strong>, and <strong>Campaign</strong> pages.</p>
-<p><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></p>
+<h3>Implement notes</h3>
+<p>This version requires the implementation of the <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> where the <code>&lt;div class="container"&gt;</code> has been relocated in the header so outside the "gcweb-menu" component.</p>
