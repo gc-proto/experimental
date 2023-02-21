@@ -63,8 +63,8 @@ title: "Global header"
 <p><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></p>
 <h3>Working examples</h3>
 <ul>
-  <li><a href="https://wet-boew.github.io/GCWeb/templates/content-en.html">Content page including Header v4.0</a></li>
-  <li><a href="https://wet-boew.github.io/GCWeb/sites/authentication/contextual-signin-en.html">Content page including Header v4.0 and "Sign in" section</a></li>
+  <li><a href="https://wet-boew.github.io/GCWeb/templates/content-en.html">Standard page including Header v4.0</a></li>
+  <li><a href="https://wet-boew.github.io/GCWeb/sites/authentication/contextual-signin-en.html">Standard page including Header v4.0 and "Sign in" section</a></li>
   <li><a href="https://test.canada.ca/experimental/examples/layout-transactional-01-en.html">Transactional page including Header v4.0</a></li>
 </ul>
 <h3>Implementation notes</h3>
