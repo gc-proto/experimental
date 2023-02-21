@@ -65,6 +65,7 @@ title: "Global header"
 <ul>
   <li><a href="https://wet-boew.github.io/GCWeb/templates/content-en.html">Content page including Header v4.0</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/sites/authentication/contextual-signin-en.html">Content page including Header v4.0 and "Sign in" section</a></li>
+  <li><a href="https://test.canada.ca/experimental/examples/layout-transactional-01-en.html">Transactional page including Header v4.0</a></li>
 </ul>
 <h3>Implementation notes</h3>
 <p>Version 4.0 requires <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.  The <code>&lt;div class="container"&gt;</code> element has been relocated to the global header.  It is no longer part of the "gcweb-menu" component.</p>
