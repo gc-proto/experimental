@@ -26,7 +26,7 @@ title: "Global header"
 </div>
 <h2>Purpose</h2>
 <p>The global header serves as a container to display the various components that make up the header.</p>
-<p>Available componenets include:</p>
+<p>Available components include:</p>
 <ul>
   <li>Government of Canada signature (always required)</li>
   <li>Language toggle (always required)</li>
