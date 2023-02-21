@@ -26,8 +26,8 @@ title: "Global header"
   <div class="col-md-9">Canada.ca site functionality</div>
 </div>  
  <div class="row"> 
-  <div class="col-md-3"><strong>API</strong></div>
-  <div class="col-md-9">Version 2.0</div>
+  <div class="col-md-3"><strong>API version</strong></div>
+  <div class="col-md-9">2.0</div>
 </div>  
 <div class="row">  
   <div class="col-md-3"><strong>Component version</strong></div>
