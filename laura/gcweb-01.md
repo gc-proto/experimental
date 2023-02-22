@@ -70,7 +70,7 @@ title: "Global header"
 <h2>On this page</h2>
 <ul>
   <li><a href="#purpose">Purpose</a></li>
-  <li><a href="#purpose">How to implement</a></li>
+  <li><a href="#implement">How to implement</a></li>
   <li><a href="#evaluation">Evaluation and report</a></li>
   <li><a href="#api">API (Version 2.0)</a></li>
   <li><a href="#template">Template</a></li>
