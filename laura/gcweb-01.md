@@ -99,7 +99,7 @@ title: "Global header"
   <li><a href="https://test.canada.ca/experimental/examples/layout-transactional-01-en.html">Transactional page including Header v4.0</a></li>
 </ul>
 <h3>Implementation notes</h3>
-<p>Previous versions to Version 4.0 require <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> for some functionality (see the template section for more details).  The <code>&lt;div class="container"&gt;</code> element has been relocated to the global header.  It is no longer part of the "gcweb-menu" component.</p>
+<p>Previous versions to Version 4.0 require <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> for some functionality (see the template section for more details).  The <span class="nowrap"><code>&lt;div class="container"&gt;</code></span> element has been relocated to the global header.  It is no longer part of the "gcweb-menu" component.</p>
 <h2 id="evaluation">Evaluation and report</h2>
 <p>There is no evaluation and report available for this component.</p>
 <h2 id="api">API (Version 2.0)</h2>
@@ -207,7 +207,7 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
-    <p>The Version 4 authentication div is modified to <code>col-xs-6</code> and <code>col-xs-offset-6</code>.  This ensures that the text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</p>
+    <p>The Version 4 authentication div is modified to <span class="nowrap"><code>col-xs-6</code></span> and <span class="nowrap"><code>col-xs-offset-6</code></span>.  This ensures that the text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</p>
   </div>
   <div class="col-md-6">
     <h4>Version 3.0</h4>
@@ -232,7 +232,7 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
-    <p>The Header for version 3.0 (including the authentication section) is deprecated, but still supported.  It requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.   The <code>&lt;div class="container"&gt;</code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
+    <p>The Header for version 3.0 (including the authentication section) is deprecated, but still supported.  It requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.   The <span class="nowrap"><code>&lt;div class="container"&gt;</code></span> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
   </div>
 </div>
 <h2 id="code"><span class="fab fa-github mrgn-rght-sm"></span> Code</h2>
