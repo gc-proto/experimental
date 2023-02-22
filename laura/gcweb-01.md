@@ -67,7 +67,16 @@ title: "Global header"
     </div>
   </div>
 </div>
-<h2>Purpose</h2>
+<h2>On this page</h2>
+<ul>
+  <li><a href="#purpose">Purpose</a></li>
+  <li><a href="#purpose">How to implement</a></li>
+  <li><a href="#evaluation">Evaluation and report</a></li>
+  <li><a href="#api">API (Version 2.0)</a></li>
+  <li><a href="#template">Template</a></li>
+  <li><a href="#code"><span class="fab fa-github mrgn-rght-sm"></span> Code</a></li>
+</ul>
+<h2 id="purpose">Purpose</h2>
 <p>The global header serves as a container to display the various components that make up the header.</p>
 <p>Available components include:</p>
 <ul>
@@ -78,7 +87,7 @@ title: "Global header"
   <li>Site search box</li>
   <li>Sign in button</li>
 </ul>
-<h2>How to implement</h2>
+<h2 id="implement">How to implement</h2>
 <h3>Page types</h3>
 <p>Components are used and configured for different page types.   Consult the Canada.ca Design system guidance for using these components on <strong>Standard</strong>, <strong>Transactional</strong>, and <strong>Campaign</strong> pages.</p>
 <p><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></p>
@@ -91,9 +100,9 @@ title: "Global header"
 </ul>
 <h3>Implementation notes</h3>
 <p>Previous versions to Version 4.0 require <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> for some functionality (see the template section for more details).  The <code>&lt;div class="container"&gt;</code> element has been relocated to the global header.  It is no longer part of the "gcweb-menu" component.</p>
-<h2>Evaluation and report</h2>
+<h2 id="evaluation">Evaluation and report</h2>
 <p>There is no evaluation and report available for this component.</p>
-<h2>API (Version 2.0)</h2>
+<h2 id="api">API (Version 2.0)</h2>
 <table class="table table-bordered">
   <caption class="wb-inv">
   API (Version 2.0)
@@ -146,7 +155,7 @@ title: "Global header"
     </tr>
   </table>
 </details>
-<h2>Template</h2>
+<h2 id="template">Template</h2>
 <h3>Changes between Version 4.0 and 3.0 (deprecated)</h3>
 <div class="row">
   <div class="col-md-6">
@@ -196,7 +205,7 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
-    <p>The Version 4 authentication div is modified to <code>col-xs-6</code> and <code>col-xs-offset-6</code>.  This ensures that the text for the Theme and topic menu button stays on one line for every screen (xxs, xxs, sm, md, lg and xl).</p>
+    <p>The Version 4 authentication div is modified to <code>col-xs-6</code> and <code>col-xs-offset-6</code>.  This ensures that the text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</p>
   </div>
   <div class="col-md-6">
     <h4>Version 3.0</h4>
@@ -224,3 +233,4 @@ title: "Global header"
     <p>The Header for version 3.0 (including the authentication section) is deprecated, but still supported.  It requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.   The <code>&lt;div class="container"&gt;</code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
   </div>
 </div>
+<h2 id="code"><span class="fab fa-github mrgn-rght-sm"></span> Code</h2>
