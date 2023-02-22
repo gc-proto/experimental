@@ -123,8 +123,9 @@ title: "Global header"
   </tr>
 </table>
 <details>
-  <summary>Deprecated version (Deprecated version (What does depricated, but still supported mean?))</summary>
-  <table class="table table-bordered">
+  <summary>Deprecated version (What does depricated, but still supported mean?)</summary>
+	<div class="mrgn-tp-lg">
+  <table class="table table-bordered small">
     <tr>
       <th>Component version</th>
       <th>CSS Class</th>
@@ -153,7 +154,7 @@ title: "Global header"
       <td>Version 1.0</td>
       <td>n.a.</td>
     </tr>
-  </table>
+		</table></div>
 </details>
 <h2 id="template">Template</h2>
 <h3>Changes between Version 4.0 and 3.0 (deprecated)</h3>
