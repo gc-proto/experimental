@@ -17,12 +17,20 @@ title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
 <div class="wb-prettify all-pre hide"></div>
+<h2>On this page</h2>
+<ul>
+  <li><a href="#iteration">Current iteration</a></li>	
+  <li><a href="#purpose">Purpose</a></li>
+  <li><a href="#implement">How to implement</a></li>
+  <li><a href="#evaluation">Evaluation and report</a></li>
+  <li><a href="#api">API (Version 2.0)</a></li>
+  <li><a href="#template">Template</a></li>
+  <li><a href="#code"><span class="fab fa-github mrgn-rght-sm"></span> Code</a></li>
+</ul>
+<h2 id="iteration">Current iteration</h2>
 <div class="row">
   <div class="col-md-8">
     <div class="panel panel-default">
-      <header class="panel-heading">
-        <h2 class="panel-title">Current iteration of the global header</h2>
-      </header>
       <table class="table table-bordered table-condensed small">
         <caption class="wb-inv">
         Current iteration of the global header
@@ -67,15 +75,6 @@ title: "Global header"
     </div>
   </div>
 </div>
-<h2>On this page</h2>
-<ul>
-  <li><a href="#purpose">Purpose</a></li>
-  <li><a href="#implement">How to implement</a></li>
-  <li><a href="#evaluation">Evaluation and report</a></li>
-  <li><a href="#api">API (Version 2.0)</a></li>
-  <li><a href="#template">Template</a></li>
-  <li><a href="#code"><span class="fab fa-github mrgn-rght-sm"></span> Code</a></li>
-</ul>
 <h2 id="purpose">Purpose</h2>
 <p>The global header serves as a container to display the various components that make up the header.</p>
 <p>Available components include:</p>
