@@ -206,7 +206,7 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
-    <p>The Version 4 authentication div is modified to <code><span class="nowrap">col-xs-6</code></span> and <span class="nowrap"><code>col-xs-offset-6</span></code>.  This ensures that the text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</p>
+    <p>The Version 4 authentication div is modified to <code><span class="nowrap">col-xs-6</code></span> and <code><span class="nowrap">col-xs-offset-6</span></code>.  This ensures that the text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</p>
   </div>
   <div class="col-md-6">
     <h4>Version 3.0</h4>
