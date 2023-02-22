@@ -17,10 +17,21 @@ title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
 <div class="wb-prettify all-pre hide"></div>
+<h2 id="purpose">Purpose</h2>
+<p>The global header is a container that displays components that make up the header.</p>
+<p>Available components include:</p>
+<ul>
+  <li>Government of Canada signature (always required)</li>
+  <li>Language toggle (always required)</li>
+  <li>Theme and topic menu</li>
+  <li>Breadcrumb trail</li>
+  <li>Site search box</li>
+  <li>Sign in button</li>
+</ul>
 <h2>On this page</h2>
 <ul>
+  <li><a href="#purpose">Purpose</a></li>	
   <li><a href="#iteration">Current iteration</a></li>	
-  <li><a href="#purpose">Purpose</a></li>
   <li><a href="#implement">How to implement</a></li>
   <li><a href="#evaluation">Evaluation and report</a></li>
   <li><a href="#api">API (Version 2.0)</a></li>
@@ -75,17 +86,6 @@ title: "Global header"
     </div>
   </div>
 </div>
-<h2 id="purpose">Purpose</h2>
-<p>The global header serves as a container to display the various components that make up the header.</p>
-<p>Available components include:</p>
-<ul>
-  <li>Government of Canada signature (always required)</li>
-  <li>Language toggle (always required)</li>
-  <li>Theme and topic menu</li>
-  <li>Breadcrumb trail</li>
-  <li>Site search box</li>
-  <li>Sign in button</li>
-</ul>
 <h2 id="implement">How to implement</h2>
 <h3>Page types</h3>
 <p>Components are used and configured for different page types.   Consult the Canada.ca Design system guidance for using these components on <strong>Standard</strong>, <strong>Transactional</strong>, and <strong>Campaign</strong> pages.</p>
