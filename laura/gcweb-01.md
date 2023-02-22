@@ -16,37 +16,45 @@ pageclass: cnt-wdth-lmtd
 title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
-<div class="panel panel-default">
-  <header class="panel-heading">
-    <h2 class="panel-title">Current iteration</h2>
-  </header>
-  <div class="row">
-    <div class="col-md-3"><strong>Status</strong></div>
-    <div class="col-md-9">Stable</div>
-  </div>
-  <div class="row">
-    <div class="col-md-3"><strong>Type</strong></div>
-    <div class="col-md-9">Canada.ca site functionality</div>
-  </div>
-  <div class="row">
-    <div class="col-md-3"><strong>API version</strong></div>
-    <div class="col-md-9">2.0</div>
-  </div>
-  <div class="row">
-    <div class="col-md-3"><strong>Component version</strong></div>
-    <div class="col-md-9">4.0.0</div>
-  </div>
-  <div class="row">
-    <div class="col-md-3"><strong>Template version</strong></div>
-    <div class="col-md-9">4.0</div>
-  </div>
-  <div class="row">
-    <div class="col-md-3"><strong>Visual rendering</strong></div>
-    <div class="col-md-9">1.0</div>
-  </div>
-  <div class="row">
-    <div class="col-md-3"><strong>Last review</strong></div>
-    <div class="col-md-9">2022-08-31</div>
+<div class="row">
+  <div class="col-md-8">
+    <div class="panel panel-default">
+      <header class="panel-heading">
+        <h2 class="panel-title">Current iteration</h2>
+      </header>
+      <div class="panel-body">
+        <div class="mrgn-tp-lg mrgn-bttm-lg">
+          <div class="row">
+            <div class="col-md-3"><strong>Status</strong></div>
+            <div class="col-md-9">Stable</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><strong>Type</strong></div>
+            <div class="col-md-9">Canada.ca site functionality</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><strong>API version</strong></div>
+            <div class="col-md-9">2.0</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><strong>Component version</strong></div>
+            <div class="col-md-9">4.0.0</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><strong>Template version</strong></div>
+            <div class="col-md-9">4.0</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><strong>Visual rendering</strong></div>
+            <div class="col-md-9">1.0</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><strong>Last review</strong></div>
+            <div class="col-md-9">2022-08-31</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <h2>Purpose</h2>
