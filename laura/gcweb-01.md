@@ -54,7 +54,7 @@ title: "Global header"
           </div>
         </div>
       </div>
-      <table class="table table-striped table-condensed">
+      <table class="table table-striped table-condensed small">
         <caption class="wb-inv">
         Current iteration of the global header
         </caption>
