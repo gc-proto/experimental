@@ -189,7 +189,7 @@ title: "Global header"
 			&lt;div class=&quot;col-md-8&quot;&gt;
 				&lt;!-- Site Menu [version 2.0] --&gt;
 		&lt;/div&gt;
-			<strong>&lt;div class=&quot;col-xs-<ins>6</ins> col-xs-offset-<ins>6</ins></strong> col-md-offset-0 col-md-4&quot;&gt;
+			&lt;div class=&quot;<strong>col-xs-<ins>6</ins> col-xs-offset-<ins>6</ins></strong> col-md-offset-0 col-md-4&quot;&gt;
 				&lt;!-- Optional Authentication Section [version 1.0] --&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
