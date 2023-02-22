@@ -189,14 +189,14 @@ title: "Global header"
 			&lt;div class=&quot;col-md-8&quot;&gt;
 				&lt;!-- Site Menu [version 2.0] --&gt;
 		&lt;/div&gt;
-			&lt;div class=&quot;col-xs-<ins>6</ins> col-xs-offset-<ins>6</ins> col-md-offset-0 col-md-4&quot;&gt;
+			<strong>&lt;div class=&quot;col-xs-<ins>6</ins> col-xs-offset-<ins>6</ins></strong> col-md-offset-0 col-md-4&quot;&gt;
 				&lt;!-- Optional Authentication Section [version 1.0] --&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
-    <p>The difference with version 3.0 is the value for <code>col-xs-5</code> and <code>col-xs-offset-7</code> have been adjusted to a "6" so the button text don't brake and stays on one line for every viewports from extra-extra-small to extra-large (xxs, xxs, sm, md, lg and xl).</p>
+    <p>The Version 4 authentication div is modified to <code>col-xs-6</code> and <code>col-xs-offset-6</code>.  This ensures that the text for the Theme and topic menu button stays on one line for every screen (xxs, xxs, sm, md, lg and xl).</p>
   </div>
   <div class="col-md-6">
     <h4>Version 3.0</h4>
