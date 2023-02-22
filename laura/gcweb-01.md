@@ -150,7 +150,7 @@ title: "Global header"
 <h3>Changes between Version 4.0 and 3.0</h3>
 <p>There is no change between Version 4.0 and 3.0 unless the optional authentication is used.</p>
 <div class="row">
-<div class="col-md-8">	
+<div class="col-md-6">	
 <pre><code>&lt;header&gt;
 	&lt;div id=&quot;wb-bnr&quot; class=&quot;container&quot;&gt;
 		&lt;div class=&quot;row&quot;&gt;
