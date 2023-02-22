@@ -29,13 +29,13 @@ title: "Global header"
         </caption>
         <thead>
           <tr>
-            <th class="col-md-4">Information</th>
-            <th class="col-md-8" >Value</th>
+            <th class="col-md-4 active">Information</th>
+            <th class="col-md-8 active" >Value</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><strong>Status</strong></td>
+            <th>Status</strong></th>
             <td>Stable</td>
           </tr>
           <tr>
