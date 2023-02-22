@@ -20,7 +20,7 @@ title: "Global header"
   <div class="col-md-8">
     <div class="panel panel-default">
       <header class="panel-heading">
-        <h2 class="panel-title">Current iteration</h2>
+        <h2 class="panel-title">Current iteration of the global header</h2>
       </header>
       <table class="table table-striped table-condensed small">
         <caption class="wb-inv">
