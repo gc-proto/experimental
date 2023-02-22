@@ -113,7 +113,7 @@ title: "Global header"
   </tr>
 </table>
 <details>
-  <summary>Deprecated version (no longer supported?)</summary>
+  <summary>Deprecated version (What does depricated, but still supported mean?)</summary>
   <table class="table table-bordered">
     <tr>
       <th>Component version</th>
