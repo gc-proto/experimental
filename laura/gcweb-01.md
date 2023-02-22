@@ -147,8 +147,7 @@ title: "Global header"
   </table>
 </details>
 <h2>Template</h2>
-<h3>Changes between Version 4.0 and 3.0</h3>
-<p>There is no change between Version 4.0 and 3.0 unless the optional authentication component is used.</p>
+<h3>Changes between Version 4.0 and 3.0 (deprecated)</h3>
 <div class="row">
   <div class="col-md-6">
     <pre><code>&lt;header&gt;
@@ -169,13 +168,13 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
+    <p>There is no change between Version 4.0 and 3.0 unless the optional authentication component is used.</p>
   </div>
 </div>
 <h4>Including authentication section (optional)</h4>
 <div class="row">
   <div class="col-md-6">
     <h4>Version 4.0</h4>
-    <p>The difference with version 3.0 is the value for <code>col-xs-5</code> and <code>col-xs-offset-7</code> have been adjusted to a "6" so the button text don't brake and stays on one line for every viewports from extra-extra-small to extra-large (xxs, xxs, sm, md, lg and xl).</p>
     <pre><code>&lt;header&gt;
 	&lt;div id=&quot;wb-bnr&quot; class=&quot;container&quot;&gt;
 		&lt;div class=&quot;row&quot;&gt;
@@ -197,10 +196,10 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
+    <p>The difference with version 3.0 is the value for <code>col-xs-5</code> and <code>col-xs-offset-7</code> have been adjusted to a "6" so the button text don't brake and stays on one line for every viewports from extra-extra-small to extra-large (xxs, xxs, sm, md, lg and xl).</p>
   </div>
   <div class="col-md-6">
-    <h4>Version 3.0 (deprecated)</h4>
-    <p>The header version 3.0 including the authentication section is deprecated but still supported and requires the implementation of the <a href="../gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> where the <code>&lt;div class="container"&gt;</code> has been relocated in the header so outside the "gcweb-menu" component.</p>
+    <h4>Version 3.0</h4>
     <pre><code>&lt;header&gt;
 	&lt;div id=&quot;wb-bnr&quot; class=&quot;container&quot;&gt;
 		&lt;div class=&quot;row&quot;&gt;
@@ -222,5 +221,6 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
+    <p>The header version 3.0 including the authentication section is deprecated but still supported and requires the implementation of the <a href="../gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> where the <code>&lt;div class="container"&gt;</code> has been relocated in the header so outside the "gcweb-menu" component.</p>
   </div>
 </div>
