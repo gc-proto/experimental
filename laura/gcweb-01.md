@@ -221,6 +221,6 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
-    <p>The header version 3.0 including the authentication section is deprecated but still supported and requires the implementation of the <a href="../gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> where the <code>&lt;div class="container"&gt;</code> has been relocated in the header so outside the "gcweb-menu" component.</p>
+    <p>The Header for version 3.0 (including the authentication section) is deprecated, but still supported.  It requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.   The <code>&lt;div class="container"&gt;</code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
   </div>
 </div>
