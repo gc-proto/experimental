@@ -1,8 +1,7 @@
 ---
 altLangPage: "#"
 breadcrumbs:
-  - title: Not sure what we should do here <span class="far fa-smile-wink"></span>
-    link: "#"
+  - title: Not sure what we should do here <span class="far fa-smile-wink"></span> link: "#"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
@@ -90,3 +89,58 @@ title: "Global header"
 </ul>
 <h3>Implementation notes</h3>
 <p>Version 4.0 requires <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.  The <code>&lt;div class="container"&gt;</code> element has been relocated to the global header.  It is no longer part of the "gcweb-menu" component.</p>
+<h2>Evaluation and report</h2>
+<p>There is no evaluation and report available for this component.</p>
+<h2>API (Version 2.0)</h2>
+<table class="table table-bordered">
+  <caption class="wb-inv">
+  API (Version 2.0)
+  </caption>
+  <tr>
+    <th>Component version</th>
+    <th>CSS Class</th>
+    <th>Template</th>
+    <th>Visual rendering</th>
+    <th>Schema</th>
+  </tr>
+  <tr>
+    <th>Version 4.0.0</th>
+    <td>n.a.</td>
+    <td>Version 4.0</td>
+    <td>Version 1.0</td>
+    <td>n.a.</td>
+  </tr>
+</table>
+<details>
+  <summary>Deprecated version (no longer supported?)</summary>
+  <table class="table table-bordered">
+    <tr>
+      <th>Component version</th>
+      <th>CSS Class</th>
+      <th>Template</th>
+      <th>Visual rendering</th>
+      <th>Schema</th>
+    </tr>
+    <tr>
+      <th>Version 3.0.0</th>
+      <td>n.a.</td>
+      <td>Version 3.0</td>
+      <td>Version 1.0</td>
+      <td>n.a.</td>
+    </tr>
+    <tr>
+      <th>Version 2.0.0</th>
+      <td>n.a.</td>
+      <td>Version 2.0</td>
+      <td>Version 1.0</td>
+      <td>n.a.</td>
+    </tr>
+    <tr>
+      <th>Version 1.0</th>
+      <td>n.a.</td>
+      <td>Version 1.0</td>
+      <td>Version 1.0</td>
+      <td>n.a.</td>
+    </tr>
+  </table>
+</details>
