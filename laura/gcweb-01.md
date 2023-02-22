@@ -29,13 +29,13 @@ title: "Global header"
         </caption>
         <thead>
           <tr>
-            <th class="col-md-4 active">Information</th>
-            <th class="col-md-8 active" >Value</th>
+            <th class="col-md-4 active h3">Information</th>
+            <th class="col-md-8 active h3" >Value</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th>Status</strong></th>
+            <td><strong>Status</strong></td>
             <td>Stable</td>
           </tr>
           <tr>
@@ -124,37 +124,38 @@ title: "Global header"
 </table>
 <details>
   <summary>Deprecated version (What does depricated, but still supported mean?)</summary>
-	<div class="mrgn-tp-lg">
-  <table class="table table-bordered small">
-    <tr>
-      <th>Component version</th>
-      <th>CSS Class</th>
-      <th>Template</th>
-      <th>Visual rendering</th>
-      <th>Schema</th>
-    </tr>
-    <tr>
-      <th>Version 3.0.0</th>
-      <td>n.a.</td>
-      <td>Version 3.0</td>
-      <td>Version 1.0</td>
-      <td>n.a.</td>
-    </tr>
-    <tr>
-      <th>Version 2.0.0</th>
-      <td>n.a.</td>
-      <td>Version 2.0</td>
-      <td>Version 1.0</td>
-      <td>n.a.</td>
-    </tr>
-    <tr>
-      <th>Version 1.0</th>
-      <td>n.a.</td>
-      <td>Version 1.0</td>
-      <td>Version 1.0</td>
-      <td>n.a.</td>
-    </tr>
-		</table></div>
+  <div class="mrgn-tp-lg">
+    <table class="table table-bordered small">
+      <tr>
+        <th>Component version</th>
+        <th>CSS Class</th>
+        <th>Template</th>
+        <th>Visual rendering</th>
+        <th>Schema</th>
+      </tr>
+      <tr>
+        <th>Version 3.0.0</th>
+        <td>n.a.</td>
+        <td>Version 3.0</td>
+        <td>Version 1.0</td>
+        <td>n.a.</td>
+      </tr>
+      <tr>
+        <th>Version 2.0.0</th>
+        <td>n.a.</td>
+        <td>Version 2.0</td>
+        <td>Version 1.0</td>
+        <td>n.a.</td>
+      </tr>
+      <tr>
+        <th>Version 1.0</th>
+        <td>n.a.</td>
+        <td>Version 1.0</td>
+        <td>Version 1.0</td>
+        <td>n.a.</td>
+      </tr>
+    </table>
+  </div>
 </details>
 <h2 id="template">Template</h2>
 <h3>Changes between Version 4.0 and 3.0 (deprecated)</h3>
