@@ -17,7 +17,6 @@ title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
 <div class="wb-prettify all-pre hide"></div>
-<h2 id="purpose">Purpose</h2>
 <p>The global header is a container that displays components that make up the header.</p>
 <p>Available components include:</p>
 <ul>
@@ -29,8 +28,7 @@ title: "Global header"
   <li>Sign in button</li>
 </ul>
 <h2>On this page</h2>
-<ul>
-  <li><a href="#purpose">Purpose</a></li>	
+<ul>	
   <li><a href="#iteration">Current iteration</a></li>	
   <li><a href="#implement">How to implement</a></li>
   <li><a href="#evaluation">Evaluation and report</a></li>
