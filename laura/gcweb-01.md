@@ -22,48 +22,48 @@ title: "Global header"
       <header class="panel-heading">
         <h2 class="panel-title">Current iteration</h2>
       </header>
+      <table class="table table-striped table-condensed small">
+        <caption class="wb-inv">
+        Current iteration of the global header
+        </caption>
+        <thead>
+          <tr>
+            <th class="col-md-3">Type</th>
+            <th class="col-md-9" >Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Status</strong></td>
+            <td>Stable</td>
+          </tr>
+          <tr>
+            <td><strong>Type</strong></td>
+            <td>Canada.ca site functionality</td>
+          </tr>
+          <tr>
+            <td><strong>API version</strong></td>
+            <td>2.0</td>
+          </tr>
+          <tr>
+            <td><strong>Component version</strong></td>
+            <td>4.0.0</td>
+          </tr>
+          <tr>
+            <td><strong>Template version</strong></td>
+            <td>4.0</td>
+          </tr>
+          <tr>
+            <td><strong>Visual rendering</strong></td>
+            <td>1.0</td>
+          </tr>
+          <tr>
+            <td><strong>Last review</strong></td>
+            <td>2022-08-31</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <table class="table table-striped table-condensed small">
-      <caption class="wb-inv">
-      Current iteration of the global header
-      </caption>
-      <thead>
-        <tr>
-          <th class="col-md-3">Type</th>
-          <th class="col-md-9" >Value</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Status</strong></td>
-          <td>Stable</td>
-        </tr>
-        <tr>
-          <td><strong>Type</strong></td>
-          <td>Canada.ca site functionality</td>
-        </tr>
-        <tr>
-          <td><strong>API version</strong></td>
-          <td>2.0</td>
-        </tr>
-        <tr>
-          <td><strong>Component version</strong></td>
-          <td>4.0.0</td>
-        </tr>
-        <tr>
-          <td><strong>Template version</strong></td>
-          <td>4.0</td>
-        </tr>
-        <tr>
-          <td><strong>Visual rendering</strong></td>
-          <td>1.0</td>
-        </tr>
-        <tr>
-          <td><strong>Last review</strong></td>
-          <td>2022-08-31</td>
-        </tr>
-      </tbody>
-    </table>
   </div>
 </div>
 <h2>Purpose</h2>
