@@ -2,7 +2,7 @@
 altLangPage: "#"
 breadcrumbs:
   - title: Not sure what we should do here <span class="far fa-smile-wink"></span>
-  - link: "#" 
+  - link: "#"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
@@ -89,7 +89,7 @@ title: "Global header"
   <li><a href="https://test.canada.ca/experimental/examples/layout-transactional-01-en.html">Transactional page including Header v4.0</a></li>
 </ul>
 <h3>Implementation notes</h3>
-<p>Version 4.0 requires <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.  The <code>&lt;div class="container"&gt;</code> element has been relocated to the global header.  It is no longer part of the "gcweb-menu" component.</p>
+<p>Previous versions to Version 4.0 require <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> for some functionality (see the template section for more details).  The <code>&lt;div class="container"&gt;</code> element has been relocated to the global header.  It is no longer part of the "gcweb-menu" component.</p>
 <h2>Evaluation and report</h2>
 <p>There is no evaluation and report available for this component.</p>
 <h2>API (Version 2.0)</h2>
@@ -113,7 +113,7 @@ title: "Global header"
   </tr>
 </table>
 <details>
-  <summary>Deprecated version (What does depricated, but still supported mean?)</summary>
+  <summary>Deprecated version (Deprecated version (What does depricated, but still supported mean?))</summary>
   <table class="table table-bordered">
     <tr>
       <th>Component version</th>
@@ -145,3 +145,24 @@ title: "Global header"
     </tr>
   </table>
 </details>
+<h2>Template</h2>
+<h3>Changes between Version 4.0 and 3.0</h3>
+<p>There is no change between Version 4.0 and 3.0 unless the optional authentication is used.</p>
+<pre><code>&lt;header&gt;
+	&lt;div id=&quot;wb-bnr&quot; class=&quot;container&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;!-- Language toggle [version 1.0] --&gt;
+			&lt;!-- Branding [version 1.0] --&gt;
+			&lt;!-- Search [version 1.0] --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;hr&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-md-8&quot;&gt;
+				&lt;!-- Site Menu [version 2.0] --&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- Breadcrumbs [version 1.0] --&gt;
+&lt;/header&gt;</code></pre>
