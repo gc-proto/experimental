@@ -28,8 +28,8 @@ title: "Global header"
         </caption>
         <thead>
           <tr>
-            <th class="col-md-3">Information</th>
-            <th class="col-md-9" >Value</th>
+            <th class="col-md-4">Information</th>
+            <th class="col-md-8" >Value</th>
           </tr>
         </thead>
         <tbody>
