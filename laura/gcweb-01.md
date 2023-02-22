@@ -103,7 +103,7 @@ title: "Global header"
 <h2 id="evaluation">Evaluation and report</h2>
 <p>There is no evaluation and report available for this component.</p>
 <h2 id="api">API (Version 2.0)</h2>
-<table class="table table-bordered">
+<table class="table table-bordered small">
   <caption class="wb-inv">
   API (Version 2.0)
   </caption>
