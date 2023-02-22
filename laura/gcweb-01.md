@@ -1,7 +1,8 @@
 ---
 altLangPage: "#"
 breadcrumbs:
-  - title: Not sure what we should do here <span class="far fa-smile-wink"></span> link: "#"
+  - title: Not sure what we should do here <span class="far fa-smile-wink"></span>
+  -  link: "#"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
