@@ -83,6 +83,7 @@ title: "Global header"
 <p>Components are used and configured for different page types.   Consult the Canada.ca Design system guidance for using these components on <strong>Standard</strong>, <strong>Transactional</strong>, and <strong>Campaign</strong> pages.</p>
 <p><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></p>
 <h3>Some working examples</h3>
+<p>Here are some popular working examples.  It is not an exhaustive list of possible iterations.  Configuration your page based on user needs and design system guidance.</p> 
 <ul>
   <li><a href="https://wet-boew.github.io/GCWeb/templates/content-en.html">Standard page including Header v4.0</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/sites/authentication/contextual-signin-en.html">Standard page including Header v4.0 and "Sign in" section</a></li>
