@@ -28,7 +28,7 @@ title: "Global header"
         </caption>
         <thead>
           <tr>
-            <th class="col-md-3">Type</th>
+            <th class="col-md-3">Information</th>
             <th class="col-md-9" >Value</th>
           </tr>
         </thead>
