@@ -240,7 +240,8 @@ title: "Global header"
   <li>
     <h4>Branding</h4>
     <ul>
-      <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html"><span class="fab fa-github mrgn-rght-sm"></span> Brand</a></li>
+      <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html"><span class="fas fa-code-branch mrgn-rght-sm"></span> Brand</a></li>
+	    <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html"><span class="fab fa-canadian-maple-leaf mrgn-rght-sm"></span> Government of Canada signature</a></li>
     </ul>
   </li>
   <li>
