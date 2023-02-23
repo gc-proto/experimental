@@ -241,7 +241,7 @@ title: "Global header"
     <h4>Branding</h4>
     <ul>
       <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html"><span class="fas fa-code-branch mrgn-rght-sm"></span> Brand</a></li>
-	    <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html"><span class="fab fa-canadian-maple-leaf mrgn-rght-sm"></span> Government of Canada signature</a></li>
+	    <li><a href="https://design.canada.ca/common-design-patterns/signature.html"><span class="fab fa-canadian-maple-leaf mrgn-rght-sm"></span> Government of Canada signature</a></li>
     </ul>
   </li>
   <li>
