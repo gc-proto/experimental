@@ -2,13 +2,13 @@
 altLangPage: "#"
 breadcrumbs:
   - title: Improving content
-    link: "https://ised-isde.canada.ca/site/biomanufacturing/en"
+    link: "https://blog.canada.ca/pages/project-overview.html"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
-date: 2023-02-07
-dateModified: 2023-02-07
+date: 2023-02-23
+dateModified: 2023-02-23
 description: "Standard page with breadcrumbs"
 lang: en
 layout: without-h1
