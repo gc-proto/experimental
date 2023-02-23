@@ -121,9 +121,26 @@ Canada.ca   >   Business   >   Starting a business</p>
 
 		</details>
 	</li>
-	...
+<li>
+		<details>
+			<summary>Campaigns and promotions</summary>
+			<p>Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
+		</details>
+	</li>	
+<li>
+		<details>
+			<summary>News</summary>
+			<p>Canada.ca   >   [Institutional profile page]</p>
+		</details>
+	</li>		
 </ul>
+	<h3>Visual examples</h3>
+<figure>
 
+		<figcaption class="caption"><b>Global header with breadcrumb trail  - large screen</b></figcaption>
 
+			<img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header">
+
+	</figure>
 
 
