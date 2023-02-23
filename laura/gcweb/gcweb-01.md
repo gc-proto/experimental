@@ -27,7 +27,7 @@ title: "Global header"
         <caption class="wb-inv">
         Current iteration of the global header
         </caption>
-        <thead>
+        <thead class="wb-inv">
           <tr>
             <th class="col-md-4 active h3">Information</th>
             <th class="col-md-8 active h3" >Value</th>
