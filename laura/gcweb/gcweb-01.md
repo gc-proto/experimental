@@ -238,17 +238,17 @@ title: "Global header"
 <h3>Non-configurable elements (mandatory on all pages)</h3>
 <ul>
   <li>
-    <h4>Branding</h4> 
+    <h4>Branding</h4>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html">Brand</a></li>
-	    <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature</a></li>
     </ul>
   </li>
   <li>
     <h4>Language toggle</h4>
     <ul class="fa-ul">
-	    <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/language/includes/languagetoggle.html">languagetoggle</a></li>
-	    <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/language/includes/languagetoggle.html">languagetoggle</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link</a></li>
     </ul>
   </li>
   <li>
@@ -257,18 +257,32 @@ title: "Global header"
 </ul>
 <h3>Configurable elements (depends on type of page):</h3>
 <ul>
-  <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/sitesearch.html">Site search box code</a></li>
-  <li>Configuration - AEM, CDTS, Jekyll, Drupal ….</li>
-</ul>
-<ul>
-  <li><a href="">Menu code</a></li>
-  <li>Configuration - AEM, CDTS, Jekyll, Drupal ….</li>
-</ul>
-<ul>
-  <li><a href="">Breadcrumb trail code</a></li>
-  <li>Configuration - AEM, CDTS, Jekyll, Drupal ….</li>
-</ul>
-<ul>
-  <li><a href="">Sign-in button code</a></li>
-  <li>Configuration - AEM, CDTS, Jekyll, Drupal ….</li>
+  <li>
+    <h4>Site search box</h4>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/sitesearch.html">sitesearch</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></li>
+    </ul>
+  </li>
+  <li>
+    <h4>Theme and topic menu</h4>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">GitHub code link</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Theme and topic menu</a></li>
+    </ul>
+  </li>
+  <li>
+    <h4>Breadcrumb trail</h4>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">GitHub code link</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></li>
+    </ul>
+  </li>
+  <li>
+    <h4>Sign-in button</h4>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">GitHub code link</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/contextual-signin.html">Contextual Sign in button</a></li>
+    </ul>
+  </li>
 </ul>
