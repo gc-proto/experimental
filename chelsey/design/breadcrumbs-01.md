@@ -12,11 +12,18 @@ dateModified: 2023-02-23
 description: "Standard page with breadcrumbs"
 lang: en
 layout: without-h1
-title: "Breadcrumb trail - Canada.ca design pattern"
+title: "Breadcrumb trail"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail - Canada.ca design pattern</span>: <span>Canada.ca design</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design</span></span></h1>
+<div class="alert alert-danger">
+    <p>Mandatory on standard and campaign pages</p>
+</div>
 <p>This is a mockup of the future state of the Breadcrumb trail pattern.</p>
-<h2>Iteration 1 - Feb. 23</h2>
-<ul>
-  <li><a href="breadcrumb-01.html">Breadcrumb 01</a></li>
-  </ul>
+<p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
+<figure>
+
+		<figcaption class="caption"><b>Breadcrumb trail</b></figcaption>
+
+			<img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header">
+
+	</figure>
