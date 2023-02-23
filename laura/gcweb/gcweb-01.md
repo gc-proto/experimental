@@ -246,8 +246,9 @@ title: "Global header"
   </li>
   <li>
     <h4>Language toggle</h4>
-    <ul>
-      <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/language/includes/languagetoggle.html"><span class="fab fa-github mrgn-rght-sm"></span> languagetoggle</a></li>
+    <ul class="fa-ul">
+	    <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/language/includes/languagetoggle.html">languagetoggle</a></li>
+	    <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link</a></li>
     </ul>
   </li>
   <li>
