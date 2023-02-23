@@ -1,8 +1,8 @@
 ---
 altLangPage: "#"
 breadcrumbs:
-  - title: Not sure what we should do here
-  - link: https://test.canada.ca/experimental/laura/gcweb/gcweb-01.html
+- title: Not sure what we should do here
+- link: https://test.canada.ca/experimental/laura/gcweb/gcweb-01.html
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
