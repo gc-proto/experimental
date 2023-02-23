@@ -86,17 +86,18 @@ title: "Breadcrumb trail"
 <p><strong>Services and information content</strong></p>
 <p><strong>Theme pages, institutional and organizational pages</strong</p>
 	<p>Canada.ca</p>   
-
-<p><strong>First-level topic pages</p></strong>
+<br>
+<p><strong>First-level topic pages</strong></p>
 Canada.ca   >   [Parent theme]
-
-<p><strong>Second-level topic pages</p></strong>
+<br>
+<p><strong>Second-level topic pages</strong></p>
 <p>Canada.ca    >   [Parent theme]    >   [Parent topic]</p>
-
-<p><strong>Destination content pages</p></strong>
+<br>
+<p><strong>Destination content pages</strong></p>
 <p>Canada.ca    >   [Parent theme]    >   [Parent topic]   >  [Parent sub-topic]   >   [etc.]</p>
 <p>For example, when on the “Planning a business” page in the Business and industry theme, the breadcrumb trail will be:
 Canada.ca   >   Business   >   Starting a business</p>
+	<br>
 <ul class="list-unstyled">
 	<li>
 		<details>
