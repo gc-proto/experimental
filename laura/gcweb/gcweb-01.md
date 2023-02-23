@@ -234,7 +234,7 @@ title: "Global header"
     <p>The Header for version 3.0 (including the authentication section) is deprecated, but still supported.  It requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.   The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
   </div>
 </div>
-<h2 id="code">Code</h2>
+<h2 id="code">Code and guidence</h2>
 <h3>Non-configurable elements (mandatory on all pages)</h3>
 <ul>
   <li>
