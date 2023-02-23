@@ -25,3 +25,60 @@ title: "Breadcrumb trail"
 			<img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header">
 
 	</figure>
+<h2>On this page</h2>
+<ul>
+	<li>When to use</li>
+	<li>What to avoid</li>
+	<li>Content and design</li>
+	<li>How to implement</li>
+	<li>Latest changes</li>
+	<li>Discussion</li>
+</ul>
+<h2>When to use</h2>
+<p>The breadcrumb trail is mandatory on all pages except transactional pages.</p> 
+<h2>What to avoid</h2>
+<p>Don’t program the breadcrumb trail to be generated dynamically based on a visitor’s journey to a page. It should represent the location of a page as it stands in relation to the site’s navigation model.</p>
+
+<p>Avoid long link labels. Use a shortened version of the page title if necessary.</p>
+
+<p>Don’t display the current page at the end of the breadcrumb trail (linked or unlinked). It increases the length of the breadcrumb unnecessarily, especially on mobile. The heading of the page is enough to let people know where they are.</p>
+
+<h2>Content and design</h2>
+<p>Find content and design specifications and visual examples.</p>
+
+<h3>Content specifications</h3>
+<ul>
+	<li>Align the breadcrumb trail to the left directly below the menu button (or the divider line if there is no menu button)</li>
+	<li>Use “Canada.ca” as the text of the first breadcrumb link on standard and campaign pages</li>
+	<li>Link to the Canada.ca home page in the language of the current page</li>
+<li>You can use either “Home” or the name of the process or application as the text of the first breadcrumb link on transactional pages that use a breadcrumb trail</li>
+	<li>Link to the starting page of the process or the landing page of the application</li>
+	<li>Breadcrumb links should reflect the title of the page</li> 
+<Li>Shorten the page title if necessary to reduce the space required to display the breadcrumb trail</li>
+	<li>Use a single greater-than sign (>) to separate each breadcrumb link</li>
+	</ul>
+<h4>Accessibility</h4>
+<p>Include “You are here:” as invisible help text</p>
+<h3>Design specifications</h3>
+<ul> 
+	<li>Type: link</li> 
+	<li>Position: top left</li>
+	<li>Font: Noto sans</li>
+	<li>Size: 16px</li>
+	<li>Text colour:</li>
+<ul>
+	<li>default link: #284162</li>
+	<li>selected link (on hover or focus): #0535d2</li>
+	<li>visited link: #7834bc</li>
+</ul>
+	<li>Spacing: padding: 0 5px</li>
+	<li>Icon:  \f054 (Font awesome)</li>
+	<h4>Accessibility</h4>
+<ul>
+	<li>Code breadcrumbs as an ordered list</li>
+	</ul>
+
+
+
+
+
