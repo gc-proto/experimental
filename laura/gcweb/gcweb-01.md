@@ -264,21 +264,21 @@ title: "Global header"
   <li>
     <h4>Theme and topic menu</h4>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">GitHub code link</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">[GitHub code link]</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Theme and topic menu</a></li>
     </ul>
   </li>
   <li>
     <h4>Breadcrumb trail</h4>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">GitHub code link</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">[GitHub code link]</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></li>
     </ul>
   </li>
   <li>
     <h4>Sign-in button</h4>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">GitHub code link</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">[GitHub code link]</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/contextual-signin.html">Contextual Sign in button</a></li>
     </ul>
   </li>
