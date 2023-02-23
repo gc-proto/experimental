@@ -122,7 +122,7 @@ title: "Global header"
   </tr>
 </table>
 <details>
-  <summary>Deprecated version (What does depricated, but still supported mean?)</summary>
+  <summary>Deprecated version</summary>
   <div class="mrgn-tp-lg">
     <table class="table table-bordered small">
       <tr>
