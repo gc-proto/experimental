@@ -74,7 +74,7 @@ title: "Global header"
   <li><a href="#evaluation">Evaluation and report</a></li>
   <li><a href="#api">API (Version 2.0)</a></li>
   <li><a href="#template">Template</a></li>
-  <li><a href="#code"><span class="fab fa-github mrgn-rght-sm"></span> Code</a></li>
+  <li><a href="#code">Code</a></li>
 </ul>
 <p>The global header is a container that displays components that make up the header.</p>
 <p>Available components include:</p>
@@ -234,11 +234,15 @@ title: "Global header"
     <p>The Header for version 3.0 (including the authentication section) is deprecated, but still supported.  It requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.   The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
   </div>
 </div>
-<h2 id="code"><span class="fab fa-github mrgn-rght-sm"></span> Code</h2>
-<h3>Non-configurable elements (mandatory on all pages):</h3>
+<h2 id="code">Code</h2>
+<h3>Non-configurable elements (mandatory on all pages)</h3>
 <ul>
-  <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html">Branding</a></li>
-</ul>
+<li>
+  <h4>Branding</h4>
+  <ul>
+    <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html"><span class="fab fa-github mrgn-rght-sm"></span> Branding</a></li>
+  </ul>
+</li>
 <ul>
   <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/language/includes/languagetoggle.html">Language toggle</a></li>
 </ul>
