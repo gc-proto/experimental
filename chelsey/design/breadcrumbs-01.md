@@ -75,7 +75,8 @@ title: "Breadcrumb trail"
 </ul>
 	<li>Spacing: padding: 0 5px</li>
 	<li>Icon:  \f054 (Font awesome)</li>
-	<h4>Accessibility</h4>
+	</ul>
+<h4>Accessibility</h4>
 <ul>
 	<li>Code breadcrumbs as an ordered list</li>
 	</ul>
