@@ -251,9 +251,6 @@ title: "Global header"
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link</a></li>
     </ul>
   </li>
-  <li>
-    <h4>Divider line</h4>
-  </li>
 </ul>
 <h3>Configurable elements (depends on type of page):</h3>
 <ul>
