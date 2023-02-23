@@ -238,10 +238,10 @@ title: "Global header"
 <h3>Non-configurable elements (mandatory on all pages)</h3>
 <ul>
   <li>
-    <h4>Branding</h4>
-    <ul>
-      <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html"><span class="fas fa-code-branch mrgn-rght-sm"></span> Brand</a></li>
-	    <li><a href="https://design.canada.ca/common-design-patterns/signature.html"><span class="fab fa-canadian-maple-leaf mrgn-rght-sm"></span> Government of Canada signature</a></li>
+    <h4>Branding</h4> 
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html">Brand</a></li>
+	    <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature</a></li>
     </ul>
   </li>
   <li>
