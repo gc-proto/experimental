@@ -80,6 +80,23 @@ title: "Breadcrumb trail"
 <ul>
 	<li>Code breadcrumbs as an ordered list</li>
 	</ul>
+<h4>Examples</h4>
+<p>Usage for different locations on Canada.ca is as follows:</p>
+
+<p><strong>Services and information content</strong></p>
+<p><strong>Theme pages, institutional and organizational pages</strong</p>
+	<p>Canada.ca</p>   
+
+<p><strong>First-level topic pages</p></strong>
+Canada.ca   >   [Parent theme]
+
+<p><strong>Second-level topic pages</p></strong>
+<p>Canada.ca    >   [Parent theme]    >   [Parent topic]</p>
+
+<p><strong>Destination content pages</p></strong>
+<p>Canada.ca    >   [Parent theme]    >   [Parent topic]   >  [Parent sub-topic]   >   [etc.]</p>
+<p>For example, when on the “Planning a business” page in the Business and industry theme, the breadcrumb trail will be:
+Canada.ca   >   Business   >   Starting a business</p>
 
 
 
