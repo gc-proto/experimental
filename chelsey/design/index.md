@@ -18,5 +18,5 @@ title: "Breadcrumb trail - Canada.ca design pattern"
 <p>This is a mockup of the future state of the Breadcrumb trail pattern.</p>
 <h2>Iteration 1 - Feb. 23</h2>
 <ul>
-  <li><a href="breadcrumb-01.html">Breadcrumb 01</a></li>
+  <li><a href="breadcrumbs-01.html">Breadcrumb 01</a></li>
   </ul>
