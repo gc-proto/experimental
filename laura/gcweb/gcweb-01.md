@@ -237,17 +237,21 @@ title: "Global header"
 <h2 id="code">Code</h2>
 <h3>Non-configurable elements (mandatory on all pages)</h3>
 <ul>
-<li>
-  <h4>Branding</h4>
-  <ul>
-    <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html"><span class="fab fa-github mrgn-rght-sm"></span> Branding</a></li>
-  </ul>
-</li>
-<ul>
-  <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/language/includes/languagetoggle.html">Language toggle</a></li>
-</ul>
-<ul>
-  <li>Divider line</li>
+  <li>
+    <h4>Branding</h4>
+    <ul>
+      <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html"><span class="fab fa-github mrgn-rght-sm"></span> Brand</a></li>
+    </ul>
+  </li>
+  <li>
+    <h4>Language toggle</h4>
+    <ul>
+      <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/language/includes/languagetoggle.html"><span class="fab fa-github mrgn-rght-sm"></span> languagetoggle</a></li>
+    </ul>
+  </li>
+  <li>
+    <h4>Divider line</h4>
+  </li>
 </ul>
 <h3>Configurable elements (depends on type of page):</h3>
 <ul>
