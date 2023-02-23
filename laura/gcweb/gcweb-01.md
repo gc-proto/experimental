@@ -17,10 +17,12 @@ title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
 <div class="wb-prettify all-pre hide"></div>
-<h2 id="iteration">Current iteration</h2>
 <div class="row">
   <div class="col-md-8">
-    <div class="panel panel-default">
+    <div class="panel panel-info">
+      <header class="panel-heading">
+        <h2 class="panel-title">Current iteration</h2>
+      </header>
       <table class="table table-bordered table-condensed small">
         <caption class="wb-inv">
         Current iteration of the global header
