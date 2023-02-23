@@ -15,3 +15,8 @@ layout: without-h1
 title: "Improving content mockups"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Improving content mockups</span>: <span>Canada.ca design</span></span></h1>
+<p>This is a mockup of content improvement page.</p>
+<h2>Iteration 1 - Feb. 23</h2>
+<ul>
+  <li><a href="content-01.html">Content 01</a></li>
+  </ul>
