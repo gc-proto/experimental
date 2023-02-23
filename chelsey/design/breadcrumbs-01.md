@@ -58,7 +58,9 @@ title: "Breadcrumb trail"
 	<li>Use a single greater-than sign (>) to separate each breadcrumb link</li>
 	</ul>
 <h4>Accessibility</h4>
-<p>Include “You are here:” as invisible help text</p>
+<ul>
+<li>Include “You are here:” as invisible help text</li>
+</ul>
 <h3>Design specifications</h3>
 <ul> 
 	<li>Type: link</li> 
