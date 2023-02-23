@@ -1,7 +1,7 @@
 ---
 altLangPage: "#"
 breadcrumbs:
-  - title: Breadcrumb name
+  - title: Improving content
     link: "https://ised-isde.canada.ca/site/biomanufacturing/en"
 css:
 - https://design.canada.ca/css/split-h1.css
