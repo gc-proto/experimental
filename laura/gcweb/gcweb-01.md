@@ -67,7 +67,7 @@ title: "Global header"
 </div>
 <h2>On this page</h2>
 <ul>
-  <li><a href="#purpose">Purpose</a></li>	
+  <li><a href="#purpose">Purpose</a></li>
   <li><a href="#implement">How to implement</a></li>
   <li><a href="#evaluation">Evaluation and report</a></li>
   <li><a href="#api">API (Version 2.0)</a></li>
@@ -233,3 +233,30 @@ title: "Global header"
   </div>
 </div>
 <h2 id="code"><span class="fab fa-github mrgn-rght-sm"></span> Code</h2>
+<h3>Non-configurable elements (mandatory on all pages):</h3>
+<ul>
+  <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html">Branding</a></li>
+</ul>
+<ul>
+  <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/language/includes/languagetoggle.html">Language toggle</a></li>
+</ul>
+<ul>
+  <li>Divider line</li>
+</ul>
+<h3>Configurable elements (depends on type of page):</h3>
+<ul>
+  <li><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/sitesearch.html">Site search box code</a></li>
+  <li>Configuration - AEM, CDTS, Jekyll, Drupal ….</li>
+</ul>
+<ul>
+  <li><a href="">Menu code</a></li>
+  <li>Configuration - AEM, CDTS, Jekyll, Drupal ….</li>
+</ul>
+<ul>
+  <li><a href="">Breadcrumb trail code</a></li>
+  <li>Configuration - AEM, CDTS, Jekyll, Drupal ….</li>
+</ul>
+<ul>
+  <li><a href="">Sign-in button code</a></li>
+  <li>Configuration - AEM, CDTS, Jekyll, Drupal ….</li>
+</ul>
