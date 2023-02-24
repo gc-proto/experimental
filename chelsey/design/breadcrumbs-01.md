@@ -74,7 +74,7 @@ title: "Breadcrumb trail"
 </ul>
 <h4>Examples</h4>
 <p>Usage for different locations on Canada.ca is as follows:</p>
-<h5>Services and information content</h5>
+<p><strong>Services and information content</strong></p>
 <p><strong>Theme pages, institutional and organizational pages</strong></p>
 <p>Canada.ca</p>
 <p><strong>First-level topic pages</strong></p>
