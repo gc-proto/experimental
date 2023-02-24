@@ -125,3 +125,11 @@ title: "Breadcrumb trail"
 <figure>
   <figcaption class="caption">Global header with breadcrumb trail  - large screen</figcaption>
   <img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
+<h2>How to implement</h2>
+<p>Find working examples for implementing the breadcrumbs.</p>
+<h3>GCweb (WET) theme implementation reference<h3>
+<ul>
+  <li>GCWeb (WET)</li>
+  </ul>
+  <h4>Implementations</h4>
+  <p>Determine the breadcrumb order that best suits the type of page you're creating. Refer to your implementation's guidance if you want to exclude breadcrumbs.</p>
