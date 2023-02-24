@@ -20,7 +20,7 @@ title: "Breadcrumb trail"
 <p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
 <figure>
   <figcaption class="caption"><b>Breadcrumb trail</b></figcaption>
-  <img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"> </figure>
+  <img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
 <h2>On this page</h2>
 <ul>
   <li>When to use</li>
