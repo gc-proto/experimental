@@ -124,4 +124,4 @@ title: "Breadcrumb trail"
   <img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
 <figure>
   <figcaption class="caption"><b>Global header with breadcrumb trail  - small screen</b></figcaption>
-  <img src="chelsey/design/images/breadcrumbxs.PNG" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
+  ![Breadcrumb trail appears on the lower left of the Canada.ca header](breadcrumbsxs.PNG)</figure>
