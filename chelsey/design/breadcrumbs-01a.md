@@ -27,7 +27,7 @@ title: "Breadcrumb trail"
 <p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]</p>
 <h5>Destination content pages</h5>
 <p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]   &#8250;  [Parent sub-topic]   &#8250;   [etc.]</p>
-<p>For example, when on the “Planning a business” page in the Business and industry theme, the breadcrumb trail will be:</p>
+<p>For example, the breadcrumbs on the “Planning a business” page (Business and industry theme) are:</p>
 <p>Canada.ca   &#8250;   Business   &#8250;   Starting a business</p>
 <h5>Corporate, program and policy content, Corporate, program or policy content pages</h5>
 <p>Canada.ca   &#8250;   [Institutional profile page]</p>
