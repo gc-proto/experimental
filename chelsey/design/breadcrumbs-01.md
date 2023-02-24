@@ -137,5 +137,4 @@ Canada.ca   >   Business   >   Starting a business</p>
 			<img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header">
 
 	</figure>
-
-
+</p>
