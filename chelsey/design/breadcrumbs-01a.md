@@ -19,7 +19,7 @@ title: "Breadcrumb trail"
 <p><span class="label label-danger">Mandatory on standard and campaign pages</span><p>
 <h4>Examples</h4>
 <p>Usage for different locations on Canada.ca is as follows:</p>
-<h5>Services and information content, Theme pages, institutional and organizational pages</h5>
+<h5>Services and information content, Theme pages, Institutional and organizational pages</h5>
 <p>Canada.ca</p>
 <h5>First-level topic pages</h5>
 <p>Canada.ca   &#8250;   [Parent theme]</p>
