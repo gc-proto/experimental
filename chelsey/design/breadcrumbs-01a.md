@@ -12,6 +12,7 @@ dateModified: 2023-02-23
 description: "Standard page with breadcrumbs"
 lang: en
 layout: without-h1
+pageclass: cnt-wdth-lmtd
 title: "Breadcrumb trail"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design</span></span></h1>
