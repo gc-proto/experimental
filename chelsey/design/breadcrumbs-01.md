@@ -134,3 +134,6 @@ title: "Breadcrumb trail"
   </ul>
   <h4>Implementations</h4>
   <p>Determine the breadcrumb order that best suits the type of page you're creating. Refer to your implementation's guidance if you want to exclude breadcrumbs.</p>
+<figure>
+  <figcaption class="caption">Breadcrumb trail</figcaption>
+  <img src="./images/breadcrumbxs.PNG" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
