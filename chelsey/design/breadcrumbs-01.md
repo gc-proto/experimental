@@ -87,7 +87,7 @@ title: "Breadcrumb trail"
 <p><strong>Theme pages, institutional and organizational pages</strong></p>
 	<p>Canada.ca</p>   
 <p><strong>First-level topic pages</strong></p>
-Canada.ca   >   [Parent theme]
+<p>Canada.ca   >   [Parent theme]</p>
 <br>
 <p><strong>Second-level topic pages</strong></p>
 <p>Canada.ca    >   [Parent theme]    >   [Parent topic]</p>
@@ -129,7 +129,7 @@ Canada.ca   >   Business   >   Starting a business</p>
 		</details>
 	</li>		
 </ul>
-	<h3>Visual examples</h3>
+<h3>Visual examples</h3>
 <figure>
 
 		<figcaption class="caption"><b>Global header with breadcrumb trail  - large screen</b></figcaption>
