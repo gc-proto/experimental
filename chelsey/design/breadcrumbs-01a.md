@@ -18,7 +18,7 @@ title: "Breadcrumb trail"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design</span></span></h1>
 <p><span class="label label-danger">Mandatory on standard and campaign pages</span><p>
 <h4>Examples</h4>
-<p>Usage for different locations on Canada.ca is as follows:</p>
+<p>Here are some examples for differewnt locations on Canada.ca.</p>
 <h5>Services and information content, Theme pages, Institutional and organizational pages</h5>
 <p>Canada.ca</p>
 <h5>First-level topic pages</h5>
