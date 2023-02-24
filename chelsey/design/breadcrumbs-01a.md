@@ -20,7 +20,7 @@ title: "Breadcrumb trail"
 <h4>Examples</h4>
 <p>Here are some examples for different locations on Canada.ca.</p>
 <h5>Services and information content, theme pages, institutional and organizational pages</h5>
-<p><span class="far fa-hand-point-right mrgn-rght-sm"> Canada.ca</span></p>
+<p>Canada.ca</p>
 <h5>First-level topic pages</h5>
 <p>Canada.ca   &#8250;   [Parent theme]</p>
 <h5>Second-level topic pages</h5>
