@@ -122,3 +122,6 @@ title: "Breadcrumb trail"
 <figure>
   <figcaption class="caption"><b>Global header with breadcrumb trail  - large screen</b></figcaption>
   <img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
+<figure>
+  <figcaption class="caption"><b>Global header with breadcrumb trail  - small screen</b></figcaption>
+  <img src="breadcrumbsxs.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
