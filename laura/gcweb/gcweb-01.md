@@ -76,6 +76,7 @@ title: "Global header"
   <li><a href="#template">Template</a></li>
   <li><a href="#code">wet-boew/GCWeb code and Canada.ca design guidence</a></li>
 </ul>
+<h2 id="purpose">Purpose</h2>
 <p>The global header is a container that displays components that make up the header.</p>
 <p>Available components include:</p>
 <ul>
