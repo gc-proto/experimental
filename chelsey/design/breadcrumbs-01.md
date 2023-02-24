@@ -91,7 +91,11 @@ title: "Breadcrumb trail"
       <summary>Corporate, program and policy content</summary>
       <p><strong>Corporate, program or policy content pages</strong></p>
       <p>Canada.ca   &#8250;   [Institutional profile page]</p>
-      <p><strong>Partnering and collaborative arrangement profile pages</strong></p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Partnering and collaborative arrangement profile pages</summary>
       <p>Canada.ca</p>
     </details>
   </li>
