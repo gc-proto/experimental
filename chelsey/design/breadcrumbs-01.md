@@ -79,7 +79,6 @@ title: "Breadcrumb trail"
 <p>Canada.ca</p>
 <p><strong>First-level topic pages</strong></p>
 <p>Canada.ca   &#8250;   [Parent theme]</p>
-<br>
 <p><strong>Second-level topic pages</strong></p>
 <p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]</p>
 <p><strong>Destination content pages</strong></p>
