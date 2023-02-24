@@ -127,7 +127,7 @@ title: "Breadcrumb trail"
   <img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
 <h2>How to implement</h2>
 <p>Find working examples for implementing the breadcrumbs.</p>
-<h3>GCweb (WET) theme implementation reference<h3>
+<h3>GCweb (WET) theme implementation reference</h3>
 <ul>
   <li>GCWeb (WET)</li>
   </ul>
