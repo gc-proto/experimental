@@ -90,7 +90,9 @@ title: "Global header"
 <h2 id="implement">How to implement</h2>
 <h3>Page types</h3>
 <p>Components are used and configured for different page types.   Consult the Canada.ca Design system guidance for using these components on <strong>Standard</strong>, <strong>Transactional</strong>, and <strong>Campaign</strong> pages.</p>
-<p><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></p>
+<ul class="fa-ul">
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></li>
+    </ul>
 <h3>Some working examples</h3>
 <p>Here are some popular working examples.  It is not an exhaustive list of possible iterations.  Configure your page based on user needs and design system guidance.</p>
 <ul>
