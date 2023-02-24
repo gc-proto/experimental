@@ -16,7 +16,6 @@ title: "Breadcrumb trail"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design</span></span></h1>
 <p><span class="label label-danger">Mandatory on standard and campaign pages</span><p>
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design</span></span></h1>
 <h4>Examples</h4>
 <p>Usage for different locations on Canada.ca is as follows:</p>
 <h5>Services and information content, Theme pages, institutional and organizational pages</h5>
@@ -28,7 +27,7 @@ title: "Breadcrumb trail"
 <h5>Destination content pages</h5>
 <p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]   &#8250;  [Parent sub-topic]   &#8250;   [etc.]</p>
 <p class="mrgn-tp-lg">For example, when on the “Planning a business” page in the Business and industry theme, the breadcrumb trail will be:</p>
-<p class="mrgn-tp-lg">Canada.ca   &#8250;   Business   &#8250;   Starting a business</p>
+<p>Canada.ca   &#8250;   Business   &#8250;   Starting a business</p>
 <h5>Corporate, program and policy content, Corporate, program or policy content pages</h5>
 <p>Canada.ca   &#8250;   [Institutional profile page]</p>
 <h5>Partnering and collaborative arrangement profile pages</h5>
