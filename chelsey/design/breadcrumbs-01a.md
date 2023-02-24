@@ -19,7 +19,7 @@ title: "Breadcrumb trail"
 <p><span class="label label-danger">Mandatory on standard and campaign pages</span></p>
 <h4>Examples</h4>
 <p>Here are some examples for different locations on Canada.ca.</p>
-<h5>Services and information content, Theme pages, Institutional and organizational pages</h5>
+<h5>Services and information content, theme pages, institutional and organizational pages</h5>
 <p>Canada.ca</p>
 <h5>First-level topic pages</h5>
 <p>Canada.ca   &#8250;   [Parent theme]</p>
@@ -29,7 +29,7 @@ title: "Breadcrumb trail"
 <p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]   &#8250;  [Parent sub-topic]   &#8250;   [etc.]</p>
 <p class="mrgn-tp-md">For example, the breadcrumbs on the “Planning a business” page (Business and industry theme) are:</p>
 <p>Canada.ca   &#8250;   Business   &#8250;   Starting a business</p>
-<h5>Corporate, program and policy content, Corporate, program or policy content pages</h5>
+<h5>Corporate program and policy content pages</h5>
 <p>Canada.ca   &#8250;   [Institutional profile page]</p>
 <h5>Partnering and collaborative arrangement profile pages</h5>
 <p>Canada.ca</p>
