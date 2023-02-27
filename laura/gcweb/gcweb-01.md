@@ -214,8 +214,10 @@ title: "Global header"
 <h4>Version 3.0</h4>
 <p>No change is required when upgrading fro Version 3 unless you are using the authentication section</p>
 <h4>Code to include authentication section (optional)</h4>
-<p>Version 3.0 requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> to use the authentication component.   The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
-<p>The authentication div is modified to <code><span class="nowrap">col-xs-6</span></code> and <code><span class="nowrap">col-xs-offset-6</span></code>.  This ensures that text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</p>
+<ol>
+  <li>implement <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.  The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</li>
+  <li>modify the authentication div to <code><span class="nowrap">col-xs-6</span></code> and <code><span class="nowrap">col-xs-offset-6</span></code>.  This ensures that text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</li>
+</ol>
 <div class="row">
   <div class="col-md-6">
     <pre><code>&lt;header&gt;
