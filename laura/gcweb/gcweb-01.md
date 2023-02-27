@@ -163,6 +163,7 @@ title: "Global header"
 <h3>Version 4.0</h3>
 <div class="row">
   <div class="col-md-6">
+    <p>There is no change between Version 4.0 and 3.0 unless the optional authentication component is used.</p>
     <pre><code>&lt;header&gt;
 	&lt;div id=&quot;wb-bnr&quot; class=&quot;container&quot;&gt;
 		&lt;div class=&quot;row&quot;&gt;
@@ -183,7 +184,6 @@ title: "Global header"
 &lt;/header&gt;</code></pre>
   </div>
 </div>
-<p>There is no change between Version 4.0 and 3.0 unless the optional authentication component is used.</p>
 <h4>Code to include authentication section (optional)</h4>
 <div class="row">
   <div class="col-md-6">
