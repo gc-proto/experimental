@@ -91,8 +91,8 @@ title: "Global header"
 <h3>Page types</h3>
 <p>Components are used and configured for different page types.   Consult the Canada.ca Design system guidance for using these components on <strong>Standard</strong>, <strong>Transactional</strong>, and <strong>Campaign</strong> pages.</p>
 <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></li>
-    </ul>
+  <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></li>
+</ul>
 <h3>Some working examples</h3>
 <p>Here are some popular working examples.  It is not an exhaustive list of possible iterations.  Configure your page based on user needs and design system guidance.</p>
 <ul>
@@ -160,7 +160,7 @@ title: "Global header"
   </div>
 </details>
 <h2 id="template">Template</h2>
-<h3>Changes between Version 4.0 and 3.0 (deprecated)</h3>
+<h3>Version 4.0</h3>
 <div class="row">
   <div class="col-md-6">
     <pre><code>&lt;header&gt;
@@ -181,10 +181,10 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
-    <p>There is no change between Version 4.0 and 3.0 unless the optional authentication component is used.</p>
   </div>
 </div>
-<h4>Including authentication section (optional)</h4>
+<p>There is no change between Version 4.0 and 3.0 unless the optional authentication component is used.</p>
+<h4>Code to include authentication section (optional)</h4>
 <div class="row">
   <div class="col-md-6">
     <h4>Version 4.0</h4>
@@ -202,9 +202,9 @@ title: "Global header"
 			&lt;div class=&quot;col-md-8&quot;&gt;
 				&lt;!-- Site Menu [version 2.0] --&gt;
 		&lt;/div&gt;
-			&lt;div class=&quot;<strong class="h3">col-xs-<ins>6</ins> col-xs-offset-<ins>6</ins></strong> col-md-offset-0 col-md-4&quot;&gt;
+			<strong class="h3">&lt;div class=&quot;col-xs-<ins>6</ins> col-xs-offset-<ins>6</ins> col-md-offset-0 col-md-4&quot;&gt;
 				&lt;!-- Optional Authentication Section [version 1.0] --&gt;
-			&lt;/div&gt;
+			&lt;/div&gt;</strong>
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
