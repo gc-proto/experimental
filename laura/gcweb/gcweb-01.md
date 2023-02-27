@@ -163,7 +163,6 @@ title: "Global header"
 <h3>Version 4.0</h3>
 <div class="row">
   <div class="col-md-6">
-    <p>There is no change between Version 4.0 and 3.0 unless the optional authentication component is used.</p>
     <pre><code>&lt;header&gt;
 	&lt;div id=&quot;wb-bnr&quot; class=&quot;container&quot;&gt;
 		&lt;div class=&quot;row&quot;&gt;
@@ -210,9 +209,12 @@ title: "Global header"
 &lt;/header&gt;</code></pre>
   </div>
 </div>
+<h3>Updating previous template versions</h3>
 <p>All versions prior to Version 4 are deprecated but still supported.</p>
-<h3>Version 3.0</h3>
-<p>Version 3.0 requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.   The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
+<h4>Version 3.0</h4>
+<p>No change is required when upgrading fro Version 3 unless you are using the authentication section</p>
+<h4>Code to include authentication section (optional)</h4>
+<p>Version 3.0 requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> to use the authentication component.   The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
 <p>The authentication div is modified to <code><span class="nowrap">col-xs-6</span></code> and <code><span class="nowrap">col-xs-offset-6</span></code>.  This ensures that text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</p>
 <div class="row">
   <div class="col-md-6">
