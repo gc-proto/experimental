@@ -218,7 +218,7 @@ title: "Global header"
   <li>implement <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.  The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</li>
   <li>modify the authentication div to <code><span class="nowrap">col-xs-6</span></code> and <code><span class="nowrap">col-xs-offset-6</span></code>.  This ensures that text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</li>
 </ol>
-<div class="row">
+<!---<div class="row">
   <div class="col-md-6">
     <pre><code>&lt;header&gt;
 	&lt;div id=&quot;wb-bnr&quot; class=&quot;container&quot;&gt;
@@ -242,7 +242,17 @@ title: "Global header"
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
   </div>
-</div>
+</div>-->
+<h4>Working examples</h4>
+<details>
+  <summary>Header Version 3.0</summary>
+  <ul>
+    <li><a href="https://wet-boew.github.io/GCWeb/sites/header/deprecated/header-v3.html">Content page including Header Version 3.0</a></li>
+    <li><a href="https://wet-boew.github.io/GCWeb/sites/header/deprecated/header-auth-v3.html">Content page including Header Version 3.0 and the authentication section</a></li>
+    <li><a href="https://wet-boew.github.io/GCWeb/templates/home/deprecated/home-v3.html">Home page including Header Version 3.0</a></li>
+    <li><a href="https://wet-boew.github.io/GCWeb/templates/home/deprecated/home-auth-v3.html">Home page including Header Version 3.0 and the authentication section</a></li>
+  </ul>
+</details>
 <h2 id="code">wet-boew/GCWeb code and Canada.ca design guidence</h2>
 <h3>Non-configurable elements (mandatory on all pages)</h3>
 <ul>
