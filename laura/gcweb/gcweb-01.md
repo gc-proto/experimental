@@ -210,8 +210,9 @@ title: "Global header"
 &lt;/header&gt;</code></pre>
   </div>
 </div>
-<h3>Version 4.0</h3>
-<p>The Version 4 authentication div is modified to <code><span class="nowrap">col-xs-6</span></code> and <code><span class="nowrap">col-xs-offset-6</span></code>.  This ensures that the text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</p>
+<h3>Version 3.0</h3>
+<p>The Header for version 3.0 (including the authentication section) is deprecated, but still supported.  It requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.   The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
+<p>The authentication div is modified to <code><span class="nowrap">col-xs-6</span></code> and <code><span class="nowrap">col-xs-offset-6</span></code>.  This ensures that the text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</p>
 <div class="row">
   <div class="col-md-6">
     <pre><code>&lt;header&gt;
@@ -235,7 +236,6 @@ title: "Global header"
 	&lt;/div&gt;
 	&lt;!-- Breadcrumbs [version 1.0] --&gt;
 &lt;/header&gt;</code></pre>
-    <p>The Header for version 3.0 (including the authentication section) is deprecated, but still supported.  It requires the implementation of <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.   The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</p>
   </div>
 </div>
 <h2 id="code">wet-boew/GCWeb code and Canada.ca design guidence</h2>
