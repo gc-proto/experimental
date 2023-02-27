@@ -212,8 +212,8 @@ title: "Global header"
 <h3>Updating previous template versions</h3>
 <p>All versions prior to Version 4 are deprecated but still supported.</p>
 <h4>Version 3.0</h4>
-<p>No change is required when upgrading fro Version 3 unless you are using the authentication section</p>
-<h4>Code to include authentication section (optional)</h4>
+<p>No change is required when upgrading from Version 3 unless you are using the authentication section.</p>
+<h4>Authentication section code (optional)</h4>
 <ol>
   <li>implement <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a>.  The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> is relocated in the header and no longer part of the "gcweb-menu" component.</li>
   <li>modify the authentication div to <code><span class="nowrap">col-xs-6</span></code> and <code><span class="nowrap">col-xs-offset-6</span></code>.  This ensures that text for the Theme and topic menu button stays on one line on every screen (xxs, xxs, sm, md, lg and xl).</li>
