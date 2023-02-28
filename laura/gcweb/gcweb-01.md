@@ -35,8 +35,8 @@ title: "Global header"
         </thead>
         <tbody>
           <tr>
-            <td><strong>Status</strong></td>
-            <td>Stable</td>
+            <td class="col-md-4"><strong>Status</strong></td>
+            <td class="col-md-8">Stable</td>
           </tr>
           <tr>
             <td><strong>Type</strong></td>
