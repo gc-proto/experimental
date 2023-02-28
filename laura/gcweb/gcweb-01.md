@@ -75,10 +75,10 @@ title: "Global header"
   <li><a href="#api">API (Version 2.0)</a></li>
   <li><a href="#template">Template</a>
     <ul>
-      <li><a href="#v4">Version 4.0</a></li>
-      <li><a href="#v3">Version 3.0</a></li>
-      <li><a href="#v2">Version 2.0</a></li>
-      <li><a href="#v1">Version 1.0</a></li>
+      <li><a href="#v4">Version 4.0 (current)</a></li>
+      <li><a href="#v3">Version 3.0 (depricated, still supported)</a></li>
+      <li><a href="#v2">Version 2.0 (depricated, still supported)</a></li>
+      <li><a href="#v1">Version 1.0 (depricated, still supported)</a></li>
     </ul>
   </li>
   <li><a href="#code">wet-boew/GCWeb code and Canada.ca design guidence</a></li>
