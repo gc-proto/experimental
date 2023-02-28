@@ -245,7 +245,7 @@ title: "Global header"
 </div>-->
 <h4>Header working examples</h4>
 <details>
-  <summary>Version 3.0</summary>
+  <summary>Pages</summary>
   <ul>
     <li><a href="https://wet-boew.github.io/GCWeb/sites/header/deprecated/header-v3.html">Content page including Header Version 3.0</a></li>
     <li><a href="https://wet-boew.github.io/GCWeb/sites/header/deprecated/header-auth-v3.html">Content page including Header Version 3.0 and the authentication section</a></li>
