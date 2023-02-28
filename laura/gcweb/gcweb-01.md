@@ -73,7 +73,7 @@ title: "Global header"
   <li><a href="#implement">How to implement</a></li>
   <li><a href="#evaluation">Evaluation and report</a></li>
   <li><a href="#api">API (Version 2.0)</a></li>
-  <li><a href="#template">Template</a>
+  <li><a href="#template">Templates</a>
     <ul>
       <li><a href="#v4">Version 4.0 (current)</a></li>
       <li><a href="#v3">Version 3.0 (depricated, still supported)</a></li>
