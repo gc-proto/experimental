@@ -73,7 +73,14 @@ title: "Global header"
   <li><a href="#implement">How to implement</a></li>
   <li><a href="#evaluation">Evaluation and report</a></li>
   <li><a href="#api">API (Version 2.0)</a></li>
-  <li><a href="#template">Template</a></li>
+  <li><a href="#template">Template</a>
+    <ul>
+      <li><a href="#v4">Version 4.0</a></li>
+      <li><a href="#v3">Version 3.0</a></li>
+      <li><a href="#v2">Version 2.0</a></li>
+      <li><a href="#v1">Version 1.0</a></li>
+    </ul>
+  </li>
   <li><a href="#code">wet-boew/GCWeb code and Canada.ca design guidence</a></li>
 </ul>
 <h2 id="purpose">Purpose</h2>
@@ -159,8 +166,7 @@ title: "Global header"
     </table>
   </div>
 </details>
-<h2 id="template">Template</h2>
-<h3>Version 4.0</h3>
+<h3 id="v4">Version 4.0</h3>
 <div class="row">
   <div class="col-md-6">
     <pre><code>&lt;header&gt;
@@ -210,8 +216,8 @@ title: "Global header"
   </div>
 </div>
 <h3>Updating previous template versions</h3>
-<p>All versions prior to Version 4 are deprecated but still supported.</p>
-<h4>Version 3.0</h4>
+<p>All versions prior to Version 4 are deprecated.  We reccommend upgrading to Version 4.0.  These versions are still supported.</p>
+<h3 id="v3">Version 3.0 (depricated, still supported)</h3>
 <p>No change is required when upgrading from Version 3 unless you are using the authentication section.</p>
 <h4>Authentication section code (optional)</h4>
 <ol>
@@ -253,6 +259,8 @@ title: "Global header"
     <li><a href="https://wet-boew.github.io/GCWeb/templates/home/deprecated/home-auth-v3.html">Home page including Header Version 3.0 and the authentication section</a></li>
   </ul>
 </details>
+<h3 id="v2">Version 2.0 (depricated, still supported)</h3>
+<h3 id="v1">Version 1.0 (depricated, still supported)</h3>
 <h2 id="code">wet-boew/GCWeb code and Canada.ca design guidence</h2>
 <h3>Non-configurable elements (mandatory on all pages)</h3>
 <ul>
