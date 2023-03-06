@@ -154,11 +154,11 @@
          </header>
          <!--/* Hide Nav; Hide Right Rail /*-->
          <main role="main" property="mainContentOfPage" class="container wb-prettify all-pre">
-            <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked" role="text"><span>Page feedback tool</span>: <span>Design pattern</span></span></h1>
-          <p class="small">Last updated: 2022-10-18</p>
+            <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked" role="text"><span>Page feedback tool</span>: <span>Canada.ca design system</span></span></h1>
+          <p class="small">Last updated: 2023-3-31</p>
           <p class="bg-warning small"><strong>Optional on standard pages</strong></p>
             
-          <p><strong>Type:</strong> Pattern</p>
+        
 
           <p>The feedback tool is an <strong>optional</strong> pattern to collect feedback on the page experience. It replaces the “Report a problem” pattern while actively collecting user feedback.</p>
               
@@ -169,14 +169,7 @@
                 
                   <p>A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.</p>
                   
-                <p>A heading labelled "What was wrong", followed by options to select:</p>
-                <ul>
-                <li>I can't find the information</li>
-                <li>The information is hard to understand</li>
-                <li>There was an error or something didn't work</li>
-                <li>Other reason</li>
-              </ul>
-                <p>Followed by the text "Please provide more details. You will not receive a reply. Telephone numbers and email addresses will be removed. Maximum 300 characters", and a text field to provide more details.</p>
+                <p>A heading labelled "Please provide more details", followed by the text "You will not receive a reply. Don't include personal information (telephone, email, SIN, financial, medical, or work details). Maximum 300 characters", and a text field to provide more details.</p>
                 </details>
             
           
@@ -186,7 +179,8 @@
             	<li><a href="#rationale">When to use</a></li>
             	<li><a href="#cautions">What to avoid</a></li>
             	<li><a href="#how">How to implement</a></li>
-            
+                  	<li><a href="#research">Research and rationale</a></li>
+              <li><a href="#latest">Latest changes</a></li>
               <li><a href="#discuss">Discussion</a></li>
             </ul>
             
@@ -197,8 +191,8 @@
                    
                    <P>Consider adding the page feedback tool to:</p>
                    <ul>
-                     <li>uncover specific page-level issues affecting you GC Task Success Survey task score</li>
-                     <li>understand content issues on pages you will be working on in the future </li>
+                     <li>uncover specific page-level issues affecting your GC Task Success Survey task score</li>
+                     <li>research issues on pages you plan on working on in the future </li>
                          <li>understand if new pages are meeting user needs </li>
                          <li>identify emerging issues</li>
                          <li>monitor after page improvements have gone live</li>
@@ -220,7 +214,7 @@
                   
                   
                     <div class="col-md-12">
-                      <h3 class="h4">1. Feedback tool for AEM pages</h3>
+                      <h3 class="h4">1. Feedback tool code for AEM pages</h3>
                       <p>Use this feedback code for any page hosted on the Adobe Managed Web Service.</p>
                       
                       
@@ -321,7 +315,7 @@ These hidden fields are for:</li>
                           &lt;/fieldset&gt;
                           &lt;label for=&quot;problem6&quot; class=&quot;mrgn-bttm-0&quot;&gt;Please provide more details&lt;/label&gt;
                           &lt;p class=&quot;small&quot;&gt;
-                              &lt;strong&gt;You will not receive a reply. Telephone numbers and email addresses will be removed.&lt;/strong&gt;
+                              &lt;strong&gt;You will not receive a reply. Don't include personal information (telephone, email, SIN, financial, medical, or work details).&lt;/strong&gt;
                               &lt;br&gt;
                               &lt;span class=&quot;small&quot;&gt;Maximum 300 characters&lt;/span&gt;
                           &lt;/p&gt;
@@ -349,7 +343,7 @@ These hidden fields are for:</li>
                     </div>
                     
                      <div class="col-md-12">
-                       <h3 class="h4">2. Feedback tool for non-AEM pages</h3>
+                       <h3 class="h4">2. Feedback tool code for non-AEM pages</h3>
                        <p>Use this feedback tool code for any page that is not hosted on the Adobe Managed Web Service.</p>
                        
                        <details>
@@ -453,7 +447,7 @@ These hidden fields are for:</li>
                   &lt;/fieldset&gt;
                   &lt;label for=&quot;problem6&quot; class=&quot;mrgn-bttm-0&quot;&gt;Please provide more details&lt;/label&gt;
                   &lt;p class=&quot;small&quot;&gt;
-                     &lt;strong&gt;You will not receive a reply. Telephone numbers and email addresses will be removed.&lt;/strong&gt;
+                     &lt;strong&gt;You will not receive a reply. Don't include personal information (telephone, email, SIN, financial, medical, or work details).&lt;/strong&gt;
                      &lt;br&gt;
                      &lt;span class=&quot;small&quot;&gt;Maximum 300 characters&lt;/span&gt;
                   &lt;/p&gt;
@@ -516,7 +510,7 @@ These hidden fields are for:</li>
             <section>
                <h3 id="guidance">Accessing and analyzing feedback</h3>
 <ul>
-  <li><a href="https://test.canada.ca/experimental/design-system/performance/feedback/index.html">Guidance for  analyzing, and using page feedback</a></li>
+  <li><a href="https://test.canada.ca/experimental/design-system/performance/feedback/index.html">Guidance for  analyzing, and using page feedback</a> calls for client feedback </li>
   <li><a href="https://www.gcpedia.gc.ca/wiki/Page_feedback_tool-test#Access_to_feedback">How to access feedback</a> (internal only)</li>
 </ul>
 
@@ -524,6 +518,15 @@ These hidden fields are for:</li>
           
 
             <section>
+              
+              
+               <h2 id="research">Research and rationale</h2>
+               <h3>Policy rationale</h3>
+              <p>The <a href="https://test.canada.ca/experimental/design-system/performance/feedback/index.html">Guideline for Service and Digital</a> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
+               
+                <h2 id="latest">Latest changes</h2>
+              
+              
                <h2 id="discuss">Discussion</h2>
                <div class="row">
                   <div class="col-md-4 col-sm-6 col-xs-12">
@@ -601,8 +604,7 @@ These hidden fields are for:</li>
                           </fieldset>
                           <label for="problem6" class="mrgn-bttm-0">Please provide more details</label>
                           <p class="small">
-                            <strong>You will not receive a reply. Telephone numbers and email addresses will be
-                              removed.</strong>
+                            <strong>You will not receive a reply. Don't include personal information (telephone, email, SIN, financial, medical, or work details).</strong>
                             <br>
                             <span class="small">Maximum 300 characters</span>
                           </p>
