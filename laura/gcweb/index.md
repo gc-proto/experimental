@@ -34,7 +34,7 @@ title: "Global header documentation"
         <details open="open">
           <summary>Iteration 3 (2023-03-07)</summary>
           <ul class="mrgn-tp-md">
-            <li><a href="gcweb.html">Global header</a></li>
+            <li><a href="gcweb.html">Global header</a> - updates to the top of the page and implimentation section.</li>
           </ul>
         </details>
       </li>
