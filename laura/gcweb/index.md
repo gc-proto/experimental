@@ -26,7 +26,7 @@ title: "Global header documentation"
 </ul>
 <h2>Working document</h2>
 <ul class="list-unstyled fa-ul">
-  <li><span class="fa-li"><span class="fab fa-google"></span></span><a href="https://docs.google.com/document/d/1YY6JkiJ3nRywwalKJfCxSbqHn2z0SlfvFC8y4eBOrhU">Content design</a></li>
+  <li><span class="fa-li"><span class="fab fa-google"></span></span><a href="https://docs.google.com/document/d/1YY6JkiJ3nRywwalKJfCxSbqHn2z0SlfvFC8y4eBOrhU">Global header working document</a></li>
 </ul>
 <h2>Mockups</h2>
 <div class="row">
