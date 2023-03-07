@@ -27,29 +27,33 @@ title: "Global header documentation"
   <li><a href="https://wet-boew.github.io/GCWeb/sites/header/header-docs-en.html">Header</a></li>
 </ul>
 <h2>Mockups</h2>
-<ul class="list-unstyled mrgn-tp-lg">
-  <li>
-    <details open="open">
-      <summary>Iteration 3 (2023-03-07)</summary>
-      <ul class="mrgn-tp-md">
-        <li><a href="gcweb-02.html">Global header</a></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Iteration 2 (2023-02-23)</summary>
-      <ul class="mrgn-tp-md">
-        <li><a href="gcweb-01.html">Global header</a></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Iteration 1</summary>
-      <ul class="mrgn-tp-md">
-        <li><a href="gcweb.html">Global header</a></li>
-      </ul>
-    </details>
-  </li>
-</ul>
+<div class="row">
+  <div class="col-md-8">
+    <ul class="list-unstyled mrgn-tp-lg">
+      <li>
+        <details open="open">
+          <summary>Iteration 3 (2023-03-07)</summary>
+          <ul class="mrgn-tp-md">
+            <li><a href="gcweb.html">Global header</a></li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>Iteration 2 (2023-02-23)</summary>
+          <ul class="mrgn-tp-md">
+            <li><a href="gcweb.html">Global header</a></li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>Iteration 1</summary>
+          <ul class="mrgn-tp-md">
+            <li><a href="gcweb.html">Global header</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</div>
