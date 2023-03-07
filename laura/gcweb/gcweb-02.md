@@ -110,7 +110,6 @@ title: "Global header"
 <h3>Implementation notes</h3>
 <p>Previous versions to Version 4.0 require <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> for some functionality (see the template section for more details).  The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> element has been relocated to the global header.  It is no longer part of the "gcweb-menu" component.</p>
 <h2 id="evaluation">Evaluation and report</h2>
-<h2>Evaluation and report</h2>
 <p>There is no evaluation and report available for this component.</p>
 <h2>API (Version 2.0)</h2>
 <table class="table table-bordered">
