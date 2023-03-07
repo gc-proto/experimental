@@ -73,7 +73,7 @@ title: "Global header"
   <li><a href="#implement">How to implement</a></li>
   <li><a href="#evaluation">Evaluation and report</a></li>
   <li><a href="#api">API (Version 2.0)</a></li>
-  <li><a href="#template">Templates</a>
+  <li><a href="#template">Template</a>
     <ul>
       <li><a href="#v4">Version 4.0 (current)</a></li>
       <li><a href="#v3">Version 3.0 (depricated, still supported)</a></li>
@@ -111,7 +111,7 @@ title: "Global header"
 <p>Previous versions to Version 4.0 require <a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">gcweb-menu version 2.0</a> for some functionality (see the template section for more details).  The <code><span class="nowrap">&lt;div class="container"&gt;</span></code> element has been relocated to the global header.  It is no longer part of the "gcweb-menu" component.</p>
 <h2 id="evaluation">Evaluation and report</h2>
 <p>There is no evaluation and report available for this component.</p>
-<h2>API (Version 2.0)</h2>
+<h2 id="api">API (Version 2.0)</h2>
 <table class="table table-bordered">
   <tr>
     <th>Component version</th>
@@ -161,7 +161,7 @@ title: "Global header"
     </tr>
   </table>
 </details>
-<h2>Template</h2>
+<h2 id="template">Template</h2>
 <h3>Before and After</h3>
 <div class="row">
   <div class="col-md-6">
