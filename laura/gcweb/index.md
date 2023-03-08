@@ -7,7 +7,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 - https://prycrane.github.io/experimental/prycrane/datatables/css/datatables-fun.css
 date: 2023-03-07
-dateModified: 2023-03-07
+dateModified: 2023-03-08
 description: "Continuous improvement of web content"
 lang: en
 layout: form
@@ -19,7 +19,7 @@ nomenu: true
 pageclass: cnt-wdth-lmt
 title: "Global header documentation"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header documentation</span>: <span>Pricipal publisher documentation</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header documentation</span>: <span>Principal Publisher documentation</span></span></h1>
 <p>Our goal is to make the Principal Publisher’s header documentation work well with the design guidance.  The primary focus is to make using and configuring the new header easy.  </p>
 <h2 class="mrgn-tp-lg">Current page</h2>
 <ul>
