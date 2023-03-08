@@ -8,6 +8,8 @@ auth:
 breadcrumbs:
   - title: Breadcrumb name
     link: "https://ised-isde.canada.ca/site/biomanufacturing/en"
+  - title: Breadcrumb name
+    link: "https://ised-isde.canada.ca/site/biomanufacturing/en"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
@@ -18,6 +20,7 @@ description: "Standard layout with Sign in and menu"
 lang: en
 layout: without-h1
 nomenu: false
+pageclass: cnt-wdth-lmtd
 title: "Standard layout with Sign in and menu"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Standard layout with Sign in and menu</span>: <span>Canada.ca design</span></span></h1>
