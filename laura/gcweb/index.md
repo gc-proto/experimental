@@ -20,6 +20,7 @@ pageclass: cnt-wdth-lmt
 title: "Global header documentation"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header documentation</span>: <span>Pricipal publisher documentation</span></span></h1>
+<p>Our goal is to make the Principal Publisher’s header documentation work well with the design guidance.  The primary focus is to make using and configuring the new header easy.  </p>
 <h2 class="mrgn-tp-lg">Current page</h2>
 <ul>
   <li><a href="https://wet-boew.github.io/GCWeb/sites/header/header-docs-en.html">Header</a></li>
