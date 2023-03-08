@@ -15,7 +15,7 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Global header"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principle Publisher)</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design (Principal Publisher)</span></span></h1>
 <div class="wb-prettify all-pre hide"></div>
 <div class="row">
   <div class="col-md-8">
