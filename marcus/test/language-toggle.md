@@ -5,10 +5,10 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 layout: default
 lang: en
-title: Testing out GitHub
+title: Test - Breadcrumbs pattern
 share: True
 breadcrumbs:
-- title: Trees on the web
+- title: Test - Breadcrumbs pattern
   link: https://prycrane.github.io/experimental/prycrane/accessibility/
 description: A place for me to try out code
 en: Index of mockups for accessibility requirements. 
