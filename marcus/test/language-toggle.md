@@ -17,12 +17,7 @@ dateModified: 2022-11-15
 <p class="gc-byline"><strong>From: <a href="https://www.canada.ca/en/treasury-board-secretariat.html">Treasury Board of Canada Secretariat</a></strong></p>
 <section>
 <p><span class="label label-danger">Mandatory on all pages</span></p>
-
 <p>All public-facing Government of Canada content is available in both official languages, at a minimum. A language toggle link in the global site header gives people access to the corresponding page in the other official language.</p>
-<figure>
-		<figcaption><b>Language toggle link</b></figcaption>
-		<img src="../images/lang-toggle-en.png" alt="Language toggle link appears on the upper right of the Canada.ca template">
-</figure>
 </section>
 <section>
 	<h2>Objective</h2>
