@@ -77,6 +77,6 @@ title: "Content and Information Architecture Specification"
     </ul>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/bunny15.png" alt="" class="img-responsive"></div>
+    <div><img src="./images/bunny17.png" alt="" class="img-responsive"></div>
   </div>
 </div>
