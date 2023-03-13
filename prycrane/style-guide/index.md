@@ -24,7 +24,7 @@ title: "Canada.ca Content Style Guide"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
-    <p>Migration of the Canada.ca Content Style Guide</p>
+    <p>Migration of the Canada.ca Content Style Guide from AEM to a GitHub repository.</p>
     <h2 class="h3 mrgn-tp-lg">Current page (AEM)</h2>
     <ul>
       <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html">Canada.ca Content Style Guide</a></li>
