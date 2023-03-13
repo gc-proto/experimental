@@ -8,9 +8,9 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 - https://prycrane.github.io/experimental/prycrane/datatables/css/datatables-fun.css
-date: 2023-03-08
+date: 2023-03-13
 dateModified: 2023-03-13
-description: "Canada.ca Content and Information Architecture Specification: Organizing content on Canada.ca"
+description: "Canada.ca Content Style Guide"
 lang: en
 layout: form
 share: false
@@ -19,15 +19,15 @@ showFeedback: false
 nomenu: true
 noReportProblem: true
 pageclass: cnt-wdth-lmtd
-title: "Content and Information Architecture Specification"
+title: "Canada.ca Content Style Guide"
 ---
 <div class="row">
   <div class="col-md-8">
-    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Content and Information Architecture Specification</span>: <span>Canada.ca design system</span></span></h1>
-    <p><strong>Proposal</strong>: let’s get this CIA section in shape (5 short files) and move it to our GitHub repositories.  It will help us by moving the files and expose us to the redirection and link-update process.  We could move the content "as is" or we can tidy it up.</p>
+    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
+    <p>Migration of the Canada.ca Content Style Guide</p>
     <h2 class="h3 mrgn-tp-lg">Current page (AEM)</h2>
     <ul>
-      <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html">Canada.ca Content and Information Architecture Specification</a></li>
+      <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html">Canada.ca Content Style Guide</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
