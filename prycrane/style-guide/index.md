@@ -43,18 +43,12 @@ title: "Canada.ca Content Style Guide"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/prycrane/experimental/tree/master/prycrane/architecture">GitHub architecture repository (experimental)</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/gc-proto/experimental/tree/master/prycrane/style-guide">GitHub Style Guide repository (experimental)</a></li>
     </ul>
     <ul>
       <li><a href="canada-content-information-architecture-specification.html">CIA Specification landing page</a>
         <ul>
           <li><a href="usage-canadaca-design.html">Who has to use the Canada.ca design system</a></li>
-          <li><a href="web-experience-toolkit.html">Use the Web Experience Toolkit</a></li>
-          <li><a href="mandatory-elements.html">Mandatory elements</a></li>
-          <li><a href="organizing-content.html">How to organize content</a></li>
-          <li><a href="templates.html">How to design content</a></li>
-          <li><a href="contact.html">Help improve this design system</a></li>
-          <li><a href="copyright.html">Copyright</a></li>
         </ul>
       </li>
     </ul>
