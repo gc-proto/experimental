@@ -15,6 +15,7 @@ description: "We’re changing the way we identify top tasks for Canada.ca"
 language: en
 layout: without-h1
 nomenu: true
+pageclass: cnt-wdth-lmtd
 title: "We’re changing the way we identify top tasks for Canada.ca"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>We’re changing the way we identify top tasks for Canada.ca</span>: <span>Canada.ca blog</span></span></h1>
