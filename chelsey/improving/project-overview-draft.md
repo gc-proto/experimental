@@ -162,8 +162,8 @@ Start on a Canada.ca Immigration Refugees and Citizenship page</li>
 											</tbody>
 										</table>
 
-										<h4 style="margin-top: 0px">Task scenarios tested and improved</h4>
-
+<details>
+<summary>Task scenarios tested and improved</summary>
 										<div>
 											<ul class="custul">
 												<li class="custli">Your team has been working on a knee prosthesis that you would like to bring to market. You're submitting a Class III medical device licence application. Will you need to submit a declaration of conformity as part of your application?</li>
