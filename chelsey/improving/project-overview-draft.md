@@ -78,35 +78,25 @@ titleH1: Improving content on Canada.ca
 												</tr>
 											</tbody>
 										</table>
-
-<ul class="list-unstyled">
-	<li>
-		<details>
-			<summary>Task scenarios tested and improved</summary>
-			<ul class="custul">
-												<li class="custli">Your cousin from France won't need a visa to come visit but will need an electronic Travel Authorization. How much will it cost to apply?
-													Start on a Google results page with links to Canada.ca URLS and to other sites</li>
-												<li class="custli">Your Egyptian friend wants to come to a Canadian university this year. How much will it cost to apply for a study permit?
-													Start on a Canada.ca Immigration Refugees and Citizenship page</li>
-												<li class="custli">Yen applied for a permanent resident card and needs to find out if it has been mailed yet. Find a page where she can enter her user ID and password to get into her Immigration account. Start on Canada.ca Immigration Refugees and Citizenship page</li>
-												<li class="custli">You finished researching some ideas for next farming season. Now you need to find out if there is a special way to hire temporary seasonal farm workers from Mexico. Start on a Canada.ca page</li>
-												<li class="custli">Your friend is going to start growing wheat this spring in Saskatchewan. Is there crop insurance available there?
-													Start on an Agriculture Canada site page</li>
-												<li class="custli">That friend wants to understand the market for organic wheat outside Canada. Are there any 2019 reports with a trade overview and consumption trends that might help them?
-													Start on an Agriculture Canada site page</li>
-												<li class="custli">Nour is an injured veteran working out her family budget. How much can they expect to receive if her spouse Pat is recognized as her daily caregiver? Start on a Veterans Affairs site page.</li>
-												<li class="custli">Like all Canadian parents, Pat and Nour also get monthly Canada Child Benefit payments for their 15 year old son. Will they still get payments next month when he turns 16? Start on a Veterans Affairs site page.</li>
-												<li class="custli">Nour just switched to a new bank. Is it possible for her to change her bank info online somehow for her veterans payments, or would she have to call? Start on a Veterans Affairs site page.</li>
-												<li class="custli">You searched and found these soybean reports but now you need recent numbers. Find estimated soybean production for 2019 in Canada. Start on a Statistics Canada site page.</li>
-												<li class="custli">You have a voice message from someone claiming to be a Statistics Canada interviewer. They say your household was selected to complete the Labour Force Survey. Find the special number for survey participants to call so you can check if it's a real survey. Start on a Statistics Canada site page.</li>
-												<li class="custli">Zak has been accepted into a two-year diploma program in the UK. How much will it cost to apply for a student visa?
-													Start on a Gov.UK page to compare the experience there to the similar task on Canada.ca (For research only, not a measurement task.)
-												</li>
-											</ul>
-		</details>
-	</li>
-	<li>
-										</ul>
+<details>
+<summary>Task scenarios tested and improved</summary>
+<ul class="custul">
+<li class="custli">Your cousin from France won't need a visa to come visit but will need an electronic Travel Authorization. How much will it cost to apply? Start on a Google results page with links to Canada.ca URLS and to other sites</li>
+<li class="custli">Your Egyptian friend wants to come to a Canadian university this year. How much will it cost to apply for a study permit?
+Start on a Canada.ca Immigration Refugees and Citizenship page</li>
+<li class="custli">Yen applied for a permanent resident card and needs to find out if it has been mailed yet. Find a page where she can enter her user ID and password to get into her Immigration account. Start on Canada.ca Immigration Refugees and Citizenship page</li>
+<li class="custli">You finished researching some ideas for next farming season. Now you need to find out if there is a special way to hire temporary seasonal farm workers from Mexico. Start on a Canada.ca page</li>
+<li class="custli">Your friend is going to start growing wheat this spring in Saskatchewan. Is there crop insurance available there? Start on an Agriculture Canada site page</li>
+<li class="custli">That friend wants to understand the market for organic wheat outside Canada. Are there any 2019 reports with a trade overview and consumption trends that might help them? Start on an Agriculture Canada site page</li>
+<li class="custli">Nour is an injured veteran working out her family budget. How much can they expect to receive if her spouse Pat is recognized as her daily caregiver? Start on a Veterans Affairs site page.</li>
+<li class="custli">Like all Canadian parents, Pat and Nour also get monthly Canada Child Benefit payments for their 15 year old son. Will they still get payments next month when he turns 16? Start on a Veterans Affairs site page.</li>
+<li class="custli">Nour just switched to a new bank. Is it possible for her to change her bank info online somehow for her veterans payments, or would she have to call? Start on a Veterans Affairs site page.</li>
+<li class="custli">You searched and found these soybean reports but now you need recent numbers. Find estimated soybean production for 2019 in Canada. Start on a Statistics Canada site page.</li>
+<li class="custli">You have a voice message from someone claiming to be a Statistics Canada interviewer. They say your household was selected to complete the Labour Force Survey. Find the special number for survey participants to call so you can check if it's a real survey. Start on a Statistics Canada site page.</li>
+<li class="custli">Zak has been accepted into a two-year diploma program in the UK. How much will it cost to apply for a student visa? Start on a Gov.UK page to compare the experience there to the similar task on Canada.ca (For research only, not a measurement task.)
+</li>
+</ul>
+</details>
 										<div>
 											
 
