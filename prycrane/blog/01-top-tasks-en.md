@@ -32,20 +32,20 @@ title: "We’re changing the way we identify top tasks for Canada.ca"
 <p>In 2017, we asked institutions to submit their lists of top tasks by considering web visits, call centre data, previous surveys and research, mandate letters, and departmental priorities.  When we published the top 100 tasks in 2018, the tasks were simply ranked by visits to the task start pages.</p>
 <p>Using this simple ranking method created inconsistencies in the results such as:</p>
 <ul>
-  <li><strong>Analytics comparability</strong>
+  <li><strong>Analytics comparability:</strong>
     <ul>
       <li>the effectiveness of the different tools in use varies significantly</li>
       <li>some free analytics software sample data across visits instead of recording everything</li>
       <li>some tools track effectively, but are very inefficient at generating reports</li>
     </ul>
   </li>
-  <li><strong>Visits versus page views</strong>
+  <li><strong>Visits versus page views:</strong>
     <ul>
       <li>visits represent a real person completing a task better than page views</li>
       <li>page view numbers can inflate when a task involves multiple pages or people visit multiple pages because they’re lost</li>
     </ul>
   </li>
-  <li><strong>Task start pages versus all task pages</strong>
+  <li><strong>Task start pages versus all task pages:</strong>
     <ul>
       <li>some tasks require several different pages, while others only one page</li>
       <li>combined traffic for many pages makes it harder to compare results</li>
@@ -110,18 +110,6 @@ title: "We’re changing the way we identify top tasks for Canada.ca"
     </tr>
   </tbody>
 </table>
-<ol>
-  <li>Check your [IRCC] application status</li>
-  <li>IRCC secure account - register, sign in, help</li>
-  <li>Apply for a work permit</li>
-  <li>Immigrate through Express Entry</li>
-  <li>Submit an Employment Insurance (EI) report</li>
-  <li>See my T4 information</li>
-  <li>Get a copy of a notice of assessment or reassessment (Taxes)</li>
-  <li>Study in Canada - for non-Canadians</li>
-  <li>Check the status of an Employment Insurance (EI) claim</li>
-  <li>Canada Recovery Benefit</li>
-</ol>
 <p><a href="https://www.canada.ca/en/government/about/top-tasks-for-canada-ca.html">View all of the top 50 tasks for Canada.ca</a></p>
 <h2>Why use the GC Task Success Survey</h2>
 <p>Almost all institutions in the Government of Canada are running the GC Task Success Survey. Launched in January 2019, the survey randomly intercepts users when they’re on a GC website. It asks users to answer questions specific to their task during their visit.</p>
