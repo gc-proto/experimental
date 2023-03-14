@@ -64,7 +64,7 @@ title: "We’re changing the way we identify top tasks for Canada.ca"
         <h3 class="panel-title">2022 Top tasks</h3>
       </header>
       <div class="panel-body">
-        <ol class="mrgn-tp-lg">
+        <ol class="mrgn-tp-md">
           <li>Check your [IRCC] application status</li>
           <li>IRCC secure account - register, sign in, help</li>
           <li>Apply for a work permit</li>
