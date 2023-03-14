@@ -179,6 +179,7 @@ Start on a Canada.ca Immigration Refugees and Citizenship page</li>
 										</div>
 									</div>
 								</details>
+									</li>
 						<li class="timeline-item">
 							<div class="timeline-year">
 								<span style="">2019</span>
