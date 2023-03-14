@@ -57,60 +57,7 @@ title: "We’re changing the way we identify top tasks for Canada.ca"
 <p>For this list, some tasks are broken down into more specific process steps like signing in to an account, checking a status, or immigrating through a specific program. This list also includes high-profile tasks that were COVID-specific, but no longer exist, like the Canada Recovery Benefit.</p>
 <h3>Latest top task list</h3>
 <p>Here’s the Top 10 tasks based on the new analysis method. These 10 tasks were responsible for more than 50% of responses in the TSS from April 1, 2021 - March 31, 2022.</p>
-<table class="table table-bordered">
-  <caption class="wb-inv">
-  Latest top task list
-  </caption>
-  <thead>
-    <tr>
-      <th class="col-md-2">2022 rank</th>
-      <th class="col-md-10">2022 Top tasks</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Check your [IRCC] application status</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>IRCC secure account - register, sign in, help</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Apply for a work permit</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Immigrate through Express Entry</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Submit an Employment Insurance (EI) report</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>See my T4 information</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Get a copy of a notice of assessment or reassessment (Taxes)</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>Study in Canada - for non-Canadians</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Check the status of an Employment Insurance (EI) claim</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>Canada Recovery Benefit</td>
-    </tr>
-  </tbody>
-</table>
-<ol>
+<ol class="mrgn-tp-lg">
   <li>Check your [IRCC] application status</li>
   <li>IRCC secure account - register, sign in, help</li>
   <li>Apply for a work permit</li>
