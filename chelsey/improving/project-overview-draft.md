@@ -42,20 +42,14 @@ titleH1: Improving content on Canada.ca
 <details>
 <summary class="borderless bttm-brdr wb-toggle"
 										data-toggle='{"print":"on"}'>
-										<h3 class="timeline-title">Orientation and wayfinding </h3>
-									</summary>
-
-									<h4>Partner departments</h4>
-
-									<p>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</p>
-
-									<h4>Objective</h4>
-
-									<p>All government departments are adopting the Canada.ca look. The design needs to adapt to their needs. We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</p>
-
-									<h4>Why this work matters</h4>
-
-									<ul>
+<h3 class="timeline-title">Orientation and wayfinding </h3>
+</summary>
+<h4>Partner departments</h4>
+<p>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</p>
+<h4>Objective</h4>
+<p>All government departments are adopting the Canada.ca look. The design needs to adapt to their needs. We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</p>
+<h4>Why this work matters</h4>
+<ul>
 										<li class="custli">Finding and using services delivered by different government departments should be simple, consistent and accessible to all Canadians</li>
 										<li class="custli">People need to be able to clearly recognize official government information and services to avoid deceptive and fraudulent sites</li>
 									</ul>
@@ -85,10 +79,11 @@ titleH1: Improving content on Canada.ca
 											</tbody>
 										</table>
 
-										<h4 style="margin-top: 0px">Task scenarios tested and improved</h4>
-
-										<div>
-											<ul class="custul">
+<ul class="list-unstyled">
+	<li>
+		<details>
+			<summary>Task scenarios tested and improved</summary>
+			<ul class="custul">
 												<li class="custli">Your cousin from France won't need a visa to come visit but will need an electronic Travel Authorization. How much will it cost to apply?
 													Start on a Google results page with links to Canada.ca URLS and to other sites</li>
 												<li class="custli">Your Egyptian friend wants to come to a Canadian university this year. How much will it cost to apply for a study permit?
@@ -108,6 +103,12 @@ titleH1: Improving content on Canada.ca
 													Start on a Gov.UK page to compare the experience there to the similar task on Canada.ca (For research only, not a measurement task.)
 												</li>
 											</ul>
+		</details>
+	</li>
+	<li>
+										</ul>
+										<div>
+											
 
 											<aside class="wb-fnote"
 												role="note">
