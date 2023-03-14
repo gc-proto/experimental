@@ -34,12 +34,12 @@ title: "Canada.ca Content Style Guide"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1i0XNWIQ97S4Tv6jFX2vM6jlWmmbu0ISb2BpcJaC-luQ">Content style guide landing page</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1hA_RFTfSqY3T78Sa3ZGxIY9javI9n7_NIp7IaT-eUHM">Intro</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">1.0 Writing principles for web content</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">2.0 Plain language</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">3.0 Tone</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">4.0 Style</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">5.0 Content structure</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">6.0 Images and videos</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1ek2l3mAbdv9aTIg3JPTubPLiYWsNl_zM2bKet_I0p9w">1.0 Writing principles for web content</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1cWl1aJHDd73H91Qxsp-b9yIHJIKKyx4fhfJBAE8WNWM">2.0 Plain language</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1MfALLJ8SsBcXlgODRpqmHHXkSbIr3WZ89Ka3WjX7mNI">3.0 Tone</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1wP0QVlNqsKCqtalkc7K5IBH4eDHppVseALyqhgXa6Po">4.0 Style</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1lZBc0CKyB7d_VvSdhB9jqAzMRKI-emzKmJ-g2Vbsp2I">5.0 Content structure</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1B0wU_H3rok036uPQG3XJZf52a6W9z6mDfoZU7Bnt6CY">6.0 Images and videos</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">7.0 Links</a></li>      
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">Web content makeovers</a></li>      
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">Resources</a></li>      
