@@ -9,8 +9,8 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
-date: 2023-02-07
-dateModified: 2023-02-07
+date: 2023-03-14
+dateModified: 2023-03-14
 description: "We’re changing the way we identify top tasks for Canada.ca"
 language: en
 layout: without-h1
@@ -18,7 +18,6 @@ nomenu: true
 title: "We’re changing the way we identify top tasks for Canada.ca"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>We’re changing the way we identify top tasks for Canada.ca</span>: <span>Canada.ca blog</span></span></h1>
-<h1>We’re changing the way we identify top tasks for Canada.ca</h1>
 <p>People come to our digital channels to accomplish a very wide range of tasks. We say they’re looking for “information” or “services”, but they don’t make these distinctions. They come to Canada.ca with a goal in mind and a task that they want to complete. If they’re able to achieve their task, their need has been met. If not, we have work to do.</p>
 <h2>Top tasks</h2>
 <p>There are thousands of Government of Canada (GC) tasks out there, some simple, and some complex. So how do we prioritize what to improve? We identify the most used tasks, and we call these the “top tasks”.</p>
