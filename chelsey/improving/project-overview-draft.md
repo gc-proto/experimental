@@ -1,8 +1,8 @@
 ---
 altLangPage: /pages/apercu-projet
 css:
-  - ../css/blog-dto-btn.css
-  - ../css/blog.css
+  - ../improving/blog-dto-btn.css
+  - ../improving/blog.css
 dateModified: 2020-11-20
 title: Improving content on Canada.ca
 titleH1: Improving content on Canada.ca
