@@ -45,13 +45,19 @@ title: "Canada.ca Content Style Guide"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/gc-proto/experimental/tree/master/prycrane/style-guide">GitHub Style Guide repository (experimental)</a></li>
     </ul>
+    <h2>One long file</h2>
     <ul>
-      <li><a href="01-style-guide-01-en.html">Canada.ca Content Style guide - one file</a>
+      <li><a href="01-style-guide-01-en.html">Canada.ca Content Style guide - one file</a></li>
+    </ul>
+    <h2>Landing page index</h2>
+    <ul>
+      <li><a href="02-style-guide-01-en.html">Canada.ca Content Style guide - landing page</a>
         <ul>
-          <li><a href="usage-canadaca-design.html">Who has to use the Canada.ca design system</a></li>
+          <li><a href="#">page 1</a></li>
         </ul>
       </li>
     </ul>
+    
     <!--<h2 class="h3 mrgn-tp-lg">Production repositories</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/design-system/tree/migration-cia-architechture">GitHub design sytem repository (Branch: migration-cia-architecture)</a></li>
@@ -69,7 +75,7 @@ title: "Canada.ca Content Style Guide"
           <li><a href="#">Copyright</a></li>
         </ul>
       </li>
-    </ul>-->
+    </ul>--> 
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny17.png" alt="" class="img-responsive"></div>
