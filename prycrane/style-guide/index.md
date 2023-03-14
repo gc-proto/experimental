@@ -32,8 +32,8 @@ title: "Canada.ca Content Style Guide"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1BMw6sEhUN7r1jdrrpEC1Ua1zsz9Gv5NA2PeRbzot-i4">CIA Specification landing page</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1XG2UVHccPpUkt5QJdL0zZYZqbSlNAL9kppKgsHPSMJA">Who has to use the Canada.ca design system</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1i0XNWIQ97S4Tv6jFX2vM6jlWmmbu0ISb2BpcJaC-luQ">Content style guide landing page</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1hA_RFTfSqY3T78Sa3ZGxIY9javI9n7_NIp7IaT-eUHM">Intro</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1o5P26PBmKZB30jaWaTipOkXUq5G_SYDbsHa5JzxYaLk/edit#heading=h.2l5psl54vmqg">Use the Web Experience Toolkit</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1tE3wlwsK4kacT_wuWVu_YhiPojR6LGKueAOn1m1XlXM">Mandatory elements</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1bVTx9cbDNjKpcDfPnyRl69wRqK7nDQGw_NNNxm5F2W0">How to organize content</a></li>
