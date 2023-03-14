@@ -8,45 +8,39 @@ title: Improving content on Canada.ca
 titleH1: Improving content on Canada.ca
 ---
 <p>Small changes make a big difference.</p>
-
 <p>Sometimes the words we use, and how we organize them, can make it hard for people to find and understand Government of Canada information and services on Canada.ca. The <abbr title="Treasury Board of Canada Secretariat">TBS</abbr> Digital Transformation Office is working on projects with federal departments to make it easier.
 </p>
-
 <p>For each project, we co-create prototypes, set concrete usability targets, and run usability tests with Canadians. We ask questions Canadians have about specific Government of Canada services. For a prototype to launch, it must make it at least 20% easier for people to get the right answer.
 </p>
-
 <p>Considering the high numbers of visits to in-demand pages, such an increase in task success rates is significant. Ultimately it means people spend less time looking for the answers they need from the Government of Canada.
 </p>
-
 <div class="container-fluid">
-	<div class="row example-basic">
-		<div class="col-md-12 title-timeline">
-			<h2 id="projects">Projects with our partners</h2>
-			<div class="btn-group mrgn-bttm-sm">
-				<button type="button" class="btn btn-default wb-toggle" data-toggle='{"selector": "details", "parent": "#expand-collapse", "type": "on"}'>Expand All</button>
-				<button type="button" class="btn btn-default wb-toggle" data-toggle='{"selector": "details", "parent": "#expand-collapse", "type": "off"}'>Collapse All</button>
-			</div>
-
-			<hr class="drk-line" />
-			<div id="expand-collapse">
-				<div class="col-xs-12 col-sm-12 col-md-8 div-slim">
-					<ul class="timeline">
-						<li class="timeline-item">
-							<div class="timeline-year soon">
-								<span style="">2021</span>
-							</div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content"></div>
-						</li>
-
-						<li class="timeline-item">
-							<div class="timeline-year">
-								<span style="">2020</span>
-							</div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content">
-								<details>
-									<summary class="borderless bttm-brdr wb-toggle"
+<div class="row example-basic">
+<div class="col-md-12 title-timeline">
+<h2 id="projects">Projects with our partners</h2>
+<div class="btn-group mrgn-bttm-sm">
+<button type="button" class="btn btn-default wb-toggle" data-toggle='{"selector": "details", "parent": "#expand-collapse", "type": "on"}'>Expand All</button>
+<button type="button" class="btn btn-default wb-toggle" data-toggle='{"selector": "details", "parent": "#expand-collapse", "type": "off"}'>Collapse All</button>
+</div>
+<hr class="drk-line" />
+<div id="expand-collapse">
+<div class="col-xs-12 col-sm-12 col-md-8 div-slim">
+<ul class="timeline">
+<li class="timeline-item">
+<div class="timeline-year soon">
+<span style="">2021</span>
+</div>
+<div class="timeline-marker"></div>
+<div class="timeline-content"></div>
+</li>
+<li class="timeline-item">
+<div class="timeline-year">
+<span style="">2020</span>
+</div>
+<div class="timeline-marker"></div>
+<div class="timeline-content">
+<details>
+<summary class="borderless bttm-brdr wb-toggle"
 										data-toggle='{"print":"on"}'>
 										<h3 class="timeline-title">Orientation and wayfinding </h3>
 									</summary>
@@ -1483,3 +1477,4 @@ titleH1: Improving content on Canada.ca
 		</div>
 	</div>
 </div>
+
