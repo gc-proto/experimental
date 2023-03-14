@@ -34,12 +34,15 @@ title: "Canada.ca Content Style Guide"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1i0XNWIQ97S4Tv6jFX2vM6jlWmmbu0ISb2BpcJaC-luQ">Content style guide landing page</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1hA_RFTfSqY3T78Sa3ZGxIY9javI9n7_NIp7IaT-eUHM">Intro</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1o5P26PBmKZB30jaWaTipOkXUq5G_SYDbsHa5JzxYaLk/edit#heading=h.2l5psl54vmqg">Use the Web Experience Toolkit</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1tE3wlwsK4kacT_wuWVu_YhiPojR6LGKueAOn1m1XlXM">Mandatory elements</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1bVTx9cbDNjKpcDfPnyRl69wRqK7nDQGw_NNNxm5F2W0">How to organize content</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/16DV4ryzXB7S299X7UHCg91BVluDAQ8qwlVTS9B0vEBk">How to design content</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1Ag_TBM8aQa9g4r8QrOyFi8VszBD80jVQE_-iUnBWK2A">Help improve this design system</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/14NQ_KcHmwvVAXlK4CFMckMBBBw-1q6eVwkR11kQ1COI">Copyright</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">1.0 Writing principles for web content</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">2.0 Plain language</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">3.0 Tone</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">4.0 Style</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">5.0 Content structure</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">6.0 Images and videos</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">7.0 Links</a></li>      
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">Web content makeovers</a></li>      
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="">Resources</a></li>      
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul class="fa-ul">
