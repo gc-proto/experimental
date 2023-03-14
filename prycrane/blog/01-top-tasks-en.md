@@ -60,8 +60,8 @@ title: "We’re changing the way we identify top tasks for Canada.ca"
   </caption>
   <thead>
     <tr>
-      <th class="col-md-3">2022 rank</th>
-      <th class="col-md-9">2022 Top tasks</th>
+      <th class="col-md-2">2022 rank</th>
+      <th class="col-md-10">2022 Top tasks</th>
     </tr>
   </thead>
   <tbody>
