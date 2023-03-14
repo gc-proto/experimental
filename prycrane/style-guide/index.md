@@ -45,11 +45,11 @@ title: "Canada.ca Content Style Guide"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/gc-proto/experimental/tree/master/prycrane/style-guide">GitHub Style Guide repository (experimental)</a></li>
     </ul>
-    <h3>One long file</h3>
+    <h3 class="h4">One long file</h3>
     <ul>
       <li><a href="01-style-guide-01-en.html">Canada.ca Content Style guide - one file</a></li>
     </ul>
-    <h3>Landing page index</h3>
+    <h3 class="h4">Landing page index</h3>
     <ul>
       <li><a href="02-style-guide-01-en.html">Canada.ca Content Style guide - landing page</a>
         <ul>
