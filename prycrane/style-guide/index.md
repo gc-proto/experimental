@@ -46,7 +46,7 @@ title: "Canada.ca Content Style Guide"
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/gc-proto/experimental/tree/master/prycrane/style-guide">GitHub Style Guide repository (experimental)</a></li>
     </ul>
     <ul>
-      <li><a href="01-style-guide-01-en.md">Canada.ca Content Style guide - one file</a>
+      <li><a href="01-style-guide-01-en.html">Canada.ca Content Style guide - one file</a>
         <ul>
           <li><a href="usage-canadaca-design.html">Who has to use the Canada.ca design system</a></li>
         </ul>
