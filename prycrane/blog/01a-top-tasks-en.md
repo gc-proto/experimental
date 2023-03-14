@@ -60,6 +60,9 @@ title: "We’re changing the way we identify top tasks for Canada.ca"
 <div class="row">
   <div class="col-md-8">
     <div class="panel panel-default">
+      <header class="panel-heading">
+   <h3 class="panel-title">2022 Top tasks</h5>
+  </header>
       <div class="panel-body">
         <ol class="mrgn-tp-lg">
           <li>Check your [IRCC] application status</li>
