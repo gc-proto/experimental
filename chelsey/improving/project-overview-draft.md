@@ -74,9 +74,8 @@ titleH1: Improving content on Canada.ca
 												</tr>
 											</tbody>
 										</table>
-
-										<h4 style="margin-top: 0px">Task scenarios tested and improved</h4>
-
+<details>
+	<summary><h4 style="margin-top: 0px">Task scenarios tested and improved</h4></summary>
 										<div>
 											<ul class="custul">
 												<li class="custli">Your cousin from France won't need a visa to come visit but will need an electronic Travel Authorization. How much will it cost to apply?
@@ -113,7 +112,8 @@ titleH1: Improving content on Canada.ca
 													</dd>
 												</dl>
 											</aside>
-										</div>
+										</div><<br
+	/details>
 									</div>
 								</details>
 
@@ -160,9 +160,8 @@ titleH1: Improving content on Canada.ca
 												</tr>
 											</tbody>
 										</table>
-
-										<h4 style="margin-top: 0px">Task scenarios tested and improved</h4>
-
+<details>
+	<summary><h4 style="margin-top: 0px">Task scenarios tested and improved</h4></summary>
 										<div>
 											<ul class="custul">
 												<li class="custli">Your team has been working on a knee prosthesis that you would like to bring to market. You're submitting a Class III medical device licence application. Will you need to submit a declaration of conformity as part of your application?</li>
@@ -176,6 +175,7 @@ titleH1: Improving content on Canada.ca
 												<li class="custli">Your competitor produces a light therapy product similar to yours. You have reason to believe that the competitor's product label regarding the amount of light it emits is incorrect. Can you show me the form you would use to report your concerns to Health Canada?</li>
 											</ul>
 										</div>
+										</details>
 									</div>
 								</details>
 							</div>
@@ -233,8 +233,8 @@ titleH1: Improving content on Canada.ca
 												</tr>
 											</tbody>
 										</table>
-
-										<h4 style="margin-top: 0px">Task scenarios tested and improved</h4>
+<details>
+	<summary><h4 style="margin-top: 0px">Task scenarios tested and improved</h4></summary>
 
 										<div>
 											<ul class="custul">
@@ -254,6 +254,7 @@ titleH1: Improving content on Canada.ca
 												<li class="custli">Your pay last year was correct. You got two T4 tax slips though—an incorrect one then a correct one in mid-February. You hired a tax advisor to help sort out your taxes. Without contacting anyone, find out if it's possible to get reimbursed for that tax advisor expense.</li>
 											</ul>
 										</div>
+										</details>
 									</div>
 								</details>
 
@@ -280,9 +281,8 @@ titleH1: Improving content on Canada.ca
 									<h4>Overall task performance</h4>
 
 									<p>Functionality in the prototype was evolving as testing began, and some features were only available later in the testing. For this reason, the total number of recorded performances did not meet the minimum threshold for reliable comparison.</p>
-
-									<h4>Task scenarios tested</h4>
-
+<details>
+	<summary><h4>Task scenarios tested</h4></summary>
 									<div>
 										<ul class="custul">
 											<li class="custli">Your son is allergic to eggs. He had a reaction tonight. Find out if each of these foods might have caused his allergic reaction.</li>
@@ -301,6 +301,7 @@ titleH1: Improving content on Canada.ca
 											<a href="../research-summaries/recalls-safety-alerts-research-summary.html">Research summary: Recalls and safety alerts search</a>
 										</p>
 									</div>
+									</details>
 								</details>
 
 								<details>
@@ -1467,3 +1468,4 @@ titleH1: Improving content on Canada.ca
 		</div>
 	</div>
 </div>
+
