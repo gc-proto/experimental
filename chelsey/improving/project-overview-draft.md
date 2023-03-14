@@ -130,7 +130,7 @@ Start on a Canada.ca Immigration Refugees and Citizenship page</li>
 
 									<h4>Objective</h4>
 
-									<p>Make it easier for medical device manufacturers and other firms subject to Canada’s medical device regulations to find and understand the information they need to comply with regulatory requirements.</p>
+<p>Make it easier for medical device manufacturers and other firms subject to Canada’s medical device regulations to find and understand the information they need to comply with regulatory requirements.</p>
 
 									<h4>Why this work matters</h4>
 
@@ -179,9 +179,6 @@ Start on a Canada.ca Immigration Refugees and Citizenship page</li>
 										</div>
 									</div>
 								</details>
-							</div>
-						</li>
-
 						<li class="timeline-item">
 							<div class="timeline-year">
 								<span style="">2019</span>
