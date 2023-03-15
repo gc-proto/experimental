@@ -21,7 +21,7 @@ title: "Global header documentation"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header documentation</span>: <span>Principal Publisher documentation</span></span></h1>
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-7">
     <p>Our goal is to make the Principal Publisher’s header documentation work (dance) well with the design guidance.  The primary focus is to make using and configuring the new header easy.</p>
     <h2 class="mrgn-tp-lg">Current page</h2>
     <ul>
@@ -38,7 +38,7 @@ title: "Global header documentation"
       <li><a href="/experimental/catalina/proto-header.html">Global header - "Template builder"</a> (Template builder ask how we can pull code)</li>
     </ul>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-5">
     <div><img src="./images/dance.png" alt="" class="img-responsive"></div>
   </div>
 </div>
