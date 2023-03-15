@@ -39,7 +39,7 @@ title: "Global header documentation"
     <ul class="mrgn-tp-lg">
       <li><a href="gcweb-01.html">Global header - basic</a> (Changes to the introduction and How to implement section)</li>
       <li><a href="gcweb-02.html">Global header - advanced</a> (Changes include code presentation and connection to appropriate Github repository)</li>
-      <li><a href="./catalina/proto-header.html">Global header - "Template builder"</a> (Template builder ask how we can pull code)</li>
+      <li><a href="/experimental/catalina/proto-header.html">Global header - "Template builder"</a> (Template builder ask how we can pull code)</li>
     </ul>
   </div>
   <div class="col-md-4">
