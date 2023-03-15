@@ -41,7 +41,7 @@ title: "Canada.ca Content Style Guide - Canada.ca"
   <section class="wb-eqht gc-drmt">
     <div class="col-md-4">
       <section>
-        <h3 class="h5"><a href="02-style-guide-02-en.html">Introduction to the style Guide</a></h3>
+        <h3 class="h5"><a href="02-style-guide-02-en.html">Introduction to the Style Guide</a></h3>
         <p></p>
       </section>
     </div>
