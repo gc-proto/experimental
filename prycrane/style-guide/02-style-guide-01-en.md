@@ -102,7 +102,7 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-12-en.html">Copyright</a></h3>
-        <p>Copyright for the <cite>Content and Information Architecture Specification</cite></p>
+        <p>Copyright for the <cite>Content Style Guide</cite></p>
       </section>
     </div>
   </section>
