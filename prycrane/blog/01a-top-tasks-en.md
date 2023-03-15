@@ -57,6 +57,7 @@ title: "We’re changing the way we identify top tasks for Canada.ca"
 <p>For this list, some tasks are broken down into more specific process steps like signing in to an account, checking a status, or immigrating through a specific program. This list also includes high-profile tasks that were COVID-specific, but no longer exist, like the Canada Recovery Benefit.</p>
 <h3>Latest top task list</h3>
 <p>Here’s the Top 10 tasks based on the new analysis method. These 10 tasks were responsible for more than 50% of responses in the TSS from April 1, 2021 - March 31, 2022.</p>
+<h4>2022 Top 10 tasks</h4>
 <ol class="mrgn-tp-md">
   <li>Check your [IRCC] application status</li>
   <li>IRCC secure account - register, sign in, help</li>
