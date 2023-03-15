@@ -39,6 +39,6 @@ title: "Global header documentation"
     </ul>
   </div>
   <div class="col-md-5">
-    <div><img src="./images/dance.png" alt="" class="img-responsive"></div>
+    <div><img src="./images/dance1.png" alt="" class="img-responsive"></div>
   </div>
 </div>
