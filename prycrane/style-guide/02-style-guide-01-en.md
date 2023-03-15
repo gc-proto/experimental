@@ -35,7 +35,7 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     </div>
   </div>
 </div>
-<div class="row mrgn-tp-lg">
+<div class="row mrgn-tp-xl">
   <section class="wb-eqht gc-drmt">
     <div class="col-md-4">
       <section>
