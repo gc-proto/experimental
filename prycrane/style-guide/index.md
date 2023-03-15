@@ -42,7 +42,8 @@ title: "Canada.ca Content Style Guide"
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1B0wU_H3rok036uPQG3XJZf52a6W9z6mDfoZU7Bnt6CY">6.0 Images and videos</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1qPiGh6nnYETyAkB8FJnD6UCDGacXvoHQpu0hVMdes08">7.0 Links</a></li>      
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1tlMbpgidypzV_W0HVa5N7CcjwCMFbAj1n14hJmYS8SA">Web content makeovers</a></li>      
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1WPvcujcuQaZEsJoEn_unhuuNY54dVoaFdL2_XzaJn8A">Resources</a></li>      
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1WPvcujcuQaZEsJoEn_unhuuNY54dVoaFdL2_XzaJn8A">Resources</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/13DAqkmNhXawV12TUG1sgPTgVLpnDEn3MeAvS8UR_LoU">Copyright</a></li>   
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul class="fa-ul">
