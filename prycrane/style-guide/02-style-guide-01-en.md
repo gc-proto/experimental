@@ -40,7 +40,7 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-02-en.html">Introduction</a></h3>
-        <p>Find the Guide’s purpose, use, summary of changes, and related policies, standards and procedures</p>
+        <p>Purpose, use, summary of changes, and related policies, standards and procedures</p>
       </section>
     </div>
     <div class="col-md-4">
@@ -52,13 +52,13 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-04-en.html">2.0 Plain language</a></h3>
-        <p>How to write in plain language</p>
+        <p>Write in plain language</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-05-en.html">3.0 Tone</a></h3>
-        <p>How to write with the proper tone</p>
+        <p>Write with the proper tone</p>
       </section>
     </div>
     <div class="col-md-4">
@@ -70,25 +70,25 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-07-en.html">5.0 Content structure</a></h3>
-        <p>Use structure and layout to help people find what they need</p>
+        <p>Structure and layouts to help people find what they need</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-08-en.html">6.0 Images and videos</a></h3>
-        <p>Use images and videos strategically and effectively</p>
+        <p>Present images and videos strategically and effectively</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-09-en.html">7.0 Links</a></h3>
-        <p>Use links and anchors strategically and effectively  </p>
+        <p>Use links and anchors strategically and effectively</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-10-en.html">Web content makeovers</a></h3>
-        <p>Two case studies - plain language and complex table improvements</p>
+        <p>Two case studies - examples of plain language and complex table improvements</p>
       </section>
     </div>
     <div class="col-md-4">
@@ -106,7 +106,7 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-13-en.html">Formats</a></h3>
-        <p></p>
+        <p>Avaialable iin ope source formats - HTML, PDF, and EPUB </p>
       </section>
     </div>    
   </section>
