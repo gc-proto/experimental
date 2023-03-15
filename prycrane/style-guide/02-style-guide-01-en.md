@@ -40,7 +40,7 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-02-en.html">Introduction</a></h3>
-        <p></p>
+        <p>Find the Guide’s purpose, use, summary of changes, and related policies, standards and procedures</p>
       </section>
     </div>
     <div class="col-md-4">
