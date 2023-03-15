@@ -35,13 +35,11 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     </div>
   </div>
 </div>
-<!--<p class="small"><strong>Version</strong>: 2.1.2 (October 21, 2020)</p>
-<p>The Content and information Architecture specification is the foundation of the Canada.ca design system’s user-tested templates and patterns.  The specification describes who has to use the design system, its mandatory elements, and provides guidance on how to organize and design content.</p>-->
 <div class="row mrgn-tp-lg">
   <section class="wb-eqht gc-drmt">
     <div class="col-md-4">
       <section>
-        <h3 class="h5"><a href="02-style-guide-02-en.html">Introduction to the Style Guide</a></h3>
+        <h3 class="h5"><a href="02-style-guide-02-en.html">Introduction</a></h3>
         <p></p>
       </section>
     </div>
