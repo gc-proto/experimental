@@ -58,43 +58,43 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-05-en.html">3.0 Tone</a></h3>
-        <p></p>
+        <p>How to write with the proper tone</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-06-en.html">4.0 Style</a></h3>
-        <p></p>
+        <p>Keep style and punctuation simple</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-07-en.html">5.0 Content structure</a></h3>
-        <p></p>
+        <p>Use structure and layout to help people find what they need</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-08-en.html">6.0 Images and videos</a></h3>
-        <p></p>
+        <p>Use images and videos strategically and effectively</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-09-en.html">7.0 Links</a></h3>
-        <p></p>
+        <p>Use links and anchors strategically and effectively  </p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-10-en.html">Web content makeovers</a></h3>
-        <p></p>
+        <p>Two case studies - plain language and complex table improvements</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-11-en.html">Resources</a></h3>
-        <p></p>
+        <p>Sources used to create the <cite>Content Style Guide</cite></p>
       </section>
     </div>
     <div class="col-md-4">
