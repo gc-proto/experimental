@@ -46,13 +46,13 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-03-en.html">1.0 Writing principles</a></h3>
-        <p></p>
+        <p>Rules that reflect how people read and use web content</p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
         <h3 class="h5"><a href="02-style-guide-04-en.html">2.0 Plain language</a></h3>
-        <p></p>
+        <p>How to write in plain language</p>
       </section>
     </div>
     <div class="col-md-4">
