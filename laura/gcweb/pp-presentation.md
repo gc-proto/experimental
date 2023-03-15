@@ -19,8 +19,10 @@ nomenu: true
 pageclass: cnt-wdth-lmt
 title: "Global header documentation"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header documentation</span>: <span>Principal Publisher documentation</span></span></h1>
 <div class="row">
+  <div class="col-md-8">
+   <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header documentation</span>: <span>Principal Publisher documentation</span></span></h1>
+ <div class="row">
   <div class="col-md-8">
     <p>Our goal is to make the Principal Publisher’s header documentation work well with the design guidance.  The primary focus is to make using and configuring the new header easy.</p>
   </div>
@@ -62,5 +64,10 @@ title: "Global header documentation"
         </details>
       </li>
     </ul>
+  </div>
+</div>
+  </div>
+  <div class="col-md-4">
+    <div><img src="./images/dance.png" alt="" class="img-responsive"></div>
   </div>
 </div>
