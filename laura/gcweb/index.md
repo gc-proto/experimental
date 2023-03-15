@@ -6,8 +6,8 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 - https://prycrane.github.io/experimental/prycrane/datatables/css/datatables-fun.css
-date: 2023-03-15
-dateModified: 2023-03-15
+date: 2023-03-07
+dateModified: 2023-03-08
 description: "Continuous improvement of web content"
 lang: en
 layout: form
@@ -31,15 +31,36 @@ title: "Global header documentation"
 </ul>
 <h2>Working document</h2>
 <ul class="list-unstyled fa-ul">
-  <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1YY6JkiJ3nRywwalKJfCxSbqHn2z0SlfvFC8y4eBOrhU">Global header working document</a></li>
+  <li><span class="fa-li"><span class="fab fa-google"></span></span><a href="https://docs.google.com/document/d/1YY6JkiJ3nRywwalKJfCxSbqHn2z0SlfvFC8y4eBOrhU">Global header working document</a></li>
 </ul>
 <h2>Mockups</h2>
 <div class="row">
   <div class="col-md-8">
     <ul class="list-unstyled mrgn-tp-lg">
-      <li><a href="gcweb-01.html">Global header - basic (update to intro and how to impliment section)</a></li>      
-      <li><a href="gcweb-02.html">Global header - advanced (includes the whole page)</a></li>     
-      <li><a href="/experimental/catalina/proto-header.html">Global header - Display of dynamic "template building"</a></li>     
+      <li>
+        <details open="open">
+          <summary>Iteration 3 (2023-03-07)</summary>
+          <ul class="mrgn-tp-md">
+            <li><a href="gcweb-02.html">Global header</a> - updates to the top of the page and implimentation section.</li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>Iteration 2 (2023-02-23)</summary>
+          <ul class="mrgn-tp-md">
+            <li><a href="gcweb-01.html">Global header</a></li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>Iteration 1</summary>
+          <ul class="mrgn-tp-md">
+            <li><a href="gcweb.html">Global header</a></li>
+          </ul>
+        </details>
+      </li>
     </ul>
   </div>
 </div>
