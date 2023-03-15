@@ -41,43 +41,67 @@ title: "Canada.ca Content Style Guide - Canada.ca"
   <section class="wb-eqht gc-drmt">
     <div class="col-md-4">
       <section>
-        <h3 class="h5"><a href="usage-canadaca-design.html">Who has to use this design system</a></h3>
-        <p>Scope of the Canada.ca design system</p>
+        <h3 class="h5"><a href="02-style-guide-02-en.html">Introduction to the style Guide</a></h3>
+        <p></p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
-        <h3 class="h5"><a href="web-experience-toolkit.html">Web experience toolkit (WET)</a></h3>
-        <p>Open source framework to create responsive, user-centered and accessible designs</p>
+        <h3 class="h5"><a href="02-style-guide-03-en.html">1.0 Writing principles</a></h3>
+        <p></p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
-        <h3 class="h5"><a href="mandatory-elements.html">Mandatory elements</a></h3>
-        <p>Colours, typography, header and footer, and templates</p>
+        <h3 class="h5"><a href="02-style-guide-04-en.html">2.0 Plain language</a></h3>
+        <p></p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
-        <h3 class="h5"><a href="organizing-content.html">How to organize content</a></h3>
-        <p>Themes and institutional navigation, URLs, content types and content states</p>
+        <h3 class="h5"><a href="02-style-guide-05-en.html">3.0 Tone</a></h3>
+        <p></p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
-        <h3 class="h5"><a href="templates.html">How to design content</a></h3>
-        <p>Template library and design principles</p>
+        <h3 class="h5"><a href="02-style-guide-06-en.html">4.0 Style</a></h3>
+        <p></p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
-        <h3 class="h5"><a href="contact.html">Help improve this design system</a></h3>
-        <p>Share your ideas to make the design system better</p>
+        <h3 class="h5"><a href="02-style-guide-07-en.html">5.0 Content structure</a></h3>
+        <p></p>
       </section>
     </div>
     <div class="col-md-4">
       <section>
-        <h3 class="h5"><a href="copyright.html">Copyright</a></h3>
+        <h3 class="h5"><a href="02-style-guide-08-en.html">6.0 Images and videos</a></h3>
+        <p></p>
+      </section>
+    </div>
+    <div class="col-md-4">
+      <section>
+        <h3 class="h5"><a href="02-style-guide-09-en.html">7.0 Links</a></h3>
+        <p></p>
+      </section>
+    </div>
+    <div class="col-md-4">
+      <section>
+        <h3 class="h5"><a href="02-style-guide-10-en.html">Web content makeovers</a></h3>
+        <p></p>
+      </section>
+    </div>
+    <div class="col-md-4">
+      <section>
+        <h3 class="h5"><a href="02-style-guide-11-en.html">Resources</a></h3>
+        <p></p>
+      </section>
+    </div>
+    <div class="col-md-4">
+      <section>
+        <h3 class="h5"><a href="02-style-guide-12-en.html">Copyright</a></h3>
         <p>Copyright for the <cite>Content and Information Architecture Specification</cite></p>
       </section>
     </div>
