@@ -16,7 +16,7 @@ nositesearch: true
 showFeedback: false
 noReportProblem: true
 nomenu: true
-pageclass: cnt-wdth-lmt
+pageclass: cnt-wdth-lmtz
 title: "Global header documentation"
 ---
 <div class="row">
