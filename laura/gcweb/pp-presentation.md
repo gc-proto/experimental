@@ -24,7 +24,7 @@ title: "Global header documentation"
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header documentation</span>: <span>Principal Publisher documentation</span></span></h1>
     <div class="row">
       <div class="col-md-8">
-        <p>Our goal is to make the Principal Publisher’s header documentation work well with the design guidance.  The primary focus is to make using and configuring the new header easy.</p>
+        <p>Our goal is to make the Principal Publisher’s header documentation work (dance) well with the design guidance.  The primary focus is to make using and configuring the new header easy.</p>
       </div>
     </div>
     <h2 class="mrgn-tp-lg">Current page</h2>
@@ -38,7 +38,7 @@ title: "Global header documentation"
     <h2>Mockups</h2>
     <ul class="mrgn-tp-lg">
       <li><a href="gcweb-01.html">Global header - basic</a> (Changes to the introduction and How to implement section)</li>
-      <li><a href="gcweb-02.html">Global header - advanced</a>(Changes include code presentation and connection to appropriate Github repository)</li>
+      <li><a href="gcweb-02.html">Global header - advanced</a> (Changes include code presentation and connection to appropriate Github repository)</li>
       <li><a href="./catalina/proto-header.html">Global header - "Template builder"</a> (Template builder ask how we can pull code)</li>
     </ul>
   </div>
