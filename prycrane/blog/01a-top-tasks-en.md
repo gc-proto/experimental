@@ -57,30 +57,19 @@ title: "We’re changing the way we identify top tasks for Canada.ca"
 <p>For this list, some tasks are broken down into more specific process steps like signing in to an account, checking a status, or immigrating through a specific program. This list also includes high-profile tasks that were COVID-specific, but no longer exist, like the Canada Recovery Benefit.</p>
 <h3>Latest top task list</h3>
 <p>Here’s the Top 10 tasks based on the new analysis method. These 10 tasks were responsible for more than 50% of responses in the TSS from April 1, 2021 - March 31, 2022.</p>
-<div class="row mrgn-tp-lg">
-  <div class="col-md-8">
-    <div class="panel panel-default">
-      <header class="panel-heading">
-        <h3 class="panel-title">2022 Top tasks</h3>
-      </header>
-      <div class="panel-body">
-        <ol class="mrgn-tp-md">
-          <li>Check your [IRCC] application status</li>
-          <li>IRCC secure account - register, sign in, help</li>
-          <li>Apply for a work permit</li>
-          <li>Immigrate through Express Entry</li>
-          <li>Submit an Employment Insurance (EI) report</li>
-          <li>See my T4 information</li>
-          <li>Get a copy of a notice of assessment or reassessment (Taxes)</li>
-          <li>Study in Canada - for non-Canadians</li>
-          <li>Check the status of an Employment Insurance (EI) claim</li>
-          <li>Canada Recovery Benefit</li>
-        </ol>
-        <p class="mrgn-tp-md"><a href="https://www.canada.ca/en/government/about/top-tasks-for-canada-ca.html">View all of the top 50 tasks for Canada.ca</a></p>
-      </div>
-    </div>
-  </div>
-</div>
+<ol class="mrgn-tp-md">
+  <li>Check your [IRCC] application status</li>
+  <li>IRCC secure account - register, sign in, help</li>
+  <li>Apply for a work permit</li>
+  <li>Immigrate through Express Entry</li>
+  <li>Submit an Employment Insurance (EI) report</li>
+  <li>See my T4 information</li>
+  <li>Get a copy of a notice of assessment or reassessment (Taxes)</li>
+  <li>Study in Canada - for non-Canadians</li>
+  <li>Check the status of an Employment Insurance (EI) claim</li>
+  <li>Canada Recovery Benefit</li>
+</ol>
+<p class="mrgn-tp-md"><a href="https://www.canada.ca/en/government/about/top-tasks-for-canada-ca.html">View all of the top 50 tasks for Canada.ca</a></p>
 <h2>Why use the GC Task Success Survey</h2>
 <p>Almost all institutions in the Government of Canada are running the GC Task Success Survey. Launched in January 2019, the survey randomly intercepts users when they’re on a GC website. It asks users to answer questions specific to their task during their visit.</p>
 <p>As so many institutions are consistently using the survey, it provides us with a common and more consistent set of performance indicators across the GC web presence, all gathered the same way. The survey includes both quantitative and qualitative aspects.</p>
