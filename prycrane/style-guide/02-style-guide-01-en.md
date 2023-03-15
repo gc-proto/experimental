@@ -29,7 +29,7 @@ title: "Canada.ca Content Style Guide - Canada.ca"
     <div class="row">
       <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
         <p class="small"><strong>Version</strong>: 2.1.2 (October 21, 2020)</p>
-        <p>The Content and information Architecture specification is the foundation of the Canada.ca design system’s user-tested templates and patterns.  The specification describes who has to use the design system, its mandatory elements, and provides guidance on how to organize and design content.</p>
+        <p>These are the rules to create web content that can be easily found, understood and used. They are based on writing principles and techniques that help make web content clear and adapted to the needs of all people. Use it with the Canada.ca Content and Information Specification when you're designing and organizing web content.</p>
       </div>
       <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs guidance-js-hide"><img alt="" src="./images/letters.png" class="img-responsive" /></div>
     </div>
