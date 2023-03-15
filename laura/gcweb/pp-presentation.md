@@ -36,36 +36,11 @@ title: "Global header documentation"
       <li><span class="fa-li"><span class="fab fa-google"></span></span><a href="https://docs.google.com/document/d/1YY6JkiJ3nRywwalKJfCxSbqHn2z0SlfvFC8y4eBOrhU">Global header working document</a></li>
     </ul>
     <h2>Mockups</h2>
-    <div class="row">
-      <div class="col-md-8">
-        <ul class="list-unstyled mrgn-tp-lg">
-          <li>
-            <details open="open">
-              <summary>Iteration 3 (2023-03-07)</summary>
-              <ul class="mrgn-tp-md">
-                <li><a href="gcweb-02.html">Global header</a> - updates to the top of the page and implimentation section.</li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <details>
-              <summary>Iteration 2 (2023-02-23)</summary>
-              <ul class="mrgn-tp-md">
-                <li><a href="gcweb-01.html">Global header</a></li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <details>
-              <summary>Iteration 1</summary>
-              <ul class="mrgn-tp-md">
-                <li><a href="gcweb.html">Global header</a></li>
-              </ul>
-            </details>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <ul class="mrgn-tp-lg">
+      <li><a href="gcweb-01.html">Global header - basic</a> (Changes to the introduction and How to implement section)</li>
+      <li><a href="gcweb-02.html">Global header - advanced</a>(Changes include code presentation and connection to appropriate Github repository)</li>
+      <li><a href="./catalina/proto-header.html">Global header - "Template builder"</a> (Template builder ask how we can pull code)</li>
+    </ul>
   </div>
   <div class="col-md-4">
     <div><img src="./images/dance.png" alt="" class="img-responsive"></div>
