@@ -53,7 +53,7 @@ title: "We’re changing the way we identify top tasks for Canada.ca"
   </li>
 </ul>
 <h2>How we compiled the latest list</h2>
-<p>In 2022, we changed how we compile the top task list. We’re now using visitors’ responses to the GC Task Success Survey (TSS).  This gives us a very clear picture of what visitors to Canada.ca consider their top tasks.</p>
+<p>In 2022, we changed how we compile the top task list. We’re now using visitors’ responses to the GC Task Success Survey (TSS).  This gives us a very clear picture of what visitors to Canada.ca consider <strong>their</strong> top tasks.</p>
 <p>For this list, some tasks are broken down into more specific process steps like signing in to an account, checking a status, or immigrating through a specific program. This list also includes high-profile tasks that were COVID-specific, but no longer exist, like the Canada Recovery Benefit.</p>
 <h3>Latest top task list</h3>
 <p>Here’s the Top 10 tasks based on the new analysis method. These 10 tasks were responsible for more than 50% of responses in the TSS from April 1, 2021 - March 31, 2022.</p>
