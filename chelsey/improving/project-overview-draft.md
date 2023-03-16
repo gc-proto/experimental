@@ -113,7 +113,7 @@ titleH1: Improving content on Canada.ca
 												</dl>
 											</aside>
 										</div><<br
-	/details>
+	</details>
 									</div>
 								</details>
 
@@ -179,8 +179,6 @@ titleH1: Improving content on Canada.ca
 									</div>
 								</details>
 							</div>
-						</li>
-
 						<li class="timeline-item">
 							<div class="timeline-year">
 								<span style="">2019</span>
