@@ -18,128 +18,88 @@ nomenu: true
 pageclass: cnt-wdth-lmtd
 title: "Nous changeons la façon dont nous déterminons les tâches principales pour le site Canada.ca"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Nous changeons la façon dont nous déterminons les tâches principales pour le site Canada.ca</span>: <span>Blogue de Canada.ca</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>We’re changing the way we identify top tasks for Canada.ca</span>: <span>Canada.ca blog</span></span></h1>
 <div class="row">
   <div class="col-md-8"><img src="./images/blog1.png" class="img-responsive" alt="" /></div>
 </div>
-<p class="mrgn-tp-lg">People come to our digital channels to accomplish a very wide range of tasks. We say they’re looking for “information” or “services”, but they don’t make these distinctions. They come to Canada.ca with a goal in mind and a task that they want to complete. If they’re able to achieve their task, their need has been met. If not, we have work to do.</p>
-<h2>Top tasks</h2>
-<p>There are thousands of Government of Canada (GC) tasks out there, some simple, and some complex. So how do we prioritize what to improve? We identify the most used tasks, and we call these the “top tasks”.</p>
-<h2>Top tasks form the basis of the Canada.ca design</h2>
-<p>Top task management isn’t new to the Government of Canada. In 2013, we compiled the first government-wide top task list to help design Canada.ca. Even earlier than that, several departments were experimenting with top task management for their own sites.</p>
-<p>Since then, we’ve gone through 4 major iterations of the top task list. Each time we do it, we improve how we gather comparable data and tasks.</p>
-<h2>How we compiled the previous list</h2>
-<p>In 2017, we asked institutions to submit their lists of top tasks by considering web visits, call centre data, previous surveys and research, mandate letters, and departmental priorities.  When we published the top 100 tasks in 2018, the tasks were simply ranked by visits to the task start pages.</p>
-<p>Using this simple ranking method created inconsistencies in the results such as:</p>
+<p class="mrgn-tp-lg">Les gens utilisent nos canaux numériques pour accomplir un très large éventail de tâches. Nous disons qu’ils recherchent des « renseignements » ou des « services », mais ils ne font pas ces distinctions. Ils consultent le site Canada.ca avec un objectif en tête et une tâche à accomplir. S’ils sont en mesure d’accomplir leur tâche, leur besoin a été satisfait. Dans le cas contraire, nous avons du travail à faire.</p>
+<h2>Tâches principales</h2>
+<p>Il existe des milliers de tâches du gouvernement du Canada (GC); certaines sont simples, d’autres, complexes. Alors, comment peut-on classer par ordre de priorité ce qui doit être amélioré? Nous déterminons les tâches les plus utilisées, que nous appelons les &laquo;&nbsp;tâches principales&nbsp;&raquo;.</p>
+<h2>Les tâches principales sont à la base de la conception du site Canada.ca</h2>
+<p>La gestion des tâches principales n’est pas nouvelle pour le gouvernement du Canada. En 2013, nous avons dressé la première liste de tâches principales à l’échelle du gouvernement pour faciliter la conception du site Canada.ca. À une époque plus reculée encore, plusieurs ministères expérimentaient la gestion des tâches principales pour leurs propres sites.</p>
+<p>Depuis, nous avons connu quatre itérations importantes de la liste des tâches principales. Chaque fois que nous nous prêtons à l’exercice, nous améliorons la façon dont nous recueillons des données et des tâches comparables.</p>
+<h2>Comment nous avons dressé la liste précédente</h2>
+<p>En 2017, nous avons demandé aux institutions de présenter leur liste des tâches principales en tenant compte des visites sur le Web, des données des centres d’appels, des recherches et des sondages précédents, des lettres de mandat et des priorités ministérielles. Lorsque nous avons publié la liste des 100 tâches principales en 2018, les tâches ont simplement été classées en fonction des visites sur les pages de démarrage des tâches.</p>
+<p>L’utilisation de cette méthode de classement simple a créé des incohérences dans les résultats, dont les suivantes&nbsp;:</p>
 <ul>
-  <li><strong>Analytics comparability:</strong>
+  <li><strong>Comparabilité analytique</strong>
     <ul>
-      <li>the effectiveness of the different tools in use varies significantly</li>
-      <li>some free analytics software sample data across visits instead of recording everything</li>
-      <li>some tools track effectively, but are very inefficient at generating reports</li>
+      <li>L’efficacité des différents outils utilisés varie considérablement.</li>
+      <li>Certains logiciels d’analyse gratuits échantillonnent les données au fil des visites plutôt que de tout enregistrer.</li>
+      <li>Certains outils offrent un suivi efficace, mais sont très inefficaces pour générer des rapports.</li>
     </ul>
   </li>
-  <li><strong>Visits versus page views:</strong>
+  <li><strong>Visites par opposition aux pages vues</strong>
     <ul>
-      <li>visits represent a real person completing a task better than page views</li>
-      <li>page view numbers can inflate when a task involves multiple pages or people visit multiple pages because they’re lost</li>
+      <li>Les visites représentent mieux une personne réelle accomplissant une tâche que les pages vues.</li>
+      <li>Les nombres de pages vues peuvent être gonflés lorsqu’une tâche comporte plusieurs pages ou que les personnes consultent plusieurs pages parce qu’elles sont perdues.</li>
     </ul>
   </li>
-  <li><strong>Task start pages versus all task pages:</strong>
+  <li><strong>●	Pages de démarrage de la tâche par opposition à toutes les pages de la tâche</strong>
     <ul>
-      <li>some tasks require several different pages, while others only one page</li>
-      <li>combined traffic for many pages makes it harder to compare results</li>
+      <li>Certaines tâches nécessitent plusieurs pages différentes, tandis que d’autres n’en nécessitent qu’une seule.</li>
+      <li>Le trafic combiné de plusieurs pages complexifie la comparaison des résultats.</li>
     </ul>
   </li>
 </ul>
-<h2>How we compiled the latest list</h2>
-<p>In 2022, we changed how we compile the top task list. We’re now using visitors’ responses to the GC Task Success Survey (TSS).  This gives us a very clear picture of what visitors to Canada.ca consider their top tasks.</p>
-<p>For this list, some tasks are broken down into more specific process steps like signing in to an account, checking a status, or immigrating through a specific program. This list also includes high-profile tasks that were COVID-specific, but no longer exist, like the Canada Recovery Benefit.</p>
-<h3>Latest top task list</h3>
-<p>Here’s the Top 10 tasks based on the new analysis method. These 10 tasks were responsible for more than 50% of responses in the TSS from April 1, 2021 - March 31, 2022.</p>
-<table class="table table-bordered">
-  <caption class="wb-inv">
-  Latest top task list
-  </caption>
-  <thead>
-    <tr>
-      <th class="col-md-2">2022 rank</th>
-      <th class="col-md-10">2022 Top tasks</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Check your [IRCC] application status</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>IRCC secure account - register, sign in, help</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Apply for a work permit</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Immigrate through Express Entry</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Submit an Employment Insurance (EI) report</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>See my T4 information</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Get a copy of a notice of assessment or reassessment (Taxes)</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>Study in Canada - for non-Canadians</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Check the status of an Employment Insurance (EI) claim</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>Canada Recovery Benefit</td>
-    </tr>
-  </tbody>
-</table>
-<p><a href="https://www.canada.ca/en/government/about/top-tasks-for-canada-ca.html">View all of the top 50 tasks for Canada.ca</a></p>
-<h2>Why use the GC Task Success Survey</h2>
-<p>Almost all institutions in the Government of Canada are running the GC Task Success Survey. Launched in January 2019, the survey randomly intercepts users when they’re on a GC website. It asks users to answer questions specific to their task during their visit.</p>
-<p>As so many institutions are consistently using the survey, it provides us with a common and more consistent set of performance indicators across the GC web presence, all gathered the same way. The survey includes both quantitative and qualitative aspects.</p>
-<p>The volume of responses for each task helps us identify the specific tasks that are the most in-demand from a user perspective and do so more regularly.  It makes it easier to spot changes and trends with tasks by removing the burden of collecting visit data from dozens of institutions.</p>
-<h3>Potential weaknesses with this method</h3>
-<p>It’s very important to keep the survey up to date by accurately representing the tasks that people are coming to do.</p>
-<p>This means:</p>
+<h2>Comment nous avons dressé la liste la plus récente</h2>
+<p>En 2022, nous avons modifié la manière dont nous dressons la liste des tâches principales. Nous utilisons désormais les réponses des visiteurs au Sondage sur la réussite des tâches du gouvernement du Canada (SRT). Cela nous donne une image très claire de ce que les visiteurs du site Canada.ca considèrent comme <strong>leurs</strong> tâches principales. </p>
+<p>Pour cette liste, certaines tâches sont décomposées en étapes de processus plus précises, comme l’ouverture d’un compte, la vérification d’un statut ou l’immigration par l’intermédiaire d’un programme en particulier. Cette liste comprend également des tâches très médiatisées qui étaient propres à la COVID, mais qui n’existent plus, comme la Prestation canadienne de la relance économique. </p>
+<h3>Liste des tâches principales la plus récente</h3>
+<p>Voici les dix tâches principales selon la nouvelle méthode d’analyse. Ces dix tâches ont été à l’origine de plus de 50&nbsp;% des réponses au SRT entre le 1<sup>er</sup> avril 2021 et le 31 mars 2022.</p>
+<h4>Tâches principales en 2022</h4>
+<ol class="mrgn-tp-md">
+  <li>Vérifiez le statut de votre demande [à Immigration, Réfugiés et Citoyenneté Canada – IRCC]</li>
+  <li>Compte sécurisé d’IRCC – inscription, ouverture de session, aide</li>
+  <li>Obtenir un permis de travail</li>
+  <li>Faire une demande d’immigration au Canada par l’Entrée express</li>
+  <li>Soumettre une déclaration d’assurance-emploi</li>
+  <li>Voir les renseignements de mon T4</li>
+  <li>Obtenir une copie de mon avis de cotisation aux fins de l’impôt</li>
+  <li>Étudier au Canada – personnes non canadiennes</li>
+  <li>Vérifier le statut d’une demande d’assurance-emploi</li>
+  <li>Prestation canadienne de la relance économique</li>
+</ol>
+<p><a href="https://www.canada.ca/fr/gouvernement/a-propos/taches-principales-pour-canada-ca.html">Voir les 50 tâches principales pour Canada.ca</a></p>
+<h2>Pourquoi avoir recours au Sondage sur la réussite des tâches du GC?</h2>
+<p>Presque toutes les institutions du gouvernement du Canada mènent le Sondage sur la réussite des tâches du GC. Lancé en janvier 2019, le sondage intercepte au hasard les internautes lorsqu’ils sont sur un site Web du GC. Il leur pose des questions propres à leur tâche effectuée pendant leur visite.</p>
+<p>Puisque les institutions sont si nombreuses à utiliser systématiquement le sondage, celui-ci nous donne un ensemble commun et plus cohérent d’indicateurs de rendement dans l’ensemble de la présence Web du GC, tous recueillis de la même manière. Le sondage comporte à la fois des aspects quantitatifs et qualitatifs. </p>
+<p>Le volume des réponses pour chaque tâche nous aide à déterminer précisément les tâches qui sont les plus demandées du point de vue des utilisateurs et à le faire plus régulièrement. Il est ainsi plus facile de repérer les tendances et les changements liés aux tâches en éliminant le fardeau de la collecte de données de visite auprès de dizaines d’institutions.</p>
+<h3>Faiblesses potentielles de cette méthode </h3>
+<p>Il est très important de garder le sondage à jour en représentant avec précision les tâches que les gens viennent accomplir.</p>
+<p>Il faut donc&nbsp;:</p>
 <ul>
-  <li>adding tasks for new programs or services</li>
-  <li>using language for tasks that matches the user’s intent</li>
-  <li>reviewing ‘other’ responses to refine task wording or add new or missing tasks</li>
-  <li>removing tasks where response volumes show it isn’t a top task or the task no longer exists</li>
+  <li>ajouter des tâches pour les nouveaux programmes ou services;</li>
+  <li>utiliser pour les tâches un langage qui correspond à l’intention de l’utilisateur;</li>
+  <li>examiner les &laquo;&nbsp;autres&nbsp;&raquo; réponses afin de peaufiner la formulation des tâches ou d’ajouter des tâches nouvelles ou manquantes;</li>
+  <li>supprimer les tâches dont les volumes de réponses montrent qu’il ne s’agit pas d’une tâche principale ou que la tâche n’existe plus.</li>
 </ul>
-<p>At the end of 2021, we ran a task list clean-up exercise with participating departments. After reviewing the survey data for a full year, we had a very good indication of what top tasks people were coming to Canada.ca to accomplish. We used this data to improve tasks in the survey by removing or adjusting wording for tasks.  This made the survey easier for participants to use. It ensured their top tasks were clearly worded and made up the majority of tasks in the survey.</p>
-<p>Because the survey is not fully implemented across some pages, there are still some tasks that are underrepresented in the results. However, we’ll continue to adjust and improve as we gather more data.</p>
-<h2>A focus on top tasks can contribute to improved service delivery</h2>
-<p>When people come to Canada.ca, we can support them in accomplishing their tasks by ensuring that our content is well organized and easy to use and understand. That may sound simple, but there’s a lot to consider. Following guidance in the style guide and design system is an important way to start content development.</p>
+<p>À la fin de 2021, nous avons organisé un exercice de nettoyage de la liste de tâches avec les ministères participants. Après avoir examiné les données du sondage pendant une année complète, nous avions une très bonne idée des tâches principales que les gens venaient accomplir sur le site Canada.ca. Nous nous sommes servis de ces données pour améliorer les tâches dans le sondage en supprimant des tâches ou en ajustant leur formulation. Cette démarche a rendu le sondage plus convivial pour les participants. Elle a fait en sorte que les tâches principales soient clairement formulées et constituent la majeure partie des tâches visées par le sondage.</p>
+<p>Étant donné que le sondage n’a pas été entièrement mis en œuvre sur certaines pages, certaines tâches sont encore sous-représentées dans les résultats. Toutefois, nous continuerons à ajuster et à améliorer les résultats au fur et à mesure que nous recueillerons plus de données.</p>
+<h2>Mettre l’accent sur les tâches peut contribuer à améliorer la prestation de services</h2>
+<p>Lorsque les gens se rendent sur le site Canada.ca, nous pouvons les aider à accomplir leurs tâches en veillant à ce que notre contenu soit bien organisé, convivial et facile à comprendre. Cela peut sembler simple, mais il y a beaucoup de choses à prendre en compte. Pour commencer à créer du contenu, il est important de suivre les directives du guide de style et du système de conception.</p>
 <ul>
-  <li><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Canada.ca Design System templates and patterns</a></li>
-  <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html">Canada.ca Content Style Guide</a></li>
-  <li><a href="https://design.canada.ca/continuous-improvement.html">Continuous improvement guide</a></li>
+  <li><a href="https://www.canada.ca/fr/gouvernement/a-propos/systeme-conception/bibliotheque-modeles.html">Bibliothèque de modèles et de configurations de conception du site Canada.ca</a></li>
+  <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html">Guide de rédaction du contenu du site Canada.ca</a></li>
+  <li><a href="https://conception.canada.ca/amelioration-continue.html">Guide d’amélioration continue</a></li>
 </ul>
-<p>Following best practices isn't enough though. Once your content is online, you need to monitor how people use it and if they're successful. Identifying the top tasks within your web content and measuring whether people can complete them helps you identify areas that may need more work. This is an effective approach to improving your ability to meet the needs of your audience.</p>
-<h2>We want to hear from you</h2>
-<p>Let us know what you think about top task management. Email us at dto.btn@tbs-sct.gc.ca or tweet using the hashtag #CanadaDotca.</p>
-<h2>Learn more about top tasks</h2>
+<p>Or, il n’est souvent pas suffisant de suivre les pratiques exemplaires. Une fois que votre contenu est en ligne, vous devez surveiller la façon dont les gens l’utilisent et s’ils y parviennent. En déterminant les tâches principales à accomplir dans votre contenu Web et en vérifiant si les utilisateurs sont en mesure de les réaliser, vous serez mieux à même de cerner les aspects qui méritent peut-être plus d’attention. Il s’agit d’une approche efficace pour renforcer votre capacité à répondre aux besoins de votre public.</p>
+<h2>Nous voulons connaître votre avis</h2>
+<p>Dites-nous ce que vous pensez de la gestion des tâches principales. Envoyez-nous un courriel à l’adresse <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a> ou un gazouillis en utilisant le mot-clic #Canadapointca.</p>
+<h2>Pour en apprendre davantage sur les tâches principales</h2>
 <ul>
-  <li><a href="https://design.canada.ca/continuous-improvement/monitoring/GCTSS.html">GC Task Success Survey (TSS)</a></li>
-  <li><a href="https://www.canada.ca/en/government/about/top-tasks-for-canada-ca.html">The top 50 tasks list for the Government of Canada</a></li>
-  <li><a href="https://alistapart.com/article/what-really-matters-focusing-on-top-tasks">What Really Matters: Focusing on Top Tasks</a> by Gerry McGovern, describes the value of top tasks and the survey voting method to validate them</li>
-  <li><a href="https://measuringu.com/top-tasks/">How to conduct a top task analysis</a> by Jeff Sauro, gets into some of the statistical details around analyzing top task data from surveys</li>
+  <li><a href="https://conception.canada.ca/amelioration-continue/mesure/SRTGC.html">Sondage sur la réussite des tâches du GC (SRT)</a></li>
+  <li><a href="https://www.canada.ca/fr/gouvernement/a-propos/taches-principales-pour-canada-ca.html">Liste des 50 tâches principales du gouvernement du Canada</a></li>
+  <li><a href="https://alistapart.com/article/what-really-matters-focusing-on-top-tasks">What Really Matters: Focusing on Top Tasks</a> (en anglais seulement), par Gerry McGovern, décrit l’utilité des tâches principales ainsi que la méthode de vote par sondage qui permet de les valider</li>
+  <li><a href="https://measuringu.com/top-tasks/">How to conduct a top task analysis</a> (en anglais seulement), par Jeff Sauro, entre dans les détails statistiques de l’analyse des données sur les tâches principales à partir de sondages</li>
 </ul>
