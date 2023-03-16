@@ -18,7 +18,7 @@ nomenu: true
 pageclass: cnt-wdth-lmtd
 title: "Nous changeons la façon dont nous déterminons les tâches principales pour le site Canada.ca"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>We’re changing the way we identify top tasks for Canada.ca</span>: <span>Canada.ca blog</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Nous changeons la façon dont nous déterminons les tâches principales pour le site Canada.ca</span>: <span>Blogue de Canada.ca</span></span></h1>
 <div class="row">
   <div class="col-md-8"><img src="./images/blog1.png" class="img-responsive" alt="" /></div>
 </div>
