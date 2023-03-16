@@ -1453,10 +1453,3 @@ titleH1: Improving content on Canada.ca
 								<span class="wb-inv">2016</span>
 							</div>
 						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
