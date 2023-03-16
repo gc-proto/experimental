@@ -301,7 +301,6 @@ titleH1: Improving content on Canada.ca
 									</div>
 									</details>
 								</details>
-
 <details>
 <summary class="borderless bttm-brdr wb-toggle" data-toggle='{"print":"on"}'>
 <h3 class="timeline-title">Electronic Procurement Solution</h3>
@@ -358,8 +357,11 @@ titleH1: Improving content on Canada.ca
 												<li class="custli">The Government of Canada uses standardized codes to describe goods and services. What specific code(s) should Frances use to find opportunities related to the web development services she provides?</li>
 												<li class="custli">The Government of Canada maintains a number of databases of pre-qualified suppliers of goods and services. Richard's company provides architectural consulting services. What is the name of the government's database of suppliers for this type of service?</li>
 											</ul>
-</div>
-</details>
+			</div>
+										</details>
+									</div>
+								</details>
+							</div>
 
 								<details>
 									<summary class="borderless bttm-brdr wb-toggle"
