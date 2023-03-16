@@ -77,6 +77,5 @@ Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, 
    <li>Your cousin from France won't need a visa to come visit but will need an electronic Travel Authorization. How much will it cost to apply? Start on a Google results page with links to Canada.ca URLS and to other sites</li>
 <li>Your Egyptian friend wants to come to a Canadian university this year. How much will it cost to apply for a study permit? Start on a Canada.ca Immigration Refugees and Citizenship page</li>
   </details>
-  </details>
   
 ### Medical devices 
