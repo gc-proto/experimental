@@ -1,3 +1,12 @@
+---
+altLangPage: /pages/apercu-projet
+css:
+  - ../improving/blog-dto-btn.css
+  - ../improving/blog.css
+dateModified: 2020-11-20
+title: Improving content on Canada.ca
+titleH1: Improving content on Canada.ca
+---
 Small changes make a big difference.
 
 Sometimes the words we use, and how we organize them, can make it hard for people to find and understand Government of Canada information and services on Canada.ca. The TBS Digital Transformation Office is working on projects with federal departments to make it easier.
