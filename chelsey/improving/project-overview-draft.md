@@ -112,7 +112,7 @@ titleH1: Improving content on Canada.ca
 													</dd>
 												</dl>
 											</aside>
-										</div><<br
+										</div>
 	</details>
 									</div>
 								</details>
@@ -347,9 +347,7 @@ titleH1: Improving content on Canada.ca
 												</tr>
 											</tbody>
 										</table>
-
-										<h4 style="margin-top: 0px">Task scenarios tested and improved</h4>
-
+										<details><summary><h4 style="margin-top: 0px">Task scenarios tested and improved</h4></summary>
 										<div>
 											<ul class="custul">
 												<li class="custli">Jon works for a company that does snow removal in the winter, and landscaping the rest of the year. His boss has asked him to look for opportunities with the federal government. Are there any open projects in Ontario that would be a good fit for the company?</li>
@@ -361,7 +359,7 @@ titleH1: Improving content on Canada.ca
 												<li class="custli">The Government of Canada uses standardized codes to describe goods and services. What specific code(s) should Frances use to find opportunities related to the web development services she provides?</li>
 												<li class="custli">The Government of Canada maintains a number of databases of pre-qualified suppliers of goods and services. Richard's company provides architectural consulting services. What is the name of the government's database of suppliers for this type of service?</li>
 											</ul>
-
+											</details>
 											<p>
 												<a href="../research-summaries/electronic-procurement-research-summary.html">Research summary: Electronic Procurement Solution</a>
 											</p>
@@ -413,7 +411,8 @@ titleH1: Improving content on Canada.ca
 											</tbody>
 										</table>
 
-										<h4 style="margin-top: 0px">Task scenarios tested and improved</h4>
+										<details>
+											<summary><h4 style="margin-top: 0px">Task scenarios tested and improved</h4></summary>
 
 										<div>
 											<ul class="custul">
@@ -491,7 +490,8 @@ titleH1: Improving content on Canada.ca
 											</tbody>
 										</table>
 
-										<h4 style="margin-top: 0px">Task scenarios tested and improved</h4>
+										<details>
+											<summary><h4 style="margin-top: 0px">Task scenarios tested and improved</h4></summary>
 
 										<div>
 											<ul class="custul">
@@ -505,7 +505,7 @@ titleH1: Improving content on Canada.ca
 												<li class="custli">After spending time with friends in Panama, Maya is heading to Costa Rica for a week-long vacation. Does she require a Yellow Fever vaccination to go to Costa Rica?</li>
 												<li class="custli">Marco is travelling to Cambodia for his job. Has the Canadian government issued a travel advisory for that country?</li>
 											</ul>
-
+											</details>
 											<p>
 												<a href="../research-summaries/travel-advice-research-summary.html">Research summary: Travel advice and advisories</a>
 											</p>
