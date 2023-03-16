@@ -462,7 +462,9 @@ titleH1: Improving content on Canada.ca
 											</ul>
 										</li>
 									</ul>
-
+											<p>
+<a href="../research-summaries/travel-advice-research-summary.html">Research summary: Travel advice and advisories</a>
+											</p>
 									<div class="table-bravo">
 										<table class="table table-slim">
 											<thead>
@@ -502,10 +504,10 @@ titleH1: Improving content on Canada.ca
 												<li class="custli">After spending time with friends in Panama, Maya is heading to Costa Rica for a week-long vacation. Does she require a Yellow Fever vaccination to go to Costa Rica?</li>
 												<li class="custli">Marco is travelling to Cambodia for his job. Has the Canadian government issued a travel advisory for that country?</li>
 											</ul>
-											</details>
-											<p>
-												<a href="../research-summaries/travel-advice-research-summary.html">Research summary: Travel advice and advisories</a>
-											</p>
+											</div>
+</details>
+</div>
+</details>
 
 											<aside class="wb-fnote"
 												role="note">
@@ -561,7 +563,9 @@ titleH1: Improving content on Canada.ca
 										<li class="custli">reduce the time Canadians spend looking for answers</li>
 										<li class="custli">free up call centre agents to work on more complex problems</li>
 									</ul>
-
+<p>
+<a href="../research-summaries/cra-contact-us-research-summary.html">Research summary: Contact the Canada Revenue Agency(CRA)</a>
+</p>
 									<div class="table-bravo">
 										<table class="table table-slim">
 											<thead>
@@ -586,9 +590,8 @@ titleH1: Improving content on Canada.ca
 											</tbody>
 										</table>
 
-										<h4 style="margin-top: 0px">Task scenarios tested and improved</h4>
-
-										<div>
+										<details><summary><h4 style="margin-top: 0px">Task scenarios tested and improved</h4></summary>
+<div>
 											<ul class="custul">
 												<li class="custli">Your bank asked for an official proof of income statement. It's Sunday. Do you have to wait until Monday to call
 													<abbr title="Canada Revenue Agency">CRA</abbr> to get this or is there a number you can call today?</li>
@@ -605,16 +608,11 @@ titleH1: Improving content on Canada.ca
 												<li class="custli">You lost the security code that you need to login to your personal
 													<abbr title="Canada Revenue Agency">CRA</abbr> account. Find out which phone number to call to get one.</li>
 											</ul>
-
-											<p>
-												<a href="../research-summaries/cra-contact-us-research-summary.html">Research summary: Contact the Canada Revenue Agency
-													(CRA)</a>
-											</p>
-										</div>
-									</div>
-								</details>
-							</div>
-						</li>
+</div>
+</details>
+</div>
+</details>
+</li>
 
 						<li class="timeline-item">
 							<div class="timeline-year">
