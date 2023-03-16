@@ -22,7 +22,7 @@ title: "Nous changeons la façon dont nous déterminons les tâches principales 
 <div class="row">
   <div class="col-md-8"><img src="./images/blog1.png" class="img-responsive" alt="" /></div>
 </div>
-<p class="mrgn-tp-lg">Les gens utilisent nos canaux numériques pour accomplir un très large éventail de tâches. Nous disons qu’ils recherchent des « renseignements » ou des « services », mais ils ne font pas ces distinctions. Ils consultent le site Canada.ca avec un objectif en tête et une tâche à accomplir. S’ils sont en mesure d’accomplir leur tâche, leur besoin a été satisfait. Dans le cas contraire, nous avons du travail à faire.</p>
+<p class="mrgn-tp-lg">Les gens utilisent nos canaux numériques pour accomplir un très large éventail de tâches. Nous disons qu’ils recherchent des &laquo;&nbsp;renseignements&nbsp;&raquo; ou des &laquo;&nbsp;services&nbsp;&raquo;, mais ils ne font pas ces distinctions. Ils consultent le site Canada.ca avec un objectif en tête et une tâche à accomplir. S’ils sont en mesure d’accomplir leur tâche, leur besoin a été satisfait. Dans le cas contraire, nous avons du travail à faire.</p>
 <h2>Tâches principales</h2>
 <p>Il existe des milliers de tâches du gouvernement du Canada (GC); certaines sont simples, d’autres, complexes. Alors, comment peut-on classer par ordre de priorité ce qui doit être amélioré? Nous déterminons les tâches les plus utilisées, que nous appelons les &laquo;&nbsp;tâches principales&nbsp;&raquo;.</p>
 <h2>Les tâches principales sont à la base de la conception du site Canada.ca</h2>
@@ -45,7 +45,7 @@ title: "Nous changeons la façon dont nous déterminons les tâches principales 
       <li>Les nombres de pages vues peuvent être gonflés lorsqu’une tâche comporte plusieurs pages ou que les personnes consultent plusieurs pages parce qu’elles sont perdues.</li>
     </ul>
   </li>
-  <li><strong>●	Pages de démarrage de la tâche par opposition à toutes les pages de la tâche</strong>
+  <li><strong>Pages de démarrage de la tâche par opposition à toutes les pages de la tâche</strong>
     <ul>
       <li>Certaines tâches nécessitent plusieurs pages différentes, tandis que d’autres n’en nécessitent qu’une seule.</li>
       <li>Le trafic combiné de plusieurs pages complexifie la comparaison des résultats.</li>
@@ -73,7 +73,7 @@ title: "Nous changeons la façon dont nous déterminons les tâches principales 
 <p><a href="https://www.canada.ca/fr/gouvernement/a-propos/taches-principales-pour-canada-ca.html">Voir les 50 tâches principales pour Canada.ca</a></p>
 <h2>Pourquoi avoir recours au Sondage sur la réussite des tâches du GC?</h2>
 <p>Presque toutes les institutions du gouvernement du Canada mènent le Sondage sur la réussite des tâches du GC. Lancé en janvier 2019, le sondage intercepte au hasard les internautes lorsqu’ils sont sur un site Web du GC. Il leur pose des questions propres à leur tâche effectuée pendant leur visite.</p>
-<p>Puisque les institutions sont si nombreuses à utiliser systématiquement le sondage, celui-ci nous donne un ensemble commun et plus cohérent d’indicateurs de rendement dans l’ensemble de la présence Web du GC, tous recueillis de la même manière. Le sondage comporte à la fois des aspects quantitatifs et qualitatifs. </p>
+<p>Puisque les institutions sont si nombreuses à utiliser systématiquement le sondage, celui-ci nous donne un ensemble commun et plus cohérent d’indicateurs de rendement dans l’ensemble de la présence Web du GC, tous recueillis de la même manière. Le sondage comporte à la fois des aspects quantitatifs et qualitatifs.</p>
 <p>Le volume des réponses pour chaque tâche nous aide à déterminer précisément les tâches qui sont les plus demandées du point de vue des utilisateurs et à le faire plus régulièrement. Il est ainsi plus facile de repérer les tendances et les changements liés aux tâches en éliminant le fardeau de la collecte de données de visite auprès de dizaines d’institutions.</p>
 <h3>Faiblesses potentielles de cette méthode </h3>
 <p>Il est très important de garder le sondage à jour en représentant avec précision les tâches que les gens viennent accomplir.</p>
