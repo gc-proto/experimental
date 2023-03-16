@@ -1,4 +1,4 @@
-# Small changes make a big difference.
+Small changes make a big difference.
 
 Sometimes the words we use, and how we organize them, can make it hard for people to find and understand Government of Canada information and services on Canada.ca. The TBS Digital Transformation Office is working on projects with federal departments to make it easier.
 
@@ -19,7 +19,8 @@ Considering the high numbers of visits to in-demand pages, such an increase in t
 
 ### 2020 
 - Orientation and wayfinding 
-- Medical devices 
+- Medical devices
+
 ### 2019 
 - Pay for the oublic service 
 - Recalls and safety alerts search 
@@ -27,6 +28,7 @@ Considering the high numbers of visits to in-demand pages, such an increase in t
 - Canada Child Benfit 
 - Travel advcie and advisories 
 - Contact the CRA 
+
 ### 2018
 - EI maternity and parental benefits
 - Student loans and grants
@@ -37,6 +39,7 @@ Considering the high numbers of visits to in-demand pages, such an increase in t
 - EI special benefits
 - GST/HST and payroll
 - Disease and immunization information 
+
 ### 2017
 - Weather information
 - Travel documents 
