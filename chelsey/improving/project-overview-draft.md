@@ -506,8 +506,6 @@ titleH1: Improving content on Canada.ca
 											</ul>
 											</div>
 </details>
-</div>
-</details>
 
 											<aside class="wb-fnote"
 												role="note">
