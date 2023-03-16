@@ -11,7 +11,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-03-14
 dateModified: 2023-03-14
-description: "We’re changing the way we identify top tasks for Canada.ca"
+description: "Top tasks help prioritize what web content needs to be improved. As of 2022, top tasks for Canada.ca are identified using visitors’ responses to the GC Task Success Survey."
 language: en
 layout: without-h1
 nomenu: true
