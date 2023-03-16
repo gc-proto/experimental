@@ -11,7 +11,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-03-14
 dateModified: 2023-03-14
-description: "Nous changeons la façon dont nous déterminons les tâches principales pour le site Canada.ca"
+description: "Les tâches principales permettent d’établir l’ordre de priorité du contenu Web qui doit être amélioré. Depuis 2022, les tâches principales pour Canada.ca sont définies à l’aide des réponses fournies par les visiteurs dans le sondage sur la réussite des tâches du gouvernement du Canada."
 language: fr
 layout: without-h1
 nomenu: true
