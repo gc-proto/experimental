@@ -360,7 +360,6 @@ titleH1: Improving content on Canada.ca
 											</ul>
 </div>
 </details>
-</details>
 
 								<details>
 									<summary class="borderless bttm-brdr wb-toggle"
