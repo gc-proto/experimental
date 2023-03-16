@@ -302,10 +302,9 @@ titleH1: Improving content on Canada.ca
 									</details>
 								</details>
 
-								<details>
-									<summary class="borderless bttm-brdr wb-toggle"
-										data-toggle='{"print":"on"}'>
-										<h3 class="timeline-title">Electronic Procurement Solution</h3>
+<details>
+<summary class="borderless bttm-brdr wb-toggle" data-toggle='{"print":"on"}'>
+<h3 class="timeline-title">Electronic Procurement Solution</h3>
 									</summary>
 
 									<h4>Partner department</h4>
@@ -323,7 +322,7 @@ titleH1: Improving content on Canada.ca
 										<li class="custli">The federal government is the largest public buyer of goods and services in Canada, with purchases of approximately $23 billion annually</li>
 										<li class="custli">PSPC procures close to 80% of the federal government’s annual procurement expenditures on behalf of client departments and agencies,amounting to approximately $18 billion in goods and services</li>
 									</ul>
-
+<p><a href="../research-summaries/electronic-procurement-research-summary.html">Research summary: Electronic Procurement Solution</a></p>
 									<div class="table-bravo">
 										<table class="table table-slim">
 											<thead>
@@ -347,7 +346,7 @@ titleH1: Improving content on Canada.ca
 												</tr>
 											</tbody>
 										</table>
-										<details><summary><h4 style="margin-top: 0px">Task scenarios tested and improved</h4></summary>
+<details><summary><h4 style="margin-top: 0px">Task scenarios tested and improved</h4></summary>
 										<div>
 											<ul class="custul">
 												<li class="custli">Jon works for a company that does snow removal in the winter, and landscaping the rest of the year. His boss has asked him to look for opportunities with the federal government. Are there any open projects in Ontario that would be a good fit for the company?</li>
@@ -359,11 +358,9 @@ titleH1: Improving content on Canada.ca
 												<li class="custli">The Government of Canada uses standardized codes to describe goods and services. What specific code(s) should Frances use to find opportunities related to the web development services she provides?</li>
 												<li class="custli">The Government of Canada maintains a number of databases of pre-qualified suppliers of goods and services. Richard's company provides architectural consulting services. What is the name of the government's database of suppliers for this type of service?</li>
 											</ul>
-											</details>
-											<p>
-												<a href="../research-summaries/electronic-procurement-research-summary.html">Research summary: Electronic Procurement Solution</a>
-											</p>
-										</div>
+</div>
+</details>
+</details>
 
 								<details>
 									<summary class="borderless bttm-brdr wb-toggle"
