@@ -359,8 +359,9 @@ titleH1: Improving content on Canada.ca
 											</ul>
 			</div>
 										</details>
+																	</div>
 								</details>
-							</div>
+
 
 								<details>
 									<summary class="borderless bttm-brdr wb-toggle"
