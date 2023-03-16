@@ -267,14 +267,14 @@ title: "Global header"
   <li>
     <h4>Branding</h4>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/brand.html">Brand</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/banner">Brand</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature</a></li>
     </ul>
   </li>
   <li>
     <h4>Language toggle</h4>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/language/includes/languagetoggle.html">languagetoggle</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/language">languagetoggle</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link</a></li>
     </ul>
   </li>
@@ -284,28 +284,28 @@ title: "Global header"
   <li>
     <h4>Site search box</h4>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/blob/master/sites/headers-includes/sitesearch.html">sitesearch</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/search">Search</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></li>
     </ul>
   </li>
   <li>
     <h4>Theme and topic menu</h4>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">[GitHub code link]</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/gcweb-menu">GCWeb menu</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Theme and topic menu</a></li>
     </ul>
   </li>
   <li>
     <h4>Breadcrumb trail</h4>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">[GitHub code link]</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/breadcrumbs">breadcrumbs</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></li>
     </ul>
   </li>
   <li>
     <h4>Sign-in button</h4>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="#">[GitHub code link]</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/authentication">authentication</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/contextual-signin.html">Contextual Sign in button</a></li>
     </ul>
   </li>
