@@ -364,8 +364,6 @@ titleH1: Improving content on Canada.ca
 												<a href="../research-summaries/electronic-procurement-research-summary.html">Research summary: Electronic Procurement Solution</a>
 											</p>
 										</div>
-									</div>
-								</details>
 
 								<details>
 									<summary class="borderless bttm-brdr wb-toggle"
