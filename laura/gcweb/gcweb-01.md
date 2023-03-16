@@ -300,7 +300,7 @@ title: "Global header"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/breadcrumbs">breadcrumbs code</a> <ul class="fa-ul">
       <li><span class="fa-li"><span class="far fa-file-alt"></span></span><a href="https://wet-boew.github.io/GCWeb/sites/breadcrumbs/breadcrumbs-en.html">breadcrumbs code documentation</a></li></ul></li>
-      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail design guidence</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail design guidance</a></li>
     </ul>
   </li>
   <li>
