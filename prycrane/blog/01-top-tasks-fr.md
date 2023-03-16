@@ -70,7 +70,7 @@ title: "Nous changeons la façon dont nous déterminons les tâches principales 
   <li>Vérifier le statut d’une demande d’assurance-emploi</li>
   <li>Prestation canadienne de la relance économique</li>
 </ol>
-<p><a href="https://www.canada.ca/fr/gouvernement/a-propos/taches-principales-pour-canada-ca.html">Voir les 50 tâches principales pour Canada.ca</a></p>
+<p class="mrgn-tp-md"><a href="https://www.canada.ca/fr/gouvernement/a-propos/taches-principales-pour-canada-ca.html">Voir les 50 tâches principales pour Canada.ca</a></p>
 <h2>Pourquoi avoir recours au Sondage sur la réussite des tâches du GC?</h2>
 <p>Presque toutes les institutions du gouvernement du Canada mènent le Sondage sur la réussite des tâches du GC. Lancé en janvier 2019, le sondage intercepte au hasard les internautes lorsqu’ils sont sur un site Web du GC. Il leur pose des questions propres à leur tâche effectuée pendant leur visite.</p>
 <p>Puisque les institutions sont si nombreuses à utiliser systématiquement le sondage, celui-ci nous donne un ensemble commun et plus cohérent d’indicateurs de rendement dans l’ensemble de la présence Web du GC, tous recueillis de la même manière. Le sondage comporte à la fois des aspects quantitatifs et qualitatifs.</p>
