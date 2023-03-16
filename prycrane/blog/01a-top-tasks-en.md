@@ -1,5 +1,5 @@
 ---
-altLangPage: "#"
+altLangPage: "01-top-tasks-fr.html"
 breadcrumbs:
   - title: About Canada.ca
     link: "https://www.canada.ca/en/government/about.html"
