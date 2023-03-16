@@ -424,7 +424,8 @@ titleH1: Improving content on Canada.ca
 												<li class="custli">Is it safe to close your old bank account before your June 20 Child Benefit payment? You changed your direct deposit to a new bank account number on June 5.</li>
 											</ul>
 										</div>
-									</div>
+										</details>
+																	</div>
 								</details>
 
 								<details>
