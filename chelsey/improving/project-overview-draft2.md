@@ -56,16 +56,16 @@ Considering the high numbers of visits to in-demand pages, such an increase in t
 
 ## 2020
 
-<details><summary>### Orientation and wayfinding</summary> 
+<details><summary>Orientation and wayfinding</summary> 
 
-#### Objective
+  <h3>Objective</h3>
 All government departments are adopting the Canada.ca look. The design needs to adapt to their needs. We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.
 
-#### Why this work matters
+Why this work matters:
 Finding and using services delivered by different government departments should be simple, consistent and accessible to all Canadians
 People need to be able to clearly recognize official government information and services to avoid deceptive and fraudulent sites  
 
-#### Partner departments
+Partner departments:
 Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada
 
 - Task success before: 50%
@@ -73,8 +73,9 @@ Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, 
 - Improvement to task success: To come. Part 1: breadcrumb changes from 'Home' to 'Canada.ca' 
 
   <details><summary>Task sceanrios tested and improved</summary>
-  -  Your cousin from France won't need a visa to come visit but will need an electronic Travel Authorization. How much will it cost to apply? Start on a Google results page with links to Canada.ca URLS and to other sites
-- Your Egyptian friend wants to come to a Canadian university this year. How much will it cost to apply for a study permit? Start on a Canada.ca Immigration Refugees and Citizenship page
+ <ul>
+   <li>Your cousin from France won't need a visa to come visit but will need an electronic Travel Authorization. How much will it cost to apply? Start on a Google results page with links to Canada.ca URLS and to other sites</li>
+<li>Your Egyptian friend wants to come to a Canadian university this year. How much will it cost to apply for a study permit? Start on a Canada.ca Immigration Refugees and Citizenship page</li>
   </details>
   </details>
   
