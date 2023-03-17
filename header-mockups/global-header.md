@@ -1,4 +1,3 @@
-
 ---
 altLangPage: "/resumes-recherche/design-conversationnel"
 breadcrumbs:
