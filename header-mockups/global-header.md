@@ -240,60 +240,61 @@ title: "Global header"
   </div>
 </div>
 <div class="cnt-wdth-lmtd">
-<h2 id="avoid">What to avoid</h2>
-<p>Don’t customize the mandatory elements of the global header, beyond what is recommended in the guidance for each. Consistency in this space is essential for building brand awareness and user trust.</p>
-<p>For example, the flag symbol in the Government of Canada signature should always be the proper red and the first breadcrumb link should always be labeled “Canada.ca” and point to the Canada.ca home page.</p>
-<h2 id="content">Content and design</h2>
-<p>Find content and design specifications and visual examples.</p>
-<ul>
-  <li>Government of Canada signature</li>
-  <li>Language toggle</li>
-  <li>Site search box</li>
-  <li>Sign in button</li>
-  <li>Theme and topic menu</li>
-  <li>Breadcrumb trail</li>
-</ul>
-<h3>Visual examples</h3>
-<div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-lg">
-    <figcaption><b>Global header – large screen</b></figcaption>
-    <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
-    <details>
-      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p>The global header has the Government of Canada signature in the top left. Under the signature is the theme and topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the language toggle is the site search box. </p>
-    </details>
-  </figure>
-</div>
-<div class="pattern-demo">
-  <figure class="mrgn-bttm-lg">
-    <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="../images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
-    <details>
-      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p>The global header has the Government of Canada signature in the top left.  The language toggle link is at the rop right. Under the signature and the language toggle is the site search box. Under the search box is the theme and topic menu. Under the theme and topic menu is the breadcrumb trail.</p>
-    </details>
-  </figure>
-</div>
-<h2 id="implementation">Implementation resources</h2>
-<ul>
-  <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">Centrally Deployed Templates Solution (CDTS)</a>
-    <ul>
-      <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_47/cdts/samples/">CDTS Samples</a> - provides links to sample pages that demonstrate how to implement various CDTS features </li>
-    </ul>
-  </li>
-  <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">GCWeb (WET)</a></li>
-  <li><a href="https://drupalwxt.github.io/en/docs/environment/">Drupal WxT</a></li>
-  <li>AEM/Managed Web Service - documentation for AEM is available on GCpedia</li>
-</ul>
-<h2 id="changes">Latest changes</h2>
-<dl class="dl-horizontal">
-  <dt>
-    <time datetime="2022-08-17" class="link-muted">2022-08-17</time>
-  </dt>
-  <dd>Updated content design for clarity, added contextual Sign in button, added implementation resources to the global header </dd>
-  <dt>
-    <time datetime="2020-06-25" class="link-muted">2020-06-25</time>
-  </dt>
-  <dd>The small screen version was modified to a slimmer version</dd>
-</dl>
+  <h2 id="avoid">What to avoid</h2>
+  <p>Don’t customize the mandatory elements of the global header, beyond what is recommended in the guidance for each. Consistency in this space is essential for building brand awareness and user trust.</p>
+  <p>For example, the flag symbol in the Government of Canada signature should always be the proper red and the first breadcrumb link should always be labeled “Canada.ca” and point to the Canada.ca home page.</p>
+  <h2 id="content">Content and design</h2>
+  <p>Find content and design specifications and visual examples.</p>
+  <ul>
+    <li>Government of Canada signature</li>
+    <li>Language toggle</li>
+    <li>Site search box</li>
+    <li>Sign in button</li>
+    <li>Theme and topic menu</li>
+    <li>Breadcrumb trail</li>
+  </ul>
+  <h3>Visual examples</h3>
+  <h4>Standard pages</h4>
+  <div class="pattern-demo mrgn-tp-lg">
+    <figure class="mrgn-bttm-lg">
+      <figcaption><b>Global header – large screen</b></figcaption>
+      <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+      <details>
+        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+        <p>The global header has the Government of Canada signature in the top left. Under the signature is the theme and topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the language toggle is the site search box. </p>
+      </details>
+    </figure>
+  </div>
+  <div class="pattern-demo mrgn-tp-lg">
+    <figure class="mrgn-bttm-lg">
+      <figcaption><b>Global header – small screen</b></figcaption>
+      <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+      <details>
+        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+        <p>The global header has the Government of Canada signature in the top left.  The language toggle link is at the rop right. Under the signature and the language toggle is the site search box. Under the search box is the theme and topic menu. Under the theme and topic menu is the breadcrumb trail.</p>
+      </details>
+    </figure>
+  </div>
+  <h2 id="implementation">Implementation resources</h2>
+  <ul>
+    <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">Centrally Deployed Templates Solution (CDTS)</a>
+      <ul>
+        <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_47/cdts/samples/">CDTS Samples</a> - provides links to sample pages that demonstrate how to implement various CDTS features </li>
+      </ul>
+    </li>
+    <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">GCWeb (WET)</a></li>
+    <li><a href="https://drupalwxt.github.io/en/docs/environment/">Drupal WxT</a></li>
+    <li>AEM/Managed Web Service - documentation for AEM is available on GCpedia</li>
+  </ul>
+  <h2 id="changes">Latest changes</h2>
+  <dl class="dl-horizontal">
+    <dt>
+      <time datetime="2022-08-17" class="link-muted">2022-08-17</time>
+    </dt>
+    <dd>Updated content design for clarity, added contextual Sign in button, added implementation resources to the global header </dd>
+    <dt>
+      <time datetime="2020-06-25" class="link-muted">2020-06-25</time>
+    </dt>
+    <dd>The small screen version was modified to a slimmer version</dd>
+  </dl>
 </div>
