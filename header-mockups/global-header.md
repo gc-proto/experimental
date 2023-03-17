@@ -175,7 +175,7 @@ title: "Global header"
               </tbody>
               <tfoot>
                 <tr>
-                  <td colspan="2"><div class="fn-rtn small mrgn-tp-md col-md-9" id="lt-note">
+                  <td colspan="2"><div class="fn-rtn small mrgn-tp-md" id="lt-note">
                       <p><a href="#lt"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: New transactional pages for web applications must allow people to toggle between official languages. Legacy web applications that don’t support toggling should be updated or replaced. Until then, you can omit the language toggle if its use results in a loss of data.</p>
                     </div></td>
                 </tr>
