@@ -142,7 +142,7 @@ title: "Global header"
               <tbody>
                 <tr>
                   <td><a href="signature.html">Government of Canada signature (linked to Canada.ca home)</a></td>
-                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span> (Link to Canada.ca home page is optional)</td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span> <span class="small">(Link to Canada.ca home page is optional)</span></td>
                 </tr>
                 <tr>
                   <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
