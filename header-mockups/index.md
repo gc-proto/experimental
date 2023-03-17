@@ -25,7 +25,6 @@ title: "Header mockups"
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Header mockups</span>: <span>Canada.ca design system</span></span></h1>
     <p>Let's see what our header documentation looks like in HTML</p>
-
     <h2 class="h3 mrgn-tp-lg">Pages</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1BMw6sEhUN7r1jdrrpEC1Ua1zsz9Gv5NA2PeRbzot-i4">CIA Specification landing page</a></li>
@@ -54,7 +53,7 @@ title: "Header mockups"
         </ul>
       </li>
     </ul>
-    </div>
+  </div>
   <div class="col-md-4">
     <div><img src="./images/bunny15.png" alt="" class="img-responsive"></div>
   </div>
