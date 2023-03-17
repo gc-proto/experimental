@@ -55,9 +55,9 @@ title: "Global header"
 <h2 id="when">When to use</h2>
 <p>The global header is mandatory on all Government of Canada web pages. Determine which header elements to use based on the type of page you’re creating.</p>
 <ul>
-  <li><a href="#001">Standard pages</a></li>
-  <li><a href="#002">Transactional pages</a></li>
-  <li><a href="#003">Campaign pages</a></li>
+  <li><a href="global-header.html#001">Standard pages</a></li>
+  <li><a href="global-header.html#002">Transactional pages</a></li>
+  <li><a href="global-header.html#003">Campaign pages</a></li>
 </ul>
 <div class="wb-tabs mrgn-tp-lg">
   <div class="tabpanels">
