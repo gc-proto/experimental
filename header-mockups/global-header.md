@@ -1,5 +1,6 @@
 ---
 altLangPage: "/resumes-recherche/design-conversationnel"
+author: Treasury Board Secretariat of Canada
 breadcrumbs:
   - title: "About Canada.ca"
     link:  "https://www.canada.ca/en/government/about.html"
@@ -11,7 +12,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2022-08-17
 dateModified: 2023-03-17
-description: "Find Canada.ca patterns and templates."
+description: "Guidance about using the global header on Canada.ca. The global header is at the top of each Government of Canada web page."
 lang: en
 layout: without-h1
 share: true
