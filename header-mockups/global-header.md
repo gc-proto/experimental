@@ -98,8 +98,8 @@ title: "Global header"
                   <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
                 </tr>
                 <tr>
-                  <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a> (<a href="#smenu-note" id="smenu">Note</a>)</td>
-                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a></td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span> <span class="small">(<a href="#smenu-note" id="smenu">Note</a>)</span></td>
                 </tr>
                 <tr>
                   <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
@@ -146,7 +146,7 @@ title: "Global header"
                 </tr>
                 <tr>
                   <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
-                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span> (<a href="#lt-note" id="lt">Note</a>)</td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span> <span class="small">(<a href="#lt-note" id="lt">Note</a>)</span></td>
                 </tr>
                 <tr>
                   <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
