@@ -129,7 +129,7 @@ title: "Global header"
           <p class="mrgn-tp-lg"><strong>Transactional web pages</strong> are pages with an interaction task where people might lose data, trigger errors, or terminate their session if they navigate away from the page.</p>
           <h3>Global header requirements for transactional pages</h3>
           <div class="panel panel-default mrgn-tp-md">
-            <table class="table table-striped table-condensed" id="mandatory-02" aria-live="polite">
+            <table class="table table-striped" id="mandatory-02" aria-live="polite">
               <caption class="wb-inv">
               Global header requirements
               </caption>
@@ -188,7 +188,7 @@ title: "Global header"
           <p class="mrgn-tp-lg"><strong>Campaign pages</strong> are landing pages for external marketing or advertising campaigns. The flexibility in layout allows institutions to match elements of their external campaign with the landing page.</p>
           <h3>Global header requirements for a campaign page</h3>
           <div class="panel panel-default mrgn-tp-md">
-            <table class="table table-striped table-condensed" id="mandatory-03" aria-live="polite">
+            <table class="table table-striped" id="mandatory-03" aria-live="polite">
               <caption class="wb-inv">
               Global header requirements
               </caption>
