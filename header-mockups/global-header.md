@@ -21,45 +21,45 @@ title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design system</span></span></h1>
 <div class="cnt-wdth-lmtd">
-<div class="row">
-  <div class="col-md-12 pull-left">
-    <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
-      <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
-    </ul>
+  <div class="row">
+    <div class="col-md-12 pull-left">
+      <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
+        <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
+      </ul>
+    </div>
   </div>
-</div>
-<p><span class="label label-danger">Mandatory on standard pages</span></p>
-<p>The global header is at the top of each web page from the Government of Canada.</p>
-<p>Having the same global header on all pages:</p>
-<ul>
-  <li>strengthens the Canada.ca brand</li>
-  <li>promotes trust</li>
-  <li>provides a unified experience on the Government of Canada web presence</li>
-  <li>allows navigation across the broad range of services and information offered</li>
-</ul>
-<p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit Research and rationale.</p>
-<div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-sm"><img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt=""></figure>
-</div>
-<section>
-  <h2>On this page</h2>
+  <p><span class="label label-danger">Mandatory on standard pages</span></p>
+  <p>The global header is at the top of each web page from the Government of Canada.</p>
+  <p>Having the same global header on all pages:</p>
   <ul>
-    <li><a href="#when">When to use</a></li>
-    <li><a href="#avoid">What to avoid</a></li>
-    <li><a href="#content">Content and design</a></li>
-    <li><a href="#implementation">How to implement</a></li>
-    <li><a href="#research">Research and rationale</a></li>
-    <li><a href="#changes">Latest changes</a></li>
-    <li><a href="#discussion">Discussion</a></li>
+    <li>strengthens the Canada.ca brand</li>
+    <li>promotes trust</li>
+    <li>provides a unified experience on the Government of Canada web presence</li>
+    <li>allows navigation across the broad range of services and information offered</li>
   </ul>
-</section>
-<h2 id="when">When to use</h2>
-<p>The global header is mandatory on all Government of Canada web pages. Determine which header elements to use based on the type of page you’re creating.</p>
-<!--<ul>
+  <p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit Research and rationale.</p>
+  <div class="pattern-demo mrgn-tp-lg">
+    <figure class="mrgn-bttm-sm"><img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt=""></figure>
+  </div>
+  <section>
+    <h2>On this page</h2>
+    <ul>
+      <li><a href="#when">When to use</a></li>
+      <li><a href="#avoid">What to avoid</a></li>
+      <li><a href="#content">Content and design</a></li>
+      <li><a href="#implementation">How to implement</a></li>
+      <li><a href="#research">Research and rationale</a></li>
+      <li><a href="#changes">Latest changes</a></li>
+      <li><a href="#discussion">Discussion</a></li>
+    </ul>
+  </section>
+  <h2 id="when">When to use</h2>
+  <p>The global header is mandatory on all Government of Canada web pages. Determine which header elements to use based on the type of page you’re creating.</p>
+  <!--<ul>
   <li><a href="global-header.html#001">Standard pages</a></li>
   <li><a href="global-header.html#002">Transactional pages</a></li>
   <li><a href="global-header.html#003">Campaign pages</a></li>
-</ul>-->
+</ul>--> 
 </div>
 <div class="row">
   <div class="col-md-8">
@@ -67,63 +67,59 @@ title: "Global header"
       <div class="tabpanels">
         <details id="001" open="open">
           <summary><strong>Standard pages</strong></summary>
-          <div class="col-md-9">
-            <p class="mrgn-tp-lg"><strong>Standard pages</strong> are pages where people can navigate away without losing data, triggering errors or terminating their session.</p>
-          </div>
-          <div class="col-md-12">
-            <h3>Global header requirements for a standard page</h3>
-            <div class="panel panel-default mrgn-tp-md">
-              <table class="table table-striped table-condensed" id="mandatory-01" aria-live="polite">
-                <caption class="wb-inv">
-                Global header requirements
-                </caption>
-                <thead>
-                  <tr>
-                    <th class="col-md-9">Header element</th>
-                    <th class="col-md-3">Mandatory</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a href="signature.html">Government of Canada signature (linked to Canada.ca home)</a></td>
-                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-                  </tr>
-                  <tr>
-                    <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
-                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-                  </tr>
-                  <tr>
-                    <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
-                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-                  </tr>
-                  <tr>
-                    <td>Divider line</td>
-                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-                  </tr>
-                  <tr>
-                    <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a> (<a href="#smenu-note" id="smenu">Note</a>)</td>
-                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-                  </tr>
-                  <tr>
-                    <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
-                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-                  </tr>
-                  <tr>
-                    <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
-                    <td>Optional</td>
-                  </tr>
-                  <tr>
-                    <td>Background colour (white)</td>
-                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td colspan="2"><div class="fn-rtn small mrgn-tp-md col-md-9" id="smenu-note"><a href="#smenu-note"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: The menu must be applied to theme and topic pages. It can be removed from a standard page or group of pages when analytics show that the menu is used in less than 1% of visits.</div></td>
-                  </tr>
-                </tfoot>
-              </table>
-            </div>
+          <p class="mrgn-tp-lg"><strong>Standard pages</strong> are pages where people can navigate away without losing data, triggering errors or terminating their session.</p>
+          <h3>Global header requirements for a standard page</h3>
+          <div class="panel panel-default mrgn-tp-md">
+            <table class="table table-striped table-condensed" id="mandatory-01" aria-live="polite">
+              <caption class="wb-inv">
+              Global header requirements
+              </caption>
+              <thead>
+                <tr>
+                  <th class="col-md-9">Header element</th>
+                  <th class="col-md-3">Mandatory</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="signature.html">Government of Canada signature (linked to Canada.ca home)</a></td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                </tr>
+                <tr>
+                  <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                </tr>
+                <tr>
+                  <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                </tr>
+                <tr>
+                  <td>Divider line</td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                </tr>
+                <tr>
+                  <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a> (<a href="#smenu-note" id="smenu">Note</a>)</td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                </tr>
+                <tr>
+                  <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                </tr>
+                <tr>
+                  <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
+                  <td>Optional</td>
+                </tr>
+                <tr>
+                  <td>Background colour (white)</td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2"><div class="fn-rtn small mrgn-tp-md" id="smenu-note"><a href="#smenu-note"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: The menu must be applied to theme and topic pages. It can be removed from a standard page or group of pages when analytics show that the menu is used in less than 1% of visits.</div></td>
+                </tr>
+              </tfoot>
+            </table>
           </div>
         </details>
         <details id="002">
