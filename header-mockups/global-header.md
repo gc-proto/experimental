@@ -70,7 +70,7 @@ title: "Global header"
           <p class="mrgn-tp-lg"><strong>Standard pages</strong> are pages where people can navigate away without losing data, triggering errors or terminating their session.</p>
           <h3>Global header requirements for a standard page</h3>
           <div class="panel panel-default mrgn-tp-md">
-            <table class="table table-striped table-condensed" id="mandatory-01" aria-live="polite">
+            <table class="table table-striped" id="mandatory-01" aria-live="polite">
               <caption class="wb-inv">
               Global header requirements
               </caption>
