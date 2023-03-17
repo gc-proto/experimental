@@ -24,7 +24,7 @@ title: "Header mockups"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Header mockups</span>: <span>Canada.ca design system</span></span></h1>
-    <p>Let's see what our header documentation looks like in HTML.  (Just a reminder, the footer on the experimenatal server is not up to date.  We're just looking at the page content for the mockups.)</p>
+    <p>Let's see what our header documentation looks like in HTML.</p>  <p class="small">(Just a reminder, the footer on the experimenatal server is not up to date.  We're just looking at the page content for the mockups.)</p>
     <h2 class="h3 mrgn-tp-lg">Pages</h2>
     <h3 class="h4">Global header</h3>
     <ul class="fa-ul">
