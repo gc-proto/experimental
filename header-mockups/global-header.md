@@ -23,7 +23,7 @@ title: "Global header"
 <div class="cnt-wdth-lmtd">
   <div class="row">
     <div class="col-md-12 pull-left">
-      <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
+      <ul class="list-inline small mrgn-bttm-sm" id="list-inline-desktop-only">
         <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
       </ul>
     </div>
@@ -39,7 +39,7 @@ title: "Global header"
   </ul>
   <p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit Research and rationale.</p>
   <div class="pattern-demo mrgn-tp-lg">
-    <figure class="mrgn-bttm-sm"><img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt=""></figure>
+    <figure><img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt=""></figure>
   </div>
   <section>
     <h2>On this page</h2>
