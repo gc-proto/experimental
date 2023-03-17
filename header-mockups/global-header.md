@@ -16,10 +16,11 @@ description: "Guidance about using the global header on Canada.ca. The global he
 lang: en
 layout: without-h1
 share: true
-pageclass: cnt-wdth-lmtd
+pageclass: cnt-wdth-lmtd1
 title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design system</span></span></h1>
+<div class="cnt-wdth-lmtd">
 <div class="row">
   <div class="col-md-12 pull-left">
     <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
@@ -59,6 +60,7 @@ title: "Global header"
   <li><a href="global-header.html#002">Transactional pages</a></li>
   <li><a href="global-header.html#003">Campaign pages</a></li>
 </ul>-->
+</div>
 <div class="row">
   <div class="col-md-8">
     <div class="wb-tabs mrgn-tp-lg">
