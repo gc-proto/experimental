@@ -116,7 +116,7 @@ title: "Global header"
               </tbody>
               <tfoot>
                 <tr>
-                  <td colspan="2"><div class="fn-rtn small mrgn-tp-md" id="smenu-note"><a href="#smenu-note"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: The menu must be applied to theme and topic pages. It can be removed from a standard page or group of pages when analytics show that the menu is used in less than 1% of visits.</div></td>
+                  <td colspan="2"><div class="fn-rtn small mrgn-tp-md" id="smenu-note"><p><a href="#smenu-note"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: The menu must be applied to theme and topic pages. It can be removed from a standard page or group of pages when analytics show that the menu is used in less than 1% of visits.</p></div></td>
                 </tr>
               </tfoot>
             </table>
