@@ -26,32 +26,11 @@ title: "Header mockups"
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Header mockups</span>: <span>Canada.ca design system</span></span></h1>
     <p>Let's see what our header documentation looks like in HTML.</p>
     <h2 class="h3 mrgn-tp-lg">Pages</h2>
+	<h3>Global header guidance</h3>  
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1BMw6sEhUN7r1jdrrpEC1Ua1zsz9Gv5NA2PeRbzot-i4">CIA Specification landing page</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1XG2UVHccPpUkt5QJdL0zZYZqbSlNAL9kppKgsHPSMJA">Who has to use the Canada.ca design system</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1o5P26PBmKZB30jaWaTipOkXUq5G_SYDbsHa5JzxYaLk/edit#heading=h.2l5psl54vmqg">Use the Web Experience Toolkit</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1tE3wlwsK4kacT_wuWVu_YhiPojR6LGKueAOn1m1XlXM">Mandatory elements</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1bVTx9cbDNjKpcDfPnyRl69wRqK7nDQGw_NNNxm5F2W0">How to organize content</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/16DV4ryzXB7S299X7UHCg91BVluDAQ8qwlVTS9B0vEBk">How to design content</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1Ag_TBM8aQa9g4r8QrOyFi8VszBD80jVQE_-iUnBWK2A">Help improve this design system</a></li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/14NQ_KcHmwvVAXlK4CFMckMBBBw-1q6eVwkR11kQ1COI">Copyright</a></li>
-    </ul>
-    <h2 class="h3 mrgn-tp-lg">Mockups</h2>
-    <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/prycrane/experimental/tree/master/prycrane/architecture">GitHub architecture repository (experimental)</a></li>
-    </ul>
-    <ul>
-      <li><a href="canada-content-information-architecture-specification.html">CIA Specification landing page</a>
-        <ul>
-          <li><a href="usage-canadaca-design.html">Who has to use the Canada.ca design system</a></li>
-          <li><a href="web-experience-toolkit.html">Use the Web Experience Toolkit</a></li>
-          <li><a href="mandatory-elements.html">Mandatory elements</a></li>
-          <li><a href="organizing-content.html">How to organize content</a></li>
-          <li><a href="templates.html">How to design content</a></li>
-          <li><a href="contact.html">Help improve this design system</a></li>
-          <li><a href="copyright.html">Copyright</a></li>
-        </ul>
-      </li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1iKcrU1l3sB6wAPEGzMe1H0xrGkhdOo7U8PNTr3b-Ktg">Global header guidance (edits after usability testing)</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header (current page)</a></li>		
+	  <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header.html">Global header (current page)</a></li>		
     </ul>
   </div>
   <div class="col-md-4">
