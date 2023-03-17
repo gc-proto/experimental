@@ -36,40 +36,29 @@ title: "Global header"
   <li>provides a unified experience on the Government of Canada web presence</li>
   <li>allows navigation across the broad range of services and information offered</li>
 </ul>
-<p>2023 design update: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit Research and rationale.</p>
+<p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit Research and rationale.</p>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-lg"><img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt=""></figure>
-</div>
-<div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-lg">
-    <figcaption><b>Global header – large screen</b></figcaption>
-    <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
-    <details>
-      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p>The global header has the Government of Canada signature in the top left. Under the signature is the theme and topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the language toggle is the site search box. </p>
-    </details>
-  </figure>
-</div>
-<div class="pattern-demo">
-  <figure class="mrgn-bttm-lg">
-    <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="../images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
-    <details>
-      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p>The global header has the Government of Canada signature in the top left.  The language toggle link is at the rop right. Under the signature and the language toggle is the site search box. Under the search box is the theme and topic menu. Under the theme and topic menu is the breadcrumb trail.</p>
-    </details>
-  </figure>
 </div>
 <section>
   <h2>On this page</h2>
   <ul>
     <li><a href="#when">When to use</a></li>
-    <li><a href="#implementation">Implementation resources</a></li>
+    <li><a href="#avoid">What to avoid</a></li>
+    <li><a href="#content">Content and design</a></li>
+    <li><a href="#implementation">How to implement</a></li>
+    <li><a href="#research">Research and rationale</a></li>
     <li><a href="#changes">Latest changes</a></li>
+    <li><a href="#discussion">Discussion</a></li>
   </ul>
 </section>
 <h2 id="when">When to use</h2>
-<p>Include the global header on all Government of Canada web pages. Determine which header elements to use based on the type of page you’re creating.</p>
+<p>The global header is mandatory on all Government of Canada web pages. Determine which header elements to use based on the type of page you’re creating.</p>
+<ul>
+  <li><a href="#001">Standard pages</a></li>
+  <li><a href="#002">Transactional pages</a></li>
+  <li><a href="#003">Campaign pages</a></li>
+</ul>
 <div class="wb-tabs">
   <div class="tabpanels">
     <details id="001" open="open">
@@ -246,6 +235,26 @@ title: "Global header"
       </div>
     </details>
   </div>
+</div>
+<div class="pattern-demo mrgn-tp-lg">
+  <figure class="mrgn-bttm-lg">
+    <figcaption><b>Global header – large screen</b></figcaption>
+    <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+    <details>
+      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+      <p>The global header has the Government of Canada signature in the top left. Under the signature is the theme and topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the language toggle is the site search box. </p>
+    </details>
+  </figure>
+</div>
+<div class="pattern-demo">
+  <figure class="mrgn-bttm-lg">
+    <figcaption><b>Global header – small screen</b></figcaption>
+    <img src="../images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+    <details>
+      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+      <p>The global header has the Government of Canada signature in the top left.  The language toggle link is at the rop right. Under the signature and the language toggle is the site search box. Under the search box is the theme and topic menu. Under the theme and topic menu is the breadcrumb trail.</p>
+    </details>
+  </figure>
 </div>
 <h2 id="implementation">Implementation resources</h2>
 <ul>
