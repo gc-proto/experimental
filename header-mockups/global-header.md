@@ -23,7 +23,7 @@ title: "Global header"
 <div class="row">
   <div class="col-md-12 pull-left">
     <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
-      <li class="mrgn-rght-lg"> Last updated: 2022-08-17</li>
+      <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
     </ul>
   </div>
 </div>
@@ -36,10 +36,14 @@ title: "Global header"
   <li>provides a unified experience on the Government of Canada web presence</li>
   <li>allows navigation across the broad range of services and information offered</li>
 </ul>
+<p>2023 design update: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit Research and rationale.</p>
+<div class="pattern-demo mrgn-tp-lg">
+  <figure class="mrgn-bttm-lg"><img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt=""></figure>
+</div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-lg">
     <figcaption><b>Global header – large screen</b></figcaption>
-    <img src="../images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+    <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
     <details>
       <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p>The global header has the Government of Canada signature in the top left. Under the signature is the theme and topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the language toggle is the site search box. </p>
