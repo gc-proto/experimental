@@ -239,6 +239,7 @@ title: "Global header"
     </div>
   </div>
 </div>
+<div class="cnt-wdth-lmtd">
 <h2 id="avoid">What to avoid</h2>
 <p>Don’t customize the mandatory elements of the global header, beyond what is recommended in the guidance for each. Consistency in this space is essential for building brand awareness and user trust.</p>
 <p>For example, the flag symbol in the Government of Canada signature should always be the proper red and the first breadcrumb link should always be labeled “Canada.ca” and point to the Canada.ca home page.</p>
@@ -295,3 +296,4 @@ title: "Global header"
   </dt>
   <dd>The small screen version was modified to a slimmer version</dd>
 </dl>
+</div>
