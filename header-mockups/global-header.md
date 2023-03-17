@@ -256,7 +256,7 @@ title: "Global header"
   <h3>Visual examples</h3>
   <h4>Standard pages</h4>
   <div class="pattern-demo mrgn-tp-lg">
-    <figure class="mrgn-bttm-md">
+    <figure>
       <figcaption><b>Global header – large screen</b></figcaption>
       <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
       <details>
@@ -265,8 +265,8 @@ title: "Global header"
       </details>
     </figure>
   </div>
-  <div class="pattern-demo mrgn-tp-md">
-    <figure class="mrgn-bttm-lg">
+  <div class="pattern-demo mrgn-tp-lg">
+    <figure>
       <figcaption><b>Global header – small screen</b></figcaption>
       <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
       <details>
