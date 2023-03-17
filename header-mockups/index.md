@@ -30,7 +30,7 @@ title: "Header mockups"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1iKcrU1l3sB6wAPEGzMe1H0xrGkhdOo7U8PNTr3b-Ktg">Global header guidance (edits after usability testing)</a></li>
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header (current page)</a></li>		
-	  <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header.html">Global header (current page)</a></li>		
+	  <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header.html">Global header (mockup)</a></li>		
     </ul>
   </div>
   <div class="col-md-4">
