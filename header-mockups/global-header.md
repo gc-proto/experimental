@@ -54,191 +54,195 @@ title: "Global header"
 </section>
 <h2 id="when">When to use</h2>
 <p>The global header is mandatory on all Government of Canada web pages. Determine which header elements to use based on the type of page you’re creating.</p>
-<ul>
+<!--<ul>
   <li><a href="global-header.html#001">Standard pages</a></li>
   <li><a href="global-header.html#002">Transactional pages</a></li>
   <li><a href="global-header.html#003">Campaign pages</a></li>
-</ul>
-<div class="wb-tabs mrgn-tp-lg">
-  <div class="tabpanels">
-    <details id="001" open="open">
-      <summary><strong>Standard pages</strong></summary>
-      <div class="col-md-9">
-        <p class="mrgn-tp-lg"><strong>Standard pages</strong> are pages where people can navigate away without losing data, triggering errors or terminating their session.</p>
+</ul>-->
+<div class="row">
+  <div class="col-md-8">
+    <div class="wb-tabs mrgn-tp-lg">
+      <div class="tabpanels">
+        <details id="001" open="open">
+          <summary><strong>Standard pages</strong></summary>
+          <div class="col-md-9">
+            <p class="mrgn-tp-lg"><strong>Standard pages</strong> are pages where people can navigate away without losing data, triggering errors or terminating their session.</p>
+          </div>
+          <div class="col-md-12">
+            <h3>Global header requirements for a standard page</h3>
+            <div class="panel panel-default mrgn-tp-md">
+              <table class="table table-striped table-condensed" id="mandatory-01" aria-live="polite">
+                <caption class="wb-inv">
+                Global header requirements
+                </caption>
+                <thead>
+                  <tr>
+                    <th class="col-md-4">Header element</th>
+                    <th class="col-md-3">Mandatory</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="signature.html">Government of Canada signature (linked to Canada.ca home)</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td>Divider line</td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a> (<a href="#smenu-note" id="smenu">Note</a>)</td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
+                    <td>Optional</td>
+                  </tr>
+                  <tr>
+                    <td>Background colour (white)</td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"><div class="fn-rtn small mrgn-tp-md col-md-9" id="smenu-note"><a href="#smenu-note"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: The menu must be applied to theme and topic pages. It can be removed from a standard page or group of pages when analytics show that the menu is used in less than 1% of visits.</div></td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </div>
+        </details>
+        <details id="002">
+          <summary><strong>Transactional pages</strong></summary>
+          <div class="col-md-9">
+            <p class="mrgn-tp-lg"><strong>Transactional web pages</strong> are pages with an interaction task where people might lose data, trigger errors, or terminate their session if they navigate away from the page.</p>
+          </div>
+          <div class="col-md-12">
+            <h3>Global header requirements for transactional pages</h3>
+            <div class="panel panel-default mrgn-tp-md">
+              <table class="table table-striped table-condensed" id="mandatory-02" aria-live="polite">
+                <caption class="wb-inv">
+                Global header requirements
+                </caption>
+                <thead>
+                  <tr>
+                    <th class="col-md-4">Header element</th>
+                    <th class="col-md-3">Mandatory</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="signature.html">Government of Canada signature (linked to Canada.ca home)</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span> (Link to Canada.ca home page is optional)</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span> (<a href="#lt-note" id="lt">Note</a>)</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
+                    <td>Optional</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
+                    <td>Optional</td>
+                  </tr>
+                  <tr>
+                    <td>Divider line</td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a></td>
+                    <td>Optional</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
+                    <td>Optional</td>
+                  </tr>
+                  <tr>
+                    <td>Background colour (white)</td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"><div class="fn-rtn small mrgn-tp-md col-md-9" id="lt-note"><a href="#lt"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: Transactional web applications must be developed so that people can toggle between official languages on any given page or screen. Some legacy web applications may not have been designed this way. Such applications should be updated to allow this functionality. Until they are replaced or updated, the language toggle can be omitted if its use would result in a loss of data.</div></td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </div>
+        </details>
+        <details id="003">
+          <summary><strong>Campaign pages</strong></summary>
+          <div class="col-md-9">
+            <p class="mrgn-tp-lg"><strong>Campaign pages</strong> are landing pages for external marketing or advertising campaigns. The flexibility in layout allows institutions to match elements of their external campaign with the landing page.</p>
+          </div>
+          <div class="col-md-12">
+            <h3>Global header requirements for a campaign page</h3>
+            <div class="panel panel-default mrgn-tp-md">
+              <table class="table table-striped table-condensed" id="mandatory-03" aria-live="polite">
+                <caption class="wb-inv">
+                Global header requirements
+                </caption>
+                <thead>
+                  <tr>
+                    <th class="col-md-4">Header element</th>
+                    <th class="col-md-3">Mandatory</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="signature.html">Government of Canada signature (linked to Canada.ca home)</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
+                    <td>Optional</td>
+                  </tr>
+                  <tr>
+                    <td>Divider line</td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a></td>
+                    <td>Optional</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                  <tr>
+                    <td>Background colour (white)</td>
+                    <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </details>
       </div>
-      <div class="col-md-12">
-        <h3>Global header requirements for a standard page</h3>
-        <div class="panel panel-default mrgn-tp-md">
-          <table class="table table-striped table-condensed" id="mandatory-01" aria-live="polite">
-            <caption class="wb-inv">
-            Global header requirements
-            </caption>
-            <thead>
-              <tr>
-                <th class="col-md-4">Header element</th>
-                <th class="col-md-3">Mandatory</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><a href="signature.html">Government of Canada signature (linked to Canada.ca home)</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td>Divider line</td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a> (<a href="#smenu-note" id="smenu">Note</a>)</td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
-                <td>Optional</td>
-              </tr>
-              <tr>
-                <td>Background colour (white)</td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td colspan="2"><div class="fn-rtn small mrgn-tp-md col-md-9" id="smenu-note"><a href="#smenu-note"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: The menu must be applied to theme and topic pages. It can be removed from a standard page or group of pages when analytics show that the menu is used in less than 1% of visits.</div></td>
-              </tr>
-            </tfoot>
-          </table>
-        </div>
-      </div>
-    </details>
-    <details id="002">
-      <summary><strong>Transactional pages</strong></summary>
-      <div class="col-md-9">
-        <p class="mrgn-tp-lg"><strong>Transactional web pages</strong> are pages with an interaction task where people might lose data, trigger errors, or terminate their session if they navigate away from the page.</p>
-      </div>
-      <div class="col-md-12">
-        <h3>Global header requirements for transactional pages</h3>
-        <div class="panel panel-default mrgn-tp-md">
-          <table class="table table-striped table-condensed" id="mandatory-02" aria-live="polite">
-            <caption class="wb-inv">
-            Global header requirements
-            </caption>
-            <thead>
-              <tr>
-                <th class="col-md-4">Header element</th>
-                <th class="col-md-3">Mandatory</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><a href="signature.html">Government of Canada signature (linked to Canada.ca home)</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span> (Link to Canada.ca home page is optional)</td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span> (<a href="#lt-note" id="lt">Note</a>)</td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
-                <td>Optional</td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
-                <td>Optional</td>
-              </tr>
-              <tr>
-                <td>Divider line</td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a></td>
-                <td>Optional</td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
-                <td>Optional</td>
-              </tr>
-              <tr>
-                <td>Background colour (white)</td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td colspan="2"><div class="fn-rtn small mrgn-tp-md col-md-9" id="lt-note"><a href="#lt"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: Transactional web applications must be developed so that people can toggle between official languages on any given page or screen. Some legacy web applications may not have been designed this way. Such applications should be updated to allow this functionality. Until they are replaced or updated, the language toggle can be omitted if its use would result in a loss of data.</div></td>
-              </tr>
-            </tfoot>
-          </table>
-        </div>
-      </div>
-    </details>
-    <details id="003">
-      <summary><strong>Campaign pages</strong></summary>
-      <div class="col-md-9">
-        <p class="mrgn-tp-lg"><strong>Campaign pages</strong> are landing pages for external marketing or advertising campaigns. The flexibility in layout allows institutions to match elements of their external campaign with the landing page.</p>
-      </div>
-      <div class="col-md-12">
-        <h3>Global header requirements for a campaign page</h3>
-        <div class="panel panel-default mrgn-tp-md">
-          <table class="table table-striped table-condensed" id="mandatory-03" aria-live="polite">
-            <caption class="wb-inv">
-            Global header requirements
-            </caption>
-            <thead>
-              <tr>
-                <th class="col-md-4">Header element</th>
-                <th class="col-md-3">Mandatory</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><a href="signature.html">Government of Canada signature (linked to Canada.ca home)</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/sign-in.html">Sign in button</a></td>
-                <td>Optional</td>
-              </tr>
-              <tr>
-                <td>Divider line</td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a></td>
-                <td>Optional</td>
-              </tr>
-              <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-              <tr>
-                <td>Background colour (white)</td>
-                <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </details>
+    </div>
   </div>
 </div>
 <h2>What to avoid</h2>
