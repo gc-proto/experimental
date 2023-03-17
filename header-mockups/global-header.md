@@ -38,7 +38,7 @@ title: "Global header"
 </ul>
 <p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit Research and rationale.</p>
 <div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-lg"><img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt=""></figure>
+  <figure class="mrgn-bttm-md"><img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt=""></figure>
 </div>
 <section>
   <h2>On this page</h2>
