@@ -59,7 +59,7 @@ title: "Global header"
   <li><a href="#002">Transactional pages</a></li>
   <li><a href="#003">Campaign pages</a></li>
 </ul>
-<div class="wb-tabs">
+<div class="wb-tabs mrgn-tp-lg">
   <div class="tabpanels">
     <details id="001" open="open">
       <summary><strong>Standard pages</strong></summary>
@@ -97,7 +97,7 @@ title: "Global header"
                 <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
               </tr>
               <tr>
-                <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a></td>
+                <td><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu</a> (<a href="#smenu-note" id="smenu">Note</a>)</td>
                 <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
               </tr>
               <tr>
@@ -113,6 +113,11 @@ title: "Global header"
                 <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
               </tr>
             </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="2"><div class="fn-rtn small mrgn-tp-md col-md-9" id="smenu-note"><a href="#smenu-note"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: The menu must be applied to theme and topic pages. It can be removed from a standard page or group of pages when analytics show that the menu is used in less than 1% of visits.</div></td>
+              </tr>
+            </tfoot>
           </table>
         </div>
       </div>
