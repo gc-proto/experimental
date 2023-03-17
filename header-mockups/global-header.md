@@ -239,9 +239,20 @@ title: "Global header"
     </div>
   </div>
 </div>
-<h2>What to avoid</h2>
+<h2 id="avoid">What to avoid</h2>
 <p>Don’t customize the mandatory elements of the global header, beyond what is recommended in the guidance for each. Consistency in this space is essential for building brand awareness and user trust.</p>
 <p>For example, the flag symbol in the Government of Canada signature should always be the proper red and the first breadcrumb link should always be labeled “Canada.ca” and point to the Canada.ca home page.</p>
+<h2 id="content">Content and design</h2>
+<p>Find content and design specifications and visual examples.</p>
+<ul>
+  <li>Government of Canada signature</li>
+  <li>Language toggle</li>
+  <li>Site search box</li>
+  <li>Sign in button</li>
+  <li>Theme and topic menu</li>
+  <li>Breadcrumb trail</li>
+</ul>
+<h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-lg">
     <figcaption><b>Global header – large screen</b></figcaption>
