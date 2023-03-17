@@ -76,8 +76,8 @@ title: "Global header"
               </caption>
               <thead>
                 <tr>
-                  <th class="col-md-9">Header element</th>
-                  <th class="col-md-3">Mandatory</th>
+                  <th class="col-md-8">Header element</th>
+                  <th class="col-md-4">Mandatory</th>
                 </tr>
               </thead>
               <tbody>
@@ -194,8 +194,8 @@ title: "Global header"
               </caption>
               <thead>
                 <tr>
-                  <th class="col-md-9">Header element</th>
-                  <th class="col-md-3">Mandatory</th>
+                  <th class="col-md-8">Header element</th>
+                  <th class="col-md-4">Mandatory</th>
                 </tr>
               </thead>
               <tbody>
