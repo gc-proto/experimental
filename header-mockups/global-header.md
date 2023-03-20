@@ -261,7 +261,13 @@ title: "Global header"
       <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
       <details>
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-        <p class="mrgn-tp-lg">The global header has the Government of Canada signature in the top left. Under the signature is the theme and topic menu, and under the menu is the breadcrumb trail. The language toggle link is at the rop right. Under the language toggle is the site search box. </p>
+        <p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
+        <ol>
+          <li>Language toggle in the top-right corner</li>
+          <li>Government of Canada signature in the left corner, site search box on the right</li>
+          <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
+          <li>Breadcrumb on the left</li>
+        </ol>
       </details>
     </figure>
   </div>
@@ -271,11 +277,84 @@ title: "Global header"
       <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
       <details>
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-        <p class="mrgn-tp-lg">The global header has the Government of Canada signature in the top left.  The language toggle link is at the rop right. Under the signature and the language toggle is the site search box. Under the search box is the theme and topic menu. Under the theme and topic menu is the breadcrumb trail.</p>
+        <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
+        <ol>
+          <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
+          <li>Site search box directly below, it spans the entire row</li>
+          <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
+        </ol>
       </details>
     </figure>
   </div>
-  <h2 id="implementation">Implementation resources</h2>
+  <h4>Transactional pages</h4>
+  <div class="pattern-demo mrgn-tp-lg">
+    <figure>
+      <figcaption><b>Minimum global header - large screen</b></figcaption>
+      <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-desktop-en.png" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+      <details>
+        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+        <p class="mrgn-tp-lg">On large screens, the minimum global header on a transactional page has 2 rows:</p>
+        <ol>
+          <li>Language toggle in the top-right corner</li>
+          <li>Government of Canada signature in the top-left corner with a divider line underneath</li>
+        </ol>
+      </details>
+    </figure>
+  </div>
+  <div class="pattern-demo mrgn-tp-lg">
+    <figure>
+      <figcaption><b>Minimum global header - small screen</b></figcaption>
+      <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-small-en.png" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+      <details>
+        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+        <p class="mrgn-tp-lg">On small screens, the minimum global header on a transactional page has a single row:</p>
+        <ol>
+          <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner, with a divider line underneath</li>
+        </ol>
+      </details>
+    </figure>
+  </div>
+  <h4>Campaign pages</h4>
+  <div class="pattern-demo mrgn-tp-lg">
+    <figure>
+      <figcaption><b>Minimum global header - large screen</b></figcaption>
+      <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-desktop-en.png" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+      <details>
+        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+        <p class="mrgn-tp-lg">On large screens, the minimum global header on a campaign page has 3 rows:</p>
+        <ol>
+          <li>Language toggle in the top-right corner</li>
+          <li>Government of Canada signature in the top-left corner, site search box on the right</li>
+          <li>Below a divider line, the breadcrumb on the left</li>
+        </ol>
+      </details>
+    </figure>
+  </div>
+  <div class="pattern-demo mrgn-tp-lg">
+    <figure>
+      <figcaption><b>Minimum global header - small screen</b></figcaption>
+      <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-small-en.png" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+      <details>
+        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+        <p class="mrgn-tp-lg">On small screens, the minimum global header on a campaign page has 3 rows:</p>
+        <ol>
+          <li>Government of Canada signature in the top-left corner, language toggle on the far right</li>
+          <li>Site search box directly below, it spans the entire row</li>
+          <li>Below a divider line, the breadcrumb on the left</li>
+        </ol>
+      </details>
+    </figure>
+  </div>
+  <h2 id="implementation">How to implement</h2>
+  <p>Find working examples and code for implementing the header.</p>
+  <h3>GCweb (WET) theme implementation reference</h3>
+  <p>The implementation reference includes how to configure each element of the header.</p>
+  <ul>
+    <li><a href="https://wet-boew.github.io/GCWeb/sites/header/header-docs-en.html">GCWeb (WET) header documentation</a></li>
+    <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">Quick implementation guide - GCWeb theme</a></li>
+  </ul>
+  <h3>Implementations</h3>
+  <p>Determine what best suits the type of page you're creating. Refer to your implementation's guidance if you want to exclude breadcrumbs.</p>
   <ul>
     <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">Centrally Deployed Templates Solution (CDTS)</a>
       <ul>
