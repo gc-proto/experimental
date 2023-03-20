@@ -254,8 +254,8 @@ title: "Global header"
     <li>Breadcrumb trail</li>
   </ul>
   <h3>Visual examples</h3>
-  <div class="mrgn-tp-lg">
-    <h4>Standard pages</h4>
+  <details>
+    <summary class="bg-info">Standard pages</summary>
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Global header – large screen</b></figcaption>
@@ -272,24 +272,24 @@ title: "Global header"
         </details>
       </figure>
     </div>
-  </div>
-  <div class="pattern-demo mrgn-tp-lg mrgn-bttm-lg">
-    <figure>
-      <figcaption><b>Global header – small screen</b></figcaption>
-      <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
-      <details>
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-        <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
-        <ol>
-          <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
-          <li>Site search box directly below, it spans the entire row</li>
-          <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
-        </ol>
-      </details>
-    </figure>
-  </div>
-  <div class="mrgn-tp-lg">
-    <h4 class="mrgn-tp-lg">Transactional pages</h4>
+    <div class="pattern-demo mrgn-tp-lg mrgn-bttm-lg">
+      <figure>
+        <figcaption><b>Global header – small screen</b></figcaption>
+        <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+        <details>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
+          <ol>
+            <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
+            <li>Site search box directly below, it spans the entire row</li>
+            <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
+          </ol>
+        </details>
+      </figure>
+    </div>
+  </details>
+  <details>
+    <summary class="bg-info">Transactional pages</summary>
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Minimum global header - large screen</b></figcaption>
@@ -317,9 +317,9 @@ title: "Global header"
         </details>
       </figure>
     </div>
-  </div>
-  <div class="mrgn-tp-lg">
-    <h4>Campaign pages</h4>
+  </details>
+  <details>
+    <summary class="bg-info">Campaign pages</summary>
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Minimum global header - large screen</b></figcaption>
@@ -350,7 +350,7 @@ title: "Global header"
         </details>
       </figure>
     </div>
-  </div>
+  </details>
   <h2 id="implementation">How to implement</h2>
   <p>Find working examples and code for implementing the header.</p>
   <h3>GCweb (WET) theme implementation reference</h3>
@@ -361,21 +361,35 @@ title: "Global header"
   </ul>
   <h3>Implementations</h3>
   <p>Determine what best suits the type of page you're creating. Refer to your implementation's guidance if you want to exclude breadcrumbs.</p>
-  <h4>GC-AEM</h4>
-  <p>For the Government of Canada Adobe Experience Manager (AEM):</p>
-  <ul>
-    <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service documentation (GCPedia link - only available on the Government of Canada network)</a></li>
-  </ul>
-  <h4 class="mrgn-tp-lg">CDTS</h4>
-  <p>For the Centrally Deployed Templates Solution (CDTS):</p>
-  <ul>
-    <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
-  </ul>
-  <h4 class="mrgn-tp-lg">Drupal WxT</h4>
-  <p>For Drupal WxT:</p>
-  <ul>
-    <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
-  </ul>
+  <div class="wb-tabs mrgn-tp-lg">
+    <div class="tabpanels">
+      <details id="004" open="open">
+        <summary><strong>GC-AEM</strong></summary>
+        <p class="mrgn-tp-lg">For the Government of Canada Adobe Experience Manager (AEM):</p>
+        <ul>
+          <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service documentation (GCPedia link - only available on the Government of Canada network)</a></li>
+        </ul>
+      </details>
+      <details id="005">
+        <summary><strong>CDTS</strong></summary>
+        <p class="mrgn-tp-lg">For the Centrally Deployed Templates Solution (CDTS):</p>
+        <ul>
+          <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
+        </ul>
+      </details>
+      <details id="006">
+        <summary><strong>Drupal WxT</strong></summary>
+        <p class="mrgn-tp-lg">For Drupal WxT:</p>
+        <ul>
+          <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
+        </ul>
+        <p>2023 footer update:</p>
+        <ul>
+          <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
+        </ul>
+      </details>
+    </div>
+  </div>
   <h2 id="research">Research and rationale</h2>
   <p>Consult research findings and policy rationale.</p>
   <h3>Research findings</h3>
