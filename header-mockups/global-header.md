@@ -254,22 +254,24 @@ title: "Global header"
     <li>Breadcrumb trail</li>
   </ul>
   <h3>Visual examples</h3>
-  <h4>Standard pages</h4>
-  <div class="pattern-demo mrgn-tp-lg">
-    <figure>
-      <figcaption><b>Global header – large screen</b></figcaption>
-      <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
-      <details>
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-        <p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
-        <ol>
-          <li>Language toggle in the top-right corner</li>
-          <li>Government of Canada signature in the left corner, site search box on the right</li>
-          <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
-          <li>Breadcrumb on the left</li>
-        </ol>
-      </details>
-    </figure>
+  <div class="mrgn-tp-lg">
+    <h4>Standard pages</h4>
+    <div class="pattern-demo mrgn-tp-lg">
+      <figure>
+        <figcaption><b>Global header – large screen</b></figcaption>
+        <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+        <details>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
+          <ol>
+            <li>Language toggle in the top-right corner</li>
+            <li>Government of Canada signature in the left corner, site search box on the right</li>
+            <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
+            <li>Breadcrumb on the left</li>
+          </ol>
+        </details>
+      </figure>
+    </div>
   </div>
   <div class="pattern-demo mrgn-tp-lg mrgn-bttm-lg">
     <figure>
@@ -286,64 +288,68 @@ title: "Global header"
       </details>
     </figure>
   </div>
-  <h4 class="mrgn-tp-lg">Transactional pages</h4>
-  <div class="pattern-demo mrgn-tp-lg">
-    <figure>
-      <figcaption><b>Minimum global header - large screen</b></figcaption>
-      <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-desktop-en.png" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
-      <details>
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-        <p class="mrgn-tp-lg">On large screens, the minimum global header on a transactional page has 2 rows:</p>
-        <ol>
-          <li>Language toggle in the top-right corner</li>
-          <li>Government of Canada signature in the top-left corner with a divider line underneath</li>
-        </ol>
-      </details>
-    </figure>
+  <div class="mrgn-tp-lg">
+    <h4 class="mrgn-tp-lg">Transactional pages</h4>
+    <div class="pattern-demo mrgn-tp-lg">
+      <figure>
+        <figcaption><b>Minimum global header - large screen</b></figcaption>
+        <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-desktop-en.png" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+        <details>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <p class="mrgn-tp-lg">On large screens, the minimum global header on a transactional page has 2 rows:</p>
+          <ol>
+            <li>Language toggle in the top-right corner</li>
+            <li>Government of Canada signature in the top-left corner with a divider line underneath</li>
+          </ol>
+        </details>
+      </figure>
+    </div>
+    <div class="pattern-demo mrgn-tp-lg mrgn-bttm-lg">
+      <figure>
+        <figcaption><b>Minimum global header - small screen</b></figcaption>
+        <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-small-en.png" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+        <details>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <p class="mrgn-tp-lg">On small screens, the minimum global header on a transactional page has a single row:</p>
+          <ol>
+            <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner, with a divider line underneath</li>
+          </ol>
+        </details>
+      </figure>
+    </div>
   </div>
-  <div class="pattern-demo mrgn-tp-lg mrgn-bttm-lg">
-    <figure>
-      <figcaption><b>Minimum global header - small screen</b></figcaption>
-      <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-small-en.png" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
-      <details>
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-        <p class="mrgn-tp-lg">On small screens, the minimum global header on a transactional page has a single row:</p>
-        <ol>
-          <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner, with a divider line underneath</li>
-        </ol>
-      </details>
-    </figure>
-  </div>
-  <h4 class="mrgn-tp-lg">Campaign pages</h4>
-  <div class="pattern-demo mrgn-tp-lg">
-    <figure>
-      <figcaption><b>Minimum global header - large screen</b></figcaption>
-      <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-desktop-en.png" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
-      <details>
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-        <p class="mrgn-tp-lg">On large screens, the minimum global header on a campaign page has 3 rows:</p>
-        <ol>
-          <li>Language toggle in the top-right corner</li>
-          <li>Government of Canada signature in the top-left corner, site search box on the right</li>
-          <li>Below a divider line, the breadcrumb on the left</li>
-        </ol>
-      </details>
-    </figure>
-  </div>
-  <div class="pattern-demo mrgn-tp-lg">
-    <figure>
-      <figcaption><b>Minimum global header - small screen</b></figcaption>
-      <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-small-en.png" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
-      <details>
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-        <p class="mrgn-tp-lg">On small screens, the minimum global header on a campaign page has 3 rows:</p>
-        <ol>
-          <li>Government of Canada signature in the top-left corner, language toggle on the far right</li>
-          <li>Site search box directly below, it spans the entire row</li>
-          <li>Below a divider line, the breadcrumb on the left</li>
-        </ol>
-      </details>
-    </figure>
+  <div class="mrgn-tp-lg">
+    <h4>Campaign pages</h4>
+    <div class="pattern-demo mrgn-tp-lg">
+      <figure>
+        <figcaption><b>Minimum global header - large screen</b></figcaption>
+        <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-desktop-en.png" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+        <details>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <p class="mrgn-tp-lg">On large screens, the minimum global header on a campaign page has 3 rows:</p>
+          <ol>
+            <li>Language toggle in the top-right corner</li>
+            <li>Government of Canada signature in the top-left corner, site search box on the right</li>
+            <li>Below a divider line, the breadcrumb on the left</li>
+          </ol>
+        </details>
+      </figure>
+    </div>
+    <div class="pattern-demo mrgn-tp-lg">
+      <figure>
+        <figcaption><b>Minimum global header - small screen</b></figcaption>
+        <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-small-en.png" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+        <details>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <p class="mrgn-tp-lg">On small screens, the minimum global header on a campaign page has 3 rows:</p>
+          <ol>
+            <li>Government of Canada signature in the top-left corner, language toggle on the far right</li>
+            <li>Site search box directly below, it spans the entire row</li>
+            <li>Below a divider line, the breadcrumb on the left</li>
+          </ol>
+        </details>
+      </figure>
+    </div>
   </div>
   <h2 id="implementation">How to implement</h2>
   <p>Find working examples and code for implementing the header.</p>
