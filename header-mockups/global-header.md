@@ -361,35 +361,41 @@ title: "Global header"
   </ul>
   <h3>Implementations</h3>
   <p>Determine what best suits the type of page you're creating. Refer to your implementation's guidance if you want to exclude breadcrumbs.</p>
-  <div class="wb-tabs mrgn-tp-lg">
-    <div class="tabpanels">
-      <details id="004" open="open">
-        <summary><strong>GC-AEM</strong></summary>
-        <p class="mrgn-tp-lg">For the Government of Canada Adobe Experience Manager (AEM):</p>
-        <ul>
-          <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service documentation (GCPedia link - only available on the Government of Canada network)</a></li>
-        </ul>
-      </details>
-      <details id="005">
-        <summary><strong>CDTS</strong></summary>
-        <p class="mrgn-tp-lg">For the Centrally Deployed Templates Solution (CDTS):</p>
-        <ul>
-          <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
-        </ul>
-      </details>
-      <details id="006">
-        <summary><strong>Drupal WxT</strong></summary>
-        <p class="mrgn-tp-lg">For Drupal WxT:</p>
-        <ul>
-          <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
-        </ul>
-        <p>2023 footer update:</p>
-        <ul>
-          <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
-        </ul>
-      </details>
+</div>
+<div class="row">
+  <div class="col-md-8">
+    <div class="wb-tabs mrgn-tp-lg">
+      <div class="tabpanels">
+        <details id="004" open="open">
+          <summary><strong>GC-AEM</strong></summary>
+          <p class="mrgn-tp-lg">For the Government of Canada Adobe Experience Manager (AEM):</p>
+          <ul>
+            <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service documentation (GCPedia link - only available on the Government of Canada network)</a></li>
+          </ul>
+        </details>
+        <details id="005">
+          <summary><strong>CDTS</strong></summary>
+          <p class="mrgn-tp-lg">For the Centrally Deployed Templates Solution (CDTS):</p>
+          <ul>
+            <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
+          </ul>
+        </details>
+        <details id="006">
+          <summary><strong>Drupal WxT</strong></summary>
+          <p class="mrgn-tp-lg">For Drupal WxT:</p>
+          <ul>
+            <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
+          </ul>
+          <p>2023 footer update:</p>
+          <ul>
+            <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
+          </ul>
+        </details>
+      </div>
     </div>
   </div>
+</div>
+<div class="cnt-wdth-lmtd">
   <h2 id="research">Research and rationale</h2>
   <p>Consult research findings and policy rationale.</p>
   <h3>Research findings</h3>
@@ -430,9 +436,9 @@ title: "Global header"
     </dt>
     <dd>The small screen version was modified to a slimmer version</dd>
   </dl>
+  <h2 id="discussion">Discussion</h2>
+  <ul>
+    <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in GitHub Issues</a></li>
+    <li><a href="http://design-GC-conception.slack.com">Join the conversation on Slack</a></li>
+  </ul>
 </div>
-<h2 id="discussion">Discussion</h2>
-<ul>
-  <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in GitHub Issues</a></li>
-  <li><a href="http://design-GC-conception.slack.com">Join the conversation on Slack</a></li>
-</ul>
