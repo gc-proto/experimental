@@ -286,7 +286,7 @@ title: "Global header"
       </details>
     </figure>
   </div>
-  <h4>Transactional pages</h4>
+  <h4 class="mrgn-tp-lg">Transactional pages</h4>
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Minimum global header - large screen</b></figcaption>
@@ -314,7 +314,7 @@ title: "Global header"
       </details>
     </figure>
   </div>
-  <h4>Campaign pages</h4>
+  <h4 class="mrgn-tp-lg">Campaign pages</h4>
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Minimum global header - large screen</b></figcaption>
@@ -355,25 +355,64 @@ title: "Global header"
   </ul>
   <h3>Implementations</h3>
   <p>Determine what best suits the type of page you're creating. Refer to your implementation's guidance if you want to exclude breadcrumbs.</p>
+  <h4>GC-AEM</h4>
+  <p>For the Government of Canada Adobe Experience Manager (AEM):</p>
   <ul>
-    <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">Centrally Deployed Templates Solution (CDTS)</a>
-      <ul>
-        <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_47/cdts/samples/">CDTS Samples</a> - provides links to sample pages that demonstrate how to implement various CDTS features </li>
-      </ul>
-    </li>
-    <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">GCWeb (WET)</a></li>
-    <li><a href="https://drupalwxt.github.io/en/docs/environment/">Drupal WxT</a></li>
-    <li>AEM/Managed Web Service - documentation for AEM is available on GCpedia</li>
+    <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service documentation (GCPedia link - only available on the Government of Canada network)</a></li>
+  </ul>
+  <h4 class="mrgn-tp-lg">CDTS</h4>
+  <p>For the Centrally Deployed Templates Solution (CDTS):</p>
+  <ul>
+    <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
+  </ul>
+  <h4 class="mrgn-tp-lg">Drupal WxT</h4>
+  <p>For Drupal WxT:</p>
+  <ul>
+    <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
+  </ul>
+  <h2 id="research">Research and rationale</h2>
+  <p>Consult research findings and policy rationale.</p>
+  <h3>Research findings</h3>
+  <p>Two research projects informed the latest updates to the header guidance.</p>
+  <h4>Trust Signals for Canada.ca study</h4>
+  <p>Our Canada.ca trust study and prior research show that a consistent header is necessary to maintaining a trusted brand.</p>
+  <p>For example, people trust:</p>
+  <ul>
+    <li>the flag in the Government of Canada signature more when it’s red</li>
+    <li>a white background more than dark mode</li>
+  </ul>
+  <p>If you want to know more about this research, contact the Digital Transformation Office at <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a>.</p>
+  <h4>Wayfinding on Canada.ca project</h4>
+  <p>We updated the global header for Canada.ca to align with a new overall navigation strategy that came out of the Wayfinding research project.</p>
+  <ul>
+    <li><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca">Wayfinding on Canada.ca research summary</a><br>
+      Explains the context of the research and the insights that drove the design updates.</li>
+    <li><a href="https://blog.canada.ca/2022/12/21/wayfinding-research-project">Wayfinding research project improves our approach to navigation on Canada.ca</a><br>
+      This blog post explains the changes that are being made to the Canada.ca design, and how they are being implemented.</li>
+  </ul>
+  <h3>Policy rationale</h3>
+  <p>This pattern is a mandatory element of the Content and Information Architecture Specification.</p>
+  <ul>
+    <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html">Mandatory elements of the design system</a></li>
   </ul>
   <h2 id="changes">Latest changes</h2>
   <dl class="dl-horizontal">
     <dt>
+      <time datetime="YYYY-MM-DD" class="link-muted">YYYY-MM-DD</time>
+    </dt>
+    <dd>Updated pattern to reflect design changes from the trust study and wayfinding project, added visual examples for the different types of pages, included links to research projects that inform header guidance</dd>
+    <dt>
       <time datetime="2022-08-17" class="link-muted">2022-08-17</time>
     </dt>
-    <dd>Updated content design for clarity, added contextual Sign in button, added implementation resources to the global header </dd>
+    <dd>Updated content design for clarity, added contextual Sign in button, added implementation resources to the global header</dd>
     <dt>
       <time datetime="2020-06-25" class="link-muted">2020-06-25</time>
     </dt>
     <dd>The small screen version was modified to a slimmer version</dd>
   </dl>
 </div>
+<h2 id="discussion">Discussion</h2>
+<ul>
+  <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in GitHub Issues</a></li>
+  <li><a href="http://design-GC-conception.slack.com">Join the conversation on Slack</a></li>
+</ul>
