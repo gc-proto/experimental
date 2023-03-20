@@ -11,7 +11,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2022-08-17
-dateModified: 2023-03-17
+dateModified: 2023-03-20
 description: "Guidance about using the global header on Canada.ca. The global header is at the top of each Government of Canada web page."
 lang: en
 layout: without-h1
