@@ -286,7 +286,7 @@ title: "Global header"
       </details>
     </figure>
   </div>
-  <h4>Transactional pages</h4>
+  <h4 class="mrgn-tp-lg">Transactional pages</h4>
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Minimum global header - large screen</b></figcaption>
@@ -314,7 +314,7 @@ title: "Global header"
       </details>
     </figure>
   </div>
-  <h4>Campaign pages</h4>
+  <h4 class="mrgn-tp-lg">Campaign pages</h4>
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Minimum global header - large screen</b></figcaption>
