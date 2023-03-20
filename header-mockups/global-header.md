@@ -272,7 +272,7 @@ title: "Global header"
         </details>
       </figure>
     </div>
-    <div class="pattern-demo mrgn-tp-lg mrgn-bttm-lg">
+    <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Global header – small screen</b></figcaption>
         <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
@@ -304,7 +304,7 @@ title: "Global header"
         </details>
       </figure>
     </div>
-    <div class="pattern-demo mrgn-tp-lg mrgn-bttm-lg">
+    <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Minimum global header - small screen</b></figcaption>
         <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-small-en.png" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
