@@ -386,10 +386,6 @@ title: "Global header"
           <ul>
             <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
           </ul>
-          <p>2023 footer update:</p>
-          <ul>
-            <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
-          </ul>
         </details>
       </div>
     </div>
