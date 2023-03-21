@@ -81,16 +81,11 @@ title: "Government of Canada signature"
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Global header with breadcrumb trail  - large screen</b></figcaption>
-    <img src="./images/glogal-header-breadcrumb-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button in a horizontal line. Text version below:">
+    <figcaption><b>Government of Canada signature - large screen</b></figcaption>
+    <img src="./images/sig-en.png" class="img-responsive" alt="Global header with signature. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">On large screens, the global header has 4 rows:</p>
-      <ol>
-        <li>Language toggle in the top-right corner</li>
-        <li>Government of Canada signature in the left corner, site search box on the right</li>
-        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
-        <li>Breadcrumb on the left</li>
+      <p class="mrgn-tp-lg">The Government of Canada signature is in the top-left corner of the website. It is composed of the flag symbol in red, followed by the words <strong>Government of Canada</strong> in English and <strong>Gouvernement du Canada</strong> in French, both in black text.</p>
       </ol>
     </details>
   </figure>
@@ -101,21 +96,15 @@ title: "Government of Canada signature"
     <img src="./images/glogal-header-breadcrumb-small-screen-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
-      <ol>
-        <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
-        <li>Site search box directly below, it spans the entire row</li>
-        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
-      </ol>
+      <p class="mrgn-tp-lg">The Government of Canada signature is in the top-left corner of the website. It is composed of the flag symbol in red, followed by the words Government of Canada in English and Gouvernement du Canada in French, both in black text.</p>
     </details>
   </figure>
 </div>
 <h2 id="implementation">How to implement</h2>
-<p>Find working examples for implementing the breadcrumbs.</p>
+<p>Find working examples for implementing the GC signature, an element of the global header.</p>
 <h3>GCweb (WET) theme implementation reference</h3>
 <p>The implementation reference includes how to configure each element of the header.</p>
 <ul>
-  <li><a href="https://wet-boew.github.io/GCWeb/sites/breadcrumbs/breadcrumbs-en.html">Breadcrumbs - GCWeb (WET) documentation</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/sites/header/header-docs-en.html">GCWeb (WET) header documentation</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">Quick implementation guide - GCWeb theme</a></li>
 </ul>
@@ -155,14 +144,15 @@ title: "Government of Canada signature"
 <h2 id="research">Research and rationale</h2>
 <p>Consult research findings and policy rationale.</p>
 <h3>Research findings</h3>
-<p><a href="https://blog.canada.ca/2020/08/10/CanadaDotCa-trusted-source.html">Canada.ca is a trusted source</a><br>
-  Explains the decision to use “Canada.ca” as the label for the first link in the breadcrumb.</p>
-<p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Wayfinding on Canada.ca research summary</a><br>
-  Research shows that people navigating on the site use breadcrumb links nearly twice as often as they use the Theme and topic menu.</p>
-<p>Further design and research work to optimize the breadcrumb for mobile is planned.</p>
+<p>Trust and consistency are essential. Our Canada.ca Trust Study and prior research show that a consistent header is necessary to maintaining a trusted brand.</p>
+<p>For example, people trust the page more when the flag in the Government of Canada signature is red.</p>
 <h3>Policy rationale</h3>
 <p>As part of the global header, the breadcrumb is a mandatory element under the Content and Information Architecture Specification.</p>
+<p>If you want to know more about this research, contact the Digital Transformation Office at <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a>.</p>
+<h3>Policy rationale</h3>
+<p>The Government of Canada signature is defined by the Federal Identity Program. As a part of the global header, it is a mandatory element under the Content and Information Architecture Specification.</p>
 <ul>
+  <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/design-standard/colour-design-standard-fip.html">Design Standard for the Federal Identity Program</a></li>
   <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html">Mandatory elements of the design system</a></li>
 </ul>
 <h2 id="changes">Latest changes</h2>
