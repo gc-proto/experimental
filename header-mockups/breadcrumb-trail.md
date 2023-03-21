@@ -77,11 +77,9 @@ title: "Breadcrumb trail"
   </li>
 </ul>
 <p>For example, these breadcrumbs:</p>
-Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply for Canadian citizenship &#8250; Prepare for the Canadian citizenship test and interview
-
-Can be shortened to this: 
-
-Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply &#8250; Prepare for the test and interview
+<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply for Canadian citizenship &#8250; Prepare for the Canadian citizenship test and interview</p>
+<p>Can be shortened to this:</p>
+<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply &#8250; Prepare for the test and interview</p>
 <h4>Accessibility</h4>
 <ul>
   <li>Include “You are here:” as invisible help text</li>
