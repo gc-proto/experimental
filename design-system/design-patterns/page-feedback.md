@@ -14,8 +14,7 @@ css:
 date: 2023-03-03
 dateModified: 2023-03-03
 description: "Using page feedback to understand page level issues affecting task success."
-lang: en
-layout: without-h1
+language: en
 title: "Page feedback tool"
 pageclass: cnt-wdth-lmtd
 ---
