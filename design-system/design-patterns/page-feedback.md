@@ -19,128 +19,103 @@ layout: without-h1
 title: "Page feedback tool"
 pageclass: cnt-wdth-lmtd
 ---
-          <p class="bg-warning small"><strong>Optional on standard pages</strong></p>
+**Optional on standard pages**
             
         
+The feedback tool is an **optional** pattern to collect feedback on the page experience. It replaces the “Report a problem” pattern while actively collecting user feedback.
 
-          <p>The feedback tool is an <strong>optional</strong> pattern to collect feedback on the page experience. It replaces the “Report a problem” pattern while actively collecting user feedback.</p>
-              
-               <img src="../images/page-feedback.png" class="img-responsive pattern-demo" alt='A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.'>
-          <!--      <img src="../images/page-feedback-detail.png" class="img-responsive pattern-demo" alt=''>
-                <details>
-                <summary>Feedback tool</summary>
-                
-                  <p>A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.</p>
-                  
-          <p>A heading labelled "Please provide more details", followed by the text "You will not receive a reply.
-            Don't include personal information (telephone, email, SIN, financial, medical, or work details). 
-            Maximum 300 characters", and a text field to provide more details.</p>
-                </details>-->
+![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](../images/page-feedback.png)
+
+On this page
+------------
+
+*   [When to use](#rationale)
+*   [What to avoid](#cautions)
+*   [Content and design](#content)
+*   [How to implement](#how)
+*   [Research and rationale](#research)
+*   [Latest changes](#latest)
+*   [Discussion](#discuss)
             
-          
-            <h2>On this page</h2>
-            <ul>
 
-            	<li><a href="#rationale">When to use</a></li>
-            	<li><a href="#cautions">What to avoid</a></li>
-              <li><a href="#content">Content and design</a></li>
-            	<li><a href="#how">How to implement</a></li>
-                  	<li><a href="#research">Research and rationale</a></li>
-              <li><a href="#latest">Latest changes</a></li>
-              <li><a href="#discuss">Discussion</a></li>
-            </ul>
-            
-            <section>
               
-                 <h2 id="rationale">When to use</h2>
-                
-                   
-                   <P>Consider adding the page feedback tool to:</p>
-                   <ul>
-                     <li>uncover specific page-level issues affecting your GC Task Success Survey task score</li>
-                     <li>research issues on pages you plan on working on in the future </li>
-                         <li>understand if new or existing pages are meeting user needs </li>
-                         <li>identify emerging issues</li>
-                         <li>monitor after page improvements have gone live</li>
+When to use
+-----------
 
-                   </ul>
+Consider adding the page feedback tool to:
+
+*   uncover specific page-level issues affecting your GC Task Success Survey task score
+*   research issues on pages you plan on working on in the future
+*   understand if new or existing pages are meeting user needs
+*   identify emerging issues
+*   monitor after page improvements have gone live
+
+
                      
-                  <h2 id="cautions">What to avoid</h2>
+What to avoid
+-------------
+
+Avoid using the page feedback tools on pages where there is no plan to monitor comments or take action.
+
+[Additional behaviours to avoid when analyzing feedback.](https://test.canada.ca/experimental/feedback/when.html#not)
+
+Content and design
+------------------
+
+![](../images/page-feedback.png) ![](../images/page-feedback-detail.png) Needs thank you image
+
+<details>
+<summary>Feedback tool</summary>
                   
-                   <P>Avoid using the page feedback tools on pages where there is no plan to monitor comments or take action.</p>
-                     
-                     <p><a href="https://test.canada.ca/experimental/feedback/when.html#not">Additional behaviours to avoid when analyzing feedback.</a></p>
-                
-                
-                 <h2 id="content">Content and design</h2>
-                 <img src="../images/page-feedback.png" class="img-responsive pattern-demo" alt=''>
-            <img src="../images/page-feedback-detail.png" class="img-responsive pattern-demo" alt=''>
-            <mark>Needs thank you image</mark>
-                  <details>
-                  <summary>Feedback tool</summary>
-                  
-                    <p>A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.</p>
+<p>A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.</p>
                     
-            <p>A heading labelled "Please provide more details", followed by the text "You will not receive a reply.
-              Don't include personal information (telephone, email, SIN, financial, medical, or work details). 
-              Maximum 300 characters", and a text field to provide more details.</p>
-            </details>
+<p>A heading labelled "Please provide more details", followed by the text "You will not receive a reply.
+Don't include personal information (telephone, email, SIN, financial, medical, or work details). 
+Maximum 300 characters", and a text field to provide more details.</p>
+</details>
                   
-                  <h3>Content specifications</h3>
-                  <p><mark>Future content here about optional contact addition</mark></p>
-               <h2 id="how">How to implement</h2>
+<h3>Content specifications</h3>
+<p><mark>Future content here about optional contact addition</mark></p>
+<h2 id="how">How to implement</h2>
                
-               <p>Add it to the bottom of a content page after the page content and before the date modified. </p>
+<p>Add it to the bottom of a content page after the page content and before the date modified. </p>
 
-               <div class="wb-eqht">
-                  <div class="row">
-                  
-                  
-                    <div class="col-md-12">
-                      <h3 class="h4">1. Feedback tool code for AEM pages</h3>
-                      <p>Use this feedback code for any page hosted on the Adobe Managed Web Service.</p>
+<div class="wb-eqht">
+<div class="row">
+<div class="col-md-12">
+
+<h3 class="h4">1. Feedback tool code for AEM pages</h3>
+<p>Use this feedback code for any page hosted on the Adobe Managed Web Service.</p>
                       
                       
-                      <details>
+<details>
 <summary>Instructions</summary>
-                      <ol class="lst-spcd">
-                     <li>Add a Generic HTML component at the bottom of the main content. Take the HTML code (below) as your baseline. This will be the “Did you find what you were looking for?” and “Share this page” section. </li>
+<ol class="lst-spcd">
+  
+<li>Add a Generic HTML component at the bottom of the main content. Take the HTML code (below) as your baseline. This will be the “Did you find what you were looking for?” and “Share this page” section. </li>
 
-<li>Update the values of the hidden input  fields with the information specific to your implementation.  </li>
+<li>Update the values of the hidden input  fields with the information specific to your implementation. These hidden fields are for:</li>
 
+    <ul>
+    <li>Institution (your department acronym) - required</li>
+    <li>Theme - required</li>
+    <li>Section (a section of your website) - required but can be left blank</li>
+    <li>Page title - required</li>
+    </ul>
 
-These hidden fields are for:</li>
-<ul>
- <li>Institution (your department acronym) - required</li>
-<li>Theme - required</li>
-<li>Section (a section of your website) - required but can be left blank</li>
-<li>Page title - required</li>
-</ul>
-
-<strong><span class="bg-warning">Important note!</strong></span> Institution, Theme, Section values should be the SAME in English and French.
-</br></br>
-
-
-
-
-</li>
+<p><strong><span class="bg-warning">Important note!</span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
 
 <li>Save and publish your changes! </li>
 
-
-
 <li><strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to in order for feedback to populate the Airtable view.</li>
-
-
 
 <li><strong>For all pilots:</strong> Tell the DTO if you are adding a new section or theme, so we can add these filters into the Feedback Viewer.</li>
 
 </ol>
-</details>      
+</details>                            
                       
                       
-                      
-                      <details>
+<details>
 <summary>Code</summary>
 
 <pre class="prettyprint"><code>
@@ -221,25 +196,20 @@ These hidden fields are for:</li>
 
 </code></pre>
 </details>
+</div>
                     
-                    
-                    </div>
-                    
-                     <div class="col-md-12">
-                       <h3 class="h4">2. Feedback tool code for non-AEM pages</h3>
-                       <p>Use this feedback tool code for any page that is not hosted on the Adobe Managed Web Service.</p>
+<div class="col-md-12">
+<h3 class="h4">2. Feedback tool code for non-AEM pages</h3>
+<p>Use this feedback tool code for any page that is not hosted on the Adobe Managed Web Service.</p>
                        
-                       <details>
- <summary>Instructions</summary>
-                       <ol class="lst-spcd">
-                      <li>Insert this HTML code where the  “Did you find what you were looking for?” and “Share this page” are located.</li>
+<details>
+<summary>Instructions</summary>
+<ol class="lst-spcd">
+<li>Insert this HTML code where the  “Did you find what you were looking for?” and “Share this page” are located.</li>
 
-<li>Update the values of the hidden input  fields with the information specific to your implementation.  </li>
-
-
-These hidden fields are for:</li>
+<li>Update the values of the hidden input  fields with the information specific to your implementation.  These hidden fields are for:</li>
 <ul>
-  <li>Institution (your department acronym) - required</li>
+<li>Institution (your department acronym) - required</li>
 <li>Theme - required</li>
 <li>Section (a section of your website) - required but can be left blank</li>
 <li>Page title - required</li>
@@ -247,32 +217,24 @@ These hidden fields are for:</li>
 <li>Page language (Use EN or FR) - required</li>
 </ul>
 
-<strong><span class="bg-warning">Important note!</strong></span> Institution, Theme, Section values should be the SAME in English and French.
-</br></br>
-
-
-
-
-</li>
+<p><strong><span class="bg-warning">Important note!</span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
 
 <li>Add the Javascript just above the closing /body tag</li>
 
+<li>When someone submits a comment, they will see a checkmark icon and a thank you message.  If you do not see a checkmark, you may need to include a reference to the Font Awesome icon catalog in your page header.</li>
 
-<li>When someone submits a comment, they will see a checkmark icon and a thank you message.  If you do not see a checkmark, you may need to include a reference to the Font Awesome icon catalog in your page header.</br></br>
-
-  <pre class="prettyprint"><code>
+<pre class="prettyprint"><code>
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.8.1/css/all.css&quot; integrity=&quot;sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/li&gt;
  </code></pre>
-</li>
+
 <li><strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to in order for feedback to populate the Airtable view.</li>
-
-
 
 <li><strong>For all pilots:</strong> Tell the DTO if you are adding a new section or theme, so we can add these filters into the Feedback Viewer.</li>
 
 </ol>
 </details>
-                       <details>
+
+<details>
  <summary>Code</summary>
  <pre class="prettyprint"><code>
    &lt;!-- START PAGE FEEDBACK WIDGET --&gt;
@@ -381,44 +343,31 @@ These hidden fields are for:</li>
                         
                         
                       
-                     </div>
-                  
-                  </div>
-              
-              
-                
-               </div>
-            </section>
-
-            <section>
-               <h3 id="guidance">Accessing and analyzing feedback</h3>
+</div>                  
+</div>            
+</div>
+        
+<section>
+<h3 id="guidance">Accessing and analyzing feedback</h3>
 <ul>
   <li><a href="https://test.canada.ca/experimental/design-system/performance/feedback/index.html">Guidance for  analyzing, and using page feedback</a> calls for client feedback </li>
   <li><a href="https://www.gcpedia.gc.ca/wiki/Page_feedback_tool-test#Access_to_feedback">How to access feedback</a> (internal only)</li>
 </ul>
-
-            </section>
+</section>
           
 
-            <section>
+<section>
+<h2 id="research">Research and rationale</h2>
+<h3>Policy rationale</h3>
+<p>The <a href="https://test.canada.ca/experimental/design-system/performance/feedback/index.html">Guideline for Service and Digital</a> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
+
+<h2 id="latest">Latest changes</h2>
               
               
-               <h2 id="research">Research and rationale</h2>
-               <h3>Policy rationale</h3>
-              <p>The <a href="https://test.canada.ca/experimental/design-system/performance/feedback/index.html">Guideline for Service and Digital</a> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
-               
-                <h2 id="latest">Latest changes</h2>
-              
-              
-            
-           <h2 id="discuss">Discussion</h2>
-           <ul>
-             <li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in GitHub
-               issues</a></li>
-             <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
-             <li><a href="mailto:dto.btn@tbs-sct.gc.ca">Send an email to the Digital Transformation Office</a></li>
-           </ul>
-    
-            </section>
+<h2 id="discuss">Discussion</h2>
+*   [Discuss the pattern in GitHub issues](https://github.com/canada-ca/design-system-systeme-conception/issues)
+*   [Join the conversation on Slack](https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM)
+*   [Send an email to the Digital Transformation Office](mailto:dto.btn@tbs-sct.gc.ca)
+</section>
 
   
