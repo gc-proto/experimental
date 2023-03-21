@@ -21,7 +21,7 @@ lang: en
 layout: without-h1
 share: true
 pageclass: cnt-wdth-lmtd
-title: "Global header"
+title: "Breadcrumb trail"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
