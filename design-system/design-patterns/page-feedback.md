@@ -4,9 +4,9 @@ breadcrumbs:
   - title: Design system
     link: "https://www.canada.ca/en/government/about/design-system.html"
   - title: Analytics and feedback
-    link: "https://www.canada.ca/en/government/about/design-system.html"
+    link: "https://www.canada.ca/en/analytics.html"
   - title: Page feedback
-    link: "https://www.canada.ca/en/government/about/design-system.html"
+    link: "https://design.canada.ca/feedback/index.html"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
@@ -20,8 +20,8 @@ title: "Page feedback tool"
 pageclass: cnt-wdth-lmtd
 ---
 **Optional on standard pages**
-            
-        
+
+
 The feedback tool is an **optional** pattern to collect feedback on the page experience. It replaces the “Report a problem” pattern while actively collecting user feedback.
 
 ![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](../images/page-feedback.png)
@@ -36,9 +36,9 @@ On this page
 *   [Research and rationale](#research)
 *   [Latest changes](#latest)
 *   [Discussion](#discuss)
-            
 
-              
+
+
 When to use
 -----------
 
@@ -51,7 +51,7 @@ Consider adding the page feedback tool to:
 *   monitor after page improvements have gone live
 
 
-                     
+
 What to avoid
 -------------
 
@@ -66,18 +66,18 @@ Content and design
 
 <details>
 <summary>Feedback tool</summary>
-                  
+
 <p>A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.</p>
-                    
+
 <p>A heading labelled "Please provide more details", followed by the text "You will not receive a reply.
-Don't include personal information (telephone, email, SIN, financial, medical, or work details). 
+Don't include personal information (telephone, email, SIN, financial, medical, or work details).
 Maximum 300 characters", and a text field to provide more details.</p>
 </details>
-                  
+
 <h3>Content specifications</h3>
 <p><mark>Future content here about optional contact addition</mark></p>
 <h2 id="how">How to implement</h2>
-               
+
 <p>Add it to the bottom of a content page after the page content and before the date modified. </p>
 
 <div class="wb-eqht">
@@ -86,12 +86,12 @@ Maximum 300 characters", and a text field to provide more details.</p>
 
 <h3 class="h4">1. Feedback tool code for AEM pages</h3>
 <p>Use this feedback code for any page hosted on the Adobe Managed Web Service.</p>
-                      
-                      
+
+
 <details>
 <summary>Instructions</summary>
 <ol class="lst-spcd">
-  
+
 <li>Add a Generic HTML component at the bottom of the main content. Take the HTML code (below) as your baseline. This will be the “Did you find what you were looking for?” and “Share this page” section. </li>
 
 <li>Update the values of the hidden input  fields with the information specific to your implementation. These hidden fields are for:</li>
@@ -113,8 +113,8 @@ Maximum 300 characters", and a text field to provide more details.</p>
 
 </ol>
 </details>                            
-                      
-                      
+
+
 <details>
 <summary>Code</summary>
 
@@ -146,7 +146,7 @@ Maximum 300 characters", and a text field to provide more details.</p>
                       &lt;div class=&quot;gc-pg-hlpfl-no nojs-show&quot;&gt;
                           &lt;fieldset&gt;
                               &lt;legend class=&quot;h4 mrgn-tp-0 mrgn-bttm-md&quot;&gt;What was wrong?&lt;/legend&gt;
-                              
+
   &lt;div class=&quot;radio&quot;&gt;
   &lt;label for=&quot;problem1&quot;&gt;
   &lt;input name=&quot;problem&quot; id=&quot;problem1&quot; type=&quot;radio&quot; value=&quot;I can't find the information&quot; data-gc-analytics-wtph-value=&quot;I can't find the information-Je ne peux pas trouver l'information&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;I can't &lt;strong&gt;find&lt;/strong&gt; the information
@@ -197,11 +197,11 @@ Maximum 300 characters", and a text field to provide more details.</p>
 </code></pre>
 </details>
 </div>
-                    
+
 <div class="col-md-12">
 <h3 class="h4">2. Feedback tool code for non-AEM pages</h3>
 <p>Use this feedback tool code for any page that is not hosted on the Adobe Managed Web Service.</p>
-                       
+
 <details>
 <summary>Instructions</summary>
 <ol class="lst-spcd">
@@ -340,13 +340,13 @@ Maximum 300 characters", and a text field to provide more details.</p>
 
  </code></pre>
  </details>
-                        
-                        
-                      
+
+
+
 </div>                  
 </div>            
 </div>
-        
+
 <section>
 <h3 id="guidance">Accessing and analyzing feedback</h3>
 <ul>
@@ -354,7 +354,7 @@ Maximum 300 characters", and a text field to provide more details.</p>
   <li><a href="https://www.gcpedia.gc.ca/wiki/Page_feedback_tool-test#Access_to_feedback">How to access feedback</a> (internal only)</li>
 </ul>
 </section>
-          
+
 
 <section>
 <h2 id="research">Research and rationale</h2>
@@ -362,12 +362,10 @@ Maximum 300 characters", and a text field to provide more details.</p>
 <p>The <a href="https://test.canada.ca/experimental/design-system/performance/feedback/index.html">Guideline for Service and Digital</a> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
 
 <h2 id="latest">Latest changes</h2>
-              
-              
+
+
 <h2 id="discuss">Discussion</h2>
 *   [Discuss the pattern in GitHub issues](https://github.com/canada-ca/design-system-systeme-conception/issues)
 *   [Join the conversation on Slack](https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM)
 *   [Send an email to the Digital Transformation Office](mailto:dto.btn@tbs-sct.gc.ca)
 </section>
-
-  
