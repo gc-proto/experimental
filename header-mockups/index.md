@@ -36,13 +36,13 @@ title: "Header mockups"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail (current page)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kQBG37Kf7qNRaieREX0CAbqU-C2TrHj4o-G_sKRXZXQ">Breadcrumbs (doc)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="breadcrumb-trail.html">Global header (mockup)</a></li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="breadcrumb-trail.html">Breadcrumb trail (mockup)</a></li>
     </ul>
     <h3 class="h4">GC signature</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature (current page)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1D_xnDomYifrpJ371mX1VtWXeElSfaXItJewRV174fUI">Government of Canada signature (doc)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="signature.html">Global header (mockup)</a></li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="signature.html">Government of Canada signature (mockup)</a></li>
     </ul>
     <h3 class="h4">Site search box</h3>
     <ul class="fa-ul">
