@@ -23,7 +23,7 @@ share: true
 pageclass: cnt-wdth-lmtd
 title: "Language toggle"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Site search box</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Language toggle</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-12 pull-left">
     <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
