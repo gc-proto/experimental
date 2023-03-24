@@ -120,8 +120,8 @@ title: "Language toggle"
 </div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="./images/glogal-header-breadcrumb-small-screen-en.png" class="img-responsive" alt="Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner. Text version below:">
+    <figcaption><b>Language toggle - large screen</b></figcaption>
+    <img src="./images/site-search-en.png" class="img-responsive" alt="Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner.</p>
