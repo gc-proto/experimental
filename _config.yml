@@ -1,1 +1,7 @@
+baseurl: "/experimental"
+description: 
+  en: "Area for the development of new tools and patterns"
+plugins:
+  - jekyll-remote-theme
 remote_theme: wet-boew/gcweb-jekyll
+url: https://test.canada.ca
