@@ -26,7 +26,7 @@ title: "Language toggle"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Language toggle</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-12 pull-left">
-    <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
+    <ul class="list-inline small mrgn-bttm-sm" id="list-inline-desktop-only">
       <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
     </ul>
   </div>
@@ -149,11 +149,10 @@ title: "Language toggle"
   </figure>
 </div>
 <h2 id="implementation">How to implement</h2>
-<p>Find working examples for implementing the breadcrumbs.</p>
+<p>Find working examples for implementing the language toggle.</p>
 <h3>GCweb (WET) theme implementation reference</h3>
 <p>The implementation reference includes how to configure each element of the header.</p>
 <ul>
-  <li><a href="https://wet-boew.github.io/GCWeb/sites/breadcrumbs/breadcrumbs-en.html">Breadcrumbs - GCWeb (WET) documentation</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/sites/header/header-docs-en.html">GCWeb (WET) header documentation</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">Quick implementation guide - GCWeb theme</a></li>
 </ul>
@@ -167,7 +166,6 @@ title: "Language toggle"
           <summary><strong>GC-AEM</strong></summary>
           <p class="mrgn-tp-lg">For the Government of Canada Adobe Experience Manager (AEM):</p>
           <ul>
-            <li><a href="https://www.gcpedia.gc.ca/gcwiki/images/9/9a/AEM-6.5-Documentation-Unit-3-7-Changing-the-Default-Breadcrumb.pdf">Changing the default breadcrumb (PDF - GCPedia link - only available on the Government of Canada network)</a></li>
             <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service documentation (GCPedia link - only available on the Government of Canada network)</a></li>
           </ul>
         </details>
@@ -192,17 +190,15 @@ title: "Language toggle"
 </div>
 <div class="cnt-wdth-lmtd">
   <h2 id="research">Research and rationale</h2>
-  <p>Consult research findings and policy rationale.</p>
-  <h3>Research findings</h3>
-  <p><a href="https://blog.canada.ca/2020/08/10/CanadaDotCa-trusted-source.html">Canada.ca is a trusted source</a><br>
-    Explains the decision to use “Canada.ca” as the label for the first link in the breadcrumb.</p>
-  <p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Wayfinding on Canada.ca research summary</a><br>
-    Research shows that people navigating on the site use breadcrumb links nearly twice as often as they use the Theme and topic menu.</p>
-  <p>Further design and research work to optimize the breadcrumb for mobile is planned.</p>
+  <p>Consult policy rationale.</p>
   <h3>Policy rationale</h3>
-  <p>As part of the global header, the breadcrumb is a mandatory element under the Content and Information Architecture Specification.</p>
+  <p>As part of the global header, the language toggle is a mandatory element under the Content and Information Architecture Specification.</p>
   <ul>
     <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html">Mandatory elements of the design system</a></li>
+  </ul>
+  <p>All Government of Canada communications must be available in both official languages.</p>
+  <ul>
+    <li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=26160">Policy on Official Languages</a></li>
   </ul>
   <h2 id="changes">Latest changes</h2>
   <dl class="dl-horizontal">
