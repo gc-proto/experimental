@@ -26,7 +26,7 @@ title: "Government of Canada signature"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Government of Canada signature</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-12 pull-left">
-    <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
+    <ul class="list-inline small mrgn-bttm-sm" id="list-inline-desktop-only">
       <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
     </ul>
   </div>
@@ -93,7 +93,7 @@ title: "Government of Canada signature"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="./images/glogal-header-breadcrumb-small-screen-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
+    <img src="./images/sig-sm-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">The Government of Canada signature is in the top-left corner of the website. It is composed of the flag symbol in red, followed by the words Government of Canada in English and Gouvernement du Canada in French, both in black text.</p>
