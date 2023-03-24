@@ -3,4 +3,4 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "jekyll-remote-theme", github: "benbalter/jekyll-remote-theme", branch: "master"
+gem 'github-pages', group: :jekyll_plugins
