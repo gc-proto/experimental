@@ -105,7 +105,7 @@ title: "Language toggle"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Language toggle - large screen</b></figcaption>
-    <img src="./images/site-search-en.png" class="img-responsive" alt="Standard header of an English Canada.ca page with a highlight of the linked word Français in the top-right corner. Text version below:">
+    <img src="./images/lang-toggle-en.png" class="img-responsive" alt="Standard header of an English Canada.ca page with a highlight of the linked word Français in the top-right corner. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">Standard header of an English Canada.ca page with a highlight of the linked word Français in the top-right corner.</p>
@@ -121,7 +121,7 @@ title: "Language toggle"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Language toggle - large screen</b></figcaption>
-    <img src="./images/lang-toggle-en.png" class="img-responsive" alt="Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner. Text version below:">
+    <img src="./images/lang-toggle-fr.png" class="img-responsive" alt="Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner.</p>
