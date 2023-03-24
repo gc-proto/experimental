@@ -34,7 +34,7 @@ title: "Language toggle"
 <p><span class="label label-danger">Mandatory</span></p>
 <p>All public-facing Government of Canada content is available in both official languages. A language toggle in the global header provides access to the corresponding page in the other official language.</p>
 <div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-sm"><img src="./images/site-search-en.png" class="img-responsive" alt=""></figure>
+  <figure class="mrgn-bttm-sm"><img src="./images/lang-toggle-en.png" class="img-responsive" alt=""></figure>
 </div>
 <section>
   <h2>On this page</h2>
@@ -121,7 +121,7 @@ title: "Language toggle"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Language toggle - large screen</b></figcaption>
-    <img src="./images/site-search-en.png" class="img-responsive" alt="Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner. Text version below:">
+    <img src="./images/lang-toggle-en.png" class="img-responsive" alt="Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner.</p>
@@ -136,7 +136,7 @@ title: "Language toggle"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="./images/glogal-header-breadcrumb-small-screen-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
+    <img src="./images/lang-toggle-fr.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
