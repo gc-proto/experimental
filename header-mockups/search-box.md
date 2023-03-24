@@ -91,32 +91,21 @@ title: "Site search box"
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Global header with breadcrumb trail  - large screen</b></figcaption>
-    <img src="./images/site-search-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button in a horizontal line. Text version below:">
+    <figcaption><b>Site search box- large screen  - large screen</b></figcaption>
+    <img src="./images/site-search-en.png" class="img-responsive" alt="The search box appears in the top-right corner, underneath the language toggle and directly across from the Government of Canada signature. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">On large screens, the global header has 4 rows:</p>
-      <ol>
-        <li>Language toggle in the top-right corner</li>
-        <li>Government of Canada signature in the left corner, site search box on the right</li>
-        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
-        <li>Breadcrumb on the left</li>
-      </ol>
-    </details>
+      <p class="mrgn-tp-lg">The site search bar is a rectangle, defined by a light grey border. Within the rectangle are the words, ‘Search Canada.ca’.  To the right of the rectangle is a blue square with a white magnifying glass icon within.</p>
+         </details>
   </figure>
 </div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="./images/site-search-sm-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
+    <figcaption><b>Site search box- small screen</b></figcaption>
+    <img src="./images/site-search-sm-en.png" class="img-responsive" alt="The search box appears in the header, directly below the Government of Canada signature and the language toggle. It spans across the screen. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
-      <ol>
-        <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
-        <li>Site search box directly below, it spans the entire row</li>
-        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
-      </ol>
+      <p class="mrgn-tp-lg">The site search bar is a rectangle, defined by a light grey border. Within the rectangle are the words, ‘Search Canada.ca’.  To the right of the rectangle is a blue square with a white magnifying glass icon within. </p"
     </details>
   </figure>
 </div>
