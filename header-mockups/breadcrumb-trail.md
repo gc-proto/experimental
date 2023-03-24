@@ -26,7 +26,7 @@ title: "Breadcrumb trail"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-12 pull-left">
-    <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
+    <ul class="list-inline small mrgn-bttm-sm" id="list-inline-desktop-only">
       <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
     </ul>
   </div>
@@ -136,7 +136,7 @@ title: "Breadcrumb trail"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Global header with breadcrumb trail  - large screen</b></figcaption>
-    <img src="./images/glogal-header-breadcrumb-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button in a horizontal line. Text version below:">
+    <img src="./images/breadcrumb-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button in a horizontal line. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">On large screens, the global header has 4 rows:</p>
