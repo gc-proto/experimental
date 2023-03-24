@@ -23,7 +23,7 @@ share: true
 pageclass: cnt-wdth-lmtd
 title: "Language toggle"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Language toggle</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Site search box</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-12 pull-left">
     <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
@@ -31,10 +31,10 @@ title: "Language toggle"
     </ul>
   </div>
 </div>
-<p><span class="label label-danger">Mandatory on standard and campaign pages</span></p>
-<p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
+<p><span class="label label-danger">Mandatory</span></p>
+<p>All public-facing Government of Canada content is available in both official languages. A language toggle in the global header provides access to the corresponding page in the other official language.</p>
 <div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-sm"><img src="./images/breadcrumb-en.png" class="img-responsive" alt=""></figure>
+  <figure class="mrgn-bttm-sm"><img src="./images/site-search-en.png" class="img-responsive" alt=""></figure>
 </div>
 <section>
   <h2>On this page</h2>
@@ -49,89 +49,58 @@ title: "Language toggle"
   </ul>
 </section>
 <h2 id="when">When to use</h2>
-<p>The breadcrumb trail is mandatory on all pages, except transactional pages.</p>
+<p>The language toggle is mandatory on all pages.</p>
+<p>New transactional pages for web applications must allow people to toggle between official languages. Legacy web applications that don’t support toggling should be updated or replaced. Until then, you can omit the language toggle if its use results in a loss of data.</p>
 <h2 id="avoid">What to avoid</h2>
-<p>Don’t program the breadcrumb trail to be generated dynamically based on a visitor’s journey to a page. It should represent the location of a page as it stands in relation to the site’s navigation model.</p>
-<p>Avoid long link labels. Use a shortened version of the page title if necessary.</p>
-<p>Don’t display the current page at the end of the breadcrumb trail (linked or unlinked). It increases the length of the breadcrumb unnecessarily, especially on mobile. The heading of the page is enough to let people know where they are.</p>
+<p>Don’t put other language options in the language toggle. It is only for English and French. Links to content in other languages should appear in the content area of the page.</p>
+<p>Don’t use the language toggle to point to anything other than the corresponding page in the equivalent language.</p>
 <h2 id="content">Content and design</h2>
 <p>Find content and design specifications and visual examples.</p>
 <h3>Content specifications</h3>
+<p>Ensure that the language toggle links to the corresponding page in the alternate language.</p>
+<h4>Large screens</h4>
 <ul>
-  <li>Align the breadcrumb trail to the left directly below the menu button (or the divider line if there is no menu button)</li>
-  <li>Use “Canada.ca” as the text of the first breadcrumb link on standard and campaign pages
-    <ul>
-      <li>Link to the Canada.ca home page in the language of the current page</li>
-    </ul>
-  </li>
-  <li>You can use either “Home” or the name of the process or application as the text of the first breadcrumb link on transactional pages that use a breadcrumb trail
-    <ul>
-      <li>Link to the starting page of the process or the landing page of the application</li>
-    </ul>
-  </li>
-  <li>Use a single right chevron glyphicon to separate each breadcrumb link</li>
-  <li>Reflect the title of the page in the breadcrumb label
-    <ul>
-      <li>Shorten breadcrumb labels where possible to improve readability and reduce space</li>
-    </ul>
-  </li>
+  <li>On English pages, the link label text is “Français”</li>
+  <li>On French pages, the link label text is “English”</li>
 </ul>
-<p>For example, these breadcrumbs:</p>
-<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply for Canadian citizenship &#8250; Prepare for the Canadian citizenship test and interview</p>
-<p>Can be shortened to this:</p>
-<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply &#8250; Prepare for the test and interview</p>
+<h4>Small screens</h4>
+<p>For small screens, the language toggle uses a 2-letter abbreviation for each language:</p>
+<ul>
+  <li>On English pages, the link label text is “FR” in uppercase</li>
+  <li>On French pages, the link label text is “EN” in uppercase</li>
+</ul>
 <h4>Accessibility</h4>
 <ul>
-  <li>Include “You are here:” as invisible help text</li>
+  <li>Add the full name of the language in the title attribute for the abbreviated language toggle
+    <ul>
+      <li>the abbreviation title for EN is “English” 
+        the abbreviation title for FR is “Français”</li>
+    </ul>
+  </li>
 </ul>
 <h4>Interactions</h4>
 <ul>
-  <li>When selected, each breadcrumb should bring the user to a unique page</li>
+  <li>When selected, the language toggle brings the user to the alternate language version of the page they were on</li>
 </ul>
 <h3>Design specifications</h3>
-<p>Design specifications for the breadcrumbs are:</p>
 <ul>
   <li>Type: link</li>
-  <li>Position: top left</li>
-  <li>Font: Noto sans</li>
-  <li>Size: 16px</li>
+  <li>Position: top-right corner</li>
+  <li>Font: Lato</li>
+  <li>Size: 1.2 em</li>
   <li>Text colour:
     <ul>
       <li>default link: #284162</li>
       <li>selected link (on hover or focus): #0535d2</li>
-      <li>visited link: #7834bc</li>
+      <li>visited link: #284162</li>
     </ul>
   </li>
-  <li>Spacing: padding: 0 5px</li>
-  <li>Icon: glyphicon-chevron-right</li>
 </ul>
 <h4>Accessibility</h4>
-<p>Code breadcrumbs as an ordered list</p>
-<h4>Examples</h4>
-<p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
-<h5>Services and information content<br>
-  Theme pages, institutional and organizational pages</h5>
-<p>Canada.ca</p>
-<h5>First-level topic pages</h5>
-<p>Canada.ca   &#8250;   [Parent theme]</p>
-<h5>Second-level topic pages</h5>
-<p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]</p>
-<h5>Destination content pages</h5>
-<p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]   &#8250;  [Parent sub-topic]   &#8250;   [etc.]</p>
-<h5>Corporate, program and policy content<br>
-  Corporate, program or policy content pages</h5>
-<p>Canada.ca   &#8250;   [Institutional profile page]</p>
-<h5>Partnering and collaborative arrangement profile pages</h5>
-<p>Canada.ca</p>
-<h5>Search results pages<br>
-  Basic search pages</h5>
-<p>Canada.ca</p>
-<h5>Advanced search pages</h5>
-<p>Canada.ca   &#8250;   [Basic search]</p>
-<h5>Campaigns and promotions</h5>
-<p>Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
-<h5>News</h5>
-<p>Canada.ca   &#8250;   [Institutional profile page]</p>
+<ul>
+  <li>Label the language toggle code so that it’s spoken in the correct language if read aloud by assistive technologies</li>
+  <li>Ensure that the text label for the language toggle won’t be translated by browser translation tools</li>
+</ul>
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
