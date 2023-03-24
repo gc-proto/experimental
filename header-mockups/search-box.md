@@ -34,7 +34,7 @@ title: "Site search box"
 <p><span class="label label-danger">Mandatory on standard and campaign pages</span></p>
 <p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
 <div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-sm"><img src="./images/breadcrumb-en.png" class="img-responsive" alt=""></figure>
+  <figure class="mrgn-bttm-sm"><img src="./images/site-search-en.png" class="img-responsive" alt=""></figure>
 </div>
 <section>
   <h2>On this page</h2>
