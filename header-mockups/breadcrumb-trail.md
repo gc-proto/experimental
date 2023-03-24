@@ -152,7 +152,7 @@ title: "Breadcrumb trail"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="./images/glogal-header-breadcrumb-small-screen-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
+    <img src="./images/breadcrumb-sm-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
