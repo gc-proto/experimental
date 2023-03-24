@@ -104,7 +104,7 @@ title: "Language toggle"
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Language toggle - large screen</b></figcaption>
+    <figcaption><b>Language toggle (English page) - large screen</b></figcaption>
     <img src="./images/lang-toggle-en.png" class="img-responsive" alt="Standard header of an English Canada.ca page with a highlight of the linked word Français in the top-right corner. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
@@ -120,7 +120,7 @@ title: "Language toggle"
 </div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Language toggle - large screen</b></figcaption>
+    <figcaption><b>Language toggle (French page) - large screen</b></figcaption>
     <img src="./images/lang-toggle-fr.png" class="img-responsive" alt="Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
