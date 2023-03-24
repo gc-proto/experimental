@@ -1,5 +1,5 @@
 ---
-altLangPage: "#"
+altLangPage: "https://conception.canada.ca/configurations-conception-communes/outil-de-retroaction.html"
 breadcrumbs:
   - title: Design system
     link: "https://www.canada.ca/en/government/about/design-system.html"
@@ -25,8 +25,7 @@ The feedback tool is an **optional** pattern to collect feedback on the page exp
 
 ![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](../images/page-feedback.png)
 
-On this page
-------------
+## On this page
 
 *   [When to use](#rationale)
 *   [What to avoid](#cautions)
@@ -38,8 +37,7 @@ On this page
 
 
 
-When to use
------------
+## When to use
 
 Consider adding the page feedback tool to:
 
@@ -51,17 +49,15 @@ Consider adding the page feedback tool to:
 
 
 
-What to avoid
--------------
+## What to avoid
 
 Avoid using the page feedback tools on pages where there is no plan to monitor comments or take action.
 
 [Additional behaviours to avoid when analyzing feedback.](https://test.canada.ca/experimental/feedback/when.html#not)
 
-Content and design
-------------------
+## Content and design
 
-![](../images/page-feedback.png) ![](../images/page-feedback-detail.png) Needs thank you image
+![](../images/page-feedback.png) ![](../images/description-en.jpg) Needs thank you image
 
 <details>
 <summary>Feedback tool</summary>

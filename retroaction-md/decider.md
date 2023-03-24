@@ -1,141 +1,17 @@
-<!DOCTYPE html>
-<html class="no-js" lang="fr" dir="ltr">
-
-<head>
-	<meta charset="utf-8">
-	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-			wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-	<title>Décider de ce qui doit être amélioré - Canada.ca</title>
-	<meta content="width=device-width,initial-scale=1" name="viewport">
-	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
-	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
-	<link rel="stylesheet" href="https://design.canada.ca/css/custom.css">
-
-	<link rel="stylesheet" href="https://design.canada.ca/css/provisional-alerts.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-
-	<noscript>
-		<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/wet-boew/css/noscript.min.css" /></noscript>
-	<script>
-		(function(i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-		ga('create', 'UA-105628416-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105628416-3"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
-		gtag('config', 'UA-105628416-3');
-	</script>
-</head>
-
-<body class="cnt-wdth-lmtd" vocab="http://schema.org/" typeof="WebPage">
-	<ul id="wb-tphp">
-		<li class="wb-slc">
-			<a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
-		</li>
-		<li class="wb-slc">
-			<a class="wb-sl" href="#wb-info">Passer à «&#160;Au sujet du gouvernement&#160;»</a>
-		</li>
-	</ul>
-	<header>
-		<div id="wb-bnr" class="container">
-			<section id="wb-lng" class="text-right">
-				<h2 class="wb-inv">Sélection de la langue</h2>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="list-inline margin-bottom-none">
-							<li><a lang="en" href="https://design.canada.ca/survey/access-results.html">English</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
-			<div class="row">
-				<div class="brand col-xs-5 col-md-4">
-					<a href="https://www.canada.ca/fr.html"><img src="http://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-fr.svg" alt=""><span class="wb-inv"> Gouvernement du Canada / <span lang="en">Government of Canada</span></span></a>
-				</div>
-				<section id="wb-srch" class="col-lg-8 text-right">
-					<h2>Recherche</h2>
-					<form action="https://canada.ca/fr/sr/srb.html" method="get" role="search" class="form-inline">
-						<div class="form-group">
-							<label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label>
-							<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca">
-							<input name="st" value="s" type="hidden" />
-							<input name="num" value="10" type="hidden" />
-							<input name="langs" value="fra" type="hidden" />
-							<input name="st1rt" value="0" type="hidden">
-							<input name="s5bm3ts21rch" value="x" type="hidden" />
-							<datalist id="wb-srch-q-ac"></datalist>
-						</div>
-						<div class="form-group submit">
-							<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Recherche</span></button>
-						</div>
-					</form>
-				</section>
-			</div>
-		</div>
-		<nav class="gweb-v2 gcweb-menu" typeof="SiteNavigationElement">
-			<div class="container">
-				<h2 class="wb-inv">Menu</h2>
-				<button type="button" aria-haspopup="true" aria-controls="gc-mnu" aria-expanded="false">Menu<span class="wb-inv"> principal</span> <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
-				<ul id="gc-mnu" role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/benefits.html">Prestations</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/transport.html">Transport et infrastructure</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="http://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a></li>
-					<li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
-				</ul>
-			</div>
-		</nav>
-		<nav id="wb-bc" property="breadcrumb">
-			<h2>Vous êtes ici&nbsp;:</h2>
-			<div class="container">
-				<ol class="breadcrumb">
-					<li><a href='https://www.canada.ca/fr.html'>Canada.ca</a></li>
-					<li><a href='https://www.canada.ca/fr/gouvernement/a-propos.html'>À propos de Canada.ca</a></li>
-					<li><a href='https://www.canada.ca/fr/analytique.html'>Analyses, sondage et commentaires</a></li>
-					<li><a href='index.html'>Outil de rétroaction</a></li>
-				</ol>
-			</div>
-		</nav>
-	</header>
-	<!--/* Hide Nav; Hide Right Rail /*-->
-	<main role="main" property="mainContentOfPage" class="container wb-prettify all-pre">
-
-
-
-		<h1 property="name" id="wb-cont" class="provisional gc-thickline" dir="ltr">Décider de ce qui doit être amélioré</h1>
-
-		</div>
-		<div class="mwsgeneric-base-html parbase section">
-
-			<div class="gc-stp-stp">
+---
+altLangPage: https://design.canada.ca/feedback/index.html
+breadcrumbs:
+  - title: À propos de Canada.ca
+    link: https://www.canada.ca/fr/gouvernement/a-propos.html
+  - title: Analyses, sondage et commentaires
+    link: https://www.canada.ca/fr/analytique.html
+  - title: Outil de rétroaction
+    link: https://conception.canada.ca/retroaction/index.html
+dateModified: 2023-02-28
+layout: default
+title: Décider de ce qui doit être amélioré
+---
+<div class="gc-stp-stp">
 				<div class="row">
 					<ul class="toc lst-spcd col-md-12">
 						<li class="col-md-4 col-sm-6"><a class="list-group-item" href="acces.html">Accéder à la rétroaction</a></li>
