@@ -32,7 +32,8 @@ title: "Site search box"
   </div>
 </div>
 <p><span class="label label-danger">Mandatory on standard and campaign pages</span></p>
-<p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
+<p>The site search box is an element of the global header. It allows people to search Government of Canada content using a simple search field.</p>
+<p>Results for site search are at the level of all Government of Canada web content, or a subset of content at the department or agency level.</p>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-sm"><img src="./images/site-search-en.png" class="img-responsive" alt=""></figure>
 </div>
@@ -49,94 +50,49 @@ title: "Site search box"
   </ul>
 </section>
 <h2 id="when">When to use</h2>
-<p>The breadcrumb trail is mandatory on all pages, except transactional pages.</p>
+<p>The site search box is mandatory on all pages, except transactional pages.</p>
 <h2 id="avoid">What to avoid</h2>
-<p>Don’t program the breadcrumb trail to be generated dynamically based on a visitor’s journey to a page. It should represent the location of a page as it stands in relation to the site’s navigation model.</p>
-<p>Avoid long link labels. Use a shortened version of the page title if necessary.</p>
-<p>Don’t display the current page at the end of the breadcrumb trail (linked or unlinked). It increases the length of the breadcrumb unnecessarily, especially on mobile. The heading of the page is enough to let people know where they are.</p>
+<p>Don’t use the site search box for searching anything other than content indexed by GC Search. Place search for other datasets within the content area of the page.</p>
 <h2 id="content">Content and design</h2>
 <p>Find content and design specifications and visual examples.</p>
 <h3>Content specifications</h3>
+<p>The site search box consists of 3 visual elements:</p>
 <ul>
-  <li>Align the breadcrumb trail to the left directly below the menu button (or the divider line if there is no menu button)</li>
-  <li>Use “Canada.ca” as the text of the first breadcrumb link on standard and campaign pages
-    <ul>
-      <li>Link to the Canada.ca home page in the language of the current page</li>
-    </ul>
-  </li>
-  <li>You can use either “Home” or the name of the process or application as the text of the first breadcrumb link on transactional pages that use a breadcrumb trail
-    <ul>
-      <li>Link to the starting page of the process or the landing page of the application</li>
-    </ul>
-  </li>
-  <li>Use a single right chevron glyphicon to separate each breadcrumb link</li>
-  <li>Reflect the title of the page in the breadcrumb label
-    <ul>
-      <li>Shorten breadcrumb labels where possible to improve readability and reduce space</li>
-    </ul>
-  </li>
+  <li>text input field (maximum 170 characters)</li>
+  <li>input box placeholder text</li>
+  <li>search button with magnifying glass icon</li>
 </ul>
-<p>For example, these breadcrumbs:</p>
-<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply for Canadian citizenship &#8250; Prepare for the Canadian citizenship test and interview</p>
-<p>Can be shortened to this:</p>
-<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply &#8250; Prepare for the test and interview</p>
-<h4>Accessibility</h4>
+<p>In the text input field, the placeholder label is:</p>
 <ul>
-  <li>Include “You are here:” as invisible help text</li>
+  <li>“Search Canada.ca” in English</li>
+  <li>&laquo;&nbsp;Rechercher dans Canada.ca&nbsp;&raquo; in French</li>
+</ul>
+<p>The placeholder label in a contextualized search box is:</p>
+<ul>
+  <li>“Search [institution]” in English</li>
+  <li>&laquo;&nbsp;Rechercher dans [institution]&nbsp;&raquo; in French</li>
 </ul>
 <h4>Interactions</h4>
 <ul>
-  <li>When selected, each breadcrumb should bring the user to a unique page</li>
+  <li>Searches query the GC Search index. Typing a search term in the input field and selecting the search icon opens a results page</li>
 </ul>
 <h3>Design specifications</h3>
-<p>Design specifications for the breadcrumbs are:</p>
+<p>Design specifications for the site search box are:</p>
 <ul>
-  <li>Type: link</li>
-  <li>Position: top left</li>
-  <li>Font: Noto sans</li>
-  <li>Size: 16px</li>
-  <li>Text colour:
-    <ul>
-      <li>default link: #284162</li>
-      <li>selected link (on hover or focus): #0535d2</li>
-      <li>visited link: #7834bc</li>
-    </ul>
-  </li>
-  <li>Spacing: padding: 0 5px</li>
-  <li>Icon: glyphicon-chevron-right</li>
+  <li>Position: top-right corner of the global header area, below the language toggle link</li>
+  <li>Form class:  form-inline</li>
+  <li>Button icon:  glyphicon-search glyphicon</li>
+  <li>Button class: btn btn-primary btn-small</li>
+  <li>Colour: #26374a</li>
+  <li>Length of input field: maxlength=170</li>
+  <li>Value size: 34</li>
 </ul>
-<h4>Accessibility</h4>
-<p>Code breadcrumbs as an ordered list</p>
-<h4>Examples</h4>
-<p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
-<h5>Services and information content<br>
-  Theme pages, institutional and organizational pages</h5>
-<p>Canada.ca</p>
-<h5>First-level topic pages</h5>
-<p>Canada.ca   &#8250;   [Parent theme]</p>
-<h5>Second-level topic pages</h5>
-<p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]</p>
-<h5>Destination content pages</h5>
-<p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]   &#8250;  [Parent sub-topic]   &#8250;   [etc.]</p>
-<h5>Corporate, program and policy content<br>
-  Corporate, program or policy content pages</h5>
-<p>Canada.ca   &#8250;   [Institutional profile page]</p>
-<h5>Partnering and collaborative arrangement profile pages</h5>
-<p>Canada.ca</p>
-<h5>Search results pages<br>
-  Basic search pages</h5>
-<p>Canada.ca</p>
-<h5>Advanced search pages</h5>
-<p>Canada.ca   &#8250;   [Basic search]</p>
-<h5>Campaigns and promotions</h5>
-<p>Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
-<h5>News</h5>
-<p>Canada.ca   &#8250;   [Institutional profile page]</p>
+<p>The search elements are responsive.  They scale according to screen size.</p>
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Global header with breadcrumb trail  - large screen</b></figcaption>
-    <img src="./images/glogal-header-breadcrumb-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button in a horizontal line. Text version below:">
+    <img src="./images/site-search-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button in a horizontal line. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">On large screens, the global header has 4 rows:</p>
@@ -152,7 +108,7 @@ title: "Site search box"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="./images/glogal-header-breadcrumb-small-screen-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
+    <img src="./images/site-search-sm-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
       <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
@@ -165,11 +121,10 @@ title: "Site search box"
   </figure>
 </div>
 <h2 id="implementation">How to implement</h2>
-<p>Find working examples for implementing the breadcrumbs.</p>
+<p>Find working examples for implementing the site search box.</p>
 <h3>GCweb (WET) theme implementation reference</h3>
 <p>The implementation reference includes how to configure each element of the header.</p>
 <ul>
-  <li><a href="https://wet-boew.github.io/GCWeb/sites/breadcrumbs/breadcrumbs-en.html">Breadcrumbs - GCWeb (WET) documentation</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/sites/header/header-docs-en.html">GCWeb (WET) header documentation</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">Quick implementation guide - GCWeb theme</a></li>
 </ul>
@@ -191,7 +146,7 @@ title: "Site search box"
           <summary><strong>CDTS</strong></summary>
           <p class="mrgn-tp-lg">For the Centrally Deployed Templates Solution (CDTS):</p>
           <ul>
-            <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_47/cdts/samples/breadcrumbs-en.html">Breadcrumbs - CDTS documentation </a></li>
+            <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_45/cdts/samples/custom-search-en.html">Custom search</a> - configuration options for the site search box</li>
             <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
           </ul>
         </details>
@@ -207,16 +162,15 @@ title: "Site search box"
   </div>
 </div>
 <div class="cnt-wdth-lmtd">
+  <h3>Configure search</h3>
+  <p>The Principal Publisher provides support for GC Search adoption, search configuration, indexing of web pages, functionality errors and other search related requests:</p>
+  <ul>
+    <li><a href="https://www.gcpedia.gc.ca/wiki/GC_Search_Support">GC Search Support (only available on the GC network)</a></li>
+  </ul>
   <h2 id="research">Research and rationale</h2>
-  <p>Consult research findings and policy rationale.</p>
-  <h3>Research findings</h3>
-  <p><a href="https://blog.canada.ca/2020/08/10/CanadaDotCa-trusted-source.html">Canada.ca is a trusted source</a><br>
-    Explains the decision to use “Canada.ca” as the label for the first link in the breadcrumb.</p>
-  <p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Wayfinding on Canada.ca research summary</a><br>
-    Research shows that people navigating on the site use breadcrumb links nearly twice as often as they use the Theme and topic menu.</p>
-  <p>Further design and research work to optimize the breadcrumb for mobile is planned.</p>
+  <p>Placing site search in the top-right corner of a web page is an established web convention.</p>
   <h3>Policy rationale</h3>
-  <p>As part of the global header, the breadcrumb is a mandatory element under the Content and Information Architecture Specification.</p>
+  <p>As part of the global header, the site search box is a mandatory element under the Content and Information Architecture Specification.</p>
   <ul>
     <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html">Mandatory elements of the design system</a></li>
   </ul>
