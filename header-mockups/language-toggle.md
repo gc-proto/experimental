@@ -104,16 +104,31 @@ title: "Language toggle"
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Global header with breadcrumb trail  - large screen</b></figcaption>
-    <img src="./images/glogal-header-breadcrumb-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button in a horizontal line. Text version below:">
+    <figcaption><b>Language toggle - large screen</b></figcaption>
+    <img src="./images/site-search-en.png" class="img-responsive" alt="Standard header of an English Canada.ca page with a highlight of the linked word Français in the top-right corner. Text version below:">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">On large screens, the global header has 4 rows:</p>
+      <p class="mrgn-tp-lg">Standard header of an English Canada.ca page with a highlight of the linked word Français in the top-right corner.</p>
       <ol>
         <li>Language toggle in the top-right corner</li>
         <li>Government of Canada signature in the left corner, site search box on the right</li>
         <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
         <li>Breadcrumb on the left</li>
+      </ol>
+    </details>
+  </figure>
+</div>
+<div class="pattern-demo mrgn-tp-lg">
+  <figure>
+    <figcaption><b>Global header – small screen</b></figcaption>
+    <img src="./images/glogal-header-breadcrumb-small-screen-en.png" class="img-responsive" alt="Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner. Text version below:">
+    <details>
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+      <p class="mrgn-tp-lg">Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner.</p>
+      <ol>
+        <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
+        <li>Site search box directly below, it spans the entire row</li>
+        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
       </ol>
     </details>
   </figure>
