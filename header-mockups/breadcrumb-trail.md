@@ -26,7 +26,7 @@ title: "Breadcrumb trail"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-12 pull-left">
-    <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
+    <ul class="list-inline small mrgn-bttm-sm" id="list-inline-desktop-only">
       <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
     </ul>
   </div>
