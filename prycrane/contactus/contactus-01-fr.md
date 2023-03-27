@@ -8,7 +8,7 @@ css:
 date: 2023-02-06
 dateModified: 2023-02-06
 description: "Contactez le Bureau de la transformation numérique au sujet du système de conception Canada.ca."
-lang: en
+lang: fr
 layout: form
 share: false
 nositesearch: true
