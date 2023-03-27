@@ -30,8 +30,7 @@ title: "Contact the Digital Transformation Office"
           <p>We collect the personal information you submit through this contact form under the authority of the Financial Administration Act, so we can respond to you. Providing the information requested on this form is voluntary. The personal information collected will be available to those program staff responsible for administering the website, and will be used and protected in accordance with the Privacy Act and as described in Personal Information Bank PSU 914 Public Communications. Under the Privacy Act, you have the right to the correction of, access to, and protection of your personal information. If you have any questions about this privacy statement, contact the TBS Access to Information and Privacy Coordinator. If you are not satisfied with TBS’s response to your privacy concern, you may wish to contact the Office of the Privacy Commissioner.</p>
         </div>
       </div>
-    </details>
-	      <h2>Contact information</h2>
+	  <h2>Contact information</h2>
 	      <p>Treasury Board’s ATIP Coordinator</p>
 	<ul>
 		<li>Telephone: 1-866-312-1511</li>
@@ -41,6 +40,13 @@ title: "Contact the Digital Transformation Office"
 	<ul>
 		<li><a href="Office of the Privacy Commissioner of Canada">Office of the Privacy Commissioner of Canada</a></li>
 	      </ul>
+	  <h2>References</h2>
+	  <ul>
+		  <li><a href="https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html">Privacy Act</a></li>
+		  <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu914">Personal Information Bank PSU 914 Communications</a></li>
+	  </ul>
+    </details>
+	      
         <form action="#" method="get" id="contact-dto" class="mrgn-tp-lg">
           <div class="wb-fieldflow gc-font-2019" data-wb-fieldflow='{"noForm": true, "renderas":"radio", "gcChckbxrdio":true}'>
             <p>Do you want us to contact you about your feedback?</p>
