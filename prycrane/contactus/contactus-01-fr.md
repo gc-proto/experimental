@@ -38,7 +38,7 @@ title: "Contactez le Bureau de la transformation numérique"
     	 </ul>
 	      <p>Autres coordonnées</p>
 	<ul>
-		<li><a href="https://www.priv.gc.ca/fr/communiquer-avec-le-commissariat/>"Office of the Privacy Commissioner of Canada">Commissariat à la protection de la vie privée du Canada</a></li>
+		<li><a href="https://www.priv.gc.ca/fr/communiquer-avec-le-commissariat/">Office of the Privacy Commissioner of Canada">Commissariat à la protection de la vie privée du Canada</a></li>
 	      </ul>
 	  <h2>Références</h2>
 	  <ul>
