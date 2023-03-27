@@ -1,5 +1,5 @@
 ---
-altLangPage: "contactus-01-fr.html"
+altLangPage: "contactus-01-en.html"
 breadcrumbs: false
 css:
 - https://design.canada.ca/css/split-h1.css
@@ -7,7 +7,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-02-06
 dateModified: 2023-02-06
-description: "Contact the Digital Transformation Office about the Canada.ca design system."
+description: "Contactez le Bureau de la transformation numérique au sujet du système de conception Canada.ca."
 lang: en
 layout: form
 share: false
@@ -16,34 +16,34 @@ nomenu: true
 showFeedback: false
 noReportProblem: true
 pageclass: cnt-wdth-lmtd
-title: "Contact the Digital Transformation Office"
+title: "Contactez le Bureau de la transformation numérique"
 ---
- <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contact the Digital Transformation Office</span>: <span>Canada.ca design</span></span></h1>
+ <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Contactez le Bureau de la transformation numérique</span>: <span>Conception de Canada.ca</span></span></h1>
   <div class="wb-frmvld">
     <div class="row">
       <div class="col-md-8">
-          <p class="gc-font-2019">Contact us to ask design questions or make suggestions about the design of Canada.ca.</p>
+          <p class="gc-font-2019">Communiquez avec nous pour poser des questions sur la conception de Canada.ca ou pour nous faire part de vos suggestions à ce sujet.</p>
   <details class="mrgn-tp-lg">
-      <summary>Information about Privacy</summary>
+      <summary>Information sur la confidentialité </summary>
       <div class="row mrgn-tp-lg">
         <div class="col-md-12">
-          <p>We collect the personal information you submit through this contact form under the authority of the Financial Administration Act, so we can respond to you. Providing the information requested on this form is voluntary. The personal information collected will be available to those program staff responsible for administering the website, and will be used and protected in accordance with the Privacy Act and as described in Personal Information Bank PSU 914 Public Communications. Under the Privacy Act, you have the right to the correction of, access to, and protection of your personal information. If you have any questions about this privacy statement, contact the TBS Access to Information and Privacy Coordinator. If you are not satisfied with TBS’s response to your privacy concern, you may wish to contact the Office of the Privacy Commissioner.</p>
+          <p>Nous recueillons les informations personnelles que vous soumettez par le biais de ce formulaire de contact en vertu de la Loi sur la gestion des finances publiques, afin de pouvoir vous répondre. La fourniture des informations demandées dans ce formulaire est volontaire. Les informations personnelles collectées seront accessibles au personnel du programme chargé de l'administration du site web et seront utilisées et protégées conformément à la Loi sur la protection des renseignements personnels et à la description du fichier de renseignements personnels intitulé Communications publiques (POU 914). En vertu de la Loi sur la protection des renseignements personnels, vous avez le droit de faire corriger vos informations personnelles, de demander l'accès à celles-ci et de faire protéger vos données personnelles. Si vous avez des questions concernant cette déclaration de confidentialité, contactez le coordonnateur de l'accès à l'information et de la protection de la vie privée du SCT. Si vous n'êtes pas satisfait de la réponse du SCT à vos préoccupations en matière de protection de la vie privée, vous pouvez contacter le Commissariat à la protection de la vie privée.</p>
         </div>
       </div>
-	  <h2>Contact information</h2>
-	      <p>Treasury Board’s ATIP Coordinator</p>
+	  <h2>Coordonnées</h2>
+	      <p>Coordonnateur de l’AIPRP du Secrétariat du Conseil du Trésor du Canada</p>
 	<ul>
-		<li>Telephone: 1-866-312-1511</li>
-		<li>email: <a href="mailto:ATIP.AIPRP@tbs-sct.gc.ca">ATIP.AIPRP@tbs-sct.gc.ca</a></li>
+		<li>Téléphone&nbsp;: 1-866-312-1511 1</li>
+		<li>Courriel&nbsp: <a href="mailto:ATIP.AIPRP@tbs-sct.gc.ca">ATIP.AIPRP@tbs-sct.gc.ca</a></li>
     	 </ul>
-	      <p>Other contacts</p>
+	      <p>Autres coordonnées</p>
 	<ul>
-		<li><a href="Office of the Privacy Commissioner of Canada">Office of the Privacy Commissioner of Canada</a></li>
+		<li><a href="https://www.priv.gc.ca/fr/communiquer-avec-le-commissariat/>"Office of the Privacy Commissioner of Canada">Commissariat à la protection de la vie privée du Canada</a></li>
 	      </ul>
-	  <h2>References</h2>
+	  <h2>Références</h2>
 	  <ul>
-		  <li><a href="https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html">Privacy Act</a></li>
-		  <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu914">Personal Information Bank PSU 914 Communications</a></li>
+		  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html">Loi sur la protection des renseignements personnels</a></li>
+		  <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou914">Fichier de renseignements personnels POU 914 - Communications publiques</a></li>
 	  </ul>
     </details>
 	      
