@@ -76,7 +76,7 @@ title: "Contactez le Bureau de la transformation numérique"
                     <input class="form-control full-width" id="subject1" name="subject1" type="text" data-rule-minlength="2">
                 </div>         
           <div class="form-group">
-            <label for="message" class="required gc-font-2019"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(required)</strong></label>
+            <label for="message" class="required gc-font-2019"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(requis)</strong></label>
             <div>
               <textarea class="form-control full-width required" rows="6" id="message" name="message"></textarea>
             </div>
