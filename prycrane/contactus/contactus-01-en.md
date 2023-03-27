@@ -35,7 +35,7 @@ title: "Contact the Digital Transformation Office"
 	      <p>Treasury Board’s ATIP Coordinator</p>
 	<ul>
 		<li>Telephone: 1-866-312-1511</li>
-		<li>email: <a href="mailtop:ATIP.AIPRP@tbs-sct.gc.ca">ATIP.AIPRP@tbs-sct.gc.ca</a></li>
+		<li>email: <a href="mailto:ATIP.AIPRP@tbs-sct.gc.ca">ATIP.AIPRP@tbs-sct.gc.ca</a></li>
     	 </ul>
 	      <p>Other contacts</p>
 	<ul>
