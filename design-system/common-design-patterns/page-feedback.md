@@ -18,7 +18,7 @@ title: "Page feedback tool"
 
 The feedback tool is an **optional** pattern to collect feedback on the page experience. It replaces the “Report a problem” pattern while actively collecting user feedback.
 
-![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](../images/page-feedback.png)
+![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](../images/feedback/page-feedback.png)
 
 ## On this page
 
