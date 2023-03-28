@@ -377,7 +377,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <h2 id="research">Research and rationale</h2>
 <h3>Policy rationale</h3>
-<p>The <a href="https://test.canada.ca/experimental/design-system/performance/feedback/index.html">Guideline for Service and Digital</a> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
+<p>The <cite>Guideline for Service and Digital</cite> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
 
 <h2 id="latest">Latest changes</h2>
 
