@@ -359,7 +359,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 </div>            
 </div>
 
-<section>
+
 <h3 id="guidance">Accessing and analyzing feedback</h3>
 
 <p>Feedback can be viewed and downloaded as CSV or Excel files at any time using the Feedback Viewer website.</p>
@@ -370,7 +370,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <p><a href="https://design.canada.ca/feedback/feedback.html">Full guidance for using and analyzing page feedback</a> <p>
 
-</section>
+
 
 
 
