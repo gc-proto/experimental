@@ -48,7 +48,7 @@ Consider adding the page feedback tool to:
 
 Avoid using the page feedback tools on pages where there is no plan to monitor comments or take action. We aslo don’t recommend using the tool within secure spaces.
 
-[Additional behaviours to avoid when analyzing feedback.](https://design.canada.ca/feedback/when.html#how-not-to-use-the-tool)
+[Additional behaviours to avoid when analyzing feedback](https://design.canada.ca/feedback/when.html#how-not-to-use-the-tool)
 
 ## Content and design
 
@@ -376,6 +376,10 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 
 <h2 id="research">Research and rationale</h2>
+
+<h3>Research findings</h3>
+<p><a href="https://blog.canada.ca/2020/10/09/collect-feedback.html">Blog post: Collect feedback, find issues</a></p>
+
 <h3>Policy rationale</h3>
 <p>The <cite>Guideline for Service and Digital</cite> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
 
