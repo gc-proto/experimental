@@ -361,9 +361,14 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <section>
 <h3 id="guidance">Accessing and analyzing feedback</h3>
+
+<p>Feedback can be viewed and downloaded as CSV or Excel files at any time using the Feedback Viewer website.</p>
+
+<p>The Feedback Viewer is a password protected environment available to all page feedback participants. Contact the DTO to access to the site.</p>
+
+<p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 <ul>
-  <li><a href="https://test.canada.ca/experimental/design-system/performance/feedback/index.html">Guidance for  analyzing, and using page feedback</a> calls for client feedback </li>
-  <li><a href="https://www.gcpedia.gc.ca/wiki/Page_feedback_tool-test#Access_to_feedback">How to access feedback</a> (internal only)</li>
+  <li><a href="https://design.canada.ca/feedback/feedback.html">Full guidance for  analyzing, and using page feedback</a> </li>
 </ul>
 </section>
 
