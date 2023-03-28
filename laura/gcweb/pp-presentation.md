@@ -72,11 +72,11 @@ title: "Global header documentation"
       </li>
     </ol>
     <p>Note on working examples: lack of consistency between what each link points to, should we re-title or adjust to be either true working examples or simple visual examples?</p>
-    <ul class="mrgn-tp-lg" start="2">
+    <ol class="mrgn-tp-lg" start="2">
       <li><a href="gcweb-01.html">Global header - mediun</a><br>
         Changes include code presentation and connection to appropriate Github repository</li>
-    </ul>
-    <ul class="mrgn-tp-lg" start="2">
+    </ol>
+    <ol class="mrgn-tp-lg" start="2">
       <li><a href="/experimental/catalina/proto-header.html">Global header - Advance "Dynamic template builder"</a><br>
         The Template builder asks how we can pull code based on a person's needs
         <ul>
@@ -85,7 +85,7 @@ title: "Global header documentation"
           <li>The breadcrumb option is missing</li>
         </ul>
       </li>
-    </ul>
+    </ol>
   </div>
   <div class="col-md-5">
     <div><img src="./images/dance1.png" alt="" class="img-responsive"></div>
