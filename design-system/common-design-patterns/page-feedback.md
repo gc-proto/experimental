@@ -11,8 +11,10 @@ dateModified: 2023-03-03
 layout: default
 title: "Page feedback tool"
 ---
-**Optional on standard pages**
 
+<p class="small">Last updated: March 28, 2023</p>
+
+<p><span class="label label-warning">Optional</span></p>
 
 The feedback tool is an **optional** pattern to collect feedback on the page experience. It replaces the “Report a problem” pattern while actively collecting user feedback.
 
@@ -44,13 +46,16 @@ Consider adding the page feedback tool to:
 
 ## What to avoid
 
-Avoid using the page feedback tools on pages where there is no plan to monitor comments or take action.
+Avoid using the page feedback tools on pages where there is no plan to monitor comments or take action. We aslo don’t recommend using the tool within secure spaces.
 
-[Additional behaviours to avoid when analyzing feedback.](https://test.canada.ca/experimental/feedback/when.html#not)
+[Additional behaviours to avoid when analyzing feedback.](https://design.canada.ca/feedback/when.html#how-not-to-use-the-tool)
 
 ## Content and design
 
-![](../images/page-feedback.png) ![](../images/description-en.jpg) Needs thank you image
+![](../images/feedback/page-feedback.png)
+![](../images/feedback/description-en.jpg)
+![](../images/feedback/thank-you-en.jpg)
+
 
 <details>
 <summary>Feedback tool</summary>
