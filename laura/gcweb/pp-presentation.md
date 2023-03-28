@@ -7,7 +7,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 - https://prycrane.github.io/experimental/prycrane/datatables/css/datatables-fun.css
 date: 2023-03-15
-dateModified: 2023-03-15
+dateModified: 2023-03-28
 description: "Continuous improvement of web content"
 lang: en
 layout: form
@@ -59,7 +59,7 @@ title: "Global header documentation"
         </ul>
       </li>
     </ul>
-    <ul class="mrgn-tp-lg">
+    <ol class="mrgn-tp-lg">
       <li><a href="gcweb-02.html">Global header - basic</a><br>
         Changes to the introduction and How to implement section only:
         <ul>
@@ -70,12 +70,14 @@ title: "Global header documentation"
           <li>addition of a transactional page working example as a lot of people need this</li>
         </ul>
       </li>
-    </ul>
+    </ol>
     <p>Note on working examples: lack of consistency between what each link points to, should we re-title or adjust to be either true working examples or simple visual examples?</p>
-    <ul class="mrgn-tp-lg">
+    <ul class="mrgn-tp-lg" start="2">
       <li><a href="gcweb-01.html">Global header - mediun</a><br>
         Changes include code presentation and connection to appropriate Github repository</li>
-      <li><a href="/experimental/catalina/proto-header.html">Global header - "Dynamic template builder"</a><br>
+    </ul>
+    <ul class="mrgn-tp-lg" start="2">
+      <li><a href="/experimental/catalina/proto-header.html">Global header - Advance "Dynamic template builder"</a><br>
         The Template builder asks how we can pull code based on a person's needs
         <ul>
           <li>Instead of having multiple pages as the footer, have all the code on one page</li>
