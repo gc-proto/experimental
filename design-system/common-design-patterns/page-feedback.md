@@ -119,7 +119,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <li>Save and publish your changes! </li>
 
-<li><mark>Remove this part??</mark> <strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to in order for feedback to populate the Airtable view.</li>
+<li><strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to.</li>
 
 <li><strong>For all pilots:</strong> Tell the DTO if you are adding a new section or theme, so we can add these filters into the Feedback Viewer.</li>
 
@@ -239,7 +239,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.8.1/css/all.css&quot; integrity=&quot;sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/li&gt;
  </code></pre>
 
-<li><mark>Remove this part??</mark><strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to in order for feedback to populate the Airtable view.</li>
+<li><strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to.</li>
 
 <li><strong>For all pilots:</strong> Tell the DTO if you are adding a new section or theme, so we can add these filters into the Feedback Viewer.</li>
 
