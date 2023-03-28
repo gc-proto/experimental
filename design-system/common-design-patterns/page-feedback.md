@@ -367,9 +367,9 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <p>The Feedback Viewer is a password protected environment available to all page feedback participants. Contact the DTO to access to the site.</p>
 
 <p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
-<ul>
-  <li><a href="https://design.canada.ca/feedback/feedback.html">Full guidance for  analyzing, and using page feedback</a> </li>
-</ul>
+
+<p><a href="https://design.canada.ca/feedback/feedback.html">Full guidance for using and analyzing page feedback</a> <p>
+
 </section>
 
 
