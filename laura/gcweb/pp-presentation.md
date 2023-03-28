@@ -76,7 +76,7 @@ title: "Global header documentation"
       <li><a href="gcweb-01.html">Global header - mediun</a><br>
         Changes include code presentation and connection to appropriate Github repository</li>
     </ol>
-    <ol class="mrgn-tp-lg" start="2">
+    <ol class="mrgn-tp-lg" start="3">
       <li><a href="/experimental/catalina/proto-header.html">Global header - Advance "Dynamic template builder"</a><br>
         The Template builder asks how we can pull code based on a person's needs
         <ul>
