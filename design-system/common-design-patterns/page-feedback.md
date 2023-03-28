@@ -65,10 +65,19 @@ Avoid using the page feedback tools on pages where there is no plan to monitor c
 <p>A heading labelled "Please provide more details", followed by the text "You will not receive a reply.
 Don't include personal information (telephone, email, SIN, financial, medical, or work details).
 Maximum 300 characters", and a text field to provide more details.</p>
+
+<p>A heading labelled "Thank you for your feedback"</p>
 </details>
 
 <h3>Content specifications</h3>
-<p><mark>Future content here about optional contact addition</mark></p>
+
+<h4>Interactions</h4>
+<p><strong>If a user selects "No"</strong> to the prompt "Did you find what you were looking for?" they will be shown an open text field to enter their comment. It begins with a heading labelled "Please provide more details", followed by the text "You will not receive a reply.
+Don't include personal information (telephone, email, SIN, financial, medical, or work details).
+Maximum 300 characters". After selecting "Submit", the user is shown a thank you message.</p>
+
+<p><strong>If a user selects "Yes"</strong> to the prompt "Did you find what you were looking for?" they will only be shown a thank you message.</p>
+
 <h2 id="how">How to implement</h2>
 
 <p>Add it to the bottom of a content page after the page content and before the date modified. </p>
