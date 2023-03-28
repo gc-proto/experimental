@@ -115,7 +115,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
     <li>Page title - required</li>
     </ul>
 
-<p><strong><span class="bg-warning">Important note!</span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
+<p><strong><span class="bg-warning">Important note! </span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
 
 <li>Save and publish your changes! </li>
 
@@ -229,7 +229,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <li>Page language (Use EN or FR) - required</li>
 </ul>
 
-<p><strong><span class="bg-warning">Important note!</span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
+<p><strong><span class="bg-warning">Important note! </span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
 
 <li>Add the Javascript just above the closing /body tag</li>
 
