@@ -60,7 +60,7 @@ title: "Global header documentation"
       </li>
     </ul>
     <ol class="mrgn-tp-lg">
-      <li><a href="gcweb-02.html">Global header - basic</a><br>
+      <li><a href="gcweb-02.html">Global header - Basic</a><br>
         Changes to the introduction and How to implement section only:
         <ul>
           <li>adding a table at the top to bring all “version statistics” together in one place (do people need this information?)</li>
@@ -73,11 +73,11 @@ title: "Global header documentation"
     </ol>
     <p>Note on working examples: lack of consistency between what each link points to, should we re-title or adjust to be either true working examples or simple visual examples?</p>
     <ol class="mrgn-tp-lg" start="2">
-      <li><a href="gcweb-01.html">Global header - mediun</a><br>
+      <li><a href="gcweb-01.html">Global header - Medium</a><br>
         Changes include code presentation and connection to appropriate Github repository</li>
     </ol>
     <ol class="mrgn-tp-lg" start="3">
-      <li><a href="/experimental/catalina/proto-header.html">Global header - Advance "Dynamic template builder"</a><br>
+      <li><a href="/experimental/catalina/proto-header.html">Global header - Advance (Dynamic template builder)</a><br>
         The Template builder asks how we can pull code based on a person's needs
         <ul>
           <li>Instead of having multiple pages as the footer, have all the code on one page</li>
