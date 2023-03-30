@@ -91,11 +91,12 @@ title: "Site search box"
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Site search box- large screen  - large screen</b></figcaption>
+    <figcaption><b>Site search box - large screen</b></figcaption>
     <img src="./images/site-search-en.png" class="img-responsive" alt="The search box appears in the top-right corner, underneath the language toggle and directly across from the Government of Canada signature. Text version below:">
-    <details>
-      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">The site search bar is a rectangle, defined by a light grey border. Within the rectangle are the words, ‘Search Canada.ca’.  To the right of the rectangle is a blue square with a white magnifying glass icon within.</p>
+    <details class="mrgn-tp-md">
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: site search box - large screen</summary>
+      <p class="mrgn-tp-lg">The search box appears in the top-right corner, underneath the language toggle and directly across from the Government of Canada signature. </p>
+      <p>The site search bar is a rectangle, defined by a light grey border. Within the rectangle are the words, ‘Search Canada.ca’.  To the right of the rectangle is a blue square with a white magnifying glass icon within.</p>
          </details>
   </figure>
 </div>
@@ -103,9 +104,10 @@ title: "Site search box"
   <figure>
     <figcaption><b>Site search box- small screen</b></figcaption>
     <img src="./images/site-search-sm-en.png" class="img-responsive" alt="The search box appears in the header, directly below the Government of Canada signature and the language toggle. It spans across the screen. Text version below:">
-    <details>
-      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">The site search bar is a rectangle, defined by a light grey border. Within the rectangle are the words, ‘Search Canada.ca’.  To the right of the rectangle is a blue square with a white magnifying glass icon within. </p"
+    <details class="mrgn-tp-md">
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: site search box - small screen</summary>
+      <p class="mrgn-tp-lg">The search box appears in the header, directly below the Government of Canada signature and the language toggle. It spans across the screen.</p>
+      <p>The site search bar is a rectangle, defined by a light grey border. Within the rectangle are the words, ‘Search Canada.ca’.  To the right of the rectangle is a blue square with a white magnifying glass icon within. </p>
     </details>
   </figure>
 </div>
@@ -170,9 +172,3 @@ title: "Site search box"
     </dt>
     <dd>Updated the guidance to include content and design specifications, visual examples and implementation guidance</dd>
   </dl>
-  <h2 id="discussion">Discussion</h2>
-  <ul>
-    <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in GitHub Issues</a></li>
-    <li><a href="http://design-GC-conception.slack.com">Join the conversation on Slack</a></li>
-  </ul>
-</div>
