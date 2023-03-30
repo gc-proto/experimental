@@ -40,6 +40,19 @@ title: "Header mockups"
         </ul>
       </div>
     </div>
+    <h3 class="h4">Theme and topic menu</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="site-menu.html">Theme and topic menu (English mockup)</a></li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="menu-site.html">Menu thématique (French mockup)</a></li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/19pvL4oNCZZyN1jBClhH7VlAZuPrm7Nh_ZYkbX3lAcwM">Theme and topic menu (doc)</a></li>
+        </ul>
+      </div>
+    </div>    
     <h3 class="h4">Breadcrumbs</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="breadcrumb-trail.html">Breadcrumb trail (English mockup)</a></li>
