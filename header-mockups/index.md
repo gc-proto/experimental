@@ -1,5 +1,5 @@
 ---
-altLangPage: "#"
+altLangPage: false
 breadcrumbs:
   - title: Peter's warrren
     link: "https://prycrane.github.io/experimental/prycrane/"
