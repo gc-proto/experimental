@@ -45,7 +45,6 @@ title: "Breadcrumb trail"
     <li><a href="#implementation">How to implement</a></li>
     <li><a href="#research">Research and rationale</a></li>
     <li><a href="#changes">Latest changes</a></li>
-    <li><a href="#discussion">Discussion</a></li>
   </ul>
 </section>
 <h2 id="when">When to use</h2>
@@ -109,8 +108,7 @@ title: "Breadcrumb trail"
 <p>Code breadcrumbs as an ordered list</p>
 <h4>Examples</h4>
 <p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
-<h5>Services and information content<br>
-  Theme pages, institutional and organizational pages</h5>
+<h5>Theme pages, institutional and organizational pages</h5>
 <p>Canada.ca</p>
 <h5>First-level topic pages</h5>
 <p>Canada.ca   &#8250;   [Parent theme]</p>
@@ -118,13 +116,11 @@ title: "Breadcrumb trail"
 <p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]</p>
 <h5>Destination content pages</h5>
 <p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]   &#8250;  [Parent sub-topic]   &#8250;   [etc.]</p>
-<h5>Corporate, program and policy content<br>
-  Corporate, program or policy content pages</h5>
+<h5>Corporate, program or policy content pages</h5>
 <p>Canada.ca   &#8250;   [Institutional profile page]</p>
 <h5>Partnering and collaborative arrangement profile pages</h5>
 <p>Canada.ca</p>
-<h5>Search results pages<br>
-  Basic search pages</h5>
+<h5>Basic search pages</h5>
 <p>Canada.ca</p>
 <h5>Advanced search pages</h5>
 <p>Canada.ca   &#8250;   [Basic search]</p>
@@ -136,32 +132,21 @@ title: "Breadcrumb trail"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Global header with breadcrumb trail  - large screen</b></figcaption>
-    <img src="./images/breadcrumb-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button in a horizontal line. Text version below:">
-    <details>
-      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">On large screens, the global header has 4 rows:</p>
-      <ol>
-        <li>Language toggle in the top-right corner</li>
-        <li>Government of Canada signature in the left corner, site search box on the right</li>
-        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
-        <li>Breadcrumb on the left</li>
-      </ol>
+    <img src="./images/breadcrumb-en.png" class="img-responsive" alt=" ">
+    <details class="mrgn-tp-md">
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header with breadcrumb trail  - large screen</summary>
+      <p class="mrgn-tp-lg">The breadcrumbs appear under the menu button in a horizontal line.</p>
     </details>
   </figure>
 </div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="./images/breadcrumb-sm-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
-    <details>
-      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
-      <ol>
-        <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
-        <li>Site search box directly below, it spans the entire row</li>
-        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
-      </ol>
-    </details>
+    <img src="./images/breadcrumb-sm-en.png" class="img-responsive" alt=" ">
+    <details class="mrgn-tp-md">
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header with breadcrumb trail  - small screen</summary>
+      <p class="mrgn-tp-lg">The breadcrumbs appear under the menu button.</p>
+      </details>
   </figure>
 </div>
 <h2 id="implementation">How to implement</h2>
@@ -227,9 +212,3 @@ title: "Breadcrumb trail"
     </dt>
     <dd>Updated the guidance to include content and design specifications, visual examples and implementation guidance</dd>
   </dl>
-  <h2 id="discussion">Discussion</h2>
-  <ul>
-    <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in GitHub Issues</a></li>
-    <li><a href="http://design-GC-conception.slack.com">Join the conversation on Slack</a></li>
-  </ul>
-</div>
