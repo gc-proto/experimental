@@ -82,21 +82,20 @@ title: "Government of Canada signature"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Government of Canada signature - large screen</b></figcaption>
-    <img src="./images/sig-en.png" class="img-responsive" alt="Global header with signature. Text version below:">
+    <img src="./images/sig-en.png" class="img-responsive" alt="">
     <details>
-      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Government of Canada signature - large screen</summary>
       <p class="mrgn-tp-lg">The Government of Canada signature is in the top-left corner of the website. It is composed of the flag symbol in red, followed by the words <strong>Government of Canada</strong> in English and <strong>Gouvernement du Canada</strong> in French, both in black text.</p>
-      </ol>
     </details>
   </figure>
 </div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="./images/sig-sm-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
+    <figcaption><b>Government of Canada signature - small screen</b></figcaption>
+    <img src="./images/sig-sm-en.png" class="img-responsive" alt="">
     <details>
-      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">The Government of Canada signature is in the top-left corner of the website. It is composed of the flag symbol in red, followed by the words Government of Canada in English and Gouvernement du Canada in French, both in black text.</p>
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Government of Canada signature - small screen</summary>
+      <p class="mrgn-tp-lg">The Government of Canada signature is in the top-left corner of the website. It is composed of the flag symbol in red, followed by the words <strong>Government of Canada</strong> in English and <strong>Gouvernement du Canada</strong> in French, both in black text.</p>
     </details>
   </figure>
 </div>
@@ -162,8 +161,3 @@ title: "Government of Canada signature"
   </dt>
   <dd>Updated the guidance to include content and design specifications, visual examples and implementation guidance</dd>
 </dl>
-<h2 id="discussion">Discussion</h2>
-<ul>
-  <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in GitHub Issues</a></li>
-  <li><a href="http://design-GC-conception.slack.com">Join the conversation on Slack</a></li>
-</ul>
