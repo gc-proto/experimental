@@ -17,7 +17,7 @@ css:
 date: 2022-08-17
 dateModified: 2023-03-21
 description: "Guidance about using breadcrumbs on Canada.ca. The breadcrumb trail provides a series of navigational links that gives people a sense of where they are in relation to the site structure."
-lang: en
+language: en
 layout: without-h1
 share: true
 pageclass: cnt-wdth-lmtd
