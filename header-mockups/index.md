@@ -48,7 +48,7 @@ title: "Header mockups"
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
-          <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kQBG37Kf7qNRaieREX0CAbqU-C2TrHj4o-G_sKRXZXQ">Breadcrumbs (doc)</a></li>
         </ul>
       </div>
@@ -61,7 +61,7 @@ title: "Header mockups"
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
-          <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1D_xnDomYifrpJ371mX1VtWXeElSfaXItJewRV174fUI">Government of Canada signature (doc)</a></li>
         </ul>
       </div>
@@ -74,7 +74,7 @@ title: "Header mockups"
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
-          <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1-A7MCAltGdGiSMBpUBW_Om9Hm4GX-l741Cq-8QIesaY">Site search box (doc)</a></li>
         </ul>
       </div>
@@ -87,7 +87,7 @@ title: "Header mockups"
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
-          <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1JhCyTzntbbzMLmfzlqWqOvpEyby7dslDhWPosBwG2Ag">Language toggle link (doc)</a></li>
         </ul>
       </div>
