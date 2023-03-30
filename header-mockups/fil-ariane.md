@@ -15,7 +15,7 @@ css:
 date: 2022-08-17
 dateModified: 2023-03-20
 description: ""
-lang: en
+language: fr
 layout: without-h1
 share: true
 pageclass: cnt-wdth-lmtd1
