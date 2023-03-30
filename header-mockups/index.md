@@ -31,35 +31,35 @@ title: "Header mockups"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header (current page)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1iKcrU1l3sB6wAPEGzMe1H0xrGkhdOo7U8PNTr3b-Ktg">Global header guidance (doc)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header.html">Global header (mockup)</a></li>
+      <li class="mrgn-tp-lg"><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header.html">Global header (mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="en-tete-general.html">En-tête global (mockup)</a></li>
     </ul>
     <h3 class="h4">Breadcrumbs</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail (current page)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kQBG37Kf7qNRaieREX0CAbqU-C2TrHj4o-G_sKRXZXQ">Breadcrumbs (doc)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="breadcrumb-trail.html">Breadcrumb trail (mockup)</a></li>
+      <li class="mrgn-tp-lg"><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="breadcrumb-trail.html">Breadcrumb trail (mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="fil-ariane.html">Fil d'Ariane (mockup)</a></li>
     </ul>
     <h3 class="h4">GC signature</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature (current page)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1D_xnDomYifrpJ371mX1VtWXeElSfaXItJewRV174fUI">Government of Canada signature (doc)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="signature.html">Government of Canada signature (mockup)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="signature-fr.html">Fil d'Ariane (mockup)</a></li>
+      <li class="mrgn-tp-lg"><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="signature.html">Government of Canada signature (mockup)</a></li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="signature-fr.html">Signature du gouvernement du Canada (mockup)</a></li>
     </ul>
     <h3 class="h4">Site search box</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box (current page)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1-A7MCAltGdGiSMBpUBW_Om9Hm4GX-l741Cq-8QIesaY">Site search box (doc)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="search-box.html">Site search box (mockup)</a></li>
+      <li class="mrgn-tp-lg"><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="search-box.html">Site search box (mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="champ-recherche.html">Champ de recherche du site (mockup)</a></li>
     </ul>
     <h3 class="h4">Language toggle</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link (current page)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1JhCyTzntbbzMLmfzlqWqOvpEyby7dslDhWPosBwG2Ag">Language toggle link (doc)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="language-toggle.html">Language toggle link (mockup)</a></li>
+      <li class="mrgn-tp-lg"><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="language-toggle.html">Language toggle link (mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="changer-langue.html">Lien pour changer de langue (mockup)</a></li>
     </ul>
   </div>
