@@ -52,19 +52,19 @@ title: "Theme and topic menu"
 <h3>Current situation</h3>
 <p>Apply the theme and topic menu as follows:</p>
 <ul>
-  <li>campaign pages optional</li>
-  <li>transactional pages optional but not recommended</li>
-  <li>theme and topic pages mandatory</li>
+  <li><strong>campaign pages</strong> optional</li>
+  <li><strong>transactional pages</strong> optional but not recommended</li>
+  <li><strong>theme and topic pages</strong> mandatory</li>
 </ul>
-<p>On standard destination pages and institutional landing pages, the theme and topic menu is mandatory until ALL the following conditions are met:</p>
+<p>On <strong>standard destination pages</strong> and <strong>institutional landing pages</strong>, the theme and topic menu is mandatory until ALL the following conditions are met:</p>
 <ul>
-  <li>the page has the 2023 global footer</li>
+  <li>the page has the 2023 <a href="site-footer.html">global footer</a></li>
   <li>the menu regularly receives less than 1% of clicks within a group of related pages
     <ul>
       <li>if you’re adopting the design for the first time, you don’t need to add the menu</li>
     </ul>
   </li>
-  <li>you’ve added a contextual Sign in button where it’s relevant to the content</li>
+  <li>you’ve added a <a href="contextual-signin.html">contextual Sign in button</a> where it’s relevant to the content</li>
 </ul>
 <p>A group of pages might be an entire theme, all the pages related to a specific program or service, or all the pages related to a single organization.</p>
 <h3>Future state</h3>
