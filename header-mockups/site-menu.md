@@ -77,36 +77,54 @@ title: "Theme and topic menu"
 <h2 id="content">Content and design</h2>
 <p>The theme and topic menu consists of 3 integrated elements - the menu button which opens and closes the menu, the theme list that allows for choosing between themes, and the flyout that presents topics and most requested links for each theme.</p>
 <h3>Content specifications</h3>
-<ul>
-  <li>Align the breadcrumb trail to the left directly below the menu button (or the divider line if there is no menu button)</li>
-  <li>Use “Canada.ca” as the text of the first breadcrumb link on standard and campaign pages
+<ol>
+  <li>Menu button:
     <ul>
-      <li>Link to the Canada.ca home page in the language of the current page</li>
+      <li>label is “MENU” with a downwards caret</li>
     </ul>
   </li>
-  <li>You can use either “Home” or the name of the process or application as the text of the first breadcrumb link on transactional pages that use a breadcrumb trail
+  <li>Theme list, which includes the 15 main Canada.ca themes in the following order:
     <ul>
-      <li>Link to the starting page of the process or the landing page of the application</li>
+      <li>Jobs and the workplace</li>
+      <li>Immigration and citizenship</li>
+      <li>Travel and tourism</li>
+      <li>Business and industry</li>
+      <li>Benefits</li>
+      <li>Health</li>
+      <li>Taxes</li>
+      <li>Environment and natural resources</li>
+      <li>National security and defence</li>
+      <li>Culture, history and sport</li>
+      <li>Policing, justice and emergencies</li>
+      <li>Transport and infrastructure</li>
+      <li>Canada and the world</li>
+      <li>Money and finances</li>
+      <li>Science and innovation</li>
     </ul>
   </li>
-  <li>Use a single right chevron glyphicon to separate each breadcrumb link</li>
-  <li>Reflect the title of the page in the breadcrumb label
+  <li>Flyout:
+    <p>Hovering or clicking on one of the 15 themes reveals a flyout containing:</p>
     <ul>
-      <li>Shorten breadcrumb labels where possible to improve readability and reduce space</li>
+      <li>a link to the landing page for the theme itself</li>
+      <li>first-level topics within that theme</li>
+      <li>Most requested links based on the highest demand items for that theme</li>
     </ul>
   </li>
-</ul>
-<p>For example, these breadcrumbs:</p>
-<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply for Canadian citizenship &#8250; Prepare for the Canadian citizenship test and interview</p>
-<p>Can be shortened to this:</p>
-<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply &#8250; Prepare for the test and interview</p>
-<h4>Accessibility</h4>
-<ul>
-  <li>Include “You are here:” as invisible help text</li>
-</ul>
+</ol>
+<p>Topics and Most requested links should appear in the same order on both the menu and the theme page.</p>
 <h4>Interactions</h4>
+<h5>Large screens</h5>
 <ul>
-  <li>When selected, each breadcrumb should bring the user to a unique page</li>
+  <li>Clicking on the menu button expands the theme list element with the Jobs flyout open</li>
+  <li>Once opened, hovering or clicking on one of the 15 themes reveals a flyout for that theme</li>
+  <li>Clicking on the menu a second time closes it</li>
+</ul>
+<h5>Small screens</h5>
+<ul>
+  <li>Tapping the menu button expands the theme list as a series of submenu options</li>
+  <li>Tapping any theme option expands the list of topics for that theme and reveals another submenu option for the Most requested</li>
+  <li>Tapping the Most requested option expands the list of most requested links for that theme</li>
+  <li>Tapping any expanded item again will close it</li>
 </ul>
 <h3>Design specifications</h3>
 <p>Design specifications for the breadcrumbs are:</p>
