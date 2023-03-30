@@ -46,7 +46,6 @@ title: "Government of Canada signature"
     <li><a href="#implementation">How to implement</a></li>
     <li><a href="#research">Research and rationale</a></li>
     <li><a href="#changes">Latest changes</a></li>
-    <li><a href="#discussion">Discussion</a></li>
   </ul>
 </section>
 <h2 id="when">When to use</h2>
