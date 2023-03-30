@@ -105,46 +105,30 @@ title: "Language toggle"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Language toggle (English page) - large screen</b></figcaption>
-    <img src="./images/lang-toggle-en.png" class="img-responsive" alt="Standard header of an English Canada.ca page with a highlight of the linked word Français in the top-right corner. Text version below:">
-    <details>
-      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">Standard header of an English Canada.ca page with a highlight of the linked word Français in the top-right corner.</p>
-      <ol>
-        <li>Language toggle in the top-right corner</li>
-        <li>Government of Canada signature in the left corner, site search box on the right</li>
-        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
-        <li>Breadcrumb on the left</li>
-      </ol>
+    <img src="./images/lang-toggle-en.png" class="img-responsive" alt="">
+    <details class="mrgn-tp-md">
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: language toggle (English page) - large screen</summary>
+      <p class="mrgn-tp-lg">Standard header of an English Canada.ca page with a highlight of the linked word Français in the top-right corner</p>
     </details>
   </figure>
 </div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Language toggle (French page) - large screen</b></figcaption>
-    <img src="./images/lang-toggle-fr.png" class="img-responsive" alt="Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner. Text version below:">
-    <details>
-      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner.</p>
-      <ol>
-        <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
-        <li>Site search box directly below, it spans the entire row</li>
-        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
-      </ol>
+    <img src="./images/lang-toggle-fr.png" class="img-responsive" alt="">
+    <details class="mrgn-tp-md">
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: language toggle (French page) - large screen</summary>
+      <p class="mrgn-tp-lg">tandard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner</p>
     </details>
   </figure>
 </div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
-    <figcaption><b>Global header – small screen</b></figcaption>
-    <img src="./images/lang-toggle-small-en.png" class="img-responsive" alt="The breadcrumbs appear under the menu button. Text version below:">
-    <details>
-      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
-      <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
-      <ol>
-        <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
-        <li>Site search box directly below, it spans the entire row</li>
-        <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
-      </ol>
+    <figcaption><b>Language toggle - small screen</b></figcaption>
+    <img src="./images/lang-toggle-small-en.png" class="img-responsive" alt="">
+    <details class="mrgn-tp-md">
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: language toggle - small screen</summary>
+      <p class="mrgn-tp-lg">Standard header of an English Canada.ca page with a highlight of the linked abbreviation FR in the top-right corner</p>
     </details>
   </figure>
 </div>
