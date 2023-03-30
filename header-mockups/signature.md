@@ -82,7 +82,7 @@ title: "Government of Canada signature"
   <figure>
     <figcaption><b>Government of Canada signature - large screen</b></figcaption>
     <img src="./images/sig-en.png" class="img-responsive" alt="">
-    <details>
+    <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Government of Canada signature - large screen</summary>
       <p class="mrgn-tp-lg">The Government of Canada signature is in the top-left corner of the website. It is composed of the flag symbol in red, followed by the words <strong>Government of Canada</strong> in English and <strong>Gouvernement du Canada</strong> in French, both in black text.</p>
     </details>
@@ -92,7 +92,7 @@ title: "Government of Canada signature"
   <figure>
     <figcaption><b>Government of Canada signature - small screen</b></figcaption>
     <img src="./images/sig-sm-en.png" class="img-responsive" alt="">
-    <details>
+    <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Government of Canada signature - small screen</summary>
       <p class="mrgn-tp-lg">The Government of Canada signature is in the top-left corner of the website. It is composed of the flag symbol in red, followed by the words <strong>Government of Canada</strong> in English and <strong>Gouvernement du Canada</strong> in French, both in black text.</p>
     </details>
