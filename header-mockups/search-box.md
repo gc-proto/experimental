@@ -1,5 +1,5 @@
 ---
-altLangPage: "/resumes-recherche/design-conversationnel"
+altLangPage: "https://conception.canada.ca/configurations-conception-communes/champ-recherche.html"
 author: Treasury Board Secretariat of Canada
 breadcrumbs:
   - title: "About Canada.ca"
