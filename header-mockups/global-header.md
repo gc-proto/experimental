@@ -259,7 +259,7 @@ title: "Global header"
       <figure>
         <figcaption><b>Global header – large screen</b></figcaption>
         <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="">
-        <details>
+        <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Global header – large screen</summary>
           <p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
           <ol>
@@ -275,7 +275,7 @@ title: "Global header"
       <figure>
         <figcaption><b>Global header – small screen</b></figcaption>
         <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="">
-        <details class="mrgn-tp-lg">
+        <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Global header – small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
           <ol>
