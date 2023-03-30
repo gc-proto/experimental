@@ -32,55 +32,65 @@ title: "Header mockups"
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header.html">Global header (English mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="en-tete-general.html">En-tête global (French mockup)</a></li>
     </ul>
-    <div class="well mrgn-tp-lg col-md-8">
-      <ul class="fa-ul">
-        <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header (current page)</a></li>
-        <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1iKcrU1l3sB6wAPEGzMe1H0xrGkhdOo7U8PNTr3b-Ktg">Global header guidance (doc)</a></li>
-      </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1iKcrU1l3sB6wAPEGzMe1H0xrGkhdOo7U8PNTr3b-Ktg">Global header guidance (doc)</a></li>
+        </ul>
+      </div>
     </div>
     <h3 class="h4">Breadcrumbs</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="breadcrumb-trail.html">Breadcrumb trail (English mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="fil-ariane.html">Fil d'Ariane (French mockup)</a></li>
     </ul>
-    <div class="well mrgn-tp-lg col-md-8">
-      <ul class="fa-ul">
-        <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail (current page)</a></li>
-        <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kQBG37Kf7qNRaieREX0CAbqU-C2TrHj4o-G_sKRXZXQ">Breadcrumbs (doc)</a></li>
-      </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kQBG37Kf7qNRaieREX0CAbqU-C2TrHj4o-G_sKRXZXQ">Breadcrumbs (doc)</a></li>
+        </ul>
+      </div>
     </div>
     <h3 class="h4">GC signature</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="signature.html">Government of Canada signature (English mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="signature-fr.html">Signature du gouvernement du Canada (French mockup)</a></li>
     </ul>
-    <div class="well mrgn-tp-lg col-md-8">
-      <ul class="fa-ul">
-        <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature (current page)</a></li>
-        <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1D_xnDomYifrpJ371mX1VtWXeElSfaXItJewRV174fUI">Government of Canada signature (doc)</a></li>
-      </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1D_xnDomYifrpJ371mX1VtWXeElSfaXItJewRV174fUI">Government of Canada signature (doc)</a></li>
+        </ul>
+      </div>
     </div>
     <h3 class="h4">Site search box</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="search-box.html">Site search box (English mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="champ-recherche.html">Champ de recherche du site (French mockup)</a></li>
     </ul>
-    <div class="well mrgn-tp-lg col-md-8">
-      <ul class="fa-ul">
-        <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box (current page)</a></li>
-        <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1-A7MCAltGdGiSMBpUBW_Om9Hm4GX-l741Cq-8QIesaY">Site search box (doc)</a></li>
-      </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1-A7MCAltGdGiSMBpUBW_Om9Hm4GX-l741Cq-8QIesaY">Site search box (doc)</a></li>
+        </ul>
+      </div>
     </div>
     <h3 class="h4">Language toggle</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="language-toggle.html">Language toggle link (English mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="changer-langue.html">Lien pour changer de langue (French mockup)</a></li>
     </ul>
-    <div class="well mrgn-tp-lg col-md-8">
-      <ul class="fa-ul">
-        <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link (current page)</a></li>
-        <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1JhCyTzntbbzMLmfzlqWqOvpEyby7dslDhWPosBwG2Ag">Language toggle link (doc)</a></li>
-      </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1JhCyTzntbbzMLmfzlqWqOvpEyby7dslDhWPosBwG2Ag">Language toggle link (doc)</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="col-md-4">
