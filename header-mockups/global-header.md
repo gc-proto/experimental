@@ -275,7 +275,7 @@ title: "Global header"
       <figure>
         <figcaption><b>Global header – small screen</b></figcaption>
         <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="">
-        <details>
+        <details class="mrgn-tp-lg">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Global header – small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
           <ol>
@@ -294,7 +294,7 @@ title: "Global header"
       <figure>
         <figcaption><b>Minimum global header - large screen</b></figcaption>
         <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-desktop-en.png" class="img-responsive" alt="">
-        <details>
+        <details class="mrgn-tp-lg">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - large screen</summary>
           <p class="mrgn-tp-lg">On large screens, the minimum global header on a transactional page has 2 rows:</p>
           <ol>
@@ -308,7 +308,7 @@ title: "Global header"
       <figure>
         <figcaption><b>Minimum global header - small screen</b></figcaption>
         <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-small-en.png" class="img-responsive" alt="">
-        <details>
+        <details class="mrgn-tp-lg">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the minimum global header on a transactional page has a single row:</p>
           <ol>
@@ -324,7 +324,7 @@ title: "Global header"
       <figure>
         <figcaption><b>Minimum global header - large screen</b></figcaption>
         <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-desktop-en.png" class="img-responsive" alt="">
-        <details>
+        <details class="mrgn-tp-lg">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - large screen</summary>
           <p class="mrgn-tp-lg">On large screens, the minimum global header on a campaign page has 3 rows:</p>
           <ol>
@@ -339,7 +339,7 @@ title: "Global header"
       <figure>
         <figcaption><b>Minimum global header - small screen</b></figcaption>
         <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-small-en.png" class="img-responsive" alt="">
-        <details>
+        <details class="mrgn-tp-lg">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the minimum global header on a campaign page has 3 rows:</p>
           <ol>
