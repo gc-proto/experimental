@@ -83,7 +83,7 @@ title: "Theme and topic menu"
       <li>label is “MENU” with a downwards caret</li>
     </ul>
   </li>
-  <li>Theme list, which includes the 15 main Canada.ca themes in the following order:
+  <li class="mrgn-tp-lg">Theme list, which includes the 15 main Canada.ca themes in the following order:
     <ul>
       <li>Jobs and the workplace</li>
       <li>Immigration and citizenship</li>
@@ -102,7 +102,7 @@ title: "Theme and topic menu"
       <li>Science and innovation</li>
     </ul>
   </li>
-  <li>Flyout:
+  <li class="mrgn-tp-lg">Flyout:
     <p>Hovering or clicking on one of the 15 themes reveals a flyout containing:</p>
     <ul>
       <li>a link to the landing page for the theme itself</li>
