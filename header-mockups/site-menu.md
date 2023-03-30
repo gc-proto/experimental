@@ -31,10 +31,10 @@ title: "Theme and topic menu"
     </ul>
   </div>
 </div>
-<p><span class="label label-danger">Mandatory on standard and campaign pages</span></p>
-<p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
+<p><span class="label label-danger">Mandatory on standard pages</span></p>
+<p>The theme and topic menu provides access to the top tasks from all Government of Canada websites grouped under the main themes of Canada.ca.</p>
 <div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-sm"><img src="./images/breadcrumb-en.png" class="img-responsive" alt=""></figure>
+  <figure class="mrgn-bttm-sm"><img src="./images/theme-menu-flyout-en.png" class="img-responsive" alt=""></figure>
 </div>
 <section>
   <h2>On this page</h2>
@@ -48,13 +48,34 @@ title: "Theme and topic menu"
   </ul>
 </section>
 <h2 id="when">When to use</h2>
-<p>The breadcrumb trail is mandatory on all pages, except transactional pages.</p>
+<p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. The theme and topic menu is in transition. To find out more about this project, visit the <a href="#research">Research and rationale</a> section on this page. </p>
+<h3>Current situation</h3>
+<p>Apply the theme and topic menu as follows:</p>
+<ul>
+  <li>campaign pages optional</li>
+  <li>transactional pages optional but not recommended</li>
+  <li>theme and topic pages mandatory</li>
+</ul>
+<p>On standard destination pages and institutional landing pages, the theme and topic menu is mandatory until ALL the following conditions are met:</p>
+<ul>
+  <li>the page has the 2023 global footer</li>
+  <li>the menu regularly receives less than 1% of clicks within a group of related pages
+    <ul>
+      <li>if you’re adopting the design for the first time, you don’t need to add the menu</li>
+    </ul>
+  </li>
+  <li>you’ve added a contextual Sign in button where it’s relevant to the content</li>
+</ul>
+<p>A group of pages might be an entire theme, all the pages related to a specific program or service, or all the pages related to a single organization.</p>
+<h3>Future state</h3>
+<p>Eventually we will retire the theme and topic menu pattern. The theme page links are in the main band of the global footer.</p>
 <h2 id="avoid">What to avoid</h2>
-<p>Don’t program the breadcrumb trail to be generated dynamically based on a visitor’s journey to a page. It should represent the location of a page as it stands in relation to the site’s navigation model.</p>
-<p>Avoid long link labels. Use a shortened version of the page title if necessary.</p>
-<p>Don’t display the current page at the end of the breadcrumb trail (linked or unlinked). It increases the length of the breadcrumb unnecessarily, especially on mobile. The heading of the page is enough to let people know where they are.</p>
+<p>Don’t repurpose the Theme and topic menu for other navigation. The menu is a global navigation tool. It’s confusing for users if it behaves differently depending on where they are in the site.</p>
+<p>Don’t remove it from standard destination pages before you meet the conditions above.</p>
+<p>Don’t change the style or colour scheme.</p>
+<p>Don’t put additional links or text in the flyout.</p>
 <h2 id="content">Content and design</h2>
-<p>Find content and design specifications and visual examples.</p>
+<p>The theme and topic menu consists of 3 integrated elements - the menu button which opens and closes the menu, the theme list that allows for choosing between themes, and the flyout that presents topics and most requested links for each theme.</p>
 <h3>Content specifications</h3>
 <ul>
   <li>Align the breadcrumb trail to the left directly below the menu button (or the divider line if there is no menu button)</li>
@@ -146,7 +167,7 @@ title: "Theme and topic menu"
     <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header with breadcrumb trail  - small screen</summary>
       <p class="mrgn-tp-lg">The breadcrumbs appear under the menu button.</p>
-      </details>
+    </details>
   </figure>
 </div>
 <h2 id="implementation">How to implement</h2>
@@ -191,24 +212,23 @@ title: "Theme and topic menu"
     </div>
   </div>
 </div>
-<div class="cnt-wdth-lmtd">
-  <h2 id="research">Research and rationale</h2>
-  <p>Consult research findings and policy rationale.</p>
-  <h3>Research findings</h3>
-  <p><a href="https://blog.canada.ca/2020/08/10/CanadaDotCa-trusted-source.html">Canada.ca is a trusted source</a><br>
-    Explains the decision to use “Canada.ca” as the label for the first link in the breadcrumb.</p>
-  <p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Wayfinding on Canada.ca research summary</a><br>
-    Research shows that people navigating on the site use breadcrumb links nearly twice as often as they use the Theme and topic menu.</p>
-  <p>Further design and research work to optimize the breadcrumb for mobile is planned.</p>
-  <h3>Policy rationale</h3>
-  <p>As part of the global header, the breadcrumb is a mandatory element under the Content and Information Architecture Specification.</p>
-  <ul>
-    <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html">Mandatory elements of the design system</a></li>
-  </ul>
-  <h2 id="changes">Latest changes</h2>
-  <dl class="dl-horizontal">
-    <dt>
-      <time datetime="2023-MM-DD" class="link-muted">2023-MM-DD</time>
-    </dt>
-    <dd>Updated the guidance to include content and design specifications, visual examples and implementation guidance</dd>
-  </dl>
+<h2 id="research">Research and rationale</h2>
+<p>Consult research findings and policy rationale.</p>
+<h3>Research findings</h3>
+<p><a href="https://blog.canada.ca/2020/08/10/CanadaDotCa-trusted-source.html">Canada.ca is a trusted source</a><br>
+  Explains the decision to use “Canada.ca” as the label for the first link in the breadcrumb.</p>
+<p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Wayfinding on Canada.ca research summary</a><br>
+  Research shows that people navigating on the site use breadcrumb links nearly twice as often as they use the Theme and topic menu.</p>
+<p>Further design and research work to optimize the breadcrumb for mobile is planned.</p>
+<h3>Policy rationale</h3>
+<p>As part of the global header, the breadcrumb is a mandatory element under the Content and Information Architecture Specification.</p>
+<ul>
+  <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html">Mandatory elements of the design system</a></li>
+</ul>
+<h2 id="changes">Latest changes</h2>
+<dl class="dl-horizontal">
+  <dt>
+    <time datetime="2023-MM-DD" class="link-muted">2023-MM-DD</time>
+  </dt>
+  <dd>Updated the guidance to include content and design specifications, visual examples and implementation guidance</dd>
+</dl>
