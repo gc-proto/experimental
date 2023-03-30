@@ -31,9 +31,12 @@ title: "Header mockups"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header.html">Global header (English mockup)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="en-tete-general.html">En-tête global (French mockup)</a></li>
-      <li class="mrgn-tp-lg"><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header (current page)</a></li>
+          </ul>
+ <div class="well mrgn-tp-lg">     
+     <ul class="fa-ul">     
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header (current page)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1iKcrU1l3sB6wAPEGzMe1H0xrGkhdOo7U8PNTr3b-Ktg">Global header guidance (doc)</a></li>
-    </ul>
+    </ul></div>
     <h3 class="h4">Breadcrumbs</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="breadcrumb-trail.html">Breadcrumb trail (English mockup)</a></li>
