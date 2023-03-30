@@ -1,5 +1,5 @@
 ---
-altLangPage: "/resumes-recherche/design-conversationnel"
+altLangPage: "https://conception.canada.ca/configurations-conception-communes/signature.html"
 author: Treasury Board Secretariat of Canada
 breadcrumbs:
   - title: "About Canada.ca"
@@ -17,7 +17,7 @@ css:
 date: 2022-08-17
 dateModified: 2023-03-21
 description: "Guidance about using the Government of Canada signature on Canada.ca. The signature is an official symbol of the Government of Canada. It always appears in the global header across Canada.ca."
-lang: en
+language: en
 layout: without-h1
 share: true
 pageclass: cnt-wdth-lmtd
