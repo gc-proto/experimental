@@ -23,12 +23,12 @@ title: "Global header"
 <div class="cnt-wdth-lmtd">
   <div class="row">
     <div class="col-md-12 pull-left">
-      <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
+      <ul class="list-inline small mrgn-bttm-sm" id="list-inline-desktop-only">
         <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
       </ul>
     </div>
   </div>
-  <p><span class="label label-danger">Mandatory on standard pages</span></p>
+  <p><span class="label label-danger">Mandatory</span></p>
   <p>The global header is at the top of each web page from the Government of Canada.</p>
   <p>Having the same global header on all pages:</p>
   <ul>
@@ -37,7 +37,7 @@ title: "Global header"
     <li>provides a unified experience on the Government of Canada web presence</li>
     <li>allows navigation across the broad range of services and information offered</li>
   </ul>
-  <p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit Research and rationale.</p>
+  <p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit <a href="#research">Research and rationale</a>.</p>
   <div class="pattern-demo mrgn-tp-lg">
     <figure class="mrgn-bttm-sm"><img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt=""></figure>
   </div>
@@ -117,7 +117,7 @@ title: "Global header"
               <tfoot>
                 <tr>
                   <td colspan="2"><div class="fn-rtn small mrgn-tp-md" id="smenu-note">
-                      <p><a href="#smenu-note"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: The menu must be applied to theme and topic pages. It can be removed from a standard page or group of pages when analytics show that the menu is used in less than 1% of visits.</p>
+                      <p><a href="#smenu"><span class="wb-inv">Return to footnote </span>Note<span class="wb-inv"> referrer</span></a>: The menu must be applied to theme and topic pages. It can be removed from a standard page or group of pages when analytics show that the menu is used in less than 1% of visits.</p>
                     </div></td>
                 </tr>
               </tfoot>
