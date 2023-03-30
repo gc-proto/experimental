@@ -17,7 +17,7 @@ css:
 date: 2022-08-17
 dateModified: 2023-03-24
 description: "Guidance about using the language toggle on Canada.ca. Government of Canada content is available in both official languages. A language toggle in the global header provides access to the corresponding page in the other official language."
-lang: en
+language: en
 layout: without-h1
 share: true
 pageclass: cnt-wdth-lmtd
