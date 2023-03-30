@@ -23,7 +23,7 @@ title: "Global header"
 <div class="cnt-wdth-lmtd">
   <div class="row">
     <div class="col-md-12 pull-left">
-      <ul class="list-inline small mrgn-bttm-sm" id="list-inline-desktop-only">
+      <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
         <li class="mrgn-rght-lg"> Last updated: YYYY-MM-DD</li>
       </ul>
     </div>
@@ -50,7 +50,6 @@ title: "Global header"
       <li><a href="#implementation">How to implement</a></li>
       <li><a href="#research">Research and rationale</a></li>
       <li><a href="#changes">Latest changes</a></li>
-      <li><a href="#discussion">Discussion</a></li>
     </ul>
   </section>
   <h2 id="when">When to use</h2>
@@ -246,12 +245,12 @@ title: "Global header"
   <h2 id="content">Content and design</h2>
   <p>Find content and design specifications and visual examples.</p>
   <ul>
-    <li>Government of Canada signature</li>
-    <li>Language toggle</li>
-    <li>Site search box</li>
-    <li>Sign in button</li>
-    <li>Theme and topic menu</li>
-    <li>Breadcrumb trail</li>
+    <li><a href="signature.html">Government of Canada signature</a></li>
+    <li><a href="language-toggle.html">Language toggle</a></li>
+    <li><a href="search-box.html">Site search box</a></li>
+    <li><a href="contextual-signin.html">Sign in button</a></li>
+    <li><a href="site-menu.html">Theme and topic menu</a></li>
+    <li><a href="breadcrumb-trail.html">Breadcrumb trail</a></li>
   </ul>
   <h3>Visual examples</h3>
   <details>
@@ -259,9 +258,9 @@ title: "Global header"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Global header – large screen</b></figcaption>
-        <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+        <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="">
         <details>
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Global header – large screen</summary>
           <p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
           <ol>
             <li>Language toggle in the top-right corner</li>
@@ -275,14 +274,15 @@ title: "Global header"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Global header – small screen</b></figcaption>
-        <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+        <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="">
         <details>
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Global header – small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
           <ol>
             <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
             <li>Site search box directly below, it spans the entire row</li>
-            <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is</li>
+            <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
+            <li>Breadcrumb on the left</li>
           </ol>
         </details>
       </figure>
@@ -293,9 +293,9 @@ title: "Global header"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Minimum global header - large screen</b></figcaption>
-        <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-desktop-en.png" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+        <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-desktop-en.png" class="img-responsive" alt="">
         <details>
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - large screen</summary>
           <p class="mrgn-tp-lg">On large screens, the minimum global header on a transactional page has 2 rows:</p>
           <ol>
             <li>Language toggle in the top-right corner</li>
@@ -307,9 +307,9 @@ title: "Global header"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Minimum global header - small screen</b></figcaption>
-        <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-small-en.png" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+        <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-small-en.png" class="img-responsive" alt="">
         <details>
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the minimum global header on a transactional page has a single row:</p>
           <ol>
             <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner, with a divider line underneath</li>
@@ -323,9 +323,9 @@ title: "Global header"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Minimum global header - large screen</b></figcaption>
-        <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-desktop-en.png" class="img-responsive" alt="Diagram of global header for large screens. Text version below:">
+        <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-desktop-en.png" class="img-responsive" alt="">
         <details>
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - large screen</summary>
           <p class="mrgn-tp-lg">On large screens, the minimum global header on a campaign page has 3 rows:</p>
           <ol>
             <li>Language toggle in the top-right corner</li>
@@ -338,9 +338,9 @@ title: "Global header"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Minimum global header - small screen</b></figcaption>
-        <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-small-en.png" class="img-responsive" alt="Diagram of global header for small screens. Text version below:">
+        <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-small-en.png" class="img-responsive" alt="">
         <details>
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the minimum global header on a campaign page has 3 rows:</p>
           <ol>
             <li>Government of Canada signature in the top-left corner, language toggle on the far right</li>
@@ -432,9 +432,3 @@ title: "Global header"
     </dt>
     <dd>The small screen version was modified to a slimmer version</dd>
   </dl>
-  <h2 id="discussion">Discussion</h2>
-  <ul>
-    <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in GitHub Issues</a></li>
-    <li><a href="http://design-GC-conception.slack.com">Join the conversation on Slack</a></li>
-  </ul>
-</div>
