@@ -17,7 +17,7 @@ css:
 date: 2022-08-17
 dateModified: 2023-03-24
 description: "Guidance about using the site search box on Canada.ca. The site search box allows people to search Government of Canada content. It appears in the global header across Canada.ca."
-lang: en
+language: en
 layout: without-h1
 share: true
 pageclass: cnt-wdth-lmtd
