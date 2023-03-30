@@ -80,7 +80,7 @@ title: "Global header documentation"
       <li><a href="/experimental/catalina/proto-header.html">Global header - Advance (Dynamic template builder)</a><br>
         The Template builder asks how we can pull code based on a person's needs
         <ul>
-          <li>PP is the authoritative source of the code but we pull it into the guidance documentation dynamically</li>
+          <li>PP is the authoritative source of the code but DTO pulls it into the guidance documentation dynamically</li>
           <li>Instead of having multiple pages as the footer, have all the code on one page</li>
           <li>This is JUST a proof of concept. Code is not correct. We need PP to provide the correct code for each variation (8 in total without including the breadcrumb trail component)</li>
           <li>The breadcrumb option is missing</li>
