@@ -260,7 +260,7 @@ title: "Global header"
         <figcaption><b>Global header – large screen</b></figcaption>
         <img src="https://design.canada.ca/images/sign-in-desktop-en.jpg" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Global header – large screen</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header – large screen</summary>
           <p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
           <ol>
             <li>Language toggle in the top-right corner</li>
@@ -276,7 +276,7 @@ title: "Global header"
         <figcaption><b>Global header – small screen</b></figcaption>
         <img src="https://design.canada.ca/images/sign-in-mobile-en.jpg" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Global header – small screen</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header – small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
           <ol>
             <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
@@ -295,7 +295,7 @@ title: "Global header"
         <figcaption><b>Minimum global header - large screen</b></figcaption>
         <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-desktop-en.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - large screen</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - large screen</summary>
           <p class="mrgn-tp-lg">On large screens, the minimum global header on a transactional page has 2 rows:</p>
           <ol>
             <li>Language toggle in the top-right corner</li>
@@ -309,7 +309,7 @@ title: "Global header"
         <figcaption><b>Minimum global header - small screen</b></figcaption>
         <img src="https://test.canada.ca/experimental/design-system/images/global-header-transactional-small-en.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - small screen</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the minimum global header on a transactional page has a single row:</p>
           <ol>
             <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner, with a divider line underneath</li>
@@ -325,7 +325,7 @@ title: "Global header"
         <figcaption><b>Minimum global header - large screen</b></figcaption>
         <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-desktop-en.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - large screen</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - large screen</summary>
           <p class="mrgn-tp-lg">On large screens, the minimum global header on a campaign page has 3 rows:</p>
           <ol>
             <li>Language toggle in the top-right corner</li>
@@ -340,7 +340,7 @@ title: "Global header"
         <figcaption><b>Minimum global header - small screen</b></figcaption>
         <img src="https://test.canada.ca/experimental/design-system/images/global-header-campaign-small-en.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Minimum global header - small screen</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - small screen</summary>
           <p class="mrgn-tp-lg">On small screens, the minimum global header on a campaign page has 3 rows:</p>
           <ol>
             <li>Government of Canada signature in the top-left corner, language toggle on the far right</li>
