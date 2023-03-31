@@ -35,7 +35,7 @@ title: "Moving assets from AEM to GitHub"
       <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html">Canada.ca Content and Information Architecture Specification</a></li>
       <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada.html">Spécifications du contenu et de l’architecture de l'information pour Canada.ca</a></li>
     </ul>
-    <h2 class="h3 mrgn-tp-lg">Production repositories</h2>
+    <!--<h2 class="h3 mrgn-tp-lg">Production repositories</h2>
     <p>Files moved from AEM "as is".</p>    
     <h3 class="h4 mrgn-tp-lg">AEM redirects - Architecture Specification spreadsheet</h3>
     <ul class="fa-ul">
@@ -100,3 +100,4 @@ title: "Moving assets from AEM to GitHub"
     <div><img src="./images/bunny20.png" alt="" class="img-responsive"></div>
   </div>
 </div>
+-->
