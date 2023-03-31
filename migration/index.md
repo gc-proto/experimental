@@ -10,7 +10,7 @@ css:
 - https://prycrane.github.io/experimental/prycrane/datatables/css/datatables-fun.css
 date: 2023-03-08
 dateModified: 2023-03-28
-description: "Canada.ca Content and Information Architecture Specification: Organizing content on Canada.ca"
+description: "Migration of DTO assets from AEM to GitHub"
 language: en
 layout: form
 share: false
@@ -19,11 +19,11 @@ showFeedback: false
 nomenu: true
 noReportProblem: true
 pageclass: cnt-wdth-lmtd
-title: "Content and Information Architecture Specification"
+title: "Moving assets from AEM to GitHub"
 ---
 <div class="row">
   <div class="col-md-8">
-    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Content and Information Architecture Specification</span>: <span>Canada.ca design system</span></span></h1>
+    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Moving assets from AEM to GitHub</span>: <span>DTO asset migration</span></span></h1>
     <p><strong>Proposal</strong>: let’s get this CIA section in shape (5 short files) and move it to our GitHub repositories.  It will help us by moving the files and expose us to the redirection and link-update process.  We could move the content "as is" or we can tidy it up.</p>
     <h2 class="h3 mrgn-tp-lg">Current page (AEM)</h2>
     <ul>
