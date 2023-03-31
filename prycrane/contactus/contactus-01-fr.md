@@ -56,13 +56,13 @@ title: "Contactez le Bureau de la transformation numérique"
               <li data-wb-fieldflow='[
                                 {"action": "toggle", "toggle": "#email_request_other", "live":true },
                                 {"action": "query", "name": "feedback_type", "value": "feedback_type3" }
-                               ]'>Oui, je suis prêt à fournir mon adresse électronique uniquement à des fins de contact.</li>
+                               ]'>Oui, je suis prêt à fournir mon courriel uniquement à des fins de contact.</li>
             </ul>
           </div>
           <div id="email_request_other" class="hidden">
             <div class="form-group">
-              <label for="email1"><span class="field-name gc-font-2019">Adresse courriel</span></label>
-              <p>Votre adresse courriel ne sera utilisée que pour vous contacter. Elle ne sera pas partagée.</p>
+              <label for="email1"><span class="field-name gc-font-2019">Courriel</span></label>
+              <p>Votre courriel ne sera utilisée que pour vous contacter. Elle ne sera pas partagée.</p>
               <div class="row">
                 <div class="col-md-8">
                   <input class="form-control input-lg full-width" id="email1" name="email1" type="email" autocomplete="email" />
@@ -76,7 +76,7 @@ title: "Contactez le Bureau de la transformation numérique"
                     <input class="form-control full-width" id="subject1" name="subject1" type="text" data-rule-minlength="2">
                 </div>         
           <div class="form-group">
-            <label for="message" class="required gc-font-2019"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(requis)</strong></label>
+            <label for="message" class="required gc-font-2019"><span class="field-name">Message</span> <strong class="required" aria-hidden="true">(obligatoire)</strong></label>
             <div>
               <textarea class="form-control full-width required" rows="6" id="message" name="message"></textarea>
             </div>
