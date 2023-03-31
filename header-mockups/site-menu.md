@@ -127,46 +127,36 @@ title: "Theme and topic menu"
   <li>Tapping any expanded item again will close it</li>
 </ul>
 <h3>Design specifications</h3>
-<p>Design specifications for the breadcrumbs are:</p>
-<ul>
-  <li>Type: link</li>
-  <li>Position: top left</li>
-  <li>Font: Noto sans</li>
-  <li>Size: 16px</li>
-  <li>Text colour:
+<ol>
+  <li>Menu button styles:
     <ul>
-      <li>default link: #284162</li>
-      <li>selected link (on hover or focus): #0535d2</li>
-      <li>visited link: #7834bc</li>
+      <li>Background colour: primary accent colour (#26374a)</li>
+      <li>Text colour: white (#FFFFFF)</li>
+      <li>Text size: 20px or 1em</li>
+      <li>Font: Noto Sans</li>
+    </ul>
+    <p>Note: The homepage of Canada.ca uses different styling for the menu button. That styling is reserved for the homepage only.</p>
+  </li>
+  <li class="mrgn-tp-lg">Theme list styles:
+    <ul>
+      <li>Background colour: (#444)</li>
+      <li>Text colour: white (#FFF)</li>
+      <li>Background colour selected: (#FFF)</li>
+      <li>Text colour when selected: dark grey (#333)</li>
+      <li>Text size: 18px</li>
+      <li>Font: Noto Sans</li>
     </ul>
   </li>
-  <li>Spacing: padding: 0 5px</li>
-  <li>Icon: glyphicon-chevron-right</li>
-</ul>
-<h4>Accessibility</h4>
-<p>Code breadcrumbs as an ordered list</p>
-<h4>Examples</h4>
-<p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
-<h5>Theme pages, institutional and organizational pages</h5>
-<p>Canada.ca</p>
-<h5>First-level topic pages</h5>
-<p>Canada.ca   &#8250;   [Parent theme]</p>
-<h5>Second-level topic pages</h5>
-<p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]</p>
-<h5>Destination content pages</h5>
-<p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]   &#8250;  [Parent sub-topic]   &#8250;   [etc.]</p>
-<h5>Corporate, program or policy content pages</h5>
-<p>Canada.ca   &#8250;   [Institutional profile page]</p>
-<h5>Partnering and collaborative arrangement profile pages</h5>
-<p>Canada.ca</p>
-<h5>Basic search pages</h5>
-<p>Canada.ca</p>
-<h5>Advanced search pages</h5>
-<p>Canada.ca   &#8250;   [Basic search]</p>
-<h5>Campaigns and promotions</h5>
-<p>Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
-<h5>News</h5>
-<p>Canada.ca   &#8250;   [Institutional profile page]</p>
+  <li class="mrgn-tp-lg">Flyout styles:
+    <ul>
+      <li>Background colour: primary accent colour (#FFF)</li>
+      <li>Text colour: white (#284162)</li>
+      <li>Text size: 18px</li>
+      <li>Text size theme title: 32px</li>
+      <li>Font: Noto Sans</li>
+    </ul>
+  </li>
+</ol>
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
