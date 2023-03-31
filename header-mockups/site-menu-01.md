@@ -89,10 +89,10 @@ title: "Theme and topic menu"
   <li><span class="fa-li"><span class="fas fa-ban fa-lg"></span></span>Don’t put additional links or text in the flyout</li>
 </ul>
 <ul class="fa-ul lst-spcd mrgn-tp-lg">
-  <li><span class="fa-li"><span class="fas fa-exclamation-triangle fa-lg"></span></span>Don’t repurpose the Theme and topic menu for other navigation. The menu is a global navigation tool. It’s confusing for users if it behaves differently depending on where they are in the site.</li>
-  <li><span class="fa-li"><span class="fas fa-exclamation-triangle fa-lg"></span></span>Don’t remove it from standard destination pages before you meet the conditions above.</li>
-  <li><span class="fa-li"><span class="fas fa-exclamation-triangle fa-lg"></span></span>Don’t change the style or colour scheme.</li>
-  <li><span class="fa-li"><span class="fas fa-exclamation-triangle fa-lg"></span></span>Don’t put additional links or text in the flyout</li>
+  <li><span class="fa-li"><span class="fas fa-exclamation-triangle fa-lg text-warning"></span></span>Don’t repurpose the Theme and topic menu for other navigation. The menu is a global navigation tool. It’s confusing for users if it behaves differently depending on where they are in the site.</li>
+  <li><span class="fa-li"><span class="fas fa-exclamation-triangle fa-lg text-warning"></span></span>Don’t remove it from standard destination pages before you meet the conditions above.</li>
+  <li><span class="fa-li"><span class="fas fa-exclamation-triangle fa-lg text-warning"></span></span>Don’t change the style or colour scheme.</li>
+  <li><span class="fa-li"><span class="fas fa-exclamation-triangle fa-lg text-warning"></span></span>Don’t put additional links or text in the flyout</li>
 </ul>
 <!--<p>Don’t repurpose the Theme and topic menu for other navigation. The menu is a global navigation tool. It’s confusing for users if it behaves differently depending on where they are in the site.</p>
 <p>Don’t remove it from standard destination pages before you meet the conditions above.</p>
