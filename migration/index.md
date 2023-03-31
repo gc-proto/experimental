@@ -24,8 +24,13 @@ title: "Moving assets from AEM to GitHub"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Moving assets from AEM to GitHub</span>: <span>DTO asset migration</span></span></h1>
-    <p><strong>Proposal</strong>: let’s get this CIA section in shape (5 short files) and move it to our GitHub repositories.  It will help us by moving the files and expose us to the redirection and link-update process.  We could move the content "as is" or we can tidy it up.</p>
-    <h2 class="h3 mrgn-tp-lg">Current page (AEM)</h2>
+    <p>We're moving DTO assets from AEM to our GitHub repositories.</p>
+     <h2 class="h3 mrgn-tp-lg">Current GitHub repositories</h2>   
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/design-system">design-system (English design sytem repository)</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/systeme-conception">systeme-conception (French design sytem repository</a></li>
+    </ul>
+    <h2 class="h3 mrgn-tp-lg">AEM inventory</h2>
     <ul>
       <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html">Canada.ca Content and Information Architecture Specification</a></li>
       <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada.html">Spécifications du contenu et de l’architecture de l'information pour Canada.ca</a></li>
