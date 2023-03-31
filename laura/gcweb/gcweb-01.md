@@ -98,7 +98,7 @@ title: "Global header"
 <h3>Page types</h3>
 <p>Components are used and configured for different page types.   Consult the Canada.ca Design system guidance for using these components on <strong>Standard</strong>, <strong>Transactional</strong>, and <strong>Campaign</strong> pages.</p>
 <ul class="fa-ul">
-  <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html#when">When to use the global header</a></li>
+  <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://test.canada.ca/experimental/header-mockups/global-header.html#when">When to use the global header</a></li>
 </ul>
 <h3>Some working examples</h3>
 <p>Here are some popular working examples.  It is not an exhaustive list of possible iterations.  Configure your page based on user needs and design system guidance.</p>
@@ -269,7 +269,7 @@ title: "Global header"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/banner">brand code</a></li>
       <li><span class="fa-li"><span class="far fa-file-alt"></span></span>Not documented yet</li>
-      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature design guidance</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://test.canada.ca/experimental/header-mockups/signature.html">Government of Canada signature design guidance</a></li>
     </ul>
   </li>
   <li>
@@ -277,7 +277,7 @@ title: "Global header"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/language">language toggle code</a></li>
       <li><span class="fa-li"><span class="far fa-file-alt"></span></span>Not documented yet</li>
-      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link design guidance</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://test.canada.ca/experimental/header-mockups/language-toggle.html">Language toggle link design guidance</a></li>
     </ul>
   </li>
 </ul>
@@ -288,7 +288,7 @@ title: "Global header"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/search">search code</a></li>
       <li><span class="fa-li"><span class="far fa-file-alt"></span></span>Not documented yet</li>
-      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box design guidance</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://test.canada.ca/experimental/header-mockups/search-box.html">Site search box design guidance</a></li>
     </ul>
   </li>
   <li>
@@ -296,7 +296,7 @@ title: "Global header"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/gcweb-menu">GCWeb menu code</a></li>
       <li><span class="fa-li"><span class="far fa-file-alt"></span></span><a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-en.html">GCWeb menu code documentation</a></li>
-      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Theme and topic menu design guidance</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://test.canada.ca/experimental/header-mockups/search-box.html">Theme and topic menu design guidance</a></li>
     </ul>
   </li>
   <li>
@@ -304,7 +304,7 @@ title: "Global header"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/wet-boew/GCWeb/tree/master/sites/breadcrumbs">breadcrumbs code</a></li>
       <li><span class="fa-li"><span class="far fa-file-alt"></span></span><a href="https://wet-boew.github.io/GCWeb/sites/breadcrumbs/breadcrumbs-en.html">breadcrumbs code documentation</a></li>
-      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail design guidance</a></li>
+      <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://test.canada.ca/experimental/header-mockups/breadcrumb-trail.html">Breadcrumb trail design guidance</a></li>
     </ul>
   </li>
   <li>
