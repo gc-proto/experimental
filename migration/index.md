@@ -31,9 +31,9 @@ title: "Moving assets from AEM to GitHub"
   <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/systeme-conception">systeme-conception (French design sytem repository</a></li>
 </ul>
 <h2 class="h3 mrgn-tp-lg">AEM inventory</h2>
-<ul>
+<ul class="fa-ul">
   <li><a href="https://docs.google.com/spreadsheets/d/1xbBwK4ximVygzuqV0Ie-cbQjEDvyVQLfZExcbLsupkw">AEM inventory</a></li>
-</ul>
+</ul>  
 <!--<h2 class="h3 mrgn-tp-lg">Production repositories</h2>
     <p>Files moved from AEM "as is".</p>    
     <h3 class="h4 mrgn-tp-lg">AEM redirects - Architecture Specification spreadsheet</h3>
