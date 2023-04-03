@@ -100,7 +100,7 @@ title: "Moving from AEM to GitHub"
           </tr>
         </tbody>
       </table>
-      <footer class="panel-footer">
+      <footer class="panel-footer small">
         <h4 class="h5 mrgn-tp-lg">AEM redirects - file for AEM (Phase 1)</h4>
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fas fa-directions"></span></span><a href="https://docs.google.com/spreadsheets/d/1DL6_TF12ddaT2dzX-Zvulp8G-nviOxkP40h0fNzL14g/edit#gid=0">AEM redirects - Architecture Specification</a></li>
