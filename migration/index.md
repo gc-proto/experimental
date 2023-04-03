@@ -44,7 +44,7 @@ title: "Moving assets from AEM to GitHub"
             <tr>
               <th class="text-centered">Phase</th>
               <th>Page</th>
-              <th class="text-centered">language</th>
+              <th class="text-centered">Language</th>
             </tr>
           </thead>
           <tbody>
