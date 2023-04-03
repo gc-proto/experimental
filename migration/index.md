@@ -35,7 +35,7 @@ title: "Moving from AEM to GitHub"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Migration plan</h2>
     <h3 class="h4 mrgn-tp-lg">Phase 1 - Content and architecture specification</h3>
-    <section class="panel panel-default mrgn-tp-lg">
+    <section class="panel panel-default mrgn-tp-lg mrgn-bttm-lg">
       <table class="table small table-striped table-bordered table-responsive">
         <caption class="wb-inv">
         Phase 1 - Content and architecture Specification
