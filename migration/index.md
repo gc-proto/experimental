@@ -35,7 +35,6 @@ title: "Moving assets from AEM to GitHub"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Migration plan</h2>
     <h3 class="h4 mrgn-tp-lg">Phase 1 - Content and architecture specification</h3>
-    <div class="row">
       <section class="panel panel-default table-bordered">
         <table class="table small table-striped table-bordered table-responsive">
           <caption class="wb-inv">
@@ -102,7 +101,6 @@ title: "Moving assets from AEM to GitHub"
           </tbody>
         </table>
       </section>
-    </div>
     <h3 class="h4 mrgn-tp-lg">Phase 2 - Content style guide, top tasks, about.....</h3>
     <h3 class="h4 mrgn-tp-lg">Phase 3 - landing page and template and pattern library</h3>
   </div>
