@@ -27,7 +27,7 @@ title: "Moving from AEM to GitHub"
     <h2 class="h3 mrgn-tp-lg">Current GitHub repositories</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/design-system">design-system (English design sytem repository)</a></li>
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/systeme-conception">systeme-conception (French design sytem repository</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/systeme-conception">systeme-conception (French design sytem repository)</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">AEM inventory</h2>
     <ul class="fa-ul">
