@@ -116,7 +116,7 @@ title: "Moving from AEM to GitHub"
       <li><span class="fa-li"><span class="fas fas fa-code"></span></span><a href="https://deploy-preview-126--systeme-conception-canada-ca.netlify.app/architecture/specifications-contenu-architecture-information-canada.html">Preview: Spécifications du contenu et de l’architecture de l'information pour Canada.ca</a></li>
     </ul>
     <h3 class="h4 mrgn-tp-lg">Phase 2 - Content style guide, top tasks, about.....</h3>
-    <section class="panel panel-defaultt mrgn-tp-lg">
+    <section class="panel panel-default mrgn-tp-lg">
       <table class="table small table-striped table-bordered table-responsive">
         <caption class="wb-inv">
         Phase 2 - Content style guide, top tasks, about.....
@@ -183,7 +183,7 @@ title: "Moving from AEM to GitHub"
       </table>
     </section>
     <h3 class="h4 mrgn-tp-lg">Phase 3 - landing page and template and pattern library</h3>
-    <section class="panel panel-defaultt mrgn-tp-lg">
+    <section class="panel panel-default mrgn-tp-lg">
       <table class="table small table-striped table-bordered table-responsive">
         <caption class="wb-inv">
         Phase 3 - landing page and template and pattern library
