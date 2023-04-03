@@ -42,9 +42,9 @@ title: "Moving from AEM to GitHub"
         </caption>
         <thead>
           <tr>
-            <th class="text-center">Phase</th>
-            <th>Page</th>
-            <th class="text-center">Language</th>
+            <th class="text-center col-md-1">Phase</th>
+            <th class="col-md-9">Page</th>
+            <th class="text-center col-md-2">Language</th>
           </tr>
         </thead>
         <tbody>
@@ -123,9 +123,9 @@ title: "Moving from AEM to GitHub"
         </caption>
         <thead>
           <tr>
-            <th class="text-center">Phase</th>
-            <th>Page</th>
-            <th class="text-center">Language</th>
+            <th class="text-center col-md-1">Phase</th>
+            <th class="col-md-9">Page</th>
+            <th class="text-center col-md-2">Language</th>
           </tr>
         </thead>
         <tbody>
@@ -190,9 +190,9 @@ title: "Moving from AEM to GitHub"
         </caption>
         <thead>
           <tr>
-            <th class="text-center">Phase</th>
-            <th>Page</th>
-            <th class="text-center">Language</th>
+            <th class="text-center col-md-1">Phase</th>
+            <th class="col-md-9">Page</th>
+            <th class="text-center col-md-2">Language</th>
           </tr>
         </thead>
         <tbody>
