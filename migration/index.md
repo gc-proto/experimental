@@ -31,7 +31,7 @@ title: "Moving assets from AEM to GitHub"
     </ul>
     <h2 class="h3 mrgn-tp-lg">AEM inventory</h2>
     <ul class="fa-ul">
-      <li><a href="https://docs.google.com/spreadsheets/d/1xbBwK4ximVygzuqV0Ie-cbQjEDvyVQLfZExcbLsupkw">AEM inventory</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1xbBwK4ximVygzuqV0Ie-cbQjEDvyVQLfZExcbLsupkw">AEM inventory</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Migration plan</h2>
     <h3 class="h4 mrgn-tp-lg">Phase 1 - Content and architecture specification</h3>
