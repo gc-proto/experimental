@@ -18,7 +18,6 @@ nositesearch: true
 showFeedback: false
 nomenu: true
 noReportProblem: true
-pageclass: cnt-wdth-lmtd
 title: "Moving assets from AEM to GitHub"
 ---
 <div class="row">
