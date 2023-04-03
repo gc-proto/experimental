@@ -184,11 +184,6 @@ title: "Moving from AEM to GitHub"
         <tbody>
           <tr>
             <td class="text-center">3</td>
-            <td><a href=""></a></td>
-            <td class="text-center">En</td>
-          </tr>
-          <tr>
-            <td class="text-center">3</td>
             <td><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Template and pattern library for Canada.ca</a></td>
             <td class="text-center">En</td>
           </tr>
