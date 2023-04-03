@@ -32,8 +32,7 @@ title: "Moving assets from AEM to GitHub"
 </ul>
 <h2 class="h3 mrgn-tp-lg">AEM inventory</h2>
 <ul>
-  <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html">Canada.ca Content and Information Architecture Specification</a></li>
-  <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada.html">Spécifications du contenu et de l’architecture de l'information pour Canada.ca</a></li>
+  <li><a href="https://docs.google.com/spreadsheets/d/1xbBwK4ximVygzuqV0Ie-cbQjEDvyVQLfZExcbLsupkw">AEM inventory</a></li>
 </ul>
 <!--<h2 class="h3 mrgn-tp-lg">Production repositories</h2>
     <p>Files moved from AEM "as is".</p>    
