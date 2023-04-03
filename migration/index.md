@@ -18,11 +18,11 @@ nositesearch: true
 showFeedback: false
 nomenu: true
 noReportProblem: true
-title: "Moving assets from AEM to GitHub"
+title: "Moving from AEM to GitHub"
 ---
 <div class="row">
   <div class="col-md-8">
-    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Moving assets from AEM to GitHub</span>: <span>DTO asset migration</span></span></h1>
+    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Moving from AEM to GitHub</span>: <span>DTO asset migration</span></span></h1>
     <p>We're moving DTO assets from AEM to our GitHub repositories.</p>
     <h2 class="h3 mrgn-tp-lg">Current GitHub repositories</h2>
     <ul class="fa-ul">
