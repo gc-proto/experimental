@@ -37,67 +37,67 @@ title: "Moving assets from AEM to GitHub"
     <h3 class="h4 mrgn-tp-lg">Phase 1 - Content and architecture specification</h3>
     <div class="row">
       <section class="panel panel-default table-bordered">
-        <table class="table small table-striped table-condensed">
+        <table class="table small table-striped table-bordered table-responsive">
           <caption class="wb-inv">
           Phase 1 - Content and architecture Specification
           </caption>
           <thead>
             <tr>
-              <th>Phase</th>
+              <th class="text-centered">Phase</th>
               <th>Page</th>
-              <th>language</th>
+              <th class="text-centered">language</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html">Canada.ca Content and Information Architecture Specification</a></td>
-              <td>En</td>
+              <td class="text-centered">En</td>
             </tr>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/usage-canadaca-design.html">Who has to use the Canada.ca design system</a></td>
-              <td>En</td>
+              <td class="text-centered">En</td>
             </tr>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/mandatory-elements.html">Mandatory elements of the Canada.ca design system</a></td>
-              <td>En</td>
+              <td class="text-centered">En</td>
             </tr>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/organizing-content.html">Organizing content on Canada.ca</a></td>
-              <td>En</td>
+              <td class="text-centered">En</td>
             </tr>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates.html">Designing content on Canada.ca</a></td>
-              <td>En</td>
+              <td class="text-centered">En</td>
             </tr>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada.html">Spécifications du contenu et de l’architecture de l'information pour Canada.ca</a></td>
-              <td>Fr</td>
+              <td class="text-centered">Fr</td>
             </tr>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada/utilisation-concept-canadaca.html">Canada.ca : Qui doit utiliser le sysème de conception de Canada.ca</a></td>
-              <td>Fr</td>
+              <td class="text-centered">Fr</td>
             </tr>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada/elements-obligatoires.html">Canada.ca : Éléments obligatoires du système de conception de Canada.ca</a></td>
-              <td>Fr</td>
+              <td class="text-centered">Fr</td>
             </tr>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada/organiser-contenu.html">Canada.ca : Organiser le contenu dans Canada.ca</a></td>
-              <td>Fr</td>
+              <td class="text-centered">Fr</td>
             </tr>
             <tr>
-              <td>1</td>
+              <td class="text-centered">1</td>
               <td><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada/modeles.html">Canada.ca : Concevoir le contenu pour Canada.ca</a></td>
-              <td>Fr</td>
+              <td class="text-centered">Fr</td>
             </tr>
           </tbody>
         </table>
