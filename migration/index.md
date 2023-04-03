@@ -101,16 +101,16 @@ title: "Moving from AEM to GitHub"
         </tbody>
       </table>
     </section>
-    <h4 class="h5 mrgn-tp-lg">AEM redirects - file for AEM</h4>
+    <h4 class="h5 mrgn-tp-lg">AEM redirects - file for AEM (Phase 1)</h4>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-directions"></span></span><a href="https://docs.google.com/spreadsheets/d/1DL6_TF12ddaT2dzX-Zvulp8G-nviOxkP40h0fNzL14g/edit#gid=0">AEM redirects - Architecture Specification</a></li>
     </ul>
-    <h4 class="h5 mrgn-tp-lg">English</h4>
+    <h4 class="h5 mrgn-tp-lg">English (Phase 1)</h4>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/design-system/pull/200">Pull request #200: Content and Information Architecture Specification</a></li>
       <li><span class="fa-li"><span class="fas fas fa-code"></span></span><a href="https://deploy-preview-200--design-system-canada-ca.netlify.app/architecture/canada-content-information-architecture-specification.html">Preview: Canada.ca Content and Information Architecture Specification</a></li>
     </ul>
-    <h4 class="h5 mrgn-tp-lg">French</h4>
+    <h4 class="h5 mrgn-tp-lg">French (Phase 1)</h4>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/systeme-conception/pull/126">Pull request #126: Migration specifications du contenu</a></li>
       <li><span class="fa-li"><span class="fas fas fa-code"></span></span><a href="https://deploy-preview-126--systeme-conception-canada-ca.netlify.app/architecture/specifications-contenu-architecture-information-canada.html">Preview: Spécifications du contenu et de l’architecture de l'information pour Canada.ca</a></li>
