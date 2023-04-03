@@ -35,10 +35,10 @@ title: "Moving assets from AEM to GitHub"
       <li><a href="https://docs.google.com/spreadsheets/d/1xbBwK4ximVygzuqV0Ie-cbQjEDvyVQLfZExcbLsupkw">AEM inventory</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Migration plan</h2>
-    <h3 class="h4 mrgn-tp-lg">Phase 1 - Content and architecture Specification</h3>
+    <h3 class="h4 mrgn-tp-lg">Phase 1 - Content and architecture specification</h3>
     <div class="row">
-      <section class="panel panel-default col-md-8">
-        <table class="table">
+      <section class="panel panel-default table-bordered col-md-8">
+        <table class="table small table-striped table-condensed">
           <caption class="wb-inv">
           Phase 1 - Content and architecture Specification
           </caption>
