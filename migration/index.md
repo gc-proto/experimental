@@ -36,7 +36,10 @@ title: "DTO asset migration"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Migration plan</h2>
     <ol>
+      <li>Web publishing documentation</li>
+      <li>ROT to bring English and French content to parity</li>
       <li><a href="aem-migration.html">Moving files from AEM to GitHub</a></li>
+      <li>Establish and document metadata requirements</li>
     </ol>
   </div>
   <div class="col-md-4">
