@@ -223,6 +223,6 @@ title: "Moving from AEM to GitHub"
     </section>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/Galloping+Hare.jpg" alt="" class="img-responsive"></div>
+    <div><img src="./images/bunny21.png" alt="" class="img-responsive"></div>
   </div>
 </div>
