@@ -2,12 +2,12 @@
 altLangPage: "#"
 breadcrumbs:
   - title: Peter's warrren
-    link: "https://prycrane.github.io/experimental/prycrane/"
+    link: "https://test.canada.ca/experimental/prycrane/experimental/prycrane/"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
-- https://prycrane.github.io/experimental/prycrane/datatables/css/datatables-fun.css
+- https://test.canada.ca/experimental/prycrane/datatables/css/datatables-fun.css
 date: 2023-03-08
 dateModified: 2023-03-28
 description: "Canada.ca Content and Information Architecture Specification: Organizing content on Canada.ca"
