@@ -30,6 +30,9 @@ title: "DTO asset migration"
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/systeme-conception">systeme-conception (French design sytem repository)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1xbBwK4ximVygzuqV0Ie-cbQjEDvyVQLfZExcbLsupkw">AEM inventory</a></li>
     </ul>
+    <h2 class="h3 mrgn-tp-lg">documents</h2>	  
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kSPPFdNi_RqGEsKs8ZzOSFGMgsIqdifRFvJKkASEVxs">DTO asset migration plan</a></li>
+    </ul>	  
     <h2 class="h3 mrgn-tp-lg">Migration plan</h2>
 	  <ol>
 	  <li><a href="aem-migration.html">Moving files from AEM to GitHub</a></li>
