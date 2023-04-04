@@ -36,6 +36,6 @@ title: "DTO asset migration"
 	  </ol>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/bunny21.png" alt="" class="img-responsive"></div>
+    <div><img src="./images/bunny21a.png" alt="" class="img-responsive"></div>
   </div>
 </div>
