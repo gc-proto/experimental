@@ -2,12 +2,11 @@
 altLangPage: false
 breadcrumbs:
   - title: Peter's warrren
-    link: "https://prycrane.github.io/experimental/prycrane/"
+    link: "https://test.canada.ca/experimental/prycrane/"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
-- https://prycrane.github.io/experimental/prycrane/datatables/css/datatables-fun.css
 date: 2023-03-17
 dateModified: 2023-03-30
 description: "Header mockups"
