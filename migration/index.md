@@ -23,7 +23,7 @@ title: "DTO asset migration"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr">DTO asset migration</h1>
-    <p>We're moving DTO assets to a singrl repository.</p>
+    <p>We're moving DTO assets to a single repository.</p>
     <h2 class="h3 mrgn-tp-lg">Current assets</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/design-system">design-system (English design sytem repository)</a></li>
