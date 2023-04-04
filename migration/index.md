@@ -32,6 +32,7 @@ title: "DTO asset migration"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>	  
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kSPPFdNi_RqGEsKs8ZzOSFGMgsIqdifRFvJKkASEVxs">DTO asset migration plan</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1QnfSoKcZWpmUajSMf7fHytgD8khMXoyA">Design System repo discrepancies</a></li>	  
     </ul>	  
     <h2 class="h3 mrgn-tp-lg">Migration plan</h2>
 	  <ol>
