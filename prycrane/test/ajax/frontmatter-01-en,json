@@ -1,0 +1,16 @@
+{
+  "data": [{
+    "NAME": "altLangPage",
+    "CODEEXAMPLE": "<pre>altLangPage:&nbsp;&quot;[path]/[filename]&quot;</pre>",
+    "DESCRIPTION": "Link of translated web page without the site url. Start with a /, lowercase, word separated with dashes (not spaces) and no special characters. When this option is declared the language toggle is present, otherwise it's hidden.",
+    "MANDATORY": "Mandatory",
+	"STATUS": "Stable"  
+  },{
+    "NAME": "breadcrumbs",
+    "CODEEXAMPLE": "<pre>breadcrumbs:\r\n - title: [first page title]\r\n   link: [first absolute url of page]\r\n - title: [second page title]\r\n \t link: [second absolute url of page]<\/pre>",
+    "DESCRIPTION": "An array of a title and a link. Set by default in posts to Canada.ca > About Canada.ca  > Canada.ca blog. Can be overridden in that format.",
+    "MANDATORY": "Mandatory",
+	"STATUS": "Optional"  
+  }
+  ]
+}
