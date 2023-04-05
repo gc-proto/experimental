@@ -38,7 +38,7 @@ title: "Shortening breadcrumbs"
       </div>
     </nav>
     <p class="mrgn-tp-md">Can be shortened to this:</p>
-    <nav class="wb-bc" property="breadcrumb">
+    <nav id="wb-bc" property="breadcrumb">
       <h2 class="wb-inv">You are here:</h2>
       <div class="mrgn-lft-lg">
         <ol class="breadcrumb small">
