@@ -15,12 +15,12 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2022-08-17
-dateModified: 2023-03-21
+dateModified: 2023-04-05
 description: "Guidance about using breadcrumbs on Canada.ca. The breadcrumb trail provides a series of navigational links that gives people a sense of where they are in relation to the site structure."
 language: en
 layout: without-h1
 share: true
-pageclass: cnt-wdth-lmtd
+pageclass: cnt-wdth-lmtdx
 title: "Breadcrumb trail"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design system</span></span></h1>
@@ -31,6 +31,7 @@ title: "Breadcrumb trail"
     </ul>
   </div>
 </div>
+<div class="cnt-wdth-lmtd">
 <p><span class="label label-danger">Mandatory on standard and campaign pages</span></p>
 <p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
 <div class="pattern-demo mrgn-tp-lg">
@@ -108,6 +109,7 @@ title: "Breadcrumb trail"
 <p>Code breadcrumbs as an ordered list</p>
 <h4>Examples</h4>
 <p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
+</div>  
 <h5>Theme pages, institutional and organizational pages</h5>
 <div class="container">
   <p class="breadcrumb">Canada.ca</p>
@@ -140,6 +142,7 @@ title: "Breadcrumb trail"
 <div class="container">
   <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Basic search]</p>
 </div>
+<div class="cnt-wdth-lmtd">
 <h5>Campaigns and promotions</h5>
 <p>Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
 <h5>News</h5>
@@ -230,4 +233,5 @@ title: "Breadcrumb trail"
     </dt>
     <dd>Updated the guidance to include content and design specifications, visual examples and implementation guidance</dd>
   </dl>
+</div>
 </div>
