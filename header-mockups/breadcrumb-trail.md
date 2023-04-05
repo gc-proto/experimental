@@ -107,11 +107,13 @@ title: "Breadcrumb trail"
 <h4>Accessibility</h4>
 <p>Code breadcrumbs as an ordered list</p>
 <h4>Examples</h4>
-<ol class="breadcrumb" typeof="BreadcrumbList">
-  <li property="itemListElement" typeof="ListItem"> <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html"> <span property="name">Canada.ca</span> </a>
-    <meta property="position" content="1">
-  </li>
-</ol>
+<div class="container">
+  <ol class="breadcrumb" typeof="BreadcrumbList">
+    <li property="itemListElement" typeof="ListItem"> <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html"> <span property="name">Canada.ca</span> </a>
+      <meta property="position" content="1">
+    </li>
+  </ol>
+</div>
 <ol class="breadcrumb">
   <li><a href='https://www.canada.ca/en.html'>Canada.ca</a></li>
   <li><a href='https://www.canada.ca/en/government/about.html'>About Canada.ca</a></li>
