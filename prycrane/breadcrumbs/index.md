@@ -60,11 +60,12 @@ title: "Shortening breadcrumbs"
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/gc-proto/experimental/tree/master/prycrane/breadcrumbs">GitHub breadcrumb repository (experimental)</a></li>
     </ul>
     <ul>
-      <li><a href="breadcrumbs-01.html">Current presentation of breadcrumbs (Global header)</a></li>
+      <li><a href="breadcrumbs-01.html">Current presentation of breadcrumbs (Global header)</a>
+      <ul>
       <li><a href="breadcrumbs-02.html">Shortened breadcrumbs ex. 1 (Global header)</a></li> 
       <li><a href="breadcrumbs-03.html">Shortened breadcrumbs ex. 2 (Global header)</a></li>      
       <li><a href="breadcrumbs-04.html">Shortened breadcrumbs ex. 3 (Global header)</a></li>      
-    </ul>
+        </ul></li></ul>
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny19.png" alt="" class="img-responsive"></div>
