@@ -24,7 +24,7 @@ title: "Shortening breadcrumbs"
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Shortening breadcrumbs</span>: <span>Canada.ca design system</span></span></h1>
     <p><strong>Proposal</strong>: let’s shorten our breadcrumbs to match our guidence.</p>
-    <h2 class="h3 mrgn-tp-lg">Guidence</h2>    
+    <h2 class="h3 mrgn-tp-lg">Guidence example</h2>    
     <nav id="wb-bc" property="breadcrumb">
       <h2 class="wb-inv">You are here:</h2>
       <div class="mrgn-lft-lg">
