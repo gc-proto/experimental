@@ -32,7 +32,7 @@ title: "Peter's warrren"
       <li><a href="https://test.canada.ca/experimental/laura/gcweb/">Global header documentation (Principal Publisher)</a></li>
       <li><a href="https://test.canada.ca/experimental/header-mockups/">Global header mockups</a></li>
     </ul>
-    <h3 class="mrgn-tp-lg h4">DTO asset migrations</h3>
+    <h3 class="mrgn-tp-lg h4">DTO asset migration</h3>
     <ul>
       <li><a href="https://test.canada.ca/experimental/migration/">DTO asset migration landing page</a>
         <ul>
