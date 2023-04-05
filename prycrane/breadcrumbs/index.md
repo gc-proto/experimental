@@ -48,7 +48,7 @@ title: "Shortening breadcrumbs"
           <li><a href="#">Prepare for test and interview</a></li>
         </ol>
       </div>
-    </nav><!--glyphicon glyphicon-chevron-right-->
+    </nav>
     <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
