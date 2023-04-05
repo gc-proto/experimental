@@ -107,19 +107,16 @@ title: "Breadcrumb trail"
 <h4>Accessibility</h4>
 <p>Code breadcrumbs as an ordered list</p>
 <h4>Examples</h4>
-		<ol class="breadcrumb" typeof="BreadcrumbList">
-			<li property="itemListElement" typeof="ListItem">
-				<a property="item" typeof="WebPage" href="https://www.canada.ca/en.html">
-					<span property="name">Canada.ca</span>
-				</a>
-				<meta property="position" content="1">
-			</li>
-		</ol>
+<ol class="breadcrumb" typeof="BreadcrumbList">
+  <li property="itemListElement" typeof="ListItem"> <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html"> <span property="name">Canada.ca</span> </a>
+    <meta property="position" content="1">
+  </li>
+</ol>
 <ol class="breadcrumb">
-	<li><a href='https://www.canada.ca/en.html'>Canada.ca</a></li>
-	<li><a href='https://www.canada.ca/en/government/about.html'>About Canada.ca</a></li>
-<li><a href='https://www.canada.ca/en/government/about/design-system.html'>Canada.ca design system</a></li>
-	<li><a href='https://www.canada.ca/en/government/about/design-system/pattern-library.html'>Template and pattern library for Canada.ca</a></li>
+  <li><a href='https://www.canada.ca/en.html'>Canada.ca</a></li>
+  <li><a href='https://www.canada.ca/en/government/about.html'>About Canada.ca</a></li>
+  <li><a href='https://www.canada.ca/en/government/about/design-system.html'>Canada.ca design system</a></li>
+  <li><a href='https://www.canada.ca/en/government/about/design-system/pattern-library.html'>Template and pattern library for Canada.ca</a></li>
 </ol>
 <p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
 <h5>Theme pages, institutional and organizational pages</h5>
