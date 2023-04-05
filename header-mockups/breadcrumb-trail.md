@@ -107,43 +107,45 @@ title: "Breadcrumb trail"
 <h4>Accessibility</h4>
 <p>Code breadcrumbs as an ordered list</p>
 <h4>Examples</h4>
-<div class="container">
-  <ol class="breadcrumb" typeof="BreadcrumbList">
-    <li property="itemListElement" typeof="ListItem"> <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html"> <span property="name">Canada.ca</span> </a>
-      <meta property="position" content="1">
-    </li>
-    <li property="itemListElement" typeof="ListItem"> <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html"> <span property="name">next</span> </a>
-      <meta property="position" content="1">
-    </li>
-  </ol>
-</div>
-<ol class="breadcrumb">
-  <li><a href='https://www.canada.ca/en.html'>Canada.ca</a></li>
-  <li><a href='https://www.canada.ca/en/government/about.html'>About Canada.ca</a></li>
-  <li><a href='https://www.canada.ca/en/government/about/design-system.html'>Canada.ca design system</a></li>
-  <li><a href='https://www.canada.ca/en/government/about/design-system/pattern-library.html'>Template and pattern library for Canada.ca</a></li>
-</ol>
 <p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
 <h5>Theme pages, institutional and organizational pages</h5>
-<p class="breadcrumb small">Canada.ca</p>
+<div class="container">
+  <p class="breadcrumb">Canada.ca</p>
+</div>
 <h5>First-level topic pages</h5>
-<div class="container"><p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme]</p></div>
+<div class="container">
+  <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme]</p>
+</div>
 <h5>Second-level topic pages</h5>
-<p class="breadcrumb small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent topic]</p>
+<div class="container">
+  <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent topic]</p>
+</div>
 <h5>Destination content pages</h5>
-<p class="breadcrumb small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent topic] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent sub-topic] <span class="glyphicon glyphicon-chevron-right small"></span> [etc.]</p>
+<div class="container">
+  <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent topic] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent sub-topic] <span class="glyphicon glyphicon-chevron-right small"></span> [etc.]</p>
+</div>
 <h5>Corporate, program or policy content pages</h5>
-<p class="breadcrumb small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Institutional profile page]</p>
+<div class="container">
+  <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Institutional profile page]</p>
+</div>
 <h5>Partnering and collaborative arrangement profile pages</h5>
-<p class="breadcrumb small">Canada.ca</p>
+<div class="container">
+  <p class="breadcrumb">Canada.ca</p>
+</div>
 <h5>Basic search pages</h5>
-<p class="breadcrumb small">Canada.ca</p>
+<div class="container">
+  <p class="breadcrumb">Canada.ca</p>
+</div>
 <h5>Advanced search pages</h5>
-<p class="breadcrumb small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Basic search]</p>
+<div class="container">
+  <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Basic search]</p>
+</div>
 <h5>Campaigns and promotions</h5>
 <p>Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
 <h5>News</h5>
-<p class="breadcrumb small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Institutional profile page]</p>
+<div class="container">
+  <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Institutional profile page]</p>
+</div>
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
