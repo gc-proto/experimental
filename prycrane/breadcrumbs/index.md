@@ -2,7 +2,7 @@
 altLangPage: "#"
 breadcrumbs:
   - title: Peter's warrren
-    link: "https://test.canada.ca/experimental/prycrane/experimental/prycrane/"
+    link: "https://test.canada.ca/experimental/prycrane/"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
