@@ -127,7 +127,7 @@ title: "Breadcrumb trail"
 <h5>Theme pages, institutional and organizational pages</h5>
 <p class="breadcrumb small">Canada.ca</p>
 <h5>First-level topic pages</h5>
-<p class="breadcrumb small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme]</p>
+<div class="container"><p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme]</p></div>
 <h5>Second-level topic pages</h5>
 <p class="breadcrumb small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent topic]</p>
 <h5>Destination content pages</h5>
