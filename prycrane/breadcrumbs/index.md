@@ -26,7 +26,7 @@ title: "Shortening breadcrumbs"
     <p><strong>Proposal</strong>: let’s shorten our breadcrumbs to match our guidence.</p>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1BMw6sEhUN7r1jdrrpEC1Ua1zsz9Gv5NA2PeRbzot-i4">CIA Specification landing page</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1sGETEAhBRqnlopkHi-axZMmJqOoMoq96WuUYsx04jqA/edit">Shortening breadcrumbs</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul class="fa-ul">
