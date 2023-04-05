@@ -22,7 +22,7 @@ description: "Standard layout with Sign in and menu"
 lang: en
 layout: without-h1
 nomenu: false
-title: "Breadcrumb trail"
+title: "Global header"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design</span></span></h1>
-<p>Current presentation of breadcrumbs</p>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design</span></span></h1>
+<p>Shortened breadcrumbs ex. 3</p>
