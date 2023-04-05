@@ -23,4 +23,4 @@ nomenu: false
 title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design</span></span></h1>
-<p>Shortened breadcrumbs ex. 4.  The "About Canada.ca" breadcrumb is left out?  Is it advisable to skip a section?</p>
+<p>Shortened breadcrumbs ex. 4.  The "About Canada.ca" breadcrumb is left out.  Is it advisable to skip a section?</p>
