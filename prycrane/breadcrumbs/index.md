@@ -26,8 +26,8 @@ title: "Shortening breadcrumbs"
     <p><strong>Proposal</strong>: let’s shorten our breadcrumbs to match our guidence.</p>
     <nav id="wb-bc" property="breadcrumb">
       <h2 class="wb-inv">You are here:</h2>
-      <div class="container">
-        <ol class="breadcrumb">
+      <div class="container1">
+        <ol class="breadcrumb small">
           <li><a href="#">Canada.ca</a></li>
           <li><a href="#">Immigration and citizenship</a></li>
           <li><a href="#">Canadian citizenship</a></li>
@@ -37,10 +37,10 @@ title: "Shortening breadcrumbs"
       </div>
     </nav>
     <p>Can be shortened to this:</p>
-    <nav id="wb-bc1" property="breadcrumb">
+    <nav id="wb-bc" property="breadcrumb">
       <h2 class="wb-inv">You are here:</h2>
-      <div class="container">
-        <ol class="breadcrumb">
+      <div class="container1">
+        <ol class="breadcrumb small">
           <li><a href="#">Canada.ca</a></li>
           <li><a href="#">Immigration and citizenship</a></li>
           <li><a href="#">Canadian citizenship</a></li>
