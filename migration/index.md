@@ -27,8 +27,7 @@ title: "DTO asset migration"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/design-system">design-system (English design sytem repository)</a></li>
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/systeme-conception">systeme-conception (French design sytem repository)</a></li>
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/blogue-canada-ca-blog"> 
-blogue-canada-ca-blog (English and French blog repository)</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/blogue-canada-ca-blog"> blogue-canada-ca-blog (English and French blog repository)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1xbBwK4ximVygzuqV0Ie-cbQjEDvyVQLfZExcbLsupkw">AEM inventory</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
@@ -38,10 +37,10 @@ blogue-canada-ca-blog (English and French blog repository)</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Migration plan</h2>
     <ol>
-      <li>Web publishing documentation</li>
-      <li>ROT to bring English and French content to parity</li>
-      <li><a href="aem-migration.html">Moving files from AEM to GitHub</a></li>
-      <li>Establish and document metadata requirements</li>
+      <li>Web publishing documentation (<a href="https://scma-dto.monday.com/boards/2632043469/pulses/4116478601">Monday ticket</a>)</li>
+      <li>ROT to bring English and French content to parity (<a href="https://scma-dto.monday.com/boards/2632043469/pulses/4116473099">Monday ticket</a>)</li>
+      <li><a href="aem-migration.html">Moving files from AEM to GitHub</a> (<a href="https://scma-dto.monday.com/boards/2632043469/pulses/4116473099">Monday ticket</a>)</li>
+      <li>Establish and document metadata requirements (<a href="https://scma-dto.monday.com/boards/2632043469/pulses/4068487551">Monday ticket</a>)</li>
     </ol>
   </div>
   <div class="col-md-4">
