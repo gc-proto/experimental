@@ -125,7 +125,7 @@ title: "Breadcrumb trail"
 <h5>Advanced search pages</h5>
 <p class="mrgn-lft-md small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Basic search]</p>
 <h5>Campaigns and promotions</h5>
-<p class="mrgn-lft-md small">Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
+<p>Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
 <h5>News</h5>
 <p class="mrgn-lft-md small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Institutional profile page]</p>
 <h3>Visual examples</h3>
