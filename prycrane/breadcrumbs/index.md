@@ -34,7 +34,7 @@ title: "Shortening breadcrumbs"
             <li><a href="#">Apply for Canadian citizenship</a></li>
             <li><a href="#">Prepare for the Canadian citizenship test and interview</a></li>
           </ol>
-       <blockquote>
+       </blockquote>
       </nav>
       <p class="mrgn-tp-md">Can be shortened to this:</p>
       <nav id="wb-bc" property="breadcrumb">
