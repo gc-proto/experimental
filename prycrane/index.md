@@ -22,16 +22,23 @@ title: "Peter's warrren"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Peter's warrren</span>: <span>Hraka central</span></span></h1>
-    <h2 class="mrgn-tp-lg">Projects</h2>
+    <h2 class="mrgn-tp-lg h3">Projects</h2>
     <ul>
       <li><a href="https://test.canada.ca/experimental/prycrane/contactus/">Contact the Digital Transformation Office</a></li>
       <li><a href="https://test.canada.ca/experimental/prycrane/pattern-library/">Pattern library tasks</a></li>
       <li><a href="https://test.canada.ca/experimental/prycrane/continuous-improvement/">Update to Designing content page</a></li>
       <li><a href="https://test.canada.ca/experimental/prycrane/architecture/">Content and Information Architecture Specification</a></li>
-      <li><a href="https://test.canada.ca/experimental/prycrane/style-guide/index.html">Migration of the Canada.ca Content Style Guide</a></li>
+      <li><a href="https://test.canada.ca/experimental/prycrane/style-guide/index.html">Canada.ca Content Style Guide</a></li>
       <li><a href="https://test.canada.ca/experimental/laura/gcweb/">Global header documentation (Principal Publisher)</a></li>
-      <li><a href="https://test.canada.ca/experimental/header-mockups/">Global header mockups</a></li>  
-      <li><a href="https://test.canada.ca/experimental/migration/">Moving from AEM to GitHub</a></li>  
+      <li><a href="https://test.canada.ca/experimental/header-mockups/">Global header mockups</a></li>
+    </ul>
+    <h3 class="mrgn-tp-lg h4">DTO asset migrations</h3>
+    <ul>
+      <li><a href="https://test.canada.ca/experimental/migration/">DTO asset migration landing page</a>
+        <ul>
+          <li><a href="https://test.canada.ca/experimental/migration/aem-migration.html">Moving from AEM to GitHub</a></li>
+        </ul>
+      </li>
     </ul>
     <ul class="list-unstyled mrgn-tp-lg">
       <li>
@@ -44,7 +51,7 @@ title: "Peter's warrren"
         </details>
       </li>
     </ul>
-    <h2 class="mrgn-tp-lg">Technical stuff</h2>
+    <h2 class="mrgn-tp-lg h3">Technical stuff</h2>
     <ul>
       <li><a href="https://test.canada.ca/experimental/examples/">Jekyll layouts, front matter, and stuff</a></li>
     </ul>
