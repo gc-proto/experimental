@@ -64,7 +64,8 @@ title: "Shortening breadcrumbs"
       <ul>
       <li><a href="breadcrumbs-02.html">Shortened breadcrumbs ex. 1 (Global header)</a></li> 
       <li><a href="breadcrumbs-03.html">Shortened breadcrumbs ex. 2 (Global header)</a></li>      
-      <li><a href="breadcrumbs-04.html">Shortened breadcrumbs ex. 3 (Global header)</a></li>      
+      <li><a href="breadcrumbs-04.html">Shortened breadcrumbs ex. 3 (Global header)</a></li>
+      <li><a href="breadcrumbs-05.html">Shortened breadcrumbs ex. 4 (Global header)</a><br>This example demonstrates skipping a section.</li>         
         </ul></li></ul>
   </div>
   <div class="col-md-4">
