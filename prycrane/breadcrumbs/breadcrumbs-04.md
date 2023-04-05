@@ -6,11 +6,11 @@ auth:
   label: Sign in
   labelExtended: Sign in
 breadcrumbs:
-  - title: About Canada.ca
+  - title: About
     link: "https://www.canada.ca/en/government/about.html"
-  - title: Canada.ca design system
+  - title: Design system
     link: "https://www.canada.ca/en/government/about/design-system.html"
-  - title: Template and pattern library for Canada.ca
+  - title: Templates and patterns
     link: "https://www.canada.ca/en/government/about/design-system/pattern-library.html"
 css:
 - https://design.canada.ca/css/split-h1.css
