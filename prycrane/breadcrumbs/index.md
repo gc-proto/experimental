@@ -51,7 +51,6 @@ title: "Shortening breadcrumbs"
         </div>
       </nav>
     </blockquote>
-    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1sGETEAhBRqnlopkHi-axZMmJqOoMoq96WuUYsx04jqA/edit">Shortening breadcrumbs</a></li>
