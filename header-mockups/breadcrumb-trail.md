@@ -79,11 +79,11 @@ title: "Breadcrumb trail"
   <p>For example, these breadcrumbs:</p>
 </div>
 <div class="container">
-  <p class="breadcrumb small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> Immigration and citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Canadian citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Apply for Canadian citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Prepare for the Canadian citizenship test and interview</p>
+  <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> Immigration and citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Canadian citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Apply for Canadian citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Prepare for the Canadian citizenship test and interview</p>
 </div>
 <p>Can be shortened to this:</p>
 <div class="container">
-  <p class="breadcrumb small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> Immigration and citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Canadian citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Apply <span class="glyphicon glyphicon-chevron-right small"></span> Prepare for the test and interview</p>
+  <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> Immigration and citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Canadian citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Apply <span class="glyphicon glyphicon-chevron-right small"></span> Prepare for the test and interview</p>
 </div>
 <div class="cnt-wdth-lmtd">
   <h4>Accessibility</h4>
