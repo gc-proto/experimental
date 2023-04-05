@@ -39,7 +39,7 @@ title: "Shortening breadcrumbs"
       <p class="mrgn-tp-md">Can be shortened to this:</p>
       <nav id="wb-bc" property="breadcrumb">
         <h2 class="wb-inv">You are here:</h2>
-        <div class="container1">
+        <div class="mrgn-lft-lg">
           <ol class="breadcrumb small">
             <li><a href="#">Canada.ca</a></li>
             <li><a href="#">Immigration and citizenship</a></li>
