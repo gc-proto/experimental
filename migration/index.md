@@ -27,6 +27,8 @@ title: "DTO asset migration"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/design-system">design-system (English design sytem repository)</a></li>
       <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/systeme-conception">systeme-conception (French design sytem repository)</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/blogue-canada-ca-blog"> 
+blogue-canada-ca-blog (English and French blog repository)</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1xbBwK4ximVygzuqV0Ie-cbQjEDvyVQLfZExcbLsupkw">AEM inventory</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
