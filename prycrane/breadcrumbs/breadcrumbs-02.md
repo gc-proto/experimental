@@ -18,11 +18,11 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-04-05
 dateModified: 2023-04-05
-description: "Standard layout with Sign in and menu"
+description: "Global header"
 lang: en
 layout: without-h1
 nomenu: false
-title: "Breadcrumb trail"
+title: "Global header"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design</span></span></h1>
-<p>Current presentation of breadcrumbs</p>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design</span></span></h1>
+<p>Shortened breadcrumbs ex. 1</p>
