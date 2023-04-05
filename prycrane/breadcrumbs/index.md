@@ -60,7 +60,9 @@ title: "Shortening breadcrumbs"
     </ul>
     <ul>
       <li><a href="breadcrumbs-01.html">Current presentation of breadcrumbs (Global header)</a></li>
-      <li><a href="breadcrumbs-02.html">Next</a></li>      
+      <li><a href="breadcrumbs-02.html">Shortened breadcrumbs ex. 1 (Global header)</a></li> 
+      <li><a href="breadcrumbs-03.html">Shortened breadcrumbs ex. 2 (Global header)</a></li>      
+      <li><a href="breadcrumbs-04.html">Shortened breadcrumbs ex. 3 (Global header)</a></li>      
     </ul>
   </div>
   <div class="col-md-4">
