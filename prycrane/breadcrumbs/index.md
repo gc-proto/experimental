@@ -24,31 +24,33 @@ title: "Shortening breadcrumbs"
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Shortening breadcrumbs</span>: <span>Canada.ca design system</span></span></h1>
     <p><strong>Proposal</strong>: let’s shorten our breadcrumbs to match our guidence.</p>
-    <nav id="wb-bc" property="breadcrumb">
-      <h2 class="wb-inv">You are here:</h2>
-      <div class="container1">
-        <ol class="breadcrumb small">
-          <li><a href="#">Canada.ca</a></li>
-          <li><a href="#">Immigration and citizenship</a></li>
-          <li><a href="#">Canadian citizenship</a></li>
-          <li><a href="#">Apply for Canadian citizenship</a></li>
-          <li><a href="#">Prepare for the Canadian citizenship test and interview</a></li>
-        </ol>
-      </div>
-    </nav>
-    <p>Can be shortened to this:</p>
-    <nav id="wb-bc" property="breadcrumb">
-      <h2 class="wb-inv">You are here:</h2>
-      <div class="container1">
-        <ol class="breadcrumb small">
-          <li><a href="#">Canada.ca</a></li>
-          <li><a href="#">Immigration and citizenship</a></li>
-          <li><a href="#">Canadian citizenship</a></li>
-          <li><a href="#">Apply</a></li>
-          <li><a href="#">Prepare for test and interview</a></li>
-        </ol>
-      </div>
-    </nav>
+    <blockquote>
+      <nav id="wb-bc" property="breadcrumb">
+        <h2 class="wb-inv">You are here:</h2>
+        <div class="container1">
+          <ol class="breadcrumb small">
+            <li><a href="#">Canada.ca</a></li>
+            <li><a href="#">Immigration and citizenship</a></li>
+            <li><a href="#">Canadian citizenship</a></li>
+            <li><a href="#">Apply for Canadian citizenship</a></li>
+            <li><a href="#">Prepare for the Canadian citizenship test and interview</a></li>
+          </ol>
+        </div>
+      </nav>
+      <p>Can be shortened to this:</p>
+      <nav id="wb-bc" property="breadcrumb">
+        <h2 class="wb-inv">You are here:</h2>
+        <div class="container1">
+          <ol class="breadcrumb small">
+            <li><a href="#">Canada.ca</a></li>
+            <li><a href="#">Immigration and citizenship</a></li>
+            <li><a href="#">Canadian citizenship</a></li>
+            <li><a href="#">Apply</a></li>
+            <li><a href="#">Prepare for test and interview</a></li>
+          </ol>
+        </div>
+      </nav>
+    </blockquote>
     <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
