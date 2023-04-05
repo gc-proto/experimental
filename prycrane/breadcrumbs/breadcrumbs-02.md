@@ -22,6 +22,7 @@ description: "Global header"
 lang: en
 layout: without-h1
 nomenu: false
+pageclass: cnt-wdth-lmtd
 title: "Global header"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design</span></span></h1>
