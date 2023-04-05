@@ -76,9 +76,9 @@ title: "Breadcrumb trail"
   </li>
 </ul>
 <p>For example, these breadcrumbs:</p>
-<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply for Canadian citizenship &#8250; Prepare for the Canadian citizenship test and interview</p>
+<p>Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> Immigration and citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Canadian citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Apply for Canadian citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Prepare for the Canadian citizenship test and interview</p>
 <p>Can be shortened to this:</p>
-<p>Canada.ca &#8250; Immigration and citizenship &#8250; Canadian citizenship &#8250; Apply &#8250; Prepare for the test and interview</p>
+<p>Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> Immigration and citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Canadian citizenship <span class="glyphicon glyphicon-chevron-right small"></span> Apply <span class="glyphicon glyphicon-chevron-right small"></span> Prepare for the test and interview</p>
 <h4>Accessibility</h4>
 <ul>
   <li>Include “You are here:” as invisible help text</li>
@@ -109,25 +109,25 @@ title: "Breadcrumb trail"
 <h4>Examples</h4>
 <p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
 <h5>Theme pages, institutional and organizational pages</h5>
-<p>Canada.ca</p>
+<p class="mrgn-lft-md small">Canada.ca</p>
 <h5>First-level topic pages</h5>
-<p class="mrgn-lft-md small">Canada.ca   <span class="glyphicon glyphicon-chevron-right small"></span>   [Parent theme]</p>
+<p class="mrgn-lft-md small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme]</p>
 <h5>Second-level topic pages</h5>
-<p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]</p>
+<p class="mrgn-lft-md small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent topic]</p>
 <h5>Destination content pages</h5>
-<p>Canada.ca    &#8250;   [Parent theme]    &#8250;   [Parent topic]   &#8250;  [Parent sub-topic]   &#8250;   [etc.]</p>
+<p class="mrgn-lft-md small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent topic] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent sub-topic] <span class="glyphicon glyphicon-chevron-right small"></span> [etc.]</p>
 <h5>Corporate, program or policy content pages</h5>
-<p>Canada.ca   &#8250;   [Institutional profile page]</p>
+<p class="mrgn-lft-md small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Institutional profile page]</p>
 <h5>Partnering and collaborative arrangement profile pages</h5>
-<p>Canada.ca</p>
+<p class="mrgn-lft-md small">Canada.ca</p>
 <h5>Basic search pages</h5>
-<p>Canada.ca</p>
+<p class="mrgn-lft-md small">Canada.ca</p>
 <h5>Advanced search pages</h5>
-<p>Canada.ca   &#8250;   [Basic search]</p>
+<p class="mrgn-lft-md small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Basic search]</p>
 <h5>Campaigns and promotions</h5>
-<p>Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
+<p class="mrgn-lft-md small">Promotion campaigns don't need a breadcrumb trail. If you add one, it can lead back to the topic tree, the Institutional/Organizational profile, or to the Home page of Canada.ca.</p>
 <h5>News</h5>
-<p>Canada.ca   &#8250;   [Institutional profile page]</p>
+<p class="mrgn-lft-md small">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Institutional profile page]</p>
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
@@ -146,7 +146,7 @@ title: "Breadcrumb trail"
     <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header with breadcrumb trail  - small screen</summary>
       <p class="mrgn-tp-lg">The breadcrumbs appear under the menu button.</p>
-      </details>
+    </details>
   </figure>
 </div>
 <h2 id="implementation">How to implement</h2>
@@ -212,3 +212,4 @@ title: "Breadcrumb trail"
     </dt>
     <dd>Updated the guidance to include content and design specifications, visual examples and implementation guidance</dd>
   </dl>
+</div>
