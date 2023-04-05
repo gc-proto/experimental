@@ -40,17 +40,18 @@ title: "Peter's warrren"
         </ul>
       </li>
     </ul>
-    <ul class="list-unstyled mrgn-tp-lg">
+    <div class="mrgn-tp-lg">
+    <ul class="list-unstyled">
       <li>
         <details>
-          <summary>Done </summary>
+          <summary>Done</summary>
           <ul class="mrgn-tp-md fa-ul">
             <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/datatables/">dataTable fun</a></li>
             <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/example/">Visual examples expand and collapse?</a></li>
           </ul>
         </details>
       </li>
-    </ul>
+    </ul></div>
     <h2 class="mrgn-tp-lg h3">Technical stuff</h2>
     <ul>
       <li><a href="https://test.canada.ca/experimental/examples/">Jekyll layouts, front matter, and stuff</a></li>
