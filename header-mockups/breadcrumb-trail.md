@@ -112,6 +112,9 @@ title: "Breadcrumb trail"
     <li property="itemListElement" typeof="ListItem"> <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html"> <span property="name">Canada.ca</span> </a>
       <meta property="position" content="1">
     </li>
+    <li property="itemListElement" typeof="ListItem"> <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html"> <span property="name">next</span> </a>
+      <meta property="position" content="1">
+    </li>
   </ol>
 </div>
 <ol class="breadcrumb">
