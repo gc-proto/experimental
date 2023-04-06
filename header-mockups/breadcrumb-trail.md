@@ -176,7 +176,7 @@ title: "Breadcrumb trail"
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Global header – small screen</b></figcaption>
-      <img src="./images/01-breadcrumbs-sm-en" class="img-responsive" alt=" ">
+      <img src="./images/01-breadcrumbs-sm-en.png" class="img-responsive" alt=" ">
       <details class="mrgn-tp-md">
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header with breadcrumb trail  - small screen</summary>
         <p class="mrgn-tp-lg">The breadcrumbs appear under the menu button.</p>
