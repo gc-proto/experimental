@@ -76,7 +76,7 @@ title: "Government of Canada signature"
   <li>Alt text: Government of Canada</li>
 </ul>
 <p>The signature is a Scalable Vector Graphics (SVG) file, configured to scale automatically according to screen size.</p>
-<p>The signature is an image file that must be formatted according to Federal Identity Program design specifications.</p>
+<p>The signature is an image file that must be formatted according to <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/design-standard/colour-design-standard-fip.html">Federal Identity Program design specifications</a>.</p>
 <h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
@@ -107,7 +107,7 @@ title: "Government of Canada signature"
   <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">Quick implementation guide - GCWeb theme</a></li>
 </ul>
 <h3>Implementations</h3>
-<p>Determine what best suits the type of page you're creating. Refer to your implementation's guidance if you want to exclude breadcrumbs.</p>
+<p>Determine what best suits the type of page you're creating.</p>
 <div class="row">
   <div class="col-md-8">
     <div class="wb-tabs mrgn-tp-lg">
@@ -116,7 +116,6 @@ title: "Government of Canada signature"
           <summary><strong>GC-AEM</strong></summary>
           <p class="mrgn-tp-lg">For the Government of Canada Adobe Experience Manager (AEM):</p>
           <ul>
-            <li><a href="https://www.gcpedia.gc.ca/gcwiki/images/9/9a/AEM-6.5-Documentation-Unit-3-7-Changing-the-Default-Breadcrumb.pdf">Changing the default breadcrumb (PDF - GCPedia link - only available on the Government of Canada network)</a></li>
             <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service documentation (GCPedia link - only available on the Government of Canada network)</a></li>
           </ul>
         </details>
@@ -124,7 +123,6 @@ title: "Government of Canada signature"
           <summary><strong>CDTS</strong></summary>
           <p class="mrgn-tp-lg">For the Centrally Deployed Templates Solution (CDTS):</p>
           <ul>
-            <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_47/cdts/samples/breadcrumbs-en.html">Breadcrumbs - CDTS documentation </a></li>
             <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
           </ul>
         </details>
@@ -144,8 +142,6 @@ title: "Government of Canada signature"
 <h3>Research findings</h3>
 <p>Trust and consistency are essential. Our Canada.ca Trust Study and prior research show that a consistent header is necessary to maintaining a trusted brand.</p>
 <p>For example, people trust the page more when the flag in the Government of Canada signature is red.</p>
-<h3>Policy rationale</h3>
-<p>As part of the global header, the breadcrumb is a mandatory element under the Content and Information Architecture Specification.</p>
 <p>If you want to know more about this research, contact the Digital Transformation Office at <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a>.</p>
 <h3>Policy rationale</h3>
 <p>The Government of Canada signature is defined by the Federal Identity Program. As a part of the global header, it is a mandatory element under the Content and Information Architecture Specification.</p>
