@@ -52,6 +52,7 @@ title: "Breadcrumb trail"
   <p>The breadcrumb trail is mandatory on all pages, except transactional pages.</p>
   <h2 id="avoid">What to avoid</h2>
   <p>Don’t program the breadcrumb trail to be generated dynamically based on a visitor’s journey to a page. It should represent the location of a page as it stands in relation to the site’s navigation model.</p>
+  <p>Avoid long link labels that push content down on mobile. Use shortened versions of multi-word page titles when possible.</p>
   <p>Avoid long link labels. Use a shortened version of the page title if necessary.</p>
   <p>Don’t display the current page at the end of the breadcrumb trail (linked or unlinked). It increases the length of the breadcrumb unnecessarily, especially on mobile. The heading of the page is enough to let people know where they are.</p>
   <h2 id="content">Content and design</h2>
@@ -69,7 +70,7 @@ title: "Breadcrumb trail"
         <li>Link to the starting page of the process or the landing page of the application</li>
       </ul>
     </li>
-    <li>Use a single right chevron glyphicon to separate each breadcrumb link</li>
+    <li>Use a single right chevron icon to separate each breadcrumb link</li>
     <li>Reflect the title of the page in the breadcrumb label
       <ul>
         <li>Shorten breadcrumb labels where possible to improve readability and reduce space</li>
@@ -108,12 +109,19 @@ title: "Breadcrumb trail"
         <li>visited link: #7834bc</li>
       </ul>
     </li>
-    <li>Spacing: padding: 0 5px</li>
+    <li>Spacing
+    <ul>
+        <li>vertical padding: 13px</li>
+        <li>Horizontal padding: 2px</li>
+        <li>margin top: 15px</li>
+        <li>Line-height: 23px</li>
+      </ul></li>
     <li>Icon: glyphicon-chevron-right</li>
   </ul>
   <h4>Accessibility</h4>
   <p>Code breadcrumbs as an ordered list</p>
-  <h4>Examples</h4>
+    <p>Ensure the touch target for the link meets the WCAG requirements</p>
+  <h4>Breadcrumb structure</h4>
   <p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
 </div>
 <h5 class="mrgn-tp-lg">Theme pages, institutional and organizational pages</h5>
@@ -127,10 +135,6 @@ title: "Breadcrumb trail"
 <h5>Second-level topic pages</h5>
 <div class="container">
   <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent topic]</p>
-</div>
-<h5>Destination content pages</h5>
-<div class="container">
-  <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Parent theme] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent topic] <span class="glyphicon glyphicon-chevron-right small"></span> [Parent sub-topic] <span class="glyphicon glyphicon-chevron-right small"></span> [etc.]</p>
 </div>
 <h5>Corporate, program or policy content pages</h5>
 <div class="container">
