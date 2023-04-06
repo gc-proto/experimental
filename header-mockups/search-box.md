@@ -73,7 +73,7 @@ title: "Site search box"
 </ul>
 <h4>Interactions</h4>
 <ul>
-  <li>Searches query the GC Search index. Typing a search term in the input field and selecting the search icon opens a results page</li>
+  <li>Searches query the GC Search index. Typing a search term in the input field and selecting the search icon opens a results page.</li>
 </ul>
 <h3>Design specifications</h3>
 <p>Design specifications for the site search box are:</p>
@@ -119,7 +119,7 @@ title: "Site search box"
   <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">Quick implementation guide - GCWeb theme</a></li>
 </ul>
 <h3>Implementations</h3>
-<p>Determine what best suits the type of page you're creating. Refer to your implementation's guidance if you want to exclude breadcrumbs.</p>
+<p>Determine what best suits the type of page you're creating.</p>
 <div class="row">
   <div class="col-md-8">
     <div class="wb-tabs mrgn-tp-lg">
