@@ -224,7 +224,6 @@ title: "Theme and topic menu"
           <summary><strong>CDTS</strong></summary>
           <p class="mrgn-tp-lg">For the Centrally Deployed Templates Solution (CDTS):</p>
           <ul>
-            <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_47/cdts/samples/breadcrumbs-en.html">Breadcrumbs - CDTS documentation </a></li>
             <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
           </ul>
         </details>
