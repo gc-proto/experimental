@@ -110,17 +110,18 @@ title: "Breadcrumb trail"
       </ul>
     </li>
     <li>Spacing
-    <ul>
+      <ul>
         <li>vertical padding: 13px</li>
         <li>Horizontal padding: 2px</li>
         <li>margin top: 15px</li>
         <li>Line-height: 23px</li>
-      </ul></li>
+      </ul>
+    </li>
     <li>Icon: glyphicon-chevron-right</li>
   </ul>
   <h4>Accessibility</h4>
   <p>Code breadcrumbs as an ordered list</p>
-    <p>Ensure the touch target for the link meets the WCAG requirements</p>
+  <p>Ensure the touch target for the link meets the WCAG requirements</p>
   <h4>Breadcrumb structure</h4>
   <p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
 </div>
