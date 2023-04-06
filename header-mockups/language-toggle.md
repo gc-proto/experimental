@@ -45,7 +45,6 @@ title: "Language toggle"
     <li><a href="#implementation">How to implement</a></li>
     <li><a href="#research">Research and rationale</a></li>
     <li><a href="#changes">Latest changes</a></li>
-    <li><a href="#discussion">Discussion</a></li>
   </ul>
 </section>
 <h2 id="when">When to use</h2>
@@ -191,9 +190,4 @@ title: "Language toggle"
     </dt>
     <dd>Updated the guidance to include content and design specifications, visual examples and implementation guidance</dd>
   </dl>
-  <h2 id="discussion">Discussion</h2>
-  <ul>
-    <li><a href="https://github.com/canada-ca/design-system/issues">Discuss the pattern in GitHub Issues</a></li>
-    <li><a href="http://design-GC-conception.slack.com">Join the conversation on Slack</a></li>
-  </ul>
 </div>
