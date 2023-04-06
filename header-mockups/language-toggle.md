@@ -72,8 +72,8 @@ title: "Language toggle"
 <ul>
   <li>Add the full name of the language in the title attribute for the abbreviated language toggle
     <ul>
-      <li>the abbreviation title for EN is “English” 
-        the abbreviation title for FR is “Français”</li>
+      <li>the abbreviation title for EN is “English”</li>
+      <li>the abbreviation title for FR is “Français”</li>
     </ul>
   </li>
 </ul>
@@ -140,7 +140,7 @@ title: "Language toggle"
   <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">Quick implementation guide - GCWeb theme</a></li>
 </ul>
 <h3>Implementations</h3>
-<p>Determine what best suits the type of page you're creating. Refer to your implementation's guidance if you want to exclude breadcrumbs.</p>
+<p>Determine what best suits the type of page you're creating.</p>
 <div class="row">
   <div class="col-md-8">
     <div class="wb-tabs mrgn-tp-lg">
@@ -156,7 +156,6 @@ title: "Language toggle"
           <summary><strong>CDTS</strong></summary>
           <p class="mrgn-tp-lg">For the Centrally Deployed Templates Solution (CDTS):</p>
           <ul>
-            <li><a href="https://cdts.service.canada.ca/app/cls/WET/gcweb/v4_0_47/cdts/samples/breadcrumbs-en.html">Breadcrumbs - CDTS documentation </a></li>
             <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
           </ul>
         </details>
