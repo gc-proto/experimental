@@ -152,26 +152,19 @@
                           <div class="mrgn-bttm-md"><a class="btn btn-default btn-lg btn-block" href=""><span
                                 class="h3"><span class="fas fa-id-card mrgn-rght-md"></span>Partenaire provincial</span></a></div>
                           <p>Si vous disposez d’un compte en ligne dans votre province, vous pouvez vous inscrire immédiatement, sans avoir à vérifier votre identité à l’aide d’un code d’accès ou de votre banque.&nbsp;</p>
-                          <p>Si vous n’avez pas d’accès en ligne, utilisez une autre option pour vous inscrire.&nbsp;</p>
-
-                          <details>
-                            <summary class="text-center">Vérifiez si vous pouvez utiliser l’identifiant numérique de votre province
-                            </summary>
-                            <p>Si vous n’avez pas d’accès en ligne par l’entremise de l’une de ces provinces, inscrivez-vous en utilisant une autre option d’ouverture de session.</p>
-                            <p>Vérifiez si vous avez un accès en ligne par l’intermédiaire des sites Web d’identification numérique de votre province :</p>
-                            <ul class="list-inline row">
-                              <li class="col-md-4 col-md-offset-2">
-                                <a href="https://account.alberta.ca/"><img
-                                    src="https://www.canada.ca/content/dam/cra-arc/serv-info/eservices/myalberta-digital-id.png"
-                                    alt="My Alberta Digital ID logo" class="img-responsive"></a>
-                              </li>
-                              <li class="col-md-4">
-                                <a href="
-                                  https://www2.gov.bc.ca/gov/content/governments/government-id/bc-services-card"><img
-                                    src="https://www.canada.ca/content/dam/cra-arc/serv-info/eservices/bc-services-card.png"
-                                    alt="BC Services Card" class="img-responsive"></a>
-                              </li>
-                            </ul>
+<p>Si vous n’avez pas d’accès en ligne, utilisez une autre option pour vous inscrire.&nbsp;</p>
+<details>
+<summary class="text-center">Vérifiez si vous pouvez utiliser l’identifiant numérique de votre province</summary>
+<p>Si vous n’avez pas d’accès en ligne par l’entremise de l’une de ces provinces, inscrivez-vous en utilisant une autre option d’ouverture de session.</p>
+<p>Vérifiez si vous avez un accès en ligne par l’intermédiaire des sites Web d’identification numérique de votre province :</p>
+<ul class="list-inline row">
+	<li class="col-md-4 col-md-offset-2">
+		<a href="https://account.alberta.ca/"><img src="https://www.canada.ca/content/dam/cra-arc/serv-info/eservices/myalberta-digital-id.png" alt="My Alberta Digital ID logo" class="img-responsive"></a>
+	</li>
+	<li class="col-md-4">
+                 <a href="https://www2.gov.bc.ca/gov/content/governments/government-id/bc-services-card"><img src="https://www.canada.ca/content/dam/cra-arc/serv-info/eservices/bc-services-card.png" alt="BC Services Card" class="img-responsive"></a>
+         </li>
+</ul>
                           </details>
                         </div>
                       </div>
