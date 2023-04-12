@@ -52,7 +52,7 @@ title: "Contactez le Bureau de la transformation numérique"
           <div class="wb-fieldflow gc-font-2019" data-wb-fieldflow='{"noForm": true, "renderas":"radio", "gcChckbxrdio":true}'>
             <p>Voulez-vous que nous vous contactions au sujet de vos commentaires&nbsp;?</p>
             <ul>
-              <li data-wb-fieldflow='{"action": "query", "name": "feedback_type", "value": "feedback_type1"}'>No</li>
+              <li data-wb-fieldflow='{"action": "query", "name": "feedback_type", "value": "feedback_type1"}'>Non</li>
               <li data-wb-fieldflow='[
                                 {"action": "toggle", "toggle": "#email_request_other", "live":true },
                                 {"action": "query", "name": "feedback_type", "value": "feedback_type3" }
