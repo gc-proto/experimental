@@ -121,6 +121,9 @@
 <h1 property="name" id="wb-cont" class="provisional gc-thickline" dir="ltr">Demo feedback tool - French</h1>
 
 
+<p>Updated April 12 with code from: <a href="https://servicecanada.github.io/wet-boew-demos/gcweb-pr2098/sites/feedback/page-feedback-fr.html">https://servicecanada.github.io/wet-boew-demos/gcweb-pr2098/sites/feedback/page-feedback-fr.html</a></p>
+
+
 
 
 
@@ -129,107 +132,70 @@
 <div class="mwsgeneric-base-html parbase section">
 
   <!-- START PAGE FEEDBACK WIDGET -->
-   <div class="row row-no-gutters mrgn-tp-xl">
-      <div class="col-sm-7 col-lg-6">
-          <section class="gc-pg-hlpfl provisional">
-              <div class="well mrgn-bttm-0">
-                  <form id="gc-pg-hlpfl-frm" action="#" method="post" autocomplete="off">
-                    <input type="hidden" name="institutionopt" value="tbs">
-                    <input type="hidden" name="themeopt" value="Policies">
-                    <input type="hidden" name="language" value="FR">
-  <input type="hidden" name="pageTitle" value="Feedback demo FR">
-  <input type="hidden" name="submissionPage" value="https://test.canada.ca/experimental/design-system/performance/feedback/demo-feedback-fr.html">
-  <input type="hidden" name="sectionopt" value="Section - required but can be blank - same value EN and FR">
-
-
-                      <input type="hidden" id="helpful" name="helpful" value="Yes">
-
-                      <div class="gc-pg-hlpfl-btn">
-                          <div class="row row-no-gutters">
-                              <div class="col-xs-12 col-sm-7 mrgn-tp-sm">
-                                  <h2 class="mrgn-tp-sm h5">Avez-vous trouvé ce que vous cherchiez?</h2>
-                              </div>
-                              <div class="col-xs-8 col-sm-5 text-right">
-                                  <button id="btnyes" type="submit" value="Yes" class="btn btn-primary">Oui</button>
-                                  <button id="btnno" type="button" class="btn btn-primary mrgn-lft-sm nojs-hide">Non</button>
-                              </div>
-                          </div>
-                      </div>
-                      <p class="h3 hidden nojs-show">Sinon, dites nous pourquoi&nbsp;:</p>
-                      <div class="gc-pg-hlpfl-no nojs-show">
-                        
-                          <label for="problem6" class="mrgn-bttm-0">Veuillez fournir plus de détails</label>
-                          <p class="small">
-                              <strong>Vous ne recevrez aucune réponse. N'incluez pas de renseignements personnels (téléphone, courriel, NAS, renseignements financiers, médicaux ou professionnels).</strong>
-                              <br>
-                              <span class="small">Maximum de 300 caractères</span>
-                          </p>
-                          <textarea id="problem6" name="details" class="full-width" maxlength="300"></textarea>
-                          <button type="submit" value="No" class="btn btn-primary mrgn-tp-md mrgn-bttm-sm">Soumettre</button>
-                      </div><script>
-  $(document).on("wb-ready.wb", function() {
-     $("#btnno").click(function(e) {
-         $(".gc-pg-hlpfl-no").removeClass("nojs-show");
-         $(".gc-pg-hlpfl-btn").addClass("hide");
-         $("#helpful").val("No");
-     });
-     $("#gc-pg-hlpfl-frm").submit(function(e) {
-         e.preventDefault();
-         $(".gc-pg-hlpfl-thnk").removeClass("hide");
-         $("#gc-pg-hlpfl-frm").addClass("hide nojs-show");
-         $.ajax({
-             url: 'https://pagesuccessemailqueue.azurewebsites.net/api/QueueProblemForm',
-             type: 'POST',
-             dataType: 'text',
-             data: $('form#gc-pg-hlpfl-frm').serialize(),
-             success: function(data) {},
-             error: function(xhr, status, err) {
-                 console.log(xhr.responseText);
-             }
-         });
-     });
-  });
-  </script>
-                  </form>
-                  <div class="gc-pg-hlpfl-thnk hide">
-                      <p class="h6 mrgn-tp-sm mrgn-bttm-sm"><span class="far fa-check-circle text-success mrgn-rght-sm" aria-hidden="true"></span> Merci de vos commentaires</p>
-                  </div>
-              </div>
-          </section>
-      </div>
-      <div class="col-sm-3 col-sm-offset-1 col-lg-offset-3">
-          <div class="wb-share" data-wb-share="{&quot;pnlId&quot;:&quot;pnlShrPg&quot;, &quot;lnkClass&quot;: &quot;btn btn-default btn-block mrgn-tp-md&quot;}"></div>
-      </div>
-  </div>
+  <div class="gc-pft row" data-wb-jsonmanager='{
+	"name": "feedback",
+	"extractor": [
+	{ "selector": "title", "path": "pageTitle" },
+	{ "selector": "html", "attr": "lang", "path": "lang" },
+	{ "interface": "locationHref", "path": "submissionPage" },
+	{ "selector": "#wb-lng ul li:first-child a[lang]", "attr": "href", "path": "oppositelang" },
+		{ "selector": "meta[name=\"dcterms.type\"]", "attr": "content", "path": "themeopt" },
+		{ "selector": "meta[name=\"dcterms.subject\"]", "attr": "content", "path": "sectionopt" },
+		{ "selector": "meta[name=\"dcterms.creator\"]", "attr": "content", "path": "institutionopt" }
+	]
+}'>
+	<div class="col-sm-10 col-md-9 col-lg-8">
+		<section class="well mrgn-bttm-0" aria-live="polite">
+			<h2 class="wb-inv">Donnez votre avis sur cette page</h2>
+			<form action="https://pagesuccessemailqueue.azurewebsites.net/api/QueueProblemForm" method="post" class="wb-postback" data-wb-postback='{"success":".gc-pft-thnk"}'>
+				<div data-wb-json='{
+					"url": "#[feedback]",
+					"mapping": [
+						{ "selector": "input", "attr": "name", "value": "/@id" },
+						{ "selector": "input", "attr": "value", "value": "/@value" }
+					]
+				}'>
+					<template>
+						<input type="hidden" name="" value="" />
+					</template>
+				</div>
+				<fieldset class="gc-pft-btns chkbxrdio-grp row row-no-gutters d-sm-flex flex-sm-wrap align-items-sm-center">
+					<legend class="col-xs-12 col-sm-7 nojs-col-sm-12 col-md-9 col-lg-8 text-center text-sm-left nojs-text-left mrgn-tp-sm pr-sm-3 nojs-pr-sm-0"><span class="field-name">Avez-vous trouvé ce que vous cherchiez?</span></legend>
+					<div class="col-xs-12 nojs-show">
+						<button name="helpful" value="Yes-Oui" class="btn btn-primary" aria-describedby="why-note">Oui</button>
+					</div>
+					<div class="col-xs-12 col-sm-5 col-md-3 col-lg-4 text-center text-sm-right nojs-hide">
+						<button name="helpful" value="Yes-Oui" class="btn btn-primary mrgn-tp-sm mrgn-bttm-sm">Oui</button>
+						<button type="button" class="btn btn-primary mrgn-tp-sm mrgn-bttm-sm mrgn-lft-sm" data-wb-doaction='[
+							{"action":"removeClass","source":".gc-pft-no","class":"nojs-show"},
+							{"action":"addClass","source":".gc-pft-btns","class":"hide"}
+						]'>Non</button>
+					</div>
+				</fieldset>
+				<div class="gc-pft-no nojs-show">
+					<p id="why-note" class="nojs-show mrgn-tp-lg mrgn-bttm-md"><strong>Sinon, dites nous pourquoi ci-dessous&nbsp;:</strong></p>
+					<p class="nojs-hide wb-inv"><strong>Dites nous pourquoi ci-dessous&nbsp;:</strong></p>
+					<div aria-live="off">
+						<div class="form-group">
+							<label for="problem" class="mrgn-bttm-0"><span class="field-name">Veuillez fournir plus de détails</span></label>
+							<p id="problem-note" class="mrgn-bttm-sm"><strong><small>Vous ne recevrez pas de réponse. N'incluez pas de renseignements personnels (téléphone, courriel, NAS, renseignements financiers, médicaux ou professionnels).</small></strong></p>
+							<p><small>Maximum de 300 caractères</small></p>
+							<textarea id="problem" aria-describedby="problem problem-note" name="details" class="form-control full-width" maxlength="300"></textarea>
+						</div>
+						<button name="helpful" value="No-Non" class="btn btn-primary">Soumettre</button>
+					</div>
+				</div>
+			</form>
+			<div class="gc-pft-thnk hide">
+				<p class="mrgn-tp-sm mrgn-bttm-0"><span class="glyphicon glyphicon-ok text-success mrgn-rght-sm" aria-hidden="true"></span> Merci de vos commentaires.</p>
+			</div>
+		</section>
+	</div>
+</div>
   <!-- END PAGE FEEDBACK WIDGET -->	
 
 
-  <!-- START SCRIPT PAGE FEEDBACK WIDGET -->
-  <script>
-  $(document).on("wb-ready.wb", function() {
-     $("#btnno").click(function(e) {
-         $(".gc-pg-hlpfl-no").removeClass("nojs-show");
-         $(".gc-pg-hlpfl-btn").addClass("hide");
-         $("#helpful").val("No");
-     });
-     $("#gc-pg-hlpfl-frm").submit(function(e) {
-         e.preventDefault();
-         $(".gc-pg-hlpfl-thnk").removeClass("hide");
-         $("#gc-pg-hlpfl-frm").addClass("hide nojs-show");
-         $.ajax({
-             url: 'https://pagesuccessemailqueue.azurewebsites.net/api/QueueProblemForm',
-             type: 'POST',
-             dataType: 'text',
-             data: $('form#gc-pg-hlpfl-frm').serialize(),
-             success: function(data) {},
-             error: function(xhr, status, err) {
-                 console.log(xhr.responseText);
-             }
-         });
-     });
-  });
-  </script>
-  <!-- END SCRIPT PAGE FEEDBACK WIDGET -->
+
 
   
   <div class="pagedetails">
