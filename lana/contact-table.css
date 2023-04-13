@@ -1,9 +1,9 @@
-.notbold{
-    font-weight:normal
-}​
+.dataTables_filter {
+  padding: 10px;
+  margin-bottom:7px;
+  background-color: #d9edf7;
+}
 
-
-th, td {
-  padding-left: 15px !important;
-  padding-right: 25px !important;
+.dataTables_wrapper .dataTables_filter {
+  float: none;
 }
