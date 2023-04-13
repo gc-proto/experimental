@@ -1,0 +1,9 @@
+.notbold{
+    font-weight:normal
+}​
+
+
+th, td {
+  padding-left: 15px !important;
+  padding-right: 25px !important;
+}
