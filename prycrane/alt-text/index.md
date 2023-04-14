@@ -32,6 +32,6 @@ title: "Alt text and long descriptions"
     </ul>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/bunny16.png" alt="" class="img-responsive"></div>
+    <div><img src="./images/bunny26.png" alt="" class="img-responsive"></div>
   </div>
 </div>
