@@ -15,7 +15,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2022-08-17
-dateModified: 2023-04-05
+dateModified: 2023-04-14
 description: "Guidance about using breadcrumbs on Canada.ca. The breadcrumb trail provides a series of navigational links that gives people a sense of where they are in relation to the site structure."
 language: en
 layout: without-h1
