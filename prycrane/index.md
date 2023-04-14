@@ -32,6 +32,7 @@ title: "Peter's warrren"
       <li><a href="https://test.canada.ca/experimental/laura/gcweb/">Global header documentation (Principal Publisher)</a></li>
       <li><a href="https://test.canada.ca/experimental/header-mockups/">Global header mockups</a></li>
       <li><a href="https://test.canada.ca/experimental/prycrane/breadcrumbs/">Shortening breadcrumbs</a></li>      
+      <li><a href="https://test.canada.ca/experimental/prycrane/alt-text/">Alt text and long descriptions</a></li>          
     </ul>
     <h3 class="mrgn-tp-lg h4">DTO asset migration</h3>
     <ul>
