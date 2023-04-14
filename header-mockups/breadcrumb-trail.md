@@ -121,7 +121,6 @@ title: "Breadcrumb trail"
   </ul>
   <h4>Accessibility</h4>
   <p>Code breadcrumbs as an ordered list</p>
-  <p>Ensure the touch target for the link meets the WCAG requirements</p>
   <h4>Breadcrumb structure</h4>
   <p>Here are some examples of breadcrumbs for different locations on Canada.ca</p>
 </div>
@@ -160,6 +159,10 @@ title: "Breadcrumb trail"
 <h5 class="mrgn-tp-lg">News</h5>
 <div class="container">
   <p class="breadcrumb">Canada.ca <span class="glyphicon glyphicon-chevron-right small"></span> [Institutional profile page]</p>
+</div>
+<h5 class="mrgn-tp-lg">Application</h5>
+<div class="container">
+  <p class="breadcrumb">Home <span class="glyphicon glyphicon-chevron-right small"></span></p>
 </div>
 <div class="cnt-wdth-lmtd">
   <h3>Visual examples</h3>
@@ -233,7 +236,7 @@ title: "Breadcrumb trail"
       Explains the decision to use “Canada.ca” as the label for the first link in the breadcrumb.</p>
     <p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Wayfinding on Canada.ca research summary</a><br>
       Research shows that people navigating on the site use breadcrumb links nearly twice as often as they use the Theme and topic menu.</p>
-    <p>Further design and research work to optimize the breadcrumb for mobile is planned.</p>
+    <p>The spacing specifications for the breadcrumb links are designed so that touch targets meet WCAG AAA requirements.</p>
     <h3>Policy rationale</h3>
     <p>As part of the global header, the breadcrumb is a mandatory element under the Content and Information Architecture Specification.</p>
     <ul>
