@@ -288,7 +288,7 @@ title: "En-tête global"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>En-tête global minimum&nbsp;: pages transactionnelles, grand écran</b></figcaption>
-        <img src="./images/global-header-transactional-desktop-fr.png" class="img-responsive" alt="">
+        <img src="./images/01-global-header-transactional-lg-fr.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Texte de remplacement&nbsp;: schéma de l’en-tête global minimum sur un grand écran</summary>
           <p class="mrgn-tp-lg">Sur les grands écrans, l’en-tête global minimum sur une page régulière comporte 2 lignes&nbsp;:</p>
@@ -302,7 +302,7 @@ title: "En-tête global"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>En-tête global minimum&nbsp;: pages transactionnelles, petit écran</b></figcaption>
-        <img src="./images/global-header-transactional-small-fr.png" class="img-responsive" alt="">
+        <img src="./images/01-global-header-transactional-sm-fr.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Texte de remplacement&nbsp;: schéma de l’en-tête global minimum sur un petit écran</summary>
           <p class="mrgn-tp-lg">Sur les petits écrans, l’en-tête global minimum sur une page régulière comporte une seule ligne&nbsp;:</p>
