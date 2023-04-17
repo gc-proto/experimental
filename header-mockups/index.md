@@ -36,6 +36,7 @@ title: "Header mockups"
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1iKcrU1l3sB6wAPEGzMe1H0xrGkhdOo7U8PNTr3b-Ktg">Global header guidance (English doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1W9pyiTX3X2ctlSNBX_suAhsmydKihdXVAB4VX_hgCas">Global header guidance (French doc)</a></li>
         </ul>
       </div>
     </div>
@@ -49,6 +50,7 @@ title: "Header mockups"
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/19pvL4oNCZZyN1jBClhH7VlAZuPrm7Nh_ZYkbX3lAcwM">Theme and topic menu (English doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1W9pyiTX3X2ctlSNBX_suAhsmydKihdXVAB4VX_hgCas">Theme and topic menu (French doc)</a></li>
         </ul>
       </div>
     </div>    
