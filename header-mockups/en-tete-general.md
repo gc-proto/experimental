@@ -39,7 +39,7 @@ title: "En-tête global"
   </ul>
   <p><strong>Mise à jour de la conception en 2022</strong>&nbsp;: nous avons récemment mis à jour ce modèle dans le cadre d’une nouvelle stratégie de navigation issue du projet de recherche Orientation. Pour en savoir plus sur ce projet, consultez la section <a href="#recherche">Recherche et justification</a>.</p>
   <div class="pattern-demo mrgn-tp-lg">
-    <figure class="mrgn-bttm-sm"><img src="https://design.canada.ca/images/sign-in-desktop-fr.jpg" class="img-responsive" alt=""></figure>
+    <figure class="mrgn-bttm-sm"><img src="./images/01-signin-button-lg-fr.png" class="img-responsive" alt=""></figure>
   </div>
   <section>
     <h2>Sur cette page</h2>
@@ -253,7 +253,7 @@ title: "En-tête global"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>En-tête global : pages régulières, grand écran</b></figcaption>
-        <img src="https://design.canada.ca/images/sign-in-desktop-fr.jpg" class="img-responsive" alt="">
+        <img src="./images/01-signin-button-lg-fr.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Texte de remplacement&nbsp;: schéma de l’en-tête global pour les grands écrans.</summary>
           <p class="mrgn-tp-lg">Sur les grands écrans, l’en-tête global sur une page régulière comporte 4 lignes&nbsp;:</p>
@@ -269,7 +269,7 @@ title: "En-tête global"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>En-tête global : pages régulières, petit écran</b></figcaption>
-        <img src="https://design.canada.ca/images/sign-in-mobile-fr.jpg" class="img-responsive" alt="">
+        <img src="./images/01-signin-button-lg-fr.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Texte de remplacement&nbsp;: schéma de l’en-tête global pour les petits écrans.</summary>
           <p class="mrgn-tp-lg">Sur les petits écrans, l’en-tête global sur une page régulière comporte 4 lignes&nbsp;:</p>
