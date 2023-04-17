@@ -64,6 +64,7 @@ title: "Header mockups"
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kQBG37Kf7qNRaieREX0CAbqU-C2TrHj4o-G_sKRXZXQ">Breadcrumbs (English doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/16rPESxt80ZCekwyyMP40eEV4SvH1TWY7MFsDU1WDzZs">Breadcrumbs (French doc)</a></li>
         </ul>
       </div>
     </div>
