@@ -35,7 +35,7 @@ title: "Header mockups"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/global-header.html">Global header (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1iKcrU1l3sB6wAPEGzMe1H0xrGkhdOo7U8PNTr3b-Ktg">Global header guidance (doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1iKcrU1l3sB6wAPEGzMe1H0xrGkhdOo7U8PNTr3b-Ktg">Global header guidance (English doc)</a></li>
         </ul>
       </div>
     </div>
@@ -48,7 +48,7 @@ title: "Header mockups"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/site-menu.html">Theme and topic menu (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/19pvL4oNCZZyN1jBClhH7VlAZuPrm7Nh_ZYkbX3lAcwM">Theme and topic menu (doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/19pvL4oNCZZyN1jBClhH7VlAZuPrm7Nh_ZYkbX3lAcwM">Theme and topic menu (English doc)</a></li>
         </ul>
       </div>
     </div>    
@@ -61,7 +61,7 @@ title: "Header mockups"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kQBG37Kf7qNRaieREX0CAbqU-C2TrHj4o-G_sKRXZXQ">Breadcrumbs (doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kQBG37Kf7qNRaieREX0CAbqU-C2TrHj4o-G_sKRXZXQ">Breadcrumbs (English doc)</a></li>
         </ul>
       </div>
     </div>
