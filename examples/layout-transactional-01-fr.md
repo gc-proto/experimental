@@ -8,7 +8,7 @@ css:
 date: 2023-02-06
 dateModified: 2023-02-06
 description: "Transactional page example"
-language: en
+language: fr
 layout: form
 nositesearch: true
 nomenu: true
