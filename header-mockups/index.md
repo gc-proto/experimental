@@ -74,7 +74,8 @@ title: "Header mockups"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/signature.html">Government of Canada signature (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1D_xnDomYifrpJ371mX1VtWXeElSfaXItJewRV174fUI">Government of Canada signature (doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1D_xnDomYifrpJ371mX1VtWXeElSfaXItJewRV174fUI">Government of Canada signature (English doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1Ha6JxlQJ0rrLCdWx8BczFn3XJSi9tOQX9Qo93emNfAE">Government of Canada signature (French doc)</a></li>
         </ul>
       </div>
     </div>
@@ -87,7 +88,8 @@ title: "Header mockups"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/search-box.html">Site search box (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1-A7MCAltGdGiSMBpUBW_Om9Hm4GX-l741Cq-8QIesaY">Site search box (doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1-A7MCAltGdGiSMBpUBW_Om9Hm4GX-l741Cq-8QIesaY">Site search box (English doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1HT4a9ch498lxsj4I--JnuudXDEa2Gt8NsIl8ii0FZ7w">Site search box (French doc)</a></li>
         </ul>
       </div>
     </div>
@@ -100,7 +102,8 @@ title: "Header mockups"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/language-toggle.html">Language toggle link (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1JhCyTzntbbzMLmfzlqWqOvpEyby7dslDhWPosBwG2Ag">Language toggle link (doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1JhCyTzntbbzMLmfzlqWqOvpEyby7dslDhWPosBwG2Ag">Language toggle link (English doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1Rv0L4wzPPyY_JsGkUrt6Fya4rE2VwMvtXxXx5sh38QY">Language toggle link (French doc)</a></li>
         </ul>
       </div>
     </div>
