@@ -318,7 +318,7 @@ title: "En-tête global"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>En-tête global minimum&nbsp;: pages de campagne, grand écran</b></figcaption>
-        <img src="./images/global-header-campaign-desktop-fr.png" class="img-responsive" alt="">
+        <img src="./images/01-global-header-campaign-lg-fr.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Texte de remplacement&nbsp;: schéma de l’en-tête global minimum sur un grand écran</summary>
           <p class="mrgn-tp-lg">Sur les grands écrans, l’en-tête global minimum sur une page de campagne comporte 3 lignes&nbsp;:</p>
@@ -333,7 +333,7 @@ title: "En-tête global"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>En-tête global minimum : pages de campagne, petit écran</b></figcaption>
-        <img src="./images/global-header-campaign-small-fr.png" class="img-responsive" alt="">
+        <img src="./images/01-global-header-campaign-sm-fr.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Texte de remplacement&nbsp;: schéma de l’en-tête global minimum sur un petit écran</summary>
           <p class="mrgn-tp-lg">Sur les petits écrans, l’en-tête global minimum sur une page de campagne comporte 3 lignes&nbsp;:</p>
