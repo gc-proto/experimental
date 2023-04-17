@@ -269,7 +269,7 @@ title: "En-tête global"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>En-tête global : pages régulières, petit écran</b></figcaption>
-        <img src="./images/01-signin-button-lg-fr.png" class="img-responsive" alt="">
+        <img src="./images/01-signin-button-sm-fr.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Texte de remplacement&nbsp;: schéma de l’en-tête global pour les petits écrans.</summary>
           <p class="mrgn-tp-lg">Sur les petits écrans, l’en-tête global sur une page régulière comporte 4 lignes&nbsp;:</p>
