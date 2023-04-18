@@ -32,7 +32,7 @@ title: "Menu thématique"
 <p><span class="label label-danger">Obligatoire sur les pages standard</span></p>
 <p>Le menu thématique donne accès aux principales tâches de tous les sites Web du gouvernement du Canada regroupés sous les principaux thèmes de Canada.ca.</p>
 <div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-sm"><img src="./images/theme-menu-flyout-en.png" class="img-responsive" alt=""></figure>
+  <figure class="mrgn-bttm-sm"><img src="./images/theme-menu-flyout-fr.png" class="img-responsive" alt=""></figure>
 </div>
 <section>
   <h2>On this page</h2>
