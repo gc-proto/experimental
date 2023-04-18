@@ -18,7 +18,7 @@ description: ""
 language: fr
 layout: without-h1
 share: true
-pageclass: cnt-wdth-lmtd1
+pageclass: cnt-wdth-lmtd
 title: "Menu thématique"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Menu thématique</span>: <span>Système de conception de Canada.ca</span></span></h1>
