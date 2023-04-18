@@ -18,7 +18,7 @@ description: ""
 language: fr
 layout: without-h1
 share: true
-pageclass: cnt-wdth-lmtd1
+pageclass: cnt-wdth-lmtd
 title: "Signature du gouvernement du Canada"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Signature du gouvernement du Canada</span>: <span>Système de conception de Canada.ca</span></span></h1>
