@@ -164,7 +164,7 @@ title: "Theme and topic menu"
     <img src="./images/theme-menu-flyout-en.png" class="img-responsive" alt=" ">
     <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: theme and topic menu with flyout open - large screen</summary>
-      <p class="mrgn-tp-lg">The theme and topic menu consists of a button with the word 'Menu' and a downward-facing chevron. When clicked, it expands to a menu that exposes the titles of all 15 themes. When the title of a theme is clicked a menu flyout appears on the right-hand side of the theme menu. The theme title is featured prominently at the top of the flyout while the main topics are listed below the title on the left-hand side. On the right-hand side of the flyout there is a 'Most requested' heading followed by a list of the most requested tasks.</p>
+      <p class="mrgn-tp-lg">The theme and topic menu consists of a button with the word "Menu" and a downward-facing chevron. When clicked, it expands to a menu that exposes the titles of all 15 themes. When the title of a theme is clicked a menu flyout appears on the right-hand side of the theme menu. The theme title is featured prominently at the top of the flyout while the main topics are listed below the title on the left-hand side. On the right-hand side of the flyout there is a "Most requested" heading followed by a list of the most requested tasks.</p>
     </details>
   </figure>
 </div>
@@ -174,7 +174,7 @@ title: "Theme and topic menu"
     <img src="./images/menu-mobile-closed-en.png" class="img-responsive" alt=" ">
     <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: theme and topic menu  - small screen</summary>
-      <p class="mrgn-tp-lg">The theme and topic menu consists of a button with the word 'Menu' and a downward-facing chevron. When clicked, it expands to a menu that exposes the titles of all 15 themes. When the title of a theme is clicked a menu flyout appears on the right-hand side of the theme menu. The theme title is featured prominently at the top of the flyout while the main topics are listed below the title on the left-hand side. On the right-hand side of the flyout there is a 'Most requested' heading followed by a list of the most requested tasks.</p>
+      <p class="mrgn-tp-lg">The theme and topic menu consists of a button with the word "Menu" and a downward-facing chevron. When clicked, it expands to a menu that exposes the titles of all 15 themes. When the title of a theme is clicked a menu flyout appears on the right-hand side of the theme menu. The theme title is featured prominently at the top of the flyout while the main topics are listed below the title on the left-hand side. On the right-hand side of the flyout there is a "Most requested" heading followed by a list of the most requested tasks.</p>
     </details>
   </figure>
 </div>
@@ -184,7 +184,7 @@ title: "Theme and topic menu"
     <img src="./images/menu-mobile-open-en.png" class="img-responsive" alt=" ">
     <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: theme and topic submenu open – small screen</summary>
-      <p class="mrgn-tp-lg">The theme and topic menu consists of a button with the word 'Menu' and a downward-facing chevron. When clicked, it expands to a menu that exposes all themes. The ‘Travel and tourism'  theme is expanded. It has a downwards-facing chevron to the left of the title 'Travel and tourism'. Below that title is a box with the words 'Travel: home'. Below that are links to the other topics within the theme. At the end of the expanded menu is another box with a sideways-facing chevron and a 'Most requested' heading.</p>
+      <p class="mrgn-tp-lg">The theme and topic menu consists of a button with the word "Menu" and a downward-facing chevron. When clicked, it expands to a menu that exposes all themes. The "Travel and tourism"  theme is expanded. It has a downwards-facing chevron to the left of the title "Travel and tourism". Below that title is a box with the words "Travel: home". Below that are links to the other topics within the theme. At the end of the expanded menu is another box with a sideways-facing chevron and a "Most requested" heading.</p>
     </details>
   </figure>
 </div>
@@ -194,7 +194,7 @@ title: "Theme and topic menu"
     <img src="./images/menu-mobile-mr-en.png" class="img-responsive" alt=" ">
     <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: theme and topic menu with most requested submenu open - small screen</summary>
-      <p class="mrgn-tp-lg">The ‘Most requested’ menu is expanded. It has a downwards-facing chevron to the left of the words ‘Most requested’. Underneath this heading are links to the 7 most requested pages for that theme.</p>
+      <p class="mrgn-tp-lg">The "Most requested" menu is expanded. It has a downwards-facing chevron to the left of the words "Most requested". Underneath this heading are links to the 7 most requested pages for that theme.</p>
     </details>
   </figure>
 </div>
