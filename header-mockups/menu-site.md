@@ -198,8 +198,8 @@ title: "Menu thématique"
 </div>
 <h2 id="implementation">Comment procéder à la mise en œuvre</h2>
 <p>Trouvez des exemples de travail et du code pour mettre en place le menu thématique.</p>
-<h3>GCweb (WET) theme implementation reference</h3>
-<p>The implementation reference includes how to configure each element of the header.</p>
+<h3>Référence pour la mise en œuvre du thème GCweb (BOEW)</h3>
+<p>La référence de mise en œuvre indique comment configurer chaque élément de l’en-tête.</p>
 <ul>
   <li><a href="https://wet-boew.github.io/GCWeb/sites/gcweb-menu/gcweb-menu-docs-fr.html">Menu thématique</a></li>
   <li><a href="https://wet-boew.github.io/GCWeb/sites/header/header-docs-fr.html">Documentation relative à l’en-tête GCWeb (WET)</a></li>
