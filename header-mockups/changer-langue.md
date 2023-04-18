@@ -200,4 +200,3 @@ title: "Lien pour changer de langue"
     <dd>Mise à jour de l’orientation pour y inclure les spécifications du contenu et de conception, des exemples visuels et une orientation sur la mise en œuvre</dd>
   </dl>
 </div>
-
