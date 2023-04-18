@@ -117,7 +117,7 @@ title: "Language toggle"
     <img src="./images/lang-toggle-fr.png" class="img-responsive" alt="">
     <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: language toggle (French page) - large screen</summary>
-      <p class="mrgn-tp-lg">tandard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner</p>
+      <p class="mrgn-tp-lg">Standard header of a French Canada.ca page with a highlight of the linked word English in the top-right corner</p>
     </details>
   </figure>
 </div>
