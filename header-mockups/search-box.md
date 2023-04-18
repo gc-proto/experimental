@@ -171,3 +171,4 @@ title: "Site search box"
     </dt>
     <dd>Updated the guidance to include content and design specifications, visual examples and implementation guidance</dd>
   </dl>
+</div>
