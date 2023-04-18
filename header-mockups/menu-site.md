@@ -35,7 +35,7 @@ title: "Menu thématique"
   <figure class="mrgn-bttm-sm"><img src="./images/01-theme-menu-flyout-fr.png" class="img-responsive" alt=""></figure>
 </div>
 <section>
-  <h2>On this page</h2>
+  <h2>Sur cette page</h2>
   <ul>
     <li><a href="#quand">Quand l’utiliser</a></li>
     <li><a href="#eviter">Ce qu’il faut éviter</a></li>
