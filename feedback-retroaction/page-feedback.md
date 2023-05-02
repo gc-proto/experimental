@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://conception.canada.ca/configurations-conception-communes/outil-de-retroaction.html"
+altLangPage: "https://test.canada.ca/experimental/feedback-retroaction/retroaction.html"
 breadcrumbs:
   - title: Design system
     link: "https://www.canada.ca/en/government/about/design-system.html"
