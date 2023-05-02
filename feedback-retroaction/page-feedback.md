@@ -56,13 +56,13 @@ Avoid using the page feedback tools on pages where there is no plan to monitor c
 <h3>Visual examples</h3>
 
 <h4>1. Inital view of the feedback tool</h4>
-![](images/feedback/page-feedback.png)
+![](./images/feedback/page-feedback.png)
 
 <h4>2. View after selecting "No"</h4>
-![](images/feedback/description-en.jpg)
+![](./images/feedback/description-en.jpg)
 
 <h4>3. View after selecting "Yes" or after submitting feedback</h4>
-![](/images/feedback/thank-you-en.jpg)
+![](./images/feedback/thank-you-en.jpg)
 
 
 <details>
