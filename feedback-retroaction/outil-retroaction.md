@@ -19,7 +19,7 @@ title: "Outil de rétroaction sur la page"
 
 L’outil de rétroaction est une configuration **facultative** pour recueillir la rétroaction de l’expérience sur une page. Il remplace la configuration « Signaler un problème » tout en recueillant activement la rétroaction des utilisateurs.
 
-![Un titre intitulé "Avez-vous trouvé ce que vous cherchiez ?", suivi d'options permettant de sélectionner oui ou non.](images/feedback/page-feedback.png)
+![Un titre intitulé "Avez-vous trouvé ce que vous cherchiez ?", suivi d'options permettant de sélectionner oui ou non.](./images/page-feedback.png)
 
 ## Sur cette page
 
@@ -110,7 +110,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <li>Add a Generic HTML component at the bottom of the main content. Take the HTML code (below) as your baseline. This will be the “Did you find what you were looking for?” and “Share this page” section. </li>
 
-<li>Update the values of the hidden input  fields with the information specific to your implementation. These hidden fields are for:</li>
+<li>Update the values of the hidden input fields with the information specific to your implementation. These hidden fields are for:</li>
 
     <ul>
     <li>Institution (your department acronym) - required</li>
@@ -378,7 +378,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 
 
-
+## Recherche et justification
 <h2 id="research">Research and rationale</h2>
 
 <h3>Research findings</h3>
@@ -387,10 +387,11 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <h3>Policy rationale</h3>
 <p>The <cite>Guideline for Service and Digital</cite> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
 
-<h2 id="latest">Latest changes</h2>
+## Derniers changements
 
 
-<h2 id="discuss">Discussion</h2>
+
+## Discussion
 <ul>
 <li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in GitHub issues</a></li>
 <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
