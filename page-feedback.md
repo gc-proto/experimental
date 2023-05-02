@@ -8,6 +8,7 @@ breadcrumbs:
   - title: Page feedback
     link: "https://design.canada.ca/feedback/index.html"
 dateModified: 2023-03-03
+language: en
 layout: default
 title: "Page feedback tool"
 ---
@@ -18,7 +19,7 @@ title: "Page feedback tool"
 
 The feedback tool is an **optional** pattern to collect feedback on the page experience. It replaces the “Report a problem” pattern while actively collecting user feedback.
 
-![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](../images/feedback/page-feedback.png)
+![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](images/feedback/page-feedback.png)
 
 ## On this page
 
@@ -55,13 +56,13 @@ Avoid using the page feedback tools on pages where there is no plan to monitor c
 <h3>Visual examples</h3>
 
 <h4>1. Inital view of the feedback tool</h4>
-![](../images/feedback/page-feedback.png)
+![](images/feedback/page-feedback.png)
 
 <h4>2. View after selecting "No"</h4>
-![](../images/feedback/description-en.jpg)
+![](/images/feedback/description-en.jpg)
 
 <h4>3. View after selecting "Yes" or after submitting feedback</h4>
-![](../images/feedback/thank-you-en.jpg)
+![](/images/feedback/thank-you-en.jpg)
 
 
 <details>
