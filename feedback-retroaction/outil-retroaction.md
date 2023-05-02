@@ -119,13 +119,13 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
     <li>Titre de la page – obligatoire</li>
     </ul>
 
-<p><strong><span class="bg-warning">Important note! </span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
+<p><strong><span class="bg-warning">Remarque importante! </span></strong> Les valeurs associées à l’institution, au thème et à la section doivent être IDENTIQUES en anglais et en français. </p>
 
-<li>Save and publish your changes! </li>
+<li>Enregistrez et publiez vos changements!</li>
 
-<li><strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to.</li>
+<li><strong>Exclusivement aux fins des projets pilotes d’apprentissage machine : Indiquez au Bureau de la transformation numérique (BTN) les adresses URL auxquelles on a ajouté l’outil de rétroaction.</li>
 
-<li><strong>For all pilots:</strong> Tell the DTO if you are adding a new section or theme, so we can add these filters into the Feedback Viewer.</li>
+<li><strong>Pour tous les projets pilotes : Mentionnez au BTN si vous ajoutez une nouvelle section ou un nouveau thème, afin que nous puissions ajouter ces filtres dans la visionneuse de rétroactions.</li>
 
 </ol>
 </details>                            
@@ -135,6 +135,7 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 <summary>Code</summary>
 
 <pre class="prettyprint"><code>
+
   &lt;div class=&quot;row row-no-gutters mrgn-tp-xl&quot;&gt;
       &lt;div class=&quot;col-sm-7 col-lg-6&quot;&gt;
           &lt;section class=&quot;gc-pg-hlpfl provisional&quot;&gt;
@@ -148,58 +149,58 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
                       &lt;div class=&quot;gc-pg-hlpfl-btn&quot;&gt;
                           &lt;div class=&quot;row row-no-gutters&quot;&gt;
                               &lt;div class=&quot;col-xs-12 col-sm-7 mrgn-tp-sm&quot;&gt;
-                                  &lt;h2 class=&quot;mrgn-tp-sm h5&quot;&gt;Did you find what you were looking for?&lt;/h2&gt;
+                                  &lt;h2 class=&quot;mrgn-tp-sm h5&quot;&gt;Avez-vous trouvé ce que vous cherchiez?&lt;/h2&gt;
                               &lt;/div&gt;
                               &lt;div class=&quot;col-xs-8 col-sm-5 text-right&quot;&gt;
-                                  &lt;button type=&quot;submit&quot; name=&quot;helpful&quot; value=&quot;Yes&quot; class=&quot;btn btn-primary&quot; data-gc-analytics-wtph&gt;Yes&lt;/button&gt;
+                                  &lt;button type=&quot;submit&quot; name=&quot;helpful&quot; value=&quot;Yes&quot; class=&quot;btn btn-primary&quot; data-gc-analytics-wtph&gt;Oui&lt;/button&gt;
                                   &lt;button type=&quot;button&quot; class=&quot;btn btn-primary mrgn-lft-sm nojs-hide&quot; data-wb-doaction=&quot;[                                    {&quot;action&quot;:&quot;removeClass&quot;,&quot;source&quot;:&quot;.gc-pg-hlpfl-no&quot;,&quot;class&quot;:&quot;nojs-show&quot;},
                                       {&quot;action&quot;:&quot;addClass&quot;,&quot;source&quot;:&quot;.gc-pg-hlpfl-btn&quot;,&quot;class&quot;:&quot;hide&quot;}
-                                  ]&quot; data-gc-analytics-wtph-no&gt;No&lt;/button&gt;
+                                  ]&quot; data-gc-analytics-wtph-no&gt;Non&lt;/button&gt;
                               &lt;/div&gt;
                           &lt;/div&gt;
                       &lt;/div&gt;
-                      &lt;p class=&quot;h3 hidden nojs-show&quot;&gt;If not, tell us why:&lt;/p&gt;
+                      &lt;p class=&quot;h3 hidden nojs-show&quot;&gt;Sinon, dites nous pourquoi&nbsp;:&lt;/p&gt;
                       &lt;div class=&quot;gc-pg-hlpfl-no nojs-show&quot;&gt;
                           &lt;fieldset&gt;
-                              &lt;legend class=&quot;h4 mrgn-tp-0 mrgn-bttm-md&quot;&gt;What was wrong?&lt;/legend&gt;
+                              &lt;legend class=&quot;h4 mrgn-tp-0 mrgn-bttm-md&quot;&gt;Qu’est-ce qui n’allait pas?&lt;/legend&gt;
 
   &lt;div class=&quot;radio&quot;&gt;
   &lt;label for=&quot;problem1&quot;&gt;
-  &lt;input name=&quot;problem&quot; id=&quot;problem1&quot; type=&quot;radio&quot; value=&quot;I can't find the information&quot; data-gc-analytics-wtph-value=&quot;I can't find the information-Je ne peux pas trouver l'information&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;I can't &lt;strong&gt;find&lt;/strong&gt; the information
+  &lt;input name=&quot;problem&quot; id=&quot;problem1&quot; type=&quot;radio&quot; value=&quot;Je ne peux pas trouver l’information&quot; data-gc-analytics-wtph-value=&quot;I can't find the information-Je ne peux pas trouver l'information&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;Je ne peux pas &lt;strong&gt;trouver&lt;/strong&gt; l’information
   &lt;/label&gt;
   &lt;/div&gt;
 
   &lt;div class=&quot;radio&quot;&gt;
   &lt;label for=&quot;problem2&quot;&gt;
-  &lt;input name=&quot;problem&quot; id=&quot;problem2&quot; type=&quot;radio&quot; value=&quot;The information is hard to understand&quot; data-gc-analytics-wtph-value=&quot;The information is hard to understand-L'information est difficile à comprendre&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt; The information is hard to &lt;strong&gt;understand&lt;/strong&gt;
+  &lt;input name=&quot;problem&quot; id=&quot;problem2&quot; type=&quot;radio&quot; value=&quot;L'information est difficile à comprendre&quot; data-gc-analytics-wtph-value=&quot;The information is hard to understand-L'information est difficile à comprendre&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt; L'information est difficile à  &lt;strong&gt;comprendre&lt;/strong&gt;
   &lt;/label&gt;
   &lt;/div&gt;
 
   &lt;div class=&quot;radio&quot;&gt;
   &lt;label for=&quot;problem3&quot;&gt;
-  &lt;input name=&quot;problem&quot; id=&quot;problem3&quot; type=&quot;radio&quot; value=&quot;There was an error / something didn't work&quot; data-gc-analytics-wtph-value=&quot;There was an error or something didn't work-Il y avait une erreur ou quelque chose ne fonctionnait pas&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt; There was an error or something &lt;strong&gt;didn't work&lt;/strong&gt;
+  &lt;input name=&quot;problem&quot; id=&quot;problem3&quot; type=&quot;radio&quot; value=&quot;Il y avait une erreur / quelque chose ne fonctionnait pas&quot; data-gc-analytics-wtph-value=&quot;There was an error or something didn't work-Il y avait une erreur ou quelque chose ne fonctionnait pas&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt; Il y avait une erreur / quelque chose  &lt;strong&gt;ne fonctionnait pas&lt;/strong&gt;
   &lt;/label&gt;
   &lt;/div&gt;
                              &lt;div class=&quot;radio&quot;&gt;
                                   &lt;label for=&quot;problem4&quot;&gt;
-                                      &lt;input name=&quot;problem&quot; id=&quot;problem4&quot; type=&quot;radio&quot; value=&quot;Other reason&quot; data-gc-analytics-wtph-value=&quot;Other reason-Autre raison&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
-                                      Other reason
+                                      &lt;input name=&quot;problem&quot; id=&quot;problem4&quot; type=&quot;radio&quot; value=&quot;Autre raison&quot; data-gc-analytics-wtph-value=&quot;Other reason-Autre raison&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
+                                      Autre raison
                                   &lt;/label&gt;
                              &lt;/div&gt;
                           &lt;/fieldset&gt;
-                          &lt;label for=&quot;problem6&quot; class=&quot;mrgn-bttm-0&quot;&gt;Please provide more details&lt;/label&gt;
+                          &lt;label for=&quot;problem6&quot; class=&quot;mrgn-bttm-0&quot;&gt;Veuillez fournir plus de détails&lt;/label&gt;
                           &lt;p class=&quot;small&quot;&gt;
-                              &lt;strong&gt;You will not receive a reply. Don't include personal information (telephone, email, SIN, financial, medical, or work details).&lt;/strong&gt;
+                              &lt;strong&gt;Vous ne recevrez aucune réponse. N'incluez pas de renseignements personnels (téléphone, courriel, NAS, renseignements financiers, médicaux ou professionnels.&lt;/strong&gt;
                               &lt;br&gt;
-                              &lt;span class=&quot;small&quot;&gt;Maximum 300 characters&lt;/span&gt;
+                              &lt;span class=&quot;small&quot;&gt;Maximum de 300 caractères&lt;/span&gt;
                           &lt;/p&gt;
                           &lt;textarea id=&quot;problem6&quot; name=&quot;details&quot; class=&quot;full-width&quot; maxlength=&quot;300&quot;&gt;&lt;/textarea&gt;
-                          &lt;button type=&quot;submit&quot; name=&quot;helpful&quot; value=&quot;No&quot; class=&quot;btn btn-primary mrgn-tp-md mrgn-bttm-sm&quot; data-gc-analytics-wtph-submit&gt;Submit&lt;/button&gt;
+                          &lt;button type=&quot;submit&quot; name=&quot;helpful&quot; value=&quot;No&quot; class=&quot;btn btn-primary mrgn-tp-md mrgn-bttm-sm&quot; data-gc-analytics-wtph-submit&gt;Soumettre&lt;/button&gt;
                       &lt;/div&gt;
                       &lt;input type=&quot;hidden&quot; name=&quot;problem&quot; value=&quot;&quot;&gt;
                   &lt;/form&gt;
                   &lt;div class=&quot;gc-pg-hlpfl-thnk hide&quot;&gt;
-                      &lt;p class=&quot;h6 mrgn-tp-sm mrgn-bttm-sm&quot;&gt;&lt;span class=&quot;far fa-check-circle text-success mrgn-rght-sm&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Thank you for your feedback&lt;/p&gt;
+                      &lt;p class=&quot;h6 mrgn-tp-sm mrgn-bttm-sm&quot;&gt;&lt;span class=&quot;far fa-check-circle text-success mrgn-rght-sm&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Merci de vos commentaires&lt;/p&gt;
                   &lt;/div&gt;
               &lt;/div&gt;
           &lt;/section&gt;
@@ -215,37 +216,37 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 </div>
 
 <div class="col-md-12">
-<h3>Feedback tool code for non-AEM pages</h3>
-<p>Use this feedback tool code for any page that is not hosted on the Adobe Managed Web Service.</p>
+<h3>Code de l’outil de rétroaction pour les pages qui ne sont pas dans Adobe Experience Manager</h3>
+<p>Utilisez ce code de rétroaction pour toutes les pages qui ne sont pas hébergées dans le service Web géré par Adobe.</p>
 
 <details>
 <summary>Instructions</summary>
 <ol class="lst-spcd">
-<li>Insert this HTML code where the  “Did you find what you were looking for?” and “Share this page” are located.</li>
+<li>Insérez ce code HTML là où se trouvent les formulations « Avez-vous trouvé ce que vous cherchiez? » et « Partagez cette page ».</li>
 
-<li>Update the values of the hidden input  fields with the information specific to your implementation.  These hidden fields are for:</li>
+<li>Mettez à jour les valeurs des champs de saisie masqués, avec les renseignements propres à votre mise en œuvre. Voici l’utilité de ces champs masqués :</li>
 <ul>
-<li>Institution (your department acronym) - required</li>
-<li>Theme - required</li>
-<li>Section (a section of your website) - required but can be left blank</li>
-<li>Page title - required</li>
-<li>Submission page (URL) - required</li>
-<li>Page language (Use EN or FR) - required</li>
+<li>Institution (le sigle de votre ministère) – obligatoire</li>
+<li>Thème – obligatoire</li>
+<li>Section (une section du site Web) – obligatoire, mais elle peut être laissée en blanc</li>
+<li>Titre de la page – obligatoire</li>
+<li>Page de soumission (adresse URL) – obligatoire</li>
+<li>Langue de la page (utilisez EN ou FR) – obligatoire</li>
 </ul>
 
-<p><strong><span class="bg-warning">Important note! </span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
+<p><strong><span class="bg-warning">Remarque importante!  </span></strong> Les valeurs associées à l’institution, au thème et à la section doivent être IDENTIQUES en anglais et en français. </p>
 
-<li>Add the Javascript just above the closing /body tag</li>
+<li>Ajoutez le JavaScript juste au-dessus du marqueur de fermeture /body</li>
 
-<li>When someone submits a comment, they will see a checkmark icon and a thank you message.  If you do not see a checkmark, you may need to include a reference to the Font Awesome icon catalog in your page header.</li>
+<li>4.	Lorsqu’une personne soumet un commentaire, un crochet et un message de remerciement s’affichent. Si le crochet ne s’affiche pas, il faudra peut-être ajouter une référence à votre catalogue d’icônes Font Awesome dans votre en-tête de page.</li>
 
 <pre class="prettyprint"><code>
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.8.1/css/all.css&quot; integrity=&quot;sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/li&gt;
  </code></pre>
 
-<li><strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to.</li>
+<li><strong>Exclusivement aux fins des projets pilotes d’apprentissage machine :</strong> Indiquez au Bureau de la transformation numérique (BTN) les adresses URL auxquelles on a ajouté l’outil de rétroaction.</li>
 
-<li><strong>For all pilots:</strong> Tell the DTO if you are adding a new section or theme, so we can add these filters into the Feedback Viewer.</li>
+<li><strong>6.	Pour tous les projets pilotes :</strong> Mentionnez au BTN si vous ajoutez une nouvelle section ou un nouveau thème, afin que nous puissions ajouter ces filtres dans la visionneuse de rétroactions.</li>
 
 </ol>
 </details>
@@ -364,28 +365,32 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 </div>
 
 
-<h3 id="guidance">Accessing and analyzing feedback</h3>
+<h3 id="analyser">Accéder et analyser une rétroaction</h3>
 
-<p>Feedback can be viewed and downloaded as CSV or Excel files at any time using the Feedback Viewer website.</p>
+<p>Il est possible d’afficher une rétroaction et de la télécharger en format CSV ou Excel, à tout moment, au moyen du site Web de la visionneuse de rétroactions.</p>
 
-<p>The Feedback Viewer is a password protected environment available to all page feedback participants. Contact the DTO to access to the site.</p>
+<p>La visionneuse de rétroactions est un environnement protégé par un mot de passe disponible pour tous ceux qui participent à la rétroaction sur la page. Communiquez avec le BTN afin d’accéder au site.
+</p>
 
-<p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
+<p>Courriel : <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
-<p><a href="https://design.canada.ca/feedback/feedback.html">Full guidance for using and analyzing page feedback</a> <p>
+<p><a href="https://conception.canada.ca/retroaction/index.html">Document d’orientation complet sur l’utilisation de l’outil de rétroaction sur la page et l’analyse connexe</a> <p>
 
 
 
 
 
 ## Recherche et justification
-<h2 id="research">Research and rationale</h2>
 
-<h3>Research findings</h3>
-<p><a href="https://blog.canada.ca/2020/10/09/collect-feedback.html">Blog post: Collect feedback, find issues</a></p>
+<h3>Résultats de recherche</h3>
+<p><a href="https://blogue.canada.ca/2020/10/09/recueillir-la-retroaction.html">Billet de blogue : Recueillir la rétroaction, trouver les problèmes</a></p>
 
-<h3>Policy rationale</h3>
-<p>The <cite>Guideline for Service and Digital</cite> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
+<h3>Justification stratégique</h3>
+<p>La <cite>Ligne directrice sur les services et le numérique</cite> exige que <a href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/ligne-directrice-services-numerique.html#ToC2_2">la rétroaction des clients</a> fasse partie intégrante de la conception des services et des produits. Celle-ci peut prendre plusieurs formes, y compris au moyen de l’outil de rétroaction sur la page.</p>
+
+
+
+
 
 ## Derniers changements
 
@@ -393,7 +398,11 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 
 ## Discussion
 <ul>
-<li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in GitHub issues</a></li>
-<li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
-<li><a href="mailto:dto.btn@tbs-sct.gc.ca">Send an email to the Digital Transformation Office</a></li>
+<li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discussion sur le modèle sur GitHub (en anglais seulement)</a></li>
+<li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Joignez-vous à la conversation sur Slack (en anglais seulement)</a></li>
+<li><a href="mailto:dto.btn@tbs-sct.gc.ca">Envoyez un courriel au Bureau de la transformation numérique</a></li>
 </ul>
+
+●
+●
+●
