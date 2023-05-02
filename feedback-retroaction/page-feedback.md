@@ -379,8 +379,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 
 
-
-<h2 id="research">Research and rationale</h2>
+## Research and rationale
 
 <h3>Research findings</h3>
 <p><a href="https://blog.canada.ca/2020/10/09/collect-feedback.html">Blog post: Collect feedback, find issues</a></p>
@@ -388,10 +387,9 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <h3>Policy rationale</h3>
 <p>The <cite>Guideline for Service and Digital</cite> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
 
-<h2 id="latest">Latest changes</h2>
+## Latest changes
 
-
-<h2 id="discuss">Discussion</h2>
+## Discussion
 <ul>
 <li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in GitHub issues</a></li>
 <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
