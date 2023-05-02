@@ -19,7 +19,7 @@ title: "Outil de rétroaction sur la page"
 
 L’outil de rétroaction est une configuration **facultative** pour recueillir la rétroaction de l’expérience sur une page. Il remplace la configuration « Signaler un problème » tout en recueillant activement la rétroaction des utilisateurs.
 
-![Un titre intitulé "Avez-vous trouvé ce que vous cherchiez ?", suivi d'options permettant de sélectionner oui ou non.](./images/page-feedback.png)
+![Un titre intitulé "Avez-vous trouvé ce que vous cherchiez ?", suivi d'options permettant de sélectionner oui ou non.](./images/page-feedback-fr.png)
 
 ## Sur cette page
 
@@ -51,28 +51,26 @@ Envisagez d’utiliser l’outil de rétroaction sur la page pour :
 
 ## Contenu et conception
 
-<h3>Visual examples</h3>
+<h3>Exemples visuels</h3>
 
-<h4>1. Inital view of the feedback tool</h4>
-![](./images/page-feedback.png)
+<h4>1. Première vue de l’outil de rétroaction</h4>
+![](./images/page-feedback-fr.png)
 
-<h4>2. View after selecting "No"</h4>
-![](./images/description-en.jpg)
+<h4>2. Vue après avoir sélectionné « No »</h4>
+![](./images/description-fr.jpg)
 
-<h4>3. View after selecting "Yes" or after submitting feedback</h4>
-![](./images/thank-you-en.jpg)
+<h4>3. Vue après avoir sélectionné « Oui » ou après avoir soumis la rétroaction</h4>
+![](./images/thank-you-fr.jpg)
 
 
 <details>
-<summary>Feedback tool</summary>
+<summary>Outil de rétroaction</summary>
 
-<p>A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.</p>
+<p>Un en-tête portant la mention « Avez-vous trouvé ce que vous cherchiez? », suivi des options de choix « oui » ou « non ».</p>
 
-<p>A heading labelled "Please provide more details", followed by the text "You will not receive a reply.
-Don't include personal information (telephone, email, SIN, financial, medical, or work details).
-Maximum 300 characters", and a text field to provide more details.</p>
+<p>Un en-tête portant la mention « Veuillez fournir plus de détails », suivi de la formulation « Vous ne recevrez aucune réponse. N’incluez pas de renseignements personnels (téléphone, courriel, NAS, renseignements financiers, médicaux ou professionnels) Maximum de 300 caractères », et d’un champ de texte pour fournir plus de détails.</p>
 
-<p>A heading labelled "Thank you for your feedback"</p>
+<p>Un en-tête portant la mention « Merci de votre rétroaction! »</p>
 </details>
 
 <h3>Content specifications</h3>
