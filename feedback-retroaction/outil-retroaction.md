@@ -73,47 +73,50 @@ Envisagez d’utiliser l’outil de rétroaction sur la page pour :
 <p>Un en-tête portant la mention « Merci de votre rétroaction! »</p>
 </details>
 
-<h3>Content specifications</h3>
+
+<h3>Spécifications de contenu</h3>
 
 
 
 <h4>Interactions</h4>
-<p><strong>If a user selects "No"</strong> to the prompt "Did you find what you were looking for?" they will be shown an open text field to enter their comment. It begins with a heading labelled "Please provide more details", followed by the text "You will not receive a reply.
-Don't include personal information (telephone, email, SIN, financial, medical, or work details).
-Maximum 300 characters". After selecting "Submit", the user is shown a thank you message.</p>
+<p><strong>Si un utilisateur sélectionne « Non »</strong> à l’invite « Avez-vous trouvé ce que vous cherchiez? », un champ de texte ouvert s’affiche pour inscrire son commentaire. Il commence avec un en-tête portant la mention « Veuillez fournir plus de détails », suivi de la formulation « Vous ne recevrez aucune réponse.
+N’incluez pas de renseignements personnels (téléphone, courriel, NAS, renseignements financiers, médicaux ou professionnels) Maximum de 300 caractères ».
+Après avoir sélectionné « Soumettre », un message de remerciement s’affiche..</p>
 
-<p><strong>If a user selects "Yes"</strong> to the prompt "Did you find what you were looking for?" they will only be shown a thank you message.</p>
+<p><strong>Si un utilisateur sélectionne « Oui »</strong> à l’invite « Avez-vous trouvé ce que vous cherchiez? », seulement le message de remerciement s’affichera.</p>
 
 
-<h3>Design specifications</h3>
-<p>The feedback widget replaces the "Report a problem" pattern when in use.</p>
+<h3>Spécifications de conception</h3>
+<p>Le widget de rétroaction remplace la configuration « Signaler un problème » lors de son utilisation.</p>
+
+
 
 
 ## Méthode de mise en oeuvre
 
-<p>Add it to the bottom of a content page after the page content and before the date modified. </p>
+<p>Ajoutez-le au bas d’une page de contenu, après le contenu de la page et avant la date de modification. </p>
 
 <div class="wb-eqht">
 <div class="row">
 <div class="col-md-12">
 
-<h3>Feedback tool code for AEM pages</h3>
-<p>Use this feedback code for any page hosted on the Adobe Managed Web Service.</p>
+<h3>Code de l’outil de rétroaction pour les pages dans Adobe Experience Manager (AEM) </h3>
+<p>Utilisez ce code de rétroaction pour toutes les pages hébergées dans le service Web géré par Adobe.</p>
 
 
 <details>
 <summary>Instructions</summary>
 <ol class="lst-spcd">
 
-<li>Add a Generic HTML component at the bottom of the main content. Take the HTML code (below) as your baseline. This will be the “Did you find what you were looking for?” and “Share this page” section. </li>
+<li>Ajoutez un composant HTML générique au bas du contenu principal. Utilisez le code HTML (ci-dessous) comme référence. Il s’agira de la section « Avez-vous trouvé ce que vous cherchiez? » et « Partagez cette page ».</li>
 
-<li>Update the values of the hidden input fields with the information specific to your implementation. These hidden fields are for:</li>
+<li>Mettez à jour les valeurs des champs de saisie masqués, avec les renseignements propres à votre mise en œuvre. Voici l’utilité de ces champs masqués :</li>
 
     <ul>
-    <li>Institution (your department acronym) - required</li>
-    <li>Theme - required</li>
-    <li>Section (a section of your website) - required but can be left blank</li>
-    <li>Page title - required</li>
+    <li>Institution (le sigle de votre ministère) – obligatoire</li>
+    <li>Thème – obligatoire</li>
+    <li>Section (une section du site Web) – obligatoire, mais elle peut être laissée en blanc</li>
+    <li>Titre de la page – obligatoire</li>
     </ul>
 
 <p><strong><span class="bg-warning">Important note! </span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
