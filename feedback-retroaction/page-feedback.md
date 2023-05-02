@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/feedback-retroaction/retroaction.html"
+altLangPage: "https://test.canada.ca/experimental/feedback-retroaction/outil-retroaction.html"
 breadcrumbs:
   - title: Design system
     link: "https://www.canada.ca/en/government/about/design-system.html"
@@ -93,8 +93,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <p>The feedback widget replaces the "Report a problem" pattern when in use.</p>
 
 
-
-<h2 id="how">How to implement</h2>
+## How to implement
 
 <p>Add it to the bottom of a content page after the page content and before the date modified. </p>
 

@@ -1,39 +1,38 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/feedback-retroaction/retroaction.html"
+altLangPage: "https://test.canada.ca/experimental/feedback-retroaction/page-feedback.html"
 breadcrumbs:
-  - title: Design system
-    link: "https://www.canada.ca/en/government/about/design-system.html"
-  - title: Analytics and feedback
-    link: "https://www.canada.ca/en/analytics.html"
-  - title: Page feedback
-    link: "https://design.canada.ca/feedback/index.html"
+  - title: Système de conception
+    link: "https://www.canada.ca/fr/gouvernement/a-propos/systeme-conception.html"
+  - title: Analytique de Canada.ca
+    link: "https://www.canada.ca/fr/analytique.html"
+  - title: Outil de rétroaction
+    link: "https://conception.canada.ca/retroaction/index.html"
 dateModified: 2023-03-03
-language: en
+language: fr
 layout: default
-title: "Page feedback tool"
+title: "Outil de rétroaction sur la page"
 ---
 
-<p class="small">Last updated: March 28, 2023</p>
+<p class="small">Dernière mise à jour : 28 mars 2023</p>
 
-<p><span class="label label-warning">Optional</span></p>
+<p><span class="label label-warning">Facultatif</span></p>
 
-The feedback tool is an **optional** pattern to collect feedback on the page experience. It replaces the “Report a problem” pattern while actively collecting user feedback.
+L’outil de rétroaction est une configuration **facultative** pour recueillir la rétroaction de l’expérience sur une page. Il remplace la configuration « Signaler un problème » tout en recueillant activement la rétroaction des utilisateurs.
 
-![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](images/feedback/page-feedback.png)
+![Un titre intitulé "Avez-vous trouvé ce que vous cherchiez ?", suivi d'options permettant de sélectionner oui ou non.](images/feedback/page-feedback.png)
 
-## On this page
+## Sur cette page
 
-*   [When to use](#when-to-use)
-*   [What to avoid](#what-to-avoid)
-*   [Content and design](#content-and-design)
-*   [How to implement](#how-to-implement)
-*   [Research and rationale](#research-and-rationale)
-*   [Latest changes](#latest-changes)
+*   [Quand utiliser cette configuration](#quand-utiliser-cette-configuration)
+*   [Quoi éviter](#quoi-éviter)
+*   [Contenu et conception](#contenu-et-conception)
+*   [Méthode de mise en oeuvre](#méthode-de-mise-en-oeuvre)
+*   [Recherche et justification](#recherche-et-justification)
+*   [Derniers changements](#derniers-changements)
 *   [Discussion](#discussion)
 
 
-
-## When to use
+## Quand utiliser cette configuration
 
 Consider adding the page feedback tool to:
 
@@ -45,13 +44,13 @@ Consider adding the page feedback tool to:
 
 
 
-## What to avoid
+## Quoi éviter
 
 Avoid using the page feedback tools on pages where there is no plan to monitor comments or take action. We aslo don’t recommend using the tool within secure spaces.
 
 [Additional behaviours to avoid when analyzing feedback](https://design.canada.ca/feedback/when.html#how-not-to-use-the-tool)
 
-## Content and design
+## Contenu et conception
 
 <h3>Visual examples</h3>
 
@@ -93,8 +92,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <p>The feedback widget replaces the "Report a problem" pattern when in use.</p>
 
 
-
-<h2 id="how">How to implement</h2>
+## Méthode de mise en oeuvre
 
 <p>Add it to the bottom of a content page after the page content and before the date modified. </p>
 
