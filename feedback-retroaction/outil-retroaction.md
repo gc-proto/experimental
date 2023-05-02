@@ -34,21 +34,20 @@ L’outil de rétroaction est une configuration **facultative** pour recueillir 
 
 ## Quand utiliser cette configuration
 
-Consider adding the page feedback tool to:
+Envisagez d’utiliser l’outil de rétroaction sur la page pour :
 
-*   uncover specific page-level issues affecting your GC Task Success Survey task score
-*   research issues on pages you plan on working on in the future
-*   understand if new or existing pages are meeting user needs
-*   identify emerging issues
-*   monitor after page improvements have gone live
-
+* Découvrir des problèmes propres à la page qui modifient votre note sur le sondage sur la réussite des tâches du gouvernement du Canada (GC).
+* Rechercher des problèmes sur des pages que vous prévoyez traiter ultérieurement.
+* Déterminer si les pages nouvelles ou existantes répondent aux besoins des utilisateurs.
+* Déterminer les problèmes émergents.
+* Assurer le suivi des améliorations de la page après leur mise en ligne.
 
 
 ## Quoi éviter
 
-Avoid using the page feedback tools on pages where there is no plan to monitor comments or take action. We aslo don’t recommend using the tool within secure spaces.
+Évitez d’utiliser l’outil de rétroaction sur la page, dans des pages pour lesquelles vous ne prévoyez pas surveiller les commentaires et prendre des mesures. Nous vous déconseillons également d’utiliser l’outil dans des environnements sécurisés.
 
-[Additional behaviours to avoid when analyzing feedback](https://design.canada.ca/feedback/when.html#how-not-to-use-the-tool)
+[Autres comportements à éviter en analysant une rétroaction](https://conception.canada.ca/retroaction/quand.html)
 
 ## Contenu et conception
 
