@@ -26,9 +26,9 @@ The feedback tool is an **optional** pattern to collect feedback on the page exp
 *   [When to use](#when-to-use)
 *   [What to avoid](#what-to-avoid)
 *   [Content and design](#content-and-design)
-*   [How to implement](#how-to-implement)
-*   [Research and rationale](#research-and-rationale)
-*   [Latest changes](#latest-changes)
+*   [How to implement](#how)
+*   [Research and rationale](#research)
+*   [Latest changes](#changes)
 *   [Discussion](#discussion)
 
 
@@ -378,8 +378,8 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 
 
-
-## Research and rationale
+<a id="research"></a>
+<h2>Research and rationale</h2>
 
 <h3>Research findings</h3>
 <p><a href="https://blog.canada.ca/2020/10/09/collect-feedback.html">Blog post: Collect feedback, find issues</a></p>
@@ -387,9 +387,11 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <h3>Policy rationale</h3>
 <p>The <cite>Guideline for Service and Digital</cite> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
 
-## Latest changes
+<a id="changes"></a>
+<h2>Latest changes</h2>
 
-## Discussion
+<a id="discussion"></a>
+<h2>Discussion</h2>
 <ul>
 <li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discuss the pattern in GitHub issues</a></li>
 <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Join the conversation on Slack</a></li>
