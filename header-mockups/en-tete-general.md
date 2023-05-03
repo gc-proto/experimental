@@ -11,7 +11,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2022-08-17
-dateModified: 2023-03-20
+dateModified: 2023-05-03
 description: ""
 language: fr
 layout: without-h1
@@ -37,7 +37,7 @@ title: "En-tête global"
     <li>offre une expérience unifiée de la présence du gouvernement du Canada sur le Web;</li>
     <li>permet de naviguer dans le large éventail de services et de renseignements proposés.</li>
   </ul>
-  <p><strong>Mise à jour de la conception en 2022</strong>&nbsp;: nous avons récemment mis à jour ce modèle dans le cadre d’une nouvelle stratégie de navigation issue du projet de recherche Orientation. Pour en savoir plus sur ce projet, consultez la section <a href="#recherche">Recherche et justification</a>.</p>
+  <p><strong>Mise à jour de la conception en 2023</strong>&nbsp;: nous avons récemment mis à jour ce modèle dans le cadre d’une nouvelle stratégie de navigation issue du projet de recherche Orientation. Pour en savoir plus sur ce projet, consultez la section <a href="#recherche">Recherche et justification</a>.</p>
   <div class="pattern-demo mrgn-tp-lg">
     <figure class="mrgn-bttm-sm"><img src="./images/01-signin-button-lg-fr.png" class="img-responsive" alt=""></figure>
   </div>
@@ -60,7 +60,7 @@ title: "En-tête global"
     <div class="wb-tabs mrgn-tp-lg">
       <div class="tabpanels">
         <details id="001" open="open">
-          <summary><strong>Standard pages</strong></summary>
+          <summary><strong>Pages régulières</strong></summary>
           <p class="mrgn-tp-lg"><strong>Les pages régulières</strong> sont celles que les gens peuvent abandonner sans perdre de données, déclencher des erreurs ou mettre fin à leur session.</p>
           <h3>Exigences pour l’entête globale sur une page régulière</h3>
           <div class="panel panel-default mrgn-tp-md">
@@ -89,7 +89,7 @@ title: "En-tête global"
                 </tr>
                 <tr>
                   <td><a href="https://conception.canada.ca/configurations-conception-communes/connexion-contextuel.html">Bouton &laquo;&nbsp;Se connecter&nbsp;&raquo;</a></td>
-                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Obligatoire</span></td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Facultatif</span></td>
                 </tr>
                 <tr>
                   <td>Ligne de separation</td>
@@ -136,7 +136,7 @@ title: "En-tête global"
               <tbody>
                 <tr>
                   <td><a href="https://conception.canada.ca/configurations-conception-communes/en-tete-general.html">Signature du gouvernement du Canada (liée à la page d'accueil de Canada.ca)</a></td>
-                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Obligatoire</span></td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Obligatoire</span> (Le lien vers la page d'accueil de Canada.ca est facultatif)</td>
                 </tr>
                 <tr>
                   <td><a href="https://conception.canada.ca/configurations-conception-communes/changer-langue.html">Lien pour changer de langue</a></td>
@@ -203,7 +203,7 @@ title: "En-tête global"
                 </tr>
                 <tr>
                   <td><a href="https://conception.canada.ca/configurations-conception-communes/connexion-contextuel.html">Champ de recherche du site</a></td>
-                  <td>Facultatif</td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Obligatoire</span></td>
                 </tr>
                 <tr>
                   <td><a href="https://conception.canada.ca/configurations-conception-communes/connexion-contextuel.html">Bouton &laquo;&nbsp;Se connecter&nbsp;&raquo;</a></td>
@@ -219,7 +219,7 @@ title: "En-tête global"
                 </tr>
                 <tr>
                   <td><a href="https://conception.canada.ca/configurations-conception-communes/fil-ariane.html">Fil d'Ariane</a></td>
-                  <td>Facultatif</td>
+                  <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Obligatoire</span></td>
                 </tr>
                 <tr>
                   <td>Couleur d'arrière-plan (blanc)</td>
