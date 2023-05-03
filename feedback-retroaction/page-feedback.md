@@ -28,7 +28,6 @@ The feedback tool is an **optional** pattern to collect feedback on the page exp
 *   [Content and design](#content-and-design)
 *   [How to implement](#how)
 *   [Research and rationale](#research)
-*   [Latest changes](#changes)
 *   [Discussion](#discussion)
 
 
@@ -387,8 +386,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <h3>Policy rationale</h3>
 <p>The <cite>Guideline for Service and Digital</cite> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
 
-<a id="changes"></a>
-<h2>Latest changes</h2>
+
 
 <a id="discussion"></a>
 <h2>Discussion</h2>

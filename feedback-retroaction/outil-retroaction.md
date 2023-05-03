@@ -26,9 +26,8 @@ L’outil de rétroaction est une configuration **facultative** pour recueillir 
 *   [Quand utiliser cette configuration](#quand-utiliser-cette-configuration)
 *   [Quoi éviter](#quoi-éviter)
 *   [Contenu et conception](#contenu-et-conception)
-*   [Méthode de mise en oeuvre](#méthode-de-mise-en-oeuvre)
-*   [Recherche et justification](#recherche-et-justification)
-*   [Derniers changements](#derniers-changements)
+*   [Méthode de mise en oeuvre](#méthode)
+*   [Recherche et justification](#recherche)
 *   [Discussion](#discussion)
 
 
@@ -91,8 +90,8 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 
 
 
-
-## Méthode de mise en oeuvre
+<a id="méthode"></a>
+<h2>Méthode de mise en oeuvre</h2>
 
 <p>Ajoutez-le au bas d’une page de contenu, après le contenu de la page et avant la date de modification. </p>
 
@@ -379,8 +378,8 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 
 
 
-
-## Recherche et justification
+<a id="recherche"></a>
+<h2>Recherche et justification</h2>
 
 <h3>Résultats de recherche</h3>
 <p><a href="https://blogue.canada.ca/2020/10/09/recueillir-la-retroaction.html">Billet de blogue : Recueillir la rétroaction, trouver les problèmes</a></p>
@@ -391,18 +390,10 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 
 
 
-
-## Derniers changements
-
-
-
-## Discussion
+<a id="discussion"></a>
+<h2>Discussion</h2>
 <ul>
 <li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discussion sur le modèle sur GitHub (en anglais seulement)</a></li>
 <li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Joignez-vous à la conversation sur Slack (en anglais seulement)</a></li>
 <li><a href="mailto:dto.btn@tbs-sct.gc.ca">Envoyez un courriel au Bureau de la transformation numérique</a></li>
 </ul>
-
-●
-●
-●
