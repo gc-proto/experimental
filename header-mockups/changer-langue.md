@@ -33,7 +33,7 @@ title: "Lien pour changer de langue"
   <p><span class="label label-danger">Obligatoire</span></p>
   <p>Tout le contenu du gouvernement du Canada destiné au public est accessible dans les deux langues officielles. Un lien permettant de changer de langue, situé dans l’en-tête général du site, donne à la personne accès à la page correspondante dans l’autre langue officielle.</p>
   <div class="pattern-demo mrgn-tp-lg">
-    <figure class="mrgn-bttm-sm"><img src="./images/lang-toggle-en.png" class="img-responsive" alt=""></figure>
+    <figure class="mrgn-bttm-sm"><img src="./images/01-lang-toggle-fr.png" class="img-responsive" alt=""></figure>
   </div>
   <section>
     <h2>Sur cette page</h2>
