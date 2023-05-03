@@ -8,7 +8,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-04-14
-dateModified: 2023-04-14
+dateModified: 2023-05-03
 description: "Alt text and long descriptions"
 language: en
 layout: form
@@ -24,11 +24,9 @@ title: "Alt text and long descriptions"
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Alt text and long descriptions</span>: <span>Canada.ca design system</span></span></h1>
     <p>Alt text investigation</p>
-    <h2 class="h3 mrgn-tp-lg">Pages</h2>
-    <h3 class="h4">Global header</h3>
+    <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header.html">Global header (English mockup)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="en-tete-general.html">En-tête global (French mockup)</a></li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="alt-text-en-01.html">Alt text + long description</a></li>
     </ul>
   </div>
   <div class="col-md-4">
