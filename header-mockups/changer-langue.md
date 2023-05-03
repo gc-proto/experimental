@@ -123,7 +123,7 @@ title: "Lien pour changer de langue"
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Changer la langue (English page) – petit écran</b></figcaption>
-      <img src="./images/01-lang-toggle-small-en.png" class="img-responsive" alt="">
+      <img src="./images/01-lang-toggle-sm-en.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;: Changer la langue (English page) – petit écran</summary>
         <p class="mrgn-tp-lg">En-tête standard d’une page Canada.ca en anglais avec mise en surbrillance de l’abréviation liée FR dans le coin supérieur droit</p>
@@ -133,7 +133,7 @@ title: "Lien pour changer de langue"
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Changer la langue (French) – petit écran</b></figcaption>
-      <img src="./images/01-lang-toggle-small-fr.png" class="img-responsive" alt="">
+      <img src="./images/01-lang-toggle-sm-fr.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;: Changer la langue (English page) – petit écran</summary>
         <p class="mrgn-tp-lg">En-tête standard d’une page Canada.ca en anglais avec mise en surbrillance de l’abréviation liée EN dans le coin supérieur droit</p>
