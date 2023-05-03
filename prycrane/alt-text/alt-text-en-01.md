@@ -14,4 +14,4 @@ lang: en
 layout: without-h1
 title: "Alt text strategies"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Alt text strategies</span>: <span>Canada.ca design</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Alt text strategies</span>: <span>Canada.ca design system</span></span></h1>
