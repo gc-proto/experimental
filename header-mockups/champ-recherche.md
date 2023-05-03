@@ -100,7 +100,7 @@ title: "Champ de recherche du site"
 <div class="pattern-demo mrgn-tp-lg">
   <figure>
     <figcaption><b>Champ de recherche du site – Petit écran</b></figcaption>
-    <img src="./images/01-site-search-sm-fr.png" class="img-responsive" alt="The search box appears in the header, directly below the Government of Canada signature and the language toggle. It spans across the screen. Text version below:">
+    <img src="./images/01-site-search-sm-fr.png" class="img-responsive" alt="">
     <details class="mrgn-tp-md">
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;: Champ de recherche du site – Petit écran</summary>
       <p class="mrgn-tp-lg">Le champ de recherche s’affiche dans l’en-tête, directement sous la signature du gouvernement du Canada et le lien qui permet de changer de langue. Il couvre la largeur de l’écran.</p>
