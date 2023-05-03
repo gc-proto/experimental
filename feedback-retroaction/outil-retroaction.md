@@ -122,9 +122,9 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 
 <li>Enregistrez et publiez vos changements!</li>
 
-<li><strong>Exclusivement aux fins des projets pilotes d’apprentissage machine : Indiquez au Bureau de la transformation numérique (BTN) les adresses URL auxquelles on a ajouté l’outil de rétroaction.</li>
+<li><strong>Exclusivement aux fins des projets pilotes d’apprentissage machine :</strong> Indiquez au Bureau de la transformation numérique (BTN) les adresses URL auxquelles on a ajouté l’outil de rétroaction.</li>
 
-<li><strong>Pour tous les projets pilotes : Mentionnez au BTN si vous ajoutez une nouvelle section ou un nouveau thème, afin que nous puissions ajouter ces filtres dans la visionneuse de rétroactions.</li>
+<li><strong>Pour tous les projets pilotes :</strong> Mentionnez au BTN si vous ajoutez une nouvelle section ou un nouveau thème, afin que nous puissions ajouter ces filtres dans la visionneuse de rétroactions.</li>
 
 </ol>
 </details>                            
