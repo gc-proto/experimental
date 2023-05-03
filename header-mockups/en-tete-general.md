@@ -332,7 +332,7 @@ title: "En-tête global"
     </div>
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
-        <figcaption><b>En-tête global minimum : pages de campagne, petit écran</b></figcaption>
+        <figcaption><b>En-tête global minimum&nbsp;: pages de campagne, petit écran</b></figcaption>
         <img src="./images/01-global-header-campaign-sm-fr.png" class="img-responsive" alt="">
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Texte de remplacement&nbsp;: schéma de l’en-tête global minimum sur un petit écran</summary>
@@ -370,14 +370,14 @@ title: "En-tête global"
         </details>
         <details id="005">
           <summary><strong>CDTS</strong></summary>
-          <p class="mrgn-tp-lg">For the Centrally Deployed Templates Solution (CDTS):</p>
+          <p class="mrgn-tp-lg">Pour la solution de gabarits à déploiement centralisé (SGDC)&nbsp;:</p>
           <ul>
             <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html">Documentation de la SGDC</a></li>
           </ul>
         </details>
         <details id="006">
           <summary><strong>Drupal WxT</strong></summary>
-          <p class="mrgn-tp-lg">For Drupal WxT:</p>
+          <p class="mrgn-tp-lg">Pour Drupal WxT&nbsp;:</p>
           <ul>
             <li><a href="https://drupalwxt.github.io/fr/">Documentation de Drupal WxT</a></li>
           </ul>
