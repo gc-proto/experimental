@@ -140,10 +140,10 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
           &lt;section class=&quot;gc-pg-hlpfl provisional&quot;&gt;
               &lt;div class=&quot;well mrgn-bttm-0&quot;&gt;
                   &lt;form id=&quot;gc-pg-hlpfl-frm&quot; action=&quot;/gc/services/generateemail&quot; method=&quot;post&quot; autocomplete=&quot;off&quot; class=&quot;provisional wb-postback&quot; data-wb-postback=&quot;{&quot;success&quot;:&quot;.gc-pg-hlpfl-thnk&quot;,&quot;content&quot;:&quot;#gc-pg-hlpfl-frm&quot;}&quot;&gt;
-  &lt;input type=&quot;hidden&quot; name=&quot;institutionopt&quot; value=&quot;Institution - required - must use same acronym value EN and FR&quot;&gt;
-  &lt;input type=&quot;hidden&quot; name=&quot;themeopt&quot; value=&quot;Theme - required - must use same value EN and FR&quot;&gt;
-  &lt;input type=&quot;hidden&quot; name=&quot;sectionopt&quot; value=&quot;Section - required but can be blank - same value EN and FR&quot;&gt;
-  &lt;input type=&quot;hidden&quot; name=&quot;pageTitle&quot; value=&quot;Page title (EN) - required&quot;&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;institutionopt&quot; value=&quot;Institution - obligatoire - doit utiliser la même valeur d'acronyme EN et FR&quot;&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;themeopt&quot; value=&quot;Thème - obligatoire - doit utiliser la même valeur EN et FR&quot;&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;sectionopt&quot; value=&quot;Section - obligatoire mais peut être vide - même valeur EN et FR&quot;&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;pageTitle&quot; value=&quot;Titre de la page (FR) - obligatoire&quot;&gt;
                   &lt;input type=&quot;hidden&quot; name=&quot;emailTemplate&quot; value=&quot;servcan/gc-pagesuccessen&quot;&gt;
                       &lt;div class=&quot;gc-pg-hlpfl-btn&quot;&gt;
                           &lt;div class=&quot;row row-no-gutters&quot;&gt;
@@ -215,7 +215,7 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 </div>
 
 <div class="col-md-12">
-<h3>Code de l’outil de rétroaction pour les pages qui ne sont pas dans Adobe Experience Manager</h3>
+<h3>Code de l’outil de rétroaction pour les pages qui ne sont pas dans Adobe Experience Manager (AEM)</h3>
 <p>Utilisez ce code de rétroaction pour toutes les pages qui ne sont pas hébergées dans le service Web géré par Adobe.</p>
 
 <details>
@@ -259,61 +259,61 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
       &lt;section class=&quot;gc-pg-hlpfl provisional&quot;&gt;
          &lt;div class=&quot;well mrgn-bttm-0&quot;&gt;
             &lt;form id=&quot;gc-pg-hlpfl-frm&quot; action=&quot;#&quot; method=&quot;post&quot; autocomplete=&quot;off&quot;&gt;
-               &lt;input type=&quot;hidden&quot; name=&quot;institutionopt&quot; value=&quot;Institution acronym - required - must use same value EN and FR&quot;&gt;
-               &lt;input type=&quot;hidden&quot; name=&quot;themeopt&quot; value=&quot;Theme - required - must use same value EN and FR&quot;&gt;
-               &lt;input type=&quot;hidden&quot; name=&quot;language&quot; value=&quot;Language - required - use EN or FR&quot;&gt;
-               &lt;input type=&quot;hidden&quot; name=&quot;pageTitle&quot; value=&quot;Page title EN - required&quot;&gt;
-               &lt;input type=&quot;hidden&quot; name=&quot;submissionPage&quot; value=&quot;Page URL - required&quot;&gt;
-               &lt;input type=&quot;hidden&quot; name=&quot;sectionopt&quot; value=&quot;Section - required but can be blank - must use same value EN and FR&quot;&gt;
+               &lt;input type=&quot;hidden&quot; name=&quot;institutionopt&quot; value=&quot;Acronyme de l'institution - obligatoire - doit utiliser la même valeur EN et FR&quot;&gt;
+               &lt;input type=&quot;hidden&quot; name=&quot;themeopt&quot; value=&quot;Thème - obligatoire - doit utiliser la même valeur EN et FR&quot;&gt;
+               &lt;input type=&quot;hidden&quot; name=&quot;language&quot; value=&quot;Langue - obligatoire - utiliser EN ou FR&quot;&gt;
+               &lt;input type=&quot;hidden&quot; name=&quot;pageTitle&quot; value=&quot;Titre de la page FR - obligatoire&quot;&gt;
+               &lt;input type=&quot;hidden&quot; name=&quot;submissionPage&quot; value=&quot;URL de la page - obligatoire&quot;&gt;
+               &lt;input type=&quot;hidden&quot; name=&quot;sectionopt&quot; value=&quot;Section - obligatoire mais peut être vide - doit utiliser la même valeur EN et FR&quot;&gt;
                &lt;input type=&quot;hidden&quot; id=&quot;helpful&quot; name=&quot;helpful&quot; value=&quot;Yes&quot;&gt;
                &lt;div class=&quot;gc-pg-hlpfl-btn&quot;&gt;
                   &lt;div class=&quot;row row-no-gutters&quot;&gt;
                      &lt;div class=&quot;col-xs-12 col-sm-7 mrgn-tp-sm&quot;&gt;
-                        &lt;h2 class=&quot;mrgn-tp-sm h5&quot;&gt;Did you find what you were looking for?&lt;/h2&gt;
+                        &lt;h2 class=&quot;mrgn-tp-sm h5&quot;&gt;Avez-vous trouvé ce que vous cherchiez?&lt;/h2&gt;
                      &lt;/div&gt;
                      &lt;div class=&quot;col-xs-8 col-sm-5 text-right&quot;&gt;
-                        &lt;button id=&quot;btnyes&quot; type=&quot;submit&quot; value=&quot;Yes&quot; class=&quot;btn btn-primary&quot;&gt;Yes&lt;/button&gt;
-                        &lt;button id=&quot;btnno&quot; type=&quot;button&quot; class=&quot;btn btn-primary mrgn-lft-sm nojs-hide&quot;&gt;No&lt;/button&gt;
+                        &lt;button id=&quot;btnyes&quot; type=&quot;submit&quot; value=&quot;Yes&quot; class=&quot;btn btn-primary&quot;&gt;Oui&lt;/button&gt;
+                        &lt;button id=&quot;btnno&quot; type=&quot;button&quot; class=&quot;btn btn-primary mrgn-lft-sm nojs-hide&quot;&gt;Non&lt;/button&gt;
                      &lt;/div&gt;
                   &lt;/div&gt;
                &lt;/div&gt;
-               &lt;p class=&quot;h3 hidden nojs-show&quot;&gt;If not, tell us why:&lt;/p&gt;
+               &lt;p class=&quot;h3 hidden nojs-show&quot;&gt;Sinon, dites nous pourquoi&nbsp;:&lt;/p&gt;
                &lt;div class=&quot;gc-pg-hlpfl-no nojs-show&quot;&gt;
                   &lt;fieldset&gt;
-                     &lt;legend class=&quot;h4 mrgn-tp-0 mrgn-bttm-md&quot;&gt;What was wrong?&lt;/legend&gt;
+                     &lt;legend class=&quot;h4 mrgn-tp-0 mrgn-bttm-md&quot;&gt;Qu’est-ce qui n’allait pas?&lt;/legend&gt;
                      &lt;div class=&quot;radio&quot;&gt;
                         &lt;label for=&quot;problem1&quot;&gt;
-                        &lt;input name=&quot;problem&quot; id=&quot;problem1&quot; type=&quot;radio&quot; value=&quot;I can't find the information&quot; data-gc-analytics-wtph-value=&quot;I can't find the information-Je ne peux pas trouver l'information&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
-                        I can't &lt;strong&gt;find&lt;/strong&gt; the information
+                        &lt;input name=&quot;problem&quot; id=&quot;problem1&quot; type=&quot;radio&quot; value=&quot;Je ne peux pas trouver l’information&quot; data-gc-analytics-wtph-value=&quot;I can't find the information-Je ne peux pas trouver l'information&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
+                        Je ne peux pas &lt;strong&gt;trouver&lt;/strong&gt; l’information
                         &lt;/label&gt;
                      &lt;/div&gt;
                      &lt;div class=&quot;radio&quot;&gt;
                         &lt;label for=&quot;problem2&quot;&gt;
-                        &lt;input name=&quot;problem&quot; id=&quot;problem2&quot; type=&quot;radio&quot; value=&quot;The information is hard to understand&quot; data-gc-analytics-wtph-value=&quot;The information is hard to understand-L'information est difficile à comprendre&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
-                        The information is hard to &lt;strong&gt;understand&lt;/strong&gt;
+                        &lt;input name=&quot;problem&quot; id=&quot;problem2&quot; type=&quot;radio&quot; value=&quot;L'information est difficile à comprendre&quot; data-gc-analytics-wtph-value=&quot;The information is hard to understand-L'information est difficile à comprendre&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
+                        L'information est difficile à &lt;strong&gt;comprendre&lt;/strong&gt;
                         &lt;/label&gt;
                      &lt;/div&gt;
                      &lt;div class=&quot;radio&quot;&gt;
                         &lt;label for=&quot;problem3&quot;&gt;
-                        &lt;input name=&quot;problem&quot; id=&quot;problem3&quot; type=&quot;radio&quot; value=&quot;There was an error / something didn't work&quot; data-gc-analytics-wtph-value=&quot;There was an error or something didn't work-Il y avait une erreur ou quelque chose ne fonctionnait pas&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
-                        There was an error or something &lt;strong&gt;didn't work&lt;/strong&gt;
+                        &lt;input name=&quot;problem&quot; id=&quot;problem3&quot; type=&quot;radio&quot; value=&quot;Il y avait une erreur / quelque chose ne fonctionnait pas&quot; data-gc-analytics-wtph-value=&quot;There was an error or something didn't work-Il y avait une erreur ou quelque chose ne fonctionnait pas&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
+                        Il y avait une erreur / quelque chose &lt;strong&gt;ne fonctionnait pas&lt;/strong&gt;
                         &lt;/label&gt;
                      &lt;/div&gt;
                      &lt;div class=&quot;radio&quot;&gt;
                         &lt;label for=&quot;problem4&quot;&gt;
-                        &lt;input name=&quot;problem&quot; id=&quot;problem4&quot; type=&quot;radio&quot; value=&quot;Other reason&quot; data-gc-analytics-wtph-value=&quot;Other reason-Autre raison&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
-                        Other reason
+                        &lt;input name=&quot;problem&quot; id=&quot;problem4&quot; type=&quot;radio&quot; value=&quot;Autre raison&quot; data-gc-analytics-wtph-value=&quot;Other reason-Autre raison&quot; data-gc-analytics-collect=&quot;notPrivate&quot;&gt;
+                        Autre raison
                         &lt;/label&gt;
                      &lt;/div&gt;
                   &lt;/fieldset&gt;
-                  &lt;label for=&quot;problem6&quot; class=&quot;mrgn-bttm-0&quot;&gt;Please provide more details&lt;/label&gt;
+                  &lt;label for=&quot;problem6&quot; class=&quot;mrgn-bttm-0&quot;&gt;Veuillez fournir plus de détails&lt;/label&gt;
                   &lt;p class=&quot;small&quot;&gt;
-                     &lt;strong&gt;You will not receive a reply. Don't include personal information (telephone, email, SIN, financial, medical, or work details).&lt;/strong&gt;
+                     &lt;strong&gt;Vous ne recevrez aucune réponse. N'incluez pas de renseignements personnels (téléphone, courriel, NAS, renseignements financiers, médicaux ou professionnels)&lt;/strong&gt;
                      &lt;br&gt;
-                     &lt;span class=&quot;small&quot;&gt;Maximum 300 characters&lt;/span&gt;
+                     &lt;span class=&quot;small&quot;&gt;Maximum de 300 caractères&lt;/span&gt;
                   &lt;/p&gt;
                   &lt;textarea id=&quot;problem6&quot; name=&quot;details&quot; class=&quot;full-width&quot; maxlength=&quot;300&quot;&gt;&lt;/textarea&gt;
-                  &lt;button type=&quot;submit&quot; value=&quot;No&quot; class=&quot;btn btn-primary mrgn-tp-md mrgn-bttm-sm&quot;&gt;Submit&lt;/button&gt;
+                  &lt;button type=&quot;submit&quot; value=&quot;No&quot; class=&quot;btn btn-primary mrgn-tp-md mrgn-bttm-sm&quot;&gt;Soumettre&lt;/button&gt;
                &lt;/div&gt;
             &lt;/form&gt;
             &lt;div class=&quot;gc-pg-hlpfl-thnk hide&quot;&gt;
