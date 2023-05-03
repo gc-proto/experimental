@@ -7,7 +7,7 @@ css:
 date: 2023-05-03
 dateModified: 2023-05-03
 description: "alt text strategies"
-lang: en
+language: en
 layout: without-h1
 title: "Alt text strategies"
 ---
