@@ -92,8 +92,8 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <h3>Design specifications</h3>
 <p>The feedback widget replaces the "Report a problem" pattern when in use.</p>
 
-
-## How to implement
+<a id="how"></a>
+<h2>How to implement</h2>
 
 <p>Add it to the bottom of a content page after the page content and before the date modified. </p>
 
