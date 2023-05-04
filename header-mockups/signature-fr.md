@@ -121,7 +121,7 @@ title: "Signature du gouvernement du Canada"
           <summary><strong>Solution de gabarits à déploiement centralisé (SGDC)</strong></summary>
           <p class="mrgn-tp-lg">Pour la solution de gabarits à déploiement centralisé (SGDC)&nbsp;:</p>
           <ul>
-            <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html">CDTS documentation</a></li>
+            <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-fr.html">Documentation de la SGDC</a></li>
           </ul>
         </details>
         <details id="006">
