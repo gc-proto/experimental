@@ -30,16 +30,23 @@ title: "Alt text strategies"
         </details>
       </figure>
     </div>
-    <p class="mrgn-tp-lg">[alt text]: none</p>
-    <p>[Caption]: Global header – large screen</p>
-    <p>[Long decription title]: Image description: global header – large screen</p>
-    <p>[Long decription]:</p>
-    <p>On large screens, the global header on a standard page has 4 rows:</p>
-    <ol>
-      <li>Language toggle in the top-right corner</li>
-      <li>Government of Canada signature in the left corner, site search box on the right</li>
-      <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
-      <li>Breadcrumb on the left</li>
-    </ol>
+    <div class="panel panel-primary mrgn-tp-lg">
+      <header class="panel-heading">
+        <h2 class="panel-title">Image description information</h2>
+      </header>
+      <div class="panel-body">
+        <p class="mrgn-tp-lg">[alt text]: none</p>
+        <p>[Caption]: Global header – large screen</p>
+        <p>[Long decription title]: Image description: global header – large screen</p>
+        <p>[Long decription]:</p>
+        <p>On large screens, the global header on a standard page has 4 rows:</p>
+        <ol>
+          <li>Language toggle in the top-right corner</li>
+          <li>Government of Canada signature in the left corner, site search box on the right</li>
+          <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
+          <li>Breadcrumb on the left</li>
+        </ol>
+      </div>
+    </div>
   </div>
 </div>
