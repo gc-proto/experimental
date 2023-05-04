@@ -5,7 +5,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-05-03
-dateModified: 2023-05-03
+dateModified: 2023-05-05
 description: "alt text strategies"
 language: en
 layout: without-h1
