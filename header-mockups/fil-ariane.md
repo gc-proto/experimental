@@ -113,7 +113,6 @@ title: "Fil d'Ariane"
         <li>Hauteur des lignes&nbsp;: 23&nbsp;px </li>
       </ul>
     </li>
-    <li>Espacement&nbsp;: remplissage&nbsp;: 0 5&nbsp;px</li>
     <li>Icône&nbsp;: glyphicon-chevron-right</li>
   </ul>
   <h4>Accessibilité</h4>
