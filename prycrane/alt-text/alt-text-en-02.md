@@ -16,12 +16,6 @@ title: "Alt text strategies"
   <div class="col-md-8">
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
-        <figcaption><b>Percé Rock (Southwest face)</b></figcaption>
-        <img src="./images/sign-in-desktop-en.jpg" class="img-responsive" alt="Profile view of the southwest face of Percé Rock" /> </figure>
-    </div>
-    <summary class="bg-info">Standard pages</summary>
-    <div class="pattern-demo mrgn-tp-lg">
-      <figure>
         <figcaption><b>Global header – large screen</b></figcaption>
         <img src="./images/sign-in-desktop-en.jpg" class="img-responsive" alt="" />
         <details class="mrgn-tp-md">
@@ -36,8 +30,16 @@ title: "Alt text strategies"
         </details>
       </figure>
     </div>
-    <p class="mrgn-tp-lg">[alt text]: Profile view of the southwest face of Percé Rock</p>
-    <p>[Caption]: Percé Rock (Southwest face)</p>
-    <p>[Long decription]: none</p>
+    <p class="mrgn-tp-lg">[alt text]: none</p>
+    <p>[Caption]: Global header – large screen</p>
+    <p>[Long decription title]: Image description: global header – large screen</p>
+    <p>[Long decription]:</p>
+    <p>On large screens, the global header on a standard page has 4 rows:</p>
+    <ol>
+      <li>Language toggle in the top-right corner</li>
+      <li>Government of Canada signature in the left corner, site search box on the right</li>
+      <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
+      <li>Breadcrumb on the left</li>
+    </ol>
   </div>
 </div>
