@@ -13,7 +13,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2022-08-17
-dateModified: 2023-03-20
+dateModified: 2023-05-05
 description: ""
 language: fr
 layout: without-h1
@@ -46,7 +46,7 @@ title: "Menu thématique"
   </ul>
 </section>
 <h2 id="quand">Quand l’utiliser</h2>
-<p><strong>Mise à jour de la conception en 2023&nbsp;:</strong>: Nous avons récemment mis à jour ce modèle dans le cadre d’une nouvelle stratégie de navigation issue du projet de recherche Orientation. Le menu thématique est en transition. Pour en savoir plus sur ce projet, visitez la section <a href="#recherche">Recherche et justification</a> sur cette page.</p>
+<p><strong>Mise à jour de la conception en 2023&nbsp;:</strong> Nous avons récemment mis à jour ce modèle dans le cadre d’une nouvelle stratégie de navigation issue du projet de recherche Orientation. Le menu thématique est en transition. Pour en savoir plus sur ce projet, visitez la section <a href="#recherche">Recherche et justification</a> sur cette page.</p>
 <h3>Situation actuelle</h3>
 <p>Appliquez le menu thématique comme suit&nbsp;:</p>
 <ul>
@@ -56,13 +56,13 @@ title: "Menu thématique"
 </ul>
 <p>Sur les <strong>pages de destination standard</strong> et les <strong>pages d’accueil institutionnelles</strong>, le menu thématique est obligatoire jusqu’à ce que TOUTES les conditions suivantes soient remplies&nbsp;:</p>
 <ul>
-  <li>La page comporte le <a href="https://conception.canada.ca/configurations-conception-communes/pied-page.html"> pied de page général</a> de 2023.</li>
-  <li>Le menu reçoit régulièrement moins de 1 % des clics au sein d’un groupe de pages liées.
+  <li>La page comporte le <a href="https://conception.canada.ca/configurations-conception-communes/pied-page.html"> pied de page général</a> de&nbsp;2023.</li>
+  <li>Le menu reçoit régulièrement moins de 1&nbsp;% des clics au sein d’un groupe de pages liées.
     <ul>
       <li>Si vous adoptez la conception pour la première fois, vous n’avez pas besoin d’ajouter le menu.</li>
     </ul>
   </li>
-  <li>Vous avez ajouté un <a href="https://conception.canada.ca/configurations-conception-communes/connexion-contextuel.html">bouton contextuel &laquo;&nbsp;Se connecter&nbsp;&raquo; </a> là où il est pertinent pour le contenu. </li>
+  <li>Vous avez ajouté un <a href="https://conception.canada.ca/configurations-conception-communes/connexion-contextuel.html">bouton contextuel &laquo;&nbsp;Se connecter&nbsp;&raquo;</a> là où il est pertinent pour le contenu. </li>
 </ul>
 <p>Un groupe de pages peut être un thème entier, toutes les pages liées à un programme ou service précis, ou toutes les pages liées à une seule organisation.</p>
 <h3>Situation future</h3>
@@ -249,5 +249,5 @@ title: "Menu thématique"
   <dt>
     <time datetime="2023-MM-DD" class="link-muted">2023-MM-DD</time>
   </dt>
-  <dd>Modèle mis à jour pour refléter les changements de conception du projet Orientation.Modèle mis à jour pour refléter les changements de conception du projet Orientation.</dd>
+  <dd>Modèle mis à jour pour refléter les changements de conception du projet Orientation.  Modèle mis à jour pour refléter les changements de conception du projet Orientation.</dd>
 </dl>
