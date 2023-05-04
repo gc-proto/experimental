@@ -17,12 +17,11 @@ title: "Alt text strategies"
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b>Percé Rock (Southwest face)</b></figcaption>
-        <img src="./images/perce-01.png" class="img-responsive" alt="Profile view of the southwest face of Percé Rock." />
-        <details class="mrgn-tp-md">
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description&nbsp;: Percé Rock</summary>
-          <p class="mrgn-tp-lg">Photo of profile view of the southwest face of Percé Rock.</p>
-        </details>
+        <img src="./images/perce-01.png" class="img-responsive" alt="Profile view of the southwest face of Percé Rock" />
       </figure>
     </div>
   </div>
 </div>
+<p>[alt text]: Profile view of the southwest face of Percé Rock</p>
+<p>[Caption]: Percé Rock (Southwest face)</p>
+<p>[Long decription]: none</p>
