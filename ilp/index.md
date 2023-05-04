@@ -20,9 +20,9 @@ noReportProblem: true
 pageclass: cnt-wdth-lmtd
 title: "Institutional landing page documentation"
 ---
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Institutional landing page documentation</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-8">
-    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Institutional landing page documentation</span>: <span>Canada.ca design system</span></span></h1>
     <p>Alt text investigation</p>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul class="fa-ul">
