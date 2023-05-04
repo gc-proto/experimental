@@ -22,5 +22,22 @@ title: "Alt text strategies"
     <p class="mrgn-tp-lg">[alt text]: Profile view of the southwest face of Percé Rock</p>
     <p>[Caption]: Percé Rock (Southwest face)</p>
     <p>[Long decription]: none</p>
+    <summary class="bg-info">Standard pages</summary>
+    <div class="pattern-demo mrgn-tp-lg">
+      <figure>
+        <figcaption><b>Global header – large screen</b></figcaption>
+        <img src="./images/sign-in-desktop-en.jpg" class="img-responsive" alt="" />
+        <details class="mrgn-tp-md">
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header – large screen</summary>
+          <p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
+          <ol>
+            <li>Language toggle in the top-right corner</li>
+            <li>Government of Canada signature in the left corner, site search box on the right</li>
+            <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
+            <li>Breadcrumb on the left</li>
+          </ol>
+        </details>
+      </figure>
+    </div>
   </div>
 </div>
