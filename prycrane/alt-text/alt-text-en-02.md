@@ -34,7 +34,7 @@ title: "Alt text strategies"
       <header class="panel-heading">
         <h2 class="panel-title">Image description information</h2>
       </header>
-      <div class="panel-body">
+      <div class="panel-body small">
         <p class="mrgn-tp-lg">[alt text]: none</p>
         <p>[Caption]: Global header – large screen</p>
         <p>[Long decription title]: Image description: global header – large screen</p>
