@@ -19,9 +19,6 @@ title: "Alt text strategies"
         <figcaption><b>Percé Rock (Southwest face)</b></figcaption>
         <img src="./images/sign-in-desktop-en.jpg" class="img-responsive" alt="Profile view of the southwest face of Percé Rock" /> </figure>
     </div>
-    <p class="mrgn-tp-lg">[alt text]: Profile view of the southwest face of Percé Rock</p>
-    <p>[Caption]: Percé Rock (Southwest face)</p>
-    <p>[Long decription]: none</p>
     <summary class="bg-info">Standard pages</summary>
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
@@ -39,5 +36,8 @@ title: "Alt text strategies"
         </details>
       </figure>
     </div>
+    <p class="mrgn-tp-lg">[alt text]: Profile view of the southwest face of Percé Rock</p>
+    <p>[Caption]: Percé Rock (Southwest face)</p>
+    <p>[Long decription]: none</p>
   </div>
 </div>
