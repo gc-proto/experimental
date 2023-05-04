@@ -20,8 +20,8 @@ title: "Alt text strategies"
         <img src="./images/perce-01.png" class="img-responsive" alt="Profile view of the southwest face of Percé Rock" />
       </figure>
     </div>
-  </div>
-</div>
 <p>[alt text]: Profile view of the southwest face of Percé Rock</p>
 <p>[Caption]: Percé Rock (Southwest face)</p>
-<p>[Long decription]: none</p>
+<p>[Long decription]: none</p>    
+  </div>
+</div>
