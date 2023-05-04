@@ -14,7 +14,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2022-08-17
 dateModified: 2023-03-20
-description: ""
+description: "Orientation sur l’utilisation de la fonction de changement de langue sur le site Canada.ca Le contenu du gouvernement du Canada est offert dans les deux langues officielles. Un lien permettant de changer de langue, situé dans l’en-tête général du site, donne à la personne accès à la page correspondante dans l’autre langue officielle."
 language: fr
 layout: without-h1
 share: true
@@ -102,40 +102,40 @@ title: "Lien pour changer de langue"
   <h3>Exemples visuels</h3>
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
-      <figcaption><b>Changer la langue (English page) – grand écran</b></figcaption>
+      <figcaption><b>Changer la langue (Page anglaise) – grand écran</b></figcaption>
       <img src="./images/01-lang-toggle-en.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;:  Changer la langue – grand écran</summary>
+        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;:  Changer la langue – grand écran (Page anglaise)</summary>
         <p class="mrgn-tp-lg">En-tête standard d’une page Canada.ca en anglais avec mise en surbrillance du mot lié Français dans le coin supérieur droit</p>
       </details>
     </figure>
   </div>
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
-      <figcaption><b>Changer la langue (French page) – grand écran </b></figcaption>
+      <figcaption><b>Changer la langue (Page française) – grand écran </b></figcaption>
       <img src="./images/01-lang-toggle-fr.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;: Changer la langue (French page) – grand écran</summary>
+        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;: Changer la langue (Page française) – grand écran</summary>
         <p class="mrgn-tp-lg">En-tête standard d’une page Canada.ca en français avec mise en surbrillance du mot lié English dans le coin supérieur droit </p>
       </details>
     </figure>
   </div>
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
-      <figcaption><b>Changer la langue (English page) – petit écran</b></figcaption>
+      <figcaption><b>Changer la langue (Page anglaise) – petit écran</b></figcaption>
       <img src="./images/01-lang-toggle-sm-en.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;: Changer la langue (English page) – petit écran</summary>
+        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;: Changer la langue (Page anglaise) – petit écran</summary>
         <p class="mrgn-tp-lg">En-tête standard d’une page Canada.ca en anglais avec mise en surbrillance de l’abréviation liée FR dans le coin supérieur droit</p>
       </details>
     </figure>
   </div>
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
-      <figcaption><b>Changer la langue (French) – petit écran</b></figcaption>
+      <figcaption><b>Changer la langue (Page française) – petit écran</b></figcaption>
       <img src="./images/01-lang-toggle-sm-fr.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;: Changer la langue (English page) – petit écran</summary>
+        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description de l’image&nbsp;: Changer la langue (Page française) – petit écran</summary>
         <p class="mrgn-tp-lg">En-tête standard d’une page Canada.ca en anglais avec mise en surbrillance de l’abréviation liée EN dans le coin supérieur droit</p>
       </details>
     </figure>
@@ -163,7 +163,7 @@ title: "Lien pour changer de langue"
           </ul>
         </details>
         <details id="005">
-          <summary><strong>Solution de gabarits à déploiement centralisé (SGDC) </strong></summary>
+          <summary><strong>Solution de gabarits à déploiement centralisé (SGDC)</strong></summary>
           <p class="mrgn-tp-lg">Pour la Solution de gabarits à déploiement centralisé (SGDC)&nbsp;:</p>
           <ul>
             <li><a href="https://drupalwxt.github.io/fr/">Documentation de la SGDC</a></li>
