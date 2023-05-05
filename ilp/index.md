@@ -44,6 +44,141 @@ title: "Institutional landing page documentation"
         </ul>
       </div>
     </div>
+    <h3 class="h4">Intro block pattern</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="">Monday</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
+    <h3 class="h4">Featured link pattern</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="">Monday</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
+    <h3 class="h4">Most requested pattern - update</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="">Monday</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
+    <h3 class="h4">Services and information pattern - update</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="">Monday</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
+    <h3 class="h4">Contact us band pattern - add to Contact information pattern</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="">Monday</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
+    <h3 class="h4">About the institution pattern</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="">Monday</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
+    <h3 class="h4">Social media pattern - update</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="">Monday</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
+    <h3 class="h4">Ministers block pattern</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="">Monday</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
+    <h3 class="h4">Latest news pattern - update</h3>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span> (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="">Monday</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
   </div>
   <div class="col-md-4">
     <div><img src="./images/derain.png" alt="André Derain, Bateaux au port de Collioure, 1905" class="img-responsive"></div>
