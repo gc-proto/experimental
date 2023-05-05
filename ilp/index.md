@@ -104,7 +104,7 @@ title: "Institutional landing page documentation"
         </ul>
       </div>
     </div>
-    <h3 class="h4">Contact us band pattern (add to Contact information pattern)</h3>
+    <h3 class="h4">Contact us band pattern (Add to Contact information pattern)</h3>
     <ul>
       <li>Contact us (English mockup)</li>
       <li>Contact us (French mockup)</li>
