@@ -96,7 +96,7 @@ title: "Institutional landing page documentation"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410690487">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://www.google.com/url?q=https://design.canada.ca/common-design-patterns/services-information.html">Services and information (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/services-information.html">Services and information (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Services and information (English doc)</li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Services and information (French doc)</li>
         </ul>
