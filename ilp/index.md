@@ -30,7 +30,6 @@ title: "Institutional landing page documentation"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <h3 class="h4">ILP landing page</h3>
-    <p><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410681640">Monday</a></p>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span>ILP landing page (English mockup)</li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span>ILP landing page (French mockup)</li>
@@ -38,6 +37,7 @@ title: "Institutional landing page documentation"
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
+          <li><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410681640">Monday</a></li>
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/11v-AeuqxdtnkXNgycpp814fc3BfyQHxI2TpSCNgYtlY">ILP landing page (French doc)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
@@ -46,6 +46,6 @@ title: "Institutional landing page documentation"
     </div>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/derain.png" alt="" class="img-responsive"></div>
+    <div><img src="./images/derain.png" alt="André Derain, Bateaux au port de Collioure, 1905" class="img-responsive"></div>
   </div>
 </div>
