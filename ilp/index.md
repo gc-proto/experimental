@@ -23,11 +23,27 @@ title: "Institutional landing page documentation"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Institutional landing page documentation</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-8">
-    <p>Alt text investigation</p>
-    <h2 class="h3 mrgn-tp-lg">Mockups</h2>
-    <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="alt-text-en-01.html">Alt text + long description</a></li>
+    <p>Let’s update the documentation for the new institutional landing page by bringing it into the new content model.</p>
+    <ul>
+      <li>Content model</li>
+      <li>ILP prototype</li>
     </ul>
+    <h2 class="h3 mrgn-tp-lg">Mockups</h2>
+    <h3 class="h4">ILP landing page</h3>
+    <p><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410681640">Monday</a></p>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span>ILP landing page (English mockup)</li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span>ILP landing page (French mockup)</li>
+    </ul>
+    <div class="row">
+      <div class="well mrgn-tp-lg col-md-8">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/11v-AeuqxdtnkXNgycpp814fc3BfyQHxI2TpSCNgYtlY">ILP landing page (French doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+        </ul>
+      </div>
+    </div>
   </div>
   <div class="col-md-4">
     <div><img src="./images/pic-ilp-01.png" alt="" class="img-responsive"></div>
