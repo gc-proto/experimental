@@ -49,14 +49,14 @@ title: "Institutional landing page documentation"
     </div>
     <h3 class="h4">Intro block pattern</h3>
     <ul>
-      <li><a href="https://docs.google.com/document/d/1yak8fX5wSUmD5oP0z5EW4SHGGUQbDSIVYAiuqX0jPX8">Intro block pattern (English mockup)</a></li>
+      <li>Intro block pattern (English mockup)</li>
       <li>Intro block pattern (French mockup)</li>
     </ul>
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410683568">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Intro block pattern (English doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1yak8fX5wSUmD5oP0z5EW4SHGGUQbDSIVYAiuqX0jPX8">Intro block pattern (English doc)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Intro block pattern (French doc)</li>
         </ul>
       </div>
