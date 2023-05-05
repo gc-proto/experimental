@@ -155,7 +155,7 @@ title: "Institutional landing page documentation"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410696796">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kzESmu-aviv0WND21gka74MXHOA9WWaIxXgE0rkj7Dc">Ministers block (English doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kzESmu-aviv0WND21gka74MXHOA9WWaIxXgE0rkj7Dc">Ministers block (English doc)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Ministers block (French doc)</li>
         </ul>
       </div>
