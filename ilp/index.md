@@ -28,7 +28,7 @@ title: "Institutional landing page documentation"
       <li><a href="https://docs.google.com/document/d/1L1TgppZW6Nl5vR8mGZYGuD2MiBUomzvW4qMBaMnYIBk/edit#heading=h.cgqy08psd8f0">Content model</a></li>
       <li><a href="https://test.canada.ca/experimental/design-system/coded-layout/institutional_landing_page_guidance-code-only.html">ILP prototype</a></li>
     </ul>
-    <h2 class="h3 mrgn-tp-lg">Mockups</h2>
+    <h2 class="mrgn-tp-lg">Mockups</h2>
     <h3 class="h4">ILP landing page</h3>
     <ul>
       <li>ILP landing page (English mockup)</li>
