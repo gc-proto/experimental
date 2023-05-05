@@ -126,7 +126,7 @@ title: "Institutional landing page documentation"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410695507">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>About (English doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1sMeI9mnkKTo9oVFwjSdpmn8RbmrJlLGfv_3Iqyf8Luw/edit">About (English doc)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>About (French doc)</li>
         </ul>
       </div>
@@ -141,7 +141,7 @@ title: "Institutional landing page documentation"
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4411350957">Monday</a></li>
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/social-media-channels.html">Social media (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Social media (English doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1FIqn8UemmJgG5_JMBOmZo5LXGv1vIoocgOHOF6ROAzw">Social media (English doc)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Social media (French doc)</li>
         </ul>
       </div>
@@ -155,7 +155,7 @@ title: "Institutional landing page documentation"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410696796">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Ministers block (English doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kzESmu-aviv0WND21gka74MXHOA9WWaIxXgE0rkj7Dc">Ministers block (English doc)</li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Ministers block (French doc)</li>
         </ul>
       </div>
