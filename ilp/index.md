@@ -49,7 +49,7 @@ title: "Institutional landing page documentation"
     </div>
     <h3 class="h4">Intro block pattern</h3>
     <ul>
-      <li>Intro block pattern (English mockup)</li>
+      <li><a href="https://docs.google.com/document/d/1yak8fX5wSUmD5oP0z5EW4SHGGUQbDSIVYAiuqX0jPX8">Intro block pattern (English mockup)</a></li>
       <li>Intro block pattern (French mockup)</li>
     </ul>
     <div class="row">
