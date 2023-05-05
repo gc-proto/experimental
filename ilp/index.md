@@ -40,7 +40,7 @@ title: "Institutional landing page documentation"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410681640">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/11v-AeuqxdtnkXNgycpp814fc3BfyQHxI2TpSCNgYtlY">ILP landing page (French doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/11v-AeuqxdtnkXNgycpp814fc3BfyQHxI2TpSCNgYtlY">ILP landing page (English doc)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
         </ul>
       </div>
@@ -54,7 +54,7 @@ title: "Institutional landing page documentation"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410683568">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Intro block pattern (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Intro block pattern (English doc)</li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Intro block pattern (French doc)</li>
         </ul>
       </div>
@@ -112,7 +112,7 @@ title: "Institutional landing page documentation"
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410694176">Monday</a></li>
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/contact-information.html">Contact us (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Contact us (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Contact us (English doc)</li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Contact us (French doc)</li>
         </ul>
       </div>
@@ -126,7 +126,7 @@ title: "Institutional landing page documentation"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410695507">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>About (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>About (English doc)</li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>About (French doc)</li>
         </ul>
       </div>
@@ -141,7 +141,7 @@ title: "Institutional landing page documentation"
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4411350957">Monday</a></li>
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/social-media-channels.html">Social media (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Social media (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Social media (English doc)</li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Social media (French doc)</li>
         </ul>
       </div>
@@ -155,7 +155,7 @@ title: "Institutional landing page documentation"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410696796">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Ministers block (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Ministers block (English doc)</li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Ministers block (French doc)</li>
         </ul>
       </div>
@@ -170,7 +170,7 @@ title: "Institutional landing page documentation"
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410697690">Monday</a></li>
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/latest-news.html">Latest news (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (English doc)</li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
         </ul>
       </div>
