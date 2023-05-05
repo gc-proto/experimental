@@ -25,6 +25,7 @@ title: "Institutional landing page documentation"
   <div class="col-md-8">
     <p>Let’s update the documentation for the new institutional landing page by bringing it into the new content model.</p>
     <ul>
+      <li><a href="https://scma-dto.monday.com/boards/2632043469/pulses/2824139090">Monday Board: ILP documentation</a></li>
       <li><a href="https://docs.google.com/document/d/1L1TgppZW6Nl5vR8mGZYGuD2MiBUomzvW4qMBaMnYIBk/edit#heading=h.cgqy08psd8f0">Content model</a></li>
       <li><a href="https://test.canada.ca/experimental/design-system/coded-layout/institutional_landing_page_guidance-code-only.html">ILP prototype</a></li>
       <li><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
