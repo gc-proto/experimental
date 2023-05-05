@@ -32,7 +32,7 @@ title: "Institutional landing page documentation"
       <li><a href="https://drive.google.com/drive/folders/1imYr-oeVzKcw3QXJCrJG0aCjR9w4KB-s">Google docs folder</a></li>
       <li><a href="https://github.com/gc-proto/experimental/tree/master/ilp">Mockup repository (GitHub)</a></li>
     </ul>
-    <h2 class="mrgn-tp-lg">Mockups</h2>
+    <h2 class="mrgn-tp-lg">Mockup work</h2>
     <h3 class="h4">ILP landing page</h3>
     <ul>
       <li>ILP landing page (English mockup)</li>
