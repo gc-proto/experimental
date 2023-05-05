@@ -74,7 +74,7 @@ title: "Institutional landing page documentation"
         </ul>
       </div>
     </div>
-    <h3 class="h4">Most requested pattern - update</h3>
+    <h3 class="h4">Most requested pattern (Update)</h3>
     <ul class="fa-ul">
       <li>Most requested (English mockup)</li>
       <li>Most requested (French mockup)</li>
@@ -89,7 +89,7 @@ title: "Institutional landing page documentation"
         </ul>
       </div>
     </div>
-    <h3 class="h4">Services and information pattern - update</h3>
+    <h3 class="h4">Services and information pattern  (Update)</h3>
     <ul class="fa-ul">
       <li>Services and information (English mockup)</li>
       <li>Services and information (French mockup)</li>
@@ -104,7 +104,7 @@ title: "Institutional landing page documentation"
         </ul>
       </div>
     </div>
-    <h3 class="h4">Contact us band pattern - add to Contact information pattern</h3>
+    <h3 class="h4">Contact us band pattern (add to Contact information pattern)</h3>
     <ul class="fa-ul">
       <li>Contact us (English mockup)</li>
       <li>Contact us (French mockup)</li>
@@ -134,7 +134,7 @@ title: "Institutional landing page documentation"
         </ul>
       </div>
     </div>
-    <h3 class="h4">Social media pattern - update</h3>
+    <h3 class="h4">Social media pattern (Update)</h3>
     <ul class="fa-ul">
       <li>Social media (English mockup)</li>
       <li>Social media (French mockup)</li>
@@ -164,7 +164,7 @@ title: "Institutional landing page documentation"
         </ul>
       </div>
     </div>
-    <h3 class="h4">Latest news pattern - update</h3>
+    <h3 class="h4">Latest news pattern (Update)</h3>
     <ul class="fa-ul">
       <li>Latest news (English mockup)</li>
       <li>Latest news (French mockup)</li>
