@@ -30,7 +30,7 @@ title: "Institutional landing page documentation"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <h3 class="h4">ILP landing page</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>ILP landing page (English mockup)</li>
       <li>ILP landing page (French mockup)</li>
     </ul>
@@ -45,7 +45,7 @@ title: "Institutional landing page documentation"
       </div>
     </div>
     <h3 class="h4">Intro block pattern</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>Intro block pattern (English mockup)</li>
       <li>Intro block pattern (French mockup)</li>
     </ul>
@@ -60,7 +60,7 @@ title: "Institutional landing page documentation"
       </div>
     </div>
     <h3 class="h4">Featured link pattern</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>Featured link pattern (English mockup)</li>
       <li>Featured link pattern (French mockup)</li>
     </ul>
@@ -75,7 +75,7 @@ title: "Institutional landing page documentation"
       </div>
     </div>
     <h3 class="h4">Most requested pattern (Update)</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>Most requested (English mockup)</li>
       <li>Most requested (French mockup)</li>
     </ul>
@@ -90,7 +90,7 @@ title: "Institutional landing page documentation"
       </div>
     </div>
     <h3 class="h4">Services and information pattern  (Update)</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>Services and information (English mockup)</li>
       <li>Services and information (French mockup)</li>
     </ul>
@@ -105,7 +105,7 @@ title: "Institutional landing page documentation"
       </div>
     </div>
     <h3 class="h4">Contact us band pattern (add to Contact information pattern)</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>Contact us (English mockup)</li>
       <li>Contact us (French mockup)</li>
     </ul>
@@ -120,7 +120,7 @@ title: "Institutional landing page documentation"
       </div>
     </div>
     <h3 class="h4">About the institution pattern</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>About (English mockup)</li>
       <li>About (French mockup)</li>
     </ul>
@@ -135,7 +135,7 @@ title: "Institutional landing page documentation"
       </div>
     </div>
     <h3 class="h4">Social media pattern (Update)</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>Social media (English mockup)</li>
       <li>Social media (French mockup)</li>
     </ul>
@@ -150,7 +150,7 @@ title: "Institutional landing page documentation"
       </div>
     </div>
     <h3 class="h4">Ministers block pattern</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>Ministers block (English mockup)</li>
       <li>Ministers block (French mockup)</li>
     </ul>
@@ -165,7 +165,7 @@ title: "Institutional landing page documentation"
       </div>
     </div>
     <h3 class="h4">Latest news pattern (Update)</h3>
-    <ul class="fa-ul">
+    <ul>
       <li>Latest news (English mockup)</li>
       <li>Latest news (French mockup)</li>
     </ul>
