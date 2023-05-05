@@ -37,7 +37,7 @@ title: "Institutional landing page documentation"
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
-          <li><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410681640">Monday</a></li>
+          <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410681640">Monday</a></li>
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/mandatory-templates/institutional-profile-pages.html">ILP landing page (current page)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/11v-AeuqxdtnkXNgycpp814fc3BfyQHxI2TpSCNgYtlY">ILP landing page (French doc)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>ILP landing page (French doc)</li>
