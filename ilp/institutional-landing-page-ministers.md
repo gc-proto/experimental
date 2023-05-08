@@ -1,5 +1,5 @@
 ---
-altLangPage: "#"
+altLangPage: "pages-profil-institutionne-ministres.html"
 breadcrumbs:
   - title: About Canada.ca
     link: "https://www.canada.ca/en/government/about.html"
