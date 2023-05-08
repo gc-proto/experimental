@@ -1,5 +1,5 @@
 ---
-altLangPage: "datatables-09-en.html"
+altLangPage: "datatables-10-en.html"
 breadcrumbs:
   - title: "À propos de Canada.ca"
     link:  "https://www.canada.ca/fr/gouvernement/a-propos.html"
