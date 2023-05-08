@@ -2,6 +2,15 @@
 ---
 {
   "data": [{
+      "NAME": "<a href=\"https://blogue.canada.ca/resumes-recherche/trouver-emploi-resume-recherche.html\">Trouver un emploi</a>",
+      "SOURCE": "Résumé de recherche",
+      "DESCRIPTION": "En facilitant la tâche de trouver les emplois du gouvernement, nous avons appris à éliminer les pages redondantes, à orienter le contenu pour les utilisateurs et leurs principales tâches, à concevoir le contenu en fonction de réponses et non de renseignements, à utiliser des titres d’emploi consultables, à répondre aux attentes des utilisateurs à l’égard d’une seule plateforme de recherche d’emploi.",
+      "WHENTOUSE": "",
+      "CATEGORY": "",
+      "TYPE": "",
+      "MANDATORY": "",
+      "TANDP": "0"
+    }, {
       "NAME": "<a href=\"https://blogue.canada.ca/resumes-recherche/orientation-dans-canada-ca\">Orientation dans Canada.ca</a>",
       "SOURCE": "Résumé de recherche",
       "DESCRIPTION": "explique le contexte de la recherche et les constatations qui ont mené aux mises à jour de la conception",
