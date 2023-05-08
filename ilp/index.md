@@ -150,7 +150,7 @@ title: "Institutional landing page documentation"
     </div>
     <h3 class="h4">Ministers block pattern</h3>
     <ul>
-      <li>Ministers block (English mockup)</li>
+      <li><a href="ministers-block.html">Ministers block (English mockup)</a></li>
       <li>Ministers block (French mockup)</li>
     </ul>
     <div class="row">
