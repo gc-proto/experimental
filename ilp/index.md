@@ -135,7 +135,7 @@ title: "Institutional landing page documentation"
     </div>
     <h3 class="h4">Social media pattern (Update)</h3>
     <ul>
-      <li><a href=""social-media-channels.html>Social media (English mockup)</a></li>
+      <li><a href="social-media-channels.html">Social media (English mockup)</a></li>
       <li>Social media (French mockup)</li>
     </ul>
     <div class="row">
