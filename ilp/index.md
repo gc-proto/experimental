@@ -121,7 +121,7 @@ title: "Institutional landing page documentation"
     </div>
     <h3 class="h4">About the institution pattern</h3>
     <ul>
-      <li><a href="institutional_landing_page_about.html">About (English mockup)</a></li>
+      <li><a href="institutional-landing-page-about.html">About (English mockup)</a></li>
       <li>About (French mockup)</li>
     </ul>
     <div class="row">
@@ -136,7 +136,7 @@ title: "Institutional landing page documentation"
     <h3 class="h4">Social media pattern (Update)</h3>
     <ul>
       <li><a href="social-media-channels.html">Social media (English mockup)</a></li>
-      <li>Social media (French mockup)</li>
+      <li><a href="bloc-medias-sociaux.html">Bloc des réseaux de médias sociaux (French mockup)</a></li>
     </ul>
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
