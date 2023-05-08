@@ -1,5 +1,5 @@
 ---
-altLangPage: "#"
+altLangPage: "institutional-landing-page-about.html"
 breadcrumbs:
   - title: About Canada.ca
     link: "https://www.canada.ca/en/government/about.html"
