@@ -16,7 +16,7 @@ css:
 date: 2018-12-19
 dateModified: 2023-05-08
 description: "Bloc des ministres"
-language: en
+language: fr
 layout: without-h1
 title: "Bloc des ministres"
 ---
