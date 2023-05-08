@@ -8,7 +8,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-01-24
-dateModified: 2023-01-27
+dateModified: 2023-05-08
 description: "The Canada.ca design system provides a usable, consistent and trustworthy online experience for people who access Government of Canada digital services."
 lang: fr
 layout: without-h1
@@ -118,7 +118,7 @@ title: "Canada.ca design system"
     <div class="mrgn-tp-md mrgn-bttm-md">
       <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="design" data-page-length="25" data-wb-tables='{
             "bDeferRender": true,
-            "ajaxSource": "https://conception.canada.ca/ajax/patterns-01-fr.json",
+            "ajaxSource": "https://test.canada.ca/experimental/prycrane/datatables/ajax/patterns-01-fr.json",
             "order": [0, "asc"],
             "paging": true,
             "info": true,
