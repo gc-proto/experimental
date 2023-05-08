@@ -1,5 +1,5 @@
 ---
-altLangPage: "#"
+altLangPage: "institutional-landing-page-social-media.html"
 breadcrumbs:
   - title: À propos de Canada.ca
     link: "https://www.canada.ca/fr/gouvernement/a-propos.html"
@@ -16,7 +16,7 @@ css:
 date: 2018-12-19
 dateModified: 2023-05-08
 description: "Bloc des réseaux de médias sociaux"
-language: en
+language: fr
 layout: without-h1
 title: "Bloc des réseaux de médias sociaux"
 ---
