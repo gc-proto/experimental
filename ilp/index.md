@@ -122,7 +122,7 @@ title: "Institutional landing page documentation"
     <h3 class="h4">About the institution pattern</h3>
     <ul>
       <li><a href="institutional-landing-page-about.html">About (English mockup)</a></li>
-      <li>About (French mockup)</li>
+      <li><a href="pages-profil-institutionne-a-propos.html">À propos (French mockup)</a></li>
     </ul>
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
@@ -135,8 +135,8 @@ title: "Institutional landing page documentation"
     </div>
     <h3 class="h4">Social media pattern (Update)</h3>
     <ul>
-      <li><a href="social-media-channels.html">Social media (English mockup)</a></li>
-      <li><a href="bloc-medias-sociaux.html">Bloc des réseaux de médias sociaux (French mockup)</a></li>
+      <li><a href="institutional-landing-page-social-media.html">Social media (English mockup)</a></li>
+      <li><a href="pages-profil-institutionne-medias-sociaux.html">Médias sociaux (French mockup)</a></li>
     </ul>
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
@@ -150,8 +150,8 @@ title: "Institutional landing page documentation"
     </div>
     <h3 class="h4">Ministers block pattern</h3>
     <ul>
-      <li><a href="ministers-block.html">Ministers block (English mockup)</a></li>
-      <li>Ministers block (French mockup)</li>
+      <li><a href="institutional-landing-page-ministers.html">Ministers block (English mockup)</a></li>
+      <li><a href="pages-profil-institutionne-ministres.html">Bloc des ministres (French mockup)</a></li>
     </ul>
     <div class="row">
       <div class="well mrgn-tp-lg col-md-8">
