@@ -121,7 +121,7 @@ title: "Institutional landing page documentation"
     </div>
     <h3 class="h4">About the institution pattern</h3>
     <ul>
-      <li>About (English mockup)</li>
+      <li><a href="institutional_landing_page_about.html">About (English mockup)</a></li>
       <li>About (French mockup)</li>
     </ul>
     <div class="row">
