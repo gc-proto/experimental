@@ -54,6 +54,47 @@ title: "About [institution]"
 <h2 id="when">When to use</h2>
 <p>The About the [institution] section is a mandatory pattern on an Institutional landing page.  It must include Mandate and Transparency links.</p>
 <h2 id="content">Content and design</h2>
+<p>Find content and design specifications and visual examples.</p>
+<h3>Content specifications</h3>
+<ul>
+  <li>The heading is “About” followed by the name of the institution</li>
+  <li>The heading appears above the links on all screen sizes</li>
+  <li>Links can include <strong>corporate information</strong> and <strong>business lines</strong>, such as
+    <ul>
+      <li>institutional mandate and organizational structure</li>
+      <li>performance reporting and transparency</li>
+      <li>job opportunities</li>
+    </ul>
+  </li>
+  <li>Links can include <strong>program and policy development information</strong>, such as
+    <ul>
+      <li>information about programs and policies, and activities related to their development</li>
+      <li>background information about what is presented on a topic page</li>
+      <li>program descriptions, policies, research papers, consultations, statistics, legislation, etc.</li>
+    </ul>
+  </li>
+  <li>Organize the links in a bulleted list</li>
+  <li>Make bullets visible so links are easy to scan</li>
+  <li>Recommended maximum of 10 links</li>
+  <li>Use task-oriented, plain language link labels (avoid program names or titles that may be unfamiliar to people)</li>
+  <li>The list of links appears in:
+    <ul>
+      <li>2 columns on large screens</li>
+      <li>1 column on small screens</li>
+    </ul>
+  </li>
+</ul>
+<h3>Design specifications</h3>
+<ul>
+  <li>Background color: #f5f5f5</li>
+  <li>Text size: Noto sans: 19px ?</li>
+  <li>Heading:  H2, Lato: 1.2em</li>
+  <li>Font-weight: Bold?</li>
+  <li>Line-height of li: 2em</li>
+  <li>Layout: 2 columns of bullets in large and medium viewport, single column in small viewports</li>
+</ul>
+<h2 id="how">How to implement</h2>
+<h3>Visual examples</h3>
 <div class="pattern-demo mrgn-tp-md">
   <figure class="mrgn-bttm-md">
     <figcaption><b>About [institution name] – large screen</b></figcaption>
