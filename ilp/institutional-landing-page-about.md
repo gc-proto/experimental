@@ -18,6 +18,7 @@ dateModified: 2023-05-08
 description: "About [institution]"
 language: en
 layout: without-h1
+pageclass: cnt-wdth-lmtd
 title: "About [institution]"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>About [institution name]</span>: <span>Canada.ca design</span></span></h1>
@@ -39,9 +40,21 @@ title: "About [institution]"
   <li>any link to content that falls under Corporate information or Program and policy development</li>
 </ul>
 <div class="pattern-demo mrgn-tp-lg">
-  <figure> <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt=""> </figure>
+  <figure> <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt=""></figure>
 </div>
-<div class="pattern-demo mrgn-tp-lg">
+<h2>On this page</h2>
+<ul>
+  <li><a href="#when">When to use</a></li>
+  <!-- <li><a href="#what">What to avoid</a></li>  -->
+  <li><a href="#content">Content and design</a></li>
+  <li><a href="#how">How to implement</a></li>
+  <li><a href="#research">Research and rationale</a></li>
+  <li><a href="#changes">Latest changes</a></li>
+</ul>
+<h2 id="when">When to use</h2>
+<p>The About the [institution] section is a mandatory pattern on an Institutional landing page.  It must include Mandate and Transparency links.</p>
+<h2 id="content">Content and design</h2>
+<div class="pattern-demo mrgn-tp-md">
   <figure class="mrgn-bttm-md">
     <figcaption><b>About [institution name] – large screen</b></figcaption>
     <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt="">
