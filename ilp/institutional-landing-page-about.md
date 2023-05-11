@@ -117,3 +117,50 @@ title: "About [institution]"
     </details>
   </figure>
 </div>
+<div class="pattern-demo mrgn-tp-md">
+  <figure class="mrgn-bttm-md">
+    <figcaption><b>About [institution name] – small screen</b></figcaption>
+    <img src="./images/ilp-about-sm-en.png" class="img-responsive" alt="">
+    <details>
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: About [institution name] – small screen</summary>
+      <p class="mrgn-tp-lg">About [institution name] links appear in a section with the heading “About [institution name]”.  Links are organized in a bulleted list:</p>
+      <ul>
+        <li>Mandate</li>
+        <li>Organizational structure</li>
+        <li>Transparency</li>
+        <li>Job opportunities</li>
+        <li>Reports</li>
+        <li>Compliance</li>
+        <li>Enforcements notifications</li>
+        <li>[institutional link]</li>
+        <li>[institutional link]</li>
+        <li>More: About the institution</li>
+      </ul>
+    </details>
+  </figure>
+</div>
+<h3>GCweb (WET) theme implementation reference</h3>
+<p>The implementation reference includes how to configure each element of the header.</p>
+<ul>
+  <li><a href="https://wet-boew.github.io/GCWeb/docs/implementing-en.html">Quick implementation guide - GCWeb theme</a></li>
+</ul>
+<h3>Implementations</h3>
+<p>Refer to your implementation's guidance to code links.</p>
+<h2 id="research">Research and rationale</h2>
+<p>Consult research findings and policy rationale.</p>
+<!--<h3>Research findings</h3>-->
+
+<h3>Policy rationale</h3>
+<p>The About [institution name] section is a mandatory section on Institution landing pages under the Content and Information Architecture Specification.</p>
+<p>The About [institution name] links include:</p>
+<ul>
+  <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/organizing-content.html#corporate">Corporate information</a></li>
+  <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/organizing-content.html#program">Program and policy development</a></li>
+</ul>
+<h2 id="changes">Latest changes</h2>
+<dl class="dl-horizontal">
+  <dt>
+    <time datetime="2023-MM-DD" class="link-muted">2023-MM-DD</time>
+  </dt>
+  <dd>Added About [institution name] guidance to support updates to the Institutional landing page</dd>
+</dl>
