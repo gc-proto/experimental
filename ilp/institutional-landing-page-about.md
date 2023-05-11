@@ -20,4 +20,6 @@ language: en
 layout: without-h1
 title: "About [institution]"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>About [institution]</span>: <span>Canada.ca design</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>About [institution name]</span>: <span>Canada.ca design</span></span></h1>
+<p> Last updated: 2023-MM-DD</p>
+<p><span class="label label-danger">Mandatory on standard pages</span></p>
