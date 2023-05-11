@@ -14,7 +14,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-05-08
-dateModified: 2023-05-08
+dateModified: 2023-05-11
 description: "About [institution]"
 language: en
 layout: without-h1
