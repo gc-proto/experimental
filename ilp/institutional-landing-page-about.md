@@ -42,7 +42,7 @@ title: "About [institution]"
   <figure> <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt=""> </figure>
 </div>
 <div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-lg">
+  <figure class="mrgn-bttm-md">
     <figcaption><b>About [institution name] – large screen</b></figcaption>
     <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt="">
     <details>
