@@ -39,7 +39,7 @@ title: "About [institution]"
   <li>any link to content that falls under Corporate information or Program and policy development</li>
 </ul>
 <div class="pattern-demo mrgn-tp-lg">
-  <figure class="mrgn-bttm-lg"> <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt=""> </figure>
+  <figure> <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt=""> </figure>
 </div>
 <div class="pattern-demo mrgn-tp-lg">
   <figure class="mrgn-bttm-lg">
