@@ -70,7 +70,7 @@ title: "Institutional landing page documentation"
       <div class="well mrgn-tp-lg col-md-8">
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410685426">Monday</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Featured link pattern (English doc)</li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1sho0B5yxl9s3blAqeRaYHfsn_NNlZB9dqz17h7Jb6Bw/edit#heading=h.dcg8usq92yul">Featured link pattern (English doc)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Featured link pattern (French doc)</li>
         </ul>
       </div>
