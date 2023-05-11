@@ -22,4 +22,44 @@ title: "About [institution]"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>About [institution name]</span>: <span>Canada.ca design</span></span></h1>
 <p class="small"> Last updated: 2023-MM-DD</p>
-<p><span class="label label-danger">Mandatory on standard pages</span></p>
+<p><span class="label label-danger">Mandatory on an institutional landing page</span></p>
+<p>The About [institution name] pattern is a section on an institutional landing page that provides links to corporate, program and policy information.</p>
+<p>Mandatory links:</p>
+<ul>
+  <li>Mandate</li>
+  <li>Transparency</li>
+</ul>
+<p>Optional links:</p>
+<ul>
+  <li>Programs</li>
+  <li>Consultations</li>
+  <li>Organizational structure</li>
+  <li>Reports</li>
+  <li>Job opportunities</li>
+  <li>any link to content that falls under Corporate information or Program and policy development</li>
+</ul>
+<div class="pattern-demo mrgn-tp-lg">
+  <figure class="mrgn-bttm-lg"> <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt=""> </figure>
+</div>
+<div class="pattern-demo mrgn-tp-lg">
+  <figure class="mrgn-bttm-lg">
+    <figcaption><b>About [institution name] – large screen</b></figcaption>
+    <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt="">
+    <details>
+      <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: About [institution name] – large screen</summary>
+      <p>About [institution name] links appear in a section with the heading “About [institution name]”.  Links are organized in a bulleted list:</p>
+      <ul>
+        <li>Mandate</li>
+        <li>Organizational structure</li>
+        <li>Transparency</li>
+        <li>Job opportunities</li>
+        <li>Reports</li>
+        <li>Compliance</li>
+        <li>Enforcements notifications</li>
+        <li>[institutional link]</li>
+        <li>[institutional link]</li>
+        <li>More: About the institution</li>
+      </ul>
+    </details>
+  </figure>
+</div>
