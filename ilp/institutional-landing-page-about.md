@@ -146,10 +146,38 @@ title: "About [institution]"
 </ul>
 <h3>Implementations</h3>
 <p>Refer to your implementation's guidance to code links.</p>
+<div class="row">
+  <div class="col-md-8">
+    <div class="wb-tabs mrgn-tp-lg">
+      <div class="tabpanels">
+        <details id="004" open="open">
+          <summary><strong>GC-AEM</strong></summary>
+          <p class="mrgn-tp-lg">For the Government of Canada Adobe Experience Manager (AEM):</p>
+          <ul>
+            <li><a href="https://www.gcpedia.gc.ca/wiki/AEM_GC-specific_Documentation_6.5">AEM/Managed Web Service documentation (GCPedia link - only available on the Government of Canada network)</a></li>
+          </ul>
+        </details>
+        <details id="005">
+          <summary><strong>CDTS</strong></summary>
+          <p class="mrgn-tp-lg">For the Centrally Deployed Templates Solution (CDTS):</p>
+          <ul>
+            <li><a href="https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html">CDTS documentation</a></li>
+          </ul>
+        </details>
+        <details id="006">
+          <summary><strong>Drupal WxT</strong></summary>
+          <p class="mrgn-tp-lg">For Drupal WxT:</p>
+          <ul>
+            <li><a href="https://drupalwxt.github.io/en/">Drupal WxT documentation</a></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
 <h2 id="research">Research and rationale</h2>
 <p>Consult research findings and policy rationale.</p>
 <!--<h3>Research findings</h3>-->
-
 <h3>Policy rationale</h3>
 <p>The About [institution name] section is a mandatory section on Institution landing pages under the Content and Information Architecture Specification.</p>
 <p>The About [institution name] links include:</p>
