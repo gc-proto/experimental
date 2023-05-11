@@ -47,7 +47,7 @@ title: "About [institution]"
     <img src="./images/ilp-about-lg-en.png" class="img-responsive" alt="">
     <details>
       <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: About [institution name] – large screen</summary>
-      <p>About [institution name] links appear in a section with the heading “About [institution name]”.  Links are organized in a bulleted list:</p>
+      <p class="mrgn-tp-lg">About [institution name] links appear in a section with the heading “About [institution name]”.  Links are organized in a bulleted list:</p>
       <ul>
         <li>Mandate</li>
         <li>Organizational structure</li>
