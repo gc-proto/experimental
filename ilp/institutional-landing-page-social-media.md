@@ -30,5 +30,17 @@ title: "Social media channels"
       <li> <a href="#" rel="external" class="instagram"><span class="wb-inv">Instagram: </span>InstagramName</a> </li>
       <li> <a href="#" rel="external" class="linkedin"><span class="wb-inv">LinkedIn: </span>LinkedInName</a> </li>
     </ul>
+    <ul>
+		<li><a href="#facebook" class="facebook wb-lbx wb-init wb-lbx-inited" id="wb-auto-4"><span class="wb-inv">Facebook</span></a></li>
+		<li><a href="#" class="twitter" rel="external"><span class="wb-inv">Twitter</span></a></li>
+		<li><a href="#youtube" class="youtube wb-lbx wb-init wb-lbx-inited" id="wb-auto-5"><span class="wb-inv">YouTube</span></a></li>
+		<li><a href="#" class="flickr" rel="external"><span class="wb-inv">Flickr</span></a></li>
+		<li><a href="#" class="pinterest" rel="external"><span class="wb-inv">Pinterest</span></a></li>
+		<li><a href="#" class="linkedin" rel="external"><span class="wb-inv">LinkedIn</span></a></li>
+		<li><a href="#" class="instagram" rel="external"><span class="wb-inv">Instagram</span></a></li>
+		<li><a href="#" class="rss" rel="external"><span class="wb-inv">Fil RSS</span></a></li>
+		<li><a href="#" class="email" rel="external"><span class="wb-inv">Abonnement par courriel</span></a></li>
+		<li><a href="#" class="periscope" rel="external"><span class="wb-inv">Periscope</span></a></li>
+	</ul>
   </section>
 </div>
