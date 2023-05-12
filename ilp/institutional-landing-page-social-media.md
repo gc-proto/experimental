@@ -21,7 +21,7 @@ title: "Social media channels"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Social media channels</span>: <span>Canada.ca design</span></span></h1>
 <div class="col-xs-12 col-sm-5 pull-right">
-  <section class="provisional gc-followus">
+  <section class="provisional gc-followuss followus">
     <h2>Follow us</h2>
     <ul class="list-inline">
       <li> <a href="#facebook" class="facebook wb-lbx"><span class="wb-inv">Facebook: </span>FacebookPageName</a> </li>
