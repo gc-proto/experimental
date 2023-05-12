@@ -21,20 +21,15 @@ layout: without-h1
 title: "Social media channels"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Social media channels</span>: <span>Canada.ca design</span></span></h1>
-<ul class="list-inline">
-		<li>
-			<a href="#facebook" class="facebook wb-lbx"><span class="wb-inv">Facebook: </span>FacebookPageName</a>
-		</li>
-		<li>
-			<a href="#" rel="external" class="twitter"><span class="wb-inv">Twitter: </span>@TwitterAccount</a>
-		</li>
-		<li>
-			<a href="#" rel="external" class="youtube"><span class="wb-inv">Youtube: </span>YouTubeName</a>
-		</li>
-		<li>
-			<a href="#" rel="external" class="instagram"><span class="wb-inv">Instagram: </span>InstagramName</a>
-		</li>
-		<li>
-			<a href="#" rel="external" class="linkedin"><span class="wb-inv">LinkedIn: </span>LinkedInName</a>
-		</li>
-	</ul>
+<div class="col-xs-12 col-sm-5 pull-right">
+  <section class="provisional gc-followus">
+    <h2>Follow us</h2>
+    <ul class="list-inline">
+      <li> <a href="#facebook" class="facebook wb-lbx"><span class="wb-inv">Facebook: </span>FacebookPageName</a> </li>
+      <li> <a href="#" rel="external" class="twitter"><span class="wb-inv">Twitter: </span>@TwitterAccount</a> </li>
+      <li> <a href="#" rel="external" class="youtube"><span class="wb-inv">Youtube: </span>YouTubeName</a> </li>
+      <li> <a href="#" rel="external" class="instagram"><span class="wb-inv">Instagram: </span>InstagramName</a> </li>
+      <li> <a href="#" rel="external" class="linkedin"><span class="wb-inv">LinkedIn: </span>LinkedInName</a> </li>
+    </ul>
+  </section>
+</div>
