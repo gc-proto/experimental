@@ -29,12 +29,11 @@ title: "Header mockups"
       <li>
         <details open="open">
           <summary>Pull request and previews</summary>
-          <h2 class="h3 mrgn-tp-lg">English</h2>
-          <h3 class="h4 mrgn-tp-lg">Pull request</h3>
+          <h2 class="h3 mrgn-tp-lg">English pull request</h2>
           <ul>
             <li><a href="https://github.com/canada-ca/design-system/pull/244">Update header material #244</a></li>
           </ul>
-          <h3 class="h4 mrgn-tp-lg">Preview</h3>
+          <h2 class="h3 mrgn-tp-lg">English preview</h2>
           <ul>
             <li><a href="https://deploy-preview-244--design-system-canada-ca.netlify.app/common-design-patterns/global-header.html">Global header</a></li>
             <li><a href="https://deploy-preview-244--design-system-canada-ca.netlify.app/common-design-patterns/breadcrumb-trail.html">Breadcrumb trail</a></li>
@@ -43,6 +42,11 @@ title: "Header mockups"
             <li><a href="https://deploy-preview-244--design-system-canada-ca.netlify.app/common-design-patterns/signature.html">Signature</a></li>
             <li><a href="https://deploy-preview-244--design-system-canada-ca.netlify.app/common-design-patterns/site-menu.html">Site Menu</a></li>
           </ul>
+          <h2 class="h3 mrgn-tp-lg">French pull request</h2>
+          <ul>
+            <li><a href="https://github.com/canada-ca/systeme-conception/pull/143">Update header material #143</a></li>
+          </ul>
+          <h2 class="h3 mrgn-tp-lg">French preview</h2>
         </details>
       </li>
       <li>
