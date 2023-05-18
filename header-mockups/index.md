@@ -46,6 +46,14 @@ title: "Header mockups"
             <li><a href="https://github.com/canada-ca/systeme-conception/pull/143">Update header material #143</a></li>
           </ul>
           <h2 class="h3 mrgn-tp-lg">French preview</h2>
+          <ul>
+            <li><a href="https://deploy-preview-143--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/en-tete-general.html">En-tête global</a></li>
+            <li><a href="https://deploy-preview-143--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/changer-langue.html">Lien pour changer de langue</a></li>
+            <li><a href="https://deploy-preview-143--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/champ-recherche.html">Champ de recherche du site</a></li>
+            <li><a href="https://deploy-preview-143--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/fil-ariane.html">Fil d'Ariane</a></li>
+            <li><a href="https://deploy-preview-143--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/menu-site.html">Menu thématique</a></li>
+            <li><a href="https://deploy-preview-143--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/signature.html">Signature du gouvernement du Canada</a></li>
+          </ul>
         </details>
       </li>
       <li>
