@@ -18,11 +18,11 @@ showFeedback: false
 nomenu: true
 noReportProblem: true
 pageclass: cnt-wdth-lmtd
-title: "Header mockups"
+title: "Header updates"
 ---
 <div class="row">
   <div class="col-md-8">
-    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Header mockups</span>: <span>Canada.ca design system</span></span></h1>
+    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Header updates</span>: <span>Canada.ca design system</span></span></h1>
     <p>Let's see what our header documentation looks like in HTML.</p>
     <ul class="list-unstyled mrgn-tp-lg">
       <li>
@@ -58,7 +58,7 @@ title: "Header mockups"
       </li>
       <li>
         <details>
-          <summary>Mockups and working documents</summary>
+          <summary>Mockups and working documents (old)</summary>
           <h2 class="h3 mrgn-tp-lg">Global header</h2>
           <ul class="fa-ul">
             <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header.html">Global header (English mockup)</a></li>
