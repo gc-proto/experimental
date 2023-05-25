@@ -28,11 +28,12 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li><a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca design system (landing page)</a></li>
       <li><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Template and pattern library for Canada.ca</a></li>
     </ul>
+    <p>Let's slay the DataTable dragon!</p>
     <h2 class="h3">DataTables and JSON data</h2>
     <p>The tables on these pages use the DataTables plugin and a JSON file.   It’s cooked into WET and GCWeb:</p>
     <ul>
-      <li>WET table documentation</li>
-      <li>GCWEB tables documentation</li>
+      <li><a href="https://wet-boew.github.io/v4.0-ci/docs/ref/tables/tables-en.html">WET table documentation</a></li>
+      <li><a href="https://design.canada.ca/common-design-patterns/tables.html">GCWEB tables documentation</a></li>
     </ul>
     <h2 class="h3">JSON files</h2>
     <h3 class="h4">design-system</h3>
@@ -49,7 +50,6 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny28.png" alt="" class="img-responsive">
-      <p class="mrgn-tp-lg text-center"><strong>Let's slay the DataTable dragon!</strong></p>
     </div>
   </div>
 </div>
