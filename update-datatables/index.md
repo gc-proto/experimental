@@ -1,5 +1,5 @@
 ---
-altLangPage: "#"
+altLangPage: false
 breadcrumbs:
   - title: Peter's warrren
     link: "https://test.canada.ca/experimental/prycrane/"
