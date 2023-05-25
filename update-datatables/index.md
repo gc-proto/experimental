@@ -61,8 +61,9 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
   <tbody>
     <tr>
       <td>NAME</td>
-      <td>Description</td>
-      <td>Page Display</td>
+      <td>Name of component.  Should be the same as the Metadata title</td>
+      <td>DS landing page<br>
+        Templates and patterns</td>
     </tr>
   </tbody>
 </table>
