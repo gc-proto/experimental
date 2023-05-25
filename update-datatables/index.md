@@ -28,9 +28,28 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li><a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca design system</a></li>
       <li><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Template and pattern library for Canada.ca</a></li>
     </ul>
+    <h2 class="h3">DataTables and JSON data</h2>
+    <p>The tables on these pages use the DataTables plugin and a JSON file.   It’s cooked into WET and GCWeb:</p>
+    <ul>
+      <li>WET table documentation</li>
+      <li>GCWEB tables documentation</li>
+    </ul>
+    <h2 class="h3">JSON files</h2>
+    <h3 class="h4">design-system</h3>
+    <ul>
+      <li>File: <a href="https://design.canada.ca/ajax/patterns-01-en.json">https://design.canada.ca/ajax/patterns-01-en.json</a></li>
+      <li>Github: <a href="https://github.com/canada-ca/design-system/blob/master/ajax/patterns-01-en.json">https://github.com/canada-ca/design-system/blob/master/ajax/patterns-01-en.json</a></li>
+    </ul>
+    <h3 class="h4">systeme-conception</h3>
+    <ul>
+      <li>File: <a href="https://conception.canada.ca/ajax/patterns-01-fr.json">https://conception.canada.ca/ajax/patterns-01-fr.json</a></li>
+      <li>Github: <a href="https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json">https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</a></li>
+    </ul>
+    <h2 class="h3">JSON structure</h2>
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny28.png" alt="" class="img-responsive">
-	    <p class="mrgn-tp-lg text-center"><strong>Let's slay the DataTable dragon!</strong></p></div>
+      <p class="mrgn-tp-lg text-center"><strong>Let's slay the DataTable dragon!</strong></p>
+    </div>
   </div>
 </div>
