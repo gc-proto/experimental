@@ -97,7 +97,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     &quot;TYPE&quot;: &quot;&quot;,
     &quot;MANDATORY&quot;: &quot;&quot;,
     &quot;TANDP&quot;: &quot;0&quot;
-  }, {
+  },{
     &quot;NAME&quot;: &quot;&lt;a href=&quot;{{ site.url }}/common-design-patterns/subway-navigation.html&quot;&gt;Subway navigation&lt;/a&gt;&quot;,
     &quot;SOURCE&quot;: &quot;Template and pattern library&quot;,
     &quot;DESCRIPTION&quot;: &quot;Break up long and complex content into sections that each focus on a step or specific answer people need before moving to the next step or section.&quot;,
