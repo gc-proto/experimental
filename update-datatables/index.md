@@ -35,7 +35,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li><a href="https://wet-boew.github.io/v4.0-ci/docs/ref/tables/tables-en.html">WET table documentation</a></li>
       <li><a href="https://design.canada.ca/common-design-patterns/tables.html">GCWEB tables documentation</a></li>
     </ul>
-    <h2 class="h3">JSON files</h2>
+    <h2 class="h3">Location of the JSON files</h2>
     <h3 class="h4">design-system</h3>
     <ul>
       <li>File: <a href="https://design.canada.ca/ajax/patterns-01-en.json">https://design.canada.ca/ajax/patterns-01-en.json</a></li>
