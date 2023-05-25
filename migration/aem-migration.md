@@ -37,7 +37,7 @@ title: "Moving from AEM to GitHub"
     <ul class="list-unstyled">
       <li>
         <details>
-          <summary class="bg-success">Phase 1 - Content and architecture specification <div class="text-right"><strong>Done</strong></div></summary>
+          <summary class="bg-success">Phase 1 - Content and architecture specification <span class="pull-right"><strong>Done</strong></span></summary>
           <section class="panel panel-default mrgn-tp-lg mrgn-bttm-lg">
             <table class="table small table-striped table-bordered table-responsive">
               <caption class="wb-inv">
