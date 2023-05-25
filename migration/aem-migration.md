@@ -187,7 +187,7 @@ title: "Moving from AEM to GitHub"
                 <tr>
                   <td class="text-center">2</td>
                   <td><a href="https://www.canada.ca/fr/gouvernement/a-propos/systeme-conception/derniers-changements.html">Derniers changements apportés au système de conception de Canada.ca</a></td>
-                  <td class="text-center">En</td>
+                  <td class="text-center">Fr</td>
                 </tr>
               </tbody>
             </table>
