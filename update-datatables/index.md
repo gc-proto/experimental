@@ -25,7 +25,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>How to update the "Find Guidance" and "All templates and patterns" DataTables</span>: <span>Canada.ca design system</span></span></h1>
     <p>So, you want to update the tables on:</p>
     <ul>
-      <li><a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca design system</a></li>
+      <li><a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca design system (landing page)</a></li>
       <li><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Template and pattern library for Canada.ca</a></li>
     </ul>
     <h2 class="h3">DataTables and JSON data</h2>
