@@ -18,11 +18,11 @@ nositesearch: true
 showFeedback: false
 nomenu: true
 noReportProblem: true
-title: "How to update the Find Guidance and All templates and patterns tables"
+title: "How to update the Find Guidance and All templates and patterns DataTables"
 ---
 <div class="row">
   <div class="col-md-8">
-    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>How to update the "Find Guidance" and "All templates and patterns" tables</span>: <span>Canada.ca design system</span></span></h1>
+    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>How to update the "Find Guidance" and "All templates and patterns" DataTables</span>: <span>Canada.ca design system</span></span></h1>
     <p>So, you want to update the tables on:</p>
     <ul>
       <li><a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca design system</a></li>
