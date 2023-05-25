@@ -106,26 +106,6 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     &quot;MANDATORY&quot;: &quot;&quot;,
     &quot;TANDP&quot;: &quot;0&quot;
   }]
-} {
-  &quot;data&quot;: [{
-    &quot;NAME&quot;: &quot;&lt;a href=&quot;https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html&quot;&gt;Wayfinding on Canada.ca&lt;/a&gt;&quot;,
-    &quot;SOURCE&quot;: &quot;Research summary&quot;,
-    &quot;DESCRIPTION&quot;: &quot;explains the context of the research and the insights that drove the design updates&quot;,
-    &quot;WHENTOUSE&quot;: &quot;Explains the context of the research and the insights that drove the design updates&quot;,
-    &quot;CATEGORY&quot;: &quot;&quot;,
-    &quot;TYPE&quot;: &quot;&quot;,
-    &quot;MANDATORY&quot;: &quot;&quot;,
-    &quot;TANDP&quot;: &quot;0&quot;
-  }, {
-    &quot;NAME&quot;: &quot;&lt;a href=&quot;https://blog.canada.ca/research-summaries/recalls-research-summary.html&quot;&gt;Recalls and safety alerts&lt;/a&gt;&quot;,
-    &quot;SOURCE&quot;: &quot;Research summary&quot;,
-    &quot;DESCRIPTION&quot;: &quot;Optimizing content for mobile can improve findability and overall task success rates. Provide answers, not information, optimize task flow, simplify approach, customize search, and use clear, shortened, scannable content.&quot;,
-    &quot;WHENTOUSE&quot;: &quot;&quot;,
-    &quot;CATEGORY&quot;: &quot;&quot;,
-    &quot;TYPE&quot;: &quot;&quot;,
-    &quot;MANDATORY&quot;: &quot;&quot;,
-    &quot;TANDP&quot;: &quot;0&quot;
-  }]
 }
 </code></pre>
   </div>
