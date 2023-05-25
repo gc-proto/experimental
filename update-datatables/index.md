@@ -46,30 +46,30 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li>File: <a href="https://conception.canada.ca/ajax/patterns-01-fr.json">https://conception.canada.ca/ajax/patterns-01-fr.json</a></li>
       <li>Github: <a href="https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json">https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</a></li>
     </ul>
-    <h2 class="h3">JSON structure</h2>
+    <h2 class="h3">JSON data variables</h2>
     <table class="table">
-  <caption class="wb-inv">
-  JSON file data
-  </caption>
-  <thead>
-    <tr>
-      <th>Variable</th>
-      <th>Description</th>
-      <th>Display</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>NAME</td>
-      <td>Name of component.  Should be the same as the Metadata title</td>
-      <td>DS landing page<br>
-        Templates and patterns</td>
-    </tr>
-  </tbody>
-</table>
+      <caption class="wb-inv">
+      JSON file data
+      </caption>
+      <thead>
+        <tr>
+          <th>Variable</th>
+          <th>Description</th>
+          <th>Display</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>NAME</td>
+          <td>Name of component.  Should be the same as the Metadata title</td>
+          <td>DS landing page<br>
+            Templates and patterns</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2 class="h3">JSON structure</h2>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/bunny28.png" alt="" class="img-responsive">
-    </div>
+    <div><img src="./images/bunny28.png" alt="" class="img-responsive"> </div>
   </div>
 </div>
