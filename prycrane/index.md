@@ -31,6 +31,7 @@ title: "Peter's warrren"
       <li><a href="https://test.canada.ca/experimental/prycrane/breadcrumbs/">Shortening breadcrumbs</a></li>
       <li><a href="https://test.canada.ca/experimental/prycrane/alt-text/">Alt text and long descriptions</a></li>
       <li><a href="https://test.canada.ca/experimental/ilp/">Institutional landing page documentation</a></li>
+      <li><a href="https://test.canada.ca/experimental/update-datatables/">DataTable documentation</a></li>
     </ul>
     <h3 class="mrgn-tp-lg h4">DTO asset migration</h3>
     <ul>
