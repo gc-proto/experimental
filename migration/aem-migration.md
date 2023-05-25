@@ -125,7 +125,7 @@ title: "Moving from AEM to GitHub"
       </li>
       <li>
         <details open="open">
-          <summary class="bg-info">Phase 2 - Content style guide, top tasks, about..... (Current)</summary>
+          <summary class="bg-info">Phase 2 - Content style guide, top tasks, about..... <span class="pull-right"><strong>Current</strong></span></summary>
           <section class="panel panel-default mrgn-tp-lg">
             <table class="table small table-striped table-bordered table-responsive">
               <caption class="wb-inv">
@@ -196,7 +196,7 @@ title: "Moving from AEM to GitHub"
       </li>
       <li>
         <details>
-          <summary class="bg-info">Phase 3 - landing page and template and pattern library (To do)</summary>
+          <summary class="bg-info">Phase 3 - landing page and template and pattern library <span class="pull-right"><strong>To do</strong></span></summary>
           <section class="panel panel-default mrgn-tp-lg">
             <table class="table small table-striped table-bordered table-responsive">
               <caption class="wb-inv">
