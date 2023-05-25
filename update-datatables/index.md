@@ -47,6 +47,25 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li>Github: <a href="https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json">https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</a></li>
     </ul>
     <h2 class="h3">JSON structure</h2>
+    <table class="table">
+  <caption class="wb-inv">
+  JSON file data
+  </caption>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Description</th>
+      <th>Display</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NAME</td>
+      <td>Description</td>
+      <td>Page Display</td>
+    </tr>
+  </tbody>
+</table>
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny28.png" alt="" class="img-responsive">
