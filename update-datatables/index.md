@@ -30,7 +30,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     </ul>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/bunny24.png" alt="" class="img-responsive">
+    <div><img src="./images/bunny28.png" alt="" class="img-responsive">
 	    <p class="mrgn-tp-lg text-center"><strong>Let's slay the DataTable dragon!</strong></p></div>
   </div>
 </div>
