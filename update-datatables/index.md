@@ -87,7 +87,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     <h2 class="h3">JSON structure</h2>
     <div class="wb-prettify all-pre"></div>
     <pre class="small"><code> 
- {
+{
   &quot;data&quot;: [{
     &quot;NAME&quot;: &quot;&lt;a href=&quot;https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html&quot;&gt;Wayfinding on Canada.ca&lt;/a&gt;&quot;,
     &quot;SOURCE&quot;: &quot;Research summary&quot;,
@@ -98,14 +98,14 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     &quot;MANDATORY&quot;: &quot;&quot;,
     &quot;TANDP&quot;: &quot;0&quot;
   }, {
-    &quot;NAME&quot;: &quot;&lt;a href=&quot;https://blog.canada.ca/research-summaries/recalls-research-summary.html&quot;&gt;Recalls and safety alerts&lt;/a&gt;&quot;,
-    &quot;SOURCE&quot;: &quot;Research summary&quot;,
-    &quot;DESCRIPTION&quot;: &quot;Optimizing content for mobile can improve findability and overall task success rates. Provide answers, not information, optimize task flow, simplify approach, customize search, and use clear, shortened, scannable content.&quot;,
-    &quot;WHENTOUSE&quot;: &quot;&quot;,
-    &quot;CATEGORY&quot;: &quot;&quot;,
-    &quot;TYPE&quot;: &quot;&quot;,
-    &quot;MANDATORY&quot;: &quot;&quot;,
-    &quot;TANDP&quot;: &quot;0&quot;
+    &quot;NAME&quot;: &quot;&lt;a href=&quot;{{ site.url }}/common-design-patterns/subway-navigation.html&quot;&gt;Subway navigation&lt;/a&gt;&quot;,
+    &quot;SOURCE&quot;: &quot;Template and pattern library&quot;,
+    &quot;DESCRIPTION&quot;: &quot;Break up long and complex content into sections that each focus on a step or specific answer people need before moving to the next step or section.&quot;,
+    &quot;WHENTOUSE&quot;: &quot;Break up long and complex content into sections that each focus on a step or specific answer people need before moving to the next step or section.&quot;,
+    &quot;CATEGORY&quot;: &quot;Design pattern&quot;,
+    &quot;TYPE&quot;: &quot;Navigation&quot;,
+    &quot;MANDATORY&quot;: &quot;No&quot;,
+    &quot;TANDP&quot;: &quot;1&quot;
   }]
 }
 </code></pre>
