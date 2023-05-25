@@ -40,8 +40,10 @@
         <tr>
           <td>NAME</td>
           <td>Name of component.  Should be the same as the Metadata title</td>
-          <td>DS landing page<br>
-            Templates and patterns</td>
+          <td><ul>
+              <li>DS landing page</li>
+              <li>Templates and patterns</li>
+            </ul></td>
         </tr>
         <tr>
           <td>SOURCE</td>
@@ -53,8 +55,10 @@
               <li>Designing content</li>
               <li>Research summary</li>
             </ul></td>
-          <td>DS landing page<br>
-            Templates and patterns</td>
+          <td><ul>
+              <li>DS landing page</li>
+              <li>Templates and patterns</li>
+            </ul></td>
         </tr>
       </tbody>
     </table>
