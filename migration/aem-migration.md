@@ -9,7 +9,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 - https://prycrane.github.io/experimental/prycrane/datatables/css/datatables-fun.css
 date: 2023-03-08
-dateModified: 2023-03-28
+dateModified: 2023-05-25
 description: "Migration of DTO assets from AEM to GitHub"
 language: en
 layout: form
