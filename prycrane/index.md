@@ -62,7 +62,7 @@ title: "Peter's warrren"
     </ul>
     <h3 class="mrgn-tp-lg h4">GitHub repository for this page</h3>
     <ul class="mrgn-tp-md fa-ul">
-      <li><span class="fa-li"><span class="fab fa-github"></span></span><a href="https://github.com/gc-proto/experimental/blob/master/prycrane/index.md">dataTable fun</a></li>
+      <li><span class="fa-li"><span class="fab fa-github"></span></span><a href="https://github.com/gc-proto/experimental/blob/master/prycrane/index.md">Peter's warrren (index page)</a></li>
     </ul>
   </div>
   <div class="col-md-4">
