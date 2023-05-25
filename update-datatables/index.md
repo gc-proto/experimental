@@ -1,25 +1,3 @@
----
-altLangPage: false
-breadcrumbs:
-  - title: Peter's warrren
-    link: "https://test.canada.ca/experimental/prycrane/"
-css:
-- https://design.canada.ca/css/split-h1.css
-- https://design.canada.ca/css/custom.css
-- https://use.fontawesome.com/releases/v5.15.4/css/all.css
-- https://test.canada.ca/experimental/prycrane/datatables/css/datatables-fun.css
-date: 2023-05-25
-dateModified: 2023-05-25
-description: "Instructions to update the datatable for the Find Guidance table on the design system's landing page and the all templates and patterns table on the Template and pattern library page."
-language: en
-layout: form
-share: false
-nositesearch: true
-showFeedback: false
-nomenu: true
-noReportProblem: true
-title: "How to update the Find Guidance and All templates and patterns DataTables"
----
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>How to update the "Find Guidance" and "All templates and patterns" DataTables</span>: <span>Canada.ca design system</span></span></h1>
@@ -47,21 +25,34 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li>Github: <a href="https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json">https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</a></li>
     </ul>
     <h2 class="h3">JSON data variables</h2>
-    <table class="table">
+    <table class="table table-bordered small">
       <caption class="wb-inv">
       JSON file data
       </caption>
       <thead>
         <tr>
-          <th>Variable</th>
-          <th>Description</th>
-          <th>Display</th>
+          <th class="col-md-3">Variable</th>
+          <th class="col-md-5">Description</th>
+          <th class="col-md-4">Display</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>NAME</td>
           <td>Name of component.  Should be the same as the Metadata title</td>
+          <td>DS landing page<br>
+            Templates and patterns</td>
+        </tr>
+        <tr>
+          <td>SOURCE</td>
+          <td>One of the following:
+            <ul>
+              <li>Blog post</li>
+              <li>Content Style Guide</li>
+              <li>Content and Information Architecture</li>
+              <li>Designing content</li>
+              <li>Research summary</li>
+            </ul></td>
           <td>DS landing page<br>
             Templates and patterns</td>
         </tr>
