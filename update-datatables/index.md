@@ -138,6 +138,8 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     <h2 class="h3">JSON structure</h2>
       <pre><code>{% raw %}
 {
+   ---
+   --- 
   &quot;data&quot;: [{
     &quot;NAME&quot;: &quot;&lt;a href=\&quot;https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html\&quot;&gt;Wayfinding on Canada.ca&lt;/a&gt;&quot;,
     &quot;SOURCE&quot;: &quot;Research summary&quot;,
