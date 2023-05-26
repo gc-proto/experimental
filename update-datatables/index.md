@@ -86,6 +86,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     </table>
     <h2 class="h3">JSON structure</h2>
     <div class="small">
+      {% raw}
       <pre><code> 
 {
   &quot;data&quot;: [{
@@ -109,6 +110,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
   }]
 }
 </code></pre>
+      {% endraw %}
     </div>
   </div>
   <div class="col-md-4">
