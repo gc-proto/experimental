@@ -238,7 +238,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li>Validate the JSON file at <a href="https://jsonlint.com/">JSONLint</a> (or use the validator of your choice).
         <div class="mrgn-tp-md">
           <p><strong>For validation</strong></p>
-          <p>You'll have to remove the "---" at ther top of the file for it to validate.</p>
+          <p>You'll have to remove the "---" at the top of the file for it to validate.</p>
           <pre><code>{% raw %}
 {
    &quot;data&quot;: [{
