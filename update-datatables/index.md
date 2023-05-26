@@ -250,6 +250,6 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     </ol>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/bunny28.png" alt="" class="img-responsive"> </div>
+    <div><img src="./images/bunny28.png" alt="" class="img-responsive mrgn-tp-lg"> </div>
   </div>
 </div>
