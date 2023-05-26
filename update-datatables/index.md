@@ -55,7 +55,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li>Github: <a href="https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json">https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</a></li>
     </ul>
     <h2 class="h3" id="a3">JSON data variables</h2>
-    <p>The data in the JSON file populates both DataTables.  Only one file for each official language needs to be updated.</p>  
+    <p>The data in the JSON file populates both DataTables.  Only one file for each official language needs to be updated.</p>
     <table class="table table-bordered table-striped small small">
       <caption class="wb-inv">
       JSON file data
@@ -202,6 +202,44 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       </li>
     </ul>
     <h2 class="h3" id="a5">Show me the Dragon!</h2>
+    <ol>
+      <li>Retrieve the files from GitHub
+        <ul>
+          <li>https://github.com/canada-ca/design-system/blob/master/ajax/patterns-01-en.json</li>
+          <li>https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</li>
+        </ul>
+      </li>
+      <li>You can update the existing JSON file as required.</li>
+      <li>You can add new elements to the JSON file.  Use the following structure:
+        <div class="mrgn-tp-md">
+          <pre><code>{% raw %}
+{
+    &quot;data&quot;: [{
+    &quot;NAME&quot;: &quot;&lt;a href=\[link]\&quot;&gt;[link name]&lt;/a&gt;&quot;,
+    &quot;SOURCE&quot;: &quot; &quot;,
+    &quot;DESCRIPTION&quot;: &quot; &quot;,
+    &quot;WHENTOUSE&quot;: &quot; &quot;,
+    &quot;CATEGORY&quot;: &quot; &quot;,
+    &quot;TYPE&quot;: &quot; &quot;,
+    &quot;MANDATORY&quot;: &quot; &quot;,
+    &quot;TANDP&quot;: &quot; &quot;
+  },
+{% endraw %}
+</code></pre>
+        </div>
+      </li>
+      <li>Reminder:  if you want to item to appear on the Template and pattern library page, it must be declared in the data.
+        <div class="mrgn-tp-md">
+          <pre><code>{% raw %}
+    &quot;TANDP&quot;: &quot;1&quot;
+{% endraw %}
+</code></pre>
+        </div>
+      </li>
+      <li>Add the new elements to the top of the file.  Remember that each element is separated by a comma.</li>
+      <li>Validate the JSON file at <a href="https://jsonlint.com/">JSONLint</a> (or use the validator of your choice).</li>
+      <li>Test and publish the file using a pull request.</li>
+    </ol>
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny28.png" alt="" class="img-responsive"> </div>
