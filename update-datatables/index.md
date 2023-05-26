@@ -212,8 +212,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li>You can add new elements to the JSON file.  Use the following structure:
         <div class="mrgn-tp-md">
           <pre><code>{% raw %}
-{
-    &quot;data&quot;: [{
+  {
     &quot;NAME&quot;: &quot;&lt;a href=\[link]\&quot;&gt;[link name]&lt;/a&gt;&quot;,
     &quot;SOURCE&quot;: &quot; &quot;,
     &quot;DESCRIPTION&quot;: &quot; &quot;,
