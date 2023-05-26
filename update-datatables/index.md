@@ -1,3 +1,25 @@
+---
+altLangPage: false
+breadcrumbs:
+  - title: Peter's warrren
+    link: "https://test.canada.ca/experimental/prycrane/"
+css:
+- https://design.canada.ca/css/split-h1.css
+- https://design.canada.ca/css/custom.css
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css
+- https://test.canada.ca/experimental/prycrane/datatables/css/datatables-fun.css
+date: 2023-05-25
+dateModified: 2023-05-25
+description: "Instructions to update the datatable for the Find Guidance table on the design system's landing page and the all templates and patterns table on the Template and pattern library page."
+language: en
+layout: form
+share: false
+nositesearch: true
+showFeedback: false
+nomenu: true
+noReportProblem: true
+title: "How to update the Find Guidance and All templates and patterns DataTables"
+---
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>How to update the "Find Guidance" and "All templates and patterns" DataTables</span>: <span>Canada.ca design system</span></span></h1>
@@ -55,6 +77,60 @@
               <li>Research summary</li>
             </ul></td>
           <td><i class="far fa-check-circle text-success"></i></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
+        </tr>
+        <tr>
+          <td>DESCRIPTION</td>
+          <td>Description should be the same as “Title” metadata (Still under consideratrion)</td>
+          <td><i class="far fa-check-circle text-success"></i></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>WHENTOUSE</td>
+          <td>Describes when the component is used.</td>
+          <td></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
+        </tr>
+        <tr>
+          <td>CATEGORY</td>
+          <td>One of the following:
+            <ul>
+              <li>Design pattern</li>
+              <li>Style</li>
+              <li>Template</li>
+            </ul></td>
+          <td></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
+        </tr>
+        <tr>
+          <td>TYPE</td>
+          <td>One or more of the following:
+            <ul>
+              <li>Destination</li>
+              <li>Government-wide</li>
+              <li>Institutional</li>
+              <li>Interaction</li>
+              <li>Navigation</li>
+              <li>Promotional</li>
+              <li>Site-wide pattern</li>
+              <li>Theme and topic</li>
+              <li>Visual</li>
+            </ul></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
+        </tr>
+        <tr>
+          <td>MANDATORY</td>
+          <td>State "yes" for Mandatory elements.  If not, leave blank</td>
+          <td></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
+        </tr>
+        <tr>
+          <td>TANDP</td>
+          <td>Does this record get displayed on the Templates and patterns table? <br>
+            0 for no<br>
+            1 for yes</td>
+          <td></td>
           <td><i class="far fa-check-circle text-success"></i></td>
         </tr>
       </tbody>
