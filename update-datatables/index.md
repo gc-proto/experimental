@@ -27,7 +27,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Template and pattern library for Canada.ca</a></li>
     </ul>
     <p class="mrgn-tp-lg"><strong>Let's slay the DataTable dragon!</strong></p>
-    <h2>On this page</h2>
+    <h2 class="h3">On this page</h2>
     <ul>
       <li><a href="#a1">DataTables and JSON data</a></li>
       <li><a href="#a2">Location of the JSON files</a></li>
