@@ -7,7 +7,8 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
-- https://test.canada.ca/experimental/prycrane/datatables/css/datatables-fun.css
+- https://test.canada.ca/experimental/update-datatables/css
+/cranecss.css
 date: 2023-05-25
 dateModified: 2023-05-25
 description: "Instructions to update the datatable for the Find Guidance table on the design system's landing page and the all templates and patterns table on the Template and pattern library page."
@@ -137,7 +138,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     </table>
     <h2 class="h3">JSON structure</h2>
     <span class="wb-prettify"></span>
-    <div class="small small"> {{% raw}}
+    <div class="jekyll-font"> 
       <pre><code> 
 {
   &quot;data&quot;: [{
@@ -161,7 +162,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
   }]
 }
 </code></pre>
-      {{% endraw %}} </div>
+     </div>
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny28.png" alt="" class="img-responsive"> </div>
