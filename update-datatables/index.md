@@ -136,8 +136,6 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       </tbody>
     </table>
     <h2 class="h3">JSON structure</h2>
-    <span class="wb-prettify"></span>
-    <div class="jekyll-font">
       <pre><code>
       {% raw %}
 {
@@ -163,7 +161,6 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
 }
 {% endraw %}
 </code></pre>
-     </div>
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny28.png" alt="" class="img-responsive"> </div>
