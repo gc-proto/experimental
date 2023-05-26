@@ -85,6 +85,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       </tbody>
     </table>
     <h2 class="h3">JSON structure</h2>
+    <span class="wb-prettify"></span>
     <div class="small small">
       {% raw}
       <pre><code> 
