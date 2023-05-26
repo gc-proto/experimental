@@ -47,7 +47,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li>Github: <a href="https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json">https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</a></li>
     </ul>
     <h2 class="h3">JSON data variables</h2>
-    <table class="table table-bordered table-striped small">
+    <table class="table table-bordered table-striped small small">
       <caption class="wb-inv">
       JSON file data
       </caption>
