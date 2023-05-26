@@ -2,6 +2,7 @@
 /* CSS Document */
 pre {
   white-space: pre-wrap !important;
+  word-wrap: break-word;
   font-size: 13px;
   width: 100%;
 }
