@@ -1,25 +1,3 @@
----
-altLangPage: false
-breadcrumbs:
-  - title: Peter's warrren
-    link: "https://test.canada.ca/experimental/prycrane/"
-css:
-- https://design.canada.ca/css/split-h1.css
-- https://design.canada.ca/css/custom.css
-- https://use.fontawesome.com/releases/v5.15.4/css/all.css
-- https://test.canada.ca/experimental/prycrane/datatables/css/datatables-fun.css
-date: 2023-05-25
-dateModified: 2023-05-25
-description: "Instructions to update the datatable for the Find Guidance table on the design system's landing page and the all templates and patterns table on the Template and pattern library page."
-language: en
-layout: form
-share: false
-nositesearch: true
-showFeedback: false
-nomenu: true
-noReportProblem: true
-title: "How to update the Find Guidance and All templates and patterns DataTables"
----
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>How to update the "Find Guidance" and "All templates and patterns" DataTables</span>: <span>Canada.ca design system</span></span></h1>
@@ -55,17 +33,16 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
         <tr>
           <th class="col-md-3">Variable</th>
           <th class="col-md-5">Description</th>
-          <th class="col-md-4">Display</th>
+          <th class="col-md-2">DS landing page</th>
+          <th class="col-md-2">Templates and patterns</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>NAME</td>
           <td>Name of component.  Should be the same as the Metadata title</td>
-          <td><ul>
-              <li>DS landing page</li>
-              <li>Templates and patterns</li>
-            </ul></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
         </tr>
         <tr>
           <td>SOURCE</td>
@@ -77,17 +54,14 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
               <li>Designing content</li>
               <li>Research summary</li>
             </ul></td>
-          <td><ul>
-              <li>DS landing page</li>
-              <li>Templates and patterns</li>
-            </ul></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
+          <td><i class="far fa-check-circle text-success"></i></td>
         </tr>
       </tbody>
     </table>
     <h2 class="h3">JSON structure</h2>
     <span class="wb-prettify"></span>
-    <div class="small small">
-      {% raw}
+    <div class="small small"> {% raw}
       <pre><code> 
 {
   &quot;data&quot;: [{
@@ -111,8 +85,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
   }]
 }
 </code></pre>
-      {% endraw %}
-    </div>
+      {% endraw %} </div>
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny28.png" alt="" class="img-responsive"> </div>
