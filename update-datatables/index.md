@@ -236,16 +236,18 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
         </div>
       </li>
       <li>Add the new elements to the top of the file.  Remember that each element is separated by a comma.</li>
-      <li>Validate the JSON file at <a href="https://jsonlint.com/">JSONLint</a> (or use the validator of your choice).  You'll have to remove the "---" at ther top of the file for it to validate.  Remember, it needs to be included when you publish the file.
+      <li>Validate the JSON file at <a href="https://jsonlint.com/">JSONLint</a> (or use the validator of your choice).
         <div class="mrgn-tp-md">
-          <p>For validation</p>
+          <p><strong>For validation</strong></p>
+          <p>You'll have to remove the "---" at ther top of the file for it to validate.</p>
           <pre><code>{% raw %}
 {
    &quot;data&quot;: [{
 {% endraw %}
 </code></pre>
           <div class="mrgn-tp-md">
-            <p>For publication</p>
+            <p><strong>For publication</strong></p>
+            <p>Remember, it needs to be included when you publish the file.</p>
             <pre><code>{% raw %}
 {
    ---
