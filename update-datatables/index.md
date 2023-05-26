@@ -1,8 +1,6 @@
 ---
 altLangPage: false
-breadcrumbs:
-  - title: Peter's warrren
-    link: "https://test.canada.ca/experimental/prycrane/"
+breadcrumbs: false
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
