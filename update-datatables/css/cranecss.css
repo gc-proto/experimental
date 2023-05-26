@@ -3,4 +3,5 @@
 pre {
   white-space: pre-wrap !important;
   font-size: 13px;
+  width: 100%;
 }
