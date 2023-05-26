@@ -89,7 +89,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     <pre class="small"><code> 
 {
   &quot;data&quot;: [{
-    &quot;NAME&quot;: &quot;&lt;a href=&quot;https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html&quot;&gt;Wayfinding on Canada.ca&lt;/a&gt;&quot;,
+    &quot;NAME&quot;: &quot;&lt;a href=\&quot;https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html\&quot;&gt;Wayfinding on Canada.ca&lt;/a&gt;&quot;,
     &quot;SOURCE&quot;: &quot;Research summary&quot;,
     &quot;DESCRIPTION&quot;: &quot;explains the context of the research and the insights that drove the design updates&quot;,
     &quot;WHENTOUSE&quot;: &quot;Explains the context of the research and the insights that drove the design updates&quot;,
