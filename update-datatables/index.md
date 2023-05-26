@@ -204,7 +204,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     <h2 class="h3" id="a5">Show me the Dragon!</h2>
     <ol class="lst-spcd">
       <li>Branch and make a pull request for each repository.</li>
-      <li>Retrieve the files from GitHub
+      <li>Retrieve the files from your branch
         <ul>
           <li><a href="https://github.com/canada-ca/design-system/blob/master/ajax/patterns-01-en.json">https://github.com/canada-ca/design-system/blob/master/ajax/patterns-01-en.json</a></li>
           <li><a href="https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json">https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</a></li>
