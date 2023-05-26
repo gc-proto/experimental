@@ -250,6 +250,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
         </div>
       </li>
       <li>Test and publish your pull request.</li>
+      <li>The dragon is slayed!  Celebrate with gold, silver, jewels and magic objects.</li>
     </ol>
   </div>
   <div class="col-md-4">
