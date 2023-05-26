@@ -213,7 +213,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
         <div class="mrgn-tp-md">
           <pre><code>{% raw %}
   {
-    &quot;NAME&quot;: &quot;&lt;a href=\[link]\&quot;&gt;[link name]&lt;/a&gt;&quot;,
+    &quot;NAME&quot;: &quot;&lt;a href=\&quot;[link]\&quot;&gt;[link name]&lt;/a&gt;&quot;,
     &quot;SOURCE&quot;: &quot; &quot;,
     &quot;DESCRIPTION&quot;: &quot; &quot;,
     &quot;WHENTOUSE&quot;: &quot; &quot;,
