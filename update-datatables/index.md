@@ -86,7 +86,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     </table>
     <h2 class="h3">JSON structure</h2>
     <div class="small">
-    <pre><code> 
+    <code> 
 {
   &quot;data&quot;: [{
     &quot;NAME&quot;: &quot;&lt;a href=\&quot;https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html\&quot;&gt;Wayfinding on Canada.ca&lt;/a&gt;&quot;,
@@ -108,7 +108,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     &quot;TANDP&quot;: &quot;1&quot;
   }]
 }
-</code></pre>
+</code>
     </div>
   </div>
   <div class="col-md-4">
