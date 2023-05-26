@@ -229,7 +229,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
 </code></pre>
         </div>
       </li>
-      <li>Reminder:  if you want to item to appear on the Template and pattern library page, it must be declared in the data.
+      <li>Reminder:  if you want an item to appear on the Template and pattern library page, it must be declared in the data.
         <div class="mrgn-tp-md">
           <pre><code>{% raw %}
     &quot;TANDP&quot;: &quot;1&quot;
