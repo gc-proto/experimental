@@ -242,8 +242,6 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
         <div class="mrgn-tp-md">
           <pre><code>{% raw %}
 {
-   ---
-   --- 
    &quot;data&quot;: [{
 {% endraw %}
 </code></pre>
