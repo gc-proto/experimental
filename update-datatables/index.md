@@ -29,13 +29,21 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Template and pattern library for Canada.ca</a></li>
     </ul>
     <p>Let's slay the DataTable dragon!</p>
-    <h2 class="h3">DataTables and JSON data</h2>
+    <h2>On this page</h2>
+    <ul>
+      <li><a href="#a1">DataTables and JSON data</a></li>
+      <li><a href="#a2">Location of the JSON files</a></li>
+      <li><a href="#a3">JSON data variables</a></li>
+      <li><a href="#a4">JSON structure</a></li>
+      <li><a href="#a5">Show me the Dragon!</a></li>
+    </ul>
+    <h2 class="h3" id="a1">DataTables and JSON data</h2>
     <p>The tables on these pages use the DataTables plugin and a JSON file.   It’s cooked into WET and GCWeb:</p>
     <ul>
       <li><a href="https://wet-boew.github.io/v4.0-ci/docs/ref/tables/tables-en.html">WET table documentation</a></li>
       <li><a href="https://design.canada.ca/common-design-patterns/tables.html">GCWEB tables documentation</a></li>
     </ul>
-    <h2 class="h3">Location of the JSON files</h2>
+    <h2 class="h3" id="a2">Location of the JSON files</h2>
     <h3 class="h4">design-system</h3>
     <ul>
       <li>File: <a href="https://design.canada.ca/ajax/patterns-01-en.json">https://design.canada.ca/ajax/patterns-01-en.json</a></li>
@@ -46,7 +54,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       <li>File: <a href="https://conception.canada.ca/ajax/patterns-01-fr.json">https://conception.canada.ca/ajax/patterns-01-fr.json</a></li>
       <li>Github: <a href="https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json">https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</a></li>
     </ul>
-    <h2 class="h3">JSON data variables</h2>
+    <h2 class="h3" id="a3">JSON data variables</h2>
     <table class="table table-bordered table-striped small small">
       <caption class="wb-inv">
       JSON file data
@@ -135,7 +143,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
         </tr>
       </tbody>
     </table>
-    <h2 class="h3">JSON structure</h2>
+    <h2 class="h3" id="a4">JSON structure</h2>
     <pre><code>{% raw %}
 {
    ---
@@ -175,7 +183,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
 </code></pre>
         </div>
       </li>
-      <li>Quotations need to be escaped with \.  You can see this in the NAME variable for the link reference.  Any character can be escaped with \
+      <li>Quotations need to be escaped with \.  You can see this in the NAME variable for the link reference.  Any character can be escaped with \.
         <div class="mrgn-tp-md">
           <pre><code>{% raw %}
 &quot;NAME&quot;: &quot;&lt;a href=\&quot;https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html\&quot;&gt;Wayfinding on Canada.ca&lt;/a&gt;&quot;,
@@ -192,6 +200,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
         </div>
       </li>
     </ul>
+    <h2 class="h3" id="a5">Show me the Dragon!</h2>
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny28.png" alt="" class="img-responsive"> </div>
