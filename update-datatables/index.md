@@ -165,26 +165,31 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     <h3 class="h4">Things to notice</h3>
     <ul>
       <li>The double <code>---</code> is required at the beginning of the file so Jekyll knows to process the file.
-        <pre><code>{% raw %}
+        <div class="mrgn-tp-md">
+          <pre><code>{% raw %}
 {
    ---
    --- 
-  ...
-}
+   &quot;data&quot;: [{
 {% endraw %}
 </code></pre>
+        </div>
       </li>
       <li>Quotations need to be escaped with \.  You can see this in the NAME variable for the link reference.  Any character can be escaped with \
-        <pre><code>{% raw %}
+        <div class="mrgn-tp-md">
+          <pre><code>{% raw %}
 &quot;NAME&quot;: &quot;&lt;a href=\&quot;https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html\&quot;&gt;Wayfinding on Canada.ca&lt;/a&gt;&quot;,
 {% endraw %}
 </code></pre>
+        </div>
       </li>
       <li>For links in the design system, the domain in referenced in Jekyll
-        <pre><code>{% raw %}
+        <div class="mrgn-tp-md">
+          <pre><code>{% raw %}
 &quot;NAME&quot;: &quot;&lt;a href=\&quot;{{ site.url }}/common-design-patterns/...\&quot;&gt;Subway navigation&lt;/a&gt;&quot;,
 {% endraw %}
 </code></pre>
+        </div>
       </li>
     </ul>
   </div>
