@@ -7,8 +7,7 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
-- https://test.canada.ca/experimental/update-datatables/css
-/cranecss.css
+- https://test.canada.ca/experimental/update-datatables/css/cranecss.css
 date: 2023-05-25
 dateModified: 2023-05-25
 description: "Instructions to update the datatable for the Find Guidance table on the design system's landing page and the all templates and patterns table on the Template and pattern library page."
