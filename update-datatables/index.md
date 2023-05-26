@@ -138,8 +138,8 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     <h2 class="h3">JSON structure</h2>
     <span class="wb-prettify"></span>
     <div class="jekyll-font">
-      {% comment %}
-      <pre><code> 
+      <pre><code>
+      {% raw %}
 {
   &quot;data&quot;: [{
     &quot;NAME&quot;: &quot;&lt;a href=\&quot;https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html\&quot;&gt;Wayfinding on Canada.ca&lt;/a&gt;&quot;,
@@ -161,8 +161,8 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     &quot;TANDP&quot;: &quot;1&quot;
   }]
 }
+{% endraw %}
 </code></pre>
-      {% endcomment %}
      </div>
   </div>
   <div class="col-md-4">
