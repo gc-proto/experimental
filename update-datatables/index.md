@@ -137,7 +137,8 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
     </table>
     <h2 class="h3">JSON structure</h2>
     <span class="wb-prettify"></span>
-    <div class="jekyll-font"> 
+    <div class="jekyll-font">
+      {% comment %}
       <pre><code> 
 {
   &quot;data&quot;: [{
@@ -161,6 +162,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
   }]
 }
 </code></pre>
+      {% endcomment %}
      </div>
   </div>
   <div class="col-md-4">
