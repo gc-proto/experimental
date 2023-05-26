@@ -202,11 +202,12 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       </li>
     </ul>
     <h2 class="h3" id="a5">Show me the Dragon!</h2>
-    <ol>
+    <ol class="lst-spcd">
+      <li>Branch and make a pull request for each repository.</li>
       <li>Retrieve the files from GitHub
         <ul>
-          <li>https://github.com/canada-ca/design-system/blob/master/ajax/patterns-01-en.json</li>
-          <li>https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</li>
+          <li><a href="https://github.com/canada-ca/design-system/blob/master/ajax/patterns-01-en.json">https://github.com/canada-ca/design-system/blob/master/ajax/patterns-01-en.json</a></li>
+          <li><a href="https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json">https://github.com/canada-ca/systeme-conception/blob/master/ajax/patterns-01-fr.json</a></li>
         </ul>
       </li>
       <li>You can update the existing JSON file as required.</li>
@@ -238,7 +239,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
       </li>
       <li>Add the new elements to the top of the file.  Remember that each element is separated by a comma.</li>
       <li>Validate the JSON file at <a href="https://jsonlint.com/">JSONLint</a> (or use the validator of your choice).</li>
-      <li>Test and publish the file using a pull request.</li>
+      <li>Test and publish your pull request.</li>
     </ol>
   </div>
   <div class="col-md-4">
