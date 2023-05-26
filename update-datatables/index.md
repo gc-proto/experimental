@@ -192,7 +192,7 @@ title: "How to update the Find Guidance and All templates and patterns DataTable
 </code></pre>
         </div>
       </li>
-      <li>For links in the design system, the domain is referenced in Jekyll
+      <li>For links in the design system, the domain is a Jekyll variable.
         <div class="mrgn-tp-md">
           <pre><code>{% raw %}
 &quot;NAME&quot;: &quot;&lt;a href=\&quot;{{ site.url }}/common-design-patterns/...\&quot;&gt;Subway navigation&lt;/a&gt;&quot;,
