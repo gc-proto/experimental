@@ -172,7 +172,7 @@ title: "Institutional landing page documentation"
         <ul class="fa-ul">
           <li><span class="fa-li"><span class="far fa-circle"></span></span><a href="https://scma-dto.monday.com/boards/2632043469/pulses/4410697690">Monday</a></li>
           <li><span class="fa-li"><span class="fab fa-canadian-maple-leaf"></span></span><a href="https://design.canada.ca/common-design-patterns/latest-news.html">Latest news (current page)</a></li>
-          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1kzESmu-aviv0WND21gka74MXHOA9WWaIxXgE0rkj7Dc">Latest news (English doc)</a></li>
+          <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1DeioZ3J9vF8wMayOncjoJAlV71CLoDk2-1xgsqonUR0">Latest news (English doc)</a></li>
           <li><span class="fa-li"><span class="fab fa-google-drive"></span></span>Latest news (French doc)</li>
         </ul>
       </div>
