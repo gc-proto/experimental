@@ -12,8 +12,8 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2018-12-19
-dateModified: 2023-05-08
-description: "Social media channels"
+dateModified: 2023-05-30
+description: "The social media channels pattern provides links to official Government of Canada social media accounts on various social media platforms."
 language: en
 layout: without-h1
 pageclass: cnt-wdth-lmtd
