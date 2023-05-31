@@ -14,7 +14,7 @@ title: "Current alt text"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Current Alt text</span>: <span>Alt text strategies</span></span></h1>
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-6">
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b><em>Weasels Ripped My Flesh</em></b></figcaption>
