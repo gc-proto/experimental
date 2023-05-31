@@ -35,7 +35,6 @@ title: "Current alt text"
     </div>
     <h2 class="h3">HTML</h2>
     <pre><code>
-	<br>
     &#x3C;div class=&#x22;pattern-demo mrgn-tp-lg&#x22;&#x3E;
       &#x3C;figure&#x3E;
         &#x3C;figcaption&#x3E;&#x3C;b&#x3E;&#x3C;em&#x3E;Weasels Ripped My Flesh&#x3C;/em&#x3E;&#x3C;/b&#x3E;&#x3C;/figcaption&#x3E;
