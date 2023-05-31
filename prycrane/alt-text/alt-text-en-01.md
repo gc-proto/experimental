@@ -14,7 +14,7 @@ title: "Current alt text"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Current Alt text</span>: <span>Alt text strategies</span></span></h1>
 <div class="row">
-  <div class="col-md-8"><span class="wb-prettify all-pre"></span>
+  <div class="col-md-8">
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
         <figcaption><b><em>Weasels Ripped My Flesh</em></b></figcaption>
@@ -34,7 +34,6 @@ title: "Current alt text"
       </figure>
     </div>
     <h2 class="h3">HTML</h2>
-    <span class="wb-prettify"></span>
     <pre><code>
       &#x3C;figure&#x3E;
         &#x3C;figcaption&#x3E;&#x3C;b&#x3E;&#x3C;em&#x3E;Weasels Ripped My Flesh&#x3C;/em&#x3E;&#x3C;/b&#x3E;&#x3C;/figcaption&#x3E;
