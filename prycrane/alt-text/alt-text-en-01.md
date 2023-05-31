@@ -29,7 +29,7 @@ title: "Current alt text"
             <li>Top left: WEASLE RIPPED MY FLESH</li>
             <li>Bottom right: RZZZZZ!</li>
           </ul>
-          <p>The illustration is signed “NEON PARK” on the bottom left.</p>
+          <p>The illustration is signed “NEON PARK” on the bottom right.</p>
         </details>
       </figure>
     </div>
@@ -47,7 +47,7 @@ title: "Current alt text"
             &#x3C;li&#x3E;Top left: THE MOTHERS OF INVENTION&#x3C;/li&#x3E;
             &#x3C;li&#x3E;Top left: WEASLE RIPPED MY FLESH&#x3C;/li&#x3E;
             &#x3C;li&#x3E;Bottom right: RZZZZZ!&#x3C;/li&#x3E;
-          &#x3C;/ul&#x3E;&#x3C;p&#x3E;The illustration is signed &#x201C;NEON PARK&#x201D; on the bottom left.&#x3C;/p&#x3E;
+          &#x3C;/ul&#x3E;&#x3C;p&#x3E;The illustration is signed &#x201C;NEON PARK&#x201D; on the bottom right.&#x3C;/p&#x3E;
         &#x3C;/details&#x3E;
       &#x3C;/figure&#x3E;
 	
