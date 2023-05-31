@@ -25,7 +25,7 @@ title: "Current alt text"
 <p>[Long decription]: none</p>-->
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
-        <figcaption><b>Percé Rock (Southwest face)</b></figcaption>
+        <figcaption class="caption">Percé Rock (Southwest face)</figcaption>
         <img src="./images/wrmf.png" class="img-responsive" alt=" " />
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Percé Rock (Southwest face)</summary>
