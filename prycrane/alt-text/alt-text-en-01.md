@@ -28,14 +28,24 @@ title: "Current alt text"
         <figcaption><b>Percé Rock (Southwest face)</b></figcaption>
         <img src="./images/perce-01.png" class="img-responsive" alt=" " />
         <details class="mrgn-tp-md">
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header with breadcrumb trail  - large screen</summary>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Percé Rock (Southwest face)</summary>
           <p class="mrgn-tp-lg">Profile view of the southwest face of Percé Rock.</p>
         </details>
       </figure>
     </div>
     <h2 class="h3">HTML</h2>
     <pre><code>
-&lt;div class=&quot;pattern-demo mrgn-tp-lg&quot;&gt; &lt;figure&gt; &lt;figcaption&gt;&lt;b&gt;Perc&eacute; Rock (Southwest face)&lt;/b&gt;&lt;/figcaption&gt; &lt;img src=&quot;./images/perce-01.png&quot; class=&quot;img-responsive&quot; alt=&quot; &quot; /&gt; &lt;details class=&quot;mrgn-tp-md&quot;&gt; &lt;summary class=&quot;wb-toggle small&quot; data-toggle=&quot;{&amp;quot;print&amp;quot;:&amp;quot;on&amp;quot;}&quot;&gt;Image description: global header with breadcrumb trail - large screen&lt;/summary&gt; &lt;p class=&quot;mrgn-tp-lg&quot;&gt;Profile view of the southwest face of Perc&eacute; Rock.&lt;/p&gt; &lt;/details&gt; &lt;/figure&gt; &lt;/div&gt;
+    &#x3C;div class=&#x22;pattern-demo mrgn-tp-lg&#x22;&#x3E;
+      &#x3C;figure&#x3E;
+        &#x3C;figcaption&#x3E;&#x3C;b&#x3E;Perc&#xE9; Rock (Southwest face)&#x3C;/b&#x3E;&#x3C;/figcaption&#x3E;
+        &#x3C;img src=&#x22;./images/perce-01.png&#x22; class=&#x22;img-responsive&#x22; alt=&#x22; &#x22; /&#x3E;
+        &#x3C;details class=&#x22;mrgn-tp-md&#x22;&#x3E;
+          &#x3C;summary class=&#x22;wb-toggle small&#x22; data-toggle=&#x22;{&#x26;quot;print&#x26;quot;:&#x26;quot;on&#x26;quot;}&#x22;&#x3E;Image description: Percé Rock (Southwest face)&#x3C;/summary&#x3E;
+          &#x3C;p class=&#x22;mrgn-tp-lg&#x22;&#x3E;Profile view of the southwest face of Perc&#xE9; Rock.&#x3C;/p&#x3E;
+        &#x3C;/details&#x3E;
+      &#x3C;/figure&#x3E;
+    &#x3C;/div&#x3E;
+	
 </code></pre>
   </div>
 </div>
