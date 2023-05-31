@@ -34,6 +34,7 @@ title: "Current alt text"
       </figure>
     </div>
     <h2 class="h3">HTML</h2>
+    <span class="wb-prettify"></span>
     <pre><code>
       &#x3C;figure&#x3E;
         &#x3C;figcaption&#x3E;&#x3C;b&#x3E;&#x3C;em&#x3E;Weasels Ripped My Flesh&#x3C;/em&#x3E;&#x3C;/b&#x3E;&#x3C;/figcaption&#x3E;
