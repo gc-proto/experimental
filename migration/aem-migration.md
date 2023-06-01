@@ -205,7 +205,7 @@ title: "Moving from AEM to GitHub"
               <h4 class="h5 mrgn-tp-lg">French (Phase 2)</h4>
               <ul class="fa-ul">
                 <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/canada-ca/systeme-conception/pull/150">Pull request: AEM Migration Phase 2 #150</a></li>
-                <li><span class="fa-li"><span class="fas fas fa-code"></span></span><a href="https://deploy-preview-150--systeme-conception-canada-ca.netlify.app/a-propos/a-propos.md">Preview: À propos de Canada.ca</a></li>
+                <li><span class="fa-li"><span class="fas fas fa-code"></span></span><a href="https://deploy-preview-150--systeme-conception-canada-ca.netlify.app/a-propos/a-propos.html">Preview: À propos de Canada.ca</a></li>
               </ul>
             </footer>
           </section>
