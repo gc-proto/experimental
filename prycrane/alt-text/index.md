@@ -27,7 +27,7 @@ title: "Alt text and long descriptions"
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="alt-text-en-01.html">Album cover (just for fun)</a></li>
-      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="alt-text-en-02.html">Global header – large screen</a></li>
+      <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="alt-text-en-02.html">Global header – large screen (Current example)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="alt-text-en-03.html">Whiteshell provincial park (very descriptive)</a></li>
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="alt-text-en-04.html">Whiteshell provincial park (bare-bones description)</a></li>
     </ul>
