@@ -6,12 +6,12 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-05-03
 dateModified: 2023-05-05
-description: "alt text strategies"
+description: "Alt text (Global header – large screen)"
 language: en
 layout: without-h1
-title: "Alt text strategies"
+title: "Alt text (Global header – large screen)"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Alt text strategies</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Alt text (Global header – large screen)</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-8">
     <div class="pattern-demo mrgn-tp-lg">
