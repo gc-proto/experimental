@@ -60,8 +60,10 @@ title: "Current alt text"
     </div>
   </div>
 </div>
-<h2 class="h3">HTML</h2>
-<pre><code>
+<div class="row">
+  <div class="col-md-8">
+    <h2 class="h3">HTML</h2>
+    <pre><code>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class=&quot;pattern&#45;demo&nbsp;mrgn&#45;tp&#45;lg&quot;&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figcaption&gt;&lt;b&gt;Whiteshell&nbsp;provincial&nbsp;park&lt;/b&gt;&lt;/figcaption&gt;
@@ -107,3 +109,5 @@ title: "Current alt text"
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
 	
 </code></pre>
+  </div>
+</div>
