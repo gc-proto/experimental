@@ -39,7 +39,7 @@ title: "Alt text (bare-bones description)"
           <ul>
             <li>MANITOBA PARKS</li>
           </ul>
-          <p>Very small text at the edge of the bottom (left, middle, and right)::</p>
+          <p>Very small text at the edge of the bottom (left, middle, and right):</p>
           <ul>
             <li>illegible text</li>
             <li>illegible text</li>
