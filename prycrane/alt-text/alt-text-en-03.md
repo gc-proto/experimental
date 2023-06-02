@@ -17,42 +17,94 @@ title: "Current alt text"
   <div class="col-md-6">
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
-        <figcaption><b><em>Weasels Ripped My Flesh</em></b></figcaption>
+        <figcaption><b>Whiteshell provincial park</b></figcaption>
         <img src="./images/whiteshell-pp.png" class="img-responsive" alt=" " />
-        <p class="mrgn-tp-md small"><em>Weasels Ripped My Flesh</em> (1970) by Frank Zappa.  Illustration by Neon Park.</p>
+        <p class="mrgn-tp-md small">Promotional poster of Whiteshell provincial park</p>
         <details class="mrgn-tp-md">
-          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: <em>Weasels Ripped My Flesh</em></summary>
-          <p class="mrgn-tp-lg">Album cover depicts an illustration of a vacantly smiling man wearing a suit shaving his face with an electric weasel.  The weasel is ripping his cheek with its claws and teeth.  The illustration is in the style of 1950s <em>Saturday Evening Post</em> cover art.</p>
-          <p>Three word balloons state (in the following order from the top):</p>
+          <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Whiteshell provincial park</summary>
+          <p class="mrgn-tp-lg">The poster shows a painting that has dark trees on a rock face jutting into a lake, a purple and pink skyline and green forest make up the background.</p>
+          <p>The top of the poster has centered text in three bands of information in somewhat faded purple text that blends with the colour of the skyline:</p>
           <ul>
-            <li>Top left: THE MOTHERS OF INVENTION</li>
-            <li>Top left: WEASLE RIPPED MY FLESH</li>
-            <li>Bottom right: RZZZZZ!</li>
+            <li>The first two bands:
+              <ul>
+                <li></li>
+                RUGGED PRECAMBRIAN SHIELD
+                <li>oEST 1961</li>
+              </ul>
+            </li>
+            <li>The third band is presented in 2 columns:
+              <ul>
+                <li>PINK GRANITE RIDGES</li>
+                <li>ANCIENT PETROFORMS</li>
+                <li>LUSH PINE FORESTS</li>
+                <li>RUSHING RIVERS</li>
+              </ul>
+            </li>
           </ul>
-          <p>The illustration is signed “NEON PARK” on the bottom right.</p>
+          <p>The bottom of the poster has 3 columns of large text, the first 2 are the title:</p>
+          <ul>
+            <li>WHITESHELL (with stylized pinecones on each side)</li>
+            <li>PROVINCIAL PARK</li>
+          </ul>
+          <p>Beneath the title in a smaller font:</p>
+          <ul>
+            <li>MANITOBA PARKS</li>
+          </ul>
+          <p>The bottom of the poster, left-side, middle, and right side in very small font with a low contrast are:</p>
+          <ul>
+            <li>illegible text</li>
+            <li>illegible text</li>
+            <li>Canada’s PARKS</li>
+          </ul>
         </details>
       </figure>
     </div>
     <h2 class="h3">HTML</h2>
     <pre><code>
-    &#x3C;div class=&#x22;pattern-demo mrgn-tp-lg&#x22;&#x3E;
-      &#x3C;figure&#x3E;
-        &#x3C;figcaption&#x3E;&#x3C;b&#x3E;&#x3C;em&#x3E;Weasels Ripped My Flesh&#x3C;/em&#x3E;&#x3C;/b&#x3E;&#x3C;/figcaption&#x3E;
-        &#x3C;img src=&#x22;./images/wrmf.png&#x22; class=&#x22;img-responsive&#x22; alt=&#x22; &#x22; /&#x3E;
-        &#x3C;p class=&#x22;mrgn-tp-md small&#x22;&#x3E;&#x3C;em&#x3E;Weasels Ripped My Flesh&#x3C;/em&#x3E; (1970) by Frank Zappa.  Illustration by Neon Park.&#x3C;/p&#x3E;
-        &#x3C;details class=&#x22;mrgn-tp-md&#x22;&#x3E;
-          &#x3C;summary class=&#x22;wb-toggle small&#x22; data-toggle=&#x22;{&#x26;quot;print&#x26;quot;:&#x26;quot;on&#x26;quot;}&#x22;&#x3E;Image description: &#x3C;em&#x3E;Weasels Ripped My Flesh&#x3C;/em&#x3E;&#x3C;/summary&#x3E;
-          &#x3C;p class=&#x22;mrgn-tp-lg&#x22;&#x3E;Album cover depicts an illustration of a vacantly smiling man wearing a suit shaving his face with an electric weasel.  The weasel is ripping his cheek with its claws and teeth.  The illustration is in the style of 1950s &#x3C;em&#x3E;Saturday Evening Post&#x3C;/em&#x3E; cover art.&#x3C;/p&#x3E;
-          &#x3C;p&#x3E;Three word balloons state (in the following order from the top):&#x3C;/p&#x3E;
-          &#x3C;ul&#x3E;
-            &#x3C;li&#x3E;Top left: THE MOTHERS OF INVENTION&#x3C;/li&#x3E;
-            &#x3C;li&#x3E;Top left: WEASLE RIPPED MY FLESH&#x3C;/li&#x3E;
-            &#x3C;li&#x3E;Bottom right: RZZZZZ!&#x3C;/li&#x3E;
-          &#x3C;/ul&#x3E;
-          &#x3C;p&#x3E;The illustration is signed &#x201C;NEON PARK&#x201D; on the bottom right.&#x3C;/p&#x3E;
-        &#x3C;/details&#x3E;
-      &#x3C;/figure&#x3E;
-    &#x3C;/div&#x3E;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class=&quot;pattern&#45;demo&nbsp;mrgn&#45;tp&#45;lg&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figcaption&gt;&lt;b&gt;Whiteshell&nbsp;provincial&nbsp;park&lt;/b&gt;&lt;/figcaption&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img&nbsp;src=&quot;./images/whiteshell&#45;pp.png&quot;&nbsp;class=&quot;img&#45;responsive&quot;&nbsp;alt=&quot;&nbsp;&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&nbsp;class=&quot;mrgn&#45;tp&#45;md&nbsp;small&quot;&gt;Promotional&nbsp;poster&nbsp;of&nbsp;Whiteshell&nbsp;provincial&nbsp;park&lt;/p&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;details&nbsp;class=&quot;mrgn&#45;tp&#45;md&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;summary&nbsp;class=&quot;wb&#45;toggle&nbsp;small&quot;&nbsp;data&#45;toggle=&quot;{&amp;quot;print&amp;quot;:&amp;quot;on&amp;quot;}&quot;&gt;Image&nbsp;description:&nbsp;Whiteshell&nbsp;provincial&nbsp;park&lt;/summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&nbsp;class=&quot;mrgn&#45;tp&#45;lg&quot;&gt;The&nbsp;poster&nbsp;shows&nbsp;a&nbsp;painting&nbsp;that&nbsp;has&nbsp;dark&nbsp;trees&nbsp;on&nbsp;a&nbsp;rock&nbsp;face&nbsp;jutting&nbsp;into&nbsp;a&nbsp;lake,&nbsp;a&nbsp;purple&nbsp;and&nbsp;pink&nbsp;skyline&nbsp;and&nbsp;green&nbsp;forest&nbsp;make&nbsp;up&nbsp;the&nbsp;background.&lt;/p&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The&nbsp;top&nbsp;of&nbsp;the&nbsp;poster&nbsp;has&nbsp;centered&nbsp;text&nbsp;in&nbsp;three&nbsp;bands&nbsp;of&nbsp;information&nbsp;in&nbsp;somewhat&nbsp;faded&nbsp;purple&nbsp;text&nbsp;that&nbsp;blends&nbsp;with&nbsp;the&nbsp;colour&nbsp;of&nbsp;the&nbsp;skyline:&lt;/p&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;The&nbsp;first&nbsp;two&nbsp;bands:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RUGGED&nbsp;PRECAMBRIAN&nbsp;SHIELD
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;oEST&nbsp;1961&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;The&nbsp;third&nbsp;band&nbsp;is&nbsp;presented&nbsp;in&nbsp;2&nbsp;columns:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;PINK&nbsp;GRANITE&nbsp;RIDGES&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;ANCIENT&nbsp;PETROFORMS&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;LUSH&nbsp;PINE&nbsp;FORESTS&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;RUSHING&nbsp;RIVERS&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The&nbsp;bottom&nbsp;of&nbsp;the&nbsp;poster&nbsp;has&nbsp;3&nbsp;columns&nbsp;of&nbsp;large&nbsp;text,&nbsp;the&nbsp;first&nbsp;2&nbsp;are&nbsp;the&nbsp;title:&lt;/p&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;WHITESHELL&nbsp;(with&nbsp;stylized&nbsp;pinecones&nbsp;on&nbsp;each&nbsp;side)&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;PROVINCIAL&nbsp;PARK&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Beneath&nbsp;the&nbsp;title&nbsp;in&nbsp;a&nbsp;smaller&nbsp;font:&lt;/p&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;MANITOBA&nbsp;PARKS&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The&nbsp;bottom&nbsp;of&nbsp;the&nbsp;poster,&nbsp;left&#45;side,&nbsp;middle,&nbsp;and&nbsp;right&nbsp;side&nbsp;in&nbsp;very&nbsp;small&nbsp;font&nbsp;with&nbsp;a&nbsp;low&nbsp;contrast&nbsp;are:&lt;/p&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;illegible&nbsp;text&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;illegible&nbsp;text&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Canada’s&nbsp;PARKS&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/details&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
 	
 </code></pre>
   </div>
