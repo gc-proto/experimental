@@ -27,9 +27,8 @@ title: "Current alt text"
           <ul>
             <li>The first two bands:
               <ul>
-                <li></li>
-                RUGGED PRECAMBRIAN SHIELD
-                <li>oEST 1961</li>
+                <li>RUGGED PRECAMBRIAN SHIELD</li>
+                <li>EST 1961</li>
               </ul>
             </li>
             <li>The third band is presented in 2 columns:
@@ -58,7 +57,8 @@ title: "Current alt text"
           </ul>
         </details>
       </figure>
-    </div>
+    </div>  </div>
+</div>
     <h2 class="h3">HTML</h2>
     <pre><code>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class=&quot;pattern&#45;demo&nbsp;mrgn&#45;tp&#45;lg&quot;&gt;
@@ -73,9 +73,8 @@ title: "Current alt text"
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;The&nbsp;first&nbsp;two&nbsp;bands:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RUGGED&nbsp;PRECAMBRIAN&nbsp;SHIELD
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;oEST&nbsp;1961&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;RUGGED&nbsp;PRECAMBRIAN&nbsp;SHIELD&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;EST&nbsp;1961&lt;/li&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;The&nbsp;third&nbsp;band&nbsp;is&nbsp;presented&nbsp;in&nbsp;2&nbsp;columns:
@@ -107,5 +106,4 @@ title: "Current alt text"
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
 	
 </code></pre>
-  </div>
-</div>
+
