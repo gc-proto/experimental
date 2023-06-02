@@ -61,7 +61,7 @@ title: "Current alt text"
   </div>
 </div>
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-10">
     <h2 class="h3">HTML</h2>
     <pre><code>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class=&quot;pattern&#45;demo&nbsp;mrgn&#45;tp&#45;lg&quot;&gt;
