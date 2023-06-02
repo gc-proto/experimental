@@ -10,9 +10,9 @@ dateModified: 2023-06-02
 description: "Current alt text"
 language: en
 layout: without-h1
-title: "Current alt text"
+title: "Alt text (very descriptive)"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Current Alt text</span>: <span>Alt text strategies</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Alt text (very descriptive)</span>: <span>Alt text strategies</span></span></h1>
 <div class="row">
   <div class="col-md-6">
     <div class="pattern-demo mrgn-tp-lg">
