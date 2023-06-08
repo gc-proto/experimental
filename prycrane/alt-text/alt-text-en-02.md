@@ -37,8 +37,8 @@ title: "Alt text (Global header – large screen)"
       <div class="panel-body small">
         <p class="mrgn-tp-lg">[alt text]: none</p>
         <p>[Caption]: Global header – large screen</p>
-        <p>[Long decription title]: Image description: global header – large screen</p>
-        <p>[Long decription]:</p>
+        <p>[Long description title]: Image description: global header – large screen</p>
+        <p>[Long description]:</p>
         <p>On large screens, the global header on a standard page has 4 rows:</p>
         <ol>
           <li>Language toggle in the top-right corner</li>
