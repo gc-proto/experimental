@@ -22,7 +22,7 @@ title: "Alt text (bare-bones description)"
         <p class="mrgn-tp-md small">Promotional poster of Whiteshell provincial park</p>
         <details class="mrgn-tp-md">
           <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: Whiteshell provincial park</summary>
-          <p class="mrgn-tp-lg">The poster shows a scenic painting of a teed rock face jutting into a lake.</p>
+          <p class="mrgn-tp-lg">The poster shows a scenic painting of a treed rock face jutting into a lake.</p>
           <p>Text at the top:</p>
           <ul>
             <li>RUGGED PRECAMBRIAN SHIELD</li>
