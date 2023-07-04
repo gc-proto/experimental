@@ -317,7 +317,7 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
                &lt;/div&gt;
             &lt;/form&gt;
             &lt;div class=&quot;gc-pg-hlpfl-thnk hide&quot;&gt;
-               &lt;p class=&quot;h6 mrgn-tp-sm mrgn-bttm-sm&quot;&gt;&lt;span class=&quot;far fa-check-circle text-success mrgn-rght-sm&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Thank you for your feedback&lt;/p&gt;
+               &lt;p class=&quot;h6 mrgn-tp-sm mrgn-bttm-sm&quot;&gt;&lt;span class=&quot;far fa-check-circle text-success mrgn-rght-sm&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Merci de vos commentaires&lt;/p&gt;
             &lt;/div&gt;
          &lt;/div&gt;
       &lt;/section&gt;
