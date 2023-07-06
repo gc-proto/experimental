@@ -393,7 +393,6 @@ Après avoir sélectionné « Soumettre », un message de remerciement s’a
 <a id="discussion"></a>
 <h2>Discussion</h2>
 <ul>
-<li><a href="https://github.com/canada-ca/design-system-systeme-conception/issues">Discussion sur le modèle sur GitHub (en anglais seulement)</a></li>
-<li><a href="https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM">Joignez-vous à la conversation sur Slack (en anglais seulement)</a></li>
+
 <li><a href="mailto:dto.btn@tbs-sct.gc.ca">Envoyez un courriel au Bureau de la transformation numérique</a></li>
 </ul>
