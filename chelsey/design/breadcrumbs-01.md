@@ -19,6 +19,32 @@ title: "Breadcrumb trail"
 <span class="label label-danger">Mandatory on standard and campaign pages</span>
 <p>This is a mockup of the future state of the Breadcrumb trail pattern.</p>
 <p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
+<h2>Way they coded</h2>
+<div class="row mrgn-tp-xl">
+		<div class="col-md-8">
+			<section class="gc-features">
+				<h2 class="wb-inv">Features</h2>
+				<div class="row">
+					<div class="col-md-12">
+   <h2 class="h5 mrgn-tp-0">Inspired to create your own open data project?</h2> 
+   <p>Explore how Canadians are using open data to power innovation and its impact on communities.</p> 
+   <p><a class="btn btn-success" href="https://open.canada.ca/en/stories" role="button">Get started</a></p> 
+					</div>
+				</div>
+			</section>
+      <h2>Way I coded</h2>
+      <section class="gc-features">
+      <div class="row mrgn-tp-xl">
+		<div class="col-md-8">
+				<h2 class="wb-inv">Features</h2>
+				<div class="row">
+					<div class="col-md-12">
+   <h2 class="h5 mrgn-tp-0">Inspired to create your own open data project?</h2> 
+   <p>Explore how Canadians are using open data to power innovation and its impact on communities.</p> 
+   <p><a class="btn btn-success" href="https://open.canada.ca/en/stories" role="button">Get started</a></p> 
+					</div>
+				</div>
+			</section>
 <figure>
   <figcaption class="caption">Breadcrumb trail</figcaption>
   <img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
