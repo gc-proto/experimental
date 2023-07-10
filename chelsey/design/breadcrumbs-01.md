@@ -33,9 +33,9 @@ title: "Breadcrumb trail"
 				</div>
 			</section>
       <h2>Way I coded</h2>
-     <div class="row mrgn-tp-xl">
+     <section class="gc-features">
+			<div class="row mrgn-tp-xl">
 		<div class="col-md-8">
-			<section class="gc-features">
 				<h2 class="wb-inv">Features</h2>
 				<div class="row">
 					<div class="col-md-12">
@@ -44,9 +44,9 @@ title: "Breadcrumb trail"
    <p><a class="btn btn-success" href="https://open.canada.ca/en/stories" role="button">Get started</a></p> 
 					</div>
 				</div>
-			</section>
 		</div>
      </div>
+	     </section>
 <figure>
   <figcaption class="caption">Breadcrumb trail</figcaption>
   <img src="https://design.canada.ca/images/breadcrumb-en.png" alt="Breadcrumb trail appears on the lower left of the Canada.ca header"></figure>
