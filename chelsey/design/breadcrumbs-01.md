@@ -39,11 +39,9 @@ title: "Breadcrumb trail"
 				<h2 class="wb-inv">Features</h2>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="well well-sm eqht-trgt">
-   <h2 class="h5 mrgn-tp-0">Inspired to create your own open data project?</h2> 
+   <h2 class="h5">Inspired to create your own open data project?</h2> 
    <p>Explore how Canadians are using open data to power innovation and its impact on communities.</p> 
    <p><a class="btn btn-success" href="https://open.canada.ca/en/stories" role="button">Get started</a></p> 
-					</div>
 					</div>
 				</div>
 			</section>
