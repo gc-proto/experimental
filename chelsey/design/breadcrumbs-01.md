@@ -34,9 +34,9 @@ title: "Breadcrumb trail"
 			</section>
       <h2>Way I coded</h2>
      <section class="gc-features">
-			<div class="row mrgn-tp-xl">
+	     <div class="row mrgn-tp-xl">
 		<div class="col-md-8">
-				<h2 class="wb-inv">Features</h2>
+	     <h2 class="wb-inv">Features</h2>
 				<div class="row">
 					<div class="col-md-12">
    <p>Inspired to create your own open data project?</p> 
