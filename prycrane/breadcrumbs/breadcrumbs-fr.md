@@ -2,9 +2,9 @@
 altLangPage: "breadcrumbs-en.html"
 auth:
   type: contextual
-  link: https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html
-  label: Sign in
-  labelExtended: Sign in
+  link: https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html
+  label: Se connecter
+  labelExtended: Se connecter
 breadcrumbs:
   - title: À propos de Canada.ca
     link: "https://www.canada.ca/en/government/about.html"
