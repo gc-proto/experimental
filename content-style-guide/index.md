@@ -28,6 +28,9 @@ title: "Canada.ca Content Style Guide refinement project"
       <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html">Guide de rédaction du contenu du site Canada.ca</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://drive.google.com/drive/folders/1ShcpGwJnqs9PGmF2tXU708Wg0RKsiY08?ths=true">Google drive</a></li>
+    </ul>
     <h3 class="h5 mrgn-tp-lg">Working in agile</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1UAR6NC_RNwND_EkT7i6cH9cgMNWkEMXXK9AVIB-97aw/edit#heading=h.qy4un2ylcxmk">Content Style Guide mission and vision statements</a></li>
