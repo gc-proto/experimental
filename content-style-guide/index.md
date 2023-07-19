@@ -29,6 +29,6 @@ title: "Canada.ca Content Style Guide refinement project"
     </ul>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/bunny29.png" alt="" class="img-responsive"></div>
+    <div><img src="./images/bunny29.png" alt="" class="img-responsive mrgn-tp-lg"></div>
   </div>
 </div>
