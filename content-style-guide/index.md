@@ -20,6 +20,7 @@ title: "Canada.ca Content Style Guide refinement project"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Refinement project</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <h2 class="h3 mrgn-tp-lg">Current page (AEM)</h2>
+<p>The Style guide will be migrated from AEM to GitHub pages (<a href="https://test.canada.ca/experimental/migration/aem-migration.html">Moving from AEM to GitHub</a>).</p>
 <ul>
   <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html">Canada.ca Content Style Guide</a></li>
   <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html">Guide de rédaction du contenu du site Canada.ca</a></li>
