@@ -42,6 +42,6 @@ title: "Canada.ca Content Style Guide refinement project"
     <h3 class="h4 mrgn-tp-lg">Mockups</h3>
   </div>
   <div class="col-md-4">
-    <div><img src="../../images/bunny28.png" alt="" class="img-responsive mrgn-tp-lg"></div>
+    <div><img src="./../images/bunny28.png" alt="" class="img-responsive mrgn-tp-lg"></div>
   </div>
 </div>
