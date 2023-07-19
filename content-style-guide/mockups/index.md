@@ -1,6 +1,8 @@
 ---
 altLangPage: false
-breadcrumbs: false
+breadcrumbs:
+  - title: Canada.ca Content Style Guide refinement project
+    link: "https://test.canada.ca/experimental/content-style-guide/"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
