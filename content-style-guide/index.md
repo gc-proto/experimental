@@ -31,6 +31,11 @@ title: "Canada.ca Content Style Guide refinement project"
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-jira"></span></span><a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2/backlog">Jira project - Canada.ca Content Style Guide</a></li>
     </ul>
+    <h2 class="h3 mrgn-tp-lg">Mockups</h2>
+    <ul>
+      <li><a href="https://github.com/gc-proto/experimental/tree/master/content-style-guide/mockups">Mockup repository (GitHub)</a></li>
+      <li><a href="https://test.canada.ca/experimental/content-style-guide/mockups/">Visual Mockups and experiments (test.canada.ca)</a></li>
+    </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://drive.google.com/drive/folders/1ShcpGwJnqs9PGmF2tXU708Wg0RKsiY08?ths=true">Google drive (document repository)</a></li>
@@ -45,11 +50,6 @@ title: "Canada.ca Content Style Guide refinement project"
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1Ybk4O8eOIUj3hlbepsIejnYiZ6g2xnR9GfQ_axLyFoM/edit#heading=h.k8dqa87ja7rc">Style guide - 2021 improvement ideas</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/10a-NJ8t8mppGiuNhelZT-0MSaiCpQwZZzFzQ3XdW-Nc/edit#heading=h.u8ib4j5mzm6">Style guide_Plain language updates_2023-06-20</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1TAeY4gY7xuAgvRkwagXD8syVVNnCYSUDwjnCDrr3bPs/edit#heading=h.r0gar1wsenmh">Style guide_Plain language updates_2023-06-20)_FR</a></li>
-    </ul>
-    <h3 class="h5 mrgn-tp-lg">Mockups</h3>
-    <ul>
-      <li><a href="https://github.com/gc-proto/experimental/tree/master/content-style-guide/mockups">Mockup repository (GitHub)</a></li>
-      <li><a href="https://test.canada.ca/experimental/content-style-guide/mockups/">Visual Mockups and experiments (test.canada.ca)</a></li>
     </ul>
   </div>
   <div class="col-md-4">
