@@ -29,7 +29,7 @@ title: "Canada.ca Content Style Guide refinement project"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://drive.google.com/drive/folders/1ShcpGwJnqs9PGmF2tXU708Wg0RKsiY08?ths=true">Google drive</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://drive.google.com/drive/folders/1ShcpGwJnqs9PGmF2tXU708Wg0RKsiY08?ths=true">Google drive (document repository)</a></li>
     </ul>
     <h3 class="h5 mrgn-tp-lg">Working in agile</h3>
     <ul class="fa-ul">
