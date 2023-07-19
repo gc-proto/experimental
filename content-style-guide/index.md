@@ -28,18 +28,18 @@ title: "Canada.ca Content Style Guide refinement project"
       <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html">Guide de rédaction du contenu du site Canada.ca</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
-    <h3 class="h4 mrgn-tp-lg">Working in agile</h3>
+    <h3 class="h5 mrgn-tp-lg">Working in agile</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1UAR6NC_RNwND_EkT7i6cH9cgMNWkEMXXK9AVIB-97aw/edit#heading=h.qy4un2ylcxmk">Content Style Guide mission and vision statements</a></li>
     </ul>
-    <h3 class="h4 mrgn-tp-lg">Canada.ca Content Style Guide (versions)</h3>
+    <h3 class="h5 mrgn-tp-lg">Canada.ca Content Style Guide (versions)</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1hQLFf3Or-6wK9EIv0DJVudavOOWTKK22">Standing issues</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1Ybk4O8eOIUj3hlbepsIejnYiZ6g2xnR9GfQ_axLyFoM/edit#heading=h.k8dqa87ja7rc">Style guide - 2021 improvement ideas</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/10a-NJ8t8mppGiuNhelZT-0MSaiCpQwZZzFzQ3XdW-Nc/edit#heading=h.u8ib4j5mzm6">Style guide_Plain language updates_2023-06-20</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1TAeY4gY7xuAgvRkwagXD8syVVNnCYSUDwjnCDrr3bPs/edit#heading=h.r0gar1wsenmh">Style guide_Plain language updates_2023-06-20)_FR</a></li>
     </ul>
-    <h3 class="h4 mrgn-tp-lg">Mockups</h3>
+    <h3 class="h5 mrgn-tp-lg">Mockups</h3>
     <ul>
       <li><a href="https://github.com/gc-proto/experimental/tree/master/content-style-guide/mockups">Mockup repository (GitHub)</a></li>
       <li><a href="https://test.canada.ca/experimental/content-style-guide/mockups/">Visual Mockups and experiments (test.canada.ca)</a></li>
