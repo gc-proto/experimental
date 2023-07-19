@@ -29,7 +29,7 @@ title: "Canada.ca Content Style Guide refinement project"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Agile board (backlog and sprints)</h2>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-jira"></span></span><a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2/backlog">Google drive (document repository)</a></li>
+      <li><span class="fa-li"><span class="fab fa-jira"></span></span><a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2/backlog">Jira project - Canada.ca Content Style Guide</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
