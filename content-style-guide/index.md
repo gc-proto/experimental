@@ -40,6 +40,10 @@ title: "Canada.ca Content Style Guide refinement project"
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1TAeY4gY7xuAgvRkwagXD8syVVNnCYSUDwjnCDrr3bPs/edit#heading=h.r0gar1wsenmh">Style guide_Plain language updates_2023-06-20)_FR</a></li>
     </ul>
     <h3 class="h4 mrgn-tp-lg">Mockups</h3>
+    <ul>
+      <li><a href="https://github.com/gc-proto/experimental/tree/master/content-style-guide/mockups">Mockup repository (GitHub)</a></li>
+      <li><a href="https://test.canada.ca/experimental/content-style-guide/mockups/">Visual Mockups and experiments (test.canada.ca)</a></li>
+    </ul>
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny29.png" alt="" class="img-responsive mrgn-tp-lg"></div>
