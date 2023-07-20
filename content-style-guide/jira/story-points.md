@@ -18,6 +18,7 @@ showFeedback: false
 nomenu: true
 noReportProblem: true
 pageclass: cnt-wdth-lmt
-title: "Canada.ca Content Style Guide refinement project"
+title: "Story points"
 ---
-<p>story</p>
+<p>Story points estimate the amount of effort to complete a user story or task in a product backlog.   Estimate story points before a sprint planning meeting.</p>
+<img src="../images/story-points.png" alt="Story point matrix">
