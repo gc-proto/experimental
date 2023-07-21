@@ -28,8 +28,7 @@ title: "Agile methodology"
     </ul>
     <h2 class="h3">Our use of agile</h2>
     <ul>
-      <li><a href="story-points.html">Story points</a></li>
-      (Jira: <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-37">CCCSG-37 Review Story points</a>)
+      <li><a href="story-points.html">Story points</a> (Jira: <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-37">CCCSG-37 Review Story points</a>)</li>
     </ul>
   </div>
   <div class="col-md-4">
