@@ -3,8 +3,8 @@ altLangPage: false
 breadcrumbs:
   - title: Refinement project
     link: "https://test.canada.ca/experimental/content-style-guide/"
-  - title: Jira
-    link: "https://test.canada.ca/experimental/jira/"    
+  - title: Agile methodology
+    link: "https://test.canada.ca/experimental/agile-methodology/"    
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
@@ -22,7 +22,7 @@ noReportProblem: true
 pageclass: cnt-wdth-lmtd
 title: "Story points"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Story points</span>: <span>JIRA</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Story points</span>: <span>Agile methodology</span></span></h1>
 <div class="col-md-8 mrgn-bttm-lg mrgn-tp-lg">
   <div class="panel panel-default">
     <table class="table table-striped small">
