@@ -1,0 +1,23 @@
+---
+altLangPage: false
+breadcrumbs: false
+css:
+- https://design.canada.ca/css/split-h1.css
+- https://design.canada.ca/css/custom.css
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css
+date: 2023-07-21
+dateModified: 2023-07-21
+description: "Agile methodology"
+lang: en
+layout: form
+share: false
+nositesearch: true
+showFeedback: false
+nomenu: true
+noReportProblem: true
+pageclass: cnt-wdth-lmtd
+title: "Agile methodology"
+---
+<div class="row">
+  <div class="col-md-8">
+    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Agile methodology</span>: <span>Canada.ca Content Style Guide</span></span></h1>
