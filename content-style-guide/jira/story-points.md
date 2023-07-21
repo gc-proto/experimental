@@ -23,9 +23,6 @@ pageclass: cnt-wdth-lmtd
 title: "Story points"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Story points</span>: <span>JIRA</span></span></h1>
-<p>Story points estimate the time and effort to complete a task, epic, or user story.</p>
-<p>Story points are based on the Fibonacci sequence.  Sequential numbers are found by adding the two numbers that precede it (<a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Wikipedia: Fibonacci sequence</a>).  The numbers are used in story points because they attempt to capture the notions of both effort and time.  The matrix we’re using below is a guide.</p>
-<p>Estimate story points before a sprint planning meeting.</p>
 <div class="col-md-8 mrgn-tp-lg">
   <div class="panel panel-default">
     <table class="table small">
@@ -74,3 +71,5 @@ title: "Story points"
     </table>
   </div>
 </div>
+<p>Story points estimate the time and effort to complete a task, epic, or user story.  The matrix we’re using above is a general guide. Estimate story points before a sprint planning meeting.</p>
+<p>Story points are based on the Fibonacci sequence.  Sequential numbers are found by adding the two numbers that precede it (<a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Wikipedia: Fibonacci sequence</a>).  The numbers are used in story points because they attempt to capture the notions of both effort and time.</p>
