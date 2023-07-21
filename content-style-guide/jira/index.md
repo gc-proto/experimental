@@ -23,3 +23,8 @@ title: "Agile methodology"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Agile methodology</span>: <span>Style Guide refinement project</span></span></h1>
+  </div>
+  <div class="col-md-4">
+    <div><img src="./images/bunny29.png" alt="" class="img-responsive mrgn-tp-lg"></div>
+  </div>
+</div>
