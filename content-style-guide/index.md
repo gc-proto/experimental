@@ -32,7 +32,7 @@ title: "Canada.ca Content Style Guide refinement project"
       <li><span class="fa-li"><span class="fab fa-jira"></span></span>Agile board (backlog and sprints) <a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2/backlog">Jira project - Canada.ca Content Style Guide</a></li>
     </ul>
     <ul>
-      <li><a href="./content-style-guide/jira/">Our use of the agile methodology</a> (Refererefnce and help files)</li>
+      <li><a href="https://test.canada.ca/experimental/content-style-guide/jira/">Our use of the agile methodology</a> (Refererefnce and help files)</li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul>
