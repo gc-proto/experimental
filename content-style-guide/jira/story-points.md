@@ -25,7 +25,7 @@ title: "Story points"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Story points</span>: <span>JIRA</span></span></h1>
 <div class="col-md-8 mrgn-tp-lg">
   <div class="panel panel-default">
-    <table class="table small">
+    <table class="table table-striped small">
       <tr>
         <th>Story point</th>
         <th>Effort required</th>
