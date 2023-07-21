@@ -1,6 +1,8 @@
 ---
 altLangPage: false
-breadcrumbs: false
+breadcrumbs:
+  - title: Style Guide refinement project
+    link: "https://test.canada.ca/experimental/content-style-guide/"
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
@@ -20,4 +22,4 @@ title: "Agile methodology"
 ---
 <div class="row">
   <div class="col-md-8">
-    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Agile methodology</span>: <span>Canada.ca Content Style Guide</span></span></h1>
+    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Agile methodology</span>: <span>Style Guide refinement project</span></span></h1>
