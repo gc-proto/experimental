@@ -26,7 +26,7 @@ title: "Story points"
 <p>Story points estimate the amount of effort to complete a user story or task in a product backlog.   Estimate story points before a sprint planning meeting.</p>
 <div class="col-md-8">
   <div class="panel panel-default">
-<table>
+<table class="table table-bordered">
   <tr>
     <th>Story point</th>
     <th>Effort required</th>
