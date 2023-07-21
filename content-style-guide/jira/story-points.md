@@ -36,7 +36,7 @@ title: "Story points"
   <tr>
     <td class="text-center"><strong>1</strong></td>
     <td>Minimum</td>
-    <td>A few minutes (&#8249; 1hour)</td>
+    <td>A few minutes (&#8249;&nbsp;1&nbsp;hour)</td>
     <td>Little complexity</td>
   </tr>
   <tr>
