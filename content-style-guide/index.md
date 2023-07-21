@@ -27,9 +27,12 @@ title: "Canada.ca Content Style Guide refinement project"
       <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html">Canada.ca Content Style Guide</a></li>
       <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html">Guide de rédaction du contenu du site Canada.ca</a></li>
     </ul>
-    <h2 class="h3 mrgn-tp-lg">Agile board (backlog and sprints)</h2>
+    <h2 class="h3 mrgn-tp-lg">Agile methodology</h2>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-jira"></span></span><a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2/backlog">Jira project - Canada.ca Content Style Guide</a></li>
+      <li><span class="fa-li"><span class="fab fa-jira"></span></span>Agile board (backlog and sprints) <a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2/backlog">Jira project - Canada.ca Content Style Guide</a></li>
+    </ul>
+    <ul>
+      <li><a href="./content-style-guide/jira/">Our use of the agile methodology</a> (Refererefnce and help files)</li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul>
