@@ -45,19 +45,19 @@ title: "Story points"
     <td>A few hours</td>
     <td>Little complexity</td>
   </tr>
-  <tr class="text-center">
-    <td><strong>3</strong></td>
+  <tr>
+    <td class="text-center"><strong>3</strong></td>
     <td>Mild</td>
     <td>About a day</td>
     <td>Low complexity</td>
   </tr>
-  <tr class="text-center">
-    <td><strong>5</strong></td>
+  <tr class="warning">
+    <td class="text-center"><strong>5</strong></td>
     <td>Moderate</td>
     <td>A few days</td>
     <td>Medium complexity</td>
   </tr>
-  <tr>
+  <tr class="warning">
     <td class="text-center"><strong>8</strong></td>
     <td>Severe</td>
     <td>A week</td>
