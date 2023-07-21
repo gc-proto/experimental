@@ -26,9 +26,9 @@ title: "Story points"
 <p>Story points estimate the time and effort to complete a task, epic, or user story.</p>
 <p>Story points are based on the Fibonacci sequence.  Sequential numbers are found by adding the two numbers that precede it (<a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Wikipedia: Fibonacci sequence</a>).  The numbers are used in story points because they attempt to capture the notions of both effort and time.  The matrix we’re using below is a guide.</p>
 <p>Estimate story points before a sprint planning meeting.</p>
-<div class="col-md-8">
+<div class="col-md-8 mrgn-tp-lg">
   <div class="panel panel-default">
-    <table class="table table-bordered small">
+    <table class="table small">
       <tr>
         <th>Story point</th>
         <th>Effort required</th>
