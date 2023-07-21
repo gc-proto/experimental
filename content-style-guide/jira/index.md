@@ -23,6 +23,9 @@ title: "Agile methodology"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Agile methodology</span>: <span>Style Guide refinement project</span></span></h1>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><span class="fab fa-jira"></span></span><a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2/backlog">Jira project - Canada.ca Content Style Guide</a></li>
+    </ul>    
   </div>
   <div class="col-md-4">
     <div><img src="./images/bunny30.png" alt="" class="img-responsive mrgn-tp-lg"></div>
