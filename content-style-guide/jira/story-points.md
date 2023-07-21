@@ -4,7 +4,7 @@ breadcrumbs:
   - title: Style Guide refinement project
     link: "https://test.canada.ca/experimental/content-style-guide/"
   - title: Agile methodology
-    link: "https://test.canada.ca/experimental/jira/"    
+    link: "https://test.canada.ca/experimental/content-style-guide/jira/"    
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
