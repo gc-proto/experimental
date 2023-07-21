@@ -1,7 +1,7 @@
 ---
 altLangPage: false
 breadcrumbs:
-  - title: Refinement project
+  - title: Style Guide refinement project
     link: "https://test.canada.ca/experimental/content-style-guide/"
   - title: Agile methodology
     link: "https://test.canada.ca/experimental/agile-methodology/"    
