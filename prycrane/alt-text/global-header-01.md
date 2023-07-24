@@ -242,7 +242,7 @@ title: "Global header"
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Global header – large screen</b></figcaption>
-      <img src="../images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="">
+      <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header – large screen</summary>
         <p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
@@ -258,7 +258,7 @@ title: "Global header"
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Global header – small screen</b></figcaption>
-      <img src="../images/01-sign-in-mobile-en.jpg" class="img-responsive" alt="">
+      <img src="./images/01-sign-in-mobile-en.jpg" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header – small screen</summary>
         <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
@@ -277,7 +277,7 @@ title: "Global header"
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Minimum global header - large screen</b></figcaption>
-      <img src="../images/01-global-header-transactional-desktop-en.png" class="img-responsive" alt="">
+      <img src="./images/01-global-header-transactional-desktop-en.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - large screen</summary>
         <p class="mrgn-tp-lg">On large screens, the minimum global header on a transactional page has 2 rows:</p>
@@ -291,7 +291,7 @@ title: "Global header"
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Minimum global header - small screen</b></figcaption>
-      <img src="../images/01-global-header-transactional-small-en.png" class="img-responsive" alt="">
+      <img src="./images/01-global-header-transactional-small-en.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - small screen</summary>
         <p class="mrgn-tp-lg">On small screens, the minimum global header on a transactional page has a single row:</p>
@@ -307,7 +307,7 @@ title: "Global header"
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Minimum global header - large screen</b></figcaption>
-      <img src="../images/01-global-header-campaign-desktop-en.png" class="img-responsive" alt="">
+      <img src="./images/01-global-header-campaign-desktop-en.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - large screen</summary>
         <p class="mrgn-tp-lg">On large screens, the minimum global header on a campaign page has 3 rows:</p>
@@ -322,7 +322,7 @@ title: "Global header"
   <div class="pattern-demo mrgn-tp-lg">
     <figure>
       <figcaption><b>Minimum global header - small screen</b></figcaption>
-      <img src="../images/01-global-header-campaign-small-en.png" class="img-responsive" alt="">
+      <img src="./images/01-global-header-campaign-small-en.png" class="img-responsive" alt="">
       <details class="mrgn-tp-md">
         <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - small screen</summary>
         <p class="mrgn-tp-lg">On small screens, the minimum global header on a campaign page has 3 rows:</p>
