@@ -42,11 +42,7 @@ title: "Canada.ca Content Style Guide refinement project"
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://drive.google.com/drive/folders/1ShcpGwJnqs9PGmF2tXU708Wg0RKsiY08?ths=true">Google drive (document repository)</a></li>
-    </ul>
-    <h3 class="h5 mrgn-tp-lg">Working in agile</h3>
-    <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1UAR6NC_RNwND_EkT7i6cH9cgMNWkEMXXK9AVIB-97aw/edit#heading=h.qy4un2ylcxmk">Content Style Guide mission and vision statements</a></li>
-    </ul>
+    </ul>  
     <h3 class="h5 mrgn-tp-lg">Canada.ca Content Style Guide (versions)</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1hQLFf3Or-6wK9EIv0DJVudavOOWTKK22">Standing issues</a></li>
