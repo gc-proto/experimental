@@ -54,8 +54,6 @@ title: "Institutional landing page"
 <dl class="dl-horizontal1 brdr-0 mrgn-tp-lg">
   <dt><a href="#">Social media pattern</a></dt>
   <dd></dd>
-  <dt><a href="#">Ministers block</a></dt>
-  <dd></dd>
   <dt><a href="#">Super task button</a></dt>
   <dd>
     <p>Only include a super task button if there is a specific task that has at least a third of the clickthrough on the institution's home page.</p>
