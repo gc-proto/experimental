@@ -8,7 +8,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-04-14
-dateModified: 2023-06-02
+dateModified: 2023-07-24
 description: "Alt text and long descriptions"
 language: en
 layout: form
