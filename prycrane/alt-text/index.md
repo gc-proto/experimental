@@ -24,7 +24,7 @@ title: "Alt text and long descriptions"
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Alt text and long descriptions</span>: <span>Canada.ca design system</span></span></h1>
     <p>Alt text investigation</p>
-    <h2 class="h3 mrgn-tp-lg">2. eliminate image descriptions <span class="small">(2023-07-24)</span></h2>
+    <h2 class="h3 mrgn-tp-lg">2. Eliminate image descriptions <span class="small">(2023-07-24)</span></h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fas fa-carrot"></span></span><a href="global-header-01.html">Global header (eliminate image descriptions)</a></li>
     </ul>
