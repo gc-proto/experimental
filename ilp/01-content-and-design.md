@@ -31,8 +31,6 @@ title: "Institutional landing page"
     <p>Use the applied title of the institution (see <a href="https://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/communications/fip-pcim/reg-eng.asp">Registry of Applied Titles</a>).</p>
     <p>The description should be a very brief summary of what the institution does.</p>
   </dd>
-  <dt><a href="#">Supertask button</a></dt>
-  <dd></dd>
   <dt><a href="#">Most requested</a></dt>
   <dd>
     <p>Features institution-specific top tasks.</p>
