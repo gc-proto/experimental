@@ -58,6 +58,6 @@ title: "Institutional landing page"
   </dd>
   <dt><a href="#">Flexible space</a></dt>
   <dd>
-    <p>The bottom portion of the page above the footer is considered a flexible space where departments may add content of their choosing. The use of this space is optional. The default for this template is the latest news and context-specific features patterns.</p>
+    <p>The bottom portion of the page above the footer is an optional content area. The default for this template is the latest news and context-specific features patterns.</p>
   </dd>
 </dl>
