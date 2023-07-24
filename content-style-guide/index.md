@@ -45,8 +45,8 @@ title: "Canada.ca Content Style Guide refinement project"
     </ul>  
     <h3 class="h5 mrgn-tp-lg">Canada.ca Content Style Guide (versions)</h3>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1hQLFf3Or-6wK9EIv0DJVudavOOWTKK22">Standing issues</a> (<a href="https://canada-style-guide.atlassian.net/browse/CCCSG-32">CCCSG-32 - Standing issues</a>a>)</li>
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1Ybk4O8eOIUj3hlbepsIejnYiZ6g2xnR9GfQ_axLyFoM/edit#heading=h.k8dqa87ja7rc">Style guide - 2021 improvement ideas</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1hQLFf3Or-6wK9EIv0DJVudavOOWTKK22">Standing issues</a> (<a href="https://canada-style-guide.atlassian.net/browse/CCCSG-32">CCCSG-32 - Standing issues</a>)</li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1Ybk4O8eOIUj3hlbepsIejnYiZ6g2xnR9GfQ_axLyFoM/edit#heading=h.k8dqa87ja7rc">Style guide - 2021 improvement ideas</a> (<a href="https://canada-style-guide.atlassian.net/browse/CCCSG-24">CCCSG-24 - Improvement ideas - 2021</a>)</li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/10a-NJ8t8mppGiuNhelZT-0MSaiCpQwZZzFzQ3XdW-Nc/edit#heading=h.u8ib4j5mzm6">Style guide_Plain language updates_2023-06-20</a></li>
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1TAeY4gY7xuAgvRkwagXD8syVVNnCYSUDwjnCDrr3bPs/edit#heading=h.r0gar1wsenmh">Style guide_Plain language updates_2023-06-20)_FR</a></li>
     </ul>
