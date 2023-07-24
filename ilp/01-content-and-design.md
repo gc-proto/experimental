@@ -21,16 +21,17 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Institutional landing page"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Institutional landing page</span>: <span>Canada.ca design</span></span></h1>
 <h2>Content and design</h2>
 <p>The institutional landing page is composed of several required and optional patterns.
 <h3>Required patterns on an institutional landing page</h3>
-<dl class="dl-horizontal brdr-0 mrgn-tp-lg">
+<dl class="dl-horizontal1 brdr-0 mrgn-tp-lg">
   <dt><a href="#">Introduction block</a></dt>
   <dd>
     <p>Use the applied title of the institution (see <a href="https://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/communications/fip-pcim/reg-eng.asp">Registry of Applied Titles</a>).</p>
     <p>The description should be a very brief summary of what the institution does.</p>
   </dd>
+  <dt><a href="#">Supertask button</a></dt>
+  <dd></dd>
   <dt><a href="#">Most requested</a></dt>
   <dd>
     <p>Features institution-specific top tasks.</p>
@@ -48,4 +49,19 @@ title: "Institutional landing page"
   <dd></dd>
   <dt><a href="#">Ministers block</a></dt>
   <dd></dd>
+</dl>
+<h3>Optional patterns on an institutional landing page</h3>
+<dl class="dl-horizontal1 brdr-0 mrgn-tp-lg">
+  <dt><a href="#">Social media pattern</a></dt>
+  <dd></dd>
+  <dt><a href="#">Ministers block</a></dt>
+  <dd></dd>
+  <dt><a href="#">Super task button</a></dt>
+  <dd>
+    <p>Only include a super task button if there is a specific task that has at least a third of the clickthrough on the institution's home page.</p>
+  </dd>
+  <dt><a href="#">Flexible space</a></dt>
+  <dd>
+    <p>The bottom portion of the page above the footer is considered a flexible space where departments may add content of their choosing. The use of this space is optional. The default for this template is the latest news and context-specific features patterns.</p>
+  </dd>
 </dl>
