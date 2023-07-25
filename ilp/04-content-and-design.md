@@ -25,17 +25,17 @@ title: "Institutional landing page"
 <p>The institutional landing page is composed of several required and optional patterns.
 <h3>Required patterns on an institutional landing page</h3>
 <dl class="dl-horizontal brdr-0 mrgn-tp-lg">
-  <dt><a href="#">Introduction block</a></dt>
+  <dt><a href="#">Introduction block</a> <span class="label label-danger">Required</span></dt>
   <dd>
     <p>Use the applied title of the institution (see <a href="https://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/communications/fip-pcim/reg-eng.asp">Registry of Applied Titles</a>).</p>
     <p>The description should be a very brief summary of what the institution does.</p>
   </dd>
-  <dt><a href="#">Most requested</a></dt>
+  <dt><a href="#">Most requested</a> <span class="label label-danger">Required</span></dt>
   <dd>
     <p>Features institution-specific top tasks.</p>
     <p>If any one of the institution's top tasks are already included as a direct link under Services and information, do not duplicate them here.</p>
   </dd>
-  <dt><a href="#">Services and information</a></dt>
+  <dt><a href="#">Services and information</a> <span class="label label-danger">Required</span></dt>
   <dd>
     <p>The services and information pattern points to the top-level categories of your organization’s information architecture.</p>
   </dd>
@@ -43,9 +43,9 @@ title: "Institutional landing page"
   <dd>
     <p>The first link should be the main contact for your institution. You should limit the band to three contact links.</p>
   </dd>
-  <dt><a href="#">About the institution</a></dt>
+  <dt><a href="#">About the institution</a> <span class="label label-danger">Required</span></dt>
   <dd></dd>
-  <dt><a href="#">Ministers block</a></dt>
+  <dt><a href="#">Ministers block</a> <span class="label label-danger">Required</span></dt>
   <dd></dd>
 </dl>
 <h3>Optional patterns on an institutional landing page</h3>
