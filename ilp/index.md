@@ -45,7 +45,8 @@ title: "Institutional landing page documentation"
         <ul>
           <li><a href="09-content-and-design.html">No Borders</a></li>
           <li><a href="07-content-and-design.html">Zebra striping</a></li>
-          <li><a href="08-content-and-design.html">Borders</a></li>                    
+          <li><a href="08-content-and-design.html">Borders</a></li>
+          <li><a href="10-content-and-design.html">With color (just for fun)</a></li>                    
         </ul>
       </li>
     </ul>
