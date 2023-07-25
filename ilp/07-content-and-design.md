@@ -66,7 +66,7 @@ title: "Institutional landing page"
             <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
           <tr>
-            <td>Ministers block</td>
+            <td><a href="#">Ministers block</a></td>
             <td></td>
             <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
