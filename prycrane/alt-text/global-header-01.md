@@ -251,7 +251,7 @@ subject: Design system
 </ul>
 <h3>Visual examples</h3>
 <div class="col-md-10">
-  <details>
+  <details open="open">
     <summary class="bg-info">Standard pages</summary>
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
@@ -286,7 +286,7 @@ subject: Design system
       </figure>
     </div>
   </details>
-  <details>
+  <details open="open">
     <summary class="bg-info">Transactional pages</summary>
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
@@ -316,7 +316,7 @@ subject: Design system
       </figure>
     </div>
   </details>
-  <details>
+  <details open="open">
     <summary class="bg-info">Campaign pages</summary>
     <div class="pattern-demo mrgn-tp-lg">
       <figure>
