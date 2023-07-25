@@ -40,6 +40,6 @@ title: "Institutional landing page documentation"
     </ul>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/derain.png" alt="André Derain, Bateaux au port de Collioure, 1905" class="img-responsive"></div>
+    <div><img src="./images/malevich-01.png" alt="Kasimir Malevich, Eight Red Rectangles" class="img-responsive"></div>
   </div>
 </div>
