@@ -1,5 +1,6 @@
 ---
 altLangPage: "https://conception.canada.ca/configurations-conception-communes/en-tete-general.html"
+author: Treasury Board Secretariat of Canada
 breadcrumbs:
   - title: "About Canada.ca"
     link:  "https://www.canada.ca/en/government/about.html"
@@ -15,6 +16,7 @@ date: 2017-10-05
 dateModified: 2023-06-26
 description: "Guidance about using the global header on Canada.ca. The global header is at the top of each Government of Canada web page."
 title: "Global header"
+subject: Design system
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
