@@ -260,7 +260,7 @@ subject: Design system
             <h4>Large screen layout for standard pages</h4>
           </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen">
-          <figcaption class="small mrgn-tp-md">
+          <figcaption class="small mrgn-tp-md"><p>The Global header is contained in 4 rows.</p>
             <table class="table">
               <caption class="wb-inv">
               Large screen layout for standard pages
