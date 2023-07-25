@@ -87,11 +87,6 @@ title: "Institutional landing page"
             <td>Optional</td>
           </tr>
         </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="3">&nbsp;</td>
-          </tr>
-        </tfoot>
       </table>
     </div>
   </div>
