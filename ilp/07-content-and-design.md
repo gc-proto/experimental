@@ -23,7 +23,7 @@ title: "Institutional landing page"
 ---
 <h2>Content and design</h2>
 <p>The institutional landing page is composed of several required and optional patterns.</p>
-<div class="row mrgn-tp-md">
+<div class="row mrgn-tp-lg">
   <div class="col-md-8">
     <div class="panel panel-default">
       <table class="table table-striped" id="ilp-01" aria-live="polite">
