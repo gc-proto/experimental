@@ -265,16 +265,6 @@ subject: Design system
               <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
               <li>Breadcrumb on the left</li>
             </ol></figcaption>
-          <details class="mrgn-tp-md">
-            <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header – large screen</summary>
-            <p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
-            <ol>
-              <li>Language toggle in the top-right corner</li>
-              <li>Government of Canada signature in the left corner, site search box on the right</li>
-              <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
-              <li>Breadcrumb on the left</li>
-            </ol>
-          </details>
         </figure>
       </div>
       <div class="pattern-demo mrgn-tp-lg">
