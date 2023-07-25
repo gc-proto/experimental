@@ -15,6 +15,8 @@ css:
 date: 2017-10-05
 dateModified: 2023-06-26
 description: "Guidance about using the global header on Canada.ca. The global header is at the top of each Government of Canada web page."
+language: en
+layout: without-h1
 title: "Global header"
 subject: Design system
 ---
