@@ -42,7 +42,7 @@ title: "Institutional landing page"
             <td><a href="#">Introduction block</a></td>
             <td><p>Use the applied title of the institution (see Registry of Applied Titles).</p>
               <p>The description should be a very brief summary of what the institution does.</p></td>
-            <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Mandatory</span></td>
+            <td><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
           <tr>
             <td><a href="#">Most requested</a></td>
