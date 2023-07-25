@@ -121,7 +121,7 @@ subject: Design system
             </table>
           </div>
         </details>
-        <details id="002" open="open">
+        <details id="002">
           <summary><strong>Transactional pages</strong></summary>
           <p class="mrgn-tp-lg"><strong>Transactional web pages</strong> are pages with an interaction task where people might lose data, trigger errors, or terminate their session if they navigate away from the page.</p>
           <h3>Global header requirements for transactional pages</h3>
@@ -180,7 +180,7 @@ subject: Design system
             </table>
           </div>
         </details>
-        <details id="003" open="open">
+        <details id="003">
           <summary><strong>Campaign pages</strong></summary>
           <p class="mrgn-tp-lg"><strong>Campaign pages</strong> are landing pages for external marketing or advertising campaigns. The flexibility in layout allows institutions to match elements of their external campaign with the landing page.</p>
           <h3>Global header requirements for a campaign page</h3>
