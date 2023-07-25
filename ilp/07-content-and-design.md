@@ -21,6 +21,8 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Institutional landing page"
 ---
+<h2>Content and design</h2>
+<p>The institutional landing page is composed of several required and optional patterns.</p>
 <div class="panel panel-default mrgn-tp-md">
   <table class="table table-striped" id="ilp-01" aria-live="polite">
     <caption class="wb-inv">
