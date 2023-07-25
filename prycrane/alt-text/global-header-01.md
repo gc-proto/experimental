@@ -256,15 +256,61 @@ subject: Design system
       <summary class="bg-info">Standard pages</summary>
       <div class="pattern-demo mrgn-tp-lg">
         <figure>
-          <figcaption><h4>Large screen layout for standard pages</h4></figcaption>
+          <figcaption>
+            <h4>Large screen layout for standard pages</h4>
+          </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen">
-          <figcaption class="small mrgn-tp-md"><p>The elements of the global header are prersented in 4 rows:</p>
-            <ol>
-              <li>Language toggle in the top-right corner</li>
-              <li>Government of Canada signature in the left corner, site search box on the right</li>
-              <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
-              <li>Breadcrumb on the left</li>
-            </ol></figcaption>
+          <figcaption class="small mrgn-tp-md">
+            <table class="table">
+              <caption class="wb-inv">
+              Large screen layout for standard pages
+              </caption>
+              <thead>
+                <tr>
+                  <th>Element</th>
+                  <th>Row</th>
+                  <th>Position</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Language toggle</td>
+                  <td>1</td>
+                  <td>Top-right</td>
+                </tr>
+                <tr>
+                  <td>Government of Canada signature</td>
+                  <td>2</td>
+                  <td>Left</td>
+                </tr>
+                <tr>
+                  <td>Site search box</td>
+                  <td>2</td>
+                  <td>Right</td>
+                </tr>
+                <tr>
+                  <td>Divider line</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Theme and topic menu</td>
+                  <td>3</td>
+                  <td>Left</td>
+                </tr>
+                <tr>
+                  <td>Sign in button</td>
+                  <td>3</td>
+                  <td>Right</td>
+                </tr>
+                <tr>
+                  <td>Breadcrumb trail</td>
+                  <td>4</td>
+                  <td>Bottom-left</td>
+                </tr>
+              </tbody>
+            </table>
+          </figcaption>
         </figure>
       </div>
       <div class="pattern-demo mrgn-tp-lg">
