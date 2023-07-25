@@ -290,8 +290,8 @@ subject: Design system
                 </tr>
                 <tr>
                   <td>Divider line</td>
-                  <td></td>
-                  <td></td>
+                  <td>-</td>
+                  <td>-</td>
                 </tr>
                 <tr>
                   <td>Theme and topic menu</td>
