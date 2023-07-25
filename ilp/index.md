@@ -41,7 +41,12 @@ title: "Institutional landing page documentation"
           <li><a href="05-content-and-design.html">List with labels</a></li>
         </ul>
       </li>
-      <li><a href="07-content-and-design.html">Table</a></li>
+      <li>Table
+        <ul>
+          <li><a href="07-content-and-design.html">Zebra striping</a></li>
+          <li><a href="08-content-and-design.html">Borders</a></li>
+        </ul>
+      </li>
     </ul>
   </div>
   <div class="col-md-4">
