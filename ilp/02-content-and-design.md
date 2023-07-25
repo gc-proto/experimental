@@ -24,7 +24,7 @@ title: "Institutional landing page"
 <h2>Content and design</h2>
 <p>The institutional landing page is composed of several required and optional patterns.
 <h3>Required patterns on an institutional landing page</h3>
-<dl class="dl-horizontal brdr-0 mrgn-tp-lg">
+<dl class="dl-horizontal1 brdr-0 mrgn-tp-lg">
   <dt><a href="#">Introduction block</a></dt>
   <dd>
     <p>Use the applied title of the institution (see <a href="https://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/communications/fip-pcim/reg-eng.asp">Registry of Applied Titles</a>).</p>
@@ -49,7 +49,7 @@ title: "Institutional landing page"
   <dd></dd>
 </dl>
 <h3>Optional patterns on an institutional landing page</h3>
-<dl class="dl-horizontal brdr-0 mrgn-tp-lg">
+<dl class="dl-horizontal1 brdr-0 mrgn-tp-lg">
   <dt><a href="#">Social media pattern</a></dt>
   <dd></dd>
   <dt><a href="#">Super task button</a></dt>
