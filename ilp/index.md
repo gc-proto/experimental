@@ -32,9 +32,9 @@ title: "Institutional landing page documentation"
           <li><a href="04-content-and-design.html">Definition list - expanded with labels</a></li>
         </ul>
       </li>
-      <li><a href="06-content-and-design.html">Definition list - closed</a>
+      <li><a href="02-content-and-design.html">Definition list - closed</a>
         <ul>
-          <li><a href="04-content-and-design.html">Definition list - closed with labels</a></li>
+          <li><a href="06-content-and-design.html">Definition list - closed with labels</a></li>
         </ul>
       </li>
       <li><a href="03-content-and-design.html">Basic list</a>
