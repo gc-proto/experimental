@@ -256,9 +256,9 @@ subject: Design system
       <summary class="bg-info">Standard pages</summary>
       <div class="pattern-demo mrgn-tp-lg">
         <figure>
-          <figcaption><h2>Global header – large screen</h2></figcaption>
-          <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header (large screen)">
-          <figcaption><p class="mrgn-tp-lg">On large screens, the global header on a standard page has 4 rows:</p>
+          <figcaption><h4>Large screen layout for standard pages</h4></figcaption>
+          <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen">
+          <figcaption class="small mrgn-tp-md"><p>The elements of the global header are prersented in 4 rows:</p>
             <ol>
               <li>Language toggle in the top-right corner</li>
               <li>Government of Canada signature in the left corner, site search box on the right</li>
