@@ -24,7 +24,7 @@ subject: Design system
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-12 pull-left">
-    <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
+    <ul class="list-inline small mrgn-bttm-sm" id="list-inline-desktop-only">
       <li class="mrgn-rght-lg">Last updated:  {{ page.dateModified }}</li>
     </ul>
   </div>
@@ -39,7 +39,7 @@ subject: Design system
   <li>allows navigation across the broad range of services and information offered</li>
 </ul>
 <p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit <a href="#research">Research and rationale</a>.</p>
-<div class="col-md-9 mrgn-tp-lg mrgn-bttm-lg">
+<div class="col-md-10 mrgn-tp-lg mrgn-bttm-lg">
   <div class="pattern-demo">
     <figure class="mrgn-bttm-sm"><img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of global header"></figure>
     <figcaption class="small mrgn-tp-md">The <strong>Global header</strong> contains the Government of Canada signature, Language toggle, Site search box, Divider line, Theme and topic menu, Breadcrumb trail, and Sign in button on a white background.</figcaption>
