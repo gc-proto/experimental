@@ -21,6 +21,7 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Institutional landing page"
 ---
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Institutional landing page</span>: <span>Canada.ca design system</span></span></h1>
 <h2>Content and design</h2>
 <p>The institutional landing page is composed of several required and optional patterns.</p>
 <h3>Required patterns on an institutional landing page</h3>
