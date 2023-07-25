@@ -27,7 +27,11 @@ title: "Institutional landing page documentation"
     <h2 class="mrgn-tp-lg">Mockups</h2>
     <p>Format for the Content and design section</p>
     <ul class="mrgn-tp-lg">
-      <li><a href="01-content-and-design.html">definition list - expanded</a></li>
+      <li><a href="01-content-and-design.html">definition list - expanded</a>
+        <ul>
+          <li><a href="04-content-and-design.html">definition list - expanded with labels</a></li>
+        </ul>
+      </li>
       <li><a href="02-content-and-design.html">definition list - closed</a></li>
       <li><a href="03-content-and-design.html">Basic list</a></li>
       <li><a href="04-content-and-design.html">Table</a></li>
