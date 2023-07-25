@@ -37,8 +37,8 @@ title: "Institutional landing page documentation"
       </li>
       <li>Basic list|
         <ul>
-          <li><a href="03-content-and-design.html">list</a></li>
-          <li><a href="05-content-and-design.html">Basic list - with labels</a></li>
+          <li><a href="03-content-and-design.html">List</a></li>
+          <li><a href="05-content-and-design.html">List with labels</a></li>
         </ul>
       </li>
       <li><a href="04-content-and-design.html">Table</a></li>
