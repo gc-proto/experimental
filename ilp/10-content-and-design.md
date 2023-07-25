@@ -43,13 +43,13 @@ title: "Institutional landing page"
             <td><a href="#">Introduction block</a></td>
             <td><p>Use the applied title of the institution (see Registry of Applied Titles).</p>
               <p>The description should be a very brief summary of what the institution does.</p></td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
           </tr>
           <tr class="success">
             <td><a href="#">Most requested</a></td>
             <td><p>Features institution-specific top tasks.</p>
               <p>If any one of the institution's top tasks are already included as a direct link under Services and information, do not duplicate them here.</p></td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
           </tr>
           <tr class="success">
             <td><a href="#">Services and information</a></td>
@@ -59,19 +59,19 @@ title: "Institutional landing page"
           <tr class="success">
             <td><a href="#">Contact us band</a></td>
             <td><p>The first link should be the main contact for your institution. You should limit the band to three contact links.</p></td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
           </tr>
           <tr class="success">
             <td><a href="#">About the institution</a></td>
             <td></td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
           </tr>
           <tr class="success">
             <td><a href="#">Ministers block</a></td>
             <td></td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
           </tr>
-          <tr class="success">
+          <tr>
             <td><a href="#">Social media pattern</a></td>
             <td></td>
             <td>Optional</td>
