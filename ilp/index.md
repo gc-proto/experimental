@@ -46,8 +46,8 @@ title: "Institutional landing page documentation"
     </ul>
   </div>
   <div class="col-md-4">
-    <div>
-      <figure class="thumbnail"><img src="./images/malevich-01.png" alt="Eight Red Rectangles"  class="img-responsive">
+    <div class="pattern-demo">
+      <figure><img src="./images/malevich-01.png" alt="Eight Red Rectangles"  class="img-responsive">
         <figcaption class="caption small">Eight Red Rectangles (1915) by Kazimir Malevich.  The abstract piece shows eight red rectangles of various sizes placed at different angles on a white background.</figcaption>
       </figure>
     </div>
