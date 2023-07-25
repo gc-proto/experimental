@@ -42,9 +42,7 @@ subject: Design system
 <div class="col-md-8">
   <div class="pattern-demo mrgn-tp-lg">
     <figure class="mrgn-bttm-sm"><img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of global header"></figure>
-    <figcaption class="small mrgn-tp-md">
-      <p>The <strong>Global header</strong> contains the following elements: Government of Canada signature (linked to Canada.ca home), Language toggle, Site search box, Divider line, Theme and topic menu, Breadcrumb trail, Sign in button, and white background colour.</p>
-    </figcaption>
+    <figcaption class="small mrgn-tp-md">The <strong>Global header</strong> contains the following elements: Government of Canada signature (linked to Canada.ca home), Language toggle, Site search box, Divider line, Theme and topic menu, Breadcrumb trail, Sign in button, and white background colour.</figcaption>
   </div>
 </div>
 <section>
