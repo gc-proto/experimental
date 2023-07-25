@@ -25,30 +25,30 @@ title: "Institutional landing page"
 <p>The institutional landing page is composed of several required and optional patterns.</p>
 <h3>Required patterns on an institutional landing page</h3>
 <ul class="mrgn-tp-lg">
-  <li><a href="#">Introduction block</a>
+  <li><a href="#">Introduction block</a> <span class="label label-danger">Required</span>
     <ul>
       <li>Use the applied title of the institution (see <a href="https://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/communications/fip-pcim/reg-eng.asp">Registry of Applied Titles</a>).</li>
       <li>The description should be a very brief summary of what the institution does.</li>
     </ul>
   </li>
-  <li><a href="#">Most requested</a>
+  <li><a href="#">Most requested</a> <span class="label label-danger">Required</span>
     <ul>
       <li>Features institution-specific top tasks.</li>
       <li>If any one of the institution's top tasks are already included as a direct link under Services and information, do not duplicate them here.</li>
     </ul>
   </li>
-  <li><a href="#">Services and information</a>
+  <li><a href="#">Services and information</a> <span class="label label-danger">Required</span>
     <ul>
       <li>The services and information pattern points to the top-level categories of your organization’s information architecture.</li>
     </ul>
   </li>
-  <li><a href="#">Contact us band</a>
+  <li><a href="#">Contact us band</a> <span class="label label-danger">Required</span>
     <ul>
       <li>The first link should be the main contact for your institution. You should limit the band to three contact links.</li>
     </ul>
   </li>
-  <li><a href="#">About the institution</a></li>
-  <li><a href="#">Ministers block</a></li>
+  <li><a href="#">About the institution</a> <span class="label label-danger">Required</span></li>
+  <li><a href="#">Ministers block</a> <span class="label label-danger">Required</span></li>
 </ul>
 <h3>Optional patterns on an institutional landing page</h3>
 <ul class="mrgn-tp-lg">
