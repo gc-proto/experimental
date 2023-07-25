@@ -7,11 +7,16 @@ breadcrumbs:
     link: "https://www.canada.ca/en/government/about/design-system.html"
   - title: "Template and pattern library"
     link: "https://www.canada.ca/en/government/about/design-system/pattern-library.html"
+css:
+- https://design.canada.ca/css/split-h1.css
+- https://design.canada.ca/css/custom.css
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css    
 date: 2017-10-05
 dateModified: 2023-06-26
-description: "The requirements listed in this design manual apply to departments and other portions of the federal public administration as set out in Schedules I, I.1 and II of the Financial Administration Act. As such, in-scope institutions must apply Canada.ca design requirements for all public-facing web sites or digital services."
+description: "Guidance about using the global header on Canada.ca. The global header is at the top of each Government of Canada web page."
 title: "Global header"
 ---
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Global header</span>: <span>Canada.ca design system</span></span></h1>
 <div class="row">
   <div class="col-md-12 pull-left">
     <ul class="list-inline small mrgn-bttm-sm" style="line-height:1.65em" id="list-inline-desktop-only">
