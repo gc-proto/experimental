@@ -1,6 +1,6 @@
 ---
 altLangPage: "https://conception.canada.ca/configurations-conception-communes/en-tete-general.html"
-author: Treasury Board Secretariat of Canada
+auth: Treasury Board Secretariat of Canada
 breadcrumbs:
   - title: "About Canada.ca"
     link:  "https://www.canada.ca/en/government/about.html"
