@@ -32,8 +32,8 @@ title: "Institutional landing page"
         </caption>
         <thead>
           <tr>
-            <th class="col-md-5">Pattern</th>
-            <th class="col-md-5">Pattern</th>
+            <th class="col-md-4">Pattern</th>
+            <th class="col-md-6">ILP Guidance</th>
             <th class="col-md-2">Mandatory</th>
           </tr>
         </thead>
