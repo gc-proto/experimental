@@ -8,7 +8,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-05-04
-dateModified: 2023-07-25
+dateModified: 2023-07-26
 description: "Institutional landing page documentation"
 language: en
 layout: form
