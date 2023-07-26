@@ -28,9 +28,9 @@ title: "Agile methodology"
     </ul>
     <h2 class="h3">Our use of agile</h2>
     <ul>
-      <li><a href="mission-statement.html">Mission statement</a> (Jira: <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-35">CCCSG-35 Mission statement</a>)</li>
-      <li><a href="product-vision-statement.html">Product vision statement</a> (Jira: <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-36">CCCSG-36 Product vision statement</a>)</li>
-      <li><a href="story-points.html">Story points</a> (Jira: <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-37">CCCSG-37 Review Story points</a>)</li>
+      <li><a href="mission-statement.html">Mission statement</a> (<span class="fab fa-jira"></span> <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-35">CCCSG-35 Mission statement</a>)</li>
+      <li><a href="product-vision-statement.html">Product vision statement</a> (<span class="fab fa-jira"></span> <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-36">CCCSG-36 Product vision statement</a>)</li>
+      <li><a href="story-points.html">Story points</a> (<span class="fab fa-jira"></span> <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-37">CCCSG-37 Review Story points</a>)</li>
     </ul>
   </div>
   <div class="col-md-4">
