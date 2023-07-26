@@ -55,15 +55,15 @@ title: "Peter's warrren"
         </li>
       </ul>
     </div>
-    <div class="mrgn-tp-lg">
+    <div class="mrgn-tp-md">
       <ul class="list-unstyled">
         <li>
           <details>
             <summary>On Hold</summary>
             <ul class="mrgn-tp-md fa-ul">
-              <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/style-guide/index.html">Canada.ca Content Style Guide</a></li>
-              <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/architecture/">Content and Information Architecture Specification</a></li>
-              <li><a href="https://test.canada.ca/experimental/prycrane/continuous-improvement/">Update to Designing content page</a></li>
+              <li><span class="fa-li"><span class="far fa-pause-circle"></span></span><a href="https://test.canada.ca/experimental/prycrane/style-guide/index.html">Canada.ca Content Style Guide</a></li>
+              <li><span class="fa-li"><span class="far fa-pause-circle"></span></span><a href="https://test.canada.ca/experimental/prycrane/architecture/">Content and Information Architecture Specification</a></li>
+              <li><span class="fa-li"><span class="far fa-pause-circle"></span></span><a href="https://test.canada.ca/experimental/prycrane/continuous-improvement/">Update to Designing content page</a></li>
             </ul>
           </details>
         </li>
