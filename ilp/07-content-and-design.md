@@ -63,17 +63,17 @@ title: "Institutional landing page"
           </tr>
           <tr>
             <td><a href="#">About the institution</a></td>
-            <td></td>
+            <td>No specific ILP guidance.  Follow the pattern.</td>
             <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
           <tr>
             <td><a href="#">Ministers block</a></td>
-            <td></td>
+            <td>No specific ILP guidance.  Follow the pattern.</td>
             <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
           <tr>
             <td><a href="#">Social media pattern</a></td>
-            <td></td>
+            <td>No specific ILP guidance.  Follow the pattern.</td>
             <td>Optional</td>
           </tr>
           <tr>
