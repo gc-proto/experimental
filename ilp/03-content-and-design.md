@@ -48,12 +48,24 @@ title: "Institutional landing page"
       <li>The first link should be the main contact for your institution. You should limit the band to three contact links.</li>
     </ul>
   </li>
-  <li><a href="#">About the institution</a></li>
-  <li><a href="#">Ministers block</a></li>
+  <li><a href="#">About the institution</a>
+    <ul>
+      <li>No specific ILP guidance.  Follow the pattern.</li>
+    </ul>
+  </li>
+  <li><a href="#">Ministers block</a>
+    <ul>
+      <li>No specific ILP guidance.  Follow the pattern.</li>
+    </ul>
+  </li>
 </ul>
 <h3>Optional patterns on an institutional landing page</h3>
 <ul class="mrgn-tp-lg">
-  <li><a href="#">Social media pattern</a></li>
+  <li><a href="#">Social media pattern</a>
+    <ul>
+      <li>No specific ILP guidance.  Follow the pattern.</li>
+    </ul>
+  </li>
   <li><a href="#">Super task button</a>
     <ul>
       <li>Only include a super task button if there is a specific task that has at least a third of the clickthrough on the institution's home page.</li>
