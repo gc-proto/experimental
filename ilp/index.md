@@ -26,28 +26,52 @@ title: "Institutional landing page documentation"
     <p>Let’s update the documentation for the new institutional landing page by bringing it into the new content model.</p>
     <h2 class="mrgn-tp-lg">Mockups</h2>
     <p>Format for the Content and design section.</p>
-    <ul class="mrgn-tp-lg">
-      <li>Definition list
-        <ul>
-          <li><a href="01-content-and-design.html">Expanded</a></li>
-          <li><a href="04-content-and-design.html">Expanded with labels</a></li>
-          <li><a href="02-content-and-design.html">Closed</a></li>
-          <li><a href="06-content-and-design.html">Closed with labels</a></li>
-        </ul>
+    <ul class="list-unstyled">
+      <li>
+        <details open="open">
+          <summary>List vs. table</summary>
+          <ul class="mrgn-tp-lg">
+            <li>List
+              <ul>
+                <li><a href="03-content-and-design.html">List</a></li>
+              </ul>
+            </li>
+            <li>Table
+              <ul>
+                <li><a href="07-content-and-design.html">Table</a></li>
+              </ul>
+            </li>
+          </ul>
+        </details>
       </li>
-      <li>Basic list
-        <ul>
-          <li><a href="03-content-and-design.html">List</a></li>
-          <li><a href="05-content-and-design.html">List with labels</a></li>
-        </ul>
-      </li>
-      <li>Table
-        <ul>
-          <li><a href="09-content-and-design.html">No Borders</a></li>
-          <li><a href="07-content-and-design.html">Zebra striping</a></li>
-          <li><a href="08-content-and-design.html">Borders</a></li>
-          <li><a href="10-content-and-design.html">With color (just for fun)</a></li>                    
-        </ul>
+      <li>
+        <details>
+          <summary>Workshop</summary>
+          <ul class="mrgn-tp-lg">
+            <li>Definition list
+              <ul>
+                <li><a href="01-content-and-design.html">Expanded</a></li>
+                <li><a href="04-content-and-design.html">Expanded with labels</a></li>
+                <li><a href="02-content-and-design.html">Closed</a></li>
+                <li><a href="06-content-and-design.html">Closed with labels</a></li>
+              </ul>
+            </li>
+            <li>Basic list
+              <ul>
+                <li><a href="03-content-and-design.html">List</a></li>
+                <li><a href="05-content-and-design.html">List with labels</a></li>
+              </ul>
+            </li>
+            <li>Table
+              <ul>
+                <li><a href="09-content-and-design.html">No Borders</a></li>
+                <li><a href="07-content-and-design.html">Zebra striping</a></li>
+                <li><a href="08-content-and-design.html">Borders</a></li>
+                <li><a href="10-content-and-design.html">With color (just for fun)</a></li>
+              </ul>
+            </li>
+          </ul>
+        </details>
       </li>
     </ul>
   </div>
