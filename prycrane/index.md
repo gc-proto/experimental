@@ -7,7 +7,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 - https://test.canada.ca/experimental/prycrane/datatables/css/datatables-fun.css
 date: 2023-01-27
-dateModified: 2023-06-01
+dateModified: 2023-07-26
 description: "Peter's sandbox"
 language: en
 layout: form
@@ -25,12 +25,8 @@ title: "Peter's warrren"
     <h2 class="mrgn-tp-lg h3">Projects</h2>
     <ul>
       <li><a href="https://test.canada.ca/experimental/ilp/">Institutional landing page documentation</a></li>
-      <li><a href="https://test.canada.ca/experimental/prycrane/style-guide/index.html">Canada.ca Content Style Guide</a></li>
-      <li><a href="https://test.canada.ca/experimental/prycrane/breadcrumbs/">Shortening breadcrumbs</a></li>
+      <li><a href="https://test.canada.ca/experimental/content-style-guide/">Canada.ca Content Style Guide</a></li>
       <li><a href="https://test.canada.ca/experimental/prycrane/alt-text/">Alt text and long descriptions</a></li>
-      <li><a href="https://test.canada.ca/experimental/prycrane/pattern-library/">Pattern library tasks</a></li>
-      <li><a href="https://test.canada.ca/experimental/prycrane/continuous-improvement/">Update to Designing content page</a></li>
-      <li><a href="https://test.canada.ca/experimental/prycrane/architecture/">Content and Information Architecture Specification</a></li>
     </ul>
     <h3 class="mrgn-tp-lg h4">DTO asset migration</h3>
     <ul>
@@ -46,12 +42,28 @@ title: "Peter's warrren"
           <details>
             <summary>Done</summary>
             <ul class="mrgn-tp-md fa-ul">
+              <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/breadcrumbs/">Shortening breadcrumbs</a></li>
+              <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/pattern-library/">Pattern library tasks</a></li>
               <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/update-datatables/">DataTable documentation</a></li>
               <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/datatables/">dataTable fun</a></li>
               <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/example/">Visual examples expand and collapse?</a></li>
               <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/contactus/">Contact the Digital Transformation Office</a></li>
               <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/laura/gcweb/">Global header documentation (Principal Publisher)</a></li>
               <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/header-mockups/">Global header mockups</a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </div>
+    <div class="mrgn-tp-lg">
+      <ul class="list-unstyled">
+        <li>
+          <details>
+            <summary>On Hold</summary>
+            <ul class="mrgn-tp-md fa-ul">
+              <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/style-guide/index.html">Canada.ca Content Style Guide</a></li>
+              <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/architecture/">Content and Information Architecture Specification</a></li>
+              <li><a href="https://test.canada.ca/experimental/prycrane/continuous-improvement/">Update to Designing content page</a></li>
             </ul>
           </details>
         </li>
