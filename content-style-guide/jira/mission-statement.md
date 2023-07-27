@@ -24,10 +24,10 @@ title: "Mission statement"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Mission statement</span>: <span>Agile methodology</span></span></h1>
 <p>The mission statement is a short description that summarizes the whole agile project at large.  It includes one or two strong sentences that talk about why the team exists, the value it brings to people, the core beliefs that drive its work, and what makes it unique.</p>
+<h2 class="h3">Our Mission statement</h2>
 <blockquote class="mrgn-tp-lg mrgn-bttm-lg">
   <p>Provide public servants with a current writing guide to create digital content that is easy to find, use and understand.</p>
 </blockquote>
-<h2 class="h3">Our Mission statement</h2>
 <div class="mrgn-tp-lg">
   <ul class=" fa-ul">
     <li><span class="fa-li"><span class="fab fa-jira fa-lg"></span></span><a href="https://canada-style-guide.atlassian.net/browse/CCCSG-35">CCCSG-35</a></li>
