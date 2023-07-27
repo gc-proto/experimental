@@ -260,32 +260,33 @@ subject: Design system
             <h4>Large screen layout for standard pages</h4>
           </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen">
-          <figcaption class="small mrgn-tp-md"><p>The Global header is contained in 4 rows.</p>
+          <figcaption class="small mrgn-tp-md">
+            <p>The Global header is contained in 4 rows.</p>
             <table class="table">
               <caption class="wb-inv">
               Large screen layout for standard pages
               </caption>
               <thead>
                 <tr>
-                  <th>Element</th>
                   <th>Row</th>
+                  <th>Element</th>
                   <th>Position</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Language toggle</td>
                   <td>1</td>
+                  <td>Language toggle</td>
                   <td>Top-right</td>
                 </tr>
                 <tr>
-                  <td>Government of Canada signature</td>
                   <td>2</td>
+                  <td>Government of Canada signature</td>
                   <td>Left</td>
                 </tr>
                 <tr>
-                  <td>Site search box</td>
                   <td>2</td>
+                  <td>Site search box</td>
                   <td>Right</td>
                 </tr>
                 <tr>
@@ -294,18 +295,78 @@ subject: Design system
                   <td>-</td>
                 </tr>
                 <tr>
-                  <td>Theme and topic menu</td>
                   <td>3</td>
+                  <td>Theme and topic menu</td>
                   <td>Left</td>
                 </tr>
                 <tr>
-                  <td>Sign in button</td>
                   <td>3</td>
+                  <td>Sign in button</td>
                   <td>Right</td>
                 </tr>
                 <tr>
-                  <td>Breadcrumb trail</td>
                   <td>4</td>
+                  <td>Breadcrumb trail</td>
+                  <td>Bottom-left</td>
+                </tr>
+              </tbody>
+            </table>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="pattern-demo mrgn-tp-lg">
+        <figure>
+          <figcaption>
+            <h4>Small screen layout for standard pages</h4>
+          </figcaption>
+          <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a small screen">
+          <figcaption class="small mrgn-tp-md">
+            <p>The Global header is contained in 4 rows.</p>
+            <table class="table">
+              <caption class="wb-inv">
+              Small screen layout for standard pages
+              </caption>
+              <thead>
+                <tr>
+                  <th>Row</th>
+                  <th>Element</th>
+                  <th>Position</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Government of Canada signature</td>
+                  <td>Left</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Language toggle</td>
+                  <td>Top-right</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Site search box</td>
+                  <td>Right</td>
+                </tr>
+                <tr>
+                  <td>Divider line</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Theme and topic menu</td>
+                  <td>Left</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Sign in button</td>
+                  <td>Right</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Breadcrumb trail</td>
                   <td>Bottom-left</td>
                 </tr>
               </tbody>
