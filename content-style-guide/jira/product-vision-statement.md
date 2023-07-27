@@ -27,7 +27,7 @@ title: "Product vision statement"
 <blockquote class="mrgn-tp-lg mrgn-bttm-lg">
   <p>Support public servants in writing accessible, inclusive and cohesive digital content that inspires trust.</p>
 </blockquote>
-<h2 class="h3">Product vision statement</h2>
+<h2 class="h3">Our product vision statement</h2>
 <div class="mrgn-tp-lg">
   <ul class=" fa-ul">
     <li><span class="fa-li"><span class="fab fa-jira fa-lg"></span></span><a href="https://canada-style-guide.atlassian.net/browse/CCCSG-36">CCCSG-36</a></li>
