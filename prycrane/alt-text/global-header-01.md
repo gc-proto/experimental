@@ -257,10 +257,10 @@ subject: Design system
       <div class="pattern-demo mrgn-tp-md">
         <figure>
           <figcaption>
-            <h4 class="mrgn-bttm-md">Large screen layout for standard pages</h4>
+            <h4 class="mrgn-bttm-lg mrgn-tp-md">Large screen layout for standard pages</h4>
           </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen">
-          <figcaption class="small mrgn-tp-md">
+          <figcaption class="small mrgn-tp-lg">
             <p>The Global header is contained in 5 rows.</p>
             <table class="table">
               <caption class="wb-inv">
@@ -317,10 +317,10 @@ subject: Design system
       <div class="pattern-demo mrgn-tp-md">
         <figure>
           <figcaption>
-            <h4 class="mrgn-bttm-md">Small screen layout for standard pages</h4>
+            <h4 class="mrgn-bttm-lg mrgn-tp-md">Small screen layout for standard pages</h4>
           </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a small screen">
-          <figcaption class="small mrgn-tp-md">
+          <figcaption class="small mrgn-tp-lg">
             <p>The Global header is contained in 5 rows.</p>
             <table class="table">
               <caption class="wb-inv">
