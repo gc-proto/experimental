@@ -14,7 +14,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-05-08
-dateModified: 2023-07-24
+dateModified: 2023-07-27
 description: "Institutional landing page"
 language: en
 layout: without-h1
@@ -25,6 +25,7 @@ title: "Institutional landing page"
 <h2>Content and design</h2>
 <p>The institutional landing page is composed of several required and optional patterns.</p>
 <div class="row mrgn-tp-lg">
+  <div class="col-md-12">
     <div class="panel panel-default">
       <table class="table table-striped" id="ilp-01" aria-live="polite">
         <caption class="wb-inv">
@@ -38,41 +39,41 @@ title: "Institutional landing page"
           </tr>
         </thead>
         <tbody>
-          <tr class="success">
+          <tr>
             <td><a href="#">Introduction block</a></td>
             <td><p>Use the applied title of the institution (see Registry of Applied Titles).</p>
               <p>The description should be a very brief summary of what the institution does.</p></td>
-            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
+            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
-          <tr class="success">
+          <tr>
             <td><a href="#">Most requested</a></td>
             <td><p>Features institution-specific top tasks.</p>
               <p>If any one of the institution's top tasks are already included as a direct link under Services and information, do not duplicate them here.</p></td>
-            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
+            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
-          <tr class="success">
+          <tr>
             <td><a href="#">Services and information</a></td>
             <td><p>The services and information pattern points to the top-level categories of your organization’s information architecture.</p></td>
             <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
-          <tr class="success">
+          <tr>
             <td><a href="#">Contact us band</a></td>
             <td><p>The first link should be the main contact for your institution. You should limit the band to three contact links.</p></td>
-            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
+            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
-          <tr class="success">
+          <tr>
             <td><a href="#">About the institution</a></td>
-            <td></td>
-            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
+            <td>No specific ILP guidance.  Follow the pattern.</td>
+            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
-          <tr class="success">
+          <tr>
             <td><a href="#">Ministers block</a></td>
-            <td></td>
-            <td class="text-center"><span class="far fa-check-circle"></span><span class="wb-inv"> Required</span></td>
+            <td>No specific ILP guidance.  Follow the pattern.</td>
+            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
           </tr>
           <tr>
             <td><a href="#">Social media pattern</a></td>
-            <td></td>
+            <td>No specific ILP guidance.  Follow the pattern.</td>
             <td>Optional</td>
           </tr>
           <tr>
@@ -89,4 +90,5 @@ title: "Institutional landing page"
         </tbody>
       </table>
     </div>
+  </div>
 </div>
