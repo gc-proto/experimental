@@ -254,7 +254,7 @@ subject: Design system
   <div class="col-md-10">
     <details class="mrgn-tp-lg" open="open">
       <summary class="bg-info">Standard pages</summary>
-      <div class="pattern-demo mrgn-tp-md">
+      <div class="pattern-demo1 mrgn-tp-md">
         <figure>
           <figcaption>
             <h4 class="mrgn-bttm-lg mrgn-tp-md">Large screen layout for standard pages</h4>
