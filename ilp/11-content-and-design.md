@@ -26,7 +26,7 @@ title: "Institutional landing page"
 <p>The institutional landing page is composed of several required and optional patterns.</p>
 <div class="row mrgn-tp-lg">
   <div class="col-md-8">
-    <table class="table" id="ilp-01" aria-live="polite">
+    <table class="table table-striped" id="ilp-01" aria-live="polite">
       <caption class="wb-inv">
       Content and design patterns for Institutional Landing Page
       </caption>
