@@ -261,7 +261,7 @@ subject: Design system
           </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen">
           <figcaption class="small mrgn-tp-lg">
-            <p>The Global header is contained in 5 rows.</p>
+            <p>The elements of the Global header are contained in 5 rows.</p>
             <table class="table">
               <caption class="wb-inv">
               Large screen layout for standard pages
@@ -321,7 +321,7 @@ subject: Design system
           </figcaption>
           <img src="./images/01-sign-in-mobile-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a small screen">
           <figcaption class="small mrgn-tp-lg">
-            <p>The Global header is contained in 5 rows.</p>
+            <p>The elements of the Global header are contained in 5 rows.</p>
             <table class="table">
               <caption class="wb-inv">
               Small screen layout for standard pages
