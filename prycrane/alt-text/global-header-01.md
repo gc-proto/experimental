@@ -319,7 +319,7 @@ subject: Design system
           <figcaption>
             <h4 class="mrgn-bttm-lg mrgn-tp-md">Small screen layout for standard pages</h4>
           </figcaption>
-          <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a small screen">
+          <img src="./images/01-sign-in-mobile-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a small screen">
           <figcaption class="small mrgn-tp-lg">
             <p>The Global header is contained in 5 rows.</p>
             <table class="table">
@@ -372,22 +372,6 @@ subject: Design system
               </tbody>
             </table>
           </figcaption>
-        </figure>
-      </div>
-      <div class="pattern-demo mrgn-tp-lg">
-        <figure>
-          <figcaption><b>Global header – small screen</b></figcaption>
-          <img src="./images/01-sign-in-mobile-en.jpg" class="img-responsive" alt="">
-          <details class="mrgn-tp-md">
-            <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: global header – small screen</summary>
-            <p class="mrgn-tp-lg">On small screens, the global header on a standard page has 4 rows:</p>
-            <ol>
-              <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner</li>
-              <li>Site search box directly below, it spans the entire row</li>
-              <li>Below a divider line, the theme and topic menu is on the left, the optional Sign in button is on the right</li>
-              <li>Breadcrumb on the left</li>
-            </ol>
-          </details>
         </figure>
       </div>
     </details>
