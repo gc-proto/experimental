@@ -261,7 +261,7 @@ subject: Design system
           </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen">
           <figcaption class="small mrgn-tp-md">
-            <p>The Global header is contained in 4 rows.</p>
+            <p>The Global header is contained in 5 rows.</p>
             <table class="table">
               <caption class="wb-inv">
               Large screen layout for standard pages
@@ -290,22 +290,22 @@ subject: Design system
                   <td>Right</td>
                 </tr>
                 <tr>
-              <td>-</td>       <td>Divider line</td>
-               
-                  <td>-</td>
+                  <td>3</td>
+                  <td>Divider line</td>
+                  <td>Full width</td>
                 </tr>
                 <tr>
-                  <td>3</td>
+                  <td>4</td>
                   <td>Theme and topic menu</td>
                   <td>Left</td>
                 </tr>
                 <tr>
-                  <td>3</td>
+                  <td>4</td>
                   <td>Sign in button</td>
                   <td>Right</td>
                 </tr>
                 <tr>
-                  <td>4</td>
+                  <td>5</td>
                   <td>Breadcrumb trail</td>
                   <td>Bottom-left</td>
                 </tr>
@@ -321,7 +321,7 @@ subject: Design system
           </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a small screen">
           <figcaption class="small mrgn-tp-md">
-            <p>The Global header is contained in 4 rows.</p>
+            <p>The Global header is contained in 5 rows.</p>
             <table class="table">
               <caption class="wb-inv">
               Small screen layout for standard pages
@@ -350,22 +350,22 @@ subject: Design system
                   <td>Right</td>
                 </tr>
                 <tr>
-                  <td>-</td>         <td>Divider line</td>
-         
-                  <td>-</td>
+                  <td>3</td>
+                  <td>Divider line</td>
+                  <td>Full width</td>
                 </tr>
                 <tr>
-                  <td>3</td>
+                  <td>4</td>
                   <td>Theme and topic menu</td>
                   <td>Left</td>
                 </tr>
                 <tr>
-                  <td>3</td>
+                  <td>4</td>
                   <td>Sign in button</td>
                   <td>Right</td>
                 </tr>
                 <tr>
-                  <td>4</td>
+                  <td>5</td>
                   <td>Breadcrumb trail</td>
                   <td>Bottom-left</td>
                 </tr>
