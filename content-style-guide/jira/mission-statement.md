@@ -23,6 +23,7 @@ pageclass: cnt-wdth-lmtd
 title: "Story points"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Mission statement</span>: <span>Agile methodology</span></span></h1>
+<p>The mission statement is a short description that summarizes the whole agile project at large.  It includes one or two strong sentences that talk about why the team exists, the value it brings to people, the core beliefs that drive its work, and what makes it unique.</p>
 <blockquote class="mrgn-tp-lg mrgn-bttm-lg">
   <p>Provide public servants with a current writing guide to create digital content that is easy to find, use and understand.</p>
 </blockquote>
