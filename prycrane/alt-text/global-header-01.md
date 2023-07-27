@@ -250,7 +250,7 @@ subject: Design system
   <li><a href="breadcrumb-trail.html">Breadcrumb trail</a></li>
 </ul>
 <h3>Visual examples</h3>
-<div class="row">
+<div class="row mrgn-tp-lg">
   <div class="col-md-10">
     <ul class="list-unstyled">
       <li>
