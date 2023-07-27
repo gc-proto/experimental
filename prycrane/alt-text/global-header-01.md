@@ -290,8 +290,8 @@ subject: Design system
                   <td>Right</td>
                 </tr>
                 <tr>
-                  <td>Divider line</td>
-                  <td>-</td>
+              <td>-</td>       <td>Divider line</td>
+               
                   <td>-</td>
                 </tr>
                 <tr>
@@ -350,8 +350,8 @@ subject: Design system
                   <td>Right</td>
                 </tr>
                 <tr>
-                  <td>Divider line</td>
-                  <td>-</td>
+                  <td>-</td>         <td>Divider line</td>
+         
                   <td>-</td>
                 </tr>
                 <tr>
