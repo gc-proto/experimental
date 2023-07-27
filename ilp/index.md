@@ -29,7 +29,21 @@ title: "Institutional landing page documentation"
     <ul class="list-unstyled">
       <li>
         <details open="open">
-          <summary>List vs. table</summary>
+          <summary>Team review 1</summary>
+          <h3>Fearful symmetry</h3>
+          <p>The content and design section will go in a table</p>
+          <ul class="mrgn-tp-lg">
+            <li><a href="07-content-and-design.html">Short-width table with borders</a></li>
+            <li><a href="11-content-and-design.html">Short-width table without borders</a></li>
+            <li><a href="12-content-and-design.html">Wide-width table with borders</a></li>
+            <li><a href="13-content-and-design.html">Wide-width table without borders</a></li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>Team review 1 (2023-04-27)</summary>
+          <h3>List vs. table</h3>
           <ul class="mrgn-tp-lg">
             <li>List
               <ul>
