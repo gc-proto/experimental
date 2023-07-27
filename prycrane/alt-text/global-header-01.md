@@ -257,7 +257,7 @@ subject: Design system
       <div class="pattern-demo mrgn-tp-lg">
         <figure>
           <figcaption>
-            <h4>Large screen layout for standard pages</h4>
+            <h4 class="mrgn-bttm-md">Large screen layout for standard pages</h4>
           </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen">
           <figcaption class="small mrgn-tp-md">
@@ -317,7 +317,7 @@ subject: Design system
       <div class="pattern-demo mrgn-tp-lg">
         <figure>
           <figcaption>
-            <h4>Small screen layout for standard pages</h4>
+            <h4 class="mrgn-bttm-md">Small screen layout for standard pages</h4>
           </figcaption>
           <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a small screen">
           <figcaption class="small mrgn-tp-md">
