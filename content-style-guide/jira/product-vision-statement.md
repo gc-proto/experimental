@@ -20,7 +20,7 @@ showFeedback: false
 nomenu: true
 noReportProblem: true
 pageclass: cnt-wdth-lmtd
-title: "Story points"
+title: "Product vision statement"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Product vision statement</span>: <span>Agile methodology</span></span></h1>
 <p>A product vision statement serves as a roadmap for a project, an inspiring reminder of what we’re working toward.  It is a short description of what you will do, specifically directed towards the team and project goals.</p>
