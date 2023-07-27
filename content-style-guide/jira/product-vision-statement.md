@@ -24,10 +24,10 @@ title: "Product vision statement"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Product vision statement</span>: <span>Agile methodology</span></span></h1>
 <p>A product vision statement serves as a roadmap for a project, an inspiring reminder of what we’re working toward.  It's a short description of what you will do, specifically directed towards the team and project goals.</p>
+<h2 class="h3">Our product vision statement</h2>
 <blockquote class="mrgn-tp-lg mrgn-bttm-lg">
   <p>Support public servants in writing accessible, inclusive and cohesive digital content that inspires trust.</p>
 </blockquote>
-<h2 class="h3">Our product vision statement</h2>
 <div class="mrgn-tp-lg">
   <ul class=" fa-ul">
     <li><span class="fa-li"><span class="fab fa-jira fa-lg"></span></span><a href="https://canada-style-guide.atlassian.net/browse/CCCSG-36">CCCSG-36</a></li>
