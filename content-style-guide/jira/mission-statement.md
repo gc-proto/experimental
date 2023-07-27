@@ -11,7 +11,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-07-21
 dateModified: 2023-07-21
-description: "Mission statement"
+description: "Our Mission statement"
 lang: en
 layout: form
 share: false
