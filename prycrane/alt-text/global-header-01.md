@@ -314,7 +314,7 @@ subject: Design system
           </figcaption>
         </figure>
       </div>
-      <div class="pattern-demo mrgn-tp-md">
+      <div class="pattern-demo mrgn-tp-lg">
         <figure>
           <figcaption>
             <h4 class="mrgn-bttm-lg mrgn-tp-md">Small screen layout for standard pages</h4>
