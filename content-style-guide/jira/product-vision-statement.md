@@ -23,6 +23,9 @@ pageclass: cnt-wdth-lmtd
 title: "Story points"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Product vision statement</span>: <span>Agile methodology</span></span></h1>
+<blockquote>
+  <p>Support public servants in writing accessible, inclusive and cohesive digital content that inspires trust.</p>
+<blockquote class="mrgn-tp-lg mrgn-bttm-lg">
 <ul class="mrgn-tp-lg fa-ul">
   <li><span class="fa-li"><span class="fab fa-jira fa-lg"></span></span><a href="https://canada-style-guide.atlassian.net/browse/CCCSG-36">CCCSG-36</a></li>
 </ul>
