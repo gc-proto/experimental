@@ -14,7 +14,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-05-08
-dateModified: 2023-07-24
+dateModified: 2023-07-27
 description: "Institutional landing page"
 language: en
 layout: without-h1
