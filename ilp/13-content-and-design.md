@@ -32,8 +32,8 @@ title: "Institutional landing page"
       </caption>
       <thead>
         <tr>
-          <th class="col-md-4">Pattern</th>
-          <th class="col-md-6">ILP Guidance</th>
+          <th class="col-md-3">Pattern</th>
+          <th class="col-md-7">ILP Guidance</th>
           <th class="col-md-2">Required</th>
         </tr>
       </thead>
@@ -73,18 +73,18 @@ title: "Institutional landing page"
         <tr>
           <td><a href="#">Social media pattern</a></td>
           <td>No specific ILP guidance.  Follow the pattern.</td>
-          <td>Optional</td>
+          <td class="text-center">Optional</td>
         </tr>
         <tr>
           <td><a href="#">Super task button</a></td>
           <td><p>Only include a super task button if there is a specific task that has at least a third of the clickthrough on the institution's home page.</p></td>
-          <td>Optional</td>
+          <td class="text-center">Optional</td>
         </tr>
         <tr>
           <td><a href="#">Flexible space</a></td>
           <td><p>The bottom portion of the page above the footer is an optional content area.</p>
             <p>The default for this template is the latest news and context-specific features patterns.</p></td>
-          <td>Optional</td>
+          <td class="text-center">Optional</td>
         </tr>
       </tbody>
     </table>
