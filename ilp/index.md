@@ -29,7 +29,7 @@ title: "Institutional landing page documentation"
     <ul class="list-unstyled">
       <li>
         <details open="open">
-          <summary>Team review 2</summary>
+          <summary>Team review 2 (2023-04-28)</summary>
           <h3>Fearful symmetry</h3>
           <p>The content and design section will go in a table with zebra striping.</p>
           <ul class="mrgn-tp-lg">
