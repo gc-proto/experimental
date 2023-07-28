@@ -33,8 +33,8 @@ title: "Institutional landing page documentation"
           <h3>Fearful symmetry</h3>
           <p>The content and design section will go in a table with zebra striping.</p>
           <ul class="mrgn-tp-lg">
-            <li><a href="07-content-and-design.html">Short-width table with borders</li>
-            <li><a href="11-content-and-design.html">Short-width table without border</li>
+            <li><a href="07-content-and-design.html">Short-width table with borders</a></li>
+            <li><a href="11-content-and-design.html">Short-width table without border</a></li>
             <li><a href="12-content-and-design.html">Wide-width table with border</a></li>
             <li><a href="13-content-and-design.html">Wide-width table without border</a></li>
           </ul>
