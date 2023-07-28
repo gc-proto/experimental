@@ -25,7 +25,7 @@ subject: Design system
 <div class="row">
   <div class="col-md-12 pull-left">
     <ul class="list-inline small mrgn-bttm-sm" id="list-inline-desktop-only">
-      <li class="mrgn-rght-lg">Last updated:  {{ page.dateModified }}</li>
+      <li class="mrgn-rght-lg">Last updated: 2023-06-26</li>
     </ul>
   </div>
 </div>
@@ -39,10 +39,10 @@ subject: Design system
   <li>allows navigation across the broad range of services and information offered</li>
 </ul>
 <p><strong>2023 design update</strong>: We’ve recently updated this pattern as part of a new navigation strategy coming out of the Wayfinding research project. To find out more about this project, visit <a href="#research">Research and rationale</a>.</p>
-<div class="col-md-10 mrgn-tp-lg mrgn-bttm-lg">
-  <div class="pattern-demo">
-    <figure class="mrgn-bttm-sm"><img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of global header"></figure>
-    <figcaption class="small mrgn-tp-md">The <strong>Global header</strong> contains the Government of Canada signature, Language toggle, Site search box, Divider line, Theme and topic menu, Breadcrumb trail, and Sign in button on a white background.</figcaption>
+<div class="row mrgn-tp-lg mrgn-bttm-lg">
+  <div class="col-md-10">
+    <figure><img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of global header" /></figure>
+    <figcaption class="small">The <strong>Global header</strong> contains the Government of Canada signature, Language toggle, Site search box, Divider line, Theme and topic menu, Breadcrumb trail, and Sign in button on a white background.</figcaption>
   </div>
 </div>
 <section>
@@ -240,7 +240,7 @@ subject: Design system
 <p>Don’t customize the mandatory elements of the global header, beyond what is recommended in the guidance for each. Consistency in this space is essential for building brand awareness and user trust.</p>
 <p>For example, the flag symbol in the Government of Canada signature should always be the proper red and the first breadcrumb link should always be labeled “Canada.ca” and point to the Canada.ca home page.</p>
 <h2 id="content">Content and design</h2>
-<p>Find content and design specifications and visual examples.</p>
+<p>Find content and design specifications and visual examples for the individual elements in the Global header.</p>
 <ul>
   <li><a href="signature.html">Government of Canada signature</a></li>
   <li><a href="language-toggle.html">Language toggle</a></li>
@@ -250,192 +250,308 @@ subject: Design system
   <li><a href="breadcrumb-trail.html">Breadcrumb trail</a></li>
 </ul>
 <h3>Visual examples</h3>
-<details class="col-md-10" open="open">
-  <summary class="bg-info">Standard pages</summary>
-  <div class="pattern-demo1 mrgn-tp-md">
-    <figure>
-      <figcaption>
-        <h4 class="mrgn-bttm-lg">Large screen layout for standard pages</h4>
-      </figcaption>
-      <img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen">
-      <figcaption class="small mrgn-tp-lg">
-        <p>The elements of the Global header are contained in 5 rows.</p>
-        <table class="table small">
-          <caption class="wb-inv">
-          Large screen layout for standard pages
-          </caption>
-          <thead>
-            <tr>
-              <th>Row</th>
-              <th>Element</th>
-              <th>Position</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Language toggle</td>
-              <td>Top-right</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Government of Canada signature</td>
-              <td>Left</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Site search box</td>
-              <td>Right</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Divider line</td>
-              <td>Full width</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Theme and topic menu</td>
-              <td>Left</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Sign in button</td>
-              <td>Right</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Breadcrumb trail</td>
-              <td>Bottom-left</td>
-            </tr>
-          </tbody>
-        </table>
-      </figcaption>
-    </figure>
+<ul>
+  <li><a href="#standard">Standard pages</a></li>
+  <li><a href="#transactional">Transactional pages</a></li>
+  <li><a href="#campaign">Campaign pages</a></li>
+</ul>
+<section>
+  <h4 id="standard">Standard pages</h4>
+  <h5>Large screen layout for standard pages</h5>
+  <div class="row mrgn-tp-md mrgn-bttm-lg">
+    <div class="col-md-10">
+      <figure><img src="./images/01-sign-in-desktop-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a large screen" />
+        <figcaption class="small">
+          <p>The elements of the Global header are contained in 5 rows.</p>
+          <table class="table small">
+            <caption class="wb-inv">
+            Large screen layout for standard pages
+            </caption>
+            <thead>
+              <tr>
+                <th>Row</th>
+                <th>Element</th>
+                <th>Position</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Language toggle</td>
+                <td>Top-right</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Government of Canada signature</td>
+                <td>Left</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Site search box</td>
+                <td>Right</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Divider line</td>
+                <td>Full width</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Theme and topic menu</td>
+                <td>Left</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Sign in button</td>
+                <td>Right</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Breadcrumb trail</td>
+                <td>Bottom-left</td>
+              </tr>
+            </tbody>
+          </table>
+        </figcaption>
+      </figure>
+      <h5 class="mrgn-tp-lg">Small screen layout for standard pages</h5>
+      <div class="mrgn-tp-md">
+        <figure><img src="./images/01-sign-in-mobile-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a small screen" />
+          <figcaption class="small">
+            <p>The elements of the Global header are contained in 5 rows.</p>
+            <table class="table small">
+              <caption class="wb-inv">
+              Small screen layout for standard pages
+              </caption>
+              <thead>
+                <tr>
+                  <th>Row</th>
+                  <th>Element</th>
+                  <th>Position</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Government of Canada signature</td>
+                  <td>Left</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Language toggle</td>
+                  <td>Top-right</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Site search box</td>
+                  <td>Right</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Divider line</td>
+                  <td>Full width</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Theme and topic menu</td>
+                  <td>Left</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Sign in button</td>
+                  <td>Right</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Breadcrumb trail</td>
+                  <td>Bottom-left</td>
+                </tr>
+              </tbody>
+            </table>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
   </div>
-  <div class="pattern-demo1 mrgn-tp-lg">
-    <figure>
-      <figcaption>
-        <h4 class="mrgn-bttm-lg">Small screen layout for standard pages</h4>
-      </figcaption>
-      <img src="./images/01-sign-in-mobile-en.jpg" class="img-responsive" alt="Screenshot of Global header for standard page on a small screen">
-      <figcaption class="small mrgn-tp-lg">
-        <p>The elements of the Global header are contained in 5 rows.</p>
-        <table class="table small">
-          <caption class="wb-inv">
-          Small screen layout for standard pages
-          </caption>
-          <thead>
-            <tr>
-              <th>Row</th>
-              <th>Element</th>
-              <th>Position</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Government of Canada signature</td>
-              <td>Left</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Language toggle</td>
-              <td>Top-right</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Site search box</td>
-              <td>Right</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Divider line</td>
-              <td>Full width</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Theme and topic menu</td>
-              <td>Left</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Sign in button</td>
-              <td>Right</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Breadcrumb trail</td>
-              <td>Bottom-left</td>
-            </tr>
-          </tbody>
-        </table>
-      </figcaption>
-    </figure>
+</section>
+<section>
+  <h4 id="transactional">Transactional pages</h4>
+  <h5>Large screen layout for transactional pages</h5>
+  <div class="row mrgn-tp-md mrgn-bttm-lg">
+    <div class="col-md-10">
+      <figure class="small"><img src="./images/01-global-header-transactional-desktop-en.png" class="img-responsive" alt="Screenshot of Global header for transactional page on a large screen" />
+        <figcaption>
+          <p>The elements of the Global header are contained in 3 rows.</p>
+          <table class="table small">
+            <caption class="wb-inv">
+            Large screen layout for Transactional pages
+            </caption>
+            <thead>
+              <tr>
+                <th>Row</th>
+                <th>Element</th>
+                <th>Position</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Language toggle</td>
+                <td>Top-right</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Government of Canada signature</td>
+                <td>Left</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Divider line</td>
+                <td>Full width</td>
+              </tr>
+            </tbody>
+          </table>
+        </figcaption>
+      </figure>
+      <h5 class="mrgn-tp-lg">Small screen layout for Transactional pages</h5>
+      <div class="mrgn-tp-md">
+        <figure><img src="./images/01-global-header-transactional-small-en.png" class="img-responsive" alt="Screenshot of Global header for transactional page on a small screen" />
+          <figcaption class="small">
+            <p>The elements of the Global header are contained in 2 rows.</p>
+            <table class="table small">
+              <caption class="wb-inv">
+              Large screen layout for Transactional pages
+              </caption>
+              <thead>
+                <tr>
+                  <th>Row</th>
+                  <th>Element</th>
+                  <th>Position</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Language toggle</td>
+                  <td>Top-right</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Government of Canada signature</td>
+                  <td>Top-left</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Divider line</td>
+                  <td>Full width</td>
+                </tr>
+              </tbody>
+            </table>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
   </div>
-</details>
-<details class="col-md-10" open="open">
-  <summary class="bg-info">Transactional pages</summary>
-  <div class="pattern-demo mrgn-tp-lg">
-    <figure>
-      <figcaption><b>Minimum global header - large screen</b></figcaption>
-      <img src="./images/01-global-header-transactional-desktop-en.png" class="img-responsive" alt="">
-      <details class="mrgn-tp-md">
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - large screen</summary>
-        <p class="mrgn-tp-lg">On large screens, the minimum global header on a transactional page has 2 rows:</p>
-        <ol>
-          <li>Language toggle in the top-right corner</li>
-          <li>Government of Canada signature in the top-left corner with a divider line underneath</li>
-        </ol>
-      </details>
-    </figure>
+</section>
+<section>
+  <h4 id="campaign">Campaign pages</h4>
+  <h5>Large screen layout for Campaign pages</h5>
+  <div class="row mrgn-tp-md mrgn-bttm-lga">
+    <div class="col-md-10">
+      <figure><img src="./images/01-global-header-campaign-desktop-en.png" class="img-responsive" alt="Screenshot of Global header for campaign page on a large screen" />
+        <figcaption class="small">
+          <p>The elements of the Global header are contained in 4 rows.</p>
+          <table class="table small">
+            <caption class="wb-inv">
+            Large screen layout for Campaign pages
+            </caption>
+            <thead>
+              <tr>
+                <th>Row</th>
+                <th>Element</th>
+                <th>Position</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Language toggle</td>
+                <td>Top-right</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Government of Canada signature</td>
+                <td>Left</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Site search box</td>
+                <td>Right</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Divider line</td>
+                <td>Full width</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Breadcrumb trail</td>
+                <td>Left</td>
+              </tr>
+            </tbody>
+          </table>
+        </figcaption>
+      </figure>
+      <h5 class="mrgn-tp-lg">Small screen layout for Campaign pages</h5>
+      <div class="mrgn-tp-md">
+        <figure><img src="./images/01-global-header-campaign-small-en.png" class="img-responsive" alt="Screenshot of Global header for campaign page on a small screen" />
+          <figcaption class="small">
+            <p>The elements of the Global header are contained in 3 rows.</p>
+            <table class="table small">
+              <caption class="wb-inv">
+              Large screen layout for Transactional pages
+              </caption>
+              <thead>
+                <tr>
+                  <th>Row</th>
+                  <th>Element</th>
+                  <th>Position</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Language toggle</td>
+                  <td>Top-right</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Government of Canada signature</td>
+                  <td>Top-left</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Site search box</td>
+                  <td>Right</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Divider line</td>
+                  <td>Full width</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Breadcrumb trail</td>
+                  <td>Left</td>
+                </tr>
+              </tbody>
+            </table>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
   </div>
-  <div class="pattern-demo mrgn-tp-lg">
-    <figure>
-      <figcaption><b>Minimum global header - small screen</b></figcaption>
-      <img src="./images/01-global-header-transactional-small-en.png" class="img-responsive" alt="">
-      <details class="mrgn-tp-md">
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - small screen</summary>
-        <p class="mrgn-tp-lg">On small screens, the minimum global header on a transactional page has a single row:</p>
-        <ol>
-          <li>Government of Canada signature in the top-left corner, language toggle in the top-right corner, with a divider line underneath</li>
-        </ol>
-      </details>
-    </figure>
-  </div>
-</details>
-<details class="col-md-10" open="open">
-  <summary class="bg-info">Campaign pages</summary>
-  <div class="pattern-demo mrgn-tp-lg">
-    <figure>
-      <figcaption><b>Minimum global header - large screen</b></figcaption>
-      <img src="./images/01-global-header-campaign-desktop-en.png" class="img-responsive" alt="">
-      <details class="mrgn-tp-md">
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - large screen</summary>
-        <p class="mrgn-tp-lg">On large screens, the minimum global header on a campaign page has 3 rows:</p>
-        <ol>
-          <li>Language toggle in the top-right corner</li>
-          <li>Government of Canada signature in the top-left corner, site search box on the right</li>
-          <li>Below a divider line, the breadcrumb on the left</li>
-        </ol>
-      </details>
-    </figure>
-  </div>
-  <div class="pattern-demo mrgn-tp-lg">
-    <figure>
-      <figcaption><b>Minimum global header - small screen</b></figcaption>
-      <img src="./images/01-global-header-campaign-small-en.png" class="img-responsive" alt="">
-      <details class="mrgn-tp-md">
-        <summary class="wb-toggle small" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Image description: minimum global header - small screen</summary>
-        <p class="mrgn-tp-lg">On small screens, the minimum global header on a campaign page has 3 rows:</p>
-        <ol>
-          <li>Government of Canada signature in the top-left corner, language toggle on the far right</li>
-          <li>Site search box directly below, it spans the entire row</li>
-          <li>Below a divider line, the breadcrumb on the left</li>
-        </ol>
-      </details>
-    </figure>
-  </div>
-</details>
+</section>
 <h2 id="implementation">How to implement</h2>
 <p>Find working examples and code for implementing the header.</p>
 <h3>GCweb (WET) theme implementation reference</h3>
@@ -489,9 +605,9 @@ subject: Design system
 <h4>Wayfinding on Canada.ca project</h4>
 <p>We updated the global header for Canada.ca to align with a new overall navigation strategy that came out of the Wayfinding research project.</p>
 <ul>
-  <li><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca">Wayfinding on Canada.ca research summary</a><br>
+  <li><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca">Wayfinding on Canada.ca research summary</a><br />
     Explains the context of the research and the insights that drove the design updates</li>
-  <li><a href="https://blog.canada.ca/2022/12/21/wayfinding-research-project">Wayfinding research project improves our approach to navigation on Canada.ca</a><br>
+  <li><a href="https://blog.canada.ca/2022/12/21/wayfinding-research-project">Wayfinding research project improves our approach to navigation on Canada.ca</a><br />
     Blog post explaining the changes that are being made to the Canada.ca design, and how they are being implemented</li>
 </ul>
 <h3>Policy rationale</h3>
