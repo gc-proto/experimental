@@ -34,8 +34,8 @@ title: "Institutional landing page"
         <thead>
           <tr>
             <th class="col-md-3">Pattern</th>
-            <th class="col-md-8">ILP Guidance</th>
-            <th class="col-md-1">Required</th>
+            <th class="col-md-7">ILP Guidance</th>
+            <th class="col-md-2 text-center">Required</th>
           </tr>
         </thead>
         <tbody>
