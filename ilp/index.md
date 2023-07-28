@@ -8,7 +8,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-05-04
-dateModified: 2023-07-26
+dateModified: 2023-07-28
 description: "Institutional landing page documentation"
 language: en
 layout: form
@@ -29,14 +29,14 @@ title: "Institutional landing page documentation"
     <ul class="list-unstyled">
       <li>
         <details open="open">
-          <summary>Team review 1</summary>
+          <summary>Team review 2</summary>
           <h3>Fearful symmetry</h3>
-          <p>The content and design section will go in a table</p>
+          <p>The content and design section will go in a table with zebra striping.</p>
           <ul class="mrgn-tp-lg">
-            <li><a href="07-content-and-design.html">Short-width table with borders</a></li>
-            <li><a href="11-content-and-design.html">Short-width table without borders</a></li>
-            <li><a href="12-content-and-design.html">Wide-width table with borders</a></li>
-            <li><a href="13-content-and-design.html">Wide-width table without borders</a></li>
+            <li><a href="07-content-and-design.html">Short-width table with borders</li>
+            <li><a href="11-content-and-design.html">Short-width table without border</li>
+            <li><a href="12-content-and-design.html">Wide-width table with border</a></li>
+            <li><a href="13-content-and-design.html">Wide-width table without border</a></li>
           </ul>
         </details>
       </li>
