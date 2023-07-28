@@ -11,6 +11,7 @@ breadcrumbs:
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
+- https://test.canada.ca/experimental/prycrane/alt-text/css/ds-01.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2017-10-05
 dateModified: 2023-06-26
