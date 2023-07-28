@@ -25,7 +25,7 @@ title: "Institutional landing page documentation"
   <div class="col-md-8">
     <p>Let’s update the documentation for the new institutional landing page by bringing it into the new content model.</p>
     <h2 class="mrgn-tp-lg">Mockups</h2>
-    <p>Format for the Content and design section.</p>
+    <p>Format for the <strong>Content and design</strong> section.</p>
     <ul class="list-unstyled">
       <li>
         <details open="open">
