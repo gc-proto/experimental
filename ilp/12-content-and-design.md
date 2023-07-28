@@ -14,7 +14,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-05-08
-dateModified: 2023-07-27
+dateModified: 2023-07-28
 description: "Institutional landing page"
 language: en
 layout: without-h1
@@ -33,9 +33,9 @@ title: "Institutional landing page"
         </caption>
         <thead>
           <tr>
-            <th class="col-md-4">Pattern</th>
-            <th class="col-md-6">ILP Guidance</th>
-            <th class="col-md-2">Required</th>
+            <th class="col-md-3">Pattern</th>
+            <th class="col-md-8">ILP Guidance</th>
+            <th class="col-md-1">Required</th>
           </tr>
         </thead>
         <tbody>
