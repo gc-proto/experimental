@@ -23,8 +23,8 @@ Consistency in design is a crucial element to help foster trust among users. Pre
 
 The Digital Transformation Office (DTO) conducted a Trust study to better understand which Government of Canada design elements are more strongly associated with trust and confidence in the brand. The study measured and compared respondents’ trust in the following:
 
-*Federal Identity Program (FIP) flag symbol
-*Canada.ca domain
-*Theme menu button 
-*Sign-in button  
+-  Federal Identity Program (FIP) flag symbol
+-  Canada.ca domain
+-  Theme menu button 
+-  Sign-in button  
 
