@@ -17,8 +17,7 @@ section-title: "Research summary"
 title: "Trust study"
 ---
 
-In recent years, Canada has seen an unprecedented number of fraud <a name="footnote1">Footnote 1</a>
- <div>cases</div>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
+In recent years, Canada has seen an unprecedented number of fraud cases<a name="footnote1">[1]</a>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
 
 Consistency in design is a crucial element to help foster trust among users. Previous research done during our Wayfinding project suggested that consistent design elements across Government of Canada sites increase trust. 
 
@@ -140,4 +139,4 @@ Twitter: #CanadaDotCa (English) / #CanadaPointCa (French)
 Slack: [http://design-GC-conception.slack.com](https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM)
 
 
-[^1]: [Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)](https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level){:target="_blank"}
+< a href="#FOOTNOTE-1">[ 1 ]< /a>: [Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)](https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level){:target="_blank"}
