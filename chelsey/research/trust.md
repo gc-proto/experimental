@@ -60,10 +60,10 @@ The study showed that a red FIP flag symbol, followed by the Government of Canad
 <div class="row">
   ::before
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Government of Canada FIP symbol" src="https://experimental/chelsey/research/images/fip-en.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Government of Canada FIP symbol" src="https://canada.ca/experimental/chelsey/research/images/fip-en.png" class="img-responsive">
       <figcaption>
         <details open="">
-          <summary>Image description: FIP trust exercise FIP</summary>
+          <summary>Image description: Government of Canada FIP symbol trust</summary>
           <p class="mrgn-tp-lg">The study found that the version of the FIP that pairs the red flag with black text was the most trusted element.</p>
         </details>
       </figcaption>
@@ -71,10 +71,6 @@ The study showed that a red FIP flag symbol, followed by the Government of Canad
   </div>
     ::after
 </div>
-
-![The study found that the version of the FIP that pairs the red flag with black text was the most trusted element.](/experimental/chelsey/research/images/fip-en.png "fip-en")
-
-Description: The study found that the version of the FIP that pairs the red flag with black text was the most trusted element.
 
 Only 8% of respondents chose the page without the flag as trustworthy. The flag was often mentioned, with comments such as: 
 
@@ -97,9 +93,20 @@ The study found that specifically, the background of the image should be white, 
 
 21% chose ‘same’
 
-![On the left, a page related to jobs for youth displays the colour version of the FIP flag symbol. On the right, the same page displays the symbol in black and white.](/experimental/chelsey/research/images/ydg-en.png "Youth digital gateway")
-
-Image description: On the left, a page related to jobs for youth displays the colour version of the FIP flag symbol. On the right, the same page displays the symbol in black and white.
+<div class="row">
+  ::before
+<div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Government of Canada FIP symbol test" src="https://test.canada.ca/experimental/chelsey/research/images/ydg-en.png" class="img-responsive">
+      <figcaption>
+        <details open="">
+          <summary>Image description: Government of Canada FIP symbol test exercise</summary>
+          <p class="mrgn-tp-lg">On the left, a page related to jobs for youth displays the colour version of the FIP flag symbol. On the right, the same page displays the symbol in black and white.</p>
+        </details>
+      </figcaption>
+    </figure>
+  </div>
+    ::after
+</div>
 
 ### Canada.ca domain more trusted than .gc.ca
 The study asked respondents to choose between URLs using the Canada.ca domain and the gc.ca domain. 60% of participants trusted the Canada.ca URL more than a similar .gc.ca URL. The Canada.ca URL is particularly important to the many people who’ve learned they should trust URLs more than the design.
