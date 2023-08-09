@@ -29,4 +29,4 @@ The Digital Transformation Office (DTO) conducted a Trust study to better unders
 -  Sign-in button  
 
 
-[^1]: [Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca) (https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level)]
+[^1]: [Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)](https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level){:target="_blank"}
