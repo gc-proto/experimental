@@ -72,7 +72,33 @@ The study found that specifically, the background of the image should be white, 
 ![On the left, a page related to jobs for youth displays the colour version of the FIP flag symbol. On the right, the same page displays the symbol in black and white.](/experimental/chelsey/research/images/ydg-en.png "Youth digital gateway")
 Image description: On the left, a page related to jobs for youth displays the colour version of the FIP flag symbol. On the right, the same page displays the symbol in black and white.
 
+### Canada.ca domain more trusted than .gc.ca
+The study asked respondents to choose between URLs using the Canada.ca domain and the gc.ca domain. 60% of participants trusted the Canada.ca URL more than a similar .gc.ca URL. The Canada.ca URL is particularly important to the many people who’ve learned they should trust URLs more than the design.
 
+-  _“The URL not only includes but starts with canada.ca, anything other worries me that the site is not official or being spoofed”_
+
+### Menu button isn’t essential to the brand
+We found that the menu button was not essential to user trust. When shown designs with and without the menu button, 41% of respondents chose ‘same’. This demonstrated that they didn’t notice the difference, or were equally trusting, in both designs. This was the only question in the study where more people chose “same” more often than one of the images.
+
+### Sign in needs consistent design across accounts
+Signing in to an account is sometimes associated with phishing and spoofing so we wanted to determine what sign in design is more trusted. We included a study question which displayed images of an account sign in page. One version had a familiar Canada.ca green “supertask” button. The other version had unique blue and red buttons. 43% of the respondents trusted the page with the green buttons. 37% trusted the page with unique buttons. 
+
+Respondents mentioned the importance of consistency and familiarity for sign in pages. They expect a consistent design for the Canada.ca brand to help them avoid fraud. 
+
+## Other findings
+In respondents’ final open-ended comments, there were many mentions of desiring a better user experience. Users want Canada.ca to be simpler and more functional. We encourage departments to continually optimize their web presence using research and evidence. Tools such as the GC Task Success Survey and the page feedback tool can help you gather evidence and decide what to improve next.
+
+[GC Task Success Survey](https://design.canada.ca/survey/index.html): The GC Task Success Survey is a continuously running web intercept survey that asks questions related to three key elements: task success, ease, and satisfaction.
+
+[Page feedback tool](https://design.canada.ca/continuous-improvement/monitoring/feedback.html): This tool allows users to provide feedback for the page they are on. It can help departments uncover common issues in their content
+
+## Next steps
+As a result of this research, we updated the global header guidance in the Canada.ca design system to reflect the importance of the red FIP flag symbol. We also continue to work with departments and agencies to ensure full adoption of the Canada.ca design, including the Canada.ca domain. In addition, we’re collaborating with departments and agencies to develop a consistent sign in pattern.
+
+## Connect with the Digital Transformation Office at Treasury Board Secretariat
+Email: [dto.btn@tbs-sct.gc.ca](mailto:dto.btn@tbs-sct.gc.ca)
+Twitter: #CanadaDotCa (English) / #CanadaPointCa (French)
+Slack: [http://design-GC-conception.slack.com](https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM)
 
 
 [^1]: [Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)](https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level){:target="_blank"}
