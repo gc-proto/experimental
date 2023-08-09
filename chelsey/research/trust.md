@@ -35,7 +35,16 @@ We conducted an interactive trust exercise from June 9 to 22, 2022. The exercise
 
 For each question, people were shown 2 images with slight variations of brand elements. They were asked to identify which image they found more trustworthy. If their level of trust was the same for both images, they could respond with “same”.
 
-![A sample of the survey experience for respondents using a desktop computer.](/experimental/chelsey/research/images/trust-en.png "Trust comparaison")
+<div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of an interactive trust exercise" src="https://experimental/chelsey/research/images/trust-en.png" class="img-responsive">
+      <figcaption>
+        <details open="">
+          <summary>Image description: Interactive trust exercise</summary>
+          <p class="mrgn-tp-lg">A sample of the survey experience for respondents using a desktop computer. Two similar Canada.ca webpages are displayed side-by-side. The survey tells the user to click the image that they trust the most as the official Government of Canada website. If they trust them equally, the user is instructed to click ‘same’.</p>
+        </details>
+      </figcaption>
+    </figure>
+  </div>
 
 Description: A sample of the survey experience for respondents using a desktop computer. 
 
