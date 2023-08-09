@@ -93,7 +93,7 @@ The study found that specifically, the background of the image should be white, 
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
     <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Government of Canada FIP symbol test" src="https://test.canada.ca/experimental/chelsey/research/images/ydg-en.png" class="img-responsive">
       <figcaption>
-        <details closed="">
+        <details close="">
           <summary>Image description: Government of Canada FIP symbol trust test</summary>
           <p class="mrgn-tp-lg">On the left, a page related to jobs for youth displays the colour version of the FIP flag symbol. On the right, the same page displays the symbol in black and white.</p>
         </details>
