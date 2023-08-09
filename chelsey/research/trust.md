@@ -10,14 +10,14 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-08-08
 description: "This trust study helps to better understand which Government of Canada design elements are more strongly associated with trust and confidence in the brand"
-language: en
+language: fr
 layout: default
 share: true
 section-title: "Research summary"
 title: "Trust study"
 ---
 
-In recent years, Canada has seen an unprecedented number of fraud cases <a name="footnote1">[1]</a>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
+In recent years, Canada has seen an unprecedented number of fraud cases<a name="footnote1">[1]</a>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
 
 Consistency in design is a crucial element to help foster trust among users. Previous research done during our Wayfinding project suggested that consistent design elements across Government of Canada sites increase trust. 
 
