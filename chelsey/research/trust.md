@@ -36,9 +36,8 @@ We conducted an interactive trust exercise from June 9 to 22, 2022. The exercise
 For each question, people were shown 2 images with slight variations of brand elements. They were asked to identify which image they found more trustworthy. If their level of trust was the same for both images, they could respond with “same”.
 
 <div class="row">
-  ::before
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of an interactive trust exercise" src="https://canada.ca/experimental/chelsey/research/images/trust-en.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of an interactive trust exercise" src="https://test.canada.ca/experimental/chelsey/research/images/trust-en.png" class="img-responsive">
       <figcaption>
         <details open="">
           <summary>Image description: Interactive trust exercise</summary>
@@ -47,7 +46,6 @@ For each question, people were shown 2 images with slight variations of brand el
       </figcaption>
     </figure>
   </div>
-  ::after
 </div>
 
 Before fully launching the study, we piloted it with 35 people. These respondents explained their answers via screen-recording sessions. This qualitative stage served both to refine the study design and to get a detailed understanding of rationales and drivers for particular choices. We were particularly interested in people’s ability to differentiate between trust and preference.
@@ -58,9 +56,8 @@ These early answers showed that while there is some overlap between trust and pr
 The study showed that a red FIP flag symbol, followed by the Government of Canada signature, is essential to the trust of the Canada.ca brand. The vast majority of respondents trust it more than the Canada wordmark or any other version of the GC signature. 
 
 <div class="row">
-  ::before
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Government of Canada FIP symbol" src="https://canada.ca/experimental/chelsey/research/images/fip-en.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Government of Canada FIP symbol" src="https://test.canada.ca/experimental/chelsey/research/images/fip-en.png" class="img-responsive">
       <figcaption>
         <details open="">
           <summary>Image description: Government of Canada FIP symbol trust</summary>
@@ -69,7 +66,6 @@ The study showed that a red FIP flag symbol, followed by the Government of Canad
       </figcaption>
     </figure>
   </div>
-    ::after
 </div>
 
 Only 8% of respondents chose the page without the flag as trustworthy. The flag was often mentioned, with comments such as: 
@@ -94,18 +90,16 @@ The study found that specifically, the background of the image should be white, 
 21% chose ‘same’
 
 <div class="row">
-  ::before
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
     <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Government of Canada FIP symbol test" src="https://test.canada.ca/experimental/chelsey/research/images/ydg-en.png" class="img-responsive">
       <figcaption>
-        <details open="">
-          <summary>Image description: Government of Canada FIP symbol test exercise</summary>
+        <details closed="">
+          <summary>Image description: Government of Canada FIP symbol trust test</summary>
           <p class="mrgn-tp-lg">On the left, a page related to jobs for youth displays the colour version of the FIP flag symbol. On the right, the same page displays the symbol in black and white.</p>
         </details>
       </figcaption>
     </figure>
   </div>
-    ::after
 </div>
 
 ### Canada.ca domain more trusted than .gc.ca
@@ -132,12 +126,12 @@ In respondents’ final open-ended comments, there were many mentions of desirin
 As a result of this research, we updated the global header guidance in the Canada.ca design system to reflect the importance of the red FIP flag symbol. We also continue to work with departments and agencies to ensure full adoption of the Canada.ca design, including the Canada.ca domain. In addition, we’re collaborating with departments and agencies to develop a consistent sign in pattern.
 
 ## Connect with the Digital Transformation Office at Treasury Board Secretariat
-Email: [dto.btn@tbs-sct.gc.ca](mailto:dto.btn@tbs-sct.gc.ca)
+Connect with us if you have questions or would like to see the detailed research findings from this project or the trust study.
 
-Twitter: #CanadaDotCa (English) / #CanadaPointCa (French)
-
-Slack: [http://design-GC-conception.slack.com](https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM)
+-  Email: [dto.btn@tbs-sct.gc.ca](mailto:dto.btn@tbs-sct.gc.ca)
+-  Twitter: #CanadaDotCa (English) / #CanadaPointCa (French)
+-  Slack: [http://design-GC-conception.slack.com](https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM)
 
 <div>
-<a href="#footnote1">[1]</a>: <a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a>
+<a href="#footnote1">1:</a> <a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a>
 </div>
