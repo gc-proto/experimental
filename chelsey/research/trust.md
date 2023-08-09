@@ -35,9 +35,8 @@ We conducted an interactive trust exercise from June 9 to 22, 2022. The exercise
 
 For each question, people were shown 2 images with slight variations of brand elements. They were asked to identify which image they found more trustworthy. If their level of trust was the same for both images, they could respond with “same”.
 
-<img src="https://design.canada.ca/images/trust-en.png" alt="A sample of the survey experience for respondents using a desktop computer.">
-![Semantic description of image](/images/path/to/folder/image.png "Image Title")
 ![A sample of the survey experience for respondents using a desktop computer.](/experimental/chelsey/research/images/trust-en.png "Trust comparaison")
+
 Description: A sample of the survey experience for respondents using a desktop computer. 
 
 Before fully launching the study, we piloted it with 35 people. These respondents explained their answers via screen-recording sessions. This qualitative stage served both to refine the study design and to get a detailed understanding of rationales and drivers for particular choices. We were particularly interested in people’s ability to differentiate between trust and preference.
@@ -47,7 +46,8 @@ These early answers showed that while there is some overlap between trust and pr
 ## What we learned
 The study showed that a red FIP flag symbol, followed by the Government of Canada signature, is essential to the trust of the Canada.ca brand. The vast majority of respondents trust it more than the Canada wordmark or any other version of the GC signature. 
 
-![The study found that the version of the FIP that pairs the red flag with black text was the most trusted element.](experimental/chelsey/research/images/fip-en.png "FIP-en")
+![The study found that the version of the FIP that pairs the red flag with black text was the most trusted element.](/experimental/chelsey/research/images/fip-en.png "fip-en")
+
 Description: The study found that the version of the FIP that pairs the red flag with black text was the most trusted element.
 
 Only 8% of respondents chose the page without the flag as trustworthy. The flag was often mentioned, with comments such as: 
@@ -66,10 +66,13 @@ The study found that specifically, the background of the image should be white, 
 -  _“The flag should have red and white, never black and white”_
 
 74% trust the coloured flag more
+
 5% trust the black and white flag
+
 21% chose ‘same’
 
 ![On the left, a page related to jobs for youth displays the colour version of the FIP flag symbol. On the right, the same page displays the symbol in black and white.](/experimental/chelsey/research/images/ydg-en.png "Youth digital gateway")
+
 Image description: On the left, a page related to jobs for youth displays the colour version of the FIP flag symbol. On the right, the same page displays the symbol in black and white.
 
 ### Canada.ca domain more trusted than .gc.ca
@@ -97,7 +100,9 @@ As a result of this research, we updated the global header guidance in the Canad
 
 ## Connect with the Digital Transformation Office at Treasury Board Secretariat
 Email: [dto.btn@tbs-sct.gc.ca](mailto:dto.btn@tbs-sct.gc.ca)
+
 Twitter: #CanadaDotCa (English) / #CanadaPointCa (French)
+
 Slack: [http://design-GC-conception.slack.com](https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM)
 
 
