@@ -35,7 +35,13 @@ We conducted an interactive trust exercise from June 9 to 22, 2022. The exercise
 
 For each question, people were shown 2 images with slight variations of brand elements. They were asked to identify which image they found more trustworthy. If their level of trust was the same for both images, they could respond with “same”.
 
+<img src="https://design.canada.ca/images/trust-en.png" alt="A sample of the survey experience for respondents using a desktop computer.">
 
+Before fully launching the study, we piloted it with 35 people. These respondents explained their answers via screen-recording sessions. This qualitative stage served both to refine the study design and to get a detailed understanding of rationales and drivers for particular choices. We were particularly interested in people’s ability to differentiate between trust and preference.
 
+These early answers showed that while there is some overlap between trust and preference, most understood the difference. Respondents described their trust choices most often with terms like “safe”, “official”, “professional”. In the closing comments section, they often mentioned the flag symbol in the upper left corner.
+
+## What we learned
+The study showed that a red FIP flag symbol, followed by the Government of Canada signature, is essential to the trust of the Canada.ca brand. The vast majority of respondents trust it more than the Canada wordmark or any other version of the GC signature. 
 
 [^1]: [Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)](https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level){:target="_blank"}
