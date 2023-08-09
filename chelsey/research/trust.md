@@ -37,6 +37,8 @@ For each question, people were shown 2 images with slight variations of brand el
 
 <img src="https://design.canada.ca/images/trust-en.png" alt="A sample of the survey experience for respondents using a desktop computer.">
 
+![A sample of the survey experience for respondents using a desktop computer.](experimental/chelsey/research/images/trust-en.png "Trust comparaison")
+
 Before fully launching the study, we piloted it with 35 people. These respondents explained their answers via screen-recording sessions. This qualitative stage served both to refine the study design and to get a detailed understanding of rationales and drivers for particular choices. We were particularly interested in people’s ability to differentiate between trust and preference.
 
 These early answers showed that while there is some overlap between trust and preference, most understood the difference. Respondents described their trust choices most often with terms like “safe”, “official”, “professional”. In the closing comments section, they often mentioned the flag symbol in the upper left corner.
