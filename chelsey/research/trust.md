@@ -17,7 +17,7 @@ section-title: "Research summary"
 title: "Trust study"
 ---
 
-In recent years, Canada has seen an unprecedented number of fraud cases<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
+In recent years, Canada has seen an unprecedented number of fraud cases<sup id="fn1"><a class="fn-lnk" href="#fn1"><span class="wb-inv">1:</a></sup>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
 
 Consistency in design is a crucial element to help foster trust among users. Previous research done during our Wayfinding project suggested that consistent design elements across Government of Canada sites increase trust. 
 
@@ -39,7 +39,7 @@ For each question, people were shown 2 images with slight variations of brand el
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
     <figure class="gc-complex-img" role="group"> <img alt="Screenshot of an interactive trust exercise" src="https://test.canada.ca/experimental/chelsey/research/images/trust-en.png" class="img-responsive">
       <figcaption>
-        <details open="">
+        <details close="">
           <summary>Image description: Interactive trust exercise</summary>
           <p class="mrgn-tp-lg">A sample of the survey experience for respondents using a desktop computer. Two similar Canada.ca webpages are displayed side-by-side. The survey tells the user to click the image that they trust the most as the official Government of Canada website. If they trust them equally, the user is instructed to click ‘same’.</p>
         </details>
@@ -59,8 +59,8 @@ The study showed that a red FIP flag symbol, followed by the Government of Canad
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
     <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Government of Canada FIP symbol" src="https://test.canada.ca/experimental/chelsey/research/images/fip-en.png" class="img-responsive">
       <figcaption>
-        <details open="">
-          <summary>Image description: Government of Canada FIP symbol trust</summary>
+        <details close="">
+          <summary>Image description: Government of Canada FIP symbol</summary>
           <p class="mrgn-tp-lg">The study found that the version of the FIP that pairs the red flag with black text was the most trusted element.</p>
         </details>
       </figcaption>
@@ -129,7 +129,7 @@ As a result of this research, we updated the global header guidance in the Canad
 Contact us if you have questions or would like to see the detailed research findings from this project or the trust study.
 
 
-<dt>Footnote 1</dt>
+<dt>1:</dt>
 		<dd id="fn1">
 			<p><a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a></p>
 			<p class="fn-rtn">
