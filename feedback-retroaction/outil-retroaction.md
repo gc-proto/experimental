@@ -55,7 +55,7 @@ Envisagez d’utiliser l’outil de rétroaction sur la page pour :
 <h4>1. Première vue de l’outil de rétroaction</h4>
 ![](./images/page-feedback-fr.png)
 
-<h4>2. Vue après avoir sélectionné « No »</h4>
+<h4>2. Vue après avoir sélectionné « Non »</h4>
 ![](./images/description-fr.jpg)
 
 <h4>3. Vue après avoir sélectionné « Oui » ou après avoir soumis la rétroaction</h4>
