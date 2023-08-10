@@ -129,9 +129,10 @@ As a result of this research, we updated the global header guidance in the Canad
 Contact us if you have questions or would like to see the detailed research findings from this project or the trust study.
 
 
-<dt>1:</dt>
-<p><a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a></p>
+
+<dt>Footnote</dt>
 <p class="fn-rtn">
 <a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a>
-</p>
+<a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a></p>
+
 
