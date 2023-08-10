@@ -133,7 +133,7 @@ Contactez-nous si vous avez des questions ou si vous souhaitez voir les résulta
 <dt>Note de bas de page</dt>
 		<dd id="fn1-rf">
 			<p class="fn-rtn">
-				<a href="#fn1"><span class="wb-inv">1</span>1<span class="wb-inv">:</span></a>
+				<a href="#fn1"><span class="wb-inv">1</span></a>
 				<a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a>
 			</p>
 		</dd>
