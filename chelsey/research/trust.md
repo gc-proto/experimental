@@ -17,7 +17,7 @@ section-title: "Research summary"
 title: "Trust study"
 ---
 
-In recent years, Canada has seen an unprecedented number of fraud cases<a name="footnote1">[1]</a>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
+In recent years, Canada has seen an unprecedented number of fraud cases<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
 
 Consistency in design is a crucial element to help foster trust among users. Previous research done during our Wayfinding project suggested that consistent design elements across Government of Canada sites increase trust. 
 
@@ -125,13 +125,15 @@ In respondents’ final open-ended comments, there were many mentions of desirin
 ## Next steps
 As a result of this research, we updated the global header guidance in the Canada.ca design system to reflect the importance of the red FIP flag symbol. We also continue to work with departments and agencies to ensure full adoption of the Canada.ca design, including the Canada.ca domain. In addition, we’re collaborating with departments and agencies to develop a consistent sign in pattern.
 
-## Connect with the Digital Transformation Office at Treasury Board Secretariat
-Connect with us if you have questions or would like to see the detailed research findings from this project or the trust study.
+## Contact the Digital Transformation Office at Treasury Board Secretariat
+Contact us if you have questions or would like to see the detailed research findings from this project or the trust study.
 
--  Email: [dto.btn@tbs-sct.gc.ca](mailto:dto.btn@tbs-sct.gc.ca)
--  Twitter: #CanadaDotCa (English) / #CanadaPointCa (French)
--  Slack: [http://design-GC-conception.slack.com](https://design-gc-conception.slack.com/join/shared_invite/enQtODE1OTc5Mzg5NzQ4LWQ3MjZjMTdjMjk2ZTZmMTJjYWQ3ZmRiNDYwYjRmN2NjYzQyNjFlNDBlY2FkNWE1ODg2YjExY2QwZmVjN2MwMGM)
 
-<div>
-<a href="#footnote1">[1]:</a> <a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a>
-</div>
+<dt>Footnote 1</dt>
+		<dd id="fn1">
+			<p><a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a></p>
+			<p class="fn-rtn">
+				<a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a>
+			</p>
+		</dd>
+
