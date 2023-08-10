@@ -17,7 +17,7 @@ title: "Departmental plans"
 
 Departmental plans describe an institution's spending plan for the next fiscal year.
 
-![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](./images/page-feedback.png)
+![Screen capture of a departmental plan from Treasury Board of Canada Secretariat.](./images/www.canada.ca_en_treasury-board-secretariat_corporate_reports_treasury-board-canada-secretariat-2023-24-departmental-plan.html.png)
 
 ## On this page
 
