@@ -128,8 +128,10 @@ Les derniers commentaires ouverts des personnes interrogées laissent entrevoir 
 ## Communiquez avec le Bureau de la transformation numérique du Secrétariat du Conseil du Trésor du Canada
 Contactez-nous si vous avez des questions ou si vous souhaitez voir les résultats de recherche détaillés de ce projet ou de l’étude sur la confiance.
 
-<p></p>
-<p></p>
+<p>
+</p>
+<p>
+</p>
 <dt>Note de bas de page</dt>
 		<dd id="fn1-rf">
 			<p class="fn-rtn">
