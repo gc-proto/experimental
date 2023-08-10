@@ -17,7 +17,7 @@ section-title: "Résumé de recherche"
 title: "Étude sur la confiance"
 ---
 
-Le Canada connaît un nombre sans précédent de cas de fraude ces dernières années<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>. Dans la plupart de ces cas, on a recours à la technologie pour cibler ses victimes. Il est donc plus important que jamais de veiller à ce que les utilisateurs soient en mesure de reconnaître les sites Web officiels du gouvernement du Canada (GC).
+Le Canada connaît un nombre sans précédent de cas de fraude ces dernières années<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup>. Dans la plupart de ces cas, on a recours à la technologie pour cibler ses victimes. Il est donc plus important que jamais de veiller à ce que les utilisateurs soient en mesure de reconnaître les sites Web officiels du gouvernement du Canada (GC).
 
 Préserver une cohérence sur le plan de la conception est crucial pour obtenir la confiance des utilisateurs. De plus, des recherches antérieures effectuées dans le cadre du projet Orientation semblent montrer que l'usage d'éléments de communication graphiques cohérents sur les sites du gouvernement du Canada contribue à renforcer la confiance.
 
@@ -83,11 +83,11 @@ Plus spécifiquement, les personnes interrogées privilégient un arrière-plan 
 -  « Le drapeau à la feuille d'érable est celui qui m'inspire le plus confiance »
 -  « Le drapeau doit être rouge et blanc, pas noir et blanc »
 
-74 % des personnes font plus confiance au drapeau coloré
+74 % des personnes font plus confiance au drapeau coloré.
 
-5 % des personnes font confiance au drapeau noir et blanc
+5 % des personnes font confiance au drapeau noir et blanc.
 
-21 % d'entre elles ont indiqué que les deux drapeaux leur inspiraient le même niveau de confiance
+21 % d'entre elles ont indiqué que les deux drapeaux leur inspiraient le même niveau de confiance.
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
@@ -128,7 +128,8 @@ Les derniers commentaires ouverts des personnes interrogées laissent entrevoir 
 ## Communiquez avec le Bureau de la transformation numérique du Secrétariat du Conseil du Trésor du Canada
 Contactez-nous si vous avez des questions ou si vous souhaitez voir les résultats de recherche détaillés de ce projet ou de l’étude sur la confiance.
 
-
+<p></p>
+<p></p>
 <dt>Note de bas de page</dt>
 		<dd id="fn1">
 			<p><a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a></p>
