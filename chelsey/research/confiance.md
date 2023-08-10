@@ -94,13 +94,45 @@ Plus spécifiquement, les personnes interrogées privilégient un arrière-plan 
     <figure class="gc-complex-img" role="group"> <img alt="Capture d'écran de l'enquête sur le symbole PCIM du gouvernement du Canada" src="https://test.canada.ca/experimental/chelsey/research/images/pnj-fr.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Description de l'image : enquête sur le symbole PCIM du gouvernement du Canada</summary>
+          <summary>Description de l'image : test du symbole PCIM du gouvernement du Canada</summary>
           <p class="mrgn-tp-lg">À gauche, une page liée aux emplois pour les jeunes affiche la version couleur du symbole du drapeau du PCIM. À droite, la même page affiche le symbole en noir et blanc.</p>
         </details>
       </figcaption>
     </figure>
   </div>
 </div>
+
+### Le domaine Canada.ca plus digne de confiance que le domaine .gc.ca
+Dans le cadre de l'étude, les personnes interrogées ont été invitées à faire leur choix entre des URL utilisant le domaine Canada.ca et le domaine gc.ca. En fin de compte, 60 % d'entre elles ont déclaré que l'URL Canada.ca leur inspirait plus de confiance qu'une URL .gc.ca similaire. L'URL Canada.ca est particulièrement importante pour les nombreuses personnes qui ont appris qu'elles devraient davantage se fier aux URL qu'à la conception des pages.
+
+-  « L'URL inclut le domaine canada.ca. et commence même par lui. Si ce n'était pas le cas, j'aurais peur qu'il s'agisse d'un site non officiel ou falsifié »
+
+### Le bouton de menu n'est pas essentiel à la marque
+D'après les résultats de l'étude, le bouton de menu n'est pas essentiel à la confiance des utilisateurs. Dans les questions portant sur des conceptions avec et sans bouton de menu, 41 % des personnes interrogées ont estimé qu'il n'y avait pas de différence. Ce résultat peut indiquer qu'ils n'avaient pas remarqué la différence ou que les deux conceptions leur inspiraient le même niveau de confiance. Il s'agit par ailleurs de la seule question de l'étude pour laquelle le nombre de personnes qui ont déclaré ne pas voir de différence a été plus important que sur les autres réponses possibles.
+
+### Le modèle de connexion doit être cohérent pour tous les comptes
+La connexion à un compte est parfois associée à des tentatives d’hameçonnage et d'usurpation d'identité. Nous avons donc voulu désigner le modèle de connexion qui inspirait le plus confiance aux personnes interrogées. Une des questions de l'étude portait sur différentes conceptions de page de connexion à un compte. Sur l'une d'entre elles était affiché un bouton vert de « super-tâche », courant sur les sites Canada.ca. L'autre version comportait des boutons bleus et rouges uniques. 43 % des personnes interrogées ont indiqué avoir plus confiance dans la page affichant des boutons verts. 37 % d'entre elles ont désigné la page affichant des boutons uniques.
+
+Toutes ont souligné l'importance de la cohérence et du caractère familier des pages de connexion. Elles attendent de la marque Canada.ca une conception cohérente qui leur permette d'échapper aux tentatives de fraude.
+
+## Autres résultats
+Les derniers commentaires ouverts des personnes interrogées laissent entrevoir le souhait d'une meilleure expérience utilisateur. Les utilisateurs souhaitent que Canada.ca soit plus simple et plus fonctionnel. Nous encourageons les ministères à optimiser continuellement leur présence sur le Web, en s'appuyant sur les recherches et les données probantes obtenues. Des outils tels que le Sondage sur la réussite des tâches du GC et l'outil de rétroaction sur la page peuvent vous aider à recueillir ces données pour décider des améliorations à apporter.
+
+[Sondage sur la réussite des tâches](https://conception.canada.ca/sondage/index.html) : ce sondage en ligne qui se déroule en continu comprend des questions sur trois sujets principaux, à savoir la réussite des tâches, ainsi que la facilité et la satisfaction de l'utilisation.
+
+[Outil de rétroaction sur la page](https://conception.canada.ca/amelioration-continue/mesure/retroaction.html) : cet outil permet aux utilisateurs de fournir des commentaires sur la page sur laquelle ils se trouvent. Il peut ainsi aider les ministères à cerner des problèmes courants dans leur contenu.
+
+## Prochaines étapes
+À la suite de cette recherche, nous avons mis à jour les directives relatives à l’en-tête général dans le système de conception de Canada.ca pour tenir compte de l'importance que les personnes accordent au symbole du drapeau rouge du PCIM. Nous continuons de travailler avec les ministères et organismes pour non seulement assurer l'adoption complète de la conception Canada.ca, y compris le domaine Canada.ca, mais aussi élaborer un modèle de connexion cohérent.
+
+## Communiquez avec le Bureau de la transformation numérique du Secrétariat du Conseil du Trésor du Canada
+Contactez-nous si vous avez des questions ou si vous souhaitez voir les résultats de recherche détaillés de ce projet ou de l’étude sur la confiance.
+
+
+
+
+
+
 
 
 
