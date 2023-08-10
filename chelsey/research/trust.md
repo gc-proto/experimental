@@ -133,10 +133,10 @@ Contact us if you have questions or would like to see the detailed research find
 <dl>
 <dt id="fn1-dt">Footnote</dt>
 <dd id="fn1-rf" tabindex="-1" aria-labelledby="fn1-dt">
-  <p class="fn-rtn">
-<a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a>
-  <a class="fn-lnk" href="#fn1-rf"><span class="wb-inv">Footnote 1</span></a>
+<a class="fn-lnk" href="#fn1-rf"><span class="wb-inv">1</span></a>
 <a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a></p>
+<p class="fn-rtn">
+<a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a>
 <dd>
 </dl>
 
