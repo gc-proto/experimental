@@ -17,7 +17,7 @@ section-title: "Résumé de recherche"
 title: "Étude sur la confiance"
 ---
 
-Le Canada connaît un nombre sans précédent de cas de fraude ces dernières années<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup>. Dans la plupart de ces cas, on a recours à la technologie pour cibler ses victimes. Il est donc plus important que jamais de veiller à ce que les utilisateurs soient en mesure de reconnaître les sites Web officiels du gouvernement du Canada (GC).
+Le Canada connaît un nombre sans précédent de cas de fraude ces dernières années<sup id="fn1-rf"><a class="fn-lnk" href="#fn1-rf"><span class="wb-inv">Note de bas de page </span>1</a></sup>. Dans la plupart de ces cas, on a recours à la technologie pour cibler ses victimes. Il est donc plus important que jamais de veiller à ce que les utilisateurs soient en mesure de reconnaître les sites Web officiels du gouvernement du Canada (GC).
 
 Préserver une cohérence sur le plan de la conception est crucial pour obtenir la confiance des utilisateurs. De plus, des recherches antérieures effectuées dans le cadre du projet Orientation semblent montrer que l'usage d'éléments de communication graphiques cohérents sur les sites du gouvernement du Canada contribue à renforcer la confiance.
 
@@ -135,7 +135,7 @@ Contactez-nous si vous avez des questions ou si vous souhaitez voir les résulta
 <dt>Note de bas de page</dt>
 		<dd id="fn1-rf">
 			<p class="fn-rtn">
-				<a href="#fn1"><span class="wb-inv">1</span></a>
+				<a href="#fn1-rf"><span class="wb-inv">1</span></a>
 				<a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a>
 			</p>
 		</dd>
