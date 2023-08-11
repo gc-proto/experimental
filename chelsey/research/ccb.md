@@ -52,9 +52,9 @@ The team selected a set of these scenarios to establish a baseline measurement. 
           <p class="mrgn-tp-lg">
           <div class="row mrgn-tp-lg">
   <div class="col-md-8">
-    <div class="panel panel-default">
-      <table class="table table-bordered">
-        <caption class="wb-inv">
+    <div class="table-responsive">
+      <table class="table">
+       <caption class="wb-inv">
         Task scenarios in baseline
         </caption>
         <thead>
