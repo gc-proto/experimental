@@ -44,14 +44,14 @@ Top call-drivers included:
 The team selected a set of these scenarios to establish a baseline measurement. 20 Canadian parents on phones attempted the scenarios in a moderated usability performance study. The overall success rate was 28% across 7 task scenarios. An additional 5 scenarios were tested but fewer than 16 participants completed them so they weren’t included in the overall success score.
 
 <div class="row">
-<div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
+<div class="mrgn-tp-lg mrgn-bttm-md col-md-12">
     <figure class="gc-complex-img" role="group">
       <figcaption>
         <details close="">
           <summary>Task Scenarios in baseline</summary>
           <p class="mrgn-tp-lg">
           <div class="row mrgn-tp-lg">
-  <div class="col-md-8">
+  <div class="col-md-12">
     <div class="table-responsive">
       <table class="table">
        <caption class="wb-inv">
@@ -59,8 +59,8 @@ The team selected a set of these scenarios to establish a baseline measurement. 
         </caption>
         <thead>
           <tr>
-            <th class="col-md-3">Task</th>
-            <th class="col-md-5">Scenario</th>
+            <th class="col-md-4">Task</th>
+            <th class="col-md-8">Scenario</th>
           </tr>
         </thead>
         <tbody>
@@ -125,16 +125,18 @@ The team replaced the multi page navigation pattern with the new subway navigati
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of an interactive trust exercise" src="https://test.canada.ca/experimental/chelsey/research/images/trust-en.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit old service initiation template" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_overview_EN.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Image description: Interactive trust exercise</summary>
-          <p class="mrgn-tp-lg">A sample of the survey experience for respondents using a desktop computer. Two similar Canada.ca webpages are displayed side-by-side. The survey tells the user to click the image that they trust the most as the official Government of Canada website. If they trust them equally, the user is instructed to click ‘same’.</p>
+          <summary>Image description: Canada Child Benefit old service initiation template</summary>
+          <p class="mrgn-tp-lg">The old service initiation template with ordered multi-page navigation had links to other pages listed in individual boxes at the top of the page. The content of the selected page appeared below, which gave the impression that the links were "On this page" links and not links to related pages with further information.</p>
         </details>
       </figcaption>
     </figure>
   </div>
 </div>
+
+### The subway navigation pattern
 
 
 
