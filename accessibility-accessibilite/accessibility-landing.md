@@ -14,6 +14,7 @@ language: en
 layout: default
 title: "Institutional accessibility page"
 ---
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Institutional accessibility page</span>: <span>Canada.ca design system</span></span></h1>
 
 <p class="small">Last updated: August 11, 2023</p>
 
@@ -62,15 +63,15 @@ The institutional accessibility page consists of:
 
 #### Title
 
-- The title should read "Accessibility at \[name of institution]" in English, and "Accessibilité à \[nom de l'institution] in French
+The title should read "Accessibility at \[name of institution]" in English, and "Accessibilité à \[nom de l'institution] in French.
 
 #### Introduction
 
-- The introduction provides a brief explanation of the kind of feedback expected from users, such as input on the institution's accessibility plan or comments about accessibility barriers experienced with services
+The introduction provides a brief explanation of the kind of feedback expected from users, such as input on the institution's accessibility plan or comments about accessibility barriers experienced with services.
 
 #### Supertask button for accessibility feedback
 
-- Since providing accessibility feedback is the top task for this page, provide a link to the feedback mechanism using a supertask button
+- Since giving accessibility feedback is the top task for this page, provide a link to the feedback mechanism using a supertask button
 - The label should read "Provide feedback" in English, and "Fournir une rétroaction" in French
 - Find out how to use a super task button: 
 
@@ -79,7 +80,7 @@ The institutional accessibility page consists of:
 #### Links to corporate accessibility information
 
 - Use services and information links (doormats) to give access to corporate accessibility information, such as accessibility plans or reports, or a description of the institution's process for responding to incoming feedback
-- Find out how to use the services and information links pattern:
+- Find out how to use the services and information pattern:
 
     [Services and information - Canada.ca design pattern](https://design.canada.ca/common-design-patterns/services-information.html)
 
@@ -95,17 +96,17 @@ To come.
 
 ## How to implement
 
-
+To come.
 
 ## Research and rationale
 
 <h3>Research findings</h3>
 
-Research is ongoing to determine the best way to present information contained in the departmental plans in an accessible and user-friendly way. To date, some known issues include non-intuitive headers, repetitive information and overly complex tables.
+This template is experimental. Research is needed to determine the optional approach. 
 
 <h3>Policy rationale</h3>
 
-Insitutions are required to publish departmental plans annually. This template supports a consistent approach to how departmental plans are presented on Canada.ca.
+Insitutions are required to publish an accessibility plan, accessibility reports, a feedback process and a feedback mechanism on their websites. This template helps to tie all these things together in a central location for each institution.
 
 
 
