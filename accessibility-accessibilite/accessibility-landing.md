@@ -37,7 +37,7 @@ Institutional accessibility pages give access to a feedback mechanism as well as
 
 ## When to use
 
-*   Use to provide a central starting point for an institution's accessibility information and services
+*   Use this template to create a central starting point for an institution's accessibility information and services
 
 
 
