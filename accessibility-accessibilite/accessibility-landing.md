@@ -14,7 +14,7 @@ language: en
 layout: default
 title: "Institutional accessibility page"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Institutional accessibility page</span>: <span>Canada.ca design system</span></span></h1>
+<!-- <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Institutional accessibility page</span>: <span>Canada.ca design system</span></span></h1> -->
 
 <p class="small">Last updated: August 11, 2023</p>
 
