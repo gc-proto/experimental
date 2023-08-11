@@ -155,7 +155,7 @@ In the original Service initiation template with the multi-page navigation patte
     <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit previous multi-page navigation and new subway navigation" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_subway_EN.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Image description: Canada Child Benefit templates comparaison</summary>
+          <summary>Image description: Canada Child Benefit templates comparison</summary>
           <p class="mrgn-tp-lg">(Left) Previous multi-page navigation. (Right) Subway navigation clearly differentiates the step pages from the On this page links and has the title of the page “Keep getting your payments” below the subway links.</p>
         </details>
       </figcaption>
@@ -227,8 +227,53 @@ The original pages had few headings buried in long blocks of text that covered e
 
 In the comparison study, the team used the <a href="https://design.canada.ca/common-design-patterns/collapsible-content.html">expand collapse pattern</a> to collapse answers that applied to only specific groups of people. This approach was very successful at shortening the pages, and helping people choose the right answer for their situation. 
 
+#### Removing disclaimer barriers
+On the live site, a long disclaimer blocked access to an important benefit calculator tool, with an ‘I accept’ button below to launch it. Participants failed to scroll past the disclaimer to the button, and some who did find the button hesitated to choose “accept”.  The team moved the disclaimers to the answer phase in the tool, where they were relevant, and removed the ‘I accept’ step.
 
+<div class="row">
+<div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit disclaimer update" src="https://test.canada.ca/experimental/chelsey/research/images/Calculator_EN.png" class="img-responsive">
+      <figcaption>
+        <details close="">
+          <summary>Image description: Canada Child Benefit disclaimer update</summary>
+          <p class="mrgn-tp-lg"> On the left, the old design displays the disclaimer first, which takes up the whole screen on mobile and hides the calculator. On the right, the new design uses a green super task button to draw attention to the calculator. The disclaimer isn't part of this page, so it doesn't get in the way.</p>
+        </details>
+      </figcaption>
+    </figure>
+  </div>
+</div>
 
+#### Other improvements
+Since the optimization project, CRA has developed sub-steps that will help users to focus on specific parts of their journey. See the recent blog post on the subway pattern to understand new developments on the pattern.
 
+## Measuring outcomes
+The overall task success went up from 28% to 83% when DTO retested the task scenarios on the prototype. This prompted CRA to move quickly to change the live pages to reflect the new design.
+
+**Call volumes dropped**: the redesigned pages went live in December 2019. In Q1 of 2020, calls for CCB asking “how much will my payment be” dropped by more than 50%. In contrast, calls for the same question for the GST credit - without redesigned pages - didn’t drop during the same period.
+
+**Calculator use increased**: use of the Benefits calculator doubled after the page name changed to “How much can I get” and the calculator was highlighted with a green button. From April to June 2020, visits to the English benefits calculator page were almost double what they were in 2019 (609,703 in 2020 compared to 341,492 in 2019). Visits to the French page increased by more than a third ( 118,956 in 2020 compared with 76,124 in 2019).
+
+## What we learned
+**Involve the call centre in optimization projects.** To achieve the outcome of reducing calls, collaborating with the call centre team was essential. Know your top call drivers, and frame the content to answer those questions, rather than simply providing all the information for people to find the answers themselves.
+
+**Design for mobile users.** For high-mobile services, the subway pattern is a substantial improvement over the multi-page tab navigation. It breaks up unique steps into pages that clearly convey the steps and journey on a phone.
+
+The subway pattern has improved navigation for many services at CRA. It started with the Canada Child Benefit and was also widely used to communicate COVID benefits during the pandemic. CRA has continued doing usability testing and has continued to improve the design on new benefits pages.
+
+Other departments have started to use the subway pattern for its usefulness and flexibility. Before using the pattern, it’s important to know when to use it and how to prepare the content to work well with the pattern.
+
+## Explore further
+
+-  [Subway navigation pattern](https://design.canada.ca/common-design-patterns/subway-navigation.html)
+-  [Service initiation pages template](https://design.canada.ca/recommended-templates/service-initiation-pages.html)
+-  [Ordered multi-page navigation](https://design.canada.ca/common-design-patterns/ordered-multipage.html)
+-    Used to provide an outline of content that spans multiple pages and has a default or preferred order
+
+## Connect with the Digital Transformation Office
+Connect with us if you have questions or would like to see the detailed research findings from this project.
+
+-  Email: [dto-btn@tbs-sct.gc.ca](mailto:dto-btn@tbs-sct.gc.ca)
+-  Twitter: #CanadaDotCa (English) / #CanadaPointCa (French)
+-  Slack: [http://design-GC-conception.slack.com](http://design-GC-conception.slack.com)
 
 
