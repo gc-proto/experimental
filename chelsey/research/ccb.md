@@ -17,7 +17,7 @@ section-title: "Research summary"
 title: "Canada Child Benefit"
 ---
 
-he Canada Child Benefit (CCB) contributes to reducing child poverty in Canada. In early 2019, the Digital Transformation Office (DTO) partnered with the Canada Revenue Agency (CRA) to redesign the Canada Child Benefit pages on Canada.ca. The team’s goal was to reduce calls to the call centre for key questions. After the redesigned pages went live in 2020, the CRA call centre confirmed that call rates had indeed dropped.
+The Canada Child Benefit (CCB) contributes to reducing child poverty in Canada. In early 2019, the Digital Transformation Office (DTO) partnered with the Canada Revenue Agency (CRA) to redesign the Canada Child Benefit pages on Canada.ca. The team’s goal was to reduce calls to the call centre for key questions. After the redesigned pages went live in 2020, the CRA call centre confirmed that call rates had indeed dropped.
 
 To meet the needs of parents on mobile phones, the team co-designed a new pattern we called subway navigation. The existing design was broken into steps, but wasn’t effective on phone screens. The new design’s visual representation of the links resembles the stops on a subway map.
 
@@ -125,10 +125,10 @@ The team replaced the multi page navigation pattern with the new subway navigati
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit old service initiation template" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_overview_EN.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit previous multi-page navigation" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_overview_EN.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Image description: Canada Child Benefit old service initiation template</summary>
+          <summary>Image description: Canada Child Benefit previous multi-page navigation</summary>
           <p class="mrgn-tp-lg">The old service initiation template with ordered multi-page navigation had links to other pages listed in individual boxes at the top of the page. The content of the selected page appeared below, which gave the impression that the links were "On this page" links and not links to related pages with further information.</p>
         </details>
       </figcaption>
@@ -137,10 +137,95 @@ The team replaced the multi page navigation pattern with the new subway navigati
 </div>
 
 ### The subway navigation pattern
+Subway navigation includes:
+-  An index page leading to all the steps 
+-  Step pages that include links to the other steps
+-  Descriptive headings focused on answers
 
+Both the index page and the step pages use a visual representation of the links between steps that resembles a subway map. 
 
+#### New index page
+In the subway navigation pattern, an index page replaces the Overview page. It has a title, brief description, and a step graphic that matches the subway steps menu. It provides an easy-to-scan landing page for the service that outlines each step. Landing pages help with both search engine optimization and support the information architecture. Users can navigate back to the index page through the breadcrumb.
 
+#### Step pages
+In the original Service initiation template with the multi-page navigation pattern, people had problems navigating between pages, often selecting the button for the page they were already on.  The Subway pattern makes the steps clearer without repeating the title and positions the On this page pattern after the subway links. On desktop, the subway links appear on the right of the screen. 
 
+<div class="row">
+<div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit previous multi-page navigation and new subway navigation" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_subway_EN.png" class="img-responsive">
+      <figcaption>
+        <details close="">
+          <summary>Image description: Canada Child Benefit templates comparaison</summary>
+          <p class="mrgn-tp-lg">(Left) Previous multi-page navigation. (Right) Subway navigation clearly differentiates the step pages from the On this page links and has the title of the page “Keep getting your payments” below the subway links.</p>
+        </details>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+#### New descriptive headings focused on answers
+In the Service initiation template with the multi-page navigation, page titles appear as buttons with no space for description. Word wrapping throws off the alignment, so content designers often limit the number of words to control the size of the buttons.  In the baseline study, this made it harder for people to choose between the buttons because the labels weren’t clear enough.
+
+<div class="row">
+<div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit navigation menu" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_nav_menu_EN.png" class="img-responsive">
+      <figcaption>
+        <details close="">
+          <summary>Image description: Canada Child Benefit navigation menu</summary>
+          <p class="mrgn-tp-lg">Screenshot of a navigation menu. The heading is Canada Child Benefit: Overview. The navigation options are Overview, Eligibility, Apply, How much can you expect, Payment dates</p>
+        </details>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+In the subway pattern, the link text can be longer. The index page has space for a description below each link.
+
+<div class="row">
+<div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit subway pattern" src="https://test.canada.ca/experimental/chelsey/research/images/Subway_EN.png" class="img-responsive">
+      <figcaption>
+        <details close="">
+          <summary>Image description: Canada Child Benefit subway pattern</summary>
+          <p class="mrgn-tp-lg">Desktop view of the index page for CCB with each step page listed. The titles for each step page address common call center questions. They include Who can apply, Apply, How much you can get, Payment dates, Keep getting your payments, Contact the CRA. Under each title is a short description describing what users can find on the page.</p>
+        </details>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+### Content design solutions
+The optimization project included many other successful changes focused on answers over information. Use of subway navigation was complemented by: 
+
+-  integrating content from publications 
+-  rewriting headings with answer keywords in plain language
+-  reducing complexity with choices
+-  removing disclaimer barriers
+-  removing duplicated content
+
+#### Removing publications
+The answers users are looking for should be integrated into the grouped page content. In the baseline test, some answers about custody were in a PDF booklet that some participants refused to open on their phones. In the comparison study, we incorporated the booklet answers directly into the step pages used in the subway navigation. This integration ensured that both custody tasks reached 100% success, compared to baseline rates below 50%.
+
+#### Rewriting headings with answer keywords in plain language
+We redesigned page titles and headings to answer top user questions. For instance, baseline participants looked under “Apply” to know “who can apply” as well as “how to keep being eligible”. The subway design had separate page titles for each of the answers. 
+
+<div class="row">
+<div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit previous and new design with adjusted page titles" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_eligibility_EN.png" class="img-responsive">
+      <figcaption>
+        <details close="">
+          <summary>Image description: Canada Child Benefit previous and new design with adjusted page titles</summary>
+          <p class="mrgn-tp-lg">The old design included the following pages: Overview, Eligibility, Apply, How much you can expect and Payment dates. The new design adjusted the page titles to match what people look for: Who can apply, Apply, How much you can get, Payment dates, Keep getting your payments, Contact the CRA</p>
+        </details>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+#### Reducing complexity with choices
+The original pages had few headings buried in long blocks of text that covered every situation. People struggled to find answers on their phones.
+
+In the comparison study, the team used the <a href="https://design.canada.ca/common-design-patterns/collapsible-content.html">expand collapse pattern</a> to collapse answers that applied to only specific groups of people. This approach was very successful at shortening the pages, and helping people choose the right answer for their situation. 
 
 
 
