@@ -51,7 +51,7 @@ The team selected a set of these scenarios to establish a baseline measurement. 
           <summary>Task Scenarios in baseline</summary>
           <p class="mrgn-tp-lg">
           <div class="row mrgn-tp-lg">
-  <div class="col-md-10">
+  <div class="col-md-8">
     <div class="panel panel-default">
       <table class="table table-bordered">
         <caption class="wb-inv">
@@ -59,7 +59,7 @@ The team selected a set of these scenarios to establish a baseline measurement. 
         </caption>
         <thead>
           <tr>
-            <th class="col-md-5">Task</th>
+            <th class="col-md-3">Task</th>
             <th class="col-md-5">Scenario</th>
           </tr>
         </thead>
@@ -113,6 +113,29 @@ The team selected a set of these scenarios to establish a baseline measurement. 
     </figure>
   </div>
 </div>
+
+The most common problems were not finding the page that held the answer (32% of participants had that problem) or not being able to determine the correct answer from the information on the page (for example mixing eligibility with entitlement).
+
+## Design solutions
+The team focused on prototyping a design that would solve the problems seen in the baseline test. The existing pages used the service initiation template with the ordered multi-page navigation pattern.  Parents on phones couldn’t use the multi-page navigation effectively.
+
+It took up too much of the screen, and didn’t convey the grouped nature of the pages.  Some parents thought the page sets were “On this page” options. They also tended to avoid the Overview page.
+
+The team replaced the multi page navigation pattern with the new subway navigation pattern. The subway pattern differentiates sections in a tighter space and conveys the connections.
+
+<div class="row">
+<div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of an interactive trust exercise" src="https://test.canada.ca/experimental/chelsey/research/images/trust-en.png" class="img-responsive">
+      <figcaption>
+        <details close="">
+          <summary>Image description: Interactive trust exercise</summary>
+          <p class="mrgn-tp-lg">A sample of the survey experience for respondents using a desktop computer. Two similar Canada.ca webpages are displayed side-by-side. The survey tells the user to click the image that they trust the most as the official Government of Canada website. If they trust them equally, the user is instructed to click ‘same’.</p>
+        </details>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
 
 
 
