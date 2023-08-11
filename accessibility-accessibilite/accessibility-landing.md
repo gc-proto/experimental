@@ -22,7 +22,7 @@ title: "Institutional accessibility page"
 
 Institutional accessibility pages give access to a feedback mechanism as well as corporate accessibility plans and reports.
 
-<!-- <img src="./images/treasury-board-canada-secretariat-2023-24-departmental-plan.png" alt="Screen capture of a departmental plan from Treasury Board of Canada Secretariat" style="width:1000px;"> -->
+<!-- <img src="./images/treasury-board-canada-secretariat-2023-24-departmental-plan.png" alt="Screen capture of the recommended template for an institutional accessibility page" style="width:1000px;"> -->
 
 ## On this page
 
