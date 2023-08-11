@@ -13,6 +13,8 @@ title: "Institutional accessibility page"
 
 <p class="small">Last updated: August 11, 2023</p>
 
+<p><span class="label label-warning">Experimental</span></p>
+
 Institutional accessibility pages give access to a feedback mechanism as well as corporate accessibility plans and reports.
 
 <!-- <img src="./images/treasury-board-canada-secretariat-2023-24-departmental-plan.png" alt="Screen capture of a departmental plan from Treasury Board of Canada Secretariat" style="width:1000px;"> -->
