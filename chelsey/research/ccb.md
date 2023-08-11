@@ -51,67 +51,56 @@ The team selected a set of these scenarios to establish a baseline measurement. 
           <summary>Task Scenarios in baseline</summary>
           <p class="mrgn-tp-lg">
           <div class="row mrgn-tp-lg">
-  <div class="col-md-12">
+  <div class="col-md-10">
     <div class="panel panel-default">
-      <table class="table table-striped" id="ilp-01" aria-live="polite">
+      <table class="table table-bordered">
         <caption class="wb-inv">
-        Content and design patterns for Institutional Landing Page
+        Task scenarios in baseline
         </caption>
         <thead>
           <tr>
-            <th class="col-md-3">Pattern</th>
-            <th class="col-md-7">ILP Guidance</th>
-            <th class="col-md-2 text-center">Required</th>
+            <th class="col-md-5">Task</th>
+            <th class="col-md-5">Scenario</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><a href="#">Introduction block</a></td>
-            <td><p>Use the applied title of the institution (see Registry of Applied Titles).</p>
-              <p>The description should be a very brief summary of what the institution does.</p></td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td>Task 1. Payments stopped</td>
+            <td><p>You didn't get your usual child benefit payment in May/July. Which of the reasons below would cause     payments to stop?</p>
+             </td>
           </tr>
           <tr>
-            <td><a href="#">Most requested</a></td>
-            <td><p>Features institution-specific top tasks.</p>
-              <p>If any one of the institution's top tasks are already included as a direct link under Services and information, do not duplicate them here.</p></td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td>Task 2. Calculate payment</td>
+            <td><p>Mart's second child was just born. How much Canada Child Benefit will Mart get every month? - Mart lives in Quebec, single with sole custody. 1st child is 2 years old - Made 60,000 last year - Will be on leave for next 12 months so will only make $30,000</p>
+              </td>
           </tr>
           <tr>
-            <td><a href="#">Services and information</a></td>
-            <td><p>The services and information pattern points to the top-level categories of your organization’s information architecture.</p></td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td>Task 4. Payment date</td>
+            <td><p>Baseline: Exactly which day in July will your Canada Child Benefit payment be deposited? Optimization: Exactly which day in December will your Canada Child Benefit payment be deposited?
+</p>
+              </td>
           </tr>
           <tr>
-            <td><a href="#">Contact us band</a></td>
-            <td><p>The first link should be the main contact for your institution. You should limit the band to three contact links.</p></td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td>Task 5. Share custody percentage</td>
+            <td><p>Peter's kids are living with his ex. They will start coming to stay with Peter for 2 weekends per month. Should he apply for the Canada Child Benefit?
+</p>
+              </td>
           </tr>
           <tr>
-            <td><a href="#">About the institution</a></td>
-            <td>No specific ILP guidance.  Follow the pattern.</td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td>Task 8. Shared custody percentage</td>
+            <td><p>If you were separated and sharing custody, could the two of you choose what percentage of the Canada Child Benefit each of you will get?
+</p>
+              </td>
           </tr>
           <tr>
-            <td><a href="#">Ministers block</a></td>
-            <td>No specific ILP guidance.  Follow the pattern.</td>
-            <td class="text-center"><span class="far fa-check-circle text-success"></span><span class="wb-inv"> Required</span></td>
+            <td>Task 9. Payment less in July</td>
+            <td><p>Petra's July Child Benefit payment arrived and it is much less than she received in June. What is the most likely reason for this change?
+</p>
+              </td>
           </tr>
           <tr>
-            <td><a href="#">Social media pattern</a></td>
-            <td>No specific ILP guidance.  Follow the pattern.</td>
-            <td class="text-center">Optional</td>
-          </tr>
-          <tr>
-            <td><a href="#">Super task button</a></td>
-            <td><p>Only include a super task button if there is a specific task that has at least a third of the clickthrough on the institution's home page.</p></td>
-            <td class="text-center">Optional</td>
-          </tr>
-          <tr>
-            <td><a href="#">Flexible space</a></td>
-            <td><p>The bottom portion of the page above the footer is an optional content area.</p>
-              <p>The default for this template is the latest news and context-specific features patterns.</p></td>
-            <td class="text-center">Optional</td>
+            <td>Task 12. Direct deposit change within a month</td>
+            <td>Is it safe to close your old bank account before your June 20th Child Benefit payment? You changed your direct deposit to a new bank account number on June 5th.</td>
           </tr>
         </tbody>
       </table>
