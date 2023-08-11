@@ -10,7 +10,7 @@ breadcrumbs:
     link: "https://www.canada.ca/en/government/about.html"
   - title: Design system
     link: "https://www.canada.ca/en/government/about/design-system.html"
-  - title: Template and pattern library
+  - title: Templates and patterns
     link: "https://www.canada.ca/en/government/about/design-system/pattern-library.html"
 css:
 - https://design.canada.ca/css/split-h1.css
