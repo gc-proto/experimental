@@ -10,7 +10,7 @@ breadcrumbs:
     link: "https://www.canada.ca/en/government/about.html"
   - title: Système de conception
     link: "https://www.canada.ca/fr/gouvernement/a-propos/systeme-conception.html"
-  - title: Bibliothèque de modèles et de conception
+  - title: Modèles et configurations
     link: "https://www.canada.ca/fr/gouvernement/a-propos/systeme-conception/bibliotheque-modeles.html"
 css:
 - https://design.canada.ca/css/split-h1.css
