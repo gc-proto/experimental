@@ -174,7 +174,8 @@ Dans le modèle de page de lancement d’un service avec la navigation dans plus
     <figure class="gc-complex-img" role="group"> <img alt="Capture d'écran du menu de navigation de l'allocation canadienne pour enfants" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_nav_menu_fr.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Description de l'image : Capture d’écran d’un menu de navigation. L’en-tête est Allocation canadienne pour enfants : Aperçu. Les options de navigation sont Aperçu, Admissibilité, Faire une demande, Savoir combien vous pourriez recevoir, Dates de versement.
+          <summary>Description de l'image : Capture d’écran du menu de navigation de l'allocation canadienne pour enfants</summary> 
+            <p class="mrgn-tp-lg">Capture d’écran d’un menu de navigation. L’en-tête est Allocation canadienne pour enfants : Aperçu. Les options de navigation sont Aperçu, Admissibilité, Faire une demande, Savoir combien vous pourriez recevoir, Dates de versement.
 </p>
         </details>
       </figcaption>
