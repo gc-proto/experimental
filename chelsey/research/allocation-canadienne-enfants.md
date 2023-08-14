@@ -269,7 +269,7 @@ D’autres ministères ont commencé à utiliser le modèle de navigation de sty
 -  [Navigation de style métro](https://conception.canada.ca/configurations-conception-communes/navigation-metro.html)
 -  [Pages de lancement d’un service — Modèle de Canada.ca](https://conception.canada.ca/modeles-recommandes/pages-lancement-service.html)
 -  [Navigation dans plusieurs pages ordonnées](https://conception.canada.ca/configurations-conception-communes/navigation-plusieurs-pages.html)
-  -  On l’utilise pour exposer les grandes lignes du contenu qui s’étend sur plusieurs pages et qui a un ordre par défaut ou préféré.
+  - On l’utilise pour exposer les grandes lignes du contenu qui s’étend sur plusieurs pages et qui a un ordre par défaut ou préféré.
 
 ## Communiquer avec le Bureau de la transformation numérique 
 Communiquez avec nous si vous avez des questions ou si vous souhaitez connaître les résultats de recherche détaillés de ce projet.
