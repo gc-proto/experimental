@@ -17,7 +17,7 @@ section-title: "Research summary"
 title: "Trust study"
 ---
 
-In recent years, Canada has seen an unprecedented number of fraud cases<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span></a>1</sup>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
+In recent years, Canada has seen an unprecedented number of fraud cases<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>. Many of these cases use technology to target their victims. This makes it more important than ever to ensure that users can recognize official Government of Canada (GC) websites. 
 
 Consistency in design is a crucial element to help foster trust among users. Previous research done during our Wayfinding project suggested that consistent design elements across Government of Canada sites increase trust. 
 
