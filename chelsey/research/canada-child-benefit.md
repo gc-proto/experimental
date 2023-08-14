@@ -10,7 +10,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-08-11
 description: "This research summary explains the context of the research project in which the subway navigation pattern was created and all the considerations that were taken into account."
-language: fr
+language: en
 layout: default
 share: true
 section-title: "Research summary"
