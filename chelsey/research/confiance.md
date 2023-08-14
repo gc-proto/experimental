@@ -17,7 +17,7 @@ section-title: "Résumé de recherche"
 title: "Étude sur la confiance"
 ---
 
-Le Canada connaît un nombre sans précédent de cas de fraude ces dernières années<sup id="fn1-rf"><a class="fn-lnk" href="#fn1-rf"><span class="wb-inv">Note de bas de page</span></a>1</sup>. Dans la plupart de ces cas, on a recours à la technologie pour cibler ses victimes. Il est donc plus important que jamais de veiller à ce que les utilisateurs soient en mesure de reconnaître les sites Web officiels du gouvernement du Canada (GC).
+Le Canada connaît un nombre sans précédent de cas de fraude ces dernières années<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup>. Dans la plupart de ces cas, on a recours à la technologie pour cibler ses victimes. Il est donc plus important que jamais de veiller à ce que les utilisateurs soient en mesure de reconnaître les sites Web officiels du gouvernement du Canada (GC).
 
 Préserver une cohérence sur le plan de la conception est crucial pour obtenir la confiance des utilisateurs. De plus, des recherches antérieures effectuées dans le cadre du projet Orientation semblent montrer que l'usage d'éléments de communication graphiques cohérents sur les sites du gouvernement du Canada contribue à renforcer la confiance.
 
@@ -126,24 +126,19 @@ Les derniers commentaires ouverts des personnes interrogées laissent entrevoir 
 À la suite de cette recherche, nous avons mis à jour les directives relatives à l’en-tête général dans le système de conception de Canada.ca pour tenir compte de l'importance que les personnes accordent au symbole du drapeau rouge du PCIM. Nous continuons de travailler avec les ministères et organismes pour non seulement assurer l'adoption complète de la conception Canada.ca, y compris le domaine Canada.ca, mais aussi élaborer un modèle de connexion cohérent.
 
 ## Communiquez avec le Bureau de la transformation numérique du Secrétariat du Conseil du Trésor du Canada
-Contactez-nous si vous avez des questions ou si vous souhaitez voir les résultats de recherche détaillés de ce projet ou de l’étude sur la confiance.
+Contactez-nous si vous avez des questions ou si vous souhaitez voir les résultats de recherche détaillés de ce projet ou de l’étude sur la confiance.  
 
-<p>
-</p>
-<p>
-</p>
-Note de bas de page
-<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">1</span></a>
-<a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a>
-</p>
+<br>
 
-
-<p></p>
-<p></p>
-<dt id="fn1-dt">Footnote</dt>
-<dd id="fn1-rf" tabindex="-1" aria-labelledby="fn1-dt">
-<p><a href="https://www.rcmp-grc.gc.ca/en/news/2023/fraud-prevention-month-2023-fraud-losses-canada-reach-historic-level">Fraud Prevention Month 2023: Fraud losses in Canada reach another historic level | Royal Canadian Mounted Police (rcmp-grc.gc.ca)</a></p>
-
+<aside class="wb-fnote" role="note">
+<dl>
+	<dt>Note de bas de page 1</dt>
+	<dd id="fn1">
+	<p><a href="https://www.rcmp-grc.gc.ca/fr/nouvelles/2023/mois-prevention-fraude-2023-pertes-liees-a-fraude-atteignent-nouveau-record">Mois de la prévention de la fraude 2023 : Les pertes liées à la fraude atteignent un nouveau record historique au Canada | Gendarmerie royale du Canada (rcmp-grc.gc.ca)</a></p>
+	<p class="fn-rtn"><a href="#fn1"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+</dl>
+</aside>
 
 
 
