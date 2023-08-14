@@ -10,7 +10,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-08-08
 description: "This trust study helps to better understand which Government of Canada design elements are more strongly associated with trust and confidence in the brand"
-language: fr
+language: en
 layout: default
 share: true
 section-title: "Research summary"
