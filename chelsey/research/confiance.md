@@ -10,7 +10,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-08-09
 description: "Cette étude menée sur la confiance aide à déterminer lesquels des éléments de communication graphiques inspirent le plus de confiance aux utilisateurs par rapport à la marque du gouvernement du Canada"
-language: en
+language: fr
 layout: default
 share: true
 section-title: "Résumé de recherche"
