@@ -174,9 +174,8 @@ Dans le modèle de page de lancement d’un service avec la navigation dans plus
     <figure class="gc-complex-img" role="group"> <img alt="Capture d'écran du menu de navigation de l'allocation canadienne pour enfants" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_nav_menu_fr.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Description de l'image : Capture d’écran du menu de navigation de l'allocation canadienne pour enfants</summary> 
-            <p class="mrgn-tp-lg">Capture d’écran d’un menu de navigation. L’en-tête est Allocation canadienne pour enfants : Aperçu. Les options de navigation sont Aperçu, Admissibilité, Faire une demande, Savoir combien vous pourriez recevoir, Dates de versement.
-</p>
+          <summary>Description de l'image : capture d’écran du menu de navigation de l'allocation canadienne pour enfants</summary> 
+            <p class="mrgn-tp-lg">Capture d’écran d’un menu de navigation. L’en-tête est Allocation canadienne pour enfants : Aperçu. Les options de navigation sont Aperçu, Admissibilité, Faire une demande, Savoir combien vous pourriez recevoir, Dates de versement.</p>
         </details>
       </figcaption>
     </figure>
@@ -191,8 +190,7 @@ Dans le modèle de navigation de style métro, le texte des liens peut être plu
       <figcaption>
         <details close="">
           <summary>Description de l'image : modèle de navigation de style métro de l'allocation canadienne pour enfants</summary>
-          <p class="mrgn-tp-lg">Vue sur ordinateur de bureau de la page d’index de l’ACE, où chaque page d’étape est énumérée. Les titres de chaque page d’étape abordent les questions couramment reçues au centre d’appels. Elles sont : Qui peut faire une demande, Faire une demande, Savoir combien vous pourriez recevoir, Dates de versement, Continuer à recevoir vos versements, Communiquer avec l’ARC. Sous chaque titre se trouve une courte description de ce que les utilisateurs peuvent trouver sur la page.
-</p>
+          <p class="mrgn-tp-lg">Vue sur ordinateur de bureau de la page d’index de l’ACE, où chaque page d’étape est énumérée. Les titres de chaque page d’étape abordent les questions couramment reçues au centre d’appels. Elles sont : Qui peut faire une demande, Faire une demande, Savoir combien vous pourriez recevoir, Dates de versement, Continuer à recevoir vos versements, Communiquer avec l’ARC. Sous chaque titre se trouve une courte description de ce que les utilisateurs peuvent trouver sur la page.</p>
         </details>
       </figcaption>
     </figure>
