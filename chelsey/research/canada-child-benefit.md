@@ -156,7 +156,7 @@ In the original Service initiation template with the multi-page navigation patte
     <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit previous multi-page navigation and new subway navigation" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_subway_EN.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Image description: Canada Child Benefit templates comparison</summary>
+          <summary>Image description: Canada Child Benefit old and new navigation templates</summary>
           <p class="mrgn-tp-lg">(Left) Previous multi-page navigation. (Right) Subway navigation clearly differentiates the step pages from the On this page links and has the title of the page “Keep getting your payments” below the subway links.</p>
         </details>
       </figcaption>
@@ -212,10 +212,10 @@ We redesigned page titles and headings to answer top user questions. For instanc
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit previous and new design with adjusted page titles" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_eligibility_EN.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of previous and new design with adjusted page titles" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_eligibility_EN.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Image description: Canada Child Benefit previous and new design with adjusted page titles</summary>
+          <summary>Image description: previous and new design with adjusted page titles</summary>
           <p class="mrgn-tp-lg">The old design included the following pages: Overview, Eligibility, Apply, How much you can expect and Payment dates. The new design adjusted the page titles to match what people look for: Who can apply, Apply, How much you can get, Payment dates, Keep getting your payments, Contact the CRA</p>
         </details>
       </figcaption>
@@ -233,10 +233,10 @@ On the live site, a long disclaimer blocked access to an important benefit calcu
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit disclaimer update" src="https://test.canada.ca/experimental/chelsey/research/images/Calculator_EN.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit disclaimer removal" src="https://test.canada.ca/experimental/chelsey/research/images/Calculator_EN.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Image description: Canada Child Benefit disclaimer update</summary>
+          <summary>Image description: Canada Child Benefit disclaimer removal</summary>
           <p class="mrgn-tp-lg"> On the left, the old design displays the disclaimer first, which takes up the whole screen on mobile and hides the calculator. On the right, the new design uses a green super task button to draw attention to the calculator. The disclaimer isn't part of this page, so it doesn't get in the way.</p>
         </details>
       </figcaption>
@@ -268,7 +268,7 @@ Other departments have started to use the subway pattern for its usefulness and 
 -  [Subway navigation pattern](https://design.canada.ca/common-design-patterns/subway-navigation.html)
 -  [Service initiation pages template](https://design.canada.ca/recommended-templates/service-initiation-pages.html)
 -  [Ordered multi-page navigation](https://design.canada.ca/common-design-patterns/ordered-multipage.html)
--    Used to provide an outline of content that spans multiple pages and has a default or preferred order
+  -  Used to provide an outline of content that spans multiple pages and has a default or preferred order
 
 ## Connect with the Digital Transformation Office
 Connect with us if you have questions or would like to see the detailed research findings from this project.
