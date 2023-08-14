@@ -157,7 +157,7 @@ In the original Service initiation template with the multi-page navigation patte
       <figcaption>
         <details close="">
           <summary>Image description: Canada Child Benefit old and new navigation templates</summary>
-          <p class="mrgn-tp-lg">(Left) Previous multi-page navigation. (Right) Subway navigation clearly differentiates the step pages from the On this page links and has the title of the page “Keep getting your payments” below the subway links.</p>
+          <p class="mrgn-tp-lg">(First image) Previous multi-page navigation. (Second image) Subway navigation clearly differentiates the step pages from the “On this page” links. The title of the page “Keep getting your payments” appears below the subway links.</p>
         </details>
       </figcaption>
     </figure>
@@ -212,10 +212,10 @@ We redesigned page titles and headings to answer top user questions. For instanc
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of previous and new design with adjusted page titles" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_eligibility_EN.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of previous and new design for Canada Child Benefit with adjusted page titles" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_eligibility_EN.png" class="img-responsive">
       <figcaption>
         <details close="">
-          <summary>Image description: previous and new design with adjusted page titles</summary>
+          <summary>Image description: previous and new design for Canada Child Benefit with adjusted page titles</summary>
           <p class="mrgn-tp-lg">The old design included the following pages: Overview, Eligibility, Apply, How much you can expect and Payment dates. The new design adjusted the page titles to match what people look for: Who can apply, Apply, How much you can get, Payment dates, Keep getting your payments, Contact the CRA</p>
         </details>
       </figcaption>
@@ -233,11 +233,11 @@ On the live site, a long disclaimer blocked access to an important benefit calcu
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit disclaimer removal" src="https://test.canada.ca/experimental/chelsey/research/images/Calculator_EN.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit before and after disclaimer removal" src="https://test.canada.ca/experimental/chelsey/research/images/Calculator_EN.png" class="img-responsive">
       <figcaption>
         <details close="">
           <summary>Image description: Canada Child Benefit disclaimer removal</summary>
-          <p class="mrgn-tp-lg"> On the left, the old design displays the disclaimer first, which takes up the whole screen on mobile and hides the calculator. On the right, the new design uses a green super task button to draw attention to the calculator. The disclaimer isn't part of this page, so it doesn't get in the way.</p>
+          <p class="mrgn-tp-lg">On the first screenshot, the old design displays the disclaimer first, which takes up the whole screen on mobile and hides the calculator. On the second screenshot, the new design uses a green super task button to draw attention to the calculator. The disclaimer isn't part of this page, so it doesn't get in the way.</p>
         </details>
       </figcaption>
     </figure>
