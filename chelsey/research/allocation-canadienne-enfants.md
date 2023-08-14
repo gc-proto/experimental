@@ -28,4 +28,11 @@ La navigation de style métro s’est avérée un modèle efficace pour guider l
 Comprendre quand et comment utiliser la navigation de style métro vous permettra de faire emploi de ce puissant modèle correctement.
 
 ## Établir une base de référence
+En 2019, l’Agence du revenu du Canada (ARC) cherchait à réduire le nombre d’appels de Canadiens qui n’arrivaient pas à trouver ni à comprendre le contenu Web qui explique comment obtenir ou continuer à recevoir leur allocation pour enfants. Le Bureau de la transformation numérique (BTN) s’est associé à l’ARC pour mener à bien cette tâche principale.
+
+La première étape consistait à organiser des ateliers avec divers intervenants, y compris des membres du personnel du centre d’appels. Les ateliers avaient pour but de comprendre quels étaient les principaux facteurs d’appel.
+
+L’équipe a utilisé les données du centre d’appels pour caractériser les problèmes communs. Elle a ensuite généré une série exhaustive de scénarios en situation réelle reflétant les problèmes et les contextes qui étaient à l’origine du volume d’appels le plus important. Elle a utilisé ces données pour créer des scénarios de test en vue d’effectuer des tests de référence et de comparaison.
+
+
 
