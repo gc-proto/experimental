@@ -265,9 +265,9 @@ Other departments have started to use the subway pattern for its usefulness and 
 
 ## Explore further
 
--  [Subway navigation pattern](https://design.canada.ca/common-design-patterns/subway-navigation.html)
--  [Service initiation pages template](https://design.canada.ca/recommended-templates/service-initiation-pages.html)
--  [Ordered multi-page navigation](https://design.canada.ca/common-design-patterns/ordered-multipage.html)
+- [Subway navigation pattern](https://design.canada.ca/common-design-patterns/subway-navigation.html)
+- [Service initiation pages template](https://design.canada.ca/recommended-templates/service-initiation-pages.html)
+- [Ordered multi-page navigation](https://design.canada.ca/common-design-patterns/ordered-multipage.html)
   - Used to provide an outline of content that spans multiple pages and has a default or preferred order
 
 ## Connect with the Digital Transformation Office
