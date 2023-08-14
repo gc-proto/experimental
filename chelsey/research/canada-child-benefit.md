@@ -184,7 +184,7 @@ In the subway pattern, the link text can be longer. The index page has space for
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
-    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit subway pattern" src="https://test.canada.ca/experimental/chelsey/research/images/CCB_subway_EN.png" class="img-responsive">
+    <figure class="gc-complex-img" role="group"> <img alt="Screenshot of Canada Child Benefit subway pattern" src="https://test.canada.ca/experimental/chelsey/research/images/Subway_EN.png" class="img-responsive">
       <figcaption>
         <details close="">
           <summary>Image description: Canada Child Benefit subway pattern</summary>
