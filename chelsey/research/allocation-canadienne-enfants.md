@@ -36,10 +36,10 @@ L’équipe a utilisé les données du centre d’appels pour caractériser les 
 
 Parmi les principaux facteurs d’appel, on retrouvait les sujets suivants :
 
--  Pourquoi les gens ne reçoivent pas leurs versements (25 %)
--  Quel sera le montant de mes versements (12 %)
--  Faire une demande d’ACE (10,5 %)
--  Dette et somme due (4,3 %)
+-  Pourquoi les gens ne reçoivent pas leurs versements (25&nbsp;%)
+-  Quel sera le montant de mes versements (12&nbsp;%)
+-  Faire une demande d’ACE (10,5&nbsp; %)
+-  Dette et somme due (4,3&nbsp;%)
 
 L’équipe a sélectionné une série de ces scénarios pour définir une mesure de référence. Vingt parents canadiens utilisant des téléphones cellulaires ont mis à l’essai ces scénarios dans le cadre d’une étude de rendement liée aux tests d’utilisabilité avec modérateur. Le taux de réussite global était de 28 % pour l’ensemble des sept scénarios de tâches. Cinq scénarios supplémentaires ont fait l’objet d’une mise à l’essai, mais moins de seize participants les ont réussi; ces scénarios n’ont donc pas été pris en considération dans le taux de réussite global.
 
