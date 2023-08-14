@@ -266,9 +266,9 @@ Le modèle de navigation de style métro a amélioré la navigation pour de nomb
 D’autres ministères ont commencé à utiliser le modèle de navigation de style métro en raison de son utilité et de sa souplesse. Avant d’avoir recours à ce modèle, il est important de savoir quand l’utiliser et comment préparer le contenu pour qu’il fonctionne bien avec ce modèle.
 
 ## Pour en savoir plus 
--  [Navigation de style métro](https://conception.canada.ca/configurations-conception-communes/navigation-metro.html)
--  [Pages de lancement d’un service — Modèle de Canada.ca](https://conception.canada.ca/modeles-recommandes/pages-lancement-service.html)
--  [Navigation dans plusieurs pages ordonnées](https://conception.canada.ca/configurations-conception-communes/navigation-plusieurs-pages.html)
+- [Navigation de style métro](https://conception.canada.ca/configurations-conception-communes/navigation-metro.html)
+- [Pages de lancement d’un service — Modèle de Canada.ca](https://conception.canada.ca/modeles-recommandes/pages-lancement-service.html)
+- [Navigation dans plusieurs pages ordonnées](https://conception.canada.ca/configurations-conception-communes/navigation-plusieurs-pages.html)
   - On l’utilise pour exposer les grandes lignes du contenu qui s’étend sur plusieurs pages et qui a un ordre par défaut ou préféré.
 
 ## Communiquer avec le Bureau de la transformation numérique 
