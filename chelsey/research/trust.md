@@ -128,8 +128,8 @@ As a result of this research, we updated the global header guidance in the Canad
 ## Contact the Digital Transformation Office at Treasury Board Secretariat
 Contact us if you have questions or would like to see the detailed research findings from this project or the trust study.  
 
-< br >
-< br >
+<br>
+<br>
 
 <aside class="wb-fnote" role="note">
 <dl>
