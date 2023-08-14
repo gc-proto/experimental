@@ -21,7 +21,7 @@ Le Canada connaît un nombre sans précédent de cas de fraude ces dernières an
 
 Préserver une cohérence sur le plan de la conception est crucial pour obtenir la confiance des utilisateurs. De plus, des recherches antérieures effectuées dans le cadre du projet Orientation semblent montrer que l'usage d'éléments de communication graphiques cohérents sur les sites du gouvernement du Canada contribue à renforcer la confiance.
 
-Le Bureau de la transformation numérique (BTN) a mené une étude sur la confiance afin de déterminer lesquels des éléments de communication graphiques inspirent le plus de confiance aux utilisateurs par rapport à la marque du gouvernement du Canada. Au cours de l'étude, les sondeurs ont mesuré et comparé le niveau de confiance des personnes interrogées concernant les éléments suivants :
+Le Bureau de la transformation numérique (BTN) a mené une étude sur la confiance afin de déterminer lesquels des éléments de communication graphiques inspirent le plus de confiance aux utilisateurs par rapport à la marque du gouvernement du Canada. Au cours de l'étude, les sondeurs ont mesuré et comparé le niveau de confiance des personnes interrogées concernant les éléments suivants <span class="nowrap"> :</span> 
 
 -  Symbole du drapeau du Programme de coordination de l'image de marque (PCIM)
 -  Domaine Canada.ca
@@ -31,7 +31,7 @@ Le Bureau de la transformation numérique (BTN) a mené une étude sur la confia
 Les résultats montrent que le PCIM est essentiel à la marque et doit être en couleur (rouge). Le domaine Canada.ca et un modèle de connexion cohérent ont également été déterminés comme étant des éléments importants pour ce qui est de la confiance des utilisateurs. En revanche, le bouton de menu thématique ne constitue pas un élément essentiel pour gagner leur confiance.
 
 ## Méthode
-Du 9 au 22 juin 2022, nous avons réalisé une étude interactive sur la confiance auprès de 2 726 personnes recrutées directement au moyen d'une invitation lancée sur les sites Canada.ca. Au total, quatre versions de l'étude ont été créées, dans les deux langues officielles et dans les formats pour téléphone cellulaire et ordinateur. 48 % des participants à l'étude ont répondu depuis le Canada. 78 % d'entre eux ont utilisé le questionnaire en anglais et 73 % ont répondu à toutes les questions.
+Du 9 au 22 juin 2022, nous avons réalisé une étude interactive sur la confiance auprès de 2 726 personnes recrutées directement au moyen d'une invitation lancée sur les sites Canada.ca. Au total, quatre versions de l'étude ont été créées, dans les deux langues officielles et dans les formats pour téléphone cellulaire et ordinateur. <span class="nowrap">48 %</span> des participants à l'étude ont répondu depuis le Canada. <span class="nowrap">78 %</span> d'entre eux ont utilisé le questionnaire en anglais et <span class="nowrap">73 %</span> ont répondu à toutes les questions.
 
 Pour chaque question, les personnes voyaient s'afficher deux images d'éléments de la marque présentant de légères variations. Chaque fois, elles devaient désigner l'image qui leur semblait la plus digne de confiance. Si leur niveau de confiance était le même pour les deux images, elles avaient la possibilité de l'indiquer. 
 
@@ -50,10 +50,10 @@ Pour chaque question, les personnes voyaient s'afficher deux images d'éléments
 
 Avant de lancer officiellement l'étude, nous avons réalisé une étude pilote auprès de 35 personnes, auxquelles nous avons demandé d'expliciter leurs réponses lors de sessions d'enregistrement d'écran. Cette phase qualitative a permis à la fois d'affiner la conception de l'étude et de comprendre dans le détail les logiques et moteurs qui motivent les décisions des personnes. Nous avons également voulu tester la capacité des gens à faire la différence entre confiance et préférence.
 
-Ces premières réponses ont montré que, même si les notions de confiance et de préférence peuvent se recouper un peu, la plupart des personnes font la distinction. Lorsqu'elles désignent un élément comme étant digne de confiance, elles utilisent fréquemment des termes tels que « sûr », « officiel », « professionnel ». Dans la section des commentaires de clôture, elles ont souvent mentionné le symbole du drapeau, dans le coin supérieur gauche.
+Ces premières réponses ont montré que, même si les notions de confiance et de préférence peuvent se recouper un peu, la plupart des personnes font la distinction. Lorsqu'elles désignent un élément comme étant digne de confiance, elles utilisent fréquemment des termes tels que <span class="nowrap">« sûr »</span>, <span class="nowrap">« officiel »</span>, <span class="nowrap">« professionnel »</span>. Dans la section des commentaires de clôture, elles ont souvent mentionné le symbole du drapeau, dans le coin supérieur gauche.
 
 ## Les enseignements de l'étude
-L'étude démontre que le symbole du drapeau rouge du PCIM, suivi de la signature du gouvernement du Canada, est essentiel à la confiance envers la marque Canada.ca. La grande majorité des personnes interrogées lui font davantage confiance que le mot-symbole « Canada » ou toute autre version de la signature du GC.
+L'étude démontre que le symbole du drapeau rouge du PCIM, suivi de la signature du gouvernement du Canada, est essentiel à la confiance envers la marque Canada.ca. La grande majorité des personnes interrogées lui font davantage confiance que le mot-symbole <span class="nowrap">« Canada »</span> ou toute autre version de la signature du GC.
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
@@ -68,7 +68,7 @@ L'étude démontre que le symbole du drapeau rouge du PCIM, suivi de la signatur
   </div>
 </div>
 
-Seules 8 % des personnes interrogées ont considéré la page sans drapeau comme digne de confiance. Le drapeau a souvent été mentionné, avec des commentaires tels que les suivants : 
+Seules <span class="nowrap">8 %</span> des personnes interrogées ont considéré la page sans drapeau comme digne de confiance. Le drapeau a souvent été mentionné, avec des commentaires tels que les suivants<span class="nowrap"> : </span>
 
 -  « Le drapeau me donne l'impression que le site est plus sûr » 
 -  « Le fait d'avoir la marque « gouvernement du Canada » dans les deux langues officielles, avec le drapeau, me donne plus confiance »
