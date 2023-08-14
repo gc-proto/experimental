@@ -71,7 +71,7 @@ L’équipe a sélectionné une série de ces scénarios pour définir une mesur
           </tr>
           <tr>
             <td>Calculer le montant de l’allocation</td>
-            <td><p>Le deuxième enfant de Mart vient de naître. Quel sera le montant du versement de l’allocation canadienne pour enfants que Mart recevra chaque mois? – Mart habite au Québec, elle est célibataire et a la garde exclusive de ses enfants. Le premier enfant a 2 ans.  Son revenu de l’an dernier était de 60 000&nbsp;$.  Elle sera en congé pour les 12 prochains mois, donc elle gagnera seulement 30 000 $.</p>
+            <td><p>Le deuxième enfant de Mart vient de naître. Quel sera le montant du versement de l’allocation canadienne pour enfants que Mart recevra chaque mois? – Mart habite au Québec, elle est célibataire et a la garde exclusive de ses enfants. Le premier enfant a 2 ans.  Son revenu de l’an dernier était de 60 000&nbsp;$.  Elle sera en congé pour les 12 prochains mois, donc elle gagnera seulement 30 000&nbsp;$.</p>
               </td>
           </tr>
           <tr>
@@ -116,12 +116,12 @@ L’équipe a sélectionné une série de ces scénarios pour définir une mesur
   </div>
 </div>
 
-Les problèmes les plus fréquemment rencontrés par les participants étaient les suivants : ne pas trouver la page sur laquelle se trouvait la réponse à leur question (32 % des participants ont rencontré ce problème) ou ne pas être en mesure de déterminer la bonne réponse à l’aide des renseignements qui se trouvaient sur la page (p. ex., confondre l’admissibilité à l’allocation et le droit à celle-ci).
+Les problèmes les plus fréquemment rencontrés par les participants étaient les suivants&nbsp;: ne pas trouver la page sur laquelle se trouvait la réponse à leur question (32 % des participants ont rencontré ce problème) ou ne pas être en mesure de déterminer la bonne réponse à l’aide des renseignements qui se trouvaient sur la page (p.&nbsp;ex., confondre l’admissibilité à l’allocation et le droit à celle-ci).
 
 ## Solutions de conception
 L’équipe s’est concentrée sur la création d’un prototype de conception qui permettrait de résoudre les problèmes cernés lors du test de référence. Les pages existantes utilisaient le modèle de page de lancement d’un service avec la configuration relative à la navigation dans plusieurs pages ordonnées. Les parents qui accédaient à ces pages au moyen d’un téléphone n’étaient pas en mesure d’utiliser la navigation dans plusieurs pages de manière efficace.
 
-La navigation prenait trop de place dans l’écran et ne reflétait pas la nature groupée des pages.  Certains parents croyaient que les ensembles de pages étaient des options de la section « Sur cette page ». Ils avaient aussi tendance à sauter la page « Aperçu ».
+La navigation prenait trop de place dans l’écran et ne reflétait pas la nature groupée des pages.  Certains parents croyaient que les ensembles de pages étaient des options de la section « Sur cette page&nbsp;». Ils avaient aussi tendance à sauter la page « Aperçu&nbsp;».
 
 L’équipe a donc remplacé la configuration relative à la navigation dans plusieurs pages ordonnées par le nouveau modèle de navigation de style métro. Le modèle de navigation de style métro différencie les sections dans un espace plus restreint et affiche les liens entre celles-ci. 
 
@@ -139,7 +139,7 @@ L’équipe a donc remplacé la configuration relative à la navigation dans plu
 </div>
 
 ### Le modèle de navigation de style métro
-Le modèle de navigation de style métro comprend ce qui suit :
+Le modèle de navigation de style métro comprend ce qui suit&nbsp;:
 
 -  une page d’index permettant d’accéder à chacune des étapes; 
 -  les pages des étapes, qui comprennent des liens vers les autres étapes;
@@ -198,7 +198,7 @@ Dans le modèle de navigation de style métro, le texte des liens peut être plu
 </div>
 
 ### Solutions de conception de contenu
-Le projet d’optimisation comprenait de nombreuses autres modifications positives axées sur les réponses plutôt que sur les questions. En plus du passage à la navigation de style métro, l’équipe a apporté les modifications suivantes : 
+Le projet d’optimisation comprenait de nombreuses autres modifications positives axées sur les réponses plutôt que sur les questions. En plus du passage à la navigation de style métro, l’équipe a apporté les modifications suivantes&nbsp;: 
 
 -  elle a retiré des publications; 
 -  elle a reformulé les titres dans un langage clair et simple à l’aide de mots-clés liés aux réponses;
@@ -207,10 +207,10 @@ Le projet d’optimisation comprenait de nombreuses autres modifications positiv
 -  elle a supprimé le contenu qui apparaissait en double.
 
 #### Retrait de publications
-Les réponses que les utilisateurs cherchent à trouver doivent être intégrées au contenu des pages groupées. Dans le test de référence, certaines réponses concernant la garde figuraient dans un « carnet » en format PDF que certains participants refusaient d’ouvrir à partir de leur téléphone. Dans l’étude comparative, nous avons intégré les réponses du carnet directement dans les pages des étapes utilisées dans la navigation de style métro. Cette intégration a permis de faire en sorte que toutes les tâches liées à la garde affichaient un taux de réussite de 100 %, alors que les taux de référence affichaient des taux de réussite de moins de 50 %.
+Les réponses que les utilisateurs cherchent à trouver doivent être intégrées au contenu des pages groupées. Dans le test de référence, certaines réponses concernant la garde figuraient dans un « carnet » en format PDF que certains participants refusaient d’ouvrir à partir de leur téléphone. Dans l’étude comparative, nous avons intégré les réponses du carnet directement dans les pages des étapes utilisées dans la navigation de style métro. Cette intégration a permis de faire en sorte que toutes les tâches liées à la garde affichaient un taux de réussite de 100&nbsp;%, alors que les taux de référence affichaient des taux de réussite de moins de 50&nbsp;%.
 
 #### Reformulation des titres dans un langage clair et simple à l’aide de mots-clés liés aux réponses
-Nous avons reformulé les titres des pages et les en-têtes pour répondre aux principales questions des utilisateurs. Par exemple, les participants à l’étude de référence ont effectué une recherche au moyen du terme « Faire une demande » pour savoir « qui peut faire une demande » ainsi que pour savoir « comment demeurer admissible ». Le modèle de navigation de style métro comportait des titres de pages distincts pour chacune des réponses.
+Nous avons reformulé les titres des pages et les en-têtes pour répondre aux principales questions des utilisateurs. Par exemple, les participants à l’étude de référence ont effectué une recherche au moyen du terme « Faire une demande&nbsp;» pour savoir « qui peut faire une demande&nbsp;» ainsi que pour savoir « comment demeurer admissible&nbsp;». Le modèle de navigation de style métro comportait des titres de pages distincts pour chacune des réponses.
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
@@ -218,7 +218,7 @@ Nous avons reformulé les titres des pages et les en-têtes pour répondre aux p
       <figcaption>
         <details close="">
           <summary>Description de l'image : ancien et nouveau modèle de conception avec les titres de pages adaptés</summary>
-          <p class="mrgn-tp-lg">L’ancienne conception comprenait les pages suivantes : Aperçu, Admissibilité, Faire une demande, Savoir combien vous pourriez recevoir et Dates de versement. Dans la nouvelle conception, les titres de page ont été adaptés pour correspondre à ce que les gens recherchent : Déterminer qui peut faire une demande, Faire une demande, Savoir combien vous pourriez recevoir, Dates de versement, Continuer à recevoir vos versements, Communiquer avec l’ARC.</p>
+          <p class="mrgn-tp-lg">L’ancienne conception comprenait les pages suivantes&nbsp;: Aperçu, Admissibilité, Faire une demande, Savoir combien vous pourriez recevoir et Dates de versement. Dans la nouvelle conception, les titres de page ont été adaptés pour correspondre à ce que les gens recherchent&nbsp;: Déterminer qui peut faire une demande, Faire une demande, Savoir combien vous pourriez recevoir, Dates de versement, Continuer à recevoir vos versements, Communiquer avec l’ARC.</p>
         </details>
       </figcaption>
     </figure>
@@ -231,7 +231,7 @@ Les pages originales contenaient peu d’en-têtes qui étaient enfouis dans de 
 Dans l’étude comparative, l’équipe a utilisé <a href="https://conception.canada.ca/configurations-conception-communes/contenu-reductible.html">le modèle afficher/masquer</a> pour masquer les réponses s’adressant à des groupes de personnes particuliers. Cette approche a été très concluante pour réduire la longueur des pages et pour aider les gens à choisir la réponse appropriée à leur situation. 
 
 #### Retrait de l'avise de non-responsabilité bloquant l'accès 
-Sur le site Web en ligne, un long avis de non-responsabilité bloquait l’accès à un important outil de calcul des prestations, et il fallait cliquer sur le bouton « J’accepte » qui se trouvait sous la mise en garde pour être en mesure de le lancer. Les participants ne faisaient pas défiler l’avis de non-responsabilité pour atteindre le bouton, et certaines personnes qui trouvaient ce bouton hésitaient à cliquer sur « J’accepte ».  L’équipe a déplacé l’avis de non-responsabilité à la phase de réponse de l’outil, où il était pertinent de l’afficher, et a retiré l’étape « J’accepte ». 
+Sur le site Web en ligne, un long avis de non-responsabilité bloquait l’accès à un important outil de calcul des prestations, et il fallait cliquer sur le bouton « J’accepte » qui se trouvait sous la mise en garde pour être en mesure de le lancer. Les participants ne faisaient pas défiler l’avis de non-responsabilité pour atteindre le bouton, et certaines personnes qui trouvaient ce bouton hésitaient à cliquer sur « J’accepte&nbsp;».  L’équipe a déplacé l’avis de non-responsabilité à la phase de réponse de l’outil, où il était pertinent de l’afficher, et a retiré l’étape « J’accepte&nbsp;». 
 
 <div class="row">
 <div class="mrgn-tp-lg mrgn-bttm-md col-md-8">
@@ -250,11 +250,11 @@ Sur le site Web en ligne, un long avis de non-responsabilité bloquait l’accè
 Depuis la fin du projet d’optimisation, l’ARC a élaboré des sous-étapes qui aideront les utilisateurs à se concentrer sur des parties précises de leur parcours. Consultez le récent billet de blogue sur le modèle de navigation de style métro pour comprendre les nouveaux changements apportés au modèle.
 
 ## Mesure des résultats
-Le taux de réussite global des tâches est passé de 28 % à 83 % lorsque le BTN a à nouveau mise à l’essai les scénarios de tâches du prototype. Cela a poussé l’ARC à modifier rapidement les pages en ligne pour refléter la nouvelle conception.
+Le taux de réussite global des tâches est passé de 28&nbsp;% à 83&nbsp;% lorsque le BTN a à nouveau mise à l’essai les scénarios de tâches du prototype. Cela a poussé l’ARC à modifier rapidement les pages en ligne pour refléter la nouvelle conception.
 
-**Les volumes d’appels ont diminué** : les pages remaniées ont été mises en ligne en décembre 2019. Au cours du premier trimestre de 2020, le nombre d’appels reçus par l’ACE pour demander « Quel sera le montant de mes versements » a diminué de plus de 50 %. À l’inverse, les appels visant à poser la même question pour le crédit lié à la TPS, dont les pages n’avaient pas été remaniées, n’ont pas diminué au cours de cette même période. 
+**Les volumes d’appels ont diminué** : les pages remaniées ont été mises en ligne en décembre 2019. Au cours du premier trimestre de 2020, le nombre d’appels reçus par l’ACE pour demander « Quel sera le montant de mes versements&nbsp;» a diminué de plus de 50&nbsp;%. À l’inverse, les appels visant à poser la même question pour le crédit lié à la TPS, dont les pages n’avaient pas été remaniées, n’ont pas diminué au cours de cette même période. 
 
-**Augmentation de l’utilisation du calculateur** : l’utilisation du calculateur de prestations a doublé après que la page fut renommée « Combien vous pourriez recevoir » et que le lien vers le calculateur a été mis en évidence à l’aide d’un bouton vert. Entre avril et juin 2020, le nombre de visites sur la page en anglais du calculateur de prestations a presque doublé par rapport à ce qu’il était en 2019, totalisant 609 703 visites en 2020 par rapport à 341 492 visites en 2019. Les visites sur la page en français sont aussi passées de 76 124 en 2019 à 118 956 en 2020.
+**Augmentation de l’utilisation du calculateur** : l’utilisation du calculateur de prestations a doublé après que la page fut renommée « Combien vous pourriez recevoir&nbsp;» et que le lien vers le calculateur a été mis en évidence à l’aide d’un bouton vert. Entre avril et juin 2020, le nombre de visites sur la page en anglais du calculateur de prestations a presque doublé par rapport à ce qu’il était en 2019, totalisant 609 703 visites en 2020 par rapport à 341 492 visites en 2019. Les visites sur la page en français sont aussi passées de 76 124 en 2019 à 118 956 en 2020.
 
 ## Ce que nous avons appris
 **Faire participer le centre d’appels aux projets d’optimisation.** La collaboration avec l’équipe du centre d’appels s’est avérée une étape cruciale pour atteindre l’objectif de réduire le nombre d’appels. Assurez-vous de connaître les principaux facteurs d’appel et d’organiser le contenu de manière à répondre à ces questions plutôt que de simplement fournir l’ensemble des renseignements et de laisser les personnes chercher elles-mêmes les réponses.
