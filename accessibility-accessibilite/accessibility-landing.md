@@ -91,13 +91,20 @@ To come.
 
 <h3>Visual examples</h3>
 
-To come. 
-
-
+Put this in an expand/collapse?
+<details>
+  <summary>Institutional accessibility page</summary>
+  <figure>
+    <img src="./images/accessibility-landing-page-en.png">
+    <figcaption>Screen capture of the recommended template for an institutional accessibility page</figcaption>
+  </figure>
+</details>
 
 ## How to implement
 
-To come.
+Copy the code from the working examples:
+- [English working example](https://test.canada.ca/accessibility/accessibility.html)
+- [French working example](https://test.canada.ca/accessibilite/accessibilite.html)
 
 ## Research and rationale
 
