@@ -91,13 +91,16 @@ To come.
 
 <h3>Visual examples</h3>
 
-Put this in an expand/collapse?
 <details>
-  <summary>Institutional accessibility page</summary>
-  <figure>
-    <img src="./images/accessibility-landing-page-en.png">
-    <figcaption>Screen capture of the recommended template for an institutional accessibility page</figcaption>
-  </figure>
+<summary>Institutional accessibility page</summary>
+<figure>
+   <img src="./images/accessibility-landing-page-en.png">
+   <figcaption>
+      <details>
+         <summary>Detailed description</summary>
+         <p>Screenshot of a template for an institutional accessibility page. Under the title 'Accessibility at [Instiution name], you can find a button for giving feedback, and 2 links: Accessibility plan, Feedback process.</p>
+   </figcaption>
+</figure>
 </details>
 
 ## How to implement
