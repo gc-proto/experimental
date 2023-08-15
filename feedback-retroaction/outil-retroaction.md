@@ -10,6 +10,7 @@ breadcrumbs:
 dateModified: 2023-03-03
 language: fr
 layout: default
+pageclass: cnt-wdth-lmtd
 title: "Outil de rétroaction sur la page"
 ---
 
