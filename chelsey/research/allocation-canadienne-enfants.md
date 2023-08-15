@@ -12,6 +12,7 @@ date: 2023-08-09
 description: "Ce résumé de recherche définit le contexte du projet de recherche dans le cadre duquel le modèle de navigation de style métro a été créé et décrit tous les points qui ont été pris en considération"
 language: fr
 layout: default
+pageclass: cnt-wdth-lmtd
 share: true
 section-title: "Résumé de recherche"
 title: "Allocation canadienne pour enfants"
