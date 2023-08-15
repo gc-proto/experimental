@@ -12,6 +12,7 @@ date: 2023-08-11
 description: "This research summary explains the context of the research project in which the subway navigation pattern was created and all the considerations that were taken into account."
 language: en
 layout: default
+pageclass: cnt-wdth-lmtd
 share: true
 section-title: "Research summary"
 title: "Canada Child Benefit"
