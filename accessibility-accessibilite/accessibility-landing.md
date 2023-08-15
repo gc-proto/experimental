@@ -64,7 +64,7 @@ The institutional accessibility page consists of:
 
 #### Title
 
-The title should read "Accessibility at \[name of institution]" in English, and "Accessibilité à \[nom de l'institution] in French.
+The title should read "Accessibility at \[name of institution]" in English, and "Accessibilité à \[nom de l'institution]" in French.
 
 #### Introduction
 
@@ -107,7 +107,14 @@ This template is experimental. Research is needed to determine the optional appr
 
 <h3>Policy rationale</h3>
 
-Insitutions are required to publish an accessibility plan, accessibility reports, a feedback process and a feedback mechanism on their websites. This template helps to tie all these things together in a central location for each institution.
+Under the Accessible Canada Act and Regulations, insitutions are required to publish the following on their websites:
+
+- an accessibility plan every 3 years
+- annual accessibility reports
+- a description of the process for handing accessibility feedback
+- a mechanism for receiving feedback
+
+This template helps to tie all these things together in a central location for each institution.
 
 
 
