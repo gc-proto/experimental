@@ -99,7 +99,8 @@ To come.
       <details>
          <summary>Detailed description</summary>
          <p>Screenshot of a template for an institutional accessibility page. Under the title 'Accessibility at [Instiution name], you can find a button for giving feedback, and 2 links: Accessibility plan, Feedback process.</p>
-   </figcaption>
+      </details> 
+  </figcaption>
 </figure>
 </details>
 
