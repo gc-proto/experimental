@@ -97,7 +97,7 @@ To come.
    <img src="./images/accessibility-landing-page-en.png">
    <figcaption>
       <details>
-         <summary>Detailed description</summary>
+         <summary class="bg-info">Detailed description</summary>
          <p>Screenshot of a template for an institutional accessibility page. Under the title 'Accessibility at [Instiution name], you can find a button for giving feedback, and 2 links: Accessibility plan, Feedback process.</p>
       </details> 
   </figcaption>
