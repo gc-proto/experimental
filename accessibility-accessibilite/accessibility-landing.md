@@ -9,6 +9,7 @@ css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
+pageclass: cnt-wdth-lmtd
 dateModified: 2023-08-11
 language: en
 layout: default
