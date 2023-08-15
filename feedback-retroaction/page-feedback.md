@@ -10,6 +10,7 @@ breadcrumbs:
 dateModified: 2023-03-03
 language: en
 layout: default
+pageclass: cnt-wdth-lmtd
 title: "Page feedback tool"
 ---
 
