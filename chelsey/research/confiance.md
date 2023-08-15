@@ -12,6 +12,7 @@ date: 2023-08-09
 description: "Cette étude menée sur la confiance aide à déterminer lesquels des éléments de communication graphiques inspirent le plus de confiance aux utilisateurs par rapport à la marque du gouvernement du Canada"
 language: fr
 layout: default
+pageclass: cnt-wdth-lmtd
 share: true
 section-title: "Résumé de recherche"
 title: "Étude sur la confiance"
