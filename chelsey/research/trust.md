@@ -12,6 +12,7 @@ date: 2023-08-08
 description: "This trust study helps to better understand which Government of Canada design elements are more strongly associated with trust and confidence in the brand"
 language: en
 layout: default
+pageclass: cnt-wdth-lmtd
 share: true
 section-title: "Research summary"
 title: "Trust study"
