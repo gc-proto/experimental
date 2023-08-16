@@ -99,8 +99,8 @@ To ensure findability, there is an index of all institutional accessibility plan
 
 Copy the code from the working examples:
 
-* English working example 
-* French working example
+* [English working example](/accessibility-plan-example.html) 
+* [French working example](#)
 
 
 ### Publishing requirements
