@@ -91,18 +91,22 @@ To come.
 
 <h3>Visual examples</h3>
 
-<details>
-<summary class="bg-info">Institutional accessibility page</summary>
-<figure>
-   <img src="./images/accessibility-landing-page-en.png">
-   <figcaption>
+<div class="row">
+   <div class="col-md-8">
       <details>
-         <summary>Detailed description</summary>
-         <p>Screenshot of a template for an institutional accessibility page. Under the title 'Accessibility at [Instiution name], you can find a button for giving feedback, and 2 links: Accessibility plan, Feedback process.</p>
-      </details> 
-  </figcaption>
-</figure>
-</details>
+         <summary class="bg-info">Institutional accessibility page</summary>
+         <figure>
+            <img src="./images/accessibility-landing-page-en.png">
+            <figcaption>
+               <details>
+                  <summary>Detailed description</summary>
+                  <p>Screenshot of a template for an institutional accessibility page. Under the title 'Accessibility at [Instiution name], you can find a button for giving feedback, and 2 links: Accessibility plan, Feedback process.</p>
+               </details>
+            </figcaption>
+         </figure>
+      </details>
+   </div>
+</div>
 
 ## How to implement
 
