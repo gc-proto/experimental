@@ -4,7 +4,14 @@ breadcrumbs:
 - title: "[Institution name]"
   link: #
 - title: Accessibility at [Institution name]
-  link: /accessibility/accessibility.html  
+  link: /accessibility/accessibility.html
+css:
+- https://design.canada.ca/css/split-h1.css
+- https://design.canada.ca/css/custom.css
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css
+pageclass: cnt-wdth-lmtd
+language: en
+layout: default
 dateModified: 2022-11-29
 description: Accessibility plan at [Institution name]
 title: Accessibility plan at [Institution name]
