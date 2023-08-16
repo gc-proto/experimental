@@ -1,6 +1,8 @@
 ---
 altLangPage: "https://test.canada.ca/experimental/accessibility-accessibilite/plans-ministeriels.html"
 breadcrumbs:
+  - title: About Canada.ca
+    link: "https://www.canada.ca/en/government/about.html"
   - title: Design system
     link: "https://www.canada.ca/en/government/about/design-system.html"
   - title: Templates and patterns
