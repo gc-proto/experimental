@@ -24,7 +24,10 @@ title: "Accessibility plan"
 
 The accessibility plan template is for publishing an institution's accessibility plan using the Canada.ca design. 
 
+<div class="pattern-demo">
 <img src="./images/accessibility-plan-en.png" alt="Screen capture of the template for an institution's accessibility plan"> 
+</div>
+
 
 ## On this page
 
@@ -63,7 +66,7 @@ Ensure the plan meets the requirements outlined in the ESDC guidance on accessib
 
 People are encouraged to provide feedback on accessibility plans - ensure there is a link to the feedback process and/or feedback form directly from the plan.
 
-To ensure findability, there is an index of all institutional accessibility plans on the open government portal. Include a link to this index directly from the plan. Also ensure your institution's plan is included in the index.
+To ensure findability, there is an index of all institutional accessibility plans on the open government portal. Include a link to this index directly from the plan. 
 
 
 ### Design specifications
@@ -83,7 +86,7 @@ To come.
 
 Copy the code from the working examples:
 
-* English working example
+* English working example 
 * French working example
 
 
@@ -108,7 +111,7 @@ Institutions must notify the Accessibility Commissioner at the Canadian Human Ri
 
 ### Research findings
 
-This template is experimental. Research is needed to determine the optional approach.
+This template is experimental. Research is needed to determine the optimal approach.
 
 
 ### Policy rationale
