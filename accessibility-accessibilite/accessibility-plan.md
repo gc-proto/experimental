@@ -57,21 +57,12 @@ Find content and design specifications and visual examples.
 
 ### Content specifications
 
-
-#### Writing guidance from ESDC
-
 Ensure the plan meets the requirements outlined in the ESDC guidance on accessibility plans. This guidance includes a content template for writing the plan.
 
 *  [Guidance on accessibility plans](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/accessibility-plans.html)
 *  [Sample accessibility plan template](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/accessibility-plans/template.html)
 
-
-#### Feedback mechanism
-
 People are encouraged to provide feedback on accessibility plans - ensure there is a link to the feedback process and/or feedback form directly from the plan.
-
-
-#### Index of accessibility plans
 
 To ensure findability, there is an index of all institutional accessibility plans on the open government portal. Include a link to this index directly from the plan. 
 
