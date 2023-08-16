@@ -136,9 +136,16 @@ This template helps to tie all these things together in a central location for e
 
 ## Latest changes
 
-2023-08-10: Created a two-page layout pattern to target different audiences for departmental plans, including simplified tables, revised wording for headers and reduced the overall length of the plan
-
-
+<dl>
+   <dt>
+      <time>2023-08-16</time>
+   </dt>
+   <dd>Updated the documentation to include advice on what to avoid, content and design specifications, visual examples, implementation guidance, and policy rationale</dd>
+   <dt>
+      <time>2022-12-23</time>
+   </dt>
+   <dd>Issued a working example for an institutional accessibility page</dd>
+</dl>
 
 
 
