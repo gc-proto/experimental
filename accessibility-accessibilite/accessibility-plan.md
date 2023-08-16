@@ -24,9 +24,7 @@ title: "Accessibility plan"
 
 The accessibility plan template is for publishing an institution's accessibility plan using the Canada.ca design. 
 
-<div class="pattern-demo">
-<img src="./images/accessibility-plan-en.png" class="img-responsive" alt="Screen capture of the template for an institution's accessibility plan"> 
-</div>
+<img src="./images/accessibility-plan-en.png" class="pattern-demo img-responsive" alt="Screen capture of the template for an institution's accessibility plan"> 
 
 
 ## On this page
