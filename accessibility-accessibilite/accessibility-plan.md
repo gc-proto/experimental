@@ -69,12 +69,27 @@ To ensure findability, there is an index of all institutional accessibility plan
 
 ### Design specifications
 
-To come.
+* Uses standard Canada.ca styles and patterns
 
 
 ### Visual examples
 
-To come.
+<div class="row">
+   <div class="col-md-8">
+      <details>
+         <summary class="bg-info">Institutional accessibility page</summary>
+         <figure>
+            <img src="./images/accessibility-plan-en.png">
+            <figcaption>
+               <details>
+                  <summary>Detailed description</summary>
+                  <p>Screenshot of a template for an institutional accessibility plan. Under the title 'Accessibility plan at [Instiution name], you can find a link to the sample accessibility plan template, following by a heading 'Accessibility plans developed by other institutions', then a link to the list of accessibility plans developed by other institutions.</p>
+               </details>
+            </figcaption>
+         </figure>
+      </details>
+   </div>
+</div>
 
 
 ## How to implement
