@@ -21,4 +21,4 @@ Use [Sample Accessibility Plan Template](https://www.canada.ca/en/employment-soc
 
 ## Accessibility plans developed by other institutions
 
-[List of Accessibility plans developed by other institutions](https://open.canada.ca/en)
+[List of Accessibility plans developed by other institutions](https://search.open.canada.ca/opendata/?collection=accessibiliy_plans&page=1&sort=metadata_modified+desc)
