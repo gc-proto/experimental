@@ -10,7 +10,6 @@ dateModified: 2022-11-29
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-<h1 property="name" id="wb-cont" dir="ltr">Accessibility at [Institution name]</h1>
 <p>Provide feedback to help us create an accessible and barrier-free Canada.</p>
 <ul>
   <li>Comment on our accessibility plan</li>
