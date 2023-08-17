@@ -3,9 +3,13 @@ altLangPage: /accessibilite/accessibilite.html
 breadcrumbs:
 - title: "[institution name]"
   link: #
+css:
+- https://design.canada.ca/css/split-h1.css
+- https://design.canada.ca/css/custom.css
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css
 title: "Accessibility at [institution name]"
 description: "Find [Institution name]'s accessibility plan and provide feedback."
-dateModified: 2022-11-29
+dateModified: 2023-08-17
 ---
 <div class="container">
 	<div class="row">
