@@ -57,25 +57,27 @@ Find content and design specifications and visual examples.
 
 ### Content specifications
 
-Ensure the feedback process description meets the requirements outlined in the ESDC guidance: 
+The accessibility process description template was designed to focus on top-of-mind user needs, rather than providing an exhaustive description of back-office procedures. 
+
+The template was also designed to meet the requirements for feedback processes outlined in the ESDC guidance on the Accessible Canada Regulations: 
 
 *  [Guidance on descriptions of processes for accessibility feedback](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/feedback-process.html)
 
-This guidance includes advice for setting up the underlying process, including:
+This guidance includes advice for setting up the underlying process, ensuring that:
+
 *  People must be able to provide feedback by a variety of means, including email, telephone, snail mail
 *  Feedback must be analyzed and reported on in annual progress reports, so must be managed accordingly
 *  If the feedback process changes, the published description must be amended
 
-The accessibility process description template was designed to focus on top-of-mind user needs, rather than providing an exhaustive description of back-office procedures. 
+The template my be adjusted to meet your institution's needs. By default, it includes the following sections:
 
-The template includes the following recommended sections:
-*   How to provide feedback - includes links to an online feedback form and any alternate formats, as well as contact information for providing feedback to the instituion via telephone, email or mail
-*   Submit anonymous feedback - describes what to do if you want to provide feedback anonymously
-*   If you want a reponse - describes what to do if you want a response to your feedback from the institution
-*   What we do with your feedback - explains how the institution manages the feedback it receives
-*   Request an alternate format - explains how to request an alternate format of the feedback process description
+*   **How to provide feedback** - includes links to an online feedback form and any alternate formats, as well as contact information for providing feedback to the instituion via telephone, email or mail
+*   **Submit anonymous feedback** - describes what to do if you want to provide feedback anonymously
+*   **If you want a reponse** - describes what to do if you want a response to your feedback from the institution
+*   **What we do with your feedback** - explains how the institution manages the feedback it receives
+*   **Request an alternate format** - explains how to request an alternate format of the feedback process description
 
-The language included in each section of the template may be adjusted to meet your institution's needs.
+Tne default language included in each section of the template may also be adjusted as necessary.
 
 
 ### Design specifications
