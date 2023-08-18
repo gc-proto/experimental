@@ -57,7 +57,7 @@ Find content and design specifications and visual examples.
 
 ### Content specifications
 
-Ensure the plan meets the requirements outlined in the ESDC guidance on accessibility feedback process descriptions. 
+Ensure the feedback process description meets the requirements outlined in the ESDC guidance: 
 
 *  [Guidance on descriptions of processes for accessibility feedback](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/feedback-process.html)
 
