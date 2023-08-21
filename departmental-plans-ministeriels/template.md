@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/plans-ministeriels.html"
+altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/modele.html"
 breadcrumbs:
   - title: Design system
     link: "https://www.canada.ca/en/government/about/design-system.html"
