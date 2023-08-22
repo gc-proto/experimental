@@ -24,7 +24,7 @@ title: "User stories"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>User stories</span>: <span>Agile methodology</span></span></h1>
 <blockquote class="mrgn-tp-lg mrgn-bttm-lg">
-  <p>“As a [persona], I [want to], [so that].”</p>
+  <p>As a [persona], I [want to], [so that].</p>
 </blockquote>
 <h2 class="h3">What is a user story?</h2>
 <p>An agile user story is an informal, general explanation of a product feature or enhancement written from the perspective of the end user. It states how the feature or enhancement provides value to a person using the product.</p>
