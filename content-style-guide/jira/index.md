@@ -31,6 +31,7 @@ title: "Agile methodology"
       <li><a href="mission-statement.html">Mission statement</a> (<span class="fab fa-jira"></span> <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-35">CCCSG-35 Mission statement</a>)</li>
       <li><a href="product-vision-statement.html">Product vision statement</a> (<span class="fab fa-jira"></span> <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-36">CCCSG-36 Product vision statement</a>)</li>
       <li><a href="story-points.html">Story points</a> (<span class="fab fa-jira"></span> <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-37">CCCSG-37 Review Story points</a>)</li>
+      <li><a href="user-story.html">User Stories points</a> (<span class="fab fa-jira"></span> <a href="https://canada-style-guide.atlassian.net/browse/CCCSG-76">CCCSG-76 Discuss user stories with the team</a>)</li>      
     </ul>
   </div>
   <div class="col-md-4">
