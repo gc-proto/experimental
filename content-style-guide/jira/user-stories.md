@@ -37,7 +37,7 @@ title: "User stories"
 <h2 class="h3">Examples</h2>
 <p><strong>As a</strong> content writer for Canada.ca, <strong>I want</strong> to be able to access the style guide when I am off-line, <strong>so that</strong> I can consult the style guide when I am writing, but do not have access to the internet."</p>
 <p>"<strong>As an</strong> HTML coder for Canada, <strong>I want</strong> to show my client why breaking down complex tables into simple tables makes pages more accessible, <strong>so that</strong> I will have documented “support” for creating better table presentation."</p>
-<p>"<strong>As a</strong> transgender Canadian citizen, <strong>I want</strong> to read content on Canada.ca that is gender neutral, <strong>so that</strong> I feel considered and included."</p>
+<p>"<strong>As a</strong> transgender Canadian citizen, <strong>I want</strong> to read content on Canada.ca that is gender inclusive, <strong>so that</strong> I feel considered and included."</p>
 <div class="mrgn-tp-lg">
   <ul class=" fa-ul">
     <li><span class="fa-li"><span class="fab fa-jira fa-lg"></span></span><a href="https://canada-style-guide.atlassian.net/browse/CCCSG-76">CCCSG-76</a></li>
