@@ -29,7 +29,7 @@ title: "User stories"
 <h2 class="h3">What is a user story?</h2>
 <p>An agile user story is an informal, general explanation of a product feature or enhancement written from the perspective of the end user. It states how the feature or enhancement provides value to a person using the product.</p>
 <p>A user story is the smallest unit of work.  It’s an end goal, a useable state, expressed from the perspective of the person who uses the product.  The purpose is to state in a simple way how a piece of work will deliver a particular value for the end user.</p>
-<p>Our end users are not just external users of Canada.ca, they are also the content creators who produce those pages.</p>
+<p>Our end users are not just <strong>external users</strong> of Canada.ca, they are also any <strong>content creator</strong> who has a role in producing those pages.</p>
 <p>It is also important to note that the user story does not provide solutions (that is the work of the team).  It simply states what is desired.</p>
 <h2 class="h3">User story structure</h2>
 <p class="h3 mrgn-bttm-lg">"<strong>As a [persona], I [want to], [so that].</strong>"</p>
