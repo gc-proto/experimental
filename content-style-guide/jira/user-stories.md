@@ -32,7 +32,7 @@ title: "User stories"
 <p>Our end users are not just external users of Canada.ca, they are also the content creators who produce those pages.</p>
 <p>It is also important to note that the user story does not provide solutions (that is the work of the team).  It simply states what is desired.</p>
 <h2 class="h3">User story structure</h2>
-<p class="h3">"<strong>As a [persona], I [want to], [so that].</strong>"</p>
+<p class="h3 mrgn-bttm-lg">"<strong>As a [persona], I [want to], [so that].</strong>"</p>
 <p><strong>As a:</strong> this is the WHO. Who are we building this for? Who is the user?</p>
 <p><strong>I want</strong> this is the WHAT. What are we building? What is the intention?</p>
 <p><strong>So that</strong> this is they WHY. Why are we building it? What is the value for the customer?</p>
