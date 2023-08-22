@@ -29,7 +29,7 @@ title: "User stories"
 <p>It is also important to note that the user story <strong>does not provide solutions</strong> (that is the work of the team).  It simply states what is desired.</p>
 <h2 class="h3">User story structure</h2>
 <blockquote class="mrgn-tp-lg mrgn-bttm-lg">
-  <p>As a [persona], I [want to], [so that].</p>
+  <p><strong>As a [persona], I [want to], [so that].</strong></p>
 </blockquote>
 <p><strong>As a:</strong> this is the WHO. Who are we building this for? Who is the user?</p>
 <p><strong>I want</strong> this is the WHAT. What are we building? What is the intention?</p>
