@@ -19,3 +19,19 @@ pageclass: cnt-wdth-lmtd
 title: "Style guide repository"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Github Repository</span>: <span>Canada.ca Content Style Guide</span></span></h1>
+<table class="wb-tables table">
+  <thead>
+    <tr>
+      <th>Section</th>
+      <th>design-system</th>
+      <th>systeme-conception</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
