@@ -38,7 +38,7 @@ title: "Style guide repository"
         <tr>
           <th>Sort</th>
           <th class="col-md-5">Section name</th>
-          <th class="col-md-1">Section id</th>
+          <th class="col-md-1">ID</th>
           <th class="col-md-3"><span class="fab fa-github"></span> design-system</th>
           <th class="col-md-3"><span class="fab fa-github"></span> systeme-conception</th>
         </tr>
@@ -127,7 +127,7 @@ title: "Style guide repository"
         <tr>
           <td>4.1.1</td>
           <td>4.1.1 Titles, headings and subheadings<br>
-            Titres et sous-titres</td>
+            4.1.1 Titres et sous-titres</td>
           <td>wp4-1-1</td>
           <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/09-toc8-wp4-1-1.html">09-toc8-wp4-1-1.html</a></td>
           <td></td>
@@ -135,7 +135,7 @@ title: "Style guide repository"
         <tr>
           <td>4.1.2</td>
           <td>4.1.2 Lists<br>
-            Listes d'éléments</td>
+            4.1.2 Listes d'éléments</td>
           <td>wp4-1-2</td>
           <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/09-toc8-wp4-1-2.html">09-toc8-wp4-1-2.html</a></td>
           <td></td>
