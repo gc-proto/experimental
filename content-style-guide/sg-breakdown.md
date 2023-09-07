@@ -20,14 +20,26 @@ title: "Style guide repository"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Github Repository</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <div class="panel panel-default">
-  <table class="wb-tables table table-striped table-condensed small">
+  <table class="wb-tables table table-striped table-condensed small mrgn-tp-lg brdr-tp" aria-live="polite" id="style-guide" data-page-length="100" data-wb-tables='{  
+	    "bDeferRender": true,														 
+            "order": [0, "asc"],
+            "paging": true,
+            "info": true,
+            "columns": [
+            { "data": "SORT", "className": "",  "visible": false },
+            { "data": "SECTIONNAME", "className": "" },
+	        { "data": "ID", "className": "" },
+            { "data": "DESIGNSYSTEM", "className": "", "orderable": false },
+            { "data": "SYSTEMECONCEPTION", "className": "", "orderable": false }
+            ]
+            }'>
     <thead>
       <tr>
         <th>Sort</th>
-        <th>Section name</th>
-        <th>Section id</th>
-        <th>design-system</th>
-        <th>systeme-conception</th>
+        <th class="col-md-4">Section name</th>
+        <th class="col-md-2">Section id</th>
+        <th class="col-md-3"><span class="fab fa-github"></span> design-system</th>
+        <th class="col-md-3"><span class="fab fa-github"></span> systeme-conception</th>
       </tr>
     </thead>
     <tbody>
@@ -82,7 +94,7 @@ title: "Style guide repository"
       <tr>
         <td>2.0</td>
         <td>2.0 Plain language<br>
-          1.0 Principes de rédaction pour le contenu Web</td>
+          2.0 Langage clair et simple</td>
         <td>toc6</td>
         <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/07-toc6.html">07-toc6.html</a></td>
         <td></td>
@@ -90,7 +102,7 @@ title: "Style guide repository"
       <tr>
         <td>3.0</td>
         <td>3.0 Tone<br>
-          1.0 Principes de rédaction pour le contenu Web</td>
+          3.0 Ton</td>
         <td>toc7</td>
         <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/08-toc7.html">08-toc7.html</a></td>
         <td></td>
@@ -98,7 +110,7 @@ title: "Style guide repository"
       <tr>
         <td>4.0</td>
         <td>4.0 Style<br>
-          1.0 Principes de rédaction pour le contenu Web</td>
+          4.0 Style de présentation</td>
         <td>toc8</td>
         <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/09-toc8.html">09-toc8.html</a></td>
         <td></td>
