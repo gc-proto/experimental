@@ -291,7 +291,7 @@ title: "Style guide repository"
         <tr>
           <td>8.0</td>
           <td>8.0 Web content makeovers<br>
-            Refonte de contenu Web</td>
+            8.0 Refonte de contenu Web</td>
           <td>toc12</td>
           <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/13-toc12.html">13-toc12.html</a></td>
           <td></td>
@@ -299,7 +299,7 @@ title: "Style guide repository"
         <tr>
           <td>9.0</td>
           <td>9.0 Resources<br>
-            Ressources</td>
+            9.0 Ressources</td>
           <td>toc13</td>
           <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/14-toc13.html">14-toc13.html</a></td>
           <td></td>
