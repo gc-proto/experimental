@@ -45,7 +45,7 @@ title: "Canada.ca Content Style Guide refinement project"
     <ul>
       <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide/">Full documtnt</a></li>
       <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide-test/">Sections and landing page</a></li>
-      <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide-test/contact">Sections and landing page</a></li>
+      <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide-test/contact">Section integrated into design system</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul>
