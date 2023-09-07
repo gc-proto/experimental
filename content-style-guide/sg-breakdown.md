@@ -244,7 +244,7 @@ title: "Style guide repository"
         <tr>
           <td>4.10.1</td>
           <td>4.10.1 Mailing addresses<br>
-            Adresses postales</td>
+            4.10.1 Adresses postales</td>
           <td>wp4-10-1</td>
           <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/09-toc8-wp4-10-1.html">09-toc8-wp4-10-1.html</a></td>
           <td></td>
@@ -252,7 +252,7 @@ title: "Style guide repository"
         <tr>
           <td>4.10.2</td>
           <td>4.10.2 Email addresses<br>
-            Adresses de courriel</td>
+            4.10.2 Adresses de courriel</td>
           <td>wp4-10-2</td>
           <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/09-toc8-wp4-10-2.html">09-toc8-wp4-10-2.html</a></td>
           <td></td>
