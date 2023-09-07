@@ -37,8 +37,8 @@ title: "Style guide repository"
       <thead>
         <tr>
           <th>Sort</th>
-          <th class="col-md-4">Section name</th>
-          <th class="col-md-2">Section id</th>
+          <th class="col-md-5">Section name</th>
+          <th class="col-md-1">Section id</th>
           <th class="col-md-3"><span class="fab fa-github"></span> design-system</th>
           <th class="col-md-3"><span class="fab fa-github"></span> systeme-conception</th>
         </tr>
