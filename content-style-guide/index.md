@@ -21,11 +21,10 @@ title: "Canada.ca Content Style Guide refinement project"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Refinement project</span>: <span>Canada.ca Content Style Guide</span></span></h1>
-    <h2 class="h3 mrgn-tp-lg">Current page (AEM)</h2>
-    <p>The Style guide will be migrated from AEM to GitHub pages (<a href="https://test.canada.ca/experimental/migration/aem-migration.html">Moving from AEM to GitHub</a>).</p>
+    <h2 class="h3 mrgn-tp-lg">Current page (GitHub)</h2>
     <ul>
-      <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html">Canada.ca Content Style Guide</a></li>
-      <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html">Guide de rédaction du contenu du site Canada.ca</a></li>
+      <li><a href="https://design.canada.ca/style-guide/">Canada.ca Content Style Guide</a></li>
+      <li><a href="https://conception.canada.ca/guide-redaction/">Guide de rédaction du contenu du site Canada.ca</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Agile methodology</h2>
     <ul class="fa-ul">
@@ -33,6 +32,15 @@ title: "Canada.ca Content Style Guide refinement project"
     </ul>
     <ul>
       <li><a href="https://test.canada.ca/experimental/content-style-guide/jira/">Our use of the agile methodology</a> (Refererefnce and help files)</li>
+    </ul>
+    <h2 class="h3 mrgn-tp-lg">Section breakdown proof of concept (<a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2?selectedIssue=CCCSG-158">JIRA</a>)</h2>
+    <p>The style guide is broken down into section snippets.  The snippets can be accessed for displaying the full document, individual sections, or integration into the design guide. <strong>Code once; use anywhere</strong>.</p>
+    <ul>
+      <li><a href="https://github.com/canada-ca/design-system/pull/326">Pull request #326</a></li>
+      <li><a href="https://test.canada.ca/experimental/content-style-guide/sg-breakdown">Section grid (maintenance strategy)</a></li>
+      <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide/">Full documtnt</a></li>
+      <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide-test/">Sections and landing page</a></li>
+      <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide-test/contact">Sections and landing page</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul>
@@ -42,7 +50,7 @@ title: "Canada.ca Content Style Guide refinement project"
     <h2 class="h3 mrgn-tp-lg">Documents</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://drive.google.com/drive/folders/1ShcpGwJnqs9PGmF2tXU708Wg0RKsiY08?ths=true">Google drive (document repository)</a></li>
-    </ul>  
+    </ul>
     <h3 class="h5 mrgn-tp-lg">Canada.ca Content Style Guide (versions)</h3>
     <ul class="fa-ul">
       <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/spreadsheets/d/1hQLFf3Or-6wK9EIv0DJVudavOOWTKK22">Standing issues</a> (<a href="https://canada-style-guide.atlassian.net/browse/CCCSG-32">CCCSG-32 - Standing issues</a>)</li>
