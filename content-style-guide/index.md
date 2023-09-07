@@ -33,11 +33,16 @@ title: "Canada.ca Content Style Guide refinement project"
     <ul>
       <li><a href="https://test.canada.ca/experimental/content-style-guide/jira/">Our use of the agile methodology</a> (Refererefnce and help files)</li>
     </ul>
-    <h2 class="h3 mrgn-tp-lg">Section breakdown proof of concept (<a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2?selectedIssue=CCCSG-158">JIRA</a>)</h2>
+    <h2 class="h3 mrgn-tp-lg">Section breakdown proof of concept</h2>
     <p>The style guide is broken down into section snippets.  The snippets can be accessed for displaying the full document, individual sections, or integration into the design guide. <strong>Code once; use anywhere</strong>.</p>
+    <h3 class="h4 mrgn-tp-lg">Stuff</h3>
     <ul>
+      <li><a href="https://canada-style-guide.atlassian.net/jira/software/projects/CCCSG/boards/2?selectedIssue=CCCSG-158">JIRA: CCCSG-158</a></li>
       <li><a href="https://github.com/canada-ca/design-system/pull/326">Pull request #326</a></li>
       <li><a href="https://test.canada.ca/experimental/content-style-guide/sg-breakdown">Section grid (maintenance strategy)</a></li>
+    </ul>
+    <h3 class="h4 mrgn-tp-lg">Previews</h3>
+    <ul>
       <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide/">Full documtnt</a></li>
       <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide-test/">Sections and landing page</a></li>
       <li><a href="https://deploy-preview-326--design-system-canada-ca.netlify.app/style-guide-test/contact">Sections and landing page</a></li>
