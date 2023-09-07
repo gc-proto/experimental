@@ -20,7 +20,7 @@ title: "Style guide repository"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Github Repository</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <div class="panel panel-default">
-  <div class="mrgn-tp-lg">
+  <div class="mrgn-tp-md">
     <table class="wb-tables table table-striped table-condensed small brdr-tp" aria-live="polite" id="style-guide" data-page-length="100" data-wb-tables='{  
 	    "bDeferRender": true,														 
             "order": [0, "asc"],
