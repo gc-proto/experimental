@@ -23,7 +23,7 @@ title: "Style guide repository"
   <table class="wb-tables table table-striped table-condensed small">
     <thead>
       <tr>
-        <th>sort</th>
+        <th>Sort</th>
         <th>Section name</th>
         <th>Section id</th>
         <th>design-system</th>
@@ -113,14 +113,16 @@ title: "Style guide repository"
       </tr>
       <tr>
         <td>4.1.1</td>
-        <td>4.1.1 Titles, headings and subheadings<br></td>
+        <td>4.1.1 Titles, headings and subheadings<br>
+          Titres et sous-titres</td>
         <td>wp4-1-1</td>
         <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/09-toc8-wp4-1-1.html">09-toc8-wp4-1-1.html</a></td>
         <td></td>
       </tr>
       <tr>
         <td>4.1.2</td>
-        <td>4.1.2 Lists<br></td>
+        <td>4.1.2 Lists<br>
+          Listes d'éléments</td>
         <td>wp4-1-2</td>
         <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/09-toc8-wp4-1-2.html">09-toc8-wp4-1-2.html</a></td>
         <td></td>
@@ -227,14 +229,16 @@ title: "Style guide repository"
       </tr>
       <tr>
         <td>4.10.1</td>
-        <td>4.10.1 Mailing addresses<br></td>
+        <td>4.10.1 Mailing addresses<br>
+          Adresses postales</td>
         <td>wp4-10-1</td>
         <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/09-toc8-wp4-10-1.html">09-toc8-wp4-10-1.html</a></td>
         <td></td>
       </tr>
       <tr>
         <td>4.10.2</td>
-        <td>4.10.2 Email addresses<br></td>
+        <td>4.10.2 Email addresses<br>
+          Adresses de courriel</td>
         <td>wp4-10-2</td>
         <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/09-toc8-wp4-10-2.html">09-toc8-wp4-10-2.html</a></td>
         <td></td>
