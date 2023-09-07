@@ -23,6 +23,7 @@ title: "Style guide repository"
   <table class="wb-tables table table-striped table-condensed small">
     <thead>
       <tr>
+        <th>sort</th>
         <th>Section name</th>
         <th>Section id</th>
         <th>design-system</th>
