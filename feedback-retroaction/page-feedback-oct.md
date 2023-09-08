@@ -177,9 +177,9 @@ If you would like to add a new theme value that is not currently in the Feedback
 </li>
 
 
-<li><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code. <br>
+<li><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code. </li>
 
-This is useful when you want to download feedback for multiple pages at the same time. <br>
+<p>This is useful when you want to download feedback for multiple pages at the same time.</p>
 
 Consider including this value when you are adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”. <br>
 
@@ -187,7 +187,7 @@ This is a unilingual value - enter the same section value to your English and Fr
 
 If you would like to add a new section value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new section value into the Feedback Viewer.
 
-</li>
+
 
 <li><span class="label label-warning">Optional</span> Contact link<br>
 
