@@ -24,7 +24,7 @@ title: "Style guide repository"
   <div class="mrgn-tp-md">
     <table class="wb-tables table table-striped small brdr-tp" aria-live="polite" id="style-guide" data-page-length="100" data-wb-tables='{  
 	    "bDeferRender": true,														 
-            "order": [[0, "asc"],[1, "asc"]]
+            "order": [[0, "asc"],[1, "asc"]],
             "paging": true,
             "info": true,
             "columns": [
