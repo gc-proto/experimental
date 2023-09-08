@@ -47,7 +47,7 @@ Consider adding the page feedback tool to:
 
 ## What to avoid
 
-Avoid using the page feedback tools on pages where there is no plan to monitor comments or take action. We also don’t recommend using the tool within secure spaces.
+Avoid using the page feedback tool on pages where there is no plan to monitor comments or take action. We also don’t recommend using the tool within secure spaces.
 
 [Additional behaviours to avoid when analyzing feedback](https://design.canada.ca/feedback/when.html#how-not-to-use-the-tool)
 
@@ -55,7 +55,7 @@ Avoid using the page feedback tools on pages where there is no plan to monitor c
 
 <h3>Visual examples</h3>
 
-<h4>1. Inital view of the feedback tool</h4>
+<h4>1. Initial view of the feedback tool</h4>
 ![](./images/page-feedback.png)
 
 <h4>2. View after selecting "No"</h4>
