@@ -137,8 +137,6 @@ In most cases, you should include the Canada.ca theme for your content (full lis
 
 This is a unilingual value - enter the same theme value to your English and French pages.
 
-If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.<br><br>
-
 <details>
 <summary>Canada.ca themes</summary>
 
@@ -167,6 +165,10 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 </details>
+
+If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.<br><br>
+
+
 
 </li>
 
