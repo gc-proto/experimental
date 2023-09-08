@@ -22,22 +22,22 @@ title: "Style guide repository"
 <p>The Style Guide section snippets.</p>
 <div class="row">
   <div class="col-md-10">
-    <ul class="list-unstyled list-inline">
-      <li>
-        <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
-          <input type="hidden" id="dt_eng" name="dt_eng" value="en"  data-column="1">
-          <button type="submit" class="btn btn-sm btn-primary"  aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> English</button>
-        </form>
-      </li>
-      <li>
-        <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
-          <input type="hidden" id="dt_fra" name="dt_fra" value="fr"  data-column="1">
-          <button type="submit" class="btn btn-sm btn-primary"  aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> Français</button>
-        </form>
-      </li>
-      <li> <a href="sg-breakdown.html" class="btn btn-sm btn-default">Reset</a> </li>
-    </ul>
     <div class="panel panel-default mrgn-tp-sm">
+      <ul class="list-unstyled list-inline">
+        <li>
+          <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
+            <input type="hidden" id="dt_eng" name="dt_eng" value="en"  data-column="1">
+            <button type="submit" class="btn btn-sm btn-primary"  aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> English</button>
+          </form>
+        </li>
+        <li>
+          <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
+            <input type="hidden" id="dt_fra" name="dt_fra" value="fr"  data-column="1">
+            <button type="submit" class="btn btn-sm btn-primary"  aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> Français</button>
+          </form>
+        </li>
+        <li> <a href="sg-breakdown.html" class="btn btn-sm btn-default">Reset</a> </li>
+      </ul>
       <div class="mrgn-tp-md">
         <table class="wb-tables table table-striped small brdr-tp" aria-live="polite" id="styleguide" data-page-length="100" data-wb-tables='{  
 	    "bDeferRender": true,														 
@@ -530,3 +530,4 @@ title: "Style guide repository"
     </div>
   </div>
 </div>
+
