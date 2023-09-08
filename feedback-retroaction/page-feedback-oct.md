@@ -191,7 +191,7 @@ If you would like to add a new section value that is not currently in the Feedba
 
 <li><span class="label label-warning">Optional</span> Contact link<br>
 
-Consider adding a contact link if:
+Only consider adding a contact link if:
 <ul>
 <li>Users are trying to use the feedback tool as a method to get a response from the government</li>
 <li>You have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.</li>
