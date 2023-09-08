@@ -23,7 +23,7 @@ title: "Style guide repository"
 <div class="row">
   <div class="col-md-10">
     <div class="panel panel-default mrgn-tp-sm">
-      <ul class="list-unstyled list-inline">
+      <ul class="list-unstyled list-inline mrgn-tp-md">
         <li>
           <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
             <input type="hidden" id="dt_eng" name="dt_eng" value="en"  data-column="1">
