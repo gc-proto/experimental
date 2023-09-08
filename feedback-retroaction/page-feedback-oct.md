@@ -167,8 +167,8 @@ This is a unilingual value - enter the same theme value to your English and Fren
 
 
 </details>
-
-If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.<br><br>
+<br>
+If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.<br>
 
 
 
