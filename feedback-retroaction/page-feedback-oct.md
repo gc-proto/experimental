@@ -142,7 +142,7 @@ In most cases, you should include the Canada.ca theme for your content (full lis
 This is a unilingual value - enter the same theme value to your English and French pages.
 
 <details>
-<summary>Canada.ca themes</summary>
+<summary>Canada.ca theme values</summary>
 
 <ul>
 <li>About Gov</li>
