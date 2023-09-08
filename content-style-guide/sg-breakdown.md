@@ -35,7 +35,7 @@ title: "Style guide repository"
           <button type="submit" class="btn btn-primary"  aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> Français</button>
         </form>
       </li>
-      <li> <a href="sg-breakdown.html" class="btn btn-default full-width">Reset</a> </li>
+      <li> <a href="sg-breakdown.html" class="btn btn-default">Reset</a> </li>
     </ul>
     <table class="wb-tables table table-striped small brdr-tp" aria-live="polite" id="styleguide" data-page-length="100" data-wb-tables='{  
 	    "bDeferRender": true,														 
