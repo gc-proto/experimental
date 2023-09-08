@@ -278,8 +278,11 @@ Only consider adding a contact link if:
 
 <details>
  <summary>Code</summary>
-
- </details>
+<ul>
+<li><a href="https://wet-boew.github.io/GCWeb/sites/feedback/feedback-docs-en.html#variantPFT">Page Feedback Tool (default)</a></li>
+<li><a href="https://wet-boew.github.io/GCWeb/sites/feedback/feedback-docs-en.html#variantPFTContact">Page Feedback Tool with contact link</a></li>
+</ul>
+</details>
 
 
 
