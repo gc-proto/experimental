@@ -373,7 +373,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
-<p><a href="https://design.canada.ca/feedback/feedback.html">Full guidance for using and analyzing page feedback</a> <p>
+<p><a href="https://design.canada.ca/feedback/index.html">Full guidance for using and analyzing page feedback</a> <p>
 
 
 
