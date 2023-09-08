@@ -165,6 +165,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <li>Travel</li>
 <li>Veterans</li>
 </ul>
+</details>
 
 <p>
 If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
