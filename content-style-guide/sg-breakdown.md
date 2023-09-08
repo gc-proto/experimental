@@ -22,11 +22,11 @@ title: "Style guide repository"
 <p>The Style Guide section snippets.</p>
 <div class="panel panel-default mrgn-tp-lg">
   <div class="mrgn-tp-md">
-    <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="style-guide">
+    <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
       <input type="hidden" id="dt_eng" name="dt_eng" value="en"  data-column="1">
       <button type="submit" class="btn btn-primary full-width"  aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> English</button>
     </form>
-    <table class="wb-tables table table-striped small brdr-tp" aria-live="polite" id="style-guide" data-page-length="100" data-wb-tables='{  
+    <table class="wb-tables table table-striped small brdr-tp" aria-live="polite" id="styleguide" data-page-length="100" data-wb-tables='{  
 	    "bDeferRender": true,														 
             "order": [[0, "asc"],[1, "asc"]],
             "paging": true,
@@ -36,8 +36,7 @@ title: "Style guide repository"
             { "data": "LANGUAGE", "className": "",  "visible": false },																									
             { "data": "SECTIONNAME", "className": "" },
 	        { "data": "ID", "className": "" },
-            { "data": "DESIGNSYSTEM", "className": "", "orderable": false },
-            { "data": "SYSTEMECONCEPTION", "className": "", "orderable": false }
+            { "data": "RREPOSITORY", "className": "", "orderable": false }
             ]
             }'>
       <thead>
