@@ -185,7 +185,7 @@ If you would like to add a new section value that is not currently in the Feedba
 
 </li>
 
-<li><span class="label label-warning">Optional</span> Contact link<br><br>
+<li><span class="label label-warning">Optional</span> Contact link<br>
 
 Consider adding a contact link if:
 <ul>
