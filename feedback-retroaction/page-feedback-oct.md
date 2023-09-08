@@ -58,10 +58,10 @@ Avoid using the page feedback tool on pages where there is no plan to monitor co
 <h4>1. Initial view of the feedback tool</h4>
 ![](./images/page-feedback.png)
 
-<h4>2a. View after selecting "No"</h4>
+<h4>2a. Default view after selecting "No"</h4>
 ![](./images/description-en.jpg)
 
-<h4>2b. View after selecting "No" with contact option</h4>
+<h4>2b. Optional view after selecting "No" with contact option</h4>
 The expando labeled “Need urgent help with a problem? Contact us” will be closed by default.
 ![](./images/description-en.jpg)
 
@@ -181,14 +181,14 @@ If you would like to add a new section value that is not currently in the Feedba
 
 </li>
 
-<li><span class="label label-warning">Optional</span> Contact link<br><br></li>
+<li><span class="label label-warning">Optional</span> Contact link<br><br>
 
 Consider adding a contact link if:
 <ul>
 <li>Users are trying to use the feedback tool as a method to get a response from the government</li>
 <li>You have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.</li>
 </ul>
-
+</li>
 </ol>
 </details>                            
 
@@ -233,7 +233,7 @@ Consider adding a contact link if:
 
 <details>
  <summary>Code</summary>
- 
+
  </details>
 
 
