@@ -22,10 +22,20 @@ title: "Style guide repository"
 <p>The Style Guide section snippets.</p>
 <div class="panel panel-default mrgn-tp-lg">
   <div class="mrgn-tp-md">
-    <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
-      <input type="hidden" id="dt_eng" name="dt_eng" value="en"  data-column="1">
-      <button type="submit" class="btn btn-primary full-width"  aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> English</button>
-    </form>
+    <ul class="unstyled">
+      <li>
+        <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
+          <input type="hidden" id="dt_eng" name="dt_eng" value="en"  data-column="1">
+          <button type="submit" class="btn btn-primary"  aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> English</button>
+        </form>
+      </li>
+      <li>
+        <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
+          <input type="hidden" id="dt_fra" name="dt_fra" value="fr"  data-column="1">
+          <button type="submit" class="btn btn-primary"  aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> Français</button>
+        </form>
+      </li>
+    </ul>
     <table class="wb-tables table table-striped small brdr-tp" aria-live="polite" id="styleguide" data-page-length="100" data-wb-tables='{  
 	    "bDeferRender": true,														 
             "order": [[0, "asc"],[1, "asc"]],
