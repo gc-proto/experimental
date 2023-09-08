@@ -175,7 +175,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 </li>
 
 
-<li><span class="label label-warning">Optional but recommended</span> Add a “Section” hidden value in the feedback code. <br>
+<li><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code. <br>
 
 Consider including this value when you are adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”.  This is useful when you want to download feedback for multiple pages at the same time. <br>
 
