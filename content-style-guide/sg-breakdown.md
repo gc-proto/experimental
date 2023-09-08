@@ -70,9 +70,9 @@ title: "Style guide repository"
             "info": true,
             "columns": [
             { "data": "SORT", "className": "",  "visible": false },
-            { "data": "LANGUAGE", "className": "",  "visible": false },																									
+            { "data": "LANGUAGE", "className": "",  "visible": false },						
             { "data": "SECTIONNAME", "className": "" },
-	        { "data": "ID", "className": "" },
+	    { "data": "ID", "className": "" },
             { "data": "DESIGNSYSTEM", "className": "", "orderable": false },
             { "data": "SYSTEMECONCEPTION", "className": "", "orderable": false }
             ]
@@ -88,14 +88,14 @@ title: "Style guide repository"
       </thead>
       <tbody>
         <tr>
-          <td>0.1</td>
+          <td>.1</td>
           <td>en</td>
           <td>Table of contents</td>
           <td>toc</td>
           <td><a href="https://github.com/canada-ca/design-system/blob/CCCSG-158-recode-style-guide/_includes/style-guide/01-intro.html">01-intro.html</a></td>
         </tr>
         <tr>
-          <td>0.1</td>
+          <td>.1</td>
           <td>fr</td>
           <td>Table des matières</td>
           <td>toc</td>
