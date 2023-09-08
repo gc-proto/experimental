@@ -135,7 +135,9 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <li><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code.<br>
 
-In most cases, you should include the Canada.ca theme for your content (full list below). This is useful when you want to download feedback for an entire theme of pages at the same time.<br>
+This is useful when you want to download feedback for an entire theme of pages at the same time.<br>
+
+In most cases, you should include the Canada.ca theme for your content (full list below). <br>
 
 This is a unilingual value - enter the same theme value to your English and French pages.
 
@@ -177,7 +179,9 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <li><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code. <br>
 
-Consider including this value when you are adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”.  This is useful when you want to download feedback for multiple pages at the same time. <br>
+This is useful when you want to download feedback for multiple pages at the same time. <br>
+
+Consider including this value when you are adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”. <br>
 
 This is a unilingual value - enter the same section value to your English and French pages.<br>
 
