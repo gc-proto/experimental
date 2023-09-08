@@ -37,7 +37,7 @@ title: "Style guide repository"
       </li>
       <li> <a href="sg-breakdown.html" class="btn btn-sm btn-default">Reset</a> </li>
     </ul>
-    <div class="panel panel-default mrgn-tp-lg">
+    <div class="panel panel-default mrgn-tp-sm">
       <div class="mrgn-tp-md">
         <table class="wb-tables table table-striped small brdr-tp" aria-live="polite" id="styleguide" data-page-length="100" data-wb-tables='{  
 	    "bDeferRender": true,														 
