@@ -109,8 +109,10 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <p>Consider adding a contact link in the page feedback tool if:</p>
 <ul>
 <li>users are trying to use the feedback tool as a method to get a response from the government</li>
-<li>you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation<li>
+<li>you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation</li>
 </ul>
+
+
 
 <a id="how"></a>
 <h2>How to implement</h2>
