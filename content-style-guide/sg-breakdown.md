@@ -21,7 +21,7 @@ title: "Style guide repository"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Github Repository</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <p>The Style Guide section snippets.</p>
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-10">
     <ul class="list-unstyled list-inline">
       <li>
         <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="styleguide">
