@@ -22,6 +22,47 @@ title: "Style guide repository"
 <p>The Style Guide section snippets.</p>
 <div class="panel panel-default mrgn-tp-lg">
   <div class="mrgn-tp-md">
+    <form class="wb-tables-filter mrgn-lft-md mrgn-rght-md" data-bind-to="style-guide">
+      <button type="submit" class="btn btn-primary full-width" value="en"  data-column="1" aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> English</button>
+      <div class="row mrgn-tp-lg mrgn-bttm-lg">
+        <div class="form-group">
+          <label for="dt_cat">Pattern, template or style</label>
+          <select class="form-control maxwidth" id="dt_cat" name="dt_cat" data-column="4">
+            <option value="">All</option>
+            <option value="Design pattern">Design patterns</option>
+            <option value="Template">Template</option>
+            <option value="Style">Style</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="dt_type">Types</label>
+          <select class="form-control maxwidth" id="dt_type" name="dt_type" data-column="5">
+            <option value="">All</option>
+            <option value="Destination">Destination</option>
+            <option value="Government-wide template">Government-wide</option>
+            <option value="Institutional">Institutional</option>
+            <option value="Interaction">Interaction</option>
+            <option value="Navigation">Navigation</option>
+            <option value="Promotion">Promotional</option>
+            <option value="Site">Site-wide</option>
+            <option value="Theme template">Theme and topic</option>
+            <option value="Visual">Visual</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="dt_mand">Mandatory or suggested</label>
+          <select class="form-control maxwidth" id="dt_mand" name="dt_mand" data-column="6">
+            <option value="">All</option>
+            <option value="Mandatory">Mandatory</option>
+            <option value="No">Suggested</option>
+          </select>
+        </div>
+        <div class="col-md-12 mrgn-tp-lg">
+          <button type="submit" class="btn btn-primary full-width" aria-controls="dataset-filter"><span class="fas fa-filter mrgn-rght-sm"></span> Filter</button>
+        </div>
+        <div class="col-md-12 mrgn-tp-md"><a href="pattern-library.html" class="btn btn-default full-width">Reset to defaults</a> </div>
+      </div>
+    </form>
     <table class="wb-tables table table-striped small brdr-tp" aria-live="polite" id="style-guide" data-page-length="100" data-wb-tables='{  
 	    "bDeferRender": true,														 
             "order": [[0, "asc"],[1, "asc"]],
