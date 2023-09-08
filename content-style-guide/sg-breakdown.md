@@ -530,4 +530,3 @@ title: "Style guide repository"
     </div>
   </div>
 </div>
-
