@@ -223,64 +223,9 @@ If you would like to add a new theme value that is not currently in the Feedback
 </ul>
 
 
-<h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code.</h4>
-
-<p>This is useful when you want to download feedback for an entire theme of pages at the same time.</p>
-
-<p>In most cases, you should include the Canada.ca theme for your content (full list below). </p>
-
-<p>This is a unilingual value - enter the same theme value to your English and French pages.</p>
-
-<details>
-<summary>Canada.ca theme values</summary>
-<ul>
-<li>About Gov</li>
-<li>Benefits</li>
-<li>Business</li>
-<li>CanadaTheWorld</li>
-<li>Culture</li>
-<li>Defense</li>
-<li>Environment</li>
-<li>Health</li>
-<li>Immigration</li>
-<li>Indigenous</li>
-<li>Jobs</li>
-<li>Money</li>
-<li>Policing</li>
-<li>PublicService</li>
-<li>Science</li>
-<li>Taxes</li>
-<li>Transport</li>
-<li>Travel</li>
-<li>Veterans</li>
-</ul>
-</details>
-
-<p>If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
-
-
-<h4><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code. </h4>
-
-<p>This is useful when you want to download feedback for multiple pages at the same time.</p>
-
-<p>Consider including this value when you are adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”.</p>
-
-<p>This is a unilingual value - enter the same section value to your English and French pages.</p>
-
-<p>If you would like to add a new section value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new section value into the Feedback Viewer.</p>
-
-
-
-<h4><span class="label label-warning">Optional</span> Contact link</h4>
-
-<p>Only consider adding a contact link if:</p>
-<ul>
-<li>Users are trying to use the feedback tool as a method to get a response from the government</li>
-<li>You have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.</li>
-</ul>
 
 </details>
-</div>
+
 
 
 <details>
