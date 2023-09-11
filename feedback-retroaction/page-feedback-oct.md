@@ -134,7 +134,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <summary>Instructions</summary>
 
 <h4>Add the feedback component</h4>
-<p><mark>Need link to this</mark><a href="">How to add the feedback component to your page in AEM</a>. (Internal only on GCPedia) </p>
+<p><mark>Need link to this</mark><a href="">How to add the feedback component to your page in AEM</a>. (Internal only on GCPedia)</p>
 
 <h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code.</h4>
 
@@ -146,7 +146,6 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <details>
 <summary>Canada.ca theme values</summary>
-
 <ul>
 <li>About Gov</li>
 <li>Benefits</li>
@@ -215,17 +214,10 @@ If you would like to add a new theme value that is not currently in the Feedback
 <li>Submission page (URL)</li>
 <li><mark>Required??</mark>Page language (Use EN or FR)</li>
 </ul>
-</details>
+</details> 
 
 
 
-<details>
-<summary>Code</summary>
-<ul>
-<li><a href="https://wet-boew.github.io/GCWeb/sites/feedback/feedback-docs-en.html#variantPFT">Page Feedback Tool (default)</a></li>
-<li><a href="https://wet-boew.github.io/GCWeb/sites/feedback/feedback-docs-en.html#variantPFTContact">Page Feedback Tool with contact link</a></li>
-</ul>
-</details>
 
 
 <h3 id="guidance">Accessing and analyzing feedback</h3>
