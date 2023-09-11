@@ -216,7 +216,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 </div>
 
 <div class="col-md-12">
-<h3>Feedback tool code for non-AEM pages</h3>
+<h3>a Feedback tool code for non-AEM pages</h3>
 <p>Use this feedback tool code for any page that is not hosted on the Adobe Managed Web Service.</p>
 
 <details>
