@@ -62,13 +62,12 @@ Avoid using the page feedback tool on pages where there is no plan to monitor co
 ![](./images/description-en.jpg)
 
 <h4>2b. Optional view after selecting "No" with contact option</h4>
-The expando labeled “Need urgent help with a problem? Contact us” will be closed by default.
-<img src="./images/feedback-contact-en.png" width="400">
+<p>The expando labeled “Need urgent help with a problem? Contact us” will be closed by default.</p>
+<img src="./images/feedback-contact-en.png" width="600">
 
-![](./images/feedback-contact-en.png)
 
 <h4>3. View after selecting "Yes" or after submitting feedback</h4>
-![](./images/thankyou-new.jpg)
+<img src="./images/thankyou-new.png" width="600">
 
 
 <details>
@@ -114,7 +113,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <p><span class="label label-warning">Optional</span> Contact link</p>
 
-<p>Consider adding a contact link in the page feedback tool if:</p>
+<p>Only consider adding a contact link in the page feedback tool if:</p>
 <ul>
 <li>users are trying to use the feedback tool as a method to get a response from the government</li>
 <li>you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation</li>
