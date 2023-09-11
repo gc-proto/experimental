@@ -129,7 +129,6 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <h3>Feedback tool for AEM pages</h3>
 <p>Use these instructions for any page hosted on the Adobe Managed Web Service.</p>
 
-
 <details>
 <summary>Instructions</summary>
 
@@ -197,14 +196,14 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 
-<h3>c Feedback tool code for non-AEM pages</h3>
+<h3>Feedback tool code for non-AEM pages</h3>
 <p>Use these instructions for any page that is not hosted on the Adobe Managed Web Service.</p>
 
 <details>
 <summary>Instructions</summary>
 
 <h4>Add the feedback component</h4>
-<p>Insert the feedback tool code where the “Report a problem on this page” is located in your page's HTML.</li>
+<p>Insert the feedback tool code where the “Report a problem on this page” is located in your page's HTML.</p>
 
 
 <h4>Add the mandatory hidden values</h4>
