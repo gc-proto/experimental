@@ -200,14 +200,8 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 </details>                            
 </div>
-</div>
-</div>
 
 
-
-
-<div class="wb-eqht">
-<div class="row">
 <div class="col-md-12">
 
 <h3>Feedback tool code for non-AEM pages</h3>
