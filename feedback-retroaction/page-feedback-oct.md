@@ -199,9 +199,8 @@ If you would like to add a new theme value that is not currently in the Feedback
 </ul>
 
 </details>                            
-
-
 </div>
+
 
 <div class="col-md-12">
 <h3>Feedback tool code for non-AEM pages</h3>
@@ -215,7 +214,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 <h4>Add the mandatory hidden values</h4>
-<li>Update the data attributes for:</li>
+<p>Update the data attributes for:</p>
 <ul>
 <li><mark>Required??</mark>Page title</li>
 <li>Submission page (URL)</li>
@@ -257,8 +256,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 </ul>
 </details>
 
-<p>
-If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
+<p>If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
 
 
 <h4><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code. </h4>
@@ -280,10 +278,9 @@ If you would like to add a new theme value that is not currently in the Feedback
 <li>Users are trying to use the feedback tool as a method to get a response from the government</li>
 <li>You have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.</li>
 </ul>
-
-
-
 </details>
+
+
 
 <details>
  <summary>Code</summary>
@@ -295,8 +292,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 
-</div>                  
-</div>            
+          
 </div>
 
 
