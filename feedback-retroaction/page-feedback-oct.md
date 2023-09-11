@@ -212,7 +212,11 @@ If you would like to add a new theme value that is not currently in the Feedback
 <li>Page title</li>
 <li>Submission page (URL)</li>
 <li>Page language (Use EN or FR)</li>
+<li>Department acronym (unilingual value)<mark>check this - should we add the list?</mark></li>
 </ul>
+
+
+
 </details>
 
 
