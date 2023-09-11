@@ -304,7 +304,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>Feedback can be viewed and downloaded as CSV or Excel files at any time using the Feedback Viewer website.</p>
 
-<p>The Feedback Viewer is a password protected environment available to all page feedback participants. Contact the DTO to access to the site.</p>
+<p>The Feedback Viewer is a password protected environment available to all page feedback participants. Contact the Canada Digital Service to access to the site.</p>
 
 <p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
@@ -328,5 +328,5 @@ If you would like to add a new theme value that is not currently in the Feedback
 <h2>Discussion</h2>
 <ul>
 
-<li><a href="mailto:dto.btn@tbs-sct.gc.ca">Send an email to the Digital Transformation Office</a></li>
+<li><a href="mailto:dto.btn@tbs-sct.gc.ca">Send an email to the Canada Digital Service</a></li>
 </ul>
