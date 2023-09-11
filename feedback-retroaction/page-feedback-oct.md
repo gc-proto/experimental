@@ -217,7 +217,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 
-</details>
+
 
 
 <h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code.</h4>
@@ -275,7 +275,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 <li>Users are trying to use the feedback tool as a method to get a response from the government</li>
 <li>You have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.</li>
 </ul>
-
+</details>
 
 
 <details>
