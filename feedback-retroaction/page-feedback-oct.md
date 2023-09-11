@@ -280,7 +280,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 </ul>
 
 </details>
-
+</div>
 
 
 <details>
@@ -298,7 +298,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 </div>
 
 
-<h3 id="guidance">a Accessing and analyzing feedback</h3>
+<h3 id="guidance">b Accessing and analyzing feedback</h3>
 
 <p>Feedback can be viewed and downloaded as CSV or Excel files at any time using the Feedback Viewer website.</p>
 
