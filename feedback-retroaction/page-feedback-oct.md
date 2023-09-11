@@ -207,11 +207,8 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 <h4>Add the mandatory hidden values</h4>
-<p>Update the data attributes for:</p>
+<p>Update the data attribute for:</p>
 <ul>
-<li>Page title</li>
-<li>Submission page (URL)</li>
-<li>Page language (Use EN or FR)</li>
 <li>Department acronym (unilingual value)<mark>check this - should we add the list?</mark></li>
 </ul>
 
