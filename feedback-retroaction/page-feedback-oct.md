@@ -138,7 +138,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <summary>Instructions</summary>
 
 <h4>Add the feedback component</h4>
-<p><a href="">How to add the feedback component to your page in AEM</a>. (Internal only on GCPedia) </p>
+<p><mark>Need link to this</mark><a href="">How to add the feedback component to your page in AEM</a>. (Internal only on GCPedia) </p>
 
 <h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code.</h4>
 
@@ -209,34 +209,80 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <details>
 <summary>Instructions</summary>
-<ol class="lst-spcd">
-<li>Insert this HTML code where the  “Did you find what you were looking for?” and “Share this page” are located.</li>
 
-<li>Update the values of the hidden input  fields with the information specific to your implementation.  These hidden fields are for:</li>
+<h4>Add the feedback component</h4>
+<p>Insert the feedback tool code where the “Report a problem on this page” is located in your page's HTML.</li>
+
+
+<h4>Add the mandatory hidden values</h4>
+<li>Update the data attributes for:</li>
 <ul>
-<li>Institution (your department acronym) - required</li>
-<li>Theme - required</li>
-<li>Section (a section of your website) - required but can be left blank</li>
-<li>Page title - required</li>
-<li>Submission page (URL) - required</li>
-<li>Page language (Use EN or FR) - required</li>
+<li><mark>Required??</mark>Page title</li>
+<li>Submission page (URL)</li>
+<li><mark>Required??</mark>Page language (Use EN or FR)</li>
 </ul>
 
-<p><strong><span class="bg-warning">Important note! </span></strong>Institution, Theme, Section values should be the SAME in English and French.</p>
 
-<li>Add the Javascript just above the closing /body tag</li>
+<h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code.</h4>
 
-<li>When someone submits a comment, they will see a checkmark icon and a thank you message.  If you do not see a checkmark, you may need to include a reference to the Font Awesome icon catalog in your page header.</li>
+<p>This is useful when you want to download feedback for an entire theme of pages at the same time.</p>
 
-<pre class="prettyprint"><code>
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.8.1/css/all.css&quot; integrity=&quot;sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/li&gt;
- </code></pre>
+<p>In most cases, you should include the Canada.ca theme for your content (full list below). </p>
 
-<li><strong>For machine learning pilots only:</strong> Tell the DTO the URLS that the feedback tool has been added to.</li>
+<p>This is a unilingual value - enter the same theme value to your English and French pages.</p>
 
-<li><strong>For all pilots:</strong> Tell the DTO if you are adding a new section or theme, so we can add these filters into the Feedback Viewer.</li>
+<details>
+<summary>Canada.ca theme values</summary>
 
-</ol>
+<ul>
+<li>About Gov</li>
+<li>Benefits</li>
+<li>Business</li>
+<li>CanadaTheWorld</li>
+<li>Culture</li>
+<li>Defense</li>
+<li>Environment</li>
+<li>Health</li>
+<li>Immigration</li>
+<li>Indigenous</li>
+<li>Jobs</li>
+<li>Money</li>
+<li>Policing</li>
+<li>PublicService</li>
+<li>Science</li>
+<li>Taxes</li>
+<li>Transport</li>
+<li>Travel</li>
+<li>Veterans</li>
+</ul>
+</details>
+
+<p>
+If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
+
+
+<h4><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code. </h4>
+
+<p>This is useful when you want to download feedback for multiple pages at the same time.</p>
+
+<p>Consider including this value when you are adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”.</p>
+
+<p>This is a unilingual value - enter the same section value to your English and French pages.</p>
+
+<p>If you would like to add a new section value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new section value into the Feedback Viewer.</p>
+
+
+
+<h4><span class="label label-warning">Optional</span> Contact link</h4>
+
+<p>Only consider adding a contact link if:</p>
+<ul>
+<li>Users are trying to use the feedback tool as a method to get a response from the government</li>
+<li>You have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.</li>
+</ul>
+
+
+
 </details>
 
 <details>
