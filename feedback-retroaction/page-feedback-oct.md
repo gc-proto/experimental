@@ -85,7 +85,7 @@ Maximum 300 characters", and a text field to provide more details.</p>
 <h3>Content specifications</h3>
 
 <p><span class="label label-warning">Optional</span> Contact link</p>
-<p>Consider adding a contact link in the page feedback tool if:</p>
+<p>Only consider adding a contact link in the page feedback tool if:</p>
 <ul>
 <li>users are trying to use the feedback tool as a method to get a response from the government</li>
 <li>you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation</li>
