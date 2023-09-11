@@ -135,7 +135,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 <h4>Add the feedback component</h4>
 <p><mark>Need link to this</mark><a href="">How to add the feedback component to your page in AEM</a>. (Internal only on GCPedia)</p>
 
-<h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code.</h4>
+<h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code</h4>
 
 <p>This is useful when you want to download feedback for an entire theme of pages at the same time.</p>
 
@@ -172,7 +172,7 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
 
 
-<h4><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code. </h4>
+<h4><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code</h4>
 
 <p>This is useful when you want to download feedback for multiple pages at the same time.</p>
 
@@ -220,7 +220,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 
-<h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code.</h4>
+<h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code</h4>
 
 <p>This is useful when you want to download feedback for an entire theme of pages at the same time.</p>
 
@@ -256,7 +256,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 <p>If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
 
 
-<h4><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code. </h4>
+<h4><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code</h4>
 
 <p>This is useful when you want to download feedback for multiple pages at the same time.</p>
 
