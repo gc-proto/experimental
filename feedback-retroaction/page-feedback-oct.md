@@ -66,12 +66,12 @@ The expando labeled “Need urgent help with a problem? Contact us” will be cl
 ![](./images/feedback-contact-en.png)
 
 <h4>3. View after selecting "Yes" or after submitting feedback</h4>
-![](./images/thank-you-en.jpg)
+![](./images/thankyou-new.jpg)
 
 
 <details>
 <summary>Feedback tool</summary>
-
+<mark>what would be a better way to show the text for these images?</mark>
 <p>A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.</p>
 
 <p>A heading labelled "Please provide more details", followed by the text "You will not receive a reply.
@@ -92,7 +92,7 @@ Maximum 300 characters", and a text field to provide more details.</p>
 
 <p>The link can go to an HTML page or an email address.</p>
 
-<p>Keep the link text short and aim for the format “Contact [the Service Name]”</p>
+<p>Keep the link text short. The recommended wording is “Contact [the Service Name]”</p>
 
 
 <h4>Interactions</h4>
