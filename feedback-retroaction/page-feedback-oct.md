@@ -126,10 +126,6 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <p>Add it to the bottom of a content page after the page content and before the date modified. </p>
 
-<div class="wb-eqht">
-<div class="row">
-<div class="col-md-12">
-
 <h3>Feedback tool for AEM pages</h3>
 <p>Use these instructions for any page hosted on the Adobe Managed Web Service.</p>
 
@@ -202,7 +198,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 
-<h3>b Feedback tool code for non-AEM pages</h3>
+<h3>c Feedback tool code for non-AEM pages</h3>
 <p>Use these instructions for any page that is not hosted on the Adobe Managed Web Service.</p>
 
 <details>
@@ -230,12 +226,6 @@ If you would like to add a new theme value that is not currently in the Feedback
 <li><a href="https://wet-boew.github.io/GCWeb/sites/feedback/feedback-docs-en.html#variantPFTContact">Page Feedback Tool with contact link</a></li>
 </ul>
 </details>
-
-
-
-</div>
-</div>        
-</div>
 
 
 <h3 id="guidance">Accessing and analyzing feedback</h3>
