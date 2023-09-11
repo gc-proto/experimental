@@ -200,9 +200,16 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 </details>                            
 </div>
+</div>
+</div>
 
 
+
+
+<div class="wb-eqht">
+<div class="row">
 <div class="col-md-12">
+
 <h3>Feedback tool code for non-AEM pages</h3>
 <p>Use these instructions for any page that is not hosted on the Adobe Managed Web Service.</p>
 
@@ -232,7 +239,6 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <details>
 <summary>Canada.ca theme values</summary>
-
 <ul>
 <li>About Gov</li>
 <li>Benefits</li>
@@ -278,6 +284,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 <li>Users are trying to use the feedback tool as a method to get a response from the government</li>
 <li>You have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.</li>
 </ul>
+
 </details>
 
 
@@ -292,7 +299,8 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 
-          
+</div>
+</div>        
 </div>
 
 
