@@ -210,11 +210,11 @@ If you would like to add a new theme value that is not currently in the Feedback
 <h4>Add the mandatory hidden values</h4>
 <p>Update the data attributes for:</p>
 <ul>
-<li><mark>Required??</mark>Page title</li>
+<li>Page title</li>
 <li>Submission page (URL)</li>
-<li><mark>Required??</mark>Page language (Use EN or FR)</li>
+<li>Page language (Use EN or FR)</li>
 </ul>
-</details> 
+</details>
 
 
 
