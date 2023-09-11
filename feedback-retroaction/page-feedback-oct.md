@@ -63,6 +63,8 @@ Avoid using the page feedback tool on pages where there is no plan to monitor co
 
 <h4>2b. Optional view after selecting "No" with contact option</h4>
 The expando labeled “Need urgent help with a problem? Contact us” will be closed by default.
+<img src="./images/feedback-contact-en.png" width="400">
+
 ![](./images/feedback-contact-en.png)
 
 <h4>3. View after selecting "Yes" or after submitting feedback</h4>
