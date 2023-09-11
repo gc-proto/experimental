@@ -204,7 +204,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <div class="col-md-12">
 
-<h3>Feedback tool code for non-AEM pages</h3>
+<h3>a Feedback tool code for non-AEM pages</h3>
 <p>Use these instructions for any page that is not hosted on the Adobe Managed Web Service.</p>
 
 <details>
