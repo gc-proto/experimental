@@ -16,9 +16,8 @@ title: "Page feedback tool"
 
 <p class="small">Last updated: October 4, 2023</p>
 
-<p><span class="label label-warning">Optional</span></p>
 
-The feedback tool is an **optional** pattern to collect feedback on the page experience. It replaces the “Report a problem” pattern while actively collecting user feedback.
+The feedback tool is an **optional** pattern to collect feedback on the page experience. It appears at the bottom of the page where you will be collecting feedback.
 
 ![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](./images/page-feedback.png)
 
@@ -47,49 +46,37 @@ Consider adding the page feedback tool to:
 
 ## What to avoid
 
-Avoid using the page feedback tool on pages where there is no plan to monitor comments or take action. We also don’t recommend using the tool within secure spaces.
+Avoid using the page feedback tool on pages where there is no plan to monitor comments or take action. We also don’t recommend using the tool within secure spaces or pages with sensitive subject material.
 
 [Additional behaviours to avoid when analyzing feedback](https://design.canada.ca/feedback/when.html#how-not-to-use-the-tool)
 
 ## Content and design
 
-<h3>Visual examples</h3>
+<p>The feedback tool invites visitors to:</p>
+<ul>
+<li>indicate if they found what they were looking for (yes / no)</li>
+<li>offer their feedback describing the problem</li>
+</ul>
 
-<h4>1. Initial view of the feedback tool</h4>
-![](./images/page-feedback.png)
+<p>The tool is placed at the bottom of the page before the date modified.  It is aligned to the left of the page before the “Share this page” widget. The page feedback pattern can be used in place of the  "Report a problem" pattern. It is not mandatory to add the feedback pattern when removing “Report a problem” from your page. </p>
 
-<h4>2a. Default view after selecting "No"</h4>
-![](./images/description-en.jpg)
+<p>The page feedback pattern has 3 states:</p>
+<ul>
+<li>“Did you find what you were looking for?” prompt with “Yes” and “No” buttons</li>
+<li>Feedback text entry box (with an option to add a customizable contact link)</li>
+<li>Thank you message </li>
+</ul>
 
-<h4>2b. Optional view after selecting "No" with contact option</h4>
-<p>The expando labeled “Need urgent help with a problem? Contact us” will be closed by default.</p>
-<img src="./images/feedback-contact-en.png" width="600">
+<p><a href="https://design.canada.ca/feedback/index.html">This pattern also has detailed documentation for use and analysis of feedback</a>.</p>
 
-
-<h4>3. View after selecting "Yes" or after submitting feedback</h4>
-<img src="./images/thankyou-new.png" width="600">
-
-
-<details>
-<summary>Feedback tool</summary>
-<mark>what would be a better way to show the text for these images?</mark>
-<p>A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.</p>
-
-<p>A heading labelled "Please provide more details", followed by the text "You will not receive a reply.
-Don't include personal information (telephone, email, SIN, financial, medical, or work details).
-Maximum 300 characters", and a text field to provide more details.</p>
-
-<p>A heading labelled "Thank you for your feedback"</p>
-</details>
 
 <h3>Content specifications</h3>
 
-<p><span class="label label-warning">Optional</span> Contact link</p>
-<p>Only consider adding a contact link in the page feedback tool if:</p>
-<ul>
-<li>users are trying to use the feedback tool as a method to get a response from the government</li>
-<li>you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation</li>
-</ul>
+
+<p>When you first add the feedback tool to your page, use the default option without the contact link.</p>
+
+<p>Only consider adding a contact link in the page feedback tool if you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.
+</p>
 
 <p>The link can go to an HTML page or an email address.</p>
 
@@ -97,11 +84,22 @@ Maximum 300 characters", and a text field to provide more details.</p>
 
 
 <h4>Interactions</h4>
-<p><strong>If a user selects "No"</strong> they will be shown an open text field to enter their comment.</p>
+<p>The feedback pattern has 3 states (prompt, feedback entry, thank you message).  For all of these states, the user stays on the same HTML page as they interact with the feedback pattern.</p>
 
-<p>The open text field begins with a heading labelled "Please provide more details", followed by the text "You will not receive a reply.
+<p>On page load, the feedback pattern displays the prompt “Did you find what you were looking for” followed by buttons for “Yes” and “No”</p>
+
+<p><strong>If a user selects "No"</strong> the next step asks the user to provide more details about their experience.</p>
+
+<p>It begins with a heading labelled "Please provide more details", followed by the text "You will not receive a reply.
 Don't include personal information (telephone, email, SIN, financial, medical, or work details).
 Maximum 300 characters". After selecting "Submit", the user is shown a thank you message.</p>
+
+<p>Then there is an open text field to capture the feedback.</p>
+
+<p>If the contact option is used, a contact link for the service is placed inside an expando labeled “Need urgent help with a problem? Contact us” located before the heading and open text field.</p>
+
+<p>The user selects the “Submit” button to send their feedback.
+After selecting "Submit", the user is shown a thank you message with a green checkmark to indicate that their feedback has been successfully sent.</p>
 
 <p>If the contact option is used, a contact link for the service is placed inside an expando labeled “Need urgent help with a problem? Contact us”.</p>
 
@@ -109,15 +107,51 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 
 <h3>Design specifications</h3>
-<p>The feedback widget replaces the "Report a problem" pattern when in use.</p>
+<p>The feedback pattern replaces the "Report a problem" pattern when in use.</p>
 
-<p><span class="label label-warning">Optional</span> Contact link</p>
-
-<p>Only consider adding a contact link in the page feedback tool if:</p>
+<h4>Text uses standard Canada.ca styles</h4>
 <ul>
-<li>users are trying to use the feedback tool as a method to get a response from the government</li>
-<li>you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation</li>
+<li>“Did you find what you were looking for” is the legend class from fieldset</li>
+<li>The feedback instructions text uses body text</li>
+<li><a href="https://design.canada.ca/styles/typography.html">Use standard typography styles</a></li>
 </ul>
+
+<h4>Buttons</h4>
+<ul>
+<li>The ‘Yes’ button is to the left of the ‘No’ button </li>
+<li><a href="https://design.canada.ca/common-design-patterns/buttons.html#primary">Use standard primary style </a></li>
+</ul>
+
+<h4>Thank you checkmark icon</h4>
+<ul>
+<li>Checkmark glyphicon in “success” green</li>
+</ul>
+
+
+<h3>Visual examples</h3>
+
+<h4>1. Initial view of the feedback tool</h4>
+![](./images/page-feedback.png)
+<p>Image description: On page load, the feedback is located at the bottom of the web page above the date modified. A small gray well includes the prompt “Did you find what you were looking for?” followed by buttons for “Yes” and “No”. </p>
+
+<h4>2a. Default view after selecting "No"</h4>
+![](./images/description-en.jpg)
+<p>Image description: After interacting with the “No” button in, a text entry screen will replace the prompt.  There is a heading for “Please provide more details” followed by instructions to not include personal information: “You will not receive a reply. Don’t include personal information (telephone, email, SIN financial, medical, or work details. Maximum 300 characters.”  There is a small text entry box followed by a button for “Submit”.
+</p>
+
+<h4>2b. Optional view after selecting "No" with contact option</h4>
+<p>The expando labeled “Need urgent help with a problem? Contact us” will be closed by default.</p>
+<img src="./images/feedback-contact-en.png" width="600">
+<p>Image description: After interacting with the “No” button in, a text entry screen will replace the prompt.  </p>
+<p>In the contact option, there is an expando with the header “Need urgent help with a problem? Contact us”.  When the expando is opened, there is a customizable link to contact the service.</p>
+<p>After the expando, there is a heading for “Please provide more details” followed by instructions to not include personal information: “You will not receive a reply. Don’t include personal information (telephone, email, SIN financial, medical, or work details. Maximum 300 characters.”  There is a small text entry box followed by a button for “Submit”.
+</p>
+
+
+<h4>3. View after selecting "Yes" or after submitting feedback</h4>
+<img src="./images/thankyou-new.png" width="600">
+<p>Image description: When users select “Yes” from the initial prompt or after submitting their feedback, a thank you message is displayed.  There is a green checkmark icon followed by the heading “Thank you for your feedback”</p>
+
 
 
 
