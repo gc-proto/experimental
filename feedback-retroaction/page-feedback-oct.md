@@ -220,11 +220,8 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <h4><span class="label label-warning">Optional</span> Contact link</h4>
 
-<p>Only consider adding a contact link if:</p>
-<ul>
-<li>Users are trying to use the feedback tool as a method to get a response from the government</li>
-<li>You have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.</li>
-</ul>
+<p>Only consider adding a contact link if Only consider adding a contact link if you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.
+</p>
 
 </details>                            
 
@@ -301,11 +298,9 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <h4><span class="label label-warning">Optional</span> Contact link</h4>
 
-<p>Only consider adding a contact link if:</p>
-<ul>
-<li>Users are trying to use the feedback tool as a method to get a response from the government</li>
-<li>You have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.</li>
-</ul>
+<p>Only consider adding a contact link if Only consider adding a contact link if you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.
+</p>
+
 </details>
 
 
