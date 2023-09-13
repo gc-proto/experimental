@@ -205,6 +205,8 @@ After selecting "Submit", the user is shown a thank you message with a green che
 <p>
 If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
 
+<p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
+
 
 <h4><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code</h4>
 
@@ -216,6 +218,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>If you would like to add a new section value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new section value into the Feedback Viewer.</p>
 
+<p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
 
 <h4><span class="label label-warning">Optional</span> Contact link</h4>
@@ -283,6 +286,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
 
+<p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
 <h4><span class="label label-warning">Optional</span> Add a “Section” hidden value in the feedback code</h4>
 
@@ -294,6 +298,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>If you would like to add a new section value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new section value into the Feedback Viewer.</p>
 
+<p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
 
 <h4><span class="label label-warning">Optional</span> Contact link</h4>
