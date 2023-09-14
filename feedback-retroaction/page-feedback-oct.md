@@ -84,7 +84,7 @@ Avoid using the page feedback tool on pages where there is no plan to monitor co
 
 
 <h4>Interactions</h4>
-<p>The feedback pattern has 3 states (prompt, feedback entry, thank you message).  For all of these states, the user stays on the same HTML page as they interact with the feedback pattern.</p>
+<p>The feedback pattern has 3 states ("Did you find what you were looking for" prompt, feedback entry, thank you message).  For all of these states, the user stays on the same HTML page as they interact with the feedback pattern.</p>
 
 <p>On page load, the feedback pattern displays the prompt “Did you find what you were looking for” followed by buttons for “Yes” and “No”</p>
 
@@ -96,12 +96,11 @@ Maximum 300 characters". After selecting "Submit", the user is shown a thank you
 
 <p>Then there is an open text field to capture the feedback.</p>
 
-<p>If the contact option is used, a contact link for the service is placed inside an expando labeled “Need urgent help with a problem? Contact us” located before the heading and open text field.</p>
+<p>If the contact option is used, a contact link for the service is placed inside an expand/collapse pattern labeled “Need urgent help with a problem? Contact us” located before the heading and open text field.</p>
 
 <p>The user selects the “Submit” button to send their feedback.
 After selecting "Submit", the user is shown a thank you message with a green checkmark to indicate that their feedback has been successfully sent.</p>
 
-<p>If the contact option is used, a contact link for the service is placed inside an expando labeled “Need urgent help with a problem? Contact us”.</p>
 
 <p><strong>If a user selects "Yes"</strong> they will only be shown a thank you message.</p>
 
@@ -109,22 +108,22 @@ After selecting "Submit", the user is shown a thank you message with a green che
 <h3>Design specifications</h3>
 <p>The feedback pattern replaces the "Report a problem" pattern when in use.</p>
 
-<h4>Text uses standard Canada.ca styles</h4>
+<h4>Grey well</h4>
 <ul>
-<li>“Did you find what you were looking for” is the legend class from fieldset</li>
-<li>The feedback instructions text uses body text</li>
-<li><a href="https://design.canada.ca/styles/typography.html">Use standard typography styles</a></li>
+<li>Well class: well mrgn-bttm-0</li>
 </ul>
 
 <h4>Buttons</h4>
 <ul>
-<li>The ‘Yes’ button is to the left of the ‘No’ button </li>
-<li><a href="https://design.canada.ca/common-design-patterns/buttons.html#primary">Use standard primary style </a></li>
+<li>Position: The buttons are to the right of the "Did you find what you were looking for" prompt. The ‘Yes’ button is to the left of the ‘No’ button </li>
+<li>Button class: btn btn-primary</li>
 </ul>
 
 <h4>Thank you checkmark icon</h4>
 <ul>
-<li>Checkmark glyphicon in “success” green</li>
+<li>Position: left of the "Thank you" message
+<li>Checkmark icon: glyphicon glyphicon-ok</li>
+<li>Checkmark colour: success class</li>
 </ul>
 
 
@@ -140,11 +139,11 @@ After selecting "Submit", the user is shown a thank you message with a green che
 </p>
 
 <h4>2b. Optional view after selecting "No" with contact option</h4>
-<p>The expando labeled “Need urgent help with a problem? Contact us” will be closed by default.</p>
+<p>The expand/collapse pattern labeled “Need urgent help with a problem? Contact us” will be closed by default.</p>
 <img src="./images/feedback-contact-en.png" width="600">
 <p>Image description: After interacting with the “No” button in, a text entry screen will replace the prompt.  </p>
-<p>In the contact option, there is an expando with the header “Need urgent help with a problem? Contact us”.  When the expando is opened, there is a customizable link to contact the service.</p>
-<p>After the expando, there is a heading for “Please provide more details” followed by instructions to not include personal information: “You will not receive a reply. Don’t include personal information (telephone, email, SIN financial, medical, or work details. Maximum 300 characters.”  There is a small text entry box followed by a button for “Submit”.
+<p>In the contact option, there is an expand/collapse pattern with the header “Need urgent help with a problem? Contact us”.  When the expand/collapse pattern is opened, there is a customizable link to contact the service.</p>
+<p>After the expand/collapse pattern, there is a heading for “Please provide more details” followed by instructions to not include personal information: “You will not receive a reply. Don’t include personal information (telephone, email, SIN financial, medical, or work details. Maximum 300 characters.”  There is a small text entry box followed by a button for “Submit”.
 </p>
 
 
@@ -203,7 +202,7 @@ After selecting "Submit", the user is shown a thank you message with a green che
 </details>
 
 <p>
-If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
+If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Digital Transformation Office. We will add the new theme value into the Feedback Viewer.</P>
 
 <p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
@@ -216,7 +215,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>This is a unilingual value - enter the same section value to your English and French pages.</p>
 
-<p>If you would like to add a new section value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new section value into the Feedback Viewer.</p>
+<p>If you would like to add a new section value that is not currently in the Feedback Viewer, contact the Digital Transformation Office. We will add the new section value into the Feedback Viewer.</p>
 
 <p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
@@ -284,7 +283,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 </ul>
 </details>
 
-<p>If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new theme value into the Feedback Viewer.</P>
+<p>If you would like to add a new theme value that is not currently in the Feedback Viewer, contact the Digital Transformation Office. We will add the new theme value into the Feedback Viewer.</P>
 
 <p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
@@ -296,7 +295,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>This is a unilingual value - enter the same section value to your English and French pages.</p>
 
-<p>If you would like to add a new section value that is not currently in the Feedback Viewer, contact the Canada Digital Service. We will add the new section value into the Feedback Viewer.</p>
+<p>If you would like to add a new section value that is not currently in the Feedback Viewer, contact the Digital Transformation Office. We will add the new section value into the Feedback Viewer.</p>
 
 <p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
@@ -323,7 +322,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>Feedback can be viewed and downloaded as CSV or Excel files at any time using the Feedback Viewer website.</p>
 
-<p>The Feedback Viewer is a password protected environment available to all page feedback participants. Contact the Canada Digital Service to access to the site.</p>
+<p>The Feedback Viewer is a password protected environment available to all page feedback participants. Contact the Digital Transformation Office to access to the site.</p>
 
 <p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
@@ -340,12 +339,3 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <h3>Policy rationale</h3>
 <p>The <cite>Guideline for Service and Digital</cite> requires <a href="https://www.canada.ca/en/government/system/digital-government/guideline-service-digital.html#ToC2_2">client feedback</a> to be an integral part of service or product design. It can take several forms, including using the page feedback tool.</p>
-
-
-
-<a id="discussion"></a>
-<h2>Discussion</h2>
-<ul>
-
-<li><a href="mailto:dto.btn@tbs-sct.gc.ca">Send an email to the Canada Digital Service</a></li>
-</ul>
