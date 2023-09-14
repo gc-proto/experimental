@@ -121,7 +121,7 @@ After selecting "Submit", the user is shown a thank you message with a green che
 
 <h4>Thank you checkmark icon</h4>
 <ul>
-<li>Position: left of the "Thank you" message
+<li>Position: left of the "Thank you" message</li>
 <li>Checkmark icon: glyphicon glyphicon-ok</li>
 <li>Checkmark colour: success class</li>
 </ul>
