@@ -17,7 +17,7 @@ title: "Page feedback tool"
 <p class="small">Last updated: October 4, 2023</p>
 
 
-The feedback tool is an **optional** pattern to collect feedback on the page experience. It appears at the bottom of the page where you will be collecting feedback.
+The feedback tool is an **optional** pattern to collect feedback on the page experience. When in use, it is included at the bottom of the page before the date modified.
 
 ![A heading labelled "Did you find what you were looking for?", followed by options to select yes or no.](./images/page-feedback.png)
 
@@ -58,7 +58,7 @@ Avoid using the page feedback tool on pages where there is no plan to monitor co
 <li>offer their feedback describing the problem</li>
 </ul>
 
-<p>The tool is placed at the bottom of the page before the date modified.  It is aligned to the left of the page before the “Share this page” widget. The page feedback pattern can be used in place of the  "Report a problem" pattern. It is not mandatory to add the feedback pattern when removing “Report a problem” from your page. </p>
+<p>The tool is placed at the bottom of the page before the date modified.  It's aligned to the left of the page before the “Share this page” widget. The page feedback pattern can be used in place of the  "Report a problem" pattern. It's not mandatory to add the feedback pattern when removing “Report a problem” from your page. </p>
 
 <p>The page feedback pattern has 3 states:</p>
 <ul>
@@ -75,7 +75,7 @@ Avoid using the page feedback tool on pages where there is no plan to monitor co
 
 <p>When you first add the feedback tool to your page, use the default option without the contact link.</p>
 
-<p>Only consider adding a contact link in the page feedback tool if you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.
+<p><strong>Only consider adding a contact link if</strong> you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.
 </p>
 
 <p>The link can go to an HTML page or an email address.</p>
@@ -223,7 +223,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <h4><span class="label label-warning">Optional</span> Contact link</h4>
 
-<p>Only consider adding a contact link if Only consider adding a contact link if you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.
+<p><strong>Only consider adding a contact link if</strong> you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.
 </p>
 
 </details>                            
@@ -303,7 +303,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <h4><span class="label label-warning">Optional</span> Contact link</h4>
 
-<p>Only consider adding a contact link if Only consider adding a contact link if you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.
+<p><strong>Only consider adding a contact link if</strong> you have tried to make the page content clearer for how to contact the program or service and users are still using the feedback tool to get a response for their situation.
 </p>
 
 </details>
