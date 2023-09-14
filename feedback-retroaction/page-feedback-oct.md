@@ -84,9 +84,16 @@ Avoid using the page feedback tool on pages where there is no plan to monitor co
 
 
 <h4>Interactions</h4>
-<p>The feedback pattern has 3 states ("Did you find what you were looking for" prompt, feedback entry, thank you message).  For all of these states, the user stays on the same HTML page as they interact with the feedback pattern.</p>
+<p>The feedback pattern has 3 states:</p>
+<ul>
+<li>"Did you find what you were looking for" prompt</li>
+<li>feedback entry</li>
+<li>thank you message</li>
+</ul>
 
-<p>On page load, the feedback pattern displays the prompt “Did you find what you were looking for” followed by buttons for “Yes” and “No”</p>
+<p>For all of these states, the user stays on the same HTML page as they interact with the feedback pattern.</p>
+
+<p><strong>On page load</a>, the feedback pattern displays the prompt “Did you find what you were looking for” followed by buttons for “Yes” and “No”</p>
 
 <p><strong>If a user selects "No"</strong> the next step asks the user to provide more details about their experience.</p>
 
