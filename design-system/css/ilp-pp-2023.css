@@ -4,3 +4,10 @@
 .bold {
 	font-weight: 700;
 }
+.gc-followus ul li:first-child {
+	margin-top: 34px;
+}
+
+.gc-followus h2 {
+	margin-top: 0px;
+}
