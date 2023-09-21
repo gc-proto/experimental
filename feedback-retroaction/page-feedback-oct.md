@@ -317,7 +317,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 
-<h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code</h4>
+<h4><span class="label label-primary">Recommended</span> Add a theme hidden value in the feedback code</h4>
 
 <p>This is useful when you want to download feedback for an entire theme of pages at the same time.</p>
 
