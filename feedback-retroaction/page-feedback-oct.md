@@ -93,7 +93,7 @@ Avoid using the page feedback tool on pages where there is no plan to monitor co
 
 <p>For all of these states, the user stays on the same HTML page as they interact with the feedback pattern.</p>
 
-<p><strong>On page load</strong></a>, the feedback pattern displays the prompt “Did you find what you were looking for” followed by buttons for “Yes” and “No”</p>
+<p><strong>On page load</strong>, the feedback pattern displays the prompt “Did you find what you were looking for” followed by buttons for “Yes” and “No”</p>
 
 <p><strong>If a user selects "No"</strong> the next step asks the user to provide more details about their experience.</p>
 
