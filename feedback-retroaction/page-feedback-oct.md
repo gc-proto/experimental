@@ -46,7 +46,7 @@ Consider adding the page feedback tool to:
 
 ## What to avoid
 
-Avoid using the page feedback tool on pages where there is no plan to monitor comments or take action. We also don’t recommend using the tool within secure spaces or pages with sensitive subject material.
+Avoid using the page feedback tool on pages when you don't plan to monitor comments or take action. We also don’t recommend using the tool within secure spaces or pages with sensitive subject material.
 
 [Additional behaviours to avoid when analyzing feedback](https://design.canada.ca/feedback/when.html#how-not-to-use-the-tool)
 
@@ -58,7 +58,7 @@ Avoid using the page feedback tool on pages where there is no plan to monitor co
 <li>offer their feedback describing the problem</li>
 </ul>
 
-<p>The tool is placed at the bottom of the page before the date modified.  It's aligned to the left of the page before the “Share this page” widget. The page feedback pattern can be used in place of the  "Report a problem" pattern. It's not mandatory to add the feedback pattern when removing “Report a problem” from your page. </p>
+<p>Place the tool at the bottom of the page before the date modified.  It's aligned to the left of the page before the “Share this page” widget. You can opt to use the page feedback tool in place of the  "Report a problem" pattern. It's not mandatory to add the feedback pattern when removing “Report a problem” from your page. </p>
 
 <p>The page feedback pattern has 3 states:</p>
 <ul>
@@ -218,7 +218,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>This is useful when you want to download feedback for multiple pages at the same time.</p>
 
-<p>Consider including this value when you are adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”.</p>
+<p>Consider including this value when you're adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”.</p>
 
 <p>This is a unilingual value - enter the same section value to your English and French pages.</p>
 
@@ -298,7 +298,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>This is useful when you want to download feedback for multiple pages at the same time.</p>
 
-<p>Consider including this value when you are adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”.</p>
+<p>Consider including this value when you're adding the feedback tool to multiple pages on the same topic, such as “passports” or “employment insurance”.</p>
 
 <p>This is a unilingual value - enter the same section value to your English and French pages.</p>
 
@@ -329,7 +329,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 <p>Feedback can be viewed and downloaded as CSV or Excel files at any time using the Feedback Viewer website.</p>
 
-<p>The Feedback Viewer is a password protected environment available to all page feedback participants. Contact the Digital Transformation Office to access to the site.</p>
+<p>The Feedback Viewer is a password protected environment available to all page feedback participants. Contact the Digital Transformation Office to access the site.</p>
 
 <p>Email: <a href="mailto:dto.btn@tbs-sct.gc.ca">dto.btn@tbs-sct.gc.ca</a></p>
 
