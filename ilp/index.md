@@ -38,7 +38,7 @@ title: "Institutional landing page documentation"
             <li>Services et renseignements</li>
             <li><a href="https://deploy-preview-323--design-system-canada-ca.netlify.app/common-design-patterns/contact-band">Contact band</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/323">#323</a>)</li>
             <li>Bande de coordonnées</li>
-            <li><a href="https://deploy-preview-323--design-system-canada-ca.netlify.app/common-design-patterns/contact-band">About institution</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/327">#327</a>)</li>
+            <li><a href="https://deploy-preview-327--design-system-canada-ca.netlify.app/common-design-patterns/about-institution.html">About institution</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/327">#327</a>)</li>
             <li>À propos de l’institution</li>
             <li><a href="https://deploy-preview-308--design-system-canada-ca.netlify.app/common-design-patterns/social-media-channels">Social media</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/308">#308</a>)</li>
             <li>Chaînes de médias sociaux</li>
