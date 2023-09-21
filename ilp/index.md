@@ -32,21 +32,21 @@ title: "Institutional landing page documentation"
           <ul class="mrgn-tp-lg">
             <li><a href="https://deploy-preview-287--design-system-canada-ca.netlify.app/common-design-patterns/featured-link">Featured link</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/287">#287</a>)</li>
             <li><a href="https://deploy-preview-212--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/lien-vedette.html">Lien en vedette</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/212">#212</a>)</li>
-            <li><a href="https://deploy-preview-286--design-system-canada-ca.netlify.app/common-design-patterns/most-requested.html">Most requested</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/286">#286</a>)</li>
+            <li class="mrgn-tp-lg"><a href="https://deploy-preview-286--design-system-canada-ca.netlify.app/common-design-patterns/most-requested.html">Most requested</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/286">#286</a>)</li>
             <li><a href="https://deploy-preview-213--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/en-demande">En demande</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/213">#213</a>)</li>
-            <li><a href="https://deploy-preview-321--design-system-canada-ca.netlify.app/common-design-patterns/services-information">Services and information</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/321">#321</a>)</li>
+            <li class="mrgn-tp-lg"><a href="https://deploy-preview-321--design-system-canada-ca.netlify.app/common-design-patterns/services-information">Services and information</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/321">#321</a>)</li>
             <li>Services et renseignements</li>
-            <li><a href="https://deploy-preview-323--design-system-canada-ca.netlify.app/common-design-patterns/contact-band">Contact band</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/323">#323</a>)</li>
+            <li class="mrgn-tp-lg"><a href="https://deploy-preview-323--design-system-canada-ca.netlify.app/common-design-patterns/contact-band">Contact band</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/323">#323</a>)</li>
             <li>Bande de coordonnées</li>
-            <li><a href="https://deploy-preview-327--design-system-canada-ca.netlify.app/common-design-patterns/about-institution.html">About institution</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/327">#327</a>)</li>
+            <li class="mrgn-tp-lg"><a href="https://deploy-preview-327--design-system-canada-ca.netlify.app/common-design-patterns/about-institution.html">About institution</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/327">#327</a>)</li>
             <li>À propos de l’institution</li>
-            <li><a href="https://deploy-preview-308--design-system-canada-ca.netlify.app/common-design-patterns/social-media-channels">Social media</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/308">#308</a>)</li>
+            <li class="mrgn-tp-lg"><a href="https://deploy-preview-308--design-system-canada-ca.netlify.app/common-design-patterns/social-media-channels">Social media</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/308">#308</a>)</li>
             <li>Chaînes de médias sociaux</li>
-            <li><a href="https://deploy-preview-299--design-system-canada-ca.netlify.app/common-design-patterns/ministers-block">Minister block</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/299">#299</a>)</li>
+            <li class="mrgn-tp-lg"><a href="https://deploy-preview-299--design-system-canada-ca.netlify.app/common-design-patterns/ministers-block">Minister block</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/299">#299</a>)</li>
             <li>Ministre ou chef d’institution</li>
-            <li><a href="https://deploy-preview-324--design-system-canada-ca.netlify.app/common-design-patterns/latest-news.html">Latest news</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/324">#324</a>)</li>
+            <li class="mrgn-tp-lg"><a href="https://deploy-preview-324--design-system-canada-ca.netlify.app/common-design-patterns/latest-news.html">Latest news</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/324">#324</a>)</li>
             <li>Dernières nouvelles</li>
-            <li><a href="https://deploy-preview-325--design-system-canada-ca.netlify.app/common-design-patterns/contextual-features">Contextual features</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/325">#325</a>)</li>
+            <li class="mrgn-tp-lg"><a href="https://deploy-preview-325--design-system-canada-ca.netlify.app/common-design-patterns/contextual-features">Contextual features</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/325">#325</a>)</li>
             <li>Promotions contextuelles</li>
           </ul>
         </details>
