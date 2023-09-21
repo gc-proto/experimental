@@ -254,10 +254,63 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 <h4>Add the mandatory hidden values</h4>
-<p>Update the data attribute for:</p>
+<p>Update the data attribute for the institutional acronym (unilingual value)</p>
+
+<details>
+<summary>Canada.ca institutional acronyms</summary>
 <ul>
-<li>Department acronym (unilingual value)<mark>check this - should we add the list?</mark></li>
+<li>AAFC</li>
+<li>ATSSC</li>
+<li>CATSA</li>
+<li>CFIA</li>
+<li>CIRNAC</li>
+<li>NSERC</li>
+<li>CBSA</li>
+<li>CCG</li>
+<li>CGC</li>
+<li>CIHR</li>
+<li>CIPO</li>
+<li>CRA</li>
+<li>CRTC</li>
+<li>CSA</li>
+<li>CSEC</li>
+<li>CSPS</li>
+<li>DFO</li>
+<li>DND</li>
+<li>ECCC</li>
+<li>ESDC</li>
+<li>FCAC</li>
+<li>FIN</li>
+<li>GAC</li>
+<li>HC</li>
+<li>INFC</li>
+<li>IRCC</li>
+<li>ISC</li>
+<li>ISED</li>
+<li>JUS</li>
+<li>LAC</li>
+<li>NFB</li>
+<li>NRC</li>
+<li>NRCan</li>
+<li>OSB</li>
+<li>PBC</li>
+<li>PC</li>
+<li>PCH</li>
+<li>PCO</li>
+<li>PHAC</li>
+<li>PS</li>
+<li>PSC</li>
+<li>SSC</li>
+<li>PSPC</li>
+<li>RCMP</li>
+<li>StatCan</li>
+<li>TBS</li>
+<li>TC</li>
+<li>VAC</li>
+<li>WAGE</li>
+<li>WD</li>
 </ul>
+</details>
 
 
 
