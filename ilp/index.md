@@ -24,11 +24,23 @@ title: "Institutional landing page documentation"
 <div class="row">
   <div class="col-md-8">
     <p>Let’s update the documentation for the new institutional landing page by bringing it into the new content model.</p>
+    <h2 class="mrgn-tp-lg">Coding</h2>
+    <ul class="list-unstyled">
+      <li>
+        <details open="open">
+          <summary>Preview</summary>
+          <ul class="mrgn-tp-lg">
+            <li><a href="https://deploy-preview-287--design-system-canada-ca.netlify.app/common-design-patterns/featured-link">Featured link</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/287">#287</a>)</li>
+            <li><a href="https://deploy-preview-212--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/lien-vedette.html#avoid">Lien en vedette</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/212">#212</a>)</li>
+          </ul>
+        </details>
+      </li>
+    </ul>
     <h2 class="mrgn-tp-lg">Mockups</h2>
     <p>Format for the <strong>Content and design</strong> section.</p>
     <ul class="list-unstyled">
       <li>
-        <details open="open">
+        <details>
           <summary>Team review 2 (2023-04-28)</summary>
           <h3>Fearful symmetry</h3>
           <p>The content and design section will go in a table with zebra striping.</p>
