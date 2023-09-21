@@ -120,6 +120,13 @@ After selecting "Submit", the user is shown a thank you message with a green che
 <li>Well class: well mrgn-bttm-0</li>
 </ul>
 
+<h4>Typography</h4>
+<ul>
+<li>Heading: font-size: 16px</li>
+<li>Body text: small font-size: 87%</li>
+
+</ul>
+
 <h4>Buttons</h4>
 <ul>
 <li>Position: The buttons are to the right of the "Did you find what you were looking for" prompt. The ‘Yes’ button is to the left of the ‘No’ button </li>
