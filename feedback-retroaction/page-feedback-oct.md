@@ -182,7 +182,7 @@ After selecting "Submit", the user is shown a thank you message with a green che
 <h4>Add the feedback component</h4>
 <p><mark>Need link to this</mark><a href="">How to add the feedback component to your page in AEM</a>. (Internal only on GCPedia)</p>
 
-<h4><span class="label label-warning">Optional but recommended</span> Add a theme hidden value in the feedback code</h4>
+<h4><span class="label label-primary">Recommended</span> Add a theme hidden value in the feedback code</h4>
 
 <p>This is useful when you want to download feedback for an entire theme of pages at the same time.</p>
 
