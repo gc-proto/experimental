@@ -29,6 +29,7 @@ title: "Institutional landing page documentation"
       <li>
         <details open="open">
           <summary>Preview</summary>
+          <div class="mrgn-tp-lg"><img src="images/pr.png" alt="pain and suffering!" class="img-responsive"></div>
           <ul class="mrgn-tp-lg">
             <li><a href="https://deploy-preview-287--design-system-canada-ca.netlify.app/common-design-patterns/featured-link">Featured link</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/287">#287</a>)</li>
             <li><a href="https://deploy-preview-212--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/lien-vedette.html">Lien en vedette</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/212">#212</a>)</li>
