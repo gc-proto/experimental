@@ -35,7 +35,7 @@ title: "Institutional landing page documentation"
             <li class="mrgn-tp-lg"><a href="https://deploy-preview-286--design-system-canada-ca.netlify.app/common-design-patterns/most-requested.html">Most requested</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/286">#286</a>)</li>
             <li><a href="https://deploy-preview-213--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/en-demande">En demande</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/213">#213</a>)</li>
             <li class="mrgn-tp-lg"><a href="https://deploy-preview-321--design-system-canada-ca.netlify.app/common-design-patterns/services-information">Services and information</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/321">#321</a>)</li>
-            <li>Services et renseignements</li>
+            <li><a href="https://deploy-preview-214--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/services-renseignements">Services et renseignements</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/214">#214</a>)</li>
             <li class="mrgn-tp-lg"><a href="https://deploy-preview-323--design-system-canada-ca.netlify.app/common-design-patterns/contact-band">Contact band</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/323">#323</a>)</li>
             <li>Bande de coordonnées</li>
             <li class="mrgn-tp-lg"><a href="https://deploy-preview-327--design-system-canada-ca.netlify.app/common-design-patterns/about-institution.html">About institution</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/327">#327</a>)</li>
