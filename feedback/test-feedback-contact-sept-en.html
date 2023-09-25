@@ -135,20 +135,14 @@
 
 
   <!-- START PAGE FEEDBACK WIDGET -->
-  <div id="gc-pft" class="row wb-disable-allow" data-wb-jsonmanager='{
-	"name": "gc-pft",
-	"extractor": [
-		{ "selector": "title", "path": "pageData/pageTitle" },
-		{ "selector": "html", "attr": "lang", "path": "pageData/language" },
-		{ "interface": "locationHref", "path": "pageData/submissionPage" },
-		{ "selector": "#wb-lng ul li:first-child a[lang]", "attr": "href", "path": "pageData/oppositelang" },
-		{ "selector": "[data-feedback-theme]", "attr": "data-feedback-theme", "path": "pageData/themeopt" },
-		{ "selector": "[data-feedback-section]", "attr": "data-feedback-section", "path": "pageData/sectionopt" },
-		{ "selector": "meta[name=\"dcterms.creator\"]", "attr": "content", "path": "pageData/institutionopt" },
-		{ "selector": "[data-feedback-link]", "attr": "data-feedback-link", "path": "contact/link" },
-		{ "selector": "[data-feedback-url]", "attr": "data-feedback-url", "path": "contact/url" }
-	]
-}'>
+  <div class="wb-disable-allow"
+  data-ajax-replace="https://test.canada.ca/experimental/feedback/test-feedback-contact-sept-en.html" 
+  data-feedback-section="[Test section]"
+  data-feedback-theme="[Test themes]"
+  data-feedback-link="[Contact test link]"
+  data-feedback-url="[https://canada.ca/en.html]"></div>
+
+
 	<div class="col-sm-10 col-md-9 col-lg-8">
 		<section class="well mrgn-bttm-0">
 			<h3 class="wb-inv">Give feedback about this page</h3>
