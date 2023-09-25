@@ -45,7 +45,7 @@ title: "Institutional landing page documentation"
             <li class="mrgn-tp-lg"><a href="https://deploy-preview-299--design-system-canada-ca.netlify.app/common-design-patterns/ministers-block">Minister block</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/299">#299</a>)</li>
             <li><a href="https://deploy-preview-220--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/ministre.html">Ministre ou chef d’institution</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/220">#220</a>)</li>
             <li class="mrgn-tp-lg"><a href="https://deploy-preview-324--design-system-canada-ca.netlify.app/common-design-patterns/latest-news.html">Latest news</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/324">#324</a>)</li>
-            <li>Dernières nouvelles</li>
+            <li><a href="https://deploy-preview-221--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/nouveautes.html">Dernières nouvelles</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/221">#221</a>)</li>
             <li class="mrgn-tp-lg"><a href="https://deploy-preview-325--design-system-canada-ca.netlify.app/common-design-patterns/contextual-features">Contextual features</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/325">#325</a>)</li>
             <li>Promotions contextuelles</li>
           </ul>
