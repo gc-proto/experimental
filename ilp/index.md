@@ -47,7 +47,7 @@ title: "Institutional landing page documentation"
             <li class="mrgn-tp-lg"><a href="https://deploy-preview-324--design-system-canada-ca.netlify.app/common-design-patterns/latest-news.html">Latest news</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/324">#324</a>)</li>
             <li><a href="https://deploy-preview-221--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/nouveautes.html">Dernières nouvelles</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/221">#221</a>)</li>
             <li class="mrgn-tp-lg"><a href="https://deploy-preview-325--design-system-canada-ca.netlify.app/common-design-patterns/contextual-features">Contextual features</a> (PR: <a href="https://github.com/canada-ca/design-system/pull/325">#325</a>)</li>
-            <li>Promotions contextuelles</li>
+            <li><a href="https://deploy-preview-222--systeme-conception-canada-ca.netlify.app/configurations-conception-communes/promotions-contextuelles.html">Promotions contextuelles</a> (PR: <a href="https://github.com/canada-ca/systeme-conception/pull/222">#222</a>)</li>
           </ul>
         </details>
       </li>
