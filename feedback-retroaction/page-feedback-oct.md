@@ -173,14 +173,14 @@ After selecting "Submit", the user is shown a thank you message with a green che
 
 <p>Add it to the bottom of a content page after the page content and before the date modified. </p>
 
-<h3>Feedback tool for AEM pages</h3>
-<p>Use these instructions for any page hosted on the Adobe Managed Web Service.</p>
+<h3>Feedback tool for pages on the Managed Web Service (MWS)</h3>
+<p>Use these instructions for any page hosted on the Managed Web Service.</p>
 
 <details>
 <summary>Instructions</summary>
 
 <h4>Add the feedback component</h4>
-<p><mark>Need link to this</mark><a href="">How to add the feedback component to your page in AEM</a>. (Internal only on GCPedia)</p>
+<p><mark>Need link to this</mark><a href="">How to add the feedback component to your page in the MWS</a>. (Internal only on GCPedia)</p>
 
 <h4><span class="label label-primary">Recommended</span> Add a theme hidden value in the feedback code</h4>
 
@@ -243,8 +243,8 @@ If you would like to add a new theme value that is not currently in the Feedback
 
 
 
-<h3>Feedback tool code for non-AEM pages</h3>
-<p>Use these instructions for any page that is not hosted on the Adobe Managed Web Service.</p>
+<h3>Feedback tool code for pages outside the Managed Web Service (MWS)</h3>
+<p>Use these instructions for any page that is not hosted on the MWS.</p>
 
 <details>
 <summary>Instructions</summary>
