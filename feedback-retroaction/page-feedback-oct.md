@@ -252,6 +252,10 @@ If you would like to add a new theme value that is not currently in the Feedback
 <h4>Add the feedback component</h4>
 <p>Insert the feedback tool code where the “Report a problem on this page” is located in your page's HTML.</p>
 
+<ul>
+<li><a href="https://wet-boew.github.io/GCWeb/sites/feedback/feedback-docs-en.html#variantPFT">Page Feedback Tool (default)</a></li>
+<li><a href="https://wet-boew.github.io/GCWeb/sites/feedback/feedback-docs-en.html#variantPFTContact">Page Feedback Tool with contact link</a></li>
+</ul>
 
 <h4>Add the mandatory hidden values</h4>
 <p>Update the data attribute for the institutional acronym (unilingual value)</p>
@@ -375,13 +379,7 @@ If you would like to add a new theme value that is not currently in the Feedback
 </details>
 
 
-<details>
-<summary>Code</summary>
-<ul>
-<li><a href="https://wet-boew.github.io/GCWeb/sites/feedback/feedback-docs-en.html#variantPFT">Page Feedback Tool (default)</a></li>
-<li><a href="https://wet-boew.github.io/GCWeb/sites/feedback/feedback-docs-en.html#variantPFTContact">Page Feedback Tool with contact link</a></li>
-</ul>
-</details>
+
 
 
 
