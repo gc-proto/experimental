@@ -20,7 +20,7 @@ title: "Breadcrumb trail"
 <div class="container">
 <small>
 <label class="alpha-label">Alpha</label>
-"This is an experimental version of Canada.ca for public testing."
+This is an experimental version of Canada.ca for public testing.
 </small>
 </div>
 </section>
