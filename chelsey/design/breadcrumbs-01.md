@@ -15,6 +15,17 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Breadcrumb trail"
 ---
+<section class="experimental alpha-top">
+<h2 class="wb-inv">Alpha</h2>
+<div class="container">
+	::before
+<small>
+<label class="alpha-label">Alpha</label>
+"This is an experimental version of Canada.ca for public testing."
+</small>
+	::after
+</div>
+</section>
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Breadcrumb trail</span>: <span>Canada.ca design</span></span></h1>
 <span class="label label-danger">Mandatory on standard and campaign pages</span>
 <p>This is a mockup of the future state of the Breadcrumb trail pattern.</p>
