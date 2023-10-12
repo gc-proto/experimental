@@ -10,7 +10,7 @@ language: en
 layout: default
 title: "Departmental plans"
 ---
-<link rel="stylesheet" type="text/css" href="/css/theme.min.css" />
+<link rel="stylesheet" type="text/css" href="*css/theme.min.css" />
 <!-- HEADER START -->
 <div id="wb-bnr" class="container">
   <div class="row">
