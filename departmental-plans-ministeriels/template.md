@@ -104,33 +104,36 @@ title: "Departmental plans"
 <section>
   <h2 id="toc02">What to avoid </h2>
   <p>Don&#8217;t deviate from content specifications, such as headers, sub-headers, text descriptions and table explanations. </p>
-  <p>Don&#8217;t change the templates provided for accessible tables. </p>
+  
 </section>
 <section>
   <h2 id="toc03">Content and design</h2>
   <p>The Departmental plans follow a two-page layout. Each page targets a different audience. </p>
+  <p><a class="btn btn-default" href="#" role="button">Guidance for content writers</a> (opens in GCpedia)</p>
   <section>
     <h3>At a glance page</h3>
-    <p>Provides a summary of key information that is easily consumable for a broad audience. This audience may not have extensive knowledge of the institution&#8217;s finances or activities. The page allows for more design flexibility. </p>
+    <p>Provides a summary of key information that is easily consumable for an audience that may not have extensive knowledge of the institution&#8217;s finances or activities. The page allows for more design flexibility. </p>
+    <p><a class="btn btn-default" href="#" role="button">Preview the At a glance page</a></p>
   </section>
   <section>
     <h3>Full plan page</h3>
     <p>Provides all the details of the institution&#8217;s Departmental plan.</p>
-    <p>The template for Departmental plans uses standard headers and design elements, which are outlined in the <a href="#">guidance for content writers</a> (only available on the Government of Canada network).</p>
+    <p>The template for Departmental plans uses standard headers and design elements.</p>
+    <p><a class="btn btn-default" href="#" role="button">Preview the Full plan page</a></p>
   </section>
 </section>
 <section>
   <h2 id="toc04">How to implement</h2>
   <p>Copy the code from the working examples:</p>
   <ul>
-    <li><a href="https://056gc.sharepoint.com/:w:/s/DigitalAdvisoryServices-Serviceconsultatifscontenunumrique/EWTEAnplNo9OkqZWIPe6awMBgHANdB-5kreBHS2kVYCGKg?e=jn27Sk">At a glance page</a></li>
-    <li><a href="https://056gc.sharepoint.com/:w:/s/DigitalAdvisoryServices-Serviceconsultatifscontenunumrique/ESUZjJQ6hXRFtshLkSeGe-0BTeeEluTYEHP8nsbmVcDhZw?e=a9NbEh">Full plan page</a></li>
+    <li><a href="https://056gc.sharepoint.com/:w:/s/DigitalAdvisoryServices-Serviceconsultatifscontenunumrique/EWTEAnplNo9OkqZWIPe6awMBgHANdB-5kreBHS2kVYCGKg?e=jn27Sk">At a glance page code</a></li>
+    <li><a href="https://056gc.sharepoint.com/:w:/s/DigitalAdvisoryServices-Serviceconsultatifscontenunumrique/ESUZjJQ6hXRFtshLkSeGe-0BTeeEluTYEHP8nsbmVcDhZw?e=a9NbEh">Full plan page code</a></li>
   </ul>
 </section>
 <section>
   <h2 id="toc05">Research and rationale</h2>
   <p>Research will be ongoing to determine the best way to present information contained in the departmental plans in an accessible and user-friendly way. To date, some known issues include non-intuitive headers, repetitive information, and overly complex tables.</p>
-  <p> Further improvements will be made incrementally as more research is completed on both the implementation side and user experience. If you&#8217;re interested in participating in usability testing for the implementation components, please reach out to the DAS inbox(contact info available on the Government of Canada network).</p>
+  <p> Further improvements will be made incrementally as more research is completed on both the implementation and user experience sides. If you&#8217;re interested in participating in usability testing for the implementation components, please drop us a line.</p>
 </section>
 <section>
   <h2 id="toc06">Latest changes</h2>
