@@ -11,9 +11,6 @@ layout: default
 title: "Hybrid work in the public service"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
-<div class="mwstitle section">
-    <h1 property="name" id="wb-cont" dir="ltr"> Hybrid work in the public service</h1>
-  </div>
   <div class="mwsgeneric-base-html parbase section">
     <link href="https://www.tbs-sct.gc.ca/canada-css/tbs-sct.css" rel="stylesheet">
     <p>The federal public service has chosen to  adopt a hybrid way of working.</p>
