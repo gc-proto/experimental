@@ -51,9 +51,6 @@
 		});
 	</script>
 	<main role="main" property="mainContentOfPage">
-    <div class="container">
-      <div class="row">
-      <div class="col-md-12">
 		<!-- -->
         <div class="mwstitle section">
     <h1 property="name" id="wb-cont" dir="ltr"> Hybrid work in the public service</h1>
@@ -134,9 +131,6 @@
     </div>
   </section>
         <!-- -->
-      </div>
-    </div>
-    </div>
 	</main>
 	<div id="def-footer"> </div>
 	<!-- Write closure template -->
