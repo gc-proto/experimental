@@ -1,8 +1,6 @@
 ---
 altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/modele.html"
 breadcrumbs:
-  - title: Canada.ca
-    link: "#"
   - title: [theme, topic, or department]
     link: "#"
 dateModified: 2023-08-10
