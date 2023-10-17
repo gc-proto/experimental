@@ -1,58 +1,17 @@
-<!DOCTYPE html>
-<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" dir="ltr">
-<!--<![endif]-->
-
-<head>
-	<meta charset="utf-8">
-	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-	<title>Sign in to [NAME OF ACCOUNT] - Canada.ca</title>
-	<meta content="width=device-width,initial-scale=1" name="viewport">
-	<!-- Meta data -->
-	<!-- Meta data-->
-	<!-- Load closure template scripts -->
-	<script type="text/javascript"
-		src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_45/cdts/compiled/soyutils.js"></script>
-	<script type="text/javascript"
-		src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_45/cdts/compiled/wet-en.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-<link rel="stylesheet" href="/etc/designs/canada/wet-boew/css/theme.min.css"/>
-	<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/méli-mélo/2022-06-banff.css" />
-	<link rel="stylesheet" href="../css/split-h1.css">
-	<!-- Write closure template -->
-	<script type="text/javascript">
-		document.write(wet.builder.refTop({
-		}));
-	</script>
-</head>
-
-<body vocab="http://schema.org/" typeof="WebPage" class="cnt-wdth-lmtd">
-	<div id="def-top"> </div>
-	<!-- Write closure template -->
-	<script type="text/javascript">
-		var defTop = document.getElementById("def-top");
-		defTop.outerHTML = wet.builder.top({
-			lngLinks: [{
-				lang: "fr",
-				href: "#",
-				text: "Français"
-			}],
-			breadcrumbs: [{
-				title: "Home",
-				href: "https://www.canada.ca/en.html"
-			}, {
-				title: "[theme, topic, or department ]",
-				href: ""
-			}],
-			search: true,
-			siteMenu: true,
-			showPreContent: true
-		});
-	</script>
-	<main role="main" property="mainContentOfPage">
-		<!-- -->
-        <div class="mwstitle section">
+---
+altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/modele.html"
+breadcrumbs:
+  - title: Canada.ca
+    link: "#"
+  - title: [theme, topic, or department]
+    link: "#"
+dateModified: 2023-08-10
+language: en
+layout: default
+title: "Hybrid work in the public service"
+---
+<link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
+<div class="mwstitle section">
     <h1 property="name" id="wb-cont" dir="ltr"> Hybrid work in the public service</h1>
   </div>
   <div class="mwsgeneric-base-html parbase section">
@@ -130,22 +89,4 @@
       </div>
     </div>
   </section>
-        <!-- -->
-	</main>
-	<div id="def-footer"> </div>
-	<!-- Write closure template -->
-	<script type="text/javascript">
-		var defFooter = document.getElementById("def-footer");
-		defFooter.outerHTML = wet.builder.footer({
-			showFooter: true,
-			showFeatures: true
-		});
-	</script>
-	<!-- Write closure template -->
-	<script type="text/javascript">
-		document.write(wet.builder.refFooter({
-		}));
-	</script>
-</body>
 
-</html>
