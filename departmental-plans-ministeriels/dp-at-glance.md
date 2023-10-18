@@ -1,4 +1,4 @@
-
+<h1>Name of organization's [fiscal year] Departmental plan at a glance</h1>
 ---
 altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html"
 breadcrumbs:
