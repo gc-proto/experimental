@@ -1,3 +1,4 @@
+<h1>Departmental plans</h1>
 ---
 altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/template.html"
 breadcrumbs:
@@ -9,6 +10,7 @@ layout: default
 title: "Departmental plans"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
+<div class="mwsgeneric-base-html parbase section">
   <p>Last updated: YYYY-MM-DD </p>
 <p>[Pattern description] -  Departmental plans are a financial report that describe a department&#8217;s spending plan for the next fiscal year. This template provides a consistent layout, heading structure, web design, accessible tables, and plain language. </p>
 <section>
