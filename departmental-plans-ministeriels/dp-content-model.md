@@ -1,4 +1,4 @@
-<h1>Departmental plans</h1>
+
 ---
 altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/template.html"
 breadcrumbs:
