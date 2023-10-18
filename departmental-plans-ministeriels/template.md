@@ -36,17 +36,17 @@ title: "Departmental plans"
 <section>
   <h2 id="toc03">Content and design</h2>
   <p>The Departmental plans follow a two-page layout. Each page targets a different audience. </p>
-  <p><a class="btn btn-default" href="#" role="button">Guidance for content writers</a> (opens in GCpedia)</p>
+  <p><a class="btn btn-primary" href="#" role="button">Guidance for content writers</a> (opens in GCpedia)</p>
   <section>
     <h3>At a glance page</h3>
     <p>Provides a summary of key information that is easily consumable for an audience that may not have extensive knowledge of the institution&#8217;s finances or activities. The page allows for more design flexibility. </p>
-    <p><a class="btn btn-default" href="#" role="button">Preview the At a glance page</a></p>
+    <p><a class="btn btn-primary" href="#" role="button">Preview the At a glance page</a></p>
   </section>
   <section>
     <h3>Full plan page</h3>
     <p>Provides all the details of the institution&#8217;s Departmental plan.</p>
     <p>The template for Departmental plans uses standard headers and design elements.</p>
-    <p><a class="btn btn-default" href="#" role="button">Preview the Full plan page</a></p>
+    <p><a class="btn btn-primary" href="#" role="button">Preview the Full plan page</a></p>
   </section>
 </section>
 <section>
