@@ -40,13 +40,13 @@ The accessibility progress report template is for publishing an institution's an
 
 ## When to use
 
-Use this template when publishing your institution's annual accessibility progress repor.
+Use this template when publishing your institution's annual accessibility progress report.
 
 
 
 ## What to avoid
 
-Don't create more than one accessibility progress report per department or agency per year.
+Don't create more than one accessibility progress report per department or agency each year.
 
 
 
@@ -98,7 +98,7 @@ To ensure findability, there is an index of all institutional accessibility prog
 
 Copy the code from the working examples:
 
-* [English working example](accessibility-plan-example.html) 
+* [English working example](progress-report-example.html) 
 * [French working example](#)
 
 
