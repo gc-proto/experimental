@@ -77,7 +77,7 @@ To ensure findability, there is an index of all institutional accessibility plan
 <div class="row">
    <div class="col-md-8">
       <details>
-         <summary class="bg-info">Institutional accessibility page</summary>
+         <summary class="bg-info">Institutional accessibility plan</summary>
          <figure>
             <img src="./images/accessibility-plan-en.png">
             <figcaption>
