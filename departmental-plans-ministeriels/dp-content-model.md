@@ -38,21 +38,21 @@ title: "Departmental plans"
     <section>
       <h3>At a glance page</h3>
       <p>Provides a summary of key information that is easily consumable for an audience that may not have extensive knowledge of the institution&#8217;s finances or activities. The page allows for more design flexibility. </p>
-      <p><a class="btn btn-default" href="#" role="button">Preview the At a glance page</a></p>
+      <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html" role="button">Preview the At a glance page</a></p>
     </section>
     <section>
       <h3>Full plan page</h3>
       <p>Provides all the details of the institution&#8217;s Departmental plan.</p>
       <p>The template for Departmental plans uses standard headers and design elements.</p>
-      <p><a class="btn btn-default" href="#" role="button">Preview the Full plan page</a></p>
+      <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html" role="button">Preview the Full plan page</a></p>
     </section>
   </section>
   <section>
     <h2 id="toc04">How to implement</h2>
     <p>Copy the code from the working examples:</p>
     <ul>
-      <li><a href="https://056gc.sharepoint.com/:w:/s/DigitalAdvisoryServices-Serviceconsultatifscontenunumrique/EWTEAnplNo9OkqZWIPe6awMBgHANdB-5kreBHS2kVYCGKg?e=jn27Sk">At a glance page code</a></li>
-      <li><a href="https://056gc.sharepoint.com/:w:/s/DigitalAdvisoryServices-Serviceconsultatifscontenunumrique/ESUZjJQ6hXRFtshLkSeGe-0BTeeEluTYEHP8nsbmVcDhZw?e=a9NbEh">Full plan page code</a></li>
+      <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-at-glance.md">At a glance page code</a></li>
+      <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-full-page.md">Full plan page code</a></li>
     </ul>
   </section>
   <section>
