@@ -121,10 +121,12 @@ The template my be adjusted to meet your institution's needs. By default, it inc
 
 Copy the code from the working examples:
 
-* [English feedback form - working example](feedback-form-example.html)
-* [English feedback form acknowledgement - working example](feedback-form-acknowledgement-example.html)
-* [French feedback form - working example](#)
-* [French feedback form acknowledgement - working example](#)
+* Intake form:
+    * [English feedback form - working example](feedback-form-example.html)
+    * [French feedback form - working example](#)
+* Acknowledgement page:
+    * [English acknowledgement page - working example](feedback-form-acknowledgement-example.html)
+    * [French acknowledgement page - working example](#)
 
 ### Connecting to a back end
 
