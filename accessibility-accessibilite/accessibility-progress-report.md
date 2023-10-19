@@ -15,7 +15,7 @@ pageclass: cnt-wdth-lmtd
 dateModified: 2023-08-16
 language: en
 layout: default
-title: "Accessibility plan"
+title: "Accessibility progress report"
 ---
 
 <p class="small">Last updated: October 19, 2023</p>
