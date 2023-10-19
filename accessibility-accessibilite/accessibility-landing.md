@@ -81,7 +81,7 @@ The introduction provides a brief explanation of the kind of feedback expected f
 
 #### Links to corporate accessibility information
 
-- Use services and information links (doormats) to give access to corporate accessibility information, such as accessibility plans or reports, or a description of the institution's process for responding to incoming feedback
+- Use services and information links (doormats) to give access to corporate accessibility information, such as accessibility plans or progress reports, or a description of the institution's process for responding to incoming feedback
 - Find out how to use the services and information pattern:
 
     [Services and information - Canada.ca design pattern](https://design.canada.ca/common-design-patterns/services-information.html)
