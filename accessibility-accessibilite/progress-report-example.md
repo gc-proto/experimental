@@ -12,12 +12,13 @@ css:
 pageclass: cnt-wdth-lmtd
 language: en
 layout: default
-dateModified: 2022-11-29
-description: Accessibility plan at [Institution name]
+dateModified: 2023-10-19
+description: 2023 progress report - Accessibility at [Institution name]
 title: Accessibility plan at [Institution name]
 ---
 
-Follow [Guidance on preparing accessibility progress reports](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/progress-reports/preparing.html)
+* Insert content for the progress report here
+* Follow [Guidance on preparing accessibility progress reports](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/progress-reports/preparing.html)
 
 ## Give feedback on this progress report
 
