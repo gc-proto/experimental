@@ -83,7 +83,7 @@ To ensure findability, there is an index of all institutional accessibility plan
             <figcaption>
                <details>
                   <summary>Detailed description</summary>
-                  <p>Screenshot of a template for an institutional accessibility plan. Under the title 'Accessibility plan at [Instiution name], you can find a link to the sample accessibility plan template, following by a heading 'Accessibility plans developed by other institutions', then a link to the list of accessibility plans developed by other institutions.</p>
+                  <p>Screenshot of a template for an institutional accessibility plan. Under the title 'Accessibility plan at [Instiution name], you can find a link to the sample accessibility plan template, followed by a heading 'Accessibility plans developed by other institutions', then a link to the list of accessibility plans developed by other institutions.</p>
                </details>
             </figcaption>
          </figure>
@@ -99,7 +99,7 @@ To ensure findability, there is an index of all institutional accessibility plan
 
 Copy the code from the working examples:
 
-* [English working example](accessibility-plan-example.html) 
+* [English working example](plan-example.html) 
 * [French working example](#)
 
 
