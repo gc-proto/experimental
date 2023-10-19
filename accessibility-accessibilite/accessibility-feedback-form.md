@@ -70,12 +70,12 @@ The template my be adjusted to meet your institution's needs. By default, it inc
 
 #### Intake form
 
-*   **A brief introduction** - describes the purpose of the form and includes a link to the feedback process description
-*   **4 questions** - including:
-  *   **What do you want to provide feedback on?** - radio buttons with options to categorize whether the feedback is about an accessibility barrier, the institution's accessibility plan, or something else (if the other option is chosen, a text box appears for capturing a description)
-  *   **Select the areas that are relevant to your comments** - checkboxes with options to classify the feedback by topic
-  *   **Describe the issue and provide comments** - a text box for capturing feedback
-  *   **Do you want us to contact you about your feedback?** radio buttons to find out if the person filling out the form would like to be contacted (if they choose yes, a text box for inputting an email address appears)
+*   **Introductory text** - a brief introduction that describes the purpose of the form and includes a link to the feedback process description
+*   **4 questions**:
+    *   **What do you want to provide feedback on?** - radio buttons with options to categorize whether the feedback is about an accessibility barrier, the institution's accessibility plan, or something else (if the other option is chosen, a text box appears for capturing a description)
+    *   **Select the areas that are relevant to your comments** - checkboxes with options to classify the feedback by topic
+    *   **Describe the issue and provide comments** - a text box for capturing feedback
+    *   **Do you want us to contact you about your feedback?** radio buttons to find out if the person filling out the form would like to be contacted (if they choose yes, a text box for inputting an email address appears)
 *  A submit button alongside a cancel link button to complete form submission
 
 #### acknowledgement page
