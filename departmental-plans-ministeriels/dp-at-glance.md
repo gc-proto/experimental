@@ -14,7 +14,7 @@ title: "Name of organization's [fiscal year] Departmental plan at a glance"
   
     <p>[Short description of the departmental plan – max 100 words] </p>
 <p>[<a href="#">Read the full departmental plan</a>] </p>
-<section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-primary btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </section>
+<section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </section>
 <section>
   <h2>Highlights</h2>
   <p>[Organization name]&#8217;s Departmental Results Framework outlines the department&#8217;s areas of work (core responsibilities), objectives (departmental results) and performance tracking (departmental results indicators). Please refer to GC InfoBase for the full framework and program inventory.</p>
