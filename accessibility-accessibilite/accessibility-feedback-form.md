@@ -22,7 +22,7 @@ title: "Accessibility feedback form"
 
 <p><span class="label label-warning">Experimental</span></p>
 
-The accessibility feedback form template is for enabling an institution to receive online feedback about its accessibility plans and reports, as well as any aspect of its programs services. This template consists of the form itself, as well as an acknowledgemnt page for when form input has been submitted.
+The accessibility feedback form template is for enabling an institution to receive online feedback about the accessibility of its programs and services, as well as its accessibility plans and reports. The template consists of an intake form and an acknowledgemnt page for when form input has been submitted.
 
 <img src="./images/feedback-process-en.png" class="pattern-demo img-responsive" alt="Screen capture of the template for an institution's accessibility feedback process description"> 
 
@@ -78,11 +78,11 @@ The template my be adjusted to meet your institution's needs. By default, it inc
     *   **Do you want us to contact you about your feedback?** radio buttons to find out if the person filling out the form would like to be contacted (if they choose yes, a text box for inputting an email address appears)
 *  A submit button alongside a cancel link button to complete form submission
 
-#### acknowledgement page
+#### Acknowledgement page
 
-* 2 options, depending on whether or not an email address has been submitted with the form input:
-  *  email not provided: a thank you message indicating that you will not receive a response
-  *  email provided: a thank you message indicating how many days it will take to receive a response
+* There are 2 options for the acknowledgement page, depending on whether or not an email address has been submitted with the form input:
+    *  email not provided: a thank you message indicating that you will not receive a response
+    *  email provided: a thank you message indicating how many days it will take to receive a response
 *  Both options include a link to the desripiton of the institution's feedback process
 
 
@@ -90,7 +90,7 @@ The template my be adjusted to meet your institution's needs. By default, it inc
 ### Design specifications
 
 * Uses standard Canada.ca styles and patterns, including large checkboxes and radio buttons that are easier to use
-* Find out how to use checkboxes and radio buttons:
+* Find out about checkboxes and radio buttons:
   *  [Checkboxes and radio buttons](https://design.canada.ca/common-design-patterns/checkboxes-radio-buttons.html) 
 
 
@@ -105,7 +105,7 @@ The template my be adjusted to meet your institution's needs. By default, it inc
             <figcaption>
                <details>
                   <summary>Detailed description</summary>
-                  <p>Screenshot of a template for a description of an institution's feedback process. Under the title 'Accessibility feedback process at [Instiution name], you can find 5 links: How to provide feedback, Submit anonymous feedback, If you want a response, What we do with your feedback, Request an alternate format.</p>
+                  <p>Screenshot of a template for an institution's feedback form. Under the title 'Provide accessibility feedback to [Instiution name], you can find an example form for giving feedback on accessibility.</p>
                </details>
             </figcaption>
          </figure>
