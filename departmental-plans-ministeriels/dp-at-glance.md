@@ -10,125 +10,58 @@ title: "Name of organization's [fiscal year] Departmental plan at a glance"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
-  
-    <p>[Short description of the departmental plan – max 100 words] </p>
-<p>[<a href="#">Read the full departmental plan</a>] </p>
-<section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </section>
-<section>
-  <h2>Highlights</h2>
-  <p>[Organization name]&#8217;s Departmental Results Framework outlines the department&#8217;s areas of work (core responsibilities), objectives (departmental results) and performance tracking (departmental results indicators). Please refer to GC InfoBase for the full framework and program inventory.</p>
-  <p>[Expand/collapse sections for each core responsibility]</p>
+  <p>A departmental plan describes a department&#8217;s priorities, plans and associated costs for the upcoming three fiscal years. </p>
+  <p><img src="departmental-plans-ministeriels/images/Departmental-Plan-Icons_Compass-BLACK.svg" alt="" /><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></p>
+  <p><img src="departmental-plans-ministeriels/images/Departmental-Plan-Icons_Letter-BLACK.svg" alt="" /><a href="#">{Minister name]&#8217;s mandate letter</a></p>
+  <p>[<a href="#">Read the full departmental plan</a>] </p>
+  <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </section>
   <section>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-      <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
-      <p><strong>Result(s) to achieve: </strong></p>
-      <p>[Short explanation of the planned result]</p>
-      <p><strong>Total spending: [insert dollar amount]</strong></p>
-      <p><strong>Total full-time equivalents: [insert number of FTEs ]</strong></p>
-      <p><strong>Summary of key activities: </strong></p>
-      <ul>
-        <li>Change made: Bulleted list item</li>
-        <li>Change made: Bulleted list item</li>
-        <li>Change made: Bulleted list item</li>
-      </ul>
-      <p>More information about <a href="#">name of core responsibility</a> [hyperlink to section] can be found in the full departmental plan.</p>
-    </details>
+    <h2>Key priorities</h2>
+    <p>[Insert the bulleted list found in the main report which can be found under the &ldquo;Key priorities&rdquo; section under &ldquo;Plans at a glance&rdquo;.] </p>
   </section>
   <section>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-      <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
-      <p><strong>Result(s) to achieve:</strong></p>
-      <p>[Short explanation of the planned result]</p>
-      <p><strong>Total spending: [insert dollar amount]</strong></p>
-      <p><strong>Total full-time equivalents: [insert number of FTEs]</strong></p>
-      <p><strong>Summary of key activities: </strong></p>
-      <ul>
-        <li>Change made: Bulleted list item</li>
-        <li>Change made: Bulleted list item</li>
-        <li>Change made: Bulleted list item</li>
-      </ul>
-      <p>More information about <a href="#">name of core responsibility</a> [hyperlink to section] can be found in the full departmental plan. </p>
-    </details>
+    <h2>Refocusing Government Spending </h2>
+    <p>In Budget 2023, the government committed to reducing spending by $14.1&#160;billion over the next five&#160;years, starting in 2023–24, and by $4.1&#160;billion annually after that. </p>
+    <p>As part of meeting this commitment, [organization name] is planning the following spending reductions: </p>
+    <ul>
+      <li><strong>2024-25</strong>: $ [insert amount]</li>
+      <li><strong>2025-26</strong>: $ [insert amount]</li>
+      <li><strong>2026-27 and ongoing</strong>: [insert amount]</li>
+    </ul>
+    <p>[Organization name] will achieve these reductions by doing the following: </p>
+    <ul>
+      <li>[savings measure 1]</li>
+      <li>[savings measure 2]</li>
+      <li>[savings measure 3]</li>
+      <li>[add bullets as needed]</li>
+    </ul>
+    <p>The figures in this departmental plan reflect these reductions. </p>
   </section>
   <section>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-      <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
-      <p>[Text within the expand/collapse]</p>
-      <p><strong>Result(s) to achieve: </strong></p>
-      <p>[Short explanation of the planned result]</p>
-      <p><strong>Total spending: [insert dollar amount]</strong></p>
-      <p><strong>Total full-time equivalents: [insert number of FTEs]</strong></p>
-      <p><strong>Summary of key activities: </strong></p>
-      <ul>
-        <li>Change made: Bulleted list item</li>
-        <li>Change made: Bulleted list item</li>
-        <li>Change made: Bulleted list item</li>
-      </ul>
-      <p>More information about <a href="#">name of core responsibility</a> [hyperlink to section] can be found in the full departmental plan. </p>
-      <p>[The summary of planned spending is an optional section for the &lsquo;at a glance&#8217; page]</p>
-    </details>
+    <h2>Highlights </h2>
+    <p>A Departmental Results Framework consists of an organization&#8217;s&#160;core responsibilities, the results it plans to achieve, and the&#160;performance indicators&#160;that measure progress toward these results.</p>
+    <p>[Repeat the following for each core responsibility.] </p>
+    <section>
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility</summary>
+        <section>
+          <h4>Departmental results:</h4>
+          <p>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework.]</p>
+        </section>
+        <section>
+          <h4>Planned spending:</h4>
+          <p>[Insert planned spending for this core responsibility for 2024–25]</p>
+        </section>
+        <section>
+          <h4>Planned human resources:</h4>
+          <p>[Insert number of full time equivalents for this core responsibility for 2024–25]</p>
+          <p>[Insert a summary of your organization&#8217;s plans for the core responsibility. This summary should stand alone and be brief. Readers can read the details by core responsibility sections for the full details.]</p>
+          <p>More information about [<u>name of core responsibility]</u> [hyperlink to section] can be found in the full departmental plan. </p>
+        </section>
+      </details>
+    </section>
   </section>
-</section>
-<section>
-  <h2>Summary of planned spending</h2>
-  <p>Figure [#]: A breakdown of [organization&#8217;s] planned spending of $ for XXXX-XX, by core responsbility and internal services </p>
-  <p>[Access an optional <a href="#">graph template</a> on GCPedia] (only available on a Government of Canada network)]</p>
-  <p>[Expand/collapse section] </p>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Text description of graph [#]</summary>
-    <p>[Text within expand/collapse section]</p>
-  </details>
-  <p>[Expand/collapse section] </p>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Explanation of graph [#]</summary>
-    <p>[Text within expand/collapse section]</p>
-  </details>
-</section>
-<section>
-  <h2>Key departmental priorities </h2>
-  <ul>
-    <li>Change made: numbered list item</li>
-    <li>Change made: numbered list item</li>
-    <li>Change made: numbered list item</li>
-    <li>Change made: numbered list item</li>
-  </ul>
-</section>
-<section>
-  <h2>Supporting information </h2>
-  <p>The following supplementary information tables are available on [<a href="#">organization&#8217;s name</a>]: </p>
-  <ul>
-    <li><a href="#">Details on transfer payment programs</a></li>
-    <li><a href="#">Gender-based analysis plus</a></li>
-    <li><a href="#">Horizontal initiatives</a></li>
-    <li><a href="#">Up front multiyear funding</a></li>
-    <li><a href="#">United Nations 2030 Agenda for Sustainable Development and the Sustainable Development Goals</a></li>
-  </ul>
-</section>
-<section>
-  <h2>Corporate</h2>
-  <section>
-    <h3>About [name of organization]</h3>
-    <p>The Treasury Board of Canada Secretariat provides advice and makes recommendations to the Treasury Board committee of ministers on how the government spends money on programs and services, how it regulates and how it is managed. The Secretariat helps ensure tax dollars are spent wisely and effectively for Canadians. </p>
-    <p>Learn more about our <a href="https://www.canada.ca/en/treasury-board-secretariat/corporate/mandate.html">vision, mission, and raison d'être.</a></p>
-    <p>[Expand/collapse sections] </p>
-  </section>
-</section>
-<section>
-  <h2>Contact us</h2>
-  <p>[Text within expand/collapse section] </p>
-  <p>Mailing address<br />
-    Name of organization<br />
-    Street address<br />
-    City, Canada XXX XXX<br />
-    Telephone: XXX-XXX-XXXX<br />
-    TTY: XXX-XXX-XXXX<br />
-    Email: </p>
-</section>
-<section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </section>
-
-    
 </div>
-
 <section class="pagedetails">
   <h2 class="wb-inv">Page details</h2>
   <div class="row">
