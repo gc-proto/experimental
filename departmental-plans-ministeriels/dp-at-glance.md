@@ -11,10 +11,8 @@ title: "Name of organization&#8217;s [fiscal year] Departmental plan at a glance
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>A departmental plan describes a department&#8217;s priorities, plans and associated costs for the upcoming three fiscal years. </p>
-  <p><img src="departmental-plans-ministeriels/images/Departmental-Plan-Icons_Compass-BLACK.svg" alt="" /><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></p>
-  <p><img src="departmental-plans-ministeriels/images/Departmental-Plan-Icons_Letter-BLACK.svg" alt="" /><a href="#">[Minister name]&#8217;s mandate letter</a></p>
-    <p><img src="/departmental-plans-ministeriels/images/Departmental-Plan-Icons_Compass-BLACK.svg" alt="" />test1</p>
-    <p><img src="../departmental-plans-ministeriels/images/Departmental-Plan-Icons_Compass-BLACK.svg" alt="" />test2</p>
+  <p><img src="/departmental-plans-ministeriels/images/Departmental-Plan-Icons_Compass-BLACK.svg" class="col-md-3" alt="" /><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></p>
+  <p><img src="/departmental-plans-ministeriels/images/Departmental-Plan-Icons_Letter-BLACK.svg" class="col-md-3" alt="" /><a href="#">[Minister name]&#8217;s mandate letter</a></p>
   <p>[<a href="#">Read the full departmental plan</a>] </p>
   <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </section>
   <section>
