@@ -15,7 +15,7 @@ title: "Name of organization&#8217;s [fiscal year] Departmental plan at a glance
   <ul>
     <li><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></li>
     <li><a href="#">[Minister name]&#8217;s mandate letter</a></li>
-  </ul>
+  </ul> 
 
  
   <div class="clearfix"></div>
