@@ -11,10 +11,17 @@ title: "Name of organization&#8217;s [fiscal year] Departmental plan at a glance
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>A departmental plan describes a department&#8217;s priorities, plans and associated costs for the upcoming three fiscal years. </p>
-  <p><img src="/departmental-plans-ministeriels/images/Departmental-Plan-Icons_Compass-BLACK.svg" class="col-md-3" alt="" /><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></p>
-  <p><img src="/departmental-plans-ministeriels/images/Departmental-Plan-Icons_Letter-BLACK.svg" class="col-md-3" alt="" /><a href="#">[Minister name]&#8217;s mandate letter</a></p>
-  <p>[<a href="#">Read the full departmental plan</a>] </p>
-  <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </section>
+
+  <ul>
+    <li><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></li>
+    <li><a href="#">[Minister name]&#8217;s mandate letter</a></li>
+  </ul>
+
+ 
+  <div class="clearfix"></div>
+  <section class="mrgn-tp-lg">
+    <p><a href="#" class="btn btn-primary btn-lg">Read the full departmental plan</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </p>
+  </section>
   <section>
     <h2>Key priorities</h2>
     <p>[Insert the bulleted list found in the main report which can be found under the &#8220;Key priorities&#8221; section under &#8220;Plans at a glance&#8221;.] </p>
@@ -43,7 +50,45 @@ title: "Name of organization&#8217;s [fiscal year] Departmental plan at a glance
     <p>[Repeat the following for each core responsibility.] </p>
     <section>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
+        <section>
+          <h4>Departmental results:</h4>
+          <p>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework.]</p>
+        </section>
+        <section>
+          <h4>Planned spending:</h4>
+          <p>[Insert planned spending for this core responsibility for 2024–25]</p>
+        </section>
+        <section>
+          <h4>Planned human resources:</h4>
+          <p>[Insert number of full time equivalents for this core responsibility for 2024–25]</p>
+          <p>[Insert a summary of your organization&#8217;s plans for the core responsibility. This summary should stand alone and be brief. Readers can read the details by core responsibility sections for the full details.]</p>
+          <p>More information about [<u>name of core responsibility]</u> [hyperlink to section] can be found in the full departmental plan. </p>
+        </section>
+      </details>
+    </section>
+    <section>
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
+        <section>
+          <h4>Departmental results:</h4>
+          <p>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework.]</p>
+        </section>
+        <section>
+          <h4>Planned spending:</h4>
+          <p>[Insert planned spending for this core responsibility for 2024–25]</p>
+        </section>
+        <section>
+          <h4>Planned human resources:</h4>
+          <p>[Insert number of full time equivalents for this core responsibility for 2024–25]</p>
+          <p>[Insert a summary of your organization&#8217;s plans for the core responsibility. This summary should stand alone and be brief. Readers can read the details by core responsibility sections for the full details.]</p>
+          <p>More information about [<u>name of core responsibility]</u> [hyperlink to section] can be found in the full departmental plan. </p>
+        </section>
+      </details>
+    </section>
+    <section>
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
         <section>
           <h4>Departmental results:</h4>
           <p>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework.]</p>
