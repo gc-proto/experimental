@@ -87,8 +87,8 @@ title: "Name of organization [fiscal year] Departmental plan"
     <h3 id="toc01-1">[Name of core responsibility]</h3>
     <ul class="list-unstyled">
       <li>
-        <details class="mrgn-bttm-md">
-          <summary class="wb-toggle h4" data-toggle='{"print":"on"}'>In this section</summary>
+        <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+          <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
           <ul>
             <li><a href="#toc01-1-1">Description</a></li>
             <li><a href="#toc01-1-2">Quality of life impacts</a></li>
@@ -217,14 +217,11 @@ title: "Name of organization [fiscal year] Departmental plan"
     </section>
   </section>
   <section>
-    <p class="text-warning">[*This section will be repeated for each core responsibility.]</p>
-  </section>
-  <section>
     <h3 id="toc01-5">Internal services</h3>
     <ul class="list-unstyled">
       <li>
-        <details class="mrgn-bttm-md">
-          <summary class="wb-toggle h4" data-toggle='{"print":"on"}'>In this section</summary>
+        <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+          <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
           <ul>
             <li><a href="#toc01-5-1">Description</a></li>
             <li><a href="#toc01-5-2">Plans to achieve results</a></li>
@@ -274,14 +271,14 @@ title: "Name of organization [fiscal year] Departmental plan"
         <p>[Text within the “Planning for contracts awarded to Indigenous businesses” section] </p>
       </details>
     </section>
-  </section>
+</section>
 </section>
 <section>
   <h2 id="toc04"> Planned spending  and human resources</h2>
   <p>[For this section, please use the text and amounts found in the PDF  version in the Planned spending and human resources section.]</p><ul class="list-unstyled">
   <li>
-    <details class="mrgn-bttm-md">
-      <summary class="wb-toggle h4" data-toggle='{"print":"on"}'>In this section</summary>
+    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+      <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
       <ul>
         <li><a href="#toc04-1">Spending</a></li>
         <li><a href="#toc04-2">Funding</a></li>
