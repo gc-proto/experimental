@@ -47,7 +47,7 @@ title: "Name of organization [fiscal year] Departmental plan"
     <figure> 
      <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
      <figcaption class="text-center small"> 
-      <p><strong>[Minister name]</strong></p>
+      <p class="mrgn-bttm-0"><strong>[Minister name]</strong></p>
       <p>[Job title]</p> 
      </figcaption> 
     </figure> 
@@ -61,7 +61,7 @@ title: "Name of organization [fiscal year] Departmental plan"
     <figure> 
      <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
      <figcaption class="text-center small"> 
-      <p><strong>[Institutional Head name]</strong></p>
+      <p class="mrgn-bttm-0"><strong>[Institutional Head name]</strong></p>
       <p>[Job title]</p> 
      </figcaption> 
     </figure> 
@@ -95,7 +95,7 @@ title: "Name of organization [fiscal year] Departmental plan"
             <li><a href="#toc01-1-3">Results and targets</a></li>
             <li><a href="#toc01-1-4">Plans to achieve results</a></li>
             <li><a href="#toc01-1-5">Key risks</a></li>
-            <li><a href="#toc01-1-6">Snapshot of planned resources in [insert fiscal year]</a></li>
+            <li><a href="#toc01-1-6">Snapshot of planned resources in [fiscal year]</a></li>
             <li><a href="#toc01-1-7">Related government priorities</a></li>
             <li><a href="#toc01-1-8">Program inventory</a></li>
             <li><a href="#toc01-1-9">Changes to the reporting  framework</a></li>
@@ -180,7 +180,7 @@ title: "Name of organization [fiscal year] Departmental plan"
     <section>
       <h4 id="toc01-1-5">Key risks</h4>
       <p>[Text  included in the &ldquo;Key risks&rdquo; section of the PDF version.]</p>
-<div class="panel panel-default">
+<div class="panel panel-primary">
         <header class="panel-heading">Snapshot of planned resources in [insert fiscal year]</header>
         <div class="panel-body">
           <ul>
@@ -217,7 +217,7 @@ title: "Name of organization [fiscal year] Departmental plan"
     </section>
   </section>
   <section>
-    <p class="text-warning">[*This section will be repeated for each core responsility.]</p>
+    <p class="text-warning">[*This section will be repeated for each core responsibility.]</p>
   </section>
   <section>
     <h3 id="toc01-5">Internal services</h3>
@@ -256,7 +256,6 @@ title: "Name of organization [fiscal year] Departmental plan"
       <div class="well">
         <p>[Indicate whether any  content, that&#8217;s not in the bulleted list, should be highlighted]</p>
       </div>
-      <p>[This content is  contained within a panel]</p>
     </section>
     <section>
       <h4 is="toc01-5-3">Snapshot of planned  resources</h4>
@@ -267,7 +266,6 @@ title: "Name of organization [fiscal year] Departmental plan"
           <li>Planned  full-time resources: [insert total planned full-time equivalents (number)] </li>
         </ul>
       </section>
-      <p>[Expand / collapse  section]</p>
     </section>
     <section>
       <h4 is="toc01-5-4">Related government  priorities</h4>
