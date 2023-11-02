@@ -45,7 +45,7 @@ title: "Name of organization [fiscal year] Departmental plan"
   <h2 id="toc01">From  the Minister</h2>
   <div class="pull-right mrgn-lft-md col-xs-4"> 
     <figure> 
-     <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://test.canada.ca/experimental/blob/master/departmental-plans-ministeriels/portrait.png">
+     <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
      <figcaption class="text-center small"> 
       <p><strong>[Minister name]</strong></p>
       <p>[Job title]</p> 
@@ -53,13 +53,13 @@ title: "Name of organization [fiscal year] Departmental plan"
     </figure> 
    </div>
   <p>[For this section,  please use the text found in the PDF version under the From the Minister section.] </p>
-  
+  <div class="clearfix"></div>
 </section>
 <section>
   <h2 id="toc02">From  the Institutional Head (*optional)</h2>
     <div class="pull-right mrgn-lft-md col-xs-4"> 
     <figure> 
-     <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://test.canada.ca/experimental/blob/master/departmental-plans-ministeriels/portrait.png">
+     <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
      <figcaption class="text-center small"> 
       <p><strong>[Institutional Head name]</strong></p>
       <p>[Job title]</p> 
@@ -67,7 +67,7 @@ title: "Name of organization [fiscal year] Departmental plan"
     </figure> 
    </div>
   <p>[If this section is included in your PDF version, please copy text under the “From the Institutional head” section; otherwise, delete the section.]</p>
-  <p><img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://test.canada.ca/experimental/blob/master/departmental-plans-ministeriels/portrait.png"></p>
+  <div class="clearfix"></div>
 </section>
 <section>
   <h2 id="toc03">Plans to deliver on core responsibilities and internal services</h2>
@@ -300,7 +300,7 @@ title: "Name of organization [fiscal year] Departmental plan"
         <figure>
             <figcaption class="text-left"><strong>Figure [#]: Spending by core responsibility from [fiscal year] to [fiscal year]</strong></figcaption>
             <p>[Access an optional <a href="#">summary chart option</a> on GCPedia; a text description or table is required underneath for accessibility.]</p>
-            <img src="https://test.canada.ca/experimental/blob/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+            <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
                 <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
