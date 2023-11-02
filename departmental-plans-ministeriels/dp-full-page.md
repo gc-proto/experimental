@@ -15,26 +15,26 @@ title: "Name of organization [fiscal year] Departmental plan"
   <h2>On this page</h2>
   <ul>
     <li><a href="#toc01">From  the Minister</a></li>
-    <li><a href="#toc02">From  the Institutional Head (*optional)</a></li>
-    <li><a href="#toc03">Plans to deliver on core responsibilities and internal services</a> 
+    <li><a href="#toc01b">From  the Institutional Head (*optional)</a></li>
+    <li><a href="#toc02">Plans to deliver on core responsibilities and internal services</a> 
       <ul>
-        <li><a href="#toc01-1">Name of  core responsibility 1</a></li>
-        <li><a href="#toc01-2">Name of  core responsibility 2</a></li>
-        <li><a href="#toc01-3">Name of  core responsibility 3</a></li>
-        <li><a href="#toc01-4">Name of  core responsibility 4</a></li>
-        <li><a href="#toc01-5">Internal  services</a></li>
+        <li><a href="#toc02-1">Name of  core responsibility 1</a></li>
+        <li><a href="#toc02-2">Name of  core responsibility 2</a></li>
+        <li><a href="#toc02-3">Name of  core responsibility 3</a></li>
+        <li><a href="#toc02-4">Name of  core responsibility 4</a></li>
+        <li><a href="#toc02-5">Internal  services</a></li>
       </ul>
     </li>
-    <li><a href="#toc04">Planned spending and human resources</a>
+    <li><a href="#toc03">Planned spending and human resources</a>
       <ul>
-        <li><a href="#toc04-1">Spending</a></li>
-        <li><a href="#toc04-2">Funding</a></li>
-        <li><a href="#toc04-3">Future-oriented condensed statement of operations</a></li>
-        <li><a href="#toc04-4">Human resources</a></li>
+        <li><a href="#toc03-1">Spending</a></li>
+        <li><a href="#toc03-2">Funding</a></li>
+        <li><a href="#toc03-3">Future-oriented condensed statement of operations</a></li>
+        <li><a href="#toc03-4">Human resources</a></li>
       </ul>
     </li>
-    <li><a href="#toc05">Federal  tax expenditures </a></li>
-    <li><a href="#toc06">Definitions </a></li>
+    <li><a href="#toc04">Federal  tax expenditures </a></li>
+    <li><a href="#toc05">Definitions </a></li>
   </ul>
 </section>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -56,7 +56,7 @@ title: "Name of organization [fiscal year] Departmental plan"
   <div class="clearfix"></div>
 </section>
 <section>
-  <h2 id="toc02">From  the Institutional Head (*optional)</h2>
+  <h2 id="toc01b">From  the Institutional Head (*optional)</h2>
     <div class="pull-right mrgn-lft-md col-xs-4"> 
     <figure> 
      <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
@@ -70,7 +70,7 @@ title: "Name of organization [fiscal year] Departmental plan"
   <div class="clearfix"></div>
 </section>
 <section>
-  <h2 id="toc03">Plans to deliver on core responsibilities and internal services</h2>
+  <h2 id="toc02">Plans to deliver on core responsibilities and internal services</h2>
   <p>[For this section,  please use text found in the PDF version under &ldquo;Plans to deliver on core responsibilities  and internal services&rdquo;.]</p>
 <section>
   <h3>Core  responsibilities and internal services</h3>
@@ -122,46 +122,46 @@ title: "Name of organization [fiscal year] Departmental plan"
     </caption>
   <thead>
     <tr class="active">
-      <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Indicator</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Fiscal year] result</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Fiscal year] result</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Fiscal year] result </div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Target</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Date to achieve</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicator</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] result</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] result</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] result </div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Target</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date to achieve</div></th>
       </tr>
     </thead>
   <tbody>
     <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Description of indicator</div></th>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert target]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert date to achieve]</div></td>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Description of indicator</div></th>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert target]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert date to achieve]</div></td>
     </tr>
     <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Description of indicator</div></th>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert target]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert date to achieve]</div></td>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Description of indicator</div></th>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert target]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert date to achieve]</div></td>
     </tr>
     <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Description of indicator</div></th>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert target]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert date to achieve]</div></td>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Description of indicator</div></th>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert target]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert date to achieve]</div></td>
     </tr>
     <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Description of indicator</div></th>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert result]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert target]</div></td>
-      <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert date to achieve]</div></td>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Description of indicator</div></th>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert target]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert date to achieve]</div></td>
     </tr>
     </tbody>
 </table>
@@ -322,36 +322,36 @@ title: "Name of organization [fiscal year] Departmental plan"
   <caption class="text-left">Table [#]: Actual spending summary for core responsibilities and internal services ($ dollars)</caption>
   <thead>
     <tr class="active">
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Core    responsibilities and internal services</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[insert    fiscal year] actual expenditures</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[insert    fiscal year] actual expenditures</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[insert    fiscal year] forecast spending</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core    responsibilities and internal services</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert    fiscal year] actual expenditures</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert    fiscal year] actual expenditures</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert    fiscal year] forecast spending</div></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert name of core    responsibility.]</div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    authorities from Public Accounts.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total authorities    from Public Accounts.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    forecast spending for the fiscal year.]</div></td>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert name of core    responsibility.]</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    authorities from Public Accounts.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total authorities    from Public Accounts.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    forecast spending for the fiscal year.]</div></td>
+  </tr>
+  <tr class="active">
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
   </tr>
   <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Subtotal</div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    authorities from Public Accounts.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total authorities    from Public Accounts.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    forecast spending for the fiscal year.]</div></td>
   </tr>
-  <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Internal services</div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    authorities from Public Accounts.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total authorities    from Public Accounts.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    forecast spending for the fiscal year.]</div></td>
-  </tr>
-  <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Total</div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal    plus internal services]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal    plus internal services]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal    plus internal services]</div></td>
+  <tr class="active">
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal    plus internal services]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal    plus internal services]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal    plus internal services]</div></td>
   </tr>
 </tbody>
 </table></div>
@@ -371,41 +371,41 @@ title: "Name of organization [fiscal year] Departmental plan"
     <caption class="text-left">Table [#]: Budgetary planning summary for core  responsibilities and internal services (dollars)</caption>
   <thead>
 <tr class="active">
-    <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Core    responsibilities and internal services</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    fiscal year] budgetary spending (as indicated in Main Estimates)</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    fiscal year] planned spending</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    fiscal year] planned spending</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    fiscal year] planned spending</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core    responsibilities and internal services</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] budgetary spending (as indicated in Main Estimates)</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned spending</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned spending</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned spending</div></th>
   </tr>
 </thead>
   <tbody>
 <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert name of core    responsibility.]</div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    budgetary spending, as provided in the Main Estimates.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    planned spending for the fiscal year.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total planned    spending for the fiscal year.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    planned spending for the fiscal year.]</div></td>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert name of core    responsibility.]</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    budgetary spending, as provided in the Main Estimates.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    planned spending for the fiscal year.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total planned    spending for the fiscal year.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    planned spending for the fiscal year.]</div></td>
+  </tr>
+  <tr class="active">
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal </div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
   </tr>
   <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Subtotal </div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    budgetary spending, as provided in the Main Estimates.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    planned spending for the fiscal year.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    planned spending for the fiscal year.]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the total    planned spending for the fiscal year.]</div></td>
   </tr>
-  <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Internal services</div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    budgetary spending, as provided in the Main Estimates.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    planned spending for the fiscal year.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    planned spending for the fiscal year.]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert the total    planned spending for the fiscal year.]</div></td>
-  </tr>
-  <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Total</div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal services]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal services]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal services]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal services]</div></td>
+  <tr class="active">
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal services]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal services]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal services]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal services]</div></td>
   </tr>
 </tbody>
 </table>
@@ -425,36 +425,36 @@ title: "Name of organization [fiscal year] Departmental plan"
             <caption class="text-left">Table [#]: [Fiscal year] budgetary gross and net  planned spending summary ($ dollars)</caption>
             <thead>
               <tr class="active">
-                <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Name of core responsibility / internal service </div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert fiscal year] gross planned spending (dollars) </div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert fiscal year] planned revenues netted    against spending (dollars) </div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert fiscal year] planned net spending (dollars) </div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Name of core responsibility / internal service </div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert fiscal year] gross planned spending (dollars) </div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert fiscal year] planned revenues netted    against spending (dollars) </div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert fiscal year] planned net spending (dollars) </div></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert name of core responsibility]</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert name of core    responsibility.]</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+              </tr>
+              <tr class="active">
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
               </tr>
               <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Subtotal</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
               </tr>
-              <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Internal services</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-              </tr>
-              <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Total</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal    services]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal    services]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal    services]</div></td>
+              <tr class="active">
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal    services]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal    services]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal    services]</div></td>
               </tr>
             </tbody>
           </table>
@@ -498,32 +498,32 @@ title: "Name of organization [fiscal year] Departmental plan"
         <caption class="text-left">Table [#]: Future-oriented condensed statement of operations for the year ending March 31, [insert fiscal year] (dollars).</caption>
   <thead>
     <tr class="active">
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Financial information</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert fiscal year] forecast results</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    fiscal year] planned results </div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Difference<br>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert fiscal year] forecast results</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned results </div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>
           ([insert    fiscal year] planned results minus <br>
           [insert    fiscal year] forecast results)</div></th>
       </tr>
   </thead>
   <tbody>
 <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Total expenses </div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total expenses </div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
   </tr>
   <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Total revenues</div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total revenues</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
   </tr>
   <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Net cost of    operations before government funding and transfers</div></th>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert amount]</div></td>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Net cost of    operations before government funding and transfers</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
   </tr>
 </tbody>
 </table></div>
@@ -545,54 +545,54 @@ title: "Name of organization [fiscal year] Departmental plan"
   <table class="table table-bordered table-condensed">
     <thead>
       <tr class="active">
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Core responsibility / internal services </div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[insert fiscal year] actual fulltime    equivalents </div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[insert fiscal year] actual fulltime    equivalents </div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[insert fiscal year] forecasted fulltime    equivalents </div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibility / internal services </div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] actual fulltime    equivalents </div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] actual fulltime    equivalents </div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] forecasted fulltime    equivalents </div></th>
         </tr>
       </thead>
     <tbody>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">1. Core    responsibility</div></th>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">1. Core responsibility</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">2. Core    responsibility</div></th>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">2. Core responsibility</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">3. Core    responsibility</div></th>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">3. Core responsibility</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">4. Core responsibility</div></th>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">4. Core responsibility</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        </tr>
+      <tr class="active">
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Subtotal</div></th>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
         </tr>
-      <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Internal services</div></th>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-        </tr>
-      <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Total</div></th>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal    services]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal    services]</div></td>
-        <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal plus internal    services]</div></td>
+      <tr class="active">
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal    services]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal    services]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal plus internal    services]</div></td>
         </tr>
       </tbody>
     </table>
@@ -610,54 +610,54 @@ title: "Name of organization [fiscal year] Departmental plan"
           <table class="table table-bordered table-condensed">
             <thead>
               <tr class="active">
-                <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Core    responsibilities and internal services</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    fiscal year] planned fulltime equivalents</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    fiscal year] planned fulltime equivalents</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    fiscal year] planned fulltime equivalents</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core    responsibilities and internal services</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned fulltime equivalents</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned fulltime equivalents</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned fulltime equivalents</div></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">1. Core responsibility </div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">1. Core responsibility </div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
               </tr>
               <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">2. Core responsibility</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">2. Core responsibility</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
               </tr>
               <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">3. Core responsibility</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">3. Core responsibility</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
               </tr>
               <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">4. Core responsibility</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">4. Core responsibility</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+              </tr>
+              <tr class="active">
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
               </tr>
               <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Subtotal</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert subtotal]</div></td>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
               </tr>
-              <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Internal services</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert number]</div></td>
-              </tr>
-              <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">Total</div></th>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    subtotal plus internal services]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    subtotal plus internal services]</div></td>
-                <td><div class="mrgn-tp-sm mrgn-rght-sm mrgn-bttm-sm mrgn-lft-sm">[Insert    subtotal plus internal services]</div></td>
+              <tr class="active">
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    subtotal plus internal services]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    subtotal plus internal services]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    subtotal plus internal services]</div></td>
               </tr>
             </tbody>
           </table>
