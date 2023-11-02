@@ -75,44 +75,44 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section>
   <h3>Core  responsibilities and internal services</h3>
   <ul>
-    <li><a href="#toc01-1">Name of  core responsibility 1</a></li>
-    <li><a href="#toc01-2">Name of  core responsibility 2</a></li>
-    <li><a href="#toc01-3">Name of  core responsibility 3</a></li>
-    <li><a href="#toc01-4">Name of  core responsibility 4</a></li>
-    <li><a href="#toc01-5">Internal  services</a></li>
+    <li><a href="#toc02-1">Name of  core responsibility 1</a></li>
+    <li><a href="#toc02-2">Name of  core responsibility 2</a></li>
+    <li><a href="#toc02-3">Name of  core responsibility 3</a></li>
+    <li><a href="#toc02-4">Name of  core responsibility 4</a></li>
+    <li><a href="#toc02-5">Internal  services</a></li>
     </ul>
 </section>
   <p>[Repeat these sections for each core responsibility]</p>
   <section>
-    <h3 id="toc01-1">[Name of core responsibility]</h3>
+    <h3 id="toc02-1">[Name of core responsibility]</h3>
     <ul class="list-unstyled">
       <li>
         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
           <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
           <ul>
-            <li><a href="#toc01-1-1">Description</a></li>
-            <li><a href="#toc01-1-2">Quality of life impacts</a></li>
-            <li><a href="#toc01-1-3">Results and targets</a></li>
-            <li><a href="#toc01-1-4">Plans to achieve results</a></li>
-            <li><a href="#toc01-1-5">Key risks</a></li>
-            <li><a href="#toc01-1-6">Snapshot of planned resources in [fiscal year]</a></li>
-            <li><a href="#toc01-1-7">Related government priorities</a></li>
-            <li><a href="#toc01-1-8">Program inventory</a></li>
-            <li><a href="#toc01-1-9">Changes to the reporting  framework</a></li>
+            <li><a href="#toc02-1-1">Description</a></li>
+            <li><a href="#toc02-1-2">Quality of life impacts</a></li>
+            <li><a href="#toc02-1-3">Results and targets</a></li>
+            <li><a href="#toc02-1-4">Plans to achieve results</a></li>
+            <li><a href="#toc02-1-5">Key risks</a></li>
+            <li><a href="#toc02-1-6">Snapshot of planned resources in [fiscal year]</a></li>
+            <li><a href="#toc02-1-7">Related government priorities</a></li>
+            <li><a href="#toc02-1-8">Program inventory</a></li>
+            <li><a href="#toc02-1-9">Changes to the reporting  framework</a></li>
           </ul>
         </details>
       </li>
     </ul>
     <section>
-      <h4 id="toc01-1-1">Description</h4>
+      <h4 id="toc02-1-1">Description</h4>
       <p>[Maximum XXX words]</p>
     </section>
     <section>
-      <h4 id="toc01-1-2">Quality of life impacts</h4>
+      <h4 id="toc02-1-2">Quality of life impacts</h4>
       <p>[Maximum XXX words]</p>
     </section>
     <section>
-      <h4 id="toc01-1-3">Results and targets</h4>
+      <h4 id="toc02-1-3">Results and targets</h4>
       <p>[The  section should include the one table per departmental result listed under the  core responsibility. Content in this section should match the section of the  same name in the PDF version.] </p>
       <p>The <a href="#">Departmental Results Framework</a> (DRF) connects the department&rsquo;s core responsibilities to its  departmental results and departmental results indicators.   It includes details on the organization&rsquo;s objectives and plans to  measure and track results. </p>
       <p>The following tables show, for each  departmental result within [name of core responsibility],  the indicators, the targets and target dates for [insert fiscal year], and the  results from the three most recently reported fiscal years.</p>
@@ -173,12 +173,12 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <p>The financial, human resources and  performance information for the [organization&rsquo;s name]&rsquo;s  program inventory is available on <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p>
     </section>
     <section>
-      <h4 id="toc01-1-4">Plans to achieve results</h4>
+      <h4 id="toc02-1-4">Plans to achieve results</h4>
       <p>[Text included in the “Plans to achieve results” section of the PDF version.]</p>
         <div class="well"><p>[Indicate whether any content should be highlighted.]</p></div>
     </section>
     <section>
-      <h4 id="toc01-1-5">Key risks</h4>
+      <h4 id="toc02-1-5">Key risks</h4>
       <p>[Text  included in the &ldquo;Key risks&rdquo; section of the PDF version.]</p>
 <div class="panel panel-primary">
         <header class="panel-heading">Snapshot of planned resources in [insert fiscal year]</header>
@@ -191,7 +191,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </div>
     </section>
     <section>
-      <h4 id="toc01-1-7">Related government  priorities</h4>
+      <h4 id="toc02-1-7">Related government  priorities</h4>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Gender-based analysis plus</summary>
         <p>[Text within the “Gender-based analysis plus” section, if included.]</p>
@@ -202,7 +202,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </details>
   </section>
     <section>
-      <h4 id="toc01-1-8">Program inventory</h4>
+      <h4 id="toc02-1-8">Program inventory</h4>
       <p>[Core responsibility name] is supported by the following programs:</p>
 <ul>
   <li>[Bulleted  list of programs under the core responsibility – should match the PDF version.] </li>
@@ -210,29 +210,29 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </ul>
     </section>
     <section>
-      <h4 id="toc01-1-9">Summary of changes made to this year’s reporting framework</h4>
+      <h4 id="toc02-1-9">Summary of changes made to this year’s reporting framework</h4>
       <ul>
         <li>[Bulleted list of change made to the reporting framework – should match the PDF version.]</li>
       </ul>
     </section>
   </section>
   <section>
-    <h3 id="toc01-5">Internal services</h3>
+    <h3 id="toc02-5">Internal services</h3>
     <ul class="list-unstyled">
       <li>
         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
           <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
           <ul>
-            <li><a href="#toc01-5-1">Description</a></li>
-            <li><a href="#toc01-5-2">Plans to achieve results</a></li>
-            <li><a href="#toc01-5-3">Snapshot of planned  resources</a></li>
-            <li><a href="#toc01-5-4">Related government  priorities</a></li>
+            <li><a href="#toc02-5-1">Description</a></li>
+            <li><a href="#toc02-5-2">Plans to achieve results</a></li>
+            <li><a href="#toc02-5-3">Snapshot of planned  resources</a></li>
+            <li><a href="#toc02-5-4">Related government  priorities</a></li>
           </ul>
         </details>
       </li>
     </ul>
     <section>
-      <h4 is="toc01-5-1">Description</h4>
+      <h4 is="toc02-5-1">Description</h4>
       <p>Internal services are the services that are  provided within a department so that it can meet its corporate obligations and  deliver its programs. There are 10 categories of internal services:</p>
       <ul>
         <li>management and oversight  services</li>
@@ -248,14 +248,14 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </ul>
     </section>
     <section>
-      <h4 is="toc01-5-2">Plans to deliver</h4>
+      <h4 is="toc02-5-2">Plans to deliver</h4>
       <p>[Text  included in the &ldquo;Plans to achieve results&rdquo; section of the PDF version.]</p>
       <div class="well">
         <p>[Indicate whether any  content, that&#8217;s not in the bulleted list, should be highlighted]</p>
       </div>
     </section>
     <section>
-      <h4 is="toc01-5-3">Snapshot of planned  resources</h4>
+      <h4 is="toc02-5-3">Snapshot of planned  resources</h4>
       <section>
         <h5>Snapshot of planned resources for  [insert date]</h5>
         <ul>
@@ -265,7 +265,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </section>
     </section>
     <section>
-      <h4 is="toc01-5-4">Related government  priorities</h4>
+      <h4 is="toc02-5-4">Related government  priorities</h4>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Planning for contracts awarded to Indigenous businesses</summary>
         <p>[Text within the “Planning for contracts awarded to Indigenous businesses” section] </p>
@@ -274,22 +274,22 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>
 </section>
 <section>
-  <h2 id="toc04"> Planned spending  and human resources</h2>
+  <h2 id="toc03"> Planned spending  and human resources</h2>
   <p>[For this section, please use the text and amounts found in the PDF  version in the Planned spending and human resources section.]</p><ul class="list-unstyled">
   <li>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
       <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
       <ul>
-        <li><a href="#toc04-1">Spending</a></li>
-        <li><a href="#toc04-2">Funding</a></li>
-        <li><a href="#toc04-3">Future-oriented condensed statement of operations</a></li>
-        <li><a href="#toc04-4">Human resources</a></li>
+        <li><a href="#toc03-1">Spending</a></li>
+        <li><a href="#toc03-2">Funding</a></li>
+        <li><a href="#toc03-3">Future-oriented condensed statement of operations</a></li>
+        <li><a href="#toc03-4">Human resources</a></li>
         </ul>
       </details>
     </li>
 </ul>
   <section>
-    <h3 id="toc04-1">Spending</h3>
+    <h3 id="toc03-1">Spending</h3>
     <section>
       <h4>[Insert current fiscal  year] spending by core responsibility </h4>
         <figure>
@@ -465,7 +465,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       
  
   <section>
-    <h3 id="toc04-2">Funding</h3>
+    <h3 id="toc03-2">Funding</h3>
     <section>
       <h4>Departmental spending [insert fiscal year] to [insert fiscal year]</h4>
       <p>The following graph presents planned spending (voted and statutory  expenditures) over time.   </p>
@@ -486,7 +486,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>
   </section>
   <section>
-    <h3 id="toc04-3">Future-oriented  condensed statement of operations </h3>
+    <h3 id="toc03-3">Future-oriented  condensed statement of operations </h3>
     <p>[Ensure the content in  this section matches the &ldquo;Future-oriented condensed statement of operations&rdquo;  section found in the PDF version.]</p>
     <p>The future-oriented condensed statement of  operations provides an overview of [organization&rsquo;s name]&rsquo;s operations for  2023–24 to 2024–25.</p>
     <p>The forecast and planned  amounts in this statement of operations were prepared on an accrual basis. The  forecast and planned amounts presented in other sections of the Departmental  Plan were prepared on an expenditure basis. Amounts may therefore differ.</p>
@@ -530,7 +530,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     </details>
   </section>
   <section>
-    <h3 id="toc04-4">Human resources</h3>
+    <h3 id="toc03-4">Human resources</h3>
     <section>
       <h4>Actual human resources for core responsibilities and internal services</h4>
 [Ensure the content in  this section matches the &ldquo;Actual human resources for core responsibilities and  internal services&rdquo; section found in the PDF version.]
@@ -667,13 +667,13 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   </section>
 </section>
 <section>
-  <h2 id="toc05">Federal  tax expenditures </h2>
+  <h2 id="toc04">Federal  tax expenditures </h2>
   <p>[Organization&#8217;s name]&#8217;s  Departmental Plan does not include information on tax expenditures.</p>
   <p>Tax expenditures are the responsibility  of the Minister of Finance. The Department of Finance Canada publishes cost  estimates and projections for government wide tax expenditures each year in the  Report on Federal Tax Expenditures.</p>
   <p>This report provides detailed  information on tax expenditures, including objectives, historical background  and references to related federal spending programs, as well as evaluations,  research papers and gender-based analysis plus. </p>
 </section>
 <section>
-  <h2 id="toc06">Definitions </h2>
+  <h2 id="toc05">Definitions </h2>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
       <summary class="wb-toggle" data-toggle='{"print":"on"}'>List of terms</summary>
         <dl>
