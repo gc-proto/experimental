@@ -14,7 +14,6 @@ description: A place for me to try out code
 en: Rob's sandbox so he can learn GitHub  
 dateModified: 2022-11-15
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Content and Information Architecture Specification</span>: <span>Canada.ca design system</span></span></h1>
 <div class="provisional profile">
   <div class="container">
     <div class="row">
