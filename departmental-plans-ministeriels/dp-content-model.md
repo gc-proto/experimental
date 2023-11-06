@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/template.html"
+altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model-fr.html"
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
@@ -10,8 +10,8 @@ title: "Departmental plans"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
-  <p>Last updated: YYYY-MM-DD </p>
-  <p>[Pattern description] -  Departmental plans are a financial report that describe a department&#8217;s spending plan for the next fiscal year. This template provides a consistent layout, heading structure, web design, accessible tables, and plain language. </p>
+  <p>Last updated: 2023-11-06 </p>
+  <p>[Pattern  description] -  Departmental plans describe  a department&rsquo;s spending plan for the next fiscal year. This template provides a  consistent layout, heading structure, web design, accessible tables, and plain  language.</p>
   <section>
     <h2>On this page</h2>
     <ul>
@@ -25,26 +25,25 @@ title: "Departmental plans"
   </section>
   <section>
     <h2 id="toc01">When to use </h2>
-    <p>Use this template for publishing official departmental plans on Canada.ca shortly after tabling. The layout ensures a consistent experience for users looking for specific information in the plans.</p>
-  </section>
+    <p>Use this template  for publishing official departmental plans on Canada.ca shortly after tabling. The  layout ensures a consistent experience for users looking for specific information  in the plans.</p>
+</section>
   <section>
     <h2 id="toc02">What to avoid </h2>
-    <p>Don&#8217;t deviate from content specifications, such as headers, sub-headers, text descriptions and table explanations. </p>
-  </section>
+    <p>Don&rsquo;t deviate  from content specifications, such as headers, sub-headers, text descriptions  and table explanations. </p>
+</section>
   <section>
     <h2 id="toc03">Content and design</h2>
-    <p>The Departmental plans follow a two-page layout. Each page targets a different audience. </p>
-    <p><a class="btn btn-default" href="#" role="button">Guidance for content writers</a> (opens in GCpedia)</p>
-    <section>
+    <p>The Departmental plans follow a two-page  layout. Each page targets an audience with different levels of subject matter  expertise. </p>
+    <p>[<a href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2021.E2.80.9322_Departmental_Results_Report">Templates  for content writers (available on GCpedia)</a>]</p>
+<section>
       <h3>At a glance page</h3>
-      <p>Provides a summary of key information that is easily consumable for an audience that may not have extensive knowledge of the institution&#8217;s finances or activities. The page allows for more design flexibility. </p>
-      <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html" role="button">Preview the At a glance page</a></p>
+      <p>Provides a summary of key information that  is easily consumable for an audience that may not have extensive knowledge of  the institution&rsquo;s finances or activities. The page allows for more design  flexibility. </p>
+<p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html" role="button">Preview the At a glance page</a></p>
     </section>
     <section>
       <h3>Full plan page</h3>
-      <p>Provides all the details of the institution&#8217;s Departmental plan.</p>
-      <p>The template for Departmental plans uses standard headers and design elements.</p>
-      <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html" role="button">Preview the Full plan page</a></p>
+      <p>Provides all the details of the  institution&rsquo;s Departmental plan.The template for Departmental plans uses  standard headers and design elements.</p>
+<p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html" role="button">Preview the Full plan page</a></p>
     </section>
   </section>
   <section>
@@ -57,8 +56,8 @@ title: "Departmental plans"
   </section>
   <section>
     <h2 id="toc05">Research and rationale</h2>
-    <p>Research will be ongoing to determine the best way to present information contained in the departmental plans in an accessible and user-friendly way. To date, some known issues include non-intuitive headers, repetitive information, and overly complex tables.</p>
-    <p> Further improvements will be made incrementally as more research is completed on both the implementation and user experience sides. If you&#8217;re interested in participating in usability testing for the implementation components, please drop us a line.</p>
+    <p>Research will be ongoing to determine the  best way to present information contained in the departmental plans in an  accessible and user-friendly way. To date, some known issues include non-intuitive  headers, repetitive information, and overly complex tables.</p>
+    <p>Further improvements will be made  incrementally as more research is completed on both the implementation and user  experience sides. If you&rsquo;re interested in participating in usability testing,  please <a href="mailto:DAS.SCN@tbs-sct.gc.ca">reach out to the TBS theme lead(s</a>).</p>
   </section>
   <section>
     <h2 id="toc06">Latest changes</h2>
@@ -68,7 +67,7 @@ title: "Departmental plans"
       <li>Revised wording of headers and proper use of styles</li>
       <li>Reducing the overall length of the plan</li>
     </ul>
-    <p>These changes are effective as of [XX date]</p>
+    <p>These  changes are effective as of publishing the 2024-25 Departmental Plans.</p>
   </section>
 </div>
 
@@ -87,7 +86,7 @@ title: "Departmental plans"
       <dl id="wb-dtmd">
         <dt>Date modified:</dt>
         <dd>
-          <time property="dateModified">2023-10-06</time>
+          <time property="dateModified">2023-11-06</time>
         </dd>
       </dl>
     </div>
