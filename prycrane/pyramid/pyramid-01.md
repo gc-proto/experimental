@@ -28,7 +28,7 @@ title: "Pyramid power"
 <figure class="mrgn-bttm-lg">
   <figcaption class="text-center"><strong>Figure 1</strong></figcaption>
   <img alt="Pyramid upside down showing how to start a web page with key information first. Text version below:" class="img-responsive center-block" id="fig1" src="./images/pyramid-eng-01.png" /></figure>
-<p>The inverted pyramid (Figure 1) for ordering content on a web page is divided into four sections, the widest at the top down to the peak at the bottom.</p>
+<p>The inverted pyramid (Figure 1) for ordering content on a web page is divided into four sections.  The widest part of the pyramid, the most important content for task completion, is at the top.   The relevance of the content flows downward, toward the peak atthe bottom.</p>
 <ol>
   <li><strong>Most important</strong>
     <ul>
