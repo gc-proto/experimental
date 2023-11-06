@@ -27,33 +27,29 @@ title: "Pyramid power"
 </ul>
 <figure class="mrgn-bttm-lg">
   <figcaption class="text-center"><strong>Figure 1</strong></figcaption>
-  <img alt="Pyramid upside down showing how to start a web page with key information first. Text version below:" class="img-responsive center-block" id="fig1" src="./images/pyramid-eng-01.png" />
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle="'{&quot;print&quot;:&quot;on&quot;}'">Figure 1 - Text version</summary>
-    <p>Inverted pyramid divided into four sections, from top to bottom. The image shows the order of information on a web page.</p>
+  <img alt="Pyramid upside down showing how to start a web page with key information first. Text version below:" class="img-responsive center-block" id="fig1" src="./images/pyramid-eng-01.png" /></figure>
+<p>The inverted pyramid (Figure 1) for ordering content on a web page is divided into four sections, the widest at the top down to the peak at the bottom.</p>
+<ol>
+  <li>Most important
     <ul>
-      <li>First:
-        <ul>
-          <li>start with the most important idea, step or information</li>
-        </ul>
-      </li>
-      <li>Second:
-        <ul>
-          <li>add details and tasks in order of importance</li>
-          <li>keep all task related content in the centre of the page</li>
-          <li>use links to direct people to key information and tasks</li>
-        </ul>
-      </li>
-      <li>Third:
-        <ul>
-          <li>include information for audiences who want to learn more or have more knowledge of the topic or service, but only if it makes sense</li>
-        </ul>
-      </li>
-      <li>Fourth:
-        <ul>
-          <li>add links only if they relate to content that supports completion of the task on the web page (for example, laws or publications)</li>
-        </ul>
-      </li>
+      <li>start with the most important idea, step or information</li>
     </ul>
-  </details>
-</figure>
+  </li>
+  <li>Prioritized tasks
+    <ul>
+      <li>add details and tasks in order of importance</li>
+      <li>keep all task related content in the centre of the page</li>
+      <li>use links to direct people to key information and tasks</li>
+    </ul>
+  </li>
+  <li>More information
+    <ul>
+      <li>include information for audiences who want to learn more or have more knowledge of the topic or service, but only if it makes sense</li>
+    </ul>
+  </li>
+  <li>Related links
+    <ul>
+      <li>add links only if they relate to content that supports completion of the task on the web page (for example, laws or publications)</li>
+    </ul>
+  </li>
+</ol>
