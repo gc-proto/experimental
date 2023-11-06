@@ -1,18 +1,17 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html"
+altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance-fr.html"
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-10-18
+dateModified: 2023-11-06
 language: en
 layout: default
-title: "Name of organization&#8217;s [fiscal year] Departmental plan at a glance"
+title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
-  <p>A departmental plan describes a department&#8217;s priorities, plans and associated costs for the upcoming three fiscal years. </p>
-
-  <ul>
+  <p>A departmental plan describes a department&rsquo;s priorities, plans and  associated costs for the upcoming three fiscal years. </p>
+<ul>
     <li><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></li>
     <li><a href="#">[Minister name]&#8217;s mandate letter</a></li>
   </ul> 
@@ -20,34 +19,34 @@ title: "Name of organization&#8217;s [fiscal year] Departmental plan at a glance
  
   <div class="clearfix"></div>
   <section class="mrgn-tp-lg">
-    <p><a href="#" class="btn btn-primary btn-lg">Read the full departmental plan</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </p>
+    <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html" class="btn btn-primary btn-lg">Read the full departmental plan</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </p>
   </section>
   <section>
     <h2>Key priorities</h2>
-    <p>[Insert the bulleted list found in the main report which can be found under the &#8220;Key priorities&#8221; section under &#8220;Plans at a glance&#8221;.] </p>
-  </section>
+    <p>[Insert the bulleted  list found in the main report which can be found under the &ldquo;Key priorities&rdquo;  section under &ldquo;Plans at a glance&rdquo;.] </p>
+</section>
   <section>
     <h2>Refocusing Government Spending </h2>
-    <p>In Budget 2023, the government committed to reducing spending by $14.1&#160;billion over the next five&#160;years, starting in 2023–24, and by $4.1&#160;billion annually after that. </p>
-    <p>As part of meeting this commitment, [organization name] is planning the following spending reductions: </p>
+    <p>In  Budget 2023, the government committed to reducing spending by  $14.1&nbsp;billion over the next five&nbsp;years, starting in 2023–24, and by  $4.1&nbsp;billion annually after that.</p>
+    <p>As part of meeting this commitment, [organization  name] is planning the following spending reductions: </p>
     <ul>
       <li><strong>2024-25</strong>: $ [insert amount]</li>
       <li><strong>2025-26</strong>: $ [insert amount]</li>
       <li><strong>2026-27 and ongoing</strong>: [insert amount]</li>
     </ul>
-    <p>[Organization name] will achieve these reductions by doing the following: </p>
+    <p>[Organization  name] will achieve these  reductions by doing the following: </p>
     <ul>
-      <li>[savings measure 1]</li>
-      <li>[savings measure 2]</li>
+      <li>[savings measure  1]</li>
+      <li>[savings measure  2]</li>
       <li>[savings measure 3]</li>
-      <li>[add bullets as needed]</li>
+      <li>[add bullets as  needed]</li>
     </ul>
-    <p>The figures in this departmental plan reflect these reductions. </p>
+    <p>The figures in this  departmental plan reflect these reductions. </p>
   </section>
   <section>
     <h2>Highlights </h2>
-    <p>A Departmental Results Framework consists of an organization&#8217;s&#160;core responsibilities, the results it plans to achieve, and the&#160;performance indicators&#160;that measure progress toward these results.</p>
-    <p>[Repeat the following for each core responsibility.] </p>
+    <p>A Departmental Results Framework consists of an organization&rsquo;s&nbsp;core responsibilities, the  results it plans  to achieve, and the&nbsp;performance indicators&nbsp;that measure progress toward these  results.</p>
+<p>[Repeat the following for each core responsibility.] </p>
     <section>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
@@ -62,8 +61,8 @@ title: "Name of organization&#8217;s [fiscal year] Departmental plan at a glance
         <section>
           <h4>Planned human resources:</h4>
           <p>[Insert number of full time equivalents for this core responsibility for 2024–25]</p>
-          <p>[Insert a summary of your organization&#8217;s plans for the core responsibility. This summary should stand alone and be brief. Readers can read the details by core responsibility sections for the full details.]</p>
-          <p>More information about [<u>name of core responsibility]</u> [hyperlink to section] can be found in the full departmental plan. </p>
+          <p>[Insert a summary  of your organization&rsquo;s plans for the core responsibility. This summary should  stand alone and be brief. Readers can read the details by core responsibility  sections for the full details.]</p>
+<p>More information about [<a href="#">name of core responsibility</a>] [hyperlink to section] can be found in the full departmental plan. </p>
         </section>
       </details>
     </section>
