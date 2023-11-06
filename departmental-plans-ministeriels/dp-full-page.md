@@ -12,10 +12,10 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <div class="mwsgeneric-base-html parbase section">
   
    <section>
-  <h2>Sur cette page</h2>
+  <h2>On this page</h2>
   <ul>
-    <li><a href="#toc01">De la part du ministre</a></li>
-    <li><a href="#toc01b">De la part de l'administrateur général (facultatif*)</a></li>
+    <li><a href="#toc01">From the Minister</a></li>
+    <li><a href="#toc01b">From the Institutional Head (*optional)</a></li>
     <li><a href="#toc02">Plans to deliver on core responsibilities and internal services</a> 
       <ul>
         <li><a href="#toc02-1">Name of  core responsibility 1</a></li>
@@ -472,6 +472,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     <h3 id="toc03-2">Funding</h3>
       <section><figure id="toc03-fig2">
             <figcaption class="text-left h4"><strong>Figure [#]: Departmental spending [insert fiscal year] to [insert fiscal year]</strong></figcaption>
+            <p>The following graph presents  planned spending (voted and statutory expenditures) over time.  </p>
             <p>[Access an optional <a href="#">summary chart option on GCPedia</a>; a text description or table is required underneath for accessibility.]</p>
             <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
