@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/template.html"
+altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page-fr.html"
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
@@ -473,7 +473,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       <section><figure id="toc03-fig2">
             <figcaption class="text-left h4"><strong>Figure [#]: Departmental spending [insert fiscal year] to [insert fiscal year]</strong></figcaption>
             <p>The following graph presents  planned spending (voted and statutory expenditures) over time.  </p>
-            <p>[Access an optional <a href="#">summary chart option on GCPedia</a>; a text description or table is required underneath for accessibility.]</p>
+            <p>[Access the <a href="#">bar graph template on GCPedia</a>.]</p>
             <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
