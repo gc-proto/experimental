@@ -12,10 +12,10 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <div class="mwsgeneric-base-html parbase section">
   
    <section>
-  <h2>On this page</h2>
+  <h2>Sur cette page</h2>
   <ul>
-    <li><a href="#toc01">From  the Minister</a></li>
-    <li><a href="#toc01b">From  the Institutional Head (*optional)</a></li>
+    <li><a href="#toc01">De la part du ministre</a></li>
+    <li><a href="#toc01b">De la part de l'administrateur général (facultatif*)</a></li>
     <li><a href="#toc02">Plans to deliver on core responsibilities and internal services</a> 
       <ul>
         <li><a href="#toc02-1">Name of  core responsibility 1</a></li>
@@ -74,7 +74,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>
 <section>
   <h2 id="toc02">Plans to deliver on core responsibilities and internal services</h2>
-  <p>[For this section,  please use text found in the word version under &ldquo;Plans to deliver on core responsibilities  and internal services&rdquo;.]</p>
+  <p>[Insert an introduction  section.] </p>
 <section>
   <h3>Core  responsibilities and internal services</h3>
   <ul>
@@ -98,7 +98,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
             <li><a href="#toc02-1-3">Results and targets</a></li>
             <li><a href="#toc02-1-4">Plans to achieve results</a></li>
             <li><a href="#toc02-1-5">Key risks</a></li>
-            <li><a href="#toc02-1-6">Snapshot of planned resources in [fiscal year]</a></li>
+            <li><a href="#toc02-1-6">Snapshot of planned resources in 2024-25</a></li>
             <li><a href="#toc02-1-7">Related government priorities</a></li>
             <li><a href="#toc02-1-8">Program inventory</a></li>
             <li><a href="#toc02-1-9">Summary of changes to reporting framework since last year</a></li>
@@ -108,17 +108,17 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     </ul>
     <section>
       <h4 id="toc02-1-1">Description</h4>
-      <p>[Insert the description of the  core responsibility exactly as it appears in the 2024–25 departmental results  framework.] </p>
+      <p>[Insert text.] </p>
 </section>
     <section>
       <h4 id="toc02-1-2">Quality of life impacts</h4>
-      <p>[Identify the domain(s) and  indicator(s) from the <a href="https://www160.statcan.gc.ca/index-eng.htm">Quality of Life  Framework for Canada</a> that relate most  closely to the core responsibility.] </p>
+      <p>[Insert text.] </p>
 </section>
     <section>
       <h4 id="toc02-1-3">Results and targets</h4>
       <p>[The section should  include the one table per departmental result listed under the core  responsibility. Content in this section should match the section of the same  name in the word version.] </p>
-      <p>The following tables  show, for each departmental result related to [name of core responsibility], the indicators, the results from the three&nbsp;most  recently reported fiscal years, the targets and target dates approved in [insert fiscal year].</p>
-      <table class="table table-bordered table-condensed">
+      The following tables show, for each departmental result related to [name  of core responsibility], the indicators, the results from the three&nbsp;most  recently reported fiscal years, the targets and target dates approved in  [insert fiscal year]. 
+<table class="table table-bordered table-condensed">
         <caption class="text-left">
           <strong>Table [#]: Indicators, results and targets for departmental result</strong>
           </caption>
@@ -134,7 +134,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
           </thead>
         <tbody>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Description of indicator</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental indicator</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
@@ -142,7 +142,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert date to achieve]</div></td>
             </tr>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Description of indicator</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental indicator</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
@@ -150,7 +150,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert date to achieve]</div></td>
             </tr>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Description of indicator</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental indicator</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
@@ -158,7 +158,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert date to achieve]</div></td>
             </tr>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Description of indicator</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental indicator</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert result]</div></td>
@@ -177,21 +177,23 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     <section>
       <h4 id="toc02-1-4">Plans to achieve results</h4>
       <p>[Text included in the “Plans to achieve results” section of the word version.]</p>
-        <div class="well"><p>[Indicate whether any content should be highlighted.]</p></div>
+        <div class="well"><p>[Indicate whether any content should be highlighted in a highlight box.]</p></div>
     </section>
     <section>
       <h4 id="toc02-1-5">Key risks</h4>
-      <p>[Text  included in the &ldquo;Key risks&rdquo; section of the word version.]</p>
-<div class="panel panel-primary">
-        <header class="panel-heading">Snapshot of planned resources in [insert fiscal year]</header>
-        <div class="panel-body">
-          <ul>
-            <li><strong>Planned spending:</strong> [insert total planned spending (dollars)]</li>
-            <li><strong>Planned  full-time resources:</strong> [insert total planned  full-time equivalents (number)]</li>
-          </ul>
-        </div>
-      </div>
+      <p>[Text included in the &ldquo;Key  risks&rdquo; section of the word version.] </p>
+
     </section>
+      <section>
+      <div class="panel panel-primary">
+          <header class="panel-heading"><h4 id="toc02-1-6">Snapshot of planned resources in 2024-25</h4></header>
+  <div class="panel-body">
+    <ul>
+      <li><strong>Planned spending:</strong> $[insert total planned  spending for (insert fiscal year)]</li>
+      <li><strong>Planned full-time resources:</strong> [insert total planned  full-time equivalents (insert fiscal year)]</li>
+      </ul>
+    </div>
+</div></section>
     <section>
       <h4 id="toc02-1-7">Related government  priorities</h4>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -208,7 +210,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       <p>[Core responsibility name] is supported by the following programs:</p>
 <ul>
   <li>[Bulleted  list of programs under the core responsibility – should match the word version.] </li>
-  <li>Supporting information on  planned expenditures, human resources, and results related to [organization&rsquo;s name]&rsquo;s  program inventory is available on GC<a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html"> InfoBase</a>.</li>
+  <li>Supporting information on  planned expenditures, human resources, and results related to [organization&rsquo;s name]&rsquo;s  program inventory is available on <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</li>
 </ul>
     </section>
     <section>
@@ -227,7 +229,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
           <ul>
             <li><a href="#toc02-5-1">Description</a></li>
             <li><a href="#toc02-5-2">Plans to achieve results</a></li>
-            <li><a href="#toc02-5-3">Snapshot of planned  resources</a></li>
+            <li><a href="#toc02-5-3">Snapshot of planned  resources in 2024-2025</a></li>
             <li><a href="#toc02-5-4">Related government  priorities</a></li>
           </ul>
         </details>
@@ -250,21 +252,22 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </ul>
     </section>
     <section>
-      <h4 is="toc02-5-2">Plans to deliver</h4>
+      <h4 is="toc02-5-2">Plans to achieve results</h4>
       <p>[Text  included in the &ldquo;Plans to achieve results&rdquo; section of the word version.]</p>
       <div class="well">
-        <p>[Indicate whether any  content, that&#8217;s not in the bulleted list, should be highlighted]</p>
+        <p>[Indicate whether any content  should be highlighted in a highlight box]</p>
       </div>
     </section>
     <section>
-      <h4 is="toc02-5-3">Snapshot of planned  resources</h4>
-      <section>
-        <h5>Snapshot of planned resources for  [insert date]</h5>
+        <div class="panel panel-primary">
+          <header class="panel-heading"><h4 is="toc02-5-3">Snapshot of planned resources for 2024-25</h4></header>
+            <div class="panel-body">
         <ul>
-          <li>Planned  spending: [insert total planned spending (dollars)] </li>
-          <li>Planned  full-time resources: [insert total planned full-time equivalents (number)] </li>
+          <li>Planned spending: $[insert total planned spending]</li>
+          <li>Planned full-time resources: [insert total planned  full-time equivalents]</li>
         </ul>
-      </section>
+    </div>
+</div>
     </section>
     <section>
       <h4 is="toc02-5-4">Related government  priorities</h4>
@@ -277,7 +280,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>
 <section>
   <h2 id="toc03"> Planned spending  and human resources</h2>
-  <p>[For this section, please use the text and amounts found in the PDF  version in the Planned spending and human resources section.]</p><ul class="list-unstyled">
+  <p>[For this section, please use the text and amounts found in the word version in the Planned spending and human resources section.]</p><ul class="list-unstyled">
   <li>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
       <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
@@ -293,10 +296,9 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <section>
     <h3 id="toc03-1">Spending</h3>
     <section>
-      <h4>[Insert current fiscal  year] spending by core responsibility </h4>
-        <figure>
-            <figcaption class="text-left"><strong>Figure [#]: Spending by core responsibility from [fiscal year] to [fiscal year]</strong></figcaption>
-            <p>[Access an optional <a href="#">summary chart option</a> on GCPedia; a text description or table is required underneath for accessibility.]</p>
+        <figure id="toc03-fig1">
+            <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year][optional]</strong></figcaption>
+            <p>[Access an optional <a href="#">summary chart option on GCPedia</a>; a text description or table is required underneath for accessibility.]</p>
             <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -315,7 +317,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     <section>
       <h4>Table [#]: Actual spending summary for core responsibilities and internal services ($ dollars)</h4>
       
-<p>The following table  shows information on spending for each of [organization&rsquo;s  name]&rsquo;s core  responsibilities and for its internal services for the previous three fiscal  years. Amounts for the current fiscal year are forecasted based on spending to  date.</p>
+<p>The following table shows  information on spending for each of [organization&rsquo;s name]&rsquo;s core  responsibilities and for its internal services for the previous three fiscal  years. Amounts for the current fiscal year are forecasted based on spending to  date.</p>
 <div class="table-responsive">
   <table class="table table-bordered table-condensed">
     <thead>
@@ -351,7 +353,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal    plus internal services]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal    plus internal services]</div></td>
         </tr>
-  </tbody>
+      </tbody>
 </table></div>
 
         
@@ -359,7 +361,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
         <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
         <p>[Please include the explanation of the table included in the word version.]</p>
       </details>
-        <p>[Ensure that the content matches the &ldquo;Actual spending summary for  core responsibilities and internal services (dollars)&rdquo; section of the PDF  version.] </p>
+        <p>[Ensure that the content matches the &ldquo;Actual spending summary for  core responsibilities and internal services (dollars)&rdquo; section of the word version.] </p>
     </section>
     <section>
       <h4>Table [#]: Budgetary planning summary for core  responsibilities and internal services (dollars)</h4>
@@ -424,7 +426,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
             <caption class="text-left"></caption>
             <thead>
               <tr class="active">
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Name of core responsibility / internal service </div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities andinternal service</div></th>
                 <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert fiscal year] gross planned spending (dollars) </div></th>
                 <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert fiscal year] planned revenues netted    against spending (dollars) </div></th>
                 <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert fiscal year] planned net spending (dollars) </div></th>
@@ -468,28 +470,30 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  
   <section>
     <h3 id="toc03-2">Funding</h3>
-    <section>
-      <h4>Departmental spending [insert fiscal year] to [insert fiscal year]</h4>
-      <p>The following graph presents planned spending (voted and statutory  expenditures) over time.   </p>
-      <p><strong>Table [#]: Departmental  spending [insert fiscal year] to [insert fiscal year]. </strong></p>
-      <p>[Access  the <a href="#">bar graph template</a> on GCPedia]</p>
-<details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Text description of graph [#]</summary>
-        <p>[Please include the explanation of the table included in the word version.]</p>
-      </details>
-      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Explanation of graph [#]</summary>
-        <p>[Please include the explanation of the table included in the word version.]</p>
-      </details>
-    </section>
+      <section><figure id="toc03-fig2">
+            <figcaption class="text-left h4"><strong>Figure [#]: Departmental spending [insert fiscal year] to [insert fiscal year]</strong></figcaption>
+            <p>[Access an optional <a href="#">summary chart option on GCPedia</a>; a text description or table is required underneath for accessibility.]</p>
+            <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+
+            <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+                <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
+
+                <p>[ Insert a table that includes all information provided in the figure for accessibility.]</p>
+            </details>
+            <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+                <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Explanation of figure [#]</summary>
+
+                <p>[Please include the explanation of the figure included in the word version.]</p>
+            </details>
+        </figure></section>
     <section>
       <h4>Estimates by vote</h4>
-      <p>Information on [organization&rsquo;s name]&rsquo;s organizational  appropriations is available in the [include link to main estimates from the word version]. </p>
+      <p>Information on [organization’s name]’s organizational appropriations is available in the <a href="#">2024-25 Main Estimates</a> [include link to main estimates from the word version].</p>
 </section>
   </section>
   <section>
     <h3 id="toc03-3">Future-oriented  condensed statement of operations </h3>
-    <p>[Ensure the content in  this section matches the &ldquo;Future-oriented condensed statement of operations&rdquo;  section found in the word version.]</p>
+    <p>[Ensure the content in this section matches the “Future-oriented condensed statement of operations” section found in the word version.]</p>
     <p>The future-oriented condensed statement of operations provides an  overview of [organization&rsquo;s name]&rsquo;s operations for 2023–24 to 2024–25.</p>
     <p>The forecast and planned amounts in this statement of operations were  prepared on an accrual basis. The forecast and planned amounts presented in  other sections of the Departmental Plan were prepared on an expenditure basis.  Amounts may therefore differ.</p>
     <p>A more detailed future-oriented statement of operations and associated  notes, including a reconciliation of the net cost of operations with the  requested authorities, are available at [organization&rsquo;s name] [hyperlink the text to the website].</p>
@@ -534,7 +538,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <section>
     <h3 id="toc03-4">Human resources</h3>
     <section>
-      <h4>Table #: Actual human resources for core responsibilities and internal services</h4>
+      <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
 [Ensure the content in  this section matches the &ldquo;Actual human resources for core responsibilities and  internal services&rdquo; section found in the word version.]
       <p>The following table shows a summary of human resources, in full-time  equivalents (FTEs), for [organization&rsquo;s name]&rsquo;s core  responsibilities and for its internal services for the previous three fiscal  years. Human resources for the current fiscal year is forecasted based on year  to date.  </p>
       <div>
@@ -544,10 +548,10 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <table class="table table-bordered table-condensed">
     <thead>
       <tr class="active">
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibility / internal services </div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] actual fulltime    equivalents </div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] actual fulltime    equivalents </div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] forecasted fulltime    equivalents </div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] actual FTEs</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] actual FTEs</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] forecasted FTEs</div></th>
         </tr>
       </thead>
     <tbody>
@@ -602,17 +606,17 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </details>
     </section>
     <section>
-      <h4>Table #: Human resources planning summary for core responsibilities and internal services</h4>
+      <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
       <p>[Ensure the content in  this section matches the &ldquo;Human resources planning summary for core  responsibilities and internal services&rdquo; section found in the word version.]</p>
-      <p>The following table shows information on human resources, in FTEs, for  each of [organization&rsquo;s name]&rsquo;s core  responsibilities and for its internal services planned for [insert  fiscal year] and future years.</p>
-        <div class="table-responsive">
+      <p>The following table shows a  summary of human resources, in full-time equivalents (FTEs), for  [organization&rsquo;s name]&rsquo;s core responsibilities and for its internal services for  the previous three fiscal years. Human resources for the current fiscal year are  forecasted based on year to date. </p>
+<div class="table-responsive">
           <table class="table table-bordered table-condensed">
             <thead>
               <tr class="active">
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core    responsibilities and internal services</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned fulltime equivalents</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned fulltime equivalents</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    fiscal year] planned fulltime equivalents</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] actual FTEs</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] actual FTEs</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[insert fiscal year] forecasted FTEs</div></th>
               </tr>
             </thead>
             <tbody>
@@ -670,21 +674,31 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>
 <section>
   <h2 id="toc04">Corporate information</h2>
-  <h3>Organizational  profile</h3>
-  <p>Appropriate minister(s): [insert name(s)] <br>
+    <div class="accordion">
+	<details class="acc-group">
+		<summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Organizational  profile</summary>
+		<div class="tgl-panel">
+			<p>Appropriate minister(s): [insert name(s)] <br>
     Institutional head: [insert name(s)] <br>
     Ministerial portfolio: [insert information] <br>
     Enabling instrument(s): [insert title(s) of legislation with hyperlinks] <br>
     Year of incorporation / commencement:  [insert year(s)] <br>
     Other: [insert other information] </p>
-  <h3>Organizational contact information</h3>
-  <p>Mailing address <br>
+		</div>
+	</details>
+	<details class="acc-group">
+		<summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Organizational contact information</summary>
+		<div class="tgl-panel">
+			<p>Mailing address <br>
     [insert address]<br>
     Telephone: [insert number(s)]<br>
     TTY: [insert number(s)]<br>
     Fax: [insert number(s), if applicable] <br>
     Email: [insert address(es)] <br>
       Website(s): [insert URL(s)] </p>
+		</div>
+	</details>
+</div>
 </section>
 <section>
   <h2 id="toc05">Supplementary information tables</h2>
@@ -705,7 +719,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>
 <section>
   <h2 id="toc07">Definitions </h2>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+  <p>[For this section, please use the text  found in the main report. That can be found under the &ldquo;Definitions&rdquo; section.]</p>
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
       <summary class="wb-toggle" data-toggle='{"print":"on"}'>List of terms</summary>
         <dl>
           <dt>[Term title]</dt>
