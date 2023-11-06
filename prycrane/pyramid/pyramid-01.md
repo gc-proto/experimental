@@ -30,24 +30,24 @@ title: "Pyramid power"
   <img alt="Pyramid upside down showing how to start a web page with key information first. Text version below:" class="img-responsive center-block" id="fig1" src="./images/pyramid-eng-01.png" /></figure>
 <p>The inverted pyramid (Figure 1) for ordering content on a web page is divided into four sections, the widest at the top down to the peak at the bottom.</p>
 <ol>
-  <li>Most important
+  <li><strong>Most important</strong>
     <ul>
       <li>start with the most important idea, step or information</li>
     </ul>
   </li>
-  <li>Prioritized tasks
+  <li><strong>Prioritized tasks</strong>
     <ul>
       <li>add details and tasks in order of importance</li>
       <li>keep all task related content in the centre of the page</li>
       <li>use links to direct people to key information and tasks</li>
     </ul>
   </li>
-  <li>More information
+  <li><strong>More information</strong>
     <ul>
       <li>include information for audiences who want to learn more or have more knowledge of the topic or service, but only if it makes sense</li>
     </ul>
   </li>
-  <li>Related links
+  <li><strong>Related links</strong>
     <ul>
       <li>add links only if they relate to content that supports completion of the task on the web page (for example, laws or publications)</li>
     </ul>
