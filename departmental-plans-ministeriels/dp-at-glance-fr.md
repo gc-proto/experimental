@@ -1,4 +1,4 @@
----  
+---
 altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html"
 breadcrumbs:
   - title: [theme, topic, or department]
@@ -117,13 +117,5 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
       </div>
     </div>
     <div class="wb-share col-sm-4 col-md-3" data-wb-share='{&#34;lnkClass&#34;: &#34;btn btn-default btn-block&#34;}'></div>
-    <div class="col-xs-12">
-      <dl id="wb-dtmd">
-        <dt>Date modified:</dt>
-        <dd>
-          <time property="dateModified">2023-10-06</time>
-        </dd>
-      </dl>
-    </div>
   </div>
 </section>
