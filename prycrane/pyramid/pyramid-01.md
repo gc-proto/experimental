@@ -27,9 +27,9 @@ title: "Pyramid power"
 </ul>
 <figure class="mrgn-bttm-lg">
   <figcaption class="text-center"><strong>Figure 1</strong></figcaption>
-  <img alt="Pyramid upside down showing how to start a web page with key information first. Text version below:" class="img-responsive center-block" id="fig1" src="/style-guide/images/pyramid-eng-01.png" />
+  <img alt="Pyramid upside down showing how to start a web page with key information first. Text version below:" class="img-responsive center-block" id="fig1" src="./images/pyramid-eng-01.png" />
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle="'{&quot;print&quot;:&quot;on&quot;}'"> Figure 1 - Text version </summary>
+    <summary class="wb-toggle" data-toggle="'{&quot;print&quot;:&quot;on&quot;}'">Figure 1 - Text version</summary>
     <p>Inverted pyramid divided into four sections, from top to bottom. The image shows the order of information on a web page.</p>
     <ul>
       <li>First:
