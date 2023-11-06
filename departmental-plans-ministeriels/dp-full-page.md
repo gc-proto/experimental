@@ -186,7 +186,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     </section>
       <section>
       <div class="panel panel-primary">
-          <header class="panel-heading"><h4 id="toc02-1-6">Snapshot of planned resources in 2024-25</h4></header>
+          <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-1-6">Snapshot of planned resources in 2024-25</h4></header>
   <div class="panel-body">
     <ul>
       <li><strong>Planned spending:</strong> $[insert total planned  spending for (insert fiscal year)]</li>
@@ -260,11 +260,11 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     </section>
     <section>
         <div class="panel panel-primary">
-          <header class="panel-heading"><h4 is="toc02-5-3">Snapshot of planned resources for 2024-25</h4></header>
+          <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Snapshot of planned resources for 2024-25</h4></header>
             <div class="panel-body">
         <ul>
-          <li>Planned spending: $[insert total planned spending]</li>
-          <li>Planned full-time resources: [insert total planned  full-time equivalents]</li>
+          <li><strong>Planned spending:</strong> $[insert total planned spending]</li>
+          <li><strong>Planned full-time resources:</strong> [insert total planned  full-time equivalents]</li>
         </ul>
     </div>
 </div>
