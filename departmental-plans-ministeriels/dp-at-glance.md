@@ -80,8 +80,8 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
         <section>
           <h4>Planned human resources:</h4>
           <p>[Insert number of full time equivalents for this core responsibility for 2024–25]</p>
-          <p>[Insert a summary of your organization&#8217;s plans for the core responsibility. This summary should stand alone and be brief. Readers can read the details by core responsibility sections for the full details.]</p>
-          <p>More information about [<u>name of core responsibility]</u> [hyperlink to section] can be found in the full departmental plan. </p>
+          <p>[Insert a summary  of your organization&rsquo;s plans for the core responsibility. This summary should  stand alone and be brief. Readers can read the details by core responsibility  sections for the full details.]</p>
+<p>More information about [<a href="#">name of core responsibility</a>] [hyperlink to section] can be found in the full departmental plan. </p>
         </section>
       </details>
     </section>
@@ -99,8 +99,8 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
         <section>
           <h4>Planned human resources:</h4>
           <p>[Insert number of full time equivalents for this core responsibility for 2024–25]</p>
-          <p>[Insert a summary of your organization&#8217;s plans for the core responsibility. This summary should stand alone and be brief. Readers can read the details by core responsibility sections for the full details.]</p>
-          <p>More information about [<u>name of core responsibility]</u> [hyperlink to section] can be found in the full departmental plan. </p>
+          <p>[Insert a summary  of your organization&rsquo;s plans for the core responsibility. This summary should  stand alone and be brief. Readers can read the details by core responsibility  sections for the full details.]</p>
+<p>More information about [<a href="#">name of core responsibility</a>] [hyperlink to section] can be found in the full departmental plan. </p>
         </section>
       </details>
     </section>
