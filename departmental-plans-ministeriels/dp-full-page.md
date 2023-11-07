@@ -118,7 +118,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section><h5>Table [#]: Indicators, results and targets for departmental result</h5>
     <p>The following table shows,  for each departmental result related to [name of core responsibility], the  indicators, the results from the three&nbsp;most recently reported fiscal  years, the targets and target dates approved in [insert fiscal year].</p>
     <p>[Insert  departmental result text from approved 2024–25 departmental results framework]</p>
-<table class="table table-bordered table-condensed">
+<table id="tbl1" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicator</div></th>
@@ -296,7 +296,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
                 <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
 
                 <div class="table-responsive">
-                  <table class="table table-bordered table-condensed">
+                  <table id="fig-tbl1" class="table table-bordered table-condensed">
                     <thead>
                       <tr class="active">
                     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Fiscal year</div></th>
@@ -354,11 +354,11 @@ title: "[Name of organization] [fiscal year] Departmental plan"
         <p>[Insert text from the  &ldquo;Actual spending summary for core responsibilities and internal services  (dollars)&rdquo; section of the word template.] </p>
 </section>
     <section>
-      <h4 class="h5">Table [#]: Actual spending summary for core responsibilities and internal services ($ dollars)</h4>
+      <h4>Table [#]: Actual spending summary for core responsibilities and internal services ($ dollars)</h4>
       
 <p>The following table shows  information on spending for each of [organization&rsquo;s name]&rsquo;s core  responsibilities and for its internal services for the previous three fiscal  years. Amounts for the current fiscal year are forecasted based on spending to  date.</p>
 <div class="table-responsive">
-  <table class="table table-bordered table-condensed">
+  <table id="tbl2" class="table table-bordered table-condensed">
     <thead>
       <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core    responsibilities and internal services</div></th>
@@ -421,11 +421,11 @@ title: "[Name of organization] [fiscal year] Departmental plan"
         <p>[Ensure that the content matches the &ldquo;Actual spending summary for  core responsibilities and internal services (dollars)&rdquo; section of the word template.] </p>
     </section>
     <section>
-      <h4 class="h5">Table [#]: Budgetary planning summary for core  responsibilities and internal services (dollars)</h4>
+      <h4>Table [#]: Budgetary planning summary for core  responsibilities and internal services (dollars)</h4>
       
 <p>The following table shows information on  spending for each of [organization&rsquo;s name]&rsquo;s core responsibilities and for its internal services for the  upcoming three fiscal years.</p>
 <div class="table-responsive">
-<table class="table table-bordered table-condensed">
+<table id="tbl3" class="table table-bordered table-condensed">
   <thead>
 <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core    responsibilities and internal services</div></th>
@@ -496,11 +496,11 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     </section>
       
     <section>
-        <h4 class="h5">Table [#]: [Fiscal year] budgetary gross and net  planned spending summary</h4>
+        <h4>Table [#]: [Fiscal year] budgetary gross and net  planned spending summary</h4>
         
         <p>The following table  reconciles gross planned spending with net planned spending for 2024–25.</p>
         <div class="table-responsive">
-          <table class="table table-bordered table-condensed">
+          <table id="tbl4" class="table table-bordered table-condensed">
             <caption class="text-left"></caption>
             <thead>
               <tr class="active">
@@ -576,7 +576,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
                 <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
 
                 <div class="table-responsive">
-                  <table class="table table-bordered table-condensed">
+                  <table id="fig-tbl2" class="table table-bordered table-condensed">
                     <thead>
                       <tr class="active">
                     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Fiscal year</div></th>
@@ -642,8 +642,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <p>The future-oriented condensed statement of operations provides an  overview of [organization&rsquo;s name]&rsquo;s operations for 2023–24 to 2024–25.</p>
     <p>The forecast and planned amounts in this statement of operations were  prepared on an accrual basis. The forecast and planned amounts presented in  other sections of the Departmental Plan were prepared on an expenditure basis.  Amounts may therefore differ.</p>
     <p>A more detailed future-oriented statement of operations and associated  notes, including a reconciliation of the net cost of operations with the  requested authorities, are available at [organization&rsquo;s name] [hyperlink the text to the website].</p>
-      <section><h4 class="h5">Table [#]: Future-oriented condensed statement of operations for the year ending March 31, [insert fiscal year] (dollars)</h4>
-<div class="table-responsive"><table class="table table-bordered table-condensed">
+      <section><h4>Table [#]: Future-oriented condensed statement of operations for the year ending March 31, [insert fiscal year] (dollars)</h4>
+<div class="table-responsive"><table id="tbl5" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
@@ -683,14 +683,14 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <section>
     <h3 id="toc03-4">Human resources</h3>
     <section>
-      <h4 class="h5">Table [#]: Actual human resources for core responsibilities and internal services</h4>
+      <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
       <p>[Insert text from the &ldquo;Actual human resources for core  responsibilities and internal services&rdquo; section  of the word template.] </p>
 <p>The following table shows a  summary of human resources, in full-time equivalents (FTEs), for  [organization&rsquo;s name]&rsquo;s core responsibilities and for its internal services for  the previous three fiscal years. Human resources for the current fiscal year are  forecasted based on year to date. </p>
 <div>
   <div> </div>
 </div>
 <div class="table-responsive">
-  <table class="table table-bordered table-condensed">
+  <table id="tbl6" class="table table-bordered table-condensed">
     <thead>
       <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -755,7 +755,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       <p>[Ensure the content in  this section matches the &ldquo;Human resources planning summary for core  responsibilities and internal services&rdquo; section found in the word version.]</p>
       <p>The following table shows a  summary of human resources, in full-time equivalents (FTEs), for  [organization&rsquo;s name]&rsquo;s core responsibilities and for its internal services for  the previous three fiscal years. Human resources for the current fiscal year are  forecasted based on year to date. </p>
 <div class="table-responsive">
-          <table class="table table-bordered table-condensed">
+          <table id="tbl7" class="table table-bordered table-condensed">
             <thead>
               <tr class="active">
                 <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -894,6 +894,5 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </div>
     </div>
     <div class="wb-share col-sm-4 col-md-3" data-wb-share='{&#34;lnkClass&#34;: &#34;btn btn-default btn-block&#34;}'></div>
-   
   </div>
 </section>
