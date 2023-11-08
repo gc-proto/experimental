@@ -8,6 +8,7 @@ language: en
 layout: default
 title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
 ---
+
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>A departmental plan describes a department&rsquo;s priorities, plans and  associated costs for the upcoming three fiscal years. </p>
