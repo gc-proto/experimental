@@ -17,7 +17,7 @@ description: 2023 progress report - Accessibility at [Institution name]
 title: 202x Accessibility progress report for [Institution name]
 ---
 
-* Insert content for the progress report here
+* Insert content for the progress report in this section
 * Follow [Guidance on preparing accessibility progress reports](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/progress-reports/preparing.html)
 
 ## Give feedback on this progress report
