@@ -11,7 +11,7 @@ title: "Departmental plans"
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>Last updated: 2023-11-06 </p>
-  <p>[Pattern  description] -  Departmental plans describe  a department&rsquo;s spending plan for the next fiscal year. This template provides a  consistent layout, heading structure, web design, accessible tables, and plain  language.</p>
+  <p>[Pattern description] - Departmental plans describe a department&rsquo;s spending plan for the next fiscal year. This template provides a consistent layout, heading structure, web design, accessible tables, and plain language.</p>
   <section>
     <h2>On this page</h2>
     <ul>
@@ -25,24 +25,24 @@ title: "Departmental plans"
   </section>
   <section>
     <h2 id="toc01">When to use </h2>
-    <p>Use this template  for publishing official departmental plans on Canada.ca shortly after tabling. The  layout ensures a consistent experience for users looking for specific information  in the plans.</p>
+    <p>Use this template for publishing official departmental plans on Canada.ca shortly after tabling. The layout ensures a consistent experience for users looking for specific information in the plans.</p>
 </section>
   <section>
     <h2 id="toc02">What to avoid </h2>
-    <p>Don&rsquo;t deviate  from content specifications, such as headers, sub-headers, text descriptions  and table explanations. </p>
+    <p>Don&rsquo;t deviate from content specifications, such as headers, sub-headers, text descriptions and table explanations. </p>
 </section>
   <section>
     <h2 id="toc03">Content and design</h2>
-    <p>The Departmental plans follow a two-page  layout. Each page targets an audience with different levels of subject matter  expertise. </p>
-    <p>[<a href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2021.E2.80.9322_Departmental_Results_Report">Templates  for content writers (available on GCpedia)</a>]</p>
+    <p>The Departmental plans follow a two-page layout. Each page targets an audience with different levels of subject matter expertise. </p>
+    <p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2024-25_Departmental_Plan">Templates for content writers</a> (available on GCpedia)</p>
 <section>
       <h3>At a glance page</h3>
-      <p>Provides a summary of key information that  is easily consumable for an audience that may not have extensive knowledge of  the institution&rsquo;s finances or activities. The page allows for more design  flexibility. </p>
+      <p>Provides a summary of key information that is easily consumable for an audience that may not have extensive knowledge of the institution&rsquo;s finances or activities. The page allows for more design flexibility. </p>
 <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html" role="button">Preview the At a glance page</a></p>
     </section>
     <section>
       <h3>Full plan page</h3>
-      <p>Provides all the details of the  institution&rsquo;s Departmental plan.The template for Departmental plans uses  standard headers and design elements.</p>
+      <p>Provides all the details of the institution&rsquo;s Departmental plan. The template for Departmental plans uses standard headers and design elements.</p>
 <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html" role="button">Preview the Full plan page</a></p>
     </section>
   </section>
@@ -56,18 +56,18 @@ title: "Departmental plans"
   </section>
   <section>
     <h2 id="toc05">Research and rationale</h2>
-    <p>Research will be ongoing to determine the  best way to present information contained in the departmental plans in an  accessible and user-friendly way. To date, some known issues include non-intuitive  headers, repetitive information, and overly complex tables.</p>
-    <p>Further improvements will be made  incrementally as more research is completed on both the implementation and user  experience sides. If you&rsquo;re interested in participating in usability testing,  please <a href="mailto:DAS.SCN@tbs-sct.gc.ca">reach out to the TBS theme lead(s</a>).</p>
+    <p>Research will be ongoing to determine the best way to present information contained in the departmental plans in an accessible and user-friendly way. To date, some known issues include non-intuitive headers, repetitive information, and overly complex tables.</p>
+    <p>Further improvements will be made incrementally as more research is completed on both the implementation and user experience sides. If you&rsquo;re interested in participating in usability testing, please <a href="mailto:DAS.SCN@tbs-sct.gc.ca">reach out to the TBS theme lead(s</a>).</p>
   </section>
   <section>
     <h2 id="toc06">Latest changes</h2>
     <ul>
-      <li>Using a two-page layout to target different audiences of the departmental plans</li>
+      <li>Using a two-page layout</li>
       <li>Simplified tables</li>
       <li>Revised wording of headers and proper use of styles</li>
       <li>Reducing the overall length of the plan</li>
     </ul>
-    <p>These  changes are effective as of publishing the 2024-25 Departmental Plans.</p>
+    <p>These changes are effective as of publishing the 2024-25 Departmental Plans.</p>
   </section>
 </div>
 
