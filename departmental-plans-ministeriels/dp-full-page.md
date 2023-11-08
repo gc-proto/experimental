@@ -567,7 +567,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       <section><figure id="toc03-fig2">
             <figcaption class="text-left h4"><strong>Figure [#]: Departmental spending [insert fiscal year] to [insert fiscal year]</strong></figcaption>
             <p>The following graph presents  planned spending (voted and statutory expenditures) over time.  </p>
-            <p>[Access the <a href="#">bar graph template on GCPedia</a>]</p>
+            <p>[Access the <a href="https://www.gcpedia.gc.ca/gcwiki/images/b/b1/2024-25_Departmental_Spending_Graph_Template_-_EN.xlsx">bar graph template on GCPedia</a>]</p>
             <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
