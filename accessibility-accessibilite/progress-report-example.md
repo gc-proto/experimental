@@ -14,7 +14,7 @@ language: en
 layout: default
 dateModified: 2023-10-19
 description: 2023 progress report - Accessibility at [Institution name]
-title: Accessibility plan at [Institution name]
+title: 202x Accessibility progress report for [Institution name]
 ---
 
 * Insert content for the progress report here
