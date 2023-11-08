@@ -112,7 +112,7 @@ To come.
 ## How to implement
 
 Copy the code from the working examples:
-- [English working example](https://test.canada.ca/accessibility/landing-example.html)
+- [English working example](https://test.canada.ca/experimental/accessibility-accessibilite/landing-example.html)
 - [French working example](#)
 
 ## Research and rationale
