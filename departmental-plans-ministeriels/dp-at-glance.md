@@ -53,16 +53,16 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
         <section>
-          <h4>Departmental results:</h4>
-          <p>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework]</p>
+            <p><strong>Departmental results:</strong></p>
+              <ul>
+                  <li>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework]</li>
+            </ul>
         </section>
         <section>
-          <h4>Planned spending:</h4>
-          <p>[Insert planned spending for this core responsibility for 2024–25]</p>
+          <p><strong>Planned spending:</strong> [Insert planned spending for this core responsibility for 2024–25]</p>
         </section>
         <section>
-          <h4>Planned human resources:</h4>
-          <p>[Insert number of full time equivalents for this core responsibility for 2024–25]</p>
+          <p><strong>Planned human resources:</strong> [Insert number of full time equivalents for this core responsibility for 2024–25]</p>
           <p>[Insert a summary of your organization’s plans for the core responsibility, this summary should stand alone and be brief as readers can read the details in the full plan]</p>
         <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
         </section>
@@ -70,16 +70,16 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
         <section>
-          <h4>Departmental results:</h4>
-          <p>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework]</p>
+            <p><strong>Departmental results:</strong></p>
+              <ul>
+                  <li>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework]</li>
+            </ul>
         </section>
         <section>
-          <h4>Planned spending:</h4>
-          <p>[Insert planned spending for this core responsibility for 2024–25]</p>
+          <p><strong>Planned spending:</strong> [Insert planned spending for this core responsibility for 2024–25]</p>
         </section>
         <section>
-          <h4>Planned human resources:</h4>
-          <p>[Insert number of full time equivalents for this core responsibility for 2024–25]</p>
+          <p><strong>Planned human resources:</strong> [Insert number of full time equivalents for this core responsibility for 2024–25]</p>
           <p>[Insert a summary of your organization’s plans for the core responsibility, this summary should stand alone and be brief as readers can read the details in the full plan]</p>
         <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
         </section>
@@ -87,16 +87,33 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
         <section>
-          <h4>Departmental results:</h4>
-          <p>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework]</p>
+            <p><strong>Departmental results:</strong></p>
+              <ul>
+                  <li>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework]</li>
+            </ul>
         </section>
         <section>
-          <h4>Planned spending:</h4>
-          <p>[Insert planned spending for this core responsibility for 2024–25]</p>
+          <p><strong>Planned spending:</strong> [Insert planned spending for this core responsibility for 2024–25]</p>
         </section>
         <section>
-          <h4>Planned human resources:</h4>
-          <p>[Insert number of full time equivalents for this core responsibility for 2024–25]</p>
+          <p><strong>Planned human resources:</strong> [Insert number of full time equivalents for this core responsibility for 2024–25]</p>
+          <p>[Insert a summary of your organization’s plans for the core responsibility, this summary should stand alone and be brief as readers can read the details in the full plan]</p>
+        <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
+        </section>
+      </details>
+       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 4</summary>
+        <section>
+            <p><strong>Departmental results:</strong></p>
+              <ul>
+                  <li>[Insert a bulleted list of all departmental results for core responsibility, as per the approved departmental results framework]</li>
+            </ul>
+        </section>
+        <section>
+          <p><strong>Planned spending:</strong> [Insert planned spending for this core responsibility for 2024–25]</p>
+        </section>
+        <section>
+          <p><strong>Planned human resources:</strong> [Insert number of full time equivalents for this core responsibility for 2024–25]</p>
           <p>[Insert a summary of your organization’s plans for the core responsibility, this summary should stand alone and be brief as readers can read the details in the full plan]</p>
         <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
         </section>
