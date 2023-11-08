@@ -47,10 +47,10 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
     <h2>Highlights </h2>
     <p>A Departmental Results Framework consists of an organization&rsquo;s&nbsp;core responsibilities, the  results it plans  to achieve, and the&nbsp;performance indicators&nbsp;that measure progress toward these  results.</p>
    <section id="cores"> <div class="btn-group">
-<button type="button" class="btn btn-default" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
-<button type="button" class="btn btn-default" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+<button type="button" class="btn btn-primary wb-toggle wb-init wb-toggle-inited" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
+<button type="button" class="btn btn-primary wb-toggle wb-init wb-toggle-inited" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
 </div>
-      <div class="row"><details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
         <section>
           <h4>Departmental results:</h4>
@@ -100,8 +100,8 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
           <p>[Insert a summary of your organization’s plans for the core responsibility, this summary should stand alone and be brief as readers can read the details in the full plan]</p>
         <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
         </section>
-      </details></div>
-    </div></section>
+      </details>
+    </section>
   </section>
 </div>
 <section class="pagedetails">
