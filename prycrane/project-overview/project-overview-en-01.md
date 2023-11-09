@@ -34,8 +34,19 @@ title: "Working with partners to improve task success on Canada.ca"
     </ul>
   </li>
 </ul>
+<ul class="list-unstyled">
+  <li><a href="#">Orientation and wayfinding</a>
+    <ul>
+      <li>(Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada)</li>
+      <li>We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</li>
+    </ul>
+  </li>
+</ul>
 <dl class="dl-horizontal">
   <dt><a href="#">Orientation and wayfinding</a></dt>
   <dd>We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</dd>
   <dd>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</dd>
+  <dt><a href="#">Medical devices</a></dt>
+  <dd>Make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</dd>
+  <dd>Health Canada</dd>
 </dl>
