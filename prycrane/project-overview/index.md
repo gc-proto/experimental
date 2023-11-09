@@ -31,7 +31,7 @@ title: "Fix Improving content on Canada.ca"
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/gc-proto/experimental/tree/master/prycrane/breadcrumbs">GitHub breadcrumb repository (experimental)</a></li>
+      <li><span class="fa-li"><span class="fas fa-code-branch"></span></span><a href="https://github.com/gc-proto/experimental/tree/master/prycrane/project-overview">GitHub project overview repository (experimental)</a></li>
     </ul>
     <ul class="list-unstyled mrgn-tp-lg">
       <li>
