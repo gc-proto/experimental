@@ -9,7 +9,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-11-09
 dateModified: 2023-11-09
-description: "Improving content on Canada.ca"
+description: "Fix project overview page on Canada.ca"
 language: en
 layout: form
 share: false
@@ -18,11 +18,11 @@ showFeedback: false
 nomenu: true
 noReportProblem: true
 pageclass: cnt-wdth-lmtd
-title: "Fix Improving content on Canada.ca"
+title: "Fix project overview page on Canada.ca"
 ---
 <div class="row">
   <div class="col-md-8">
-    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Fix Improving content on Canada.ca</span>: <span>Canada.ca design system</span></span></h1>
+    <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Fix project overview page on Canada.ca</span>: <span>Canada.ca design system</span></span></h1>
     <p><strong>Page to fix</strong>: <a href="https://blog.canada.ca/pages/project-overview.html">Improving content on Canada.ca</a></p>
     <p><strong>Proposal</strong>: let’s make the "Improving content on Canada.ca" page easier to use.</p>
     <h2 class="h3 mrgn-tp-lg">Working document</h2>
