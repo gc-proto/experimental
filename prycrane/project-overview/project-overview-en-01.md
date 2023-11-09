@@ -24,4 +24,4 @@ title: "Working with partners to improve task success on Canada.ca"
   <li>usability testing on specific Government of Canada Services</li>
   <li>co-creating prototypes</li>
 </ul>
-<p>We work collaboratively to refine prototypes to achieve at least a 20% improvement in task success.  This standard for improvement means people will spend less time looking for the answers they need from the Government of Canada.</p>
+<p>We work collaboratively to refine prototypes until they achieve at least a 20% improvement in task success.  This standard for improvement means people will spend less time looking for the answers they need from the Government of Canada.</p>
