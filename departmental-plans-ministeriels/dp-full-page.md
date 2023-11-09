@@ -39,7 +39,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     <li><a href="#toc07">Definitions </a></li>
   </ul>
 </section>
-<section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </section>
+<section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&#160;Print this page</a> </section>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
   <summary class="wb-toggle" data-toggle='{"print":"on"}'>Copyright information</summary>
   <p>[include copyright information]</p>
@@ -55,7 +55,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
      </figcaption> 
     </figure> 
    </div>
-  <p>[Insert text from the &ldquo;From the Minister&rdquo; section of the word template]</p><div class="clearfix"></div>
+  <p>[Insert text from the &#8220;From the Minister&#8221; section of the word template]</p><div class="clearfix"></div>
 </section>
 <section>
   <h2 id="toc01b">From  the Institutional Head (*optional)</h2>
@@ -68,7 +68,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
      </figcaption> 
     </figure> 
    </div>
-  <p>[If this section is included in your word template please copy text under the &ldquo;From the Institutional head&rdquo; section; otherwise, delete the section]</p><div class="clearfix"></div>
+  <p>[If this section is included in your word template please copy text under the &#8220;From the Institutional head&#8221; section; otherwise, delete the section]</p><div class="clearfix"></div>
 </section>
 <section>
   <h2 id="toc02">Plans to deliver on core responsibilities and internal services</h2>
@@ -106,17 +106,17 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     </ul>
     <section>
       <h4 id="toc02-1-1">Description</h4>
-      <p>[Insert text from the “Description” section of the word template]</p>
+      <p>[Insert text from the &#8220;Description&#8221; section of the word template]</p>
 </section>
     <section>
       <h4 id="toc02-1-2">Quality of life impacts</h4>
-      <p>[Insert text from the “Quality of life” section of the word template] </p>
+      <p>[Insert text from the &#8220;Quality of life&#8221; section of the word template] </p>
 </section>
     <section>
       <h4 id="toc02-1-3">Results and targets</h4>
-        <p>[Insert text from &ldquo;Results and targets&rdquo; section of the word template]</p>
+        <p>[Insert text from &#8220;Results and targets&#8221; section of the word template]</p>
 <section><h5>Table [#]: Indicators, results and targets for departmental result</h5>
-    <p>The following table shows, for each departmental result related to [name of core responsibility], the indicators, the results from the three&nbsp;most recently reported fiscal years, the targets and target dates approved in [insert fiscal year].</p>
+    <p>The following table shows, for each departmental result related to [name of core responsibility], the indicators, the results from the three&#160;most recently reported fiscal years, the targets and target dates approved in [insert fiscal year].</p>
 <table id="tbl1" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -163,17 +163,17 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </tr>
     </tbody>
 </table>
-<p>The financial, human resources and performance information for the [organization&rsquo;s name]&rsquo;s program inventory is available on <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p></section>
+<p>The financial, human resources and performance information for the [organization&#8217;s name]&#8217;s program inventory is available on <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p></section>
     </section>
     <section>
       <h4 id="toc02-1-4">Plans to achieve results</h4>
-      <p>[Insert text from &ldquo;plans to achieve results&rdquo; section of the word template]</p>
+      <p>[Insert text from &#8220;plans to achieve results&#8221; section of the word template]</p>
         <div class="well"><p>[Indicate whether any content should be highlighted in a highlight box] </p>
 </div>
     </section>
     <section>
       <h4 id="toc02-1-5">Key risks</h4>
-      <p>[Insert text from &ldquo;Key risks&rdquo; section of the word template]</p></section>
+      <p>[Insert text from &#8220;Key risks&#8221; section of the word template]</p></section>
       <section>
       </section><section><div class="panel panel-primary">
           <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-1-6">Snapshot of planned resources in [insert fiscal year]</h4></header>
@@ -188,11 +188,11 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       <h4 id="toc02-1-7">Related government  priorities</h4>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Gender-based analysis plus</summary>
-        <p>[Text within the “Gender-based analysis plus” section, if included]</p>
+        <p>[Text within the &#8220;Gender-based analysis plus&#8221; section, if included]</p>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals</summary>
-        <p>[Text within the “United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals”, if included] </p>
+        <p>[Text within the &#8220;United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals&#8221;, if included] </p>
       </details>
   </section>
     <section>
@@ -201,7 +201,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <ul>
   <li>[Bulleted list of programs under the core  responsibility]</li>
   </ul>
-<p>Supporting information on planned expenditures, human resources, and results related to [organization&rsquo;s name]&rsquo;s program inventory is available on <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p>
+<p>Supporting information on planned expenditures, human resources, and results related to [organization&#8217;s name]&#8217;s program inventory is available on <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p>
     </section>
     <section>
       <h4 id="toc02-1-9">Summary of changes to reporting framework since last year</h4>
@@ -243,7 +243,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     </section>
     <section>
       <h4 is="toc02-5-2">Plans to achieve results</h4>
-      <p>[Insert text from the &ldquo;Plans to achieve results&rdquo; section of the word template]   </p>
+      <p>[Insert text from the &#8220;Plans to achieve results&#8221; section of the word template]   </p>
       <div class="well">
         <p>[Indicate whether any content should be highlighted in a highlight box]</p>
 </div>
@@ -263,14 +263,14 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       <h4 is="toc02-5-4">Related government  priorities</h4>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Planning for contracts awarded to Indigenous businesses</summary>
-        <p>[Text within the “Planning for contracts awarded to Indigenous businesses” section] </p>
+        <p>[Text within the &#8220;Planning for contracts awarded to Indigenous businesses&#8221; section] </p>
       </details>
     </section>
 </section>
 </section>
 <section>
   <h2 id="toc03"> Planned spending  and human resources</h2>
-  <p>[Insert text and amounts from the &quot;Planned spending and human resources&rdquo; section of the word template]</p><ul class="list-unstyled">
+  <p>[Insert text and amounts from the &quot;Planned spending and human resources&#8221; section of the word template]</p><ul class="list-unstyled">
   <li>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
       <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
@@ -331,12 +331,12 @@ title: "[Name of organization] [fiscal year] Departmental plan"
                 <p>[Please include the explanation of the figure included in the word template]</p>
             </details>
         </figure>
-        <p>[Insert text from the &ldquo;Actual spending summary for core responsibilities and internal services (dollars)&rdquo; section of the word template] </p>
+        <p>[Insert text from the &#8220;Actual spending summary for core responsibilities and internal services (dollars)&#8221; section of the word template] </p>
 </section>
     <section>
       <h4>Table [#]: Actual spending summary for core responsibilities and internal services ($ dollars)</h4>
       
-<p>The following table shows information on spending for each of [organization&rsquo;s name]&rsquo;s core responsibilities and for its internal services for the previous three fiscal years. Amounts for the current fiscal year are forecasted based on spending to date.</p>
+<p>The following table shows information on spending for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the previous three fiscal years. Amounts for the current fiscal year are forecasted based on spending to date.</p>
 <div class="table-responsive">
   <table id="tbl2" class="table table-bordered table-condensed">
     <thead>
@@ -398,12 +398,12 @@ title: "[Name of organization] [fiscal year] Departmental plan"
         <summary class="wb-toggle"  data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
         <p>[Please include the explanation of the table included in the word template]</p>
       </details>
-        <p>[Ensure that the content matches the &ldquo;Actual spending summary for core responsibilities and internal services (dollars)&rdquo; section of the word template] </p>
+        <p>[Ensure that the content matches the &#8220;Actual spending summary for core responsibilities and internal services (dollars)&#8221; section of the word template] </p>
     </section>
     <section>
       <h4>Table [#]: Budgetary planning summary for core  responsibilities and internal services (dollars)</h4>
       
-<p>The following table shows information on spending for each of [organization&rsquo;s name]&rsquo;s core responsibilities and for its internal services for the upcoming three fiscal years.</p>
+<p>The following table shows information on spending for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the upcoming three fiscal years.</p>
 <div class="table-responsive">
 <table id="tbl3" class="table table-bordered table-condensed">
   <thead>
@@ -613,15 +613,15 @@ title: "[Name of organization] [fiscal year] Departmental plan"
         </figure></section>
     <section>
       <h4>Estimates by vote</h4>
-      <p>Information on [organization’s name]’s organizational appropriations is available in the <a href="#">2024-25 Main Estimates</a> [include link to main estimates from the word template].</p>
+      <p>Information on [organization&#8217;s name]&#8217;s organizational appropriations is available in the <a href="#">2024-25 Main Estimates</a> [include link to main estimates from the word template].</p>
 </section>
   </section>
   <section>
     <h3 id="toc03-3">Future-oriented  condensed statement of operations </h3>
-    <p>[Insert text from the &ldquo;Future-oriented condensed statement of operations&rdquo; section of the word template] </p>
-<p>The future-oriented condensed statement of operations provides an overview of [organization&rsquo;s name]&rsquo;s operations for 2023–24 to 2024–25.</p>
+    <p>[Insert text from the &#8220;Future-oriented condensed statement of operations&#8221; section of the word template] </p>
+<p>The future-oriented condensed statement of operations provides an overview of [organization&#8217;s name]&#8217;s operations for 2023–24 to 2024–25.</p>
     <p>The forecast and planned amounts in this statement of operations were prepared on an accrual basis. The forecast and planned amounts presented in other sections of the Departmental Plan were prepared on an expenditure basis. Amounts may therefore differ.</p>
-    <p>A more detailed future-oriented statement of operations and associated notes, including a reconciliation of the net cost of operations with the requested authorities, are available at [organization&rsquo;s name] [hyperlink the text to the website].</p>
+    <p>A more detailed future-oriented statement of operations and associated notes, including a reconciliation of the net cost of operations with the requested authorities, are available at [organization&#8217;s name] [hyperlink the text to the website].</p>
       <section><h4>Table [#]: Future-oriented condensed statement of operations for the year ending March 31, [insert fiscal year] (dollars)</h4>
 <div class="table-responsive"><table id="tbl5" class="table table-bordered table-condensed">
   <thead>
@@ -664,8 +664,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     <h3 id="toc03-4">Human resources</h3>
     <section>
       <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
-      <p>[Insert text from the &ldquo;Actual human resources for core responsibilities and internal services&rdquo; section  of the word template] </p>
-<p>The following table shows a summary of human resources, in full-time equivalents (FTEs), for [organization&rsquo;s name]&rsquo;s core responsibilities and for its internal services for the previous three fiscal years. Human resources for the current fiscal year are forecasted based on year to date. </p>
+      <p>[Insert text from the &#8220;Actual human resources for core responsibilities and internal services&#8221; section  of the word template] </p>
+<p>The following table shows a summary of human resources, in full-time equivalents (FTEs), for [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the previous three fiscal years. Human resources for the current fiscal year are forecasted based on year to date. </p>
 <div>
   <div> </div>
 </div>
@@ -732,8 +732,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     </section>
     <section>
       <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
-      <p>[Insert text from the &ldquo;Human resources planning summary for core responsibilities and internal services&rdquo; section of the word template] </p>
-      <p>The following table shows information on human resources, in FTEs, for each of [organization&rsquo;s name]&rsquo;s core responsibilities and for its internal services planned for [insert fiscal year] and future years.
+      <p>[Insert text from the &#8220;Human resources planning summary for core responsibilities and internal services&#8221; section of the word template] </p>
+      <p>The following table shows information on human resources, in FTEs, for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services planned for [insert fiscal year] and future years.
    </p>
       <div class="table-responsive">
           <table id="tbl7" class="table table-bordered table-condensed">
@@ -828,24 +828,24 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>
 <section>
   <h2 id="toc05">Supplementary information tables</h2>
-  <p>The following supplementary information tables are available on <a href="#">[organization&rsquo;s name]&rsquo;s website:</a></p>
+  <p>The following supplementary information tables are available on <a href="#">[organization&#8217;s name]&#8217;s website:</a></p>
   <ul>
     <li><a href="#">Details on  transfer payment programs</a></li>
     <li><a href="#">Gender-based  analysis plus</a></li>
     <li><a href="#">Horizontal  initiatives</a></li>
     <li><a href="#">Up front  multiyear funding</a></li>
   </ul>
-  <p>Information on [organization&rsquo;s name]&rsquo;s departmental sustainable development strategy can be found on <a href="#">[organization name]&rsquo;s website</a>. </p>
+  <p>Information on [organization&#8217;s name]&#8217;s departmental sustainable development strategy can be found on <a href="#">[organization name]&#8217;s website</a>. </p>
 </section>
 <section>
   <h2 id="toc06">Federal  tax expenditures </h2>
-  <p>[Organization&rsquo;s name]&rsquo;s Departmental Plan does not include information on tax expenditures.</p>
+  <p>[Organization&#8217;s name]&#8217;s Departmental Plan does not include information on tax expenditures.</p>
   <p>Tax expenditures are the responsibility of the Minister of Finance. The Department of Finance Canada publishes cost estimates and projections for government wide tax expenditures each year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>.</p>
   <p>This report provides detailed information on tax expenditures, including objectives, historical background and references to related federal spending programs, as well as evaluations, research papers and gender-based analysis plus. </p>
 </section>
 <section>
   <h2 id="toc07">Definitions </h2>
-  <p>[For this section, please use the text found in the main report under the &ldquo;Definitions&rdquo; section]</p>
+  <p>[For this section, please use the text found in the main report under the &#8220;Definitions&#8221; section]</p>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
       <summary class="wb-toggle" data-toggle='{"print":"on"}'>List of terms</summary>
         <dl>
