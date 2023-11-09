@@ -38,7 +38,7 @@ title: "Fix project overview page on Canada.ca"
         <details open="open">
           <summary class="bg-info">Final mockup</summary>
           <ul class="mrgn-tp-lg">
-            <li><a href="project-overview-en-01.md">Working with partners to improve task success on Canada.ca</a></li>
+            <li><a href="project-overview-en-01.html">Working with partners to improve task success on Canada.ca</a></li>
           </ul>
         </details>
       </li>
