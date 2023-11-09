@@ -20,9 +20,9 @@ title: "Who can apply - Canada child benefit (CCB)"
 <h2 id="who">Who can get the Canada child benefit</h2>
 <p>You must meet <strong>all</strong> of the following conditions:</p>
 <ul class="fa-ul">
-  <li><span class="fa-li"><span class="far fa-check-circle text-success"></span></span>You live with a child who is under 18 years of age</li>
-  <li><span class="fa-li"><span class="far fa-check-circle text-success"></span></span>You are primarily responsible for the care and upbringing of the child</li>
-  <li><span class="fa-li"><span class="far fa-check-circle text-success"></span></span>You are a resident of Canada for tax purposes</li>
+  <li><span class="fa-li"><span class="far fa-check-circle text-success"></span></span>you live with a child who is under 18 years of age</li>
+  <li><span class="fa-li"><span class="far fa-check-circle text-success"></span></span>you are primarily responsible for the care and upbringing of the child</li>
+  <li><span class="fa-li"><span class="far fa-check-circle text-success"></span></span>you are a resident of Canada for tax purposes</li>
   <li><span class="fa-li"><span class="far fa-check-circle text-success"></span></span>a temporary resident who has lived in Canada for the previous 18 months, and who has a valid permit in the 19th month <strong>other</strong> than one that states "does not confer status" or "does not confer temporary resident status"</li>
   <li><span class="fa-li"><span class="far fa-check-circle text-success"></span></span>an individual who is registered, or entitled to be registered under the <a href="https://laws-lois.justice.gc.ca/eng/acts/i-5/page-1.html">Indian Act</a></li>
 </ul>
