@@ -27,7 +27,7 @@ title: "Fix Improving content on Canada.ca"
     <p><strong>Proposal</strong>: let’s make the "Improving content on Canada.ca" page easier to use.</p>
     <h2 class="h3 mrgn-tp-lg">Working document</h2>
     <ul class="fa-ul">
-      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1sGETEAhBRqnlopkHi-axZMmJqOoMoq96WuUYsx04jqA/edit">Shortening breadcrumbs</a></li>
+      <li><span class="fa-li"><span class="fab fa-google-drive"></span></span><a href="https://docs.google.com/document/d/1nKJ8hC0x5-l_7tgutGOM7KjZ1jDgsxOztuA7JIEWGew">Project overview page overhaul</a></li>
     </ul>
     <h2 class="h3 mrgn-tp-lg">Mockups</h2>
     <ul class="fa-ul">
