@@ -8,7 +8,6 @@ language: en
 layout: default
 title: "[Name of organization] [fiscal year] Departmental plan"
 ---
-
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
  
@@ -164,7 +163,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   </tr>
  </tbody>
 </table>
-<p>The financial, human resources and performance information for the [organization&#8217;s name]&#8217;s program inventory is available on<a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p></section>
+<p>The financial, human resources and performance information for the [organization&#8217;s name]&#8217;s program inventory is available on <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p></section>
  </section>
  <section>
   <h4 id="toc02-1-4">Plans to achieve results</h4>
@@ -202,7 +201,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <ul>
  <li>[Bulleted list of programs under the core responsibility]</li>
  </ul>
-<p>Supporting information on planned expenditures, human resources, and results related to [organization&#8217;s name]&#8217;s program inventory is available on<a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p>
+<p>Supporting information on planned expenditures, human resources, and results related to [organization&#8217;s name]&#8217;s program inventory is available on <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p>
  </section>
  <section>
   <h4 id="toc02-1-9">Summary of changes to reporting framework since last year</h4>
@@ -290,7 +289,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section>
   <figure id="toc03-fig1">
    <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year][optional]</strong></figcaption>
-   <p>[Access an optional<a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>; a text description or table is required underneath for accessibility]</p>
+   <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>; a text description or table is required underneath for accessibility]</p>
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
 
@@ -550,7 +549,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    <section><figure id="toc03-fig2">
       <figcaption class="text-left h4"><strong>Figure [#]: Departmental spending [insert fiscal year] to [insert fiscal year]</strong></figcaption>
       <p>The following graph presents planned spending (voted and statutory expenditures) over time. </p>
-      <p>[Access the<a href="https://www.gcpedia.gc.ca/gcwiki/images/b/b1/2024-25_Departmental_Spending_Graph_Template_-_EN.xlsx">bar graph template on GCPedia</a>]</p>
+      <p>[Access the <a href="https://www.gcpedia.gc.ca/gcwiki/images/b/b1/2024-25_Departmental_Spending_Graph_Template_-_EN.xlsx">bar graph template on GCPedia</a>]</p>
       <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -614,7 +613,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     </figure></section>
   <section>
    <h4>Estimates by vote</h4>
-   <p>Information on [organization&#8217;s name]&#8217;s organizational appropriations is available in the<a href="#">2024-25 Main Estimates</a> [include link to main estimates from the word template].</p>
+   <p>Information on [organization&#8217;s name]&#8217;s organizational appropriations is available in the <a href="#">2024-25 Main Estimates</a> [include link to main estimates from the word template].</p>
 </section>
  </section>
  <section>
@@ -829,19 +828,19 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>
 <section>
  <h2 id="toc05">Supplementary information tables</h2>
- <p>The following supplementary information tables are available on<a href="#">[organization&#8217;s name]&#8217;s website:</a></p>
+ <p>The following supplementary information tables are available on <a href="#">[organization&#8217;s name]&#8217;s website:</a></p>
  <ul>
   <li><a href="#">Details on transfer payment programs</a></li>
   <li><a href="#">Gender-based analysis plus</a></li>
   <li><a href="#">Horizontal initiatives</a></li>
   <li><a href="#">Up front multiyear funding</a></li>
  </ul>
- <p>Information on [organization&#8217;s name]&#8217;s departmental sustainable development strategy can be found on<a href="#">[organization name]&#8217;s website</a>.</p>
+ <p>Information on [organization&#8217;s name]&#8217;s departmental sustainable development strategy can be found on <a href="#">[organization name]&#8217;s website</a>.</p>
 </section>
 <section>
  <h2 id="toc06">Federal tax expenditures </h2>
  <p>[Organization&#8217;s name]&#8217;s Departmental Plan does not include information on tax expenditures.</p>
- <p>Tax expenditures are the responsibility of the Minister of Finance. The Department of Finance Canada publishes cost estimates and projections for government wide tax expenditures each year in the<a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>.</p>
+ <p>Tax expenditures are the responsibility of the Minister of Finance. The Department of Finance Canada publishes cost estimates and projections for government wide tax expenditures each year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>.</p>
  <p>This report provides detailed information on tax expenditures, including objectives, historical background and references to related federal spending programs, as well as evaluations, research papers and gender-based analysis plus.</p>
 </section>
 <section>
