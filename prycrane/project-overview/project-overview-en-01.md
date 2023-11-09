@@ -26,3 +26,11 @@ title: "Working with partners to improve task success on Canada.ca"
 </ul>
 <p>We work collaboratively to refine prototypes until they achieve at least a 20% improvement in task success.  This standard for improvement means people will spend less time looking for the answers they need from the Government of Canada.</p>
 <h2>Projects with our partners</h2>
+<ul class="list-unstyled">
+  <li><a href="#">Orientation and wayfinding</a>
+    <ul>
+      <li>(Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada)</li>
+      <li>We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</li>
+    </ul>
+  </li>
+</ul>
