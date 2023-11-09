@@ -61,6 +61,6 @@ title: "Fix Improving content on Canada.ca"
     </ul>
   </div>
   <div class="col-md-4">
-    <div><img src="./images/bunny19.png" alt="" class="img-responsive"></div>
+    <div><img src="./images/bunny31.png" alt="" class="img-responsive"></div>
   </div>
 </div>
