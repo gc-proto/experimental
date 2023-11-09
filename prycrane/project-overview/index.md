@@ -38,8 +38,7 @@ title: "Fix project overview page on Canada.ca"
         <details open="open">
           <summary class="bg-info">Final mockup</summary>
           <ul class="mrgn-tp-lg">
-            <li><a href="breadcrumbs-en.html">Shortened breadcrumbs (English)</a></li>
-            <li><a href="breadcrumbs-fr.html">Shortened breadcrumbs (French)</a></li>
+            <li><a href="project-overview-en-01.md">Shortened breadcrumbs (English)</a></li>
           </ul>
         </details>
       </li>
