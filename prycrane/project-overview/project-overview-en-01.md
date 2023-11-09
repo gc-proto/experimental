@@ -29,8 +29,8 @@ title: "Working with partners to improve task success on Canada.ca"
 <ul class="list-unstyled">
   <li><a href="#">Orientation and wayfinding</a>
     <ul>
-      <li>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</li>
       <li>We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</li>
+      <li>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</li>
     </ul>
   </li>
 </ul>
