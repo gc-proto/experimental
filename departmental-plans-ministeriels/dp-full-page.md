@@ -1,8 +1,8 @@
 ---
 altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page-fr.html"
 breadcrumbs:
- - title: [theme, topic, or department]
- link: "#"
+  - title: [theme, topic, or department]
+   link: "#"
 dateModified: 2023-11-07
 language: en
 layout: default
