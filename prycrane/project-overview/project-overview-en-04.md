@@ -46,6 +46,7 @@ title: "Orientation and wayfinding project"
         </tr>
       </tbody>
     </table>
-    <p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Research summary: Wayfinding on Canada.ca</a></p>
+    <h2>Research summary</h2>
+    <p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Wayfinding on Canada.ca</a></p>
   </div>
 </div>
