@@ -19,11 +19,11 @@ pageclass: cnt-wdth-lmtd
 title: "Orientation and wayfinding project"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Orientation and wayfinding project</span>: <span>Canada.ca design</span></span></h1>
-<h4>Partner departments</h4>
+<h2>Partner departments</h2>
 <p>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</p>
-<h4>Objective</h4>
+<h2>Objective</h2>
 <p>All government departments are adopting the Canada.ca look. The design needs to adapt to their needs. We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</p>
-<h4>Why this work matters</h4>
+<h2>Why this work matters</h2>
 <ul>
   <li class="custli">Finding and using services delivered by different government departments should be simple, consistent and accessible to all Canadians</li>
   <li class="custli">People need to be able to clearly recognize official government information and services to avoid deceptive and fraudulent sites</li>
