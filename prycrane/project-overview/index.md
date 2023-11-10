@@ -42,20 +42,18 @@ title: "Fix project overview page on Canada.ca"
           </ul>
         </details>
       </li>
-      <li>
-        <details class="mrgn-tp-lg">
+      <li> 
+        <!--  <details class="mrgn-tp-lg">
           <summary class="bg-info">Old mockups</summary>
           <ul class="mrgn-tp-lg">
             <li><a href="breadcrumbs-01.html">Current presentation of breadcrumbs (Global header)</a>
               <ul>
                 <li><a href="breadcrumbs-02.html">Shortened breadcrumbs ex. 1 (Global header)</a></li>
-                <li><a href="breadcrumbs-03.html">Shortened breadcrumbs ex. 2 (Global header)</a></li>
-                <li><a href="breadcrumbs-04.html">Shortened breadcrumbs ex. 3 (Global header)</a></li>
-                <li><a href="breadcrumbs-05.html">Shortened breadcrumbs ex. 4 (Global header)</a> - This example demonstrates skipping a section.  Is it advisable to skip a section?</li>
+               
               </ul>
             </li>
           </ul>
-        </details>
+        </details>--> 
       </li>
     </ul>
     <h3 class="mrgn-tp-lg h4">GitHub repository for this page</h3>
