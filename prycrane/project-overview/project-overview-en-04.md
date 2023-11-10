@@ -30,7 +30,7 @@ title: "Orientation and wayfinding project"
 </ul>
 <div class="row mrgn-tp-lg">
   <div class="col-md-8">
-    <table class="table small">
+    <table class="table">
       <thead>
         <tr style="">
           <th scope="col" class="col-md-3">Task success before</th>
