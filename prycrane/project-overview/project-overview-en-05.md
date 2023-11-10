@@ -26,12 +26,11 @@ title: "Medical devices collaboration"
 <ul>
   <li class="custli">Analytics show that more than half of the visits to pages about medical devices are to those that provide information specific to the medical device industry</li>
 </ul>
-<h3>Task success</h3>
 <div class="row mrgn-tp-lg mrgn-bttm-lg">
   <div class="col-md-8">
     <div class="panel panel-success">
       <header class="panel-heading">
-        <h4 class="panel-title">Improvement to task success</h4>
+        <h4 class="panel-title text-centre">Improvement to task success</h4>
       </header>
       <table class="table">
         <thead>
