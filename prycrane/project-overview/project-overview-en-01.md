@@ -27,7 +27,7 @@ title: "Working with partners to improve task success on Canada.ca"
   <li class="custli">People need to be able to clearly recognize official government information and services to avoid deceptive and fraudulent sites</li>
 </ul>
 <div class="row mrgn-tp-lg">
-  <div class="col-md-10">
+  <div class="col-md-8">
     <table class="table small">
       <thead>
         <tr style="">
