@@ -60,7 +60,7 @@ title: "Fix project overview page on Canada.ca"
     </ul>
     <h3 class="mrgn-tp-lg h4">GitHub repository for this page</h3>
     <ul class="mrgn-tp-md fa-ul">
-      <li><span class="fa-li"><span class="fab fa-github"></span></span><a href="https://github.com/gc-proto/experimental/blob/master/prycrane/project-overview/index.md">Peter's warrren (index page)</a></li>
+      <li><span class="fa-li"><span class="fab fa-github"></span></span><a href="https://github.com/gc-proto/experimental/blob/master/prycrane/project-overview/index.md">Fix project overview page on Canada.ca</a></li>
     </ul>
   </div>
   <div class="col-md-4">
