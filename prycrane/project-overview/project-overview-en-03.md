@@ -42,8 +42,8 @@ title: "Working with partners to improve task success on Canada.ca"
             }">
         <thead>
           <tr>
-            <th class="col-md-03">Project</th>
-            <th class="col-md-05">Purpose</th>
+            <th class="col-md-04">Project</th>
+            <th class="col-md-04">Purpose</th>
             <th class="col-md-04">Partner(s)</th>
           </tr>
         </thead>
