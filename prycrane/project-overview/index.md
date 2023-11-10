@@ -37,9 +37,11 @@ title: "Fix project overview page on Canada.ca"
       <li>
         <details open="open">
           <summary class="bg-info">First iteration</summary>
-          <ul class="mrgn-tp-lg">
-            <li><a href="project-overview-en-01.html">Working with partners to improve task success on Canada.ca</a></li>
-          </ul>
+          <ol class="mrgn-tp-lg">
+            <li><a href="project-overview-en-01.html">basic list</a></li>
+            <li><a href="project-overview-en-02.html">definition list</a></li>
+            <li><a href="project-overview-en-03.html">datatable</a></li>
+          </ol>
         </details>
       </li>
       <!--       <li> 
