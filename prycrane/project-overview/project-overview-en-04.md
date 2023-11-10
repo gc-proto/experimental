@@ -28,20 +28,24 @@ title: "Orientation and wayfinding project"
   <li class="custli">Finding and using services delivered by different government departments should be simple, consistent and accessible to all Canadians</li>
   <li class="custli">People need to be able to clearly recognize official government information and services to avoid deceptive and fraudulent sites</li>
 </ul>
-<table class="table small">
-  <thead>
-    <tr style="">
-      <th scope="col">Task success before</th>
-      <th scope="col">Task success after</th>
-      <th scope="col">Improvement to task success</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="table-smnum">54%</td>
-      <td class="table-smnum">61%</td>
-      <td class="table-smnum">In contrast to other optimization projects where large improvements were expected, in this project we were looking to maintain or, hopefully increase, task success despite removing the menu and changing to the Canada.ca design. We achieved our goal.</td>
-    </tr>
-  </tbody>
-</table>
-<p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Research summary: Wayfinding on Canada.ca</a></p>
+<div class="row mrgn-tp-lg">
+  <div class="col-md-10">
+    <table class="table small">
+      <thead>
+        <tr style="">
+          <th scope="col">Task success before</th>
+          <th scope="col">Task success after</th>
+          <th scope="col">Improvement to task success</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="table-smnum">54%</td>
+          <td class="table-smnum">61%</td>
+          <td class="table-smnum">In contrast to other optimization projects where large improvements were expected, in this project we were looking to maintain or, hopefully increase, task success despite removing the menu and changing to the Canada.ca design. We achieved our goal.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Research summary: Wayfinding on Canada.ca</a></p>
+  </div>
+</div>
