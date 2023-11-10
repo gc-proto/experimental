@@ -30,7 +30,7 @@ title: "Medical devices collaboration"
   <div class="col-md-8">
     <div class="panel panel-success">
       <header class="panel-heading">
-        <h4 class="panel-title text-center">Improvement to task success</h4>
+        <h4 class="panel-title text-center">Task success</h4>
       </header>
       <table class="table">
         <thead>
