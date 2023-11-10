@@ -30,7 +30,7 @@ title: "Working with partners to improve task success on Canada.ca"
   <div class="col-md-10">
     <div class="panel panel-default">
       <div class="mrgn-tp-sm">
-        <table class="wb-tables table table-striped small filterEmphasis provisional" aria-live="polite" id="design" data-page-length="25" data-wb-tables="{
+        <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="design" data-page-length="25" data-wb-tables="{
             &quot;bDeferRender&quot;: true,
             &quot;order&quot;: [0, &quot;asc&quot;],
             &quot;paging&quot;: true,
@@ -50,14 +50,14 @@ title: "Working with partners to improve task success on Canada.ca"
           </thead>
           <tbody>
             <tr>
-              <td><a href="#">Orientation and wayfinding</a></td>
-              <td>Explore navigation and design options to help people find and use the services they need.</td>
-              <td>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</td>
-            </tr>
-            <tr>
               <td><a href="#">Medical devices</a></td>
               <td>Make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</td>
               <td>Health Canada</td>
+            </tr>
+            <tr>
+              <td><a href="#">Orientation and wayfinding</a></td>
+              <td>Explore navigation and design options to help people find and use the services they need.</td>
+              <td>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</td>
             </tr>
             <tr>
               <td><a href="#">Pay for the public service</a></td>
