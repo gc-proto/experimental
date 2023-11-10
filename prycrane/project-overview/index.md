@@ -36,7 +36,7 @@ title: "Fix project overview page on Canada.ca"
     <ul class="list-unstyled mrgn-tp-lg">
       <li>
         <details open="open">
-          <summary class="bg-info">Final mockup</summary>
+          <summary class="bg-info">First iteration</summary>
           <ul class="mrgn-tp-lg">
             <li><a href="project-overview-en-01.html">Working with partners to improve task success on Canada.ca</a></li>
           </ul>
@@ -48,8 +48,7 @@ title: "Fix project overview page on Canada.ca"
           <ul class="mrgn-tp-lg">
             <li><a href="breadcrumbs-01.html">Current presentation of breadcrumbs (Global header)</a>
               <ul>
-                <li><a href="breadcrumbs-02.html">Shortened breadcrumbs ex. 1 (Global header)</a></li>
-               
+                <li><a href="breadcrumbs-02.html">Shortened breadcrumbs ex. 1 (Global header)</a></li>               
               </ul>
             </li>
           </ul>
