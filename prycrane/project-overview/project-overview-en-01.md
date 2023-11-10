@@ -16,35 +16,27 @@ nomenu: false
 pageclass: cnt-wdth-lmtd
 title: "Working with partners to improve task success on Canada.ca"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Orientation and wayfinding project</span>: <span>Canada.ca design</span></span></h1>
-<h2>Partner departments</h2>
-<p>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</p>
-<h2>Objective</h2>
-<p>All government departments are adopting the Canada.ca look. The design needs to adapt to their needs. We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</p>
-<h2>Why this work matters</h2>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Working with partners to improve task success on Canada.ca</span>: <span>Canada.ca design</span></span></h1>
+<p>The Digital Transformation Office works with federal institutions to make Canada.ca content easier to find and understand.</p>
+<p>Our method includes:</p>
 <ul>
-  <li class="custli">Finding and using services delivered by different government departments should be simple, consistent and accessible to all Canadians</li>
-  <li class="custli">People need to be able to clearly recognize official government information and services to avoid deceptive and fraudulent sites</li>
+  <li>setting concrete usability targets</li>
+  <li>usability testing on specific Government of Canada Services</li>
+  <li>co-creating prototypes</li>
 </ul>
-<div class="row mrgn-tp-lg">
-  <div class="col-md-8">
-    <table class="table small">
-      <thead>
-        <tr style="">
-          <th scope="col">Task success before</th>
-          <th scope="col">Task success after</th>
-          <th scope="col">Improvement to task success</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="table-smnum">54%</td>
-          <td class="table-smnum">61%</td>
-          <td class="table-smnum">In contrast to other optimization projects where large improvements were expected, in this project we were looking to maintain or, hopefully increase, task success despite removing the menu and changing to the Canada.ca design. We achieved our goal.</td>
-        </tr>
-      </tbody>
-    </table>
-    <h2>Research summary</h2>
-    <p><a href="https://blog.canada.ca/research-summaries/wayfinding-on-canada-ca.html">Wayfinding on Canada.ca</a></p>
-  </div>
-</div>
+<p>We work collaboratively to refine prototypes until they achieve at least a 20% improvement in task success.  This standard for improvement means people will spend less time looking for the answers they need from the Government of Canada.</p>
+<h2>Projects with our partners</h2>
+<ul class="lst-spcd">
+  <li><a href="project-overview-en-04.html">Orientation and wayfinding</a>
+    <ul class="list-unstyled">
+      <li><strong>Purpose</strong>: explore navigation and design options to help people find and use the services they need.</li>
+      <li><strong>Partners</strong>: Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</li>
+    </ul>
+  </li>
+  <li><a href="project-overview-en-05.html">Medical devices</a>
+    <ul class="list-unstyled">
+      <li><strong>Purpose</strong>: make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</li>
+      <li><strong>Partner</strong>: Health Canada</li>
+    </ul>
+  </li>
+</ul>
