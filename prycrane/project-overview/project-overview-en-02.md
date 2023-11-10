@@ -26,15 +26,40 @@ title: "Working with partners to improve task success on Canada.ca"
 </ul>
 <p>We work collaboratively to refine prototypes until they achieve at least a 20% improvement in task success.  This standard for improvement means people will spend less time looking for the answers they need from the Government of Canada.</p>
 <h2>Projects with our partners</h2>
-<div class="row mrgn-tp-lg">
-  <div class="col-md-8">
-    <dl class="dl-horizontal">
-      <dt><a href="#">Orientation and wayfinding</a></dt>
-      <dd><strong>Purpose</strong>: explore navigation and design options to help people find and use the services they need.</dd>
-      <dd><strong>Partners</strong>: Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</dd>
-      <dt><a href="#">Medical devices</a></dt>
-      <dd><strong>Purpose</strong>: make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</dd>
-      <dd><strong>Partner</strong>: Health Canada</dd>
-    </dl>
+<div class="col-md-9">
+  <div class="panel panel-default">
+    <div class="mrgn-tp-md mrgn-bttm-md">
+      <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="design" data-page-length="25" data-wb-tables="{
+            &quot;bDeferRender&quot;: true,
+            &quot;order&quot;: [0, &quot;asc&quot;],
+            &quot;paging&quot;: true,
+            &quot;info&quot;: true,
+            &quot;columns&quot;: [
+            { &quot;data&quot;: &quot;PROJECT&quot;, &quot;className&quot;: &quot;&quot; },
+            { &quot;data&quot;: &quot;PURPOSE&quot;, &quot;className&quot;: &quot;&quot; },
+            { &quot;data&quot;: &quot;PARTNER&quot;, &quot;className&quot;: &quot;&quot;, &quot;orderable&quot;: false }
+            ]
+            }">
+        <thead>
+          <tr>
+            <th class="col-md-03">Project</th>
+            <th class="col-md-05">Purpose</th>
+            <th class="col-md-04">Partner(s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#">Orientation and wayfinding</a></td>
+            <td>Explore navigation and design options to help people find and use the services they need.</td>
+            <td>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</td>
+          </tr>
+          <tr>
+            <td><a href="#">Medical devices</a></td>
+            <td>Make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</td>
+            <td>Health Canada</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
