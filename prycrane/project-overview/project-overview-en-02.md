@@ -26,13 +26,15 @@ title: "Working with partners to improve task success on Canada.ca"
 </ul>
 <p>We work collaboratively to refine prototypes until they achieve at least a 20% improvement in task success.  This standard for improvement means people will spend less time looking for the answers they need from the Government of Canada.</p>
 <h2>Projects with our partners</h2>
-<div class="panel panel-default">
-  <dl class="dl-horizontal">
-    <dt><a href="#">Orientation and wayfinding</a></dt>
-    <dd>Purpose: explore navigation and design options to help people find and use the services they need.</dd>
-    <dd>Partners: Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</dd>
-    <dt><a href="#">Medical devices</a></dt>
-    <dd>Purpose: make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</dd>
-    <dd>Partner: Health Canada</dd>
-  </dl>
+<div class="col-md-8">
+  <div class="panel panel-default">
+    <dl class="dl-horizontal">
+      <dt><a href="#">Orientation and wayfinding</a></dt>
+      <dd>Purpose: explore navigation and design options to help people find and use the services they need.</dd>
+      <dd>Partners: Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</dd>
+      <dt><a href="#">Medical devices</a></dt>
+      <dd>Purpose: make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</dd>
+      <dd>Partner: Health Canada</dd>
+    </dl>
+  </div>
 </div>
