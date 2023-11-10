@@ -22,7 +22,7 @@ title: "Peter's warrren"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Peter's warrren</span>: <span>Hraka central</span></span></h1>
-    <h2 class="mrgn-tp-lg h3">Projects</h2>
+    <h2 class="mrgn-tp-lg h3">Current projects</h2>
     <ul>
       <li><a href="https://test.canada.ca/experimental/project-overview/">Update partner's page (Research)</a></li>
       <li><a href="https://test.canada.ca/experimental/ilp/">Institutional landing page documentation</a></li>
