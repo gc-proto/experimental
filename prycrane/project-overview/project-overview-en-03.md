@@ -31,10 +31,10 @@ title: "Working with partners to improve task success on Canada.ca"
     <div class="panel panel-default">
       <div class="mrgn-tp-sm">
         <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="partners" data-page-length="25" data-wb-tables="{
-            &quot;bDeferRender&quot;: true,
+            &quot;bDeferRender&quot;: false,
             &quot;order&quot;: [0, &quot;asc&quot;],
             &quot;paging&quot;: false,
-            &quot;info&quot;: true,
+            &quot;info&quot;: false,
             &quot;columns&quot;: [
             { &quot;data&quot;: &quot;PROJECT&quot;, &quot;className&quot;: &quot;&quot; },
             { &quot;data&quot;: &quot;PURPOSE&quot;, &quot;className&quot;: &quot;&quot;, &quot;orderable&quot;: false },
