@@ -42,8 +42,8 @@ title: "Fix project overview page on Canada.ca"
           </ul>
         </details>
       </li>
-      <li> 
-        <!--  <details class="mrgn-tp-lg">
+      <!--       <li> 
+  <details class="mrgn-tp-lg">
           <summary class="bg-info">Old mockups</summary>
           <ul class="mrgn-tp-lg">
             <li><a href="breadcrumbs-01.html">Current presentation of breadcrumbs (Global header)</a>
@@ -53,8 +53,8 @@ title: "Fix project overview page on Canada.ca"
               </ul>
             </li>
           </ul>
-        </details> --> 
-      </li>
+        </details>
+      </li> -->
     </ul>
     <h3 class="mrgn-tp-lg h4">GitHub repository for this page</h3>
     <ul class="mrgn-tp-md fa-ul">
