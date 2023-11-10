@@ -53,7 +53,7 @@ title: "Fix project overview page on Canada.ca"
               </ul>
             </li>
           </ul>
-        </details>--> 
+        </details> --> 
       </li>
     </ul>
     <h3 class="mrgn-tp-lg h4">GitHub repository for this page</h3>
