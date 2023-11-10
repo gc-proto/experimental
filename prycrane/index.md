@@ -7,7 +7,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 - https://test.canada.ca/experimental/prycrane/datatables/css/datatables-fun.css
 date: 2023-01-27
-dateModified: 2023-07-26
+dateModified: 2023-11-10
 description: "Peter's sandbox"
 language: en
 layout: form
@@ -24,17 +24,10 @@ title: "Peter's warrren"
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Peter's warrren</span>: <span>Hraka central</span></span></h1>
     <h2 class="mrgn-tp-lg h3">Projects</h2>
     <ul>
+      <li><a href="https://test.canada.ca/experimental/project-overview/">Update partner's page (Research)</a></li>
       <li><a href="https://test.canada.ca/experimental/ilp/">Institutional landing page documentation</a></li>
       <li><a href="https://test.canada.ca/experimental/content-style-guide/">Canada.ca Content Style Guide</a></li>
       <li><a href="https://test.canada.ca/experimental/prycrane/alt-text/">Alt text and long descriptions</a></li>
-    </ul>
-    <h3 class="mrgn-tp-lg h4">DTO asset migration</h3>
-    <ul>
-      <li><a href="https://test.canada.ca/experimental/migration/">DTO asset migration landing page</a>
-        <ul>
-          <li><a href="https://test.canada.ca/experimental/migration/aem-migration.html">Moving from AEM to GitHub</a></li>
-        </ul>
-      </li>
     </ul>
     <div class="mrgn-tp-lg">
       <ul class="list-unstyled">
@@ -42,6 +35,11 @@ title: "Peter's warrren"
           <details>
             <summary>Done</summary>
             <ul class="mrgn-tp-md fa-ul">
+              <li><a href="https://test.canada.ca/experimental/migration/">DTO asset migration landing page</a>
+                <ul>
+                  <li><a href="https://test.canada.ca/experimental/migration/aem-migration.html">Moving from AEM to GitHub</a></li>
+                </ul>
+              </li>
               <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/breadcrumbs/">Shortening breadcrumbs</a></li>
               <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/prycrane/pattern-library/">Pattern library tasks</a></li>
               <li><span class="fa-li"><span class="fas fa-check"></span></span><a href="https://test.canada.ca/experimental/update-datatables/">DataTable documentation</a></li>
