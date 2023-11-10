@@ -29,13 +29,13 @@ title: "Orientation and wayfinding project"
   <li class="custli">People need to be able to clearly recognize official government information and services to avoid deceptive and fraudulent sites</li>
 </ul>
 <div class="row mrgn-tp-lg">
-  <div class="col-md-10">
+  <div class="col-md-8">
     <table class="table small">
       <thead>
         <tr style="">
-          <th scope="col">Task success before</th>
-          <th scope="col">Task success after</th>
-          <th scope="col">Improvement to task success</th>
+          <th scope="col" class="col-md-3">Task success before</th>
+          <th scope="col" class="col-md-3">Task success after</th>
+          <th scope="col" class="col-md-6">Improvement to task success</th>
         </tr>
       </thead>
       <tbody>
