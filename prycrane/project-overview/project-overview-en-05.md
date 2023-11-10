@@ -27,7 +27,7 @@ title: "Orientation and wayfinding project"
   <li class="custli">Analytics show that more than half of the visits to pages about medical devices are to those that provide information specific to the medical device industry</li>
 </ul>
 <h3>Task success</h3>
-<div class="row mrgn-tp-lg">
+<div class="row mrgn-tp-lg mrgn-bttm-lg">
   <div class="col-md-8">
     <table class="table">
       <thead>
