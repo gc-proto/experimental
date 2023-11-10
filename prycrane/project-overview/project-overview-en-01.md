@@ -29,13 +29,13 @@ title: "Working with partners to improve task success on Canada.ca"
 <ul class="lst-spcd">
   <li><a href="#">Orientation and wayfinding</a>
     <ul class="list-unstyled">
-      <li><strong>Purpose</strong>: explore navigation and design options to help people find and use the services they need</li>
+      <li><strong>Purpose</strong>: explore navigation and design options to help people find and use the services they need.</li>
       <li><strong>Partners</strong>: Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</li>
     </ul>
   </li>
   <li><a href="#">Medical devices</a>
     <ul class="list-unstyled">
-      <li><strong>Purpose</strong>: make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements</li>
+      <li><strong>Purpose</strong>: make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</li>
       <li><strong>Partner</strong>: Health Canada</li>
     </ul>
   </li>
