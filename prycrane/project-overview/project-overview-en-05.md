@@ -30,13 +30,13 @@ title: "Medical devices collaboration"
   <div class="col-md-8">
     <div class="panel panel-success">
       <header class="panel-heading">
-        <h4 class="panel-title text-centre">Improvement to task success</h4>
+        <h4 class="panel-title text-center">Improvement to task success</h4>
       </header>
       <table class="table">
         <thead>
           <tr style="">
-            <th scope="col" class="col-md-3">Task success before</th>
-            <th scope="col" class="col-md-3">Task success after</th>
+            <th scope="col" class="col-md-3">Before</th>
+            <th scope="col" class="col-md-3">After</th>
             <th scope="col" class="col-md-6">Improvement to task success</th>
           </tr>
         </thead>
