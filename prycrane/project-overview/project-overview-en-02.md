@@ -58,6 +58,21 @@ title: "Working with partners to improve task success on Canada.ca"
             <td>Make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</td>
             <td>Health Canada</td>
           </tr>
+          <tr>
+            <td><a href="#">Pay for the public service</a></td>
+            <td>Make it easier for public servants to find and understand their pay information.</td>
+            <td>Public Services and Procurement Canada</td>
+          </tr>
+          <tr>
+            <td><a href="#">Recalls and safety alerts search</a></td>
+            <td>Help Health Canada prepare for the implementation of a transformed Recalls and Safety Alerts Management System (RSAMS) with a new search interface so that Canadians can find and understand both recalls and safety alerts.</td>
+            <td>Health Canada, Transport Canada</td>
+          </tr>
+          <tr>
+            <td><a href="#">Electronic Procurement Solution</a></td>
+            <td>Make it easier for Canadian businesses to find and understand government business opportunities and guidance.</td>
+            <td>Public Services and Procurement Canada (PSPC)</td>
+          </tr>
         </tbody>
       </table>
     </div>
