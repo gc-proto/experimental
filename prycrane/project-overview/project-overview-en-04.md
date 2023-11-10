@@ -11,7 +11,7 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-11-09
 dateModified: 2023-11-09
-description: "Orientation and wayfinding project"
+description: "Orientation and wayfinding project abstract"
 lang: en
 layout: without-h1
 nomenu: false
