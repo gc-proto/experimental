@@ -36,7 +36,7 @@ title: "Fix project overview page on Canada.ca"
     <ul class="list-unstyled mrgn-tp-lg">
       <li>
         <details open="open">
-          <summary class="bg-info">First iteration</summary>
+          <summary class="bg-info">First iteration (2023-11-10)</summary>
           <ol class="mrgn-tp-lg">
             <li><a href="project-overview-en-01.html">basic list</a></li>
             <li><a href="project-overview-en-01a.html">basic list with icon bullets</a></li>
