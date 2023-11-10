@@ -30,7 +30,7 @@ title: "Working with partners to improve task success on Canada.ca"
   <div class="col-md-10">
     <div class="panel panel-default">
       <div class="mrgn-tp-sm">
-        <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="design" data-page-length="25" data-wb-tables="{
+        <table class="wb-tables table table-striped small filterEmphasis provisional" aria-live="polite" id="design" data-page-length="25" data-wb-tables="{
             &quot;bDeferRender&quot;: true,
             &quot;order&quot;: [0, &quot;asc&quot;],
             &quot;paging&quot;: true,
