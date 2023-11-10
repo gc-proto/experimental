@@ -26,27 +26,17 @@ title: "Working with partners to improve task success on Canada.ca"
 </ul>
 <p>We work collaboratively to refine prototypes until they achieve at least a 20% improvement in task success.  This standard for improvement means people will spend less time looking for the answers they need from the Government of Canada.</p>
 <h2>Projects with our partners</h2>
-<ul class="list-unstyled">
+<ul>
   <li><a href="#">Orientation and wayfinding</a>
-    <ul>
-      <li>We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</li>
-      <li>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</li>
+    <ul class="list-unstyled">
+      <li><strong>Purpose</strong>: explore navigation and design options to help people find and use the services they need</li>
+      <li><strong>Partners</strong>: Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</li>
+    </ul>
+  </li>
+  <li><a href="#">Medical devices</a>
+    <ul class="list-unstyled">
+      <li><strong>Purpose</strong>: make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements</li>
+      <li><strong>Partner</strong>: Health Canada</li>
     </ul>
   </li>
 </ul>
-<ul class="list-unstyled">
-  <li><a href="#">Orientation and wayfinding</a>
-    <ul>
-      <li>(Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada)</li>
-      <li>We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</li>
-    </ul>
-  </li>
-</ul>
-<dl class="dl-horizontal">
-  <dt><a href="#">Orientation and wayfinding</a></dt>
-  <dd>We explored navigation and design options to help people get to and use the services they need, while maintaining confidence and trust in Canada.ca.</dd>
-  <dd>Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</dd>
-  <dt><a href="#">Medical devices</a></dt>
-  <dd>Make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</dd>
-  <dd>Health Canada</dd>
-</dl>
