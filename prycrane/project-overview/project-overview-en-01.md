@@ -26,7 +26,7 @@ title: "Working with partners to improve task success on Canada.ca"
 </ul>
 <p>We work collaboratively to refine prototypes until they achieve at least a 20% improvement in task success.  This standard for improvement means people will spend less time looking for the answers they need from the Government of Canada.</p>
 <h2>Projects with our partners</h2>
-<ul>
+<ul class="lst-spcd">
   <li><a href="#">Orientation and wayfinding</a>
     <ul class="list-unstyled">
       <li><strong>Purpose</strong>: explore navigation and design options to help people find and use the services they need</li>
