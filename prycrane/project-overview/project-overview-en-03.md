@@ -33,7 +33,7 @@ title: "Working with partners to improve task success on Canada.ca"
         <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="design" data-page-length="25" data-wb-tables="{
             &quot;bDeferRender&quot;: true,
             &quot;order&quot;: [0, &quot;asc&quot;],
-            &quot;paging&quot;: true,
+            &quot;paging&quot;: false,
             &quot;info&quot;: true,
             &quot;columns&quot;: [
             { &quot;data&quot;: &quot;PROJECT&quot;, &quot;className&quot;: &quot;&quot; },
