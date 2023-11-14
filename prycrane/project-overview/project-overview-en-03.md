@@ -30,15 +30,15 @@ title: "Working with partners to improve task success on Canada.ca"
   <div class="col-md-10">
     <div class="panel panel-default">
       <div class="mrgn-tp-sm">
-        <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="partners" data-page-length="100" data-wb-tables="{
+        <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="partners" data-page-length="25" data-wb-tables="{
             &quot;bDeferRender&quot;: false,
             &quot;order&quot;: [0, &quot;asc&quot;],
             &quot;paging&quot;: false,
-            &quot;info&quot;: true,
+            &quot;info&quot;: false,
             &quot;columns&quot;: [
-            { &quot;data&quot;: &quot;PROJECT&quot;, &quot;className&quot;table-cell&quot;&quot; },
-            { &quot;data&quot;: &quot;PURPOSE&quot;, &quot;className&quot;table-cell&quot;&quot;, &quot;orderable&quot;: false },
-            { &quot;data&quot;: &quot;PARTNER&quot;, &quot;className&quot;table-cell&quot;&quot;, &quot;orderable&quot;: false }
+            { &quot;data&quot;: &quot;PROJECT&quot;, &quot;className&quot;: &quot;&quot; },
+            { &quot;data&quot;: &quot;PURPOSE&quot;, &quot;className&quot;: &quot;&quot;, &quot;orderable&quot;: false },
+            { &quot;data&quot;: &quot;PARTNER&quot;, &quot;className&quot;: &quot;&quot;, &quot;orderable&quot;: false }
             ]
             }">
           <thead>
@@ -50,12 +50,12 @@ title: "Working with partners to improve task success on Canada.ca"
           </thead>
           <tbody>
             <tr>
-              <td class="col-md-04"><a href="project-overview-en-11.html">Medical devices</a></td>
+              <td class="col-md-04"><a href="#">Medical devices</a></td>
               <td class="col-md-04">Make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</td>
               <td class="col-md-04">Health Canada</td>
             </tr>
             <tr>
-              <td class="col-md-04"><a href="project-overview-en-10.html">Orientation and wayfinding</a></td>
+              <td class="col-md-04"><a href="#">Orientation and wayfinding</a></td>
               <td class="col-md-04">Explore navigation and design options to help people find and use the services they need.</td>
               <td class="col-md-04">Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</td>
             </tr>
@@ -70,7 +70,7 @@ title: "Working with partners to improve task success on Canada.ca"
               <td class="col-md-04">Health Canada, Transport Canada</td>
             </tr>
             <tr>
-              <td class="col-md-04"><a href="project-overview-en-12.html">Electronic Procurement Solution</a></td>
+              <td class="col-md-04"><a href="#">Electronic Procurement Solution</a></td>
               <td class="col-md-04">Make it easier for Canadian businesses to find and understand government business opportunities and guidance.</td>
               <td class="col-md-04">Public Services and Procurement Canada (PSPC)</td>
             </tr>
