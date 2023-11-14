@@ -70,7 +70,7 @@ title: "Working with partners to improve task success on Canada.ca"
               <td class="col-md-04">Health Canada, Transport Canada</td>
             </tr>
             <tr>
-              <td class="col-md-04"><a href="#">Electronic Procurement Solution</a></td>
+              <td class="col-md-04"><a href="project-overview-en-12.html">Electronic Procurement Solution</a></td>
               <td class="col-md-04">Make it easier for Canadian businesses to find and understand government business opportunities and guidance.</td>
               <td class="col-md-04">Public Services and Procurement Canada (PSPC)</td>
             </tr>
