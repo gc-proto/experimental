@@ -34,7 +34,7 @@ title: "Working with partners to improve task success on Canada.ca"
             &quot;bDeferRender&quot;: false,
             &quot;order&quot;: [0, &quot;asc&quot;],
             &quot;paging&quot;: false,
-            &quot;info&quot;: false,
+            &quot;info&quot;: true,
             &quot;columns&quot;: [
             { &quot;data&quot;: &quot;PROJECT&quot;, &quot;className&quot;table-cell&quot;&quot; },
             { &quot;data&quot;: &quot;PURPOSE&quot;, &quot;className&quot;table-cell&quot;&quot;, &quot;orderable&quot;: false },
