@@ -28,22 +28,8 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
 </section>
   <section>
     <h2>Refocusing Government Spending </h2>
-    <p>In  Budget 2023, the government committed to reducing spending by  $14.1&nbsp;billion over the next five&nbsp;years, starting in 2023–24, and by  $4.1&nbsp;billion annually after that.</p>
-    <p>As part of meeting this commitment, [organization  name] is planning the following spending reductions: </p>
-    <ul>
-      <li><strong>2024-25</strong>: $ [insert amount]</li>
-      <li><strong>2025-26</strong>: $ [insert amount]</li>
-      <li><strong>2026-27 and ongoing</strong>: [insert amount]</li>
-    </ul>
-    <p>[Organization  name] will achieve these  reductions by doing the following: </p>
-    <ul>
-      <li>[savings measure  1]</li>
-      <li>[savings measure  2]</li>
-      <li>[savings measure 3]</li>
-      <li>[add bullets as  needed]</li>
-    </ul>
-    <p>The figures in this  departmental plan reflect these reductions. </p>
-  </section>
+    <p>[Insert text from the 'refocusing government spending' section of the word template]</p>
+      </section>
   <section>
     <h2>Highlights </h2>
     <p>A Departmental Results Framework consists of an organization&rsquo;s&nbsp;core responsibilities, the  results it plans  to achieve, and the&nbsp;performance indicators&nbsp;that measure progress toward these  results.</p>
