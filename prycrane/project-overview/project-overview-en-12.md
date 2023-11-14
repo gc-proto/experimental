@@ -21,7 +21,7 @@ title: "Electronic Procurement Solution"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Electronic Procurement Solution collaboration</span>: <span>Canada.ca design</span></span></h1>
 <p>Our objective was to make make it easier for Canadian businesses to find and understand government business opportunities and guidance.</p>
 <h2>Partner department</h2>
-<p>Public Services and Procurement Canada (PSPC)</p>
+<p>Public Services and Procurement Canada</p>
 <h2>Why this work matters</h2>
 <ul>
   <li class="custli">the federal government is the largest public buyer of goods and services in Canada, with purchases of approximately $23 billion annually</li>
