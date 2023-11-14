@@ -24,7 +24,7 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
   </section>
   <section>
     <h2>Key priorities</h2>
-    <p>[Insert text from word template]</p>
+    <p>[Insert text from 'key priorities' section of the word template]</p>
 </section>
   <section>
     <h2>Refocusing Government Spending </h2>
