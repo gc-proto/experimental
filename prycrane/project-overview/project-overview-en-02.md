@@ -29,10 +29,10 @@ title: "Working with partners to improve task success on Canada.ca"
 <div class="row mrgn-tp-lg">
   <div class="col-md-8">
     <dl class="dl-horizontal">
-      <dt><a href="#">Orientation and wayfinding</a></dt>
+      <dt><a href="project-overview-en-08.html">Orientation and wayfinding</a></dt>
       <dd><strong>Purpose</strong>: explore navigation and design options to help people find and use the services they need.</dd>
       <dd><strong>Partners</strong>: Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</dd>
-      <dt><a href="#">Medical devices</a></dt>
+      <dt><a href="project-overview-en-09.html">Medical devices</a></dt>
       <dd><strong>Purpose</strong>: make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</dd>
       <dd><strong>Partner</strong>: Health Canada</dd>
     </dl>
