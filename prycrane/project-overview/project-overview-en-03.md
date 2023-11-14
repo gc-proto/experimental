@@ -30,15 +30,15 @@ title: "Working with partners to improve task success on Canada.ca"
   <div class="col-md-10">
     <div class="panel panel-default">
       <div class="mrgn-tp-sm">
-        <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="partners" data-page-length="25" data-wb-tables="{
+        <table class="wb-tables table table-striped small mrgn-tp-lg brdr-tp" aria-live="polite" id="partners" data-page-length="100" data-wb-tables="{
             &quot;bDeferRender&quot;: false,
             &quot;order&quot;: [0, &quot;asc&quot;],
             &quot;paging&quot;: false,
-            &quot;info&quot;: false,
+            &quot;info&quot;: true,
             &quot;columns&quot;: [
-            { &quot;data&quot;: &quot;PROJECT&quot;, &quot;className&quot;: &quot;&quot; },
-            { &quot;data&quot;: &quot;PURPOSE&quot;, &quot;className&quot;: &quot;&quot;, &quot;orderable&quot;: false },
-            { &quot;data&quot;: &quot;PARTNER&quot;, &quot;className&quot;: &quot;&quot;, &quot;orderable&quot;: false }
+            { &quot;data&quot;: &quot;PROJECT&quot;, &quot;className&quot;table-cell&quot;&quot; },
+            { &quot;data&quot;: &quot;PURPOSE&quot;, &quot;className&quot;table-cell&quot;&quot;, &quot;orderable&quot;: false },
+            { &quot;data&quot;: &quot;PARTNER&quot;, &quot;className&quot;table-cell&quot;&quot;, &quot;orderable&quot;: false }
             ]
             }">
           <thead>
@@ -49,6 +49,11 @@ title: "Working with partners to improve task success on Canada.ca"
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <td class="col-md-04"><a href="#">Recalls and safety alerts search</a></td>
+              <td class="col-md-04">Help Health Canada prepare for the implementation of a transformed Recalls and Safety Alerts Management System (RSAMS) with a new search interface so that Canadians can find and understand both recalls and safety alerts.</td>
+              <td class="col-md-04">Health Canada, Transport Canada</td>
+            </tr>
             <tr>
               <td class="col-md-04"><a href="project-overview-en-11.html">Medical devices</a></td>
               <td class="col-md-04">Make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</td>
@@ -63,11 +68,6 @@ title: "Working with partners to improve task success on Canada.ca"
               <td class="col-md-04"><a href="#">Pay for the public service</a></td>
               <td class="col-md-04">Make it easier for public servants to find and understand their pay information.</td>
               <td class="col-md-04">Public Services and Procurement Canada</td>
-            </tr>
-            <tr>
-              <td class="col-md-04"><a href="#">Recalls and safety alerts search</a></td>
-              <td class="col-md-04">Help Health Canada prepare for the implementation of a transformed Recalls and Safety Alerts Management System (RSAMS) with a new search interface so that Canadians can find and understand both recalls and safety alerts.</td>
-              <td class="col-md-04">Health Canada, Transport Canada</td>
             </tr>
             <tr>
               <td class="col-md-04"><a href="project-overview-en-12.html">Electronic Procurement Solution</a></td>
