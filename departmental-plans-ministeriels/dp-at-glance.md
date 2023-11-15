@@ -47,7 +47,7 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
           <p><strong>Planned spending:</strong> [Insert planned spending for this core responsibility for (insert fiscal year)]</p>
           <p><strong>Planned human resources:</strong> [Insert number of full-time equivalents for this core responsibility for (insert fiscal year)]</p>
           <p><strong>Plans to achieve  results:</strong> </p>
-          <p>[Insert a summary of your organization’s plans for the core responsibility, this summary should stand alone and be brief as readers can read the details in the full plan]</p>
+          <p>[Insert a summary of the organization’s plans to achieve results for this core responsibility]</p>
         <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
         </section>
       </details>
@@ -61,8 +61,8 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
           <p><strong>Planned spending:</strong> [Insert planned spending for this core responsibility for (insert fiscal year)]</p>
           <p><strong>Planned human resources:</strong> [Insert number of full-time equivalents for this core responsibility for (insert fiscal year)]</p>
           <p><strong>Plans to achieve  results:</strong> </p>
-          <p>[Insert a summary of your organization’s plans for the core responsibility, this summary should stand alone and be brief as readers can read the details in the full plan]</p>
-        <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
+          <p>[Insert a summary of the organization’s plans to achieve results for this core responsibility]</p>
+        <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full departmental plan. </p>
         </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -75,7 +75,7 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
           <p><strong>Planned spending:</strong> [Insert planned spending for this core responsibility for (insert fiscal year)]</p>
           <p><strong>Planned human resources:</strong> [Insert number of full-time equivalents for this core responsibility for (insert fiscal year)]</p>
           <p><strong>Plans to achieve  results:</strong> </p>
-          <p>[Insert a summary of your organization’s plans for the core responsibility, this summary should stand alone and be brief as readers can read the details in the full plan]</p>
+          <p>[Insert a summary of the organization’s plans to achieve results for this core responsibility]</p>
         <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
         </section>
       </details>
@@ -89,7 +89,7 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
           <p><strong>Planned spending:</strong> [Insert planned spending for this core responsibility for (insert fiscal year)]</p>
           <p><strong>Planned human resources:</strong> [Insert number of full-time equivalents for this core responsibility for (insert fiscal year)]</p>
           <p><strong>Plans to achieve  results:</strong> </p>
-          <p>[Insert a summary of your organization’s plans for the core responsibility, this summary should stand alone and be brief as readers can read the details in the full plan]</p>
+          <p>[Insert a summary of the organization’s plans to achieve results for this core responsibility]</p>
         <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
         </section>
       </details>
