@@ -179,8 +179,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-1-6">Snapshot of planned resources in [insert fiscal year]</h4></header>
  <div class="panel-body">
  <ul>
-  <li><strong>Planned spending:</strong> $[insert total planned spending for (insert fiscal year)]</li>
-  <li><strong>Planned full-time resources:</strong> [insert total planned full-time equivalents (insert fiscal year)]</li>
+  <li><strong>Planned spending:</strong> [insert total planned spending]</li>
+  <li><strong>Planned full-time resources:</strong> [insert total planned full-time equivalents]</li>
   </ul>
  </div>
 </div></section>
