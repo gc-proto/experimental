@@ -50,12 +50,12 @@ title: "Working with partners to improve task success on Canada.ca"
           </thead>
           <tbody>
             <tr>
-              <td class="col-md-04"><a href="#">Medical devices</a></td>
+              <td class="col-md-04"><a href="project-overview-en-11.html">Medical devices</a></td>
               <td class="col-md-04">Make it easier for stakeholders subject to Canada’s medical device regulations find and understand regulatory requirements.</td>
               <td class="col-md-04">Health Canada</td>
             </tr>
             <tr>
-              <td class="col-md-04"><a href="#">Orientation and wayfinding</a></td>
+              <td class="col-md-04"><a href="project-overview-en-10.html">Orientation and wayfinding</a></td>
               <td class="col-md-04">Explore navigation and design options to help people find and use the services they need.</td>
               <td class="col-md-04">Agriculture and Agri-Food Canada, Immigration, Refugees and Citizenship Canada, Veterans Affairs Canada and Statistics Canada</td>
             </tr>
@@ -70,7 +70,7 @@ title: "Working with partners to improve task success on Canada.ca"
               <td class="col-md-04">Health Canada, Transport Canada</td>
             </tr>
             <tr>
-              <td class="col-md-04"><a href="#">Electronic Procurement Solution</a></td>
+              <td class="col-md-04"><a href="project-overview-en-12.html">Electronic Procurement Solution</a></td>
               <td class="col-md-04">Make it easier for Canadian businesses to find and understand government business opportunities and guidance.</td>
               <td class="col-md-04">Public Services and Procurement Canada (PSPC)</td>
             </tr>

@@ -42,7 +42,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&#160;Print this page</a> </section>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Copyright information</summary>
- <p>[include copyright information]</p>
+ <p>[Include copyright information, ISSN and catalogue number. Instructions on how to prepare the report for tabling is available in the <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model.html">template for Departmental Plans</a>]</p>
 </details>
 <section>
  <h2 id="toc01">From the Minister</h2>
@@ -179,8 +179,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-1-6">Snapshot of planned resources in [insert fiscal year]</h4></header>
  <div class="panel-body">
  <ul>
-  <li><strong>Planned spending:</strong> $[insert total planned spending for (insert fiscal year)]</li>
-  <li><strong>Planned full-time resources:</strong> [insert total planned full-time equivalents (insert fiscal year)]</li>
+  <li><strong>Planned spending:</strong> [insert total planned spending]</li>
+  <li><strong>Planned full-time resources:</strong> [insert total planned full-time equivalents]</li>
   </ul>
  </div>
 </div></section>
@@ -206,7 +206,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <section>
   <h4 id="toc02-1-9">Summary of changes to reporting framework since last year</h4>
   <ul>
-  <li>[Bulleted list of changes made to the reporting framework – should match the word template]</li>
+  <li>[Bulleted list of changes made to the reporting framework]</li>
   </ul>
  </section>
  </section>
@@ -253,7 +253,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Snapshot of planned resources in [insert fiscal year]</h4></header>
    <div class="panel-body">
   <ul>
-   <li><strong>Planned spending:</strong> $[insert total planned spending]</li>
+   <li><strong>Planned spending:</strong> [insert total planned spending]</li>
    <li><strong>Planned full-time resources:</strong> [insert total planned full-time equivalents]</li>
   </ul>
  </div>
@@ -288,8 +288,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <p>[Insert an introduction to spending]</p>
 <section>
   <figure id="toc03-fig1">
-   <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year][optional]</strong></figcaption>
-   <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>; a text description or table is required underneath for accessibility]</p>
+   <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
+   <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>]</p>
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
 
@@ -472,7 +472,6 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
   <p>[Please include the explanation of the table included in the word template]</p>
   </details>
-  <p>[Include this section if it appears in the word template]</p>
  </section>
   
  <section>
@@ -664,8 +663,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <h3 id="toc03-4">Human resources</h3>
   <section>
    <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
-   <p>[Insert text from the &#8220;Actual human resources for core responsibilities and internal services&#8221; section of the word template]</p>
-<p>The following table shows a summary of human resources, in full-time equivalents (FTEs), for [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the previous three fiscal years. Human resources for the current fiscal year are forecasted based on year to date.</p>
+  <p>The following table shows a summary of human resources, in full-time equivalents (FTEs), for [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the previous three fiscal years. Human resources for the current fiscal year are forecasted based on year to date.</p>
 <div>
  <div> </div>
 </div>
@@ -732,8 +730,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   </section>
   <section>
    <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
-   <p>[Insert text from the &#8220;Human resources planning summary for core responsibilities and internal services&#8221; section of the word template]</p>
-   <p>The following table shows information on human resources, in FTEs, for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services planned for [insert fiscal year] and future years.
+    <p>The following table shows information on human resources, in FTEs, for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services planned for [insert fiscal year] and future years.
  </p>
    <div class="table-responsive">
      <table id="tbl7" class="table table-bordered table-condensed">
@@ -815,7 +812,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 	<details class="acc-group">
 		<summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Organizational contact information</summary>
 		<div class="tgl-panel">
-			<p>Mailing address<br>
+			<p>Mailing address:<br>
  [insert address]<br>
  Telephone: [insert number(s)]<br>
  TTY: [insert number(s)]<br>
