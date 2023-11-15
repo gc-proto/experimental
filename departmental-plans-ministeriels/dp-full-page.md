@@ -663,8 +663,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <h3 id="toc03-4">Human resources</h3>
   <section>
    <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
-   <p>[Insert text from the &#8220;Actual human resources for core responsibilities and internal services&#8221; section of the word template]</p>
-<p>The following table shows a summary of human resources, in full-time equivalents (FTEs), for [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the previous three fiscal years. Human resources for the current fiscal year are forecasted based on year to date.</p>
+  <p>The following table shows a summary of human resources, in full-time equivalents (FTEs), for [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the previous three fiscal years. Human resources for the current fiscal year are forecasted based on year to date.</p>
 <div>
  <div> </div>
 </div>
@@ -731,8 +730,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   </section>
   <section>
    <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
-   <p>[Insert text from the &#8220;Human resources planning summary for core responsibilities and internal services&#8221; section of the word template]</p>
-   <p>The following table shows information on human resources, in FTEs, for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services planned for [insert fiscal year] and future years.
+    <p>The following table shows information on human resources, in FTEs, for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services planned for [insert fiscal year] and future years.
  </p>
    <div class="table-responsive">
      <table id="tbl7" class="table table-bordered table-condensed">
@@ -814,7 +812,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 	<details class="acc-group">
 		<summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Organizational contact information</summary>
 		<div class="tgl-panel">
-			<p>Mailing address<br>
+			<p>Mailing address:<br>
  [insert address]<br>
  Telephone: [insert number(s)]<br>
  TTY: [insert number(s)]<br>
