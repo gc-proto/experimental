@@ -206,7 +206,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <section>
   <h4 id="toc02-1-9">Summary of changes to reporting framework since last year</h4>
   <ul>
-  <li>[Bulleted list of changes made to the reporting framework – should match the word template]</li>
+  <li>[Bulleted list of changes made to the reporting framework]</li>
   </ul>
  </section>
  </section>
@@ -288,8 +288,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <p>[Insert an introduction to spending]</p>
 <section>
   <figure id="toc03-fig1">
-   <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year][optional]</strong></figcaption>
-   <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>; a text description or table is required underneath for accessibility]</p>
+   <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
+   <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>]</p>
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
 
@@ -472,7 +472,6 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
   <p>[Please include the explanation of the table included in the word template]</p>
   </details>
-  <p>[Include this section if it appears in the word template]</p>
  </section>
   
  <section>
