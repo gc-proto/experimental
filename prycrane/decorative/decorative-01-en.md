@@ -2,13 +2,13 @@
 altLangPage: "decorative-01-fr.html"
 breadcrumbs: false
 css:
-- https://design.canada.ca/css/split-h1.css
-- https://design.canada.ca/css/custom.css
-- https://design.canada.ca/css-coded-layout/mr-bullets.css
 - https://design.canada.ca/css-coded-layout/theme-topic.css
+- https://design.canada.ca/css-coded-layout/social-media.css
+- https://design.canada.ca/css-coded-layout/mr-bullets.css
+- https://design.canada.ca/css-coded-layout/guidance-draft.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
-date: 2023-02-07
-dateModified: 2023-02-07
+date: 2023-11-15
+dateModified: 2023-11-15
 description: "Standard page with stacked h1"
 lang: en
 layout: without-h1
