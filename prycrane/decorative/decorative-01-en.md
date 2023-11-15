@@ -4,6 +4,8 @@ breadcrumbs: false
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
+- https://design.canada.ca/css-coded-layout/mr-bullets.css
+- https://design.canada.ca/css-coded-layout/theme-topic.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-02-07
 dateModified: 2023-02-07
