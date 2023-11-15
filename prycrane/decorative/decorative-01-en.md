@@ -14,16 +14,12 @@ title: "Standard page with stacked h1"
 ---
 <div class="provisional profile">
   <div class="container">
-    <div class="row"> 
-      
-      <!-- change col-md-6 to col-md-12 if not using an image -->
+    <div class="row">
       <div class="intro col-md-6 col-sm-12 mrgn-bttm-md">
         <h1 property="name" id="wb-cont">[Theme - Topic title]</h1>
         <p class="pagetag">1-2 sentences that describe the topics and top tasks that can be accessed on this page.</p>
       </div>
-      
-      <!-- remove this div if you do not want an image -->
-      <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs guidance-js-hide"> <img alt="#" src="images/beach.png" /></div>
+      <div class="col-md-6 pstn-rght-md pstn-bttm-md hidden-sm hidden-xs guidance-js-hide"><img alt="#" src="images/beach.png" /></div>
     </div>
   </div>
 </div>
@@ -33,9 +29,7 @@ title: "Standard page with stacked h1"
       <div class="pddng-r-0 col-md-2">
         <h2 class="mrgn-tp-md">Most requested</h2>
       </div>
-      <div class="col-md-10"> 
-        
-        <!-- change to colcount-md-1 if you only have 2-3 most requested items -->
+      <div class="col-md-10">
         <ul class="wb-eqht mrgn-tp-md mrgn-bttm-md colcount-md-2">
           <li><a href="#">[Top task hyperlink]</a></li>
           <li><a href="#">[Top task hyperlink]</a></li>
@@ -49,9 +43,7 @@ title: "Standard page with stacked h1"
   </div>
 </section>
 <div class="container">
-  <div class="row"> 
-    
-    <!-- showing the basic doormat pattern - refer to the Services and information documentation for options -->
+  <div class="row">
     <section class="gc-srvinfo col-md-12">
       <h2 class="wb-inv">Services and information</h2>
       <div class="wb-eqht row">
