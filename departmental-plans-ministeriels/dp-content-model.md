@@ -3,15 +3,15 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-10-18
+dateModified: 2023-11-16
 language: en
 layout: default
-title: "Departmental plans"
+title: "Departmental Plans"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
-  <p>Last updated: 2023-11-06 </p>
-  <p>[Pattern description] - Departmental plans describe a department&rsquo;s spending plan for the next fiscal year. This template provides a consistent layout, heading structure, web design, accessible tables, and plain language.</p>
+  <p>Last updated: 2023-11-16 </p>
+  <p>[Pattern description] - Departmental Plans describe a department&rsquo;s spending plan for the next fiscal year. This template provides a consistent layout, heading structure, web design, accessible tables, and plain language.</p>
   <section>
     <h2>On this page</h2>
     <ul>
@@ -25,7 +25,7 @@ title: "Departmental plans"
   </section>
   <section>
     <h2 id="toc01">When to use </h2>
-    <p>Use this template for publishing official departmental plans on Canada.ca shortly after tabling. The layout ensures a consistent experience for users looking for specific information in the plans.</p>
+    <p>Use this template for publishing official Departmental Plans on Canada.ca shortly after tabling. The layout ensures a consistent experience for users looking for specific information in the plans.</p>
 </section>
   <section>
     <h2 id="toc02">What to avoid </h2>
@@ -33,7 +33,7 @@ title: "Departmental plans"
 </section>
   <section>
     <h2 id="toc03">Content and design</h2>
-    <p>The Departmental plans follow a two-page layout. Each page targets an audience with different levels of subject matter expertise. </p>
+    <p>The Departmental Plans follow a 2-page layout. Each page targets an audience with different levels of subject matter expertise. </p>
     <p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2024-25_Departmental_Plan">Templates for content writers</a> (available on GCpedia)</p>
 <section>
       <h3>At a glance page</h3>
@@ -42,7 +42,7 @@ title: "Departmental plans"
     </section>
     <section>
       <h3>Full plan page</h3>
-      <p>Provides all the details of the institution&rsquo;s Departmental plan. The template for Departmental plans uses standard headers and design elements.</p>
+      <p>Provides all the details of the institution&rsquo;s Departmental Plan. The template for Departmental Plans uses standard headers and design elements.</p>
 <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html" role="button">Preview the Full plan page</a></p>
     </section>
   </section>
@@ -53,21 +53,36 @@ title: "Departmental plans"
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-at-glance.md">At a glance page code</a></li>
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-full-page.md">Full plan page code</a></li>
     </ul>
+    <p>Publish and table the content:</p>
+    <ol>
+      <li>save  both pages as PDFs </li>
+      <li>consolidate  documents into a single PDF file</li>
+      <li>Add  a page number to bottom right of all PDF pages </li>
+      <li>add  a cover page that includes a title and date published</li>
+      <li>add  the copyright information, ISSN, and Catalogue Number to the expand collapse  &lsquo;Copyright&rsquo; section of the Full plan page </li>
+      <li>for  ISSN and Catalogue numbers:</li>
+      <ol>
+        <li>Re-Use  last year&rsquo;s ISSN and Catalogue numbers unless the title has changed</li>
+        <li>If  you require a new ISSN you can <a href="https://issn.bac-lac.canada.ca/eng/requests/publication">make a request with LAC</a></li>
+        <li>If  you require a new Catalogue number you can <a href="https://publications.gc.ca/site/eng/isbn/apply.html;jsessionid=BA391320B9AD7E990EF86A2326C83919?execution=e1s1">request one for  Publications.ca</a></li>
+      </ol>
+    </ol>
+    <h2>share the  links and a copy of the PDF with the content owner of the Departmental Plan.  They will package for tabling.</h2>
   </section>
   <section>
     <h2 id="toc05">Research and rationale</h2>
-    <p>Research will be ongoing to determine the best way to present information contained in the departmental plans in an accessible and user-friendly way. To date, some known issues include non-intuitive headers, repetitive information, and overly complex tables.</p>
+    <p>Research will be ongoing to determine the best way to present information contained in the Departmental Plans in an accessible and user-friendly way. To date, some known issues include non-intuitive headers, repetitive information, and overly complex tables.</p>
     <p>Further improvements will be made incrementally as more research is completed on both the implementation and user experience sides. If you&rsquo;re interested in participating in usability testing, please <a href="mailto:DAS.SCN@tbs-sct.gc.ca">reach out to the TBS theme lead(s)</a>.</p>
   </section>
   <section>
     <h2 id="toc06">Latest changes</h2>
     <ul>
-      <li>Using a two-page layout</li>
+      <li>Using a 2-page layout</li>
       <li>Simplified tables</li>
       <li>Revised wording of headers and proper use of styles</li>
-      <li>Reducing the overall length of the plan</li>
+      <li>Reduced overall length of plan</li>
     </ul>
-    <p>These changes are effective as of publishing the 2024-25 Departmental Plans.</p>
+    <p>These changes are effective as of publishing the 2024–25 Departmental Plans.</p>
   </section>
 </div>
 
