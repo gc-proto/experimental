@@ -60,14 +60,14 @@ title: "Departmental Plans"
       <li>Add  a page number to bottom right of all PDF pages </li>
       <li>add  a cover page that includes a title and date published</li>
       <li>add  the copyright information, ISSN, and Catalogue Number to the expand collapse  &lsquo;Copyright&rsquo; section of the Full plan page </li>
-      <li>for  ISSN and Catalogue numbers:</li>
-      <ol>
+      <li>for  ISSN and Catalogue numbers:
+      <ol class="lst-lwr-rmn">
         <li>Re-Use  last year&rsquo;s ISSN and Catalogue numbers unless the title has changed</li>
         <li>If  you require a new ISSN you can <a href="https://issn.bac-lac.canada.ca/eng/requests/publication">make a request with LAC</a></li>
         <li>If  you require a new Catalogue number you can <a href="https://publications.gc.ca/site/eng/isbn/apply.html;jsessionid=BA391320B9AD7E990EF86A2326C83919?execution=e1s1">request one for  Publications.ca</a></li>
-      </ol>
+      </ol></li>
+        <li>Share the  links and a copy of the PDF with the content owner of the Departmental Plan.  They will package for tabling.</li>
     </ol>
-    <h2>share the  links and a copy of the PDF with the content owner of the Departmental Plan.  They will package for tabling.</h2>
   </section>
   <section>
     <h2 id="toc05">Research and rationale</h2>
