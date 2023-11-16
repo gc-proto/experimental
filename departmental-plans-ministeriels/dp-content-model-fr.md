@@ -32,12 +32,11 @@ title: "Plans ministériels"
 </section>
   <section>
     <h2 id="toc03">Contenu et conception</h2>
-    <p>Fournit un  résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a  pas nécessairement une connaissance approfondie des finances ou des activités  de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception. </p>
+    <p>La  présentation des plans ministériels se fait sur 2&nbsp;pages. Chaque page s&rsquo;adresse  à un public ayant différents niveaux d&rsquo;expertise. </p>
 <p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2021.E2.80.9322_Departmental_Results_Report">Gabarits pour les rédacteurs de contenu</a> (disponible sur GCpédia)</p>
 <section>
       <h3>Page Aperçu</h3>
-      <p>Provides a summary of key information that is easily consumable for an audience that may not have extensive knowledge of the institution&rsquo;s finances or activities. The page allows for more design flexibility. </p>
-<p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance-fr.html" role="button">Prévisualiser la page Aperçu</a></p>
+      <p>Fournit un  résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a  pas nécessairement une connaissance approfondie des finances ou des activités  de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception.</p><p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance-fr.html" role="button">Prévisualiser la page Aperçu</a></p>
     </section>
     <section>
       <h3>Page Plan intégral</h3>
