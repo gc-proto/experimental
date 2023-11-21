@@ -11,35 +11,35 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
 
-    <section>
-      <h2>Sur cette page</h2>
-      <ul>
-        <li><a href="#toc01">De la part du ministre</a></li>
-        <li><a href="#toc01b">De la part de l'administrateur général (facultatif*)</a></li>
-        <li><a href="#toc02">Plans pour assurer les responsabilités essentielles et les services internes </a> 
-          <ul>
-            <li><a href="#toc02-1">Nom de la responsabilité essentielle 1</a></li>
-            <li><a href="#toc02-2">Nom de la responsabilité essentielle 2</a></li>
-            <li><a href="#toc02-3">Nom de la responsabilité essentielle 3</a></li>
-            <li><a href="#toc02-4">Nom de la responsabilité essentielle 4</a></li>
-            <li><a href="#toc02-5">Services internes</a></li>
-          </ul>
-        </li>
-        <li><a href="#toc03">Dépenses et ressources humaines prévues</a>
-          <ul>
-            <li><a href="#toc03-1">Dépenses</a></li>
-            <li><a href="#toc03-2">Financement</a></li>
-            <li><a href="#toc03-3">État condensé prospectif des opérations</a></li>
-            <li><a href="#toc03-4">Ressources humaines</a></li>
-          </ul>
-        </li>
-          <li><a href="#toc04">Renseignements ministériels</a></li>
-          <li><a href="#toc05">Tableaux de renseignements supplémentaires</a></li>
-        <li><a href="#toc06">Dépenses fiscales fédérales</a></li>
-        <li><a href="#toc07">Définitions</a></li>
-      </ul>
-    </section>
-    <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </section>
+<section>
+<h2>Sur cette page</h2>
+<ul>
+<li><a href="#toc01">De la part du ministre</a></li>
+<li><a href="#toc01b">De la part de l'administrateur général (facultatif*)</a></li>
+<li><a href="#toc02">Plans pour assurer les responsabilités essentielles et les services internes </a> 
+<ul>
+<li><a href="#toc02-1">Nom de la responsabilité essentielle 1</a></li>
+<li><a href="#toc02-2">Nom de la responsabilité essentielle 2</a></li>
+<li><a href="#toc02-3">Nom de la responsabilité essentielle 3</a></li>
+<li><a href="#toc02-4">Nom de la responsabilité essentielle 4</a></li>
+<li><a href="#toc02-5">Services internes</a></li>
+</ul>
+</li>
+<li><a href="#toc03">Dépenses et ressources humaines prévues</a>
+<ul>
+<li><a href="#toc03-1">Dépenses</a></li>
+<li><a href="#toc03-2">Financement</a></li>
+<li><a href="#toc03-3">État condensé prospectif des opérations</a></li>
+<li><a href="#toc03-4">Ressources humaines</a></li>
+</ul>
+</li>
+<li><a href="#toc04">Renseignements ministériels</a></li>
+<li><a href="#toc05">Tableaux de renseignements supplémentaires</a></li>
+<li><a href="#toc06">Dépenses fiscales fédérales</a></li>
+<li><a href="#toc07">Définitions</a></li>
+</ul>
+</section>
+<section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </section>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
   <summary class="wb-toggle" data-toggle='{"print":"on"}'>Informations sur le droit d’auteur</summary>
   <p>[Indiquez les informations relatives au droit d&rsquo;auteur, l&rsquo;ISSN et le  numéro de catalogue. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model-fr.html">le gabarit des Plans  ministériels</a>]</p>
