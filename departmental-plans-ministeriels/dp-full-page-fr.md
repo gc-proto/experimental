@@ -205,7 +205,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <ul>
  <li>[Liste à puces des programmes relevant de la responsabilité principale]</li>
  </ul>
-<p>Des  renseignements complémentaires sur les dépenses prévues, les ressources  humaines et les résultats liés au répertoire des programmes de [nom du ministère] se trouvent sur <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">l'InfoBase du GC</a>.</p>
+<p>Des  renseignements complémentaires sur les dépenses prévues, les ressources  humaines et les résultats liés au répertoire des programmes de [nom du ministère] se trouvent sur <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-fra.html#start">l'InfoBase du GC</a>.</p>
  </section>
  <section>
   <h4 id="toc02-1-9">Résumé des changements apportés au cadre d'établissement de rapport depuis l'année dernière</h4>
@@ -555,7 +555,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
       <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses ministérielles de [insérez l'exercice] à [insérez l'exercice]</strong></figcaption>
       <p>Le graphique ci-dessous présente les dépenses prévues (dépenses votées et législatives) au fil du temps. </p>
       <p>[Accédez au <a href="https://www.gcpedia.gc.ca/gcwiki/images/5/5f/2024-2025_DP_Departmental_Spending_Trend_Graph_Template_%28FR%29.xlsx">modèle  de graphique à barres</a> sur GCpédia]</p>
-<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle du graphique [numéro]</summary>
