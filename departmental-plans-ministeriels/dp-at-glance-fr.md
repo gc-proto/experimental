@@ -12,8 +12,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
 <div class="mwsgeneric-base-html parbase section">
   <p>Un plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices. </p>
 <ul>
-    <li><a href="#">Vision, mission, raison d'être et contexte opérationnel</a></li>
-    <li><a href="#">Lettre de mandat du ministre</a></li>
+    <li><a href="#">Vision, mission, raison d'être et contexte opérationnel </a></li>
+    <li><a href="#">Lettre de mandat du ministre </a></li>
   </ul> 
 
  
@@ -23,7 +23,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
   </section>
   <section>
     <h2>Principales priorités</h2>
-    <p>[Insérez la liste à puces trouvée dans le rapport principal qui se trouve sous la section « Principales priorités » sous « Aperçu de nos plans ».] </p>
+    <p>[Insérez le texte de la section « Priorités clés » du gabarit Word]</p>
 </section>
   <section>
     <h2>Recentrer les dépenses gouvernementales</h2>
@@ -31,78 +31,73 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
 </section>
   <section>
     <h2>Faits saillants </h2>
-    <p>Un cadre  ministériel des résultats comprend les responsabilités essentielles d'une organisation, les  résultats qu'elle  prévoit atteindre et les indicateurs de rendement qui mesurent les progrès  vers ces résultats.</p>
-    <p>[Répétez ce qui suit pour chaque  responsabilité essentielle.]</p>
+    <p>Un cadre ministériel des résultats comprend les responsabilités essentielles d'une organisation, les résultats qu'elle prévoit atteindre et les indicateurs de rendement qui mesurent les progrès vers ces résultats.</p>
 <section id="cores"> <div class="btn-group mrgn-bttm-md">
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Agrandir tout</button>
+<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
 </div>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la responsabilité essentielle 1</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la 1re responsabilité essentielle</summary>
         <section>
           <h4>Résultats ministériels :</h4>
-          <p>[Insérez une liste à puces de tous les résultats ministériels pour la responsabilité essentielle, conformément au Cadre ministériel des résultats approuvé.]</p>
+          <p>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</p>
         </section>
         <section>
-          <h4>Dépenses prévues :</h4>
-          <p>[Insérez les dépenses prévues pour cette responsabilité essentielle pour 2024-2025.]</p>
+          <h4>Dépenses prévues : [Insérez les dépenses prévues] </h4>
+          <p>Ressources humaines prévues : [Insérez le nombre d’équivalents temps plein] </p>
         </section>
         <section>
-          <h4>Ressources humaines prévues :</h4>
-          <p>[Insérez le nombre d'équivalents à temps plein pour cette responsabilité essentielle pour 2024-2025.]</p>
-          <p>[Insérez un résumé des plans de votre organisation pour la responsabilité essentielle. Ce résumé doit être autonome et bref. Les lecteurs peuvent lire les détails par sections de responsabilité essentielle pour plus de détails.]</p>
-<p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] [hyperlien vers la section] peuvent être trouvés dans le plan ministériel complet.</p>
+          <h4>Plans pour atteindre les résultats :</h4>
+          <p>[Insérez un résumé des plans de l’organisation pour atteindre les résultats]</p>
+<p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] peuvent être trouvés dans le plan ministériel complet.</p>
         </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la responsabilité essentielle 2</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la 2e responsabilité essentielle</summary>
         <section>
           <h4>Résultats ministériels :</h4>
-          <p>[Insérez une liste à puces de tous les résultats ministériels pour la responsabilité essentielle, conformément au Cadre ministériel des résultats approuvé.]</p>
+          <p>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</p>
         </section>
         <section>
-          <h4>Dépenses prévues :</h4>
-          <p>[Insérez les dépenses prévues pour cette responsabilité essentielle pour 2024-2025.]</p>
+          <h4>Dépenses prévues : [Insérez les dépenses prévues] </h4>
+          <p>Ressources humaines prévues : [Insérez le nombre d’équivalents temps plein] </p>
         </section>
         <section>
-          <h4>Ressources humaines prévues :</h4>
-          <p>[Insérez le nombre d'équivalents à temps plein pour cette responsabilité essentielle pour 2024-2025.]</p>
-          <p>[Insérez un résumé des plans de votre organisation pour la responsabilité essentielle. Ce résumé doit être autonome et bref. Les lecteurs peuvent lire les détails par sections de responsabilité essentielle pour plus de détails.]</p>
-<p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] [hyperlien vers la section] peuvent être trouvés dans le plan ministériel complet.</p>
+          <h4>Plans pour atteindre les résultats :</h4>
+          <p>[Insérez un résumé des plans de l’organisation pour atteindre les résultats]</p>
+<p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] peuvent être trouvés dans le plan ministériel complet.</p>
         </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la responsabilité essentielle 3</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la 3e responsabilité essentielle</summary>
         <section>
           <h4>Résultats ministériels :</h4>
-          <p>[Insérez une liste à puces de tous les résultats ministériels pour la responsabilité essentielle, conformément au Cadre ministériel des résultats approuvé.]</p>
+          <p>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</p>
         </section>
         <section>
-          <h4>Dépenses prévues :</h4>
-          <p>[Insérez les dépenses prévues pour cette responsabilité essentielle pour 2024-2025.]</p>
+          <h4>Dépenses prévues : [Insérez les dépenses prévues] </h4>
+          <p>Ressources humaines prévues : [Insérez le nombre d’équivalents temps plein] </p>
         </section>
         <section>
-          <h4>Ressources humaines prévues :</h4>
-          <p>[Insérez le nombre d'équivalents à temps plein pour cette responsabilité essentielle pour 2024-2025.]</p>
-          <p>[Insérez un résumé des plans de votre organisation pour la responsabilité essentielle. Ce résumé doit être autonome et bref. Les lecteurs peuvent lire les détails par sections de responsabilité essentielle pour plus de détails.]</p>
-<p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] [hyperlien vers la section] peuvent être trouvés dans le plan ministériel complet.</p>
+          <h4>Plans pour atteindre les résultats :</h4>
+          <p>[Insérez un résumé des plans de l’organisation pour atteindre les résultats]</p>
+<p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] peuvent être trouvés dans le plan ministériel complet.</p>
         </section>
       </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la responsabilité essentielle 4</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la 4e responsabilité essentielle</summary>
         <section>
           <h4>Résultats ministériels :</h4>
-          <p>[Insérez une liste à puces de tous les résultats ministériels pour la responsabilité essentielle, conformément au Cadre ministériel des résultats approuvé.]</p>
+          <p>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</p>
         </section>
         <section>
-          <h4>Dépenses prévues :</h4>
-          <p>[Insérez les dépenses prévues pour cette responsabilité essentielle pour 2024-2025.]</p>
+          <h4>Dépenses prévues : [Insérez les dépenses prévues] </h4>
+          <p>Ressources humaines prévues : [Insérez le nombre d’équivalents temps plein] </p>
         </section>
         <section>
-          <h4>Ressources humaines prévues :</h4>
-          <p>[Insérez le nombre d'équivalents à temps plein pour cette responsabilité essentielle pour 2024-2025.]</p>
-          <p>[Insérez un résumé des plans de votre organisation pour la responsabilité essentielle. Ce résumé doit être autonome et bref. Les lecteurs peuvent lire les détails par sections de responsabilité essentielle pour plus de détails.]</p>
-<p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] [hyperlien vers la section] peuvent être trouvés dans le plan ministériel complet.</p>
+          <h4>Plans pour atteindre les résultats :</h4>
+          <p>[Insérez un résumé des plans de l’organisation pour atteindre les résultats]</p>
+<p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] peuvent être trouvés dans le plan ministériel complet.</p>
         </section>
       </details>
     </section>
