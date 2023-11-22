@@ -8,6 +8,7 @@ language: fr
 layout: default
 title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œil"
 ---
+
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>Un plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices. </p>
