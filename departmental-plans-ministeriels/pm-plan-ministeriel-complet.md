@@ -8,6 +8,7 @@ language: fr
 layout: default
 title: "Plan ministériel de [nom du ministère] pour [exercice]"
 ---
+
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
 
