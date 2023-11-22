@@ -20,7 +20,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
  
   <div class="clearfix"></div>
   <section class="mrgn-tp-lg">
-    <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page-fr.html" class="btn btn-primary btn-lg">Lisez le plan ministériel complet</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </p>
+    <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html" class="btn btn-primary btn-lg">Lisez le plan ministériel complet</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </p>
   </section>
   <section>
     <h2>Principales priorités</h2>
