@@ -49,8 +49,8 @@ title: "Plans ministériels"
     <h2 id="toc04">Comment mettre en œuvre le gabarit</h2>
     <p>Copiez le  code des exemples&nbsp;:</p>
 <ul>
-      <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-at-glance-fr.md">Code de la page Aperçu</a></li>
-      <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-full-page-fr.md">Code de la page Plan intégral</a></li>
+      <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code de la page Aperçu</a></li>
+      <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministerielspm-plan-ministeriel-complet.md">Code de la page Plan intégral</a></li>
     </ul>
     <p>Publiez et déposez le  contenu&nbsp;:</p><ol>
       <li>Sauvegardez  les deux pages en format PDF.</li>
