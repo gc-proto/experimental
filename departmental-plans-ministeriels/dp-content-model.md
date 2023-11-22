@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model-fr.html"
+altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-modele-de-contenu.html"
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
