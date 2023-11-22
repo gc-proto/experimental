@@ -33,7 +33,7 @@ title: "Plans ministériels"
   <section>
     <h2 id="toc03">Contenu et conception</h2>
     <p>La  présentation des plans ministériels se fait sur 2&nbsp;pages. Chaque page s&rsquo;adresse  à un public ayant différents niveaux d&rsquo;expertise. </p>
-<p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2021.E2.80.9322_Departmental_Results_Report">Gabarits pour les rédacteurs de contenu</a> (disponible sur GCpédia)</p>
+<p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/gcwiki/index.php?title=Portail_de_la_Partie_III_du_Budget_des_d%C3%A9penses&redirect=no">Gabarits pour les rédacteurs de contenu</a> (disponible sur GCpédia)</p>
 <section>
       <h3>Page Aperçu</h3>
       <p>Fournit un  résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a  pas nécessairement une connaissance approfondie des finances ou des activités  de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception.</p><p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance-fr.html" role="button">Prévisualiser la page Aperçu</a></p>
