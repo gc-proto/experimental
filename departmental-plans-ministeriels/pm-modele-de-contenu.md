@@ -37,12 +37,12 @@ title: "Plans ministériels"
 <p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/gcwiki/index.php?title=Portail_de_la_Partie_III_du_Budget_des_d%C3%A9penses&redirect=no">Gabarits pour les rédacteurs de contenu</a> (disponible sur GCpédia)</p>
 <section>
       <h3>Page Aperçu</h3>
-      <p>Fournit un  résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a  pas nécessairement une connaissance approfondie des finances ou des activités  de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception.</p><p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance-fr.html" role="button">Prévisualiser la page Aperçu</a></p>
+      <p>Fournit un  résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a  pas nécessairement une connaissance approfondie des finances ou des activités  de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception.</p><p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html" role="button">Prévisualiser la page Aperçu</a></p>
     </section>
     <section>
       <h3>Page Plan intégral</h3>
       <p>Fournit  tous les détails du plan ministériel de l&rsquo;organisation. Le gabarit pour les  plans ministériels utilise des en-têtes et des éléments de conception  normalisés.</p>
-<p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page-fr.html" role="button">Prévisualiser la page Plan intégral</a></p>
+<p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html" role="button">Prévisualiser la page Plan intégral</a></p>
     </section>
   </section>
   <section>
