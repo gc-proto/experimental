@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-10-18
+dateModified: 2023-11-22
 language: fr
 layout: default
 title: "Plan ministériel de [nom du ministère] pour [exercice]"
