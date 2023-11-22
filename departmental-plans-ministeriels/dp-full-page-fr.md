@@ -50,8 +50,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <figure> 
   <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>The Honourable [Name of Minister]</strong></p>
-  <p>[Job title]</p> 
+  <p class="mrgn-bttm-0"><strong>L’honorable [nom du ministre]</strong></p>
+  <p>[Titre d’emploi]</p> 
   </figcaption> 
  </figure> 
  </div>
@@ -64,8 +64,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>The Honourable [Institutional Head name]</strong></p>
-  <p>[Job title]</p> 
+  <p class="mrgn-bttm-0"><strong>L’honorable [nom du directeur de l’organisation]</strong></p>
+  <p>[Titre d’emploi]</p> 
   </figcaption> 
  </figure> 
  </div>
