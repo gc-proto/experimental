@@ -65,7 +65,7 @@ title: "Departmental Plans"
       <ol class="lst-lwr-rmn">
         <li>re-Use  last year&rsquo;s ISSN and Catalogue numbers unless the title has changed</li>
         <li>if  you require a new ISSN you can <a href="https://issn.bac-lac.canada.ca/eng/requests/publication">make a request with LAC</a></li>
-        <li>if  you require a new Catalogue number you can <a href="https://publications.gc.ca/site/eng/isbn/apply.html;jsessionid=BA391320B9AD7E990EF86A2326C83919?execution=e1s1">request one for  Publications.ca</a></li>
+        <li>if  you require a new Catalogue number you can <a href="https://publications.gc.ca/site/eng/isbn/apply.html?execution=e1s1">request one for  Publications.ca</a></li>
       </ol></li>
         <li>share the  links and a copy of the PDF with the content owner of the Departmental Plan.  They will package for tabling.</li>
     </ol>
