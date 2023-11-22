@@ -8,6 +8,7 @@ language: fr
 layout: default
 title: "Plans ministériels"
 ---
+
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>Last updated: 2023-11-16 </p>
