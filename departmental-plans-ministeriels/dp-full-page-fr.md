@@ -101,7 +101,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <li><a href="#toc02-1-6">Aperçu des ressources prévues en [insérez l'exercice]</a></li>
   <li><a href="#toc02-1-7">Priorités gouvernementales connexes</a></li>
   <li><a href="#toc02-1-8">Répertoire des programmes</a></li>
-  <li><a href="#toc02-1-9">Summary of changes to reporting framework since last year</a></li>
+  <li><a href="#toc02-1-9">Résumé des changements apportés au cadre d'établissement de rapport depuis l'année dernière</a></li>
   </ul>
  </details>
  </li>
@@ -842,7 +842,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <section>
  <h2 id="toc06">Dépenses fiscales fédérales</h2>
  <p>Le plan  ministériel de [nom du ministère] ne comprend pas de renseignements sur les dépenses  fiscales. </p>
- <p>Les mesures  fiscales relèvent du ministre des Finances. Le ministère des Finances Canada  publie chaque année des estimations et des projections du coût des dépenses  fiscales fédérales dans le <a href="/content/canadasite/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport sur les dépenses fiscales fédérales</a>.</p>
+ <p>Les mesures  fiscales relèvent du ministre des Finances. Le ministère des Finances Canada  publie chaque année des estimations et des projections du coût des dépenses  fiscales fédérales dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport sur les dépenses fiscales fédérales</a>.</p>
  <p>Ce rapport  fournit aussi des renseignements généraux détaillés sur les dépenses fiscales,  y compris les objectifs, les renseignements historiques et les renvois aux  programmes des dépenses fédéraux connexes, ainsi que sur les évaluations  fiscales, les rapports de recherche et les analyses comparatives entre les  sexes plus. </p>
 </section>
 <section>
