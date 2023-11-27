@@ -59,8 +59,8 @@ title: "Departmental Plans"
       <li>save  both pages as PDFs </li>
       <li>consolidate  documents into a single PDF file</li>
       <li>Add  a page number to bottom right of all PDF pages </li>
-      <li>add  a cover page that includes a title and date published</li>
-      <li>add  the copyright information, ISSN, and Catalogue Number to the expand collapse  &lsquo;Copyright&rsquo; section of the Full plan page </li>
+      <li>add  a cover page that includes a title, date published, ISSN, and Catalogue Number</li>
+      <li>add  the copyright information to the expand collapse  &lsquo;Copyright&rsquo; section of the Full plan page </li>
       <li>for  ISSN and Catalogue numbers:
       <ol class="lst-lwr-rmn">
         <li>re-Use  last year&rsquo;s ISSN and Catalogue numbers unless the title has changed</li>
