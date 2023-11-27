@@ -43,7 +43,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </section>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
   <summary class="wb-toggle" data-toggle='{"print":"on"}'>Informations sur le droit d’auteur</summary>
-  <p>[Indiquez les informations relatives au droit d&rsquo;auteur, l&rsquo;ISSN et le  numéro de catalogue. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-modele-de-contenu.html">le gabarit des Plans  ministériels</a>]</p>
+  <p>[Indiquez les informations relatives au droit d&rsquo;auteur. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-modele-de-contenu.html">le gabarit des Plans  ministériels</a>]</p>
 </details>
 <section>
  <h2 id="toc01">De la part du ministre</h2>
