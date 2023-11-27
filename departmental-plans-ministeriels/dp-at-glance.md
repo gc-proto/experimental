@@ -22,15 +22,15 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
   <section class="mrgn-tp-lg">
     <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html" class="btn btn-primary btn-lg">Read the full departmental plan</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </p>
   </section>
-  <section>
+  <section class="mrgn-tp-lg">
     <h2>Key priorities</h2>
     <p>[Insert text from 'key priorities' section of the word template]</p>
 </section>
-  <section>
+  <section class="mrgn-tp-lg">
     <h2>Refocusing Government Spending </h2>
     <p>[Insert text from the 'refocusing government spending' section of the word template]</p>
       </section>
-  <section>
+  <section class="mrgn-tp-lg mrgn-bttm-lg"> <!-- Add spacing to bottom for last section -->
     <h2>Highlights </h2>
     <p>A Departmental Results Framework consists of an organization&rsquo;s&nbsp;core responsibilities, the  results it plans  to achieve, and the&nbsp;performance indicators&nbsp;that measure progress toward these  results.</p>
    <section id="cores"> <div class="btn-group mrgn-bttm-md">
