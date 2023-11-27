@@ -22,15 +22,15 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
   <section class="mrgn-tp-lg">
     <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html" class="btn btn-primary btn-lg">Lisez le plan ministériel complet</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </p>
   </section>
-  <section>
+  <section class="mrgn-tp-lg">
     <h2>Principales priorités</h2>
     <p>[Insérez le texte de la section « Priorités clés » du gabarit Word]</p>
 </section>
-  <section>
+  <section class="mrgn-tp-lg">
     <h2>Recentrer les dépenses gouvernementales</h2>
     <p>[Insérez le texte de la section «  Recentrer les dépenses gouvernementales » du gabarit Word]</p>
 </section>
-  <section>
+  <section class="mrgn-tp-lg mrgn-bttm-lg"> <!-- Add spacing to bottom for last section -->
     <h2>Faits saillants </h2>
     <p>Un cadre ministériel des résultats comprend les responsabilités essentielles d'une organisation, les résultats qu'elle prévoit atteindre et les indicateurs de rendement qui mesurent les progrès vers ces résultats.</p>
 <section id="cores"> <div class="btn-group mrgn-bttm-md">
