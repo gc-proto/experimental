@@ -56,8 +56,8 @@ title: "Plans ministériels"
       <li>Sauvegardez  les deux pages en format PDF.</li>
       <li>Regroupez les  deux documents en un seul fichier PDF.</li>
       <li>Ajoutez le  numéro de page dans le bas droit de toutes les pages PDF.</li>
-      <li>Ajoutez une  page de présentation qui comprend le titre, la date de publication, le numéro de série  international normalisé&nbsp;(ISSN) et un numéro de catalogue dans la section intitulée&nbsp;«&nbsp;Droit  d&rsquo;auteur&nbsp;»,.</li>
-      <li>Ajoutez l&rsquo;information sur le droit d&rsquo;auteur qui peut être réduite ou développée, de la page du Plan  intégral.</li>
+      <li>Ajoutez une  page de présentation qui comprend le titre, la date de publication, le numéro de série  international normalisé&nbsp;(ISSN) et un numéro de catalogue.</li>
+      <li>Ajoutez l&rsquo;information sur le droit d&rsquo;auteur qui peut être réduite ou développée, dans la section intitulée&nbsp;«&nbsp;Droit  d&rsquo;auteur&nbsp;», de la page du Plan  intégral.</li>
       <li>Pour les  numéros ISSN et de catalogue&nbsp;:
         <ol class="lst-lwr-rmn">
           <li>Réutilisez les  numéros ISSN et de catalogue de l&rsquo;année dernière, sauf si le titre a changé.</li>
