@@ -50,7 +50,7 @@ title: "Plans ministériels"
     <p>Copiez le  code des exemples&nbsp;:</p>
 <ul>
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code de la page Aperçu</a></li>
-      <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministerielspm-plan-ministeriel-complet.md">Code de la page Plan intégral</a></li>
+      <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-plan-ministeriel-comple.md">Code de la page Plan intégral</a></li>
     </ul>
     <p>Publiez et déposez le  contenu&nbsp;:</p><ol>
       <li>Sauvegardez  les deux pages en format PDF.</li>
