@@ -3,12 +3,11 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-11-22
+dateModified: 2023-10-18
 language: fr
 layout: default
 title: "Plan ministériel de [nom du ministère] pour [exercice]"
 ---
-
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
 
@@ -43,7 +42,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </section>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
   <summary class="wb-toggle" data-toggle='{"print":"on"}'>Informations sur le droit d’auteur</summary>
-  <p>[Indiquez les informations relatives au droit d&rsquo;auteur. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-modele-de-contenu.html">le gabarit des Plans  ministériels</a>]</p>
+  <p>[Indiquez les informations relatives au droit d&rsquo;auteur, l&rsquo;ISSN et le  numéro de catalogue. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model-fr.html">le gabarit des Plans  ministériels</a>]</p>
 </details>
 <section>
  <h2 id="toc01">De la part du ministre</h2>
@@ -51,8 +50,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <figure> 
   <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>L’honorable [nom du ministre]</strong></p>
-  <p>[Titre d’emploi]</p> 
+  <p class="mrgn-bttm-0"><strong>The Honourable [Name of Minister]</strong></p>
+  <p>[Job title]</p> 
   </figcaption> 
  </figure> 
  </div>
@@ -65,8 +64,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>L’honorable [nom de l'administrateur général]</strong></p>
-  <p>[Titre d’emploi]</p> 
+  <p class="mrgn-bttm-0"><strong>The Honourable [Institutional Head name]</strong></p>
+  <p>[Job title]</p> 
   </figcaption> 
  </figure> 
  </div>
@@ -292,15 +291,15 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <h3 id="toc03-1">Dépenses</h3>
  <p>[Insérez une introduction aux dépenses]</p>
 <section>
-  <figure id="toc03-fig1">
+  <figure id="fig1">
    <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
    <p>[Insérez le <a href="https://www.gcpedia.gc.ca/gcwiki/images/a/a4/Pie_chart_template_-_FR.xlsx">tableau  récapitulatif facultatif disponible sur GCPédia</a>]</p>
-
+<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle de la figure [numéro]</summary>
+    <summary id="fig1-text" class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle de la figure [numéro]</summary>
 
     <div class="table-responsive">
-     <table id="fig-tbl1" class="table table-bordered table-condensed">
+     <table class="table table-bordered table-condensed">
      <thead>
       <tr class="active">
      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes  </div></th>
@@ -552,17 +551,17 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  
  <section>
   <h3 id="toc03-2">Financement</h3>
-   <section><figure id="toc03-fig2">
+   <section><figure id="fig2">
       <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses ministérielles de [insérez l'exercice] à [insérez l'exercice]</strong></figcaption>
       <p>Le graphique ci-dessous présente les dépenses prévues (dépenses votées et législatives) au fil du temps. </p>
       <p>[Accédez au <a href="https://www.gcpedia.gc.ca/gcwiki/images/5/5f/2024-2025_DP_Departmental_Spending_Trend_Graph_Template_%28FR%29.xlsx">modèle  de graphique à barres</a> sur GCpédia]</p>
-<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
+<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle du graphique [numéro]</summary>
+        <summary id="fig2-text" class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle du graphique [numéro]</summary>
 
         <div class="table-responsive">
-         <table id="fig-tbl2" class="table table-bordered table-condensed">
+         <table class="table table-bordered table-condensed">
           <thead>
            <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Exercice</div></th>
