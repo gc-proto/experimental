@@ -42,7 +42,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </section>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
   <summary class="wb-toggle" data-toggle='{"print":"on"}'>Informations sur le droit d’auteur</summary>
-  <p>[Indiquez les informations relatives au droit d&rsquo;auteur, l&rsquo;ISSN et le  numéro de catalogue. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model-fr.html">le gabarit des Plans  ministériels</a>]</p>
+  <p>[Indiquez les informations relatives au droit d&rsquo;auteur, l&rsquo;ISSN et le  numéro de catalogue. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-modele-de-contenu.html">le gabarit des Plans  ministériels</a>]</p>
 </details>
 <section>
  <h2 id="toc01">De la part du ministre</h2>
@@ -59,7 +59,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <div class="clearfix"></div>
 </section>
 <section>
- <h2 id="toc01b">De la part de l'administrateur général (facultatif*)</h2>
+ <h2 id="toc01b">De la part de l'administrateur général</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
