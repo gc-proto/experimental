@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-10-18
+dateModified: 2023-11-28
 language: fr
 layout: default
 title: "Plan ministériel de [nom du ministère] pour [exercice]"
@@ -45,7 +45,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <p>[Indiquez les informations relatives au droit d&rsquo;auteur, l&rsquo;ISSN et le  numéro de catalogue. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model-fr.html">le gabarit des Plans  ministériels</a>]</p>
 </details>
 <section>
- <h2 id="toc01">De la part du ministre</h2>
+ <h2 id="toc01">De la part du ministre (facultatif*)</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
  <figure> 
   <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
@@ -294,7 +294,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
    <p>[Insérez le <a href="https://www.gcpedia.gc.ca/gcwiki/images/a/a4/Pie_chart_template_-_FR.xlsx">tableau  récapitulatif facultatif disponible sur GCPédia</a>]</p>
-<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
+<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.jpg" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary id="fig1-text" class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle de la figure [numéro]</summary>
 
@@ -555,7 +555,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
       <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses ministérielles de [insérez l'exercice] à [insérez l'exercice]</strong></figcaption>
       <p>Le graphique ci-dessous présente les dépenses prévues (dépenses votées et législatives) au fil du temps. </p>
       <p>[Accédez au <a href="https://www.gcpedia.gc.ca/gcwiki/images/5/5f/2024-2025_DP_Departmental_Spending_Trend_Graph_Template_%28FR%29.xlsx">modèle  de graphique à barres</a> sur GCpédia]</p>
-<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
+<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.jpg" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary id="fig2-text" class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle du graphique [numéro]</summary>
