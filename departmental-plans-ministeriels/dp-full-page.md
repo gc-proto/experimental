@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html"
+altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page-fr.html"
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
@@ -42,7 +42,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&#160;Print this page</a> </section>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Copyright information</summary>
- <p>[Include copyright information. Instructions on how to prepare the report for tabling is available in the <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model.html">template for Departmental Plans</a>]</p>
+ <p>[Include copyright information, ISSN and catalogue number. Instructions on how to prepare the report for tabling is available in the <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model.html">template for Departmental Plans</a>]</p>
 </details>
 <section>
  <h2 id="toc01">From the Minister</h2>
@@ -57,7 +57,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </div>
  <p>[Insert text from the &#8220;From the Minister&#8221; section of the word template]</p><div class="clearfix"></div>
 </section>
-<section>
+<section> <!-- Optional section, delete if not required -->
  <h2 id="toc01b">From the Institutional Head (*optional)</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
  <figure> 
@@ -287,14 +287,15 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <h3 id="toc03-1">Spending</h3>
  <p>[Insert an introduction to spending]</p>
 <section>
-  <figure id="toc03-fig1">
+  <figure id="fig1">
    <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
    <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>]</p>
+      <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
+    <summary id="fig1-text" class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
 
     <div class="table-responsive">
-     <table id="fig-tbl1" class="table table-bordered table-condensed">
+     <table class="table table-bordered table-condensed">
      <thead>
       <tr class="active">
      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -545,17 +546,17 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  
  <section>
   <h3 id="toc03-2">Funding</h3>
-   <section><figure id="toc03-fig2">
+   <section><figure id="fig2">
       <figcaption class="text-left h4"><strong>Figure [#]: Departmental spending [insert fiscal year] to [insert fiscal year]</strong></figcaption>
       <p>The following graph presents planned spending (voted and statutory expenditures) over time. </p>
       <p>[Access the <a href="https://www.gcpedia.gc.ca/gcwiki/images/b/b1/2024-25_Departmental_Spending_Graph_Template_-_EN.xlsx">bar graph template on GCPedia</a>]</p>
-      <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/figure.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+      <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
+        <summary id="fig2-text" class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
 
         <div class="table-responsive">
-         <table id="fig-tbl2" class="table table-bordered table-condensed">
+         <table class="table table-bordered table-condensed">
           <thead>
            <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Fiscal year</div></th>
