@@ -45,7 +45,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <p>[Indiquez les informations relatives au droit d&rsquo;auteur, l&rsquo;ISSN et le  numéro de catalogue. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model-fr.html">le gabarit des Plans  ministériels</a>]</p>
 </details>
 <section>
- <h2 id="toc01">De la part du ministre (facultatif*)</h2>
+ <h2 id="toc01">De la part du ministre</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
  <figure> 
   <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
@@ -59,7 +59,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <div class="clearfix"></div>
 </section>
 <section>
- <h2 id="toc01b">De la part de l'administrateur général</h2>
+ <h2 id="toc01b">De la part de l'administrateur général (facultatif*)</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
