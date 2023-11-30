@@ -294,7 +294,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
    <p>[Insérez le <a href="https://www.gcpedia.gc.ca/gcwiki/images/a/a4/Pie_chart_template_-_FR.xlsx">tableau  récapitulatif facultatif disponible sur GCPédia</a>]</p>
-<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.jpg" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
+<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary id="fig1-text" class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle de la figure [numéro]</summary>
 
@@ -555,7 +555,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
       <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses ministérielles de [insérez l'exercice] à [insérez l'exercice]</strong></figcaption>
       <p>Le graphique ci-dessous présente les dépenses prévues (dépenses votées et législatives) au fil du temps. </p>
       <p>[Accédez au <a href="https://www.gcpedia.gc.ca/gcwiki/images/5/5f/2024-2025_DP_Departmental_Spending_Trend_Graph_Template_%28FR%29.xlsx">modèle  de graphique à barres</a> sur GCpédia]</p>
-<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.jpg" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
+<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary id="fig2-text" class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle du graphique [numéro]</summary>
