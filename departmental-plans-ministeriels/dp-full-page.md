@@ -290,7 +290,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
    <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>]</p>
-      <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.jpg" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+      <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary id="fig1-text" class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
 
@@ -550,7 +550,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       <figcaption class="text-left h4"><strong>Figure [#]: Departmental spending [insert fiscal year] to [insert fiscal year]</strong></figcaption>
       <p>The following graph presents planned spending (voted and statutory expenditures) over time. </p>
       <p>[Access the <a href="https://www.gcpedia.gc.ca/gcwiki/images/b/b1/2024-25_Departmental_Spending_Graph_Template_-_EN.xlsx">bar graph template on GCPedia</a>]</p>
-      <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.jpg" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+      <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary id="fig2-text" class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
