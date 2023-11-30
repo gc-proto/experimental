@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-11-16
+dateModified: 2023-11-30
 language: en
 layout: default
 title: "Departmental Plans"
@@ -11,7 +11,7 @@ title: "Departmental Plans"
 
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
-  <p>Last updated: 2023-11-16 </p>
+  <p>Last updated: 2023-11-30</p>
   <p>[Pattern description] - Departmental Plans describe a department&rsquo;s spending plan for the next fiscal year. This template provides a consistent layout, heading structure, web design, accessible tables, and plain language.</p>
   <section>
     <h2>On this page</h2>
@@ -87,16 +87,3 @@ title: "Departmental Plans"
   </section>
 </div>
 
-<section class="pagedetails">
-  <h2 class="wb-inv">Page details</h2>
-  <div class="row">
-    <div class="col-sm-8 col-md-9 col-lg-9">
-      <div data-ajax-replace="/content/canadasite/en/reportaproblem/feedbacktool/jcr:content/par/mwsgeneric_base_html.html">
-        <div class="row row-no-gutters">
-          <div class="col-sm-9 col-md-6 col-lg-5"> <a class="btn btn-default btn-block" href="https://www.canada.ca/en/report-problem.html">Report a problem on this page</a> </div>
-        </div>
-      </div>
-    </div>
-    <div class="wb-share col-sm-4 col-md-3" data-wb-share='{&#34;lnkClass&#34;: &#34;btn btn-default btn-block&#34;}'></div>
-  </div>
-</section>
