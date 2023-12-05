@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-11-28
+dateModified: 2023-12-05
 language: fr
 layout: default
 title: "Plan ministériel de [nom du ministère] pour [exercice]"
@@ -40,8 +40,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </ul>
 </section>
 <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </section>
-<details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Informations sur le droit d’auteur</summary>
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Informations sur le droit d’auteur</summary>
   <p>[Indiquez les informations relatives au droit d&rsquo;auteur, l&rsquo;ISSN et le  numéro de catalogue. Des instructions sur la manière de préparer le rapport  pour le dépôt sont présentées dans <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-modele-de-contenu.html">le gabarit des Plans  ministériels</a>]</p>
 </details>
 <section>
@@ -59,7 +59,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <div class="clearfix"></div>
 </section>
 <section>
- <h2 id="toc01b">De la part de l'administrateur général</h2>
+ <h2 id="toc01b">De la part de l'administrateur général (facultatif*)</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
@@ -90,8 +90,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <h3 id="toc02-1">[Nom de la responsabilité essentielle]</h3>
  <ul class="list-unstyled">
   <li>
- <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Dans la présente section</summary>
+ <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
   <ul>
   <li><a href="#toc02-1-1">Description</a></li>
   <li><a href="#toc02-1-2">Répercussions sur la qualité de vie</a></li>
@@ -190,12 +190,12 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </div></section>
  <section>
   <h4 id="toc02-1-7">Priorités gouvernementales connexes</h4>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Analyse comparative entre les sexes plus</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse comparative entre les sexes plus</summary>
   <p>[Texte dans la section « Analyse comparative entre les sexes plus », si inclus]</p>
   </details>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Programme de développement durable à l'horizon 2030 des Nations Unies et objectifs de développement durable des Nations Unies</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l'horizon 2030 des Nations Unies et objectifs de développement durable des Nations Unies</summary>
   <p>[Texte figurant dans le « Programme de développement durable à l'horizon 2030 des Nations Unies et les objectifs de développement durable des Nations Unies », s'il est inclus] </p>
   </details>
  </section>
@@ -218,8 +218,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <h3 id="toc02-5">Services internes</h3>
  <ul class="list-unstyled">
   <li>
- <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Dans la présente section</summary>
+ <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
   <ul>
   <li><a href="#toc02-5-1">Description</a></li>
   <li><a href="#toc02-5-2">Plans visant à atteindre les cibles</a></li>
@@ -265,8 +265,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  </section>
  <section>
   <h4 is="toc02-5-4">Priorités gouvernementales connexes</h4>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Planification de l'attribution des marchés aux entreprises autochtones</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Planification de l'attribution des marchés aux entreprises autochtones</summary>
   <p>[Texte dans la section « Planification de l'attribution des marchés aux entreprises autochtones »] </p>
   </details>
  </section>
@@ -276,8 +276,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <h2 id="toc03">Dépenses et ressources humaines prévues</h2>
  <p>[Insérez le texte et les montants de la section « Dépenses et ressources humaines prévues » du gabarit Word]</p><ul class="list-unstyled">
  <li>
- <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
- <summary class="wb-toggle" data-toggle='{"print":"on"}'>Dans la présente section</summary>
+ <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+ <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
  <ul>
  <li><a href="#toc03-1">Dépenses</a></li>
  <li><a href="#toc03-2">Financement</a></li>
@@ -295,8 +295,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
    <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
    <p>[Insérez le <a href="https://www.gcpedia.gc.ca/gcwiki/images/a/a4/Pie_chart_template_-_FR.xlsx">tableau  récapitulatif facultatif disponible sur GCPédia</a>]</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
-<details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary id="fig1-text" class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle de la figure [numéro]</summary>
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
 
     <div class="table-responsive">
      <table class="table table-bordered table-condensed">
@@ -330,8 +330,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
      </tbody>
 </table></div>
    </details>
-   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explication de la figure [numéro]</summary>
+   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication de la figure [numéro]</summary>
 
     <p>[Veuillez inclure l'explication de la figure incluse dans la version Word]</p>
    </details>
@@ -400,8 +400,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </table></div>
 
   
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explication du tableau [numéro]</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
   <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
   </details>
   <p>[Assurez-vous que le contenu correspond à la section « Sommaire des dépenses réelles pour les responsabilités essentielles et les services internes (en dollars) » de la version Word] </p>
@@ -474,8 +474,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   </tbody>
   </table>
 </div>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explication du tableau [numéro]</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
   <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
   </details>
  </section>
@@ -541,8 +541,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
    </tbody>
    </table>
   </div>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explication du tableau [numéro]</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
   <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
   </details>
  </section>
@@ -557,8 +557,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
       <p>[Accédez au <a href="https://www.gcpedia.gc.ca/gcwiki/images/5/5f/2024-2025_DP_Departmental_Spending_Trend_Graph_Template_%28FR%29.xlsx">modèle  de graphique à barres</a> sur GCpédia]</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 
-      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary id="fig2-text" class="wb-toggle" data-toggle='{"print":"on"}'>Description textuelle du graphique [numéro]</summary>
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+        <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [numéro]</summary>
 
         <div class="table-responsive">
          <table class="table table-bordered table-condensed">
@@ -610,8 +610,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
           </tbody>
         </table></div>
       </details>
-      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explication de la figure [numéro]</summary>
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication de la figure [numéro]</summary>
 
         <p>[Veuillez inclure l'explication de la figure incluse dans la version Word]</p>
       </details>
@@ -660,8 +660,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  </tr>
 </tbody>
 </table></div>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-   <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explication du tableau [numéro]</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
    <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
   </details></section>
  </section>
@@ -729,8 +729,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
    </tbody>
   </table>
 </div>
-   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explication du tableau [numéro]</summary>
+   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
     <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
    </details>
   </section>
@@ -793,8 +793,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
       </tbody>
      </table>
     </div>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explication du tableau [numéro]</summary>
+    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
     <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
    </details>
   </section>
@@ -803,27 +803,26 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <section>
  <h2 id="toc04">Renseignements ministériels</h2>
   <div class="accordion">
-	<details class="acc-group">
-		<summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Profil organisationnel</summary>
+	<details class="acc-group print-open">
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Profil organisationnel</summary>
 		<div class="tgl-panel">
-		  <p>Ministre de  tutelle&nbsp;: [insérez le nom] <br>
-		    Administrateur  général&nbsp;: [insérez le nom] <br>
-		    Portefeuille  ministériel&nbsp;: [insérez les  renseignements] <br>
-		    Instruments  habilitants&nbsp;: [insérez les titres des  lois avec les hyperliens] <br>
-		    Année d'incorporation  ou de création&nbsp;: [insérez l'année] <br>
-		    Autres&nbsp;: [insérez d'autres renseignements] </p>
+            <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérez le nom]</p></section>
+			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérez le nom]</p></section>
+			<section><h3>Portefeuille  ministériel&nbsp;:</h3><p>[insérez les  renseignements]</p></section>
+			<section><h3>Instruments  habilitants&nbsp;:</h3><p>[insérez les titres des  lois avec les hyperliens]</p></section>
+			<section><h3>Année d'incorporation  ou de création&nbsp;:</h3><p>[insérez l'année]</p></section>
+			<section><h3>Autres&nbsp;:</h3><p>[insérez d'autres renseignements]</p></section>
 		</div>
 	</details>
-	<details class="acc-group">
-		<summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Coordonnées de l'organisation</summary>
+	<details class="acc-group print-open">
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Coordonnées de l'organisation</summary>
 		<div class="tgl-panel">
-			<p>Adresse postale <br>
-			  [Insérez l'adresse]<br>
-			  Téléphone&nbsp;: [insérez les numéros]<br>
-			  ATS&nbsp;: [insérez les numéros]<br>
-			  Télécopie&nbsp;: [insérez les numéros, le cas échéant] <br>
-			  Courriel&nbsp;: [insérez les adresses] <br>
-		    Sites Web&nbsp;: [insérez les URL] </p>
+			<section><h3>Adresse postale&nbsp;:</h3><p>[Insérez l'adresse]</p></section>
+			<section><h3>Téléphone&nbsp;:</h3><p>[insérez les numéros]</p></section>
+			<section><h3>ATS&nbsp;:</h3><p>[insérez les numéros]</p></section>
+			<section><h3>Télécopie&nbsp;:</h3><p>[insérez les numéros, le cas échéant]</p></section>
+			<section><h3>Courriel&nbsp;:</h3><p>[insérez les adresses]</p></section>
+			<section><h3>Sites Web&nbsp;:</h3><p>[insérez les URL]</p></section>
 </div>
 	</details>
 </div>
@@ -849,14 +848,57 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <h2 id="toc07">Définitions</h2>
  <p>[Pour  cette section, veuillez utiliser le texte qui se trouve dans la section «  Définition » du rapport principal] </p>
 
-<details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Liste de termes</summary>
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Liste de termes</summary>
   <dl>
-    <dt>[Terme]</dt>
-    <dd>[Définition du terme]</dd>
-    
-    <dt>[Terme]</dt>
-    <dd>[Définition du terme]</dd>
+    <dt>analyse comparative entre les sexes plus (ACS Plus) <span lang="en">(gender-based analysis plus [GBA Plus])</span></dt>
+<dd>Outil  analytique servant à faciliter l&rsquo;élaboration de politiques, de programmes et  d&rsquo;autres initiatives adaptés et inclusifs. L&rsquo;ACS Plus est un processus qui  consiste à déterminer qui est touché par la problématique ou par les  possibilités envisagées dans le cadre de l&rsquo;initiative, à déterminer comment  l&rsquo;initiative pourrait être adaptée pour répondre aux divers besoins des  personnes les plus touchées, à prévoir les obstacles qui empêchent d&rsquo;accéder à  l&rsquo;initiative ou d&rsquo;en bénéficier et à les atténuer. L&rsquo;ACS Plus est une analyse  intersectionnelle qui va au-delà des différences biologiques (sexe) et  socioculturelles (genre) pour tenir compte d&rsquo;autres facteurs, comme l&rsquo;âge, le  handicap, l&rsquo;éducation, l&rsquo;ethnicité, le statut économique, la géographie, la  langue, la race, la religion et l&rsquo;orientation sexuelle. </dd>
+<dt>cadre ministériel des résultats <span lang="en">(departmental results  framework)</span></dt>
+<dd>Cadre qui  comprend les responsabilités essentielles du ministère, les résultats  ministériels et les indicateurs de résultat ministériel. </dd>
+<dt>cible <span lang="en">(target)</span></dt>
+<dd>Niveau  mesurable du rendement ou du succès qu&rsquo;une organisation, un programme ou une  initiative prévoit atteindre dans un délai précis. Une cible peut être  quantitative ou qualitative. </dd>
+<dt>crédit <span lang="en">(appropriation)</span></dt>
+<dd>Autorisation  donnée par le Parlement d&rsquo;effectuer des paiements sur le Trésor. </dd>
+<dt>dépenses budgétaires <span lang="en">(budgetary expenditures)</span></dt>
+<dd>Dépenses de  fonctionnement et en capital; paiements de transfert à d&rsquo;autres ordres de  gouvernement, à des organisations ou à des particuliers; et paiements à des  sociétés d&rsquo;État. </dd>
+<dt>dépenses législatives <span lang="en">(statutory expenditures)</span></dt>
+<dd>Dépenses approuvées par le Parlement à la suite  de l&rsquo;adoption d&rsquo;une loi autre qu&rsquo;une loi de crédits. La loi précise les fins  auxquelles peuvent servir les dépenses et les conditions dans lesquelles elles  peuvent être effectuées. </dd>
+<dt>dépenses non budgétaires <span lang="en">(non budgetary expenditures)</span></dt>
+<dd>Recettes et décaissements nets au titre de  prêts, de placements et d&rsquo;avances, qui modifient la composition des actifs  financiers du gouvernement du Canada. </dd>
+<dt>dépenses prévues <span lang="en">(planned spending)</span></dt>
+<dd>En ce qui a  trait aux plans ministériels et aux rapports sur les résultats ministériels,  les dépenses prévues s&rsquo;entendent des montants présentés dans le Budget  principal des dépenses. </dd>
+<dt>dépenses votées <span lang="en">(voted expenditures)</span></dt>
+<dd>Dépenses  approuvées annuellement par le Parlement par une loi de crédits. Le libellé de  chaque crédit énonce les conditions selon lesquelles les dépenses peuvent être  effectuées. </dd>
+<dt>Entreprise autochtone</dt>
+<dd>Tel que  défini sur le <a href="https://services.sac-isc.gc.ca/REA-IBD">site Web de Services aux Autochtones Canada,</a> conformément à l&rsquo;engagement du  gouvernement du Canada selon lequel un objectif minimum obligatoire de 5&nbsp;%  de la valeur totale des marchés est attribué chaque année aux entreprises  autochtones. </dd>
+<dt>équivalent temps plein <span lang="en">(full time equivalent)</span></dt>
+<dd>Mesure  utilisée pour représenter une année-personne complète d&rsquo;un employé dans le  budget ministériel. Les équivalents temps plein sont calculés par un rapport  entre les heures de travail assignées et les heures normales de travail  prévues. Les heures normales sont établies dans les conventions collectives. </dd>
+<dt>indicateur de résultat ministériel <span lang="en">(departmental result  indicator)</span></dt>
+<dd>Facteur ou  variable qui présente une façon valide et fiable de mesurer ou de décrire les  progrès réalisés par rapport à un résultat ministériel. </dd>
+<dt>initiative horizontale <span lang="en">(horizontal initiative)</span></dt>
+<dd>Initiative dans le cadre de laquelle deux  organisations fédérales ou plus reçoivent du financement dans le but  d&rsquo;atteindre un résultat commun, souvent associé à une priorité du gouvernement. </dd>
+<dt>plan <span lang="en">(plan)</span></dt>
+<dd>Exposé des choix stratégiques qui montre  comment une organisation entend réaliser ses priorités et obtenir les résultats  connexes. De façon générale, un plan explique la logique qui sous-tend les  stratégies retenues et tend à mettre l&rsquo;accent sur des mesures qui se traduisent  par des résultats attendus. </dd>
+<dt>plan ministériel <span lang="en">(Departmental Plan)</span></dt>
+<dd>Document  énonçant les priorités, les programmes, les résultats attendus et les  ressources connexes requises d&rsquo;un ministère sur une période de trois ans qui  commence à l&rsquo;exercice indiqué dans le titre du document. Les plans ministériels  sont présentés au Parlement chaque printemps. </dd>
+<dt>priorités pangouvernementales <span lang="en">(government-wide priorities)</span></dt>
+<dd>Aux fins du  Plan ministériel 2024-2025, les priorités pangouvernementales sont les thèmes  généraux décrivant le programme du gouvernement dans le discours du Trône de  2021&nbsp;: bâtir un présent et un avenir plus sains; développer une économie  plus résiliente; mener une action climatique audacieuse; travailler plus fort  pour rendre les collectivités sécuritaires, défendre la diversité et  l&rsquo;inclusion; avancer plus rapidement sur la voie de la réconciliation; lutter  pour un monde plus sûr, plus juste et plus équitable. </dd>
+<dt>programme <span lang="en">(program)</span></dt>
+<dd>Services et activités, pris séparément ou en  groupe, ou une combinaison des deux, qui sont gérés ensemble au sein d&rsquo;un  ministère et qui portent sur un ensemble déterminé d&rsquo;extrants, de résultats ou  de niveaux de services. </dd>
+<dt>rapport sur les résultats ministériels <span lang="en">(Departmental  Results Report)</span></dt>
+<dd>Présentation  d&rsquo;information sur le rendement réel d&rsquo;un ministère au cours d&rsquo;un exercice par  rapport à ses plans, priorités et résultats attendus énoncés dans son plan  ministériel pour cet exercice. Les rapports sur les résultats ministériels sont  présentés au Parlement chaque automne. </dd>
+<dt>rendement <span lang="en">(performance)</span></dt>
+<dd>Utilisation  qu&rsquo;une organisation a faite de ses ressources en vue d&rsquo;obtenir ses résultats,  mesure dans laquelle ces résultats se comparent à ceux que l&rsquo;organisation  souhaitait obtenir, et mesure dans laquelle les leçons apprises ont été  cernées. </dd>
+<dt>répertoire des programmes <span lang="en">(program inventory)</span></dt>
+<dd>Compilation de l&rsquo;ensemble des programmes d&rsquo;un  ministère qui décrit la manière dont les ressources sont organisées pour  s&rsquo;acquitter des responsabilités essentielles du ministère et atteindre ses  résultats prévus. </dd>
+<dt>responsabilité essentielle <span lang="en">(core responsibility)</span></dt>
+<dd>Fonction ou  rôle permanent exercé par un ministère. Les intentions du ministère concernant  une responsabilité essentielle se traduisent par un ou plusieurs résultats  ministériels auxquels le ministère cherche à contribuer ou sur lesquels il veut  avoir une influence. </dd>
+<dt>résultat <span lang="en">(result)</span></dt>
+<dd>Conséquence  externe attribuable en partie aux activités d&rsquo;une organisation, d&rsquo;une  politique, d&rsquo;un programme ou d&rsquo;une initiative. Les résultats ne relèvent pas  d&rsquo;une organisation, d&rsquo;une politique, d&rsquo;un programme ou d&rsquo;une initiative unique,  mais ils s&rsquo;inscrivent dans la sphère d&rsquo;influence de l&rsquo;organisation. </dd>
+<dt>résultat ministériel <span lang="en">(departmental result)</span></dt>
+<dd><p>Changement  qu&rsquo;un ministère cherche à influencer. Un résultat ministériel échappe  généralement au contrôle direct des ministères, mais il devrait être influencé  par les résultats du niveau des programmes.</p><p>
+  Un  ministère est censé être au courant des autorisations qu&rsquo;il a demandées et  obtenues. La détermination des dépenses prévues relève du ministère, et ce  dernier doit être en mesure de justifier les dépenses et les augmentations  présentées dans son plan ministériel et son rapport sur les résultats  ministériels. </p></dd>
+
     </dl>
 </details>
  
