@@ -802,24 +802,23 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 	<details class="acc-group print-open">
 		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational profile</summary>
 		<div class="tgl-panel">
-			<p>Appropriate minister(s): [insert name(s)]<br>
- Institutional head: [insert name(s)]<br>
- Ministerial portfolio: [insert information]<br>
- Enabling instrument(s): [insert title(s) of legislation with hyperlinks]<br>
- Year of incorporation / commencement: [insert year(s)]<br>
- Other: [insert other information]</p>
+			<section><h3>Appropriate minister(s):</h3><p>[insert name(s)]</p></section>
+ 			<section><h3>Institutional head:</h3><p>[insert name(s)]</p></section>
+ 			<section><h3>Ministerial portfolio:</h3><p>[insert information]</p></section>
+ 			<section><h3>Enabling instrument(s):</h3><p>[insert title(s) of legislation with hyperlinks]</p></section>
+ 			<section><h3>Year of incorporation / commencement:</h3><p>[insert year(s)]</p></section>
+ 			<section><h3>Other:</h3><p>[insert other information]</p></section>
 		</div>
 	</details>
 	<details class="acc-group print-open">
 		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational contact information</summary>
 		<div class="tgl-panel">
-			<p>Mailing address:<br>
- [insert address]<br>
- Telephone: [insert number(s)]<br>
- TTY: [insert number(s)]<br>
- Fax: [insert number(s), if applicable]<br>
- Email: [insert address(es)]<br>
-  Website(s): [insert URL(s)]</p>
+            <section><h3>Mailing address:</h3><p>[insert address]</p></section>
+ 			<section><h3>Telephone:</h3><p>[insert number(s)]</p></section>
+ 			<section><h3>TTY:</h3><p>[insert number(s)]</p></section>
+ 			<section><h3>Fax:</h3><p>[insert number(s), if applicable]</p></section>
+ 			<section><h3>Email:</h3><p>[insert address(es)]</p></section>
+			<section><h3>Website(s):</h3><p>[insert URL(s)]</p></section>
 		</div>
 	</details>
 </div>
