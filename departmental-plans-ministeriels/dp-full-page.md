@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-11-30
+dateModified: 2023-12-05
 language: en
 layout: default
 title: "[Name of organization] [fiscal year] Departmental plan"
@@ -40,8 +40,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </ul>
 </section>
 <section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&#160;Print this page</a> </section>
-<details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
- <summary class="wb-toggle" data-toggle='{"print":"on"}'>Copyright information</summary>
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+ <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Copyright information</summary>
  <p>[Include copyright information, ISSN and catalogue number. Instructions on how to prepare the report for tabling is available in the <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model.html">template for Departmental Plans</a>]</p>
 </details>
 <section>
@@ -88,8 +88,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <h3 id="toc02-1">[Name of core responsibility]</h3>
  <ul class="list-unstyled">
   <li>
- <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
+ <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
   <ul>
   <li><a href="#toc02-1-1">Description</a></li>
   <li><a href="#toc02-1-2">Quality of life impacts</a></li>
@@ -186,12 +186,12 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </div></section>
  <section>
   <h4 id="toc02-1-7">Related government priorities</h4>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Gender-based analysis plus</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Gender-based analysis plus</summary>
   <p>[Text within the &#8220;Gender-based analysis plus&#8221; section, if included]</p>
   </details>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals</summary>
   <p>[Text within the &#8220;United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals&#8221;, if included]</p>
   </details>
  </section>
@@ -214,8 +214,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <h3 id="toc02-5">Internal services</h3>
  <ul class="list-unstyled">
   <li>
- <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
+ <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
   <ul>
   <li><a href="#toc02-5-1">Description</a></li>
   <li><a href="#toc02-5-2">Plans to achieve results</a></li>
@@ -261,8 +261,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </section>
  <section>
   <h4 is="toc02-5-4">Related government priorities</h4>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Planning for contracts awarded to Indigenous businesses</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Planning for contracts awarded to Indigenous businesses</summary>
   <p>[Text within the &#8220;Planning for contracts awarded to Indigenous businesses&#8221; section]</p>
   </details>
  </section>
@@ -272,8 +272,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <h2 id="toc03"> Planned spending and human resources</h2>
  <p>[Insert text and amounts from the &quot;Planned spending and human resources&#8221; section of the word template]</p><ul class="list-unstyled">
  <li>
- <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
- <summary class="wb-toggle" data-toggle='{"print":"on"}'>In this section</summary>
+ <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+ <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
  <ul>
  <li><a href="#toc03-1">Spending</a></li>
  <li><a href="#toc03-2">Funding</a></li>
@@ -291,8 +291,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
    <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>]</p>
       <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
-   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary id="fig1-text" class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
+   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
 
     <div class="table-responsive">
      <table class="table table-bordered table-condensed">
@@ -326,8 +326,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
      </tbody>
 </table></div>
    </details>
-   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of figure [#]</summary>
+   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of figure [#]</summary>
 
     <p>[Please include the explanation of the figure included in the word template]</p>
    </details>
@@ -395,8 +395,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </table></div>
 
   
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
   <p>[Please include the explanation of the table included in the word template]</p>
   </details>
   <p>[Ensure that the content matches the &#8220;Actual spending summary for core responsibilities and internal services (dollars)&#8221; section of the word template]</p>
@@ -469,8 +469,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </tbody>
 </table>
 </div>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
   <p>[Please include the explanation of the table included in the word template]</p>
   </details>
  </section>
@@ -536,8 +536,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    </tbody>
    </table>
   </div>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-  <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
   <p>[Please include the explanation of the table included in the word template]</p>
   </details>
  </section>
@@ -552,8 +552,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       <p>[Access the <a href="https://www.gcpedia.gc.ca/gcwiki/images/b/b1/2024-25_Departmental_Spending_Graph_Template_-_EN.xlsx">bar graph template on GCPedia</a>]</p>
       <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
-      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary id="fig2-text" class="wb-toggle" data-toggle='{"print":"on"}'>Text description of figure [#]</summary>
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+        <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
 
         <div class="table-responsive">
          <table class="table table-bordered table-condensed">
@@ -605,8 +605,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
           </tbody>
         </table></div>
       </details>
-      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of figure [#]</summary>
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of figure [#]</summary>
 
         <p>[Please include the explanation of the figure included in the word template]</p>
       </details>
@@ -655,8 +655,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </tr>
 </tbody>
 </table></div>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-   <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
    <p>[Please include the explanation of the table included in the word template]</p>
   </details></section>
  </section>
@@ -724,8 +724,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    </tbody>
   </table>
 </div>
-   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
+   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
     <p>[Please include the explanation of the table included in the word template]</p>
    </details>
   </section>
@@ -789,8 +789,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </tbody>
      </table>
     </div>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary class="wb-toggle" data-toggle='{"print":"on"}'>Explanation of table [#]</summary>
+    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
     <p>[Please include the explanation of the table included in the word template]</p>
    </details>
   </section>
@@ -799,8 +799,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section>
  <h2 id="toc04">Corporate information</h2>
   <div class="accordion">
-	<details class="acc-group">
-		<summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Organizational profile</summary>
+	<details class="acc-group print-open">
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational profile</summary>
 		<div class="tgl-panel">
 			<p>Appropriate minister(s): [insert name(s)]<br>
  Institutional head: [insert name(s)]<br>
@@ -810,8 +810,8 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  Other: [insert other information]</p>
 		</div>
 	</details>
-	<details class="acc-group">
-		<summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Organizational contact information</summary>
+	<details class="acc-group print-open">
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational contact information</summary>
 		<div class="tgl-panel">
 			<p>Mailing address:<br>
  [insert address]<br>
@@ -844,14 +844,35 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section>
  <h2 id="toc07">Definitions </h2>
  <p>[For this section, please use the text found in the main report under the &#8220;Definitions&#8221; section]</p>
-<details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-   <summary class="wb-toggle" data-toggle='{"print":"on"}'>List of terms</summary>
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">List of terms</summary>
     <dl>
-     <dt>[Term title]</dt>
-     <dd>[Term definition]</dd>
-      
-     <dt>[Term title]</dt>
-     <dd>[Term definition]</dd>
+        <dt>appropriation <span lang="fr">(crédit)</span></dt>
+        <dd>Any authority of  Parliament to pay money out of the Consolidated Revenue Fund. </dd>
+        <dt>budgetary expenditures <span lang="fr">(dépenses budgétaires) </span></dt>
+        <dd>Operating and capital  expenditures; transfer payments to other levels of government, organizations or  individuals; and payments to Crown corporations. </dd>
+        <dt>core responsibility <span lang="fr">(responsabilité essentielle) </span></dt>
+        <dd>An enduring function  or role performed by a department. The intentions of the department with  respect to a core responsibility are reflected in one or more related  departmental results that the department seeks to contribute to or influence. </dd>
+        <dt>Departmental Plan <span lang="fr">(plan ministériel)</span></dt>
+        <dd>A document that sets  out a department&rsquo;s priorities, programs, expected results and associated  resource requirements, covering a threeyear period beginning with the year  indicated in the title of the report. Departmental Plans are tabled in  Parliament each spring. </dd>
+        <dt>departmental result <span lang="fr">(résultat ministériel) </span></dt>
+        <dd>A change that a  department seeks to influence. A departmental result is often outside  departments&rsquo; immediate control, but it should be influenced by program-level  outcomes. </dd>
+        <dt>departmental result indicator <span lang="fr">(indicateur de résultat  ministériel) </span></dt>
+        <dd>A factor or variable  that provides a valid and reliable means to measure or describe progress on a  departmental result. </dd>
+        <dt>departmental results framework <span lang="fr">(cadre ministériel des  résultats) </span></dt>
+        <dd>A framework that  consists of the department&rsquo;s core responsibilities, departmental results and  departmental result indicators. </dd>
+        <dt>Departmental Results Report <span lang="fr">(rapport sur les résultats  ministériels)</span></dt>
+        <dd>A report on a  department&rsquo;s actual performance in a fiscal year against its plans, priorities  and expected results set out in its Departmental Plan for that year.  Departmental Results Reports are usually tabled in Parliament each fall. </dd>
+        <dt>fulltime equivalent <span lang="fr">(équivalent temps plein) </span></dt>
+        <dd>A measure of the  extent to which an employee represents a full personyear charge against a  departmental budget. Fulltime equivalents are calculated as a ratio of assigned  hours of work to scheduled hours of work. Scheduled hours of work are set out  in collective agreements. </dd>
+        <dt>gender-based analysis plus (GBA Plus) <span lang="fr">(analyse comparative  entre les sexes plus&nbsp;[ACS&nbsp;Plus])</span></dt>
+        <dd>An analytical tool  used to support the development of responsive and inclusive policies, programs  and other initiatives. GBA Plus is a process for understanding who is impacted  by the issue or opportunity being addressed by the initiative; identifying how  the initiative could be tailored to meet diverse needs of the people most  impacted; and anticipating and mitigating any barriers to accessing or  benefitting from the initiative. GBA Plus is an intersectional analysis that  goes beyond biological (sex) and socio-cultural (gender) differences to  consider other factors, such as age, disability, education, ethnicity, economic  status, geography, language, race, religion, and sexual orientation. </dd>
+        <dt>government-wide priorities <span lang="fr">(priorités pangouvernementales)</span></dt>
+        <dd><p>For the purpose of the  2024–25 Departmental Plan, government-wide priorities are the high-level themes  outlining the government&rsquo;s agenda in the 2021 Speech from the Throne: building  a healthier today and tomorrow; growing a more resilient economy; bolder  climate action; fighter harder for safer communities; standing up for diversity  and inclusion; moving faster on the path to reconciliation and fighting for a  secure, just, and equitable world. <br>
+        horizontal initiative  (initiative horizontale)</p><p>
+        An initiative in which  two or more federal organizations are given funding to pursue a shared outcome,  often linked to a government priority. </p></dd>
+        <dt>Indigenous business</dt>
+        <dd>As defined on the <a href="https://services.sac-isc.gc.ca/REA-IBD">Indigenous Services Canada  website</a> in accordance with the Government of Canada&rsquo;s commitment that a  mandatory minimum target of 5% of the total value of contracts is awarded to  Indigenous businesses annually. </dd>
     </dl>
   </details>
  
