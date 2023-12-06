@@ -13,12 +13,12 @@ css:
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-12-06
 dateModified: 2023-12-06
-description: "Canada.ca Content Style Guide"
+description: "Changes to the Canada.ca Content Style Guide"
 lang: en
 layout: without-h1
-title: "Latest changes to the Canada.ca Content Style Guide"
+title: "Changes to the Canada.ca Content Style Guide"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Latest changes to the Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Changes to the Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
 <ul class="list-unstyled">
   <li>
     <details open="open">
