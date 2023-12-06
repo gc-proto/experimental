@@ -23,7 +23,7 @@ title: "Canada.ca Content Style Guide"
       <h1 property="name" id="wb-cont" dir="ltr">Canada.ca Content Style Guide</h1>
       <p>These are the rules to create web content that can be easily found, understood and used. They are based on writing principles and techniques that help make web content clear and adapted to the needs of all people. Use the style guide with the <cite>Canada.ca Content and Information Specification</cite> when you're designing and organizing web content.</p>
       <a href="{{ site.url }}/style-guide/" class="btn btn-lg btn-primary">Full Guide (all sections)</a> </div>
-    <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg"> <img src="./images/letters-01.png" atl="" /> </div>
+    <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg"> <img src="../images/letters-01.png" atl="" /> </div>
   </div>
 </div>
 <div class="container mrgn-tp-lg">
