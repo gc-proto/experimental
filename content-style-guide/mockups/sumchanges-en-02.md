@@ -20,17 +20,6 @@ title: "Latest changes to the Canada.ca Content Style Guide"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Latest changes to the Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
 <ul class="list-unstyled">
-	<li>
-  <details open="open">
-    <summary>November 7, 2023</summary>
-    <p>Updated the <a href="/common-design-patterns/report-problem.html">Report a problem pattern</a> to inform users that it is being decommissioned. Stabilized the <a href="/common-design-patterns/page-feedback.html">Page feedback tool pattern</a> and added content specifications and updated implementation instructions.</p>
-  </details></li>
-	<li>  <details>
-    <summary>July 12, 2023</summary>
-    <p>Updated the <a href="/common-design-patterns/subway-navigation.html">Subway pattern</a> to remove "avoid sub-steps". This reflects that there may be instances where more complex processes would benefit from the use of sub-steps.</p>
-  </details></li></ul>
-</div><h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Latest changes to the Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
-<ul class="list-unstyled">
   <li>
     <details open="open">
       <summary>December 6, 2023</summary>
