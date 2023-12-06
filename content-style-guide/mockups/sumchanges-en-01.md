@@ -48,7 +48,7 @@ title: "Canada.ca Content Style Guide"
 </section>
 <section id="toc1">
   <h2>Summary of changes</h2>
-  <p>Recent changes to the guide</p>
+  <p>Most recent changes to the guide:</p>
   <ul class="mrgn-tp-lg">
     <li>improved the Figure 5 functional image example in the <a href="#wp6-1-1">Functional images</a> section</li>
     <li>updated the example in the <a href="#wp6-1-2">Decorative images</a> section and added information about using null alt text</li>
