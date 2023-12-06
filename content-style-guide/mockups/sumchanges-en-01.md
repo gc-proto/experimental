@@ -48,6 +48,7 @@ title: "Canada.ca Content Style Guide"
 </section>
 <section id="toc1">
   <h2>Summary of changes</h2>
+  <p>Recent changes to the guide</p>
   <ul class="mrgn-tp-lg">
     <li>improved the Figure 5 functional image example in the <a href="#wp6-1-1">Functional images</a> section</li>
     <li>updated the example in the <a href="#wp6-1-2">Decorative images</a> section and added information about using null alt text</li>
@@ -56,7 +57,7 @@ title: "Canada.ca Content Style Guide"
     <li>updated the text under the heading <a href="#wp1-2-1b">Writing for inclusivity</a> to reflect the new inclusive writing guidelines and resources</li>
     <li>added an example for when to capitalize public service under <a href="#wp4-1">4.1 Capitalization and punctuation</a></li>
   </ul>
-  <p><a href="sumchanges-en-02.html">Changes to the Canada.ca Content Style Guide</a></p>
+  <p><a href="sumchanges-en-02.html">List of changes to the Canada.ca Content Style Guide</a></p>
 </section>
 <section id="toc2">
   <h2>Purpose</h2>
