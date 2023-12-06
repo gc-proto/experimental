@@ -23,7 +23,11 @@ title: "Canada.ca Content Style Guide refinement project"
 <div class="row">
   <div class="col-md-8">
     <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Mockups</span>: <span>Canada.ca Content Style Guide refinement project</span></span></h1>
-    <h2 class="h3 mrgn-tp-lg">[Title]</h2>
+    <h2 class="h3 mrgn-tp-lg">Summary of changes</h2>
+    <blockquote class="trello-card"><a href="https:&#x2F;&#x2F;trello.com&#x2F;c&#x2F;z9U4HVsP">Summary of changes</a></blockquote><script src="https://p.trellocdn.com/embed.min.js"></script>
+    <ul>
+      <li>Test</li>
+    </ul>
   </div>
   <div class="col-md-4">
     <div><img src="./../images/bunny28.png" alt="" class="img-responsive mrgn-tp-lg"></div>
