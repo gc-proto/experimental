@@ -8,7 +8,7 @@ css:
 - https://design.canada.ca/css/custom.css
 - https://use.fontawesome.com/releases/v5.15.4/css/all.css
 date: 2023-07-19
-dateModified: 2023-07-19
+dateModified: 2023-12-06
 description: "Canada.ca Content Style Guide refinement project"
 lang: en
 layout: form
@@ -17,7 +17,6 @@ nositesearch: true
 showFeedback: false
 nomenu: true
 noReportProblem: true
-pageclass: cnt-wdth-lmt
 title: "Canada.ca Content Style Guide refinement project"
 ---
 <div class="row">
