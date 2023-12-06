@@ -35,7 +35,7 @@ title: "Canada.ca Content Style Guide"
         <p>Purpose, use, summary of changes, and related policies, standards and procedures</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-06.html">List of changes to the Canada.ca Content Style Guide/a></h3>
+        <h3><a href="sumchanges-en-06.html">List of changes to the Canada.ca Content Style Guide</a></h3>
         <p>This list begins with changes on December 6, 2023</p>
       </div>
     </div>
