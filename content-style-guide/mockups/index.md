@@ -38,7 +38,7 @@ title: "Canada.ca Content Style Guide refinement project"
                 <li><a href="sumchanges-en-01.html">Current changes in section with link to all changes</a></li>
               </ul>
             </li>
-            <li><a href="sumchanges-en-02.html">Changes to the Canada.ca Content Style Guide</a></li>
+            <li class="mrgn-tp-lg"><a href="sumchanges-en-02.html">Changes to the Canada.ca Content Style Guide</a></li>
           </ul>
         </details>
       </li>
