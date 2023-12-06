@@ -14,6 +14,7 @@ dateModified: 2023-12-06
 description: "Canada.ca Content Style Guide"
 lang: en
 layout: without-h1
+pageclass: cnt-wdth-lmtd
 title: "Canada.ca Content Style Guide"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
