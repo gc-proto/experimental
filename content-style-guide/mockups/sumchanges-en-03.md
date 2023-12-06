@@ -20,6 +20,7 @@ title: "Canada.ca Content Style Guide"
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
 <section id="intro">
   <p>These are the rules to create web content that can be easily found, understood and used. They are based on writing principles and techniques that help make web content clear and adapted to the needs of all people. Use it with the <a href="{{ site.url }}/architecture/canada-content-information-architecture-specification.html">Content and Information Architecture Specification</a> when you're designing and organizing web content.</p>
+ <p><a href="sumchanges-en-02.html">List of changes to the Canada.ca Content Style Guide</a></p>
 </section>
 <section id="toc">
   <div class="row mrgn-tp-lg">
@@ -28,7 +29,6 @@ title: "Canada.ca Content Style Guide"
         <div class="panel-body">
           <h2 class="mrgn-tp-sm">Table of contents</h2>
           <ul>
-            <li><a href="#toc1">Summary of changes</a></li>
             <li><a href="#toc2">Purpose</a></li>
             <li><a href="#toc3">Use of the style guide</a></li>
             <li><a href="#toc4">Related policies, standards and procedures</a></li>
@@ -46,19 +46,6 @@ title: "Canada.ca Content Style Guide"
       </div>
     </div>
   </div>
-</section>
-<section id="toc1">
-  <h2>Summary of changes</h2>
-  <p>Most recent changes to the guide:</p>
-  <ul class="mrgn-tp-lg">
-    <li>improved the Figure 5 functional image example in the <a href="#wp6-1-1">Functional images</a> section</li>
-    <li>updated the example in the <a href="#wp6-1-2">Decorative images</a> section and added information about using null alt text</li>
-    <li>improved the simple table examples in <a href="#wp5-3">Section 5.3 Use tables to organize data</a></li>
-    <li>updated the text under <a href="#toc3">Use of the style guide</a> to highlight that the <cite>Directive on the Management of Communications</cite> is the official source for who must use this guide</li>
-    <li>updated the text under the heading <a href="#wp1-2-1b">Writing for inclusivity</a> to reflect the new inclusive writing guidelines and resources</li>
-    <li>added an example for when to capitalize public service under <a href="#wp4-1">4.1 Capitalization and punctuation</a></li>
-  </ul>
-  <p><a href="sumchanges-en-02.html">List of changes to the Canada.ca Content Style Guide</a></p>
 </section>
 <section id="toc2">
   <h2>Purpose</h2>
