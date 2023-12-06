@@ -26,7 +26,7 @@ title: "Canada.ca Content Style Guide refinement project"
     <h2 class="h3 mrgn-tp-lg">Summary of changes</h2>
     <blockquote class="trello-card"><a href="https://trello.com/c/z9U4HVsP">Summary of changes</a></blockquote>
     <ul>
-      <li>Test</li>
+      <li><a href="sumchanges-en-01.md">Test</a></li>
     </ul>
   </div>
   <div class="col-md-4">
