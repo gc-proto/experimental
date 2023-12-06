@@ -40,4 +40,28 @@ title: "Changes to the Canada.ca Content Style Guide"
       <p>We will build this section</p>
     </details>
   </li>
+  <li>
+    <details>
+      <summary>Old stuff</summary>
+      <p>We will build this section</p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Old stuff</summary>
+      <p>We will build this section</p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Old stuff</summary>
+      <p>We will build this section</p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Old stuff</summary>
+      <p>We will build this section</p>
+    </details>
+  </li>
 </ul>
