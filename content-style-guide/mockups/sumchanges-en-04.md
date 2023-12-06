@@ -32,11 +32,23 @@ title: "Canada.ca Content Style Guide"
     <div class="row wb-eqht-grd">
       <div class="col-md-4">
         <h3><a href="sumchanges-en-05.html">The Content Style Guide</a></h3>
-        <p>Purpose, use, summary of changes, and related policies, standards and procedures</p>
+        <p>Canada.ca Content Style Guide</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-06.html">List of changes to the Canada.ca Content Style Guide</a></h3>
         <p>This list begins with changes on December 6, 2023</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-09.html">Web content makeovers</a></h3>
+        <p>Case studies for plain language, content structure, and simplifying tables</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-07.html">Related policies, standards and procedures</a></h3>
+        <p>Policies, standards and procedures content must coply with</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-08.html">Resources</a></h3>
+        <p>Resources</p>
       </div>
     </div>
   </section>
