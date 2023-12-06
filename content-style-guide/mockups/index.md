@@ -28,7 +28,7 @@ title: "Canada.ca Content Style Guide refinement project"
         <details open="open">
           <summary class="bg-success">Summary of changes (Sprint 7: Dandelion)</summary>
           <div><a href="https://trello.com/c/z9U4HVsP" class="btn btn-sm btn-default">Trello: Summary of changes</a></div>
-          <ul>
+          <ul class="mrgn-tp-lg">
             <li><a href="sumchanges-en-01.html">More content</a></li>
             <li><a href="sumchanges-en-02.html">Separate link</a></li>
           </ul>
