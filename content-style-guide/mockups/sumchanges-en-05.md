@@ -17,7 +17,7 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Canada.ca Content Style Guide"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr">Canada.ca Content Style Guide</h1>
 <section id="toc">
   <div class="row mrgn-tp-lg">
     <div class="col-md-8">
