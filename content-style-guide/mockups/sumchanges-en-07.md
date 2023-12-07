@@ -19,7 +19,7 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Related policies, standards and procedures"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Related policies, standards and procedures</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Related policies, standards and procedures</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <section id="toc4">
   <p>Canada.ca content must comply with:</p>
   <ul>
