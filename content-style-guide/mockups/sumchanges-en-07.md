@@ -21,7 +21,7 @@ title: "Related policies, standards and procedures"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Related policies, standards and procedures</span>: <span>Canada.ca design system</span></span></h1>
 <section id="toc4">
-  <p>Content must comply with:</p>
+  <p>Canada.ca content must comply with:</p>
   <ul>
     <li>templates, content components, character limits and other requirements as described in the <cite><a href="/architecture/canada-content-information-architecture-specification.html">Canada.ca Content and Information Architecture Specification</a></cite></li>
     <li>requirements set out in the related legislated and policy instruments, including:
