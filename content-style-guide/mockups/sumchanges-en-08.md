@@ -20,7 +20,7 @@ pageclass: cnt-wdth-lmtd
 title: "Resources"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Resources</span>: <span>Canada.ca design system</span></span></h1>
- <ul>
+ <ul class="mrgn-tp-lg">
     <li><a href="https://www.canadapost.ca/tools/pg/manual/PGaddress-e.asp">Addressing Guidelines</a>, Canada Post</li>
     <li><a href="https://www.omafra.gov.on.ca/english/nfporgs/07-049.htm">Clear Writing</a>, Ministry of Agriculture, Food and Rural Affairs of Ontario</li>
     <li><a href="https://www.publications.gc.ca/site/eng/413603/publication.html">Communicating with Seniors: Advice, Techniques and Tips</a>, Health Canada</li>
