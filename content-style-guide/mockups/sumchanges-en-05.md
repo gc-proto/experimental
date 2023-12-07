@@ -18,6 +18,12 @@ pageclass: cnt-wdth-lmtd
 title: "Canada.ca Content Style Guide"
 ---
 <h1 property="name" id="wb-cont" dir="ltr">Canada.ca Content Style Guide</h1>
+<section id="toc2">
+  <h2>Purpose</h2>
+  <p>This guide establishes the rules you must use to develop and edit English web content that will be published on a Government of Canada website. The rules are different from practices adapted to print to support principles related to accessibility, readability and usability.</p>
+  <p>The purpose of these rules is to make web content easy to find, easy to understand and easy to use for everyone, including people who have physical or cognitive disabilities.</p>
+  <p>The techniques described in this guide complement the rules set out in <cite><a href="https://www.btb.termiumplus.gc.ca/tpv2guides/guides/tcdnstyl/index-eng.html?lang=eng">The Canadian Style</a></cite>. If there are conflicts between this guide and <cite>The Canadian Style</cite> or any other resource, this guide takes priority for content published online.</p>
+</section>
 <section id="toc">
   <div class="row mrgn-tp-lg">
     <div class="col-md-8">
@@ -25,7 +31,6 @@ title: "Canada.ca Content Style Guide"
         <div class="panel-body">
           <h2 class="mrgn-tp-sm">Table of contents</h2>
           <ul>
-            <li><a href="#toc2">Purpose</a></li>
             <li><a href="#toc5">1.0 Writing principles for web content</a></li>
             <li><a href="#toc6">2.0 Plain language</a></li>
             <li><a href="#toc7">3.0 Tone</a></li>
@@ -38,13 +43,6 @@ title: "Canada.ca Content Style Guide"
       </div>
     </div>
   </div>
-</section>
-<section id="toc2">
-  <h2>Purpose</h2>
-  <p>This guide establishes the rules you must use to develop and edit English web content that will be published on a Government of Canada website. The rules are different from practices adapted to print to support principles related to accessibility, readability and usability.</p>
-  <p>The purpose of these rules is to make web content easy to find, easy to understand and easy to use for everyone, including people who have physical or cognitive disabilities.</p>
-  <p>The techniques described in this guide complement the rules set out in <cite><a href="https://www.btb.termiumplus.gc.ca/tpv2guides/guides/tcdnstyl/index-eng.html?lang=eng">The Canadian Style</a></cite>. If there are conflicts between this guide and <cite>The Canadian Style</cite> or any other resource, this guide takes priority for content published online.</p>
-  <p>As web and language trends evolve, we'll update this guide to meet the changing needs of our audiences.</p>
 </section>
 <section id="toc5">
   <h2>1.0 Writing principles for web content</h2>
