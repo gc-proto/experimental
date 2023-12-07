@@ -35,12 +35,20 @@ title: "Canada.ca Content Style Guide"
         <p>Canada.ca Content Style Guide</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-06.html">List of changes to the Canada.ca Content Style Guide</a></h3>
-        <p>This list begins with changes on December 6, 2023</p>
+        <h3><a href="sumchanges-en-11.html">Use of the style guide</a></h3>
+        <p>Federal public administration subject to the <cite>Directive on the Management of Communications</cite></p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-09.html">Web content makeovers</a></h3>
-        <p>Case studies for plain language, content structure, and simplifying tables</p>
+        <h3><a href="sumchanges-en-06.html">List of changes to the Canada.ca Content Style Guide</a></h3>
+        <p>This list begins with changes on May 25, 2023</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-09.html">Case study A</a></h3>
+        <p>Improve plain language and content structure</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-09.html">Case study B</a></h3>
+        <p>Improve and simplify tables</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-07.html">Related policies, standards and procedures</a></h3>
