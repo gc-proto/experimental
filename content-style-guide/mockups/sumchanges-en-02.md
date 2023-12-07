@@ -37,8 +37,8 @@ title: "List of changes to the Canada.ca Content Style Guide"
   </li>
   <li>
     <details>
-      <summary>Old stuff</summary>
-      <p>We will build this section</p>
+      <summary>May 25, 2023</summary>
+      <p>We’ve added "Writing for inclusivity" to the Writing principles for web content section</p>
     </details>
   </li>
   <li>
