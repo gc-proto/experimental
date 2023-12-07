@@ -39,7 +39,7 @@ title: "Canada.ca Content Style Guide"
         <p>Federal public administration subject to the <cite>Directive on the Management of Communications</cite></p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-06.html">List of changes to the Canada.ca Content Style Guide</a></h3>
+        <h3><a href="sumchanges-en-06.html">List of changes to the guide</a></h3>
         <p>This list begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
