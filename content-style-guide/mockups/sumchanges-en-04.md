@@ -51,7 +51,7 @@ title: "Canada.ca Content Style Guide"
         <p>Improve plain language and content structure</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-09.html">Case study B</a></h3>
+        <h3><a href="sumchanges-en-10.html">Case study B</a></h3>
         <p>Improve and simplify tables</p>
       </div>
       <div class="col-md-4">
