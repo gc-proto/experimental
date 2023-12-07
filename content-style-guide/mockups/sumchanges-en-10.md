@@ -19,7 +19,7 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Case study B: improve and simplify tables"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Case study B: improve and simplify tables</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Case study B: improve and simplify tables</span>: <span>Canada.ca Content Style Guide</span></span></h1>
  <h2>Before</h2>
   <table class="table table-bordered table-condensed">
     <caption class="text-center">
