@@ -43,7 +43,7 @@ title: "Canada.ca Content Style Guide"
         <p>Policies, standards and procedures content must coply with</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-06.html">Changes to the guide</a></h3>
+        <h3><a href="sumchanges-en-12.html">Changes to the guide</a></h3>
         <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
