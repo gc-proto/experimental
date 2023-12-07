@@ -32,5 +32,5 @@ title: "List of changes to the Canada.ca Content Style Guide"
 </ul>
 <h2>May 25, 2023</h2>
 <ul class="mrgn-tp-lg">
-  <li>We added "Writing for inclusivity" to the <a href="https://design.canada.ca/style-guide/#toc5">Writing principles for web content</a> section</li>
+  <li>added "Writing for inclusivity" to the <a href="https://design.canada.ca/style-guide/#toc5">Writing principles for web content</a> section</li>
 </ul>
