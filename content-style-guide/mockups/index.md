@@ -27,7 +27,7 @@ title: "Canada.ca Content Style Guide refinement project"
         <details open="open">
           <summary class="bg-success">Summary of changes (Sprint 7: Dandelion)</summary>
           <div><a href="https://trello.com/c/z9U4HVsP" class="btn btn-sm mrgn-tp-md btn-default"><span class="fab fa-trello"></span> Summary of changes</a></div>
-          <h2>Linking to the change list</h2>
+          <h2 class="h3">Linking to the change list</h2>
           <ul class="mrgn-tp-lg">
             <li><strong>Link option 1</strong>
               <ul>
@@ -45,7 +45,7 @@ title: "Canada.ca Content Style Guide refinement project"
               </ul>
             </li>
           </ul>
-          <h2>Two kinds of Change lists</h2>
+          <h2 class="h3">Two kinds of Change lists</h2>
           <ul class="mrgn-tp-lg">
             <li><strong>Change list Option 1</strong>
               <ul>
