@@ -20,7 +20,7 @@ pageclass: cnt-wdth-lmtd
 title: "List of changes to the Canada.ca Content Style Guide"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>List of changes to the Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
-<p>This list begins with changes on December 6, 2023.</p>
+<p>This list begins with changes on May 25, 2023.</p>
 <ul class="list-unstyled">
   <li>
     <details open="open">
@@ -38,7 +38,7 @@ title: "List of changes to the Canada.ca Content Style Guide"
   <li>
     <details>
       <summary>May 25, 2023</summary>
-      <p>We’ve added "Writing for inclusivity" to the <a href="https://design.canada.ca/style-guide/#toc5">Writing principles for web content</a> section</p>
+      <p class="mrgn-tp-lg">We’ve added "Writing for inclusivity" to the <a href="https://design.canada.ca/style-guide/#toc5">Writing principles for web content</a> section</p>
     </details>
   </li>
   <li>
