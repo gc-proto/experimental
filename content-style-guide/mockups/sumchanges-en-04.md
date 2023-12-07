@@ -22,7 +22,7 @@ title: "Canada.ca Content Style Guide"
     <div class="col-md-6">
       <h1 property="name" id="wb-cont" dir="ltr">Canada.ca Content Style Guide</h1>
       <p>These are the rules to create web content that can be easily found, understood and used. They are based on writing principles and techniques that help make web content clear and adapted to the needs of all people. Use the style guide with the <cite>Canada.ca Content and Information Specification</cite> when you're designing and organizing web content.</p>
-      <a href="sumchanges-en-05.html" class="btn btn-lg btn-primary">The Content Style Guide</a></div>
+      <a href="sumchanges-en-05.html" class="btn btn-lg btn-primary">The Canada.ca Content Style Guide</a></div>
     <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg"><img src="images/letters-01.png" atl="" /></div>
   </div>
 </div>
@@ -35,7 +35,7 @@ title: "Canada.ca Content Style Guide"
         <p>Canada.ca Content Style Guide</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-11.html">Use of the style guide</a></h3>
+        <h3><a href="sumchanges-en-11.html">Use of the guide</a></h3>
         <p>Federal public administration subject to the <cite>Directive on the Management of Communications</cite></p>
       </div>
       <div class="col-md-4">
