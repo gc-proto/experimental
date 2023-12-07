@@ -23,7 +23,7 @@ title: "Canada.ca Content Style Guide"
       <h1 property="name" id="wb-cont" dir="ltr">Canada.ca Content Style Guide</h1>
       <p>These are the rules to create web content that can be easily found, understood and used. They are based on writing principles and techniques that help make web content clear and adapted to the needs of all people. Use the style guide with the <cite>Canada.ca Content and Information Specification</cite> when you're designing and organizing web content.</p>
       <a href="sumchanges-en-05.html" class="btn btn-call-to-action">The Canada.ca Content Style Guide</a></div>
-    <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg"><img src="images/letters-01.png" atl="" /></div>
+    <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg"><img src="images/letters-01.png" alt=" " /></div>
   </div>
 </div>
 <div class="container mrgn-tp-lg">
@@ -39,6 +39,10 @@ title: "Canada.ca Content Style Guide"
         <p>Federal public administration subject to the <cite>Directive on the Management of Communications</cite></p>
       </div>
       <div class="col-md-4">
+        <h3><a href="sumchanges-en-07.html">Related policies, standards and procedures</a></h3>
+        <p>Policies, standards and procedures content must coply with</p>
+      </div>
+      <div class="col-md-4">
         <h3><a href="sumchanges-en-06.html">Changes to the guide</a></h3>
         <p>List begins with changes on May 25, 2023</p>
       </div>
@@ -49,10 +53,6 @@ title: "Canada.ca Content Style Guide"
       <div class="col-md-4">
         <h3><a href="sumchanges-en-09.html">Case study B</a></h3>
         <p>Improve and simplify tables</p>
-      </div>
-      <div class="col-md-4">
-        <h3><a href="sumchanges-en-07.html">Related policies, standards and procedures</a></h3>
-        <p>Policies, standards and procedures content must coply with</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-08.html">Resources</a></h3>
