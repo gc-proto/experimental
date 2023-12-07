@@ -5,6 +5,8 @@ breadcrumbs:
     link: "https://design.canada.ca/about/"
   - title: Canada.ca design system
     link: "https://design.canada.ca/"
+  - title: Content Style Guide
+    link: "https://test.canada.ca/experimental/content-style-guide/mockups/sumchanges-en-04.html" 
 css:
 - https://design.canada.ca/css/split-h1.css
 - https://design.canada.ca/css/custom.css
