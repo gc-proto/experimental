@@ -40,7 +40,7 @@ title: "Canada.ca Content Style Guide"
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-06.html">Changes to the guide</a></h3>
-        <p>This list begins with changes on May 25, 2023</p>
+        <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-09.html">Case study A</a></h3>
