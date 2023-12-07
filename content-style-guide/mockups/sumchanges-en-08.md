@@ -19,7 +19,7 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Resources"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Resources</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Resources</span>: <span>Canada.ca Content Style Guide</span></span></h1>
  <ul class="mrgn-tp-lg">
     <li><a href="https://www.canadapost.ca/tools/pg/manual/PGaddress-e.asp">Addressing Guidelines</a>, Canada Post</li>
     <li><a href="https://www.omafra.gov.on.ca/english/nfporgs/07-049.htm">Clear Writing</a>, Ministry of Agriculture, Food and Rural Affairs of Ontario</li>
