@@ -19,7 +19,7 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Case study A: improve plain language and content structure"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Case study A: improve plain language and content structure</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>Case study A: improve plain language and content structure</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <h2>Before</h2>
 <p>The Employment Insurance (EI) program offers temporary financial assistance to Canadians and individuals who are legally entitled to work in Canada, have a valid Social Insurance Number and remain in Canada during their benefit period. One type of benefits that the&nbsp;EI&nbsp;program offers is regular benefits.&nbsp;EI&nbsp;regular benefits are offered to people who have lost their employment through no fault of their own (for example, because of a shortage of work or because they were employed in seasonal work) and who are ready, willing, and capable of working each day but unable to find work.</p>
 <p>Flesch-Kincaid reading level: 17.2</p>
