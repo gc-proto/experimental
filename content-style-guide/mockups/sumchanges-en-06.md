@@ -19,7 +19,7 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "List of changes to the Canada.ca Content Style Guide"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>List of changes to the Canada.ca Content Style Guide</span>: <span>Canada.ca design system</span></span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>List of changes to the Canada.ca Content Style Guide</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <p>This list begins with changes on May 25, 2023.</p>
 <ul class="list-unstyled">
   <li>
