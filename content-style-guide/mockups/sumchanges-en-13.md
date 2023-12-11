@@ -62,12 +62,14 @@ title: "Canada.ca Content Style Guide"
         <h3><a href="sumchanges-en-21.html">Links</a></h3>
         <p>List begins with changes on May 25, 2023</p>
       </div>
+    </div>
+    <div class="row wb-eqht-grd">
       <div class="col-md-4">
         <h3><a href="sumchanges-en-22.html">Related policies, standards and procedures</a></h3>
         <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-23.html">•Summary of changes</a></h3>
+        <h3><a href="sumchanges-en-23.html">Summary of changes</a></h3>
         <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
@@ -85,4 +87,3 @@ title: "Canada.ca Content Style Guide"
     </div>
   </section>
 </div>
-
