@@ -21,29 +21,6 @@ title: "3.0 Tone"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>3.0 Tone</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <section id="toc7">
-  <div class="row mrgn-tp-lg">
-    <div class="col-md-8">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h3 class="mrgn-tp-sm">In this section</h3>
-          <ul>
-            <li><a href="#wp3-1">3.1 Write directly to the person</a>
-              <ul>
-                <li><a href="#wp3-1-1">Address the person in page titles, links and navigation labels</a></li>
-                <li><a href="#wp3-1-2">Don't use the first person</a></li>
-              </ul>
-            </li>
-            <li><a href="#wp3-2">3.2 Use "we" to refer to the Government of Canada</a>
-              <ul>
-                <li><a href="#wp3-2-1">Third parties</a></li>
-              </ul>
-            </li>
-            <li><a href="#wp3-3">3.3 Expressing an obligation or a recommendation</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
   <p>The tone of the government's web content should be:</p>
   <ul>
     <li>direct</li>
@@ -52,6 +29,21 @@ title: "3.0 Tone"
     <li>professional</li>
   </ul>
   <p>Write as if you were talking to your audience in person, but with the authority of an institution that provides information as part of its mandate.</p>
+  <h2 class="mrgn-tp-sm">In this section</h2>
+  <ul>
+    <li><a href="#wp3-1">3.1 Write directly to the person</a>
+      <ul>
+        <li><a href="#wp3-1-1">Address the person in page titles, links and navigation labels</a></li>
+        <li><a href="#wp3-1-2">Don't use the first person</a></li>
+      </ul>
+    </li>
+    <li><a href="#wp3-2">3.2 Use "we" to refer to the Government of Canada</a>
+      <ul>
+        <li><a href="#wp3-2-1">Third parties</a></li>
+      </ul>
+    </li>
+    <li><a href="#wp3-3">3.3 Expressing an obligation or a recommendation</a></li>
+  </ul>
   <section id="wp3-1">
     <h3>3.1 Write directly to the person</h3>
     <p>Use an informal tone, and speak directly <strong>to</strong> people by using the second person ("you," "your").</p>
