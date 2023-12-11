@@ -32,41 +32,41 @@ title: "Canada.ca Content Style Guide"
     <div class="row wb-eqht-grd">
       <div class="col-md-4">
         <h3><a href="sumchanges-en-14.html">Purpose and Use</a></h3>
-        <p>Canada.ca Content Style Guide</p>
+        <p>Purpose and use of the style guide</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-15.html">Writing principles for web content</a></h3>
-        <p>Federal public administration subject to the <cite>Directive on the Management of Communications</cite></p>
+        <p>Writing to help people read and use web content</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-16.html">Plain language</a></h3>
-        <p>Policies, standards and procedures content must coply with</p>
+        <p>Plain language</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-17.html">Tone</a></h3>
-        <p>List begins with changes on May 25, 2023</p>
+        <p>Direct, formative, conversational, professional</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-18.html">Style</a></h3>
-        <p>List begins with changes on May 25, 2023</p>
+        <p>Writing style, simple punctuation</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-19.html">Content structure</a></h3>
-        <p>List begins with changes on May 25, 2023</p>
+        <p>Page title, headings, lists, tables</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-20.html">Images and videos</a></h3>
-        <p>List begins with changes on May 25, 2023</p>
+        <p>Functional images, decorative images</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-21.html">Links</a></h3>
-        <p>List begins with changes on May 25, 2023</p>
+        <p>Strategic and descriptive links</p>
       </div>
     </div>
     <div class="row wb-eqht-grd">
       <div class="col-md-4">
         <h3><a href="sumchanges-en-22.html">Related policies, standards and procedures</a></h3>
-        <p>List begins with changes on May 25, 2023</p>
+        <p>Content must comply with</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-23.html">Summary of changes</a></h3>
