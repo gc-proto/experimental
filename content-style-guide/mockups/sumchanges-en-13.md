@@ -31,31 +31,31 @@ title: "Canada.ca Content Style Guide"
     <h2>Sections</h2>
     <div class="row wb-eqht-grd">
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-15.html">Writing for the web</a></h3>
+        <h3><a href="sumchanges-en-15.html">1.0 Writing for the web</a></h3>
         <p>Writing to help people read and use web content</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-16.html">Plain language</a></h3>
+        <h3><a href="sumchanges-en-16.html">2.0 Plain language</a></h3>
         <p>Plain language</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-17.html">Tone</a></h3>
+        <h3><a href="sumchanges-en-17.html">3.0 Tone</a></h3>
         <p>Direct, formative, conversational, professional</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-18.html">Style</a></h3>
+        <h3><a href="sumchanges-en-18.html">4.0 Style</a></h3>
         <p>Writing style, punctuation</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-19.html">Content structure</a></h3>
+        <h3><a href="sumchanges-en-19.html">5.0 Content structure</a></h3>
         <p>Page title, headings, lists, tables</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-20.html">Images and videos</a></h3>
+        <h3><a href="sumchanges-en-20.html">6.0 Images and videos</a></h3>
         <p>Functional images, decorative images</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-21.html">Links</a></h3>
+        <h3><a href="sumchanges-en-21.html">7.0 Links</a></h3>
         <p>Strategic and descriptive links</p>
       </div>
     </div>
