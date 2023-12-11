@@ -28,14 +28,10 @@ title: "Canada.ca Content Style Guide"
 </div>
 <div class="container mrgn-tp-lg">
   <section class="gc-srvinfo">
-    <h2 class="wb-inv">Canada.ca Content Style Guide sections</h2>
+    <h2>Sections</h2>
     <div class="row wb-eqht-grd">
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-14.html">Purpose and Use</a></h3>
-        <p>Purpose and use of the style guide</p>
-      </div>
-      <div class="col-md-4">
-        <h3><a href="sumchanges-en-15.html">Writing principles for web content</a></h3>
+        <h3><a href="sumchanges-en-15.html">Writing for the web</a></h3>
         <p>Writing to help people read and use web content</p>
       </div>
       <div class="col-md-4">
@@ -63,15 +59,8 @@ title: "Canada.ca Content Style Guide"
         <p>Strategic and descriptive links</p>
       </div>
     </div>
+    <h2>Case studies</h2>
     <div class="row wb-eqht-grd">
-      <div class="col-md-4">
-        <h3><a href="sumchanges-en-22.html">Policies, standards and procedures</a></h3>
-        <p>Content must comply with</p>
-      </div>
-      <div class="col-md-4">
-        <h3><a href="sumchanges-en-23.html">Summary of changes</a></h3>
-        <p>List begins with changes on May 25, 2023</p>
-      </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-24.html">Case study A</a></h3>
         <p>Improve plain language and content structure</p>
@@ -79,6 +68,21 @@ title: "Canada.ca Content Style Guide"
       <div class="col-md-4">
         <h3><a href="sumchanges-en-25.html">Case study B</a></h3>
         <p>Improve and simplify tables</p>
+      </div>
+    </div>
+    <h2>About the guide</h2>
+    <div class="row wb-eqht-grd">
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-14.html">Purpose and Use</a></h3>
+        <p>Purpose and use of the style guide</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-22.html">Policies, standards and procedures</a></h3>
+        <p>Content must comply with</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-23.html">Summary of changes</a></h3>
+        <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-26.html">Resources</a></h3>
