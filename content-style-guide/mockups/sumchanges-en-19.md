@@ -21,39 +21,6 @@ title: "5.0 Content structure"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>5.0 Content structure</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <section id="toc9">
-  <div class="row mrgn-tp-lg">
-    <div class="col-md-8">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h3 class="mrgn-tp-sm">In this section</h3>
-          <ul class="list-unstyled">
-            <li><a href="#wp5-1">5.1 Write useful page titles and headings</a>
-              <ul>
-                <li><a href="#wp5-1-1">Make the page title unique</a></li>
-                <li><a href="#wp5-1-2">Use a page title, headings and subheadings to show structure</a></li>
-              </ul>
-            </li>
-            <li><a href="#wp5-2">5.2 Use lists to help people scan </a>
-              <ul>
-                <li><a href="#wp5-2-1">Lead-in sentence</a></li>
-                <li><a href="#wp5-2-2">Numbered lists</a></li>
-                <li><a href="#wp5-2-3">Bulleted lists</a></li>
-                <li><a href="#wp5-2-4">Alphabetical lists</a></li>
-              </ul>
-            </li>
-            <li><a href="#wp5-3">5.3 Use tables to organize data</a>
-              <ul>
-                <li><a href="#wp5-3-1">Use column and row headers</a></li>
-                <li><a href="#wp5-3-2">Use the simplest structure possible</a></li>
-                <li><a href="#wp5-3-3">Limit the use of texture and colour</a></li>
-                <li><a href="#wp5-3-4">Avoid having blank cells</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
   <p>The structure and layout of content components help people find what they need quickly. Content components include:</p>
   <ul>
     <li>page title &nbsp;</li>
@@ -77,6 +44,31 @@ title: "5.0 Content structure"
   <ul>
     <li>your web page content covers too many topics, you might need to divide it into several pages</li>
     <li>several web pages contain pieces of content that relate to the same subject, consider combining them into a single page</li>
+  </ul>
+  <h2 class="mrgn-tp-lg">In this section</h2>
+  <ul class="list-unstyled">
+    <li><a href="#wp5-1">5.1 Write useful page titles and headings</a>
+      <ul>
+        <li><a href="#wp5-1-1">Make the page title unique</a></li>
+        <li><a href="#wp5-1-2">Use a page title, headings and subheadings to show structure</a></li>
+      </ul>
+    </li>
+    <li><a href="#wp5-2">5.2 Use lists to help people scan </a>
+      <ul>
+        <li><a href="#wp5-2-1">Lead-in sentence</a></li>
+        <li><a href="#wp5-2-2">Numbered lists</a></li>
+        <li><a href="#wp5-2-3">Bulleted lists</a></li>
+        <li><a href="#wp5-2-4">Alphabetical lists</a></li>
+      </ul>
+    </li>
+    <li><a href="#wp5-3">5.3 Use tables to organize data</a>
+      <ul>
+        <li><a href="#wp5-3-1">Use column and row headers</a></li>
+        <li><a href="#wp5-3-2">Use the simplest structure possible</a></li>
+        <li><a href="#wp5-3-3">Limit the use of texture and colour</a></li>
+        <li><a href="#wp5-3-4">Avoid having blank cells</a></li>
+      </ul>
+    </li>
   </ul>
   <section id="wp5-1">
     <h3>5.1 Write useful page titles and headings</h3>
