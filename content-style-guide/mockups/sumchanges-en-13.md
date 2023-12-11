@@ -53,7 +53,7 @@ title: "Canada.ca Content Style Guide"
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-20.html">6.0 Images and videos</a></h3>
-        <p>Functional images, decorative images</p>
+        <p>Functional images, decorative images, videos</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-21.html">7.0 Links</a></h3>
