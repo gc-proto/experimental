@@ -30,7 +30,7 @@ title: "2.0 Plain language"
     <li>save resources when editing and translating your text</li>
     <li>improve task completion and cuts costs by, for example, reducing enquiries</li>
   </ul>
-  <h3 class="mrgn-tp-lg">In this section</h3>
+  <h2 class="mrgn-tp-lg">In this section</h2>
   <ul>
     <li><a href="#wp2-1">2.1 Start with the most important information</a></li>
     <li><a href="#wp2-2">2.2 Use simple and common words</a></li>
