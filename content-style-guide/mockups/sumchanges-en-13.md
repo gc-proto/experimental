@@ -60,6 +60,17 @@ title: "Canada.ca Content Style Guide"
       </div>
     </div>
     <div class="row wb-eqht-grd">
+      <h2>Case studies</h2>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-24.html">Case study A</a></h3>
+        <p>Improve plain language and content structure</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-25.html">Case study B</a></h3>
+        <p>Improve and simplify tables</p>
+      </div>
+    </div>
+    <div class="row wb-eqht-grd">
       <h2>About the Guide</h2>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-14.html">Purpose and Use</a></h3>
@@ -72,14 +83,6 @@ title: "Canada.ca Content Style Guide"
       <div class="col-md-4">
         <h3><a href="sumchanges-en-23.html">Summary of changes</a></h3>
         <p>List begins with changes on May 25, 2023</p>
-      </div>
-      <div class="col-md-4">
-        <h3><a href="sumchanges-en-24.html">Case study A</a></h3>
-        <p>Improve plain language and content structure</p>
-      </div>
-      <div class="col-md-4">
-        <h3><a href="sumchanges-en-25.html">Case study B</a></h3>
-        <p>Improve and simplify tables</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-26.html">Resources</a></h3>
