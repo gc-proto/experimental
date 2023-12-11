@@ -21,41 +21,6 @@ title: "2.0 Plain language"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>2.0 Plain language</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <section id="toc6">
-  <div class="row mrgn-tp-lg">
-    <div class="col-md-8">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h3 class="mrgn-tp-sm">In this section</h3>
-          <ul>
-            <li><a href="#wp2-1">2.1 Start with the most important information</a></li>
-            <li><a href="#wp2-2">2.2 Use simple and common words</a></li>
-            <li><a href="#wp2-3">2.3 Use active voice and positive form</a>
-              <ul>
-                <li><a href="#wp2-3-1">Active or passive voice</a></li>
-                <li><a href="#wp2-3-2">Positive or negative form</a></li>
-              </ul>
-            </li>
-            <li><a href="#wp2-4">2.4 Use verbs instead of nouns formed from verbs</a></li>
-            <li><a href="#wp2-5">2.5 Avoid jargon, idioms and expressions</a></li>
-            <li><a href="#wp2-6">2.6 Use simple sentences</a></li>
-            <li><a href="#wp2-7">2.7 Use short sentences and paragraphs</a></li>
-            <li><a href="#wp2-8">2.8 Explain references to legislation</a></li>
-            <li><a href="#wp2-9">2.9 Check the reading level of the content</a>
-              <ul>
-                <li><a href="#wp2-9-1">Use a readability tool</a></li>
-                <li><a href="#wp2-9-2">Follow the reading level requirements</a></li>
-                <li><a href="#wp2-9-3">Verify whether the content is easy to understand</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section class="alert alert-warning">
-    <h3>Plain language requirements</h3>
-    <p>The use of plain language is a requirement of the <cite><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30682">Directive on the Management of Communications</a></cite>.</p>
-  </section>
   <p>Writing in plain language doesn't mean over-simplifying or leaving out critical information. Using plain language actually makes critical information accessible and readable for everyone.</p>
   <p>By writing plainly and simply, you:</p>
   <ul>
@@ -65,6 +30,33 @@ title: "2.0 Plain language"
     <li>save resources when editing and translating your text</li>
     <li>improve task completion and cuts costs by, for example, reducing enquiries</li>
   </ul>
+  <h3 class="mrgn-tp-lg">In this section</h3>
+  <ul>
+    <li><a href="#wp2-1">2.1 Start with the most important information</a></li>
+    <li><a href="#wp2-2">2.2 Use simple and common words</a></li>
+    <li><a href="#wp2-3">2.3 Use active voice and positive form</a>
+      <ul>
+        <li><a href="#wp2-3-1">Active or passive voice</a></li>
+        <li><a href="#wp2-3-2">Positive or negative form</a></li>
+      </ul>
+    </li>
+    <li><a href="#wp2-4">2.4 Use verbs instead of nouns formed from verbs</a></li>
+    <li><a href="#wp2-5">2.5 Avoid jargon, idioms and expressions</a></li>
+    <li><a href="#wp2-6">2.6 Use simple sentences</a></li>
+    <li><a href="#wp2-7">2.7 Use short sentences and paragraphs</a></li>
+    <li><a href="#wp2-8">2.8 Explain references to legislation</a></li>
+    <li><a href="#wp2-9">2.9 Check the reading level of the content</a>
+      <ul>
+        <li><a href="#wp2-9-1">Use a readability tool</a></li>
+        <li><a href="#wp2-9-2">Follow the reading level requirements</a></li>
+        <li><a href="#wp2-9-3">Verify whether the content is easy to understand</a></li>
+      </ul>
+    </li>
+  </ul>
+  <section class="alert alert-warning">
+    <h3>Plain language requirements</h3>
+    <p>The use of plain language is a requirement of the <cite><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30682">Directive on the Management of Communications</a></cite>.</p>
+  </section>
   <section id="wp2-1">
     <h3>2.1 Start with the most important information</h3>
     <p>Start your content with the most important information, and be direct. When people scan web pages, they tend to start in the top left hand corner and scan to the right and down. As they move down the page, they scan less and less to the right.</p>
