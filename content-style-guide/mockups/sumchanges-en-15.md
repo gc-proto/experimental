@@ -21,28 +21,20 @@ title: "1.0 Writing principles for web content"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>1.0 Writing principles for web content</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <section id="toc5">
-  <div class="row mrgn-tp-lg">
-    <div class="col-md-8">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h3 class="mrgn-tp-sm">In this section</h3>
-          <ul>
-            <li><a href="#wp1-1">1.1 Help people complete tasks</a></li>
-            <li><a href="#wp1-2">1.2 Consider the needs of the audience</a>
-              <ul>
-                <li><a href="#wp1-2-1">Writing for accessibility</a></li>
-                <li><a href="#wp1-2-1b">Writing for inclusivity</a></li>
-                <li><a href="#wp1-2-2">Writing for readability</a></li>
-                <li><a href="#wp1-2-3">Writing for specialized audiences</a></li>
-                <li><a href="#wp1-2-4">Consider all screen sizes</a></li>
-              </ul>
-            </li>
-            <li><a href="#wp1-3">1.3 Provide equivalent content in both official languages</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  <h3 class="mrgn-tp-sm">In this section</h3>
+  <ul>
+    <li><a href="#wp1-1">1.1 Help people complete tasks</a></li>
+    <li><a href="#wp1-2">1.2 Consider the needs of the audience</a>
+      <ul>
+        <li><a href="#wp1-2-1">Writing for accessibility</a></li>
+        <li><a href="#wp1-2-1b">Writing for inclusivity</a></li>
+        <li><a href="#wp1-2-2">Writing for readability</a></li>
+        <li><a href="#wp1-2-3">Writing for specialized audiences</a></li>
+        <li><a href="#wp1-2-4">Consider all screen sizes</a></li>
+      </ul>
+    </li>
+    <li><a href="#wp1-3">1.3 Provide equivalent content in both official languages</a></li>
+  </ul>
   <p>The rules in this guide reflect how people read and use web content.</p>
   <section id="wp1-1">
     <h3>1.1 Help people complete tasks</h3>
