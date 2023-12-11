@@ -32,7 +32,7 @@ title: "Canada.ca Content Style Guide"
     <div class="row wb-eqht-grd">
       <div class="col-md-4">
         <h3><a href="sumchanges-en-15.html">1.0 Writing for the web</a></h3>
-        <p>Writing to help people read and use web content</p>
+        <p>Tasks, audience (accessibility, usability, readabilty), official languages</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-16.html">2.0 Plain language</a></h3>
