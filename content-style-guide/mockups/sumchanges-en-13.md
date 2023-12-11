@@ -31,33 +31,58 @@ title: "Canada.ca Content Style Guide"
     <h2 class="wb-inv">Canada.ca Content Style Guide sections</h2>
     <div class="row wb-eqht-grd">
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-05.html">The Content Style Guide</a></h3>
+        <h3><a href="sumchanges-en-14.html">Purpose and Use</a></h3>
         <p>Canada.ca Content Style Guide</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-11.html">Use of the guide</a></h3>
+        <h3><a href="sumchanges-en-15.html">Writing principles for web content</a></h3>
         <p>Federal public administration subject to the <cite>Directive on the Management of Communications</cite></p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-07.html">Related policies, standards and procedures</a></h3>
+        <h3><a href="sumchanges-en-16.html">Plain language</a></h3>
         <p>Policies, standards and procedures content must coply with</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-12.html">Changes to the guide</a></h3>
+        <h3><a href="sumchanges-en-17.html">Tone</a></h3>
         <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-09.html">Case study A</a></h3>
+        <h3><a href="sumchanges-en-18.html">Style</a></h3>
+        <p>List begins with changes on May 25, 2023</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-19.html">Content structure</a></h3>
+        <p>List begins with changes on May 25, 2023</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-20.html">Images and videos</a></h3>
+        <p>List begins with changes on May 25, 2023</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-21.html">Links</a></h3>
+        <p>List begins with changes on May 25, 2023</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-22.html">Related policies, standards and procedures</a></h3>
+        <p>List begins with changes on May 25, 2023</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-23.html">•Summary of changes</a></h3>
+        <p>List begins with changes on May 25, 2023</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-24.html">Case study A</a></h3>
         <p>Improve plain language and content structure</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-10.html">Case study B</a></h3>
+        <h3><a href="sumchanges-en-25.html">Case study B</a></h3>
         <p>Improve and simplify tables</p>
       </div>
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-08.html">Resources</a></h3>
+        <h3><a href="sumchanges-en-26.html">Resources</a></h3>
         <p>Resources</p>
       </div>
     </div>
   </section>
 </div>
+
