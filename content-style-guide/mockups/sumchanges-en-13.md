@@ -44,7 +44,7 @@ title: "Canada.ca Content Style Guide"
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-18.html">Style</a></h3>
-        <p>riting style, punctuation</p>
+        <p>Writing style, punctuation</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-19.html">Content structure</a></h3>
