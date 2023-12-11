@@ -21,32 +21,24 @@ title: "7.0 Links"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>7.0 Links</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <section id="toc11">
-  <div class="row mrgn-tp-lg">
-    <div class="col-md-8">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h3 class="mrgn-tp-sm">In this section</h3>
-          <ul>
-            <li><a href="#wp7-1">7.1 Use links strategically</a>
-              <ul>
-                <li><a href="#wp7-1-1">Carefully select related content</a></li>
-              </ul>
-            </li>
-            <li><a href="#wp7-2">7.2 Write descriptive links</a>
-              <ul>
-                <li><a href="#wp7-2-1">Focus on the task</a></li>
-              </ul>
-            </li>
-            <li><a href="#wp7-3">7.3 Make sure that links work</a></li>
-            <li><a href="#wp7-4">7.4 Linking to non-government content </a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
   <p>A link (or hyperlink) is a word, phrase or image on a web page that people click on to move to another part of the same content or to access an entirely different web resource (such as a web page, video or downloadable file).</p>
   <p>People who use assistive technology can navigate web content using links. For example, screen readers list all links on a page without the contextual content.</p>
   <p>Your links should be descriptive and able to stand alone so that it's clear what people can expect if they click on them.</p>
+  <h2 class="mrgn-tp-sm">In this section</h2>
+  <ul>
+    <li><a href="#wp7-1">7.1 Use links strategically</a>
+      <ul>
+        <li><a href="#wp7-1-1">Carefully select related content</a></li>
+      </ul>
+    </li>
+    <li><a href="#wp7-2">7.2 Write descriptive links</a>
+      <ul>
+        <li><a href="#wp7-2-1">Focus on the task</a></li>
+      </ul>
+    </li>
+    <li><a href="#wp7-3">7.3 Make sure that links work</a></li>
+    <li><a href="#wp7-4">7.4 Linking to non-government content </a></li>
+  </ul>
   <section id="wp7-1">
     <h3>7.1 Use links strategically</h3>
     <p>Be strategic about how you place and create links on a web page and about how many links you provide:</p>
