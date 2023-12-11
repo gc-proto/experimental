@@ -22,45 +22,56 @@ title: "Canada.ca Content Style Guide"
     <div class="col-md-6">
       <h1 property="name" id="wb-cont" dir="ltr">Canada.ca Content Style Guide</h1>
       <p>These are the rules to create web content that can be easily found, understood and used. They are based on writing principles and techniques that help make web content clear and adapted to the needs of all people. Use the style guide with the <cite>Canada.ca Content and Information Specification</cite> when you're designing and organizing web content.</p>
-      <!--<a href="sumchanges-en-05.html" class="btn btn-call-to-action">The Canada.ca Content Style Guide</a></div>-->
+      <a href="sumchanges-en-05.html" class="btn btn-call-to-action">The Canada.ca Content Style Guide</a></div>
     <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg"><img src="images/letters-01.png" alt=" " /></div>
   </div>
 </div>
 <div class="container mrgn-tp-lg">
   <section class="gc-srvinfo">
-    <h2>Sections</h2>
+    <h2 class="wb-inv">Canada.ca Content Style Guide sections</h2>
     <div class="row wb-eqht-grd">
       <div class="col-md-4">
+        <h3><a href="sumchanges-en-14.html">Purpose and Use</a></h3>
+        <p>Canada.ca Content Style Guide</p>
+      </div>
+      <div class="col-md-4">
         <h3><a href="sumchanges-en-15.html">Writing principles for web content</a></h3>
-        <p>Writing to help people read and use web content</p>
+        <p>Federal public administration subject to the <cite>Directive on the Management of Communications</cite></p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-16.html">Plain language</a></h3>
-        <p>Plain language</p>
+        <p>Policies, standards and procedures content must coply with</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-17.html">Tone</a></h3>
-        <p>Direct, formative, conversational, professional</p>
+        <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-18.html">Style</a></h3>
-        <p>Writing style, simple punctuation</p>
+        <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-19.html">Content structure</a></h3>
-        <p>Page title, headings, lists, tables</p>
+        <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-20.html">Images and videos</a></h3>
-        <p>Functional images, decorative images</p>
+        <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-21.html">Links</a></h3>
-        <p>Strategic and descriptive links</p>
+        <p>List begins with changes on May 25, 2023</p>
       </div>
     </div>
     <div class="row wb-eqht-grd">
-      <h2>Case studies</h2>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-22.html">Related policies, standards and procedures</a></h3>
+        <p>List begins with changes on May 25, 2023</p>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="sumchanges-en-23.html">Summary of changes</a></h3>
+        <p>List begins with changes on May 25, 2023</p>
+      </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-24.html">Case study A</a></h3>
         <p>Improve plain language and content structure</p>
@@ -68,21 +79,6 @@ title: "Canada.ca Content Style Guide"
       <div class="col-md-4">
         <h3><a href="sumchanges-en-25.html">Case study B</a></h3>
         <p>Improve and simplify tables</p>
-      </div>
-    </div>
-    <div class="row wb-eqht-grd">
-      <h2>About the Guide</h2>
-      <div class="col-md-4">
-        <h3><a href="sumchanges-en-14.html">Purpose and Use</a></h3>
-        <p>Purpose and use of the style guide</p>
-      </div>
-      <div class="col-md-4">
-        <h3><a href="sumchanges-en-22.html">Related policies, standards and procedures</a></h3>
-        <p>Content must comply with</p>
-      </div>
-      <div class="col-md-4">
-        <h3><a href="sumchanges-en-23.html">Summary of changes</a></h3>
-        <p>List begins with changes on May 25, 2023</p>
       </div>
       <div class="col-md-4">
         <h3><a href="sumchanges-en-26.html">Resources</a></h3>
