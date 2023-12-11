@@ -21,7 +21,8 @@ title: "1.0 Writing principles for web content"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>1.0 Writing principles for web content</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <section id="toc5">
-  <h3 class="mrgn-tp-sm">In this section</h3>
+  <p>The rules in this guide reflect how people read and use web content.</p>
+  <h3 class="mrgn-tp-lg">In this section</h3>
   <ul>
     <li><a href="#wp1-1">1.1 Help people complete tasks</a></li>
     <li><a href="#wp1-2">1.2 Consider the needs of the audience</a>
@@ -35,7 +36,6 @@ title: "1.0 Writing principles for web content"
     </li>
     <li><a href="#wp1-3">1.3 Provide equivalent content in both official languages</a></li>
   </ul>
-  <p>The rules in this guide reflect how people read and use web content.</p>
   <section id="wp1-1">
     <h3>1.1 Help people complete tasks</h3>
     <p>Most people come to a government website to complete a task and expect us to provide information that will help them. Tasks can be:</p>
