@@ -65,7 +65,7 @@ title: "Canada.ca Content Style Guide"
     </div>
     <div class="row wb-eqht-grd">
       <div class="col-md-4">
-        <h3><a href="sumchanges-en-22.html">Related policies, standards and procedures</a></h3>
+        <h3><a href="sumchanges-en-22.html">Policies, standards and procedures</a></h3>
         <p>Content must comply with</p>
       </div>
       <div class="col-md-4">
