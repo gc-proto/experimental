@@ -21,27 +21,6 @@ title: "6.0 Images and videos"
 ---
 <h1 property="name" id="wb-cont" dir="ltr"><span class="stacked"><span>6.0 Images and videos</span>: <span>Canada.ca Content Style Guide</span></span></h1>
 <section id="toc10">
-  <div class="row mrgn-tp-lg">
-    <div class="col-md-8">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h3 class="mrgn-tp-sm">In this section</h3>
-          <ul>
-            <li><a href="#wp6-1">6.1 Understand the purpose of images online</a>
-              <ul>
-                <li><a href="#wp6-1-1">Functional images</a></li>
-                <li><a href="#wp6-1-2">Decorative images</a></li>
-                <li><a href="#wp6-1-3">Image sizing and placement</a></li>
-              </ul>
-            </li>
-            <li><a href="#wp6-2">6.2 Include alternative text for images</a></li>
-            <li><a href="#wp6-3">6.3 Include long descriptions for complex images</a></li>
-            <li><a href="#wp6-4">6.4 Include transcripts to describe audio and video files</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
   <p>You can use images and videos to:</p>
   <ul>
     <li>enhance key messages</li>
@@ -54,6 +33,19 @@ title: "6.0 Images and videos"
   <p>Make sure that you have the appropriate permissions to publish images, audio files and videos online. You'll need to have the written proof of those rights. Refer to the <cite><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27167">Procedures for Publishing</a></cite> or contact your institution's authoring team for more details.</p>
   <h4>Help with images, audio files or videos on Canada.ca</h4>
   <p>For specific information about consent forms or licensing requirements related to Canada.ca, contact the Principal Publisher: <a href="mailto:na-web_support-soutien_du_web-gd@servicecanada.gc.ca">na-web_support-soutien_du_web-gd@servicecanada.gc.ca</a>.</p>
+  <h2 class="mrgn-tp-lg">In this section</h2>
+  <ul>
+    <li><a href="#wp6-1">6.1 Understand the purpose of images online</a>
+      <ul>
+        <li><a href="#wp6-1-1">Functional images</a></li>
+        <li><a href="#wp6-1-2">Decorative images</a></li>
+        <li><a href="#wp6-1-3">Image sizing and placement</a></li>
+      </ul>
+    </li>
+    <li><a href="#wp6-2">6.2 Include alternative text for images</a></li>
+    <li><a href="#wp6-3">6.3 Include long descriptions for complex images</a></li>
+    <li><a href="#wp6-4">6.4 Include transcripts to describe audio and video files</a></li>
+  </ul>
 </section>
 <section id="wp6-1">
   <h3>6.1 Understand the purpose of images online</h3>
