@@ -53,7 +53,7 @@ title: "2.0 Plain language"
       </ul>
     </li>
   </ul>
-  <section class="alert alert-warning">
+  <section class="alert alert-warning mrgn-tp-lg">
     <h3>Plain language requirements</h3>
     <p>The use of plain language is a requirement of the <cite><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30682">Directive on the Management of Communications</a></cite>.</p>
   </section>
