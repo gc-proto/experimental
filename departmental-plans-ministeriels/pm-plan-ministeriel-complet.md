@@ -277,11 +277,11 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 
     <div class="table-responsive">
     <table id="tbl2" class="table table-bordered table-condensed">
-      <tr>
+      <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Champ     de déclaration de 5&nbsp;%</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     réel en 2022-2023</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     prévu en 2023-2024</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     projeté en 2024-2025</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     réel en <span class="nowrap">2022-2023</span></div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     prévu en <span class="nowrap">2023-2024</span></div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     projeté en <span class="nowrap">2024-2025</span></div></th>
       </tr>
       <tr>
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Pourcentage total de marchés avec des    entreprises autochtones</div></th>
@@ -933,10 +933,5 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </details>
  
 </section>
-
-
-
   
 </div>
-
-
