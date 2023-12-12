@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-12-05
+dateModified: 2023-12-12
 language: fr
 layout: default
 title: "Plan ministériel de [nom du ministère] pour [exercice]"
@@ -268,6 +268,36 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Planification de l'attribution des marchés aux entreprises autochtones</summary>
   <p>[Texte dans la section « Planification de l'attribution des marchés aux entreprises autochtones »] </p>
+  <section>
+  <h5 class="h4">Tableau [numéro] : Planification de l'attribution des marchés aux entreprises autochtones</h5>
+    <p><mark>The following table shows how the department plans to achieve awarding at least 5% of the total value of contracts to Indigenous businesses annually.</mark></p>
+    <p>[Une page au maximum]</p>
+    <p>Décrivez comment votre ministère prévoit  attribuer chaque année au moins 5&nbsp;% de la valeur totale des marchés à des  entreprises autochtones. Ne déclarez pas simplement que vous atteindrez  l&rsquo;objectif minimum obligatoire de 5&nbsp;%; indiquez comment votre plan vous  aidera à atteindre l&rsquo;objectif défini à l&rsquo;annexe&nbsp;E de la <a href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32692"><em>Directive sur la gestion de l&rsquo;approvisionnement</em></a>.]</p>
+    <p>[Les  organisations doivent remplir le tableau suivant selon leur phase.]</p>
+
+    <div class="table-responsive">
+    <table id="tbl2" class="table table-bordered table-condensed">
+      <tr>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Champ     de déclaration de 5&nbsp;%</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     réel en 2022-2023</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     prévu en 2023-2024</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     projeté en 2024-2025</div></th>
+      </tr>
+      <tr>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Pourcentage total de marchés avec des    entreprises autochtones</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"><p>[Les organisations de la phase 1 saisissent un    pourcentage numérique </p>
+        <p>Les organisations des phases 2 et 3 peuvent saisir un    pourcentage numérique, si possible, sinon saisir «&nbsp;S. O.&nbsp;»]&nbsp;% </p></div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"><p>[Les organisations des phases 1 et 2 saisissent un    pourcentage numérique représentant le résultat attendu </p>
+          <p>Les organisations de phase 3 saisissent «&nbsp;S.    O.&nbsp;»]&nbsp;% </p></div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Toutes les phases saisissent un pourcentage numérique    représentant le résultat estimé]&nbsp;%</div></td>
+      </tr>
+    </table>
+    </div>
+    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
+      <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
+    </details>
+    </section>
   </details>
  </section>
 </section>
@@ -344,7 +374,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   
 <p>Le tableau suivant présente des  renseignements sur les dépenses pour chacune des responsabilités essentielles  du [nom du ministère] et pour ses  services internes au cours des trois exercices précédents. Les montants pour l'exercice  en cours sont prévus en fonction des dépenses à ce jour.</p>
 <div class="table-responsive">
-  <table id="tbl2" class="table table-bordered table-condensed">
+  <table id="tbl3" class="table table-bordered table-condensed">
     <thead>
       <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
@@ -411,7 +441,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   
 <p>Le tableau suivant présente des  renseignements sur les dépenses pour chacune des responsabilités essentielles  de [nom du ministère] et pour ses services internes au cours des trois prochains  exercices.</p>
 <div class="table-responsive">
-  <table id="tbl3" class="table table-bordered table-condensed">
+  <table id="tbl4" class="table table-bordered table-condensed">
     <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
@@ -485,7 +515,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   
   <p>Le tableau ci-dessous fait le rapprochement des dépenses brutes prévues et des dépenses nettes prévues pour [insérez l'exercice].</p>
   <div class="table-responsive">
-   <table id="tbl4" class="table table-bordered table-condensed">
+   <table id="tbl5" class="table table-bordered table-condensed">
    <caption class="text-left"></caption>
    <thead>
     <tr class="active">
@@ -628,7 +658,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <p>Les montants des prévisions et les montants  prévus dans le présent état des résultats ont été préparés selon la méthode de  la comptabilité d'exercice. Les montants des prévisions et les montants prévus  qui sont présentés dans d'autres sections du plan ministériel ont été établis  selon la méthode de comptabilité axée sur les dépenses. Les montants peuvent  donc différer. </p>
   <p>Un état des opérations prospectif plus détaillé  et des notes afférentes, notamment un rapprochement des résultats d'exploitation  nets avec les autorisations demandées, se trouvent à [lien hypertexte vers le site Web] de [nom du ministère]. </p>
 <section><h4>Tableau [numéro] : État condensé prospectif des opérations pour l'exercice se terminant le 31 mars [insérez l'exercice] (en dollars)</h4>
-<div class="table-responsive"><table id="tbl5" class="table table-bordered table-condensed">
+<div class="table-responsive"><table id="tbl6" class="table table-bordered table-condensed">
  <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
@@ -674,7 +704,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <div> </div>
 </div>
 <div class="table-responsive">
- <table id="tbl6" class="table table-bordered table-condensed">
+ <table id="tbl7" class="table table-bordered table-condensed">
   <thead>
    <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
@@ -738,7 +768,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
    <h4>Tableau [numéro] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
     <p>Le tableau suivant présente des renseignements sur les ressources humaines, en ETP, pour chacune des responsabilités essentielles de [nom du ministère] et pour ses services internes prévus pour [insérez l'exercice] et les années suivantes.</p>
    <div class="table-responsive">
-     <table id="tbl7" class="table table-bordered table-condensed">
+     <table id="tbl8" class="table table-bordered table-condensed">
       <thead>
        <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
