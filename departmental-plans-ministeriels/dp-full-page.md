@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-12-05
+dateModified: 2023-12-12
 language: en
 layout: default
 title: "[Name of organization] [fiscal year] Departmental plan"
@@ -263,7 +263,40 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <h4 is="toc02-5-4">Related government priorities</h4>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Planning for contracts awarded to Indigenous businesses</summary>
-  <p>[Text within the &#8220;Planning for contracts awarded to Indigenous businesses&#8221; section]</p>
+  <section>
+<h5 class="h4">Table [#]: Planning for contracts awarded to Indigenous businesses</h5>
+<p>The following table shows how the department plans to achieve awarding at least 5% of the total value of contracts to Indigenous businesses annually.</p>
+<p>[maximum 1 page]</p>
+<p>[Outline  how your department plans to achieve awarding at least 5% of the total value of  contracts to Indigenous businesses annually. Do not simply state that you will  achieve the mandatory minimum target of 5%; state how your plan will help you  achieve the target set out in Appendix&nbsp;E to the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"><em>Directive on the Management of  Procurement</em></a>.] </p>
+<p>[Organizations must complete the following table according to their  phase.]</p>
+
+<div class="table-responsive">
+<table id="tbl2" class="table table-bordered table-condensed">
+ <thead>
+  <tr class="active">
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">5% reporting field</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">2022-23 actual result</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">2023-24     forecasted result</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">2024-25 planned     result</div></th>
+  </tr>
+</thead>
+    <tbody>
+  <tr>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Total percentage of contracts    with Indigenous businesses</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"><p>[Phase 1    organizations enter a numerical percentage</p>
+        <p>Phases 2 and 3    organizations may enter a numerical percentage, if possible, otherwise enter    &ldquo;n/a&rdquo;] %</p></div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"><p>[Phases 1 and 2    organizations enter a numerical percentage representing the expected outcome </p>
+        <p>Phase 3    organizations enter &ldquo;n/a&rdquo;] %</p></div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[All phases enter    a numerical percentage representing the estimated outcome] %</div></td>
+  </tr>
+</tbody>
+</table>
+</div>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
+  <p>[Please include the explanation of the table included in the word template]</p>
+  </details>
+ </section>
   </details>
  </section>
 </section>
@@ -339,7 +372,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   
 <p>The following table shows information on spending for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the previous three fiscal years. Amounts for the current fiscal year are forecasted based on spending to date.</p>
 <div class="table-responsive">
- <table id="tbl2" class="table table-bordered table-condensed">
+ <table id="tbl3" class="table table-bordered table-condensed">
  <thead>
   <tr class="active">
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -406,7 +439,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   
 <p>The following table shows information on spending for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the upcoming three fiscal years.</p>
 <div class="table-responsive">
-<table id="tbl3" class="table table-bordered table-condensed">
+<table id="tbl4" class="table table-bordered table-condensed">
  <thead>
 <tr class="active">
  <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -480,7 +513,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   
   <p>The following table reconciles gross planned spending with net planned spending for 2024–25.</p>
   <div class="table-responsive">
-   <table id="tbl4" class="table table-bordered table-condensed">
+   <table id="tbl5" class="table table-bordered table-condensed">
    <caption class="text-left"></caption>
    <thead>
     <tr class="active">
@@ -623,7 +656,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <p>The forecast and planned amounts in this statement of operations were prepared on an accrual basis. The forecast and planned amounts presented in other sections of the Departmental Plan were prepared on an expenditure basis. Amounts may therefore differ.</p>
   <p>A more detailed future-oriented statement of operations and associated notes, including a reconciliation of the net cost of operations with the requested authorities, are available at [organization&#8217;s name] [hyperlink the text to the website].</p>
    <section><h4>Table [#]: Future-oriented condensed statement of operations for the year ending March 31, [insert fiscal year] (dollars)</h4>
-<div class="table-responsive"><table id="tbl5" class="table table-bordered table-condensed">
+<div class="table-responsive"><table id="tbl6" class="table table-bordered table-condensed">
  <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
@@ -669,7 +702,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <div> </div>
 </div>
 <div class="table-responsive">
- <table id="tbl6" class="table table-bordered table-condensed">
+ <table id="tbl7" class="table table-bordered table-condensed">
   <thead>
    <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -734,7 +767,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
     <p>The following table shows information on human resources, in FTEs, for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services planned for [insert fiscal year] and future years.
  </p>
    <div class="table-responsive">
-     <table id="tbl7" class="table table-bordered table-condensed">
+     <table id="tbl8" class="table table-bordered table-condensed">
       <thead>
        <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -876,8 +909,5 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   </details>
  
 </section>
-
-
-
   
 </div>
