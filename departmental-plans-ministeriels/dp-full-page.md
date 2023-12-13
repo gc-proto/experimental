@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-12-12
+dateModified: 2023-12-13
 language: en
 layout: default
 title: "[Name of organization] [fiscal year] Departmental plan"
@@ -261,10 +261,9 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </section>
  <section>
   <h4 is="toc02-5-4">Related government priorities</h4>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Planning for contracts awarded to Indigenous businesses</summary>
+  <section><h5>Planning for contracts awarded to Indigenous businesses</h5>
   <section>
-<h5 class="h4">Table [#]: Planning for contracts awarded to Indigenous businesses</h5>
+<h6 class="h4">Table [#]: Planning for contracts awarded to Indigenous businesses</h6>
 <p>The following table shows how the department plans to achieve awarding at least 5% of the total value of contracts to Indigenous businesses annually.</p>
 <p>[maximum 1 page]</p>
 <p>[Outline  how your department plans to achieve awarding at least 5% of the total value of  contracts to Indigenous businesses annually. Do not simply state that you will  achieve the mandatory minimum target of 5%; state how your plan will help you  achieve the target set out in Appendix&nbsp;E to the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"><em>Directive on the Management of  Procurement</em></a>.] </p>
@@ -275,9 +274,9 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">5% reporting field</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">2022-23 actual result</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">2023-24     forecasted result</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">2024-25 planned     result</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"><span class="nowrap">2022-23</span> actual result</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"><span class="nowrap">2023-24</span>     forecasted result</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"><span class="nowrap">2024-25</span> planned     result</div></th>
   </tr>
 </thead>
     <tbody>
@@ -292,12 +291,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </tbody>
 </table>
 </div>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
-  <p>[Please include the explanation of the table included in the word template]</p>
-  </details>
- </section>
-  </details>
+ </section></section>
  </section>
 </section>
 </section>
