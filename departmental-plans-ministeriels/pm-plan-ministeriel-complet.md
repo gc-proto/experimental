@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-12-12
+dateModified: 2023-12-13
 language: fr
 layout: default
 title: "Plan ministériel de [nom du ministère] pour [exercice]"
@@ -265,13 +265,12 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  </section>
  <section>
   <h4 is="toc02-5-4">Priorités gouvernementales connexes</h4>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Planification de l'attribution des marchés aux entreprises autochtones</summary>
+  <section><h5>Planification de l'attribution des marchés aux entreprises autochtones</h5>
   <p>[Texte dans la section « Planification de l'attribution des marchés aux entreprises autochtones »] </p>
   <section>
   <h5 class="h4">Tableau [numéro] : Planification de l'attribution des marchés aux entreprises autochtones</h5>
-    <p><mark>The following table shows how the department plans to achieve awarding at least 5% of the total value of contracts to Indigenous businesses annually.</mark></p>
-    <p>[Une page au maximum]</p>
+    <p>Le tableau suivant démontre comment le  ministère prévoit attribuer chaque année au moins 5&nbsp;% de la valeur totale  des marchés à des entreprises autochtones. </p>
+<p>[Une page au maximum]</p>
     <p>Décrivez comment votre ministère prévoit  attribuer chaque année au moins 5&nbsp;% de la valeur totale des marchés à des  entreprises autochtones. Ne déclarez pas simplement que vous atteindrez  l&rsquo;objectif minimum obligatoire de 5&nbsp;%; indiquez comment votre plan vous  aidera à atteindre l&rsquo;objectif défini à l&rsquo;annexe&nbsp;E de la <a href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32692"><em>Directive sur la gestion de l&rsquo;approvisionnement</em></a>.]</p>
     <p>[Les  organisations doivent remplir le tableau suivant selon leur phase.]</p>
 
@@ -293,12 +292,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
       </tr>
     </table>
     </div>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
-      <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
-    </details>
-    </section>
-  </details>
+    </section></section>
  </section>
 </section>
 </section>
@@ -933,5 +927,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </details>
  
 </section>
-  
+
 </div>
+
+
