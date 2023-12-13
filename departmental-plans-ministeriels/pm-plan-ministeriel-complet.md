@@ -268,7 +268,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <section><h5>Planification de l'attribution des marchés aux entreprises autochtones</h5>
   <p>[Texte dans la section « Planification de l'attribution des marchés aux entreprises autochtones »] </p>
   <section>
-  <h5 class="h4">Tableau [numéro] : Planification de l'attribution des marchés aux entreprises autochtones</h5>
+  <h6 class="h4">Tableau [numéro] : Planification de l'attribution des marchés aux entreprises autochtones</h6>
     <p>Le tableau suivant démontre comment le  ministère prévoit attribuer chaque année au moins 5&nbsp;% de la valeur totale  des marchés à des entreprises autochtones. </p>
 <p>[Une page au maximum]</p>
     <p>Décrivez comment votre ministère prévoit  attribuer chaque année au moins 5&nbsp;% de la valeur totale des marchés à des  entreprises autochtones. Ne déclarez pas simplement que vous atteindrez  l&rsquo;objectif minimum obligatoire de 5&nbsp;%; indiquez comment votre plan vous  aidera à atteindre l&rsquo;objectif défini à l&rsquo;annexe&nbsp;E de la <a href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32692"><em>Directive sur la gestion de l&rsquo;approvisionnement</em></a>.]</p>
