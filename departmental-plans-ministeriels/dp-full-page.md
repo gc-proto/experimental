@@ -89,7 +89,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <h3 id="toc02-1">[Name of core responsibility]</h3>
  <ul class="list-unstyled">
   <li>
- <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+ <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
   <ul>
   <li><a href="#toc02-1-1">Description</a></li>
@@ -187,11 +187,11 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </div></section>
  <section>
   <h4 id="toc02-1-7">Related government priorities</h4>
-  <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Gender-based analysis plus</summary>
   <p>[Text within the &#8220;Gender-based analysis plus&#8221; section, if included]</p>
   </details>
-  <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals</summary>
   <p>[Text within the &#8220;United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals&#8221;, if included]</p>
   </details>
@@ -215,7 +215,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <h3 id="toc02-5">Internal services</h3>
  <ul class="list-unstyled">
   <li>
- <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+ <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
   <ul>
   <li><a href="#toc02-5-1">Description</a></li>
@@ -300,7 +300,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <h2 id="toc03"> Planned spending and human resources</h2>
  <p>[Insert text and amounts from the &quot;Planned spending and human resources&#8221; section of the word template]</p><ul class="list-unstyled">
  <li>
- <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+ <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
  <ul>
  <li><a href="#toc03-1">Spending</a></li>
@@ -319,7 +319,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
    <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>]</p>
       <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
-   <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
 
     <div class="table-responsive">
@@ -354,7 +354,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
      </tbody>
 </table></div>
    </details>
-   <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of figure [#]</summary>
 
     <p>[Please include the explanation of the figure included in the word template]</p>
@@ -423,7 +423,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </table></div>
 
   
-  <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
   <p>[Please include the explanation of the table included in the word template]</p>
   </details>
@@ -497,7 +497,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </tbody>
 </table>
 </div>
-  <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
   <p>[Please include the explanation of the table included in the word template]</p>
   </details>
@@ -564,7 +564,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    </tbody>
    </table>
   </div>
-  <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
   <p>[Please include the explanation of the table included in the word template]</p>
   </details>
@@ -580,7 +580,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       <p>[Access the <a href="https://www.gcpedia.gc.ca/gcwiki/images/b/b1/2024-25_Departmental_Spending_Graph_Template_-_EN.xlsx">bar graph template on GCPedia</a>]</p>
       <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
 
-      <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
 
         <div class="table-responsive">
@@ -633,7 +633,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
           </tbody>
         </table></div>
       </details>
-      <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of figure [#]</summary>
 
         <p>[Please include the explanation of the figure included in the word template]</p>
@@ -683,7 +683,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </tr>
 </tbody>
 </table></div>
-  <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
    <p>[Please include the explanation of the table included in the word template]</p>
   </details></section>
@@ -752,7 +752,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
    </tbody>
   </table>
 </div>
-   <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
     <p>[Please include the explanation of the table included in the word template]</p>
    </details>
@@ -817,7 +817,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </tbody>
      </table>
     </div>
-    <details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
     <p>[Please include the explanation of the table included in the word template]</p>
    </details>
@@ -827,7 +827,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section>
  <h2 id="toc04">Corporate information</h2>
   <div class="accordion">
-	<details class="details-pane acc-group print-open">
+	<details class="acc-group print-open">
 		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational profile</summary>
 		<div class="tgl-panel">
 			<section><h3>Appropriate minister(s):</h3><p>[insert name(s)]</p></section>
@@ -838,7 +838,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  			<section><h3>Other:</h3><p>[insert other information]</p></section>
 		</div>
 	</details>
-	<details class="details-pane acc-group print-open">
+	<details class="acc-group print-open">
 		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational contact information</summary>
 		<div class="tgl-panel">
             <section><h3>Mailing address:</h3><p>[insert address]</p></section>
@@ -871,7 +871,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section>
  <h2 id="toc07">Definitions </h2>
  <p>[For this section, please use the text found in the main report under the &#8220;Definitions&#8221; section]</p>
-<details class="details-pane brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">List of terms</summary>
     <dl>
         <dt>appropriation <span lang="fr">(crédit)</span></dt>
