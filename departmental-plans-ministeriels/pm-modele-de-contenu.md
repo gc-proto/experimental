@@ -52,7 +52,7 @@ title: "Plans ministériels"
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code de la page Aperçu</a></li>
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-plan-ministeriel-comple.md">Code de la page Plan intégral</a></li>
     </ul>
-    <p>Publiez et déposez le  contenu&nbsp;:</p><ol>
+    <!-- <p>Publiez et déposez le  contenu&nbsp;:</p><ol>
       <li>Sauvegardez  les deux pages en format PDF.</li>
       <li>Regroupez les  deux documents en un seul fichier PDF.</li>
       <li>Ajoutez le  numéro de page dans le bas droit de toutes les pages PDF.</li>
@@ -66,7 +66,7 @@ title: "Plans ministériels"
         </ol>
       </li>
       <li>Transmettez  les liens et une copie du document PDF à la personne responsable du contenu du  Plan ministériel. Elle s&rsquo;occupera d&rsquo;organiser l&rsquo;ensemble du contenu pour le  dépôt.</li>
-    </ol>
+    </ol> -->
   </section>
   <section>
     <h2 id="toc05">Recherche et justification</h2>
