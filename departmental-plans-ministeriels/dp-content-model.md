@@ -54,7 +54,7 @@ title: "Departmental Plans"
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-at-glance.md">At a glance page code</a></li>
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-full-page.md">Full plan page code</a></li>
     </ul>
-    <p>Publish and table the content:</p>
+    <!-- <p>Publish and table the content:</p>
     <ol>
       <li>save  both pages as PDFs </li>
       <li>consolidate  documents into a single PDF file</li>
@@ -68,7 +68,7 @@ title: "Departmental Plans"
         <li>if  you require a new Catalogue number you can <a href="https://publications.gc.ca/site/eng/isbn/apply.html?execution=e1s1">request one for  Publications.ca</a></li>
       </ol></li>
         <li>share the  links and a copy of the PDF with the content owner of the Departmental Plan.  They will package for tabling.</li>
-    </ol>
+    </ol> -->
   </section>
   <section>
     <h2 id="toc05">Research and rationale</h2>
