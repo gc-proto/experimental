@@ -39,7 +39,10 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <li><a href="#toc07">Definitions</a></li>
  </ul>
 </section>
-<button type="button" class="wb-toggle" data-toggle='{"selector": ".details-pane", "type": "on"}'>Toggle</button>
+ <div class="btn-group mrgn-bttm-md">
+<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
+<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+</div>
 <section>
  <h2 id="toc01">From the Minister</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
