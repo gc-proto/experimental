@@ -10,39 +10,41 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
- 
- <section>
- <h2>On this page</h2>
- <ul>
- <li><a href="#toc01">From the Minister</a></li>
- <li><a href="#toc01b">From the Institutional Head (*optional)</a></li>
- <li><a href="#toc02">Plans to deliver on core responsibilities and internal services</a> 
- <ul>
- <li><a href="#toc02-1">Name of core responsibility 1</a></li>
- <li><a href="#toc02-2">Name of core responsibility 2</a></li>
- <li><a href="#toc02-3">Name of core responsibility 3</a></li>
- <li><a href="#toc02-4">Name of core responsibility 4</a></li>
- <li><a href="#toc02-5">Internal services</a></li>
- </ul>
- </li>
- <li><a href="#toc03">Planned spending and human resources</a>
- <ul>
- <li><a href="#toc03-1">Spending</a></li>
- <li><a href="#toc03-2">Funding</a></li>
- <li><a href="#toc03-3">Future-oriented condensed statement of operations</a></li>
- <li><a href="#toc03-4">Human resources</a></li>
- </ul>
- </li>
-  <li><a href="#toc04">Corporate information</a></li>
-  <li><a href="#toc05">Supplementary information tables</a></li>
- <li><a href="#toc06">Federal tax expenditures</a></li>
- <li><a href="#toc07">Definitions</a></li>
- </ul>
-</section>
- <div class="btn-group mrgn-bttm-md">
+    
+<div class="btn-group mrgn-bttm-md">
 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
 </div>
+    
+<section>
+<h2>On this page</h2>
+<ul>
+<li><a href="#toc01">From the Minister</a></li>
+<li><a href="#toc01b">From the Institutional Head (*optional)</a></li>
+<li><a href="#toc02">Plans to deliver on core responsibilities and internal services</a> 
+<ul>
+<li><a href="#toc02-1">Name of core responsibility 1</a></li>
+<li><a href="#toc02-2">Name of core responsibility 2</a></li>
+<li><a href="#toc02-3">Name of core responsibility 3</a></li>
+<li><a href="#toc02-4">Name of core responsibility 4</a></li>
+<li><a href="#toc02-5">Internal services</a></li>
+</ul>
+</li>
+<li><a href="#toc03">Planned spending and human resources</a>
+<ul>
+<li><a href="#toc03-1">Spending</a></li>
+<li><a href="#toc03-2">Funding</a></li>
+<li><a href="#toc03-3">Future-oriented condensed statement of operations</a></li>
+<li><a href="#toc03-4">Human resources</a></li>
+</ul>
+</li>
+<li><a href="#toc04">Corporate information</a></li>
+<li><a href="#toc05">Supplementary information tables</a></li>
+<li><a href="#toc06">Federal tax expenditures</a></li>
+<li><a href="#toc07">Definitions</a></li>
+</ul>
+</section>
+
 <section>
  <h2 id="toc01">From the Minister</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
