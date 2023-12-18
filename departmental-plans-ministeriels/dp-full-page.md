@@ -39,11 +39,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <li><a href="#toc07">Definitions</a></li>
  </ul>
 </section>
-<section> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-xl"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&#160;Print this page</a> </section>
-<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
- <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Copyright information</summary>
- <p>[Include copyright information, ISSN and catalogue number. Instructions on how to prepare the report for tabling is available in the <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model.html">template for Departmental Plans</a>]</p>
-</details>
+<div class="wet-boew-expandcollapseall"></div>
 <section>
  <h2 id="toc01">From the Minister</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
