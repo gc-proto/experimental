@@ -10,7 +10,12 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
-
+    
+<div class="btn-group mrgn-bttm-md">
+<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
+<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
+</div>
+    
 <section>
 <h2>Sur cette page</h2>
 <ul>
@@ -39,8 +44,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <li><a href="#toc07">Définitions</a></li>
 </ul>
 </section>
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
+    
 <section>
  <h2 id="toc01">De la part du ministre</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
