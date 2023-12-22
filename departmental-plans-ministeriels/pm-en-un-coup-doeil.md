@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-11-30
+dateModified: 2023-12-22
 language: fr
 layout: default
 title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œil"
@@ -52,9 +52,6 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
           <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
         
         
-          <p><strong>Plans pour atteindre les résultats :</strong></p>
-          <p>[Insérez un résumé des plans de l’organisation pour atteindre les résultats]</p>
-            <p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] peuvent être trouvés dans le plan ministériel complet.</p>
         
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -69,9 +66,6 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
           <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
         
         
-          <p><strong>Plans pour atteindre les résultats :</strong></p>
-          <p>[Insérez un résumé des plans de l’organisation pour atteindre les résultats]</p>
-            <p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] peuvent être trouvés dans le plan ministériel complet.</p>
         
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -86,9 +80,6 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
           <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
         
         
-          <p><strong>Plans pour atteindre les résultats :</strong></p>
-          <p>[Insérez un résumé des plans de l’organisation pour atteindre les résultats]</p>
-            <p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] peuvent être trouvés dans le plan ministériel complet.</p>
         
       </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -103,9 +94,6 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
           <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
         
         
-          <p><strong>Plans pour atteindre les résultats :</strong></p>
-          <p>[Insérez un résumé des plans de l’organisation pour atteindre les résultats]</p>
-            <p>De plus amples renseignements sur [<a href="#">nom de la responsabilité essentielle</a>] peuvent être trouvés dans le plan ministériel complet.</p>
         
       </details>
     </section>
