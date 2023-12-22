@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-11-30
+dateModified: 2023-12-22
 language: en
 layout: default
 title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
@@ -49,9 +49,7 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
             </ul>
           <p><strong>Planned spending:</strong> [Insert planned spending]</p>
           <p><strong>Planned human resources:</strong> [Insert number of full-time equivalents]</p>
-          <p><strong>Plans to achieve  results:</strong> </p>
-          <p>[Insert a summary of the organization’s plans to achieve results]</p>
-        <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
+          
         </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -63,9 +61,6 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
             </ul>
           <p><strong>Planned spending:</strong> [Insert planned spending]</p>
           <p><strong>Planned human resources:</strong> [Insert number of full-time equivalents]</p>
-          <p><strong>Plans to achieve  results:</strong> </p>
-          <p>[Insert a summary of the organization’s plans to achieve results]</p>
-        <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full departmental plan. </p>
         </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -77,9 +72,6 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
             </ul>
           <p><strong>Planned spending:</strong> [Insert planned spending]</p>
           <p><strong>Planned human resources:</strong> [Insert number of full-time equivalents]</p>
-          <p><strong>Plans to achieve  results:</strong> </p>
-          <p>[Insert a summary of the organization’s plans to achieve results for this core responsibility]</p>
-        <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
         </section>
       </details>
        <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -91,9 +83,6 @@ title: "[Name of organization]’s [fiscal year] Departmental plan at a glance"
             </ul>
           <p><strong>Planned spending:</strong> [Insert planned spending]</p>
           <p><strong>Planned human resources:</strong> [Insert number of full-time equivalents]</p>
-          <p><strong>Plans to achieve  results:</strong> </p>
-          <p>[Insert a summary of the organization’s plans to achieve results for this core responsibility]</p>
-        <p>More information about [<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">name of core responsibility</a>] can be found in the full  departmental plan. </p>
         </section>
       </details>
     </section>
