@@ -1,1 +1,252 @@
-<-- HC's FAQ markup -->
+<!-- FAQ examples -->
+
+<!-- CRA's FAQ markup from https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html (topic page with doormats) -->
+
+{
+  "@context": "http://schema.org",
+  "@id": "#wb-webpage",
+  "@type": "FAQPage",
+  "publisher": {
+    "@type": "GovernmentOrganization",
+    "@id": "#wb-publisher",
+    "name": "Government of Canada",
+    "url": "https://www.canada.ca/en.html"
+  },
+  "name": "Personal income tax",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who should file a tax return",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": "<p><a href='https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/who-should-file-tax.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q1-001'>Determine if you need to file a tax return and what your tax obligations are.</a></a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "COVID-19 benefits and your taxes",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": " <p><a href='https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/covid19-taxes.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q2-001'>How to report your benefit amounts, issues with tax slips, payment options, and interest relief if you owe 2022 taxes.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Get ready to do your taxes",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": "<p><a href='https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/get-ready-taxes.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q3-001'>Find out what's new for 2022, key filing and payment dates, what to report and claim, and ways to file your taxes.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Paying your taxes",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": "<p><a href='https://www.canada.ca/en/revenue-agency/services/payments-cra.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q4-001'>Find options to pay now, pay a debt over time or if you cannot pay, and how to pay 2023 taxes by instalments</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "After you file your tax return",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": "<p><a href='https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q5-001'>Get your notice of assessment, pay a balance owing, check the status of your refund, make a change to your tax return.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Help others with their taxes",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": " <p><a href='https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/help-others.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q6-001'>Become an authorized representative, register your organization to host a free tax clinic, or volunteer at a tax clinic.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Due dates and payment dates",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": " <p><a href='https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q7-001'>Filing and payment due dates for taxes, contributions, instalment payments, and amounts you may owe.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Reporting income",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": "<p><a href='https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/reporting-income.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q8-001'>Find out what you need to report as income and where to enter it on your tax  return.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claiming deductions, credits, and expenses",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": " <p><a href='https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q9-001'>Find deductions, credits, and expenses to reduce the amount of tax you have to pay.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's new for 2022 taxes",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": " <p> <a href='https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/whats-new.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q10-001'>Changes to taxes and improvements to services for individuals and families for the 2022 tax year.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Tax rates",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": " <p><a href='https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/canadian-income-tax-rates-individuals-current-previous-years.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q11-001'>Find federal, provincial and territorial tax rates for current and previous tax years.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Learn about your taxes",
+      "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html",
+        "text": " <p><a href='https://www.canada.ca/en/revenue-agency/services/tax/individuals/educational-programs.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q12-001'>Learn about our tax system, how it works, and why we pay taxes.</a></p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Doing taxes for someone who died",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died.html",
+        "text": " <p><a href='https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died.html?utm_source=faqdata&utm_medium=sdata&utm_campaign=cra-arc-htf-21-22&utm_content=htf-pit-en-q13-001'>Report the date of death, access tax records as a representative, file final and estate tax returns, settle the estate.</a></p>"
+      }
+    }
+  ]
+}
+
+<!-- HC's FAQ markup from https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/resources-parents-children.html (content page)  -->
+{
+  "@context": "https://schema.org",
+  "@id": "#wb-webpage",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Parenting during the pandemic",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The COVID-19 pandemic has impacted families in different ways and can be stressful for everyone. Parents, caregivers and children are facing new challenges as the pandemic affects our daily work and home routines. Many schools, daycares and most workplaces have closed, and children and parents are suddenly at home full-time more often. Even though we're all trying our best, adjusting to these new challenges has created new stresses for families."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Activities for children",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>Use these activities to teach your child about what they can do to reduce the spread of COVID-19:</p>\r\n<ul>\r\n <li><ahref=&quot;https://www.canada.ca/en/public-health/services/video/covid-19-hand-washing-heroes.html&quot;>Hand washing heroes</a> (video)</li>\r\n \r\n <li><ahref=&quot;https://www.canada.ca/en/public-health/services/video/covid-19-kids-hygiene.html&quot;>Coughing and sneezing hygiene for kids</a> (video)</li>\r\n \r\n</ul>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Helping children cope",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "What you do and how you respond to your child affects the way they think, feel, act, develop and learn. Loving, consistent, and positive relationships help protect your child from the negative effects of stress."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Be kind, calm and patient",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Acknowledge and validate their thoughts and feelings. Be honest, open and supportive. Provide clear, factual information in a reassuring and age-appropriate way. Ask them how they're feeling. Let them know you're there for them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Resources for children",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It's normal for you or your children to feel overwhelmed, stressed, confused, scared or angry during this time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Returning to school",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>It may be challenging for children to adapt to a structured school routine after months of physical distancing at home. Parents can prepare kids for a return to the classroom by:</p>\r\n<ul>\r\n <li>reviewing how and when to wash hands, using age-appropriate language\r\n <li> demonstrating physical distancing and giving kids a distancing reference like hockey sticks or bicycles</li>\r\n <li> practising putting on, wearing, and safely removing masks</li>\r\n<ul>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Staying connected",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>Gathering limits and restrictions vary across the country. Follow your local public health authority's advice about in-person visits and specific requirements for your community.</p>\r\n\r\n<p>It's always safest to keep physically distancing.</p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Take care of yourself",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>Parents and caregivers take better care of their children when they take care of themselves, too.</p>\r\n\r\n<p>Eat well, get enough rest, take breaks and do something fun or relaxing.</p>\r\n\r\n<p>Be kind to yourself.</p>"
+      }
+    }
+  ]
+}
+
+
+
+<!-- ESDC's FAQ markup from https://www.canada.ca/en/services/benefits/dental/dental-care-plan/coverage.html (subway - task step page) -->
+
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "#wb-webpage",
+  "name": "What services are covered",
+  "keywords": "Dental, benefits, care, plan, support, Canada, CDCP, Canadian, coverage, oral, health, services,  procedures, preventative, restorative, diagnostic, orthodontic",
+  "url": "https://www.canada/en/services/benefits/dental/dental-care-plan/coverage.html",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What services are covered",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Canadian Dental Care Plan (CDCP) will cover the cost of various oral health care services that keep your teeth and gums healthy and treat problems that can happen. Services that could be covered under the CDCP, if recommended by an oral health provider, includes the following: preventive services, diagnostic services, restorative services, endodontic services, prosthodontic services, periodontal services, oral surgery services."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much will be covered",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": " People covered under the CDCP will not have to pay the full cost out of their own pocket. Oral health providers enrolled in the CDCP will be required to submit the claims directly to Sun Life for payment rather than having patients seek reimbursement from Sun Life for services covered under the plan. The CDCP will pay part of the cost, and you’ll pay the rest. The amount that you pay is called a co-payment. Your co-payment is based on your adjusted family net income. The CDCP will only pay for oral health care services covered under the CDCP at the established CDCP fees."
+      }
+    }
+  ]
+}
