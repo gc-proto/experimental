@@ -1,0 +1,23 @@
+<!-- Example Event markup from https://www.canada.ca/en/canadian-heritage/campaigns/winterlude.html -->
+
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "Winterlude",
+  "@id": "#wb-main",
+  "startDate": "2024-02-02",
+  "endDate": "2024-02-19",
+  "location": {
+    "@type": "Place",
+    "name": "National Capital Region (NCR)",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ottawa",
+      "addressRegion": "Ontario",
+      "addressCountry": "Canada"
+    }
+  },
+  "image": "https://www.canada.ca/content/dam/pch/images/campaigns/winterlude/2021/wl-web-top-banner-500x250-EN.jpg",
+  "description": "Welcome to Winterlude in the National Capital Region (NCR)! From February 2 to 19, 2024, enjoy exciting winter activities with family and friends. Explore the event calendar for more details.",
+  "url": "https://www.canada.ca/en/canadian-heritage/campaigns/winterlude.html"
+}
