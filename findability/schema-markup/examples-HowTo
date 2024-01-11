@@ -1,1 +1,64 @@
-
+<!-- Markup from https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html -->
+{
+  "@context": "http://schema.org",
+  "@id": "#wb-main",
+  "@type": "HowTo",
+  "publisher": {
+    "@type": "GovernmentOrganization",
+    "@id": "#wb-publisher",
+    "name": "Government of Canada",
+    "url": "https://www.canada.ca/en.html"
+  },
+  "name": "Study permit",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "About the process",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+      "Position": 1,
+      "text": "Find out what a study permit is, why you need one and how to get one faster. "
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Who can apply",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html",
+      "position": 2,
+      "text": "Who’s eligible to study in Canada and what your responsibilities will be as an international student. "
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Get the right documents",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html",
+      "position": 3,
+      "text": "Which documents you need to apply and how much money you need to prove you have to study in Canada. "
+    },
+    {
+      "@type": "HowToStep",
+      "name": "How to apply",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html",
+      "position": 4,
+      "text": "Follow the steps to apply for a study permit."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "After you apply",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/after-apply-next-steps.html",
+      "position": 5,
+      "text": "What to expect after you submit your study permit application."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Prepare for arrival",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare-arrival.html",
+      "position": 6,
+      "text": "Make sure you have what you need to travel to Canada and learn what happens after you arrive. "
+    },
+    {
+      "@type": "HowToStep",
+      "name": "While you study",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/while-you-study.html",
+      "position": 7,
+      "text": "How to update your profile information in your online account, how to change the conditions of your study permit and how long your study permit is valid."
+    }
+  ]
+}
