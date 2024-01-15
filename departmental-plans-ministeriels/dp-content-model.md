@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-11-30
+dateModified: 2024-01-15
 language: en
 layout: default
 title: "Departmental Plans"
@@ -11,7 +11,7 @@ title: "Departmental Plans"
 
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
-  <p>Last updated: 2023-11-30</p>
+  <p>Last updated: 2024-01-15</p>
   <p>[Pattern description] - Departmental Plans describe a department&rsquo;s spending plan for the next fiscal year. This template provides a consistent layout, heading structure, web design, accessible tables, and plain language.</p>
   <section>
     <h2>On this page</h2>
@@ -54,21 +54,15 @@ title: "Departmental Plans"
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-at-glance.md">At a glance page code</a></li>
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-full-page.md">Full plan page code</a></li>
     </ul>
-    <!-- <p>Publish and table the content:</p>
+    <p>Publishing and submitting  the content:<br>
+      <br>
+      The Word documents are to be saved as  PDFs and used for approvals and submitting to TBS.</p>
     <ol>
-      <li>save  both pages as PDFs </li>
-      <li>consolidate  documents into a single PDF file</li>
-      <li>Add  a page number to bottom right of all PDF pages </li>
-      <li>add  a cover page that includes a title, date published, ISSN, and Catalogue Number</li>
-      <li>add  the copyright information to the expand collapse  &lsquo;Copyright&rsquo; section of the Full plan page </li>
-      <li>for  ISSN and Catalogue numbers:
-      <ol class="lst-lwr-rmn">
-        <li>re-Use  last year&rsquo;s ISSN and Catalogue numbers unless the title has changed</li>
-        <li>if  you require a new ISSN you can <a href="https://issn.bac-lac.canada.ca/eng/requests/publication">make a request with LAC</a></li>
-        <li>if  you require a new Catalogue number you can <a href="https://publications.gc.ca/site/eng/isbn/apply.html?execution=e1s1">request one for  Publications.ca</a></li>
-      </ol></li>
-        <li>share the  links and a copy of the PDF with the content owner of the Departmental Plan.  They will package for tabling.</li>
-    </ol> -->
+      <li>Review the Word documents for accessibility so they can be converted  properly to PDF for submitting to TBS and tabling in Parliament. </li>
+      <li>To create the PDF: Save each page as a PDF, consolidate into a  single document and add a cover page with the required copyright information,  minister signature, ISSN, and Catalogue number.</li>
+      <li>Be sure to follow up with your departmental colleagues responsible  for final content prior to finalizing the online version as TBS conducts a  quality check of the report and may request edits.</li>
+      <li>Once content is confirmed as final, create the pages using the  working examples to ensure consistency across Canada.ca.</li>
+    </ol>
   </section>
   <section>
     <h2 id="toc05">Research and rationale</h2>
