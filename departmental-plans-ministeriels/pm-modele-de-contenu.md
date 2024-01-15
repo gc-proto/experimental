@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2023-11-30
+dateModified: 2024-01-15
 language: fr
 layout: default
 title: "Plans ministériels"
@@ -11,7 +11,7 @@ title: "Plans ministériels"
 
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
-  <p>Last updated: 2023-11-30</p>
+  <p>Last updated: 2024-01-15</p>
   <p>[Description  du gabarit] – Les plans ministériels décrivent le plan de dépenses d&rsquo;une  organisation fédérale pour le prochain exercice financier. Le présent gabarit  offre une mise en page, une structure de rubriques et une conception Web uniformes  ainsi que des tableaux accessibles, le tout dans un langage clair.</p>
   <section>
     <h2>Sur cette page</h2>
@@ -52,22 +52,13 @@ title: "Plans ministériels"
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code de la page Aperçu</a></li>
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-plan-ministeriel-comple.md">Code de la page Plan intégral</a></li>
     </ul>
-    <!-- <p>Publiez et déposez le  contenu&nbsp;:</p><ol>
-      <li>Sauvegardez  les deux pages en format PDF.</li>
-      <li>Regroupez les  deux documents en un seul fichier PDF.</li>
-      <li>Ajoutez le  numéro de page dans le bas droit de toutes les pages PDF.</li>
-      <li>Ajoutez une page de présentation qui comprend le titre, la date de publication, le numéro international normalisé des publications en série (numéro ISSN) et le numéro de catalogue</li>
-      <li>2.	Ajoutez l’information sur le droit d’auteur, dans la section intitulée « Droit d’auteur », qui peut être réduite ou développée, de la page du plan intégral.</li>
-      <li>Pour les  numéros ISSN et de catalogue&nbsp;:
-        <ol class="lst-lwr-rmn">
-          <li>Réutilisez les  numéros ISSN et de catalogue de l&rsquo;année dernière, sauf si le titre a changé.</li>
-          <li>Si vous avez besoin d&rsquo;un nouveau numéro ISSN, vous pouvez <a href="https://issn.bac-lac.canada.ca/fra/demandes/publication">en faire la demande auprès de Bibliothèque et Archives Canada</a>.</li>
-          <li>Si vous avez  besoin d&rsquo;un nouveau de catalogue, vous pouvez <a href="https://publications.gc.ca/site/fra/isbn/demande.html?execution=e1s1">en faire la  demande à partir du site Publications.ca</a>.</li>
-        </ol>
-      </li>
-      <li>Transmettez  les liens et une copie du document PDF à la personne responsable du contenu du  Plan ministériel. Elle s&rsquo;occupera d&rsquo;organiser l&rsquo;ensemble du contenu pour le  dépôt.</li>
-    </ol> -->
-  </section>
+    <p>Publier et  soumettre le contenu :</p>
+<p>Les documents  Word doivent être sauvegardés en format PDF et utilisés aux fins d&rsquo;approbation  et de soumission au SCT.</p>
+    <ol>
+      <li>Vérifier si les documents Word sont accessibles  afin qu&rsquo;ils puissent être convertis correctement en format PDF aux fins de  dépôt.</li>
+      <li>Pour créer le PDF, enregistrer chaque page en  format PDF, regrouper les pages enregistrées en un seul document et ajouter une  page couverture contenant les renseignements requis sur le droit d&rsquo;auteur, la  signature du ou de la ministre, le numéro ISSN et le numéro de catalogue.</li>
+      <li>Faire un suivi auprès des collègues de votre  ministère responsables du contenu final avant de finaliser la version en ligne,  car le SCT effectue une vérification de la qualité du rapport et peut demander  des modifications. </li>
+      <li>Une fois le contenu  confirmé comme final, créer les pages en utilisant les modèles pour assurer une  présentation uniforme dans l&rsquo;ensemble du site Canada.ca.</li></ol></section>
   <section>
     <h2 id="toc05">Recherche et justification</h2>
     <p>Les  recherches se feront en continu afin de déterminer la meilleure façon de  présenter les informations contenues dans les plans ministériels d&rsquo;une manière  accessible et conviviale. À ce jour, les problèmes connus comprennent des  en-têtes difficiles à comprendre, des informations répétitives et des tableaux  trop complexes.</p>
