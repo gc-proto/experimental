@@ -54,9 +54,8 @@ title: "Departmental Plans"
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-at-glance.md">At a glance page code</a></li>
       <li><a href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/dp-full-page.md">Full plan page code</a></li>
     </ul>
-    <p>Publishing and submitting  the content:<br>
-      <br>
-      The Word documents are to be saved as  PDFs and used for approvals and submitting to TBS.</p>
+    <p>Publishing and submitting  the content:</p>
+      <p>The Word documents are to be saved as  PDFs and used for approvals and submitting to TBS.</p>
     <ol>
       <li>Review the Word documents for accessibility so they can be converted  properly to PDF for submitting to TBS and tabling in Parliament. </li>
       <li>To create the PDF: Save each page as a PDF, consolidate into a  single document and add a cover page with the required copyright information,  minister signature, ISSN, and Catalogue number.</li>
