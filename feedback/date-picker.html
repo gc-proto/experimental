@@ -10,8 +10,6 @@
       <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous"/>
 
-      <link rel="stylesheet" href="../css/provisional-alerts.css">
-      <link rel="stylesheet" href="../css/split-h1.css">
 
       <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
@@ -28,15 +26,7 @@
          }
       </style>
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105628416-2"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag() { dataLayer.push(arguments); }
-         gtag('js', new Date());
 
-         gtag('config', 'UA-105628416-2');
-      </script>
    </head>
    <body class="cnt-wdth-lmtd" vocab="http://schema.org/" typeof="WebPage">
       <ul id="wb-tphp">
@@ -130,18 +120,39 @@
 <p>Date picker code from <a href="https://www.daterangepicker.com/">https://www.daterangepicker.com/</a></p>
 
 
-<input type="text" name="datetimes" />
 
-<script>
+
+<div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
+    <i class="fa fa-calendar"></i>&nbsp;
+    <span></span> <i class="fa fa-caret-down"></i>
+</div>
+
+<script type="text/javascript">
 $(function() {
-  $('input[name="datetimes"]').daterangepicker({
-    timePicker: true,
-    startDate: moment().startOf('hour'),
-    endDate: moment().startOf('hour').add(32, 'hour'),
-    locale: {
-      format: 'M/DD hh:mm A'
+
+    var start = moment().subtract(29, 'days');
+    var end = moment();
+
+    function cb(start, end) {
+        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
     }
-  });
+
+    $('#reportrange').daterangepicker({
+        startDate: start,
+        endDate: end,
+alwaysShowCalendars: true,
+        ranges: {
+           'Today': [moment(), moment()],
+           'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+           'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+           'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+           'This Month': [moment().startOf('month'), moment().endOf('month')],
+           'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        }
+    }, cb);
+
+    cb(start, end);
+
 });
 </script>
 
@@ -211,29 +222,6 @@ $(function() {
       <script>
          document.getElementById('submissionPage').value = location.href;
       </script>
-      <script>
-				$(document).on("wb-ready.wb", function () {
-					$("#btnno").click(function (e) {
-						$(".gc-pg-hlpfl-no").removeClass("nojs-show");
-						$(".gc-pg-hlpfl-btn").addClass("hide");
-						$("#helpful").val("No");
-					});
-					$("#gc-pg-hlpfl-frm").submit(function (e) {
-						e.preventDefault();
-						$(".gc-pg-hlpfl-thnk").removeClass("hide");
-						$("#gc-pg-hlpfl-frm").addClass("hide nojs-show");
-						$.ajax({
-							url: 'https://pagesuccessemailqueue.azurewebsites.net/api/QueueProblemForm',
-							type: 'POST',
-							dataType: 'text',
-							data: $('form#gc-pg-hlpfl-frm').serialize(),
-							success: function (data) { },
-							error: function (xhr, status, err) {
-								console.log(xhr.responseText);
-							}
-						});
-					});
-				});
-			</script>
+
    </body>
 </html>
