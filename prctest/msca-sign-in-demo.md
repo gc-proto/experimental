@@ -522,3 +522,9 @@ title: "My Service Canada Account (MSCA): Sign in"
        </ul>
        <!-- close the panel if they click the button?-->
    </section>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#chat-button-bar").trigger("open.wb-overlay");
+            });
+        </script>
