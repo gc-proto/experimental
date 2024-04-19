@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html"
+altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-en-un-coup-doeil.html"
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
@@ -9,7 +9,7 @@ layout: default
 title: "[Name of organization]’s [fiscal year] Departmental results report: At a glance"
 ---
 
-<link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
+<link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>A departmental results report provides an  account of actual accomplishments against plans, priorities and expected  results set out in the department&rsquo;s associated <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental  Plan</a>.</p>
 <ul>
@@ -20,7 +20,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
  
   <div class="clearfix"></div>
   <section class="mrgn-tp-lg">
-    <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/drr-full-page.html" class="btn btn-primary btn-lg">Read the full Departmental Results Report</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </p>
+    <p><a href="https://test.canada.ca/experimental/results-resultats/drr-full-page.html" class="btn btn-primary btn-lg">Read the full Departmental Results Report</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print this page</a> </p>
   </section>
   <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
