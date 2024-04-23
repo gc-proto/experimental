@@ -11,7 +11,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
     
-<div class="btn-group mrgn-bttm-md">
+<div class="btn-group mrgn-bttm-md hidden-print">
 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
 </div>
@@ -227,7 +227,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </li>
  </ul>
  <section>
-  <h4 is="toc02-5-1">Description</h4>
+  <h4 id="toc02-5-1">Description</h4>
   <p>Internal services are the services that are provided within a department so that it can meet its corporate obligations and deliver its programs. There are 10 categories of internal services:</p>
   <ul>
   <li>management and oversight services</li>
@@ -243,7 +243,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   </ul>
  </section>
  <section>
-  <h4 is="toc02-5-2">Plans to achieve results</h4>
+  <h4 id="toc02-5-2">Plans to achieve results</h4>
   <p>[Insert text from the &#8220;Plans to achieve results&#8221; section of the word template] </p>
   <div class="well">
   <p>[Indicate whether any content should be highlighted in a highlight box]</p>
@@ -261,7 +261,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </div>
  </section>
  <section>
-  <h4 is="toc02-5-4">Related government priorities</h4>
+  <h4 id="toc02-5-4">Related government priorities</h4>
   <section><h5>Planning for contracts awarded to Indigenous businesses</h5>
   <section>
 <h6 class="h4">Table [#]: Planning for contracts awarded to Indigenous businesses</h6>
