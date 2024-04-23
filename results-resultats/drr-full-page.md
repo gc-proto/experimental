@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-complet.
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2024-04-22
+dateModified: 2024-04-23
 language: en
 layout: default
 title: "[Name of organization] [fiscal year] Departmental results report"
@@ -44,7 +44,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </ul>
 </section>
 
-<section>
+<section class="hidden-print">
 <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg">Read a summary of the full results report</a></p>
 </section>
 
@@ -285,22 +285,22 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  </section>
     </section>
  <section>
- <h3 id="toc02-5">Internal services</h3>
+ <h3 id="toc02-4">Internal services</h3>
  <ul class="list-unstyled">
   <li>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
   <ul>
-  <li><a href="#toc02-5-1">Description</a></li>
-  <li><a href="#toc02-5-2">Progress on results</a></li>
-  <li><a href="#toc02-5-3">Resources required to achieve results</a></li>
-  <li><a href="#toc02-5-x">[PLACEHOLDER for any additional government priorities]</a></li>
+  <li><a href="#toc02-4-1">Description</a></li>
+  <li><a href="#toc02-4-2">Progress on results</a></li>
+  <li><a href="#toc02-4-3">Resources required to achieve results</a></li>
+  <li><a href="#toc02-4-x">[PLACEHOLDER for any additional government priorities]</a></li>
   </ul>
  </details>
  </li>
  </ul>
  <section>
-  <h4 id="toc02-5-1">Description</h4>
+  <h4 id="toc02-4-1">Description</h4>
   <p>Internal services are the services that are provided within a department so that it can meet its corporate obligations and deliver its programs. There are 10 categories of internal services:</p>
   <ul>
   <li>management and oversight services</li>
@@ -316,11 +316,11 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   </ul>
  </section>
  <section>
-  <h4 id="toc02-5-2">Progress on results</h4>
+  <h4 id="toc02-4-2">Progress on results</h4>
   <p>[Insert description of the progress on results]</p>
  </section>
     <section>
-  <h4 id="toc02-5-3">Resources requires to achieve results</h4>
+  <h4 id="toc02-4-3">Resources requires to achieve results</h4>
   <section><h5>Table [#]: Snapshot of resources this year for internal services </h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents (FTEs) required to achieve results.</p>
 <table id="tbl3" class="table table-bordered table-condensed">
