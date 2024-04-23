@@ -23,11 +23,10 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 <li><a href="#toc01b">From the Institutional Head (*optional)</a></li>
 <li><a href="#toc02">Results achieved for core responsibilities and internal services</a> 
 <ul>
-<li><a href="#toc02-1">Core responsibility 1</a></li>
-<li><a href="#toc02-2">Core responsibility 2</a></li>
-<li><a href="#toc02-3">Core responsibility 3</a></li>
-<li><a href="#toc02-4">Core responsibility 4</a></li>
-<li><a href="#toc02-5">Internal services</a></li>
+<li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
+<li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
+<li><a href="#toc02-3">Core responsibility 3: [insert core responsibility name]</a></li>
+<li><a href="#toc02-4">Internal services</a></li>
 </ul>
 </li>
 <li><a href="#toc03">Spending and human resources</a>
@@ -46,7 +45,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 
 <section>
-<p><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg">Read a summary of the full results report</a></p>
+<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg">Read a summary of the full results report</a></p>
 </section>
 
 <section>
@@ -58,7 +57,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
     
 <section>
  <h2 id="toc01">From the Minister</h2>
- <div class="pull-right mrgn-lft-md col-xs-4"> 
+ <div class="pull-right mrgn-lft-md col-xs-4 hidden-print"> 
  <figure> 
   <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
@@ -71,7 +70,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 <section> <!-- Optional section, delete if not required -->
  <h2 id="toc01b">From the Institutional Head (*optional)</h2>
- <div class="pull-right mrgn-lft-md col-xs-4"> 
+ <div class="pull-right mrgn-lft-md col-xs-4 hidden-print"> 
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
@@ -88,11 +87,10 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 <section>
  <h3>Core responsibilities and internal services</h3>
  <ul>
- <li><a href="#toc02-1">Core responsibility 1</a></li>
- <li><a href="#toc02-2">Core responsibility 2</a></li>
- <li><a href="#toc02-3">Core responsibility 3</a></li>
- <li><a href="#toc02-4">Core responsibility 4</a></li>
- <li><a href="#toc02-5">Internal services</a></li>
+<li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
+<li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
+<li><a href="#toc02-3">Core responsibility 3: [insert core responsibility name]</a></li>
+ <li><a href="#toc02-4">Internal services</a></li>
  </ul>
 </section>
 <p>[Repeat these sections for each core responsibility]</p>
@@ -105,10 +103,11 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <ul>
   <li><a href="#toc02-1-1">Description</a></li>
   <li><a href="#toc02-1-2">Progress on results</a></li>
-  <li><a href="#toc02-1-3">Resources required to achieve results</a></li>
+  <li><a href="#toc02-1-3">Details on results</a></li>
   <li><a href="#toc02-1-4">Key risks</a></li>
-  <li><a href="#toc02-1-5">Related government-wide priorities</a></li>
-  <li><a href="#toc02-1-6">Program inventory</a></li>
+  <li><a href="#toc02-1-5">Resources required to achieve results </a></li>
+  <li><a href="#toc02-1-6">Related government priorities</a></li>
+  <li><a href="#toc02-1-7">Program inventory</a></li>
   </ul>
  </details>
  </li>
@@ -295,7 +294,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <li><a href="#toc02-5-1">Description</a></li>
   <li><a href="#toc02-5-2">Progress on results</a></li>
   <li><a href="#toc02-5-3">Resources required to achieve results</a></li>
-  <li><a href="#toc02-5-4">[PLACEHOLDER for any additional government priorities]</a></li>
+  <li><a href="#toc02-5-x">[PLACEHOLDER for any additional government priorities]</a></li>
   </ul>
  </details>
  </li>
@@ -359,7 +358,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  <ul>
  <li><a href="#toc03-1">Spending</a></li>
  <li><a href="#toc03-2">Funding</a></li>
- <li><a href="#toc03-3">Future-oriented condensed statement of operations</a></li>
+ <li><a href="#toc03-3">Financial statement highlights</a></li>
  <li><a href="#toc03-4">Human resources</a></li>
  </ul>
  </details>
