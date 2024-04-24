@@ -653,11 +653,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
     <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
     </details>
 </figure></section>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of statutory and voted spending over a six-year period</summary>
-    
-    <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
-    </details>
+  
   <p>For further information on [department&rsquo;s acronym]&rsquo;s organizational voted and statutory expenditures,  consult the <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html">Public Accounts of Canada</a>. </p>
  </section>
  <section>
@@ -870,7 +866,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  <h2 id="toc04">Corporate information</h2>
   <div class="accordion">
 	<details class="acc-group print-open">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational profile</summary>
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;, &quot;print&quot;:&quot;on&quot;}">Organizational profile</summary>
 		<div class="tgl-panel">
 			<section><h3>Appropriate minister(s):</h3><p>[insert name(s)]</p></section>
  			<section><h3>Institutional head:</h3><p>[insert name(s)]</p></section>
@@ -881,7 +877,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 		</div>
 	</details>
 	<details class="acc-group print-open">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational contact information</summary>
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;, &quot;print&quot;:&quot;on&quot;}">Organizational contact information</summary>
 		<div class="tgl-panel">
             <section><h3>Mailing address:</h3><p>[insert address]</p></section>
  			<section><h3>Telephone:</h3><p>[insert number(s)]</p></section>
