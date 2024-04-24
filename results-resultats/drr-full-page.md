@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-complet.
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2024-04-23
+dateModified: 2024-04-24
 language: en
 layout: default
 title: "[Name of organization] [fiscal year] Departmental results report"
@@ -864,9 +864,9 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 <section>
  <h2 id="toc04">Corporate information</h2>
-  <div class="accordion">
-	<details class="acc-group print-open">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;, &quot;print&quot;:&quot;on&quot;}">Organizational profile</summary>
+  <div class="accordion print-open">
+	<details class="acc-group">
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational profile</summary>
 		<div class="tgl-panel">
 			<section><h3>Appropriate minister(s):</h3><p>[insert name(s)]</p></section>
  			<section><h3>Institutional head:</h3><p>[insert name(s)]</p></section>
@@ -876,8 +876,8 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  			<section><h3>Other:</h3><p>[insert other information]</p></section>
 		</div>
 	</details>
-	<details class="acc-group print-open">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;, &quot;print&quot;:&quot;on&quot;}">Organizational contact information</summary>
+	<details class="acc-group">
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational contact information</summary>
 		<div class="tgl-panel">
             <section><h3>Mailing address:</h3><p>[insert address]</p></section>
  			<section><h3>Telephone:</h3><p>[insert number(s)]</p></section>
