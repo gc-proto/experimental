@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-en-un-co
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2024-04-22
+dateModified: 2024-04-24
 language: en
 layout: default
 title: "[Name of organization]’s [fiscal year] Departmental results report: At a glance"
@@ -11,6 +11,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
 
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
+    <img alt="" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/banner.png">
   <p>A departmental results report provides an  account of actual accomplishments against plans, priorities and expected  results set out in the department&rsquo;s associated <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental  Plan</a>.</p>
 <ul>
     <li><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></li>
