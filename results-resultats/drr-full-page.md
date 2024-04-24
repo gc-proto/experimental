@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-complet.
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2024-04-24
+dateModified: 2024-04-23
 language: en
 layout: default
 title: "[Name of organization] [fiscal year] Departmental results report"
@@ -877,7 +877,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 		</div>
 	</details>
 	<details class="acc-group print-open">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational contact information</summary>
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;, &quot;print&quot;:&quot;on&quot;}">Organizational contact information</summary>
 		<div class="tgl-panel">
             <section><h3>Mailing address:</h3><p>[insert address]</p></section>
  			<section><h3>Telephone:</h3><p>[insert number(s)]</p></section>
