@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-modele-d
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2024-04-23
+dateModified: 2024-04-25
 language: en
 layout: default
 title: "Departmental Results Report"
@@ -26,33 +26,36 @@ title: "Departmental Results Report"
     <p>Don&rsquo;t deviate from content specifications,  such as headers, sub-headers, text descriptions and table explanations. </p></section>
     <section><h2 id="toc03">Content and design</h2>
     <p>The DRR follows a 2-page layout. Each page  targets an audience with different levels of subject matter expertise.</p>
-    <p><a href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2024-25_Departmental_Plan">Templates  for content writers</a> (only available on a government network, GCpedia)</p>
+    <p><a class="btn btn-default btn-lg" href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2024-25_Departmental_Plan">Templates  for content writers</a> (only available on a government network, GCpedia)</p>
     <section><h3>At a glance page</h3>
     <p>Provides a summary of key information that  is easily consumable for an audience that may not have extensive knowledge of  the institution&rsquo;s finances or activities. The page allows for more design  flexibility, for example a banner or features.</p>
-    <p><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html">Preview  the At a glance page</a></p>
+    <p><a class="btn btn-default btn-lg" href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html">Preview  the At a glance page</a></p>
     <section><h4>Mandatory sections:</h4>
-    <ul>
+    <ol>
       <li>At a Glance: includes mandatory  text and 2 bullets with links to the department&rsquo;s standalone landing pages for  their: 
-        <ul>
+        <ol class="lst-lwr-alph">
           <li>Vision, mission, raison d&rsquo;être, operating context</li>
           <li>Minister&rsquo;s mandate letter  (optional)</li>
-        </ul>
+        </ol>
       </li>
       <li>Key priorities: bulleted list  of the department&rsquo;s key priorities  </li>
       <li>Highlights: Summary of  information for each core responsibility in expand/collapse sections</li>
-    </ul></section></section>
+    </ol></section></section>
   <section><h3>Full report page</h3>
     <p>Provides all the details of the department&rsquo;s  DRR. The template uses standard headers and design elements.</p>
     <p><a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/results-resultats/drr-full-page.html">Preview  the Full report page</a></p>
   <section><h4>Mandatory sections:</h4>
-    <ul>
-      <li>From the minister/institutional  head: messaging from senior leadership </li>
-      <li>Don&rsquo;t include signatures in the  web version</li>
-      <li>Copyright information should go  between this section and the next in an expand/collapse</li>
+    <ol>
+      <li>From the minister/institutional  head: messaging from senior leadership 
+        <ul>
+          <li>Don&rsquo;t include signatures in the  web version</li>
+          <li>Copyright information should go  between this section and the next in an expand/collapse</li>
+        </ul>
+      </li>
       <li>Results achieved for core  responsibilities and internal services: 
         <ul>
           <li>This section has mandatory  subsections:          
-            <ul>
+            <ol class="lst-lwr-rmn">
               <li>Description</li>
               <li>Progress on results</li>
               <li>Details on  results</li>
@@ -60,10 +63,10 @@ title: "Departmental Results Report"
               <li>Resources  required to achieve results</li>
               <li>Related  government-wide priorities</li>
               <li>Program  inventory</li>
-            </ul>
-          </li>
+              </ol>
+            </li>
           <li>Depending on the number of core  responsibilities for each department, additional sections may be required</li>
-        </ul>
+          </ul>
       </li>
       <li>Spending and human resources:  This section includes all the financial data
         <ul>
@@ -75,7 +78,7 @@ title: "Departmental Results Report"
       <li>Supplementary information  tables</li>
       <li>Federal tax expenditures</li>
       <li>Definitions: Follow the style  provided in the preview</li>
-    </ul></section></section></section>
+    </ol></section></section></section>
   <section><h2 id="toc04">How to implement</h2>
   <p>Copy the code from the working examples:</p>
     <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-at-glance.md">At  a glance page code</a></p>
