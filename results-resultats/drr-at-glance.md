@@ -11,7 +11,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
 
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
-    <img alt="" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
+    <img alt="" class="img-responsive center-block mrgn-tp-md mrgn-bttm-md" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
   <p>A departmental results report provides an  account of actual accomplishments against plans, priorities and expected  results set out in the department&rsquo;s associated <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental  Plan</a>.</p>
 <ul>
     <li><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></li>
