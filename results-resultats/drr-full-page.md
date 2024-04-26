@@ -40,7 +40,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 
 <section class="hidden-print">
-<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg mrgn-bttm-sm mrgn-rght-sm" role="button">Read a summary of the Departmental results report</a><a onclick="window.print()" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
+<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg mrgn-tp-md mrgn-rght-sm" role="button">Read a summary of the Departmental results report</a><a onclick="window.print()" class="btn btn-default btn-lg mrgn-tp-md" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
 </section>
 
 <section>
@@ -87,7 +87,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  <li><a href="#toc02-4">Internal services</a></li>
  </ul>
 </section>
- <p class="mrgn-tp-md">[Repeat these sections for each core responsibility]</p>
+ <p class="mrgn-tp-lg">[Repeat these sections for each core responsibility]</p>
  <section>
  <h3 id="toc02-1">Core responsibility 1: [insert core responsibility name]</h3>
  <ul class="list-unstyled">
@@ -114,8 +114,9 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <p>This section presents details on how the organization performed to achieve results and meet targets for [insert name of core responsibility]. Details are presented by departmental result.</p>
 <section><h5>Table [#]: Targets and results for [insert names of core responsibility]</h5>
  <p>Table [#] provides a summary of the target and actual results for each indicator associated with this core responsibility.</p>
+<div class="table-responsive">
 <table id="tbl1-1" class="table table-bordered table-condensed">
-  <caption class="h5 text-left table-bordered mrgn-bttm-0 bg-dark bg-primary pl-2 pr-2">Name of organization’s result 1</caption>
+  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of organization’s result 1</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -151,8 +152,10 @@ title: "[Name of organization] [fiscal year] Departmental results report"
       </tr>
     </tbody>
 </table>
+</div>
+<div class="table-responsive">
     <table id="tbl1-2" class="table table-bordered table-condensed">
-    <caption class="h5 text-left table-bordered mrgn-bttm-0 bg-dark bg-primary pl-2 pr-2">Name of organization’s result 2</caption>
+    <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of organization’s result 2</caption>
  <thead>
  <tr class="active">
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -188,6 +191,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   </tr>
  </tbody>
 </table>
+</div>
 <p>Additional information on the <a href="#">results and performance</a> [hyperlink  to Results page on organization&rsquo;s GC InfoBase page] for the [organization&rsquo;s  acronym]&rsquo;s program inventory is available on  GC InfoBase.  </p>
 </section>
 </section>
