@@ -97,10 +97,10 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <ul>
   <li><a href="#toc02-1-1">Description</a></li>
   <li><a href="#toc02-1-2">Progress on results</a></li>
-  <li><a href="#toc02-1-4">Key risks</a></li>
-  <li><a href="#toc02-1-5">Resources required to achieve results </a></li>
-  <li><a href="#toc02-1-6">Related government priorities</a></li>
-  <li><a href="#toc02-1-7">Program inventory</a></li>
+  <li><a href="#toc02-1-3">Progress on results</a></li>
+  <li><a href="#toc02-1-4">Resources required to achieve results </a></li>
+  <li><a href="#toc02-1-5">Related government priorities</a></li>
+  <li><a href="#toc02-1-6">Program inventory</a></li>
   </ul>
  </details>
 </li>
@@ -113,7 +113,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <h4 id="toc02-1-2">Progress on results</h4>
   <p>This section presents details on how the organization performed to achieve results and meet targets for [insert name of core responsibility]. Details are presented by departmental result.</p>
 <section><h5>Table [#]: Targets and results for [insert names of core responsibility]</h5>
- <p>This table provides a summary of the target and actual results for each indicator associated with this core responsibility.</p>
+ <p>Table [#] provides a summary of the target and actual results for each indicator associated with this core responsibility.</p>
 <table id="tbl1-1" class="table table-bordered table-condensed">
   <caption class="h5">Name of organization’s result 1</caption>
   <thead>
@@ -192,9 +192,8 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 </section>
  <section>
-  <h5 id="toc02-1-3">Details on results</h5>
+  <h5>Details on results</h5>
   <p>The following section describes the  results for [insert name of core  responsibility] in [insert fiscal year] compared  with the planned results set out in [insert department name&rsquo;s departmental plan for the year]. </p>
-  <p>[Insert any introduction  text for results achieved]</p>
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insert short description of result 1]</summary>
         <section>
@@ -217,13 +216,14 @@ title: "[Name of organization] [fiscal year] Departmental results report"
        <li>[insert Bulleted list item 3]</li>
      </ul></section>
     </details>
+    <p>[Repeat for each result associated with core responsibility 1]</p>
  </section>
  <section>
-   <h4 id="toc02-1-4">Key risks</h4>
+   <h4 id="toc02-1-3">Key risks</h4>
   <p>[Insert description of key risks for core responsibility 1]</p></section>
   <section>
       <section>
-   <h4 id="toc02-1-5">Resources required to achieve results </h4>
+   <h4 id="toc02-1-4">Resources required to achieve results </h4>
   <section><h5>Table [#] snapshot of resources required this year for [insert name of core responsibility]</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents (FTEs) required to achieve results.</p>
 <table id="tbl2" class="table table-bordered table-condensed">
@@ -247,10 +247,10 @@ title: "[Name of organization] [fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>The&nbsp;<a href="#">complete  financial</a> [hyperlink to finance section on  organization&rsquo;s GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  organization&rsquo;s GC InfoaBse page] sections for the [organization&rsquo;s acronym]&rsquo;s program inventory are available on  GC InfoBase.</p></section>
+        <p>The&nbsp;<a href="#">complete  financial</a> [hyperlink to finance section on  organization&rsquo;s GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  organization&rsquo;s GC InfoBase page] sections for the [organization&rsquo;s acronym]&rsquo;s program inventory are available on GC InfoBase.</p></section>
       </section>
  <section>
-  <h4 id="toc02-1-6">Related government priorities</h4>
+  <h4 id="toc02-1-5">Related government priorities</h4>
      <p>[Insert  details of government-wide priorities]</p>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Gender-based analysis plus</summary>
@@ -266,7 +266,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   </details>
  </section>
  <section>
-  <h4 id="toc02-1-7">Program inventory</h4>
+  <h4 id="toc02-1-6">Program inventory</h4>
   <p>[Insert name of core responsibility  1] is  supported by the following programs:</p>
   <ul>
     <li>[Insert Bulleted list item 1]</li>
@@ -369,7 +369,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
 
     <div class="table-responsive">
-        <p>[Insert a table version of graph]</p>
+        <p>[Insert a table version of figure]</p>
      <!--<table class="table table-bordered table-condensed">
      <thead>
       <tr class="active">
@@ -609,7 +609,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
     
     <div class="table-responsive">
-        <p>[Insert the table version of the graph]</p>
+        <p>[Insert the table version of the figure]</p>
       <!--<table class="table table-bordered table-condensed">
         <thead>
           <tr class="active">
@@ -949,6 +949,8 @@ title: "[Name of organization] [fiscal year] Departmental results report"
         <dd>An enduring function  or role performed by a department. The intentions of the department with  respect to a core responsibility are reflected in one or more related  departmental results that the department seeks to contribute to or influence. </dd>
         <dt>Departmental Plan <span lang="fr">(plan ministériel)</span></dt>
         <dd>A document that sets  out a department&rsquo;s priorities, programs, expected results and associated  resource requirements, covering a threeyear period beginning with the year  indicated in the title of the report. Departmental Plans are tabled in  Parliament each spring. </dd>
+         <dt>departmental priority <span lang="fr">(priorité)</span></dt>
+        <dd>A plan or project that a department has chosen to focus and report on during the planning period. Priorities represent the things that are most important or what must be done first to support the achievement of the desired departmental results.</dd>
         <dt>departmental result <span lang="fr">(résultat ministériel) </span></dt>
         <dd>A change that a  department seeks to influence. A departmental result is often outside  departments&rsquo; immediate control, but it should be influenced by program-level  outcomes. </dd>
         <dt>departmental result indicator <span lang="fr">(indicateur de résultat  ministériel) </span></dt>
