@@ -40,7 +40,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 
 <section class="hidden-print">
-<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg">Read a summary of the Departmental results report</a><span class="wb-toggle" data-toggle="{"selector": "main summary", "print": "on"}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
+<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg">Read a summary of the Departmental results report</a><a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
 </section>
 
 <section>
