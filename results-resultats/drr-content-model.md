@@ -26,10 +26,10 @@ title: "Departmental Results Report"
     <p>Don&rsquo;t deviate from content specifications,  such as headers, sub-headers, text descriptions and table explanations. </p></section>
     <section><h2 id="toc03">Content and design</h2>
     <p>The DRR follows a 2-page layout. Each page  targets an audience with different levels of subject matter expertise.</p>
-    <p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2024-25_Departmental_Plan">Templates  for content writers</a> (only available on a government network, GCpedia)</p>
+    <p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2024-25_Departmental_Plan" role="button">Templates  for content writers</a> (only available on a government network, GCpedia)</p>
     <section><h3>At a glance page</h3>
     <p>Provides a summary of key information that  is easily consumable for an audience that may not have extensive knowledge of  the institution&rsquo;s finances or activities. The page allows for more design  flexibility, for example a banner or features.</p>
-    <p><a class="btn btn-default btn-lg" href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html">Preview  the At a glance page</a></p>
+    <p><a class="btn btn-default btn-lg" href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" role="button">Preview  the At a glance page</a></p>
     <section><h4>Mandatory sections:</h4>
     <ol>
       <li>At a Glance: includes mandatory  text and 2 bullets with links to the department&rsquo;s standalone landing pages for  their: 
@@ -43,7 +43,7 @@ title: "Departmental Results Report"
     </ol></section></section>
   <section><h3>Full report page</h3>
     <p>Provides all the details of the department&rsquo;s  DRR. The template uses standard headers and design elements.</p>
-    <p><a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/results-resultats/drr-full-page.html">Preview  the Full report page</a></p>
+    <p><a class="btn btn-default btn-lg" href="https://test.canada.ca/experimental/results-resultats/drr-full-page.html" role="button">Preview  the Full report page</a></p>
   <section><h4>Mandatory sections:</h4>
     <ol>
       <li>From the minister/institutional  head: messaging from senior leadership 
@@ -81,8 +81,8 @@ title: "Departmental Results Report"
     </ol></section></section></section>
   <section><h2 id="toc04">How to implement</h2>
   <p>Copy the code from the working examples:</p>
-    <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-at-glance.md">At  a glance page code</a></p>
-    <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-full-page.md">Full  report page code</a></p>
+    <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-at-glance.md" role="button">At  a glance page code</a></p>
+    <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-full-page.md" role="button">Full  report page code</a></p>
     <section><h3>Creating the PDF:</h3>
     <p>Content writers are responsible for  creating PDF versions of the DRR, following these instructions:</p>
     <ul>
