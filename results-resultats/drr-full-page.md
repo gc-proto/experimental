@@ -97,7 +97,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <ul>
   <li><a href="#toc02-1-1">Description</a></li>
   <li><a href="#toc02-1-2">Progress on results</a></li>
-  <li><a href="#toc02-1-3">Progress on results</a></li>
+  <li><a href="#toc02-1-3">Key risks</a></li>
   <li><a href="#toc02-1-4">Resources required to achieve results </a></li>
   <li><a href="#toc02-1-5">Related government priorities</a></li>
   <li><a href="#toc02-1-6">Program inventory</a></li>
