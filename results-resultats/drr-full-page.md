@@ -11,11 +11,6 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
     
-<div class="btn-group mrgn-bttm-md hidden-print">
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
-</div>
-    
 <section>
 <h2>On this page</h2>
 <ul>
@@ -45,7 +40,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 
 <section class="hidden-print">
-<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg">Read a summary of the full results report</a></p>
+<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg">Read a summary of the Departmental results report</a><a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
 </section>
 
 <section>
@@ -92,7 +87,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  <li><a href="#toc02-4">Internal services</a></li>
  </ul>
 </section>
-<p>[Repeat these sections for each core responsibility]</p>
+ <p>[Repeat these sections for each core responsibility]</p>
  <section>
  <h3 id="toc02-1">Core responsibility 1: [insert core responsibility name]</h3>
  <ul class="list-unstyled">
@@ -102,11 +97,10 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <ul>
   <li><a href="#toc02-1-1">Description</a></li>
   <li><a href="#toc02-1-2">Progress on results</a></li>
-  <li><a href="#toc02-1-3">Details on results</a></li>
-  <li><a href="#toc02-1-4">Key risks</a></li>
-  <li><a href="#toc02-1-5">Resources required to achieve results </a></li>
-  <li><a href="#toc02-1-6">Related government priorities</a></li>
-  <li><a href="#toc02-1-7">Program inventory</a></li>
+  <li><a href="#toc02-1-3">Key risks</a></li>
+  <li><a href="#toc02-1-4">Resources required to achieve results </a></li>
+  <li><a href="#toc02-1-5">Related government priorities</a></li>
+  <li><a href="#toc02-1-6">Program inventory</a></li>
   </ul>
  </details>
 </li>
@@ -118,10 +112,10 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 <section>
   <h4 id="toc02-1-2">Progress on results</h4>
   <p>This section presents details on how the organization performed to achieve results and meet targets for [insert name of core responsibility]. Details are presented by departmental result.</p>
-<section><h5>Targets and results for [insert name of core responsibility]</h5>
- <p>Table [#]  provides a summary of the target and actual results for each indicator  associated with this core responsibility. </p>
+<section><h5>Table [#]: Targets and results for [insert names of core responsibility]</h5>
+ <p>Table [#] provides a summary of the target and actual results for each indicator associated with this core responsibility.</p>
 <table id="tbl1-1" class="table table-bordered table-condensed">
-  <caption class="h5">Table [#].1: Name of organization’s result 1</caption>
+  <caption class="h5">Name of organization’s result 1</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -158,7 +152,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
     </tbody>
 </table>
     <table id="tbl1-2" class="table table-bordered table-condensed">
-    <caption class="h5">Table [#].2: Name of organization’s result 2</caption>
+    <caption class="h5">Name of organization’s result 2</caption>
  <thead>
  <tr class="active">
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -198,9 +192,8 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 </section>
  <section>
-  <h4 id="toc02-1-3">Details on results</h4>
-  <p>The following section describes the  results for [insert name of core  responsibility] in [insert fiscal year] compared  with the planned results set out in [insert department name&rsquo;s departmental plan  for the year. </p>
-  <p>[Insert any introduction  text for results achieved]</p>
+  <h5>Details on results</h5>
+  <p>The following section describes the  results for [insert name of core  responsibility] in [insert fiscal year] compared  with the planned results set out in [insert department name&rsquo;s departmental plan for the year]. </p>
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insert short description of result 1]</summary>
         <section>
@@ -223,13 +216,14 @@ title: "[Name of organization] [fiscal year] Departmental results report"
        <li>[insert Bulleted list item 3]</li>
      </ul></section>
     </details>
+    <p>[Repeat for each result associated with core responsibility 1]</p>
  </section>
  <section>
-   <h4 id="toc02-1-4">Key risks</h4>
+   <h4 id="toc02-1-3">Key risks</h4>
   <p>[Insert description of key risks for core responsibility 1]</p></section>
   <section>
       <section>
-   <h4 id="toc02-1-5">Resources required to achieve results </h4>
+   <h4 id="toc02-1-4">Resources required to achieve results </h4>
   <section><h5>Table [#] snapshot of resources required this year for [insert name of core responsibility]</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents (FTEs) required to achieve results.</p>
 <table id="tbl2" class="table table-bordered table-condensed">
@@ -253,10 +247,10 @@ title: "[Name of organization] [fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>The&nbsp;<a href="#">complete  financial</a> [hyperlink to finance section on  organization&rsquo;s GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  organization&rsquo;s GC InfoaBse page] sections for the [organization&rsquo;s acronym]&rsquo;s program inventory are available on  GC InfoBase.</p></section>
+        <p>The&nbsp;<a href="#">complete  financial</a> [hyperlink to finance section on  organization&rsquo;s GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  organization&rsquo;s GC InfoBase page] sections for the [organization&rsquo;s acronym]&rsquo;s program inventory are available on GC InfoBase.</p></section>
       </section>
  <section>
-  <h4 id="toc02-1-6">Related government priorities</h4>
+  <h4 id="toc02-1-5">Related government priorities</h4>
      <p>[Insert  details of government-wide priorities]</p>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Gender-based analysis plus</summary>
@@ -272,7 +266,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   </details>
  </section>
  <section>
-  <h4 id="toc02-1-7">Program inventory</h4>
+  <h4 id="toc02-1-6">Program inventory</h4>
   <p>[Insert name of core responsibility  1] is  supported by the following programs:</p>
   <ul>
     <li>[Insert Bulleted list item 1]</li>
@@ -350,8 +344,8 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 <section>
  <h2 id="toc03"> Spending and human resources</h2>
- <p>[Insert text and amounts from the &quot;Planned spending and human resources&#8221; section of the word template]</p><ul class="list-unstyled">
- <li>
+<ul class="list-unstyled">
+<li>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
  <ul>
@@ -375,7 +369,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
 
     <div class="table-responsive">
-        <p>[Insert a table version of graph]</p>
+        <p>[Insert a table version of figure]</p>
      <!--<table class="table table-bordered table-condensed">
      <thead>
       <tr class="active">
@@ -413,7 +407,6 @@ title: "[Name of organization] [fiscal year] Departmental results report"
     <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
    </details>
   </figure>
-  <p>[Insert text from the &#8220;Actual spending summary for core responsibilities and internal services (dollars)&#8221; section of the word template]</p>
 </section>
  <section>
      <h4>Budgetary performance summaries</h4>
@@ -436,13 +429,25 @@ title: "[Name of organization] [fiscal year] Departmental results report"
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+          <ul>
+            <li>[Fiscal year]: [Insert amount]</li>
+            <li>[Fiscal year]: [Insert amount]</li>
+            <li>[Fiscal year]: [Insert amount]</li>
+          </ul>  
+        </div></td>
         </tr>
       <tr>
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+          <ul>
+            <li>[Fiscal year]: [Insert amount]</li>
+            <li>[Fiscal year]: [Insert amount]</li>
+            <li>[Fiscal year]: [Insert amount]</li>
+          </ul> 
+        </div></td>
         </tr>
       <tr class="active">
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div></th>
@@ -454,7 +459,13 @@ title: "[Name of organization] [fiscal year] Departmental results report"
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+           <ul>
+            <li>[Fiscal year]: [Insert amount]</li>
+            <li>[Fiscal year]: [Insert amount]</li>
+            <li>[Fiscal year]: [Insert amount]</li>
+          </ul> 
+        </div></td>
         </tr>
       <tr class="active">
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
@@ -470,7 +481,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of past three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-  <p>More detailed <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial  information from previous years</a> is available on  the GC InfoBase [hyperlink to  Finances section on organization&rsquo;s GC InfoBase page].  </p>
+  <p>More detailed <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available on the GC InfoBase [hyperlink to  Finances section on organization&rsquo;s GC InfoBase page].  </p>
  </section>
  <section>
   <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services</h5>
@@ -524,6 +535,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of the next three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
+    <p>More detailed <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available on Finances section of GC InfoBase [hyperlink to  Finances section on organization&rsquo;s GC InfoBase page].</p>
  </section>
   
  <section>
@@ -579,6 +591,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of budgetary actual gross and net planned spending summary</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
+    <p>Information on the alignment of <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">[department’s acronym]’s spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [hyperlink to  Finances section on organization&rsquo;s GC InfoBase page].  </p>
  </section>
 </section>
  </section>
@@ -596,7 +609,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
     
     <div class="table-responsive">
-        <p>[Insert the table version of the graph]</p>
+        <p>[Insert the table version of the figure]</p>
       <!--<table class="table table-bordered table-condensed">
         <thead>
           <tr class="active">
@@ -657,7 +670,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  </section>
  <section>
   <h3 id="toc03-3">Financial statement highlights</h3>
-  <p>[Department&rsquo;s acronym]&rsquo;s <a href="#">complete financial  statements</a> [link to department&rsquo;s financial  statement] (unaudited or audited) for the year  ended March&nbsp;31, 2024, are available online.  </p>
+  <p>[Department&rsquo;s acronym]&rsquo;s <a href="#">complete financial  statements</a> [link to department&rsquo;s financial  statement] (unaudited or audited) for the year ended [insert date] are available online.  </p>
 <section><h4>Table [#]: Condensed Statement of Operations (unaudited) for the year ended [insert date] (dollars)</h4>
 <p>Table [#] presents a brief summary of how  much money the organization received and spent during the most recently  completed fiscal year. </p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
@@ -704,7 +717,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   </details>-->
   <p>The [insert fiscal year] planned results information is  provided in [organization&rsquo;s acronym]&rsquo;s <a href="#">Future-Oriented  Statement of Operations and Notes [fiscal year]</a> [link to organization's FOSO].</p>
 </section>
-<section><h4>Table [#]: Condensed Statement of Operations (unaudited) for the year ended [insert date] (dollars)</h4>
+<section><h4>Table [#] Condensed Statement of Financial Position (unaudited) as of [insert date] (dollars)</h4>
 <p>Table [#] provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</p>
 <div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
  <thead>
@@ -818,8 +831,8 @@ title: "[Name of organization] [fiscal year] Departmental results report"
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual FTEs</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual FTEs</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual FTEs</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned FTEs</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned FTEs</div></th>
           </tr>
         </thead>
       <tbody>
@@ -914,8 +927,8 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  <ul>
   <li><a href="#">Details on transfer payment programs</a></li>
   <li><a href="#">Gender-based analysis plus</a></li>
-  <li><a href="#">Horizontal initiatives</a></li>
-  <li><a href="#">Up front multiyear funding</a></li>
+  <li><a href="#">Response to Parliamentary committees and external audits</a></li>
+  <li><a href="#">United Nations 2030 Agenda and the Sustainable Development Goals</a></li>
  </ul>
 </section>
 <section>
@@ -936,6 +949,8 @@ title: "[Name of organization] [fiscal year] Departmental results report"
         <dd>An enduring function  or role performed by a department. The intentions of the department with  respect to a core responsibility are reflected in one or more related  departmental results that the department seeks to contribute to or influence. </dd>
         <dt>Departmental Plan <span lang="fr">(plan ministériel)</span></dt>
         <dd>A document that sets  out a department&rsquo;s priorities, programs, expected results and associated  resource requirements, covering a threeyear period beginning with the year  indicated in the title of the report. Departmental Plans are tabled in  Parliament each spring. </dd>
+         <dt>departmental priority <span lang="fr">(priorité)</span></dt>
+        <dd>A plan or project that a department has chosen to focus and report on during the planning period. Priorities represent the things that are most important or what must be done first to support the achievement of the desired departmental results.</dd>
         <dt>departmental result <span lang="fr">(résultat ministériel) </span></dt>
         <dd>A change that a  department seeks to influence. A departmental result is often outside  departments&rsquo; immediate control, but it should be influenced by program-level  outcomes. </dd>
         <dt>departmental result indicator <span lang="fr">(indicateur de résultat  ministériel) </span></dt>
