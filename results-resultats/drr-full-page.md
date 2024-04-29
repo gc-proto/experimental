@@ -112,7 +112,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 <section>
   <h4 id="toc02-1-2">Progress on results</h4>
   <p>This section presents details on how the Department performed to achieve results and meet targets for [insert name of core responsibility]. Details are presented by departmental result.</p>
-<section><h5>Table [#]: Targets and results for [insert names of core responsibility]</h5>
+<section><h5>Table [#]: Targets and results for [insert name of core responsibility]</h5>
  <p>Table [#] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
 <div class="table-responsive">
 <table id="tbl1-1" class="table table-bordered table-condensed">
@@ -129,7 +129,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date: yyyy-mm-dd]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
           <li>[Fiscal year]: [Insert figure]</li>
@@ -141,7 +141,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date: yyyy-mm-dd]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
           <li>[Fiscal year]: [Insert figure]</li>
@@ -168,7 +168,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <tr>
   <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date: yyyy-mm-dd]</div></td>
+  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
       <li>[Fiscal year]: [Insert figure]</li>
@@ -180,7 +180,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <tr>
   <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date: yyyy-mm-dd]</div></td>
+  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
       <li>[Fiscal year]: [Insert figure]</li>
