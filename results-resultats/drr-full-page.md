@@ -197,9 +197,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 </section>
  <section>
   <h5>Details on results</h5>
-  <p>The following section describes the  results for [insert name of core  responsibility] in [insert fiscal year] compared  with the planned results set out in [insert department name&rsquo;s departmental plan for the year]. </p>
+  <p>The following section decribes the  results for [insert name of core  responsibility] in [insert fiscal year] compared  with the planned results set out in [insert department name&rsquo;s] departmental plan for the year. </p>
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insert short description of result 1]</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Namen of result 1]</summary>
         <section>
      <p>[Insert long description of result 1]</p>
      <p><strong>Results achieved:</strong></p>
@@ -210,7 +210,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
      </ul></section>
     </details>
          <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insert short description of result 2]</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Name of result 2]</summary>
         <section>
      <p>[Insert long description of result 2]</p>
      <p><strong>Results achieved:</strong></p>
@@ -228,7 +228,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <section>
       <section>
    <h4 id="toc02-1-4">Resources required to achieve results </h4>
-  <section><h5>Table [#] snapshot of resources required this year for [insert name of core responsibility]</h5>
+  <section><h5>Table [#] snapshot of resources required for [insert name of core responsibility]</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents (FTEs) required to achieve results.</p>
 <table id="tbl2" class="table table-bordered table-condensed">
             <thead>
@@ -277,7 +277,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <li>[Insert Bulleted list item 2]</li>
     <li>[Insert Bulleted list item 3]</li>
   </ul>
-  <p>Additional  information related to the <a href="#">program  inventory </a>for [insert name of core responsibility] is available on <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">GC  InfoBase</a> [hyperlink to Results section on  Department&rsquo;s GC InfoBase page].</p>
+  <p>Additional  information related to the <a href="#">program  inventory </a>for [insert name of core responsibility] is available on GC  InfoBase [hyperlink to Results section on  Department&rsquo;s GC InfoBase page].</p>
 </section>
  </section>
     </section>
