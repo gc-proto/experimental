@@ -927,7 +927,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 </section>
 <section>
  <h2 id="toc05">Supplementary information tables</h2>
- <p>The following supplementary information tables are available on <a href="#">[Departmentn&#8217;s name]&#8217;s website:</a></p>
+ <p>The following supplementary information tables are available on <a href="#">[Department&#8217;s name]&#8217;s website:</a></p>
  <ul>
   <li><a href="#">Details on transfer payment programs</a></li>
   <li><a href="#">Gender-based analysis plus</a></li>
