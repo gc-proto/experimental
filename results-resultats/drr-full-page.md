@@ -941,7 +941,6 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 </section>
 <section>
  <h2 id="toc07">Definitions </h2>
- <p>[For this section, please use the text found in the main report under the &#8220;Definitions&#8221; section]</p>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">List of terms</summary>
     <dl>
