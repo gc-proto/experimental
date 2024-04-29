@@ -373,8 +373,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
 
     <div class="table-responsive">
-        <p>[Insert a table version of figure]</p>
-     <!--<table class="table table-bordered table-condensed">
+     <table class="table table-bordered table-condensed">
      <thead>
       <tr class="active">
      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -403,7 +402,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      </tbody>
-</table>--></div>
+</table></div>
    </details>
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of actual spending by core responsibility</summary>
@@ -613,8 +612,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
     
     <div class="table-responsive">
-        <p>[Insert the table version of the figure]</p>
-      <!--<table class="table table-bordered table-condensed">
+      <table class="table table-bordered table-condensed">
         <thead>
           <tr class="active">
             <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Fiscal year</div></th>
@@ -661,7 +659,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
           </tbody>
-        </table>--></div>
+        </table></div>
     </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of statutory and voted spending over a six-year period</summary>
