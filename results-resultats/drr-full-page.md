@@ -6,7 +6,7 @@ breadcrumbs:
 dateModified: 2024-04-24
 language: en
 layout: default
-title: "[Name of organization] [fiscal year] Departmental results report"
+title: "[Department name's] [insert fiscal year] Departmental results report"
 ---
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
@@ -15,7 +15,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 <h2>On this page</h2>
 <ul>
 <li><a href="#toc01">From the Minister</a></li>
-<li><a href="#toc01b">From the Institutional Head (*optional)</a></li>
+<li><a href="#toc01b">From the Institutional Head</a> (*optional)</li>
 <li><a href="#toc02">Results achieved for core responsibilities and internal services</a> 
 <ul>
 <li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
@@ -111,12 +111,12 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 <section>
   <h4 id="toc02-1-2">Progress on results</h4>
-  <p>This section presents details on how the organization performed to achieve results and meet targets for [insert name of core responsibility]. Details are presented by departmental result.</p>
+  <p>This section presents details on how the Department performed to achieve results and meet targets for [insert name of core responsibility]. Details are presented by departmental result.</p>
 <section><h5>Table [#]: Targets and results for [insert names of core responsibility]</h5>
  <p>Table [#] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
 <div class="table-responsive">
 <table id="tbl1-1" class="table table-bordered table-condensed">
-  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of organization’s result 1</caption>
+  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of Department’s result 1</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -155,7 +155,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </div>
 <div class="table-responsive">
     <table id="tbl1-2" class="table table-bordered table-condensed">
-    <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of organization’s result 2</caption>
+    <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of Department’s result 2</caption>
  <thead>
  <tr class="active">
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -192,7 +192,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  </tbody>
 </table>
 </div>
-<p>Additional information on the <a href="#">results and performance</a> [hyperlink  to Results page on organization&rsquo;s GC InfoBase page] for the [organization&rsquo;s  acronym]&rsquo;s program inventory is available on  GC InfoBase.  </p>
+<p>Additional information on the <a href="#">results and performance</a> [hyperlink  to Results page on Department&rsquo;s GC InfoBase page] for the [Department&rsquo;s  acronym]&rsquo;s program inventory is available on  GC InfoBase.  </p>
 </section>
 </section>
  <section>
@@ -277,7 +277,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
     <li>[Insert Bulleted list item 2]</li>
     <li>[Insert Bulleted list item 3]</li>
   </ul>
-  <p>Additional  information related to the <a href="#">program  inventory </a>for [insert name of core responsibility] is available on <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">GC  InfoBase</a> [hyperlink to Results section on  organization&rsquo;s GC InfoBase page].</p>
+  <p>Additional  information related to the <a href="#">program  inventory </a>for [insert name of core responsibility] is available on <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">GC  InfoBase</a> [hyperlink to Results section on  Department&rsquo;s GC InfoBase page].</p>
 </section>
  </section>
     </section>
@@ -341,7 +341,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>The <a href="#">complete  financial and human resources information</a> [hyperlink to the program inventory  on GCInfoBase] for the [organization&rsquo;s acronym]&rsquo;s program inventory is available on GC InfoBase.</p>
+        <p>The <a href="#">complete  financial and human resources information</a> [hyperlink to the program inventory  on GCInfoBase] for the [Department&rsquo;s acronym]&rsquo;s program inventory is available on GC InfoBase.</p>
 </section>
  </section>
  </section>
@@ -367,7 +367,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 <section>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graph [#]: Actual spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
-   <p>Graph [#] presents how much the organization spent in [fiscal year] to carry out core responsibilities and  internal services.</p>
+   <p>Graph [#] presents how much the Department spent in [fiscal year] to carry out core responsibilities and  internal services.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
@@ -485,7 +485,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of past three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-  <p>More <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available in the Finances section of GC InfoBase [hyperlink to  Finances section on organization&rsquo;s GC InfoBase page].  </p>
+  <p>More <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available in the Finances section of GC InfoBase [hyperlink to  Finances section on Department&rsquo;s GC InfoBase page].  </p>
  </section>
  <section>
   <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h5>
@@ -539,7 +539,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of the next three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-    <p>More detailed <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available on Finances section of GC InfoBase [hyperlink to  Finances section on organization&rsquo;s GC InfoBase page].</p>
+    <p>More detailed <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available on Finances section of GC InfoBase [hyperlink to  Finances section on Department&rsquo;s GC InfoBase page].</p>
  </section>
   
  <section>
@@ -595,7 +595,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of budgetary actual gross and net planned spending summary</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-    <p>Information on the alignment of <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">[department’s acronym]’s spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [hyperlink to  Finances section on organization&rsquo;s GC InfoBase page].  </p>
+    <p>Information on the alignment of <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">[department’s acronym]’s spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [hyperlink to  Finances section on Departmentn&rsquo;s GC InfoBase page].  </p>
  </section>
 </section>
  </section>
@@ -719,7 +719,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
    <p>[Please include the explanation of the table included in the word template]</p>
   </details>-->
-  <p>The [insert fiscal year] planned results information is  provided in [organization&rsquo;s acronym]&rsquo;s <a href="#">Future-Oriented  Statement of Operations and Notes [fiscal year]</a> [link to organization's FOSO].</p>
+  <p>The [insert fiscal year] planned results information is  provided in [Department&rsquo;s acronym]&rsquo;s <a href="#">Future-Oriented  Statement of Operations and Notes [fiscal year]</a> [link to Department's FOSO].</p>
 </section>
 <section><h4>Table [#] Condensed Statement of Financial Position (unaudited) as of [insert date] (dollars)</h4>
 <p>Table [#] provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</p>
@@ -775,7 +775,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <p>This section presents an overview of the  department's actual and planned human resources from [insert fiscal year] to  [insert fiscal year].</p>
 <section>
   <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
-  <p>Table [#] shows a summary of human resources, in full-time  equivalents (FTEs), for [organization&rsquo;s  acronym]&rsquo;s core responsibilities and for its internal services for the  previous three fiscal years.</p>
+  <p>Table [#] shows a summary of human resources, in full-time  equivalents (FTEs), for [Department&rsquo;s  acronym]&rsquo;s core responsibilities and for its internal services for the  previous three fiscal years.</p>
 
   <div class="table-responsive">
     <table id="tbl9" class="table table-bordered table-condensed">
@@ -828,7 +828,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
   <section>
    <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
-    <p>Table [#] shows information on human resources, in full-time equivalents  (FTEs), for each of [organization&rsquo;s  acronym]&rsquo;s core responsibilities and for  its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
+    <p>Table [#] shows information on human resources, in full-time equivalents  (FTEs), for each of [Departmentn&rsquo;s  acronym]&rsquo;s core responsibilities and for  its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
 <div class="table-responsive">
   <table id="tbl10" class="table table-bordered table-condensed">
     <thead>
@@ -906,7 +906,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 		</div>
 	</details>-->
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Organizational profile</summary>
+        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Departmental profile</summary>
         <section><h3>Appropriate minister(s):</h3><p>[insert name(s)]</p></section>
         <section><h3>Institutional head:</h3><p>[insert name(s)]</p></section>
         <section><h3>Ministerial portfolio:</h3><p>[insert information]</p></section>
@@ -915,7 +915,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
         <section><h3>Other:</h3><p>[insert other information]</p></section>
     </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Organizational contact information</summary>
+        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Departmental contact information</summary>
         <section><h3>Mailing address:</h3><p>[insert address]</p></section>
         <section><h3>Telephone:</h3><p>[insert number(s)]</p></section>
         <section><h3>TTY:</h3><p>[insert number(s)]</p></section>
@@ -927,7 +927,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
 </section>
 <section>
  <h2 id="toc05">Supplementary information tables</h2>
- <p>The following supplementary information tables are available on <a href="#">[organization&#8217;s name]&#8217;s website:</a></p>
+ <p>The following supplementary information tables are available on <a href="#">[Departmentn&#8217;s name]&#8217;s website:</a></p>
  <ul>
   <li><a href="#">Details on transfer payment programs</a></li>
   <li><a href="#">Gender-based analysis plus</a></li>
