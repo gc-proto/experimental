@@ -113,7 +113,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <h4 id="toc02-1-2">Progress on results</h4>
   <p>This section presents details on how the organization performed to achieve results and meet targets for [insert name of core responsibility]. Details are presented by departmental result.</p>
 <section><h5>Table [#]: Targets and results for [insert names of core responsibility]</h5>
- <p>Table [#] provides a summary of the target and actual results for each indicator associated with this core responsibility.</p>
+ <p>Table [#] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
 <div class="table-responsive">
 <table id="tbl1-1" class="table table-bordered table-condensed">
   <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of organization’s result 1</caption>
@@ -251,7 +251,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>The&nbsp;<a href="#">complete  financial</a> [hyperlink to finance section on  organization&rsquo;s GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  organization&rsquo;s GC InfoBase page] sections for the [organization&rsquo;s acronym]&rsquo;s program inventory are available on GC InfoBase.</p></section>
+        <p>&nbsp;<a href="#">Complete  financial</a> [hyperlink to finances section on  department's&rsquo; GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  department's&rsquo; GC InfoBase page] sections for the [departmentn&rsquo;s acronym]&rsquo;s program inventory are available on GC InfoBase.</p></section>
       </section>
  <section>
   <h4 id="toc02-1-5">Related government priorities</h4>
@@ -261,7 +261,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <p>[Insert description]</p>
 </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals</summary>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">United Nations 2030 Agenda for Sustainable Development and the Sustainable Development Goals </summary>
   <p>[Insert description]</p>
   </details>
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -318,7 +318,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  </section>
     <section>
   <h4 id="toc02-4-3">Resources requires to achieve results</h4>
-  <section><h5>Table [#]: Snapshot of resources this year for internal services </h5>
+  <section><h5>Table [#]: Resources required to achieve results for internal services this year</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents (FTEs) required to achieve results.</p>
 <table id="tbl3" class="table table-bordered table-condensed">
             <thead>
@@ -366,8 +366,8 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  <p>This section presents an overview of the department's actual and planned expenditures from [insert fiscal year] to [insert fiscal year]. </p>
 <section>
   <figure id="fig1">
-   <figcaption class="text-left h4"><strong>Figure [#]: Actual spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
-   <p>Figure [#] presents how much the  organization spent in [fiscal year] to carry out core responsibilities and  internal services.</p>
+   <figcaption class="text-left h4"><strong>Graph [#]: Actual spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
+   <p>Graph [#] presents how much the organization spent in [fiscal year] to carry out core responsibilities and  internal services.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
@@ -415,9 +415,9 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  <section>
      <h4>Budgetary performance summaries</h4>
      <section>
-  <h5 class="h4">Table [#]: Actual three-year spending on core responsibilities and internal services</h5>
+  <h5 class="h4">Table [#]: Actual three-year spending on core responsibilities and internal services (dollars)</h5>
   
-<p>Table [#]<strong> </strong>presents how much  money was spent over the past three years to deliver [department&rsquo;s acronym]&rsquo;s core responsibilities and for internal services. </p>
+<p>Table [#]<strong> </strong>presents how much  money [insert Department's acronym] spent over the past three years to carry out core responsibilities and for internal services. </p>
 <div class="table-responsive">
   <table id="tbl4" class="table table-bordered table-condensed">
     <thead>
@@ -485,12 +485,12 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of past three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-  <p>More detailed <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available on the GC InfoBase [hyperlink to  Finances section on organization&rsquo;s GC InfoBase page].  </p>
+  <p>More <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available in the Finances section of GC InfoBase [hyperlink to  Finances section on organization&rsquo;s GC InfoBase page].  </p>
  </section>
  <section>
-  <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services</h5>
+  <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h5>
   
-<p>This table presents how much money is planned to be spent over the next three years to deliver [organization’s acronym]’s core responsibilities and for internal services.</p>
+<p>This table presents how much money [insert Department's acronym] plans to spend over the next three years to deliver core responsibilities and for internal services.</p>
 <div class="table-responsive">
   <table id="tbl5" class="table table-bordered table-condensed">
     <thead>
@@ -545,7 +545,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  <section>
   <h5 class="h4">Table [#]: Budgetary actual gross and net planned spending summary (dollars) (*optional)</h5>
   
-  <p>The following table reconciles gross planned spending with net spending for [fiscal year].</p>
+  <p>Table [#] reconciles gross planned spending with net spending for [insert fiscal year].</p>
   <div class="table-responsive">
    <table id="tbl6" class="table table-bordered table-condensed">
    <caption class="text-left"></caption>
@@ -676,7 +676,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
   <h3 id="toc03-3">Financial statement highlights</h3>
   <p>[Department&rsquo;s acronym]&rsquo;s <a href="#">complete financial  statements</a> [link to department&rsquo;s financial  statement] (unaudited or audited) for the year ended [insert date] are available online.  </p>
 <section><h4>Table [#]: Condensed Statement of Operations (unaudited) for the year ended [insert date] (dollars)</h4>
-<p>Table [#] presents a brief summary of how  much money the organization received and spent during the most recently  completed fiscal year. </p>
+<p>Table [#] summarizes the expenses and revenues which net to the cost of operations before government funding and transfers. </p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
