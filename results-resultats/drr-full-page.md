@@ -543,7 +543,7 @@ title: "[Name of organization] [fiscal year] Departmental results report"
  </section>
   
  <section>
-  <h5 class="h4">Table [#]: Budgetary actual gross and net planned spending summary (dollars)</h5>
+  <h5 class="h4">Table [#]: Budgetary actual gross and net planned spending summary (dollars) (*optional)</h5>
   
   <p>The following table reconciles gross planned spending with net spending for [fiscal year].</p>
   <div class="table-responsive">
