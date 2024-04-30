@@ -251,7 +251,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>&nbsp;<a href="#">Complete  financial</a> [hyperlink to finances section on  department's&rsquo; GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  department's&rsquo; GC InfoBase page] sections for the [departmentn&rsquo;s acronym]&rsquo;s program inventory are available on GC InfoBase.</p></section>
+        <p>&nbsp;<a href="#">Complete  financial</a> [hyperlink to finances section on  department's&rsquo; GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  department's&rsquo; GC InfoBase page] sections for the [department's&rsquo;s acronym]&rsquo; program inventory are available on GC InfoBase.</p></section>
       </section>
  <section>
   <h4 id="toc02-1-5">Related government priorities</h4>
