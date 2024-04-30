@@ -61,7 +61,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   </figcaption> 
  </figure> 
  </div>
- <p>[Insert message from the Minister; don’t include a signature in the web version]</p><div class="clearfix"></div>
+ <p>[ message from the Minister; don’t include a signature in the web version]</p><div class="clearfix"></div>
 </section>
 <section> <!-- Optional section, delete if not required -->
  <h2 id="toc01b">From the Institutional Head (*optional)</h2>
@@ -74,16 +74,16 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   </figcaption> 
  </figure> 
  </div>
- <p>[Insert message from the Institutional head, don't include a signature in the web version]</p><div class="clearfix"></div>
+ <p>[ message from the Institutional head, don't include a signature in the web version]</p><div class="clearfix"></div>
 </section>
 <section>
  <h2 id="toc02">Results achieved for core responsibilities and internal services</h2>
 <section>
  <h3>Core responsibilities and internal services</h3>
  <ul>
-<li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
-<li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
-<li><a href="#toc02-3">Core responsibility 3: [insert core responsibility name]</a></li>
+<li><a href="#toc02-1">Core responsibility 1: [ core responsibility name]</a></li>
+<li><a href="#toc02-2">Core responsibility 2: [ core responsibility name]</a></li>
+<li><a href="#toc02-3">Core responsibility 3: [ core responsibility name]</a></li>
  <li><a href="#toc02-4">Internal services</a></li>
  </ul>
 </section>
@@ -132,9 +132,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
-          <li>[Fiscal year]: [Insert figure]</li>
-          <li>[Fiscal year]: [Insert figure]</li>
-          <li>[Fiscal year]: [Insert  figure]</li>
+          <li>[Fiscal year]: [insert figure]</li>
+          <li>[Fiscal year]: [insert figure]</li>
+          <li>[Fiscal year]: [insert  figure]</li>
           </ul>
         </div></td>
       </tr>
@@ -144,9 +144,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
-          <li>[Fiscal year]: [Insert figure]</li>
-          <li>[Fiscal year]: [Insert figure]</li>
-          <li>[Fiscal year]: [Insert  figure]</li>
+          <li>[Fiscal year]: [insert figure]</li>
+          <li>[Fiscal year]: [insert figure]</li>
+          <li>[Fiscal year]: [insert  figure]</li>
           </ul>  
   </div></td>
       </tr>
@@ -171,9 +171,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
-      <li>[Fiscal year]: [Insert figure]</li>
-      <li>[Fiscal year]: [Insert figure]</li>
-      <li>[Fiscal year]: [Insert  figure]</li>
+      <li>[Fiscal year]: [insert figure]</li>
+      <li>[Fiscal year]: [insert figure]</li>
+      <li>[Fiscal year]: [insert  figure]</li>
     </ul>
   </div></td>
   </tr>
@@ -183,9 +183,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
-      <li>[Fiscal year]: [Insert figure]</li>
-      <li>[Fiscal year]: [Insert figure]</li>
-      <li>[Fiscal year]: [Insert  figure]</li>
+      <li>[Fiscal year]: [insert figure]</li>
+      <li>[Fiscal year]: [insert figure]</li>
+      <li>[Fiscal year]: [insert  figure]</li>
     </ul>  
 </div></td>
   </tr>
