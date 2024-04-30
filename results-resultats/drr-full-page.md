@@ -61,7 +61,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   </figcaption> 
  </figure> 
  </div>
- <p>[ message from the Minister; don’t include a signature in the web version]</p><div class="clearfix"></div>
+ <p>[Message from the Minister; don’t include a signature in the web version]</p><div class="clearfix"></div>
 </section>
 <section> <!-- Optional section, delete if not required -->
  <h2 id="toc01b">From the Institutional Head (*optional)</h2>
@@ -74,7 +74,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   </figcaption> 
  </figure> 
  </div>
- <p>[ message from the Institutional head, don't include a signature in the web version]</p><div class="clearfix"></div>
+ <p>[Message from the Institutional head, don't include a signature in the web version]</p><div class="clearfix"></div>
 </section>
 <section>
  <h2 id="toc02">Results achieved for core responsibilities and internal services</h2>
