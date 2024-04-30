@@ -314,7 +314,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  </section>
  <section>
   <h4 id="toc02-4-2">Progress on results</h4>
-  <p>This section presents details on how the department performed to achieve results and meet targets for internal services</p>
+  <p>This section presents details on how the department performed to achieve results and meet targets for internal services.</p>
  </section>
     <section>
   <h4 id="toc02-4-3">Resources required to achieve results</h4>
