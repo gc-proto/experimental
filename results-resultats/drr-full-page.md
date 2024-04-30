@@ -197,9 +197,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 </section>
  <section>
   <h5>Details on results</h5>
-  <p>The following section decribes the  results for [insert name of core  responsibility] in [insert fiscal year] compared  with the planned results set out in [insert department name&rsquo;s] departmental plan for the year. </p>
+  <p>The following section decribes the  results for [insert name of core  responsibility] in [insert fiscal year] compared  with the planned results set out in [insert department acronym&rsquo;s] departmental plan for the year. </p>
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Namen of result 1]</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Name of result 1]</summary>
         <section>
      <p>[Insert long description of result 1]</p>
      <p><strong>Results achieved:</strong></p>
