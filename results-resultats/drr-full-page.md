@@ -416,7 +416,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
      <section>
   <h5 class="h4">Table [#]: Actual three-year spending on core responsibilities and internal services (dollars)</h5>
   
-<p>Table [#]<strong> </strong>presents how much  money [Department acronym]'s spent over the past three years to carry out core responsibilities and for internal services. </p>
+<p>Table [#]<strong> </strong>presents how much  money [Department acronym] spent over the past three years to carry out core responsibilities and for internal services. </p>
 <div class="table-responsive">
   <table id="tbl4" class="table table-bordered table-condensed">
     <thead>
@@ -489,7 +489,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <section>
   <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h5>
   
-<p>Table [#] presents how much money [Department acronym]'s plans to spend over the next three years to carry out its core responsibilities and for internal services.</p>
+<p>Table [#] presents how much money [Department acronym] plans to spend over the next three years to carry out its core responsibilities and for internal services.</p>
 <div class="table-responsive">
   <table id="tbl5" class="table table-bordered table-condensed">
     <thead>
