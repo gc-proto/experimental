@@ -594,7 +594,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of budgetary actual gross and net planned spending summary</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-    <p>Information on the alignment of [Department acronym]’s <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [hyperlink to  Finances section on Departmentn&rsquo;s GC InfoBase page].  </p>
+    <p>Information on the <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">alignment of [Department acronym]’s spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [hyperlink to  Finances section on Departmentn&rsquo;s GC InfoBase page].  </p>
  </section>
 </section>
  </section>
