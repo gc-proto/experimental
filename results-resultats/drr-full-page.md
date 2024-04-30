@@ -228,7 +228,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <section>
       <section>
    <h4 id="toc02-1-4">Resources required to achieve results </h4>
-  <section><h5>Table [#] snapshot of resources required for [insert name of core responsibility]</h5>
+  <section><h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents (FTEs) required to achieve results.</p>
 <table id="tbl2" class="table table-bordered table-condensed">
             <thead>
@@ -314,10 +314,10 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  </section>
  <section>
   <h4 id="toc02-4-2">Progress on results</h4>
-  <p>[Insert description of the progress on results]</p>
+  <p>This section presents details on how the department performed to achieve results and meet targets for internal services</p>
  </section>
     <section>
-  <h4 id="toc02-4-3">Resources requires to achieve results</h4>
+  <h4 id="toc02-4-3">Resources required to achieve results</h4>
   <section><h5>Table [#]: Resources required to achieve results for internal services this year</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents (FTEs) required to achieve results.</p>
 <table id="tbl3" class="table table-bordered table-condensed">
@@ -412,7 +412,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   </figure>
 </section>
  <section>
-     <h4>Budgetary performance summaries</h4>
+     <h4>Budgetary performance summary</h4>
      <section>
   <h5 class="h4">Table [#]: Actual three-year spending on core responsibilities and internal services (dollars)</h5>
   
