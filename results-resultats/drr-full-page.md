@@ -204,9 +204,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
      <p>[Insert long description of result 1]</p>
      <p><strong>Results achieved:</strong></p>
      <ul>
-       <li>[insert Bulleted list item 1]</li>
-       <li>[insert Bulleted list item 2]</li>
-       <li>[insert Bulleted list item 3]</li>
+       <li>[Insert bulleted list item 1]</li>
+       <li>[Insert bulleted list item 2]</li>
+       <li>[Insert bulleted list item 3]</li>
      </ul></section>
     </details>
          <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -215,9 +215,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
      <p>[Insert long description of result 2]</p>
      <p><strong>Results achieved:</strong></p>
      <ul>
-       <li>[insert Bulleted list item 1]</li>
-       <li>[insert Bulleted list item 2]</li>
-       <li>[insert Bulleted list item 3]</li>
+       <li>[Insert bulleted list item 1]</li>
+       <li>[Insert bulleted list item 2]</li>
+       <li>[Insert bulleted list item 3]</li>
      </ul></section>
     </details>
     <p>[Repeat for each result associated with core responsibility 1]</p>
@@ -273,9 +273,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <h4 id="toc02-1-6">Program inventory</h4>
   <p>[Insert name of core responsibility  1] is  supported by the following programs:</p>
   <ul>
-    <li>[Insert Bulleted list item 1]</li>
-    <li>[Insert Bulleted list item 2]</li>
-    <li>[Insert Bulleted list item 3]</li>
+    <li>[Insert bulleted list item 1]</li>
+    <li>[Insert bulleted list item 2]</li>
+    <li>[Insert bulleted list item 3]</li>
   </ul>
   <p>Additional  information related to the <a href="#">program  inventory </a>for [insert name of core responsibility] is available on GC InfoBase [hyperlink to Results section on  Department&rsquo;s GC InfoBase page].</p>
 </section>
