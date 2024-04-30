@@ -14,18 +14,19 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
     <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
   <p>A departmental results report provides an  account of actual accomplishments against plans, priorities and expected  results set out in the department&rsquo;s associated <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental  Plan</a>.</p>
 <ul>
-    <li><a href="#">Vision, mission, raison d&#8217;etre and operating context</a></li>
+    <li><a href="#">Vision, mission, raison d&#8217;être and operating context</a></li>
     <li><a href="#">[Minister name]&#8217;s mandate letter</a></li>
   </ul> 
 
  
   <div class="clearfix"></div>
   <section class="mrgn-tp-lg">
-    <p><a href="https://test.canada.ca/experimental/results-resultats/drr-full-page.html" class="btn btn-primary btn-lg">Read the full Departmental Results Report</a></p>
+    <p><a href="https://test.canada.ca/experimental/results-resultats/drr-full-page.html" class="btn btn-primary btn-lg">Read the full Departmental results report</a></p>
   </section>
   <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
     <h2>Key priorities</h2>
+    <p>[Department acronym]’s top priorities for [insert fiscal year] were as follows</p>
     <ul>
       <li>[insert Bulleted list item 1]</li>
       <li>[insert Bulleted list item 2]</li>
