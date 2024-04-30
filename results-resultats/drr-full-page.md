@@ -116,7 +116,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <p>Table [#] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
 <div class="table-responsive">
 <table id="tbl1-1" class="table table-bordered table-condensed">
-  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of Department’s result 1</caption>
+  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of Departmental result 1</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -155,7 +155,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 </div>
 <div class="table-responsive">
     <table id="tbl1-2" class="table table-bordered table-condensed">
-    <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of Department’s result 2</caption>
+    <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Name of Departmental result 2</caption>
  <thead>
  <tr class="active">
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -251,7 +251,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>&nbsp;<a href="#">Complete  financial</a> [hyperlink to finances section on  department's&rsquo; GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  department's&rsquo; GC InfoBase page] sections for the [Department's acronym]'s program inventory are available on GC InfoBase.</p></section>
+        <p>The <a href="#">complete  financial and human resources information</a> [hyperlink to the program inventory  on GC InfoBase] for the [Department acronym]'s program inventory is available on GC InfoBase.</p></section>
       </section>
  <section>
   <h4 id="toc02-1-5">Related government priorities</h4>
