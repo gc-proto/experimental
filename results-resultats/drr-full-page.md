@@ -192,12 +192,12 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  </tbody>
 </table>
 </div>
-<p>Additional information on the <a href="#">results and performance</a> [hyperlink  to Results page on Department&rsquo;s GC InfoBase page] for the [Department&rsquo;s  acronym]&rsquo;s program inventory is available on  GC InfoBase.  </p>
+<p>Additional information on the <a href="#">results and performance</a> [hyperlink  to Results page on Department&rsquo;s GC InfoBase page] for the [Department acronym]'s program inventory is available on  GC InfoBase.  </p>
 </section>
 </section>
  <section>
   <h5>Details on results</h5>
-  <p>The following section decribes the  results for [insert name of core  responsibility] in [insert fiscal year] compared  with the planned results set out in [insert department acronym&rsquo;s] departmental plan for the year. </p>
+  <p>The following section decribes the  results for [insert name of core  responsibility] in [insert fiscal year] compared  with the planned results set out in [Department acronym]'s departmental plan for the year. </p>
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Name of result 1]</summary>
         <section>
@@ -251,7 +251,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>&nbsp;<a href="#">Complete  financial</a> [hyperlink to finances section on  department's&rsquo; GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  department's&rsquo; GC InfoBase page] sections for the [department's&rsquo;s acronym]&rsquo; program inventory are available on GC InfoBase.</p></section>
+        <p>&nbsp;<a href="#">Complete  financial</a> [hyperlink to finances section on  department's&rsquo; GC InfoBase page] and <a href="#">human resources information</a> [hyperlink to People section on  department's&rsquo; GC InfoBase page] sections for the [Department's acronym]'s program inventory are available on GC InfoBase.</p></section>
       </section>
  <section>
   <h4 id="toc02-1-5">Related government priorities</h4>
@@ -341,7 +341,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>The <a href="#">complete  financial and human resources information</a> [hyperlink to the program inventory  on GC InfoBase] for the [Department&rsquo;s acronym]&rsquo;s program inventory is available on GC InfoBase.</p>
+        <p>The <a href="#">complete  financial and human resources information</a> [hyperlink to the program inventory  on GC InfoBase] for the [Department acronym]'s program inventory is available on GC InfoBase.</p>
 </section>
  </section>
  </section>
@@ -416,7 +416,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
      <section>
   <h5 class="h4">Table [#]: Actual three-year spending on core responsibilities and internal services (dollars)</h5>
   
-<p>Table [#]<strong> </strong>presents how much  money [insert Department's acronym] spent over the past three years to carry out core responsibilities and for internal services. </p>
+<p>Table [#]<strong> </strong>presents how much  money [Department acronym]'s spent over the past three years to carry out core responsibilities and for internal services. </p>
 <div class="table-responsive">
   <table id="tbl4" class="table table-bordered table-condensed">
     <thead>
@@ -489,7 +489,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <section>
   <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h5>
   
-<p>Table [#] presents how much money [insert Department's acronym] plans to spend over the next three years to carry out its core responsibilities and for internal services.</p>
+<p>Table [#] presents how much money [Department acronym]'s plans to spend over the next three years to carry out its core responsibilities and for internal services.</p>
 <div class="table-responsive">
   <table id="tbl5" class="table table-bordered table-condensed">
     <thead>
@@ -594,7 +594,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of budgetary actual gross and net planned spending summary</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-    <p>Information on the alignment of [department’s acronym]’s <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [hyperlink to  Finances section on Departmentn&rsquo;s GC InfoBase page].  </p>
+    <p>Information on the alignment of [Department acronym]’s <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [hyperlink to  Finances section on Departmentn&rsquo;s GC InfoBase page].  </p>
  </section>
 </section>
  </section>
@@ -668,7 +668,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     </details>
 </figure></section>
   
-  <p>For further information on [department&rsquo;s acronym]&rsquo;s organizational voted and statutory expenditures,  consult the <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html">Public Accounts of Canada</a>.</p>
+  <p>For further information on [Department acronym]'s organizational voted and statutory expenditures,  consult the <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html">Public Accounts of Canada</a>.</p>
  </section>
  <section>
   <h3 id="toc03-3">Financial statement highlights</h3>
@@ -717,7 +717,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
    <p>[Please include the explanation of the table included in the word template]</p>
   </details>-->
-  <p>The [insert fiscal year] planned results information is  provided in [Department&rsquo;s acronym]&rsquo;s <a href="#">Future-Oriented  Statement of Operations and Notes [fiscal year]</a> [link to Department's FOSO].</p>
+  <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s <a href="#">Future-Oriented  Statement of Operations and Notes [fiscal year]</a> [link to Department's FOSO].</p>
 </section>
 <section><h4>Table [#] Condensed Statement of Financial Position (unaudited) as of [insert date] (dollars)</h4>
 <p>Table [#] provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</p>
@@ -773,7 +773,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <p>This section presents an overview of the  department's actual and planned human resources from [insert fiscal year] to  [insert fiscal year].</p>
 <section>
   <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
-  <p>Table [#] shows a summary of human resources, in full-time  equivalents (FTEs), for [Department&rsquo;s  acronym]&rsquo;s core responsibilities and for its internal services for the  previous three fiscal years.</p>
+  <p>Table [#] shows a summary of human resources, in full-time  equivalents (FTEs), for [Department acronym]'s core responsibilities and for its internal services for the  previous three fiscal years.</p>
 
   <div class="table-responsive">
     <table id="tbl9" class="table table-bordered table-condensed">
@@ -826,7 +826,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 </section>
   <section>
    <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
-    <p>Table [#] shows information on human resources, in full-time equivalents  (FTEs), for each of [Departmentn&rsquo;s  acronym]&rsquo;s core responsibilities and for  its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
+    <p>Table [#] shows information on human resources, in full-time equivalents  (FTEs), for each of [Department acronym]'s core responsibilities and for  its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
 <div class="table-responsive">
   <table id="tbl10" class="table table-bordered table-condensed">
     <thead>
