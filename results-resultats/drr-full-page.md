@@ -679,9 +679,10 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] actual minus<br>[fiscal year] planned</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] actual results minus<br>[fiscal year] planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] actual results minus<br>[fiscal year] actual results</div></th>
       </tr>
     </thead>
   <tbody>
@@ -690,53 +691,27 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     </tr>
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total revenues</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       </tr>
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Net cost of operations before government funding and transfers</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-      </tr>
-  </tbody>
-</table></div>
-<p>Table [#] summarizes the expenses and revenues which net to the cost of operations before government funding and transfers between [insert fiscal year] and [insert fiscal year]</p>
-<div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
-  <thead>
-    <tr class="active">
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] actual minus<br>[fiscal year] planned</div></th>
-      </tr>
-    </thead>
-  <tbody>
-  <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total expenses</div></th>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-    </tr>
-    <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total revenues</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-      </tr>
-    <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Net cost of operations before government funding and transfers</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       </tr>
   </tbody>
 </table></div>
-	
   <!--<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
    <p>[Please include the explanation of the table included in the word template]</p>
