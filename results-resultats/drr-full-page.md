@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-complet.
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2024-04-24
+dateModified: 2024-05-03
 language: en
 layout: default
 title: "[Department name's] [insert fiscal year] Departmental results report"
@@ -713,10 +713,6 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
       </tr>
   </tbody>
 </table></div>
-  <!--<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
-   <p>[Please include the explanation of the table included in the word template]</p>
-  </details>-->
   <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s <a href="#">Future-Oriented  Statement of Operations and Notes [fiscal year]</a> [link to Department's FOSO].</p>
 </section>
 <section><h4>Table [#] Condensed Statement of Financial Position (unaudited) as of [insert date] (dollars)</h4>
@@ -763,10 +759,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  </tr>
 </tbody>
 </table></div>
-  <!--<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of table [#]</summary>
-   <p>[Please include the explanation of the table included in the word template]</p>
-  </details>--></section>
+     </section>
  </section>
  <section>
   <h3 id="toc03-4">Human resources</h3>
@@ -880,29 +873,6 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 </section>
 <section>
  <h2 id="toc04">Corporate information</h2>
-  <!--<div class="accordion print-open">-->
-	<!--<details class="acc-group">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational profile</summary>
-		<div class="tgl-panel">
-			<section><h3>Appropriate minister(s):</h3><p>[insert name(s)]</p></section>
- 			<section><h3>Institutional head:</h3><p>[insert name(s)]</p></section>
- 			<section><h3>Ministerial portfolio:</h3><p>[insert information]</p></section>
- 			<section><h3>Enabling instrument(s):</h3><p>[insert title(s) of legislation with hyperlinks]</p></section>
- 			<section><h3>Year of incorporation / commencement:</h3><p>[insert year(s)]</p></section>
- 			<section><h3>Other:</h3><p>[insert other information]</p></section>
-		</div>
-	</details>
-	<details class="acc-group">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational contact information</summary>
-		<div class="tgl-panel">
-            <section><h3>Mailing address:</h3><p>[insert address]</p></section>
- 			<section><h3>Telephone:</h3><p>[insert number(s)]</p></section>
- 			<section><h3>TTY:</h3><p>[insert number(s)]</p></section>
- 			<section><h3>Fax:</h3><p>[insert number(s), if applicable]</p></section>
- 			<section><h3>Email:</h3><p>[insert address(es)]</p></section>
-			<section><h3>Website(s):</h3><p>[insert URL(s)]</p></section>
-		</div>
-	</details>-->
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Departmental profile</summary>
         <section><h3>Appropriate minister(s):</h3><p>[insert name(s)]</p></section>
@@ -921,7 +891,6 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
         <section><h3>Email:</h3><p>[insert address(es)]</p></section>
         <section><h3>Website(s):</h3><p>[insert URL(s)]</p></section>
     </details>
-<!--</div>-->
 </section>
 <section>
  <h2 id="toc05">Supplementary information tables</h2>
