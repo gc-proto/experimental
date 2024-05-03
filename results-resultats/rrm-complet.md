@@ -373,7 +373,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graphique [indiquer le numéro approprié] : Dépenses réelles par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
    <p>Le graphique [indiquer le numéro approprié] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
-<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
 
@@ -611,7 +611,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 <section><figure id="fig2">
   <figcaption class="text-left h4"><strong>Graphique [indiquer le numéro approprié] : Financement approuvé (législatif et voté) pour une période de 6 ans</strong></figcaption>
   <p>Le diagramme [insérer le numéro] résume le financement voté et législatif approuvé du ministère de [insérer exercice financier] à [insérer exercice financier].</p>
-  <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+  <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
