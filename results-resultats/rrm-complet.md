@@ -132,9 +132,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
-          <li>[Exercice] : [Insérer les chiffres]</li>
-          <li>[Exercice] : [Insérer les chiffres]</li>
-          <li>[Exercice] : [Insérer les chiffres]</li>
+          <li>[exercice] : [Insérer les chiffres]</li>
+          <li>[exercice] : [Insérer les chiffres]</li>
+          <li>[exercice] : [Insérer les chiffres]</li>
           </ul>
         </div></td>
       </tr>
@@ -144,9 +144,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
-          <li>[Exercice] : [Insérer les chiffres]</li>
-          <li>[Exercice] : [Insérer les chiffres]</li>
-          <li>[Exercice] : [Insérer les chiffres]</li>
+          <li>[exercice] : [Insérer les chiffres]</li>
+          <li>[exercice] : [Insérer les chiffres]</li>
+          <li>[exercice] : [Insérer les chiffres]</li>
           </ul>  
   </div></td>
       </tr>
@@ -364,6 +364,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <h3 id="toc03-1">Dépenses</h3>
  <p>Cette section présente un aperçu des dépenses prévues et réelles du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
 <section>
+<p>[Si votre ministère remplit le graphique des dépenses réelles par responsabilité essentielle, ajoutez le texte et suivez les instructions. Sinon, supprimez ce texte].</p>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graphique [indiquer le numéro approprié] : Dépenses réelles par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
    <p>Le graphique [indiquer le numéro approprié] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
@@ -421,7 +422,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <thead>
       <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Budget principal des dépenses [Exercice]</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Budget principal des dépenses [exercice]</div></th>
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des autorisations disponibles [exercice]</div></th>
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses réelles sur 3 ans (autorisations utilisées)</div></th>
         </tr>
@@ -433,9 +434,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
           <ul>
-            <li>[exercice] : [Insérer le montant]</li>
-            <li>[exercice] : [Insérer le montant]</li>
-            <li>[exercice] : [Insérer le montant]</li>
+            <li>[Exercice] : [insérer le montant]</li>
+            <li>[Exercice] : [insérer le montant]</li>
+            <li>[Exercice] : [insérer le montant]</li>
           </ul>  
         </div></td>
         </tr>
@@ -445,9 +446,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
           <ul>
-            <li>[exercice] : [Insérer le montant]</li>
-            <li>[exercice] : [Insérer le montant]</li>
-            <li>[exercice] : [Insérer le montant]</li>
+            <li>[Exercice] : [insérer le montant]</li>
+            <li>[Exercice] : [insérer le montant]</li>
+            <li>[Exercice] : [insérer le montant]</li>
           </ul> 
         </div></td>
         </tr>
@@ -463,9 +464,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
            <ul>
-            <li>[exercice] : [Insérer le montant]</li>
-            <li>[exercice] : [Insérer le montant]</li>
-            <li>[exercice] : [Insérer le montant]</li>
+            <li>[Exercice] : [insérer le montant]</li>
+            <li>[Exercice] : [insérer le montant]</li>
+            <li>[Exercice] : [insérer le montant]</li>
           </ul> 
         </div></td>
         </tr>
@@ -480,7 +481,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des 3 dernières années]</summary>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des 3 dernières années</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
   <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
@@ -672,7 +673,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
   <p>Les états financiers complets de/du/de la/d&rsquo;  [acronyme du ministère]  [lien vers les états financiers du ministère] (audités ou non) pour l&rsquo;exercice terminé  le [insérer la date], sont disponibles en ligne. </p>
 <section><h4>Tableau [numéro] État condensé des résultats d’exploitation (non audité) pour l’exercice terminé le [insérer la date] (en dollars)</h4>
-<p>Le tableau [indiquer le numéro approprié] résume les recettes et les dépenses du ministère au cours du dernier exercice terminé.</p>
+<p>Le tableau [numéro] résume les charges et les revenus pour [exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -703,7 +704,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </tr>
   </tbody>
 </table></div>
-<p>Le tableau [indiquer le numéro approprié] résume les recettes et les dépenses du ministère au cours du dernier exercice terminé.</p>
+<p>Le tableau [numéro] résume les charges et les revenus pour [exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -904,7 +905,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Coordonnées du ministère</summary>
-        <section><h3>Adresse postale&nbsp;:</h3><p>[Insérez l'adresse]</p></section>
+        <section><h3>Adresse postale&nbsp;:</h3><p>[insérez l'adresse]</p></section>
 			<section><h3>Téléphone&nbsp;:</h3><p>[insérez les numéros]</p></section>
 			<section><h3>ATS&nbsp;:</h3><p>[insérez les numéros]</p></section>
 			<section><h3>Télécopie&nbsp;:</h3><p>[insérez les numéros, le cas échéant]</p></section>
