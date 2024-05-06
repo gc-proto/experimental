@@ -6,7 +6,7 @@ breadcrumbs:
 dateModified: 2024-05-03
 language: fr
 layout: default
-title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom de l’organisation]"
+title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom du ministère]"
 ---
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
@@ -116,7 +116,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
 <div class="table-responsive">
 <table id="tbl1-1" class="table table-bordered table-condensed">
-  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 1 de [organisation]</caption>
+  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 1 du [ministère]</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériels</div></th>
@@ -155,7 +155,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </div>
 <div class="table-responsive">
     <table id="tbl1-2" class="table table-bordered table-condensed">
-    <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 2 de [organisation]</caption>
+    <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 2 du [ministère]</caption>
  <thead>
  <tr class="active">
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériels</div></th>
@@ -197,11 +197,11 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
 <section>
   <h5>Renseignements sur les résultats</h5>
-  <p>La section suivante décrit les résultats de [insérer le nom de la responsabilité principale] au cours de l’exercice [insérer l’exercice] par rapport aux résultats prévus dans le plan ministériel de [insérer l'acronyme du ministère] pour l’année.</p>
+  <p>La section suivante décrit les résultats obtenus relativement à [inscrire le nom de la responsabilité essentielle] en [insérer l’exercice] en les comparant aux résultats prévus dans le Plan ministériel de [insérer le nom du ministère] pour l’exercice.</p>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insérer une courte description du résultat 1]</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 1]</summary>
       <section>
-        <p>[Insérer une courte description du résultat 1]</p>
+        <p>[Insérer la longue description du résultat 1]</p>
         <p><strong>Résultats obtenus : </strong></p>
         <ul>
           <li>[Insérer l’élément 1 de la liste à puces]</li>
@@ -211,9 +211,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </section>
     </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insérer une courte description du résultat 2]</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 2]</summary>
       <section>
-        <p>[Insérer une courte description du résultat 2]</p>
+        <p>[Insérer la longue description du résultat 2]</p>
         <p><strong>Résultats obtenus : </strong></p>
           <ul>
             <li>[Insérer l’élément 1 de la liste à puces]</li>
@@ -276,7 +276,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  </section>
  <section>
   <h4 id="toc02-1-6">Répertoire des programmes</h4>
-  <p>[Insérer le nom de la responsabilité essentielle 1] s’appuie sur par les programmes suivants :</p>
+  <p>La responsabilité essentielle [inscrire le nom de la responsabilité essentielle] est appuyée des programmes suivants :</p>
   <ul>
     <li>[Insérer le point 1&nbsp;de la  liste à puces]</li>
     <li>[Insérer le point 2&nbsp;de la  liste à puces]</li>
@@ -362,7 +362,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </ul>
  <section>
  <h3 id="toc03-1">Dépenses</h3>
- <p>Cette section présente une vue d’ensemble des dépenses réelles et prévues du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
+ <p>Cette section présente un aperçu des dépenses prévues et réelles du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
 <section>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graphique [indiquer le numéro approprié] : Dépenses réelles par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
@@ -670,9 +670,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
  <section>
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
-  <p>Les états financiers complets de/du/de la/d&rsquo;  [acronyme de l&rsquo;organisation]  [lien vers les états financiers du ministère] (audités ou non) pour l&rsquo;exercice terminé  le [insérer la date], sont disponibles en ligne. </p>
+  <p>Les états financiers complets de/du/de la/d&rsquo;  [acronyme du ministère]  [lien vers les états financiers du ministère] (audités ou non) pour l&rsquo;exercice terminé  le [insérer la date], sont disponibles en ligne. </p>
 <section><h4>Tableau [numéro] État condensé des résultats d’exploitation (non audité) pour l’exercice terminé le [insérer la date] (en dollars)</h4>
-<p>Le tableau [indiquer le numéro approprié] résume les recettes et les dépenses de l’organisation au cours du dernier exercice terminé.</p>
+<p>Le tableau [indiquer le numéro approprié] résume les recettes et les dépenses du ministère au cours du dernier exercice terminé.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -703,7 +703,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </tr>
   </tbody>
 </table></div>
-<p>Le tableau [indiquer le numéro approprié] résume les recettes et les dépenses de l’organisation au cours du dernier exercice terminé.</p>
+<p>Le tableau [indiquer le numéro approprié] résume les recettes et les dépenses du ministère au cours du dernier exercice terminé.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -734,7 +734,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </tr>
   </tbody>
 </table></div>
-  <p>Les  informations sur les résultats prévus pour [insérer l&rsquo;exercice financier] sont fournies dans le document État des résultats prospectifs et notes de [exercice] de [acronyme de l&rsquo;organisation] [lien vers l&rsquo;état des résultats prospectifs et  des notes de l&rsquo;organisation]. </p>
+  <p>Les  informations sur les résultats prévus pour [insérer l&rsquo;exercice financier] sont fournies dans le document État des résultats prospectifs et notes de [exercice] de [acronyme du ministère] [lien vers l&rsquo;état des résultats prospectifs et des notes du ministère]. </p>
 </section>
 <section><h4>Tableau [numéro] État condensé de la situation financière (non audité) au [insérer la date] (en dollars)</h4>
 <p>Le tableau [indiquer le numéro approprié] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), qui permettent de déterminer la capacité de celui-ci à mettre en œuvre des programmes et des services.</p>
@@ -892,9 +892,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  </section>
 </section>
 <section>
- <h2 id="toc04">Renseignements sur l’organisation</h2>
+ <h2 id="toc04">Renseignements sur le ministère</h2>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Profil organisationnel</summary>
+        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Profil du ministère</summary>
         <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérez le nom]</p></section>
 			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérez le nom]</p></section>
 			<section><h3>Portefeuille  ministériel&nbsp;:</h3><p>[insérez les  renseignements]</p></section>
@@ -903,7 +903,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 			<section><h3>Autres&nbsp;:</h3><p>[insérez d'autres renseignements]</p></section>
     </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Coordonnées de l'organisation</summary>
+        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Coordonnées du ministère</summary>
         <section><h3>Adresse postale&nbsp;:</h3><p>[Insérez l'adresse]</p></section>
 			<section><h3>Téléphone&nbsp;:</h3><p>[insérez les numéros]</p></section>
 			<section><h3>ATS&nbsp;:</h3><p>[insérez les numéros]</p></section>
@@ -914,7 +914,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
 <section>
  <h2 id="toc05">Tableaux de renseignements supplémentaires</h2>
- <p>Les tableaux de renseignements  supplémentaires ci-dessous sont accessibles sur le site Web du [nom de l&rsquo;organisation]&nbsp;:</p>
+ <p>Les tableaux de renseignements  supplémentaires ci-dessous sont accessibles sur le site Web du [nom du ministère]&nbsp;:</p>
  <ul>
    <li>Renseignements  sur les programmes de paiements de transfert</li>
    <li>Analyse  comparative entre les sexes Plus</li>
