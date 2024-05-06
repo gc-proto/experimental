@@ -195,66 +195,70 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
 </section>
- <section>
+<section>
   <h5>Renseignements sur les résultats</h5>
   <p>La section suivante décrit les résultats de [insérer le nom de la responsabilité principale] au cours de l’exercice [insérer l’exercice] par rapport aux résultats prévus dans le plan ministériel de [insérer le nom du ministère] pour l’année. </p>
-     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insérer une courte description du résultat 1]</summary>
-        <section>
-     <p>[Insérer une courte description du résultat 1]</p>
-     <p><strong>Résultats obtenus : </strong></p>
-     <ul>
-       <li>[Insérer l’élément 1 de la liste à puces]</li>
-       <li>[Insérer l’élément 2 de la liste à puces]</li>
-       <li>[Insérer l’élément 3 de la liste à puces]</li>
-     </ul></section>
+      <section>
+        <p>[Insérer une courte description du résultat 1]</p>
+        <p><strong>Résultats obtenus : </strong></p>
+        <ul>
+          <li>[Insérer l’élément 1 de la liste à puces]</li>
+          <li>[Insérer l’élément 2 de la liste à puces]</li>
+          <li>[Insérer l’élément 3 de la liste à puces]</li>
+        </ul>
+      </section>
     </details>
-         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insérer une courte description du résultat 1]</summary>
-        <section>
-     <p>[Insérer une courte description du résultat 2]</p>
-     <p><strong>Résultats obtenus : </strong></p>
-     <ul>
-       <li>[Insérer l’élément 1 de la liste à puces]</li>
-       <li>[Insérer l’élément 2 de la liste à puces]</li>
-       <li>[Insérer l’élément 3 de la liste à puces]</li>
-     </ul></section>
+      <section>
+        <p>[Insérer une courte description du résultat 2]</p>
+        <p><strong>Résultats obtenus : </strong></p>
+          <ul>
+            <li>[Insérer l’élément 1 de la liste à puces]</li>
+            <li>[Insérer l’élément 2 de la liste à puces]</li>
+            <li>[Insérer l’élément 3 de la liste à puces]</li>
+          </ul>
+      </section>
     </details>
     <p>[Répéter pour chaque résultat lié à la responsabilité essentielle 1]</p>
  </section>
  <section>
    <h4 id="toc02-1-3">Principaux risques</h4>
-  <p>[Insérer une description des principaux risques pour la responsabilité essentielle 1]</p></section>
+  <p>[Insérer une description des principaux risques pour la responsabilité essentielle 1]</p>
+  </section>
   <section>
       <section>
-   <h4 id="toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</h4>
-  <section><h5>Tableau [indiquer le numéro approprié] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
-<p>Le tableau [indiquer le numéro approprié] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein (ETP) requis pour obtenir ces résultats.</p>
-<table id="tbl2" class="table table-bordered table-condensed">
+        <h4 id="toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</h4>
+      <section>
+        <h5>Tableau [indiquer le numéro approprié] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
+        <p>Le tableau [indiquer le numéro approprié] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein (ETP) requis pour obtenir ces résultats.</p>
+        <table id="tbl2" class="table table-bordered table-condensed">
             <thead>
-<tr class="active">
+              <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div></th>
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues/prévus</div></th>
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles/prévus</div></th>
             </tr>
-</thead>
+            </thead>
             <tbody>
-<tr>
+              <tr>
               <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div></th>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
               <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">ETP</div></th>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-            </tr>
-</tbody>
+              </tr>
+            </tbody>
         </table>
-<p><a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
+      <p><a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
   </section>
-      </section>
- <section>
+</section>
+<section>
   <h4 id="toc02-1-5">Priorités pangouvernementales connexes</h4>
      <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -279,24 +283,22 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
     <li>[Insérer le point 3&nbsp;de la  liste à puces]</li></ul>
   <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
- </section>
-    </section>
  <section>
  <h3 id="toc02-4">Services internes</h3>
  <ul class="list-unstyled">
   <li>
- <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
-  <ul>
-  <li><a href="#toc02-4-1">Description</a></li>
-  <li><a href="#toc02-4-2">Progrès à l’égard des résultats</a></li>
-  <li><a href="#toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</a></li>
-  <li><a href="#toc02-4-x">[RÉSERVÉ à toute autre priorité gouvernementale]</a></li>
-  </ul>
- </details>
-</li>
+    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+       <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
+        <ul>
+        <li><a href="#toc02-4-1">Description</a></li>
+        <li><a href="#toc02-4-2">Progrès à l’égard des résultats</a></li>
+        <li><a href="#toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</a></li>
+        <li><a href="#toc02-4-x">[RÉSERVÉ à toute autre priorité gouvernementale]</a></li>
+        </ul>
+    </details>
+  </li>
  </ul>
- <section>
+<section>
   <h4 id="toc02-4-1">Description</h4>
   <p>Les services internes sont les services fournis  au sein d&rsquo;un ministère afin qu&rsquo;il puisse respecter ses obligations et exécuter  ses programmes. Les 10&nbsp;catégories de services internes sont les suivantes&nbsp;:</p>
   <ul>
@@ -316,20 +318,21 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <h4 id="toc02-4-2">Progrès à l’égard des résultats</h4>
   <p>[Insérer une description de l’état d’avancement des résultats]</p>
  </section>
-    <section>
+ <section>
   <h4 id="toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</h4>
-  <section><h5>Tableau [indiquer le numéro approprié] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
+ </section>
+ <h5>Tableau [indiquer le numéro approprié] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
 <p>Le tableau [indiquer le numéro approprié] fournit un résumé des dépenses prévues et réelles et des ETP requis pour obtenir ces résultats.</p>
 <table id="tbl3" class="table table-bordered table-condensed">
-            <thead>
-<tr class="active">
+      <thead>
+            <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div></th>
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues/prévus</div></th>
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles/réels</div></th>
             </tr>
-</thead>
-            <tbody>
-<tr>
+      </thead>
+      <tbody>
+           <tr>
               <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div></th>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -339,18 +342,9 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             </tr>
-</tbody>
-        </table>
+      </tbody>
+</table>
         <p>Des <a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
-        <div>
-          <div> </div>
-          <div> </div>
-          <div> </div>
-        </div>
-  </section>
- </section>
- </section>
-</section>
 <section>
  <h2 id="toc03">Dépenses et ressources humaines  </h2>
 <ul class="list-unstyled">
