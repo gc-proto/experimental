@@ -201,7 +201,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 1]</summary>
       <section>
-        <p>[Insérer la longue description du résultat 1]</p>
+        <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 1 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice.]</p>
         <p><strong>Résultats obtenus : </strong></p>
         <ul>
           <li>[Insérer l’élément 1 de la liste à puces]</li>
@@ -213,7 +213,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 2]</summary>
       <section>
-        <p>[Insérer la longue description du résultat 2]</p>
+        <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 2 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice.]</p>
         <p><strong>Résultats obtenus : </strong></p>
           <ul>
             <li>[Insérer l’élément 1 de la liste à puces]</li>

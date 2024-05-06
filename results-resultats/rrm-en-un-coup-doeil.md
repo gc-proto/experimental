@@ -28,15 +28,11 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
     <h2>Principales priorités</h2>
     <p>Les principales priorités de [nom du ministère] pour [insérer l’exercice] sont les suivantes :</p>
     <ul>
-      <li>élément&nbsp;1 de la liste à puces; </li>
-      <li>élément&nbsp;2 de la liste à puces; </li>
-      <li>élément&nbsp;3 de la liste à puces. </li>
+      <li>[élément&nbsp;1 de la liste à puces]; </li>
+      <li>[élément&nbsp;2 de la liste à puces]; </li>
+      <li>[élément&nbsp;3 de la liste à puces]. </li>
     </ul>
-  </section>
-  <hr>
-  <section class="mrgn-bttm-lg mrgn-tp-lg">
-    <h2>Initiative « Recentrer les dépenses gouvernementales »</h2>
-    <p>[Insérer un texte sur la manière dont l’organisation a contribué à cette initiative]</p>
+        <p>[Insérer un texte sur la manière dont l’organisation a contribué à cette initiative]</p>
   </section>
   <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
