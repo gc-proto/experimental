@@ -604,8 +604,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <h3 id="toc03-2">Financement</h3>
   <p>Cette section présente  un aperçu du financement voté et législatif du ministère par rapport à ses responsabilités  essentielles et à ses services internes. Pour en savoir plus sur les autorisations  de financement, consulter les <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/budgets-depenses.html">budgets  et dépenses du gouvernement du Canada</a>.</p>
 <section><figure id="fig2">
-  <figcaption class="text-left h4"><strong>Graphique [indiquer le numéro approprié] : Financement approuvé (législatif et voté) pour une période de 6 ans</strong></figcaption>
-  <p>Le diagramme [insérer le numéro] résume le financement voté et législatif approuvé du ministère de [insérer exercice financier] à [insérer exercice financier].</p>
+  <figcaption class="text-left h4"><strong>Graphique [indiquer le numéro approprié] : Financement approuvé (législatif et voté) pour une période de six ans</strong></figcaption>
+  <p>Le graphique [indiquer le numéro approprié] résume le financement voté et législatif du ministère pour la période de [insérer exercice financier] à [insérer exercice financier].</p>
   <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
