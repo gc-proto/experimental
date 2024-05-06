@@ -229,7 +229,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
       <section>
    <h4 id="toc02-1-4">Resources required to achieve results </h4>
   <section><h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
-<p>Table [#] provides a summary of the planned and actual spending and full-time equivalents (FTEs) required to achieve results.</p>
+<p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
 <table id="tbl2" class="table table-bordered table-condensed">
             <thead>
 <tr class="active">
@@ -245,7 +245,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
             <tr>
-              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">FTEs</div></th>
+              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div></th>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
             </tr>
@@ -319,7 +319,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <section>
   <h4 id="toc02-4-3">Resources required to achieve results</h4>
   <section><h5>Table [#]: Resources required to achieve results for internal services this year</h5>
-<p>Table [#] provides a summary of the planned and actual spending and full-time equivalents (FTEs) required to achieve results.</p>
+<p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
 <table id="tbl3" class="table table-bordered table-condensed">
             <thead>
 <tr class="active">
@@ -335,7 +335,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
             <tr>
-              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">FTEs</div></th>
+              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div></th>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
             </tr>
@@ -675,7 +675,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <h3 id="toc03-3">Financial statement highlights</h3>
   <p>[Department&rsquo;s acronym]&rsquo;s complete financial  statements [link to department&rsquo;s financial  statement] (unaudited or audited) for the year ended [insert date] are available online.  </p>
 <section><h4>Table [#]: Condensed Statement of Operations (unaudited) for the year ended [insert date] (dollars)</h4>
-<p>Table [#] summarizes the expenses and revenues which net to the cost of operations before government funding and transfers between [insert fiscal year] and [insert fiscal year]</p>
+<p>Table [#] summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -706,7 +706,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
       </tr>
   </tbody>
 </table></div>
-<p>Table [#] summarizes the expenses and revenues which net to the cost of operations before government funding and transfers between [insert fiscal year] and [insert fiscal year]</p>
+<p>Table [#] summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -790,16 +790,16 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <p>This section presents an overview of the  department's actual and planned human resources from [insert fiscal year] to  [insert fiscal year].</p>
 <section>
   <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
-  <p>Table [#] shows a summary of human resources, in full-time  equivalents (FTEs), for [Department acronym]'s core responsibilities and for its internal services for the  previous three fiscal years.</p>
+  <p>Table [#] shows a summary of human resources, in full-time equivalents, for [Department acronym]'s core responsibilities and for its internal services for the  previous three fiscal years.</p>
 
   <div class="table-responsive">
     <table id="tbl9" class="table table-bordered table-condensed">
       <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual FTEs</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual FTEs</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual FTEs</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual full-time equivalents</div></th>
           </tr>
         </thead>
       <tbody>
@@ -843,15 +843,15 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 </section>
   <section>
    <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
-    <p>Table [#] shows information on human resources, in full-time equivalents  (FTEs), for each of [Department acronym]'s core responsibilities and for  its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
+    <p>Table [#] shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for  its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
 <div class="table-responsive">
   <table id="tbl10" class="table table-bordered table-condensed">
     <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned FTEs</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned FTEs</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned FTEs</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned full-time equivalents</div></th>
           </tr>
         </thead>
       <tbody>

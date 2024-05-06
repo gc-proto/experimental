@@ -233,7 +233,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         <h4 id="toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</h4>
       <section>
         <h5>Tableau [indiquer le numéro approprié] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
-        <p>Le tableau [indiquer le numéro approprié] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein (ETP) requis pour obtenir ces résultats.</p>
+        <p>Le tableau [indiquer le numéro approprié] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
         <table id="tbl2" class="table table-bordered table-condensed">
             <thead>
               <tr class="active">
@@ -249,7 +249,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
               </tr>
               <tr>
-              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">ETP</div></th>
+              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div></th>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
               <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
               </tr>
@@ -322,7 +322,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <h4 id="toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</h4>
  </section>
  <h5>Tableau [indiquer le numéro approprié] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
-<p>Le tableau [indiquer le numéro approprié] fournit un résumé des dépenses prévues et réelles et des ETP requis pour obtenir ces résultats.</p>
+<p>Le tableau [indiquer le numéro approprié] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
 <table id="tbl3" class="table table-bordered table-condensed">
       <thead>
             <tr class="active">
@@ -786,16 +786,16 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <p>Cette section présente une vue d’ensemble des ressources humaines réelles et prévues du ministère de [insérer exercice financier] à [insérer exercice financier].</p>
 <section>
   <h4>Tableau [indiquer le numéro approprié] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein (ETP), qui sont associés aux responsabilités essentielles et aux services internes de [insérer l'acronyme du ministère] pour les 3 derniers exercices.</p>
+  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein, qui sont associés aux responsabilités essentielles et aux services internes de [insérer l'acronyme du ministère] pour les 3 derniers exercices.</p>
 
   <div class="table-responsive">
     <table id="tbl9" class="table table-bordered table-condensed">
       <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">ETP réels [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">ETP réels [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">ETP réels [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
           </tr>
         </thead>
       <tbody>
@@ -839,15 +839,15 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
   <section>
    <h4>Tableau [indiquer le numéro approprié] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-    <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en ETP, pour les responsabilités essentielles et les services internes de [insérer l'acronyme du ministère] prévus pour les 3 prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice en cours.</p>
+    <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en équivalents temps plein, pour les responsabilités essentielles et les services internes de [insérer l'acronyme du ministère] prévus pour les 3 prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice en cours.</p>
 <div class="table-responsive">
   <table id="tbl10" class="table table-bordered table-condensed">
     <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">ETP réels [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">ETP réels [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">ETP réels [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
           </tr>
         </thead>
       <tbody>
@@ -952,7 +952,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <dd>Dépenses approuvées annuellement par le  Parlement au moyen d&rsquo;une loi de crédits. Le libellé de chaque crédit énonce les  conditions selon lesquelles les dépenses peuvent être effectuées.</dd>
   <dt>entreprise autochtone <span lang="en">(Indigenous business) </span></dt>
   <dd>Organisation qui, aux fins de l&rsquo;Annexe&nbsp;E&nbsp;–  Procédures obligatoires pour les marchés attribués aux entreprises autochtones  de la Directive sur la gestion de l&rsquo;approvisionnement ainsi que de l&rsquo;engagement  du gouvernement du Canada d&rsquo;attribuer obligatoirement au moins&nbsp;5&nbsp;% de  la valeur totale des marchés à des entreprises autochtones, correspond à la  définition et aux exigences définies dans le <a href="https://services.sac-isc.gc.ca/REA-IBD">Répertoire des entreprises autochtones</a>.</dd>
-  <dt>équivalent temps plein (ETP) <span lang="en">(full‑time equivalent [FTE]) </span></dt>
+  <dt>équivalent temps plein <span lang="en">(full‑time equivalent [FTE]) </span></dt>
   <dd>Mesure utilisée pour représenter une année‑personne  complète d&rsquo;un employé dans le budget ministériel. Pour un poste donné, le  nombre d&rsquo;équivalents temps plein représente le rapport entre le nombre d&rsquo;heures  travaillées par une personne, divisé par le nombre d&rsquo;heures normales prévues  dans sa convention collective.</dd>
   <dt>indicateur de rendement <span lang="en">(performance indicator) </span></dt>
   <dd>Moyen qualitatif ou quantitatif de mesurer  un extrant ou un résultat en vue de déterminer le rendement d&rsquo;un ministère, d&rsquo;un  programme, d&rsquo;une politique ou d&rsquo;une initiative par rapport aux résultats  attendus.</dd>
