@@ -673,7 +673,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  </section>
  <section>
   <h3 id="toc03-3">Financial statement highlights</h3>
-  <p>[Department&rsquo;s acronym]&rsquo;s <a href="#">complete financial  statements</a> [link to department&rsquo;s financial  statement] (unaudited or audited) for the year ended [insert date] are available online.  </p>
+  <p>[Department&rsquo;s acronym]&rsquo;s complete financial  statements [link to department&rsquo;s financial  statement] (unaudited or audited) for the year ended [insert date] are available online.  </p>
 <section><h4>Table [#]: Condensed Statement of Operations (unaudited) for the year ended [insert date] (dollars)</h4>
 <p>Table [#] summarizes the expenses and revenues which net to the cost of operations before government funding and transfers between [insert fiscal year] and [insert fiscal year]</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
@@ -737,7 +737,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
       </tr>
   </tbody>
 </table></div>
-  <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s <a href="#">Future-Oriented  Statement of Operations and Notes [fiscal year]</a> [link to Department's FOSO].</p>
+  <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s Future-Oriented  Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
 </section>
 <section><h4>Table [#] Condensed Statement of Financial Position (unaudited) as of [insert date] (dollars)</h4>
 <p>Table [#] provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</p>
@@ -918,12 +918,12 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 </section>
 <section>
  <h2 id="toc05">Supplementary information tables</h2>
- <p>The following supplementary information tables are available on <a href="#">[Department&#8217;s name]&#8217;s website:</a></p>
+ <p>The following supplementary information tables are available on [Department&#8217;s name]&#8217;s website:</p>
  <ul>
-  <li><a href="#">Details on transfer payment programs</a></li>
-  <li><a href="#">Gender-based analysis plus</a></li>
-  <li><a href="#">Response to Parliamentary committees and external audits</a></li>
-  <li><a href="#">United Nations 2030 Agenda and the Sustainable Development Goals</a></li>
+  <li>Details on transfer payment programs</li>
+  <li>Gender-based analysis plus</li>
+  <li>Response to Parliamentary committees and external audits</li>
+  <li>United Nations 2030 Agenda and the Sustainable Development Goals</li>
  </ul>
 </section>
 <section>

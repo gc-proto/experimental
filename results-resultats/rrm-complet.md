@@ -6,7 +6,7 @@ breadcrumbs:
 dateModified: 2024-05-03
 language: fr
 layout: default
-title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organisation]"
+title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom de l’organisation]"
 ---
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
@@ -541,7 +541,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 </section>
   
  <section>
-  <h5 class="h4">Tableau [indiquer le numéro approprié] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars)</h5>
+  <h5 class="h4">Tableau [indiquer le numéro approprié] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars)(*facultatif)</h5>
   
   <p>Le tableau suivant rapproche les dépenses brutes prévues et les dépenses nettes pour [insérer l’exercice].</p>
   <div class="table-responsive">
@@ -916,10 +916,10 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
  <h2 id="toc05">Tableaux de renseignements supplémentaires</h2>
  <p>Les tableaux de renseignements  supplémentaires ci-dessous sont accessibles sur le site Web du [nom de l&rsquo;organisation]&nbsp;:</p>
  <ul>
-   <li><a href="#">Renseignements  sur les programmes de paiements de transfert</a></li>
-   <li><a href="#">Analyse  comparative entre les sexes Plus</a></li>
-   <li><a href="#">Réponse  aux comités parlementaires et aux audits externes</a></li>
-   <li><a href="#">Programme  à l&rsquo;horizon 2030 et Objectifs de développement durable des Nations&nbsp;Unies</a></li>
+   <li>Renseignements  sur les programmes de paiements de transfert</li>
+   <li>Analyse  comparative entre les sexes Plus</li>
+   <li>Réponse  aux comités parlementaires et aux audits externes</li>
+   <li>Programme  à l&rsquo;horizon 2030 et Objectifs de développement durable des Nations&nbsp;Unies</li>
  </ul>
 </section>
 <section>
@@ -967,7 +967,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <dt>priorité ministérielle <span lang="en">(departmental priority) </span></dt>
   <dd>Plan ou projet qu&rsquo;un ministère a  choisi de réaliser et dont il rendra compte au cours de la période de  planification. Il s&rsquo;agit de ce qui importe le plus ou qui doit être réalisé en  premier pour obtenir les résultats ministériels attendus. </dd>
   <dt>priorités pangouvernementales <span lang="en">(government-wide priorities) </span></dt>
-  <dd>Aux fins du  Rapport sur les résultats ministériels&nbsp;2022‑2023, les priorités  pangouvernementales correspondent aux thèmes de haut niveau qui décrivent le  programme du gouvernement dans le <a href="https://www.canada.ca/fr/conseil-prive/campagnes/discours-trone/2021/discours-du-trone.html">discours du Trône du&nbsp;23&nbsp;novembre&nbsp;2021</a>&nbsp;:  bâtir un présent et un avenir plus sains, faire croître la croissance d&rsquo;une  économie plus résiliente, mener une action climatique audacieuse, travailler  plus fort pour rendre les collectivités sécuritaires, défendre la diversité et  l&rsquo;inclusion, avancer plus rapidement sur la voie de la réconciliation et lutter  pour un monde plus sûr, plus juste et plus équitable. </dd>
+  <dd>Aux fins du  Rapport sur les résultats ministériels&nbsp; [insérer l’exercice], les priorités  pangouvernementales correspondent aux thèmes de haut niveau qui décrivent le  programme du gouvernement dans le <a href="https://www.canada.ca/fr/conseil-prive/campagnes/discours-trone/2021/discours-du-trone.html">discours du Trône du&nbsp;23&nbsp;novembre&nbsp;2021</a>&nbsp;:  bâtir un présent et un avenir plus sains, faire croître la croissance d&rsquo;une  économie plus résiliente, mener une action climatique audacieuse, travailler  plus fort pour rendre les collectivités sécuritaires, défendre la diversité et  l&rsquo;inclusion, avancer plus rapidement sur la voie de la réconciliation et lutter  pour un monde plus sûr, plus juste et plus équitable. </dd>
   <dt>programme <span lang="en">(program) </span></dt>
   <dd>Services et activités, pris séparément ou  en groupe, ou une combinaison des deux, qui sont gérés ensemble au sein d&rsquo;un  ministère et qui portent sur un ensemble déterminé d&rsquo;extrants, de résultats ou  de niveaux de service.</dd>
   <dt>rapport sur les résultats ministériels <span lang="en">(Departmental Results Report) </span></dt>

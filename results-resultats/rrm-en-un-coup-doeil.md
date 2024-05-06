@@ -6,13 +6,13 @@ breadcrumbs:
 dateModified: 2024-05-02
 language: fr
 layout: default
-title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l’organisation ministère] pour 2023 2024 en un coup d’œil"
+title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l’organisation ministère] pour [insérer l’exercice] en un coup d’œil"
 ---
 
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
     <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
-  <p>Un rapport sur les résultats ministériels  fournit un compte rendu des réalisations réelles par rapport aux plans, aux  priorités et aux résultats attendus énoncés dans le <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html">plan ministériel</a> connexe&nbsp;[hyperlien menant vers le plan ministériel de&nbsp;2023‑2024].</p>
+  <p>Un rapport sur les résultats ministériels  fournit un compte rendu des réalisations réelles par rapport aux plans, aux  priorités et aux résultats attendus énoncés dans le <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html">plan ministériel</a> connexe&nbsp;[hyperlien menant vers le plan ministériel].</p>
 <ul>
   <li><a href="#">Vision,  mission, raison d&rsquo;être et contexte opérationnel</a></li>
   <li><a href="#">Lettre  de mandat du/de la ministre</a></li>
@@ -26,7 +26,7 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
   <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
     <h2>Principales priorités</h2>
-    <p>Les principales priorités de [nom du ministère] pour 2023 2024 sont les suivantes :</p>
+    <p>Les principales priorités de [nom du ministère] pour [insérer l’exercice] sont les suivantes :</p>
     <ul>
       <li>élément&nbsp;1 de la liste à puces; </li>
       <li>élément&nbsp;2 de la liste à puces; </li>
