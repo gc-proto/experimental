@@ -132,9 +132,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
-          <li>[exercice] : [Insérer les chiffres]</li>
-          <li>[exercice] : [Insérer les chiffres]</li>
-          <li>[exercice] : [Insérer les chiffres]</li>
+          <li>[Exercice] : [insérer les chiffres]</li>
+          <li>[Exercice] : [insérer les chiffres]</li>
+          <li>[Exercice] : [insérer les chiffres]</li>
           </ul>
         </div></td>
       </tr>
@@ -144,9 +144,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
-          <li>[exercice] : [Insérer les chiffres]</li>
-          <li>[exercice] : [Insérer les chiffres]</li>
-          <li>[exercice] : [Insérer les chiffres]</li>
+          <li>[Exercice] : [insérer les chiffres]</li>
+          <li>[Exercice] : [insérer les chiffres]</li>
+          <li>[Exercice] : [insérer les chiffres]</li>
           </ul>  
   </div></td>
       </tr>
@@ -171,9 +171,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
-      <li>[Exercice] : [Insérer les chiffres]</li>
-      <li>[Exercice] : [Insérer les chiffres]</li>
-      <li>[Exercice] : [Insérer les chiffres]</li>
+      <li>[Exercice] : [insérer les chiffres]</li>
+      <li>[Exercice] : [insérer les chiffres]</li>
+      <li>[Exercice] : [insérer les chiffres]</li>
     </ul>
   </div></td>
   </tr>
@@ -183,9 +183,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
-      <li>[Exercice] : [Insérer les chiffres]</li>
-      <li>[Exercice] : [Insérer les chiffres]</li>
-      <li>[Exercice] : [Insérer les chiffres]</li>
+      <li>[Exercice] : [insérer les chiffres]</li>
+      <li>[Exercice] : [insérer les chiffres]</li>
+      <li>[Exercice] : [insérer les chiffres]</li>
     </ul>  
 </div></td>
   </tr>
