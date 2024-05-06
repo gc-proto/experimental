@@ -487,9 +487,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
  <section>
-  </section><section><h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses prévues au cours des 3 prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
+  </section><section><h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
   
-<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent que [insérer l'acronyme du ministère] prévoit dépenser au cours des 3 prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent que [insérer l'acronyme du ministère] prévoit dépenser au cours des trois prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <div class="table-responsive">
   <table id="tbl5" class="table table-bordered table-condensed">
     <thead>
