@@ -18,9 +18,9 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 <li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif)</li>
 <li><a href="#toc02">Résultats obtenus relativement aux responsabilités essentielles et aux services internes</a> 
 <ul>
-<li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle.]</a></li>
-<li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle.]</a></li>
-<li><a href="#toc02-3">Responsabilité essentielle 3&#160;: [Inscrire le nom de la responsabilité essentielle.]</a></li>
+<li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle].</a></li>
+<li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle].</a></li>
+<li><a href="#toc02-3">Responsabilité essentielle 3&#160;: [Inscrire le nom de la responsabilité essentielle].</a></li>
 <li><a href="#toc02-4">Services internes</a></li>
 </ul>
 </li>
@@ -81,15 +81,15 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 <section>
  <h3>Responsabilités essentielles et services internes</h3>
  <ul>
-<li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle.]</a></li>
-<li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité essentielle.]</a></li>
-<li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité essentielle.]</a></li>
+<li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+<li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+<li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité essentielle].</a></li>
  <li><a href="#toc02-4">Services internes</a></li>
  </ul>
 </section>
- <p class="mrgn-tp-lg">[Reproduire ces sections pour chaque responsabilité essentielle.]</p>
+ <p class="mrgn-tp-lg">[Reproduire ces sections pour chaque responsabilité essentielle].</p>
  <section>
- <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle.]</h3>
+ <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
  <ul class="list-unstyled">
   <li>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -129,7 +129,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date : aaaa-mm-jj]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
           <li>[Exercice] : [Insérer les chiffres]</li>
@@ -141,7 +141,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date : aaaa-mm-jj]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
           <li>[Exercice] : [Insérer les chiffres]</li>
@@ -168,7 +168,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
  <tr>
   <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date : aaaa-mm-jj]</div></td>
+  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
       <li>[Exercice] : [Insérer les chiffres]</li>
@@ -180,7 +180,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
  <tr>
   <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date : aaaa-mm-jj]</div></td>
+  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
       <li>[Exercice] : [Insérer les chiffres]</li>
@@ -543,7 +543,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
  <section>
   <h5 class="h4">Tableau [indiquer le numéro approprié] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars)</h5>
   
-  <p>Le tableau suivant rapproche les dépenses brutes prévues et les dépenses nettes pour [insérer l’exercice ].</p>
+  <p>Le tableau suivant rapproche les dépenses brutes prévues et les dépenses nettes pour [insérer l’exercice].</p>
   <div class="table-responsive">
    <table id="tbl6" class="table table-bordered table-condensed">
    <caption class="text-left"></caption>
@@ -609,7 +609,6 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
-    
      <div class="table-responsive">
          <table class="table table-bordered table-condensed">
           <thead>
@@ -667,7 +666,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
     </details>
 </figure></section>
   
-  <p>Pour en savoir plus sur les dépenses votées et législatives de [acronyme du ministère],  consulter les <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html">Comptes publics du Canada</a>.</p>
+  <p>Pour en savoir plus sur les dépenses votées et législatives de [acronyme du ministère], consulter les <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html">Comptes publics du Canada</a>.</p>
 </section>
  <section>
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
@@ -735,7 +734,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
       </tr>
   </tbody>
 </table></div>
-  <p>Les  informations sur les résultats prévus pour [insérer l&rsquo;exercice financier] sont  fournies dans le document État des résultats prospectifs et notes de [exercice]  de [acronyme de l&rsquo;organisation] [lien vers l&rsquo;état des résultats prospectifs et  des notes de l&rsquo;organisation]. </p>
+  <p>Les  informations sur les résultats prévus pour [insérer l&rsquo;exercice financier] sont fournies dans le document État des résultats prospectifs et notes de [exercice] de [acronyme de l&rsquo;organisation] [lien vers l&rsquo;état des résultats prospectifs et  des notes de l&rsquo;organisation]. </p>
 </section>
 <section><h4>Tableau [numéro] État condensé de la situation financière (non audité) au [insérer la date] (en dollars)</h4>
 <p>Le tableau [indiquer le numéro approprié] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), qui permettent de déterminer la capacité de celui-ci à mettre en œuvre des programmes et des services.</p>
