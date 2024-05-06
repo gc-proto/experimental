@@ -481,13 +481,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des 3 dernières années</summary>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois dernières années</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
   <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
  <section>
-  </section><section><h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses prévues au cours des 3 prochains exercices pour les responsabilités essentielles et les services internes </h5>
+  </section><section><h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses prévues au cours des 3 prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
   
 <p>Le tableau [indiquer le numéro approprié] indique la somme d’argent que [insérer l'acronyme du ministère] prévoit dépenser au cours des 3 prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <div class="table-responsive">
@@ -535,7 +535,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </table>
 </div>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses pour les 3 prochaines années</summary>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses pour les trois prochaines années</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
@@ -544,14 +544,14 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <section>
   <h5 class="h4">Tableau [indiquer le numéro approprié] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars)(*facultatif)</h5>
   
-  <p>Le tableau suivant rapproche les dépenses brutes prévues et les dépenses nettes pour [insérer l’exercice].</p>
+  <p>Le tableau [indiquer le numéro approprié] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</p>
   <div class="table-responsive">
    <table id="tbl6" class="table table-bordered table-condensed">
    <caption class="text-left"></caption>
    <thead>
     <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses brutes réelles [exercice budgétaire]</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses brutes réelles [exercice]</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Recettes réelles déduites des dépenses [exercice]</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses nettes réelles [exercice] (autorisations utilisées)</div></th>
     </tr>
@@ -591,7 +591,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
    </table>
   </div>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse de la synthèse des dépenses budgétaires réelles brutes et nettes prévues</summary>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues</summary>
   <p>[Insérez un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
   </details>
     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
