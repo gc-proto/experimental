@@ -16,7 +16,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 <ul>
 <li><a href="#toc01">From the Minister</a></li>
 <li><a href="#toc01b">From the Institutional Head</a> (*optional)</li>
-<li><a href="#toc02">Results achieved for core responsibilities and internal services</a> 
+<li><a href="#toc02">Results - what we achieved</a> 
 <ul>
 <li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
 <li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
@@ -77,7 +77,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <p>[Message from the Institutional head, don't include a signature in the web version]</p><div class="clearfix"></div>
 </section>
 <section>
- <h2 id="toc02">Results achieved for core responsibilities and internal services</h2>
+ <h2 id="toc02">Results - what we achieved</h2>
 <section>
  <h3>Core responsibilities and internal services</h3>
  <ul>
@@ -192,7 +192,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  </tbody>
 </table>
 </div>
-<p>Additional information on the <a href="#">results and performance</a> [hyperlink  to Results page on Department&rsquo;s GC InfoBase page] for the [Department acronym]'s program inventory is available on  GC InfoBase.  </p>
+<p>Additional information on the <a href="#">results and performance</a> [Hyperlink to the related information on GC Infobase] for the [Department acronym]'s program inventory is available on  GC InfoBase.  </p>
 </section>
 </section>
  <section>
@@ -251,7 +251,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>The <a href="#">complete  financial and human resources information</a> [hyperlink to the program inventory  on GC InfoBase] for the [Department acronym]'s program inventory is available on GC InfoBase.</p></section>
+        <p>The <a href="#">complete  financial and human resources information</a> [Hyperlink to the related information on GC Infobase] for the [Department acronym]'s program inventory is available on GC InfoBase.</p></section>
       </section>
  <section>
   <h4 id="toc02-1-5">Related government priorities</h4>
@@ -277,7 +277,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <li>[Insert bulleted list item 2]</li>
     <li>[Insert bulleted list item 3]</li>
   </ul>
-  <p>Additional  information related to the <a href="#">program  inventory </a>for [insert name of core responsibility] is available on GC InfoBase [hyperlink to Results section on  Department&rsquo;s GC InfoBase page].</p>
+  <p>Additional  information related to the <a href="#">program  inventory </a>for [insert name of core responsibility] is available on GC InfoBase [Hyperlink to the related information on GC Infobase].</p>
 </section>
  </section>
     </section>
@@ -341,7 +341,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>The <a href="#">complete  financial and human resources information</a> [hyperlink to the program inventory  on GC InfoBase] for the [Department acronym]'s program inventory is available on GC InfoBase.</p>
+        <p>The <a href="#">complete  financial and human resources information</a> [Hyperlink to the related information on GC Infobase] for the [Department acronym]'s program inventory is available on GC InfoBase.</p>
 </section>
  </section>
  </section>
@@ -365,6 +365,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <h3 id="toc03-1">Spending</h3>
  <p>This section presents an overview of the department's actual and planned expenditures from [insert fiscal year] to [insert fiscal year]. </p>
 <section>
+ <p>[If your department is completing the Actual spending by core responsibility graph, add the text and follow the instructions below. if not delete this text.]</p>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graph [#]: Actual spending by core responsibility in [insert fiscal year] (*optional)</strong></figcaption>
    <p>Graph [#] presents how much the Department spent in [insert fiscal year] to carry out core responsibilities and  internal services.</p>
@@ -484,7 +485,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of past three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-  <p>More <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available in the Finances section of GC InfoBase [hyperlink to  Finances section on Department&rsquo;s GC InfoBase page].  </p>
+  <p>More <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available in the Finances section of GC InfoBase [Hyperlink to the related information on GC Infobase].</p>
  </section>
  <section>
   <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h5>
@@ -538,7 +539,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of the next three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-    <p>More detailed <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available on Finances section of GC InfoBase [hyperlink to  Finances section on Department&rsquo;s GC InfoBase page].</p>
+    <p>More detailed <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available on Finances section of GC InfoBase [Hyperlink to the related information on GC Infobase].</p>
  </section>
   
  <section>
@@ -594,7 +595,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of budgetary actual gross and net planned spending summary</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-    <p>Information on the <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">alignment of [Department acronym]’s spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [hyperlink to  Finances section on Departmentn&rsquo;s GC InfoBase page].  </p>
+    <p>Information on the <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">alignment of [Department acronym]’s spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [Hyperlink to the related information on GC Infobase].  </p>
  </section>
 </section>
  </section>
@@ -679,10 +680,8 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] actual results minus<br>[fiscal year] planned results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] actual results minus<br>[fiscal year] actual results</div></th>
       </tr>
     </thead>
@@ -693,7 +692,6 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     </tr>
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total revenues</div></th>
@@ -701,11 +699,43 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       </tr>
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Net cost of operations before government funding and transfers</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+      </tr>
+  </tbody>
+</table></div>
+<p>Table [#] summarizes the expenses and revenues which net to the cost of operations before government funding and transfers between [insert fiscal year] and [insert fiscal year]</p>
+<div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
+  <thead>
+    <tr class="active">
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] actual results minus<br>[fiscal year] planned results</div></th>
+      </tr>
+    </thead>
+  <tbody>
+  <tr>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total expenses</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    </tr>
+    <tr>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total revenues</div></th>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+      </tr>
+    <tr>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Net cost of operations before government funding and transfers</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
