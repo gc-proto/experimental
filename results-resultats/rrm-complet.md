@@ -197,7 +197,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 </section>
 <section>
   <h5>Renseignements sur les résultats</h5>
-  <p>La section suivante décrit les résultats de [insérer le nom de la responsabilité principale] au cours de l’exercice [insérer l’exercice] par rapport aux résultats prévus dans le plan ministériel de [insérer le nom du ministère] pour l’année. </p>
+  <p>La section suivante décrit les résultats de [insérer le nom de la responsabilité principale] au cours de l’exercice [insérer l’exercice] par rapport aux résultats prévus dans le plan ministériel de [insérer l'acronyme du ministère] pour l’année.</p>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insérer une courte description du résultat 1]</summary>
       <section>
@@ -211,7 +211,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
       </section>
     </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insérer une courte description du résultat 1]</summary>
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Insérer une courte description du résultat 2]</summary>
       <section>
         <p>[Insérer une courte description du résultat 2]</p>
         <p><strong>Résultats obtenus : </strong></p>
@@ -346,7 +346,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 </table>
         <p>Des <a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</a></p>
 <section>
- <h2 id="toc03">Dépenses et ressources humaines  </h2>
+ <h2 id="toc03">Dépenses et ressources humaines </h2>
 <ul class="list-unstyled">
 <li>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -415,7 +415,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
      <section>
   <h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses réelles de 3 exercices pour les responsabilités essentielles et les services internes </h5>
   
-<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent dépensée par [nom du ministère] au cours des 3 derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes. </p>
+<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent dépensée par [insérer l'acronyme du ministère] au cours des 3 derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <div class="table-responsive">
   <table id="tbl4" class="table table-bordered table-condensed">
     <thead>
@@ -488,7 +488,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
  <section>
   </section><section><h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses prévues au cours des 3 prochains exercices pour les responsabilités essentielles et les services internes </h5>
   
-<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent que [nom du ministère] prévoit dépenser au cours des 3 prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent que [insérer l'acronyme du ministère] prévoit dépenser au cours des 3 prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <div class="table-responsive">
   <table id="tbl5" class="table table-bordered table-condensed">
     <thead>
@@ -666,7 +666,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
     </details>
 </figure></section>
   
-  <p>Pour en savoir plus sur les dépenses votées et législatives de [acronyme du ministère], consulter les <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html">Comptes publics du Canada</a>.</p>
+  <p>Pour en savoir plus sur les dépenses votées et législatives de [insérer l'acronyme du ministère], consulter les <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html">Comptes publics du Canada</a>.</p>
 </section>
  <section>
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
@@ -786,7 +786,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <p>Cette section présente une vue d’ensemble des ressources humaines réelles et prévues du ministère de [insérer exercice financier] à [insérer exercice financier].</p>
 <section>
   <h4>Tableau [indiquer le numéro approprié] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein (ETP), qui sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les 3 derniers exercices.</p>
+  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein (ETP), qui sont associés aux responsabilités essentielles et aux services internes de [insérer l'acronyme du ministère] pour les 3 derniers exercices.</p>
 
   <div class="table-responsive">
     <table id="tbl9" class="table table-bordered table-condensed">
@@ -839,7 +839,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 </section>
   <section>
    <h4>Tableau [indiquer le numéro approprié] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-    <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en ETP, pour les responsabilités essentielles et les services internes de [nom du ministère] prévus pour les 3 prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice en cours.</p>
+    <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en ETP, pour les responsabilités essentielles et les services internes de [insérer l'acronyme du ministère] prévus pour les 3 prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice en cours.</p>
 <div class="table-responsive">
   <table id="tbl10" class="table table-bordered table-condensed">
     <thead>
