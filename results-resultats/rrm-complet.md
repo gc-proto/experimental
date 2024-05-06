@@ -316,7 +316,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  </section>
  <section>
   <h4 id="toc02-4-2">Progrès à l’égard des résultats</h4>
-  <p>[Insérer une description de l’état d’avancement des résultats]</p>
+  <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles en ce qui a trait aux services internes.</p>
  </section>
  <section>
   <h4 id="toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</h4>
