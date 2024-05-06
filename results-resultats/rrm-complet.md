@@ -40,7 +40,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 </section>
 
 <section class="hidden-print">
-<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md" role="button">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
+<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md" role="button">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a></p>
 </section>
 
 <section>
@@ -192,7 +192,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
  </tbody>
 </table>
 </div>
-<p>Des renseignements  supplémentaires sur <a href="#">les  résultats et le rendement</a>[hyperlien menant vers la section Résultats de la page de  l&rsquo;organisation dans l&rsquo;InfoBase du&nbsp;GC] pour le répertoire des programmes de [nom de l&rsquo;organisation] figurent  dans l&rsquo;InfoBase du&nbsp;GC. </p>
+<p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
 </section>
  <section>
@@ -251,7 +251,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
             </tr>
 </tbody>
         </table>
-<p><a href="#">Des renseignements complets sur les ressources financières</a> [hyperlien menant  vers la section Finances de la page de l&rsquo;organisation dans l&rsquo;InfoBase du&nbsp;GC]  et les ressources humaines [hyperlien menant vers la section Personnel de la page de  l&rsquo;organisation dans l&rsquo;InfoBase du&nbsp;GC] en ce qui concerne le répertoire des programmes de [nom du ministère] se trouvent dans l&rsquo;InfoBase du&nbsp;GC. </p>
+<p><a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
   </section>
       </section>
  <section>
@@ -277,7 +277,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
     <li>[Insérer le point 1&nbsp;de la  liste à puces]</li>
     <li>[Insérer le point 2&nbsp;de la  liste à puces]</li>
     <li>[Insérer le point 3&nbsp;de la  liste à puces]</li></ul>
-  <p>Des renseignements supplémentaires sur le <a href="#">répertoire des programmes</a> pour  [inscrire le nom de la  responsabilité essentielle] se trouvent dans l&rsquo;<a href="#">InfoBase du GC</a> [hyperlien  menant vers la section Résultats de la page de l&rsquo;organisation dans l&rsquo;InfoBase  du&nbsp;GC].</p>
+  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
  </section>
     </section>
@@ -341,7 +341,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
             </tr>
 </tbody>
         </table>
-        <p>Des <a href="#">renseignements exhaustifs sur les  ressources financières</a> [hyperlien  menant vers la section Finances de la page du ministère dans l&rsquo;InfoBase du&nbsp;GC] et les ressources humaines [hyperlien menant vers la section  Personnel de la page du ministère dans l&rsquo;InfoBase du&nbsp;GC] en ce qui  concerne le répertoire des programmes de [nom  du ministère] se trouvent dans l&rsquo;InfoBase du&nbsp;GC. </p>
+        <p>Des <a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
         <div>
           <div> </div>
           <div> </div>
@@ -489,7 +489,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des 3 dernières années]</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
-  <p>Des renseignements financiers plus détaillés concernant  les exercices précédents se trouvent dans la section Finances de <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">l&rsquo;InfoBase</a> du&nbsp;GC [hyperlien menant vers la section Finances de la page de  l&rsquo;organisation dans l&rsquo;InfoBase du&nbsp;GC]. </p>
+  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
  <section>
   </section><section><h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses prévues au cours des 3 prochains exercices pour les responsabilités essentielles et les services internes </h5>
@@ -543,7 +543,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses pour les 3 prochaines années</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
-    <p>Des renseignements financiers plus détaillés des  exercices précédents se trouvent dans la section Finances de <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">l&rsquo;InfoBase</a> du&nbsp;GC [hyperlien menant vers la section Finances de la page de  l&rsquo;organisation dans l&rsquo;InfoBase du&nbsp;GC]. </p>
+    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
   
  <section>
@@ -599,7 +599,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse de la synthèse des dépenses budgétaires réelles brutes et nettes prévues</summary>
   <p>[Insérez un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
   </details>
-    <p>Des renseignements sur l&rsquo;harmonisation  des dépenses de [nom du ministère] avec les dépenses et les  activités du gouvernement du Canada figurent dans <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">l&rsquo;InfoBase</a> du&nbsp;GC [hyperlien menant vers la section  Finances dans l&rsquo;InfoBase du&nbsp;GC].</p>
+    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
 </section>
  </section>
