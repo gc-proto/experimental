@@ -661,7 +661,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </table></div>
     </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses législatives et votées sur une période de 6 ans</summary>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses législatives et votées sur une période de six ans</summary>
     
     <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
     </details>
