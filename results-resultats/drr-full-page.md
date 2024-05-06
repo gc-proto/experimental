@@ -192,7 +192,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  </tbody>
 </table>
 </div>
-<p>Additional information on the <a href="#">results and performance</a> [Hyperlink to the related information on GC Infobase] for the [Department acronym]'s program inventory is available on  GC InfoBase.  </p>
+<p>[Hyperlink to the related information on GC Infobase]</p>
 </section>
 </section>
  <section>
@@ -251,7 +251,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>The <a href="#">complete  financial and human resources information</a> [Hyperlink to the related information on GC Infobase] for the [Department acronym]'s program inventory is available on GC InfoBase.</p></section>
+        <p>[Hyperlink to the related information on GC Infobase]</p></section>
       </section>
  <section>
   <h4 id="toc02-1-5">Related government priorities</h4>
@@ -277,7 +277,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     <li>[Insert bulleted list item 2]</li>
     <li>[Insert bulleted list item 3]</li>
   </ul>
-  <p>Additional  information related to the <a href="#">program  inventory </a>for [insert name of core responsibility] is available on GC InfoBase [Hyperlink to the related information on GC Infobase].</p>
+  <p>[Hyperlink to the related information on GC Infobase]</p>
 </section>
  </section>
     </section>
@@ -341,7 +341,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
-        <p>The <a href="#">complete  financial and human resources information</a> [Hyperlink to the related information on GC Infobase] for the [Department acronym]'s program inventory is available on GC InfoBase.</p>
+        <p>[Hyperlink to the related information on GC Infobase]</p>
 </section>
  </section>
  </section>
@@ -365,7 +365,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <h3 id="toc03-1">Spending</h3>
  <p>This section presents an overview of the department's actual and planned expenditures from [insert fiscal year] to [insert fiscal year]. </p>
 <section>
- <p>[If your department is completing the Actual spending by core responsibility graph, add the text and follow the instructions below. If not delete this text.]</p>
+ <p>[If your department is completing the Actual spending by core responsibility graph, add the text and follow the instructions below. If not, delete this text.]</p>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graph [#]: Actual spending by core responsibility in [insert fiscal year] (*optional)</strong></figcaption>
    <p>Graph [#] presents how much the Department spent in [insert fiscal year] to carry out core responsibilities and  internal services.</p>
@@ -485,7 +485,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of past three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-  <p>More <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available in the Finances section of GC InfoBase [Hyperlink to the related information on GC Infobase].</p>
+  <p>[Hyperlink to the related information on GC Infobase]</p>
  </section>
  <section>
   <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h5>
@@ -539,7 +539,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of the next three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-    <p>More detailed <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">financial information from previous years</a> is available on Finances section of GC InfoBase [Hyperlink to the related information on GC Infobase].</p>
+    <p>[Hyperlink to the related information on GC Infobase]</p>
  </section>
   
  <section>
@@ -595,7 +595,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of budgetary actual gross and net planned spending summary</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
-    <p>Information on the <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-eng.html#start">alignment of [Department acronym]’s spending with Government of Canada’s spending and activities</a> is available on GC InfoBase [Hyperlink to the related information on GC Infobase].  </p>
+    <p>[Hyperlink to the related information on GC Infobase]</p>
  </section>
 </section>
  </section>

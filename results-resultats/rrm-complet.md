@@ -16,7 +16,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
 <ul>
 <li><a href="#toc01">Message du/de la ministre</a></li>
 <li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif)</li>
-<li><a href="#toc02">Résultats obtenus relativement aux responsabilités essentielles et aux services internes</a> 
+<li><a href="#toc02">Résultats : Nos réalisations</a> 
 <ul>
 <li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle].</a></li>
 <li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle].</a></li>
@@ -77,7 +77,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
  <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p><div class="clearfix"></div>
 </section>
 <section>
- <h2 id="toc02">Résultats obtenus relativement aux responsabilités essentielles et aux services internes</h2>
+ <h2 id="toc02">Résultats : Nos réalisations</h2>
 <section>
  <h3>Responsabilités essentielles et services internes</h3>
  <ul>
@@ -192,7 +192,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
  </tbody>
 </table>
 </div>
-<p><a href="">[Hyperlien vers des informations connexes dans l'infoBase du GC]</a></p>
+<p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
 </section>
 <section>
@@ -255,7 +255,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
               </tr>
             </tbody>
         </table>
-      <p><a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</a></p>
+      <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
   </section>
 </section>
 <section>
@@ -281,7 +281,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
     <li>[Insérer le point 1&nbsp;de la  liste à puces]</li>
     <li>[Insérer le point 2&nbsp;de la  liste à puces]</li>
     <li>[Insérer le point 3&nbsp;de la  liste à puces]</li></ul>
-  <p><a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</a></p>
+  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
  <section>
  <h3 id="toc02-4">Services internes</h3>
@@ -344,7 +344,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
             </tr>
       </tbody>
 </table>
-        <p>Des <a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</a></p>
+        <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 <section>
  <h2 id="toc03">Dépenses et ressources humaines </h2>
 <ul class="list-unstyled">
@@ -483,7 +483,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des 3 dernières années]</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
-  <p><a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</a></p>
+  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
  <section>
   </section><section><h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses prévues au cours des 3 prochains exercices pour les responsabilités essentielles et les services internes </h5>
@@ -537,7 +537,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses pour les 3 prochaines années</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
-    <p><a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</a></p>
+    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
   
  <section>
@@ -593,7 +593,7 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse de la synthèse des dépenses budgétaires réelles brutes et nettes prévues</summary>
   <p>[Insérez un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
   </details>
-    <p><a href="#">[Hyperlien vers des informations connexes dans l'infoBase du GC]</a></p>
+    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
 </section>
 </section>
  </section>
