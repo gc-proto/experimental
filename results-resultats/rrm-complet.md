@@ -684,11 +684,9 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats prévus [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence entre les résultats réels de <br>[insérer l’exercice financier] et <br>les résultats prévus de [insérer l’exercice financier]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence entre les résultats réels de <br>[insérer l’exercice financier] et <br>les résultats prévus de [insérer l’exercice financier]</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence entre les résultats réels de <br>[insérer l’exercice financier] et <br>les résultats réels de [insérer l’exercice financier]</div></th>
       </tr>
     </thead>
   <tbody>
@@ -697,21 +695,46 @@ title: "Rapport sur les résultats ministériels 2023 2024 de [nom de l’organi
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     </tr>
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Recettes totales</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       </tr>
     <tr>
       <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Coût de fonctionnement net avant le financement du gouvernement et les transferts</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+      </tr>
+  </tbody>
+</table></div>
+<p>Le tableau [indiquer le numéro approprié] résume les recettes et les dépenses de l’organisation au cours du dernier exercice terminé.</p>
+<div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
+  <thead>
+    <tr class="active">
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats prévus [exercice]</div></th>
+     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence entre les résultats réels de <br>[insérer l’exercice financier] et <br>les résultats prévus de [insérer l’exercice financier]</div></th>
+      </tr>
+    </thead>
+  <tbody>
+  <tr>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses totales</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+    </tr>
+    <tr>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Recettes totales</div></th>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+      </tr>
+    <tr>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Coût de fonctionnement net avant le financement du gouvernement et les transferts</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
