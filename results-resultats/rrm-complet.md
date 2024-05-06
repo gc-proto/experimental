@@ -111,7 +111,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
 <section>
   <h4 id="toc02-1-2">Progrès à l’égard des résultats</h4>
-  <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les objectifs relativement à [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel.</p>
+  <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles relativement à [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. </p>
 <section><h5>Tableau [indiquer le numéro approprié] : Cibles et résultats relativement à [inscrire le nom de la responsabilité essentielle]</h5>
  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
 <div class="table-responsive">
