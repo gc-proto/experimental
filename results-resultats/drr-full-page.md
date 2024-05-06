@@ -365,7 +365,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <h3 id="toc03-1">Spending</h3>
  <p>This section presents an overview of the department's actual and planned expenditures from [insert fiscal year] to [insert fiscal year]. </p>
 <section>
- <p>[If your department is completing the Actual spending by core responsibility graph, add the text and follow the instructions below. if not delete this text.]</p>
+ <p>[If your department is completing the Actual spending by core responsibility graph, add the text and follow the instructions below. If not delete this text.]</p>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graph [#]: Actual spending by core responsibility in [insert fiscal year] (*optional)</strong></figcaption>
    <p>Graph [#] presents how much the Department spent in [insert fiscal year] to carry out core responsibilities and  internal services.</p>
