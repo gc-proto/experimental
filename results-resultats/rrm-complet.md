@@ -238,8 +238,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             <thead>
               <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div></th>
-              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues/prévus</div></th>
-              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles/prévus</div></th>
+              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div></th>
+              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles</div></th>
             </tr>
             </thead>
             <tbody>
@@ -672,8 +672,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <section>
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
   <p>Les états financiers complets de/du/de la/d&rsquo;  [acronyme du ministère]  [lien vers les états financiers du ministère] (audités ou non) pour l&rsquo;exercice terminé  le [insérer la date], sont disponibles en ligne. </p>
-<section><h4>Tableau [numéro] État condensé des résultats d’exploitation (non audité) pour l’exercice terminé le [insérer la date] (en dollars)</h4>
-<p>Le tableau [numéro] résume les charges et les revenus pour [exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
+<section><h4>Tableau [insérer le numéro] : État condensé des résultats (audité ou non) terminé [insérer la date] (en dollars) </h4>
+<p>Le tableau [indiquer le numéro approprié] résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
