@@ -56,8 +56,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <figure> 
   <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>The Honourable [Name of Minister]</strong></p>
-  <p>[Job title]</p> 
+  <p class="mrgn-bttm-0"><strong>L’honorable [Nom du Ministre]</strong></p>
+  <p>[titre du poste]</p> 
   </figcaption> 
  </figure> 
  </div>
@@ -69,8 +69,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>The Honourable [Institutional Head name]</strong></p>
-  <p>[Job title]</p> 
+  <p class="mrgn-bttm-0"><strong>L’honorable [Institutional Head name]</strong></p>
+  <p>[titre du poste]</p> 
   </figcaption> 
  </figure> 
  </div>
@@ -414,9 +414,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <section>
      <h4>Sommaire du rendement budgétaire</h4>
      <section>
-  <h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses réelles de 3 exercices pour les responsabilités essentielles et les services internes </h5>
+  <h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses réelles de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
   
-<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent dépensée par [insérer l'acronyme du ministère] au cours des 3 derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent dépensée par [insérer l'acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <div class="table-responsive">
   <table id="tbl4" class="table table-bordered table-condensed">
     <thead>
