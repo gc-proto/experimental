@@ -81,9 +81,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
 <section>
  <h3>Core responsibilities and internal services</h3>
  <ul>
-<li><a href="#toc02-1">Core responsibility 1: [ core responsibility name]</a></li>
-<li><a href="#toc02-2">Core responsibility 2: [ core responsibility name]</a></li>
-<li><a href="#toc02-3">Core responsibility 3: [ core responsibility name]</a></li>
+<li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
+<li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
+<li><a href="#toc02-3">Core responsibility 3: [insert core responsibility name]</a></li>
  <li><a href="#toc02-4">Internal services</a></li>
  </ul>
 </section>
@@ -122,7 +122,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Target</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date  to achieve target</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual Results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual results</div></th>
       </tr>
     </thead>
   <tbody>
@@ -161,7 +161,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Target</div></th>
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date  to achieve target</div></th>
-  <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual Results</div></th>
+  <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual results</div></th>
   </tr>
  </thead>
  <tbody>
@@ -365,13 +365,12 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <h3 id="toc03-1">Spending</h3>
  <p>This section presents an overview of the department's actual and planned expenditures from [insert fiscal year] to [insert fiscal year]. </p>
 <section>
- <p>[If your department is completing the Actual spending by core responsibility graph, add the text and follow the instructions below. If not, delete this text.]</p>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graph [#]: Actual spending by core responsibility in [insert fiscal year] (*optional)</strong></figcaption>
    <p>Graph [#] presents how much the Department spent in [insert fiscal year] to carry out core responsibilities and  internal services.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
+    <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
 
     <div class="table-responsive">
      <table class="table table-bordered table-condensed">
@@ -430,7 +429,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
       </thead>
     <tbody>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core resonsibility 1</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
@@ -442,7 +441,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
         </div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 2</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
@@ -503,13 +502,13 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   </thead>
     <tbody>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 1</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 2</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
@@ -559,13 +558,13 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
    </thead>
    <tbody>
     <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 1</div></th>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     </tr>
     <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 2</div></th>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
@@ -605,12 +604,12 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <h3 id="toc03-2">Funding</h3>
   <p>This section provides an overview of  the department's voted and statutory funding for its core responsibilities and  for internal services. For further information on funding authorities, consult  the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/budgets-expenditures.html">Government  of Canada budgets and expenditures</a>.  </p>
 <section><figure id="fig2">
-  <figcaption class="text-left h4"><strong>Figure [#]: Approved funding (statutory and voted) over a six-year period</strong></figcaption>
-  <p>Figure [#] summarizes the department's approved voted and statutory funding from [insert fiscal year] to [insert fiscal year].</p>
+  <figcaption class="text-left h4"><strong>Graph [#]: Approved funding (statutory and voted) over a six-year period</strong></figcaption>
+  <p>Graph [#] summarizes the department's approved voted and statutory funding from [insert fiscal year] to [insert fiscal year].</p>
   <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
+    <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
     
     <div class="table-responsive">
       <table class="table table-bordered table-condensed">
@@ -804,13 +803,13 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
         </thead>
       <tbody>
         <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 1</div></th>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           </tr>
         <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 2</div></th>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
@@ -856,13 +855,13 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
         </thead>
       <tbody>
         <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 1</div></th>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           </tr>
         <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insert core responsibility name]</div></th>
+          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 2</div></th>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
@@ -920,14 +919,13 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <h2 id="toc05">Supplementary information tables</h2>
  <p>The following supplementary information tables are available on [Department&#8217;s name]&#8217;s website:</p>
  <ul>
-  <li>Details on transfer payment programs</li>
+  <li>Details on transfer payment programs<li>
   <li>Gender-based analysis plus</li>
-  <li>Response to Parliamentary committees and external audits</li>
+  <li>Response to Parliamentary committees and external audits<li>
   <li>Horizontal Initiatives<li>
   <li>Up-front multi-year funding<li>
   <li>United Nations 2030 Agenda and the Sustainable Development Goals</li>
-  </li></li>
- </ul>
+  </ul>
 </section>
 <section>
  <h2 id="toc06">Federal tax expenditures </h2>
