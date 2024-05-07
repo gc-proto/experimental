@@ -920,7 +920,7 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
  <p>The following supplementary information tables are available on [Department&#8217;s name]&#8217;s website:</p>
  <ul>
   <li>Details on transfer payment programs<li>
-  <li>Gender-based analysis plus</li>
+  <li>Gender-based analysis plus<li>
   <li>Response to Parliamentary committees and external audits<li>
   <li>Horizontal Initiatives<li>
   <li>Up-front multi-year funding<li>
@@ -996,5 +996,3 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   </details>
  
 </section>
-  
-</div>
