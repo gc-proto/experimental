@@ -378,7 +378,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
-
      <div class="table-responsive">
      <table class="table table-bordered table-condensed">
      <thead>
