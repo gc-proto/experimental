@@ -56,7 +56,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <figure> 
       <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
       <figcaption class="text-center small"> 
-      <p class="mrgn-bttm-0"><strong>L’honorable [Nom du Ministre]</strong></p>
+      <p class="mrgn-bttm-0"><strong>L’honorable [Nom du/de la Ministre]</strong></p>
       <p>[titre du poste]</p> 
       </figcaption> 
     </figure> 
@@ -301,14 +301,14 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         <li><a href="#toc02-4-1">Description</a></li>
         <li><a href="#toc02-4-2">Progrès à l’égard des résultats</a></li>
         <li><a href="#toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</a></li>
-        <li><a href="#toc02-4-x">[RÉSERVÉ à toute autre priorité gouvernementale]</a></li>
+        <li>[RÉSERVÉ à toute autre priorité gouvernementale]</li>
         </ul>
     </details>
   </li>
  </ul>
 <section>
   <h4 id="toc02-4-1">Description</h4>
-  <p>Les services internes sont les services fournis  au sein d&rsquo;un ministère afin qu&rsquo;il puisse respecter ses obligations et exécuter  ses programmes. Les 10&nbsp;catégories de services internes sont les suivantes&nbsp;:</p>
+  <p>Les services internes sont les services fournis  au sein d&rsquo;un ministère afin qu&rsquo;il puisse respecter ses obligations et exécuter  ses programmes. Les dix catégories de services internes sont les suivantes&nbsp;:</p>
   <ul>
     <li>services de gestion et de surveillance;</li>
     <li>services de communication;</li>
@@ -335,8 +335,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <thead>
             <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div></th>
-              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues/prévus</div></th>
-              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles/réels</div></th>
+              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div></th>
+              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles</div></th>
             </tr>
       </thead>
       <tbody>
@@ -430,8 +430,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Budget principal des dépenses [exercice]</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des autorisations disponibles [exercice]</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses réelles sur trois ans (autorisations utilisées)</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Autorisations totales pouvant être utilisées [exercice]</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses réelles de trois exercices (autorisations utilisées)</div></th>
         </tr>
       </thead>
     <tbody>
@@ -502,9 +502,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [exercice]</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues [exercice]</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues [exercice]</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues [exercice]</div></th>
     </tr>
   </thead>
     <tbody>
@@ -745,7 +745,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </table></div>
 </section>
 <section><h4>Tableau [numéro] État condensé de la situation financière (audité ou non) au [insérer la date] (en dollars)</h4>
-<p>Le tableau [indiquer le numéro approprié] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), qui permettent de déterminer la capacité de celui-ci à mettre en œuvre des programmes et des services.</p>
+<p>Le tableau [indiquer le numéro approprié] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède),du ministère, qui aident à déterminer la capacité de celui ci à mettre en œuvre des programmes et des services.</p>
 <div class="table-responsive"><table id="tbl9" class="table table-bordered table-condensed">
  <thead>
   <tr class="active">
@@ -917,17 +917,17 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérez le nom]</p></section>
 			<section><h3>Portefeuille  ministériel&nbsp;:</h3><p>[insérez les  renseignements]</p></section>
 			<section><h3>Instruments  habilitants&nbsp;:</h3><p>[insérez les titres des  lois avec les hyperliens]</p></section>
-			<section><h3>Année d'incorporation  ou de création&nbsp;:</h3><p>[insérez l'année]</p></section>
+			<section><h3>Année de constitution ou de création&nbsp;:</h3><p>[insérez l'année]</p></section>
 			<section><h3>Autres&nbsp;:</h3><p>[insérez d'autres renseignements]</p></section>
     </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Coordonnées du ministère</summary>
       <section><h3>Adresse postale&nbsp;:</h3><p>[insérez l'adresse]</p></section>
-			<section><h3>Téléphone&nbsp;:</h3><p>[insérez les numéros]</p></section>
-			<section><h3>ATS&nbsp;:</h3><p>[insérez les numéros]</p></section>
-			<section><h3>Télécopie&nbsp;:</h3><p>[insérez les numéros, le cas échéant]</p></section>
-			<section><h3>Courriel&nbsp;:</h3><p>[insérez les adresses]</p></section>
-			<section><h3>Sites Web&nbsp;:</h3><p>[insérez les URL]</p></section>
+			<section><h3>Numéro de téléphone&nbsp;:</h3><p>[insérez les numéros]</p></section>
+			<section><h3>Téléimprimeur (ATS&nbsp;) :</h3><p>[insérez les numéros]</p></section>
+			<section><h3>Numéro de télécopieur:</h3><p>[insérez les numéros, le cas échéant]</p></section>
+			<section><h3>Adresse courriel&nbsp;:</h3><p>[insérez les adresses]</p></section>
+			<section><h3>Site(s) Web&nbsp;:</h3><p>[insérer adresse(s) URL]</p></section>
     </details>
 </section>
 <section>
@@ -944,7 +944,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
 <section>
  <h2 id="toc06">Dépenses fiscales fédérales</h2>
- <p>Il est possible de recourir au régime  fiscal pour atteindre des objectifs de la politique publique en appliquant des  mesures spéciales, comme de faibles taux d&rsquo;imposition, des exemptions, des déductions,  des reports et des crédits. Le ministère des Finances Canada publie chaque  année des estimations et des projections du coût de ces mesures dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport  sur les dépenses fiscales fédérales</a>. Ce rapport fournit aussi des  renseignements généraux détaillés sur les dépenses fiscales, dont des  descriptions, des objectifs, des données historiques et des renvois aux  programmes de dépenses fédérales connexes, ainsi qu&rsquo;aux évaluations et aux  résultats de l&rsquo;ACS&nbsp;Plus liés aux dépenses fiscales. </p>
+ <p>Il est possible de recourir au système fiscal pour atteindre des objectifs de la politique publique en appliquant des  mesures spéciales, comme de faibles taux d&rsquo;imposition, des exemptions, des déductions,  des reports et des crédits. Le ministère des Finances Canada publie chaque  année des estimations et des projections du coût de ces mesures dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport  sur les dépenses fiscales fédérales</a>. Ce rapport fournit aussi des  renseignements généraux détaillés sur les dépenses fiscales, dont des  descriptions, des objectifs, des données historiques et des renvois aux  programmes de dépenses fédérales connexes, ainsi qu&rsquo;aux évaluations et aux  résultats de l&rsquo;ACS&nbsp;Plus liés aux dépenses fiscales. </p>
 </section>
 <section>
  <h2 id="toc07">Définitions</h2>
@@ -952,10 +952,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Liste de termes</summary>
     <dl>
         <dt>Analyse comparative entre les sexes Plus (ACS&nbsp;Plus) <span lang="en">(gender-based analysis plus [GBA+]) </span></dt>
-  <dd>L&rsquo;analyse comparative entre les sexes Plus  (ACS Plus) est un outil analytique servant à soutenir l&rsquo;élaboration de  politiques, de programmes et d&rsquo;autres initiatives et à évaluer les  répercussions des politiques, des programmes et des initiatives sur divers  ensembles de femmes, d&rsquo;hommes et de personnes de diverses identités de genre. L&rsquo;ACS&nbsp;Plus est un  processus permettant de comprendre qui est touché par l&rsquo;occasion ou l&rsquo;enjeu  évalué par l&rsquo;initiative, d&rsquo;établir comment l&rsquo;initiative pourrait être adaptée  pour répondre aux divers besoins des personnes les plus touchées ainsi que de  déterminer et de réduire tout obstacle à l&rsquo;accès ou au bénéfice de l&rsquo;initiative.  L&rsquo;ACS&nbsp;Plus est une analyse intersectionnelle qui va au-delà des  différences biologiques&nbsp;(sexe) et socioculturelles&nbsp;(genre) pour tenir  compte d&rsquo;autres facteurs, comme l&rsquo;âge, les handicaps, l&rsquo;éducation, l&rsquo;ethnicité,  la situation économique, la géographie&nbsp;(y compris la ruralité), la langue,  la race, la religion et l&rsquo;orientation sexuelle.</dd>
+  <dd>Outil analytique servant à soutenir l’élaboration de politiques, de programmes et d’autres initiatives et à évaluer les répercussions des politiques, des programmes et des initiatives sur divers ensembles de femmes, d’hommes et de personnes de diverses identités de genre. L’ACS Plus est un processus permettant de comprendre qui est touché par l’occasion ou l’enjeu évalué par l’initiative, d’établir comment l’initiative pourrait être adaptée pour répondre aux divers besoins des personnes les plus touchées ainsi que de déterminer et de réduire tout obstacle à l’accès ou au bénéfice de l’initiative. L’ACS Plus est une analyse intersectionnelle qui va au-delà des différences biologiques (sexe) et socioculturelles (genre) pour tenir compte d’autres facteurs, comme l’âge, les handicaps, l’éducation, l’ethnicité, la situation économique, la géographie (y compris la ruralité), la langue, la race, la religion et l’orientation sexuelle.</dd>
   <dt>cadre ministériel des résultats <span lang="en">(departmental results framework) </span></dt>
   <dd>Cadre qui établit un lien entre les  responsabilités essentielles et les résultats ministériels ainsi que les  indicateurs de résultat ministériel d&rsquo;un ministère.</dd>
-  <dt>Objectif <span lang="en">(target) </span></dt>
+  <dt>Objectif <span lang="en">(cible) </span></dt>
   <dd>Niveau mesurable du rendement ou du succès  qu&rsquo;un ministère, un programme ou une initiative prévoit d&rsquo;atteindre dans un  délai précis. Un objectif  peut être quantitative ou  qualitative.</dd>
   <dt>crédit <span lang="en">(appropriation) </span></dt>
   <dd>Autorisation donnée par le Parlement d&rsquo;effectuer  des paiements sur le Trésor.</dd>
