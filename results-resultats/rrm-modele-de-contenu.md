@@ -84,15 +84,7 @@ title: "Rapport sur les résultats ministériels"
   <p>Copiez le code des exemples de travail :</p>
     <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/rrm-en-un-coup-doeil.md">Code de la page Aperçu</a></p>
     <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/rrm-complet.md">Code de la page Rapport intégral</a></p>
-    <section><h3>Création du fichier PDF :</h3>
-    <p>Les  équipes de rédaction sont responsables de créer les versions PDF des rapports  sur les résultats ministériels, en suivant ces directives&nbsp;:</p>
-    <ul>
-      <li>Les  fichiers PDF doivent être créés à partir des documents Word au moyen de la  fonction «&nbsp;Enregistrer&nbsp;sous&nbsp;». </li>
-      <li>La  trousse PDF complète comprendra une page couverture, une page sur les droits  d&rsquo;auteur, la page Aperçu et la page Rapport intégral.</li>
-      <li>Les  fichiers PDF ne doivent être fournis qu&rsquo;au Secrétariat du Conseil du Trésor du  Canada aux fins d&rsquo;examen et qu&rsquo;à Services publics et Approvisionnement Canada pour  l&rsquo;archivage.</li>
-      <li>Le  Secrétariat du Conseil du Trésor du Canada recommande d&rsquo;éviter les fichiers PDF  sur Canada.ca. Une solution de rechange serait d&rsquo;ajouter un bouton «&nbsp;Imprimer  cette page&nbsp;».</li>
-      <li>Un  formatage supplémentaire peut être requis dans les documents Word pour  s&rsquo;assurer qu&rsquo;ils sont accessibles.</li>
-  </ul></section></section>
+    
   <section><h2 id="toc05">Recherche et justification</h2>
     <p>Les  recherches se feront en continu afin de déterminer la meilleure façon de  présenter les informations contenues dans le rapport sur les résultats  ministériels d&rsquo;une manière accessible et conviviale. À ce jour, les problèmes  connus comprennent des en-têtes difficiles à comprendre, des informations  répétitives et des tableaux trop complexes.</p>
     <p>D&rsquo;autres  améliorations seront apportées au fur et à mesure que les recherches sur la  mise en œuvre et l&rsquo;expérience des utilisateurs et utilisatrices seront  achevées. Si vous voulez participer aux tests de convivialité, veuillez  communiquer avec <a href="mailto:DAS.SCN@tbs-sct.gc.ca">les responsables des thèmes du SCT</a>.</p>
