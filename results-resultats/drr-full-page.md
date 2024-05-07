@@ -6,7 +6,7 @@ breadcrumbs:
 dateModified: 2024-05-03
 language: en
 layout: default
-title: "[Department name's] [insert fiscal year] Departmental results report"
+title: "[Department name]'s [insert fiscal year] Departmental results report"
 ---
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
