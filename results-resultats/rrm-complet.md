@@ -920,6 +920,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
    <li>Renseignements  sur les programmes de paiements de transfert</li>
    <li>Analyse  comparative entre les sexes Plus</li>
    <li>Réponse  aux comités parlementaires et aux audits externes</li>
+   <li>Initiatives horizontales<li>
+   <li>Financement pluriannuel initial<li>
    <li>Programme  à l&rsquo;horizon 2030 et Objectifs de développement durable des Nations&nbsp;Unies</li>
  </ul>
 </section>
