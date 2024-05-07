@@ -786,7 +786,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <p>Cette section présente une vue d’ensemble des ressources humaines réelles et prévues du ministère de [insérer exercice] à [insérer exercice].</p>
 <section>
   <h4>Tableau [indiquer le numéro approprié] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein, qui sont associés aux responsabilités essentielles et aux services internes de [insérer l'acronyme du ministère] pour les trois derniers exercices.</p>
+  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein, qui sont associés aux responsabilités essentielles et aux services internes de [l'acronyme du ministère] pour les trois derniers exercices.</p>
 
   <div class="table-responsive">
     <table id="tbl9" class="table table-bordered table-condensed">
@@ -795,7 +795,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein réels [exercice]</div></th>
           </tr>
         </thead>
       <tbody>
@@ -833,21 +833,21 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </table>
   </div>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des besoins réels en ressources humaines au cours des trois dernières années</summary>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines des trois derniers exercices</summary>
     <p>[Insérez un texte expliquant les tendances significatives et incluez les notes de bas de page].</p>
     </details>
 </section>
   <section>
    <h4>Tableau [indiquer le numéro approprié] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-    <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en équivalents temps plein, pour les responsabilités essentielles et les services internes de [insérer l'acronyme du ministère] prévus pour les trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice en cours.</p>
+    <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [nom du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour. </p>
 <div class="table-responsive">
   <table id="tbl10" class="table table-bordered table-condensed">
     <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein prévus en [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein prévus en [exercice]</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein prévus en [exercice]</div></th>
           </tr>
         </thead>
       <tbody>
