@@ -18,9 +18,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 <li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif)</li>
 <li><a href="#toc02">Résultats : Nos réalisations</a> 
 <ul>
-<li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle].</a></li>
-<li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle].</a></li>
-<li><a href="#toc02-3">Responsabilité essentielle 3&#160;: [Inscrire le nom de la responsabilité essentielle].</a></li>
+<li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
+<li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
+<li><a href="#toc02-3">Responsabilité essentielle 3&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
 <li><a href="#toc02-4">Services internes</a></li>
 </ul>
 </li>
