@@ -87,7 +87,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <li><a href="#toc02-4">Services internes</a></li>
     </ul>
   </section>
-  <p class="mrgn-tp-lg">[Reproduire ces sections pour chaque responsabilité essentielle].</p>
+  <p>[Reproduire ces sections pour chaque responsabilité essentielle].</p>
   <section>
       <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
       <ul class="list-unstyled">

@@ -87,7 +87,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
  <li><a href="#toc02-4">Internal services</a></li>
  </ul>
 </section>
- <p class="mrgn-tp-lg">[Repeat these sections for each core responsibility]</p>
+ <p>[Repeat these sections for each core responsibility]</p>
  <section>
  <h3 id="toc02-1">Core responsibility 1: [insert core responsibility name]</h3>
  <ul class="list-unstyled">
