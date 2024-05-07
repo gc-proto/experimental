@@ -930,7 +930,18 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 			<section><h3>Sites Web&nbsp;:</h3><p>[insérez les URL]</p></section>
     </details>
 </section>
-
+<section>
+ <h2 id="toc05">Tableaux de renseignements supplémentaires</h2>
+ <p>Les tableaux de renseignements  supplémentaires ci-dessous sont accessibles sur le site Web du [nom du ministère]&nbsp;:</p>
+ <ul>
+   <li>Renseignements  sur les programmes de paiements de transfert</li>
+   <li>Analyse comparative entre les sexes Plus</li>
+   <li>Réponse aux comités parlementaires et aux audits externes</li>
+   <li>Initiatives horizontales</li>
+   <li>Financement pluriannuel initial</li>
+   <li>Programme  à l&rsquo;horizon 2030 et Objectifs de développement durable des Nations&nbsp;Unies</li>
+ </ul>
+</section>
 <section>
  <h2 id="toc06">Dépenses fiscales fédérales</h2>
  <p>Il est possible de recourir au régime  fiscal pour atteindre des objectifs de la politique publique en appliquant des  mesures spéciales, comme de faibles taux d&rsquo;imposition, des exemptions, des déductions,  des reports et des crédits. Le ministère des Finances Canada publie chaque  année des estimations et des projections du coût de ces mesures dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport  sur les dépenses fiscales fédérales</a>. Ce rapport fournit aussi des  renseignements généraux détaillés sur les dépenses fiscales, dont des  descriptions, des objectifs, des données historiques et des renvois aux  programmes de dépenses fédérales connexes, ainsi qu&rsquo;aux évaluations et aux  résultats de l&rsquo;ACS&nbsp;Plus liés aux dépenses fiscales. </p>
