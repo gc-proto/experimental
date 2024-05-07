@@ -76,6 +76,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </div>
   <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p><div class="clearfix"></div>
 </section>
+</section>
 <section>
  <h2 id="toc02">Résultats : Nos réalisations</h2>
   <section>
@@ -1004,3 +1005,4 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     </dl>
   </details>
 </section>
+</div>
