@@ -76,7 +76,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </div>
   <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p><div class="clearfix"></div>
 </section>
-</section>
 <section>
  <h2 id="toc02">Résultats : Nos réalisations</h2>
   <section>
@@ -287,7 +286,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <ul>
     <li>[Insérer le point 1&nbsp;de la  liste à puces]</li>
     <li>[Insérer le point 2&nbsp;de la  liste à puces]</li>
-    <li>[Insérer le point 3&nbsp;de la  liste à puces]</li></ul>
+    <li>[Insérer le point 3&nbsp;de la  liste à puces]</li>
+  </ul>
   <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 </section>
 </section>
@@ -360,10 +360,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
  <ul>
- <li><a href="#toc03-1">Dépenses</a></li>
- <li><a href="#toc03-2">Financement</a></li>
- <li><a href="#toc03-3">Faits saillants des états financiers</a></li>
- <li><a href="#toc03-4">Ressources humaines</a></li>
+    <li><a href="#toc03-1">Dépenses</a></li>
+    <li><a href="#toc03-2">Financement</a></li>
+    <li><a href="#toc03-3">Faits saillants des états financiers</a></li>
+    <li><a href="#toc03-4">Ressources humaines</a></li>
  </ul>
  </details>
 </li>
@@ -930,18 +930,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 			<section><h3>Sites Web&nbsp;:</h3><p>[insérez les URL]</p></section>
     </details>
 </section>
-<section>
- <h2 id="toc05">Tableaux de renseignements supplémentaires</h2>
- <p>Les tableaux de renseignements  supplémentaires ci-dessous sont accessibles sur le site Web du [nom du ministère]&nbsp;:</p>
- <ul>
-   <li>Renseignements  sur les programmes de paiements de transfert<li>
-   <li>Analyse comparative entre les sexes Plus<li>
-   <li>Réponse aux comités parlementaires et aux audits externes<li>
-   <li>Initiatives horizontales<li>
-   <li>Financement pluriannuel initial<li>
-   <li>Programme  à l&rsquo;horizon 2030 et Objectifs de développement durable des Nations&nbsp;Unies</li>
- </ul>
-</section>
+
 <section>
  <h2 id="toc06">Dépenses fiscales fédérales</h2>
  <p>Il est possible de recourir au régime  fiscal pour atteindre des objectifs de la politique publique en appliquant des  mesures spéciales, comme de faibles taux d&rsquo;imposition, des exemptions, des déductions,  des reports et des crédits. Le ministère des Finances Canada publie chaque  année des estimations et des projections du coût de ces mesures dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport  sur les dépenses fiscales fédérales</a>. Ce rapport fournit aussi des  renseignements généraux détaillés sur les dépenses fiscales, dont des  descriptions, des objectifs, des données historiques et des renvois aux  programmes de dépenses fédérales connexes, ainsi qu&rsquo;aux évaluations et aux  résultats de l&rsquo;ACS&nbsp;Plus liés aux dépenses fiscales. </p>
@@ -1005,4 +994,3 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     </dl>
   </details>
 </section>
-</div>
