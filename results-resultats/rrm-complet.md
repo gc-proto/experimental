@@ -703,7 +703,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </tr>
   </tbody>
 </table></div>
-<p>Le tableau [numéro] résume les charges et les revenus pour [exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
+<p>Les renseignements sur les résultats prévus pour [exercice] proviennent de l’état des résultats prospectif et les notes de [exercice] de [nom du ministère] [lien menant vers l’état des résultats prospectif du ministère].</p>
+<p>LLe tableau [indiquer le numéro approprié] résume les charges et les revenus réelles affectant le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
