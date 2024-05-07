@@ -87,7 +87,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <li><a href="#toc02-4">Services internes</a></li>
     </ul>
   </section>
-  <p>[Reproduire ces sections pour chaque responsabilité essentielle].</p>
   <section>
       <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
       <ul class="list-unstyled">
@@ -105,6 +104,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
           </details>
         </li>
       </ul>
+        <p>[Reproduire ces sections pour chaque responsabilité essentielle].</p>
       <section>
           <h4 id="toc02-1-1">Description</h4>
           <p>[Insérer la description de la responsabilité principale 1]</p>
@@ -687,7 +687,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats prévus [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence (résultats réels moins prévus)</div></th>
       </tr>
     </thead>
   <tbody>
@@ -719,7 +719,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
-     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence</div></th>
+     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence ([exercise] moins [exercise])</div></th>
       </tr>
     </thead>
   <tbody>
@@ -752,7 +752,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Exercice en cours [exercice]</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Exercice précédent [exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Écart ([exercice] moins [exercice]) </div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence ([exercise] moins [exercise])</div></th>
    </tr>
  </thead>
  <tbody>
@@ -951,7 +951,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Liste de termes</summary>
     <dl>
-        <dt>Analyse comparative entre les sexes Plus (ACS&nbsp;Plus) <span lang="en">(gender-based analysis plus [GBA+]) </span></dt>
+        <dt>analyse comparative entre les sexes Plus (ACS&nbsp;Plus) <span lang="en">(gender-based analysis plus [GBA+]) </span></dt>
   <dd>Outil analytique servant à soutenir l’élaboration de politiques, de programmes et d’autres initiatives et à évaluer les répercussions des politiques, des programmes et des initiatives sur divers ensembles de femmes, d’hommes et de personnes de diverses identités de genre. L’ACS Plus est un processus permettant de comprendre qui est touché par l’occasion ou l’enjeu évalué par l’initiative, d’établir comment l’initiative pourrait être adaptée pour répondre aux divers besoins des personnes les plus touchées ainsi que de déterminer et de réduire tout obstacle à l’accès ou au bénéfice de l’initiative. L’ACS Plus est une analyse intersectionnelle qui va au-delà des différences biologiques (sexe) et socioculturelles (genre) pour tenir compte d’autres facteurs, comme l’âge, les handicaps, l’éducation, l’ethnicité, la situation économique, la géographie (y compris la ruralité), la langue, la race, la religion et l’orientation sexuelle.</dd>
   <dt>cadre ministériel des résultats <span lang="en">(departmental results framework) </span></dt>
   <dd>Cadre qui établit un lien entre les  responsabilités essentielles et les résultats ministériels ainsi que les  indicateurs de résultat ministériel d&rsquo;un ministère.</dd>

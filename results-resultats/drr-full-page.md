@@ -87,7 +87,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
  <li><a href="#toc02-4">Internal services</a></li>
  </ul>
 </section>
- <p>[Repeat these sections for each core responsibility]</p>
  <section>
  <h3 id="toc02-1">Core responsibility 1: [insert core responsibility name]</h3>
  <ul class="list-unstyled">
@@ -105,6 +104,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
  </details>
 </li>
  </ul>
+  <p>[Repeat these sections for each core responsibility]</p>
  <section>
   <h4 id="toc02-1-1">Description</h4>
   <p>[Insert description of core responsibility 1]</p>
@@ -663,7 +663,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of statutory and voted spending over a six-year period</summary>
-    
+    )
     <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
     </details>
 </figure></section>
@@ -673,7 +673,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
  <section>
   <h3 id="toc03-3">Financial statement highlights</h3>
   <p>[Department&rsquo;s acronym]&rsquo;s complete financial  statements [link to department&rsquo;s financial  statement] (unaudited or audited) for the year ended [insert date] are available online.  </p>
-<section><h4>Table [#]: Condensed Statement of Operations (unaudited) for the year ended [insert date] (dollars)</h4>
+<section><h4>Table [#]: Condensed Statement of Operations (unaudited or audited) for the year ended [insert date] (dollars)</h4>
 <p>Table [#] summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
@@ -681,7 +681,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Planned results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] Actual results minus<br>[fiscal year] actual results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference (Actual results minus planned)</div></th>
       </tr>
     </thead>
   <tbody>
@@ -712,7 +712,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Planned results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] Actual results minus<br>[fiscal year] planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference ([fiscal year] minus [fiscal year])</div></th>
       </tr>
     </thead>
   <tbody>
@@ -738,7 +738,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 </table></div>
   <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s Future-Oriented  Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
 </section>
-<section><h4>Table [#] Condensed Statement of Financial Position (unaudited) as of [insert date] (dollars)</h4>
+<section><h4>Table [#] Condensed Statement of Financial Position (unaudited or audited) as of [insert date] (dollars)</h4>
 <p>Table [#] provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</p>
 <div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
  <thead>
@@ -746,7 +746,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual [fiscal year]</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Previous [fiscal year]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] minus<br> [fiscal year]</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference ([fiscal year] minus [fiscal year])</div></th>
    </tr>
  </thead>
  <tbody>
