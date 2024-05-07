@@ -660,13 +660,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </table></div>
     </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses législatives et votées sur une période de six ans</summary>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du financement législatif et voté pour une période de six exercices</summary>
     
     <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
     </details>
 </figure></section>
   
-  <p>Pour en savoir plus sur les dépenses votées et législatives de [insérer l'acronyme du ministère], consulter les <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html">Comptes publics du Canada</a>.</p>
+  <p>Pour en savoir plus sur les dépenses votées et législatives de [l'acronyme du ministère], consulter les <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html">Comptes publics du Canada</a>.</p>
 </section>
  <section>
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
@@ -736,7 +736,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </tbody>
 </table></div>
 </section>
-<section><h4>Tableau [numéro] État condensé de la situation financière (non audité) au [insérer la date] (en dollars)</h4>
+<section><h4>Tableau [numéro] État condensé de la situation financière (audité ou non) au [insérer la date] (en dollars)</h4>
 <p>Le tableau [indiquer le numéro approprié] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), qui permettent de déterminer la capacité de celui-ci à mettre en œuvre des programmes et des services.</p>
 <div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
  <thead>
@@ -783,10 +783,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  </section>
  <section>
   <h3 id="toc03-4">Ressources humaines</h3>
-  <p>Cette section présente une vue d’ensemble des ressources humaines réelles et prévues du ministère de [insérer exercice] à [insérer exercice].</p>
+  <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
 <section>
   <h4>Tableau [indiquer le numéro approprié] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein, qui sont associés aux responsabilités essentielles et aux services internes de [l'acronyme du ministère] pour les trois derniers exercices.</p>
+  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices. </p>
 
   <div class="table-responsive">
     <table id="tbl9" class="table table-bordered table-condensed">
@@ -839,7 +839,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
   <section>
    <h4>Tableau [indiquer le numéro approprié] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-    <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [nom du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour. </p>
+    <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour. </p>
 <div class="table-responsive">
   <table id="tbl10" class="table table-bordered table-condensed">
     <thead>
@@ -885,7 +885,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     </table>
 </div>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines prévues pour les trois prochaines années</summary>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines pour les trois prochains exercices</summary>
     <p>[Insérer un texte expliquant les tendances significatives. Inclure toutes les notes de bas de page]</p>
     </details>
   </section>
