@@ -119,7 +119,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 1 du [ministère]</caption>
   <thead>
     <tr class="active">
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériels</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
@@ -158,7 +158,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 2 du [ministère]</caption>
  <thead>
  <tr class="active">
-  <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériels</div></th>
+  <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
   <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
@@ -197,7 +197,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
 <section>
   <h5>Renseignements sur les résultats</h5>
-  <p>La section suivante décrit les résultats obtenus relativement à [inscrire le nom de la responsabilité essentielle] en [insérer l’exercice] en les comparant aux résultats prévus dans le Plan ministériel de [insérer le nom du ministère] pour l’exercice.</p>
+  <p>La section suivante décrit les résultats obtenus relativement à [inscrire le nom de la responsabilité essentielle] en [insérer l’exercice] en les comparant aux résultats prévus dans le Plan ministériel de [insérer l'acronyme du ministère du ministère] pour l’exercice.</p>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 1]</summary>
       <section>
@@ -260,7 +260,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
 <section>
   <h4 id="toc02-1-5">Priorités pangouvernementales connexes</h4>
-     <p>[Insérer les détails des priorités à l’échelle du gouvernement].</p>
+     <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse comparative entre les sexes Plus </summary>
   <p>[Insérer la description].</p>
