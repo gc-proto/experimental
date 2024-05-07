@@ -382,19 +382,19 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
      </thead>
      <tbody>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">1. Core responsibility</div></th>
+     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 1</div></th>
      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">2. Core responsibility</div></th>
+     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 2</div></th>
      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">3. Core responsibility</div></th>
+     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 3</div></th>
      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">4. Core responsibility</div></th>
+     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 4</div></th>
      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      <tr>
@@ -515,9 +515,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
         </tr>
       <tr class="active">
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
         </tr>
       <tr>
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
@@ -551,9 +551,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
    <thead>
     <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual gross spending</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual revenues netted against expenditures</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual net spending (authorities used)</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual gross spending</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual revenues netted against expenditures</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual net spending (authorities used)</div></th>
     </tr>
    </thead>
    <tbody>
@@ -571,9 +571,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     </tr>
     <tr class="active">
     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div></th>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
     </tr>
     <tr>
     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
@@ -583,9 +583,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
     </tr>
     <tr class="active">
     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert total]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert total]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert total]</div></td>
     </tr>
    </tbody>
    </table>
@@ -623,37 +623,37 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
           </thead>
         <tbody>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[fiscal year]</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[fiscal year]</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[fiscal year]</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[fiscal year]</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[fiscal year]</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
           <tr>
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[fiscal year]</div></th>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div></th>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
@@ -679,9 +679,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] actual results minus<br>[fiscal year] actual results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] Actual results minus<br>[fiscal year] actual results</div></th>
       </tr>
     </thead>
   <tbody>
@@ -710,9 +710,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] actual results minus<br>[fiscal year] planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference<br>[fiscal year] Actual results minus<br>[fiscal year] planned results</div></th>
       </tr>
     </thead>
   <tbody>
@@ -816,9 +816,9 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
           </tr>
         <tr class="active">
           <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
+          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
         </tr>
         <tr>
           <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
