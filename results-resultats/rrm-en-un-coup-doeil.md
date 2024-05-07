@@ -32,7 +32,7 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
       <li>[élément&nbsp;2 de la liste à puces]; </li>
       <li>[élément&nbsp;3 de la liste à puces]. </li>
     </ul>
-        <p>[Si c’est pertinent, les ministères sont invités à inclure une brève description de la façon dont ils ont contribué à l’exercice Recentrer les dépenses gouvernementales en [insérer l’exercice].]</p>
+        <p>[Si c’est pertinent, inclure une brève description de la façon dont ils ont contribué à l’exercice Recentrer les dépenses gouvernementales en [insérer l’exercice].]</p>
   </section>
   <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
