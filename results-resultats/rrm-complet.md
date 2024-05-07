@@ -10,7 +10,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 ---
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 
-<div class="mwsgeneric-base-html parbase section">    
+<div class="mwsgeneric-base-html parbase section">   
 <section>
 <h2>Sur cette page</h2>
   <ul>
@@ -78,18 +78,17 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
 <section>
  <h2 id="toc02">Résultats : Nos réalisations</h2>
-<section>
-  <h3>Responsabilités essentielles et services internes</h3>
-  <ul>
-    <li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</a></li>
-    <li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité essentielle].</a></li>
-    <li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité essentielle].</a></li>
-    <li><a href="#toc02-4">Services internes</a></li>
-  </ul>
-</section>
- 
- <p class="mrgn-tp-lg">[Reproduire ces sections pour chaque responsabilité essentielle].</p>
- <section>
+  <section>
+    <h3>Responsabilités essentielles et services internes</h3>
+    <ul>
+      <li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+      <li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+      <li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+      <li><a href="#toc02-4">Services internes</a></li>
+    </ul>
+  </section>
+  <p class="mrgn-tp-lg">[Reproduire ces sections pour chaque responsabilité essentielle].</p>
+  <section>
       <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
       <ul class="list-unstyled">
         <li>
@@ -110,122 +109,126 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
           <h4 id="toc02-1-1">Description</h4>
           <p>[Insérer la description de la responsabilité principale 1]</p>
       </section>
-    <section>
-        <h4 id="toc02-1-2">Progrès à l’égard des résultats</h4>
-        <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles relativement à [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. </p>
       <section>
-        <h5>Tableau [indiquer le numéro approprié] : Cibles et résultats relativement à [inscrire le nom de la responsabilité essentielle]</h5>
-        <p>Le tableau [indiquer le numéro approprié] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
-        <div class="table-responsive">
-          <table id="tbl1-1" class="table table-bordered table-condensed">
-            <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 1 du [ministère]</caption>
-            <thead>
-              <tr class="active">
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
-                </tr>
-              </thead>
-            <tbody>
-              <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
-                  <ul>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    </ul>
-                  </div></td>
-                </tr>
-              <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
-                  <ul>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    </ul>  
-            </div></td>
-                </tr>
-              </tbody>
-          </table>
-        </div>
-        <div class="table-responsive">
-        <table id="tbl1-2" class="table table-bordered table-condensed">
-          <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 2 du [ministère]</caption>
-            <thead>
-              <tr class="active">
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
-                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
-                </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
-                  <ul>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                  </ul>
-                </div></td>
-                </tr>
-              <tr>
-                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
-                  <ul>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                    <li>[Exercice] : [insérer les chiffres]</li>
-                  </ul>  
-              </div></td>
-              </tr>
-            </tbody>
-            </table>
-            </div>
-            <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+              <h4 id="toc02-1-2">Progrès à l’égard des résultats</h4>
+              <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles relativement à [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. </p>
+            <section>
+              <h5>Tableau [indiquer le numéro approprié] : Cibles et résultats relativement à [inscrire le nom de la responsabilité essentielle]</h5>
+              <p>Le tableau [indiquer le numéro approprié] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
+              <div class="table-responsive">
+                <table id="tbl1-1" class="table table-bordered table-condensed">
+                  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 1 du [ministère]</caption>
+                  <thead>
+                    <tr class="active">
+                      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
+                      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
+                      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
+                      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
+                      </tr>
+                    </thead>
+                  <tbody>
+                    <tr>
+                      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
+                      <td>
+                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                        <ul>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          </ul>
+                        </div>
+                        </td>
+                      </tr>
+                    <tr>
+                      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
+                      <td>
+                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                        <ul>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          </ul>  
+                      </div>
+                      </td>
+                      </tr>
+                    </tbody>
+                </table>
+              </div>
+              <div class="table-responsive">
+              <table id="tbl1-2" class="table table-bordered table-condensed">
+                <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 2 du [ministère]</caption>
+                  <thead>
+                    <tr class="active">
+                      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
+                      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
+                      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
+                      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                        <ul>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                        </ul>
+                      </div></td>
+                      </tr>
+                    <tr>
+                      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
+                      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                        <ul>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                          <li>[Exercice] : [insérer les chiffres]</li>
+                        </ul>  
+                    </div></td>
+                    </tr>
+                  </tbody>
+                  </table>
+                  </div>
+                  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+              </section>
       </section>
-  </section>
-  <section>
-  <h5>Renseignements sur les résultats</h5>
-  <p>La section suivante décrit les résultats obtenus relativement à [inscrire le nom de la responsabilité essentielle] en [insérer l’exercice] en les comparant aux résultats prévus dans le Plan ministériel de [insérer l'acronyme du ministère du ministère] pour l’exercice.</p>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 1]</summary>
       <section>
-        <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 1 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice].</p>
-        <p><strong>Résultats obtenus : </strong></p>
-        <ul>
-          <li>[Insérer l’élément 1 de la liste à puces]</li>
-          <li>[Insérer l’élément 2 de la liste à puces]</li>
-          <li>[Insérer l’élément 3 de la liste à puces]</li>
-        </ul>
-      </section>
-    </details>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 2]</summary>
-      <section>
-        <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 2 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice].</p>
-        <p><strong>Résultats obtenus : </strong></p>
-          <ul>
-            <li>[Insérer l’élément 1 de la liste à puces]</li>
-            <li>[Insérer l’élément 2 de la liste à puces]</li>
-            <li>[Insérer l’élément 3 de la liste à puces]</li>
-          </ul>
-      </section>
-    </details>
-    <p>[Répéter pour chaque résultat lié à la responsabilité essentielle 1]</p>
- </section>
+        <h5>Renseignements sur les résultats</h5>
+        <p>La section suivante décrit les résultats obtenus relativement à [inscrire le nom de la responsabilité essentielle] en [insérer l’exercice] en les comparant aux résultats prévus dans le Plan ministériel de [insérer l'acronyme du ministère du ministère] pour l’exercice.</p>
+        <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+            <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 1]</summary>
+            <section>
+              <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 1 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice].</p>
+              <p><strong>Résultats obtenus : </strong></p>
+              <ul>
+                <li>[Insérer l’élément 1 de la liste à puces]</li>
+                <li>[Insérer l’élément 2 de la liste à puces]</li>
+                <li>[Insérer l’élément 3 de la liste à puces]</li>
+              </ul>
+            </section>
+        </details>
+        <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+            <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 2]</summary>
+            <section>
+              <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 2 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice].</p>
+              <p><strong>Résultats obtenus : </strong></p>
+                <ul>
+                  <li>[Insérer l’élément 1 de la liste à puces]</li>
+                  <li>[Insérer l’élément 2 de la liste à puces]</li>
+                  <li>[Insérer l’élément 3 de la liste à puces]</li>
+                </ul>
+            </section>
+        </details>
+        <p>[Répéter pour chaque résultat lié à la responsabilité essentielle 1]</p>
+    </section>
  </section>
  <section>
    <h4 id="toc02-1-3">Principaux risques</h4>
@@ -742,7 +745,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
 <section><h4>Tableau [numéro] État condensé de la situation financière (audité ou non) au [insérer la date] (en dollars)</h4>
 <p>Le tableau [indiquer le numéro approprié] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), qui permettent de déterminer la capacité de celui-ci à mettre en œuvre des programmes et des services.</p>
-<div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
+<div class="table-responsive"><table id="tbl9" class="table table-bordered table-condensed">
  <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
@@ -786,128 +789,129 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </table></div>
 </section>
  </section>
-<section>
-  <h3 id="toc03-4">Ressources humaines</h3>
-  <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
-</section>  
-<section>
-  <h4>Tableau [indiquer le numéro approprié] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-  <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices. </p>
-</section>  
-<section>
-  <div class="table-responsive">
-    <table id="tbl9" class="table table-bordered table-condensed">
-      <thead>
-        <tr class="active">
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein réels [exercice]</div></th>
+  <section>
+    <h3 id="toc03-4">Ressources humaines</h3>
+    <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
+  </section>  
+  <section>
+    <h4>Tableau [indiquer le numéro approprié] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
+    <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices. </p>
+  </section>  
+  <section>
+    <div class="table-responsive">
+      <table id="tbl9" class="table table-bordered table-condensed">
+        <thead>
+          <tr class="active">
+            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
+            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
+            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
+            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein réels [exercice]</div></th>
+            </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            </tr>
+          <tr>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            </tr>
+          <tr class="active">
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
           </tr>
-        </thead>
-      <tbody>
-        <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          </tr>
-        <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          </tr>
-        <tr class="active">
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-        </tr>
-        <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          </tr>
-        <tr class="active">
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
-          </tr>
-        </tbody>
-      </table>
-  </div>
-</section>
-<section>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines des trois derniers exercices</summary>
-    <p>[Insérez un texte expliquant les tendances significatives et incluez les notes de bas de page].</p>
-    </details>
-</section>
-<section>
-   <h4>Tableau [indiquer le numéro approprié] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-    <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour. </p>
-</section>
-<section>    
-<div class="table-responsive">
-  <table id="tbl10" class="table table-bordered table-condensed">
-    <thead>
-        <tr class="active">
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein prévus en [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein prévus en [exercice]</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein prévus en [exercice]</div></th>
-          </tr>
-        </thead>
-      <tbody>
-        <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          </tr>
-        <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          </tr>
-        <tr class="active">
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-        </tr>
-        <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          </tr>
-        <tr class="active">
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
-          </tr>
-        </tbody>
-    </table>
-</div>
-</section>
-<section>
+          <tr>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            </tr>
+          <tr class="active">
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </section>
+  <section>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines pour les trois prochains exercices</summary>
-    <p>[Insérer un texte expliquant les tendances significatives. Inclure toutes les notes de bas de page]</p>
-    </details>
+      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines des trois derniers exercices</summary>
+      <p>[Insérez un texte expliquant les tendances significatives et incluez les notes de bas de page].</p>
+      </details>
+  </section>
+  <section>
+    <h4>Tableau [indiquer le numéro approprié] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
+      <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour. </p>
+  </section>
+  <section>    
+    <div class="table-responsive">
+    <table id="tbl10" class="table table-bordered table-condensed">
+      <thead>
+          <tr class="active">
+            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
+            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein prévus en [exercice]</div></th>
+            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein prévus en [exercice]</div></th>
+            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein prévus en [exercice]</div></th>
+            </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            </tr>
+          <tr>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            </tr>
+          <tr class="active">
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+          </tr>
+          <tr>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            </tr>
+          <tr class="active">
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+  </section>
+  <section>
+      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines pour les trois prochains exercices</summary>
+      <p>[Insérer un texte expliquant les tendances significatives. Inclure toutes les notes de bas de page]</p>
+      </details>
+  </section>
 </section>
- </section>
 </section>
+
 <section>
  <h2 id="toc04">Renseignements sur le ministère</h2>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Profil du ministère</summary>
+      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Profil du ministère</summary>
       <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérez le nom]</p></section>
 			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérez le nom]</p></section>
 			<section><h3>Portefeuille  ministériel&nbsp;:</h3><p>[insérez les  renseignements]</p></section>
@@ -930,8 +934,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <p>Les tableaux de renseignements  supplémentaires ci-dessous sont accessibles sur le site Web du [nom du ministère]&nbsp;:</p>
  <ul>
    <li>Renseignements  sur les programmes de paiements de transfert<li>
-   <li>Analyse  comparative entre les sexes Plus<li>
-   <li>Réponse  aux comités parlementaires et aux audits externes<li>
+   <li>Analyse comparative entre les sexes Plus<li>
+   <li>Réponse aux comités parlementaires et aux audits externes<li>
    <li>Initiatives horizontales<li>
    <li>Financement pluriannuel initial<li>
    <li>Programme  à l&rsquo;horizon 2030 et Objectifs de développement durable des Nations&nbsp;Unies</li>
@@ -1000,4 +1004,3 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     </dl>
   </details>
 </section>
-  
