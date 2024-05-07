@@ -670,7 +670,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
  <section>
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
-  <p>Les états financiers complets de/du/de la/d&rsquo;  [acronyme du ministère]  [lien vers les états financiers du ministère] (audités ou non) pour l&rsquo;exercice terminé  le [insérer la date], sont publiés sur le site Web du ministère [lien menant vers les états financiers du ministère].</p>
+  <p>Les états financiers de [l'acronym du ministère] (audités ou non) pour l’exercice terminé le [insérer la date] sont publiés sur le site Web du ministère [lien menant vers les états financiers du ministère].</p>
 <section><h4>Tableau [insérer le numéro] : État condensé des résultats (audité ou non) terminé [insérer la date] (en dollars) </h4>
 <p>Le tableau [indiquer le numéro approprié] résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
@@ -703,14 +703,14 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </tr>
   </tbody>
 </table></div>
-<p>Les renseignements sur les résultats prévus pour [exercice] proviennent de l’état des résultats prospectif et les notes de [exercice] de [nom du ministère] [lien menant vers l’état des résultats prospectif du ministère].</p>
-<p>LLe tableau [indiquer le numéro approprié] résume les charges et les revenus réelles affectant le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
+<p>Les renseignements sur les résultats prévus pour [exercice] proviennent de l’état des résultats prospectif et les notes de [exercice] de [l'acronym du ministère] [lien menant vers l’état des résultats prospectif du ministère].</p>
+<p>Le tableau [indiquer le numéro approprié] résume les charges et les revenus réelles affectant le coût de fonctionnement avant le financement du gouvernement et les transferts.  </p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats prévus [exercice]</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence</div></th>
       </tr>
     </thead>
@@ -735,7 +735,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </tr>
   </tbody>
 </table></div>
-  <p>Les  informations sur les résultats prévus pour [insérer l&rsquo;exercice] sont fournies dans le document État des résultats prospectifs et notes de [exercice] de [acronyme du ministère] [lien vers l&rsquo;état des résultats prospectifs et des notes du ministère]. </p>
 </section>
 <section><h4>Tableau [numéro] État condensé de la situation financière (non audité) au [insérer la date] (en dollars)</h4>
 <p>Le tableau [indiquer le numéro approprié] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), qui permettent de déterminer la capacité de celui-ci à mettre en œuvre des programmes et des services.</p>
@@ -743,9 +742,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Montant réel [exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Montant précédent [exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence <br>([insérer l’exercice] moins <br>[insérer l’exercice])</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Exercice en cours [exercice]</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Exercice précédent [exercice]</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Écart ([exercice] moins [exercice]) </div></th>
    </tr>
  </thead>
  <tbody>
@@ -762,7 +761,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
 </tr>
 <tr>
-  <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dette nette ministérielle</div></th>
+  <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dette nette du ministère</div></th>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -774,7 +773,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
  </tr>
  <tr>
-  <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Situation financière nette ministérielle</div></th>
+  <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Situation financière nette du ministère</div></th>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
