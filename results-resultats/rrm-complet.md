@@ -192,7 +192,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  </tbody>
 </table>
 </div>
-<p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
+<p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 </section>
 </section>
 <section>
@@ -201,7 +201,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 1]</summary>
       <section>
-        <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 1 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice.]</p>
+        <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 1 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice].</p>
         <p><strong>Résultats obtenus : </strong></p>
         <ul>
           <li>[Insérer l’élément 1 de la liste à puces]</li>
@@ -213,7 +213,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 2]</summary>
       <section>
-        <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 2 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice.]</p>
+        <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 2 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice].</p>
         <p><strong>Résultats obtenus : </strong></p>
           <ul>
             <li>[Insérer l’élément 1 de la liste à puces]</li>
@@ -255,7 +255,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
               </tr>
             </tbody>
         </table>
-      <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
+      <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
   </section>
 </section>
 <section>
@@ -281,7 +281,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <li>[Insérer le point 1&nbsp;de la  liste à puces]</li>
     <li>[Insérer le point 2&nbsp;de la  liste à puces]</li>
     <li>[Insérer le point 3&nbsp;de la  liste à puces]</li></ul>
-  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
+  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 </section>
  <section>
  <h3 id="toc02-4">Services internes</h3>
@@ -344,7 +344,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             </tr>
       </tbody>
 </table>
-        <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
+        <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 <section>
  <h2 id="toc03">Dépenses et ressources humaines </h2>
 <ul class="list-unstyled">
@@ -364,13 +364,12 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <h3 id="toc03-1">Dépenses</h3>
  <p>Cette section présente un aperçu des dépenses prévues et réelles du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
 <section>
-<p>[Si votre ministère remplit le graphique des dépenses réelles par responsabilité essentielle, ajoutez le texte et suivez les instructions. Sinon, supprimez ce texte].</p>
   <figure id="fig1">
-   <figcaption class="text-left h4"><strong>Graphique [indiquer le numéro approprié] : Dépenses réelles par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
-   <p>Le graphique [indiquer le numéro approprié] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+   <figcaption class="text-left h4"><strong>Figure [indiquer le numéro approprié] : Dépenses réelles par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
+   <p>Le figure [indiquer le numéro approprié] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
+    <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
 
      <div class="table-responsive">
      <table class="table table-bordered table-condensed">
@@ -429,7 +428,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </thead>
     <tbody>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
@@ -441,7 +440,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
@@ -484,7 +483,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois dernières années</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
-  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
+  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 </section>
  <section>
   </section><section><h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
@@ -502,13 +501,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </thead>
     <tbody>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -538,7 +537,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses pour les trois prochaines années</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
-    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
+    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 </section>
   
  <section>
@@ -558,13 +557,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
    </thead>
    <tbody>
     <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     </tr>
     <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -594,7 +593,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues</summary>
   <p>[Insérez un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
   </details>
-    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC]</p>
+    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 </section>
 </section>
  </section>
@@ -604,12 +603,12 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <h3 id="toc03-2">Financement</h3>
   <p>Cette section présente  un aperçu du financement voté et législatif du ministère par rapport à ses responsabilités  essentielles et à ses services internes. Pour en savoir plus sur les autorisations  de financement, consulter les <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/budgets-depenses.html">budgets  et dépenses du gouvernement du Canada</a>.</p>
 <section><figure id="fig2">
-  <figcaption class="text-left h4"><strong>Graphique [indiquer le numéro approprié] : Financement approuvé (législatif et voté) pour une période de six ans</strong></figcaption>
-  <p>Le graphique [indiquer le numéro approprié] résume le financement voté et législatif du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
+  <figcaption class="text-left h4"><strong>Figure [indiquer le numéro approprié] : Financement approuvé (législatif et voté) pour une période de six ans</strong></figcaption>
+  <p>Le figure [indiquer le numéro approprié] résume le financement voté et législatif du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
   <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
+    <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
      <div class="table-responsive">
          <table class="table table-bordered table-condensed">
           <thead>
@@ -801,13 +800,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </thead>
       <tbody>
         <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           </tr>
         <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -853,13 +852,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </thead>
       <tbody>
         <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           </tr>
         <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer le nom de la responsabilité essentielle]</div></th>
+          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Rsponsabilité essentielle 2</div></th>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
