@@ -83,15 +83,7 @@ title: "Departmental Results Report"
   <p>Copy the code from the working examples:</p>
     <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-at-glance.md" role="button">At  a glance page code</a></p>
     <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-full-page.md" role="button">Full  report page code</a></p>
-    <section><h3>Creating the PDF:</h3>
-    <p>Content writers are responsible for  creating PDF versions of the DRR, following these instructions:</p>
-    <ul>
-      <li>PDFs should be created from the  Word documents, using &ldquo;Save as&rdquo; </li>
-      <li>The complete PDF package will  include a cover page, a copyright page, the At a glance page, and the Full report  page</li>
-      <li>The PDFs are only to be  provided to the Treasury Board of Canada Secretariat for review and to Public Services and  Procurement Canada &nbsp;for  archiving purposes&nbsp;</li>
-      <li>TBS is moving away from  recommending PDFs on Canada.ca. As an alternative, you may opt to add a Print  this page button instead</li>
-      <li>Additional formatting may be  required in the Word documents to ensure they are accessible</li>
-    </ul></section></section>
+    
   <section><h2 id="toc05">Research and rationale</h2>
     <p>Research will be ongoing to determine the  best way to present information contained in the DRR in an accessible and  user-friendly way. To date, some known issues include non-intuitive headers,  repetitive information, and overly complex tables.</p>
     <p> Further improvements will be made  incrementally as more research is completed on both the implementation and user  experience sides. If you&rsquo;re interested in participating in usability testing,  please <a href="mailto:DAS.SCN@tbs-sct.gc.ca">reach out to the TBS theme  lead(s)</a>.</p>
