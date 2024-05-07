@@ -541,7 +541,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
   
  <section>
-  <h5 class="h4">Tableau [indiquer le numéro approprié] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars)(*facultatif)</h5>
+  <h5 class="h4">Tableau [indiquer le numéro approprié] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) (*facultatif)</h5>
   
   <p>Le tableau [indiquer le numéro approprié] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</p>
   <div class="table-responsive">
@@ -551,8 +551,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses brutes réelles [exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Recettes réelles déduites des dépenses [exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses nettes réelles [exercice] (autorisations utilisées)</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Revenus réels affectés aux dépenses [exercice]</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses nettes réelles (autorisations utilisées) [exercice]</div></th>
     </tr>
    </thead>
    <tbody>
@@ -670,7 +670,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
  <section>
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
-  <p>Les états financiers complets de/du/de la/d&rsquo;  [acronyme du ministère]  [lien vers les états financiers du ministère] (audités ou non) pour l&rsquo;exercice terminé  le [insérer la date], sont disponibles en ligne. </p>
+  <p>Les états financiers complets de/du/de la/d&rsquo;  [acronyme du ministère]  [lien vers les états financiers du ministère] (audités ou non) pour l&rsquo;exercice terminé  le [insérer la date], sont publiés sur le site Web du ministère [lien menant vers les états financiers du ministère].</p>
 <section><h4>Tableau [insérer le numéro] : État condensé des résultats (audité ou non) terminé [insérer la date] (en dollars) </h4>
 <p>Le tableau [indiquer le numéro approprié] résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
@@ -679,18 +679,18 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats prévus [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence entre les résultats réels de <br>[insérer l’exercice] et <br>les résultats réels de [insérer l’exercice]</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence</div></th>
       </tr>
     </thead>
   <tbody>
   <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses totales</div></th>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des charges</div></th>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     </tr>
     <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Recettes totales</div></th>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des revenus</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -703,25 +703,26 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </tr>
   </tbody>
 </table></div>
-<p>Le tableau [numéro] résume les charges et les revenus pour [exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
+<p>Les renseignements sur les résultats prévus pour [exercice] proviennent de l’état des résultats prospectif et les notes de [exercice] de [nom du ministère] [lien menant vers l’état des résultats prospectif du ministère].</p>
+<p>LLe tableau [indiquer le numéro approprié] résume les charges et les revenus réelles affectant le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats prévus [exercice]</div></th>
-     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence entre les résultats réels de <br>[insérer l’exercice] et <br>les résultats prévus de [insérer l’exercice]</div></th>
+     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence</div></th>
       </tr>
     </thead>
   <tbody>
   <tr>
-    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses totales</div></th>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des charges</div></th>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     </tr>
     <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Recettes totales</div></th>
+      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des revenus</div></th>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
