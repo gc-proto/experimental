@@ -9,193 +9,195 @@ layout: default
 title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom du ministère]"
 ---
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
-<div class="mwsgeneric-base-html parbase section">
-    
+
+<div class="mwsgeneric-base-html parbase section">    
 <section>
 <h2>Sur cette page</h2>
-<ul>
-<li><a href="#toc01">Message du/de la ministre</a></li>
-<li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif)</li>
-<li><a href="#toc02">Résultats : Nos réalisations</a> 
-<ul>
-<li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
-<li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
-<li><a href="#toc02-3">Responsabilité essentielle 3&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
-<li><a href="#toc02-4">Services internes</a></li>
-</ul>
-</li>
-<li><a href="#toc03">Dépenses et ressources humaines </a>
-<ul>
-<li><a href="#toc03-1">Dépenses</a></li>
-<li><a href="#toc03-2">Financement</a></li>
-<li><a href="#toc03-3">Faits saillants des états financiers</a></li>
-<li><a href="#toc03-4">Ressources humaines</a></li>
-</ul>
-</li>
-<li><a href="#toc04">Renseignements ministériels</a></li>
-<li><a href="#toc05">Tableaux de renseignements supplémentaires</a></li>
-<li><a href="#toc06">Dépenses fiscales fédérales</a></li>
-<li><a href="#toc07">Définitions</a></li>
-</ul>
+  <ul>
+    <li><a href="#toc01">Message du/de la ministre</a></li>
+    <li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif)</li>
+    <li><a href="#toc02">Résultats : Nos réalisations</a> 
+    <ul>
+    <li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
+    <li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
+    <li><a href="#toc02-3">Responsabilité essentielle 3&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
+    <li><a href="#toc02-4">Services internes</a></li>
+    </ul>
+    </li>
+    <li><a href="#toc03">Dépenses et ressources humaines </a>
+    <ul>
+    <li><a href="#toc03-1">Dépenses</a></li>
+    <li><a href="#toc03-2">Financement</a></li>
+    <li><a href="#toc03-3">Faits saillants des états financiers</a></li>
+    <li><a href="#toc03-4">Ressources humaines</a></li>
+    </ul>
+    </li>
+    <li><a href="#toc04">Renseignements ministériels</a></li>
+    <li><a href="#toc05">Tableaux de renseignements supplémentaires</a></li>
+    <li><a href="#toc06">Dépenses fiscales fédérales</a></li>
+    <li><a href="#toc07">Définitions</a></li>
+  </ul>
 </section>
 
 <section class="hidden-print">
-<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/rrm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md" role="button">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a></p>
+  <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/rrm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md" role="button">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a></p>
 </section>
 
 <section>
-<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Renseignements sur les droits d’auteur</summary>
-<p>[Inclure les renseignements sur les droits d’auteur formatés pour le Web]</p>
-  </details>    
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Renseignements sur les droits d’auteur</summary>
+  <p>[Inclure les renseignements sur les droits d’auteur formatés pour le Web]</p>
+    </details>    
 </section>    
     
 <section>
- <h2 id="toc01">Message du/de la ministre</h2>
- <div class="pull-right mrgn-lft-md col-xs-12 col-sm-4 hidden-print"> 
- <figure> 
-  <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
-  <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>L’honorable [Nom du Ministre]</strong></p>
-  <p>[titre du poste]</p> 
-  </figcaption> 
- </figure> 
- </div>
- <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p><div class="clearfix"></div>
+  <h2 id="toc01">Message du/de la ministre</h2>
+  <div class="pull-right mrgn-lft-md col-xs-12 col-sm-4 hidden-print"> 
+    <figure> 
+      <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
+      <figcaption class="text-center small"> 
+      <p class="mrgn-bttm-0"><strong>L’honorable [Nom du Ministre]</strong></p>
+      <p>[titre du poste]</p> 
+      </figcaption> 
+    </figure> 
+  </div>
+  <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p><div class="clearfix"></div>
 </section>
 <section> <!-- Optional section, delete if not required -->
- <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
- <div class="pull-right mrgn-lft-md col-xs-12 col-sm-4 hidden-print"> 
- <figure> 
-  <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
-  <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>L’honorable [Nom de l’administrateur général/de l’administratrice générale]</strong></p>
-  <p>[titre du poste]</p> 
-  </figcaption> 
- </figure> 
- </div>
- <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p><div class="clearfix"></div>
+  <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
+  <div class="pull-right mrgn-lft-md col-xs-12 col-sm-4 hidden-print"> 
+    <figure> 
+      <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
+        <figcaption class="text-center small"> 
+        <p class="mrgn-bttm-0"><strong>L’honorable [Nom de l’administrateur général/de l’administratrice générale]</strong></p>
+        <p>[titre du poste]</p> 
+        </figcaption> 
+    </figure> 
+  </div>
+  <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p><div class="clearfix"></div>
 </section>
 <section>
  <h2 id="toc02">Résultats : Nos réalisations</h2>
 <section>
- <h3>Responsabilités essentielles et services internes</h3>
- <ul>
-<li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</a></li>
-<li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité essentielle].</a></li>
-<li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité essentielle].</a></li>
- <li><a href="#toc02-4">Services internes</a></li>
- </ul>
+  <h3>Responsabilités essentielles et services internes</h3>
+  <ul>
+    <li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+    <li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+    <li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+    <li><a href="#toc02-4">Services internes</a></li>
+  </ul>
 </section>
+ 
  <p class="mrgn-tp-lg">[Reproduire ces sections pour chaque responsabilité essentielle].</p>
  <section>
- <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
- <ul class="list-unstyled">
-  <li>
- <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
-  <ul>
-  <li><a href="#toc02-1-1">Description</a></li>
-  <li><a href="#toc02-1-2">Progrès à l’égard des résultats</a></li>
-  <li><a href="#toc02-1-3">Principaux risques</a></li>
-  <li><a href="#toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</a></li>
-  <li><a href="#toc02-1-5">Priorités pangouvernementales connexes</a></li>
-  <li><a href="#toc02-1-6">Répertoire des programmes </a></li>
-  </ul>
- </details>
-</li>
- </ul>
- <section>
-  <h4 id="toc02-1-1">Description</h4>
-  <p>[Insérer la description de la responsabilité principale 1]</p>
-</section>
-<section>
-  <h4 id="toc02-1-2">Progrès à l’égard des résultats</h4>
-  <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles relativement à [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. </p>
-<section><h5>Tableau [indiquer le numéro approprié] : Cibles et résultats relativement à [inscrire le nom de la responsabilité essentielle]</h5>
- <p>Le tableau [indiquer le numéro approprié] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
-<div class="table-responsive">
-<table id="tbl1-1" class="table table-bordered table-condensed">
-  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 1 du [ministère]</caption>
-  <thead>
-    <tr class="active">
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
-      </tr>
-    </thead>
-  <tbody>
-    <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
-        <ul>
-          <li>[Exercice] : [insérer les chiffres]</li>
-          <li>[Exercice] : [insérer les chiffres]</li>
-          <li>[Exercice] : [insérer les chiffres]</li>
-          </ul>
-        </div></td>
-      </tr>
-    <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
-        <ul>
-          <li>[Exercice] : [insérer les chiffres]</li>
-          <li>[Exercice] : [insérer les chiffres]</li>
-          <li>[Exercice] : [insérer les chiffres]</li>
-          </ul>  
-  </div></td>
-      </tr>
-    </tbody>
-</table>
-</div>
-<div class="table-responsive">
-    <table id="tbl1-2" class="table table-bordered table-condensed">
-    <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 2 du [ministère]</caption>
- <thead>
- <tr class="active">
-  <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
-  <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
-  <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
-  <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
-  </tr>
- </thead>
- <tbody>
- <tr>
-  <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
-    <ul>
-      <li>[Exercice] : [insérer les chiffres]</li>
-      <li>[Exercice] : [insérer les chiffres]</li>
-      <li>[Exercice] : [insérer les chiffres]</li>
-    </ul>
-  </div></td>
-  </tr>
- <tr>
-  <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
-    <ul>
-      <li>[Exercice] : [insérer les chiffres]</li>
-      <li>[Exercice] : [insérer les chiffres]</li>
-      <li>[Exercice] : [insérer les chiffres]</li>
-    </ul>  
-</div></td>
-  </tr>
- </tbody>
-</table>
-</div>
-<p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-</section>
-</section>
-<section>
+      <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
+      <ul class="list-unstyled">
+        <li>
+          <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+            <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
+            <ul>
+              <li><a href="#toc02-1-1">Description</a></li>
+              <li><a href="#toc02-1-2">Progrès à l’égard des résultats</a></li>
+              <li><a href="#toc02-1-3">Principaux risques</a></li>
+              <li><a href="#toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</a></li>
+              <li><a href="#toc02-1-5">Priorités pangouvernementales connexes</a></li>
+              <li><a href="#toc02-1-6">Répertoire des programmes </a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+      <section>
+          <h4 id="toc02-1-1">Description</h4>
+          <p>[Insérer la description de la responsabilité principale 1]</p>
+      </section>
+    <section>
+        <h4 id="toc02-1-2">Progrès à l’égard des résultats</h4>
+        <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles relativement à [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. </p>
+      <section>
+        <h5>Tableau [indiquer le numéro approprié] : Cibles et résultats relativement à [inscrire le nom de la responsabilité essentielle]</h5>
+        <p>Le tableau [indiquer le numéro approprié] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
+        <div class="table-responsive">
+          <table id="tbl1-1" class="table table-bordered table-condensed">
+            <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 1 du [ministère]</caption>
+            <thead>
+              <tr class="active">
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
+                </tr>
+              </thead>
+            <tbody>
+              <tr>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                  <ul>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    </ul>
+                  </div></td>
+                </tr>
+              <tr>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                  <ul>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    </ul>  
+            </div></td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+        <div class="table-responsive">
+        <table id="tbl1-2" class="table table-bordered table-condensed">
+          <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 2 du [ministère]</caption>
+            <thead>
+              <tr class="active">
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultats ministériel</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte des cibles</div></th>
+                <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
+                </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                  <ul>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                  </ul>
+                </div></td>
+                </tr>
+              <tr>
+                <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></th>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
+                <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                  <ul>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                    <li>[Exercice] : [insérer les chiffres]</li>
+                  </ul>  
+              </div></td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+      </section>
+  </section>
+  <section>
   <h5>Renseignements sur les résultats</h5>
   <p>La section suivante décrit les résultats obtenus relativement à [inscrire le nom de la responsabilité essentielle] en [insérer l’exercice] en les comparant aux résultats prévus dans le Plan ministériel de [insérer l'acronyme du ministère du ministère] pour l’exercice.</p>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -223,6 +225,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </section>
     </details>
     <p>[Répéter pour chaque résultat lié à la responsabilité essentielle 1]</p>
+ </section>
  </section>
  <section>
    <h4 id="toc02-1-3">Principaux risques</h4>
@@ -282,6 +285,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <li>[Insérer le point 2&nbsp;de la  liste à puces]</li>
     <li>[Insérer le point 3&nbsp;de la  liste à puces]</li></ul>
   <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+</section>
 </section>
  <section>
  <h3 id="toc02-4">Services internes</h3>
@@ -705,7 +709,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </table></div>
 <p>Les renseignements sur les résultats prévus pour [exercice] proviennent de l’état des résultats prospectif et les notes de [exercice] de [l'acronym du ministère] [lien menant vers l’état des résultats prospectif du ministère].</p>
 <p>Le tableau [indiquer le numéro approprié] résume les charges et les revenus réelles affectant le coût de fonctionnement avant le financement du gouvernement et les transferts.  </p>
-<div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
+<div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
@@ -779,15 +783,18 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
  </tr>
 </tbody>
-</table></div></section>
+</table></div>
+</section>
  </section>
- <section>
+<section>
   <h3 id="toc03-4">Ressources humaines</h3>
   <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
+</section>  
 <section>
   <h4>Tableau [indiquer le numéro approprié] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
   <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices. </p>
-
+</section>  
+<section>
   <div class="table-responsive">
     <table id="tbl9" class="table table-bordered table-condensed">
       <thead>
@@ -832,14 +839,18 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </tbody>
       </table>
   </div>
+</section>
+<section>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines des trois derniers exercices</summary>
     <p>[Insérez un texte expliquant les tendances significatives et incluez les notes de bas de page].</p>
     </details>
 </section>
-  <section>
+<section>
    <h4>Tableau [indiquer le numéro approprié] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
     <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour. </p>
+</section>
+<section>    
 <div class="table-responsive">
   <table id="tbl10" class="table table-bordered table-condensed">
     <thead>
@@ -884,18 +895,20 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </tbody>
     </table>
 </div>
+</section>
+<section>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines pour les trois prochains exercices</summary>
     <p>[Insérer un texte expliquant les tendances significatives. Inclure toutes les notes de bas de page]</p>
     </details>
-  </section>
+</section>
  </section>
 </section>
 <section>
  <h2 id="toc04">Renseignements sur le ministère</h2>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Profil du ministère</summary>
-        <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérez le nom]</p></section>
+      <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérez le nom]</p></section>
 			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérez le nom]</p></section>
 			<section><h3>Portefeuille  ministériel&nbsp;:</h3><p>[insérez les  renseignements]</p></section>
 			<section><h3>Instruments  habilitants&nbsp;:</h3><p>[insérez les titres des  lois avec les hyperliens]</p></section>
@@ -904,7 +917,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Coordonnées du ministère</summary>
-        <section><h3>Adresse postale&nbsp;:</h3><p>[insérez l'adresse]</p></section>
+      <section><h3>Adresse postale&nbsp;:</h3><p>[insérez l'adresse]</p></section>
 			<section><h3>Téléphone&nbsp;:</h3><p>[insérez les numéros]</p></section>
 			<section><h3>ATS&nbsp;:</h3><p>[insérez les numéros]</p></section>
 			<section><h3>Télécopie&nbsp;:</h3><p>[insérez les numéros, le cas échéant]</p></section>
@@ -986,6 +999,5 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <dd>Conséquence  ou résultat qu&rsquo;un ministère cherche à atteindre. Un résultat ministériel  échappe généralement au contrôle direct des ministères, mais il devrait être  influencé par les résultats des programmes.</dd>
     </dl>
   </details>
- 
 </section>
   
