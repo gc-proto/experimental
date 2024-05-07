@@ -923,7 +923,10 @@ title: "[Department name's] [insert fiscal year] Departmental results report"
   <li>Details on transfer payment programs</li>
   <li>Gender-based analysis plus</li>
   <li>Response to Parliamentary committees and external audits</li>
-  <li>United Nations 2030 Agenda and the Sustainable Development Goals</li>
+  <li>United Nations 2030 Agenda and the Sustainable Development Goals<li>
+  <li>Horizontal Initiatives<li>
+  <li>Up-front multi-year funding</li>
+  </li></li>
  </ul>
 </section>
 <section>
