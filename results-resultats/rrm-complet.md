@@ -69,7 +69,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>L’honorable [Institutional Head name]</strong></p>
+  <p class="mrgn-bttm-0"><strong>L’honorable [Nom de l’administrateur général/de l’administratrice générale]</strong></p>
   <p>[titre du poste]</p> 
   </figcaption> 
  </figure> 
@@ -260,18 +260,18 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
 <section>
   <h4 id="toc02-1-5">Priorités pangouvernementales connexes</h4>
-     <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
+     <p>[Insérer les détails des priorités à l’échelle du gouvernement].</p>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse comparative entre les sexes Plus </summary>
-  <p>[Insérer la description]</p>
+  <p>[Insérer la description].</p>
 </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l’horizon 2030 et Objectifs de développement durable des Nations Unies</summary>
-  <p>[Insérer la description]</p>
+  <p>[Insérer la description].</p>
   </details>
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
-  <p>[Insérer la description]</p>
+  <p>[Insérer la description].</p>
   </details>
  </section>
  <section>
@@ -365,7 +365,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <p>Cette section présente un aperçu des dépenses prévues et réelles du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
 <section>
   <figure id="fig1">
-   <figcaption class="text-left h4"><strong>Figure [indiquer le numéro approprié] : Dépenses réelles par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
+   <figcaption class="text-left h4"><strong>Figure [indiquer le numéro approprié] : Dépenses réelles par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
    <p>Le figure [indiquer le numéro approprié] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -381,19 +381,19 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
      </thead>
      <tbody>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">1. Responsabilité essentielle</div></th>
+     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></th>
      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">2. Responsabilité essentielle</div></th>
+     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">3. Responsabilité essentielle</div></th>
+     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 3</div></th>
      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">4. Responsabilité essentielle</div></th>
+     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 4</div></th>
      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
      </tr>
      <tr>
@@ -514,9 +514,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </tr>
       <tr class="active">
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
         </tr>
       <tr>
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
@@ -570,9 +570,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     </tr>
     <tr class="active">
     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
     </tr>
     <tr>
     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
@@ -813,9 +813,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
           </tr>
         <tr class="active">
           <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
         </tr>
         <tr>
           <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
@@ -825,9 +825,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
           </tr>
         <tr class="active">
           <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+          <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
           </tr>
         </tbody>
       </table>
@@ -858,7 +858,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           </tr>
         <tr>
-          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Rsponsabilité essentielle 2</div></th>
+          <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></th>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -916,9 +916,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <h2 id="toc05">Tableaux de renseignements supplémentaires</h2>
  <p>Les tableaux de renseignements  supplémentaires ci-dessous sont accessibles sur le site Web du [nom du ministère]&nbsp;:</p>
  <ul>
-   <li>Renseignements  sur les programmes de paiements de transfert</li>
-   <li>Analyse  comparative entre les sexes Plus</li>
-   <li>Réponse  aux comités parlementaires et aux audits externes</li>
+   <li>Renseignements  sur les programmes de paiements de transfert<li>
+   <li>Analyse  comparative entre les sexes Plus<li>
+   <li>Réponse  aux comités parlementaires et aux audits externes<li>
    <li>Initiatives horizontales<li>
    <li>Financement pluriannuel initial<li>
    <li>Programme  à l&rsquo;horizon 2030 et Objectifs de développement durable des Nations&nbsp;Unies</li>
