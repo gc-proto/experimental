@@ -113,8 +113,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
               <h4 id="toc02-1-2">Progrès à l’égard des résultats</h4>
               <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles relativement à [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. </p>
             <section>
-              <h5>Tableau [indiquer le numéro approprié] : Cibles et résultats relativement à [inscrire le nom de la responsabilité essentielle]</h5>
-              <p>Le tableau [indiquer le numéro approprié] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
+              <h5>Tableau [#] : Cibles et résultats relativement à [inscrire le nom de la responsabilité essentielle]</h5>
+              <p>Le tableau [#] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
               <div class="table-responsive">
                 <table id="tbl1-1" class="table table-bordered table-condensed">
                   <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 1 du [ministère]</caption>
@@ -238,8 +238,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <section>
         <h4 id="toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</h4>
       <section>
-        <h5>Tableau [indiquer le numéro approprié] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
-        <p>Le tableau [indiquer le numéro approprié] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
+        <h5>Tableau [#] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
+        <p>Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
         <table id="tbl2" class="table table-bordered table-condensed">
             <thead>
               <tr class="active">
@@ -329,8 +329,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <section>
   <h4 id="toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</h4>
  </section>
- <h5>Tableau [indiquer le numéro approprié] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
-<p>Le tableau [indiquer le numéro approprié] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
+ <h5>Tableau [#] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
+<p>Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
 <table id="tbl3" class="table table-bordered table-condensed">
       <thead>
             <tr class="active">
@@ -373,8 +373,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <p>Cette section présente un aperçu des dépenses prévues et réelles du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
 <section>
   <figure id="fig1">
-   <figcaption class="text-left h4"><strong>Figure [indiquer le numéro approprié] : Dépenses réelles par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
-   <p>Le figure [indiquer le numéro approprié] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+   <figcaption class="text-left h4"><strong>Figure [#] : Dépenses réelles par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
+   <p>Le figure [#] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
@@ -420,9 +420,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <section>
      <h4>Sommaire du rendement budgétaire</h4>
      <section>
-  <h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses réelles de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
+  <h5 class="h4">Tableau [#] : Dépenses réelles de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
   
-<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent dépensée par [insérer l'acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+<p>Le tableau [#] indique la somme d’argent dépensée par [insérer l'acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <div class="table-responsive">
   <table id="tbl4" class="table table-bordered table-condensed">
     <thead>
@@ -493,9 +493,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 </section>
  <section>
-  </section><section><h5 class="h4">Tableau [indiquer le numéro approprié] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
+  </section><section><h5 class="h4">Tableau [#] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
   
-<p>Le tableau [indiquer le numéro approprié] indique la somme d’argent que [insérer l'acronyme du ministère] prévoit dépenser au cours des trois prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+<p>Le tableau [#] indique la somme d’argent que [insérer l'acronyme du ministère] prévoit dépenser au cours des trois prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <div class="table-responsive">
   <table id="tbl5" class="table table-bordered table-condensed">
     <thead>
@@ -548,9 +548,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
   
  <section>
-  <h5 class="h4">Tableau [indiquer le numéro approprié] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) (*facultatif)</h5>
+  <h5 class="h4">Tableau [#] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) (*facultatif)</h5>
   
-  <p>Le tableau [indiquer le numéro approprié] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</p>
+  <p>Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</p>
   <div class="table-responsive">
    <table id="tbl6" class="table table-bordered table-condensed">
    <caption class="text-left"></caption>
@@ -610,8 +610,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <h3 id="toc03-2">Financement</h3>
   <p>Cette section présente  un aperçu du financement voté et législatif du ministère par rapport à ses responsabilités  essentielles et à ses services internes. Pour en savoir plus sur les autorisations  de financement, consulter les <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/budgets-depenses.html">budgets  et dépenses du gouvernement du Canada</a>.</p>
 <section><figure id="fig2">
-  <figcaption class="text-left h4"><strong>Figure [indiquer le numéro approprié] : Financement approuvé (législatif et voté) pour une période de six ans</strong></figcaption>
-  <p>Le figure [indiquer le numéro approprié] résume le financement voté et législatif du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
+  <figcaption class="text-left h4"><strong>Figure [#] : Financement approuvé (législatif et voté) pour une période de six ans</strong></figcaption>
+  <p>Le figure [#] résume le financement voté et législatif du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
   <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -679,7 +679,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
   <p>Les états financiers de [l'acronym du ministère] (audités ou non) pour l’exercice terminé le [insérer la date] sont publiés sur le site Web du ministère [lien menant vers les états financiers du ministère].</p>
 <section><h4>Tableau [insérer le numéro] : État condensé des résultats (audité ou non) terminé [insérer la date] (en dollars) </h4>
-<p>Le tableau [indiquer le numéro approprié] résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
+<p>Le tableau [#] résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -711,7 +711,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </tbody>
 </table></div>
 <p>Les renseignements sur les résultats prévus pour [exercice] proviennent de l’état des résultats prospectif et les notes de [exercice] de [l'acronym du ministère] [lien menant vers l’état des résultats prospectif du ministère].</p>
-<p>Le tableau [indiquer le numéro approprié] résume les charges et les revenus réelles affectant le coût de fonctionnement avant le financement du gouvernement et les transferts.  </p>
+<p>Le tableau [#] résume les charges et les revenus réelles affectant le coût de fonctionnement avant le financement du gouvernement et les transferts.  </p>
 <div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -743,8 +743,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </tbody>
 </table></div>
 </section>
-<section><h4>Tableau [numéro] État condensé de la situation financière (audité ou non) au [insérer la date] (en dollars)</h4>
-<p>Le tableau [indiquer le numéro approprié] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède),du ministère, qui aident à déterminer la capacité de celui ci à mettre en œuvre des programmes et des services.</p>
+<section><h4>Tableau [#] État condensé de la situation financière (audité ou non) au [insérer la date] (en dollars)</h4>
+<p>Le tableau [#] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède),du ministère, qui aident à déterminer la capacité de celui ci à mettre en œuvre des programmes et des services.</p>
 <div class="table-responsive"><table id="tbl9" class="table table-bordered table-condensed">
  <thead>
   <tr class="active">
@@ -794,8 +794,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
   </section>  
   <section>
-    <h4>Tableau [indiquer le numéro approprié] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-    <p>Le tableau [indiquer le numéro approprié] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices. </p>
+    <h4>Tableau [#] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
+    <p>Le tableau [#] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices. </p>
   </section>  
   <section>
     <div class="table-responsive">
@@ -850,8 +850,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </details>
   </section>
   <section>
-    <h4>Tableau [indiquer le numéro approprié] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-      <p>Le tableau [indiquer le numéro approprié] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour. </p>
+    <h4>Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
+      <p>Le tableau [#] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour. </p>
   </section>
   <section>    
     <div class="table-responsive">
