@@ -52,7 +52,7 @@ title: "Departmental Results Report"
           <li>Copyright information should go  between this section and the next in an expand/collapse</li>
         </ul>
       </li>
-      <li>Results – what we achieved: 
+      <li>Results – what we achieved
         <ul>
           <li>This section has mandatory  subsections:          
             <ol class="lst-lwr-rmn">
