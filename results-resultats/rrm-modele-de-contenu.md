@@ -54,7 +54,7 @@ title: "Rapport sur les résultats ministériels"
           <li>Les renseignements sur les droits d’auteur doivent se trouver entre cette section et la section suivante, qui peut être agrandie et réduite. </li>
         </ul>
       </li>
-      <li>Résultats obtenus pour les responsabilités essentielles et les services internes : 
+      <li>Résultats : Nos réalisations : 
         <ul>
           <li>Cette section comporte des sous-sections obligatoires :        
             <ol class="lst-lwr-rmn">
