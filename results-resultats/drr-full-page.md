@@ -77,7 +77,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
  <p>[Message from the Institutional head, don't include a signature in the web version]</p><div class="clearfix"></div>
 </section>
 <section>
- <h2 id="toc02">Results - what we achieved</h2>
+ <h2 id="toc02">Results – what we achieved</h2>
 <section>
  <h3>Core responsibilities and internal services</h3>
  <ul>
@@ -711,7 +711,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference ([fiscal year] minus [fiscal year])</div></th>
       </tr>
     </thead>
@@ -935,7 +935,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">List of terms</summary>
     <dl>
-        <dt>appropriation<span lang="fr">(crédit)</span></dt>
+        <dt>appropriation <span lang="fr">(crédit)</span></dt>
         <dd>Any authority of Parliament to pay money out of the Consolidated Revenue Fund.</dd>
         <dt>budgetary expenditures <span lang="fr">(dépenses budgétaires)</span></dt>
         <dd>Operating and capital expenditures; transfer payments to other levels of government, organizations or individuals; and payments to Crown corporations. </dd>
