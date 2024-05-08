@@ -799,7 +799,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </section>  
   <section>
     <div class="table-responsive">
-      <table id="tbl9" class="table table-bordered table-condensed">
+      <table id="tbl10" class="table table-bordered table-condensed">
         <thead>
           <tr class="active">
             <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
@@ -855,7 +855,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </section>
   <section>    
     <div class="table-responsive">
-    <table id="tbl10" class="table table-bordered table-condensed">
+    <table id="tbl11" class="table table-bordered table-condensed">
       <thead>
           <tr class="active">
             <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>

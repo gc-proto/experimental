@@ -706,7 +706,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s Future-Oriented  Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
 </div>
 <p>Table [#] summarizes actual expenses and revenues which net to the cost of operations before government funding and transfers.</p>
-<div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
+<div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
@@ -739,7 +739,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 </section>
 <section><h4>Table [#] Condensed Statement of Financial Position (unaudited or audited) as of [insert date] (dollars)</h4>
 <p>Table [#] provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</p>
-<div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
+<div class="table-responsive"><table id="tbl9" class="table table-bordered table-condensed">
  <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
@@ -791,7 +791,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <p>Table [#] shows a summary of human resources, in full-time equivalents, for [Department acronym]'s core responsibilities and for its internal services for the  previous three fiscal years.</p>
 
   <div class="table-responsive">
-    <table id="tbl9" class="table table-bordered table-condensed">
+    <table id="tbl10" class="table table-bordered table-condensed">
       <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -843,7 +843,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
    <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
     <p>Table [#] shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
 <div class="table-responsive">
-  <table id="tbl10" class="table table-bordered table-condensed">
+  <table id="tbl11" class="table table-bordered table-condensed">
     <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -980,7 +980,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         <dt>result <span lang="fr">(résultat)</span></dt>
         <dd>A consequence attributed, in part, to an department, policy, program or initiative. Results are not within the control of a single department, policy, program or initiative; instead they are within the area of the department’s influence.</dd>
         <dt>Indigenous business <span lang="fr">(enterprise autochtones)</span></dt>
-        <dd>For the purpose of the <em>Directive on the Management of  Procurement Appendix E: Mandatory Procedures for Contracts Awarded to  Indigenous Businesses</em> and the Government of Canada&rsquo;s commitment that a  mandatory minimum target of 5% of the total value of contracts is awarded to  Indigenous businesses, an organization that meets the definition and  requirements as defined by the <a href="https://www.sac-isc.gc.ca/eng/1100100033057/1610797769658">Indigenous Business  Directory</a>.  </dd>
+        <dd>For the purpose of the <em>Directive on the Management of  Procurement Appendix E: Mandatory Procedures for Contracts Awarded to  Indigenous Businesses</em> and the Government of Canada&rsquo;s commitment that a  mandatory minimum target of 5% of the total value of contracts is awarded to  Indigenous businesses, an organization that meets the definition and  Arequirements as defined by the <a href="https://www.sac-isc.gc.ca/eng/1100100033057/1610797769658">Indigenous Business  Directory</a>.  </dd>
         <dt>statutory expenditures <span lang="fr">(dépenses  législatives)</span></dt>
         <dd>Expenditures that Parliament has approved through legislation other than appropriation acts. The legislation&nbsp;sets out the purpose of the expenditures and the terms and conditions under which  they may be made.</dd>
         <dt>target <span lang="fr">(cible)</span></dt>
