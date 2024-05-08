@@ -661,7 +661,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of statutory and voted spending over a six-year period</summary>
-    )
+    
     <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
     </details>
 </figure></section>
