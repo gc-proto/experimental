@@ -317,7 +317,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <li>services de gestion des finances;</li>
     <li>services de gestion de l&rsquo;information;</li>
     <li>services des technologies de l&rsquo;information;</li>
-    <li>services de gestion des biens immobiliers.</li>
+    <li>services de gestion des biens immobiliers;</li>
     <li>services de gestion du matériel;</li>
     <li>services de gestion des acquisitions.</li>
   </ul>
@@ -374,7 +374,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 <section>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Figure [#] : Dépenses réelles par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
-   <p>Le figure [#] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+   <p>La figure [#] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
@@ -459,10 +459,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </div></td>
         </tr>
       <tr class="active">
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
         </tr>
       <tr>
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
@@ -487,7 +487,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois dernières années</summary>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois derniers exercices</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
   <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
@@ -520,10 +520,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         </tr>
       <tr class="active">
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></th>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
         </tr>
       <tr>
         <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
@@ -541,7 +541,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </table>
 </div>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses pour les trois prochaines années</summary>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois prochains exercices</summary>
   <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
   </details>
     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
@@ -576,10 +576,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     </tr>
     <tr class="active">
-    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+    <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></th>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+    <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
     </tr>
     <tr>
     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
@@ -610,8 +610,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <h3 id="toc03-2">Financement</h3>
   <p>Cette section présente  un aperçu du financement voté et législatif du ministère par rapport à ses responsabilités  essentielles et à ses services internes. Pour en savoir plus sur les autorisations  de financement, consulter les <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/budgets-depenses.html">budgets  et dépenses du gouvernement du Canada</a>.</p>
 <section><figure id="fig2">
-  <figcaption class="text-left h4"><strong>Figure [#] : Financement approuvé (législatif et voté) pour une période de six ans</strong></figcaption>
-  <p>Le figure [#] résume le financement voté et législatif du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
+  <figcaption class="text-left h4"><strong>Figure [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong></figcaption>
+  <p>La figure [#] résume le financement voté et législatif du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
   <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -822,10 +822,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             </tr>
           <tr class="active">
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
           </tr>
           <tr>
             <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
@@ -878,10 +878,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             </tr>
           <tr class="active">
-            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Sous-total</div></th>
-            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
-            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le sous-total]</div></td>
+            <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></th>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+            <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
           </tr>
           <tr>
             <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>

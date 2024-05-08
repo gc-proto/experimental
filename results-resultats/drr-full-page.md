@@ -291,7 +291,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <li><a href="#toc02-4-1">Description</a></li>
   <li><a href="#toc02-4-2">Progress on results</a></li>
   <li><a href="#toc02-4-3">Resources required to achieve results</a></li>
-  <li><a href="#toc02-4-x">[PLACEHOLDER for any additional government priorities]</a></li>
+  <li>[PLACEHOLDER for any additional government priorities]</li>
   </ul>
  </details>
 </li>
