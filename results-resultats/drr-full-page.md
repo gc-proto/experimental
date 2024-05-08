@@ -371,7 +371,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
-
     <div class="table-responsive">
      <table class="table table-bordered table-condensed">
      <thead>
@@ -551,9 +550,9 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
    <thead>
     <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual gross spending</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual revenues netted against expenditures</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual net spending (authorities used)</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual gross spending</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual revenues netted against expenditures</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual net spending (authorities used)</div></th>
     </tr>
    </thead>
    <tbody>
@@ -610,7 +609,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
-    
     <div class="table-responsive">
       <table class="table table-bordered table-condensed">
         <thead>
@@ -679,8 +677,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference (Actual results minus planned)</div></th>
       </tr>
     </thead>
@@ -704,14 +702,16 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       </tr>
   </tbody>
-</table></div>
-<p>Table [#] summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</p>
+</table>
+  <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s Future-Oriented  Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
+</div>
+<p>Table [#] summarizes actual expenses and revenues which net to the cost of operations before government funding and transfers.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Planned results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference ([fiscal year] minus [fiscal year])</div></th>
       </tr>
     </thead>
@@ -736,7 +736,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       </tr>
   </tbody>
 </table></div>
-  <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s Future-Oriented  Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
 </section>
 <section><h4>Table [#] Condensed Statement of Financial Position (unaudited or audited) as of [insert date] (dollars)</h4>
 <p>Table [#] provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</p>
@@ -796,9 +795,9 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual full-time equivalents</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual full-time equivalents</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Actual full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual full-time equivalents</div></th>
           </tr>
         </thead>
       <tbody>
@@ -842,15 +841,15 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 </section>
   <section>
    <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
-    <p>Table [#] shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for  its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
+    <p>Table [#] shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
 <div class="table-responsive">
   <table id="tbl10" class="table table-bordered table-condensed">
     <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Planned full-time equivalents</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Planned full-time equivalents</div></th>
-          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Planned full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned full-time equivalents</div></th>
+          <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned full-time equivalents</div></th>
           </tr>
         </thead>
       <tbody>
@@ -928,70 +927,66 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   </ul>
 </section>
 <section>
- <h2 id="toc06">Federal tax expenditures </h2>
- <p>The tax system can be used to achieve  public policy objectives through the application of special measures such as  low tax rates, exemptions, deductions, deferrals and credits. The Department of  Finance Canada publishes cost estimates and projections for these measures each  year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report  on Federal Tax Expenditures</a>. This report also provides detailed background  information on tax expenditures, including descriptions, objectives, historical  information and references to related federal spending programs as well as  evaluations and GBA Plus of tax expenditures.</p>
+ <h2 id="toc06">Federal tax expenditures</h2>
+ <p>The tax system can be used to achieve public policy objectives through the application of special measures such as  low tax rates, exemptions, deductions, deferrals and credits. The Department of Finance Canada publishes cost estimates and projections for these measures each  year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>. This report also provides detailed background information on tax expenditures, including descriptions, objectives, historical  information and references to related federal spending programs as well as  evaluations and GBA Plus of tax expenditures.</p>
 </section>
 <section>
  <h2 id="toc07">Definitions </h2>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">List of terms</summary>
     <dl>
-        <dt>appropriation <span lang="fr">(crédit)</span></dt>
-        <dd>Any authority of  Parliament to pay money out of the Consolidated Revenue Fund. </dd>
-        <dt>budgetary expenditures <span lang="fr">(dépenses budgétaires) </span></dt>
-        <dd>Operating and capital  expenditures; transfer payments to other levels of government, organizations or  individuals; and payments to Crown corporations. </dd>
+        <dt>appropriation<span lang="fr">(crédit)</span></dt>
+        <dd>Any authority of Parliament to pay money out of the Consolidated Revenue Fund.</dd>
+        <dt>budgetary expenditures <span lang="fr">(dépenses budgétaires)</span></dt>
+        <dd>Operating and capital expenditures; transfer payments to other levels of government, organizations or individuals; and payments to Crown corporations. </dd>
         <dt>core responsibility <span lang="fr">(responsabilité essentielle) </span></dt>
         <dd>An enduring function  or role performed by a department. The intentions of the department with  respect to a core responsibility are reflected in one or more related  departmental results that the department seeks to contribute to or influence. </dd>
         <dt>Departmental Plan <span lang="fr">(plan ministériel)</span></dt>
-        <dd>A document that sets  out a department&rsquo;s priorities, programs, expected results and associated  resource requirements, covering a threeyear period beginning with the year  indicated in the title of the report. Departmental Plans are tabled in  Parliament each spring. </dd>
+        <dd>A report on the plans and expected performance of an appropriated department over a 3 year period. Departmental Plans are usually tabled in Parliament each spring.</dd>
          <dt>departmental priority <span lang="fr">(priorité)</span></dt>
         <dd>A plan or project that a department has chosen to focus and report on during the planning period. Priorities represent the things that are most important or what must be done first to support the achievement of the desired departmental results.</dd>
         <dt>departmental result <span lang="fr">(résultat ministériel) </span></dt>
-        <dd>A change that a  department seeks to influence. A departmental result is often outside  departments&rsquo; immediate control, but it should be influenced by program-level  outcomes. </dd>
+        <dd>A consequence or outcome that a department seeks to achieve. A departmental result is often outside departments’ immediate control, but it should be influenced by program-level outcomes.</dd>
         <dt>departmental result indicator <span lang="fr">(indicateur de résultat  ministériel) </span></dt>
-        <dd>A factor or variable  that provides a valid and reliable means to measure or describe progress on a  departmental result. </dd>
+        <dd>A quantitative measure of progress on a departmental result.</dd>
         <dt>departmental results framework <span lang="fr">(cadre ministériel des  résultats) </span></dt>
         <dd>A framework that  consists of the department&rsquo;s core responsibilities, departmental results and  departmental result indicators. </dd>
         <dt>Departmental Results Report <span lang="fr">(rapport sur les résultats  ministériels)</span></dt>
-        <dd>A report on a  department&rsquo;s actual performance in a fiscal year against its plans, priorities  and expected results set out in its Departmental Plan for that year.  Departmental Results Reports are usually tabled in Parliament each fall. </dd>
+        <dd>A report on a department’s actual accomplishments against the plans, priorities and expected results set out in the corresponding Departmental Plan. </dd>
         <dt>fulltime equivalent <span lang="fr">(équivalent temps plein) </span></dt>
-        <dd>A measure of the  extent to which an employee represents a full personyear charge against a  departmental budget. Fulltime equivalents are calculated as a ratio of assigned  hours of work to scheduled hours of work. Scheduled hours of work are set out  in collective agreements. </dd>
+        <dd>A measure of the extent to which an employee represents a full person year charge against a departmental budget. For a particular position, the fulltime equivalent figure is the ratio of number of hours the person actually works divided by the standard number of hours set out in the person’s collective agreement.</dd>
         <dt>gender-based analysis plus (GBA Plus) <span lang="fr">(analyse comparative  entre les sexes plus&nbsp;[ACS&nbsp;Plus])</span></dt>
-        <dd>An analytical tool  used to support the development of responsive and inclusive policies, programs  and other initiatives. GBA Plus is a process for understanding who is impacted  by the issue or opportunity being addressed by the initiative; identifying how  the initiative could be tailored to meet diverse needs of the people most  impacted; and anticipating and mitigating any barriers to accessing or  benefitting from the initiative. GBA Plus is an intersectional analysis that  goes beyond biological (sex) and socio-cultural (gender) differences to  consider other factors, such as age, disability, education, ethnicity, economic  status, geography, language, race, religion, and sexual orientation. </dd>
+        <dd>An analytical tool used to assess support the development of responsive and inclusive how different groups of women, men and gender-diverse people experience policies, programs and policies, programs, and other initiatives. GBA Plus is a process for understanding who is impacted by the issue or opportunity being addressed by the initiative; identifying how the initiative could be tailored to meet diverse needs of the people most impacted; and anticipating and mitigating any barriers to accessing or benefitting from the initiative. GBA Plus is an intersectional analysis that goes beyond biological (sex) and socio-cultural (gender) differences to consider other factors, such as age, disability, education, ethnicity, economic status, geography (including rurality), language, race, religion, and sexual orientation.</dd>
         <dt>government-wide priorities <span lang="fr">(priorités pangouvernementales)</span></dt>
-        <dd>For the purpose of the   Departmental Results Report, government-wide priorities are the  high-level themes outlining the government&rsquo;s agenda in the <a href="#">[Month, day,  year]: Speech from the throne</a> [insert hyperlink to the speech] building a healthier today and  tomorrow; growing a more resilient economy; bolder climate action; fighter  harder for safer communities; standing up for diversity and inclusion; moving  faster on the path to reconciliation; and fighting for a secure, just and  equitable world.
+        <dd>For the purpose of the Departmental Results Report, government-wide priorities are the  high-level themes outlining the government&rsquo;s agenda in the <a href="#">[Month, day,  year]: Speech from the throne</a> [insert hyperlink to the speech] building a healthier today and  tomorrow; growing a more resilient economy; bolder climate action; fighter  harder for safer communities; standing up for diversity and inclusion; moving  faster on the path to reconciliation; and fighting for a secure, just and  equitable world.
 </dd>
-        <dt>Indigenous business</dt>
-        <dd>As defined on the <a href="https://services.sac-isc.gc.ca/REA-IBD">Indigenous Services Canada  website</a> in accordance with the Government of Canada&rsquo;s commitment that a  mandatory minimum target of 5% of the total value of contracts is awarded to  Indigenous businesses annually. </dd>
         <dt>horizontal initiative <span lang="fr">(initiative  horizontale)</span></dt>
-        <dd>An initiative where two or more federal  organizations are given funding to pursue a shared outcome, often linked to a  government priority. </dd>
+        <dd>An initiative where two or more federal departments are given funding to pursue a shared outcome, often linked to a government priority.</dd>
         <dt>non‑budgetary expenditures <span lang="fr">(dépenses non budgétaires)</span></dt>
-        <dd>Net outlays and receipts related to loans,  investments and advances, which change the composition of the financial assets  of the Government of Canada.</dd>
+        <dd>Net outlays and receipts related to loans, investments and advances, which change the composition of the financial assets of the Government of Canada.</dd>
         <dt>performance <span lang="fr">(rendement)</span></dt>
         <dd>What an organization did with its resources  to achieve its results, how well those results compare to what the organization  intended to achieve, and how well lessons learned have been identified.</dd>
         <dt>performance indicator <span lang="fr">(indicateur de rendement)</span></dt>
-        <dd>A qualitative or quantitative means of  measuring an output or outcome, with the intention of gauging the performance  of an organization, program, policy or initiative respecting expected results.</dd>
-        <dt>performance reporting <span lang="fr">(production de rapports sur le rendement)</span></dt>
-        <dd>The process of communicating evidence‑based  performance information. Performance reporting supports decision making,  accountability and transparency.</dd>
+        <dd>A qualitative or quantitative means of measuring an output or outcome, with the intention of gauging the performance of an department, program, policy or initiative respecting expected results.</dd>
         <dt>plan <span lang="fr">(plan)</span></dt>
-        <dd>The articulation of strategic choices,  which provides information on how an organization intends to achieve its  priorities and associated results. Generally, a plan will explain the logic  behind the strategies chosen and tend to focus on actions that lead to the  expected result.</dd>
+        <dd>The articulation of strategic choices,  which provides information on how an organization intends to achieve its priorities and associated results. Generally, a plan will explain the logic behind the strategies chosen and tend to focus on actions that lead to the  expected result.</dd>
         <dt>planned spending <span lang="fr">(dépenses  prévues)</span></dt>
         <dd><p>For Departmental Plans and Departmental  Results Reports, planned spending refers to those amounts presented in Main  Estimates.</p>
         <p>A department is expected to be aware of the  authorities that it has sought and received. The determination of planned  spending is a departmental responsibility, and departments must be able to  defend the expenditure and accrual numbers presented in their Departmental  Plans and Departmental Results Reports.</p></dd>
         <dt>program <span lang="fr">(programme)</span></dt>
-        <dd>Individual or groups of services,  activities or combinations thereof that are managed together within the  department and focus on a specific set of outputs, outcomes or service levels.</dd>
+        <dd>Individual or groups of services, activities or combinations thereof that are managed together within the department and focus on a specific set of outputs, outcomes or service levels.</dd>
         <dt>program inventory <span lang="fr">(répertoire des programmes)</span></dt>
-        <dd>Identifies all the department&rsquo;s programs  and describes how resources are organized to contribute to the department&rsquo;s  core responsibilities and results.</dd>
+        <dd>Identifies all the department&rsquo;s programs and describes how resources are organized to contribute to the department&rsquo;s  core responsibilities and results.</dd>
         <dt>result <span lang="fr">(résultat)</span></dt>
-        <dd>A consequence attributed, in part, to an  organization, policy, program or initiative. Results are not within the control  of a single organization, policy, program or initiative; instead they are  within the area of the organization&rsquo;s influence.</dd>
+        <dd>A consequence attributed, in part, to an department, policy, program or initiative. Results are not within the control of a single department, policy, program or initiative; instead they are within the area of the department’s influence.</dd>
         <dt>Indigenous business <span lang="fr">(enterprise autochtones)</span></dt>
         <dd>For the purpose of the <em>Directive on the Management of  Procurement Appendix E: Mandatory Procedures for Contracts Awarded to  Indigenous Businesses</em> and the Government of Canada&rsquo;s commitment that a  mandatory minimum target of 5% of the total value of contracts is awarded to  Indigenous businesses, an organization that meets the definition and  requirements as defined by the <a href="https://www.sac-isc.gc.ca/eng/1100100033057/1610797769658">Indigenous Business  Directory</a>.  </dd>
         <dt>statutory expenditures <span lang="fr">(dépenses  législatives)</span></dt>
-        <dd>Expenditures that Parliament has approved  through legislation other than appropriation acts. The legislation&nbsp;sets  out the purpose of the expenditures and the terms and conditions under which  they may be made.</dd>
+        <dd>Expenditures that Parliament has approved through legislation other than appropriation acts. The legislation&nbsp;sets out the purpose of the expenditures and the terms and conditions under which  they may be made.</dd>
         <dt>target <span lang="fr">(cible)</span></dt>
-        <dd>A measurable performance or success level  that an organization, program or initiative plans to achieve within a specified  time period. Targets can be either quantitative or qualitative.</dd>
+        <dd>A measurable performance or success level that an organization, program or initiative plans to achieve within a specified time period. Targets can be either quantitative or qualitative.</dd>
         <dt>voted expenditures <span lang="fr">(dépenses votées)</span></dt>
-        <dd>Expenditures  that Parliament approves annually through an appropriation act. The vote  wording becomes the governing conditions under which these expenditures may be  made.</dd>
+        <dd>Expenditures that Parliament approves annually through an appropriation act. The vote wording becomes the governing conditions under which these expenditures may be made.</dd>
     </dl>
   </details>
  
