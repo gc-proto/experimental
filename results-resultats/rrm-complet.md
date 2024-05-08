@@ -744,7 +744,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </table></div>
 </section>
 <section><h4>Tableau [#] État condensé de la situation financière (audité ou non) au [insérer la date] (en dollars)</h4>
-<p>Le tableau [#] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède),du ministère, qui aident à déterminer la capacité de celui ci à mettre en œuvre des programmes et des services.</p>
+<p>Le tableau [#] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), du ministère, qui aident à déterminer la capacité de celui ci à mettre en œuvre des programmes et des services.</p>
 <div class="table-responsive"><table id="tbl9" class="table table-bordered table-condensed">
  <thead>
   <tr class="active">
