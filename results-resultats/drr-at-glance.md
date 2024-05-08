@@ -53,7 +53,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                 <li>[insert Bulleted list  item 2]</li>
                 <li>[insert Bulleted list  item 3]</li>
               </ul>
-        <p>More information about [name of core responsibility]  can be found in the <a href="#">Results achieved for core responsibilities and internal services</a> [hyperlink to full plan, core responsibility 1, progress on results section] section of the full Departmental  Results Report.</p> </section>
+        <p>More information about [name of core responsibility]  can be found in the <a href="#">Results – what we achieved </a> [hyperlink to full plan, core responsibility 1, progress on results section] section of the full Departmental  Results Report.</p> </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
@@ -66,7 +66,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                 <li>[insert Bulleted list  item 2]</li>
                 <li>[insert Bulleted list  item 3]</li>
               </ul>
-        <p>More information about [name of core responsibility]  can be found in the <a href="#">Results achieved for core responsibilities and internal services</a> [hyperlink to full plan, core responsibility 2, progress on results section] section of the full Departmental  Results Report.</p> </section>
+        <p>More information about [name of core responsibility]  can be found in the <a href="#">Results – what we achieved </a> [hyperlink to full plan, core responsibility 2, progress on results section] section of the full Departmental  Results Report.</p> </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
@@ -79,7 +79,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                 <li>[insert Bulleted list  item 2]</li>
                 <li>[insert Bulleted list  item 3]</li>
               </ul>
-        <p>More information about [name of core responsibility]  can be found in the <a href="#">Results achieved for core responsibilities and internal services</a> [hyperlink to full plan, core responsibility 3, progress on results section] section of the full Departmental  Results Report.</p> </section>
+        <p>More information about [name of core responsibility]  can be found in the <a href="#">Results – what we achieved </a> [hyperlink to full plan, core responsibility 3, progress on results section] section of the full Departmental  Results Report.</p> </section>
       </details>
     </section>
   </section>
