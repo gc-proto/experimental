@@ -53,7 +53,7 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
                 <li>Élément 2 de la liste à puces</li>
                 <li>Élément 3 de la liste à puces</li>
               </ul>
-        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats obtenus relativement  aux responsabilités essentielles et aux services internes&nbsp;» du rapport  complet sur les résultats ministériels.</p>
+        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations&nbsp;» du rapport  complet sur les résultats ministériels.</p>
         </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -67,7 +67,7 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
                 <li>Élément 2 de la liste à puces</li>
                 <li>Élément 3 de la liste à puces</li>
               </ul>
-        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats obtenus relativement  aux responsabilités essentielles et aux services internes&nbsp;» du rapport  complet sur les résultats ministériels.</p> </section>
+        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer le nom de la responsabilité essentielle.]</summary>
@@ -80,7 +80,7 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
                 <li>Élément 2 de la liste à puces</li>
                 <li>Élément 3 de la liste à puces</li>
               </ul>
-        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats obtenus relativement  aux responsabilités essentielles et aux services internes&nbsp;» du rapport  complet sur les résultats ministériels.</p> </section>
+        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> </section>
       </details>
     </section>
   </section>
