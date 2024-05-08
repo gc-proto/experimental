@@ -679,7 +679,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference (Actual results minus planned)</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference</div></th>
       </tr>
     </thead>
   <tbody>
@@ -705,14 +705,14 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 </table>
   <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s Future-Oriented  Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
 </div>
-<p>Table [#] summarizes actual expenses and revenues which net to the cost of operations before government funding and transfers.</p>
+<p><h4>Table [#] summarizes actual expenses and revenues which net to the cost of operations before government funding and transfers.</h4></p>
 <div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference ([fiscal year] minus [fiscal year])</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference</div></th>
       </tr>
     </thead>
   <tbody>
@@ -835,7 +835,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       </table>
   </div>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of actual human resources required over the past three years</summary>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of human resources over the last three years</summary>
     <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
     </details>
 </section>
@@ -887,7 +887,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </table>
 </div>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of human resources planned for the next three years</summary>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of human resources for the next three years</summary>
     <p>[Insert narrative that  explains significant trends. Include any footnotes.]</p>
     </details>
   </section>
@@ -958,7 +958,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         <dt>gender-based analysis plus (GBA Plus) <span lang="fr">(analyse comparative  entre les sexes plus&nbsp;[ACS&nbsp;Plus])</span></dt>
         <dd>An analytical tool used to assess support the development of responsive and inclusive how different groups of women, men and gender-diverse people experience policies, programs and policies, programs, and other initiatives. GBA Plus is a process for understanding who is impacted by the issue or opportunity being addressed by the initiative; identifying how the initiative could be tailored to meet diverse needs of the people most impacted; and anticipating and mitigating any barriers to accessing or benefitting from the initiative. GBA Plus is an intersectional analysis that goes beyond biological (sex) and socio-cultural (gender) differences to consider other factors, such as age, disability, education, ethnicity, economic status, geography (including rurality), language, race, religion, and sexual orientation.</dd>
         <dt>government-wide priorities <span lang="fr">(priorités pangouvernementales)</span></dt>
-        <dd>For the purpose of the Departmental Results Report, government-wide priorities are the  high-level themes outlining the government&rsquo;s agenda in the <a href="#">[Month, day,  year]: Speech from the throne</a> [insert hyperlink to the speech] building a healthier today and  tomorrow; growing a more resilient economy; bolder climate action; fighter  harder for safer communities; standing up for diversity and inclusion; moving  faster on the path to reconciliation; and fighting for a secure, just and  equitable world.
+        <dd>For the purpose of the Departmental Results Report, government-wide priorities are the  high-level themes outlining the government&rsquo;s agenda in the <a href="#">[Month, day,  year]: Speech from the throne</a> [insert hyperlink to the speech] building a healthier today and  tomorrow; growing a more resilient economy; bolder climate action; fighting  harder for safer communities; standing up for diversity and inclusion; moving  faster on the path to reconciliation; and fighting for a secure, just and  equitable world.
 </dd>
         <dt>horizontal initiative <span lang="fr">(initiative  horizontale)</span></dt>
         <dd>An initiative where two or more federal departments are given funding to pursue a shared outcome, often linked to a government priority.</dd>
