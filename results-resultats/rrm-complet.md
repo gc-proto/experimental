@@ -117,7 +117,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
               <p>Le tableau [#] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
               <div class="table-responsive">
                 <table id="tbl1-1" class="table table-bordered table-condensed">
-                  <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 1 du [ministère]</caption>
+                  <caption class="h5 text-left">Tableau 1.1 : Résultat 1 du [ministère]</caption>
                   <thead>
                     <tr class="active">
                       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultat ministériel</div></th>
@@ -160,7 +160,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
               </div>
               <div class="table-responsive">
               <table id="tbl1-2" class="table table-bordered table-condensed">
-                <caption class="h5 text-left table-bordered mrgn-bttm-0 mrgn-tp-0 bg-dark bg-primary pl-2 pr-2">Résultat 2 du [ministère]</caption>
+                <caption class="h5 text-left">Tableau 1.2 : Résultat 2 du [ministère]</caption>
                   <thead>
                     <tr class="active">
                       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultat ministériel</div></th>
