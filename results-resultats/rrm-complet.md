@@ -240,6 +240,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       <section>
         <h5>Tableau [#] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
         <p>Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
+        <div class="table-responsive">
         <table id="tbl2" class="table table-bordered table-condensed">
             <thead>
               <tr class="active">
@@ -261,6 +262,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
               </tr>
             </tbody>
         </table>
+        </div>
       <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
   </section>
 </section>
@@ -331,6 +333,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  </section>
  <h5>Tableau [#] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
 <p>Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
+<div class="table-responsive">
 <table id="tbl3" class="table table-bordered table-condensed">
       <thead>
             <tr class="active">
@@ -352,6 +355,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             </tr>
       </tbody>
 </table>
+</div>
         <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 <section>
  <h2 id="toc03">Dépenses et ressources humaines </h2>

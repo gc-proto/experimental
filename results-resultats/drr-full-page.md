@@ -230,6 +230,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
    <h4 id="toc02-1-4">Resources required to achieve results </h4>
   <section><h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
+<div class="table-responsive">
 <table id="tbl2" class="table table-bordered table-condensed">
             <thead>
 <tr class="active">
@@ -251,6 +252,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
+        </div>
         <p>[Hyperlink to the related information on GC Infobase]</p></section>
       </section>
  <section>
@@ -320,6 +322,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <h4 id="toc02-4-3">Resources required to achieve results</h4>
   <section><h5>Table [#]: Resources required to achieve results for internal services this year</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
+<div class="table-responsive">
 <table id="tbl3" class="table table-bordered table-condensed">
             <thead>
 <tr class="active">
@@ -341,6 +344,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             </tr>
 </tbody>
         </table>
+        </div>
         <p>[Hyperlink to the related information on GC Infobase]</p>
 </section>
  </section>
