@@ -14,8 +14,8 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
     <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
   <p>Un rapport sur les résultats ministériels  fournit un compte rendu des réalisations réelles par rapport aux plans, aux  priorités et aux résultats attendus énoncés dans le <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html">plan ministériel</a> connexe&nbsp;[hyperlien menant vers le plan ministériel].</p>
 <ul>
-  <li><a href="#">Vision,  mission, raison d&rsquo;être et contexte opérationnel</a></li>
-  <li><a href="#">Lettre  de mandat du/de la ministre</a></li>
+  <li>Vision,  mission, raison d&rsquo;être et contexte opérationnel</li>
+  <li>Lettre  de mandat du/de la ministre</li>
   </ul> 
 
  
