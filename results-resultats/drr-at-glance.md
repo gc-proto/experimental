@@ -15,7 +15,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
   <p>A departmental results report provides an account of actual accomplishments against plans, priorities and expected results set out in the associated <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental Plan</a>.</p>
 <ul>
     <li>Vision, mission, raison d&#8217;être and operating context</li>
-    <li>Minister's mandate letter</li>
+    <li>Minister’s mandate letter (optional)</li>
   </ul> 
 
  
@@ -47,7 +47,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
         <section>
             <p><strong>Actual spending:</strong> [Insert amount]</p>
             <p><strong>Actual human resources:</strong> [Insert number]</p>
-            <p><strong>Departmental results achieved:</strong></p>
+            <p><strong>Results: What we achieved:</strong></p>
               <ul>
                 <li>[insert Bulleted list  item 1]</li>
                 <li>[insert Bulleted list  item 2]</li>
@@ -60,7 +60,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
         <section>
             <p><strong>Actual spending:</strong> [Insert amount]</p>
             <p><strong>Actual human resources:</strong> [Insert number]</p>
-            <p><strong>Departmental results achieved:</strong></p>
+            <p><strong>Results: What we achieved:</strong></p>
               <ul>
                 <li>[insert Bulleted list  item 1]</li>
                 <li>[insert Bulleted list  item 2]</li>
