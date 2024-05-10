@@ -24,7 +24,10 @@ title: "Rapport sur les résultats ministériels"
     <p>Utilisez ce  gabarit pour publier le rapport sur les résultats ministériels officiel de  votre ministère  sur Canada.ca 2&nbsp;heures après son dépôt. La mise en page assure une expérience uniforme pour les  utilisateurs et utilisatrices qui cherchent des renseignements précis dans le  rapport.</p>
     </section>
     <section><h2 id="toc02">Quoi éviter</h2>
-  <p>Évitez de  vous éloigner des spécifications du contenu, notamment les en-têtes, les sous-en-têtes,  les descriptions de texte et les explications de tableau.</p>
+    <ul>
+  <li>Évitez de  vous éloigner des spécifications du contenu, notamment les en-têtes, les sous-en-têtes,  les descriptions de texte et les explications de tableau.</li>
+  <li>Les infographies du rapport doivent être conformes aux normes d’accessibilité et être optimisées pour les appareils mobiles.</li>
+  </ul>
 </section>
     <section><h2 id="toc03">Contenu et conception</h2>
     <p>La  présentation du rapport sur les résultats ministériels se fait sur 2&nbsp;pages.  Chaque page s&rsquo;adresse à un public ayant différents niveaux d&rsquo;expertise.</p>

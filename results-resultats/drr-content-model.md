@@ -23,7 +23,11 @@ title: "Departmental Results Report"
     <section><h2 id="toc01">When to use</h2>
     <p>Use this template for publishing your department&rsquo;s  official DRR on Canada.ca 2 hours after tabling. The layout ensures a  consistent experience for users looking for specific information in the report.</p></section>
     <section><h2 id="toc02">What to avoid</h2>
-    <p>Don&rsquo;t deviate from content specifications,  such as headers, sub-headers, text descriptions and table explanations. </p></section>
+    <ul>
+    <li>Don&rsquo;t deviate from content specifications, such as headers, sub-headers, text descriptions and table explanations. </li>
+    <li>Avoid adding infographics to the report unless they follow accessibility requirements and are mobile-friendly.</li>
+    </ul>
+    </section>
     <section><h2 id="toc03">Content and design</h2>
     <p>The DRR follows a 2-page layout. Each page  targets an audience with different levels of subject matter expertise.</p>
     <p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2024-25_Departmental_Plan" role="button">Templates  for content writers</a> (only available on a government network, GCpedia)</p>
