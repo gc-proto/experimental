@@ -676,8 +676,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <h3 id="toc03-3">Financial statement highlights</h3>
   <p>[Department&rsquo;s acronym]&rsquo;s complete financial  statements [link to department&rsquo;s financial  statement] (unaudited or audited) for the year ended [insert date] are available online.  </p>
 <section><h4>Table [#]: Condensed Statement of Operations (unaudited or audited) for the year ended [insert date] (dollars)</h4>
-<p>Table [#] summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</p>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
+<caption class="h5 text-left">Table 1.1: summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
@@ -709,8 +709,9 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 </table>
   <p>The [insert fiscal year] planned results information is  provided in [Department acronym]'s Future-Oriented  Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
 </div>
-<p><h4>Table [#] summarizes actual expenses and revenues which net to the cost of operations before government funding and transfers.</h4></p>
-<div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
+<div class="table-responsive">
+<table id="tbl8" class="table table-bordered table-condensed">
+<caption class="h5 text-left">Table 1.2: summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
