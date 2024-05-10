@@ -117,7 +117,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
               <p>Le tableau [#] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
               <div class="table-responsive">
                 <table id="tbl1-1" class="table table-bordered table-condensed">
-                  <caption class="h5 text-left">Tableau 1.1 : Résultat 1 du [ministère]</caption>
+                  <caption class="h5 text-left">Tableau [#.1] : Résultat 1 du [ministère]</caption>
                   <thead>
                     <tr class="active">
                       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultat ministériel</div></th>
@@ -160,7 +160,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
               </div>
               <div class="table-responsive">
               <table id="tbl1-2" class="table table-bordered table-condensed">
-                <caption class="h5 text-left">Tableau 1.2 : Résultat 2 du [ministère]</caption>
+                <caption class="h5 text-left">Tableau [#.2] : Résultat 2 du [ministère]</caption>
                   <thead>
                     <tr class="active">
                       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultat ministériel</div></th>
@@ -682,9 +682,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <section>
   <h3 id="toc03-3">Faits saillants des états financiers</h3>
   <p>Les états financiers de [l'acronym du ministère] (audités ou non) pour l’exercice terminé le [insérer la date] sont publiés sur le site Web du ministère [lien menant vers les états financiers du ministère].</p>
-<section><h4>Tableau [insérer le numéro] : État condensé des résultats (audité ou non) terminé [insérer la date] (en dollars) </h4>
-<p><h4>Le tableau [#] résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</h4></p>
+<section><h4>Tableau [#] : État condensé des résultats (audité ou non) terminé [insérer la date] (en dollars) </h4>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
+<caption class="h5 text-left">Tableau [#.1] : résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
@@ -715,13 +715,14 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </tbody>
 </table></div>
 <p>Les renseignements sur les résultats prévus pour [exercice] proviennent de l’état des résultats prospectif et les notes de [exercice] de [l'acronym du ministère] [lien menant vers l’état des résultats prospectif du ministère].</p>
-<p>Le tableau [#] résume les charges et les revenus réelles affectant le coût de fonctionnement avant le financement du gouvernement et les transferts.  </p>
-<div class="table-responsive"><table id="tbl8" class="table table-bordered table-condensed">
+<div class="table-responsive">
+<table id="tbl8" class="table table-bordered table-condensed">
+<caption class="h5 text-left">Tableau [#.2] : résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels [exercice]</div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats prévus [exercice]</div></th>
      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence ([exercise] moins [exercise])</div></th>
       </tr>
     </thead>
