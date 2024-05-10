@@ -677,7 +677,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <p>[Department&rsquo;s acronym]&rsquo;s complete financial  statements [link to department&rsquo;s financial  statement] (unaudited or audited) for the year ended [insert date] are available online.  </p>
 <section><h4>Table [#]: Condensed Statement of Operations (unaudited or audited) for the year ended [insert date] (dollars)</h4>
 <div class="table-responsive"><table id="tbl7" class="table table-bordered table-condensed">
-<caption class="h5 text-left">Table 1.1: summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</caption>
+<caption class="text-left">Table 1.1: summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
@@ -711,7 +711,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 </div>
 <div class="table-responsive">
 <table id="tbl8" class="table table-bordered table-condensed">
-<caption class="h5 text-left">Table 1.2: summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</caption>
+<caption class="text-left">Table 1.2: summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
