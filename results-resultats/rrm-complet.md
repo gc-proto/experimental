@@ -69,7 +69,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <figure> 
       <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
         <figcaption class="text-center small"> 
-        <p class="mrgn-bttm-0"><strong>L’honorable [Nom de l’administrateur général/de l’administratrice générale]</strong></p>
+        <p class="mrgn-bttm-0"><strong>[Nom de l’administrateur général/de l’administratrice générale]</strong></p>
         <p>[titre du poste]</p> 
         </figcaption> 
     </figure> 
@@ -756,7 +756,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Exercice en cours [exercice]</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Exercice précédent [exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence ([exercise] moins [exercise])</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence ([exercise en cours] moins [exercise precedent])</div></th>
    </tr>
  </thead>
  <tbody>
@@ -810,7 +810,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
             <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
             <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
-            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein réels [exercice]</div></th>
+            <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div></th>
             </tr>
           </thead>
         <tbody>
