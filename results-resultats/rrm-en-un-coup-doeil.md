@@ -49,9 +49,9 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
             <p><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</p>
             <p><strong>Résultats : Nos réalisations :</strong></p>
               <ul>
-                <li>[Élément 1 de la liste à puces]</li>
-                <li>[Élément 2 de la liste à puces]</li>
-                <li>[Élément 3 de la liste à puces]</li>
+                <li>[Élément 1 de la liste à puces];</li>
+                <li>[Élément 2 de la liste à puces];</li>
+                <li>[Élément 3 de la liste à puces].</li>
               </ul>
         <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations&nbsp;» du rapport  complet sur les résultats ministériels.</p>
         </section>
@@ -63,9 +63,9 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
             <p><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</p>
             <p><strong>Résultats : Nos réalisations :</strong></p>
               <ul>
-                <li>[Élément 1 de la liste à puces]</li>
-                <li>[Élément 2 de la liste à puces]</li>
-                <li>[Élément 3 de la liste à puces]</li>
+                <li>[Élément 1 de la liste à puces];</li>
+                <li>[Élément 2 de la liste à puces];</li>
+                <li>[Élément 3 de la liste à puces].</li>
               </ul>
         <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> </section>
       </details>
@@ -76,9 +76,9 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
             <p><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</p>
             <p><strong>Résultats : Nos réalisations :</strong></p>
               <ul>
-                <li>[Élément 1 de la liste à puces]</li>
-                <li>[Élément 2 de la liste à puces]</li>
-                <li>[Élément 3 de la liste à puces]</li>
+                <li>[Élément 1 de la liste à puces];</li>
+                <li>[Élément 2 de la liste à puces];</li>
+                <li>[Élément 3 de la liste à puces].</li>
               </ul>
         <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> </section>
       </details>
