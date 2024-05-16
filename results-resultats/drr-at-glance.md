@@ -73,7 +73,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
         <section>
             <p><strong>Actual spending:</strong> [Insert amount]</p>
             <p><strong>Actual human resources:</strong> [Insert number]</p>
-            <p><strong>Departmental results achieved:</strong></p>
+            <p><strong>Results - What we achieved:</strong></p>
               <ul>
                 <li>[insert Bulleted list  item 1]</li>
                 <li>[insert Bulleted list  item 2]</li>
