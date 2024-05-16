@@ -26,7 +26,7 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
   <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
     <h2>Principales priorités</h2>
-    <p>Les principales priorités de [nom du ministère] pour [insérer l’exercice] sont les suivantes :</p>
+    <p>Les principales priorités de [nom du ministère] pour [insérer l’exercice] étaient les suivantes :</p>
     <ul>
       <li>[élément&nbsp;1 de la liste à puces]; </li>
       <li>[élément&nbsp;2 de la liste à puces]; </li>
