@@ -53,7 +53,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                 <li>[insert Bulleted list  item 2]</li>
                 <li>[insert Bulleted list  item 3]</li>
               </ul>
-        <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 1, progress on results section] can be found in the ‘Results - What we achieved” section of the full departmental results report.</p> </section>
+        <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 1, progress on results section] can be found in the "Results - What we achieved” section of the full departmental results report.</p> </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
@@ -66,7 +66,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                 <li>[insert Bulleted list  item 2]</li>
                 <li>[insert Bulleted list  item 3]</li>
               </ul>
-        <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 2, progress on results section] can be found in the ‘Results - What we achieved” section of the full departmental results report.</p> </section>
+        <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 2, progress on results section] can be found in the "Results - What we achieved” section of the full departmental results report.</p> </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
@@ -79,7 +79,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                 <li>[insert Bulleted list  item 2]</li>
                 <li>[insert Bulleted list  item 3]</li>
               </ul>
-        <p>MMore information about [name of core responsibility] [hyperlink to full plan, core responsibility 3, progress on results section] can be found in the ‘Results - What we achieved” section of the full departmental results report.</p> </section>
+        <p>MMore information about [name of core responsibility] [hyperlink to full plan, core responsibility 3, progress on results section] can be found in the "Results - What we achieved” section of the full departmental results report.</p> </section>
       </details>
     </section>
   </section>
