@@ -47,39 +47,39 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
         <section>
             <p><strong>Actual spending:</strong> [Insert amount]</p>
             <p><strong>Actual human resources:</strong> [Insert number]</p>
-            <p><strong>Results - What we achieved:</strong></p>
+            <p><strong>Results - what we achieved:</strong></p>
               <ul>
                 <li>[insert Bulleted list  item 1]</li>
                 <li>[insert Bulleted list  item 2]</li>
                 <li>[insert Bulleted list  item 3]</li>
               </ul>
-        <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 1, progress on results section] can be found in the "Results - What we achieved” section of the full departmental results report.</p> </section>
+        <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 1, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p> </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
         <section>
             <p><strong>Actual spending:</strong> [Insert amount]</p>
             <p><strong>Actual human resources:</strong> [Insert number]</p>
-            <p><strong>Results - What we achieved:</strong></p>
+            <p><strong>Results - what we achieved:</strong></p>
               <ul>
                 <li>[insert Bulleted list  item 1]</li>
                 <li>[insert Bulleted list  item 2]</li>
                 <li>[insert Bulleted list  item 3]</li>
               </ul>
-        <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 2, progress on results section] can be found in the "Results - What we achieved” section of the full departmental results report.</p> </section>
+        <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 2, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p> </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
         <section>
             <p><strong>Actual spending:</strong> [Insert amount]</p>
             <p><strong>Actual human resources:</strong> [Insert number]</p>
-            <p><strong>Results - What we achieved:</strong></p>
+            <p><strong>Results - what we achieved:</strong></p>
               <ul>
                 <li>[insert Bulleted list  item 1]</li>
                 <li>[insert Bulleted list  item 2]</li>
                 <li>[insert Bulleted list  item 3]</li>
               </ul>
-        <p>MMore information about [name of core responsibility] [hyperlink to full plan, core responsibility 3, progress on results section] can be found in the "Results - What we achieved” section of the full departmental results report.</p> </section>
+        <p>MMore information about [name of core responsibility] [hyperlink to full plan, core responsibility 3, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p> </section>
       </details>
     </section>
   </section>
