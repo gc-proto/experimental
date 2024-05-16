@@ -69,7 +69,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>The Honourable [Institutional Head name]</strong></p>
+  <p class="mrgn-bttm-0"><strong>[Institutional Head name]</strong></p>
   <p>[Job title]</p> 
   </figcaption> 
  </figure> 
@@ -750,7 +750,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual fiscal year [fiscal year]</div></th>
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Previous fiscal year [fiscal year]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference ([fiscal year] minus [fiscal year])</div></th>
+    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference ([actual fiscal year] minus [previous fiscal year])</div></th>
    </tr>
  </thead>
  <tbody>
