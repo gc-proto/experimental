@@ -115,7 +115,9 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 <section><h5>Table [#]: Targets and results for [insert name of core responsibility]</h5>
  <p>Table [#] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
 <div class="table-responsive">
-<table id="tbl1-1" class="table table-bordered table-condensed">
+<table id="tbl1-1" class="table table-bordered table-condensed" role="table"
+     aria-label="Name of Departmental result 1"
+     aria-describedby="Departmental_results_1_table">
   <caption class="h5 text-left">Table [#.1]: Name of Departmental result 1</caption>
   <thead>
     <tr class="active">
@@ -153,8 +155,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </tbody>
 </table>
 </div>
-<div class="table-responsive">
-    <table id="tbl1-2" class="table table-bordered table-condensed">
+<div>
+    <table id="tbl1-2" class="provisional gc-table table" role="table"
+     aria-label="Name of Departmental result 2"
+     aria-describedby="Departmental_results_2_table">
     <caption class="h5 text-left">Table [#.2]: Name of Departmental result 2</caption>
  <thead>
  <tr class="active">
@@ -166,10 +170,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
  </thead>
  <tbody>
  <tr>
-  <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+  <th data-label="Departmental Result Indicators" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
+  <td data-label="Target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
+  <td data-label="Date  to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
+  <td data-label="Actual results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
       <li>[Fiscal year]: [insert figure]</li>
       <li>[Fiscal year]: [insert figure]</li>
@@ -178,10 +182,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   </div></td>
   </tr>
  <tr>
-  <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
-  <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+  <th data-label="Departmental Result Indicators" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
+  <td data-label="Target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
+  <td data-label="Date  to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
+  <td data-label="Actual results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
     <ul>
       <li>[Fiscal year]: [insert figure]</li>
       <li>[Fiscal year]: [insert figure]</li>
@@ -227,11 +231,13 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <p>[Insert description of key risks for core responsibility 1]</p></section>
   <section>
       <section>
-   <h4 id="toc02-1-4">Resources required to achieve results </h4>
+   <h4 id="toc02-1-4">Resources required to achieve results</h4>
   <section><h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
 <div class="table-responsive">
-<table id="tbl2" class="table table-bordered table-condensed">
+<table id="tbl2" class="table table-bordered table-condensed" role="table"
+     aria-label="Name of Departmental result 2"
+     aria-describedby="Departmental_results_2_table">
             <thead>
 <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div></th>
