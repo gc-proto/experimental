@@ -114,8 +114,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <p>This section presents details on how the Department performed to achieve results and meet targets for [insert name of core responsibility]. Details are presented by departmental result.</p>
 <section><h5>Table [#]: Targets and results for [insert name of core responsibility]</h5>
  <p>Table [#] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
-<div class="table-responsive">
-<table id="tbl1-1" class="table table-bordered table-condensed" role="table"
+<div>
+<table id="tbl1-1" class="provisional gc-table table table-bordered" role="table"
      aria-label="Name of Departmental result 1"
      aria-describedby="Departmental_results_1_table">
   <caption class="h5 text-left">Table [#.1]: Name of Departmental result 1</caption>
@@ -129,10 +129,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </thead>
   <tbody>
     <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+      <td data-label="Departmental Result Indicators" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></td>
+      <td data-label="Target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
+      <td data-label="Date  to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
+      <td data-label="Actual results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
           <li>[Fiscal year]: [insert figure]</li>
           <li>[Fiscal year]: [insert figure]</li>
@@ -141,10 +141,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         </div></td>
       </tr>
     <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+      <td data-label="Departmental Result Indicators" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></td>
+      <td data-label="Target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
+      <td data-label="Date  to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
+      <td data-label="Actual results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
           <li>[Fiscal year]: [insert figure]</li>
           <li>[Fiscal year]: [insert figure]</li>
@@ -170,7 +170,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
  </thead>
  <tbody>
  <tr>
-  <th data-label="Departmental Result Indicators" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
+  <td data-label="Departmental Result Indicators" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></td>
   <td data-label="Target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
   <td data-label="Date  to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
   <td data-label="Actual results"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
@@ -182,7 +182,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   </div></td>
   </tr>
  <tr>
-  <th data-label="Departmental Result Indicators" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></th>
+  <td data-label="Departmental Result Indicators" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></td>
   <td data-label="Target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
   <td data-label="Date  to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
   <td data-label="Actual results"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
