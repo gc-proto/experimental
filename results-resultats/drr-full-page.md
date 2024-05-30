@@ -132,7 +132,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       <td data-label="Departmental Result Indicators" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></td>
       <td data-label="Target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
       <td data-label="Date  to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
-      <td data-label="Actual results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+      <td data-label="Actual results"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
           <li>[Fiscal year]: [insert figure]</li>
           <li>[Fiscal year]: [insert figure]</li>
@@ -144,7 +144,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       <td data-label="Departmental Result Indicators" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></td>
       <td data-label="Target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
       <td data-label="Date  to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
-      <td data-label="Actual results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+      <td data-label="Actual results"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
           <li>[Fiscal year]: [insert figure]</li>
           <li>[Fiscal year]: [insert figure]</li>
@@ -234,8 +234,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
    <h4 id="toc02-1-4">Resources required to achieve results</h4>
   <section><h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
-<div class="table-responsive">
-<table id="tbl2" class="table table-bordered table-condensed" role="table"
+<div>
+<table id="tbl2" class="provisional gc-table table table-bordered" role="table"
      aria-label="Name of Departmental result 2"
      aria-describedby="Departmental_results_2_table">
             <thead>
@@ -247,14 +247,14 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 </thead>
             <tbody>
 <tr>
-              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Spending</div></th>
-              <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-              <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+              <td data-label="Resource" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Spending</div></td>
+              <td data-label="Planned"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+              <td data-label="Actual"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
             <tr>
-              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div></th>
-              <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
-              <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
+              <th data-label="Resource" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div></th>
+              <td data-label="Planned"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
+              <td data-label="Actual"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
             </tr>
 </tbody>
         </table>
@@ -328,8 +328,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <h4 id="toc02-4-3">Resources required to achieve results</h4>
   <section><h5>Table [#]: Resources required to achieve results for internal services this year</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
-<div class="table-responsive">
-<table id="tbl3" class="table table-bordered table-condensed">
+<div>
+<table id="tbl3" class="provisional gc-table table table-bordered">
             <thead>
 <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div></th>
@@ -339,14 +339,14 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 </thead>
             <tbody>
 <tr>
-              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Spending</div></th>
-              <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-              <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+              <td data-label="Resource" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Spending</div></td>
+              <td data-label="Planned"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+              <td data-label="Actual"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
             <tr>
-              <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div></th>
-              <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
-              <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
+              <td data-label="Resource" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div></td>
+              <td data-label="Planned"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
+              <td data-label="Actual"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert    number]</div></td>
             </tr>
 </tbody>
         </table>
@@ -381,8 +381,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
-    <div class="table-responsive">
-     <table class="table table-bordered table-condensed">
+    <div>
+     <table class="provisional gc-table table table-bordered">
      <thead>
       <tr class="active">
      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -391,24 +391,24 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
      </thead>
      <tbody>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 1</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+     <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 1</div></td>
+     <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 2</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+     <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 2</div></td>
+     <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 3</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+     <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 3</div></td>
+     <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 4</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+     <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 4</div></td>
+     <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+     <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div></td>
+     <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
      </tr>
      </tbody>
 </table></div>
