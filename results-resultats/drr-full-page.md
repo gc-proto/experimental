@@ -131,7 +131,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     <tr>
       <td data-label="Departmental Result Indicators" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></td>
       <td data-label="Target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the target]</div></td>
-      <td data-label="Date  to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
+      <td data-label="Date to achieve target"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert the date]</div></td>
       <td data-label="Actual results"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
         <ul>
           <li>[Fiscal year]: [insert figure]</li>
