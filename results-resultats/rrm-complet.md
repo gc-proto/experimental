@@ -174,7 +174,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                       <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></td>
                       <td data-label="Cible"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
                       <td data-label="Date d’atteinte des cibles"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-                      <td data-label="Résultats réels"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                      <td data-label="Résultats réels"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
                         <ul>
                           <li>[Exercice] : [insérer les chiffres]</li>
                           <li>[Exercice] : [insérer les chiffres]</li>
@@ -186,7 +186,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                       <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></td>
                       <td data-label="Cible"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
                       <td data-label="Date d’atteinte des cibles"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
-                      <td data-label="Résultats réels"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+                      <td data-label="Résultats réels"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
                         <ul>
                           <li>[Exercice] : [insérer les chiffres]</li>
                           <li>[Exercice] : [insérer les chiffres]</li>
