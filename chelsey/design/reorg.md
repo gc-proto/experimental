@@ -1,7 +1,21 @@
 ---
+altLangPage: "#"
+breadcrumbs:
+  - title: Designing for Canada.ca
+    link: "https://design.canada.ca/common-design-patterns/breadcrumb-trail.html"
+css:
+- https://design.canada.ca/css/split-h1.css
+- https://design.canada.ca/css/custom.css
+- https://use.fontawesome.com/releases/v5.15.4/css/all.css
+date: 2023-02-23
+dateModified: 2023-02-23
+description: "Provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services."
+lang: en
+layout: without-h1
+title: "Designing for Canada.ca"
 ---
    <body class="cnt-wdth-lmtd" vocab="http://schema.org/" typeof="WebPage">
-         <h1 property="name" id="wb-cont" dir="ltr">Canada.ca design system</h1>
+         <h1 property="name" id="wb-cont" dir="ltr">Designing for Canada.ca</h1>
          <div class="mwsgeneric-base-html parbase section">
             <p>Use this design system to provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.</p>
          </div>
