@@ -1,34 +1,5 @@
 ---
 ---
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-      <title>Canada.ca design sytem - Canada.ca</title>
-      <meta content="width=device-width,initial-scale=1" name="viewport">
-      <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
-      <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
-      <link rel="stylesheet" href="../css/custom.css">
-      <link rel="stylesheet" href="../css/provisional-alerts.css">
-      <noscript>
-         <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/wet-boew/css/noscript.min.css" />
-      </noscript>
-      <style>
-         .pattern-demo {
-            padding: 19px;
-         }
-      </style>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105628416-2"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag() { dataLayer.push(arguments); }
-         gtag('js', new Date());
-
-         gtag('config', 'UA-105628416-2');
-      </script>
-   </head>
    <body class="cnt-wdth-lmtd" vocab="http://schema.org/" typeof="WebPage">
       <ul id="wb-tphp">
          <li class="wb-slc">
