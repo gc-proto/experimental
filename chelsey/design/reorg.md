@@ -17,7 +17,7 @@ title: "Designing for Canada.ca"
    <body class="cnt-wdth-lmtd" vocab="http://schema.org/" typeof="WebPage">
          <h1 property="name" id="wb-cont" dir="ltr">Designing for Canada.ca</h1>
          <div class="mwsgeneric-base-html parbase section">
-            <p>Use this design system to provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.</p>
+            <p>Provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.</p>
          </div>
          <div class="row">
             <div class="col-md-12">
@@ -26,8 +26,8 @@ title: "Designing for Canada.ca"
             <section class="wb-eqht gc-drmt">
                <div class="col-md-4">
                   <section>
-                     <h3 class="h5"><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Template and design pattern library</a></h3>
-                     <p>User-tested templates, page layouts, design patterns, guidelines, and code samples</p>
+                     <h3 class="h5"><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Canada.ca design</a></h3>
+                     <p>Who has to use the Canada.ca design system, mandatory elements, template and design library and design principles.</p>
                   </section>
                </div>
                <div class="col-md-4">
@@ -38,14 +38,14 @@ title: "Designing for Canada.ca"
                </div>
                <div class="col-md-4">
                   <section>
-                     <h3 class="h5"><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html">Canada.ca Content and Information Architecture Specification</a></h3>
-                     <p>Who has to use the Canada.ca design system, mandatory elements, how to organize content and design principles</p>
+                     <h3 class="h5"><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html">Information architecture and findability</a></h3>
+                     <p>How to organize content, metadata guidance, and adding structured data on Canada.ca pages.</p>
                   </section>
                </div>
                <div class="col-md-4">
                   <section>
-                     <h3 class="h5"><a href="{{ 'designing-content.html' | relative_url }}">Designing content</a></h3>
-                     <p>How to design content for Canada.ca</p>
+                     <h3 class="h5"><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html"Continuous improvement of web content</a></h3>
+                     <p>Choosing what to improve, organizing and preparing your team, research and prototyping, designing content, monitoring and measuring success.</p>
                   </section>
                </div>
                <div class="col-md-4">
