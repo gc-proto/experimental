@@ -27,7 +27,7 @@ title: "Designing for Canada.ca"
                <div class="col-md-4">
                   <section>
                      <h3 class="h5"><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Canada.ca design</a></h3>
-                     <p>Who has to use the Canada.ca design system, mandatory elements, template and design library and design principles.</p>
+                     <p>Who has to use the Canada.ca design, mandatory elements, template and design library and design principles.</p>
                   </section>
                </div>
                <div class="col-md-4">
