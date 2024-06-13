@@ -44,7 +44,7 @@ title: "Designing for Canada.ca"
                </div>
                <div class="col-md-4">
                   <section>
-                     <h3 class="h5"><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html"Continuous improvement of web content</a>Continous improvement of web content</h3>
+                     <h3 class="h5"><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html">Continous improvement of web content</a></h3>
                      <p>Choosing what to improve, organizing and preparing your team, research and prototyping, designing content, monitoring and measuring success.</p>
                   </section>
                </div>
