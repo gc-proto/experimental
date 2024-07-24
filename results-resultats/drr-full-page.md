@@ -881,7 +881,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         <tr class="active">
           <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div></td>
           <td data-label="[Fiscal year] planned full-time equivalents"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
-          <td data-label="[Fiscal year] planned full-time equivalents"<div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
+          <td data-label="[Fiscal year] planned full-time equivalents"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
           <td data-label="[Fiscal year] planned full-time equivalents"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert subtotal]</div></td>
         </tr>
         <tr>
