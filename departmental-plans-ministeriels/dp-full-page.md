@@ -11,11 +11,6 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
     
-<div class="btn-group mrgn-bttm-md hidden-print">
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
-</div>
-    
 <section>
 <h2>On this page</h2>
 <ul>
@@ -45,6 +40,17 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </ul>
 </section>
 
+<section class="hidden-print">
+<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md" role="button">Read a summary of the Departmental Plan</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
+</section>
+
+<section>
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Copyright information</summary>
+<p>[Include copyright information formatted for web]</p>
+  </details>    
+</section>  
+
 <section>
  <h2 id="toc01">From the Minister</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
@@ -56,7 +62,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   </figcaption> 
  </figure> 
  </div>
- <p>[Insert text from the &#8220;From the Minister&#8221; section of the word template]</p><div class="clearfix"></div>
+<p>[Message from the Minister; don’t include a signature in the web version]</p><div class="clearfix"></div>
 </section>
 <section> <!-- Optional section, delete if not required -->
  <h2 id="toc01b">From the Institutional Head (*optional)</h2>
@@ -64,12 +70,13 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>The Honourable [Institutional Head name]</strong></p>
+  <p class="mrgn-bttm-0"><strong>[Institutional Head name]</strong></p>
   <p>[Job title]</p> 
   </figcaption> 
  </figure> 
  </div>
- <p>[If this section is included in your word template please copy text under the &#8220;From the Institutional head&#8221; section; otherwise, delete the section]</p><div class="clearfix"></div>
+  <p>[Message from the Institutional head, don't include a signature in the web version]</p>
+  <div class="clearfix"></div>
 </section>
 <section>
  <h2 id="toc02">Plans to deliver on core responsibilities and internal services</h2>
@@ -77,16 +84,14 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section>
  <h3>Core responsibilities and internal services</h3>
  <ul>
- <li><a href="#toc02-1">Name of core responsibility 1</a></li>
- <li><a href="#toc02-2">Name of core responsibility 2</a></li>
- <li><a href="#toc02-3">Name of core responsibility 3</a></li>
- <li><a href="#toc02-4">Name of core responsibility 4</a></li>
+<li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
+<li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
+<li><a href="#toc02-3">Core responsibility 3: [insert core responsibility name]</a></li>
  <li><a href="#toc02-5">Internal services</a></li>
  </ul>
 </section>
- <p>[Repeat these sections for each core responsibility]</p>
  <section>
- <h3 id="toc02-1">[Name of core responsibility]</h3>
+ <h3 id="toc02-1">Core responsibility 1: [insert core responsibility name]</h3>
  <ul class="list-unstyled">
   <li>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -105,9 +110,10 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </details>
  </li>
  </ul>
+ <p>[Repeat these sections for each core responsibility]</p>
  <section>
   <h4 id="toc02-1-1">Description</h4>
-  <p>[Insert text from the &#8220;Description&#8221; section of the word template]</p>
+  <p>[Insert description of core responsibility 1]</p>
 </section>
  <section>
   <h4 id="toc02-1-2">Quality of life impacts</h4>
@@ -174,7 +180,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </section>
  <section>
   <h4 id="toc02-1-5">Key risks</h4>
-  <p>[Insert text from &#8220;Key risks&#8221; section of the word template]</p></section>
+  <p>[Insert description of key risks for core responsibility 1]</p></section>
   <section>
   </section><section><div class="panel panel-primary">
    <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-1-6">Snapshot of planned resources in [insert fiscal year]</h4></header>
@@ -187,6 +193,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </div></section>
  <section>
   <h4 id="toc02-1-7">Related government priorities</h4>
+    <p>[Insert  details of government-wide priorities]</p>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Gender-based analysis plus</summary>
   <p>[Text within the &#8220;Gender-based analysis plus&#8221; section, if included]</p>
@@ -195,14 +202,20 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals</summary>
   <p>[Text within the &#8220;United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals&#8221;, if included]</p>
   </details>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
+  <p>[Insert description]</p>
+  </details>
  </section>
  <section>
   <h4 id="toc02-1-8">Program inventory</h4>
-  <p>[Core responsibility name] is supported by the following programs:</p>
-<ul>
- <li>[Bulleted list of programs under the core responsibility]</li>
- </ul>
-<p>Supporting information on planned expenditures, human resources, and results related to [organization&#8217;s name]&#8217;s program inventory is available on <a href="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html">GC InfoBase</a>.</p>
+   <p>[Insert name of core responsibility  1] is  supported by the following programs:</p>
+  <ul>
+    <li>[Insert bulleted list item 1]</li>
+    <li>[Insert bulleted list item 2]</li>
+    <li>[Insert bulleted list item 3]</li>
+  </ul>
+ <p>[Hyperlink to the related information on GC Infobase]</p>
  </section>
  <section>
   <h4 id="toc02-1-9">Summary of changes to reporting framework since last year</h4>
@@ -221,7 +234,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <li><a href="#toc02-5-1">Description</a></li>
   <li><a href="#toc02-5-2">Plans to achieve results</a></li>
   <li><a href="#toc02-5-3">Snapshot of planned resources in [insert fiscal year]</a></li>
-  <li><a href="#toc02-5-4">Related government priorities</a></li>
+  <li>[PLACEHOLDER for any additional government priorities]</li>
   </ul>
  </details>
  </li>
@@ -260,6 +273,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </div>
 </div>
  </section>
+ <!--
  <section>
   <h4 id="toc02-5-4">Related government priorities</h4>
   <section><h5>Planning for contracts awarded to Indigenous businesses</h5>
@@ -270,7 +284,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <p>[Outline  how your department plans to achieve awarding at least 5% of the total value of  contracts to Indigenous businesses annually. Do not simply state that you will  achieve the mandatory minimum target of 5%; state how your plan will help you  achieve the target set out in Appendix&nbsp;E to the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"><em>Directive on the Management of  Procurement</em></a>.] </p>
 <p>[Organizations must complete the following table according to their  phase.]</p>
 
-<div class="table-responsive">
+<!--<div class="table-responsive">
 <table id="tbl2" class="table table-bordered table-condensed">
  <thead>
   <tr class="active">
@@ -295,7 +309,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  </section></section>
  </section>
 </section>
-</section>
+</section>-->
 <section>
  <h2 id="toc03"> Planned spending and human resources</h2>
  <p>[Insert text and amounts from the &quot;Planned spending and human resources&#8221; section of the word template]</p><ul class="list-unstyled">
@@ -316,11 +330,11 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <p>[Insert an introduction to spending]</p>
 <section>
   <figure id="fig1">
-   <figcaption class="text-left h4"><strong>Figure [#]: Spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
+   <figcaption class="text-left h4"><strong>Graph [#]: Spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
    <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>]</p>
       <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
+    <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
 
     <div class="table-responsive">
      <table class="table table-bordered table-condensed">
@@ -355,9 +369,9 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </table></div>
    </details>
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of figure [#]</summary>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of graph [#]</summary>
 
-    <p>[Please include the explanation of the figure included in the word template]</p>
+    <p>[Please include the explanation of the graph included in the word template]</p>
    </details>
   </figure>
   <p>[Insert text from the &#8220;Actual spending summary for core responsibilities and internal services (dollars)&#8221; section of the word template]</p>
