@@ -11,90 +11,63 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
 
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
+  <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
   <p>Un plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices. </p>
 <ul>
-    <li><a href="#">Vision, mission, raison d'être et contexte opérationnel </a></li>
-    <li><a href="#">Lettre de mandat du ministre </a></li>
+    <li>Vision, mission, raison d'être et contexte opérationnel</li>
+    <li>Lettre de mandat du ministre</li>
   </ul> 
 
  
   <div class="clearfix"></div>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
-    <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html" class="btn btn-primary btn-lg">Lisez le plan ministériel complet</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span> <a onclick="window.print()" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Imprimez cette page</a> </p>
+    <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html" class="btn btn-primary btn-lg">Lisez le plan ministériel complet</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span></p>
   </section>
     <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
     <h2>Principales priorités</h2>
     <p>[Insérez le texte de la section « Priorités clés » du gabarit Word]</p>
-</section>
-    <hr>
-  <section class="mrgn-bttm-lg mrgn-tp-lg">
-    <h2>Recentrer les dépenses gouvernementales</h2>
-    <p>[Insérez le texte de la section «  Recentrer les dépenses gouvernementales » du gabarit Word]</p>
+    <ul>
+      <li>[élément&nbsp;1 de la liste à puces]; </li>
+      <li>[élément&nbsp;2 de la liste à puces]; </li>
+      <li>[élément&nbsp;3 de la liste à puces]. </li>
+    </ul>
+    <p>[Si c’est pertinent, inclure une brève description de la façon dont ils ont contribué à l’exercice Recentrer les dépenses gouvernementales en [insérer l’exercice].]</p>
 </section>
     <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
     <h2>Faits saillants </h2>
-    <p>Un cadre ministériel des résultats comprend les responsabilités essentielles d'une organisation, les résultats qu'elle prévoit atteindre et les indicateurs de rendement qui mesurent les progrès vers ces résultats.</p>
+    <p>[Insérer le texte de la section « Faits saillants »]</p>
 <section id="cores"> <div class="btn-group mrgn-bttm-md">
 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
 </div>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la 1re responsabilité essentielle</summary>
-      
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer le nom de la responsabilité essentielle.]</summary>
         <p><strong>Résultats ministériels :</strong></p>
         <ul>
             <li>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</li>
         </ul>
-        
           <p><strong>Dépenses prévues : </strong>[Insérez les dépenses prévues] </p>
-          <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
-        
-        
-        
+          <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>  
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la 2e responsabilité essentielle</summary>
-        
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer le nom de la responsabilité essentielle.]</summary>
           <p><strong>Résultats ministériels :</strong></p>
         <ul>
             <li>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</li>
         </ul>
-        
           <p><strong>Dépenses prévues : </strong>[Insérez les dépenses prévues] </p>
           <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
-        
-        
-        
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la 3e responsabilité essentielle</summary>
-        
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer le nom de la responsabilité essentielle.]</summary>
           <p><strong>Résultats ministériels :</strong></p>
         <ul>
             <li>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</li>
         </ul>
-        
           <p><strong>Dépenses prévues : </strong>[Insérez les dépenses prévues] </p>
           <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
-        
-        
-        
-      </details>
-    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Nom de la 4e responsabilité essentielle</summary>
-        
-          <p><strong>Résultats ministériels :</strong></p>
-        <ul>
-            <li>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</li>
-        </ul>
-        
-          <p><strong>Dépenses prévues : </strong>[Insérez les dépenses prévues] </p>
-          <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
-        
-        
-        
       </details>
     </section>
   </section>
