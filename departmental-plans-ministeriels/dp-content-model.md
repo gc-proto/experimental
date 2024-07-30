@@ -96,5 +96,3 @@ title: "Departmental Plans"
     </ul>
     <p>These changes are effective as of publishing the 2024–25 DP.</p>
   </section>
-</div>
-
