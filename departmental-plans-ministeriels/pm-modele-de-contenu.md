@@ -60,7 +60,7 @@ title: "Plans ministériels"
           <li>Les renseignements sur les droits d’auteur doivent se trouver entre cette section et la section suivante, qui peut être agrandie et réduite. </li>
         </ul>
       </li>
-  </ol></section></section></section>
+  </ol></section></section>
   </section>
   <section>
     <h2 id="toc04">Comment utiliser le gabarit</h2>
