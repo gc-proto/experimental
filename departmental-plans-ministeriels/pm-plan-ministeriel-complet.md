@@ -6,7 +6,7 @@ breadcrumbs:
 dateModified: 2023-12-18
 language: fr
 layout: default
-title: "Plan ministériel de [nom du ministère] pour [exercice]"
+title: "Plan ministériel de [nom du ministère] pour [insérer l’exercice]"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
@@ -19,14 +19,14 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <section>
 <h2>Sur cette page</h2>
 <ul>
-<li><a href="#toc01">De la part du ministre</a></li>
-<li><a href="#toc01b">De la part de l'administrateur général (facultatif*)</a></li>
+<li><a href="#toc01">Message du/de la ministre</a></li>
+<li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif)</li>
 <li><a href="#toc02">Plans pour assurer les responsabilités essentielles et les services internes </a> 
 <ul>
-<li><a href="#toc02-1">Nom de la responsabilité essentielle 1</a></li>
-<li><a href="#toc02-2">Nom de la responsabilité essentielle 2</a></li>
-<li><a href="#toc02-3">Nom de la responsabilité essentielle 3</a></li>
-<li><a href="#toc02-4">Nom de la responsabilité essentielle 4</a></li>
+<li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
+<li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
+<li><a href="#toc02-3">Responsabilité essentielle 3&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
+<li><a href="#toc02-4">Responsabilité essentielle 4&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
 <li><a href="#toc02-5">Services internes</a></li>
 </ul>
 </li>
@@ -44,33 +44,44 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <li><a href="#toc07">Définitions</a></li>
 </ul>
 </section>
+
+<section class="hidden-print">
+  <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/rrm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md" role="button">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a></p>
+</section>
+
+<section>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Renseignements sur les droits d’auteur</summary>
+  <p>[Inclure les renseignements sur les droits d’auteur formatés pour le Web]</p>
+    </details>    
+</section> 
     
 <section>
- <h2 id="toc01">De la part du ministre</h2>
+ <h2 id="toc01">Message du/de la ministre</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
  <figure> 
   <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>The Honourable [Name of Minister]</strong></p>
-  <p>[Job title]</p> 
+  <p class="mrgn-bttm-0"><strong>L’honorable [Nom du/de la Ministre]</strong></p>
+  <p>[titre du poste]</p> 
   </figcaption> 
  </figure> 
  </div>
- <p>[Pour cette section,  veuillez utiliser le texte trouvé dans la version&nbsp;Word sous la section «&nbsp;De  la part du ministre&nbsp;»] </p>
+ <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
 <div class="clearfix"></div>
 </section>
 <section>
- <h2 id="toc01b">De la part de l'administrateur général (facultatif*)</h2>
+ <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
  <div class="pull-right mrgn-lft-md col-xs-4"> 
  <figure> 
   <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
   <figcaption class="text-center small"> 
-  <p class="mrgn-bttm-0"><strong>The Honourable [Institutional Head name]</strong></p>
-  <p>[Job title]</p> 
+  <p class="mrgn-bttm-0"><strong>[Nom de l’administrateur général/de l’administratrice générale]</strong></p>
+  <p>[titre du poste]</p> 
   </figcaption> 
  </figure> 
  </div>
- <p>[Si cette section est  incluse dans votre version&nbsp;Word, veuillez copier le texte sous la section «&nbsp;De  la part de l'administrateur général&nbsp;»; sinon, supprimez la section]</p>
+ <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p>
 <div class="clearfix"></div>
 </section>
 <section>
@@ -78,17 +89,15 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <p>[Insérez une introduction pour la section]</p>
 <section>
  <h3>Responsabilités essentielles et services internes :</h3>
- <ul>
- <li><a href="#toc02-1">Nom de la responsabilité essentielle 1</a></li>
- <li><a href="#toc02-2">Nom de la responsabilité essentielle 2</a></li>
- <li><a href="#toc02-3">Nom de la responsabilité essentielle 3</a></li>
- <li><a href="#toc02-4">Nom de la responsabilité essentielle 4</a></li>
- <li><a href="#toc02-5">Services internes</a></li>
- </ul>
+  <ul>
+      <li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+      <li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+      <li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+      <li><a href="#toc02-4">Services internes</a></li>
+    </ul>
 </section>
- <p>[Répétez ces sections pour chaque responsabilité essentielle]</p>
  <section>
- <h3 id="toc02-1">[Nom de la responsabilité essentielle]</h3>
+ <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
  <ul class="list-unstyled">
   <li>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -107,9 +116,11 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  </details>
  </li>
  </ul>
+ <p>[Répétez ces sections pour chaque responsabilité essentielle]</p>
+
  <section>
   <h4 id="toc02-1-1">Description</h4>
-  <p>[Insérez  le texte de la section « Description » du gabarit Word] </p>
+  <p>[Insérer la description de la responsabilité principale 1]</p>
   
  </section>
  <section>
@@ -119,8 +130,8 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <section>
   <h4 id="toc02-1-3">Résultats et cibles</h4>
   <p>[Insérez le texte de la section «  Résultats et objectifs » du gabarit Word] </p>
-  <section><h5>Tableau [numéro] : Indicateurs, résultats et cibles pour le résultat ministériel</h5>
-  <p>Les tableaux suivants présentent, pour  chaque résultat ministériel lié à la responsabilité essentielle [nom de la responsabilité essentielle],  les indicateurs, les résultats des trois&nbsp;exercices les plus récemment  déclarés, les cibles et les dates cibles approuvées en [insérez l'exercice].</p>
+  <section><h5>Tableau [#] : Indicateurs, résultats et cibles pour le résultat ministériel</h5>
+  <p>Les tableaux suivants présentent, pour  chaque résultat ministériel lié à la responsabilité essentielle [nom de la responsabilité essentielle],  les indicateurs, les résultats des trois&nbsp;exercices les plus récemment  déclarés, les cibles et les dates cibles approuvées en [inscrire le nom de la responsabilité essentielle].</p>
 <table id="tbl1" class="table table-bordered table-condensed">
   <thead>
     <tr class="active">
@@ -178,7 +189,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  </section>
  <section>
   <h4 id="toc02-1-5">Principaux risques</h4>
-  <p>[Insérez le texte de la section « Principaux risques » du gabarit Word]</p></section>
+  <p>[Insérer une description des principaux risques pour la responsabilité essentielle 1]</p></section>
   <section>
   </section><section><div class="panel panel-primary">
    <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-1-6">Aperçu des ressources prévues en [insérez l'exercice]</h4></header>
@@ -191,6 +202,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </div></section>
  <section>
   <h4 id="toc02-1-7">Priorités gouvernementales connexes</h4>
+  <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse comparative entre les sexes plus</summary>
   <p>[Texte dans la section « Analyse comparative entre les sexes plus », si inclus]</p>
@@ -210,8 +222,10 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  </section>
  <section>
   <h4 id="toc02-1-9">Résumé des changements apportés au cadre d'établissement de rapport depuis l'année dernière</h4>
-  <ul>
-  <li>[Liste à puces des modifications apportées au cadre de présentation des rapports]</li>
+   <ul>
+    <li>[Insérer le point 1&nbsp;de la  liste à puces]</li>
+    <li>[Insérer le point 2&nbsp;de la  liste à puces]</li>
+    <li>[Insérer le point 3&nbsp;de la  liste à puces]</li>
   </ul>
  </section>
  </section>
@@ -274,7 +288,6 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 <p>[Une page au maximum]</p>
     <p>Décrivez comment votre ministère prévoit  attribuer chaque année au moins 5&nbsp;% de la valeur totale des marchés à des  entreprises autochtones. Ne déclarez pas simplement que vous atteindrez  l&rsquo;objectif minimum obligatoire de 5&nbsp;%; indiquez comment votre plan vous  aidera à atteindre l&rsquo;objectif défini à l&rsquo;annexe&nbsp;E de la <a href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32692"><em>Directive sur la gestion de l&rsquo;approvisionnement</em></a>.]</p>
     <p>[Les  organisations doivent remplir le tableau suivant selon leur phase.]</p>
-
     <div class="table-responsive">
     <table id="tbl2" class="table table-bordered table-condensed">
       <tr class="active">
@@ -299,8 +312,6 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </section>
 <section>
  <h2 id="toc03">Dépenses et ressources humaines prévues</h2>
- <p>[Insérez le texte et les montants de la section « Dépenses et ressources humaines prévues » du gabarit Word]</p><ul class="list-unstyled">
- <li>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
  <ul>
@@ -317,12 +328,11 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <p>[Insérez une introduction aux dépenses]</p>
 <section>
   <figure id="fig1">
-   <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses par responsabilité essentielle en [exercice] [facultatif]</strong></figcaption>
-   <p>[Insérez le <a href="https://www.gcpedia.gc.ca/gcwiki/images/a/a4/Pie_chart_template_-_FR.xlsx">tableau  récapitulatif facultatif disponible sur GCPédia</a>]</p>
+   <figcaption class="text-left h4"><strong>Figure [#] : Dépenses par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
+      <p>La figure [#] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
-
     <div class="table-responsive">
      <table class="table table-bordered table-condensed">
      <thead>
@@ -365,7 +375,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 
 </section>
  <section>
-  <h4>Tableau [numéro] : Sommaire des dépenses réelles pour les responsabilités essentielles et les services internes (en dollars)</h4>
+  <h4>Tableau [#] : Sommaire des dépenses réelles pour les responsabilités essentielles et les services internes (en dollars)</h4>
   
 <p>Le tableau suivant présente des  renseignements sur les dépenses pour chacune des responsabilités essentielles  du [nom du ministère] et pour ses  services internes au cours des trois exercices précédents. Les montants pour l'exercice  en cours sont prévus en fonction des dépenses à ce jour.</p>
 <div class="table-responsive">
@@ -432,7 +442,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   <p>[Assurez-vous que le contenu correspond à la section « Sommaire des dépenses réelles pour les responsabilités essentielles et les services internes (en dollars) » de la version Word] </p>
  </section>
  <section>
-  <h4>Tableau [numéro] : Sommaire de la planification budgétaire pour les responsabilités essentielles et les services internes (en dollars)</h4>
+  <h4>Tableau [#] : Sommaire de la planification budgétaire pour les responsabilités essentielles et les services internes (en dollars)</h4>
   
 <p>Le tableau suivant présente des  renseignements sur les dépenses pour chacune des responsabilités essentielles  de [nom du ministère] et pour ses services internes au cours des trois prochains  exercices.</p>
 <div class="table-responsive">
@@ -506,7 +516,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  </section>
   
  <section>
-  <h4>Tableau [numéro] : Sommaire des dépenses budgétaires brutes et nettes prévues pour [exercice] </h4>
+  <h4>Tableau [#] : Sommaire des dépenses budgétaires brutes et nettes prévues pour [exercice] </h4>
   
   <p>Le tableau ci-dessous fait le rapprochement des dépenses brutes prévues et des dépenses nettes prévues pour [insérez l'exercice].</p>
   <div class="table-responsive">
@@ -577,14 +587,12 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <section>
   <h3 id="toc03-2">Financement</h3>
    <section><figure id="fig2">
-      <figcaption class="text-left h4"><strong>Figure [numéro] : Dépenses ministérielles de [insérez l'exercice] à [insérez l'exercice]</strong></figcaption>
-      <p>Le graphique ci-dessous présente les dépenses prévues (dépenses votées et législatives) au fil du temps. </p>
+      <figcaption class="text-left h4"><strong>Figure [#] : Dépenses ministérielles de [insérez l'exercice] à [insérez l'exercice]</strong></figcaption>
+      <p>La figure ci-dessous présente les dépenses prévues (dépenses votées et législatives) au fil du temps. </p>
       <p>[Accédez au <a href="https://www.gcpedia.gc.ca/gcwiki/images/5/5f/2024-2025_DP_Departmental_Spending_Trend_Graph_Template_%28FR%29.xlsx">modèle  de graphique à barres</a> sur GCpédia]</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
-
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [numéro]</summary>
-
         <div class="table-responsive">
          <table class="table table-bordered table-condensed">
           <thead>
@@ -636,8 +644,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
         </table></div>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication de la figure [numéro]</summary>
-
+        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication de la figure [#]</summary>
         <p>[Veuillez inclure l'explication de la figure incluse dans la version Word]</p>
       </details>
     </figure></section>
@@ -686,15 +693,15 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </tbody>
 </table></div>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
+   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [#]</summary>
    <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
   </details></section>
  </section>
  <section>
   <h3 id="toc03-4">Ressources humaines</h3>
   <section>
-   <h4>Tableau [numéro] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-  <p>Le tableau ci-dessous présente un sommaire sur  les ressources humaines, en équivalents à temps plein (ETP), pour les  responsabilités essentielles de [nom du ministère] et  pour ses services internes au cours des trois précédents exercices. Les  ressources humaines pour l'exercice en cours sont prévues en fonction du cumul  de l'année. </p>
+   <h4>Tableau [#] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
+  <p>Le tableau ci-dessous présente un sommaire sur  les ressources humaines, en équivalents à temps plein (ETP), pour les  responsabilités essentielles de [nom du ministère] et  pour ses services internes au cours des trois précédents exercices. Les  ressources humaines pour l'exercice en cours sont prévues en fonction du cumul  de l'année.</p>
 <div>
   <div> </div>
 </div>
@@ -755,12 +762,12 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
   </table>
 </div>
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [#]</summary>
     <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
    </details>
   </section>
   <section>
-   <h4>Tableau [numéro] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
+   <h4>Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
     <p>Le tableau suivant présente des renseignements sur les ressources humaines, en ETP, pour chacune des responsabilités essentielles de [nom du ministère] et pour ses services internes prévus pour [insérez l'exercice] et les années suivantes.</p>
    <div class="table-responsive">
      <table id="tbl8" class="table table-bordered table-condensed">
@@ -819,7 +826,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
      </table>
     </div>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [#]</summary>
     <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
    </details>
   </section>
@@ -829,7 +836,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
  <h2 id="toc04">Renseignements ministériels</h2>
   <div class="accordion">
 	<details class="acc-group print-open">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Profil organisationnel</summary>
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Profil du ministère</summary>
 		<div class="tgl-panel">
             <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérez le nom]</p></section>
 			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérez le nom]</p></section>
@@ -840,7 +847,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 		</div>
 	</details>
 	<details class="acc-group print-open">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Coordonnées de l'organisation</summary>
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Coordonnées du ministère</summary>
 		<div class="tgl-panel">
 			<section><h3>Adresse postale&nbsp;:</h3><p>[Insérez l'adresse]</p></section>
 			<section><h3>Téléphone&nbsp;:</h3><p>[insérez les numéros]</p></section>
@@ -854,14 +861,14 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </section>
 <section>
  <h2 id="toc05">Tableaux de renseignements supplémentaires</h2>
- <p>Les tableaux de  renseignements supplémentaires ci-dessous se trouvent sur le <a href="#">site&nbsp;Web du [nom du ministère]</a>: </p>
+ <p>Les tableaux de  renseignements supplémentaires ci-dessous se trouvent sur le site&nbsp;Web du [nom du ministère]: </p>
 <ul>
-  <li><a href="#">Détails sur les programmes de paiements de transfert</a></li>
-  <li><a href="#">Analyse comparative entre les sexes plus</a></li>
-  <li><a href="#">Initiatives horizontales</a></li>
-  <li><a href="#">Financement pluriannuel anticipé</a></li>
+  <li>Détails sur les programmes de paiements de transfert</li>
+  <li>Analyse comparative entre les sexes plus</li>
+  <li>Initiatives horizontales</li>
+  <li>Financement pluriannuel anticipé</li>
  </ul>
- <p>Des renseignements sur la stratégie  ministérielle de développement durable de [nom du ministère] sont disponibles sur le <a href="#">site&nbsp;Web du [nom du ministère]</a>. </p>
+ <p>Des renseignements sur la stratégie  ministérielle de développement durable de [nom du ministère] sont disponibles sur le site&nbsp;Web du [nom du ministère].</p>
 </section>
 <section>
  <h2 id="toc06">Dépenses fiscales fédérales</h2>
@@ -871,7 +878,6 @@ title: "Plan ministériel de [nom du ministère] pour [exercice]"
 </section>
 <section>
  <h2 id="toc07">Définitions</h2>
- <p>[Pour  cette section, veuillez utiliser le texte qui se trouve dans la section «  Définition » du rapport principal] </p>
 
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Liste de termes</summary>
