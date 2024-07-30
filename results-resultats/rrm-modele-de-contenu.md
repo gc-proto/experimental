@@ -48,7 +48,7 @@ title: "Rapport sur les résultats ministériels"
     </ol></section></section>
   <section><h3>Page Rapport intégral</h3>
     <p>Fournit  tous les détails du rapport sur les résultats ministériels du ministère. Le  gabarit pour le rapport sur les résultats ministériels utilise des en-têtes et  des éléments de conception normalisés.</p>
-<p><a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/results-resultats/rrm-complet.html">Prévisualiser la page Rapport intégral</a></p>
+<p><a class="btn btn-default btn-lg" href="https://test.canada.ca/experimental/results-resultats/rrm-complet.html">Prévisualiser la page Rapport intégral</a></p>
   <section><h4>Sections obligatoires :</h4>
     <ol>
       <li>Message du ministre ou de la ministre / du ou de la responsable de l’institution : message de la haute direction. 
