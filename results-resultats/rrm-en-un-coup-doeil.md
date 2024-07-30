@@ -47,7 +47,7 @@ title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l
         <section>
             <p><strong>Dépenses réelles :</strong> [Insérer le montant] </p>
             <p><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</p>
-            <p><strong>Résultats : Nos réalisations :</strong></p>
+            <p><strong>Résultats : Nos réalisations :</strong></p>S
               <ul>
                 <li>[Élément 1 de la liste à puces];</li>
                 <li>[Élément 2 de la liste à puces];</li>
