@@ -18,10 +18,9 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <li><a href="#toc01b">From the Institutional Head (*optional)</a></li>
 <li><a href="#toc02">Plans to deliver on core responsibilities and internal services</a> 
 <ul>
-<li><a href="#toc02-1">Name of core responsibility 1</a></li>
-<li><a href="#toc02-2">Name of core responsibility 2</a></li>
-<li><a href="#toc02-3">Name of core responsibility 3</a></li>
-<li><a href="#toc02-4">Name of core responsibility 4</a></li>
+<li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
+<li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
+<li><a href="#toc02-3">Core responsibility 3: [insert core responsibility name]</a></li>
 <li><a href="#toc02-5">Internal services</a></li>
 </ul>
 </li>
@@ -105,7 +104,6 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <li><a href="#toc02-1-6">Snapshot of planned resources in [insert fiscal year]</a></li>
   <li><a href="#toc02-1-7">Related government priorities</a></li>
   <li><a href="#toc02-1-8">Program inventory</a></li>
-  <li><a href="#toc02-1-9">Summary of changes to reporting framework since last year</a></li>
   </ul>
  </details>
  </li>
@@ -312,7 +310,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>-->
 <section>
  <h2 id="toc03"> Planned spending and human resources</h2>
- <p>[Insert text and amounts from the &quot;Planned spending and human resources&#8221; section of the word template]</p><ul class="list-unstyled">
+ <ul class="list-unstyled">
  <li>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
@@ -331,11 +329,9 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 <section>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graph [#]: Spending by core responsibility in [fiscal year] (*optional)</strong></figcaption>
-   <p>[Access an optional <a href="https://www.gcpedia.gc.ca/gcwiki/images/0/05/Pie_chart_template_-_EN.xlsx">summary chart option on GCPedia</a>]</p>
       <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
-
     <div class="table-responsive">
      <table class="table table-bordered table-condensed">
      <thead>
@@ -377,7 +373,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   <p>[Insert text from the &#8220;Actual spending summary for core responsibilities and internal services (dollars)&#8221; section of the word template]</p>
 </section>
  <section>
-  <h4>Table [#]: Actual spending summary for core responsibilities and internal services ($ dollars)</h4>
+  <h4>Table [#]: Actual spending summary for core responsibilities and internal services (dollars)</h4>
   
 <p>The following table shows information on spending for each of [organization&#8217;s name]&#8217;s core responsibilities and for its internal services for the previous three fiscal years. Amounts for the current fiscal year are forecasted based on spending to date.</p>
 <div class="table-responsive">
@@ -584,19 +580,15 @@ title: "[Name of organization] [fiscal year] Departmental plan"
   </details>
  </section>
  </section>
-   
- 
  <section>
   <h3 id="toc03-2">Funding</h3>
    <section><figure id="fig2">
-      <figcaption class="text-left h4"><strong>Figure [#]: Departmental spending [insert fiscal year] to [insert fiscal year]</strong></figcaption>
+      <figcaption class="text-left h4"><strong>Graph [#]: Departmental spending [insert fiscal year] to [insert fiscal year]</strong></figcaption>
       <p>The following graph presents planned spending (voted and statutory expenditures) over time. </p>
       <p>[Access the <a href="https://www.gcpedia.gc.ca/gcwiki/images/b/b1/2024-25_Departmental_Spending_Graph_Template_-_EN.xlsx">bar graph template on GCPedia</a>]</p>
       <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
-
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of figure [#]</summary>
-
         <div class="table-responsive">
          <table class="table table-bordered table-condensed">
           <thead>
@@ -649,7 +641,6 @@ title: "[Name of organization] [fiscal year] Departmental plan"
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explanation of figure [#]</summary>
-
         <p>[Please include the explanation of the figure included in the word template]</p>
       </details>
     </figure></section>
@@ -842,7 +833,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
  <h2 id="toc04">Corporate information</h2>
   <div class="accordion">
 	<details class="acc-group print-open">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational profile</summary>
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Departmental profile</summary>
 		<div class="tgl-panel">
 			<section><h3>Appropriate minister(s):</h3><p>[insert name(s)]</p></section>
  			<section><h3>Institutional head:</h3><p>[insert name(s)]</p></section>
@@ -853,7 +844,7 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 		</div>
 	</details>
 	<details class="acc-group print-open">
-		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Organizational contact information</summary>
+		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Departmental contact information</summary>
 		<div class="tgl-panel">
             <section><h3>Mailing address:</h3><p>[insert address]</p></section>
  			<section><h3>Telephone:</h3><p>[insert number(s)]</p></section>
@@ -867,14 +858,14 @@ title: "[Name of organization] [fiscal year] Departmental plan"
 </section>
 <section>
  <h2 id="toc05">Supplementary information tables</h2>
- <p>The following supplementary information tables are available on <a href="#">[organization&#8217;s name]&#8217;s website:</a></p>
+ <p>The following supplementary information tables are available on [organization&#8217;s name]&#8217;s website:</p>
  <ul>
-  <li><a href="#">Details on transfer payment programs</a></li>
-  <li><a href="#">Gender-based analysis plus</a></li>
-  <li><a href="#">Horizontal initiatives</a></li>
-  <li><a href="#">Up front multiyear funding</a></li>
+  <li>Details on transfer payment programs</li>
+  <li>Gender-based analysis plus</li>
+  <li>Horizontal initiatives</li>
+  <li>Up front multiyear funding</li>
  </ul>
- <p>Information on [organization&#8217;s name]&#8217;s departmental sustainable development strategy can be found on <a href="#">[organization name]&#8217;s website</a>.</p>
+ <p>Information on [organization&#8217;s name]&#8217;s departmental sustainable development strategy can be found on [organization name]&#8217;s website.</p>
 </section>
 <section>
  <h2 id="toc06">Federal tax expenditures </h2>
@@ -916,7 +907,4 @@ title: "[Name of organization] [fiscal year] Departmental plan"
         <dd>As defined on the <a href="https://services.sac-isc.gc.ca/REA-IBD">Indigenous Services Canada  website</a> in accordance with the Government of Canada&rsquo;s commitment that a  mandatory minimum target of 5% of the total value of contracts is awarded to  Indigenous businesses annually. </dd>
     </dl>
   </details>
- 
 </section>
-  
-</div>
