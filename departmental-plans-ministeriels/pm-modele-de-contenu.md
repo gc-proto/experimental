@@ -39,7 +39,7 @@ title: "Plans ministériels"
 <p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/gcwiki/index.php?title=Portail_de_la_Partie_III_du_Budget_des_d%C3%A9penses&redirect=no">Gabarits pour les rédacteurs et rédactrices de contenu</a> (disponible sur un réseau du gouvernement seulement, GCpédia)</p>
 <section>
       <h3>Page Aperçu</h3>
-      <p>Fournit un  résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a  pas nécessairement une connaissance approfondie des finances ou des activités  de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception.</p><p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html" role="button">Prévisualiser la page Aperçu</a></p>
+      <p>Fournit un  résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a  pas nécessairement une connaissance approfondie des finances ou des activités  de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception, par exemple pour y inclure une bannière ou d’autres éléments.</p><p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html" role="button">Prévisualiser la page Aperçu</a></p>
     <section><h4>Sections obligatoires :</h4>
     <ol>
       <li>Aperçu : comprend le texte obligatoire et deux puces avec des liens vers les pages d’accueil distinctes du ministère pour ce qui est des renseignements suivants :

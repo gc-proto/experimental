@@ -40,7 +40,7 @@ title: "Departmental Plans"
     <p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/wiki/Part_III_Estimates_Portal#2024-25_Departmental_Plan">Templates  for content writers</a> (only available on a government network, GCpedia)</p>
 <section>
       <h3>At a glance page</h3>
-      <p>Provides a summary of key information that is easily consumable for an audience that may not have extensive knowledge of the institution&rsquo;s finances or activities. The page allows for more design flexibility. </p>
+      <p>Provides a summary of key information that is easily consumable for an audience that may not have extensive knowledge of the institution&rsquo;s finances or activities. The page allows for more design flexibility, for example a banner or features.</p>
 <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html" role="button">Preview the At a glance page</a></p>
     <section><h4>Mandatory sections:</h4>
     <ol>
