@@ -65,10 +65,8 @@ title: "Plans ministériels"
   <section>
     <h2 id="toc04">Comment utiliser le gabarit</h2>
     <p>Copiez le code des exemples de travail :</p>
-<ul>
-      <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code de la page Aperçu</a></li>
-      <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-plan-ministeriel-comple.md">Code de la page Plan intégral</a></li>
-    </ul>
+      <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code de la page Aperçu</a></p>
+      <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-plan-ministeriel-comple.md">Code de la page Plan intégral</a></p>
     <!--<p>Publier et  soumettre le contenu :</p>
 <p>Les documents  Word doivent être sauvegardés en format PDF et utilisés aux fins d&rsquo;approbation  et de soumission au SCT.</p>
     <ol>
