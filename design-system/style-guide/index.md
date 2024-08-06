@@ -1,4 +1,4 @@
-[---
+---
 altLangPage: "https://conception.canada.ca/guide-redaction"
 date: 2017-10-05
 dateModified:  2024-08-06
