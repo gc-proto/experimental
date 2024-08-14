@@ -438,7 +438,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
       </thead>
     <tbody>
       <tr>
-        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core resonsibility 1</div></td>
+        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Core responsibility 1</div></td>
         <td data-label="[Fiscal year] Main Estimates"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td data-label="[Fiscal year] total authorities available for use"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
         <td data-label="Actual spending over three years (authorities used)"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
