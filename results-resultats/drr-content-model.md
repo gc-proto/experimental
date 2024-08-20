@@ -11,6 +11,7 @@ title: "Departmental Results Report"
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>[Pattern description] - The Departmental Results  Report (DRR) presents information on results that departments achieved for the  most recently completed fiscal year. </p>
+  <a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model.html" role="button">Find guidance for Departmental plans</a>
     <section><h2>On this page</h2>
     <ul>
       <li><a href="#toc01">When  to use</a></li>

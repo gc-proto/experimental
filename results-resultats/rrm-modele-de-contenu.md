@@ -11,6 +11,7 @@ title: "Rapport sur les résultats ministériels"
 <link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>[Description  du gabarit] – Le rapport sur les résultats ministériels (RRM) présente des renseignements  sur les résultats obtenus par une organisation au cours du dernier exercice  terminé. </p>
+   <a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-modele-de-contenu.html" role="button">Trouver les directives pour les plans ministériels</a>
 <section><h2>Sur cette page</h2>
     <ul>
       <li><a href="#toc01">Quand utiliser le gabarit</a></li>
