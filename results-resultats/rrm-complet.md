@@ -392,19 +392,19 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
      </thead>
      <tbody>
      <tr>
-     <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></td>
+     <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 1]</div></td>
      <td data-label="Dépenses prévues [insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
      </tr>
      <tr>
-     <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></td>
+     <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 2]</div></td>
      <td data-label="Dépenses prévues [insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
      </tr>
      <tr>
-     <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 3</div></td>
+     <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 3]</div></td>
      <td data-label="Dépenses prévues [insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
      </tr>
      <tr>
-     <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 4</div></td>
+     <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 4]</div></td>
      <td data-label="Dépenses prévues [insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
      </tr>
      <tr>
@@ -439,7 +439,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
       </thead>
     <tbody>
       <tr>
-        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></td>
+        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 1]</div></td>
         <td data-label="Budget principal des dépenses [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td data-label="Autorisations totales pouvant être utilisées pour [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td data-label="Dépenses réelles de trois exercices (autorisations utilisées)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
@@ -451,7 +451,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </div></td>
         </tr>
       <tr>
-        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></td>
+        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 2]</div></td>
         <td data-label="Budget principal des dépenses [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td data-label="Autorisations totales pouvant être utilisées pour [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td data-label="Dépenses réelles de trois exercices (autorisations utilisées)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
@@ -512,13 +512,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </thead>
     <tbody>
       <tr>
-        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></td>
+        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 1]</div></td>
         <td data-label="Dépenses prévues [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td data-label="Dépenses prévues [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td data-label="Dépenses prévues [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         </tr>
       <tr>
-        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></td>
+        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 2]</div></td>
         <td data-label="Dépenses prévues [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td data-label="Dépenses prévues [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         <td data-label="Dépenses prévues [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -568,13 +568,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
    </thead>
    <tbody>
     <tr>
-    <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></td>
+    <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 1]</div></td>
     <td data-label="Dépenses brutes réelles [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td data-label="Revenus réels affectés aux dépenses [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td data-label="Dépenses nettes réelles (autorisations utilisées) [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     </tr>
     <tr>
-    <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></td>
+    <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 2]</div></td>
     <td data-label="Dépenses brutes réelles [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td data-label="Revenus réels affectés aux dépenses [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td data-label="Dépenses nettes réelles (autorisations utilisées) [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -593,9 +593,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     </tr>
     <tr class="active">
     <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></td>
-    <td data-label="Dépenses brutes réelles [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-    <td data-label="Revenus réels affectés aux dépenses [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-    <td data-label="Dépenses nettes réelles (autorisations utilisées) [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+    <td data-label="Dépenses brutes réelles [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+    <td data-label="Revenus réels affectés aux dépenses [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+    <td data-label="Dépenses nettes réelles (autorisations utilisées) [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
     </tr>
    </tbody>
    </table>
@@ -817,13 +817,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
           </thead>
         <tbody>
           <tr>
-            <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></td>
+            <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 1]</div></td>
             <td data-label="Équivalents temps plein réels [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Équivalents temps plein réels [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Équivalents temps plein réels [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             </tr>
           <tr>
-            <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></td>
+            <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 2]</div></td>
             <td data-label="Équivalents temps plein réels [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Équivalents temps plein réels [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Équivalents temps plein réels [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -873,13 +873,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
           </thead>
         <tbody>
           <tr>
-            <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 1</div></td>
+            <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 1]</div></td>
             <td data-label="Équivalents temps plein prévus en [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Équivalents temps plein prévus en [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Équivalents temps plein prévus en [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             </tr>
           <tr>
-            <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Responsabilité essentielle 2</div></td>
+            <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Inscrire le nom de la responsabilité essentielle 2]</div></td>
             <td data-label="Équivalents temps plein prévus en [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Équivalents temps plein prévus en [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Équivalents temps plein prévus en [exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
