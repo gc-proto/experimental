@@ -701,7 +701,7 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
  <section>
   <h3 id="toc03-3">Future-oriented condensed statement of operations (unaudited or audited)</h3>
   <p>The future-oriented condensed statement of operations provides an overview of [department acronymname]’s operations for [insert fiscal year] to [insert fiscal year]. </p>
-<section><h4>Table [#]: Future-oriented condensed statement of operations (unaudited or audited) for the year ended [insert date] (dollars)<h4>
+<section><h4>Table [#]: Future-oriented condensed statement of operations (unaudited or audited) for the year ended [insert date] (dollars)</h4>
 <div>
 <table id="tbl7" class="provisional gc-table table table-bordered">
 <caption class="h5 text-left">Table [#.1]:  summarizes the expenses and revenues for [insert fiscal year] to [insert fiscal year]. The forecast and planned amounts in this statement of operations were prepared on an accrual basis. The forecast and planned amounts presented in other sections of the Departmental Plan were prepared on an expenditure basis. Amounts may therefore differ.</caption>
