@@ -226,6 +226,7 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
        <li>[Insert bulleted list item 2]</li>
        <li>[Insert bulleted list item 3]</li>
      </ul>
+     </section>
     </details>
     <p>[Repeat for each result under core responsibility 1]</p>
 <!--</div>-->
