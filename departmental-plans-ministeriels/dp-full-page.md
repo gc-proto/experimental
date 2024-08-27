@@ -239,11 +239,11 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
       <section>
    <h4 id="toc02-1-4">Snapshot of planned resources in [insert fiscal year]</h4>
   <section><h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
-<p>Table [#] provides a summary of the planned and full-time equivalents required to achieve results.</p>
 <div>
 <table id="tbl2" class="provisional gc-table table table-bordered" role="table"
      aria-label="Name of Departmental result 2"
      aria-describedby="Departmental_results_2_table">
+      <caption class="p text-left">Table [#] provides a summary of the planned and full-time equivalents required to achieve results.</caption>
             <thead>
 <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div></th>
