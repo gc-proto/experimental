@@ -243,7 +243,7 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
 <table id="tbl2" class="provisional gc-table table table-bordered" role="table"
      aria-label="Name of Departmental result 2"
      aria-describedby="Departmental_results_2_table">
-      <caption class="p text-left">Table [#] provides a summary of the planned and full-time equivalents required to achieve results.</caption>
+      <caption class="h6 text-left">Table [#] provides a summary of the planned and full-time equivalents required to achieve results.</caption>
             <thead>
 <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div></th>
@@ -339,9 +339,9 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
    <h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Snapshot of planned resources in [insert fiscal year]</h4>
   <section>
   <h5>Table [#]: Snapshot of planned resources for internal services this year</h5>
-  <p>Table [#] provides a summary of the planned spending and full-time equivalents required to achieve results.</p>
 <div>
       <table id="tbl3" class="provisional gc-table table table-bordered">
+            <caption class="h6 text-left">Table [#] provides a summary of the planned spending and full-time equivalents required to achieve results.</caption>
             <thead>
               <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div></th>
@@ -427,7 +427,8 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
     <div>
-     <table class="provisional gc-table table table-bordered">
+     <table class="provisional gc-table table table-bordered"> 
+     <caption class="h6 text-left wb-inv">Text description of graph</caption>
      <thead>
       <tr class="active">
      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -468,10 +469,9 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
      <h4>Budgetary performance summary</h4>
      <section>
   <h5 class="h4">Table [#]: Three-year spending summary for core responsibilities and internal services (dollars)</h5>
-  
-<p>Table [#] presents how much money [department acronym] spent over the past three years to carry out its core responsibilities and for internal services. Amounts for the current fiscal year are forecasted based on spending to date.</p>
 <div>
   <table id="tbl4" class="provisional gc-table table table-bordered">
+       <caption class="h6 text-left">Table [#] presents how much money [department acronym] spent over the past three years to carry out its core responsibilities and for internal services. Amounts for the current fiscal year are forecasted based on spending to date.</caption>
     <thead>
       <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -523,9 +523,9 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
  </section>
  <section>
   <h4>Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h4>
-<p>Table [#] presents how much money [department name]’s plans to spend over the next three years to carry out its core responsibilities and for internal services.  </p>
 <div class="table-responsive">
 <table id="tbl5" class="provisional gc-table table table-bordered">
+  <caption class="h6 text-left">Table [#] presents how much money [department name]’s plans to spend over the next three years to carry out its core responsibilities and for internal services.</caption>
     <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -579,6 +579,7 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
   <p>Table [#] reconciles gross planned spending with net spending for 2025–26.</p>
  <div>
    <table id="tbl6" class="provisional gc-table table table-bordered">
+     <caption class="h6 text-left">Table [#] reconciles gross planned spending with net spending for 2025–26.</caption>
    <thead>
     <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -639,6 +640,7 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
         <div class="table-responsive">
        <table class="provisional gc-table table table-bordered">
+            <caption class="h6 text-left wb-inv">Text description of graph</caption>
         <thead>
           <tr class="active">
             <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Fiscal year</div></th>
@@ -743,9 +745,9 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
   <p>This section presents an overview of the department’s actual and planned human resources from [fiscal year] to [fiscal year].</p>
   <section>
    <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
-  <p>Table [#] shows a summary of human resources, in full-time equivalents, for [department acronym]’s core responsibilities and for its internal services for the previous three fiscal years. Human resources for the current fiscal year are forecasted based on year to date.</p>
  <div>
     <table id="tbl10" class="provisional gc-table table table-bordered">
+      <caption class="h6 text-left">Table [#] shows a summary of human resources, in full-time equivalents, for [department acronym]’s core responsibilities and for its internal services for the previous three fiscal years. Human resources for the current fiscal year are forecasted based on year to date.</caption>
       <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -795,9 +797,9 @@ title: "[Name of organization] [insert fiscal year] Departmental plan"
   </section>
   <section>
    <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
-    <p>Table [#] shows information on human resources, in full-time equivalents, for each of [department acronym]’s core responsibilities and for its internal services planned for the next three years.</p>
    <div>
    <table id="tbl11" class="provisional gc-table table table-bordered">
+         <caption class="h6 text-left">Table [#] shows information on human resources, in full-time equivalents, for each of [department acronym]’s core responsibilities and for its internal services planned for the next three years.</caption>
     <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
