@@ -931,5 +931,79 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         <section><h3>Website(s):</h3><p>[insert URL(s)]</p></section>
     </details>
 </section>
- </section>
+<section>
+ <h2 id="toc05">Supplementary information tables</h2>
+ <p>The following supplementary information tables are available on [Department&#8217;s name]&#8217;s website:</p>
+ <ul>
+  <li>Details on transfer payment programs</li>
+  <li>Gender-based analysis plus</li>
+  <li>Response to Parliamentary committees and external audits</li>
+  <li>Horizontal Initiatives</li>
+  <li>Up-front multi-year funding</li>
+  <li>United Nations 2030 Agenda and the Sustainable Development Goals</li>
+  </ul>
+</section>
+<section>
+ <h2 id="toc06">Federal tax expenditures</h2>
+ <p>The tax system can be used to achieve public policy objectives through the application of special measures such as  low tax rates, exemptions, deductions, deferrals and credits. The Department of Finance Canada publishes cost estimates and projections for these measures each  year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>. This report also provides detailed background information on tax expenditures, including descriptions, objectives, historical  information and references to related federal spending programs as well as  evaluations and GBA Plus of tax expenditures.</p>
+</section>
+<section>
+ <h2 id="toc07">Definitions </h2>
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">List of terms</summary>
+    <dl>
+        <dt>appropriation <span lang="fr">(crédit)</span></dt>
+        <dd>Any authority of Parliament to pay money out of the Consolidated Revenue Fund.</dd>
+        <dt>budgetary expenditures <span lang="fr">(dépenses budgétaires)</span></dt>
+        <dd>Operating and capital expenditures; transfer payments to other levels of government, organizations or individuals; and payments to Crown corporations. </dd>
+        <dt>core responsibility <span lang="fr">(responsabilité essentielle) </span></dt>
+        <dd>An enduring function  or role performed by a department. The intentions of the department with  respect to a core responsibility are reflected in one or more related  departmental results that the department seeks to contribute to or influence. </dd>
+        <dt>Departmental Plan <span lang="fr">(plan ministériel)</span></dt>
+        <dd>A report on the plans and expected performance of an appropriated department over a 3 year period. Departmental Plans are usually tabled in Parliament each spring.</dd>
+         <dt>departmental priority <span lang="fr">(priorité)</span></dt>
+        <dd>A plan or project that a department has chosen to focus and report on during the planning period. Priorities represent the things that are most important or what must be done first to support the achievement of the desired departmental results.</dd>
+        <dt>departmental result <span lang="fr">(résultat ministériel) </span></dt>
+        <dd>A consequence or outcome that a department seeks to achieve. A departmental result is often outside departments’ immediate control, but it should be influenced by program-level outcomes.</dd>
+        <dt>departmental result indicator <span lang="fr">(indicateur de résultat  ministériel) </span></dt>
+        <dd>A quantitative measure of progress on a departmental result.</dd>
+        <dt>departmental results framework <span lang="fr">(cadre ministériel des  résultats) </span></dt>
+        <dd>A framework that  consists of the department&rsquo;s core responsibilities, departmental results and  departmental result indicators. </dd>
+        <dt>Departmental Results Report <span lang="fr">(rapport sur les résultats  ministériels)</span></dt>
+        <dd>A report on a department’s actual accomplishments against the plans, priorities and expected results set out in the corresponding Departmental Plan. </dd>
+        <dt>fulltime equivalent <span lang="fr">(équivalent temps plein) </span></dt>
+        <dd>A measure of the extent to which an employee represents a full person year charge against a departmental budget. For a particular position, the fulltime equivalent figure is the ratio of number of hours the person actually works divided by the standard number of hours set out in the person’s collective agreement.</dd>
+        <dt>gender-based analysis plus (GBA Plus) <span lang="fr">(analyse comparative  entre les sexes plus&nbsp;[ACS&nbsp;Plus])</span></dt>
+        <dd>An analytical tool used to assess support the development of responsive and inclusive how different groups of women, men and gender-diverse people experience policies, programs and policies, programs, and other initiatives. GBA Plus is a process for understanding who is impacted by the issue or opportunity being addressed by the initiative; identifying how the initiative could be tailored to meet diverse needs of the people most impacted; and anticipating and mitigating any barriers to accessing or benefitting from the initiative. GBA Plus is an intersectional analysis that goes beyond biological (sex) and socio-cultural (gender) differences to consider other factors, such as age, disability, education, ethnicity, economic status, geography (including rurality), language, race, religion, and sexual orientation.</dd>
+        <dt>government-wide priorities <span lang="fr">(priorités pangouvernementales)</span></dt>
+        <dd>For the purpose of the Departmental Results Report, government-wide priorities are the  high-level themes outlining the government&rsquo;s agenda in the <a href="#">[Month, day,  year]: Speech from the throne</a> [insert hyperlink to the speech] building a healthier today and  tomorrow; growing a more resilient economy; bolder climate action; fighting  harder for safer communities; standing up for diversity and inclusion; moving  faster on the path to reconciliation; and fighting for a secure, just and  equitable world.
+</dd>
+        <dt>horizontal initiative <span lang="fr">(initiative  horizontale)</span></dt>
+        <dd>An initiative where two or more federal departments are given funding to pursue a shared outcome, often linked to a government priority.</dd>
+        <dt>non‑budgetary expenditures <span lang="fr">(dépenses non budgétaires)</span></dt>
+        <dd>Net outlays and receipts related to loans, investments and advances, which change the composition of the financial assets of the Government of Canada.</dd>
+        <dt>performance <span lang="fr">(rendement)</span></dt>
+        <dd>What an organization did with its resources  to achieve its results, how well those results compare to what the organization  intended to achieve, and how well lessons learned have been identified.</dd>
+        <dt>performance indicator <span lang="fr">(indicateur de rendement)</span></dt>
+        <dd>A qualitative or quantitative means of measuring an output or outcome, with the intention of gauging the performance of an department, program, policy or initiative respecting expected results.</dd>
+        <dt>plan <span lang="fr">(plan)</span></dt>
+        <dd>The articulation of strategic choices,  which provides information on how an organization intends to achieve its priorities and associated results. Generally, a plan will explain the logic behind the strategies chosen and tend to focus on actions that lead to the  expected result.</dd>
+        <dt>planned spending <span lang="fr">(dépenses  prévues)</span></dt>
+        <dd><p>For Departmental Plans and Departmental  Results Reports, planned spending refers to those amounts presented in Main  Estimates.</p>
+        <p>A department is expected to be aware of the  authorities that it has sought and received. The determination of planned  spending is a departmental responsibility, and departments must be able to  defend the expenditure and accrual numbers presented in their Departmental  Plans and Departmental Results Reports.</p></dd>
+        <dt>program <span lang="fr">(programme)</span></dt>
+        <dd>Individual or groups of services, activities or combinations thereof that are managed together within the department and focus on a specific set of outputs, outcomes or service levels.</dd>
+        <dt>program inventory <span lang="fr">(répertoire des programmes)</span></dt>
+        <dd>Identifies all the department&rsquo;s programs and describes how resources are organized to contribute to the department&rsquo;s  core responsibilities and results.</dd>
+        <dt>result <span lang="fr">(résultat)</span></dt>
+        <dd>A consequence attributed, in part, to an department, policy, program or initiative. Results are not within the control of a single department, policy, program or initiative; instead they are within the area of the department’s influence.</dd>
+        <dt>Indigenous business <span lang="fr">(enterprise autochtones)</span></dt>
+        <dd>For the purpose of the <em>Directive on the Management of  Procurement Appendix E: Mandatory Procedures for Contracts Awarded to  Indigenous Businesses</em> and the Government of Canada&rsquo;s commitment that a  mandatory minimum target of 5% of the total value of contracts is awarded to  Indigenous businesses, an organization that meets the definition and  Arequirements as defined by the <a href="https://www.sac-isc.gc.ca/eng/1100100033057/1610797769658">Indigenous Business  Directory</a>.  </dd>
+        <dt>statutory expenditures <span lang="fr">(dépenses  législatives)</span></dt>
+        <dd>Expenditures that Parliament has approved through legislation other than appropriation acts. The legislation&nbsp;sets out the purpose of the expenditures and the terms and conditions under which  they may be made.</dd>
+        <dt>target <span lang="fr">(cible)</span></dt>
+        <dd>A measurable performance or success level that an organization, program or initiative plans to achieve within a specified time period. Targets can be either quantitative or qualitative.</dd>
+        <dt>voted expenditures <span lang="fr">(dépenses votées)</span></dt>
+        <dd>Expenditures that Parliament approves annually through an appropriation act. The vote wording becomes the governing conditions under which these expenditures may be made.</dd>
+    </dl>
+  </details>
 </section>
