@@ -862,7 +862,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     <p>Table [#] shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</p>
 <div>
   <table id="tbl11" class="provisional gc-table table table-bordered">
-       <caption class="h6 text-left wb-inv">Table shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date./caption>
+       <caption class="h6 text-left wb-inv">Table shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for its internal services planned for the next three years. Human resources for the  current fiscal year are forecasted based on year to date.</caption>
     <thead>
         <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
