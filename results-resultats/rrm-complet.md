@@ -239,9 +239,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         <h4 id="toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</h4>
       <section>
         <h5>Tableau [#] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
-        <p>Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
         <div>
         <table id="tbl2" class="provisional gc-table table table-bordered">
+            <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</caption>
             <thead>
               <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div></th>
@@ -332,9 +332,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   <h4 id="toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</h4>
  </section>
  <h5>Tableau [#] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
-<p>Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</p>
 <div>
 <table id="tbl3" class="provisional gc-table table table-bordered">
+  <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</caption>
       <thead>
             <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div></th>
@@ -384,6 +384,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
      <div>
      <table class="provisional gc-table table table-bordered">
+       <caption class="h6 text-left wb-inv">Description textuelle de la figure</caption>
      <thead>
       <tr class="active">
      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
@@ -425,10 +426,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
      <h4>Sommaire du rendement budgétaire</h4>
      <section>
   <h5 class="h4">Tableau [#] : Dépenses réelles de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
-  
-<p>Le tableau [#] indique la somme d’argent dépensée par [insérer l'acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <div>
   <table id="tbl4" class="provisional gc-table table table-bordered">
+         <caption class="h6 text-left">Le tableau [#] indique la somme d’argent dépensée par [insérer l'acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</caption>
     <thead>
       <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
@@ -498,10 +498,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </section>
  <section>
   </section><section><h5 class="h4">Tableau [#] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
-  
-<p>Le tableau [#] indique la somme d’argent que [insérer l'acronyme du ministère] prévoit dépenser au cours des trois prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <div>
   <table id="tbl5" class="provisional gc-table table table-bordered">
+   <caption class="h6 text-left">Le tableau [#] indique la somme d’argent que [insérer l'acronyme du ministère] prévoit dépenser au cours des trois prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</caption>
     <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
@@ -553,11 +552,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   
  <section>
   <h5 class="h4">Tableau [#] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) (*facultatif)</h5>
-  
-  <p>Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</p>
   <div>
    <table id="tbl6" class="provisional gc-table table table-bordered">
-   <caption class="text-left"></caption>
+     <caption class="h6 text-left">Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</caption>
    <thead>
     <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
@@ -622,6 +619,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
      <div>
          <table class="provisional gc-table table table-bordered">
+              <caption class="h6 text-left wb-inv">Description textuelle de la figure</caption>
           <thead>
            <tr class="active">
           <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Exercice</div></th>
@@ -750,9 +748,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 </table></div>
 </section>
 <section><h4>Tableau [#] État condensé de la situation financière (audité ou non) au [insérer la date] (en dollars)</h4>
-<p>Le tableau [#] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), du ministère, qui aident à déterminer la capacité de celui ci à mettre en œuvre des programmes et des services.</p>
 <div>
 <table id="tbl9" class="provisional gc-table table table-bordered">
+<caption class="h6 text-left">Le tableau [#] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), du ministère, qui aident à déterminer la capacité de celui ci à mettre en œuvre des programmes et des services.</caption>
  <thead>
   <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div></th>
@@ -802,11 +800,11 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </section>  
   <section>
     <h4>Tableau [#] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-    <p>Le tableau [#] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices. </p>
   </section>  
   <section>
     <div>
       <table id="tbl10" class="provisional gc-table table table-bordered">
+      <caption class="h6 text-left">Le tableau [#] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices.</caption>
         <thead>
           <tr class="active">
             <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
@@ -858,11 +856,11 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
   </section>
   <section>
     <h4>Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-      <p>Le tableau [#] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour. </p>
   </section>
   <section>    
     <div>
     <table id="tbl11" class="provisional gc-table table table-bordered">
+          <caption class="h6 text-left">Le tableau [#] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour.</caption>
       <thead>
           <tr class="active">
             <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
