@@ -43,31 +43,46 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
 </div>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer le nom de la responsabilité essentielle.]</summary>
-        <p><strong>Résultats ministériels :</strong></p>
-        <ul>
-            <li>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</li>
-        </ul>
-          <p><strong>Dépenses prévues : </strong>[Insérez les dépenses prévues] </p>
-          <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>  
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer le nom de la responsabilité essentielle.]</summary>       
+        <section>
+            <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
+            <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
+            <p><strong>Résultats ministériels :</strong></p>
+              <ul>
+                <li>[Élément 1 de la liste à puces];</li>
+                <li>[Élément 2 de la liste à puces];</li>
+                <li>[Élément 3 de la liste à puces].</li>
+              </ul>
+        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> 
+        </section> 
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer le nom de la responsabilité essentielle.]</summary>
-          <p><strong>Résultats ministériels :</strong></p>
-        <ul>
-            <li>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</li>
-        </ul>
-          <p><strong>Dépenses prévues : </strong>[Insérez les dépenses prévues] </p>
-          <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
+        <section>
+            <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
+            <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
+            <p><strong>Résultats ministériels :</strong></p>
+              <ul>
+                <li>[Élément 1 de la liste à puces];</li>
+                <li>[Élément 2 de la liste à puces];</li>
+                <li>[Élément 3 de la liste à puces].</li>
+              </ul>
+        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> 
+        </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer le nom de la responsabilité essentielle.]</summary>
-          <p><strong>Résultats ministériels :</strong></p>
-        <ul>
-            <li>[Insérez une liste à puces de tous les résultats ministériels pour cette responsabilité essentielle]</li>
-        </ul>
-          <p><strong>Dépenses prévues : </strong>[Insérez les dépenses prévues] </p>
-          <p><strong>Ressources humaines prévues :</strong> [Insérez le nombre d’équivalents temps plein] </p>
+         <section>
+            <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
+            <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
+            <p><strong>Résultats ministériels :</strong></p>
+              <ul>
+                <li>[Élément 1 de la liste à puces];</li>
+                <li>[Élément 2 de la liste à puces];</li>
+                <li>[Élément 3 de la liste à puces].</li>
+              </ul>
+        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> 
+        </section>
       </details>
     </section>
   </section>
