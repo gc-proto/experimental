@@ -28,9 +28,9 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
     <h2>Key priorities</h2>
     <p>[Department acronym]’s top priorities for [insert fiscal year] were as follows</p>
     <ul>
-      <li>[insert Bulleted list item 1]</li>
-      <li>[insert Bulleted list item 2]</li>
-      <li>[insert Bulleted list item 3]</li>
+      <li>[insert bulleted list item 1]</li>
+      <li>[insert bulleted list item 2]</li>
+      <li>[insert bulleted list item 3]</li>
     </ul>
     <p>[Insert any text on how the organization contributed to refocused government spending]</p>
   </section>
@@ -49,9 +49,9 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
             <p><strong>Actual human resources:</strong> [Insert number]</p>
             <p><strong>Results - what we achieved:</strong></p>
               <ul>
-                <li>[insert Bulleted list  item 1]</li>
-                <li>[insert Bulleted list  item 2]</li>
-                <li>[insert Bulleted list  item 3]</li>
+                <li>[insert bulleted list  item 1]</li>
+                <li>[insert bulleted list  item 2]</li>
+                <li>[insert bulleted list  item 3]</li>
               </ul>
         <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 1, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p> </section>
       </details>
@@ -62,9 +62,9 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
             <p><strong>Actual human resources:</strong> [Insert number]</p>
             <p><strong>Results - what we achieved:</strong></p>
               <ul>
-                <li>[insert Bulleted list  item 1]</li>
-                <li>[insert Bulleted list  item 2]</li>
-                <li>[insert Bulleted list  item 3]</li>
+                <li>[insert bulleted list  item 1]</li>
+                <li>[insert bulleted list  item 2]</li>
+                <li>[insert bulleted list  item 3]</li>
               </ul>
         <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 2, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p> </section>
       </details>
@@ -75,9 +75,9 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
             <p><strong>Actual human resources:</strong> [Insert number]</p>
             <p><strong>Results - what we achieved:</strong></p>
               <ul>
-                <li>[insert Bulleted list  item 1]</li>
-                <li>[insert Bulleted list  item 2]</li>
-                <li>[insert Bulleted list  item 3]</li>
+                <li>[insert bulleted list  item 1]</li>
+                <li>[insert bulleted list  item 2]</li>
+                <li>[insert bulleted list  item 3]</li>
               </ul>
         <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 3, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p> </section>
       </details>
