@@ -99,9 +99,9 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
   <li><a href="#toc02-1-2">Quality of life impacts</a></li>
   <li><a href="#toc02-1-3">Indicators, results and targets</a></li>
   <li><a href="#toc02-1-4">Plans to achieve results</a></li>
-  <li><a href="#toc02-1-5">Snapshot of planned resources in [insert fiscal year]</a></li>
-  <li><a href="#toc02-1-6">Key risks</a></li>
-  <li><a href="#toc02-1-7">Related government-wide priorities</a></li>
+  <li><a href="#toc02-1-5">Key risks</a></li>
+  <li><a href="#toc02-1-6">Planned resources to achieve results</a></li>
+  <li><a href="#toc02-1-7">Related government priorities</a></li>
   <li><a href="#toc02-1-8">Program inventory</a></li>
   <li><a href="#toc02-1-9">Summary of changes to reporting framework since last year</a></li>
   </ul>
@@ -120,13 +120,12 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
  <section>
   <h4 id="toc02-1-3">Indicators, results and targets</h4>
   <p>This section presents details on the department’s indicators, the results from the three most recently reported fiscal years, the targets and target dates approved in [insert fiscal year] for [insert name of core responsibility]. Details are presented by departmental resul</p>
-<section><h5>Table [#]: Indicators, results and targets for [insert name of core responsibility]</h5>
- <p>Table [#.1] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
+<section>
 <div>
   <table id="tbl1-1" class="provisional gc-table table table-bordered" role="table"
       aria-label="Name of Departmental result 1"
       aria-describedby="Departmental_results_1_table">
-    <caption class="h5 text-left">Table [#.1]:[Insert name of result 1]</caption>
+    <caption class="h5 text-left">Table [#.1]:[Insert name of departmental result 1]</caption>
     <thead>
       <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -165,7 +164,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
     <table id="tbl1-2" class="provisional gc-table table table-bordered" role="table"
      aria-label="Name of Departmental result 2"
      aria-describedby="Departmental_results_2_table">
-    <caption class="h5 text-left">Table [#.2]</caption>
+    <caption class="h5 text-left">Table [#.2]:[Insert name of departmental result 2]</caption>
       <thead>
     <tr class="active">
       <th scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -237,13 +236,13 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
   </section>
   <section>
       <section>
-   <h4 id="toc02-1-4">Snapshot of planned resources in [insert fiscal year]</h4>
-  <section><h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
+   <h4 id="toc02-1-4">Planned resources to achieve results</h4>
+  <section><h5>Table [#] Planned resources to achieve results for [insert name of core responsibility]</h5>
 <div>
 <table id="tbl2" class="provisional gc-table table table-bordered" role="table"
      aria-label="Name of Departmental result 2"
      aria-describedby="Departmental_results_2_table">
-      <caption class="h6 text-left">Table [#] provides a summary of the planned and full-time equivalents required to achieve results.</caption>
+      <caption class="h6 text-left">Table [#] ] provides a summary of the planned spending and full-time equivalents required to achieve results.</caption>
             <thead>
 <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div></th>
@@ -266,8 +265,8 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
       </section>
  <section>
  <section>
-  <h4 id="toc02-1-7">Related government-wide priorities</h4>
-    <p>[Insert  details of government-wide priorities]</p>
+  <h4 id="toc02-1-7">Related government priorities</h4>
+    <p>[Insert  details of government priorities]</p>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Gender-based analysis plus</summary>
   <p>[Insert description]</p>
@@ -305,7 +304,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
   <ul>
   <li><a href="#toc02-5-1">Description</a></li>
   <li><a href="#toc02-5-2">Plans to achieve results</a></li>
-  <li><a href="#toc02-5-3">Snapshot of planned resources in [insert fiscal year]</a></li>
+  <li><a href="#toc02-5-3">Planned resources to achieve results</a></li>
   <li>[PLACEHOLDER for any additional government priorities]</li>
   </ul>
  </details>
@@ -336,9 +335,9 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
  </section>
  <section>
   <div>
-   <h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Snapshot of planned resources in [insert fiscal year]</h4>
+   <h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Planned resources to achieve results</h4>
   <section>
-  <h5>Table [#]: Snapshot of planned resources for internal services this year</h5>
+  <h5>Table [#]: Planned resources to achieve results for internal services this year</h5>
 <div>
       <table id="tbl3" class="provisional gc-table table table-bordered">
             <caption class="h6 text-left">Table [#] provides a summary of the planned spending and full-time equivalents required to achieve results.</caption>
@@ -575,9 +574,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
  </section>
  <section>
   <h4>Table [#]: Budgetary gross and net planned spending summary (dollars) (*optional)</h4>
-  
-  <p>Table [#] reconciles gross planned spending with net spending for 2025–26.</p>
- <div>
+  <div>
    <table id="tbl6" class="provisional gc-table table table-bordered">
      <caption class="h6 text-left">Table [#] reconciles gross planned spending with net spending for 2025–26.</caption>
    <thead>
@@ -703,7 +700,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
 <section><h4>Table [#]: Future-oriented condensed statement of operations for the year ended [insert date] (dollars)</h4>
 <div>
 <table id="tbl7" class="provisional gc-table table table-bordered">
-<caption class="h5 text-left">Table [#.1]:  summarizes the expenses and revenues for [insert fiscal year] to [insert fiscal year]. The forecast and planned amounts in this statement of operations were prepared on an accrual basis. The forecast and planned amounts presented in other sections of the Departmental Plan were prepared on an expenditure basis. Amounts may therefore differ.</caption>
+<caption class="h6 text-left">Table [#.1]: summarizes the expenses and revenues which net to the cost of operations before government funding and transfers for [insert fiscal year] to [insert fiscal year].The forecast and planned amounts in this statement of operations were prepared on an accrual basis. The forecast and planned amounts presented in other sections of the Departmental Plan were prepared on an expenditure basis. Amounts may therefore differ.</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
@@ -876,15 +873,16 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
  <ul>
   <li>Details on transfer payment programs</li>
   <li>Gender-based analysis plus</li>
-  <li>Response to Parliamentary committees and external audits</li>
   <li>Horizontal Initiatives</li>
   <li>Up-front multi-year funding</li>
-  <li>United Nations 2030 Agenda and the Sustainable Development Goals</li>
   </ul>
 </section>
 <section>
  <h2 id="toc06">Federal tax expenditures</h2>
- <p>The tax system can be used to achieve public policy objectives through the application of special measures such as  low tax rates, exemptions, deductions, deferrals and credits. The Department of Finance Canada publishes cost estimates and projections for these measures each  year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>. This report also provides detailed background information on tax expenditures, including descriptions, objectives, historical  information and references to related federal spending programs as well as  evaluations and GBA Plus of tax expenditures.</p>
+ <p>[Department name]’s Departmental Plan does not include information on tax expenditures. 
+The tax system can be used to achieve public policy objectives through the application of special measures such as low tax rates, exemptions, deductions, deferrals and credits. The Department of Finance Canada publishes cost estimates and projections for these measures each year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>.</p> 
+<p>This report also provides detailed background information on tax expenditures, including descriptions, objectives, historical information and references to related federal spending programs as well as evaluations and GBA Plus of tax expenditures.</p>
+</p>
 </section>
 <section>
  <h2 id="toc07">Definitions </h2>
