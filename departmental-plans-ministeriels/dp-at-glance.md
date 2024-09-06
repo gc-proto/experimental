@@ -25,8 +25,8 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
   </section>
   <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
-    <h2>Key priorities</h2>
-    <p>[Department name]’s top priorities for [insert fiscal year] 2025-26 are as follows:</p>
+    <h2>Departmental priorities</h2>
+    <p>[Department name]’s top priorities for [insert fiscal year] are as follows:</p>
     <ul>
       <li>[insert bulleted list item 1]</li>
       <li>[insert bulleted list item 2]</li>
