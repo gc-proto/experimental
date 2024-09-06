@@ -231,8 +231,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <p>[Insert content from risks section]</p></section>
   <section>
       <section>
-   <h4 id="toc02-1-4">Snapshot of planned resources in[insert fiscal year]</h4>
-  <section><h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
+   <h4 id="toc02-1-4">Resources required to achieve results</h4>
+  <section><h5>Table [#] snapshot of resources required this year for [insert name of core responsibility] </h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
 <div>
 <table id="tbl2" class="provisional gc-table table table-bordered" role="table"
@@ -323,11 +323,11 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
  </section>
  <section>
   <h4 id="toc02-4-2">Progress on results</h4>
-  <p>This section presents details on how the department performed to achieve results and meet targets for internal services.</p>
+  <p>[Insert description of the progress on results] </p>
  </section>
     <section>
   <h4 id="toc02-4-3">Resources required to achieve results</h4>
-  <section><h5>Table [#]: Resources required to achieve results for internal services this year</h5>
+  <section><h5>Table [#]: Snapshot of resources this year for internal services</h5>
 <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
 <div>
 <table id="tbl3" class="provisional gc-table table table-bordered">
@@ -938,8 +938,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
   <li>Details on transfer payment programs</li>
   <li>Gender-based analysis plus</li>
   <li>Response to Parliamentary committees and external audits</li>
-  <li>Horizontal Initiatives</li>
-  <li>Up-front multi-year funding</li>
   <li>United Nations 2030 Agenda and the Sustainable Development Goals</li>
   </ul>
 </section>
