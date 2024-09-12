@@ -14,7 +14,7 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
   <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
   <p>A departmental plan describes a department&rsquo;s priorities, plans and associated costs for the upcoming three fiscal years.</p>
 <ul>
-    <li>Vision, mission, raison d&#8217;etre and operating context</li>
+    <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
     <li>[Minister name]&#8217;s mandate letter</li>
   </ul> 
 
@@ -25,7 +25,7 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
   </section>
   <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
-    <h2>Departmental priorities</h2>
+    <h2>Key priorities</h2>
     <p>[Department name]’s top priorities for [insert fiscal year] are as follows:</p>
     <ul>
       <li>[insert bulleted list item 1]</li>

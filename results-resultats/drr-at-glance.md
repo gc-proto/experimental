@@ -14,7 +14,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
     <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
   <p>A departmental results report provides an account of actual accomplishments against plans, priorities and expected results set out in the associated <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental Plan</a>.</p>
 <ul>
-    <li>Vision, mission, raison d&#8217;être and operating context</li>
+    <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
     <li>Minister’s mandate letter (optional)</li>
   </ul> 
 
