@@ -512,9 +512,8 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
         <td data-label="[Fiscal year] forecast spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert total]</div></td>
         </tr>
       </tbody>
-</table></div>
-
-  
+</table>
+</div>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of past three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
@@ -572,12 +571,13 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of the next three years of spending</summary>
   <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
   </details>
+    <p>[Hyperlink to the related information on GC Infobase]</p>
  </section>
  <section>
   <h4>Table [#]: Budgetary gross and net planned spending summary (dollars) (*optional)</h4>
   <div>
    <table id="tbl6" class="provisional gc-table table table-bordered">
-     <caption class="h6 text-left">Table [#] reconciles gross planned spending with net spending for 2025–26.</caption>
+     <caption class="h6 text-left">Table [#] reconciles gross planned spending with net spending for [insert fiscal year].</caption>
    <thead>
     <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div></th>
@@ -697,17 +697,17 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
  </section>
  <section>
   <h3 id="toc03-3">Future-oriented condensed statement of operations</h3>
-  <p>The future-oriented condensed statement of operations provides an overview of [department acronymname]’s operations for [insert fiscal year] to [insert fiscal year]. </p>
+  <p>The future-oriented condensed statement of operations provides an overview of [department name]’s operations for [insert fiscal year] to [insert fiscal year]. </p>
 <section><h4>Table [#]: Future-oriented condensed statement of operations for the year ended [insert date] (dollars)</h4>
 <div>
 <table id="tbl7" class="provisional gc-table table table-bordered">
-<caption class="h6 text-left">Table [#.1]: summarizes the expenses and revenues which net to the cost of operations before government funding and transfers for [insert fiscal year] to [insert fiscal year].The forecast and planned amounts in this statement of operations were prepared on an accrual basis. The forecast and planned amounts presented in other sections of the Departmental Plan were prepared on an expenditure basis. Amounts may therefore differ.</caption>
+<caption class="h6 text-left">Table [#]: summarizes the expenses and revenues which net to the cost of operations before government funding and transfers for [insert fiscal year] to [insert fiscal year].The forecast and planned amounts in this statement of operations were prepared on an accrual basis. The forecast and planned amounts presented in other sections of the Departmental Plan were prepared on an expenditure basis. Amounts may therefore differ.</caption>
   <thead>
     <tr class="active">
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] forecast results</div></th>
       <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference [fiscal year] results minus[fiscal year] </div></th>
+      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference (forecasted results minus planned)</div></th>
       </tr>
     </thead>
   <tbody>
@@ -715,19 +715,19 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
     <td data-label="Financial information" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total expenses</div></td>
     <td data-label="[Fiscal year]  forecast results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     <td data-label="[Fiscal year] planned results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-    <td data-label="Difference [fiscal year] results minus[fiscal year] "><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+    <td data-label="Difference (forecasted results minus planned)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
     </tr>
     <tr>
       <td data-label="Financial information" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total revenues</div></td>
       <td data-label="[Fiscal year]  forecast results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td data-label="[Fiscal year] planned results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-      <td data-label="Difference [fiscal year] results minus[fiscal year] "><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+      <td data-label="Difference (forecasted results minus planned)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       </tr>
     <tr>
       <td data-label="Financial information" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Net cost of operations before government funding and transfers</div></td>
       <td data-label="[Fiscal year] forecast results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       <td data-label="[Fiscal year] planned results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
-      <td data-label="Difference [fiscal year] results minus[fiscal year] "><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
+      <td data-label="Difference (forecasted results minus planned)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
       </tr>
   </tbody>
 </table>
@@ -735,7 +735,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of forecasted and planned results</summary>
     <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
     </details>
-  <p>The [insert fiscal year] planned results information is provided in [Department acronym]'s Future-Oriented Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
+  <p>A more detailed Future-Oriented Statement of Operations and Notes for [fiscal year] [link to Department's FOSO], including a reconciliation of the net cost of operations with the requested authorities, is available on [department’s name]’s website.</p>
 </div>
 </section>
  <section>
@@ -897,8 +897,6 @@ The tax system can be used to achieve public policy objectives through the appli
         <dd>An enduring function  or role performed by a department. The intentions of the department with  respect to a core responsibility are reflected in one or more related  departmental results that the department seeks to contribute to or influence. </dd>
         <dt>Departmental Plan <span lang="fr">(plan ministériel)</span></dt>
         <dd>A report on the plans and expected performance of an appropriated department over a 3 year period. Departmental Plans are usually tabled in Parliament each spring.</dd>
-         <dt>departmental priority <span lang="fr">(priorité)</span></dt>
-        <dd>A plan or project that a department has chosen to focus and report on during the planning period. Priorities represent the things that are most important or what must be done first to support the achievement of the desired departmental results.</dd>
         <dt>departmental result <span lang="fr">(résultat ministériel) </span></dt>
         <dd>A consequence or outcome that a department seeks to achieve. A departmental result is often outside departments’ immediate control, but it should be influenced by program-level outcomes.</dd>
         <dt>departmental result indicator <span lang="fr">(indicateur de résultat  ministériel) </span></dt>
@@ -911,11 +909,12 @@ The tax system can be used to achieve public policy objectives through the appli
         <dd>A measure of the extent to which an employee represents a full person year charge against a departmental budget. For a particular position, the fulltime equivalent figure is the ratio of number of hours the person actually works divided by the standard number of hours set out in the person’s collective agreement.</dd>
         <dt>gender-based analysis plus (GBA Plus) <span lang="fr">(analyse comparative  entre les sexes plus&nbsp;[ACS&nbsp;Plus])</span></dt>
         <dd>An analytical tool used to assess support the development of responsive and inclusive how different groups of women, men and gender-diverse people experience policies, programs and policies, programs, and other initiatives. GBA Plus is a process for understanding who is impacted by the issue or opportunity being addressed by the initiative; identifying how the initiative could be tailored to meet diverse needs of the people most impacted; and anticipating and mitigating any barriers to accessing or benefitting from the initiative. GBA Plus is an intersectional analysis that goes beyond biological (sex) and socio-cultural (gender) differences to consider other factors, such as age, disability, education, ethnicity, economic status, geography (including rurality), language, race, religion, and sexual orientation.</dd>
-        <dt>government-wide priorities <span lang="fr">(priorités pangouvernementales)</span></dt>
-        <dd>For the purpose of the Departmental Results Report, government-wide priorities are the  high-level themes outlining the government&rsquo;s agenda in the <a href="#">[Month, day,  year]: Speech from the throne</a> [insert hyperlink to the speech] building a healthier today and  tomorrow; growing a more resilient economy; bolder climate action; fighting  harder for safer communities; standing up for diversity and inclusion; moving  faster on the path to reconciliation; and fighting for a secure, just and  equitable world.
-</dd>
+        <dt>government priorities <span lang="fr">(priorités gouvernementales)</span></dt>
+        <dd>For the purpose of the 2025-26 Departmental Plan, government priorities are the high-level themes outlining the government’s agenda in the <a href="https://www.canada.ca/en/privy-council/campaigns/speech-throne/2021/speech-from-the-throne.html">November 23, 2021, Speech from the Throne</a>: building a healthier today and tomorrow; growing a more resilient economy; bolder climate action; fight harder for safer communities; standing up for diversity and inclusion; moving faster on the path to reconciliation; and fighting for a secure, just and equitable world.</dd>
         <dt>horizontal initiative <span lang="fr">(initiative  horizontale)</span></dt>
         <dd>An initiative where two or more federal departments are given funding to pursue a shared outcome, often linked to a government priority.</dd>
+        <dt>Indigenous business <span lang="fr">(enterprise autochtones)</span></dt>
+        <dd>For the purpose of the <em>Directive on the Management of  Procurement Appendix E: Mandatory Procedures for Contracts Awarded to  Indigenous Businesses</em> and the Government of Canada&rsquo;s commitment that a  mandatory minimum target of 5% of the total value of contracts is awarded to  Indigenous businesses, an organization that meets the definition and  Arequirements as defined by the <a href="https://www.sac-isc.gc.ca/eng/1100100033057/1610797769658">Indigenous Business  Directory</a>.  </dd>
         <dt>non‑budgetary expenditures <span lang="fr">(dépenses non budgétaires)</span></dt>
         <dd>Net outlays and receipts related to loans, investments and advances, which change the composition of the financial assets of the Government of Canada.</dd>
         <dt>performance <span lang="fr">(rendement)</span></dt>
@@ -933,8 +932,6 @@ The tax system can be used to achieve public policy objectives through the appli
         <dd>Identifies all the department&rsquo;s programs and describes how resources are organized to contribute to the department&rsquo;s  core responsibilities and results.</dd>
         <dt>result <span lang="fr">(résultat)</span></dt>
         <dd>A consequence attributed, in part, to an department, policy, program or initiative. Results are not within the control of a single department, policy, program or initiative; instead they are within the area of the department’s influence.</dd>
-        <dt>Indigenous business <span lang="fr">(enterprise autochtones)</span></dt>
-        <dd>For the purpose of the <em>Directive on the Management of  Procurement Appendix E: Mandatory Procedures for Contracts Awarded to  Indigenous Businesses</em> and the Government of Canada&rsquo;s commitment that a  mandatory minimum target of 5% of the total value of contracts is awarded to  Indigenous businesses, an organization that meets the definition and  Arequirements as defined by the <a href="https://www.sac-isc.gc.ca/eng/1100100033057/1610797769658">Indigenous Business  Directory</a>.  </dd>
         <dt>statutory expenditures <span lang="fr">(dépenses  législatives)</span></dt>
         <dd>Expenditures that Parliament has approved through legislation other than appropriation acts. The legislation&nbsp;sets out the purpose of the expenditures and the terms and conditions under which  they may be made.</dd>
         <dt>target <span lang="fr">(cible)</span></dt>
