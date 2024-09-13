@@ -119,13 +119,13 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
 </section>
  <section>
   <h4 id="toc02-1-3">Indicators, results and targets</h4>
-  <p>This section presents details on the department’s indicators, the results from the three most recently reported fiscal years, the targets and target dates approved in [insert fiscal year] for [insert name of core responsibility]. Details are presented by departmental resul</p>
+  <p>This section presents details on the department’s indicators, the results from the three most recently reported fiscal years, the targets and target dates approved in [insert fiscal year] for [insert name of core responsibility]. Details are presented by departmental result</p>
 <section>
 <div>
   <table id="tbl1-1" class="provisional gc-table table table-bordered" role="table"
       aria-label="Name of Departmental result 1"
       aria-describedby="Departmental_results_1_table">
-    <caption class="h5 text-left">Table [#.1]:[Insert name of departmental result 1]</caption>
+    <caption class="h5 text-left">Table [#]:[Insert name of departmental result 1]</caption>
     <thead>
       <tr class="active">
         <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -164,7 +164,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
     <table id="tbl1-2" class="provisional gc-table table table-bordered" role="table"
      aria-label="Name of Departmental result 2"
      aria-describedby="Departmental_results_2_table">
-    <caption class="h5 text-left">Table [#.2]:[Insert name of departmental result 2]</caption>
+    <caption class="h5 text-left">Table [#]:[Insert name of departmental result 2]</caption>
       <thead>
     <tr class="active">
       <th scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div></th>
@@ -231,7 +231,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
 <!--</div>-->
  </section>
  <section>
-  <h4 id="toc02-1-5">Key risks</h4>
+  <h4 id="toc02-1-5">Key risks (*optional)</h4>
   <p>[Insert content from risks section]</p>
   </section>
   <section>
@@ -242,7 +242,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
 <table id="tbl2" class="provisional gc-table table table-bordered" role="table"
      aria-label="Name of Departmental result 2"
      aria-describedby="Departmental_results_2_table">
-      <caption class="h6 text-left">Table [#] ] provides a summary of the planned spending and full-time equivalents required to achieve results.</caption>
+      <caption class="h6 text-left">Table [#] provides a summary of the planned spending and full-time equivalents required to achieve results.</caption>
             <thead>
 <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div></th>
@@ -276,7 +276,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
   <p>[Insert description]</p>
   </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation (*optional)</summary>
   <p>[Insert description]</p>
   </details>
  </section>
@@ -354,11 +354,12 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
             </tr>
             <tr>
               <td data-label="Resource" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div></td>
-              <td data-label="Planned"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert total planned FTEs for the fiscal year]</div></td>
+              <td data-label="Planned"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert total planned Full-time equivalents for the fiscal year]</div></td>
             </tr>
             </tbody>
     </table>
 </div>
+  <p>[Hyperlink to the related information on GC Infobase]</p>
 </section>
 </div>
  </section>
@@ -882,7 +883,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
  <p>[Department name]’s Departmental Plan does not include information on tax expenditures. 
 The tax system can be used to achieve public policy objectives through the application of special measures such as low tax rates, exemptions, deductions, deferrals and credits. The Department of Finance Canada publishes cost estimates and projections for these measures each year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>.</p> 
 <p>This report also provides detailed background information on tax expenditures, including descriptions, objectives, historical information and references to related federal spending programs as well as evaluations and GBA Plus of tax expenditures.</p>
-</p>
 </section>
 <section>
  <h2 id="toc07">Definitions </h2>
