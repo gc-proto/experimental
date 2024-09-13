@@ -32,7 +32,6 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
       <li>[insert bulleted list item 2]</li>
       <li>[insert bulleted list item 3]</li>
     </ul>
-    <p>[Insert text from the 'refocusing government spending' section of the word template]</p>
 </section>
   <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">

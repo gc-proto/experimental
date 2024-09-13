@@ -32,7 +32,6 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
       <li>[élément&nbsp;2 de la liste à puces]; </li>
       <li>[élément&nbsp;3 de la liste à puces]. </li>
     </ul>
-    <p>[Si c’est pertinent, inclure une brève description de la façon dont ils ont contribué à l’exercice Recentrer les dépenses gouvernementales en [insérer l’exercice].]</p>
 </section>
     <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
