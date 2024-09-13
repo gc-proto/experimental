@@ -692,7 +692,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
         <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
       </details>
     </figure>
-      <p>For further information on [department name]’s departmental voted and statutory expenditures, consult the <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html">Public Accounts of Canada</a>.</p>
+      <p>For further information on [department name]’s departmental appropriations, consult the <a href="">[insert fiscal year] Main Estimate</a>.</p>
     </section>
  </section>
  <section>
