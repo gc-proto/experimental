@@ -6,13 +6,13 @@ breadcrumbs:
 dateModified: 2023-12-22
 language: fr
 layout: default
-title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œil"
+title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
 ---
 
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
-  <p>Un plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices. </p>
+  <p>Un plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices.</p>
 <ul>
     <li>Vision, mission, raison d'être et contexte opérationnel</li>
     <li>Lettre de mandat du ministre</li>
@@ -21,12 +21,12 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
  
   <div class="clearfix"></div>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
-    <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html" class="btn btn-primary btn-lg">Lisez le plan ministériel complet</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span></p>
+    <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html" class="btn btn-primary btn-lg">Lire le plan ministériel complet</a> <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span></p>
   </section>
     <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
-    <h2>Principales priorités</h2>
-    <p>[Insérez le texte de la section « Priorités clés » du gabarit Word]</p>
+    <h2>Priorités du ministère</h2>
+    <p>[Insérez le texte de la section « Priorités absolues » du gabarit Word]</p>
     <ul>
       <li>[élément&nbsp;1 de la liste à puces]; </li>
       <li>[élément&nbsp;2 de la liste à puces]; </li>
@@ -35,7 +35,7 @@ title: "Plan ministériel de [nom du ministère] pour [exercice] en un coup d'œ
 </section>
     <hr>
   <section class="mrgn-bttm-lg mrgn-tp-lg">
-    <h2>Faits saillants </h2>
+    <h2>Faits saillants</h2>
     <p>[Insérer le texte de la section « Faits saillants »]</p>
 <section id="cores"> <div class="btn-group mrgn-bttm-md">
 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
