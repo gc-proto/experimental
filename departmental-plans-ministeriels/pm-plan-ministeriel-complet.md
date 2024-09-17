@@ -6,7 +6,7 @@ breadcrumbs:
 dateModified: 2023-12-18
 language: fr
 layout: default
-title: "Plan ministériel de [nom du ministère] pour [insérer l’exercice]"
+title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 ---
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
@@ -21,7 +21,7 @@ title: "Plan ministériel de [nom du ministère] pour [insérer l’exercice]"
 <ul>
 <li><a href="#toc01">Message du/de la ministre</a></li>
 <li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif)</li>
-<li><a href="#toc02">Plans pour assurer les responsabilités essentielles et les services internes </a> 
+<li><a href="#toc02">Plans pour assurer les responsabilités essentielles et les services internes</a> 
 <ul>
 <li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
 <li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
@@ -105,10 +105,10 @@ title: "Plan ministériel de [nom du ministère] pour [insérer l’exercice]"
   <ul>
   <li><a href="#toc02-1-1">Description</a></li>
   <li><a href="#toc02-1-2">Répercussions sur la qualité de vie</a></li>
-  <li><a href="#toc02-1-3">Résultats et cibles</a></li>
+  <li><a href="#toc02-1-3">Indicateurs, résultats et cibles</a></li>
   <li><a href="#toc02-1-4">Plans visant à atteindre les cibles</a></li>
   <li><a href="#toc02-1-5">Principaux risques</a></li>
-  <li><a href="#toc02-1-6">Aperçu des ressources prévues en [insérez l'exercice]</a></li>
+  <li><a href="#toc02-1-6">Ressources prévues pour atteindre les résultats</a></li>
   <li><a href="#toc02-1-7">Priorités gouvernementales connexes</a></li>
   <li><a href="#toc02-1-8">Répertoire des programmes</a></li>
   <li><a href="#toc02-1-9">Résumé des changements apportés au cadre d'établissement de rapport depuis l'année dernière</a></li>
@@ -116,11 +116,11 @@ title: "Plan ministériel de [nom du ministère] pour [insérer l’exercice]"
  </details>
  </li>
  </ul>
- <p>[Répétez ces sections pour chaque responsabilité essentielle]</p>
+ <p>[Reproduire ces sections pour chaque responsabilité essentielle.]</p>
 
  <section>
   <h4 id="toc02-1-1">Description</h4>
-  <p>[Insérer la description de la responsabilité principale 1]</p>
+  <p>[Insérer la description de la responsabilité essentielle 1]</p>
   
  </section>
  <section>
@@ -128,64 +128,116 @@ title: "Plan ministériel de [nom du ministère] pour [insérer l’exercice]"
   <p>[Insérez  le texte de la section « Qualité de vie » du gabarit Word] </p>
  </section>
  <section>
-  <h4 id="toc02-1-3">Résultats et cibles</h4>
-  <p>[Insérez le texte de la section «  Résultats et objectifs » du gabarit Word] </p>
-  <section><h5>Tableau [#] : Indicateurs, résultats et cibles pour le résultat ministériel</h5>
-  <p>Les tableaux suivants présentent, pour  chaque résultat ministériel lié à la responsabilité essentielle [nom de la responsabilité essentielle],  les indicateurs, les résultats des trois&nbsp;exercices les plus récemment  déclarés, les cibles et les dates cibles approuvées en [inscrire le nom de la responsabilité essentielle].</p>
-<table id="tbl1" class="table table-bordered table-condensed">
-  <thead>
-    <tr class="active">
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateur</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat [exercice]</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
-      <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date de réalisation</div></th>
+  <h4 id="toc02-1-3">Indicateurs, résultats et cibles</h4>
+  <p>Cette section présente des renseignements détaillés sur les indicateurs du ministère, les résultats réels des trois derniers exercices, les cibles et les dates cibles approuvées en 2025 2026 pour [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. [Remplir le tableau suivant pour chaque résultat ministériel lié à la responsabilité essentielle.]</p>
+  <section>
+<div>
+  <table id="tbl1-1" class="provisional gc-table table table-bordered" role="table"
+      aria-label="Name of Departmental result 1"
+      aria-describedby="Departmental_results_1_table">
+    <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 1]</caption>
+    <thead>
+      <tr class="active">
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultat ministériel</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte de la cible</div></th>
+        </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div></td>
+        <td data-label="Résultats réels"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+        <ul>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+        </ul></div></td>
+        <td data-label="Cible"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+        <td data-label="Date d’atteinte de la cible"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
       </tr>
-    </thead>
-  <tbody>
-    <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateur ministériel</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez la cible]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez la date d'atteinte de la cible]</div></td>
+      <tr>
+        <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div></td>
+        <td data-label="Résultats réels"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+        <ul>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+        </ul></div></td>
+        <td data-label="Cible"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+        <td data-label="Date d’atteinte de la cible"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer]</div></td>
       </tr>
-    <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateur ministériel</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez la cible]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez la date d'atteinte de la cible]</div></td>
+      </tbody>
+  </table>
+</div>
+<div>
+  <table id="tbl1-1" class="provisional gc-table table table-bordered" role="table"
+      aria-label="Name of Departmental result 2"
+      aria-describedby="Departmental_results_2_table">
+    <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 2]</caption>
+    <thead>
+      <tr class="active">
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultat ministériel</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte de la cible</div></th>
+        </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Inscrire l’indicateur]</div></td>
+        <td data-label="Résultats réels"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+        <ul>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+        </ul></div></td>
+        <td data-label="Cible"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+        <td data-label="Date d’atteinte de la cible"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
       </tr>
-    <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateur ministériel</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez la cible]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez la date d'atteinte de la cible]</div></td>
+      <tr>
+        <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Inscrire l’indicateur]</div></td>
+        <td data-label="Résultats réels"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">
+        <ul>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+            <li>[Exercice] : [Insérer les chiffres]</li>
+        </ul></div></td>
+        <td data-label="Cible"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la cible]</div></td>
+        <td data-label="Date d’atteinte de la cible"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer la date]</div></td>
       </tr>
-    <tr>
-      <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateur ministériel</div></th>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le résultat]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez la cible]</div></td>
-      <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez la date d'atteinte de la cible]</div></td>
-      </tr>
-    </tbody>
-</table>
-  <p>Les renseignements sur les ressources  financières, les ressources humaines et le rendement liés au répertoire des  programmes de [nom du ministère] sont accessibles dans l'<a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-fra.html#start">InfoBase  du GC</a>.</p>
+      </tbody>
+  </table>
+</div>
+  <p>Des renseignements supplémentaires sur les résultats détaillés et l’information sur le rendement [hyperlien menant vers la page Résultats de la page du ministère dans l’InfoBase du GC] pour le répertoire des programmes de [nom du ministère] figurent dans l’InfoBase du GC.</p>
 </section>
  </section>
- <section>
+  <section>
   <h4 id="toc02-1-4">Plans visant à atteindre les cibles</h4>
-  <p>[Insérez le texte de la  section « Plans pour atteindre les résultats » du gabarit Word]</p>
-<div class="well"><p>[Indiquez si un contenu doit être mis en évidence dans une zone de surbrillance]</p>
-</div>
+  <p>La section suivante décrit les résultats prévus relativement à [insérer le nom de la responsabilité essentielle] en [insérer l'exercice].</p>
+     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat ministériel 1]</summary>
+        <section>
+     <p>[Insérer la description des résultats que votre ministère prévoit atteindre en 2025 2026 pour le résultat ministériel 1]</p>
+     <p><strong>Les résultats que nous prévoyons atteindre</strong></p>
+     <ul>
+       <li>[Insérer élément 1 de la liste à puces]</li>
+       <li>[Insérer élément 2 de la liste à puces]</li>
+       <li>[Insérer élément 3 de la liste à puces]</li>
+     </ul></section>
+    </details>
+     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat ministériel 2]</summary>
+        <section>
+     <p>[Insérer la description des résultats que votre ministère prévoit atteindre en 2025 2026 pour le résultat ministériel 2]</p>
+     <p><strong>Les résultats que nous prévoyons atteindre</strong></p>
+     <ul>
+       <li>[Insérer élément 1 de la liste à puces]</li>
+       <li>[Insérer élément 2 de la liste à puces]</li>
+       <li>[Insérer élément 3 de la liste à puces]</li>
+     </ul></section>
+    </details>
+    <p>[Répéter pour chaque résultat ministériel lié à la responsabilité essentielle 1]</p>
  </section>
  <section>
   <h4 id="toc02-1-5">Principaux risques</h4>
