@@ -218,7 +218,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat ministériel 1]</summary>
         <section>
-     <p>[Insérer la description des résultats que votre ministère prévoit atteindre en 2025 2026 pour le résultat ministériel 1]</p>
+     <p>[Insérer la description des résultats que votre ministère prévoit atteindre en [insérer l'exercice] pour le résultat ministériel 1]</p>
      <p><strong>Les résultats que nous prévoyons atteindre</strong></p>
      <ul>
        <li>[Insérer élément 1 de la liste à puces]</li>
@@ -229,7 +229,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat ministériel 2]</summary>
         <section>
-     <p>[Insérer la description des résultats que votre ministère prévoit atteindre en 2025 2026 pour le résultat ministériel 2]</p>
+     <p>[Insérer la description des résultats que votre ministère prévoit atteindre en [insérer l'exercice] pour le résultat ministériel 2]</p>
      <p><strong>Les résultats que nous prévoyons atteindre</strong></p>
      <ul>
        <li>[Insérer élément 1 de la liste à puces]</li>
