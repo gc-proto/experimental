@@ -235,22 +235,19 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
   <p>[Insert content from risks section]</p>
   </section>
   <section>
-      <section>
-   <h4 id="toc02-1-4">Planned resources to achieve results</h4>
-  <section><h5>Table [#] Planned resources to achieve results for [insert name of core responsibility]</h5>
-<div>
-<table id="tbl2" class="provisional gc-table table table-bordered" role="table"
-     aria-label="Name of Departmental result 2"
-     aria-describedby="Departmental_results_2_table">
+    <h4 id="toc02-1-4">Planned resources to achieve results</h4>
+    <div>
+      <h5>Table [#] Planned resources to achieve results for [insert name of core responsibility]</h5>
+      <table id="tbl2" class="provisional gc-table table table-bordered" role="table" aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
       <caption class="h6 text-left">Table [#] provides a summary of the planned spending and full-time equivalents required to achieve results.</caption>
-            <thead>
-<tr class="active">
+          <thead>
+            <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div></th>
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Planned</div></th>
             </tr>
-</thead>
-            <tbody>
-<tr>
+          </thead>
+          <tbody>
+            <tr>
               <td data-label="Resource" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Spending</div></td>
               <td data-label="Planned"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert amount]</div></td>
             </tr>
@@ -258,11 +255,11 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
               <td data-label="Resource" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div></td>
               <td data-label="Planned"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div></td>
             </tr>
-</tbody>
+          </tbody>
         </table>
-        </div>
-        <p>[Hyperlink to the related information on GC Infobase]</p></section>
-      </section>
+    </div>
+        <p>[Hyperlink to the related information on GC Infobase]</p>
+  </section>
  <section>
  <section>
   <h4 id="toc02-1-7">Related government priorities</h4>
@@ -467,7 +464,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
 </section>
 <section>
      <h4>Budgetary performance summary</h4>
-     <section>
   <h5 class="h4">Table [#]: Three-year spending summary for core responsibilities and internal services (dollars)</h5>
 <div>
   <table id="tbl4" class="provisional gc-table table table-bordered">

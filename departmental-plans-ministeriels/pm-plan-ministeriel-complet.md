@@ -240,18 +240,34 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
     <p>[Répéter pour chaque résultat ministériel lié à la responsabilité essentielle 1]</p>
  </section>
  <section>
-  <h4 id="toc02-1-5">Principaux risques</h4>
+  <h4 id="toc02-1-5">Principaux risques (*facultatif)</h4>
   <p>[Insérer une description des principaux risques pour la responsabilité essentielle 1]</p></section>
-  <section>
-  </section><section><div class="panel panel-primary">
-   <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-1-6">Aperçu des ressources prévues en [insérez l'exercice]</h4></header>
- <div class="panel-body">
- <ul>
-     <li><strong>Dépenses prévues</strong> : [insérez les dépenses totales prévues] </li>
-  <li><strong>Ressources à temps plein prévues</strong>  : [insérez le total des équivalents à temps plein prévus] </li>
-  </ul>
- </div>
-</div></section>
+ <section>
+    <h4 id="toc02-1-4">Ressources prévues pour atteindre les résultats</h4>
+    <div>
+      <h5>Tableau [#] : Ressources prévues pour atteindre les résultats relativement à [insérer le nom de la responsabilité essentielle]</h5>
+      <table id="tbl2" class="provisional gc-table table table-bordered" role="table" aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+      <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
+          <thead>
+            <tr class="active">
+              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div></th>
+              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Ressources" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div></td>
+              <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            </tr>
+            <tr>
+              <td data-label="Ressources" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents </div></td>
+              <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+        <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+  </section>
  <section>
   <h4 id="toc02-1-7">Priorités gouvernementales connexes</h4>
   <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
@@ -260,8 +276,12 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <p>[Texte dans la section « Analyse comparative entre les sexes plus », si inclus]</p>
   </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l'horizon 2030 des Nations Unies et objectifs de développement durable des Nations Unies</summary>
-  <p>[Texte figurant dans le « Programme de développement durable à l'horizon 2030 des Nations Unies et les objectifs de développement durable des Nations Unies », s'il est inclus] </p>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l’horizon 2030 (Programme à l’horizon 2030) et objectifs de développement durable des Nations Unies </summary>
+  <p>[Texte figurant dans le « Programme de développement durable à l’horizon 2030 (Programme à l’horizon 2030) et objectifs de développement durable des Nations Unies », s'il est inclus] </p>
+  </details>
+  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
+  <p>[Texte figurant dans l' « Innovation», s'il est inclus] </p>
   </details>
  </section>
  <section>
@@ -270,7 +290,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 <ul>
  <li>[Liste à puces des programmes relevant de la responsabilité principale]</li>
  </ul>
-<p>Des  renseignements complémentaires sur les dépenses prévues, les ressources  humaines et les résultats liés au répertoire des programmes de [nom du ministère] se trouvent sur <a href="https://www.tbs-sct.canada.ca/ems-sgd/edb-bdd/index-fra.html#start">l'InfoBase du GC</a>.</p>
+<p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
  </section>
  <section>
   <h4 id="toc02-1-9">Résumé des changements apportés au cadre d'établissement de rapport depuis l'année dernière</h4>
@@ -290,77 +310,65 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <ul>
   <li><a href="#toc02-5-1">Description</a></li>
   <li><a href="#toc02-5-2">Plans visant à atteindre les cibles</a></li>
-  <li><a href="#toc02-5-3">Aperçu des ressources prévues en [insérez l'exercice]</a></li>
-  <li><a href="#toc02-5-4">Priorités gouvernementales connexes</a></li>
+  <li><a href="#toc02-5-3">Ressources prévues pour atteindre les résultats</a></li>
+  <li><a href="#toc02-5-4">[RÉSERVÉ à toute autre priorité gouvernementale]</a></li>
   </ul>
  </details>
  </li>
  </ul>
  <section>
   <h4 is="toc02-5-1">Description</h4>
-  <p>Les services internes sont les services fournis au sein d'un ministère afin qu'il puisse respecter ses obligations intégrées et exécuter ses programmes. Les dix catégories de services internes sont les suivantes :</p>
+  <p>Les services internes sont les services fournis au sein d’un ministère afin qu’il puisse s’acquitter de ses obligations et assurer la prestation de ses programmes. Les dix catégories de services internes sont les suivantes :</p>
   <ul>
     <li>services de gestion et de  surveillance;</li>
     <li>services de communications;</li>
     <li>services juridiques;</li>
-    <li>services de gestion des  ressources humaines;</li>
-    <li>services de gestion des  finances;</li>
+    <li>services de gestion des ressources humaines;</li>
+    <li>services de gestion des finances;</li>
     <li>services de gestion de l'information;</li>
     <li>services de technologie de l'information;</li>
-    <li>services de gestion des biens  immobiliers;</li>
-    <li>services de gestion du  matériel;</li>
-    <li>services de gestion des  acquisitions.</li>
+    <li>services de gestion des biens immobiliers;</li>
+    <li>services de gestion du matériel;</li>
+    <li>services de gestion des acquisitions.</li>
   </ul>
  </section>
- <section>
-  <h4 is="toc02-5-2">Plans visant à atteindre les cibles</h4>
-  <p>[Insérez le texte de la section « Plans pour atteindre les résultats » du gabarit Word]</p>
-  <div class="well">
-  <p>[Indiquez si un contenu doit être mis en évidence dans une zone de surbrillance]</p>
-</div>
- </section>
- <section>
-  <div class="panel panel-primary">
-   <header class="panel-heading"><h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Aperçu des ressources prévues en [insérez l'exercice]</h4></header>
-   <div class="panel-body">
-  <ul>
-    <li><strong>Dépenses prévues&nbsp;:</strong> [insérez les dépenses totales prévues] </li>
-    <li><strong>Ressources à temps plein  prévues&nbsp;:</strong> [insérez le total des  équivalents à temps plein prévus] </li>
-  </ul>
- </div>
-</div>
- </section>
- <section>
-  <h4 is="toc02-5-4">Priorités gouvernementales connexes</h4>
-  <section><h5>Planification de l'attribution des marchés aux entreprises autochtones</h5>
-  <p>[Texte dans la section « Planification de l'attribution des marchés aux entreprises autochtones »] </p>
   <section>
-  <h6 class="h4">Tableau [numéro] : Planification de l'attribution des marchés aux entreprises autochtones</h6>
-    <p>Le tableau suivant démontre comment le  ministère prévoit attribuer chaque année au moins 5&nbsp;% de la valeur totale  des marchés à des entreprises autochtones. </p>
-<p>[Une page au maximum]</p>
-    <p>Décrivez comment votre ministère prévoit  attribuer chaque année au moins 5&nbsp;% de la valeur totale des marchés à des  entreprises autochtones. Ne déclarez pas simplement que vous atteindrez  l&rsquo;objectif minimum obligatoire de 5&nbsp;%; indiquez comment votre plan vous  aidera à atteindre l&rsquo;objectif défini à l&rsquo;annexe&nbsp;E de la <a href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32692"><em>Directive sur la gestion de l&rsquo;approvisionnement</em></a>.]</p>
-    <p>[Les  organisations doivent remplir le tableau suivant selon leur phase.]</p>
-    <div class="table-responsive">
-    <table id="tbl2" class="table table-bordered table-condensed">
-      <tr class="active">
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Champ     de déclaration de 5&nbsp;%</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     réel en <span class="nowrap">2022-2023</span></div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     prévu en <span class="nowrap">2023-2024</span></div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultat     projeté en <span class="nowrap">2024-2025</span></div></th>
-      </tr>
-      <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">Pourcentage total de marchés avec des    entreprises autochtones</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"><p>[Les organisations de la phase 1 saisissent un    pourcentage numérique </p>
-        <p>Les organisations des phases 2 et 3 peuvent saisir un    pourcentage numérique, si possible, sinon saisir «&nbsp;S. O.&nbsp;»]&nbsp;% </p></div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"><p>[Les organisations des phases 1 et 2 saisissent un    pourcentage numérique représentant le résultat attendu </p>
-          <p>Les organisations de phase 3 saisissent «&nbsp;S.    O.&nbsp;»]&nbsp;% </p></div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Toutes les phases saisissent un pourcentage numérique    représentant le résultat estimé]&nbsp;%</div></td>
-      </tr>
-    </table>
-    </div>
-    </section></section>
+  <h4 id="toc02-5-2">Plans visant à atteindre les cibles</h4>
+  <p>Cette section présente les mesures prévues par le ministère pour atteindre les résultats et les cibles en ce qui a trait aux services internes.</p>
+  <div>
+  <p>[Insérer le contenue des plans visant à atteindre les cibles]</p>
+</div>
  </section>
+ <section>
+  <div>
+   <h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Ressources prévues pour atteindre les résultats</h4>
+  <section>
+  <h5>Table [#]: Ressources prévues pour atteindre les résultats en ce qui a trait aux services internes pour l’exercice</h5>
+<div>
+      <table id="tbl3" class="provisional gc-table table table-bordered">
+            <caption class="h6 text-left">Table [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
+            <thead>
+              <tr class="active">
+              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div></th>
+              <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td data-label="Ressources" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div></td>
+              <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total des dépenses prévues pour l’exercice.]</div></td>
+            </tr>
+            <tr>
+              <td data-label="Ressources" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div></td>
+              <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nombre total d’équivalents temps plein prévus pour l’exercice.]</div></td>
+            </tr>
+            </tbody>
+    </table>
+</div>
+  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 </section>
+</div>
+ </section>
 </section>
 <section>
  <h2 id="toc03">Dépenses et ressources humaines prévues</h2>
@@ -377,7 +385,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 </ul>
  <section>
  <h3 id="toc03-1">Dépenses</h3>
- <p>[Insérez une introduction aux dépenses]</p>
+ <p>[Insérer une introduction aux dépenses]</p>
 <section>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Figure [#] : Dépenses par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
@@ -386,187 +394,154 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
     <div class="table-responsive">
-     <table class="table table-bordered table-condensed">
+     <   <table class="provisional gc-table table table-bordered"> 
+     <caption class="h6 text-left wb-inv">Description textuelle de la figure</caption>
      <thead>
       <tr class="active">
-     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes  </div></th>
-     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues [insérez l'exercice]</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues en [insérer l’exercice]</div></th>
      </tr>
      </thead>
      <tbody>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">1. Responsabilité essentielle</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
+        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la Responsabilité essentielle 1]</div></td>
+        <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">2. Responsabilité essentielle</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
+        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la Responsabilité essentielle 2]</div></td>
+        <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">3. Responsabilité essentielle</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
+        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la Responsabilité essentielle 3]</div></td>
+        <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">4. Responsabilité essentielle</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
+        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la Responsabilité essentielle 4]</div></td>
+        <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
      </tr>
      <tr>
-     <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
-     <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le montant]</div></td>
+        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></td>
+        <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
      </tr>
      </tbody>
-</table></div>
+</table>
+</div>
    </details>
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication de la figure [numéro]</summary>
-
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses prévues par responsabilité essentielle</summary>
     <p>[Veuillez inclure l'explication de la figure incluse dans la version Word]</p>
    </details>
   </figure>
-  <p>[Insérez  le texte de la section « Sommaire des dépenses réelles pour les responsabilités  essentielles et les services internes (en dollars) » du gabarit Word] </p>
-
 </section>
  <section>
-  <h4>Tableau [#] : Sommaire des dépenses réelles pour les responsabilités essentielles et les services internes (en dollars)</h4>
-  
-<p>Le tableau suivant présente des  renseignements sur les dépenses pour chacune des responsabilités essentielles  du [nom du ministère] et pour ses  services internes au cours des trois exercices précédents. Les montants pour l'exercice  en cours sont prévus en fonction des dépenses à ce jour.</p>
-<div class="table-responsive">
-  <table id="tbl3" class="table table-bordered table-condensed">
+  <h4>Sommaire du rendement budgétaire</h4>
+  <h5 class="h4">Tableau  [#]: Sommaire des dépenses de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
+<div>
+  <table id="tbl4" class="provisional gc-table table table-bordered">
+       <caption class="h6 text-left">Tableau  [#] indique la somme d’argent dépensée par [acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes. Les montants pour l’exercice en cours sont prévus en fonction des dépenses à ce jour.</caption>
     <thead>
       <tr class="active">
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses réelles [insérez l'exercice]</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses réelles [insérez l'exercice]</div></th>
-        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses visées [insérez l'exercice]</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes :</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses réelles de [insérer l’exercice]</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses réelles de [insérer l’exercice]</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [insérer l’exercice]</div></th>
         </tr>
       </thead>
     <tbody>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">1. Responsabilité essentielle</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des prévisions des dépenses pour l'exercice]</div></td>
+        <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+        <td data-label="Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">2. Responsabilité essentielle</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des prévisions des dépenses pour l'exercice]</div></td>
-        </tr>
-      <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">3. Responsabilité essentielle</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des prévisions des dépenses pour l'exercice]</div></td>
-        </tr>
-      <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">4. Responsabilité essentielle</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des prévisions des dépenses pour l'exercice]</div></td>
+        <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+        <td data-label="Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         </tr>
       <tr class="active">
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel]</div></td>
+        <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></td>
+        <td data-label="Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+        <td data-label="Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les autorisations totales des Comptes publics]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des prévisions des dépenses pour l'exercice]</div></td>
+        <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></td>
+        <td data-label="Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         </tr>
       <tr class="active">
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel plus les services internes]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel plus les services internes]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel plus les services internes]</div></td>
+        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></td>
+        <td data-label="Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+        <td data-label="[Dépenses réelles de [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
         </tr>
       </tbody>
-</table></div>
-
+</table>
+</div>
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
-  <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
+    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois derniers exercices</summary>
+    <p>[Insérez un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
   </details>
-  <p>[Assurez-vous que le contenu correspond à la section « Sommaire des dépenses réelles pour les responsabilités essentielles et les services internes (en dollars) » de la version Word] </p>
+    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
  </section>
- <section>
-  <h4>Tableau [#] : Sommaire de la planification budgétaire pour les responsabilités essentielles et les services internes (en dollars)</h4>
-  
-<p>Le tableau suivant présente des  renseignements sur les dépenses pour chacune des responsabilités essentielles  de [nom du ministère] et pour ses services internes au cours des trois prochains  exercices.</p>
-<div class="table-responsive">
-  <table id="tbl4" class="table table-bordered table-condensed">
+  <section>
+  <h4>Tableau [#] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h4>
+<div>
+  <table id="tbl4" class="provisional gc-table table table-bordered">
+       <caption class="h6 text-left">Tableau  [#] indique la somme d’argent dépensée par [acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes. Les montants pour l’exercice en cours sont prévus en fonction des dépenses à ce jour.</caption>
     <thead>
-  <tr class="active">
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses budgétaires (telles qu'indiquées dans le Budget principal des dépenses) [Insérez l'exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues [insérez l'exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues [insérez l'exercice]</div></th>
-    <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues [insérez l'exercice]</div></th>
-    </tr>
-  </thead>
+      <tr class="active">
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes :</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [insérer l’exercice]</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [insérer l’exercice]</div></th>
+        <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [insérer l’exercice]</div></th>
+        </tr>
+      </thead>
     <tbody>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">1. Responsabilité essentielle</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les dépenses budgétaires totales, inscrites au Budget principal des dépenses]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
+        <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">2. Responsabilité essentielle</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les dépenses budgétaires totales, inscrites au Budget principal des dépenses]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        </tr>
-      <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">3. Responsabilité essentielle</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les dépenses budgétaires totales, inscrites au Budget principal des dépenses]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        </tr>
-      <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">4. Responsabilité essentielle</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les dépenses budgétaires totales, inscrites au Budget principal des dépenses]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
+        <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         </tr>
       <tr class="active">
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel]</div></td>
+        <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
         </tr>
       <tr>
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez les dépenses budgétaires totales, inscrites au Budget principal des dépenses]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total des dépenses prévues pour l'exercice]</div></td>
+        <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-lg mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
         </tr>
       <tr class="active">
-        <th class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></th>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel plus les services internes]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel plus les services internes]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel plus les services internes]</div></td>
-        <td><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez le total partiel plus les services internes]</div></td>
+        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+        <td data-label="[Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+        <td data-label="Dépenses prévues pour [insérer l’exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
         </tr>
-  </tbody>
-  </table>
+      </tbody>
+</table>
 </div>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Explication du tableau [numéro]</summary>
-  <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois prochains exercices</summary>
+  <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
   </details>
+    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
  </section>
-  
+
  <section>
   <h4>Tableau [#] : Sommaire des dépenses budgétaires brutes et nettes prévues pour [exercice] </h4>
   

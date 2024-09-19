@@ -670,7 +670,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du financement législatif et voté pour une période de six exercices</summary>
-    
+  
     <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
     </details>
 </figure></section>
