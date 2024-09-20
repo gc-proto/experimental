@@ -266,15 +266,15 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse comparative entre les sexes plus</summary>
-  <p>[Texte dans la section « analyse comparative entre les sexes plus », si inclus]</p>
+  <p>[Insérer la description]</p>
   </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l’horizon 2030 (Programme à l’horizon 2030) et objectifs de développement durable des Nations Unies </summary>
-  <p>[Texte figurant dans le « programme de développement durable à l’horizon 2030 (Programme à l’horizon 2030) et objectifs de développement durable des Nations Unies », s'il est inclus] </p>
+  <p>[Insérer la description]</p>
   </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
-  <p>[Texte figurant dans « l'innovation», s'il est inclus] </p>
+  <p>[Insérer la description]</p>
   </details>
  </section>
  <section>
