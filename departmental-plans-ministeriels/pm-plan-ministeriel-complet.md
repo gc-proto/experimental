@@ -380,8 +380,8 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  <p>[Insérer une introduction aux dépenses]</p>
 <section>
   <figure id="fig1">
-   <figcaption class="text-left h4"><strong>Figure [#] : Dépenses par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
-      <p>La figure [#] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+   <figcaption class="text-left h4"><strong>Graphique [#] : Dépenses par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
+      <p>Le graphique [#] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
