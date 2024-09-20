@@ -587,7 +587,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
    <section><figure id="fig2">
       <figcaption class="text-left h4"><strong>Graphique [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong></figcaption>
       <p>Le graphique [Indiquer le numéro approprié.] résume le financement voté et législatif du ministère pour la période de [insérer l’exercice] à [insérer l’exercice].</p>
-      <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [#]</summary>
@@ -608,8 +607,8 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <td data-label="Total"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Voté"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Législatif"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-            </tr>
-          <tr>Insérer l’exercice]</div></td>
+          </tr>
+          <tr>
             <td data-label="Total"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Voté"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Législatif"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -619,25 +618,25 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <td data-label="Total"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Voté"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Législatif"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-            </tr>
+          </tr>
           <tr>
             <td data-label="Exercice" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div></td>
             <td data-label="Total"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Voté"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Législatif"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-            </tr>
+          </tr>
           <tr>
             <td data-label="Exercice" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div></td>
             <td data-label="Total"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Voté"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]]</div></td>
             <td data-label="Législatif"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-            </tr>
+          </tr>
           <tr>
             <td data-label="Exercice" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div></td>
             <td data-label="Total"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Voté"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             <td data-label="Législatif"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-            </tr>
+          </tr>
           </tbody>
         </table>
         </div>
