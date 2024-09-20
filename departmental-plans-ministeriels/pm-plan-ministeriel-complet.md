@@ -653,7 +653,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <h3 id="toc03-3">État condensé prospectif des opérations</h3>
   <p>[Insérez le texte de  la section « État condensé prospectif des opérations  » du gabarit Word]</p>
 <section>
-<h4>Tableau [#] : État condensé prospectif des opérations pour l'exercice se terminant le 31 mars [insérez l'exercice] (en dollars)</h4>
+<h4>Tableau [#] : État condensé prospectif des opérations pour l'exercice se terminant le [insérez l'exercice] (en dollars)</h4>
 <table id="tbl7" class="provisional gc-table table table-bordered">
 <caption class="h6 text-left">Le tableau [#] résume les charges et les revenus affectant le coût de fonctionnement avant le financement du gouvernement et les transferts pour la période de [insérez l'exercice] à [insérez l'exercice]. Les montants prévus et projetés dans le présent état des opérations ont été préparés selon la méthode de la comptabilité d’exercice. Les montants prévus et projetés qui sont présentés dans d’autres sections du Plan ministériel ont été établis selon la méthode de comptabilité axée sur les dépenses. Les montants peuvent donc différer.</caption>
   <thead>
