@@ -917,20 +917,20 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
  <h2 id="toc04">Renseignements sur le ministère</h2>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
       <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Profil du ministère</summary>
-      <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérez le nom]</p></section>
-			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérez le nom]</p></section>
-			<section><h3>Portefeuille  ministériel&nbsp;:</h3><p>[insérez les  renseignements]</p></section>
-			<section><h3>Instruments  habilitants&nbsp;:</h3><p>[insérez les titres des  lois avec les hyperliens]</p></section>
-			<section><h3>Année de constitution ou de création&nbsp;:</h3><p>[insérez l'année]</p></section>
-			<section><h3>Autres&nbsp;:</h3><p>[insérez d'autres renseignements]</p></section>
+      <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérer le nom]</p></section>
+			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérer le nom]</p></section>
+			<section><h3>Portefeuille  ministériel&nbsp;:</h3><p>[insérer les  renseignements]</p></section>
+			<section><h3>Instruments  habilitants&nbsp;:</h3><p>[insérer les titres des  lois avec les hyperliens]</p></section>
+			<section><h3>Année de constitution ou de création&nbsp;:</h3><p>[insérer l'année]</p></section>
+			<section><h3>Autres&nbsp;:</h3><p>[insérer d'autres renseignements]</p></section>
     </details>
     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Coordonnées du ministère</summary>
-      <section><h3>Adresse postale&nbsp;:</h3><p>[insérez l'adresse]</p></section>
-			<section><h3>Numéro de téléphone&nbsp;:</h3><p>[insérez les numéros]</p></section>
-			<section><h3>Téléimprimeur (ATS&nbsp;) :</h3><p>[insérez les numéros]</p></section>
-			<section><h3>Numéro de télécopieur:</h3><p>[insérez les numéros, le cas échéant]</p></section>
-			<section><h3>Adresse courriel&nbsp;:</h3><p>[insérez les adresses]</p></section>
+      <section><h3>Adresse postale&nbsp;:</h3><p>[insérer l'adresse]</p></section>
+			<section><h3>Numéro de téléphone&nbsp;:</h3><p>[insérer les numéros]</p></section>
+			<section><h3>Téléimprimeur (ATS&nbsp;) :</h3><p>[insérer les numéros]</p></section>
+			<section><h3>Numéro de télécopieur:</h3><p>[insérer les numéros, le cas échéant]</p></section>
+			<section><h3>Adresse courriel&nbsp;:</h3><p>[insérer les adresses]</p></section>
 			<section><h3>Site(s) Web&nbsp;:</h3><p>[insérer adresse(s) URL]</p></section>
     </details>
 </section>

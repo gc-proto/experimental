@@ -516,7 +516,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
   </details>
   <p>[Hyperlink to the related information on GC Infobase]</p>
  </section>
- <section>
+<section>
   <h4>Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h4>
 <div>
 <table id="tbl5" class="provisional gc-table table table-bordered">
