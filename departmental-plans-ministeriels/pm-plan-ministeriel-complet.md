@@ -350,11 +350,11 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <tbody>
             <tr>
               <td data-label="Ressources" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div></td>
-              <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total des dépenses prévues pour l’exercice.]</div></td>
+              <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
             </tr>
             <tr>
               <td data-label="Ressources" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div></td>
-              <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nombre total d’équivalents temps plein prévus pour l’exercice.]</div></td>
+              <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
             </tr>
             </tbody>
     </table>
