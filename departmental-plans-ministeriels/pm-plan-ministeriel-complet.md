@@ -710,13 +710,13 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         </thead>
       <tbody>
         <tr>
-          <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+          <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 1.]</div></td>
           <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           </tr>
         <tr>
-          <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+          <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 2.]</div></td>
           <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -762,13 +762,13 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         </thead>
       <tbody>
         <tr>
-          <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+          <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 1.]</div></td>
           <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           </tr>
         <tr>
-          <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+          <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 2.]</div></td>
           <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
