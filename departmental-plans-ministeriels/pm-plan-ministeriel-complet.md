@@ -751,7 +751,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   </section>
   <section>
    <h4>Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-    <p>Le tableau suivant présente des renseignements sur les ressources humaines, en ETP, pour chacune des responsabilités essentielles de [nom du ministère] et pour ses services internes prévus pour [insérez l'exercice] et les années suivantes.</p>
    <div>
      <table id="tbl11" class="provisional gc-table table table-bordered">
          <caption class="h6 text-left">Le tableau [#] présente des renseignements sur les ressources humaines, en équivalents temps plein, pour les responsabilités essentielles et les services internes de [nom du ministère] prévus au cours des trois prochains exercices. </caption>
