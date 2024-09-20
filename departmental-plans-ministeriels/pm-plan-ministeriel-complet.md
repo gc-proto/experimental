@@ -363,7 +363,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 </section>
 <section>
  <h2 id="toc03">Dépenses et ressources humaines prévues</h2>
- <p>Cette section présente un aperçu des dépenses prévues du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
+ <p>Cette section donne un aperçu des dépenses et des ressources humaines prévues de [nom du ministère] pour les trois prochains exercices et compare les dépenses prévues pour l’exercice [insérer l’exercice] avec les dépenses réelles pour l’exercice en cours et les exercices précédents.</p>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
  <ul>
@@ -375,7 +375,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  </details>
  <section>
  <h3 id="toc03-1">Dépenses</h3>
- <p>[Insérer une introduction aux dépenses]</p>
+<p>Cette section présente un aperçu des dépenses prévues du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
 <section>
   <figure id="fig1">
    <figcaption class="text-left h4"><strong>Graphique [#] : Dépenses par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
