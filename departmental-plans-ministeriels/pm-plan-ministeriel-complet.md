@@ -11,11 +11,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
     
-<div class="btn-group mrgn-bttm-md">
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
-</div>
-    
 <section>
 <h2>Sur cette page</h2>
 <ul>
