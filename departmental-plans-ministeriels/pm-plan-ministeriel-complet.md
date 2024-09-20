@@ -203,7 +203,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
       </tbody>
   </table>
 </div>
-  <p>Des renseignements supplémentaires sur les résultats détaillés et l’information sur le rendement [hyperlien menant vers la page Résultats de la page du ministère dans l’InfoBase du GC] pour le répertoire des programmes de [nom du ministère] figurent dans l’InfoBase du GC.</p>
+  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
 </section>
  </section>
   <section>
@@ -267,22 +267,22 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse comparative entre les sexes plus</summary>
-  <p>[Texte dans la section « Analyse comparative entre les sexes plus », si inclus]</p>
+  <p>[Texte dans la section « analyse comparative entre les sexes plus », si inclus]</p>
   </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l’horizon 2030 (Programme à l’horizon 2030) et objectifs de développement durable des Nations Unies </summary>
-  <p>[Texte figurant dans le « Programme de développement durable à l’horizon 2030 (Programme à l’horizon 2030) et objectifs de développement durable des Nations Unies », s'il est inclus] </p>
+  <p>[Texte figurant dans le « programme de développement durable à l’horizon 2030 (Programme à l’horizon 2030) et objectifs de développement durable des Nations Unies », s'il est inclus] </p>
   </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
-  <p>[Texte figurant dans l' « Innovation», s'il est inclus] </p>
+  <p>[Texte figurant dans « l'innovation», s'il est inclus] </p>
   </details>
  </section>
  <section>
   <h4 id="toc02-1-8">Répertoire des programmes</h4>
   <p>[Nom de la responsabilité essentielle] est soutenu par les programmes suivants :</p>
 <ul>
- <li>[Liste à puces des programmes relevant de la responsabilité principale]</li>
+ <li>[Insérer la liste à puces des programmes relevant de la responsabilité principale]</li>
  </ul>
 <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
  </section>
@@ -340,7 +340,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <h5>Table [#]: Ressources prévues pour atteindre les résultats en ce qui a trait aux services internes pour l’exercice</h5>
 <div>
       <table id="tbl3" class="provisional gc-table table table-bordered">
-            <caption class="h6 text-left">Table [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
+            <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
             <thead>
               <tr class="active">
               <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div></th>
