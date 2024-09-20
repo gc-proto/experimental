@@ -386,7 +386,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
     <div class="table-responsive">
-     <   <table class="provisional gc-table table table-bordered"> 
+     <table class="provisional gc-table table table-bordered"> 
      <caption class="h6 text-left wb-inv">Description textuelle de la figure</caption>
      <thead>
       <tr class="active">
@@ -408,10 +408,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
      </tr>
      <tr>
-        <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la Responsabilité essentielle 4]</div></td>
-        <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
-     </tr>
-     <tr>
         <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></td>
         <td data-label="[fiscal year] planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant.]</div></td>
      </tr>
@@ -421,7 +417,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
    </details>
    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses prévues par responsabilité essentielle</summary>
-    <p>[Veuillez inclure l'explication de la figure incluse dans la version Word]</p>
+    <p>[Veuillez inclure l'explication du graphique incluse dans la version Word]</p>
    </details>
   </figure>
 </section>
