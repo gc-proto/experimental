@@ -80,7 +80,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 </section>
 <section>
  <h2 id="toc02">Plans pour assurer les responsabilités essentielles et les services internes</h2>
- <p>[Insérez une introduction pour la section]</p>
 <section>
  <h3>Responsabilités essentielles et services internes :</h3>
   <ul>
