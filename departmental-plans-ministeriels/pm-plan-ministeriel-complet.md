@@ -911,10 +911,5 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   Un  ministère est censé être au courant des autorisations qu&rsquo;il a demandées et  obtenues. La détermination des dépenses prévues relève du ministère, et ce  dernier doit être en mesure de justifier les dépenses et les augmentations  présentées dans son plan ministériel et son rapport sur les résultats  ministériels. </p></dd>
 
     </dl>
-</details>
- 
+</details> 
 </section>
-
-</div>
-
-
