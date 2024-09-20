@@ -118,7 +118,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  </section>
  <section>
   <h4 id="toc02-1-2">Répercussions sur la qualité de vie</h4>
-  <p>[Insérez  le texte de la section « Qualité de vie » du gabarit Word] </p>
+  <p>[Insérer  le texte de la section « Qualité de vie » du gabarit Word] </p>
  </section>
  <section>
   <h4 id="toc02-1-3">Indicateurs, résultats et cibles</h4>
@@ -651,7 +651,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  </section>
  <section>
   <h3 id="toc03-3">État condensé prospectif des opérations</h3>
-  <p>[Insérez le texte de  la section « État condensé prospectif des opérations  » du gabarit Word]</p>
+  <p>[Insérer le texte de  la section « État condensé prospectif des opérations  » du gabarit Word]</p>
 <section>
 <h4>Tableau [#] : État condensé prospectif des opérations pour l'exercice se terminant le [insérez l'exercice] (en dollars)</h4>
 <table id="tbl7" class="provisional gc-table table table-bordered">
@@ -711,33 +711,33 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
       <tbody>
         <tr>
           <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 1.]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           </tr>
         <tr>
           <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 2.]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           </tr>
         <tr class="active">
           <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div></td>
         </tr>
         <tr>
           <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
           </tr>
         <tr class="active">
           <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
-          <td data-label="Nombre d’équivalents temps plein réels pour [Insérez l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
+          <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div></td>
           </tr>
         </tbody>
       </table>
