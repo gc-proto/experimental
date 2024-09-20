@@ -868,27 +868,35 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 <dt>dépenses non budgétaires <span lang="en">(non budgetary expenditures)</span></dt>
 <dd>Autorisations non budgétaires comprenant des opérations sur l’actif et le passif pour des prêts, des placements et des avances ou des comptes à fins déterminées, établis en vertu de lois particulières ou d’autorisations non législatives dans le budget des dépenses et ailleurs. Les opérations non budgétaires sont des dépenses et des rentrées liées aux créances du gouvernement envers des tiers et à ses obligations à l’égard de ces derniers. Les opérations non budgétaires incluent l’ensemble des opérations portant sur les prêts, les investissements et les avances de fonds; en comptant et en comptes débiteurs; en fonds publics reçus ou perçus à des fins admises; et tout autre actif et responsabilité. Les autres biens ou obligations, qui ne sont pas définis de façon précise dans les codes d’autorisations G à P, doivent être enregistrés sous un code R, qui est le code d’autorisation résiduel pour tous les autres biens et obligations.</dd>
 <dt>dépenses prévues <span lang="en">(planned spending)</span></dt>
-<dd>En ce qui a  trait aux plans ministériels et aux rapports sur les résultats ministériels,  les dépenses prévues s&rsquo;entendent des montants présentés dans le Budget  principal des dépenses. </dd>
+<dd><p>En ce qui a trait au Plan ministériel et au Rapport sur les résultats ministériels, montants présentés dans le Budget principal des dépenses.</p>
+<p>Un ministère est censé être au courant des autorisations qu’il a demandées et obtenues. La détermination des dépenses prévues relève du ministère, et ce dernier doit être en mesure de justifier les dépenses et les augmentations présentées dans son Plan ministériel et son Rapport sur les résultats ministériels.</p>
+</dd>
 <dt>dépenses votées <span lang="en">(voted expenditures)</span></dt>
 <dd>Dépenses  approuvées annuellement par le Parlement par une loi de crédits. Le libellé de  chaque crédit énonce les conditions selon lesquelles les dépenses peuvent être  effectuées. </dd>
 <dt>Entreprise autochtone</dt>
-<dd>Tel que  défini sur le <a href="https://services.sac-isc.gc.ca/REA-IBD">site Web de Services aux Autochtones Canada,</a> conformément à l&rsquo;engagement du  gouvernement du Canada selon lequel un objectif minimum obligatoire de 5&nbsp;%  de la valeur totale des marchés est attribué chaque année aux entreprises  autochtones. </dd>
+<dd>Organisation qui, aux fins de l’annexe E – Procédures obligatoires pour les marchés attribués aux entreprises autochtones de la Directive sur la gestion de l’approvisionnement ainsi que de l’engagement du gouvernement du Canada d’attribuer obligatoirement chaque année au moins 5 % de la valeur totale des marchés à des entreprises autochtones, correspond à la définition et aux exigences définies dans le <a href="https://services.sac-isc.gc.ca/REA-IBD">Répertoire des entreprises autochtones</a>.</dd>
 <dt>équivalent temps plein <span lang="en">(full time equivalent)</span></dt>
 <dd>Mesure  utilisée pour représenter une année-personne complète d&rsquo;un employé dans le  budget ministériel. Les équivalents temps plein sont calculés par un rapport  entre les heures de travail assignées et les heures normales de travail  prévues. Les heures normales sont établies dans les conventions collectives. </dd>
+<dt>indicateur de rendement <span lang="en">(performance indicator)</span></dt>
+<dd>Moyen qualitatif ou quantitatif de mesurer un extrant ou un résultat en vue de déterminer le rendement d’un ministère, d’un programme, d’une politique ou d’une initiative par rapport aux résultats attendus.</dd>
 <dt>indicateur de résultat ministériel <span lang="en">(departmental result  indicator)</span></dt>
-<dd>Facteur ou  variable qui présente une façon valide et fiable de mesurer ou de décrire les  progrès réalisés par rapport à un résultat ministériel. </dd>
+<dd>Mesure quantitative des progrès réalisés par rapport à un résultat ministériel.</dd>
 <dt>initiative horizontale <span lang="en">(horizontal initiative)</span></dt>
 <dd>Initiative dans le cadre de laquelle deux  organisations fédérales ou plus reçoivent du financement dans le but  d&rsquo;atteindre un résultat commun, souvent associé à une priorité du gouvernement. </dd>
 <dt>plan <span lang="en">(plan)</span></dt>
 <dd>Exposé des choix stratégiques qui montre  comment une organisation entend réaliser ses priorités et obtenir les résultats  connexes. De façon générale, un plan explique la logique qui sous-tend les  stratégies retenues et tend à mettre l&rsquo;accent sur des mesures qui se traduisent  par des résultats attendus. </dd>
-<dt>plan ministériel <span lang="en">(Departmental Plan)</span></dt>
-<dd>Document  énonçant les priorités, les programmes, les résultats attendus et les  ressources connexes requises d&rsquo;un ministère sur une période de trois ans qui  commence à l&rsquo;exercice indiqué dans le titre du document. Les plans ministériels  sont présentés au Parlement chaque printemps. </dd>
-<dt>priorités pangouvernementales <span lang="en">(government-wide priorities)</span></dt>
-<dd>Aux fins du  Plan ministériel 2024-2025, les priorités pangouvernementales sont les thèmes  généraux décrivant le programme du gouvernement dans le discours du Trône de  2021&nbsp;: bâtir un présent et un avenir plus sains; développer une économie  plus résiliente; mener une action climatique audacieuse; travailler plus fort  pour rendre les collectivités sécuritaires, défendre la diversité et  l&rsquo;inclusion; avancer plus rapidement sur la voie de la réconciliation; lutter  pour un monde plus sûr, plus juste et plus équitable. </dd>
+<dt>priorités gouvernementales<span lang="en">(government-wide priorities)</span></dt>
+<dd>Aux fins du Plan ministériel 2025 2026, les priorités gouvernementales sont les thèmes généraux décrivant le programme du gouvernement dans le <a href="https://www.canada.ca/fr/conseil-prive/campagnes/discours-trone/2021/discours-du-trone.html">discours du Trône du 23 novembre 2021 </a>: bâtir un présent et un avenir plus sains; développer une économie plus résiliente; mener une action climatique audacieuse; travailler plus fort pour rendre les collectivités sécuritaires; défendre la diversité et l’inclusion; avancer plus rapidement sur la voie de la réconciliation; lutter pour un monde plus sûr, plus juste et plus équitable.</dd>
+<dt>Plan ministériel <span lang="en">(Departmental Plan)</span></dt>
+<dd>Exposé des plans et du rendement attendu d’un ministère qui reçoit des crédits parlementaires. Les plans ministériels couvrent une période de trois ans et sont habituellement présentés au Parlement au printemps.</dd>
+<dt>priorités gouvernementales <span lang="en">(government priorities)</span></dt>
+<dd>Aux fins du Plan ministériel 2025 2026, les priorités gouvernementales sont les thèmes généraux décrivant le programme du gouvernement dans le <a href="https://www.canada.ca/fr/conseil-prive/campagnes/discours-trone/2021/discours-du-trone.html">discours du Trône du 23 novembre 2021 </a>: bâtir un présent et un avenir plus sains; développer une économie plus résiliente; mener une action climatique audacieuse; travailler plus fort pour rendre les collectivités sécuritaires; défendre la diversité et l’inclusion; avancer plus rapidement sur la voie de la réconciliation; lutter pour un monde plus sûr, plus juste et plus équitable.</dd>
+<dt>priorité ministérielle <span lang="en">(departmental priority)</span></dt>
+<dd>Plan ou projet sur lequel un ministère a choisi de se concentrer et de rendre compte au cours de la période de planification. Les priorités ministérielles représentent ce qui est le plus important ou ce qui doit être fait en premier pour appuyer l’atteinte des résultats ministériels souhaités.</dd>
 <dt>programme <span lang="en">(program)</span></dt>
 <dd>Services et activités, pris séparément ou en  groupe, ou une combinaison des deux, qui sont gérés ensemble au sein d&rsquo;un  ministère et qui portent sur un ensemble déterminé d&rsquo;extrants, de résultats ou  de niveaux de services. </dd>
-<dt>rapport sur les résultats ministériels <span lang="en">(Departmental  Results Report)</span></dt>
-<dd>Présentation  d&rsquo;information sur le rendement réel d&rsquo;un ministère au cours d&rsquo;un exercice par  rapport à ses plans, priorités et résultats attendus énoncés dans son plan  ministériel pour cet exercice. Les rapports sur les résultats ministériels sont  présentés au Parlement chaque automne. </dd>
+<dt>Rapport sur les résultats ministériels <span lang="en">(Departmental  Results Report)</span></dt>
+<dd>Rapport qui présente les réalisations réelles d’un ministère par rapport aux plans, aux priorités et aux résultats attendus énoncés dans le Plan ministériel correspondant. </dd>
 <dt>rendement <span lang="en">(performance)</span></dt>
 <dd>Utilisation  qu&rsquo;une organisation a faite de ses ressources en vue d&rsquo;obtenir ses résultats,  mesure dans laquelle ces résultats se comparent à ceux que l&rsquo;organisation  souhaitait obtenir, et mesure dans laquelle les leçons apprises ont été  cernées. </dd>
 <dt>répertoire des programmes <span lang="en">(program inventory)</span></dt>
@@ -898,8 +906,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 <dt>résultat <span lang="en">(result)</span></dt>
 <dd>Conséquence  externe attribuable en partie aux activités d&rsquo;une organisation, d&rsquo;une  politique, d&rsquo;un programme ou d&rsquo;une initiative. Les résultats ne relèvent pas  d&rsquo;une organisation, d&rsquo;une politique, d&rsquo;un programme ou d&rsquo;une initiative unique,  mais ils s&rsquo;inscrivent dans la sphère d&rsquo;influence de l&rsquo;organisation. </dd>
 <dt>résultat ministériel <span lang="en">(departmental result)</span></dt>
-<dd><p>Changement  qu&rsquo;un ministère cherche à influencer. Un résultat ministériel échappe  généralement au contrôle direct des ministères, mais il devrait être influencé  par les résultats du niveau des programmes.</p><p>
-  Un  ministère est censé être au courant des autorisations qu&rsquo;il a demandées et  obtenues. La détermination des dépenses prévues relève du ministère, et ce  dernier doit être en mesure de justifier les dépenses et les augmentations  présentées dans son plan ministériel et son rapport sur les résultats  ministériels. </p></dd>
+<dd>Effet ou résultat que vise un ministère. Un résultat ministériel échappe généralement au contrôle direct des ministères, mais il devrait être influencé par les résultats des programmes.</dd>
 
     </dl>
 </details> 
