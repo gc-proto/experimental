@@ -518,7 +518,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
  </section>
  <section>
   <h4>Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h4>
-<div class="table-responsive">
+<div>
 <table id="tbl5" class="provisional gc-table table table-bordered">
   <caption class="h6 text-left">Table [#] presents how much money [department name]’s plans to spend over the next three years to carry out its core responsibilities and for internal services.</caption>
     <thead>
