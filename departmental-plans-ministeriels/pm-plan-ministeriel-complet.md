@@ -281,17 +281,15 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <h4 id="toc02-1-8">Répertoire des programmes</h4>
   <p>[Nom de la responsabilité essentielle] est soutenu par les programmes suivants :</p>
 <ul>
- <li>[Insérer la liste à puces des programmes relevant de la responsabilité principale]</li>
+ <li>[Insérer le point 1 de la liste à puces]</li>
+ <li>[Insérer le point 2 de la liste à puces]</li>
+ <li>[Insérer le point 3 de la liste à puces]</li>
  </ul>
 <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
  </section>
  <section>
   <h4 id="toc02-1-9">Résumé des changements apportés au cadre d'établissement de rapport depuis l'année dernière</h4>
-   <ul>
-    <li>[Insérer le point 1&nbsp;de la  liste à puces]</li>
-    <li>[Insérer le point 2&nbsp;de la  liste à puces]</li>
-    <li>[Insérer le point 3&nbsp;de la  liste à puces]</li>
-  </ul>
+  <p>[Insérer la description]</p>
  </section>
  </section>
  <section>
