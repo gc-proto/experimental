@@ -643,7 +643,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du financement législatif et voté pour une période de six exercices </summary>
-        <p>[Veuillez inclure l'explication de la graphique incluse dans la version Word]</p>
+        <p>[Veuillez inclure l'explication du graphique inclus dans la version Word]</p>
       </details>
     </figure></section>
   <section>
