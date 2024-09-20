@@ -691,11 +691,12 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des résultats prévus et projetés</summary>
     <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
     </details>
-  <p>Un état condensé prospectif des opérations et des notes connexes pour [Insérez l'exercice] [lien vers l’état condensé prospectif des opérations du ministère] plus détaillés, y compris un rapprochement du coût net des opérations avec les autorisations demandées, sont accessibles sur le site Web de [nom du ministère].</p>
+  <p>Un état condensé prospectif des opérations et des notes connexes pour [Insérer l'exercice] [lien vers l’état condensé prospectif des opérations du ministère] plus détaillés, y compris un rapprochement du coût net des opérations avec les autorisations demandées, sont accessibles sur le site Web de [nom du ministère].</p>
 </section>
  </section>
  <section>
   <h3 id="toc03-4">Ressources humaines</h3>
+  <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [Insérer l'exercice] à [Insérer l'exercice].</p>
   <section>
    <h4>Tableau [#] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
 <div>
