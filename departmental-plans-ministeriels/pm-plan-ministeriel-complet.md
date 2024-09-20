@@ -809,23 +809,23 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 	<details class="acc-group print-open">
 		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Profil du ministère</summary>
 		<div class="tgl-panel">
-            <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérer le nom]</p></section>
-			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérer le nom]</p></section>
+            <section><h3>Ministre de  tutelle&nbsp;:</h3><p>[insérer le nom ou les noms]</p></section>
+			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérer le nom ou les noms]</p></section>
 			<section><h3>Portefeuille  ministériel&nbsp;:</h3><p>[insérer les  renseignements]</p></section>
-			<section><h3>Instruments  habilitants&nbsp;:</h3><p>[insérer les titres des  lois avec les hyperliens]</p></section>
-			<section><h3>Année d'incorporation  ou de création&nbsp;:</h3><p>[insérer l'année]</p></section>
-			<section><h3>Autres&nbsp;:</h3><p>[insérer d'autres renseignements]</p></section>
+			<section><h3>Instruments  habilitants&nbsp;:</h3><p>[insérer les titres des lois avec les hyperliens]</p></section>
+			<section><h3>Année d'incorporation  ou de création&nbsp;:</h3><p>[insérer l'année ou les années]</p></section>
+			<section><h3>Autres&nbsp;:</h3><p>[insérer tout autres renseignements]</p></section>
 		</div>
 	</details>
 	<details class="acc-group print-open">
 		<summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Coordonnées du ministère</summary>
 		<div class="tgl-panel">
 			<section><h3>Adresse postale&nbsp;:</h3><p>[Insérer l'adresse]</p></section>
-			<section><h3>Téléphone&nbsp;:</h3><p>[insérer les numéros]</p></section>
-			<section><h3>ATS&nbsp;:</h3><p>[insérer les numéros]</p></section>
-			<section><h3>Télécopie&nbsp;:</h3><p>[insérer les numéros, le cas échéant]</p></section>
-			<section><h3>Courriel&nbsp;:</h3><p>[insérer les adresses]</p></section>
-			<section><h3>Sites Web&nbsp;:</h3><p>[insérer les URL]</p></section>
+			<section><h3>Numéro de téléphone&nbsp;:</h3><p>[insérer le ou les numéros]</p></section>
+			<section><h3>Téléimprimeur (ATS)&nbsp;:</h3><p>[insérer le ou les numéros]</p></section>
+			<section><h3>Numéro de télécopieur :</h3><p>[insérer le ou les numéros, s’il y a lieu.]]</p></section>
+			<section><h3>Adresse courriel&nbsp;:</h3><p>[insérer la ou les adresses]</p></section>
+			<section><h3>Site(s) Web&nbsp;:</h3><p>[insérer la ou les adresses URL]</p></section>
 </div>
 	</details>
 </div>
