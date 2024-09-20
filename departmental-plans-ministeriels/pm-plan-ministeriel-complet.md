@@ -381,8 +381,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  <li><a href="#toc03-4">Ressources humaines</a></li>
  </ul>
  </details>
- </li>
-</ul>
  <section>
  <h3 id="toc03-1">Dépenses</h3>
  <p>[Insérer une introduction aux dépenses]</p>
@@ -703,7 +701,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
     <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
     </details>
   <p>Un état condensé prospectif des opérations et des notes connexes pour [Insérez l'exercice] [lien vers l’état condensé prospectif des opérations du ministère] plus détaillés, y compris un rapprochement du coût net des opérations avec les autorisations demandées, sont accessibles sur le site Web de [nom du ministère].</p>
-</div>
 </section>
  </section>
  <section>
