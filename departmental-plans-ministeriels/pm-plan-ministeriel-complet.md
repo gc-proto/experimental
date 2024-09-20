@@ -823,7 +823,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 			<section><h3>Adresse postale&nbsp;:</h3><p>[Insérer l'adresse]</p></section>
 			<section><h3>Numéro de téléphone&nbsp;:</h3><p>[insérer le ou les numéros]</p></section>
 			<section><h3>Téléimprimeur (ATS)&nbsp;:</h3><p>[insérer le ou les numéros]</p></section>
-			<section><h3>Numéro de télécopieur :</h3><p>[insérer le ou les numéros, s’il y a lieu.]]</p></section>
+			<section><h3>Numéro de télécopieur :</h3><p>[insérer le ou les numéros, s’il y a lieu]</p></section>
 			<section><h3>Adresse courriel&nbsp;:</h3><p>[insérer la ou les adresses]</p></section>
 			<section><h3>Site(s) Web&nbsp;:</h3><p>[insérer la ou les adresses URL]</p></section>
 </div>
@@ -834,7 +834,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  <h2 id="toc05">Tableaux de renseignements supplémentaires</h2>
  <p>Les tableaux de  renseignements supplémentaires ci-dessous se trouvent sur le site&nbsp;Web du [nom du ministère]: </p>
 <ul>
-  <li>Détails sur les programmes de paiements de transfert</li>
+  <li>Renseignements sur les programmes de paiements de transfert</li>
   <li>Analyse comparative entre les sexes plus</li>
   <li>Initiatives horizontales</li>
   <li>Financement pluriannuel  initial</li>
@@ -844,8 +844,8 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 <section>
  <h2 id="toc06">Dépenses fiscales fédérales</h2>
  <p>Le plan  ministériel de [nom du ministère] ne comprend pas de renseignements sur les dépenses  fiscales. </p>
- <p>Les mesures  fiscales relèvent du ministre des Finances. Le ministère des Finances Canada  publie chaque année des estimations et des projections du coût des dépenses  fiscales fédérales dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport sur les dépenses fiscales fédérales</a>.</p>
- <p>Ce rapport  fournit aussi des renseignements généraux détaillés sur les dépenses fiscales,  y compris les objectifs, les renseignements historiques et les renvois aux  programmes des dépenses fédéraux connexes, ainsi que sur les évaluations  fiscales, les rapports de recherche et les analyses comparatives entre les  sexes plus. </p>
+ <p>Il est possible de recourir au système fiscal pour atteindre des objectifs de politique publique en appliquant des mesures spéciales, comme de faibles taux d’imposition, des exemptions, des déductions, des reports et des crédits. Le ministère des Finances Canada publie chaque année des estimations et des projections du coût de ces mesures dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport sur les dépenses fiscales fédérales</a>.</p>
+ <p>Ce rapport fournit aussi des renseignements généraux détaillés sur les dépenses fiscales, y compris les objectifs, les renseignements historiques et les renvois aux programmes des dépenses fédéraux connexes, ainsi que sur les évaluations fiscales, les rapports de recherche et les analyses comparatives entre les sexes plus.</p>
 </section>
 <section>
  <h2 id="toc07">Définitions</h2>
