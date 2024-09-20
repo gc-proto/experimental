@@ -21,8 +21,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 <li><a href="#toc02-1">Responsabilité essentielle 1&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
 <li><a href="#toc02-2">Responsabilité essentielle 2&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
 <li><a href="#toc02-3">Responsabilité essentielle 3&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
-<li><a href="#toc02-4">Responsabilité essentielle 4&#160;: [Inscrire le nom de la responsabilité essentielle]</a></li>
-<li><a href="#toc02-5">Services internes</a></li>
+<li><a href="#toc02-4">Services internes</a></li>
 </ul>
 </li>
 <li><a href="#toc03">Dépenses et ressources humaines prévues</a>
@@ -124,7 +123,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  </section>
  <section>
   <h4 id="toc02-1-3">Indicateurs, résultats et cibles</h4>
-  <p>Cette section présente des renseignements détaillés sur les indicateurs du ministère, les résultats réels des trois derniers exercices, les cibles et les dates cibles approuvées en 2025 2026 pour [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. [Remplir le tableau suivant pour chaque résultat ministériel lié à la responsabilité essentielle.]</p>
+  <p>Cette section présente des renseignements détaillés sur les indicateurs du ministère, les résultats réels des trois derniers exercices, les cibles et les dates cibles approuvées en [insérer l’exercice] pour [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. [Remplir le tableau suivant pour chaque résultat ministériel lié à la responsabilité essentielle.]</p>
   <section>
 <div>
   <table id="tbl1-1" class="provisional gc-table table table-bordered" role="table"
