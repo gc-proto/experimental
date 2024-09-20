@@ -669,21 +669,21 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <tbody>
   <tr>
     <td data-label="Renseignements financiers" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des charges </div></td>
-    <td data-label="[Fiscal year] Forecast results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez l'exercice]</div></td>
-    <td data-label="[Fiscal year] Planned results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez l'exercice]</div></td>
-    <td data-label="Difference (forecasted results minus planned)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez l'exercice]</div></td>
+    <td data-label="[Fiscal year] Forecast results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l'exercice]</div></td>
+    <td data-label="[Fiscal year] Planned results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l'exercice]</div></td>
+    <td data-label="Difference (forecasted results minus planned)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l'exercice]</div></td>
     </tr>
     <tr>
       <td data-label="Renseignements financiers" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des revenus</div></td>
-      <td data-label="[Fiscal year] Forecast results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez l'exercice]</div></td>
-      <td data-label="[Fiscal year] Planned results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez l'exercice]</div></td>
-      <td data-label="Difference (forecasted results minus planned)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez l'exercice]</div></td>
+      <td data-label="[Fiscal year] Forecast results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l'exercice]</div></td>
+      <td data-label="[Fiscal year] Planned results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l'exercice]</div></td>
+      <td data-label="Difference (forecasted results minus planned)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l'exercice]</div></td>
       </tr>
     <tr>
       <td data-label="Renseignements financiers" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Coût de fonctionnement net avant le financement du gouvernement et les transferts </div></td>
-      <td data-label="[Fiscal year] Forecast results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez l'exercice]</div></td>
-      <td data-label="[Fiscal year] Planned results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez l'exercice]</div></td>
-      <td data-label="Difference (forecasted results minus planned)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérez l'exercice]</div></td>
+      <td data-label="[Fiscal year] Forecast results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l'exercice]</div></td>
+      <td data-label="[Fiscal year] Planned results"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l'exercice]</div></td>
+      <td data-label="Difference (forecasted results minus planned)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l'exercice]</div></td>
       </tr>
   </tbody>
 </table>
