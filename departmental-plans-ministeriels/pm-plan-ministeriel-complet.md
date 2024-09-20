@@ -583,6 +583,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  </section>
  <section>
   <h3 id="toc03-2">Financement</h3>
+    <p>Cette section présente un aperçu du financement voté et législatif du ministère par rapport à ses responsabilités essentielles et à ses services internes. Pour en savoir plus sur les autorisations de financement, consultez les <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/budgets-depenses.html">budgets et dépenses du gouvernement du Canada.</a></p>
    <section><figure id="fig2">
       <figcaption class="text-left h4"><strong>Graphique [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong></figcaption>
       <p>Le graphique [Indiquer le numéro approprié.] résume le financement voté et législatif du ministère pour la période de [insérer l’exercice] à [insérer l’exercice].</p>
