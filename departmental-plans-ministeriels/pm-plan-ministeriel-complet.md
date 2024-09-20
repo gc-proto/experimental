@@ -302,7 +302,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <li><a href="#toc02-5-1">Description</a></li>
   <li><a href="#toc02-5-2">Plans visant à atteindre les cibles</a></li>
   <li><a href="#toc02-5-3">Ressources prévues pour atteindre les résultats</a></li>
-  <li><a href="#toc02-5-4">[RÉSERVÉ à toute autre priorité gouvernementale]</a></li>
+  <li><a href="">[RÉSERVÉ à toute autre priorité gouvernementale]</a></li>
   </ul>
  </details>
  </li>
