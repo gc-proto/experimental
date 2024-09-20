@@ -234,7 +234,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  </section>
  <section>
   <h4 id="toc02-1-5">Principaux risques (*facultatif)</h4>
-  <p>[Insérer une description des principaux risques pour la responsabilité essentielle 1]</p></section>
+  <p>[Insérer une description des principaux risques]</p></section>
  <section>
     <h4 id="toc02-1-4">Ressources prévues pour atteindre les résultats</h4>
     <div>
