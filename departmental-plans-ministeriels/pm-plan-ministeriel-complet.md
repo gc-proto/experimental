@@ -363,6 +363,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 </section>
 <section>
  <h2 id="toc03">Dépenses et ressources humaines prévues</h2>
+ <p>Cette section présente un aperçu des dépenses prévues du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
  <ul>
