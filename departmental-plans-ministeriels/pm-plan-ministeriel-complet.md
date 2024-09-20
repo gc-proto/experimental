@@ -273,7 +273,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <p>[Insérer la description]</p>
   </details>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation (*facultatif)</summary>
   <p>[Insérer la description]</p>
   </details>
  </section>
