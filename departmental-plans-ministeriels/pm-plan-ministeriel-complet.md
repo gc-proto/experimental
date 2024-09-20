@@ -378,7 +378,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 <p>Cette section présente un aperçu des dépenses prévues du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
 <section>
   <figure id="fig1">
-   <figcaption class="text-left h4"><strong>Graphique [#] : Dépenses par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
+   <figcaption class="text-left h4"><strong>Graphique [#] : Dépenses par responsabilité essentielle en [exercice] (*facultatif)</strong></figcaption>
       <p>Le graphique [#] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -469,7 +469,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 </div>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois derniers exercices</summary>
-    <p>[Insérez un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
+    <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
   </details>
     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
  </section>
@@ -527,10 +527,10 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
  </section>
  <section>
-  <h4>Tableau [#] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) [facultatif]</h4>
+  <h4>Tableau [#] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) (*facultatif)</h4>
   <div>
    <table id="tbl6" class="provisional gc-table table table-bordered">
-     <caption class="h6 text-left">Le tableau [Indiquer le numéro approprié.] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</caption>
+     <caption class="h6 text-left">Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</caption>
    <thead>
     <tr class="active">
     <th class="text-left" scope="col"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes :</div></th>
@@ -541,13 +541,13 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
    </thead>
    <tbody>
     <tr>
-    <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+    <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 1.]</div></td>
     <td data-label="[Fiscal year] Gross planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td data-label="[Fiscal year] Planned revenues netted against spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td data-label="[Fiscal year] Planned net spending (authorities used)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     </tr>
     <tr>
-    <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div></td>
+    <td data-label="Core responsibilities and internal services" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 2.]</div></td>
     <td data-label="[Fiscal year] Gross planned spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td data-label="[Fiscal year] Planned revenues netted against spending"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
     <td data-label="[Fiscal year] Planned net spending (authorities used)"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
@@ -584,7 +584,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
     <p>Cette section présente un aperçu du financement voté et législatif du ministère par rapport à ses responsabilités essentielles et à ses services internes. Pour en savoir plus sur les autorisations de financement, consultez les <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/budgets-depenses.html">budgets et dépenses du gouvernement du Canada.</a></p>
    <section><figure id="fig2">
       <figcaption class="text-left h4"><strong>Graphique [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong></figcaption>
-      <p>Le graphique [Indiquer le numéro approprié.] résume le financement voté et législatif du ministère pour la période de [insérer l’exercice] à [insérer l’exercice].</p>
+      <p>Le graphique [#] résume le financement voté et législatif du ministère pour la période de [insérer l’exercice] à [insérer l’exercice].</p>
 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [#]</summary>
@@ -646,7 +646,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
       </details>
     </figure></section>
   <section>
-   <p>Pour en savoir plus sur les crédits ministériels de [nom du ministère], consultez le <a href="#">Budget principal des dépenses de [Insérer l’exercice].</a> [veuillez inclure un lien vers le Budget principal des  dépenses à partir de la version&nbsp;Word].</p>
+   <p>Pour en savoir plus sur les crédits ministériels de [nom du ministère], consultez le <a href="#">Budget principal des dépenses de [Insérer l’exercice].</a></p>
 </section>
  </section>
  <section>
