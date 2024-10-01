@@ -12,7 +12,7 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
 <link rel="stylesheet" type="text/css" href="departmental-plans-ministeriels/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
-  <p>Un plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices.</p>
+  <p>Un Plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices.</p>
 <ul>
     <li>Vision, mission, raison d'être et contexte opérationnel</li>
     <li>Lettre de mandat du ministre</li>
@@ -52,7 +52,7 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                 <li>[Élément 2 de la liste à puces];</li>
                 <li>[Élément 3 de la liste à puces].</li>
               </ul>
-        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> 
+        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans le plan complet.</p> 
         </section> 
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -66,7 +66,7 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                 <li>[Élément 2 de la liste à puces];</li>
                 <li>[Élément 3 de la liste à puces].</li>
               </ul>
-        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> 
+        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans le plan complet.</p> 
         </section>
       </details>
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -80,7 +80,7 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                 <li>[Élément 2 de la liste à puces];</li>
                 <li>[Élément 3 de la liste à puces].</li>
               </ul>
-        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport  complet sur les résultats ministériels.</p> 
+        <p>Vous trouverez de  plus amples renseignements sur <a href="#">[nom de la  responsabilité essentielle]</a> [hyperlien menant vers le  plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard  des résultats] dans le plan complet.</p> 
         </section>
       </details>
     </section>
