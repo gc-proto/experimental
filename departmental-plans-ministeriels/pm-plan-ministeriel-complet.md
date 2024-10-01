@@ -253,7 +253,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
               <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             </tr>
             <tr>
-              <td data-label="Ressources" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents </div></td>
+              <td data-label="Ressources" class="text-left" scope="row"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div></td>
               <td data-label="Prévues"><div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div></td>
             </tr>
           </tbody>
@@ -279,7 +279,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
  </section>
  <section>
   <h4 id="toc02-1-8">Répertoire des programmes</h4>
-  <p>[Nom de la responsabilité essentielle] est soutenu par les programmes suivants :</p>
+  <p>[Nom de la responsabilité essentielle] est appuyée par les programmes suivants :</p>
 <ul>
  <li>[Insérer le point 1 de la liste à puces]</li>
  <li>[Insérer le point 2 de la liste à puces]</li>
@@ -811,7 +811,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 			<section><h3>Administrateur  général&nbsp;:</h3><p>[insérer le nom ou les noms]</p></section>
 			<section><h3>Portefeuille  ministériel&nbsp;:</h3><p>[insérer les  renseignements]</p></section>
 			<section><h3>Instruments  habilitants&nbsp;:</h3><p>[insérer les titres des lois avec les hyperliens]</p></section>
-			<section><h3>Année d'incorporation  ou de création&nbsp;:</h3><p>[insérer l'année ou les années]</p></section>
+			<section><h3>Année de constitution ou de création :</h3><p>[insérer l'année ou les années]</p></section>
 			<section><h3>Autres&nbsp;:</h3><p>[insérer tout autres renseignements]</p></section>
 		</div>
 	</details>
@@ -852,7 +852,9 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Liste de termes</summary>
   <dl>
     <dt>analyse comparative entre les sexes plus (ACS Plus) <span lang="en">(gender-based analysis plus [GBA Plus])</span></dt>
-<dd>Outil  analytique servant à faciliter l&rsquo;élaboration de politiques, de programmes et  d&rsquo;autres initiatives adaptés et inclusifs. L&rsquo;ACS Plus est un processus qui  consiste à déterminer qui est touché par la problématique ou par les  possibilités envisagées dans le cadre de l&rsquo;initiative, à déterminer comment  l&rsquo;initiative pourrait être adaptée pour répondre aux divers besoins des  personnes les plus touchées, à prévoir les obstacles qui empêchent d&rsquo;accéder à  l&rsquo;initiative ou d&rsquo;en bénéficier et à les atténuer. L&rsquo;ACS Plus est une analyse  intersectionnelle qui va au-delà des différences biologiques (sexe) et  socioculturelles (genre) pour tenir compte d&rsquo;autres facteurs, comme l&rsquo;âge, le  handicap, l&rsquo;éducation, l&rsquo;ethnicité, le statut économique, la géographie, la  langue, la race, la religion et l&rsquo;orientation sexuelle. </dd>
+<dd><p>Est un outil analytique servant à l’élaboration de politiques, de programmes et d’autres initiatives adaptés et inclusifs. Il s’agit d’un processus permettant de comprendre qui est impacté par l’enjeu ou l’occasion abordée par l’initiative; de déterminer comment l’initiative pourrait être adaptée aux différents besoins des personnes les plus impactées; de même que d’anticiper et de lever les obstacles empêchant d’accéder à l’initiative ou d’en bénéficier. L’ACS Plus est une analyse intersectionnelle qui va au-delà des différences biologiques (sexe) et socioculturelles (genre), pour prendre en compte d’autres facteurs tels que l’âge, le handicap, l’éducation, l’ethnicité, la situation économique, la géographie (y compris la ruralité), la langue, la race, la religion et l’orientation sexuelle.</p>
+<p>L'utilisation de l'ACS Plus implique d’adopter dans notre travail une approche qui tienne compte du genre et de la diversité. Prendre en compte tous les facteurs identitaires intersectionnels dans le cadre de l'ACS Plus, pas seulement le sexe et le genre, est un engagement du gouvernement du Canada.</p>
+</dd>
 <dt>Cadre ministériel des résultats <span lang="en">(departmental results  framework)</span></dt>
 <dd>Cadre qui  comprend les responsabilités essentielles du ministère, les résultats  ministériels et les indicateurs de résultat ministériel. </dd>
 <dt>cible <span lang="en">(target)</span></dt>
@@ -871,7 +873,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 </dd>
 <dt>dépenses votées <span lang="en">(voted expenditures)</span></dt>
 <dd>Dépenses  approuvées annuellement par le Parlement par une loi de crédits. Le libellé de  chaque crédit énonce les conditions selon lesquelles les dépenses peuvent être  effectuées. </dd>
-<dt>entreprise autochtone</dt>
+<dt>entreprise autochtone <span lang="en">(Indigenous business)</span></dt>
 <dd>Organisation qui, aux fins de l’annexe E – Procédures obligatoires pour les marchés attribués aux entreprises autochtones de la Directive sur la gestion de l’approvisionnement ainsi que de l’engagement du gouvernement du Canada d’attribuer obligatoirement chaque année au moins 5 % de la valeur totale des marchés à des entreprises autochtones, correspond à la définition et aux exigences définies dans le <a href="https://services.sac-isc.gc.ca/REA-IBD">Répertoire des entreprises autochtones</a>.</dd>
 <dt>équivalent temps plein <span lang="en">(full time equivalent)</span></dt>
 <dd>Mesure  utilisée pour représenter une année-personne complète d&rsquo;un employé dans le  budget ministériel. Les équivalents temps plein sont calculés par un rapport  entre les heures de travail assignées et les heures normales de travail  prévues. Les heures normales sont établies dans les conventions collectives. </dd>
