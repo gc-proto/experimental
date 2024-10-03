@@ -40,7 +40,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
 </section>
 
 <section class="hidden-print">
-<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md" role="button">Read a summary of the Departmental Plan</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
+<p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-at-glance.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md">Read a summary of the Departmental Plan</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
 </section>
 
 <section>
