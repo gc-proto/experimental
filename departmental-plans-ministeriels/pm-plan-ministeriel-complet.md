@@ -585,7 +585,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
    <section><figure id="fig2">
       <figcaption class="text-left h4"><strong>Graphique [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong></figcaption>
       <p>Le graphique [#] résume le financement voté et législatif du ministère pour la période de [insérer l’exercice] à [insérer l’exercice].</p>
-<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
+<img src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/graphique-rrm.jpg" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [#]</summary>
         <div>
