@@ -618,7 +618,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 <section><figure id="fig2">
   <figcaption class="text-left h4"><strong>Graph [#]: Approved funding (statutory and voted) over a six-year period</strong></figcaption>
   <p>Graph [#] summarizes the department's approved voted and statutory funding from [insert fiscal year] to [insert fiscal year].</p>
-  <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+  <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/funding-graph.jpg" class="img-responsive center-block" alt="[alt text]. Text version below:" />
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>

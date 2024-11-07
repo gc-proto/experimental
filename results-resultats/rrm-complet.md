@@ -613,7 +613,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 <section><figure id="fig2">
   <figcaption class="text-left h4"><strong>Figure [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong></figcaption>
   <p>La figure [#] résume le financement voté et législatif du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
-  <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+  <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/graphique-rrm.jpg" class="img-responsive center-block" alt="[alt text]. Text version below:" />
   
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
