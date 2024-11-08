@@ -46,7 +46,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 <section>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Renseignements sur les droits d’auteur</summary>
-  <p>[Inclure les renseignements sur les droits d’auteur formatés pour le Web]</p>
+  <p>[Inclure les renseignements sur les droits d’auteur formatés pour le Web (échantillon: © Sa Majesté le Roi du chef du Canada, représenté par le ministre de [appellation légale du ministère], [année de publication], [ISSN])]</p>
     </details>    
 </section>    
     
