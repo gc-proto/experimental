@@ -131,23 +131,24 @@ title: "Departmental Results Report"
                     href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-full-page.md">Full
                     report page code</a></li>
         </ul>
-        <section>
-            <h2 id="toc05">Research and rationale</h2>
-            <p>Research will be ongoing to determine the best way to present information contained in the DRR in an
+    </section>    
+    <section>
+          <h2 id="toc05">Research and rationale</h2>
+          <p>Research will be ongoing to determine the best way to present information contained in the DRR in an
                 accessible and user-friendly way. To date, some known issues include non-intuitive headers, repetitive
                 information, and overly complex tables.</p>
-            <p> Further improvements will be made incrementally as more research is completed on both the implementation
+          <p> Further improvements will be made incrementally as more research is completed on both the implementation
                 and user experience sides. If you&rsquo;re interested in participating in usability testing, please <a
                     href="mailto:DAS.SCN@tbs-sct.gc.ca">reach out to the TBS theme lead(s)</a>.</p>
-        </section>
-        <section>
-            <h2 id="toc06">Latest changes</h2>
-            <ul>
-                <li>Using a 2-page layout</li>
-                <li>Simplified tables</li>
-                <li>Revised wording of headers and proper use of styles</li>
-                <li>Reduced overall length of the report</li>
-            </ul>
-            <p>These changes are effective starting with the publication of the 2024–25 DRR.</p>
-        </section>
+    </section>
+    <section>
+          <h2 id="toc06">Latest changes</h2>
+          <ul>
+            <li>Using a 2-page layout</li>
+            <li>Simplified tables</li>
+            <li>Revised wording of headers and proper use of styles</li>
+            <li>Reduced overall length of the report</li>
+          </ul>
+        <p>These changes are effective starting with the publication of the 2024–25 DRR.</p>
+    </section>
 </div>        
