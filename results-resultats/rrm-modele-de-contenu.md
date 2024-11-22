@@ -3,15 +3,14 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/drr-content-
 breadcrumbs:
   - title: [theme, topic, or department]
     link: "#"
-dateModified: 2024-04-25
+dateModified: 2024-11-22
 language: fr
 layout: default
 title: "Rapport sur les résultats ministériels"
 ---
-<link rel="stylesheet" type="text/css" href="results-resultats/css/theme.min.css" />
 <div class="mwsgeneric-base-html parbase section">
   <p>[Description  du gabarit] – Le rapport sur les résultats ministériels (RRM) présente des renseignements  sur les résultats obtenus par une organisation au cours du dernier exercice  terminé. </p>
-   <a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-modele-de-contenu.html" role="button">Trouver les directives pour les plans ministériels</a>
+   <a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-modele-de-contenu.html">Trouver les directives pour les plans ministériels</a>
 <section><h2>Sur cette page</h2>
     <ul>
       <li><a href="#toc01">Quand utiliser le gabarit</a></li>
@@ -32,7 +31,7 @@ title: "Rapport sur les résultats ministériels"
 </section>
     <section><h2 id="toc03">Contenu et conception</h2>
     <p>La  présentation du rapport sur les résultats ministériels se fait sur 2&nbsp;pages.  Chaque page s&rsquo;adresse à un public ayant différents niveaux d&rsquo;expertise.</p>
-<p><a class="btn btn-primary btn-lg" href="https://www.gcpedia.gc.ca/gcwiki/index.php?title=Portail_de_la_Partie_III_du_Budget_des_d%C3%A9penses&redirect=no#Plan_minist.C3.A9riel_2024-2025">Gabarits pour les rédacteurs et rédactrices de contenu</a> (disponible sur un réseau du gouvernement seulement, GCpédia)</p>
+<p><a class="btn btn-default btn-lg" href="https://www.gcpedia.gc.ca/gcwiki/index.php?title=Portail_de_la_Partie_III_du_Budget_des_d%C3%A9penses&redirect=no#Plan_minist.C3.A9riel_2024-2025">Gabarits pour les rédacteurs et rédactrices de contenu</a> (disponible sur un réseau du gouvernement seulement, GCpédia)</p>
     <section><h3>Page Aperçu</h3>
     <p>Fournit un  résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a  pas nécessairement une connaissance approfondie des finances ou des activités  de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception,  par exemple pour y inclure une bannière ou d&rsquo;autres éléments.</p>
 <p><a class="btn btn-default btn-lg" href="https://test.canada.ca/experimental/results-resultats/rrm-en-un-coup-doeil.html">Prévisualiser la page Aperçu</a></p>
@@ -86,8 +85,10 @@ title: "Rapport sur les résultats ministériels"
   </ol></section></section></section>
   <section><h2 id="toc04">Comment utiliser le gabarit</h2>
   <p>Copiez le code des exemples de travail :</p>
-    <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/rrm-en-un-coup-doeil.md">Code de la page Aperçu</a></p>
-    <p><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/rrm-complet.md">Code de la page Rapport intégral</a></p>
+    <ul class="list-unstyled">
+      <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/rrm-en-un-coup-doeil.md">Code de la page Aperçu</a></li>
+      <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/rrm-complet.md">Code de la page Rapport intégral</a></li>
+    </ul>
     
   <section><h2 id="toc05">Recherche et justification</h2>
     <p>Les  recherches se feront en continu afin de déterminer la meilleure façon de  présenter les informations contenues dans le rapport sur les résultats  ministériels d&rsquo;une manière accessible et conviviale. À ce jour, les problèmes  connus comprennent des en-têtes difficiles à comprendre, des informations  répétitives et des tableaux trop complexes.</p>
@@ -102,4 +103,3 @@ title: "Rapport sur les résultats ministériels"
     </ul>
   <p>Ces  changements sont en vigueur dès la date de publication du rapport sur les  résultats ministériels&nbsp;2024-2025.</p>
 </section>
-
