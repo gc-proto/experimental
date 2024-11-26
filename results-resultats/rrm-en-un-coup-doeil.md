@@ -8,7 +8,7 @@ language: fr
 layout: default
 title: "Rapport sur les résultats ministériels"
 ---
-<div class="mwsgeneric-base-html parbase section">
+<div class="parbase section">
     <p>[Description du gabarit] – Le rapport sur les résultats ministériels (RRM) présente des renseignements sur les
         résultats obtenus par une organisation au cours du dernier exercice terminé. </p>
     <a class="btn btn-primary btn-lg"
