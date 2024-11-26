@@ -16,8 +16,7 @@ title: "[Department name]'s [fiscal year] Departmental Plan: At a glance"
         <li>[Minister name]&#8217;s mandate letter</li>
     </ul>
     <div class="mrgn-tp-lg">
-        <p><a href="/experimental/departmental-plans-ministeriels/dp-full-page.html"
-                class="btn btn-primary btn-lg">Read the full departmental plan</a>
+        <p><a href="/experimental/departmental-plans-ministeriels/dp-full-page.html" class="btn btn-primary btn-lg">Read the full departmental plan</a>
             <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span>
         </p>
     </div>
@@ -51,8 +50,7 @@ title: "[Department name]'s [fiscal year] Departmental Plan: At a glance"
                             <ul>
                                 <li>[Insert bullet list item 1]</li>
                             </ul>
-                            <p>More information about [name of core responsibility] [hyperlink to the full plan, core
-                                responsibility 1, progress on results section] can be found in the full plan.</p>
+                            <p>More information about [name of core responsibility] [hyperlink to the full plan, core responsibility 1, progress on results section] can be found in the full plan.</p>
                         </div>
                     </details>
                 </li>
@@ -66,8 +64,7 @@ title: "[Department name]'s [fiscal year] Departmental Plan: At a glance"
                             <ul>
                                 <li>[Insert bullet list item 1]</li>
                             </ul>
-                            <p>More information about [name of core responsibility] [hyperlink to the full plan, core
-                                responsibility 1, progress on results section] can be found in the full plan.</p>
+                            <p>More information about [name of core responsibility] [hyperlink to the full plan, core responsibility 1, progress on results section] can be found in the full plan.</p>
                         </div>
                     </details>
                 </li>
@@ -81,8 +78,7 @@ title: "[Department name]'s [fiscal year] Departmental Plan: At a glance"
                             <ul>
                                 <li>[Insert bullet list item 1]</li>
                             </ul>
-                            <p>More information about [name of core responsibility] [hyperlink to the full plan, core
-                                responsibility 1, progress on results section] can be found in the full plan.</p>
+                            <p>More information about [name of core responsibility] [hyperlink to the full plan, core responsibility 1, progress on results section] can be found in the full plan.</p>
                         </div>
                     </details>
                 </li>

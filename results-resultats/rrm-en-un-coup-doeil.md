@@ -11,8 +11,7 @@ l’exercice] en un coup d’œil"
 ---
 <div class="parbase section">
     <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
-    <p>Un rapport sur les résultats ministériels fournit un compte rendu des réalisations réelles par rapport aux plans,
-        aux priorités et aux résultats attendus énoncés dans le <a href="/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html">plan ministériel</a> connexe&nbsp;[hyperlien menant vers le plan ministériel].</p>
+    <p>Un rapport sur les résultats ministériels fournit un compte rendu des réalisations réelles par rapport aux plans, aux priorités et aux résultats attendus énoncés dans le <a href="/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html">plan ministériel</a> connexe&nbsp;[hyperlien menant vers le plan ministériel].</p>
     <ul>
         <li>Vision, mission, raison d&rsquo;être et contexte opérationnel</li>
         <li>Lettre de mandat du ou de la ministre (facultatif)</li>
@@ -30,8 +29,7 @@ l’exercice] en un coup d’œil"
             <li>[élément&nbsp;2 de la liste à puces]; </li>
             <li>[élément&nbsp;3 de la liste à puces]. </li>
         </ul>
-        <p>[Si c’est pertinent, inclure une brève description de la façon dont ils ont contribué à l’exercice Recentrer
-            les dépenses gouvernementales en [insérer l’exercice].]</p>
+        <p>[Si c’est pertinent, inclure une brève description de la façon dont ils ont contribué à l’exercice Recentrer les dépenses gouvernementales en [insérer l’exercice].]</p>
     </section>
     <hr>
     <section>
@@ -45,8 +43,7 @@ l’exercice] en un coup d’œil"
             <ul class="list-unstyled">
                 <li>
                     <details>
-                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer
-                            le nom de la responsabilité essentielle.]</summary>
+                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer le nom de la responsabilité essentielle.]</summary>
                         <section>
                             <p><strong>Dépenses réelles :</strong> [Insérer le montant] </p>
                             <p><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</p>
@@ -56,18 +53,13 @@ l’exercice] en un coup d’œil"
                                 <li>[Élément 2 de la liste à puces];</li>
                                 <li>[Élément 3 de la liste à puces].</li>
                             </ul>
-                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité
-                                    essentielle]</a> [hyperlien menant vers le plan complet, responsabilité
-                                essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans la
-                                section «&nbsp;Résultats : Nos réalisations&nbsp;» du rapport complet sur les résultats
-                                ministériels.</p>
+                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans la section «&nbsp;Résultats : Nos réalisations&nbsp;» du rapport complet sur les résultats ministériels.</p>
                         </section>
                     </details>
                 </li>
                 <li>
                     <details>
-                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer
-                            le nom de la responsabilité essentielle.]</summary>
+                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer le nom de la responsabilité essentielle.]</summary>
                         <section>
                             <p><strong>Dépenses réelles :</strong> [Insérer le montant] </p>
                             <p><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</p>
@@ -77,18 +69,13 @@ l’exercice] en un coup d’œil"
                                 <li>[Élément 2 de la liste à puces];</li>
                                 <li>[Élément 3 de la liste à puces].</li>
                             </ul>
-                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité
-                                    essentielle]</a> [hyperlien menant vers le plan complet, responsabilité
-                                essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans la
-                                section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport complet sur les résultats
-                                ministériels.</p>
+                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport complet sur les résultats ministériels.</p>
                         </section>
                     </details>
                 </li>
                 <li>
                     <details>
-                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer
-                            le nom de la responsabilité essentielle.]</summary>
+                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer le nom de la responsabilité essentielle.]</summary>
                         <section>
                             <p><strong>Dépenses réelles :</strong> [Insérer le montant] </p>
                             <p><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</p>
@@ -98,11 +85,7 @@ l’exercice] en un coup d’œil"
                                 <li>[Élément 2 de la liste à puces];</li>
                                 <li>[Élément 3 de la liste à puces].</li>
                             </ul>
-                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité
-                                    essentielle]</a> [hyperlien menant vers le plan complet, responsabilité
-                                essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans la
-                                section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport complet sur les résultats
-                                ministériels.</p>
+                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport complet sur les résultats ministériels.</p>
                         </section>
                     </details>
                 </li>

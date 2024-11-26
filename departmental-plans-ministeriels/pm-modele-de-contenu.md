@@ -9,12 +9,8 @@ layout: default
 title: "Plans ministériels"
 ---
 <div class="parbase section">
-    <p>[Description du gabarit] – Les plans ministériels (PM) décrivent le plan de dépenses d&rsquo;une organisation
-        fédérale pour le prochain exercice financier. Le présent gabarit offre une mise en page, une structure de
-        rubriques et une conception Web uniformes ainsi que des tableaux accessibles, le tout dans un langage clair.</p>
-    <a class="btn btn-primary btn-lg"
-        href="https://test.canada.ca/experimental/results-resultats/rrm-modele-de-contenu.html">Trouver les directives
-        pour les rapports des résultats ministériels</a>
+    <p>[Description du gabarit] – Les plans ministériels (PM) décrivent le plan de dépenses d&rsquo;une organisation fédérale pour le prochain exercice financier. Le présent gabarit offre une mise en page, une structure de rubriques et une conception Web uniformes ainsi que des tableaux accessibles, le tout dans un langage clair.</p>
+    <a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/results-resultats/rrm-modele-de-contenu.html">Trouver les directives pour les rapports des résultats ministériels</a>
     <section>
         <h2>Sur cette page</h2>
         <ul>
@@ -28,41 +24,27 @@ title: "Plans ministériels"
     </section>
     <section>
         <h2 id="toc01">Quand utiliser le gabarit</h2>
-        <p>Utilisez ce gabarit pour publier les plans ministériels officiels sur Canada.ca peu après leur dépôt. La mise
-            en page assure une expérience uniforme pour les utilisateurs et utilisatrices qui recherchent des
-            renseignements précis dans les plans.</p>
+        <p>Utilisez ce gabarit pour publier les plans ministériels officiels sur Canada.ca peu après leur dépôt. La mise en page assure une expérience uniforme pour les utilisateurs et utilisatrices qui recherchent des renseignements précis dans les plans.</p>
     </section>
     <section>
         <h2 id="toc02">Quoi éviter</h2>
         <ul>
-            <li>Évitez de vous éloigner des spécifications du contenu, notamment les en-têtes, les sous-en-têtes, les
-                descriptions de texte et les explications de tableau.</li>
-            <li>Les infographies du rapport doivent être conformes aux normes d’accessibilité et être optimisées pour
-                les appareils mobiles.</li>
+            <li>Évitez de vous éloigner des spécifications du contenu, notamment les en-têtes, les sous-en-têtes, les descriptions de texte et les explications de tableau.</li>
+            <li>Les infographies du rapport doivent être conformes aux normes d’accessibilité et être optimisées pour les appareils mobiles.</li>
         </ul>
     </section>
     <section>
         <h2 id="toc03">Contenu et conception</h2>
-        <p>La présentation des plans ministériels se fait sur 2&nbsp;pages. Chaque page s&rsquo;adresse à un public
-            ayant différents niveaux d&rsquo;expertise. </p>
-        <p><a class="btn btn-default btn-lg"
-                href="https://www.gcpedia.gc.ca/gcwiki/index.php?title=Portail_de_la_Partie_III_du_Budget_des_d%C3%A9penses&redirect=no">Gabarits
-                pour les rédacteurs et rédactrices de contenu</a> (disponible sur un réseau du gouvernement seulement,
-            GCpédia)</p>
+        <p>La présentation des plans ministériels se fait sur 2&nbsp;pages. Chaque page s&rsquo;adresse à un public ayant différents niveaux d&rsquo;expertise. </p>
+        <p><a class="btn btn-default btn-lg" href="https://www.gcpedia.gc.ca/gcwiki/index.php?title=Portail_de_la_Partie_III_du_Budget_des_d%C3%A9penses&redirect=no">Gabarits pour les rédacteurs et rédactrices de contenu</a> (disponible sur un réseau du gouvernement seulement, GCpédia)</p>
         <section>
             <h3>Page Aperçu</h3>
-            <p>Fournit un résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a pas
-                nécessairement une connaissance approfondie des finances ou des activités de l&rsquo;organisation. Cette
-                page offre une plus grande souplesse de conception, par exemple pour y inclure une bannière ou d’autres
-                éléments.</p>
-            <p><a class="btn btn-default"
-                    href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html">Prévisualiser
-                    la page Aperçu</a></p>
+            <p>Fournit un résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a pas nécessairement une connaissance approfondie des finances ou des activités de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception, par exemple pour y inclure une bannière ou d’autres éléments.</p>
+            <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html">Prévisualiser la page Aperçu</a></p>
             <section>
                 <h4>Sections obligatoires :</h4>
                 <ol>
-                    <li>Aperçu : comprend le texte obligatoire et deux puces avec des liens vers les pages d’accueil
-                        distinctes du ministère pour ce qui est des renseignements suivants :
+                    <li>Aperçu : comprend le texte obligatoire et deux puces avec des liens vers les pages d’accueil distinctes du ministère pour ce qui est des renseignements suivants :
                         <ol class="lst-lwr-alph">
                             <li>Vision, mission, raison d’être et contexte opérationnel</li>
                         </ol>
@@ -72,20 +54,15 @@ title: "Plans ministériels"
         </section>
         <section>
             <h3>Page Plan intégral</h3>
-            <p>Fournit tous les détails du plan ministériel de l&rsquo;organisation. Le gabarit pour les plans
-                ministériels utilise des en-têtes et des éléments de conception normalisés.</p>
-            <p><a class="btn btn-default"
-                    href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html">Prévisualiser
-                    la page Plan intégral</a></p>
+            <p>Fournit tous les détails du plan ministériel de l&rsquo;organisation. Le gabarit pour les plans ministériels utilise des en-têtes et des éléments de conception normalisés.</p>
+            <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html">Prévisualiser la page Plan intégral</a></p>
             <section>
                 <h4>Sections obligatoires :</h4>
                 <ol>
-                    <li>Message du ministre ou de la ministre / du ou de la responsable de l’institution : message de la
-                        haute direction.
+                    <li>Message du ministre ou de la ministre / du ou de la responsable de l’institution : message de la haute direction.
                         <ul>
                             <li>Ne pas inclure de signature dans la version Web. </li>
-                            <li>Les renseignements sur les droits d’auteur doivent se trouver entre cette section et la
-                                section suivante, qui peut être agrandie et réduite. </li>
+                            <li>Les renseignements sur les droits d’auteur doivent se trouver entre cette section et la section suivante, qui peut être agrandie et réduite. </li>
                         </ul>
                     </li>
                 </ol>
@@ -96,24 +73,14 @@ title: "Plans ministériels"
         <h2 id="toc04">Comment utiliser le gabarit</h2>
         <p>Copiez le code des exemples de travail :</p>
         <ul class="list-unstyled">
-            <li><a class="btn btn-default btn-lg"
-                    href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code
-                    de la page Aperçu</a></li>
-            <li><a class="btn btn-default btn-lg"
-                    href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-plan-ministeriel-comple.md">Code
-                    de la page Plan intégral</a></li>
+            <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code de la page Aperçu</a></li>
+            <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-plan-ministeriel-comple.md">Code de la page Plan intégral</a></li>
         </ul>
     </section>
     <section>
         <h2 id="toc05">Recherche et justification</h2>
-        <p>Les recherches se feront en continu afin de déterminer la meilleure façon de présenter les informations
-            contenues dans les plans ministériels d&rsquo;une manière accessible et conviviale. À ce jour, les problèmes
-            connus comprennent des en-têtes difficiles à comprendre, des informations répétitives et des tableaux trop
-            complexes.</p>
-        <p>D&rsquo;autres améliorations seront apportées au fur et à mesure que les recherches sur la mise en œuvre et
-            l&rsquo;expérience des utilisateurs et utilisatrices seront achevées. Si vous voulez participer aux tests de
-            convivialité, veuillez <a href="mailto:DAS.SCN@tbs-sct.gc.ca">communiquer avec le ou les responsables de
-                thème du SCT</a>. </p>
+        <p>Les recherches se feront en continu afin de déterminer la meilleure façon de présenter les informations contenues dans les plans ministériels d&rsquo;une manière accessible et conviviale. À ce jour, les problèmes connus comprennent des en-têtes difficiles à comprendre, des informations répétitives et des tableaux trop complexes.</p>
+        <p>D&rsquo;autres améliorations seront apportées au fur et à mesure que les recherches sur la mise en œuvre et l&rsquo;expérience des utilisateurs et utilisatrices seront achevées. Si vous voulez participer aux tests de convivialité, veuillez <a href="mailto:DAS.SCN@tbs-sct.gc.ca">communiquer avec le ou les responsables de thème du SCT</a>. </p>
     </section>
     <section>
         <h2 id="toc06">Dernières modifications</h2>

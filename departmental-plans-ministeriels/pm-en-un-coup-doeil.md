@@ -10,15 +10,13 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
 ---
 <div class="parbase section">
     <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
-    <p>Un Plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains
-        exercices.</p>
+    <p>Un Plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices.</p>
     <ul>
         <li>Vision, mission, raison d'être et contexte opérationnel</li>
         <li>Lettre de mandat du ministre</li>
     </ul>
     <div class="mrgn-bttm-lg mrgn-tp-lg">
-        <p><a href="/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html"
-                class="btn btn-primary btn-lg">Lire le plan ministériel complet</a>
+        <p><a href="/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html" class="btn btn-primary btn-lg">Lire le plan ministériel complet</a>
             <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span>
         </p>
     </div>
@@ -44,8 +42,7 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
             <ul class="list-unstyled">
                 <li>
                     <details>
-                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer
-                            le nom de la responsabilité essentielle.]</summary>
+                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer le nom de la responsabilité essentielle.]</summary>
                         <div>
                             <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
                             <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
@@ -55,17 +52,13 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                                 <li>[Élément 2 de la liste à puces];</li>
                                 <li>[Élément 3 de la liste à puces].</li>
                             </ul>
-                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité
-                                    essentielle]</a> [hyperlien menant vers le plan complet, responsabilité
-                                essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan
-                                complet.</p>
+                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>
                         </div>
                     </details>
                 </li>
                 <li>
                     <details>
-                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer
-                            le nom de la responsabilité essentielle.]</summary>
+                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer le nom de la responsabilité essentielle.]</summary>
                         <div>
                             <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
                             <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
@@ -75,17 +68,13 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                                 <li>[Élément 2 de la liste à puces];</li>
                                 <li>[Élément 3 de la liste à puces].</li>
                             </ul>
-                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité
-                                    essentielle]</a> [hyperlien menant vers le plan complet, responsabilité
-                                essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan
-                                complet.</p>
+                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>
                         </div>
                     </details>
                 </li>
                 <li>
                     <details>
-                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer
-                            le nom de la responsabilité essentielle.]</summary>
+                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer le nom de la responsabilité essentielle.]</summary>
                         <div>
                             <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
                             <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
@@ -95,10 +84,7 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                                 <li>[Élément 2 de la liste à puces];</li>
                                 <li>[Élément 3 de la liste à puces].</li>
                             </ul>
-                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité
-                                    essentielle]</a> [hyperlien menant vers le plan complet, responsabilité
-                                essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan
-                                complet.</p>
+                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>
                         </div>
                     </details>
                 </li>

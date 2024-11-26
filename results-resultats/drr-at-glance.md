@@ -10,15 +10,13 @@ title: "[Name of organization]’s [fiscal year] Departmental Results Report: At
 ---
 <div class="parbase section">
     <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
-    <p>A departmental results report provides an account of actual accomplishments against plans, priorities and
-        expected results set out in the associated <a href="/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental Plan</a>.</p>
+    <p>A departmental results report provides an account of actual accomplishments against plans, priorities and expected results set out in the associated <a href="/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental Plan</a>.</p>
     <ul>
         <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
         <li>Minister’s mandate letter (optional)</li>
     </ul>
     <div class="mrgn-tp-lg">
-        <p><a href="/experimental/results-resultats/drr-full-page.html"
-                class="btn btn-primary btn-lg">Read the full Departmental results report</a></p>
+        <p><a href="/experimental/results-resultats/drr-full-page.html" class="btn btn-primary btn-lg">Read the full Departmental results report</a></p>
     </div>
     <hr>
     <section>
@@ -53,9 +51,7 @@ title: "[Name of organization]’s [fiscal year] Departmental Results Report: At
                                 <li>[insert bulleted list item 2]</li>
                                 <li>[insert bulleted list item 3]</li>
                             </ul>
-                            <p>More information about [name of core responsibility] [hyperlink to full plan, core
-                                responsibility 1, progress on results section] can be found in the "Results - what we
-                                achieved” section of the full departmental results report.</p>
+                            <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 1, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p>
                         </div>
                     </details>
                 </li>
@@ -71,9 +67,7 @@ title: "[Name of organization]’s [fiscal year] Departmental Results Report: At
                                 <li>[insert bulleted list item 2]</li>
                                 <li>[insert bulleted list item 3]</li>
                             </ul>
-                            <p>More information about [name of core responsibility] [hyperlink to full plan, core
-                                responsibility 2, progress on results section] can be found in the "Results - what we
-                                achieved” section of the full departmental results report.</p>
+                            <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 2, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p>
                         </div>
                     </details>
                 </li>
@@ -89,9 +83,7 @@ title: "[Name of organization]’s [fiscal year] Departmental Results Report: At
                                 <li>[insert bulleted list item 2]</li>
                                 <li>[insert bulleted list item 3]</li>
                             </ul>
-                            <p>More information about [name of core responsibility] [hyperlink to full plan, core
-                                responsibility 3, progress on results section] can be found in the "Results - what we
-                                achieved” section of the full departmental results report.</p>
+                            <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 3, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p>
                         </div>
                     </details>
                 </li>
