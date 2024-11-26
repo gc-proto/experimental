@@ -3,21 +3,20 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2023-12-22
+dateModified: 2024-11-24
 language: en
 layout: default
-title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
+title: "[Department name]'s [fiscal year] Departmental Plan: At a glance"
 ---
 <div class="parbase section">
     <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
-    <p>A departmental plan describes a department&rsquo;s priorities, plans and associated costs for the upcoming three
-        fiscal years.</p>
+    <p>A departmental plan describes a department&rsquo;s priorities, plans and associated costs for the upcoming three fiscal years.</p>
     <ul>
         <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
         <li>[Minister name]&#8217;s mandate letter</li>
     </ul>
     <div class="mrgn-tp-lg">
-        <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html"
+        <p><a href="/experimental/departmental-plans-ministeriels/dp-full-page.html"
                 class="btn btn-primary btn-lg">Read the full departmental plan</a>
             <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span>
         </p>

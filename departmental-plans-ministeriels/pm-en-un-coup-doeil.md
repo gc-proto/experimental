@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2023-12-22
+dateModified: 2024-11-25
 language: fr
 layout: default
 title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
@@ -17,7 +17,7 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
         <li>Lettre de mandat du ministre</li>
     </ul>
     <div class="mrgn-bttm-lg mrgn-tp-lg">
-        <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html"
+        <p><a href="/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html"
                 class="btn btn-primary btn-lg">Lire le plan ministériel complet</a>
             <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span>
         </p>

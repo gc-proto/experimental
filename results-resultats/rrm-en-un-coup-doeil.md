@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/drr-at-glanc
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2024-11-22
+dateModified: 2024-11-24
 language: fr
 layout: default
 title: "Rapport sur les résultats ministériels [de/du/de la/de l’] [nom de l’organisation ministère] pour [insérer
@@ -12,15 +12,13 @@ l’exercice] en un coup d’œil"
 <div class="parbase section">
     <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
     <p>Un rapport sur les résultats ministériels fournit un compte rendu des réalisations réelles par rapport aux plans,
-        aux priorités et aux résultats attendus énoncés dans le <a
-            href="https://test.canada.ca/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html">plan
-            ministériel</a> connexe&nbsp;[hyperlien menant vers le plan ministériel].</p>
+        aux priorités et aux résultats attendus énoncés dans le <a href="/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html">plan ministériel</a> connexe&nbsp;[hyperlien menant vers le plan ministériel].</p>
     <ul>
         <li>Vision, mission, raison d&rsquo;être et contexte opérationnel</li>
         <li>Lettre de mandat du ou de la ministre (facultatif)</li>
     </ul>
     <div class="mrgn-tp-lg">
-        <p><a href="https://test.canada.ca/experimental/results-resultats/rrm-complet.html"
+        <p><a href="/experimental/results-resultats/rrm-complet.html"
                 class="btn btn-primary btn-lg">Lire le rapport sur les résultats ministériels au complet</a></p>
     </div>
     <hr>
