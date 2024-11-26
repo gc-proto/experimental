@@ -16,12 +16,12 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
         <li>Vision, mission, raison d'être et contexte opérationnel</li>
         <li>Lettre de mandat du ministre</li>
     </ul>
-    <section class="mrgn-bttm-lg mrgn-tp-lg">
+    <div class="mrgn-bttm-lg mrgn-tp-lg">
         <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html"
                 class="btn btn-primary btn-lg">Lire le plan ministériel complet</a>
             <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span>
         </p>
-    </section>
+    </div>
     <hr>
     <section>
         <h2>Priorités du ministère</h2>
@@ -36,17 +36,15 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
     <section>
         <h2>Faits saillants</h2>
         <p>[Insérer le texte de la section « Faits saillants »]</p>
-        <section id="cores">
-            <div class="btn-group mrgn-bttm-md">
+        <div id="cores">
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
-            </div>
             <ul class="list-unstyled">
                 <li>
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer
                             le nom de la responsabilité essentielle.]</summary>
-                        <section>
+                        <div>
                             <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
                             <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
                             <p><strong>Résultats ministériels :</strong></p>
@@ -59,14 +57,14 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                                     essentielle]</a> [hyperlien menant vers le plan complet, responsabilité
                                 essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan
                                 complet.</p>
-                        </section>
+                        </div>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer
                             le nom de la responsabilité essentielle.]</summary>
-                        <section>
+                        <div>
                             <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
                             <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
                             <p><strong>Résultats ministériels :</strong></p>
@@ -79,14 +77,14 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                                     essentielle]</a> [hyperlien menant vers le plan complet, responsabilité
                                 essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan
                                 complet.</p>
-                        </section>
+                        </div>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer
                             le nom de la responsabilité essentielle.]</summary>
-                        <section>
+                        <div>
                             <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
                             <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
                             <p><strong>Résultats ministériels :</strong></p>
@@ -99,10 +97,10 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                                     essentielle]</a> [hyperlien menant vers le plan complet, responsabilité
                                 essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan
                                 complet.</p>
-                        </section>
+                        </div>
                     </details>
                 </li>
             </ul>
-        </section>
+        </div>
     </section>
 </div>

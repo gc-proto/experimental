@@ -16,12 +16,12 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
         <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
         <li>[Minister name]&#8217;s mandate letter</li>
     </ul>
-    <section class="mrgn-tp-lg">
+    <div class="mrgn-tp-lg">
         <p><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html"
                 class="btn btn-primary btn-lg">Read the full departmental plan</a>
             <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span>
         </p>
-    </section>
+    </div>
     <hr>
     <section>
         <h2>Key priorities</h2>
@@ -36,16 +36,14 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
     <section>
         <h2>Highlights </h2>
         <p>[Insert text from the Highlights section]</p>
-        <section id="cores">
-            <div class="btn-group mrgn-bttm-md">
+        <div id="cores">
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
-            </div>
             <ul class="list-unstyled">
                 <li>
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
-                        <section>
+                        <div>
                             <p><strong>Planned spending:</strong> [Insert amount]</p>
                             <p><strong>Planned human resources:</strong> [Insert amount]</p>
                             <p><strong>Departmental results:</strong></p>
@@ -54,13 +52,13 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
                             </ul>
                             <p>More information about [name of core responsibility] [hyperlink to the full plan, core
                                 responsibility 1, progress on results section] can be found in the full plan.</p>
-                        </section>
+                        </div>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
-                        <section>
+                        <div>
                             <p><strong>Planned spending:</strong> [Insert amount]</p>
                             <p><strong>Planned human resources:</strong> [Insert amount]</p>
                             <p><strong>Departmental results:</strong></p>
@@ -69,13 +67,13 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
                             </ul>
                             <p>More information about [name of core responsibility] [hyperlink to the full plan, core
                                 responsibility 1, progress on results section] can be found in the full plan.</p>
-                        </section>
+                        </div>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
-                        <section>
+                        <div>
                             <p><strong>Planned spending:</strong> [Insert amount]</p>
                             <p><strong>Planned human resources:</strong> [Insert amount]</p>
                             <p><strong>Departmental results:</strong></p>
@@ -84,10 +82,10 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
                             </ul>
                             <p>More information about [name of core responsibility] [hyperlink to the full plan, core
                                 responsibility 1, progress on results section] can be found in the full plan.</p>
-                        </section>
+                        </div>
                     </details>
                 </li>
             </ul>
-        </section>
+        </div>
     </section>
 </div>

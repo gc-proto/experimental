@@ -18,10 +18,10 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
         <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
         <li>Minister’s mandate letter (optional)</li>
     </ul>
-    <section class="mrgn-tp-lg">
+    <div class="mrgn-tp-lg">
         <p><a href="https://test.canada.ca/experimental/results-resultats/drr-full-page.html"
                 class="btn btn-primary btn-lg">Read the full Departmental results report</a></p>
-    </section>
+    </div>
     <hr>
     <section>
         <h2>Key priorities</h2>
@@ -37,7 +37,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
     <section>
         <h2>Highlights</h2>
         <p>[Insert text from the Highlights section]</p>
-        <section id="cores">
+        <div id="cores">
             <div class="btn-group mrgn-bttm-md">
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
@@ -46,7 +46,7 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                 <li>
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
-                        <section>
+                        <div>
                             <p><strong>Actual spending:</strong> [Insert amount]</p>
                             <p><strong>Actual human resources:</strong> [Insert number]</p>
                             <p><strong>Results - what we achieved:</strong></p>
@@ -58,13 +58,13 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                             <p>More information about [name of core responsibility] [hyperlink to full plan, core
                                 responsibility 1, progress on results section] can be found in the "Results - what we
                                 achieved” section of the full departmental results report.</p>
-                        </section>
+                        </div>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
-                        <section>
+                        <div>
                             <p><strong>Actual spending:</strong> [Insert amount]</p>
                             <p><strong>Actual human resources:</strong> [Insert number]</p>
                             <p><strong>Results - what we achieved:</strong></p>
@@ -76,13 +76,13 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                             <p>More information about [name of core responsibility] [hyperlink to full plan, core
                                 responsibility 2, progress on results section] can be found in the "Results - what we
                                 achieved” section of the full departmental results report.</p>
-                        </section>
+                        </div>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
-                        <section>
+                        <div>
                             <p><strong>Actual spending:</strong> [Insert amount]</p>
                             <p><strong>Actual human resources:</strong> [Insert number]</p>
                             <p><strong>Results - what we achieved:</strong></p>
@@ -94,10 +94,10 @@ title: "[Name of organization]’s [fiscal year] Departmental results report: At
                             <p>More information about [name of core responsibility] [hyperlink to full plan, core
                                 responsibility 3, progress on results section] can be found in the "Results - what we
                                 achieved” section of the full departmental results report.</p>
-                        </section>
+                        </div>
                     </details>
                 </li>
             </ul>
-        </section>
+        </div>
     </section>
 </div>

@@ -19,12 +19,12 @@ l’exercice] en un coup d’œil"
         <li>Vision, mission, raison d&rsquo;être et contexte opérationnel</li>
         <li>Lettre de mandat du ou de la ministre (facultatif)</li>
     </ul>
-    <section class="mrgn-tp-lg">
+    <div class="mrgn-tp-lg">
         <p><a href="https://test.canada.ca/experimental/results-resultats/rrm-complet.html"
                 class="btn btn-primary btn-lg">Lire le rapport sur les résultats ministériels au complet</a></p>
-    </section>
+    </div>
     <hr>
-    <section class="mrgn-bttm-lg mrgn-tp-lg">
+    <section>
         <h2>Principales priorités</h2>
         <p>Les principales priorités de [nom du ministère] pour [insérer l’exercice] étaient les suivantes :</p>
         <ul>
@@ -36,10 +36,10 @@ l’exercice] en un coup d’œil"
             les dépenses gouvernementales en [insérer l’exercice].]</p>
     </section>
     <hr>
-    <section class="mrgn-bttm-lg mrgn-tp-lg">
+    <section>
         <h2>Faits saillants</h2>
         <p>[Insérer le texte de la section « Faits saillants »]</p>
-        <section id="cores">
+        <div id="cores">
             <div class="btn-group mrgn-bttm-md">
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
@@ -109,6 +109,6 @@ l’exercice] en un coup d’œil"
                     </details>
                 </li>
             </ul>
-        </section>
+        </div>
     </section>
 </div>
