@@ -37,8 +37,10 @@ title: "[Department name]'s [fiscal year] Departmental plan: At a glance"
         <h2>Highlights </h2>
         <p>[Insert text from the Highlights section]</p>
         <div id="cores">
+            <div class="btn-group mrgn-bttm-md">
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
                 <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+            </div>
             <ul class="list-unstyled">
                 <li>
                     <details>
