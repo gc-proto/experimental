@@ -35,7 +35,7 @@ title: "Plans ministériels"
     </section>
     <section>
         <h2 id="toc03">Contenu et conception</h2>
-        <p>La présentation des plans ministériels se fait sur 2&nbsp;pages. Chaque page s&rsquo;adresse à un public ayant différents niveaux d&rsquo;expertise. </p>
+        <p>La présentation des plans ministériels se fait sur 2&nbsp;pages. Chaque page s&rsquo;adresse à un public ayant différents niveaux d&rsquo;expertise.</p>
         <p><a class="btn btn-default btn-lg" href="https://www.gcpedia.gc.ca/gcwiki/index.php?title=Portail_de_la_Partie_III_du_Budget_des_d%C3%A9penses&redirect=no">Gabarits pour les rédacteurs et rédactrices de contenu</a> (disponible sur un réseau du gouvernement seulement, GCpédia)</p>
         <section>
             <h3>Page Aperçu</h3>
@@ -80,7 +80,7 @@ title: "Plans ministériels"
     <section>
         <h2 id="toc05">Recherche et justification</h2>
         <p>Les recherches se feront en continu afin de déterminer la meilleure façon de présenter les informations contenues dans les plans ministériels d&rsquo;une manière accessible et conviviale. À ce jour, les problèmes connus comprennent des en-têtes difficiles à comprendre, des informations répétitives et des tableaux trop complexes.</p>
-        <p>D&rsquo;autres améliorations seront apportées au fur et à mesure que les recherches sur la mise en œuvre et l&rsquo;expérience des utilisateurs et utilisatrices seront achevées. Si vous voulez participer aux tests de convivialité, veuillez <a href="mailto:DAS.SCN@tbs-sct.gc.ca">communiquer avec le ou les responsables de thème du SCT</a>. </p>
+        <p>D&rsquo;autres améliorations seront apportées au fur et à mesure que les recherches sur la mise en œuvre et l&rsquo;expérience des utilisateurs et utilisatrices seront achevées. Si vous voulez participer aux tests de convivialité, veuillez <a href="mailto:DAS.SCN@tbs-sct.gc.ca">communiquer avec le ou les responsables de thème du SCT</a>.</p>
     </section>
     <section>
         <h2 id="toc06">Dernières modifications</h2>

@@ -121,4 +121,5 @@ title: "Rapport sur les résultats ministériels"
             </ul>
             <p>Ces changements sont en vigueur dès la date de publication du rapport sur les résultats ministériels&nbsp;2024-2025.</p>
         </section>
+    </section>    
 </div>
