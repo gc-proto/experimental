@@ -9,7 +9,7 @@ layout: default
 title: "Departmental Plans"
 ---
 <div class="mwsgeneric-base-html parbase section">
-    <p>[Pattern description] - Departmental Plans (DP) describe a department&rsquo;s spending plan for the next fiscal year. This template provides a consistent layout, heading structure, web design, accessible tables, and plain language.</p>
+    <p>Departmental Plans (DP) describe a department&rsquo;s spending plan for the next fiscal year. This template provides a consistent layout, heading structure, web design, accessible tables, and plain language.</p>
     <a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/results-resultats/drr-content-model.html">Find guidance for Departmental Results Report</a>
     <section>
         <h2>On this page</h2>

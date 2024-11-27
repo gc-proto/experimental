@@ -9,7 +9,7 @@ layout: default
 title: "Plans ministériels"
 ---
 <div class="parbase section">
-    <p>[Description du gabarit] – Les plans ministériels (PM) décrivent le plan de dépenses d&rsquo;une organisation fédérale pour le prochain exercice financier. Le présent gabarit offre une mise en page, une structure de rubriques et une conception Web uniformes ainsi que des tableaux accessibles, le tout dans un langage clair.</p>
+    <p>Les plans ministériels (PM) décrivent le plan de dépenses d&rsquo;une organisation fédérale pour le prochain exercice financier. Le présent gabarit offre une mise en page, une structure de rubriques et une conception Web uniformes ainsi que des tableaux accessibles, le tout dans un langage clair.</p>
     <a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/results-resultats/rrm-modele-de-contenu.html">Trouver les directives pour les rapports des résultats ministériels</a>
     <section>
         <h2>Sur cette page</h2>
