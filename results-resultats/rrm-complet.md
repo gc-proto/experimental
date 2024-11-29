@@ -47,8 +47,11 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </details>
     </section>
     <section>
-        <h2 id="toc01">Message du/de la ministre</h2>
-        <div class="pull-right mrgn-lft-md col-xs-12 col-sm-4 hidden-print">
+        <div class="col-xs-8">
+           <h2 id="toc01">Message du/de la ministre</h2>
+           <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
+       </div>    
+        <div class="col-sm-4 hidden-print">
             <figure>
                 <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -57,12 +60,14 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                 </figcaption>
             </figure>
         </div>
-        <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
     </section>
     <section>
         <!-- Optional section, delete if not required -->
-        <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
-        <div class="pull-right mrgn-lft-md col-xs-12 col-sm-4 hidden-print">
+        <div class="col-xs-8">
+          <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
+          <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p>
+        </div>
+        <div class="col-sm-4 hidden-print">
             <figure>
                 <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -71,7 +76,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                 </figcaption>
             </figure>
         </div>
-        <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p>
     </section>
     <section>
         <h2 id="toc02">Résultats : Nos réalisations</h2>

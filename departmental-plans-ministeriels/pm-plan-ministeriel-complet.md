@@ -47,8 +47,11 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         </details>
     </section>
     <section>
-        <h2 id="toc01">Message du/de la ministre</h2>
-        <div class="pull-right mrgn-lft-md col-xs-4">
+        <div class="col-xs-8">
+          <h2 id="toc01">Message du/de la ministre</h2>
+          <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
+        </div>
+        <div class="col-xs-4">
             <figure>
                 <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -57,11 +60,13 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 </figcaption>
             </figure>
         </div>
-        <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
     </section>
     <section>
-        <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
-        <div class="pull-right mrgn-lft-md col-xs-4">
+        <div class="col-xs-8">
+          <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
+          <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p>
+        </div>  
+        <div class="col-xs-4">
             <figure>
                 <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -71,7 +76,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 </figcaption>
             </figure>
         </div>
-        <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p>
     </section>
     <section>
         <h2 id="toc02">Plans pour assurer les responsabilités essentielles et les services internes</h2>

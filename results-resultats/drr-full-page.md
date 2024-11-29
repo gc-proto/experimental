@@ -46,8 +46,11 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         </details>
     </div>
     <section><!--Minister message open-->
-        <h2 id="toc01">From the Minister</h2>
-        <div class="pull-right mrgn-lft-md col-xs-12 col-sm-4 hidden-print">
+        <div class="col-xs-8">
+            <h2 id="toc01">From the Minister</h2>
+            <p>[Message from the Minister; don’t include a signature in the web version]</p>
+        </div>     
+        <div class="col-xs-4 hidden-print">
             <figure>
                 <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -56,11 +59,13 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 </figcaption>
             </figure>
         </div>
-        <p>[Message from the Minister; don’t include a signature in the web version]</p>
     </section><!--Minister message close-->
     <section><!--Institutional Head message open, Optional section, delete if not required-->
-        <h2 id="toc01b">From the Institutional Head (*optional)</h2>
-        <div class="pull-right mrgn-lft-md col-xs-12 col-sm-4 hidden-print">
+        <div class="col-xs-8">
+          <h2 id="toc01b">From the Institutional Head (*optional)</h2>
+          <p>[Message from the Institutional head, don't include a signature in the web version]</p>
+        </div>  
+        <div class="col-xs-4 hidden-print">
             <figure>
                 <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -69,7 +74,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 </figcaption>
             </figure>
         </div>
-        <p>[Message from the Institutional head, don't include a signature in the web version]</p>
     </section><!--Institutional Head message close-->
     <section><!--Results what we achieved open-->
         <h2 id="toc02">Results – what we achieved</h2>
