@@ -46,7 +46,10 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
         </details>
     </section>
     <section>
-        <h2 id="toc01">From the Minister</h2>
+       <div>
+          <h2 id="toc01">From the Minister</h2>
+          <p>[Message from the Minister; don’t include a signature in the web version]</p>
+        </div>
         <div class="pull-right mrgn-lft-md col-xs-4">
             <figure>
                 <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
@@ -56,11 +59,13 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                 </figcaption>
             </figure>
         </div>
-        <p>[Message from the Minister; don’t include a signature in the web version]</p>
     </section>
     <section>
         <!-- Optional section, delete if not required -->
-        <h2 id="toc01b">From the Institutional Head (*optional)</h2>
+        <div>  
+          <h2 id="toc01b">From the Institutional Head (*optional)</h2>
+          <p>[Message from the Institutional head, don't include a signature in the web version]</p>
+        </div>  
         <div class="pull-right mrgn-lft-md col-xs-4">
             <figure>
                 <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
@@ -70,7 +75,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                 </figcaption>
             </figure>
         </div>
-        <p>[Message from the Institutional head, don't include a signature in the web version]</p>
     </section>
     <section>
         <h2 id="toc02">Plans to deliver on core responsibilities and internal services</h2>
