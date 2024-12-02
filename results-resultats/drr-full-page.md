@@ -976,7 +976,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
                     </details>
                 </figure>
-            </section>
             <p>For further information on [Department acronym]'s organizational voted and statutory expenditures, consult the <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html">Public Accounts of Canada</a>.</p>
         </div>
         <div>
