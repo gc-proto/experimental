@@ -249,7 +249,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <p>The following section decribes the results for [insert name of core responsibility] in [insert fiscal year] compared with the planned results set out in [Department acronym]'s departmental plan for the year. </p>
                       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Name of result 1]</summary>
-                        <section>
+                        <div>
                             <p>[Insert description of result 1]</p>
                             <p><strong>Results achieved:</strong></p>
                             <ul>
@@ -257,11 +257,11 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 <li>[Insert bulleted list item 2]</li>
                                 <li>[Insert bulleted list item 3]</li>
                             </ul>
-                         </section>
+                         </div>
                       </details>
                       <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
                           <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Name of result 2]</summary>
-                          <section>
+                          <div>
                               <p>[Insert description of result 2]</p>
                               <p><strong>Results achieved:</strong></p>
                               <ul>
@@ -269,7 +269,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                   <li>[Insert bulleted list item 2]</li>
                                   <li>[Insert bulleted list item 3]</li>
                               </ul>
-                          </section>
+                          </div>
                       </details>
                     <p>[Repeat for each result associated with core responsibility 1]</p>
                 </div>    
@@ -439,7 +439,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         </section><!--Internal services close-->
     </section><!--Results what we achieved close-->
     <section><!--Spending and human resources open-->
-        <h2 id="toc03"> Spending and human resources</h2>
+        <h2 id="toc03">Spending and human resources</h2>
         <ul class="list-unstyled">
             <li>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -1412,7 +1412,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of human resources for the next three years</summary>
                     <p>[Insert narrative that explains significant trends. Include any footnotes.]</p>
                 </details>
-          </div>  
+            </div>  
+          </section><!--Human resources close-->    
       </section><!--Spending and human resources close-->
       <section><!--Corporate information open-->
             <h2 id="toc04">Corporate information</h2>
