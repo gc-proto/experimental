@@ -81,7 +81,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </section><!--Institutional Head message close-->
     <section><!--Results what we achieved open-->
         <h2 id="toc02">Results – what we achieved</h2>
-        <section>
+        <section><!--core responsibilities open-->
             <h3>Core responsibilities and internal services</h3>
             <ul>
                 <li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
@@ -89,14 +89,13 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 <li><a href="#toc02-3">Core responsibility 3: [insert core responsibility name]</a></li>
                 <li><a href="#toc02-4">Internal services</a></li>
             </ul>
-        </section>
-        <section>
+        </section><!--core responsibilities close-->
+        <section><!--core responsibilities  open, repeat these sections for each core responsibility-->
             <h3 id="toc02-1">Core responsibility 1: [insert core responsibility name]</h3>
             <ul class="list-unstyled">
                 <li>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section
-                        </summary>
+                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
                         <ul>
                             <li><a href="#toc02-1-1">Description</a></li>
                             <li><a href="#toc02-1-2">Progress on results</a></li>
@@ -109,17 +108,16 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 </li>
             </ul>
             <p>[Repeat these sections for each core responsibility]</p>
-            <section>
+            <section><!--core responsibilities description open-->
                 <h4 id="toc02-1-1">Description</h4>
                 <p>[Insert description of core responsibility 1]</p>
-            </section>
-            <section>
+            </section><!--core responsibilities description close-->
+            <section><!--core responsibilities progress open-->
                 <h4 id="toc02-1-2">Progress on results</h4>
                 <p>This section presents details on how the Department performed to achieve results and meet targets for [insert name of core responsibility]. Details are presented by departmental result.</p>
-                <section>
+                <div>
                     <h5>Table [#]: Targets and results for [insert name of core responsibility]</h5>
                     <p>Table [#] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
-                    <div>
                         <table id="tbl1-1" class="provisional gc-table table table-bordered" 
                             aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
                             <caption class="h5 text-left">Table [#.1]:[Insert name of result 1]</caption>
@@ -182,8 +180,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                    <div>
                         <table id="tbl1-2" class="provisional gc-table table table-bordered" 
                             aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
                             <caption class="h5 text-left">Table [#.2]: Name of Departmental result 2</caption>
@@ -246,54 +242,49 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <p>[Hyperlink to the related information on GC Infobase]</p>
-                </section>
-            </section>
-            <section>
-                <h5>Details on results</h5>
-                <p>The following section decribes the results for [insert name of core responsibility] in [insert fiscal year] compared with the planned results set out in [Department acronym]'s departmental plan for the year. </p>
-                <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-                    <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Name of result 1]</summary>
-                    <section>
-                        <p>[Insert description of result 1]</p>
-                        <p><strong>Results achieved:</strong></p>
-                        <ul>
-                            <li>[Insert bulleted list item 1]</li>
-                            <li>[Insert bulleted list item 2]</li>
-                            <li>[Insert bulleted list item 3]</li>
-                        </ul>
-                    </section>
-                </details>
-                <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-                    <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Name of result 2]</summary>
-                    <section>
-                        <p>[Insert description of result 2]</p>
-                        <p><strong>Results achieved:</strong></p>
-                        <ul>
-                            <li>[Insert bulleted list item 1]</li>
-                            <li>[Insert bulleted list item 2]</li>
-                            <li>[Insert bulleted list item 3]</li>
-                        </ul>
-                    </section>
-                </details>
-                <p>[Repeat for each result associated with core responsibility 1]</p>
-            </section>
-            <section>
+                </div>
+               <div>
+                  <h5>Details on results</h5>
+                    <p>The following section decribes the results for [insert name of core responsibility] in [insert fiscal year] compared with the planned results set out in [Department acronym]'s departmental plan for the year. </p>
+                      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+                        <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Name of result 1]</summary>
+                        <section>
+                            <p>[Insert description of result 1]</p>
+                            <p><strong>Results achieved:</strong></p>
+                            <ul>
+                                <li>[Insert bulleted list item 1]</li>
+                                <li>[Insert bulleted list item 2]</li>
+                                <li>[Insert bulleted list item 3]</li>
+                            </ul>
+                         </section>
+                      </details>
+                      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+                          <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Name of result 2]</summary>
+                          <section>
+                              <p>[Insert description of result 2]</p>
+                              <p><strong>Results achieved:</strong></p>
+                              <ul>
+                                  <li>[Insert bulleted list item 1]</li>
+                                  <li>[Insert bulleted list item 2]</li>
+                                  <li>[Insert bulleted list item 3]</li>
+                              </ul>
+                          </section>
+                      </details>
+                    <p>[Repeat for each result associated with core responsibility 1]</p>
+                </div>    
+            </section><!--core responsibilities progress close-->
+            <section><!--core responsibilities key risk open-->
                 <h4 id="toc02-1-3">Key risks</h4>
                 <p>[Insert content from risks section]</p>
-            </section>
-            <section>
-                <section>
-                    <h4 id="toc02-1-4">Results – what we achieved </h4>
-                    <section>
-                        <h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
-                        <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
-                        <div>
-                            <table id="tbl2" class="provisional gc-table table table-bordered" 
-                                aria-label="Name of Departmental result 2"
-                                aria-describedby="Departmental_results_2_table">
-                                <caption class="h6 text-left wb-inv">Table provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</caption>
+            </section><!--core responsibilities key risk close-->
+            <section><!--core responsibilities results open-->
+                  <h4 id="toc02-1-4">Results – what we achieved </h4>
+                  <div>
+                      <h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
+                       <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
+                          <table id="tbl2" class="provisional gc-table table table-bordered" aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                              <caption class="h6 text-left wb-inv">Table provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</caption>
                                 <thead>
                                     <tr class="active">
                                         <th class="text-left" >
@@ -330,13 +321,12 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert number]</div>
                                         </td>
                                     </tr>
-                                </tbody>
+                              </tbody>
                             </table>
-                        </div>
                         <p>[Hyperlink to the related information on GC Infobase]</p>
-                    </section>
-                </section>
-                <section>
+                  </div>
+            </section><!--core responsibilities results close-->
+            <section><!--core responsibilities related priorities open-->
                     <h4 id="toc02-1-5">Related government priorities</h4>
                     <p>[Insert details of government-wide priorities]</p>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -351,8 +341,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
                         <p>[Insert description]</p>
                     </details>
-                </section>
-                <section>
+            </section><!--core responsibilities related priorities close-->
+            <section><!--core responsibilities program inventory open-->
                     <h4 id="toc02-1-6">Program inventory</h4>
                     <p>[Insert name of core responsibility 1] is supported by the following programs:</p>
                     <ul>
@@ -361,10 +351,9 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <li>[Insert bulleted list item 3]</li>
                     </ul>
                     <p>[Hyperlink to the related information on GC Infobase]</p>
-                </section>
-            </section>
-        </section>
-        <section>
+            </section><!--core responsibilities program inventory close-->
+        </section><!--Core responsibilities close-->
+        <section><!--Internal services open-->
             <h3 id="toc02-4">Internal services</h3>
             <ul class="list-unstyled">
                 <li>
@@ -379,7 +368,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     </details>
                 </li>
             </ul>
-            <section>
+            <section><!--Internal services description open-->
                 <h4 id="toc02-4-1">Description</h4>
                 <p>Internal services are the services that are provided within a department so that it can meet its corporate obligations and deliver its programs. There are 10 categories of internal services:</p>
                 <ul>
@@ -394,17 +383,16 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <li>materiel management services</li>
                     <li>acquisition management services</li>
                 </ul>
-            </section>
-            <section>
+            </section><!--Internal services description close-->
+            <section><!--Internal services progress open-->
                 <h4 id="toc02-4-2">Progress on results</h4>
                 <p>[Insert description of the progress on results] </p>
-            </section>
-            <section>
+            </section><!--Internal services progress close-->
+            <section><!--Internal services results open-->
                 <h4 id="toc02-4-3">Results – what we achieved</h4>
-                <section>
+                <div>
                     <h5>Table [#]: Snapshot of resources this year for internal services</h5>
                     <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
-                    <div>
                         <table id="tbl3" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left wb-inv">Table provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</caption>
                             <thead>
@@ -445,11 +433,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <p>[Hyperlink to the related information on GC Infobase]</p>
-                </section>
-            </section>
-        </section>
+                </div>
+            </section><!--Internal services results close-->
+        </section><!--Internal services close-->
     </section><!--Results what we achieved close-->
     <section><!--Spending and human resources open-->
         <h2 id="toc03"> Spending and human resources</h2>
@@ -466,10 +453,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 </details>
             </li>
         </ul>
-        <section>
+        <section><!--Spending open-->
             <h3 id="toc03-1">Spending</h3>
             <p>This section presents an overview of the department's actual and planned expenditures from [insert fiscal year] to [insert fiscal year].</p>
-            <section>
+            <div>
                 <figure id="fig1">
                     <figcaption class="text-left h4">
                         <strong>Graph [#]: Actual spending by core responsibility in [insert fiscal year] (*optional)</strong>
@@ -541,13 +528,12 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
                     </details>
                 </figure>
-            </section>
-            <section>
+            </div>
+            <div>
                 <h4>Budgetary performance summary</h4>
-                <section>
+                <div>
                     <h5 class="h4">Table [#]: Actual three-year spending on core responsibilities and internal services (dollars)</h5>
                     <p>Table [#] presents how much money [Department acronym] spent over the past three years to carry out core responsibilities and for internal services.</p>
-                    <div>
                         <table id="tbl4" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left wb-inv">Table presents how much money [Department acronym] spent over the past three years to carry out core responsibilities and for internal services.</caption>
                             <thead>
@@ -657,17 +643,15 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of past three years of spending</summary>
                         <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
                     </details>
                     <p>[Hyperlink to the related information on GC Infobase]</p>
-                </section>
-                <section>
+                </div>
+                <div>
                     <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h5>
                     <p>Table [#] presents how much money [Department acronym] plans to spend over the next three years to carry out its core responsibilities and for internal services.</p>
-                    <div>
                         <table id="tbl5" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left wb-inv">Table presents how much money [Department acronym] plans to spend over the next three years to carry out its core responsibilities and for internal services.</caption>
                             <thead>
@@ -759,20 +743,17 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of the next three years of spending</summary>
                         <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
                     </details>
                     <p>[Hyperlink to the related information on GC Infobase]</p>
-                </section>
-                <section>
+                </div>
+                <div>
                     <h5 class="h4">Table [#]: Budgetary actual gross and net planned spending summary (dollars)(*optional)</h5>
                     <p>Table [#] reconciles gross planned spending with net spending for [insert fiscal year].</p>
-                    <div>
                         <table id="tbl6" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left wb-inv">Table reconciles gross planned spending with net spending for [insert fiscal year].</caption>
-                            <caption class="text-left"></caption>
                             <thead>
                                 <tr class="active">
                                     <th class="text-left" >
@@ -862,21 +843,20 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of budgetary actual gross and net planned spending summary</summary>
                         <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
                     </details>
                     <p>[Hyperlink to the related information on GC Infobase]</p>
-                </section>
-            </section>
-        </section>
-        <section>
+                </div>
+            </div>
+        </section><!--Spending close-->
+        <section><!--Funding open-->
             <h3 id="toc03-2">Funding</h3>
             <p>This section provides an overview of the department's voted and statutory funding for its core
                 responsibilities and for internal services. For further information on funding authorities, consult the
                 <a href="https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/budgets-expenditures.html">Government of Canada budgets and expenditures</a>.  </p>
-            <section>
+            <div>
                 <figure id="fig2">
                     <figcaption class="text-left h4">
                         <strong>Graph [#]: Approved funding (statutory and voted) over a six-year period</strong>
@@ -885,7 +865,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
-                        <div>
                             <table class="provisional gc-table table table-bordered">
                                 <caption class="h6 text-left wb-inv">Text description of graph</caption>
                                 <thead>
@@ -991,7 +970,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
                     </details>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of statutory and voted spending over a six-year period</summary>
@@ -1000,13 +978,12 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 </figure>
             </section>
             <p>For further information on [Department acronym]'s organizational voted and statutory expenditures, consult the <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html">Public Accounts of Canada</a>.</p>
-        </section>
-        <section>
+        </div>
+        <div>
             <h3 id="toc03-3">Financial statement highlights</h3>
             <p>[Department&rsquo;s acronym]&rsquo;s complete financial statements [link to department&rsquo;s financial statement] (unaudited or audited) for the year ended [insert date] are available online.</p>
-            <section>
+            <div>
                 <h4>Table [#]: Condensed Statement of Operations (unaudited or audited) for the year ended [insert date] (dollars)</h4>
-                <div>
                     <table id="tbl7" class="provisional gc-table table table-bordered">
                         <caption class="h5 text-left">Table [#.1]: summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.
                         </caption>
@@ -1072,8 +1049,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         </tbody>
                     </table>
                     <p>The [insert fiscal year] planned results information is provided in [Department acronym]'s Future-Oriented Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
-                </div>
-                <div>
+              </div>
+              <div>
                     <table id="tbl8" class="provisional gc-table table table-bordered">
                         <caption class="h5 text-left">Table [#.2]: summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.
                         </caption>
@@ -1138,12 +1115,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             </tr>
                         </tbody>
                     </table>
-                </div>
-            </section>
-            <section>
+            </div>
+            <div>
                 <h4>Table [#] Condensed Statement of Financial Position (unaudited or audited) as of [insert date] (dollars)</h4>
                 <p>Table [#] provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</p>
-                <div>
                     <table id="tbl9" class="provisional gc-table table table-bordered">
                         <caption class="h6 text-left wb-inv">Table provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</caption>
                         <thead>
@@ -1235,16 +1210,14 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             </tr>
                         </tbody>
                     </table>
-                </div>
-            </section>
-        </section>
-        <section>
+            </div>
+        </section><!--Funding close-->
+        <section><!--Human resources open-->
             <h3 id="toc03-4">Human resources</h3>
             <p>This section presents an overview of the department's actual and planned human resources from [insert fiscal year] to [insert fiscal year].</p>
-            <section>
+            <div>
                 <h4>Table [#]: Actual human resources for core responsibilities and internal services</h4>
                 <p>Table [#] shows a summary of human resources, in full-time equivalents, for [Department acronym]'s core responsibilities and for its internal services for the previous three fiscal years.</p>
-                <div>
                     <table id="tbl10" class="provisional gc-table table table-bordered">
                         <caption class="h6 text-left wb-inv">Table shows a summary of human resources, in full-time equivalents, for [Department acronym]'s core responsibilities and for its internal services for the previous three fiscal years.</caption>
                         <thead>
@@ -1336,16 +1309,14 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             </tr>
                         </tbody>
                     </table>
-                </div>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of human resources over the last three years</summary>
                     <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
                 </details>
-            </section>
-            <section>
+            </div>
+            <div>
                 <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
                 <p>Table [#] shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for its internal services planned for the next three years. Human resources for the current fiscal year are forecasted based on year to date.</p>
-                <div>
                     <table id="tbl11" class="provisional gc-table table table-bordered">
                         <caption class="h6 text-left wb-inv">Table shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for its internal services planned for the next three years. Human resources for the current fiscal year are forecasted based on year to date.</caption>
                         <thead>
@@ -1437,14 +1408,14 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             </tr>
                         </tbody>
                     </table>
-                </div>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of human resources for the next three years</summary>
                     <p>[Insert narrative that explains significant trends. Include any footnotes.]</p>
                 </details>
-            </section><!--Spending and human resources close-->
-            <section><!--Corporate information open-->
-                <h2 id="toc04">Corporate information</h2>
+          </div>  
+      </section><!--Spending and human resources close-->
+      <section><!--Corporate information open-->
+            <h2 id="toc04">Corporate information</h2>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Departmental profile</summary>
                     <section>
@@ -1567,7 +1538,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <dt>result <span lang="fr">(résultat)</span></dt>
                         <dd>A consequence attributed, in part, to an department, policy, program or initiative. Results are not within the control of a single department, policy, program or initiative; instead they are within the area of the department’s influence.</dd>
                         <dt>Indigenous business <span lang="fr">(enterprise autochtones)</span></dt>
-                        <dd>For the purpose of the <em>Directive on the Management of  Procurement Appendix E: Mandatory Procedures for Contracts Awarded to  Indigenous Businesses</em> and the Government of Canada&rsquo;s commitment that a mandatory minimum target of 5% of the total value of contracts is awarded to Indigenous businesses, an organization that meets the definition and Arequirements as defined by the <a href="https://www.sac-isc.gc.ca/eng/1100100033057/1610797769658">Indigenous Business Directory</a>.</dd>
+                        <dd>For the purpose of the <em>Directive on the Management of  Procurement Appendix E: Mandatory Procedures for Contracts Awarded to Indigenous Businesses</em> and the Government of Canada&rsquo;s commitment that a mandatory minimum target of 5% of the total value of contracts is awarded to Indigenous businesses, an organization that meets the definition and Arequirements as defined by the <a href="https://www.sac-isc.gc.ca/eng/1100100033057/1610797769658">Indigenous Business Directory</a>.</dd>
                         <dt>statutory expenditures <span lang="fr">(dépenses  législatives)</span></dt>
                         <dd>Expenditures that Parliament has approved through legislation other than appropriation acts. The legislation&nbsp;sets out the purpose of the expenditures and the terms and conditionsunder which they may be made.</dd>
                         <dt>target <span lang="fr">(cible)</span></dt>
