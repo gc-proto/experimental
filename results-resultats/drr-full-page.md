@@ -47,11 +47,11 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </div>
     <section><!--Minister message open-->
       <div class="row">
-        <div class="col-xs-12 col-m-8">
+        <div class="col-xs-12 col-md-8">
             <h2 id="toc01">From the Minister</h2>
             <p>[Message from the Minister; don’t include a signature in the web version]</p>
         </div>     
-        <div class="col-xs-12 col-m-4 hidden-print">
+        <div class="col-xs-12 col-md-4 hidden-print">
             <figure>
                 <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -64,11 +64,11 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </section><!--Minister message close-->
     <section><!--Institutional Head message open, Optional section, delete if not required-->
       <div class="row">
-        <div class="col-xs-12 col-m-8">
+        <div class="col-xs-12 col-md-8">
           <h2 id="toc01b">From the Institutional Head (*optional)</h2>
           <p>[Message from the Institutional head, don't include a signature in the web version]</p>
         </div>  
-        <div class="col-xs-12 col-m-4 hidden-print">
+        <div class="col-xs-12 col-md-4 hidden-print">
             <figure>
                 <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
