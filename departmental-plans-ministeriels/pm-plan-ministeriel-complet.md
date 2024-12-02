@@ -8,7 +8,7 @@ language: fr
 layout: default
 title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 ---
-<div class="parbase section">
+<div class="parbase section"><!--Main page div-->
     <section>
         <h2>Sur cette page</h2>
         <ul>

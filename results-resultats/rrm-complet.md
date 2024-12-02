@@ -8,8 +8,8 @@ language: fr
 layout: default
 title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom du ministère]"
 ---
-<div class="parbase section">
-    <section>
+<div class="parbase section"><!--Main page div-->
+    <section><!--sur cette page open-->
         <h2>Sur cette page</h2>
         <ul>
             <li><a href="#toc01">Message du/de la ministre</a></li>
@@ -35,18 +35,18 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             <li><a href="#toc06">Dépenses fiscales fédérales</a></li>
             <li><a href="#toc07">Définitions</a></li>
         </ul>
-    </section>
-    <section class="hidden-print">
+    </section><!--sur cette page close-->
+    <div class="hidden-print">
         <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/results-resultats/rrm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
         </p>
-    </section>
-    <section>
+    </div>
+    <div>
         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
             <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Renseignements sur les droits d’auteur</summary>
             <p>[Inclure les renseignements sur les droits d’auteur formatés pour le Web (échantillon: © Sa Majesté le Roi du chef du Canada, représenté par le ministre de [appellation légale du ministère], [année de publication], [ISSN])]</p>
         </details>
-    </section>
-    <section>
+    </div>
+    <section><!--Message du/de la ministre open-->
       <div class="row">
         <div class="col-xs-12 col-md-8">
            <h2 id="toc01">Message du/de la ministre</h2>
@@ -62,9 +62,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             </figure>
         </div>
       </div>
-    </section>
-    <section>
-        <!-- Optional section, delete if not required -->
+    </section><!--Message du/de la ministre close-->
+    <section><!--Message de l’administrateur général/de l’administratrice générale open, Optional section, delete if not required-->
       <div class="row">
         <div class="col-xs-12 col-md-8">
           <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
@@ -80,10 +79,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             </figure>
         </div>
       </div>  
-    </section>
-    <section>
+    </section><!--Message de l’administrateur général/de l’administratrice générale close-->
+    <section><!--resultats open-->
         <h2 id="toc02">Résultats : Nos réalisations</h2>
-        <section>
+        <section><!--responsabilites open-->
             <h3>Responsabilités essentielles et services internes</h3>
             <ul>
                 <li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</a></li>
@@ -91,8 +90,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                 <li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité essentielle].</a></li>
                 <li><a href="#toc02-4">Services internes</a></li>
             </ul>
-        </section>
-        <section>
+        </section><!--responsabilites close-->
+        <section><!--responsabilites essentielle open, reproduire ces sections pour chaque responsabilité essentielle-->
             <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
             <ul class="list-unstyled">
                 <li>
@@ -110,17 +109,16 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                 </li>
             </ul>
             <p>[Reproduire ces sections pour chaque responsabilité essentielle].</p>
-            <section>
+            <section><!--responsabilites essentielle description open-->
                 <h4 id="toc02-1-1">Description</h4>
                 <p>[Insérer la description de la responsabilité principale 1]</p>
-            </section>
-            <section>
+            </section><!--responsabilites essentielle description close-->
+            <section><!--responsabilites essentielle progres open-->
                 <h4 id="toc02-1-2">Progrès à l’égard des résultats</h4>
                 <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles relativement à [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. </p>
                 <section>
                     <h5>Tableau [#] : Cibles et résultats relativement à [inscrire le nom de la responsabilité essentielle]</h5>
                     <p>Le tableau [#] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
-                    <div>
                         <table id="tbl1-1" class="provisional gc-table table table-bordered">
                             <caption class="h5 text-left">Tableau [#.1] : Résultat 1 du [ministère]</caption>
                             <thead>
@@ -182,8 +180,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                    <div>
                         <table id="tbl1-2" class="provisional gc-table table table-bordered">
                             <caption class="h5 text-left">Tableau [#.2] : Résultat 2 du [ministère]</caption>
                             <thead>
@@ -245,7 +241,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
                 </section>
             </section>
@@ -254,7 +249,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                 <p>La section suivante décrit les résultats obtenus relativement à [inscrire le nom de la responsabilité essentielle] en [insérer l’exercice] en les comparant aux résultats prévus dans le Plan ministériel de [insérer l'acronyme du ministère du ministère] pour l’exercice.</p>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
                     <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 1]</summary>
-                    <section>
+                    <div>
                         <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 1 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice].</p>
                         <p><strong>Résultats obtenus : </strong></p>
                         <ul>
@@ -262,11 +257,11 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                             <li>[Insérer l’élément 2 de la liste à puces]</li>
                             <li>[Insérer l’élément 3 de la liste à puces]</li>
                         </ul>
-                    </section>
+                    </div>
                 </details>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
                     <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat 2]</summary>
-                    <section>
+                    <div>
                         <p>[Insérer la description des résultats obtenus par votre ministère pour le résultat 2 par rapport aux résultats prévus dans le Plan ministériel pour l’exercice].</p>
                         <p><strong>Résultats obtenus : </strong></p>
                         <ul>
@@ -274,94 +269,91 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                             <li>[Insérer l’élément 2 de la liste à puces]</li>
                             <li>[Insérer l’élément 3 de la liste à puces]</li>
                         </ul>
-                    </section>
+                    </div>
                 </details>
                 <p>[Répéter pour chaque résultat lié à la responsabilité essentielle 1]</p>
             </section>
-        </section>
-        <section>
+        </section><!--responsabilites essentielle progres close-->
+        <section><!--responsabilites essentielle risques open-->
             <h4 id="toc02-1-3">Principaux risques</h4>
             <p>[Insérer une description des principaux risques pour la responsabilité essentielle 1]</p>
-        </section>
-        <section>
-            <section>
-                <h4 id="toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</h4>
-                <section>
-                    <h5>Tableau [#] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
-                    <div>
-                        <table id="tbl2" class="provisional gc-table table table-bordered">
-                            <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</caption>
-                            <thead>
-                                <tr class="active">
-                                    <th class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div>
-                                    </th>
-                                    <th class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div>
-                                    </th>
-                                    <th class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles</div>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td data-label="Ressources" class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div>
-                                    </td>
-                                    <td data-label="Prévues">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                    <td data-label="Réelles">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td data-label="Ressources" class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div>
-                                    </td>
-                                    <td data-label="Prévues">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                    <td data-label="Réelles">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                </section>
-            </section>
-            <section>
-                <h4 id="toc02-1-5">Priorités pangouvernementales connexes</h4>
-                <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
-                <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse comparative entre les sexes Plus </summary>
-                    <p>[Insérer la description].</p>
-                </details>
-                <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l’horizon 2030 et Objectifs de développement durable des Nations Unies
-                    </summary>
-                    <p>[Insérer la description].</p>
-                </details>
-                <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
-                    <p>[Insérer la description].</p>
-                </details>
-            </section>
-            <section>
-                <h4 id="toc02-1-6">Répertoire des programmes</h4>
-                <p>La responsabilité essentielle [inscrire le nom de la responsabilité essentielle] est appuyée des programmes suivants :</p>
-                <ul>
-                    <li>[Insérer le point 1&nbsp;de la liste à puces]</li>
-                    <li>[Insérer le point 2&nbsp;de la liste à puces]</li>
-                    <li>[Insérer le point 3&nbsp;de la liste à puces]</li>
-                </ul>
-                <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-            </section>
-        </section>
-        <section>
+        </section><!--responsabilites essentielle risques close-->
+        <section><!--responsabilites essentielle ressources open-->
+            <h4 id="toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</h4>
+              <div>
+                  <h5>Tableau [#] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
+                       <table id="tbl2" class="provisional gc-table table table-bordered">
+                          <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</caption>
+                          <thead>
+                              <tr class="active">
+                                  <th class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div>
+                                  </th>
+                                  <th class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div>
+                                  </th>
+                                  <th class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles</div>
+                                  </th>
+                               </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td data-label="Ressources" class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div>
+                                  </td>
+                                  <td data-label="Prévues">
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                  </td>
+                                  <td data-label="Réelles">
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td data-label="Ressources" class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div>
+                                  </td>
+                                  <td data-label="Prévues">
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                  </td>
+                                  <td data-label="Réelles">
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                  </td>
+                            </tr>
+                          </tbody>
+                      </table>
+                  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+              </div>
+            </section><!--responsabilites essentielle ressources close-->    
+            <section><!--responsabilites essentielle priorites open-->    
+                  <h4 id="toc02-1-5">Priorités pangouvernementales connexes</h4>
+                  <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
+                  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse comparative entre les sexes Plus </summary>
+                      <p>[Insérer la description].</p>
+                  </details>
+                  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l’horizon 2030 et Objectifs de développement durable des Nations Unies
+                      </summary>
+                      <p>[Insérer la description].</p>
+                  </details>
+                  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                      <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation</summary>
+                      <p>[Insérer la description].</p>
+                  </details>
+            </section><!--responsabilites essentielle priorites close-->   
+            <section><!--responsabilites essentielle repertoire open-->
+                  <h4 id="toc02-1-6">Répertoire des programmes</h4>
+                  <p>La responsabilité essentielle [inscrire le nom de la responsabilité essentielle] est appuyée des programmes suivants :</p>
+                  <ul>
+                      <li>[Insérer le point 1&nbsp;de la liste à puces]</li>
+                      <li>[Insérer le point 2&nbsp;de la liste à puces]</li>
+                      <li>[Insérer le point 3&nbsp;de la liste à puces]</li>
+                  </ul>
+                  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+            </section><!--responsabilites essentielle repertoire close-->
+        </section><!--responsabilites essentielle close-->      
+        <section><!--service internes open-->
             <h3 id="toc02-4">Services internes</h3>
             <ul class="list-unstyled">
                 <li>
@@ -376,7 +368,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                     </details>
                 </li>
             </ul>
-            <section>
+            <section><!--service internes description open-->
                 <h4 id="toc02-4-1">Description</h4>
                 <p>Les services internes sont les services fournis au sein d&rsquo;un ministère afin qu&rsquo;il puisse respecter ses obligations et exécuter ses programmes. Les dix catégories de services internes sont les suivantes&nbsp;:</p>
                 <ul>
@@ -391,59 +383,61 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                     <li>services de gestion du matériel;</li>
                     <li>services de gestion des acquisitions.</li>
                 </ul>
-            </section>
-            <section>
+            </section><!--service internes description close-->
+            <section><!--service internes progres open-->
                 <h4 id="toc02-4-2">Progrès à l’égard des résultats</h4>
                 <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles en ce qui a trait aux services internes.</p>
-            </section>
-            <section>
+            </section><!--service internes progres close-->
+            <section><!--service internes ressources open-->
                 <h4 id="toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</h4>
-            </section>
-            <h5>Tableau [#] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
-            <div>
-                <table id="tbl3" class="provisional gc-table table table-bordered">
-                    <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</caption>
-                    <thead>
-                        <tr class="active">
-                            <th class="text-left" >
-                                <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div>
-                            </th>
-                            <th class="text-left" >
-                                <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div>
-                            </th>
-                            <th class="text-left" >
-                                <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles</div>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td data-label="Ressources" class="text-left" >
-                                <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div>
-                            </td>
-                            <td data-label="Prévues">
-                                <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                            </td>
-                            <td data-label="Réelles">
-                                <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td data-label="Ressources" class="text-left" >
-                                <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div>
-                            </td>
-                            <td data-label="Prévues">
-                                <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                            </td>
-                            <td data-label="Réelles">
-                                <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-            <section>
+                <div>
+                  <h5>Tableau [#] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
+                      <table id="tbl3" class="provisional gc-table table table-bordered">
+                          <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</caption>
+                          <thead>
+                              <tr class="active">
+                                  <th class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div>
+                                  </th>
+                                  <th class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div>
+                                  </th>
+                                  <th class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Réelles</div>
+                                  </th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td data-label="Ressources" class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div>
+                                  </td>
+                                  <td data-label="Prévues">
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                  </td>
+                                  <td data-label="Réelles">
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td data-label="Ressources" class="text-left" >
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div>
+                                  </td>
+                                  <td data-label="Prévues">
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                  </td>
+                                  <td data-label="Réelles">
+                                      <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+                  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+              </section><!--service internes ressources close-->
+          </section><!--service internes close-->  
+      </section><!--resultats close-->
+      <section><!--Depenses et ressources humaines open-->
                 <h2 id="toc03">Dépenses et ressources humaines </h2>
                 <ul class="list-unstyled">
                     <li>
@@ -458,10 +452,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                         </details>
                     </li>
                 </ul>
-                <section>
+                <section><!--Depenses open-->
                     <h3 id="toc03-1">Dépenses</h3>
                     <p>Cette section présente un aperçu des dépenses prévues et réelles du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
-                    <section>
+                    <div>
                         <figure id="fig1">
                             <figcaption class="text-left h4">
                                 <strong>Figure [#] : Dépenses réelles par responsabilité essentielle en [exercice] [*facultatif]</strong>
@@ -535,12 +529,11 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
                             </details>
                         </figure>
-                    </section>
-                    <section>
+                    </div>
+                    <div>
                         <h4>Sommaire du rendement budgétaire</h4>
-                        <section>
+                        <div>
                             <h5 class="h4">Tableau [#] : Dépenses réelles de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
-                            <div>
                                 <table id="tbl4" class="provisional gc-table table table-bordered">
                                     <caption class="h6 text-left">Le tableau [#] indique la somme d’argent dépensée par [insérer l'acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</caption>
                                     <thead>
@@ -650,16 +643,14 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div>
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois derniers exercices</summary>
                                 <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
                             </details>
                             <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                        </section>
-                        <section>
+                        </div>
+                        <div>
                             <h5 class="h4">Tableau [#] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
-                            <div>
                                 <table id="tbl5" class="provisional gc-table table table-bordered">
                                     <caption class="h6 text-left">Le tableau [#] indique la somme d’argent que [insérer l'acronyme du ministère] prévoit dépenser au cours des trois prochains exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</caption>
                                     <thead>
@@ -751,16 +742,14 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div>
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois prochains exercices</summary>
                                 <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
                             </details>
                             <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                        </section>
-                        <section>
+                        </div>
+                        <div>
                             <h5 class="h4">Tableau [#] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) (*facultatif)</h5>
-                            <div>
                                 <table id="tbl6" class="provisional gc-table table table-bordered">
                                     <caption class="h6 text-left">Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</caption>
                                     <thead>
@@ -855,20 +844,19 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div>
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues
                                 </summary>
                                 <p>[Insérez un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
                             </details>
                             <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                        </section>
-                    </section>
-                </section>
-                <section>
+                        </div>
+                    </div>
+              </section><!--Depenses close -->
+              <section><!--Financement open-->
                     <h3 id="toc03-2">Financement</h3>
                     <p>Cette section présente un aperçu du financement voté et législatif du ministère par rapport à ses responsabilités essentielles et à ses services internes. Pour en savoir plus sur les autorisations de financement, consulter les <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/budgets-depenses.html">budgets et dépenses du gouvernement du Canada</a>.</p>
-                    <section>
+                    <div>
                         <figure id="fig2">
                             <figcaption class="text-left h4">
                                 <strong>Figure [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong>
@@ -990,13 +978,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
                             </details>
                         </figure>
-                    </section>
+                    </div>
                     <p>Pour en savoir plus sur les dépenses votées et législatives de [l'acronyme du ministère], consulter les <a href="https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html">Comptes publics du Canada</a>.</p>
-                </section>
-                <section>
+              </section><!--Financement close-->
+              <section><!--Faits saillants open-->
                     <h3 id="toc03-3">Faits saillants des états financiers</h3>
                     <p>Les états financiers de [l'acronym du ministère] (audités ou non) pour l’exercice terminé le [insérer la date] sont publiés sur le site Web du ministère [lien menant vers les états financiers du ministère].</p>
-                    <section>
+                    <div>
                         <h4>Tableau [#] : État condensé des résultats (audité ou non) terminé [insérer la date] (en dollars) </h4>
                         <div>
                             <table id="tbl7" class="provisional gc-table table table-bordered">
@@ -1062,8 +1050,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
                         <p>Les renseignements sur les résultats prévus pour [exercice] proviennent de l’état des résultats prospectif et les notes de [exercice] de [l'acronym du ministère] [lien menant vers l’état des résultats prospectif du ministère].</p>
+                        </div>
                         <div>
                             <table id="tbl8" class="provisional gc-table table table-bordered">
                                 <caption class="h5 text-left">Tableau [#.2] : résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</caption>
@@ -1129,8 +1117,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 </tbody>
                             </table>
                         </div>
-                    </section>
-                    <section>
+                      </div>
+                      <div>
                         <h4>Tableau [#] État condensé de la situation financière (audité ou non) au [insérer la date] (en dollars)</h4>
                         <div>
                             <table id="tbl9" class="provisional gc-table table table-bordered">
@@ -1226,120 +1214,113 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 </tbody>
                             </table>
                         </div>
-                    </section>
-                </section>
-                <section>
+                    </div>
+                </section><!--Faits saillants close-->
+                <section><!--ressources humaines open-->
                     <h3 id="toc03-4">Ressources humaines</h3>
                     <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
-                </section>
-                <section>
-                    <h4>Tableau [#] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-                </section>
-                <section>
                     <div>
-                        <table id="tbl10" class="provisional gc-table table table-bordered">
-                            <caption class="h6 text-left">Le tableau [#] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices.</caption>
-                            <thead>
-                                <tr class="active">
-                                    <th class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div>
-                                    </th>
-                                    <th class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div>
-                                    </th>
-                                    <th class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div>
-                                    </th>
-                                    <th class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td data-label="Responsabilités essentielles et services internes" class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Inscrire le nom de la responsabilité essentielle 1]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td data-label="Responsabilités essentielles et services internes" class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Inscrire le nom de la responsabilité essentielle 2]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                </tr>
-                                <tr class="active">
-                                    <td data-label="Responsabilités essentielles et services internes" class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td data-label="Responsabilités essentielles et services internes" class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
-                                    </td>
-                                </tr>
-                                <tr class="active">
-                                    <td data-label="Responsabilités essentielles et services internes" class="text-left" >
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div>
-                                    </td>
-                                    <td data-label="Équivalents temps plein réels [exercice]">
-                                        <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-                <section>
+                        <h4>Tableau [#] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
+                        <div>
+                            <table id="tbl10" class="provisional gc-table table table-bordered">
+                                <caption class="h6 text-left">Le tableau [#] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices.</caption>
+                                <thead>
+                                    <tr class="active">
+                                        <th class="text-left" >
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div>
+                                        </th>
+                                        <th class="text-left" >
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div>
+                                        </th>
+                                        <th class="text-left" >
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div>
+                                        </th>
+                                        <th class="text-left" >
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein réels [exercice]</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Inscrire le nom de la responsabilité essentielle 1]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Inscrire le nom de la responsabilité essentielle 2]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                        </td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total partiel]</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le montant]</div>
+                                        </td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div>
+                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">
+                                            <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le total]</div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines des trois derniers exercices</summary>
                         <p>[Insérez un texte expliquant les tendances significatives et incluez les notes de bas de page].</p>
                     </details>
-                </section>
-                <section>
+                </div>    
+                <div>
                     <h4>Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-                </section>
-                <section>
                     <div>
                         <table id="tbl11" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left">Le tableau [#] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour.</caption>
@@ -1435,16 +1416,14 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                             </tbody>
                         </table>
                     </div>
-                </section>
-                <section>
-                    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines pour les trois prochains exercices</summary>
                         <p>[Insérer un texte expliquant les tendances significatives. Inclure toutes les notes de bas de page]</p>
                     </details>
-                </section>
-            </section>
-        </section>
-        <section>
+                  </div>
+            </section><!--ressources humaines close-->
+        </section><!--Depenses et ressources humaines close-->
+        <section><!--Renseignements sur le ministere open-->
             <h2 id="toc04">Renseignements sur le ministère</h2>
             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Profil du ministère</summary>
@@ -1500,8 +1479,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                     <p>[insérer adresse(s) URL]</p>
                 </section>
             </details>
-        </section>
-        <section>
+        </section><!--Renseignements sur le ministere close-->
+        <section><!--tableaux de renseignements supplementaire open-->
             <h2 id="toc05">Tableaux de renseignements supplémentaires</h2>
             <p>Les tableaux de renseignements supplémentaires ci-dessous sont accessibles sur le site Web du [nom du ministère]&nbsp;:</p>
             <ul>
@@ -1512,12 +1491,12 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                 <li>Financement pluriannuel initial</li>
                 <li>Programme à l&rsquo;horizon 2030 et Objectifs de développement durable des Nations&nbsp;Unies</li>
             </ul>
-        </section>
-        <section>
+        </section><!--tableaux de renseignements supplementaire close-->
+        <section><!--Depenses fiscales federales open-->
             <h2 id="toc06">Dépenses fiscales fédérales</h2>
             <p>Il est possible de recourir au système fiscal pour atteindre des objectifs de la politique publique en appliquant des mesures spéciales, comme de faibles taux d&rsquo;imposition, des exemptions, des déductions, des reports et des crédits. Le ministère des Finances Canada publie chaque année des estimations et des projections du coût de ces mesures dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport sur les dépenses fiscales fédérales</a>. Ce rapport fournit aussi des renseignements généraux détaillés sur les dépenses fiscales, dont des descriptions, des objectifs, des données historiques et des renvois aux programmes de dépenses fédérales connexes, ainsi qu&rsquo;aux évaluations et aux résultats de l&rsquo;ACS&nbsp;Plus liés aux dépenses fiscales.</p>
-        </section>
-        <section>
+        </section><!--Depenses fiscales federales close-->
+        <section><!--Definitions open-->
             <h2 id="toc07">Définitions</h2>
             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Liste de termes</summary>
@@ -1576,5 +1555,5 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                     <dd>Conséquence ou résultat qu&rsquo;un ministère cherche à atteindre. Un résultat ministériel échappe généralement au contrôle direct des ministères, mais il devrait être influencé par les résultats des programmes.</dd>
                 </dl>
             </details>
-        </section>
-</div>
+        </section><!--Definitions close-->
+</div><!--Main page div close-->
