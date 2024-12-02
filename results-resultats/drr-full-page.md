@@ -1210,6 +1210,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             </tr>
                         </tbody>
                     </table>
+                </div>    
             </div>
         </section><!--Funding close-->
         <section><!--Human resources open-->
