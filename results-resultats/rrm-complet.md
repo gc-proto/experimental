@@ -116,7 +116,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             <section><!--responsabilites essentielle progres open-->
                 <h4 id="toc02-1-2">Progrès à l’égard des résultats</h4>
                 <p>Cette section présente les mesures prises par le ministère pour atteindre les résultats et les cibles relativement à [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. </p>
-                <section>
+                <div>
                     <h5>Tableau [#] : Cibles et résultats relativement à [inscrire le nom de la responsabilité essentielle]</h5>
                     <p>Le tableau [#] fournit un résumé des cibles et des résultats réels pour chaque indicateur associé aux résultats liés à [inscrire le nom de la responsabilité essentielle].</p>
                         <table id="tbl1-1" class="provisional gc-table table table-bordered">
@@ -241,10 +241,9 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 </tr>
                             </tbody>
                         </table>
-                    <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                </section>
-            </section>
-            <section>
+                  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+            </div>
+            <div>
                 <h5>Renseignements sur les résultats</h5>
                 <p>La section suivante décrit les résultats obtenus relativement à [inscrire le nom de la responsabilité essentielle] en [insérer l’exercice] en les comparant aux résultats prévus dans le Plan ministériel de [insérer l'acronyme du ministère du ministère] pour l’exercice.</p>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
@@ -272,7 +271,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                     </div>
                 </details>
                 <p>[Répéter pour chaque résultat lié à la responsabilité essentielle 1]</p>
-            </section>
+            </div>
         </section><!--responsabilites essentielle progres close-->
         <section><!--responsabilites essentielle risques open-->
             <h4 id="toc02-1-3">Principaux risques</h4>
@@ -432,13 +431,13 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                               </tr>
                           </tbody>
                       </table>
+                      <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
                   </div>
-                  <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
               </section><!--service internes ressources close-->
           </section><!--service internes close-->  
       </section><!--resultats close-->
       <section><!--Depenses et ressources humaines open-->
-                <h2 id="toc03">Dépenses et ressources humaines </h2>
+                <h2 id="toc03">Dépenses et ressources humaines</h2>
                 <ul class="list-unstyled">
                     <li>
                         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
