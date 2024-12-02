@@ -8,7 +8,7 @@ language: en
 layout: default
 title: "[Department name]'s [insert fiscal year] Departmental results report"
 ---
-<div class="parbase section">
+<div class="parbase section"><!--Main page div-->
     <section><!--on this page open-->
         <h2>On this page</h2>
         <ul>
@@ -46,11 +46,12 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         </details>
     </div>
     <section><!--Minister message open-->
-        <div class="col-xs-8">
+      <div class="row">
+        <div class="col-xs-12 col-m-8">
             <h2 id="toc01">From the Minister</h2>
             <p>[Message from the Minister; don’t include a signature in the web version]</p>
         </div>     
-        <div class="col-xs-4 hidden-print">
+        <div class="col-xs-12 col-m-4 hidden-print">
             <figure>
                 <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -59,13 +60,15 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 </figcaption>
             </figure>
         </div>
+       </div>   
     </section><!--Minister message close-->
     <section><!--Institutional Head message open, Optional section, delete if not required-->
-        <div class="col-xs-8">
+      <div class="row">
+        <div class="col-xs-12 col-m-8">
           <h2 id="toc01b">From the Institutional Head (*optional)</h2>
           <p>[Message from the Institutional head, don't include a signature in the web version]</p>
         </div>  
-        <div class="col-xs-4 hidden-print">
+        <div class="col-xs-12 col-m-4 hidden-print">
             <figure>
                 <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -74,6 +77,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 </figcaption>
             </figure>
         </div>
+      </div>  
     </section><!--Institutional Head message close-->
     <section><!--Results what we achieved open-->
         <h2 id="toc02">Results – what we achieved</h2>
@@ -116,28 +120,28 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <h5>Table [#]: Targets and results for [insert name of core responsibility]</h5>
                     <p>Table [#] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
                     <div>
-                        <table id="tbl1-1" class="provisional gc-table table table-bordered" role="table"
+                        <table id="tbl1-1" class="provisional gc-table table table-bordered" 
                             aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
                             <caption class="h5 text-left">Table [#.1]:[Insert name of result 1]</caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Target</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date to achieve target</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual results</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Departmental Result Indicators" class="text-left" scope="row">
+                                    <td data-label="Departmental Result Indicators" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div>
                                     </td>
                                     <td data-label="Target">
@@ -157,7 +161,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Departmental Result Indicators" class="text-left" scope="row">
+                                    <td data-label="Departmental Result Indicators" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div>
                                     </td>
                                     <td data-label="Target">
@@ -180,28 +184,28 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         </table>
                     </div>
                     <div>
-                        <table id="tbl1-2" class="provisional gc-table table table-bordered" role="table"
+                        <table id="tbl1-2" class="provisional gc-table table table-bordered" 
                             aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
                             <caption class="h5 text-left">Table [#.2]: Name of Departmental result 2</caption>
                             <thead>
                                 <tr class="active">
-                                    <th scope="col">
+                                    <th >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div>
                                     </th>
-                                    <th scope="col">
+                                    <th >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Target</div>
                                     </th>
-                                    <th scope="col">
+                                    <th >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date to achieve target</div>
                                     </th>
-                                    <th scope="col">
+                                    <th >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual results</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Departmental Result Indicators" scope="row">
+                                    <td data-label="Departmental Result Indicators" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div>
                                     </td>
                                     <td data-label="Target">
@@ -221,7 +225,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Departmental Result Indicators" scope="row">
+                                    <td data-label="Departmental Result Indicators" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div>
                                     </td>
                                     <td data-label="Target">
@@ -286,26 +290,26 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
                         <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
                         <div>
-                            <table id="tbl2" class="provisional gc-table table table-bordered" role="table"
+                            <table id="tbl2" class="provisional gc-table table table-bordered" 
                                 aria-label="Name of Departmental result 2"
                                 aria-describedby="Departmental_results_2_table">
                                 <caption class="h6 text-left wb-inv">Table provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</caption>
                                 <thead>
                                     <tr class="active">
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Planned</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual</div>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td data-label="Resource" class="text-left" scope="row">
+                                        <td data-label="Resource" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Spending</div>
                                         </td>
                                         <td data-label="Planned">
@@ -316,7 +320,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Resource" class="text-left" scope="row">
+                                        <td data-label="Resource" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div>
                                         </td>
                                         <td data-label="Planned">
@@ -405,20 +409,20 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             <caption class="h6 text-left wb-inv">Table provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Resource</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Planned</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Resource" class="text-left" scope="row">
+                                    <td data-label="Resource" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Spending</div>
                                     </td>
                                     <td data-label="Planned">
@@ -429,7 +433,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Resource" class="text-left" scope="row">
+                                    <td data-label="Resource" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Full-time equivalents</div>
                                     </td>
                                     <td data-label="Planned">
@@ -479,17 +483,17 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 <caption class="h6 text-left wb-inv">Text description of graph</caption>
                                 <thead>
                                     <tr class="active">
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[fiscal year] planned spending</div>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                        <td data-label="Core responsibilities and internal services" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 1]</div>
                                         </td>
                                         <td data-label="[fiscal year] planned spending">
@@ -497,7 +501,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                        <td data-label="Core responsibilities and internal services" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 2]</div>
                                         </td>
                                         <td data-label="[fiscal year] planned spending">
@@ -505,7 +509,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                        <td data-label="Core responsibilities and internal services" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 3]</div>
                                         </td>
                                         <td data-label="[fiscal year] planned spending">
@@ -513,7 +517,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                        <td data-label="Core responsibilities and internal services" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 4]</div>
                                         </td>
                                         <td data-label="[fiscal year] planned spending">
@@ -521,7 +525,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                        <td data-label="Core responsibilities and internal services" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div>
                                         </td>
                                         <td data-label="[fiscal year] planned spending">
@@ -548,23 +552,23 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             <caption class="h6 text-left wb-inv">Table presents how much money [Department acronym] spent over the past three years to carry out core responsibilities and for internal services.</caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] Main Estimates</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] total authorities available for use</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual spending over three years (authorities used)</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 1]</div>
                                     </td>
                                     <td data-label="[Fiscal year] Main Estimates">
@@ -584,7 +588,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 2]</div>
                                     </td>
                                     <td data-label="[Fiscal year] Main Estimates">
@@ -604,7 +608,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div>
                                     </td>
                                     <td data-label="[Fiscal year] Main Estimates">
@@ -618,7 +622,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div>
                                     </td>
                                     <td data-label="[Fiscal year] Main Estimates">
@@ -638,7 +642,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                     </td>
                                     <td data-label="[Fiscal year] Main Estimates">
@@ -668,23 +672,23 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             <caption class="h6 text-left wb-inv">Table presents how much money [Department acronym] plans to spend over the next three years to carry out its core responsibilities and for internal services.</caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned spending</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned spending</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned spending</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Actual spending over three years (authorities used)" class="text-left" scope="row">
+                                    <td data-label="Actual spending over three years (authorities used)" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 1]</div>
                                     </td>
                                     <td data-label="[Fiscal year] planned spending">
@@ -698,7 +702,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 2]</div>
                                     </td>
                                     <td data-label="[Fiscal year] planned spending">
@@ -712,7 +716,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div>
                                     </td>
                                     <td data-label="[Fiscal year] planned spending">
@@ -726,7 +730,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div>
                                     </td>
                                     <td data-label="[Fiscal year] planned spending">
@@ -740,7 +744,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                     </td>
                                     <td data-label="[Fiscal year] planned spending">
@@ -771,23 +775,23 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             <caption class="text-left"></caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual gross spending</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual revenues netted against expenditures</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual net spending (authorities used)</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 1] </div>
                                     </td>
                                     <td data-label="[Fiscal year] actual gross spending">
@@ -801,7 +805,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 2]</div>
                                     </td>
                                     <td data-label="[Fiscal year] actual gross spending">
@@ -815,7 +819,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div>
                                     </td>
                                     <td data-label="[Fiscal year] actual gross spending">
@@ -829,7 +833,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div>
                                     </td>
                                     <td data-label="[Fiscal year] actual gross spending">
@@ -843,7 +847,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                     </td>
                                     <td data-label="[Fiscal year] actual gross spending">
@@ -886,23 +890,23 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 <caption class="h6 text-left wb-inv">Text description of graph</caption>
                                 <thead>
                                     <tr class="active">
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Fiscal year</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Voted</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Statutory</div>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td data-label="Fiscal year" class="text-left" scope="row">
+                                        <td data-label="Fiscal year" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div>
                                         </td>
                                         <td data-label="Total">
@@ -916,7 +920,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Fiscal year" class="text-left" scope="row">
+                                        <td data-label="Fiscal year" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div>
                                         </td>
                                         <td data-label="Total">
@@ -930,7 +934,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Fiscal year" class="text-left" scope="row">
+                                        <td data-label="Fiscal year" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div>
                                         </td>
                                         <td data-label="Total">
@@ -944,7 +948,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Fiscal year" class="text-left" scope="row">
+                                        <td data-label="Fiscal year" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div>
                                         </td>
                                         <td data-label="Total">
@@ -958,7 +962,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Fiscal year" class="text-left" scope="row">
+                                        <td data-label="Fiscal year" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div>
                                         </td>
                                         <td data-label="Total">
@@ -972,7 +976,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Fiscal year" class="text-left" scope="row">
+                                        <td data-label="Fiscal year" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Fiscal year]</div>
                                         </td>
                                         <td data-label="Total">
@@ -1008,23 +1012,23 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         </caption>
                         <thead>
                             <tr class="active">
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference (actual results minus planned)</div>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total expenses</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual results">
@@ -1038,7 +1042,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total revenues</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual results">
@@ -1052,7 +1056,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Net cost of operations before government funding and transfers</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual results">
@@ -1075,23 +1079,23 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         </caption>
                         <thead>
                             <tr class="active">
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual results</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned results</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference (actual results minus planned)</div>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total expenses</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual results">
@@ -1105,7 +1109,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total revenues</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual results">
@@ -1119,7 +1123,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Net cost of operations before government funding and transfers</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual results">
@@ -1144,23 +1148,23 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <caption class="h6 text-left wb-inv">Table provides a brief snapshot of the department’s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</caption>
                         <thead>
                             <tr class="active">
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Financial information</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Actual fiscal year [fiscal year]</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Previous fiscal year [fiscal year]</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Difference ([actual fiscal year] minus [previous fiscal year])</div>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total net liabilities</div>
                                 </td>
                                 <td data-label="Actual fiscal year [fiscal year]">
@@ -1174,7 +1178,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total net financial assets</div>
                                 </td>
                                 <td data-label="Actual fiscal year [fiscal year]">
@@ -1188,7 +1192,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental net debt</div>
                                 </td>
                                 <td data-label="Actual fiscal year [fiscal year]">
@@ -1202,7 +1206,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total non-financial assets</div>
                                 </td>
                                 <td data-label="Actual fiscal year [fiscal year]">
@@ -1216,7 +1220,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Financial information" class="text-left" scope="row">
+                                <td data-label="Financial information" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental net financial position</div>
                                 </td>
                                 <td data-label="Actual fiscal year [fiscal year]">
@@ -1245,23 +1249,23 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <caption class="h6 text-left wb-inv">Table shows a summary of human resources, in full-time equivalents, for [Department acronym]'s core responsibilities and for its internal services for the previous three fiscal years.</caption>
                         <thead>
                             <tr class="active">
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual full-time equivalents</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual full-time equivalents</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] actual full-time equivalents</div>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 1]</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual full-time equivalents">
@@ -1275,7 +1279,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 2]</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual full-time equivalents">
@@ -1289,7 +1293,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr class="active">
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual full-time equivalents">
@@ -1303,7 +1307,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual full-time equivalents">
@@ -1317,7 +1321,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr class="active">
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                 </td>
                                 <td data-label="[Fiscal year] actual full-time equivalents">
@@ -1346,23 +1350,23 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <caption class="h6 text-left wb-inv">Table shows information on human resources, in full-time equivalents, for each of [Department acronym]'s core responsibilities and for its internal services planned for the next three years. Human resources for the current fiscal year are forecasted based on year to date.</caption>
                         <thead>
                             <tr class="active">
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Core responsibilities and internal services</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned full-time equivalents</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned full-time equivalents</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Fiscal year] planned full-time equivalents</div>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 1]</div>
                                 </td>
                                 <td data-label="[Fiscal year] planned full-time equivalents">
@@ -1376,7 +1380,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert name of core responsibility 2]</div>
                                 </td>
                                 <td data-label="[Fiscal year] planned full-time equivalents">
@@ -1390,7 +1394,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr class="active">
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Subtotal</div>
                                 </td>
                                 <td data-label="[Fiscal year] planned full-time equivalents">
@@ -1404,7 +1408,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Internal services</div>
                                 </td>
                                 <td data-label="[Fiscal year] planned full-time equivalents">
@@ -1418,7 +1422,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </td>
                             </tr>
                             <tr class="active">
-                                <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                <td data-label="Core responsibilities and internal services" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                 </td>
                                 <td data-label="[Fiscal year] planned full-time equivalents">
@@ -1573,4 +1577,4 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     </dl>
                 </details>
             </section><!--Definitions close-->
-</div>            
+</div><!--Main page div close-->       

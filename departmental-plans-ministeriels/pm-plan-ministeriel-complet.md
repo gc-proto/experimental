@@ -37,7 +37,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         </ul>
     </section>
     <section class="hidden-print">
-        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md" role="button">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md" role="button"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
+        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
         </p>
     </section>
     <section>
@@ -47,11 +47,12 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         </details>
     </section>
     <section>
-        <div class="col-xs-8">
+      <div class="row">
+        <div class="col-xs-12 col-m-8">
           <h2 id="toc01">Message du/de la ministre</h2>
           <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-xs-12 col-m-4">
             <figure>
                 <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -60,13 +61,15 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 </figcaption>
             </figure>
         </div>
+      </div>  
     </section>
     <section>
-        <div class="col-xs-8">
+      <div class="row">
+        <div class="col-xs-12 col-m-8">
           <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
           <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p>
         </div>  
-        <div class="col-xs-4">
+        <div class="col-xs-12 col-m-4">
             <figure>
                 <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
                 <figcaption class="text-center small">
@@ -76,6 +79,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 </figcaption>
             </figure>
         </div>
+      </div>  
     </section>
     <section>
         <h2 id="toc02">Plans pour assurer les responsabilités essentielles et les services internes</h2>
@@ -125,27 +129,27 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 <p>Cette section présente des renseignements détaillés sur les indicateurs du ministère, les résultats réels des trois derniers exercices, les cibles et les dates cibles approuvées en [insérer l’exercice] pour [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. [Remplir le tableau suivant pour chaque résultat ministériel lié à la responsabilité essentielle.]</p>
                 <section>
                     <div>
-                        <table id="tbl1-1" class="provisional gc-table table table-bordered" role="table" aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
+                        <table id="tbl1-1" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
                             <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 1]</caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultat ministériel</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte de la cible</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row">
+                                    <td data-label="Indicateurs de résultat ministériel" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer l’indicateur]</div>
                                     </td>
                                     <td data-label="Résultats réels">
@@ -165,7 +169,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row">
+                                    <td data-label="Indicateurs de résultat ministériel" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insert indicator]</div>
                                     </td>
                                     <td data-label="Résultats réels">
@@ -188,27 +192,27 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                         </table>
                     </div>
                     <div>
-                        <table id="tbl1-1" class="provisional gc-table table table-bordered" role="table" aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                        <table id="tbl1-1" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
                             <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 2]</caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Indicateurs de résultat ministériel</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats réels</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Cible</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Date d’atteinte de la cible</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row">
+                                    <td data-label="Indicateurs de résultat ministériel" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Inscrire l’indicateur]</div>
                                     </td>
                                     <td data-label="Résultats réels">
@@ -228,7 +232,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Indicateurs de résultat ministériel" class="text-left" scope="row">
+                                    <td data-label="Indicateurs de résultat ministériel" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Inscrire l’indicateur]</div>
                                     </td>
                                     <td data-label="Résultats réels">
@@ -290,21 +294,21 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 <h4 id="toc02-1-4">Ressources prévues pour atteindre les résultats</h4>
                 <div>
                     <h5>Tableau [#] : Ressources prévues pour atteindre les résultats relativement à [insérer le nom de la responsabilité essentielle]</h5>
-                    <table id="tbl2" class="provisional gc-table table table-bordered" role="table" aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                    <table id="tbl2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
                         <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
                         <thead>
                             <tr class="active">
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div>
                                 </th>
-                                <th class="text-left" scope="col">
+                                <th class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td data-label="Ressources" class="text-left" scope="row">
+                                <td data-label="Ressources" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div>
                                 </td>
                                 <td data-label="Prévues">
@@ -312,7 +316,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 </td>
                             </tr>
                             <tr>
-                                <td data-label="Ressources" class="text-left" scope="row">
+                                <td data-label="Ressources" class="text-left" >
                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div>
                                 </td>
                                 <td data-label="Prévues">
@@ -404,17 +408,17 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
                                 <thead>
                                     <tr class="active">
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Ressources</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Prévues</div>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td data-label="Ressources" class="text-left" scope="row">
+                                        <td data-label="Ressources" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses</div>
                                         </td>
                                         <td data-label="Prévues">
@@ -422,7 +426,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Ressources" class="text-left" scope="row">
+                                        <td data-label="Ressources" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Équivalents temps plein</div>
                                         </td>
                                         <td data-label="Prévues">
@@ -466,17 +470,17 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     <caption class="h6 text-left wb-inv">Description textuelle de la figure</caption>
                                     <thead>
                                         <tr class="active">
-                                            <th class="text-left" scope="col">
+                                            <th class="text-left" >
                                                 <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div>
                                             </th>
-                                            <th class="text-left" scope="col">
+                                            <th class="text-left" >
                                                 <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues en [insérer l’exercice]</div>
                                             </th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                            <td data-label="Core responsibilities and internal services" class="text-left" >
                                                 <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la Responsabilité essentielle 1]</div>
                                             </td>
                                             <td data-label="[fiscal year] planned spending">
@@ -484,7 +488,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                            <td data-label="Core responsibilities and internal services" class="text-left" >
                                                 <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la Responsabilité essentielle 2]</div>
                                             </td>
                                             <td data-label="[fiscal year] planned spending">
@@ -492,7 +496,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                            <td data-label="Core responsibilities and internal services" class="text-left" >
                                                 <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la Responsabilité essentielle 3]</div>
                                             </td>
                                             <td data-label="[fiscal year] planned spending">
@@ -501,7 +505,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </tr>
                                         <tr>
                                             <td data-label="Core responsibilities and internal services"
-                                                class="text-left" scope="row">
+                                                class="text-left" >
                                                 <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div>
                                             </td>
                                             <td data-label="[fiscal year] planned spending">
@@ -527,23 +531,23 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             </caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes :</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses réelles de [insérer l’exercice]</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses réelles de [insérer l’exercice]</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [insérer l’exercice]</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row">
+                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div>
                                     </td>
                                     <td data-label="Dépenses réelles de [insérer l’exercice]">
@@ -557,7 +561,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row">
+                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div>
                                     </td>
                                     <td data-label="Dépenses réelles de [insérer l’exercice]">
@@ -571,7 +575,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row">
+                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div>
                                     </td>
                                     <td data-label="Dépenses réelles de [insérer l’exercice]">
@@ -585,7 +589,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row">
+                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div>
                                     </td>
                                     <td data-label="Dépenses réelles de [insérer l’exercice]">
@@ -599,7 +603,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                     </td>
                                     <td data-label="Dépenses réelles de [insérer l’exercice]">
@@ -629,23 +633,23 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             </caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes :</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [insérer l’exercice]</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [insérer l’exercice]</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses prévues pour [insérer l’exercice]</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row">
+                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de  la responsabilité essentielle.]</div>
                                     </td>
                                     <td data-label="Dépenses prévues pour [insérer l’exercice]">
@@ -659,7 +663,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row">
+                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle.]</div>
                                     </td>
                                     <td data-label="Dépenses prévues pour [insérer l’exercice]">
@@ -673,7 +677,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Responsabilités essentielles et services internes :"class="text-left" scope="row">
+                                    <td data-label="Responsabilités essentielles et services internes :"class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div>
                                     </td>
                                     <td data-label="Dépenses prévues pour [insérer l’exercice]">
@@ -687,7 +691,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" scope="row">
+                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div>
                                     </td>
                                     <td data-label="Dépenses prévues pour [insérer l’exercice]">
@@ -701,7 +705,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                     </td>
                                     <td data-label="Dépenses prévues pour [insérer l’exercice]">
@@ -730,23 +734,23 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             <caption class="h6 text-left">Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes :</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses brutes prévues pour [insérer l’exercice]</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Revenus prévus déduits des dépenses pour [insérer l’exercice] (en dollars)</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Dépenses nettes prévues (autorisations utilisées)</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 1.]</div>
                                     </td>
                                     <td data-label="[Fiscal year] Gross planned spending">
@@ -760,7 +764,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 2.]</div>
                                     </td>
                                     <td data-label="[Fiscal year] Gross planned spending">
@@ -774,7 +778,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div>
                                     </td>
                                     <td data-label="[Fiscal year] Gross planned spending">
@@ -788,7 +792,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div>
                                     </td>
                                     <td data-label="[Fiscal year] Gross planned spending">
@@ -802,7 +806,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Core responsibilities and internal services" class="text-left" scope="row">
+                                    <td data-label="Core responsibilities and internal services" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                     </td>
                                     <td data-label="[Fiscal year] Gross planned spending">
@@ -841,23 +845,23 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         <caption class="h6 text-left wb-inv">Description textuelle du graphique [#]</caption>
                                         <thead>
                                             <tr class="active">
-                                                <th class="text-left" scope="col">
+                                                <th class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Exercice</div>
                                                 </th>
-                                                <th class="text-left" scope="col">
+                                                <th class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                                 </th>
-                                                <th class="text-left" scope="col">
+                                                <th class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Voté</div>
                                                 </th>
-                                                <th class="text-left" scope="col">
+                                                <th class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Législatif</div>
                                                 </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td data-label="Exercice" class="text-left" scope="row">
+                                                <td data-label="Exercice" class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div>
                                                 </td>
                                                 <td data-label="Total">
@@ -871,7 +875,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td data-label="Exercice" class="text-left" scope="row">
+                                                <td data-label="Exercice" class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div>
                                                 </td>
                                                 <td data-label="Total">
@@ -885,7 +889,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td data-label="Exercice" class="text-left" scope="row">
+                                                <td data-label="Exercice" class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div>
                                                 </td>
                                                 <td data-label="Total">
@@ -899,7 +903,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td data-label="Exercice" class="text-left" scope="row">
+                                                <td data-label="Exercice" class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div>
                                                 </td>
                                                 <td data-label="Total">
@@ -913,7 +917,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td data-label="Exercice" class="text-left" scope="row">
+                                                <td data-label="Exercice" class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div>
                                                 </td>
                                                 <td data-label="Total">
@@ -927,7 +931,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td data-label="Exercice" class="text-left" scope="row">
+                                                <td data-label="Exercice" class="text-left" >
                                                     <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div>
                                                 </td>
                                                 <td data-label="Total">
@@ -963,23 +967,23 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             <caption class="h6 text-left">Le tableau [#] résume les charges et les revenus affectant le coût de fonctionnement avant le financement du gouvernement et les transferts pour la période de [insérez l'exercice] à [insérez l'exercice]. Les montants prévus et projetés dans le présent état des opérations ont été préparés selon la méthode de la comptabilité d’exercice. Les montants prévus et projetés qui sont présentés dans d’autres sections du Plan ministériel ont été établis selon la méthode de comptabilité axée sur les dépenses. Les montants peuvent donc différer.</caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Renseignements financiers</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats prévus pour [insérez l'exercice]</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Résultats projetés pour [insérez l'exercice]</div>
                                     </th>
-                                    <th class="text-left" scope="col">
+                                    <th class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Différence (prévus moins projetés)</div>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td data-label="Renseignements financiers" class="text-left" scope="row">
+                                    <td data-label="Renseignements financiers" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des charges</div>
                                     </td>
                                     <td data-label="[Fiscal year] Forecast results">
@@ -993,7 +997,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Renseignements financiers" class="text-left" scope="row">
+                                    <td data-label="Renseignements financiers" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total des revenus</div>
                                     </td>
                                     <td data-label="[Fiscal year] Forecast results">
@@ -1007,7 +1011,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Renseignements financiers" class="text-left" scope="row">
+                                    <td data-label="Renseignements financiers" class="text-left" >
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Coût de fonctionnement net avant le financement du gouvernement et les transferts
                                         </div>
                                     </td>
@@ -1040,23 +1044,23 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 <caption class="h6 text-left">Le tableau [#] fournit un résumé des ressources humaines, en équivalents temps plein, associées aux responsabilités essentielles et aux services internes de [acronyme du ministère] pour les trois derniers exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour.</caption>
                                 <thead>
                                     <tr class="active">
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Responsabilités essentielles et services internes</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein réels pour [Insérer l'exercice]</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein réels pour [Insérer l'exercice]</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein réels pour [Insérer l'exercice]</div>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 1.]</div>
                                         </td>
                                         <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]">
@@ -1070,7 +1074,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 2.]</div>
                                         </td>
                                         <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]">
@@ -1084,7 +1088,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </td>
                                     </tr>
                                     <tr class="active">
-                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div>
                                         </td>
                                         <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]">
@@ -1098,7 +1102,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div>
                                         </td>
                                         <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]">
@@ -1112,7 +1116,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </td>
                                     </tr>
                                     <tr class="active">
-                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                         </td>
                                         <td data-label="Nombre d’équivalents temps plein réels pour [Insérer l'exercice]">
@@ -1140,16 +1144,16 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 <caption class="h6 text-left">Le tableau [#] présente des renseignements sur les ressources humaines, en équivalents temps plein, pour les responsabilités essentielles et les services internes de [nom du ministère] prévus au cours des trois prochains exercices. </caption>
                                 <thead>
                                     <tr class="active">
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md"> Responsabilités essentielles et services internes</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein prévus en [Insérer l'exercice]</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein prévus en [Insérer l'exercice]</div>
                                         </th>
-                                        <th class="text-left" scope="col">
+                                        <th class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Nombre d’équivalents temps plein prévus en [Insérer l'exercice]</div>
                                         </th>
                                     </tr>
@@ -1157,7 +1161,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 <tbody>
                                     <tr>
                                         <td data-label="Responsabilités essentielles et services internes"
-                                            class="text-left" scope="row">
+                                            class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 1.]</div>
                                         </td>
                                         <td
@@ -1175,7 +1179,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </tr>
                                     <tr>
                                         <td data-label="Responsabilités essentielles et services internes"
-                                            class="text-left" scope="row">
+                                            class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">[Insérer le nom de la responsabilité essentielle 2.]</div>
                                         </td>
                                         <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]">
@@ -1189,7 +1193,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </td>
                                     </tr>
                                     <tr class="active">
-                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel </div>
                                         </td>
                                         <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]">
@@ -1203,7 +1207,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Services internes</div>
                                         </td>
                                         <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]">
@@ -1217,7 +1221,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </td>
                                     </tr>
                                     <tr class="active">
-                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" scope="row">
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left" >
                                             <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total</div>
                                         </td>
                                         <td data-label="Nombre d’équivalents temps plein prévus en [Insérer l'exercice]">
