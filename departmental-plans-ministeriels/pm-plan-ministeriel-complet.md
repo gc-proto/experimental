@@ -429,9 +429,8 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             </table>
                         </div>
                         <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-              </section><!--Services internes ressources open-->
+              </section><!--Services internes ressources close-->
             </section><!--Services internes close-->
-          </section><!--Responsabilités essentielles services internes close-->
         </section><!--Responsabilités essentielles close-->
         <section><!--Dépenses et ressources humaines prévues open-->
             <h2 id="toc03">Dépenses et ressources humaines prévues</h2>
