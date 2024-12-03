@@ -123,7 +123,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             <caption class="h5 text-left">Table [#.1]:[Insert name of result 1]</caption>
                             <thead>
                                 <tr class="active">
-                                    <th class="text-left" >
+                                    <th class="text-left">
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Departmental Result Indicators</div>
                                     </th>
                                     <th class="text-left" >

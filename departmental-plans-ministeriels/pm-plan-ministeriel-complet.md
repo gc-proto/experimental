@@ -9,7 +9,7 @@ layout: default
 title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 ---
 <div class="parbase section"><!--Main page div-->
-    <section>
+    <section><!--sur cette page open-->
         <h2>Sur cette page</h2>
         <ul>
             <li><a href="#toc01">Message du/de la ministre</a></li>
@@ -35,67 +35,64 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <li><a href="#toc06">Dépenses fiscales fédérales</a></li>
             <li><a href="#toc07">Définitions</a></li>
         </ul>
-    </section>
-    <section class="hidden-print">
+    </section><!--sur cette page close-->
+    <div class="hidden-print">
         <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
         </p>
-    </section>
-    <section>
+    </div>
+    <div>
         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
             <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Renseignements sur les droits d’auteur</summary>
             <p>[Inclure les renseignements sur les droits d’auteur formatés pour le Web (échantillon: © Sa Majesté le Roi du chef du Canada, représenté par le ministre de [appellation légale du ministère], [année de publication], [ISSN])]</p>
         </details>
-    </section>
-    <section>
-      <div class="row">
-        <div class="col-xs-12 col-md-8">
-          <h2 id="toc01">Message du/de la ministre</h2>
-          <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
-        </div>
-        <div class="col-xs-12 col-md-4">
-            <figure>
-                <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
-                <figcaption class="text-center small">
-                    <p class="mrgn-bttm-0"><strong>L’honorable [Nom du/de la Ministre]</strong></p>
-                    <p>[titre du poste]</p>
-                </figcaption>
-            </figure>
-        </div>
-      </div>  
-    </section>
-    <section>
-      <div class="row">
-        <div class="col-xs-12 col-md-8">
-          <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
-          <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p>
+    </div>
+    <section><!--message du/de la ministre open-->
+        <div class="row">
+            <div class="col-xs-12 col-md-8">
+              <h2 id="toc01">Message du/de la ministre</h2>
+              <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <figure>
+                    <img alt="Headshot of [Name of Minister]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
+                    <figcaption class="text-center small">
+                        <p class="mrgn-bttm-0"><strong>L’honorable [Nom du/de la Ministre]</strong></p>
+                        <p>[titre du poste]</p>
+                    </figcaption>
+                </figure>
+            </div>
         </div>  
-        <div class="col-xs-12 col-md-4">
-            <figure>
-                <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
-                <figcaption class="text-center small">
-                    <p class="mrgn-bttm-0">
-                        <strong>[Nom de l’administrateur général/de l’administratrice générale]</strong></p>
-                    <p>[titre du poste]</p>
-                </figcaption>
-            </figure>
-        </div>
-      </div>  
-    </section>
-    <section>
+    </section><!--message du/de la ministre close-->
+    <section><!--message de l’administrateur général/de l’administratrice générale open-->
+         <div class="row">
+            <div class="col-xs-12 col-md-8">
+                <h2 id="toc01b">Message de l’administrateur général/de l’administratrice générale (*facultatif)</h2>
+                <p>[Insérer le message de l’administrateur général ou de l’administratrice générale de l’institution; ne pas inclure de signature dans la version Web].</p>
+            </div>  
+            <div class="col-xs-12 col-md-4">
+                <figure>
+                    <img alt="Headshot of [Name of Institutional Head]" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png">
+                    <figcaption class="text-center small">
+                        <p class="mrgn-bttm-0">
+                            <strong>[Nom de l’administrateur général/de l’administratrice générale]</strong></p>
+                        <p>[titre du poste]</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>  
+    </section><!--message de l’administrateur général/de l’administratrice générale close-->
+    <section><!--Responsabilités essentielles open-->
         <h2 id="toc02">Plans pour assurer les responsabilités essentielles et les services internes</h2>
-        <section>
+        <section><!--Responsabilités essentielles et services internes open-->
             <h3>Responsabilités essentielles et services internes :</h3>
             <ul>
-                <li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité
-                        essentielle].</a></li>
-                <li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité
-                        essentielle].</a></li>
-                <li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité
-                        essentielle].</a></li>
+                <li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+                <li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité essentielle].</a></li>
+                <li><a href="#toc02-3">Responsabilité essentielle 3 : [Inscrire le nom de la responsabilité essentielle].</a></li>
                 <li><a href="#toc02-4">Services internes</a></li>
             </ul>
-        </section>
-        <section>
+        </section><!--Responsabilités essentielles et services internes close-->
+        <section><!--Responsabilités essentielles open, reproduire ces sections pour chaque responsabilité essentielle.-->
             <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
             <ul class="list-unstyled">
                 <li>
@@ -116,19 +113,18 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 </li>
             </ul>
             <p>[Reproduire ces sections pour chaque responsabilité essentielle.]</p>
-            <section>
+            <section><!--Responsabilités essentielles Descriptions open-->
                 <h4 id="toc02-1-1">Description</h4>
                 <p>[Insérer la description de la responsabilité essentielle 1]</p>
-            </section>
-            <section>
+            </section><!--Responsabilités essentielles Descriptions close-->
+            <section><!--Responsabilités essentielles Repercussion open-->
                 <h4 id="toc02-1-2">Répercussions sur la qualité de vie</h4>
                 <p>[Insérer le texte de la section « Qualité de vie » du gabarit Word] </p>
-            </section>
-            <section>
+            </section><!--Responsabilités essentielles Repercussion close-->
+            <section><!--Responsabilités essentielles Indicateur, resultats et cibles open-->
                 <h4 id="toc02-1-3">Indicateurs, résultats et cibles</h4>
                 <p>Cette section présente des renseignements détaillés sur les indicateurs du ministère, les résultats réels des trois derniers exercices, les cibles et les dates cibles approuvées en [insérer l’exercice] pour [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. [Remplir le tableau suivant pour chaque résultat ministériel lié à la responsabilité essentielle.]</p>
-                <section>
-                    <div>
+                      <div>
                         <table id="tbl1-1" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
                             <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 1]</caption>
                             <thead>
@@ -255,14 +251,13 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                         </table>
                     </div>
                     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                </section>
-            </section>
-            <section>
+            </section><!--Responsabilités essentielles Indicateur, resultats et cibles close-->
+            <section><!--Responsabilités essentielles plan visant a atteindre les cibles open-->
                 <h4 id="toc02-1-4">Plans visant à atteindre les cibles</h4>
                 <p>La section suivante décrit les résultats prévus relativement à [insérer le nom de la responsabilité essentielle] en [insérer l'exercice].</p>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
                     <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat ministériel 1]</summary>
-                    <section>
+                    <div>
                         <p>[Insérer la description]</p>
                         <p><strong>Les résultats que nous prévoyons atteindre</strong></p>
                         <ul>
@@ -270,11 +265,11 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             <li>[Insérer élément 2 de la liste à puces]</li>
                             <li>[Insérer élément 3 de la liste à puces]</li>
                         </ul>
-                    </section>
+                    </div>
                 </details>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
                     <summary class="wb-toggle" data-toggle='{"print":"on"}'>[Nom du résultat ministériel 2]</summary>
-                    <section>
+                    <div>
                         <p>[Insérer la description]</p>
                         <p><strong>Les résultats que nous prévoyons atteindre</strong></p>
                         <ul>
@@ -282,15 +277,15 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             <li>[Insérer élément 2 de la liste à puces]</li>
                             <li>[Insérer élément 3 de la liste à puces]</li>
                         </ul>
-                    </section>
+                    </div>
                 </details>
                 <p>[Répéter pour chaque résultat ministériel lié à la responsabilité essentielle 1]</p>
-            </section>
-            <section>
+            </section><!--Responsabilités essentielles plan visant a atteindre les cibles close-->
+            <section><!--Responsabilités essentielles principaux risques open-->
                 <h4 id="toc02-1-5">Principaux risques (*facultatif)</h4>
                 <p>[Insérer une description des principaux risques]</p>
-            </section>
-            <section>
+            </section><!--Responsabilités essentielles principaux risques close-->
+            <section><!--Responsabilités essentielles ressources prevus open-->
                 <h4 id="toc02-1-4">Ressources prévues pour atteindre les résultats</h4>
                 <div>
                     <h5>Tableau [#] : Ressources prévues pour atteindre les résultats relativement à [insérer le nom de la responsabilité essentielle]</h5>
@@ -327,8 +322,8 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                     </table>
                 </div>
                 <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-            </section>
-            <section>
+            </section><!--Responsabilités essentielles ressources prevus close-->
+            <section><!--Responsabilités essentielles priorites gouvernementales open-->
                 <h4 id="toc02-1-7">Priorités gouvernementales connexes</h4>
                 <p>[Insérer les détails des priorités à l’échelle du gouvernement]</p>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -343,8 +338,8 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Innovation (*facultatif)</summary>
                     <p>[Insérer la description]</p>
                 </details>
-            </section>
-            <section>
+            </section><!--Responsabilités essentielles priorites gouvernementales close-->
+            <section><!--Responsabilités essentielles Repertoire des programmes open-->
                 <h4 id="toc02-1-8">Répertoire des programmes</h4>
                 <p>[Nom de la responsabilité essentielle] est appuyée par les programmes suivants :</p>
                 <ul>
@@ -353,13 +348,13 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                     <li>[Insérer le point 3 de la liste à puces]</li>
                 </ul>
                 <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-            </section>
-            <section>
+            </section><!--Responsabilités essentielles Repertoire des programmes close-->
+            <section><!--Responsabilités essentielles resume des changements open-->
                 <h4 id="toc02-1-9">Résumé des changements apportés au cadre d'établissement de rapport depuis l'année dernière</h4>
                 <p>[Insérer la description]</p>
-            </section>
-        </section>
-        <section>
+            </section><!--Responsabilités essentielles resume des changements close-->
+        </section><!--Responsabilités essentielles ressources prevus close-->
+        <section><!--Services internes open-->
             <h3 id="toc02-5">Services internes</h3>
             <ul class="list-unstyled">
                 <li>
@@ -374,7 +369,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                     </details>
                 </li>
             </ul>
-            <section>
+            <section><!--Services internes description open-->
                 <h4 is="toc02-5-1">Description</h4>
                 <p>Les services internes sont les services fournis au sein d’un ministère afin qu’il puisse s’acquitter de ses obligations et assurer la prestation de ses programmes. Les dix catégories de services internes sont les suivantes :</p>
                 <ul>
@@ -389,19 +384,16 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                     <li>services de gestion du matériel;</li>
                     <li>services de gestion des acquisitions.</li>
                 </ul>
-            </section>
-            <section>
+            </section><!--Services internes description close-->
+            <section><!--Services internes plans open-->
                 <h4 id="toc02-5-2">Plans visant à atteindre les cibles</h4>
                 <p>Cette section présente les mesures prévues par le ministère pour atteindre les résultats et les cibles en ce qui a trait aux services internes.</p>
                 <div>
                     <p>[Insérer le contenue des plans visant à atteindre les cibles]</p>
                 </div>
-            </section>
-            <section>
-                <div>
-                    <h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Ressources prévues pour atteindre les résultats
-                    </h4>
-                    <section>
+            </section><!--Services internes plans close-->
+            <section><!--Services internes ressources open-->
+                    <h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Ressources prévues pour atteindre les résultats</h4>
                         <h5>Table [#]: Ressources prévues pour atteindre les résultats en ce qui a trait aux services internes pour l’exercice</h5>
                         <div>
                             <table id="tbl3" class="provisional gc-table table table-bordered">
@@ -437,11 +429,11 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             </table>
                         </div>
                         <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                    </section>
-                </div>
-            </section>
-        </section>
-        <section>
+              </section><!--Services internes ressources open-->
+            </section><!--Services internes close-->
+          </section><!--Responsabilités essentielles services internes close-->
+        </section><!--Responsabilités essentielles close-->
+        <section><!--Dépenses et ressources humaines prévues open-->
             <h2 id="toc03">Dépenses et ressources humaines prévues</h2>
             <p>Cette section donne un aperçu des dépenses et des ressources humaines prévues de [nom du ministère] pour les trois prochains exercices et compare les dépenses prévues pour l’exercice [insérer l’exercice] avec les dépenses réelles pour l’exercice en cours et les exercices précédents.</p>
             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -453,10 +445,10 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                     <li><a href="#toc03-4">Ressources humaines</a></li>
                 </ul>
             </details>
-            <section>
+            <section><!--Dépenses open-->
                 <h3 id="toc03-1">Dépenses</h3>
                 <p>Cette section présente un aperçu des dépenses prévues du ministère de [insérer l’exercice] à [insérer l’exercice].</p>
-                <section>
+                <div>
                     <figure id="fig1">
                         <figcaption class="text-left h4">
                             <strong>Graphique [#] : Dépenses par responsabilité essentielle en [exercice] (*facultatif)</strong>
@@ -521,14 +513,12 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             <p>[Veuillez inclure l'explication du graphique incluse dans la version Word]</p>
                         </details>
                     </figure>
-                </section>
-                <section>
+                </div>
+                <div>
                     <h4>Sommaire du rendement budgétaire</h4>
                     <h5 class="h4">Tableau [#]: Sommaire des dépenses de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
-                    <div>
                         <table id="tbl4" class="provisional gc-table table table-bordered">
-                            <caption class="h6 text-left">Tableau [#] indique la somme d’argent dépensée par [acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes. Les montants pour l’exercice en cours sont prévus en fonction des dépenses à ce jour.
-                            </caption>
+                            <caption class="h6 text-left">Tableau [#] indique la somme d’argent dépensée par [acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes. Les montants pour l’exercice en cours sont prévus en fonction des dépenses à ce jour.</caption>
                             <thead>
                                 <tr class="active">
                                     <th class="text-left" >
@@ -618,19 +608,16 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois derniers exercices</summary>
                         <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
                     </details>
                     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                </section>
-                <section>
+                </div>
+                <div>
                     <h4>Tableau [#] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h4>
-                    <div>
                         <table id="tbl4" class="provisional gc-table table table-bordered">
-                            <caption class="h6 text-left">Tableau [#] indique la somme d’argent dépensée par [acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes. Les montants pour l’exercice en cours sont prévus en fonction des dépenses à ce jour.
-                            </caption>
+                            <caption class="h6 text-left">Tableau [#] indique la somme d’argent dépensée par [acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes. Les montants pour l’exercice en cours sont prévus en fonction des dépenses à ce jour.</caption>
                             <thead>
                                 <tr class="active">
                                     <th class="text-left" >
@@ -720,16 +707,14 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses des trois prochains exercices</summary>
                         <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
                     </details>
                     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                </section>
-                <section>
+                </div>
+                <div>
                     <h4>Tableau [#] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) (*facultatif)</h4>
-                    <div>
                         <table id="tbl6" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left">Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</caption>
                             <thead>
@@ -821,17 +806,17 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues</summary>
                         <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
                     </details>
                     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                </section>
-                <section>
+                </div>    
+                </section><!--Dépenses close-->
+                <section><!--Financement open-->
                     <h3 id="toc03-2">Financement</h3>
                     <p>Cette section présente un aperçu du financement voté et législatif du ministère par rapport à ses responsabilités essentielles et à ses services internes. Pour en savoir plus sur les autorisations de financement, consultez les <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/budgets-depenses.html">budgets et dépenses du gouvernement du Canada.</a></p>
-                    <section>
+                    <div>
                         <figure id="fig2">
                             <figcaption class="text-left h4">
                                 <strong>Graphique [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong>
@@ -840,7 +825,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/graphique-rrm.jpg" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [#]</summary>
-                                <div>
                                     <table class="provisional gc-table table table-bordered">
                                         <caption class="h6 text-left wb-inv">Description textuelle du graphique [#]</caption>
                                         <thead>
@@ -946,22 +930,19 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div>
                             </details>
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du financement législatif et voté pour une période de six exercices </summary>
                                 <p>[Veuillez inclure l'explication du graphique inclus dans la version Word]</p>
                             </details>
                         </figure>
-                    </section>
-                    <section>
                         <p>Pour en savoir plus sur les crédits ministériels de [nom du ministère], consultez le <a href="#">Budget principal des dépenses de [Insérer l’exercice].</a></p>
-                    </section>
-                </section>
-                <section>
+                        </div>
+                </section><!--Financement close-->
+                <section><!--etat condense prospectif open-->
                     <h3 id="toc03-3">État condensé prospectif des opérations</h3>
                     <p>[Insérer le texte de la section « État condensé prospectif des opérations » du gabarit Word]</p>
-                    <section>
+                    <div>
                         <h4>Tableau [#] : État condensé prospectif des opérations pour l'exercice se terminant le [insérez l'exercice] (en dollars)</h4>
                         <table id="tbl7" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left">Le tableau [#] résume les charges et les revenus affectant le coût de fonctionnement avant le financement du gouvernement et les transferts pour la période de [insérez l'exercice] à [insérez l'exercice]. Les montants prévus et projetés dans le présent état des opérations ont été préparés selon la méthode de la comptabilité d’exercice. Les montants prévus et projetés qui sont présentés dans d’autres sections du Plan ministériel ont été établis selon la méthode de comptabilité axée sur les dépenses. Les montants peuvent donc différer.</caption>
@@ -1032,14 +1013,13 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
                         </details>
                         <p>Un état condensé prospectif des opérations et des notes connexes pour [Insérer l'exercice] [lien vers l’état condensé prospectif des opérations du ministère] plus détaillés, y compris un rapprochement du coût net des opérations avec les autorisations demandées, sont accessibles sur le site Web de [nom du ministère].</p>
-                    </section>
-                </section>
-                <section>
+                      </div>  
+                </section><!--etat condense prospectif close-->
+                <section><!--ressources humaines open-->
                     <h3 id="toc03-4">Ressources humaines</h3>
                     <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [Insérer l'exercice] à [Insérer l'exercice].</p>
-                    <section>
+                    <div>
                         <h4>Tableau [#] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-                        <div>
                             <table id="tbl10" class="provisional gc-table table table-bordered">
                                 <caption class="h6 text-left">Le tableau [#] fournit un résumé des ressources humaines, en équivalents temps plein, associées aux responsabilités essentielles et aux services internes de [acronyme du ministère] pour les trois derniers exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour.</caption>
                                 <thead>
@@ -1131,15 +1111,13 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
                         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                             <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines des trois derniers exercices</summary>
                             <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
                         </details>
-                    </section>
-                    <section>
-                        <h4>Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
+                        </div>
                         <div>
+                        <h4>Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
                             <table id="tbl11" class="provisional gc-table table table-bordered">
                                 <caption class="h6 text-left">Le tableau [#] présente des renseignements sur les ressources humaines, en équivalents temps plein, pour les responsabilités essentielles et les services internes de [nom du ministère] prévus au cours des trois prochains exercices. </caption>
                                 <thead>
@@ -1238,15 +1216,14 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
                         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                             <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines pour les trois prochains exercices</summary>
                             <p>[Veuillez inclure l'explication du tableau inclus dans la version Word]</p>
                         </details>
-                    </section>
-                </section>
-            </section>
-            <section>
+                        </div>
+                </section><!--ressources humaines close-->
+            </section><!--Dépenses et ressources humaines prévues close-->
+            <section><!--Renseignements ministériels open-->
                 <h2 id="toc04">Renseignements ministériels</h2>
                 <div class="accordion">
                     <details class="acc-group print-open">
@@ -1308,8 +1285,8 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                         </div>
                     </details>
                 </div>
-            </section>
-            <section>
+            </section><!--Renseignements ministériels close-->
+            <section><!--Tableaux de renseignements supplémentaires open-->
                 <h2 id="toc05">Tableaux de renseignements supplémentaires</h2>
                 <p>Les tableaux de renseignements supplémentaires ci-dessous se trouvent sur le site&nbsp;Web du [nom du ministère]: </p>
                 <ul>
@@ -1319,14 +1296,14 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                     <li>Financement pluriannuel initial</li>
                 </ul>
                 <p>Des renseignements sur la stratégie ministérielle de développement durable de [nom du ministère] sont disponibles sur le site&nbsp;Web du [nom du ministère].</p>
-            </section>
-            <section>
+            </section><!--Tableaux de renseignements supplémentaires close-->
+            <section><!--Dépenses fiscales fédérales open-->
                 <h2 id="toc06">Dépenses fiscales fédérales</h2>
                 <p>Le plan ministériel de [nom du ministère] ne comprend pas de renseignements sur les dépenses fiscales. </p>
                 <p>Il est possible de recourir au système fiscal pour atteindre des objectifs de politique publique en appliquant des mesures spéciales, comme de faibles taux d’imposition, des exemptions, des déductions, des reports et des crédits. Le ministère des Finances Canada publie chaque année des estimations et des projections du coût de ces mesures dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport sur les dépenses fiscales fédérales</a>.</p>
                 <p>Ce rapport fournit aussi des renseignements généraux détaillés sur les dépenses fiscales, y compris les objectifs, les renseignements historiques et les renvois aux programmes des dépenses fédéraux connexes, ainsi que sur les évaluations fiscales, les rapports de recherche et les analyses comparatives entre les sexes plus.</p>
-            </section>
-            <section>
+            </section><!--Dépenses fiscales fédérales close-->
+            <section><!--Définitions open-->
                 <h2 id="toc07">Définitions</h2>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Liste de termes</summary>
@@ -1395,5 +1372,5 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                         <dd>Effet ou résultat que vise un ministère. Un résultat ministériel échappe généralement au contrôle direct des ministères, mais il devrait être influencé par les résultats des programmes.</dd>
                     </dl>
                 </details>
-            </section>
-</div>
+            </section><!--Définitions close-->
+</div><!--Main page div close-->
