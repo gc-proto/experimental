@@ -188,7 +188,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                         </table>
                     </div>
                     <div>
-                        <table id="tbl1-1" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                        <table id="tbl1-2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
                             <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 2]</caption>
                             <thead>
                                 <tr class="active">
@@ -457,7 +457,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                             <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
                             <div class="table-responsive">
-                                <table class="provisional gc-table table table-bordered">
+                                <table id="tbl4" class="provisional gc-table table table-bordered">
                                     <caption class="h6 text-left wb-inv">Description textuelle de la figure</caption>
                                     <thead>
                                         <tr class="active">
@@ -516,7 +516,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 <div>
                     <h4>Sommaire du rendement budgétaire</h4>
                     <h5 class="h4">Tableau [#]: Sommaire des dépenses de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
-                        <table id="tbl4" class="provisional gc-table table table-bordered">
+                        <table id="tbl5" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left">Tableau [#] indique la somme d’argent dépensée par [acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes. Les montants pour l’exercice en cours sont prévus en fonction des dépenses à ce jour.</caption>
                             <thead>
                                 <tr class="active">
@@ -615,7 +615,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 </div>
                 <div>
                     <h4>Tableau [#] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</h4>
-                        <table id="tbl4" class="provisional gc-table table table-bordered">
+                        <table id="tbl6" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left">Tableau [#] indique la somme d’argent dépensée par [acronyme du ministère] au cours des trois derniers exercices pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes. Les montants pour l’exercice en cours sont prévus en fonction des dépenses à ce jour.</caption>
                             <thead>
                                 <tr class="active">
@@ -663,7 +663,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Responsabilités essentielles et services internes :"class="text-left" >
+                                    <td data-label="Responsabilités essentielles et services internes :"class="text-left">
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div>
                                     </td>
                                     <td data-label="Dépenses prévues pour [insérer l’exercice]">
@@ -714,7 +714,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 </div>
                 <div>
                     <h4>Tableau [#] : Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) (*facultatif)</h4>
-                        <table id="tbl6" class="provisional gc-table table table-bordered">
+                        <table id="tbl7" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left">Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l’exercice].</caption>
                             <thead>
                                 <tr class="active">
@@ -821,10 +821,10 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 <strong>Graphique [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong>
                             </figcaption>
                             <p>Le graphique [#] résume le financement voté et législatif du ministère pour la période de [insérer l’exercice] à [insérer l’exercice].</p>
-                            <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/graphique-rrm.jpg" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
+                            <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/graphique-rrm.jpg" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:">
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [#]</summary>
-                                    <table class="provisional gc-table table table-bordered">
+                                    <table id="tbl8" class="provisional gc-table table table-bordered">
                                         <caption class="h6 text-left wb-inv">Description textuelle du graphique [#]</caption>
                                         <thead>
                                             <tr class="active">
@@ -943,7 +943,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                     <p>[Insérer le texte de la section « État condensé prospectif des opérations » du gabarit Word]</p>
                     <div>
                         <h4>Tableau [#] : État condensé prospectif des opérations pour l'exercice se terminant le [insérez l'exercice] (en dollars)</h4>
-                        <table id="tbl7" class="provisional gc-table table table-bordered">
+                        <table id="tbl9" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left">Le tableau [#] résume les charges et les revenus affectant le coût de fonctionnement avant le financement du gouvernement et les transferts pour la période de [insérez l'exercice] à [insérez l'exercice]. Les montants prévus et projetés dans le présent état des opérations ont été préparés selon la méthode de la comptabilité d’exercice. Les montants prévus et projetés qui sont présentés dans d’autres sections du Plan ministériel ont été établis selon la méthode de comptabilité axée sur les dépenses. Les montants peuvent donc différer.</caption>
                             <thead>
                                 <tr class="active">
@@ -1019,7 +1019,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                     <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [Insérer l'exercice] à [Insérer l'exercice].</p>
                     <div>
                         <h4>Tableau [#] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-                            <table id="tbl10" class="provisional gc-table table table-bordered">
+                            <table id="tbl20" class="provisional gc-table table table-bordered">
                                 <caption class="h6 text-left">Le tableau [#] fournit un résumé des ressources humaines, en équivalents temps plein, associées aux responsabilités essentielles et aux services internes de [acronyme du ministère] pour les trois derniers exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour.</caption>
                                 <thead>
                                     <tr class="active">
@@ -1117,7 +1117,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                         </div>
                         <div>
                         <h4>Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-                            <table id="tbl11" class="provisional gc-table table table-bordered">
+                            <table id="tbl21" class="provisional gc-table table table-bordered">
                                 <caption class="h6 text-left">Le tableau [#] présente des renseignements sur les ressources humaines, en équivalents temps plein, pour les responsabilités essentielles et les services internes de [nom du ministère] prévus au cours des trois prochains exercices. </caption>
                                 <thead>
                                     <tr class="active">
