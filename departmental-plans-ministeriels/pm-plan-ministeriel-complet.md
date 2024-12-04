@@ -453,7 +453,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             <strong>Graphique [#] : Dépenses par responsabilité essentielle en [exercice] (*facultatif)</strong>
                         </figcaption>
                         <p>Le graphique [#] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
-                        <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:" />
+                        <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:">
                         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                             <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
                             <div class="table-responsive">
@@ -663,7 +663,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </td>
                                 </tr>
                                 <tr class="active">
-                                    <td data-label="Responsabilités essentielles et services internes :"class="text-left">
+                                    <td data-label="Responsabilités essentielles et services internes :" class="text-left">
                                         <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-md">Total partiel</div>
                                     </td>
                                     <td data-label="Dépenses prévues pour [insérer l’exercice]">
