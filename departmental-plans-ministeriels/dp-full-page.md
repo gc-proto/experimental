@@ -82,13 +82,13 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
     <section><!--Plans to deliver on core responsibilities and internal services open-->
         <h2 id="toc02">Plans to deliver on core responsibilities and internal services</h2>
         <section><!--Core responsibilities and internal services open-->
-            <h3>Core responsibilities and internal services</h3>
-            <ul>
-                <li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
-                <li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
-                <li><a href="#toc02-3">Core responsibility 3: [insert core responsibility name]</a></li>
-                <li><a href="#toc02-5">Internal services</a></li>
-            </ul>
+                <h3>Core responsibilities and internal services</h3>
+                <ul>
+                    <li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
+                    <li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
+                    <li><a href="#toc02-3">Core responsibility 3: [insert core responsibility name]</a></li>
+                    <li><a href="#toc02-5">Internal services</a></li>
+                </ul>
         </section><!--Core responsibilities and internal services close-->
         <section><!--Core responsibilities 1 open-->
             <h3 id="toc02-1">Core responsibility 1: [insert core responsibility name]</h3>
@@ -458,7 +458,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                     <strong>Graph [#]: Planned spending by core responsibility in [insert fiscal year] (*optional)</strong>
                                 </figcaption>
                                 <p>Graph [#] presents how much the department plans to spend in [Insert fiscal year] to carry out core responsibilities and internal services.    </p>
-                                <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+                                <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:">
                                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
                                     <div>
@@ -833,7 +833,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                     <strong>Graph [#]: Approved funding (statutory and voted) over a six-year period</strong>
                                 </figcaption>
                                 <p>Graph [#] summarizes the department's approved voted and statutory funding from [insert fiscal year] to [insert fiscal year].</p>
-                                <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+                                <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:">
                                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
                                     <div class="table-responsive">
@@ -956,9 +956,8 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                     <section><!--Future-oriented condensed statement of operations open-->
                         <h3 id="toc03-3">Future-oriented condensed statement of operations</h3>
                         <p>The future-oriented condensed statement of operations provides an overview of [department name]’s operations for [insert fiscal year] to [insert fiscal year]. </p>
-                        <section>
+                        <div>
                             <h4>Table [#]: Future-oriented condensed statement of operations for the year ended [insert date] (dollars)</h4>
-                            <div>
                                 <table id="tbl7" class="provisional gc-table table table-bordered">
                                     <caption class="h6 text-left">Table [#]: summarizes the expenses and revenues which net to the cost of operations before government funding and transfers for [insert fiscal year] to [insert fiscal year].The forecast and planned amounts in this statement of operations were prepared on an accrual basis. The forecast and planned amounts presented in other sections of the Departmental Plan were prepared on an expenditure basis. Amounts may therefore differ.</caption>
                                     <thead>
