@@ -124,7 +124,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <section><!--Responsabilités essentielles Indicateur, resultats et cibles open-->
                 <h4 id="toc02-1-3">Indicateurs, résultats et cibles</h4>
                 <p>Cette section présente des renseignements détaillés sur les indicateurs du ministère, les résultats réels des trois derniers exercices, les cibles et les dates cibles approuvées en [insérer l’exercice] pour [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. [Remplir le tableau suivant pour chaque résultat ministériel lié à la responsabilité essentielle.]</p>
-                        <table id="tbl1-1" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
+                        <table id="tbl1-1" class="provisional gc-table table table-bordered">
                             <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 1]</caption>
                             <thead>
                                 <tr class="active">
@@ -185,7 +185,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 </tr>
                             </tbody>
                         </table>
-                        <table id="tbl1-2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                        <table id="tbl1-2" class="provisional gc-table table table-bordered">
                             <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 2]</caption>
                             <thead>
                                 <tr class="active">
@@ -284,7 +284,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <section><!--Responsabilités essentielles ressources prevus open-->
                 <h4 id="toc02-1-4">Ressources prévues pour atteindre les résultats</h4>
                     <h5>Tableau [#] : Ressources prévues pour atteindre les résultats relativement à [insérer le nom de la responsabilité essentielle]</h5>
-                    <table id="tbl2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                    <table id="tbl2" class="provisional gc-table table table-bordered">
                         <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
                         <thead>
                             <tr class="active">

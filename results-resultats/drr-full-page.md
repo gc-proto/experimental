@@ -118,8 +118,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 <div>
                     <h5>Table [#]: Targets and results for [insert name of core responsibility]</h5>
                     <p>Table [#] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility].</p>
-                        <table id="tbl1-1" class="provisional gc-table table table-bordered" 
-                            aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
+                        <table id="tbl1-1" class="provisional gc-table table table-bordered">
                             <caption class="h5 text-left">Table [#.1]:[Insert name of result 1]</caption>
                             <thead>
                                 <tr class="active">
@@ -180,8 +179,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 </tr>
                             </tbody>
                         </table>
-                        <table id="tbl1-2" class="provisional gc-table table table-bordered" 
-                            aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                        <table id="tbl1-2" class="provisional gc-table table table-bordered">
                             <caption class="h5 text-left">Table [#.2]: Name of Departmental result 2</caption>
                             <thead>
                                 <tr class="active">
@@ -283,7 +281,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                   <div>
                       <h5>Table [#] Snapshot of resources required for [insert name of core responsibility]</h5>
                        <p>Table [#] provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</p>
-                          <table id="tbl2" class="provisional gc-table table table-bordered" aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                          <table id="tbl2" class="provisional gc-table table table-bordered">
                               <caption class="h6 text-left wb-inv">Table provides a summary of the planned and actual spending and full-time equivalents required to achieve results.</caption>
                                 <thead>
                                     <tr class="active">

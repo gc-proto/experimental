@@ -123,7 +123,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
             <section><!--Core responsibilities 1: Indicators, results and targets open-->
                 <h4 id="toc02-1-3">Indicators, results and targets</h4>
                 <p>This section presents details on the department’s indicators, the results from the three most recently reported fiscal years, the targets and target dates approved in [insert fiscal year] for [insert name of core responsibility]. Details are presented by departmental result</p>
-                        <table id="tbl1-1" class="provisional gc-table table table-bordered" aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
+                        <table id="tbl1-1" class="provisional gc-table table table-bordered">
                             <caption class="h5 text-left">Table [#]:[Insert name of departmental result 1]</caption>
                             <thead>
                                 <tr class="active">
@@ -184,7 +184,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                 </tr>
                             </tbody>
                         </table>
-                        <table id="tbl1-2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                        <table id="tbl1-2" class="provisional gc-table table table-bordered">
                             <caption class="h5 text-left">Table [#]:[Insert name of departmental result 2]</caption>
                             <thead>
                                 <tr class="active">
@@ -283,7 +283,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
             <section><!--Core responsibilities 1: Planned resources to achieve results open-->
                 <h4 id="toc02-1-6">Planned resources to achieve results</h4>
                     <h5>Table [#] Planned resources to achieve results for [insert name of core responsibility]</h5>
-                    <table id="tbl2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
+                    <table id="tbl2" class="provisional gc-table table table-bordered">
                         <caption class="h6 text-left">Table [#] provides a summary of the planned spending and full-time equivalents required to achieve results.</caption>
                         <thead>
                             <tr class="active">
