@@ -465,7 +465,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
-                        <div>
                             <table class="provisional gc-table table table-bordered">
                                 <caption class="h6 text-left wb-inv">Text description of graph</caption>
                                 <thead>
@@ -521,7 +520,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
                     </details>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of actual spending by core responsibility</summary>
@@ -1048,8 +1046,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         </tbody>
                     </table>
                     <p>The [insert fiscal year] planned results information is provided in [Department acronym]'s Future-Oriented Statement of Operations and Notes [fiscal year] [link to Department's FOSO].</p>
-              </div>
-              <div>
                     <table id="tbl8" class="provisional gc-table table table-bordered">
                         <caption class="h5 text-left">Table [#.2]: summarizes the expenses and revenues for [insert fiscal year] which net to the cost of operations before government funding and transfers.
                         </caption>

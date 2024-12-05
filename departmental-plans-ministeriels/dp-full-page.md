@@ -123,7 +123,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
             <section><!--Core responsibilities 1: Indicators, results and targets open-->
                 <h4 id="toc02-1-3">Indicators, results and targets</h4>
                 <p>This section presents details on the department’s indicators, the results from the three most recently reported fiscal years, the targets and target dates approved in [insert fiscal year] for [insert name of core responsibility]. Details are presented by departmental result</p>
-                    <div>
                         <table id="tbl1-1" class="provisional gc-table table table-bordered" aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
                             <caption class="h5 text-left">Table [#]:[Insert name of departmental result 1]</caption>
                             <thead>
@@ -185,8 +184,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                    <div>
                         <table id="tbl1-2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
                             <caption class="h5 text-left">Table [#]:[Insert name of departmental result 2]</caption>
                             <thead>
@@ -249,7 +246,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                             </tbody>
                         </table>
                         <p>[Hyperlink to the related information on GC Infobase]</p>
-                    </div>
             </section><!--Core responsibilities 1: Indicators, results and targets close-->
             <section><!--Core responsibilities 1: Plans to achieve results open-->
                 <h4 id="toc02-1-4">Plans to achieve results</h4>
@@ -286,7 +282,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
             </section><!--Core responsibilities 1: Key risks close-->
             <section><!--Core responsibilities 1: Planned resources to achieve results open-->
                 <h4 id="toc02-1-6">Planned resources to achieve results</h4>
-                <div>
                     <h5>Table [#] Planned resources to achieve results for [insert name of core responsibility]</h5>
                     <table id="tbl2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
                         <caption class="h6 text-left">Table [#] provides a summary of the planned spending and full-time equivalents required to achieve results.</caption>
@@ -321,7 +316,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                         </tbody>
                     </table>
                     <p>[Hyperlink to the related information on GC Infobase]</p>
-                </div>
             </section><!--Core responsibilities 1: Planned resources to achieve results close-->
             <section><!--Core responsibilities 1: Related government priorities open-->
                     <h4 id="toc02-1-7">Related government priorities</h4>
@@ -396,7 +390,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                 <section><!--Planned resources to achieve results open-->
                         <h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Planned resources to achieve results</h4>
                             <h5>Table [#]: Planned resources to achieve results for internal services this year</h5>
-                            <div>
                                 <table id="tbl3" class="provisional gc-table table table-bordered">
                                     <caption class="h6 text-left">Table [#] provides a summary of the planned spending and full-time equivalents required to achieve results.</caption>
                                     <thead>
@@ -429,7 +422,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                     </tbody>
                                 </table>
                                 <p>[Hyperlink to the related information on GC Infobase]</p>
-                            </div>
                         </section><!--Planned resources to achieve results open-->
             </section><!--Internal services close-->        
       </section><!--Plans to deliver on core responsibilities and internal services close-->
@@ -461,7 +453,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:">
                                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                     <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
-                                    <div>
                                         <table class="provisional gc-table table table-bordered">
                                             <caption class="h6 text-left wb-inv">Text description of graph</caption>
                                             <thead>
@@ -517,7 +508,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                                 </tr>
                                             </tbody>
                                         </table>
-                                    </div>
                                 </details>
                                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of planned spending by core responsibility</summary>
@@ -836,7 +826,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                 <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:">
                                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                     <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
-                                    <div class="table-responsive">
                                         <table class="provisional gc-table table table-bordered">
                                             <caption class="h6 text-left wb-inv">Text description of graph</caption>
                                             <thead>
@@ -942,7 +931,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                                 </tr>
                                             </tbody>
                                         </table>
-                                    </div>
                                 </details>
                                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of statutory and voted funding over a six-year period</summary>

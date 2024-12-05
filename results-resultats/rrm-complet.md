@@ -279,7 +279,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </section><!--responsabilites essentielle risques close-->
         <section><!--responsabilites essentielle ressources open-->
             <h4 id="toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</h4>
-              <div>
                   <h5>Tableau [#] : Aperçu des ressources requises pour [inscrire le nom de la responsabilité essentielle]</h5>
                        <table id="tbl2" class="provisional gc-table table table-bordered">
                           <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</caption>
@@ -322,7 +321,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                           </tbody>
                       </table>
                   <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-              </div>
             </section><!--responsabilites essentielle ressources close-->    
             <section><!--responsabilites essentielle priorites open-->    
                   <h4 id="toc02-1-5">Priorités pangouvernementales connexes</h4>
@@ -389,7 +387,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             </section><!--service internes progres close-->
             <section><!--service internes ressources open-->
                 <h4 id="toc02-4-3">Ressources nécessaires pour obtenir les résultats prévus</h4>
-                <div>
                   <h5>Tableau [#] : Ressources nécessaires pour obtenir les résultats prévus en ce qui a trait aux services internes pour l’exercice</h5>
                       <table id="tbl3" class="provisional gc-table table table-bordered">
                           <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et réelles et des équivalents temps plein requis pour obtenir ces résultats.</caption>
@@ -432,7 +429,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                           </tbody>
                       </table>
                       <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
-                  </div>
               </section><!--service internes ressources close-->
           </section><!--service internes close-->  
       </section><!--resultats close-->
@@ -463,7 +459,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                             <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
-                                <div>
                                     <table class="provisional gc-table table table-bordered">
                                         <caption class="h6 text-left wb-inv">Description textuelle de la figure</caption>
                                         <thead>
@@ -521,7 +516,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div>
                             </details>
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses réelles par responsabilité essentielle</summary>
@@ -864,7 +858,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                             <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/graphique-rrm.jpg" class="img-responsive center-block" alt="[alt text]. Text version below:" />
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
-                                <div>
                                     <table class="provisional gc-table table table-bordered">
                                         <caption class="h6 text-left wb-inv">Description textuelle de la figure</caption>
                                         <thead>
@@ -970,7 +963,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div>
                             </details>
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du financement législatif et voté pour une période de six exercices</summary>
@@ -985,7 +977,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                     <p>Les états financiers de [l'acronym du ministère] (audités ou non) pour l’exercice terminé le [insérer la date] sont publiés sur le site Web du ministère [lien menant vers les états financiers du ministère].</p>
                     <div>
                         <h4>Tableau [#] : État condensé des résultats (audité ou non) terminé [insérer la date] (en dollars) </h4>
-                        <div>
                             <table id="tbl7" class="provisional gc-table table table-bordered">
                                 <caption class="h5 text-left">Tableau [#.1] : résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</caption>
                                 <thead>
@@ -1116,10 +1107,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 </tbody>
                             </table>
                         </div>
-                      </div>
                       <div>
                         <h4>Tableau [#] État condensé de la situation financière (audité ou non) au [insérer la date] (en dollars)</h4>
-                        <div>
                             <table id="tbl9" class="provisional gc-table table table-bordered">
                                 <caption class="h6 text-left">Le tableau [#] fournit un résumé des passifs du ministère (ce qu’il doit) et de ses actifs (ce qu’il possède), du ministère, qui aident à déterminer la capacité de celui ci à mettre en œuvre des programmes et des services.
                                 </caption>
@@ -1212,7 +1201,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
                     </div>
                 </section><!--Faits saillants close-->
                 <section><!--ressources humaines open-->
@@ -1220,7 +1208,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                     <p>Cette section présente un aperçu des ressources humaines réelles et prévues du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
                     <div>
                         <h4>Tableau [#] : Ressources humaines réelles pour les responsabilités essentielles et les services internes</h4>
-                        <div>
                             <table id="tbl10" class="provisional gc-table table table-bordered">
                                 <caption class="h6 text-left">Le tableau [#] fournit un résumé des ressources humaines, en équivalents temps plein, lesquels sont associés aux responsabilités essentielles et aux services internes de [nom du ministère] pour les trois derniers exercices.</caption>
                                 <thead>
@@ -1312,7 +1299,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines des trois derniers exercices</summary>
                         <p>[Insérez un texte expliquant les tendances significatives et incluez les notes de bas de page].</p>
@@ -1320,7 +1306,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                 </div>    
                 <div>
                     <h4>Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-                    <div>
                         <table id="tbl11" class="provisional gc-table table table-bordered">
                             <caption class="h6 text-left">Le tableau [#] présente des renseignements sur les ressources humaines, en équivalents temps plein réels, pour chaque responsabilité essentielle et les services internes de [l'acronym du ministère] au cours des trois prochains exercices. Les ressources humaines pour l’exercice en cours sont prévues en fonction des données de l’exercice à ce jour.</caption>
                             <thead>
@@ -1414,7 +1399,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                      <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des ressources humaines pour les trois prochains exercices</summary>
                         <p>[Insérer un texte expliquant les tendances significatives. Inclure toutes les notes de bas de page]</p>

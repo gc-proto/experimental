@@ -124,7 +124,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <section><!--Responsabilités essentielles Indicateur, resultats et cibles open-->
                 <h4 id="toc02-1-3">Indicateurs, résultats et cibles</h4>
                 <p>Cette section présente des renseignements détaillés sur les indicateurs du ministère, les résultats réels des trois derniers exercices, les cibles et les dates cibles approuvées en [insérer l’exercice] pour [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. [Remplir le tableau suivant pour chaque résultat ministériel lié à la responsabilité essentielle.]</p>
-                      <div>
                         <table id="tbl1-1" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 1" aria-describedby="Departmental_results_1_table">
                             <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 1]</caption>
                             <thead>
@@ -186,8 +185,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                    <div>
                         <table id="tbl1-2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
                             <caption class="h5 text-left">Tableau [#] :[Inscrire le nom du résultat ministériel 2]</caption>
                             <thead>
@@ -249,7 +246,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
                     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
             </section><!--Responsabilités essentielles Indicateur, resultats et cibles close-->
             <section><!--Responsabilités essentielles plan visant a atteindre les cibles open-->
@@ -287,7 +283,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             </section><!--Responsabilités essentielles principaux risques close-->
             <section><!--Responsabilités essentielles ressources prevus open-->
                 <h4 id="toc02-1-4">Ressources prévues pour atteindre les résultats</h4>
-                <div>
                     <h5>Tableau [#] : Ressources prévues pour atteindre les résultats relativement à [insérer le nom de la responsabilité essentielle]</h5>
                     <table id="tbl2" class="provisional gc-table table table-bordered"  aria-label="Name of Departmental result 2" aria-describedby="Departmental_results_2_table">
                         <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
@@ -320,7 +315,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             </tr>
                         </tbody>
                     </table>
-                </div>
                 <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
             </section><!--Responsabilités essentielles ressources prevus close-->
             <section><!--Responsabilités essentielles priorites gouvernementales open-->
@@ -395,7 +389,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <section><!--Services internes ressources open-->
                     <h4 class="mrgn-tp-0 mrgn-bttm-0" id="toc02-5-3">Ressources prévues pour atteindre les résultats</h4>
                         <h5>Table [#]: Ressources prévues pour atteindre les résultats en ce qui a trait aux services internes pour l’exercice</h5>
-                        <div>
                             <table id="tbl3" class="provisional gc-table table table-bordered">
                                 <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
                                 <thead>
@@ -427,7 +420,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
                         <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
               </section><!--Services internes ressources close-->
             </section><!--Services internes close-->
@@ -456,7 +448,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                         <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Version textuelle ci-dessous:">
                         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                             <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
-                            <div class="table-responsive">
                                 <table id="tbl4" class="provisional gc-table table table-bordered">
                                     <caption class="h6 text-left wb-inv">Description textuelle de la figure</caption>
                                     <thead>
@@ -505,7 +496,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div>
                         </details>
                         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                             <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des dépenses prévues par responsabilité essentielle</summary>
