@@ -10,7 +10,7 @@ title: "Plans ministériels"
 ---
 <div class="parbase section">
     <p>Les plans ministériels (PM) décrivent le plan de dépenses d&rsquo;une organisation fédérale pour le prochain exercice financier. Le présent gabarit offre une mise en page, une structure de rubriques et une conception Web uniformes ainsi que des tableaux accessibles, le tout dans un langage clair.</p>
-    <a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/results-resultats/rrm-modele-de-contenu.html">Trouver les directives pour les rapports des résultats ministériels</a>
+    <a class="btn btn-primary btn-lg" href="/experimental/results-resultats/rrm-modele-de-contenu.html">Trouver les directives pour les rapports des résultats ministériels</a>
     <section>
         <h2>Sur cette page</h2>
         <ul>
@@ -40,7 +40,7 @@ title: "Plans ministériels"
         <section>
             <h3>Page Aperçu</h3>
             <p>Fournit un résumé des informations clés qui est facile à consulter pour un public qui n&rsquo;a pas nécessairement une connaissance approfondie des finances ou des activités de l&rsquo;organisation. Cette page offre une plus grande souplesse de conception, par exemple pour y inclure une bannière ou d’autres éléments.</p>
-            <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html">Prévisualiser la page Aperçu</a></p>
+            <p><a class="btn btn-default" href="/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html">Prévisualiser la page Aperçu</a></p>
             <section>
                 <h4>Sections obligatoires :</h4>
                 <ol>
@@ -55,7 +55,7 @@ title: "Plans ministériels"
         <section>
             <h3>Page Plan intégral</h3>
             <p>Fournit tous les détails du plan ministériel de l&rsquo;organisation. Le gabarit pour les plans ministériels utilise des en-têtes et des éléments de conception normalisés.</p>
-            <p><a class="btn btn-default" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html">Prévisualiser la page Plan intégral</a></p>
+            <p><a class="btn btn-default" href="/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html">Prévisualiser la page Plan intégral</a></p>
             <section>
                 <h4>Sections obligatoires :</h4>
                 <ol>
@@ -73,8 +73,8 @@ title: "Plans ministériels"
         <h2 id="toc04">Comment utiliser le gabarit</h2>
         <p>Copiez le code des exemples de travail :</p>
         <ul class="list-unstyled">
-            <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code de la page Aperçu</a></li>
-            <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/departmental-plans-ministeriels/pm-plan-ministeriel-comple.md">Code de la page Plan intégral</a></li>
+            <li><a class="btn btn-default btn-lg" href="/experimental/blob/master/departmental-plans-ministeriels/pm-en-un-coup-doeil.md">Code de la page Aperçu</a></li>
+            <li><a class="btn btn-default btn-lg" href="/experimental/blob/master/departmental-plans-ministeriels/pm-plan-ministeriel-comple.md">Code de la page Plan intégral</a></li>
         </ul>
     </section>
     <section>

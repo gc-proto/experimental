@@ -37,7 +37,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         </ul>
     </section><!--sur cette page close-->
     <div class="hidden-print">
-        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
+        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
         </p>
     </div>
     <div>

@@ -9,7 +9,7 @@ layout: default
 title: "[Name of organization]’s [fiscal year] Departmental Results Report: At a glance"
 ---
 <div class="parbase section">
-    <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
+    <img alt="" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
     <p>A departmental results report provides an account of actual accomplishments against plans, priorities and expected results set out in the associated <a href="/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental Plan</a>.</p>
     <ul>
         <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>

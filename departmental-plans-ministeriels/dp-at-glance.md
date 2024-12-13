@@ -9,7 +9,7 @@ layout: default
 title: "[Department name]'s [fiscal year] Departmental Plan: At a glance"
 ---
 <div class="parbase section">
-    <img alt="" class="img-responsive center-block mrgn-tp-lg mrgn-bttm-lg" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
+    <img alt="" class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/banner.png">
     <p>A departmental plan describes a department&rsquo;s priorities, plans and associated costs for the upcoming three fiscal years.</p>
     <ul>
         <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>

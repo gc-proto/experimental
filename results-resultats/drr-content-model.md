@@ -10,7 +10,7 @@ title: "Departmental Results Report"
 ---
 <div class="parbase section">
     <p>The Departmental Results Report (DRR) presents information on results that departments achieved for the most recently completed fiscal year. </p>
-    <a class="btn btn-primary btn-lg" href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-content-model.html">Find guidance for Departmental plans</a>
+    <a class="btn btn-primary btn-lg" href="/experimental/departmental-plans-ministeriels/dp-content-model.html">Find guidance for Departmental plans</a>
     <section>
         <h2>On this page</h2>
         <ul>
@@ -42,7 +42,7 @@ title: "Departmental Results Report"
         <section>
             <h3>At a glance page</h3>
             <p>Provides a summary of key information that is easily consumable for an audience that may not have extensive knowledge of the institution&rsquo;s finances or activities. The page allows for more design flexibility, for example a banner or features.</p>
-            <p><a class="btn btn-default btn-lg" href="https://test.canada.ca/experimental/results-resultats/drr-at-glance.html">Preview the At a glance page</a></p>
+            <p><a class="btn btn-default btn-lg" href="/experimental/results-resultats/drr-at-glance.html">Preview the At a glance page</a></p>
             <section>
                 <h4>Mandatory sections:</h4>
                 <ol>
@@ -60,7 +60,7 @@ title: "Departmental Results Report"
         <section>
             <h3>Full report page</h3>
             <p>Provides all the details of the department&rsquo;s DRR. The template uses standard headers and design elements.</p>
-            <p><a class="btn btn-default btn-lg" href="https://test.canada.ca/experimental/results-resultats/drr-full-page.html">Preview the Full report page</a></p>
+            <p><a class="btn btn-default btn-lg" href="/experimental/results-resultats/drr-full-page.html">Preview the Full report page</a></p>
             <section>
                 <h4>Mandatory sections:</h4>
                 <ol>
@@ -104,8 +104,8 @@ title: "Departmental Results Report"
         <h2 id="toc04">How to implement</h2>
         <p>Copy the code from the working examples:</p>
         <ul class="list-unstyled">
-            <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-at-glance.md">At a glance page code</a></li>
-            <li><a class="btn btn-default btn-lg" href="https://github.com/gc-proto/experimental/blob/master/results-resultats/drr-full-page.md">Full report page code</a></li>
+            <li><a class="btn btn-default btn-lg" href="/experimental/blob/master/results-resultats/drr-at-glance.md">At a glance page code</a></li>
+            <li><a class="btn btn-default btn-lg" href="/experimental/blob/master/results-resultats/drr-full-page.md">Full report page code</a></li>
         </ul>
     </section>    
     <section>
