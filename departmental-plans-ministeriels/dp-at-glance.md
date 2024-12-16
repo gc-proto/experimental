@@ -44,12 +44,15 @@ title: "[Department name]'s [fiscal year] Departmental Plan: At a glance"
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
                         <div>
-                            <p><strong>Planned spending:</strong> [Insert amount]</p>
-                            <p><strong>Planned human resources:</strong> [Insert amount]</p>
-                            <p><strong>Departmental results:</strong></p>
-                            <ul>
-                                <li>[Insert bullet list item 1]</li>
-                            </ul>
+                            <ul class="list-unstyled">
+                                <li><strong>Planned spending:</strong> [Insert amount]</li>
+                                <li><strong>Planned human resources:</strong> [Insert amount]</li>
+                                <li><strong>Departmental results:</strong>
+                                    <ul>
+                                        <li>[Insert bullet list item 1]</li>
+                                    </ul>
+                                </li>    
+                            </ul>    
                             <p>More information about [name of core responsibility] [hyperlink to the full plan, core responsibility 1, progress on results section] can be found in the full plan.</p>
                         </div>
                     </details>
@@ -58,11 +61,14 @@ title: "[Department name]'s [fiscal year] Departmental Plan: At a glance"
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
                         <div>
-                            <p><strong>Planned spending:</strong> [Insert amount]</p>
-                            <p><strong>Planned human resources:</strong> [Insert amount]</p>
-                            <p><strong>Departmental results:</strong></p>
-                            <ul>
-                                <li>[Insert bullet list item 1]</li>
+                            <ul class="list-unstyled">
+                                <li><strong>Planned spending:</strong> [Insert amount]</li>
+                                <li><strong>Planned human resources:</strong> [Insert amount]</li>
+                                <li><strong>Departmental results:</strong>
+                                    <ul>
+                                        <li>[Insert bullet list item 1]</li>
+                                    </ul>
+                                </li>    
                             </ul>
                             <p>More information about [name of core responsibility] [hyperlink to the full plan, core responsibility 1, progress on results section] can be found in the full plan.</p>
                         </div>
@@ -72,12 +78,15 @@ title: "[Department name]'s [fiscal year] Departmental Plan: At a glance"
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
                         <div>
-                            <p><strong>Planned spending:</strong> [Insert amount]</p>
-                            <p><strong>Planned human resources:</strong> [Insert amount]</p>
-                            <p><strong>Departmental results:</strong></p>
-                            <ul>
-                                <li>[Insert bullet list item 1]</li>
-                            </ul>
+                            <ul class="list-unstyled">
+                                <li><strong>Planned spending:</strong> [Insert amount]</li>
+                                <li><strong>Planned human resources:</strong> [Insert amount]</li>
+                                <li><strong>Departmental results:</strong>
+                                    <ul>
+                                        <li>[Insert bullet list item 1]</li>
+                                    </ul>
+                                </li>    
+                            </ul>    
                             <p>More information about [name of core responsibility] [hyperlink to the full plan, core responsibility 1, progress on results section] can be found in the full plan.</p>
                         </div>
                     </details>

@@ -92,10 +92,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         </section><!--core responsibilities close-->
         <section><!--core responsibilities  open, repeat these sections for each core responsibility-->
             <h3 id="toc02-1">Core responsibility 1: [insert core responsibility name]</h3>
-            <ul class="list-unstyled">
-                <li>
-                    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
+                <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
                         <ul>
                             <li><a href="#toc02-1-1">Description</a></li>
                             <li><a href="#toc02-1-2">Progress on results</a></li>
@@ -104,9 +102,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             <li><a href="#toc02-1-5">Related government priorities</a></li>
                             <li><a href="#toc02-1-6">Program inventory</a></li>
                         </ul>
-                    </details>
-                </li>
-            </ul>
+                </details>
             <p>[Repeat these sections for each core responsibility]</p>
             <section><!--core responsibilities description open-->
                 <h4 id="toc02-1-1">Description</h4>

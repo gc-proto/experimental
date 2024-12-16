@@ -92,25 +92,20 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
         </section><!--Core responsibilities and internal services close-->
         <section><!--Core responsibilities 1 open-->
             <h3 id="toc02-1">Core responsibility 1: [insert core responsibility name]</h3>
-            <ul class="list-unstyled">
-                <li>
-                    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section
-                        </summary>
-                        <ul>
-                            <li><a href="#toc02-1-1">Description</a></li>
-                            <li><a href="#toc02-1-2">Quality of life impacts</a></li>
-                            <li><a href="#toc02-1-3">Indicators, results and targets</a></li>
-                            <li><a href="#toc02-1-4">Plans to achieve results</a></li>
-                            <li><a href="#toc02-1-5">Key risks</a></li>
-                            <li><a href="#toc02-1-6">Planned resources to achieve results</a></li>
-                            <li><a href="#toc02-1-7">Related government priorities</a></li>
-                            <li><a href="#toc02-1-8">Program inventory</a></li>
-                            <li><a href="#toc02-1-9">Summary of changes to reporting framework since last year</a></li>
-                        </ul>
-                    </details>
-                </li>
-            </ul>
+                <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
+                   <ul>
+                       <li><a href="#toc02-1-1">Description</a></li>
+                       <li><a href="#toc02-1-2">Quality of life impacts</a></li>
+                       <li><a href="#toc02-1-3">Indicators, results and targets</a></li>
+                       <li><a href="#toc02-1-4">Plans to achieve results</a></li>
+                       <li><a href="#toc02-1-5">Key risks</a></li>
+                       <li><a href="#toc02-1-6">Planned resources to achieve results</a></li>
+                       <li><a href="#toc02-1-7">Related government priorities</a></li>
+                       <li><a href="#toc02-1-8">Program inventory</a></li>
+                       <li><a href="#toc02-1-9">Summary of changes to reporting framework since last year</a></li>
+                    </ul>
+                </details>
             <p>[Repeat these sections for each core responsibility]</p>
             <section><!--Core responsibilities 1: description open-->
                 <h4 id="toc02-1-1">Description</h4>

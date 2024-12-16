@@ -44,15 +44,16 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer le nom de la responsabilité essentielle.]</summary>
                         <div>
-                            <dl>
-                            <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
-                            <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
-                            <p><strong>Résultats ministériels :</strong></p>
-                            </dl>
-                            <ul>
-                                <li>[Élément 1 de la liste à puces];</li>
-                                <li>[Élément 2 de la liste à puces];</li>
-                                <li>[Élément 3 de la liste à puces].</li>
+                            <ul class="list-unstyled">
+                                <li><strong>Dépenses prévues :</strong> [Insérer le montant] </li>
+                                <li><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</li>
+                                <li><strong>Résultats ministériels :</strong>
+                                    <ul>
+                                        <li>[Élément 1 de la liste à puces];</li>
+                                        <li>[Élément 2 de la liste à puces];</li>
+                                        <li>[Élément 3 de la liste à puces].</li>
+                                    </ul>
+                                </li>
                             </ul>
                             <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>
                         </div>
@@ -62,15 +63,18 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer le nom de la responsabilité essentielle.]</summary>
                         <div>
-                            <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
-                            <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
-                            <p><strong>Résultats ministériels :</strong></p>
-                            <ul>
-                                <li>[Élément 1 de la liste à puces];</li>
-                                <li>[Élément 2 de la liste à puces];</li>
-                                <li>[Élément 3 de la liste à puces].</li>
-                            </ul>
-                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>
+                            <ul class="list-unstyled">
+                                <li><strong>Dépenses prévues :</strong> [Insérer le montant]</li>
+                                <li><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</li>
+                                <li><strong>Résultats ministériels :</strong>
+                                    <ul>
+                                        <li>[Élément 1 de la liste à puces];</li>
+                                        <li>[Élément 2 de la liste à puces];</li>
+                                        <li>[Élément 3 de la liste à puces].</li>
+                                    </ul>
+                                </li>
+                            </ul>     
+                            <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>   
                         </div>
                     </details>
                 </li>
@@ -78,14 +82,17 @@ title: "Plan ministériel [exercice] de [nom du ministère] : En un coup d'œil"
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer le nom de la responsabilité essentielle.]</summary>
                         <div>
-                            <p><strong>Dépenses prévues :</strong> [Insérer le montant] </p>
-                            <p><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</p>
-                            <p><strong>Résultats ministériels :</strong></p>
-                            <ul>
-                                <li>[Élément 1 de la liste à puces];</li>
-                                <li>[Élément 2 de la liste à puces];</li>
-                                <li>[Élément 3 de la liste à puces].</li>
-                            </ul>
+                            <ul class="list-unstyled">
+                                <li><strong>Dépenses prévues :</strong> [Insérer le montant] </li>
+                                <li><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</li>
+                                <li><strong>Résultats ministériels :</strong>
+                                    <ul>
+                                        <li>[Élément 1 de la liste à puces];</li>
+                                        <li>[Élément 2 de la liste à puces];</li>
+                                        <li>[Élément 3 de la liste à puces].</li>
+                                    </ul>
+                                </li>
+                            </ul>    
                             <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>
                         </div>
                     </details>

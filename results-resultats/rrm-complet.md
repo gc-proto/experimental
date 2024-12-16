@@ -93,21 +93,17 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </section><!--responsabilites close-->
         <section><!--responsabilites essentielle open, reproduire ces sections pour chaque responsabilité essentielle-->
             <h3 id="toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle].</h3>
-            <ul class="list-unstyled">
-                <li>
-                    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
-                        <ul>
-                            <li><a href="#toc02-1-1">Description</a></li>
-                            <li><a href="#toc02-1-2">Progrès à l’égard des résultats</a></li>
-                            <li><a href="#toc02-1-3">Principaux risques</a></li>
-                            <li><a href="#toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</a></li>
-                            <li><a href="#toc02-1-5">Priorités pangouvernementales connexes</a></li>
-                            <li><a href="#toc02-1-6">Répertoire des programmes </a></li>
-                        </ul>
-                    </details>
-                </li>
-            </ul>
+                <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
+                    <ul>
+                        <li><a href="#toc02-1-1">Description</a></li>
+                        <li><a href="#toc02-1-2">Progrès à l’égard des résultats</a></li>
+                        <li><a href="#toc02-1-3">Principaux risques</a></li>
+                        <li><a href="#toc02-1-4">Ressources nécessaires pour obtenir les résultats prévus</a></li>
+                        <li><a href="#toc02-1-5">Priorités pangouvernementales connexes</a></li>
+                        <li><a href="#toc02-1-6">Répertoire des programmes </a></li>
+                    </ul>
+                </details>
             <p>[Reproduire ces sections pour chaque responsabilité essentielle].</p>
             <section><!--responsabilites essentielle description open-->
                 <h4 id="toc02-1-1">Description</h4>

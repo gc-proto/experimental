@@ -43,14 +43,17 @@ title: "[Name of organization]’s [fiscal year] Departmental Results Report: At
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
                         <div>
-                            <p><strong>Actual spending:</strong> [Insert amount]</p>
-                            <p><strong>Actual human resources:</strong> [Insert number]</p>
-                            <p><strong>Results - what we achieved:</strong></p>
-                            <ul>
-                                <li>[insert bulleted list item 1]</li>
-                                <li>[insert bulleted list item 2]</li>
-                                <li>[insert bulleted list item 3]</li>
-                            </ul>
+                            <ul class="list-unstyled">
+                                <li><strong>Actual spending:</strong> [Insert amount]</li>
+                                <li><strong>Actual human resources:</strong> [Insert number]</li>
+                                <li><strong>Results - what we achieved:</strong>
+                                    <ul>
+                                        <li>[insert bulleted list item 1]</li>
+                                        <li>[insert bulleted list item 2]</li>
+                                        <li>[insert bulleted list item 3]</li>
+                                    </ul>
+                                </li>    
+                            </ul>    
                             <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 1, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p>
                         </div>
                     </details>
@@ -59,14 +62,17 @@ title: "[Name of organization]’s [fiscal year] Departmental Results Report: At
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
                         <div>
-                            <p><strong>Actual spending:</strong> [Insert amount]</p>
-                            <p><strong>Actual human resources:</strong> [Insert number]</p>
-                            <p><strong>Results - what we achieved:</strong></p>
                             <ul>
-                                <li>[insert bulleted list item 1]</li>
-                                <li>[insert bulleted list item 2]</li>
-                                <li>[insert bulleted list item 3]</li>
-                            </ul>
+                                <li><strong>Actual spending:</strong> [Insert amount]</li>
+                                <li><strong>Actual human resources:</strong> [Insert number]</li>
+                                <li><strong>Results - what we achieved:</strong>
+                                    <ul>
+                                        <li>[insert bulleted list item 1]</li>
+                                        <li>[insert bulleted list item 2]</li>
+                                        <li>[insert bulleted list item 3]</li>
+                                    </ul>
+                                </li>    
+                            </ul>    
                             <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 2, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p>
                         </div>
                     </details>
@@ -75,14 +81,17 @@ title: "[Name of organization]’s [fiscal year] Departmental Results Report: At
                     <details>
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
                         <div>
-                            <p><strong>Actual spending:</strong> [Insert amount]</p>
-                            <p><strong>Actual human resources:</strong> [Insert number]</p>
-                            <p><strong>Results - what we achieved:</strong></p>
                             <ul>
-                                <li>[insert bulleted list item 1]</li>
-                                <li>[insert bulleted list item 2]</li>
-                                <li>[insert bulleted list item 3]</li>
-                            </ul>
+                                <li><strong>Actual spending:</strong> [Insert amount]</p>
+                                <li><strong>Actual human resources:</strong> [Insert number]</p>
+                                <li><strong>Results - what we achieved:</strong>
+                                    <ul>
+                                        <li>[insert bulleted list item 1]</li>
+                                        <li>[insert bulleted list item 2]</li>
+                                        <li>[insert bulleted list item 3]</li>
+                                    </ul>
+                                </li>    
+                            </ul>    
                             <p>More information about [name of core responsibility] [hyperlink to full plan, core responsibility 3, progress on results section] can be found in the "Results - what we achieved” section of the full departmental results report.</p>
                         </div>
                     </details>
