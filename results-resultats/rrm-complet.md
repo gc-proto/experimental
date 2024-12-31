@@ -360,7 +360,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 <strong>Figure [#] : Dépenses réelles par responsabilité essentielle en [exercice] [*facultatif]</strong>
                             </figcaption>
                             <p>La figure [#] montre les dépenses engagées par le ministère en [exercice] pour s’acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
-                            <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+                            <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" class="img-responsive center-block" alt="[alt text]. Text version below:">
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
                                     <table class="provisional gc-table table table-bordered">
@@ -511,8 +511,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                         </tr>
                                         <tr class="active">
                                             <td data-label="Responsabilités essentielles et services internes" class="text-left">Total</td>
-                                            <td data-label="Dépenses prévues [exercice]">[Insérer le total]</div>
-                                            </td>
+                                            <td data-label="Dépenses prévues [exercice]">[Insérer le total]</td>
                                             <td data-label="Dépenses prévues [exercice]">[Insérer le total]</td>
                                             <td data-label="Dépenses prévues [exercice]">[Insérer le total]</td>
                                         </tr>
@@ -587,7 +586,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                 <strong>Figure [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong>
                             </figcaption>
                             <p>La figure [#] résume le financement voté et législatif du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
-                            <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/graphique-rrm.jpg" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+                            <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/graphique-rrm.jpg" class="img-responsive center-block" alt="[alt text]. Text version below:">
                             <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                                 <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
                                     <table class="provisional gc-table table table-bordered">
@@ -802,12 +801,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                         <td data-label="Équivalents temps plein réels [exercice]">[Insérer le total partiel]</td>
                                     </tr>
                                     <tr>
-                                        <td data-label="Responsabilités essentielles et services internes" class="text-left">Services internes</div>
-                                        </td>
+                                        <td data-label="Responsabilités essentielles et services internes" class="text-left">Services internes</td>
                                         <td data-label="Équivalents temps plein réels [exercice]">[Insérer le montant]</td>
                                         <td data-label="Équivalents temps plein réels [exercice]">[Insérer le montant]</td>
-                                        <td data-label="Équivalents temps plein réels [exercice]">[Insérer le montant]</div>
-                                        </td>
+                                        <td data-label="Équivalents temps plein réels [exercice]">[Insérer le montant]</td>
                                     </tr>
                                     <tr class="active">
                                         <td data-label="Responsabilités essentielles et services internes" class="text-left">Total</td>
@@ -857,8 +854,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
                                     <td data-label="Responsabilités essentielles et services internes" class="text-left">Services internes</td>
                                     <td data-label="Équivalents temps plein prévus en [exercice]">[Insérer le montant]</td>
                                     <td data-label="Équivalents temps plein prévus en [exercice]">[Insérer le montant]</td>
-                                    <td data-label="Équivalents temps plein prévus en [exercice]">[Insérer le montant]</div>
-                                    </td>
+                                    <td data-label="Équivalents temps plein prévus en [exercice]">[Insérer le montant]</td>
                                 </tr>
                                 <tr class="active">
                                     <td data-label="Responsabilités essentielles et services internes" class="text-left">Total</td>

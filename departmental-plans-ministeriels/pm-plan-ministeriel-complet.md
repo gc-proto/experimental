@@ -230,7 +230,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                 <p>[Insérer une description des principaux risques]</p>
             </section><!--Responsabilités essentielles principaux risques close-->
             <section><!--Responsabilités essentielles ressources prevus open-->
-                <h4 id="toc02-1-4">Ressources prévues pour atteindre les résultats</h4>
+                <h4 id="toc02-1-6">Ressources prévues pour atteindre les résultats</h4>
                     <h5>Tableau [#] : Ressources prévues pour atteindre les résultats relativement à [insérer le nom de la responsabilité essentielle]</h5>
                     <table id="tbl2" class="provisional gc-table table table-bordered">
                         <caption class="h6 text-left">Le tableau [#] fournit un résumé des dépenses prévues et des équivalents temps plein requis pour atteindre ces résultats.</caption>
@@ -424,8 +424,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                     <td data-label="Responsabilités essentielles et services internes :" class="text-left">[Insérer le nom de la responsabilité essentielle.]</td>
                                     <td data-label="Dépenses réelles de [insérer l’exercice]">[Insérer le montant</td>
                                     <td data-label="Dépenses réelles de [insérer l’exercice]">[Insérer le montant]</td>
-                                    <td data-label="Dépenses prévues pour [insérer l’exercice]">[Insérer le montant]</div>
-                                    </td>
+                                    <td data-label="Dépenses prévues pour [insérer l’exercice]">[Insérer le montant]</td>
                                 </tr>
                                 <tr>
                                     <td data-label="Responsabilités essentielles et services internes :" class="text-left">[Insérer le nom de la responsabilité essentielle.]</td>
@@ -586,17 +585,13 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td data-label="Exercice" class="text-left" >
-                                                    <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div>
-                                                </td>
+                                                <td data-label="Exercice" class="text-left">[Insérer l’exercice]</td>
                                                 <td data-label="Total">[Insérer le montant]</td>
                                                 <td data-label="Voté">[Insérer le montant]</td>
                                                 <td data-label="Législatif">[Insérer le montant]</td>
                                             </tr>
                                             <tr>
-                                                <td data-label="Exercice" class="text-left" >
-                                                    <div class="mrgn-tp-md mrgn-rght-md mrgn-bttm-md mrgn-lft-lg">[Insérer l’exercice]</div>
-                                                </td>
+                                                <td data-label="Exercice" class="text-left">[Insérer l’exercice]</td>
                                                 <td data-label="Total">[Insérer le montant]</td>
                                                 <td data-label="Voté">[Insérer le montant]</td>
                                                 <td data-label="Législatif">[Insérer le montant]</td>

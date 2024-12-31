@@ -140,8 +140,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 <tr>
                                     <td data-label="Departmental Result Indicators" class="text-left">[Insert indicator]</td>
                                     <td data-label="Target">[Insert the target]</td>
-                                    <td data-label="Date  to achieve target">[Insert the date]</div>
-                                    </td>
+                                    <td data-label="Date  to achieve target">[Insert the date]</td>
                                     <td data-label="Actual results">
                                         <ul>
                                             <li>[Fiscal year]: [insert figure]</li>
@@ -365,7 +364,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <strong>Graph [#]: Actual spending by core responsibility in [insert fiscal year] (*optional)</strong>
                     </figcaption>
                     <p>Graph [#] presents how much the Department spent in [insert fiscal year] to carry out core responsibilities and internal services.</p>
-                    <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+                    <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:">
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
                             <table class="provisional gc-table table table-bordered">
@@ -595,7 +594,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <strong>Graph [#]: Approved funding (statutory and voted) over a six-year period</strong>
                     </figcaption>
                     <p>Graph [#] summarizes the department's approved voted and statutory funding from [insert fiscal year] to [insert fiscal year].</p>
-                    <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:" />
+                    <img src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/dep-spend-en.png" class="img-responsive center-block" alt="[alt text]. Text version below:">
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
                             <table class="provisional gc-table table table-bordered">
@@ -701,8 +700,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                 <th class="text-left">Financial information</th>
                                 <th class="text-left">[Fiscal year] actual results</th>
                                 <th class="text-left">[Fiscal year] planned results</th>
-                                <th class="text-left">Difference (actual results minus planned)</div>
-                                </th>
+                                <th class="text-left">Difference (actual results minus planned)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -859,8 +857,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             <tr class="active">
                                 <td data-label="Core responsibilities and internal services" class="text-left">Subtotal</td>
                                 <td data-label="[Fiscal year] planned full-time equivalents">[Insert subtotal]</td>
-                                <td data-label="[Fiscal year] planned full-time equivalents">[Insert subtotal]</div>
-                                </td>
+                                <td data-label="[Fiscal year] planned full-time equivalents">[Insert subtotal]</td>
                                 <td data-label="[Fiscal year] planned full-time equivalents">[Insert subtotal]</td>
                             </tr>
                             <tr>
