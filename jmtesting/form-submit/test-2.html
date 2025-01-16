@@ -372,11 +372,14 @@ textarea:focus {
 <div class="well">
 <p>What this does have: </p>
 	<ul>
-		<li>no submit permitted for blank entry + small transition for when it appears</li>
-		<li>send button is hidden when no content (maybe a case for disabled state? ChatGPT uses disabled, Claude has no button until content is typed)</li>
 		<li>focus by default</li>
+		<li>icons / custom fonts / colours available for hint text and label</li>
+		<li>send button is hidden when no content (maybe a case for disabled state? ChatGPT uses disabled, Claude has no button until content is typed)</li>
+		<li>add transition for when button appears/disappears (will apply when over count once I hook it up)</li>
 		<li>return submits (currently triggers search not AI service), shift + return for new line</li>
+		<li>no longer permits a submit for blank entry</li>
 		<li>button visually integrated into input</li>
+		<li>button transitions to icon only on mobile to save space</li>
 	</ul>
 </div>
 <form class="mrgn-tp-xl mrgn-bttm-lg">
