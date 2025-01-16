@@ -100,26 +100,20 @@ label {
   display: none;
 }
 
+/* Show button with transition */
 .btn-primary-send.visible {
   display: inline-block;
-  animation: slideInWithPop 0.4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation: slideIn 0.3s ease forwards;
 }
 
-@keyframes slideInWithPop {
+@keyframes slideIn {
   0% {
     opacity: 0;
-    transform: translateX(20px) scale(0.9);
-  }
-  70% {
-    opacity: 1;
-    transform: translateX(-2px) scale(1.05);
-  }
-  85% {
-    transform: translateX(1px) scale(0.98);
+    transform: translateX(20px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0) scale(1);
+    transform: translateX(0);
   }
 }
 
@@ -378,7 +372,7 @@ textarea:focus {
 <div class="well">
 <p>What this does have: </p>
 	<ul>
-		<li>no submit permitted for blank entry</li>
+		<li>no submit permitted for blank entry + small transition for when it appears</li>
 		<li>send button is hidden when no content (maybe a case for disabled state? ChatGPT uses disabled, Claude has no button until content is typed)</li>
 		<li>focus by default</li>
 		<li>return submits (currently triggers search not AI service), shift + return for new line</li>
