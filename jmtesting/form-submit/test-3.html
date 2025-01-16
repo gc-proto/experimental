@@ -82,7 +82,6 @@ label {
 
 
 /* Button styling */
-/* Button styling */
 .btn-primary-send {
   margin: 0;
   padding: 8px 16px;
@@ -95,32 +94,8 @@ label {
   font-size: 18px;
   line-height: 1.55em;
   font-family: "Noto Sans";
-  height: 64px;
-  align-self: flex-start;
-  display: none;
-}
-
-.btn-primary-send.visible {
-  display: inline-block;
-  animation: slideInWithPop 0.4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-}
-
-@keyframes slideInWithPop {
-  0% {
-    opacity: 0;
-    transform: translateX(20px) scale(0.9);
-  }
-  70% {
-    opacity: 1;
-    transform: translateX(-2px) scale(1.05);
-  }
-  85% {
-    transform: translateX(1px) scale(0.98);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0) scale(1);
-  }
+  height: 64px; /* Fixed height instead of min-height */
+  align-self: flex-start; /* This keeps it at the top */
 }
 
 /* Character counter */
@@ -144,7 +119,7 @@ label {
   color: #333;
   font-family: "Noto Sans";
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
   display: block;
 }
 
@@ -184,80 +159,49 @@ textarea:focus {
   }
 
   .form-group button {
-    padding: 8px 18px;
-    min-width: 44px;
+    padding: 8px 12px;
+    min-width: 40px;
   }
 }
 		  </style>
 		
 		  <script>
-			// Combined function for textarea handling
-				function handleTextareaInput(event) {
-				const textarea = event.target;
-				const counter = document.getElementById('charCount');
-				const button = document.querySelector('.btn-primary-send');
-				const maxLength = textarea.maxLength;
-				const currentLength = textarea.value.length;
-				
-				// Update character count
-				counter.textContent = `${currentLength}/${maxLength}`;
-				
-				// Toggle button visibility
-				if (currentLength > 0) {
-					button.classList.add('visible');
-				} else {
-					button.classList.remove('visible');
-				}
-				
-				// Reset height to auto so we can accurately measure scroll height
-				textarea.style.height = 'auto';
-				
-				// Set new height based on scroll height
-				textarea.style.height = (textarea.scrollHeight) + 'px';
-				}
-
-				// Function to handle keyboard events
-				function handleKeyPress(event) {
-				if (event.key === 'Enter') {
-					// If Shift + Enter, allow new line
-					if (event.shiftKey) {
-					return;
-					}
-					
-					// If just Enter, submit the form
-					event.preventDefault();
-					document.querySelector('form').submit();
-				}
-				}
-
-				// Set focus on textarea when page loads
-				window.onload = function() {
-				const textarea = document.getElementById('message');
-				textarea.focus();
-				}
-
-	// Function to handle keyboard events
-	function handleKeyPress(event) {
-	const textarea = event.target;
-	
-	if (event.key === 'Enter') {
-		// If Shift + Enter, allow new line
-		if (event.shiftKey) {
-		return;
-		}
+			// Function to auto-resize textarea and update character count
+			function handleTextareaInput(event) {
+			  const textarea = event.target;
+			  const counter = document.getElementById('charCount');
+			  const maxLength = textarea.maxLength;
+			  const currentLength = textarea.value.length;
+			  
+			  // Update character count
+			  counter.textContent = `${currentLength}/${maxLength}`;
+			  
+			  // Reset height to auto so we can accurately measure scroll height
+			  textarea.style.height = 'auto';
+			  
+			  // Set new height based on scroll height
+			  textarea.style.height = (textarea.scrollHeight) + 'px';
+			}
 		
-		// If Enter and the field is empty, prevent both submission and new line
-		if (textarea.value.trim().length === 0) {
-		event.preventDefault();
-		return;
-		}
+			// Function to handle keyboard events
+			function handleKeyPress(event) {
+			  if (event.key === 'Enter') {
+				// If Shift + Enter, allow new line
+				if (event.shiftKey) {
+				  return;
+				}
+				
+				// If just Enter, submit the form
+				event.preventDefault();
+				document.querySelector('form').submit();
+			  }
+			}
 		
-		// If Enter and there is text, submit the form
-		event.preventDefault();
-		document.querySelector('form').submit();
-	}
-	}
-
+			// Set focus on textarea when page loads
+			window.onload = function() {
+			  const textarea = document.getElementById('message');
+			  textarea.focus();
+			}
 		  </script>
 		  
 	</head>
@@ -373,18 +317,7 @@ textarea:focus {
 			<div class="container">
 				<!-- Custom code starts here --><h1 property="name" id="wb-cont" property="name headline" dir="ltr">AI answers
 				</h1><!-- Custom code ends here -->
-<p><mark>Testing the form input design. No other functions available at this time; no true submission, character count warning, etc.</mark></p>
-
-<div class="well">
-<p>What this does have: </p>
-	<ul>
-		<li>no submit permitted for blank entry</li>
-		<li>send button is hidden when no content (maybe a case for disabled state? ChatGPT uses disabled, Claude has no button until content is typed)</li>
-		<li>focus by default</li>
-		<li>return submits (currently triggers search not AI service), shift + return for new line</li>
-		<li>button visually integrated into input</li>
-	</ul>
-</div>
+<p>Testing the form design.</p>
 <form class="mrgn-tp-xl mrgn-bttm-lg">
     <div class="field-container">
 		<label for="message">Ask a Canada.ca question</label>
