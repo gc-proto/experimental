@@ -53,13 +53,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
             <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
             <li>[Minister name]&#8217;s mandate letter</li>
         </ul>
-        <div class="mrgn-tp-lg">
-            <p><a href="/experimental/departmental-plans-ministeriels/dp-full-page.html" class="btn btn-primary btn-lg">Read the full departmental plan</a>
-                <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span>
-            </p>
-        </div>
-        <hr>
-        <section>
+        <div>
             <h3>Key priorities</h3>
             <p>[Department name]’s top priorities for [insert fiscal year] are as follows:</p>
             <ul>
@@ -67,8 +61,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                 <li>[insert bulleted list item 2]</li>
                 <li>[insert bulleted list item 3]</li>
             </ul>
-        </section>
-        <hr>
+        </div>
         <div>
             <h3>Highlights</h3>
             <p>[Insert text from the Highlights section]</p>
