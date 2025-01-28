@@ -54,7 +54,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             <li>Minister’s mandate letter (optional)</li>
         </ul>
         <div>
-            <h2>Key priorities</h2>
+            <h3>Key priorities</h3>
             <p>[Department acronym]’s top priorities for [insert fiscal year] were as follows</p>
             <ul>
                 <li>[insert bulleted list item 1]</li>
@@ -64,7 +64,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             <p>[Insert any text on how the organization contributed to refocused government spending]</p>
         </div>
         <div>
-            <h2>Highlights</h2>
+            <h3>Highlights</h3>
             <p>[Insert text from the Highlights section]</p>
             <div id="cores">
                 <div class="btn-group mrgn-bttm-md">
