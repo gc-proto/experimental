@@ -68,10 +68,6 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             <h3>Faits saillants</h3>
             <p>[Insérer le texte de la section « Faits saillants »]</p>
             <div id="cores">
-                <div class="btn-group mrgn-bttm-md">
-                    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
-                    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
-                </div>
                 <ul class="list-unstyled">
                     <li>
                         <details>
