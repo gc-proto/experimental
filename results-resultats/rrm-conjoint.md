@@ -12,7 +12,8 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
     <section><!--sur cette page open-->
         <h2>Sur cette page</h2>
         <ul>
-            <li><a href="#toc01">Message du/de la ministre</a></li>
+            <li><a href="#toc01">En un coup d'oeil</a></li>
+            <li><a href="#toc01a">Message du/de la ministre</a></li>
             <li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif) </li>
             <li><a href="#toc02">Résultats : Nos réalisations</a>
                 <ul>
@@ -37,7 +38,7 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
         </ul>
     </section><!--sur cette page close-->
     <div class="hidden-print">
-        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="/experimental/results-resultats/rrm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
+        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
         </p>
     </div>
     <div>
@@ -46,10 +47,100 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
             <p>[Inclure les renseignements sur les droits d’auteur formatés pour le Web (échantillon: © Sa Majesté le Roi du chef du Canada, représenté par le ministre de [appellation légale du ministère], [année de publication], [ISSN])]</p>
         </details>
     </div>
+    <section><!--en un coup d'oeil open-->
+        <h2 id="toc01">En un coup d'oeil</h2>
+        <p>Un rapport sur les résultats ministériels fournit un compte rendu des réalisations réelles par rapport aux plans, aux priorités et aux résultats attendus énoncés dans le <a href="/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html">plan ministériel</a> connexe&nbsp;[hyperlien menant vers le plan ministériel].</p>
+        <ul>
+            <li>Vision, mission, raison d&rsquo;être et contexte opérationnel</li>
+            <li>Lettre de mandat du ou de la ministre (facultatif)</li>
+        </ul>
+        <div>
+            <h3>Principales priorités</h3>
+            <p>Les principales priorités de [nom du ministère] pour [insérer l’exercice] étaient les suivantes :</p>
+            <ul>
+                <li>[élément&nbsp;1 de la liste à puces]; </li>
+                <li>[élément&nbsp;2 de la liste à puces]; </li>
+                <li>[élément&nbsp;3 de la liste à puces]. </li>
+            </ul>
+            <p>[Si c’est pertinent, inclure une brève description de la façon dont ils ont contribué à l’exercice Recentrer les dépenses gouvernementales en [insérer l’exercice].]</p>
+        </div>
+        <div>
+            <h3>Faits saillants</h3>
+            <p>[Insérer le texte de la section « Faits saillants »]</p>
+            <div id="cores">
+                <div class="btn-group mrgn-bttm-md">
+                    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
+                    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
+                </div>
+                <ul class="list-unstyled">
+                    <li>
+                        <details>
+                            <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer le nom de la responsabilité essentielle.]</summary>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li><strong>Dépenses réelles :</strong> [Insérer le montant] </li>
+                                    <li><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</li>
+                                    <li><strong>Résultats : Nos réalisations :</strong></li>
+                                    <li>
+                                        <ul>
+                                            <li>[Élément 1 de la liste à puces];</li>
+                                            <li>[Élément 2 de la liste à puces];</li>
+                                            <li>[Élément 3 de la liste à puces].</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans la section «&nbsp;Résultats : Nos réalisations&nbsp;» du rapport complet sur les résultats ministériels.</p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer le nom de la responsabilité essentielle.]</summary>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li><strong>Dépenses réelles :</strong> [Insérer le montant]</li>
+                                    <li><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</li>
+                                    <li><strong>Résultats : Nos réalisations :</strong></li>
+                                    <li>
+                                        <ul>
+                                            <li>[Élément 1 de la liste à puces];</li>
+                                            <li>[Élément 2 de la liste à puces];</li>
+                                            <li>[Élément 3 de la liste à puces].</li>
+                                        </ul>
+                                    </li>
+                                </ul>    
+                                <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport complet sur les résultats ministériels.</p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer le nom de la responsabilité essentielle.]</summary>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li><strong>Dépenses réelles :</strong> [Insérer le montant]</li>
+                                    <li><strong>Ressources humaines réelles :</strong> [Insérer le nombre]</li>
+                                    <li><strong>Résultats : Nos réalisations :</strong></li>
+                                    <li>
+                                        <ul>
+                                            <li>[Élément 1 de la liste à puces];</li>
+                                            <li>[Élément 2 de la liste à puces];</li>
+                                            <li>[Élément 3 de la liste à puces].</li>
+                                        </ul>
+                                    </li>    
+                                </ul>    
+                                <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans la section «&nbsp;Résultats : Nos réalisations &nbsp;» du rapport complet sur les résultats ministériels.</p>
+                            </div>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!--en un coup d'oeil close-->
     <section><!--Message du/de la ministre open-->
       <div class="row">
         <div class="col-xs-12 col-md-8">
-           <h2 id="toc01">Message du/de la ministre</h2>
+           <h2 id="toc01a">Message du/de la ministre</h2>
            <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
         </div>    
         <div class="col-xs-12 col-md-4 hidden-print">
