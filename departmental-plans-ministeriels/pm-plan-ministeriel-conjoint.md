@@ -13,6 +13,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         <h2>Sur cette page</h2>
         <ul>
             <li><a href="#toc01">Message du/de la ministre</a></li>
+            <li><a href="#toc01a">Message du/de la ministre</a></li>
             <li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif)</li>
             <li><a href="#toc02">Plans pour assurer les responsabilités essentielles et les services internes</a>
                 <ul>
@@ -37,7 +38,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         </ul>
     </section><!--sur cette page close-->
     <div class="hidden-print">
-        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="/experimental/departmental-plans-ministeriels/pm-en-un-coup-doeil.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md">Lire un résumé du rapport complet sur les résultats</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
+        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimer cette page</a>
         </p>
     </div>
     <div>
@@ -46,10 +47,98 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <p>[Inclure les renseignements sur les droits d’auteur formatés pour le Web (échantillon: © Sa Majesté le Roi du chef du Canada, représenté par le ministre de [appellation légale du ministère], [année de publication], [ISSN])]</p>
         </details>
     </div>
+    <section><!--En un coup d'oeil open-->
+        <h2 id="toc01">En un coup d'oeil</h2>
+        <p>Un Plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices.</p>
+        <ul>
+            <li>Vision, mission, raison d'être et contexte opérationnel</li>
+            <li>Lettre de mandat du ministre</li>
+        </ul>
+        <hr>
+        <div>
+            <h3>Priorités du ministère</h3>
+            <p>[Insérez le texte de la section « Priorités absolues » du gabarit Word]</p>
+            <ul>
+                <li>[élément&nbsp;1 de la liste à puces]; </li>
+                <li>[élément&nbsp;2 de la liste à puces]; </li>
+                <li>[élément&nbsp;3 de la liste à puces]. </li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <h3>Faits saillants</h3>
+            <p>[Insérer le texte de la section « Faits saillants »]</p>
+            <div id="cores">
+                <div class="btn-group mrgn-bttm-md">
+                    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
+                    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
+                </div>
+                <ul class="list-unstyled">
+                    <li>
+                        <details>
+                            <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 1: [Insérer le nom de la responsabilité essentielle.]</summary>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li><strong>Dépenses prévues :</strong> [Insérer le montant] </li>
+                                    <li><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</li>
+                                    <li><strong>Résultats ministériels :</strong>
+                                        <ul>
+                                            <li>[Élément 1 de la liste à puces];</li>
+                                            <li>[Élément 2 de la liste à puces];</li>
+                                            <li>[Élément 3 de la liste à puces].</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 2: [Insérer le nom de la responsabilité essentielle.]</summary>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li><strong>Dépenses prévues :</strong> [Insérer le montant]</li>
+                                    <li><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</li>
+                                    <li><strong>Résultats ministériels :</strong>
+                                        <ul>
+                                            <li>[Élément 1 de la liste à puces];</li>
+                                            <li>[Élément 2 de la liste à puces];</li>
+                                            <li>[Élément 3 de la liste à puces].</li>
+                                        </ul>
+                                    </li>
+                                </ul>     
+                                <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>   
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary class="wb-toggle" data-toggle='{"print":"on"}'>Responsabilité essentielle 3: [Insérer le nom de la responsabilité essentielle.]</summary>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li><strong>Dépenses prévues :</strong> [Insérer le montant] </li>
+                                    <li><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</li>
+                                    <li><strong>Résultats ministériels :</strong>
+                                        <ul>
+                                            <li>[Élément 1 de la liste à puces];</li>
+                                            <li>[Élément 2 de la liste à puces];</li>
+                                            <li>[Élément 3 de la liste à puces].</li>
+                                        </ul>
+                                    </li>
+                                </ul>    
+                                <p>Vous trouverez de plus amples renseignements sur <a href="#">[nom de la responsabilité essentielle]</a> [hyperlien menant vers le plan complet, responsabilité essentielle&nbsp;1, section sur les progrès à l&rsquo;égard des résultats] dans le plan complet.</p>
+                            </div>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!--En un coup d'oeil open-->
     <section><!--message du/de la ministre open-->
         <div class="row">
             <div class="col-xs-12 col-md-8">
-              <h2 id="toc01">Message du/de la ministre</h2>
+              <h2 id="toc01a">Message du/de la ministre</h2>
               <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
             </div>
             <div class="col-xs-12 col-md-4">
