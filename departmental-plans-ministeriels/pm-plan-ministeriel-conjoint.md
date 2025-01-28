@@ -12,7 +12,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
     <section><!--sur cette page open-->
         <h2>Sur cette page</h2>
         <ul>
-            <li><a href="#toc01">Message du/de la ministre</a></li>
+            <li><a href="#toc01">En un coup d'oeil</a></li>
             <li><a href="#toc01a">Message du/de la ministre</a></li>
             <li><a href="#toc01b">Message de l’administrateur général/de l’administratrice générale </a> (*facultatif)</li>
             <li><a href="#toc02">Plans pour assurer les responsabilités essentielles et les services internes</a>
