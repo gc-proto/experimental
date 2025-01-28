@@ -82,8 +82,8 @@ title: "[Name of organization]’s [fiscal year] Departmental Results Report: At
                         <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
                         <div>
                             <ul>
-                                <li><strong>Actual spending:</strong> [Insert amount]</p>
-                                <li><strong>Actual human resources:</strong> [Insert number]</p>
+                                <li><strong>Actual spending:</strong> [Insert amount]</li>
+                                <li><strong>Actual human resources:</strong> [Insert number]</li>
                                 <li><strong>Results - what we achieved:</strong>
                                     <ul>
                                         <li>[insert bulleted list item 1]</li>
