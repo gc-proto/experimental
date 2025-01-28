@@ -12,7 +12,8 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
     <section><!--On this page open-->
         <h2>On this page</h2>
         <ul>
-            <li><a href="#toc01">From the Minister</a></li>
+            <li><a href="#toc01">At a glance</a></li>
+            <li><a href="#toc01a">From the Minister</a></li>
             <li><a href="#toc01b">From the Institutional Head</a> (*optional)</li>
             <li><a href="#toc02">Plans to deliver on core responsibilities and internal services</a>
                 <ul>
@@ -37,7 +38,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
         </ul>
     </section><!--On this page close-->
     <div class="hidden-print">
-        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="/experimental/departmental-plans-ministeriels/dp-at-glance.html" class="btn btn-primary btn-lg mrgn-rght-md mrgn-bttm-md">Read a summary of the Departmental Plan</a><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
+        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
     </div>
     <div>
         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -45,10 +46,93 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
             <p>[Include copyright information formatted for web (sample: © His Majesty the King in Right of Canada, as represented by the Minister of [legal name of department], [year of publication], ISSN: [#######])]</p>
         </details>
     </div>
+    <section><!--At a glance-->
+    <h2 id="toc01">At a glance</h2>
+        <p>A departmental plan describes a department&rsquo;s priorities, plans and associated costs for the upcoming three fiscal years.</p>
+        <ul>
+            <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
+            <li>[Minister name]&#8217;s mandate letter</li>
+        </ul>
+        <div class="mrgn-tp-lg">
+            <p><a href="/experimental/departmental-plans-ministeriels/dp-full-page.html" class="btn btn-primary btn-lg">Read the full departmental plan</a>
+                <span class="wb-toggle" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}"></span>
+            </p>
+        </div>
+        <hr>
+        <section>
+            <h3>Key priorities</h3>
+            <p>[Department name]’s top priorities for [insert fiscal year] are as follows:</p>
+            <ul>
+                <li>[insert bulleted list item 1]</li>
+                <li>[insert bulleted list item 2]</li>
+                <li>[insert bulleted list item 3]</li>
+            </ul>
+        </section>
+        <hr>
+        <div>
+            <h3>Highlights</h3>
+            <p>[Insert text from the Highlights section]</p>
+            <div id="cores">
+                <ul class="list-unstyled">
+                    <li>
+                        <details>
+                            <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 1</summary>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li><strong>Planned spending:</strong> [Insert amount]</li>
+                                    <li><strong>Planned human resources:</strong> [Insert amount]</li>
+                                    <li><strong>Departmental results:</strong>
+                                        <ul>
+                                            <li>[Insert bullet list item 1]</li>
+                                        </ul>
+                                    </li>    
+                                </ul>    
+                                <p>More information about [name of core responsibility] [hyperlink to the full plan, core responsibility 1, progress on results section] can be found in the full plan.</p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 2</summary>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li><strong>Planned spending:</strong> [Insert amount]</li>
+                                    <li><strong>Planned human resources:</strong> [Insert amount]</li>
+                                    <li><strong>Departmental results:</strong>
+                                        <ul>
+                                            <li>[Insert bullet list item 1]</li>
+                                        </ul>
+                                    </li>    
+                                </ul>
+                                <p>More information about [name of core responsibility] [hyperlink to the full plan, core responsibility 1, progress on results section] can be found in the full plan.</p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary class="wb-toggle" data-toggle='{"print":"on"}'>Name of core responsibility 3</summary>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li><strong>Planned spending:</strong> [Insert amount]</li>
+                                    <li><strong>Planned human resources:</strong> [Insert amount]</li>
+                                    <li><strong>Departmental results:</strong>
+                                        <ul>
+                                            <li>[Insert bullet list item 1]</li>
+                                        </ul>
+                                    </li>    
+                                </ul>    
+                                <p>More information about [name of core responsibility] [hyperlink to the full plan, core responsibility 1, progress on results section] can be found in the full plan.</p>
+                            </div>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!--At a glance close-->
     <section><!--From the Minister open-->
       <div class="row">
        <div class="col-xs-12 col-md-8">
-          <h2 id="toc01">From the Minister</h2>
+          <h2 id="toc01a">From the Minister</h2>
           <p>[Message from the Minister; don’t include a signature in the web version]</p>
         </div>
         <div class="col-xs-12 col-md-4">
