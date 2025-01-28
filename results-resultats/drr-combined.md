@@ -38,7 +38,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         </ul>
     </section><!--on this page close-->
     <div class="hidden-print">
-        <p class="mrgn-tp-lg mrgn-bttm-lg"><span class="glyphicon glyphicon-print" aria-hidden="true"></span><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
+        <p class="mrgn-tp-lg mrgn-bttm-lg"><a href="#" onclick="window.print()" class="btn btn-default btn-lg mrgn-bttm-md"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print this page</a></p>
     </div>
     <div>
         <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -67,10 +67,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             <h3>Highlights</h3>
             <p>[Insert text from the Highlights section]</p>
             <div id="cores">
-                <div class="btn-group mrgn-bttm-md">
-                    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
-                    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#cores&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
-                </div>
                 <ul class="list-unstyled">
                     <li>
                         <details>
