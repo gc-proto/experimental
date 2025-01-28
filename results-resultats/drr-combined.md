@@ -47,14 +47,13 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         </details>
     </div>
     <section><!--at a glance open-->
-        <h2 id="toc01a">At a glance</h2>
+        <h2 id="toc01"></h2>
         <p>A departmental results report provides an account of actual accomplishments against plans, priorities and expected results set out in the associated <a href="/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental Plan</a>.</p>
         <ul>
             <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
             <li>Minister’s mandate letter (optional)</li>
         </ul>
-        <hr>
-        <section>
+        <div>
             <h2>Key priorities</h2>
             <p>[Department acronym]’s top priorities for [insert fiscal year] were as follows</p>
             <ul>
@@ -63,9 +62,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 <li>[insert bulleted list item 3]</li>
             </ul>
             <p>[Insert any text on how the organization contributed to refocused government spending]</p>
-        </section>
-        <hr>
-        <section>
+        </div>
+        <div>
             <h2>Highlights</h2>
             <p>[Insert text from the Highlights section]</p>
             <div id="cores">
@@ -133,7 +131,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     </li>
                 </ul>
             </div>
-        </section>
+        </div>
     </section><!--at a glance close-->
     <section><!--Minister message open-->
       <div class="row">
