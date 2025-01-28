@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-full-page.html"
+altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-combined.html"
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"

@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-complet.html"
+altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-conjoint.html"
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"

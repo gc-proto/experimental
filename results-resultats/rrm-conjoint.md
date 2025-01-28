@@ -1,5 +1,5 @@
 ---
-altLangPage: "https://test.canada.ca/experimental/results-resultats/drr-full-page.html"
+altLangPage: "https://test.canada.ca/experimental/results-resultats/drr-combined.html"
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
