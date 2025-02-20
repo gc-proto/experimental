@@ -8,6 +8,9 @@ language: en
 layout: default
 title: "[Department name]'s [insert fiscal year] Departmental results report"
 ---
+<div><!--Opening div open-->
+    <p>A departmental results report provides an account of actual accomplishments against plans, priorities and expected results set out in the associated <a href="/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental Plan</a>.</p>
+</div><!--Opening div close-->
 <div class="parbase section"><!--Main page div-->
     <section><!--on this page open-->
         <h2>On this page</h2>
@@ -48,11 +51,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </div>
     <section><!--at a glance open-->
         <h2 id="toc01">At a glance</h2>
-        <p>A departmental results report provides an account of actual accomplishments against plans, priorities and expected results set out in the associated <a href="/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental Plan</a>.</p>
-        <ul>
-            <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
-            <li>Minister’s mandate letter (optional)</li>
-        </ul>
         <div>
             <h3>Key priorities</h3>
             <p>[Department acronym]’s top priorities for [insert fiscal year] were as follows</p>

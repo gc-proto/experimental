@@ -8,6 +8,9 @@ language: en
 layout: default
 title: "[Department name]'s [insert fiscal year] Departmental plan"
 ---
+<div><!--Opening div open-->
+    <p>A departmental plan describes a department&rsquo;s priorities, plans and associated costs for the upcoming three fiscal years.</p>
+</div><!--Opening div close-->
 <div class="parbase section"><!--Main page div-->
     <section><!--On this page open-->
         <h2>On this page</h2>
@@ -48,11 +51,6 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
     </div>
     <section><!--At a glance-->
     <h2 id="toc01">At a glance</h2>
-        <p>A departmental plan describes a department&rsquo;s priorities, plans and associated costs for the upcoming three fiscal years.</p>
-        <ul>
-            <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
-            <li>[Minister name]&#8217;s mandate letter</li>
-        </ul>
         <div>
             <h3>Key priorities</h3>
             <p>[Department name]’s top priorities for [insert fiscal year] are as follows:</p>

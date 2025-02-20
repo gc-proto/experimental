@@ -8,6 +8,9 @@ language: fr
 layout: default
 title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 ---
+<div><!--Opening div open-->
+    <p>Un Plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices.</p>
+</div><!--Opening div close-->
 <div class="parbase section"><!--Main page div-->
     <section><!--sur cette page open-->
         <h2>Sur cette page</h2>
@@ -49,12 +52,6 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
     </div>
     <section><!--En un coup d'oeil open-->
         <h2 id="toc01">En un coup d'oeil</h2>
-        <p>Un Plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices.</p>
-        <ul>
-            <li>Vision, mission, raison d'être et contexte opérationnel</li>
-            <li>Lettre de mandat du ministre</li>
-        </ul>
-        <hr>
         <div>
             <h3>Priorités du ministère</h3>
             <p>[Insérez le texte de la section « Priorités absolues » du gabarit Word]</p>
