@@ -214,8 +214,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                         </ul>
                                     </td>
                                     <td data-label="Target">[Insert the date]</td>
-                                    <td data-label="Date to achieve target">[Insert the target]</div>
-                                    </td>
+                                    <td data-label="Date to achieve target">[Insert the target]</td>
                                 </tr>
                                 <tr>
                                     <td data-label="Departmental Result Indicators" class="text-left">[Insert indicator]</td>
@@ -599,8 +598,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                         <tr>
                                             <td data-label="Core responsibilities and internal services" class="text-left">[Insert name of core responsibility 1]</td>
                                             <td data-label="[Fiscal year] Gross planned spending">[Insert amount] </td>
-                                            <td data-label="[Fiscal year] Planned revenues netted against spending">[Insert amount]</div>
-                                            </td>
+                                            <td data-label="[Fiscal year] Planned revenues netted against spending">[Insert amount]</td>
                                             <td data-label="[Fiscal year] Planned net spending (authorities used)">[Insert amount]</td>
                                         </tr>
                                         <tr>
@@ -618,8 +616,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                         <tr>
                                             <td data-label="Core responsibilities and internal services" class="text-left">Internal services</td>
                                             <td data-label="[Fiscal year] Gross planned spending">[Insert amount] </td>
-                                            <td data-label="[Fiscal year] Planned revenues netted against spending">[Insert amount]</div>
-                                            </td>
+                                            <td data-label="[Fiscal year] Planned revenues netted against spending">[Insert amount]</td>
                                             <td data-label="[Fiscal year] Planned net spending (authorities used)">[Insert amount]</td>
                                         </tr>
                                         <tr class="active">
@@ -769,8 +766,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td data-label="Core responsibilities and internal services" class="text-left">[Insert name of core responsibility 1]</div>
-                                                </td>
+                                                <td data-label="Core responsibilities and internal services" class="text-left">[Insert name of core responsibility 1]</td>
                                                 <td data-label="[Fiscal year] actual full-time equivalents">[Insert number]</td>
                                                 <td data-label="[Fiscal year] actual full-time equivalents">[Insert number]</td>
                                                 <td data-label="[Fiscal year] actual full-time equivalents">[Insert number]</td>
