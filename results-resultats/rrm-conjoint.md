@@ -10,6 +10,10 @@ title: "Rapport sur les résultats ministériels [insérer l’exercice] de [nom
 ---
 <div><!--Opening div open-->
     <p>Un rapport sur les résultats ministériels fournit un compte rendu des réalisations réelles par rapport aux plans, aux priorités et aux résultats attendus énoncés dans le <a href="/experimental/departmental-plans-ministeriels/rrm-en-un-coup-doeil.html">plan ministériel</a> connexe&nbsp;[hyperlien menant vers le plan ministériel].</p>
+    <ul>
+        <li>Vision, mission, raison d&rsquo;être et contexte opérationnel</li>
+        <li>Lettre de mandat du ou de la ministre (facultatif)</li>
+    </ul>
 </div><!--Opening div close-->
 <div class="parbase section"><!--Main page div-->
     <section><!--sur cette page open-->

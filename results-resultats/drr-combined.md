@@ -10,6 +10,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 ---
 <div><!--Opening div open-->
     <p>A departmental results report provides an account of actual accomplishments against plans, priorities and expected results set out in the associated <a href="/experimental/departmental-plans-ministeriels/dp-at-glance.html">Departmental Plan</a>.</p>
+    <ul>
+        <li>Vision, mission, raison d&#8217;&ecirc;tre and operating context</li>
+        <li>Minister’s mandate letter (optional)</li>
+    </ul>
 </div><!--Opening div close-->
 <div class="parbase section"><!--Main page div-->
     <section><!--on this page open-->
