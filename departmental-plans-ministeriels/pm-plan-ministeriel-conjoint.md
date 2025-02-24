@@ -10,6 +10,10 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
 ---
 <div><!--Opening div open-->
     <p>Un Plan ministériel décrit les priorités, les plans et les coûts associés d'un ministère pour les trois prochains exercices.</p>
+    <ul>
+        <li>Vision, mission, raison d'être et contexte opérationnel</li>
+        <li>Lettre de mandat du ministre</li>
+    </ul>
 </div><!--Opening div close-->
 <div class="parbase section"><!--Main page div-->
     <section><!--sur cette page open-->
