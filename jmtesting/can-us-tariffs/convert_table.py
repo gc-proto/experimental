@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import re
+import sys
 
 def convert_table_row(html_string):
     # Parse the HTML
@@ -55,39 +55,49 @@ def convert_table_row(html_string):
     # Return the formatted row with proper indentation
     return new_row.prettify()
 
-def convert_entire_table(html_file_path, output_file_path):
-    with open(html_file_path, 'r', encoding='utf-8') as file:
-        html_content = file.read()
+def convert_entire_table(input_file_path, output_file_path):
+    try:
+        with open(input_file_path, 'r', encoding='utf-8') as file:
+            html_content = file.read()
+        
+        # Extract all tr elements
+        soup = BeautifulSoup(html_content, 'html.parser')
+        all_rows = soup.find_all('tr')
+        
+        print(f"Found {len(all_rows)} rows to convert")
+        
+        converted_rows = []
+        for i, row in enumerate(all_rows):
+            converted_row = convert_table_row(str(row))
+            converted_rows.append(converted_row)
+            if (i+1) % 100 == 0:
+                print(f"Converted {i+1} rows...")
+        
+        # Combine all converted rows
+        table_html = f"<table>\n{''.join(converted_rows)}\n</table>"
+        
+        # Write to output file
+        with open(output_file_path, 'w', encoding='utf-8') as file:
+            file.write(table_html)
+        
+        return f"Successfully converted {len(all_rows)} rows and saved to {output_file_path}"
     
-    # Extract all tr elements
-    soup = BeautifulSoup(html_content, 'html.parser')
-    all_rows = soup.find_all('tr')
-    
-    converted_rows = []
-    for row in all_rows:
-        converted_row = convert_table_row(str(row))
-        converted_rows.append(converted_row)
-    
-    # Combine all converted rows
-    table_html = f"<table>\n{''.join(converted_rows)}\n</table>"
-    
-    # Write to output file
-    with open(output_file_path, 'w', encoding='utf-8') as file:
-        file.write(table_html)
-    
-    return f"Converted {len(all_rows)} rows and saved to {output_file_path}"
+    except Exception as e:
+        return f"Error: {str(e)}"
 
-# Example usage for a single row
-sample_row = """
-<tr>
-    <th scope="row" class="fnt-nrml"><p>0105.11.22</p></th>
-    <td><p>Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls.</p></td>
-    <td><ul class="text-left"><li>Weighing not more than 185&nbsp;g: Fowls of the species Gallus domesticus</li><li>Broilers for domestic production: Over access commitment</li></ul></td>
-</tr>
-"""
-
-# Test the conversion on the sample row
-print(convert_table_row(sample_row))
-
-# To convert an entire file:
-# print(convert_entire_table("input_table.html", "converted_table.html"))
+# Main execution
+if __name__ == "__main__":
+    if len(sys.argv) == 3:
+        # If command-line arguments are provided
+        input_file = sys.argv[1]
+        output_file = sys.argv[2]
+        print(f"Converting {input_file} to {output_file}...")
+        result = convert_entire_table(input_file, output_file)
+        print(result)
+    else:
+        # Ask for input and output files
+        input_file = input("Enter path to input HTML file: ")
+        output_file = input("Enter path for output HTML file: ")
+        print(f"Converting {input_file} to {output_file}...")
+        result = convert_entire_table(input_file, output_file)
+        print(result)
