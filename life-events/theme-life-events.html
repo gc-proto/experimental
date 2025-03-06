@@ -15,6 +15,74 @@
 <meta name="dcterms.subject" content=""/>
 <meta name="dcterms.issued" content=""/>
 <meta name="dcterms.modified" content="2024-08-27"/>
+<script>
+// This script only runs in Safari
+if (/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
+  document.addEventListener('DOMContentLoaded', function () {
+    const lists = document.querySelectorAll('.colcount-sm-2, .colcount-md-3');
+
+    function applyLayout() {
+      lists.forEach(list => {
+        const items = Array.from(list.querySelectorAll('li'));
+        const totalItems = items.length;
+
+        list.style.cssText = 'display: block; position: relative; height: auto;';
+        items.forEach(item => {
+          item.style.cssText = 'position: static; width: auto; left: auto; top: auto;';
+        });
+
+        if (totalItems === 0) return;
+
+        // Determine columns based on screen width
+        let columns = 1; // Default for mobile
+        if (window.innerWidth >= 1024) {
+          columns = 3; // Desktop
+        } else if (window.innerWidth >= 768) {
+          columns = 2; // Tablet
+        }
+
+        // Calculate individual item heights with 12px gap
+        const itemHeights = items.map(item => item.getBoundingClientRect().height + 12);
+
+        // Calculate number of items per column
+        const itemsPerCol = Math.ceil(totalItems / columns);
+
+        // Track column heights
+        let columnHeights = new Array(columns).fill(0);
+
+        // Position items in newspaper layout
+        items.forEach((item, index) => {
+          const col = Math.floor(index / itemsPerCol);
+          const row = index % itemsPerCol;
+
+          item.style.position = 'absolute';
+          item.style.width = (100 / columns) + '%';
+          item.style.boxSizing = 'border-box';
+          item.style.paddingRight = '15px';
+          item.style.left = (col * (100 / columns)) + '%';
+
+          let top = columnHeights[col];
+          item.style.top = top + 'px';
+          columnHeights[col] += itemHeights[index];
+        });
+
+        // Set container height to the tallest column
+        const maxHeight = Math.max(...columnHeights);
+        list.style.height = maxHeight + 'px';
+      });
+    }
+
+    applyLayout();
+
+    // Re-apply layout on window resize
+    window.addEventListener('resize', function () {
+      clearTimeout(window.resizeTimer);
+      window.resizeTimer = setTimeout(applyLayout, 250);
+    });
+  });
+}
+
+</script>
 
 <link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
 <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
