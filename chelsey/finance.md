@@ -15,11 +15,6 @@ description: The GoC signature in the new content pattern
 en: GoC signature 
 dateModified: 2022-12-06
 --- 
- <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-            
-            <div class="mwsgeneric-base-html parbase section">
-
-
 
         <div class="container">
         <section>
@@ -408,21 +403,5 @@ dateModified: 2022-12-06
 
 
 </div>
-
-
-            <section class="pagedetails container">
-    <h2 class="wb-inv">Page details</h2>
-    <div class="row">
-        <div class="col-sm-8 col-md-9 col-lg-9">
-            <div class="wb-disable-allow" data-ajax-replace="/etc/designs/canada/wet-boew/assets/feedback/page-feedback-en.html">
-            </div>
-        </div>
-	</div>
-        <dl id="wb-dtmd">
-    <dt>Date modified:</dt>
-    <dd><time property="dateModified">2025-04-28</time></dd>
-</dl>
-</section>
-
         </main>
   
