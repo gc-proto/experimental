@@ -15,7 +15,9 @@ description: The GoC signature in the new content pattern
 en: GoC signature 
 dateModified: 2022-12-06
 --- 
-
+ <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+            
+            <div class="mwsgeneric-base-html parbase section">
         <div class="container">
         <section>
             <div class="row">
