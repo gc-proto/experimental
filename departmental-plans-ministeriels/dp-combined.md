@@ -891,7 +891,7 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                          </div>
                         </details>
                         <details class="acc-group brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                            <summary class="wb-toggle tgl-tab" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Departmental contact information</summary>
+                            <summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Departmental contact information</summary>
                              <div class="tgl-panel">
                             <section>
                                 <h3>Mailing address:</h3>
