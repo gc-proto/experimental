@@ -372,19 +372,16 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
         </section><!--Responsabilités essentielles ressources prevus close-->
         <section><!--Services internes open-->
             <h3 id="toc02-5">Services internes</h3>
-            <ul class="list-unstyled">
-                <li>
-                    <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
-                        <ul>
-                            <li><a href="#toc02-5-1">Description</a></li>
-                            <li><a href="#toc02-5-2">Plans visant à atteindre les cibles</a></li>
-                            <li><a href="#toc02-5-3">Ressources prévues pour atteindre les résultats</a></li>
-                            <li><a href="">[RÉSERVÉ à toute autre priorité gouvernementale]</a></li>
-                        </ul>
-                    </details>
-                </li>
-            </ul>
+            
+            <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Dans la présente section</summary>
+                <ul>
+                    <li><a href="#toc02-5-1">Description</a></li>
+                    <li><a href="#toc02-5-2">Plans visant à atteindre les cibles</a></li>
+                    <li><a href="#toc02-5-3">Ressources prévues pour atteindre les résultats</a></li>
+                    <li><a href="">[RÉSERVÉ à toute autre priorité gouvernementale]</a></li>
+                </ul>
+            </details>
             <section><!--Services internes description open-->
                 <h4 is="toc02-5-1">Description</h4>
                 <p>Les services internes sont les services fournis au sein d’un ministère afin qu’il puisse s’acquitter de ses obligations et assurer la prestation de ses programmes. Les dix catégories de services internes sont les suivantes :</p>
