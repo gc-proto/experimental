@@ -865,7 +865,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
             <section><!--Renseignements ministériels open-->
                 <h2 id="toc04">Renseignements ministériels</h2>
                 <div class="accordion">
-                    <details class="acc-group print-open">
+                    <details class="acc-group brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Profil du ministère</summary>
                         <div class="tgl-panel">
                             <section>
@@ -894,7 +894,7 @@ title: "Plan ministériel [insérer l’exercice] de [nom du ministère]"
                             </section>
                         </div>
                     </details>
-                    <details class="acc-group print-open">
+                    <details class="acc-group brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Coordonnées du ministère</summary>
                         <div class="tgl-panel">
                             <section>
