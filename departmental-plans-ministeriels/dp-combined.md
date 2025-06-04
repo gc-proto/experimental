@@ -860,9 +860,11 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
               </section><!--Planned spending and human resources close-->
               <section><!--Corporate information open-->
                         <h2 id="toc04">Corporate information</h2>
-                        <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                            <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Departmental profile</summary>
-                            <section>
+                        <div class="accordion">
+                    <details class="acc-group brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                        <summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Departmental profile</summary>
+                         <div class="tgl-panel">    
+                        <section>
                                 <h3>Appropriate minister(s):</h3>
                                 <p>[insert name(s)]</p>
                             </section>
@@ -886,9 +888,11 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                 <h3>Other:</h3>
                                 <p>[insert other information]</p>
                             </section>
+                         </div>
                         </details>
-                        <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                            <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Departmental contact information</summary>
+                        <details class="acc-group brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                            <summary class="wb-toggle tgl-tab" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Departmental contact information</summary>
+                             <div class="tgl-panel">
                             <section>
                                 <h3>Mailing address:</h3>
                                 <p>[insert address]</p>
@@ -913,7 +917,9 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                                 <h3>Website(s):</h3>
                                 <p>[insert URL(s)]</p>
                             </section>
+                             </div>
                         </details>
+                        </div>
                     </section><!--Corporate information close-->
                     <section><!--Supplementary information tables open-->
                         <h2 id="toc05">Supplementary information tables</h2>
@@ -927,7 +933,8 @@ title: "[Department name]'s [insert fiscal year] Departmental plan"
                     </section><!--Supplementary information tables close-->
                     <section><!--Federal tax expenditures open-->
                         <h2 id="toc06">Federal tax expenditures</h2>
-                        <p>[Department name]’s Departmental Plan does not include information on tax expenditures. The tax system can be used to achieve public policy objectives through the application of special measures such as low tax rates, exemptions, deductions, deferrals and credits. The Department of Finance Canada publishes cost estimates and projections for these measures each year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>.</p>
+                        <p>[Department name]’s Departmental Plan does not include information on tax expenditures.</p>
+                        <p>The tax system can be used to achieve public policy objectives through the application of special measures such as low tax rates, exemptions, deductions, deferrals and credits. The Department of Finance Canada publishes cost estimates and projections for these measures each year in the <a href="https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html">Report on Federal Tax Expenditures</a>.</p>
                         <p>This report also provides detailed background information on tax expenditures, including descriptions, objectives, historical information and references to related federal spending programs as well as evaluations and GBA Plus of tax expenditures.</p>
                     </section><!--Federal tax expenditures close-->
                     <section><!--definitions open-->
