@@ -31,6 +31,35 @@ title: "Breadcrumb trail"
 	<p>January 31, 2025 was the last day to apply for the Canada Greener Lawns Benefit.</p>
 </section>
 <p>This is a mockup of the future state of the Breadcrumb trail pattern.</p>
+<section class="gc-srvinfo">
+	<h2>Services and information</h2>
+	<div class="wb-eqht row">
+		<div class="col-md-6 col-lg-4">
+			<h3><a href="#">[Maintain your home]</a></h3>
+			<p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+		</div>
+		<div class="col-md-6 col-lg-4">
+			<h3><a href="#">[Canada Greener Lawns Benefit]</a></h3>
+			<p>This benefit can help you enhance flora and fauna.</p>
+		</div>
+		<div class="col-md-6 col-lg-4">
+			<h3><a href="#">[Outdoor maintenance]</a></h3>
+			<p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+		</div>
+		<div class="col-md-6 col-lg-4">
+			<h3><a href="#">[Hyperlink text]</a></h3>
+			<p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+		</div>
+		<div class="col-md-6 col-lg-4">
+			<h3><a href="#">[Hyperlink text]</a></h3>
+			<p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+		</div>
+		<div class="col-md-6 col-lg-4">
+			<h3><a href="#">[Hyperlink text]</a></h3>
+			<p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+		</div>
+	</div>
+</section>
 <p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
 <h2>Way they coded</h2>
 <div class="row mrgn-tp-xl">
