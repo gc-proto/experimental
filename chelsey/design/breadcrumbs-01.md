@@ -39,7 +39,7 @@ title: "Breadcrumb trail"
 			<p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
 		</div>
 		<div class="col-md-6 col-lg-4">
-			<h3><a href="#">[Canada Greener Lawns Benefit]</a></h3>
+			<h3><a href="#">[Canada Greener Lawns Benefit]</a></h3><span class="label label-warning">Status: This program is closing soon</span>
 			<p>This benefit can help you enhance flora and fauna.</p>
 		</div>
 		<div class="col-md-6 col-lg-4">
