@@ -24,8 +24,8 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Breadcrumb trail"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked">Closed: Canada Greener Lawns Benefit</span></h1>
-<p><span class="label label-danger">Status: This benefit is closed</span></p>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked">Canada Greener Lawns Benefit</span></h1>
+<p><span class="label label-warning">Status: This program is closing soon</span></p>
 <section class="alert alert-warning">
 	<h3>You can no longer apply</h3>
 	<p>January 31, 2025 was the last day to apply for the Canada Greener Lawns Benefit.</p>
