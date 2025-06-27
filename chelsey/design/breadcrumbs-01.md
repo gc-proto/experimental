@@ -24,8 +24,12 @@ layout: without-h1
 pageclass: cnt-wdth-lmtd
 title: "Breadcrumb trail"
 ---
-<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked">Closed: Canada Housing Benefit</span></h1>
+<h1 property="name" id="wb-cont" dir="ltr"><span class="stacked">Closed: Canada Greener Lawns Benefit</span></h1>
 <p><span class="label label-danger">Status: This benefit is closed</span></p>
+<section class="alert alert-warning">
+	<h3>You can no longer apply</h3>
+	<p>January 31, 2025 was the last day to apply for the Canada Greener Lawns Benefit.</p>
+</section>
 <p>This is a mockup of the future state of the Breadcrumb trail pattern.</p>
 <p>The breadcrumb trail is a horizontal series of links that gives people a sense of where they are in relation to Canada.ca’s navigation model.  It represents the location of a page in relation to its parent and provides a clear way to navigate to higher levels in the site structure.</p>
 <h2>Way they coded</h2>
