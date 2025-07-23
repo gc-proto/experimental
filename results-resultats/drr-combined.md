@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-conjoint
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2025-07-22
+dateModified: 2025-07-23
 language: en
 layout: default
 title: "[Department name]'s [insert fiscal year] Departmental results report"
@@ -54,7 +54,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     <section>
         <!--at a glance open-->
         <h2 id="toc01">At a glance</h2>
-        <p>A departmental results report details [department&#8217;s name]&#8217;s actual accomplishments against plans, priorities and expected results outlined in its [fiscal year]&#160;associated <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-combined.html">Departmental Plan</a> [hyperlink to associated Departmental Plan].</p>
+        <p>A departmental results report details [department&#8217;s name]&#8217;s actual accomplishments against plans, priorities and expected results outlined in its [fiscal year]&#160;<a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/dp-combined.html">Departmental Plan</a> [hyperlink to associated Departmental Plan].</p>
         <ul>
             <li>Vision, mission, raison d&#8217;être and operating context [hyperlink each page, as applicable]</li>
         </ul>
@@ -85,7 +85,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 									<li><strong>Actual full-time equivalent staff:</strong> [Insert number]</li>
                                 </ul>
                                 <p>[insert summary of results achieved under this core responsibility]</p>
-								<p>For more information on [department name]&#8217;s <a href="https://test.canada.ca/experimental/results-resultats/drr-combined.html">[name of core responsibility]</a> [hyperlink to full plan, core responsibility 1, progress on results section] read the "Results - what we achieved&#8221; section of its full departmental results report.</p>
+								<p>For more information on [department name]&#8217;s <a href="https://test.canada.ca/experimental/results-resultats/drr-combined.html">[name of core responsibility]</a> [hyperlink to full plan, core responsibility 1, progress on results section] read the "Results - what we achieved&#8221; section of its departmental results report.</p>
                             </section>
                         </details>
                     </li>
@@ -98,7 +98,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 									<li><strong>Actual full-time equivalent staff:</strong> [Insert number]</li>
                                 </ul>
                                 <p>[insert summary of results achieved under this core responsibility]</p>
-								<p>For more information on [department name]&#8217;s <a href="https://test.canada.ca/experimental/results-resultats/drr-combined.html">[name of core responsibility]</a> [hyperlink to full plan, core responsibility 2, progress on results section] read the "Results - what we achieved&#8221; section of its full departmental results report.</p>
+								<p>For more information on [department name]&#8217;s <a href="https://test.canada.ca/experimental/results-resultats/drr-combined.html">[name of core responsibility]</a> [hyperlink to full plan, core responsibility 2, progress on results section] read the "Results - what we achieved&#8221; section of its departmental results report.</p>
                             </section>
                         </details>
                     </li>
@@ -111,7 +111,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 									<li><strong>Actual full-time equivalent staff:</strong> [Insert number]</li>
                                 </ul>
                                 <p>[insert summary of results achieved under this core responsibility]</p>
-								<p>For more information on [department name]&#8217;s <a href="https://test.canada.ca/experimental/results-resultats/drr-combined.html">[name of core responsibility]</a> [hyperlink to full plan, core responsibility 3, progress on results section] read the "Results - what we achieved&#8221; section of its full departmental results report.</p>
+								<p>For more information on [department name]&#8217;s <a href="https://test.canada.ca/experimental/results-resultats/drr-combined.html">[name of core responsibility]</a> [hyperlink to full plan, core responsibility 3, progress on results section] read the "Results - what we achieved&#8221; section of its departmental results report.</p>
                             </section>
                         </details>
                     </li>
@@ -481,7 +481,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             <section>
                 <figure id="fig1">
                     <figcaption class="text-left h4"><strong>Graph [#]: Actual spending by core responsibility in [insert fiscal year] (*optional)</strong></figcaption>
-                    <p>Graph [#] presents how much the Department spent in [insert fiscal year] to carry out core responsibilities and internal services.</p>
+                    <p>Graph [#] presents how much the department spent in [insert fiscal year] to carry out core responsibilities and internal services.</p>
                     <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" alt="[alt text]. Text version below:">
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version of graph [#]</summary>
@@ -601,7 +601,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 </section>
                 <section>
                     <h5 class="h4">Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</h5>
-                    <p>Table [#] shows [Department name]&#8217;s planned spending for each of the next three years onits core responsibilities and for internal services.</p>
+                    <p>Table [#] shows [Department name]&#8217;s planned spending for each of the next three years on its core responsibilities and for internal services.</p>
                     <table id="tbl5" class="table table-bordered">
                         <caption class="h6 text-left wb-inv">Table [#]: Planned three-year spending on core responsibilities and internal services (dollars)</caption>
                         <thead>
@@ -849,7 +849,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     </table>
                 </section>
                 <section>
-                    <h4>Table [#] Condensed Statement of Financial Position (unaudited or audited) as of [insert date] (dollars)</h4>
+                    <h4>Table [#] Condensed Statement of Financial Position (unaudited or audited) as at [insert date] (dollars)</h4>
                     <p>Table [#] provides a brief snapshot of the amounts the department owes or must spend (liabilities) and its available resources (assets), which helps to indicate its ability to carry out programs and services.</p>
                     <table id="tbl9" class="table table-bordered">
                         <caption class="h6 text-left wb-inv">Table provides a brief snapshot of the department&#8217;s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</caption>
@@ -949,13 +949,13 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     </tbody>
                 </table>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of human resources over the last three years</summary>
+                    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of human resources for the last three years</summary>
                     <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
                 </details>
             </section>
             <section>
                 <h4>Table [#]: Human resources planning summary for core responsibilities and internal services</h4>
-                <p>Table [#] shows in the planned full-time equivalents for each of [Department names]'s core responsibilities and for its internal services for the next three years. Human resources for the current fiscal year are forecasted based on year to date.</p>
+                <p>Table [#] shows the planned full-time equivalents for each of [Department names]'s core responsibilities and for its internal services for the next three years. Human resources for the current fiscal year are forecasted based on year to date.</p>
                 <table id="tbl11" class="table table-bordered">
                     <caption class="h6 text-left wb-inv">Table [#]: Human resources planning summary for core responsibilities and internal services</caption>
                     <thead>
@@ -1095,7 +1095,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     <section>
         <!--Definitions open-->
         <h2 id="toc08">Definitions</h2>
-        <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">List of terms
+        <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open"><summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">List of terms</summary>
         <dl>
             <dt>appropriation&#160;<span lang="fr">(crédit)</span></dt>
             <dd>Any authority of Parliament to pay money out of the Consolidated Revenue Fund.</dd>
