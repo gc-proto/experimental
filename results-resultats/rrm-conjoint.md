@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/drr-combined
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2025-07-22
+dateModified: 2025-07-23
 language: fr
 layout: default
 title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de [nom du ministère]"
@@ -54,7 +54,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
     <section>
         <!--en un coup d'oeil open-->
         <h2 id="toc01">En un coup d'oeil</h2>
-        <p>Le présent rapport sur les résultats ministériels présente les réalisations réelles par rapport aux plans, aux priorités et aux résultats attendus énoncés dans son <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-conjoint.html">plan ministériel</a>&#160;[hyperlien menant vers le plan ministériel].</p>
+        <p>Le présent rapport sur les résultats ministériels présente les réalisations réelles de [nom du ministère] par rapport aux plans, aux priorités et aux résultats attendus énoncés dans son <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-conjoint.html">Plan ministériel pour 2024-2025 </a>&#160;[hyperlien menant vers le plan ministériel].</p>
         <ul>
             <li>Vision, mission, raison d&#8217;être et contexte opérationnel [insérer les hyperliens]</li>
         </ul>
@@ -203,7 +203,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
             <section>
                 <!--responsabilites essentielle progres open-->
                 <h4 id="toc02-1-3">Progrès à l&#8217;égard des résultats</h4>
-                <p>Cette section présente le rendement du ministère par rapport à ses cibles pour chaque résultat ministériel lié à la responsabilité essentielle [insérer le numéro]&#160;: [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel.</p>
+                <p>Cette section présente le rendement du ministère par rapport à ses cibles pour chaque résultat ministériel lié à la responsabilité essentielle [insérer le numéro]&#160;: [inscrire le nom de la responsabilité essentielle].</p>
                 <section>
                     <h5>Tableau [#] : [insérer le nom du résultat ministériel 1]</h5>
                     <p>Le tableau [#] présente la cible, la date d&#8217;atteinte de la cible et le résultat réel obtenu pour chaque indicateur lié à [insérer le nom du résultat ministériel 1] au cours des trois derniers exercices.</p>
@@ -365,7 +365,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                     <p>[Insérer la description].</p>
                 </details>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l&#8217;horizon 2030 et Objectifs de développement durable des Nations Unies</summary>
+                    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Programme de développement durable à l&#8217;horizon 2030 des Nations Unies et Objectifs de développement durable des Nations Unies</summary>
                     <p>[Insérer la description].</p>
                 </details>
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
@@ -477,7 +477,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
             <section>
                 <figure id="fig1">
                     <figcaption class="text-left h4"><strong>Graphique [#]&#160;: Dépenses réelles par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
-                    <p>Le graphique [#] montre les dépenses engagées par le ministère en [exercice] pour s&#8217;acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+                    <p>Le graphique [#] montre les que le ministère a engagées en [exercice] pour s&#8217;acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
                     <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-fr.png" alt="[alt text]. Text version below:">
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary id="fig1-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [numéro]</summary>
@@ -527,7 +527,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                 <h4>Sommaire du rendement budgétaire</h4>
                 <section>
                     <h5 class="h4">Tableau [#]&#160;: Dépenses réelles de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</h5>
-                    <p>Le tableau [#] montre d&#8217;argent que [nom du ministère] a dépensé au cours de chacun des trois derniers exercices pour s&#8217;acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
+                    <p>Le tableau [#] montre l&#8217;argent que [nom du ministère] a dépensé au cours de chacun des trois derniers exercices pour s&#8217;acquitter de ses responsabilités essentielles et assurer la prestation de ses services internes.</p>
                     <table id="tbl4" class="table table-bordered">
                         <caption class="h6 text-left wb-inv">Tableau [#]&#160;: Dépenses réelles de trois exercices pour les responsabilités essentielles et les services internes (en dollars)</caption>
                         <thead>
@@ -552,7 +552,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                                 </td>
                             </tr>
                             <tr>
-                                <td class="text-left">[Inscrire le nom de la responsabilité essentielle 2]</td>
+                                <th class="text-left" scope="row">[Inscrire le nom de la responsabilité essentielle 2]</th>
                                 <td>[Insérer le montant]</td>
                                 <td>[Insérer le montant]</td>
                                 <td>
@@ -564,7 +564,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                                 </td>
                             </tr>
                             <tr class="active">
-                                <td class="text-left">Total partiel</td>
+                                <th class="text-left" scope="row">Total partiel</th>
                                 <td>[Insérer le total partiel]</td>
                                 <td>[Insérer le total partiel]</td>
                                 <td>[Insérer le total partiel]</td>
@@ -668,7 +668,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                                 <td>[Insérer le montant]</td>
                             </tr>
                             <tr>
-                                <td class="text-left" scope="row">[Inscrire le nom de la responsabilité essentielle 2]</td>
+                                <th class="text-left" scope="row">[Inscrire le nom de la responsabilité essentielle 2]</th>
                                 <td>[Insérer le montant]</td>
                                 <td>[Insérer le montant]</td>
                                 <td>[Insérer le montant]</td>
@@ -743,7 +743,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                                     <td>[Insérez le montant]</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left">[Insérez l'exercice]</td>
+                                    <th class="text-left">[Insérez l'exercice]</th>
                                     <td>[Insérez le montant]</td>
                                     <td>[Insérez le montant]</td>
                                     <td>[Insérez le montant]</td>
@@ -786,7 +786,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                             <th class="text-left" scope="col">Renseignements financiers</th>
                             <th class="text-left" scope="col">Résultats réels [exercice]</th>
                             <th class="text-left" scope="col">Résultats prévus [exercice]</th>
-                            <th class="text-left" scope="col">Différence ([exercise] moins [exercise])</th>
+                            <th class="text-left" scope="col">Différence (réels moins prévus)</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -810,6 +810,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                         </tr>
                     </tbody>
                 </table>
+				<p>[Hyperlien vers des informations connexes dans l&#8217;infoBase du GC].</p>
             </section>
             <section>
                 <h4>Tableau [#] : État condensé des résultats (audité ou non audité) pour les exercices [exercice] et [exercice]</h4>
@@ -820,7 +821,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                         <tr class="active">
                             <th class="text-left" scope="col">Renseignements financiers</th>
                             <th class="text-left" scope="col">Résultats réels [exercice]</th>
-                            <th class="text-left" scope="col">Résultats prévus [exercice]</th>
+                            <th class="text-left" scope="col">Résultats réels [exercice]</th>
                             <th class="text-left" scope="col">Différence ([exercise] moins [exercise])</th>
                         </tr>
                     </thead>
@@ -848,7 +849,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
             </section>
             <section>
                 <h4>Tableau [#] État condensé de la situation financière (audité ou non audités) au [insérer la date] (en dollars)</h4>
-                <p>Le tableau [#] fournit un résumé des montants que le ministère doit ou doit dépenser (passif) et de ses ressources disponibles (actifs), ce qui aide à déterminer la capacité du ministère à mettre en œuvre des programmes et des services.</p>
+                <p>Le tableau [#] fournit un résumé des montants que le ministère doit ou doit dépenser (passifs) et de ses ressources disponibles (actifs), ce qui aide à déterminer la capacité du ministère à mettre en œuvre des programmes et des services.</p>
                 <table id="tbl9" class="table table-bordered">
                     <caption class="h6 text-left wb-inv">Tableau [#] État condensé de la situation financière (audité ou non audités) au [insérer la date] (en dollars)</caption>
                     <thead>
@@ -861,7 +862,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                     </thead>
                     <tbody>
                         <tr>
-                            <th class="text-left" scope="row">Total du passif net</th>
+                            <th class="text-left" scope="row">Total des passifs nets</th>
                             <td>[Insérer le montant]</td>
                             <td>[Insérer le montant]</td>
                             <td>[Insérer le montant]</td>
@@ -926,7 +927,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                             <td>[Insérer le montant]</td>
                         </tr>
                         <tr class="active">
-                            <td class="text-left">Total partiel</td>
+                            <th class="text-left">Total partiel</th>
                             <td>[Insérer le total partiel]</td>
                             <td>[Insérer le total partiel]</td>
                             <td>[Insérer le total partiel]</td>
@@ -952,7 +953,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
             </section>
             <section>
                 <h4>Tableau [#]&#160;: Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</h4>
-                <p>Le tableau [#] présente les équivalents temps plein prévus- pour les responsabilités essentielles et les services internes de [nom du ministère] au cours des trois prochains exercices. Les ressources humaines pour l&#8217;exercice en cours sont prévues en fonction des données de l&#8217;exercice à ce jour.</p>
+                <p>Le tableau [#] présente les équivalents temps plein prévus pour les responsabilités essentielles et les services internes de [nom du ministère] au cours des trois prochains exercices. Les ressources humaines pour l&#8217;exercice en cours sont prévues en fonction des données de l&#8217;exercice à ce jour.</p>
                 <table id="tbl11" class="table table-bordered">
                     <caption class="h6 text-left wb-inv">Tableau [#]&#160;: Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</caption>
                     <thead>
