@@ -741,7 +741,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                                     <td>[Insert amount]</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left">[Fiscal year]</td>
+                                    <th class="text-left" scope="row">[Fiscal year]</th>
                                     <td>[Insert amount]</td>
                                     <td>[Insert amount]</td>
                                     <td>[Insert amount]</td>
