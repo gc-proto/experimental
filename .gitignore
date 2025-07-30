@@ -1,6 +1,8 @@
 .DS_store
 DS_store
 vendor/
+private/
 node-modules/
 _site/
 eris/datatables/images/02-Charing-Cross-Bridge-by-André-Derain.jpg
+4.0
