@@ -73,7 +73,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
 		</section>
         <section>
             <h3>Summary of Results</h3>
-            <p>The following provides a summary of the results the department achieved in 2024-25 under its main areas of activity, called &#8220;core responsibilities.&#8221;</p>
+            <p>The following provides a summary of the results the department achieved in [fiscal year] under its main areas of activity, called &#8220;core responsibilities.&#8221;</p>
             <section id="cores">
                 <ul class="list-unstyled">
                     <li>
@@ -655,7 +655,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <h5 class="h4">Table [#]: Budgetary actual gross spending summary (dollars)(*optional)</h5>
                     <p>Table [#] reconciles gross planned spending with net spending for [insert fiscal year].</p>
                     <table id="tbl6" class="table table-bordered">
-                        <caption class="h6 text-left wb-inv">Table [#]: Budgetary actual gross and net planned spending summary (dollars)</caption>
+                        <caption class="h6 text-left wb-inv">Table [#]: Budgetary actual gross spending summary (dollars)</caption>
                         <thead>
                             <tr class="active">
                                 <th class="text-left" scope="col">Core responsibilities and internal services</th>
@@ -714,7 +714,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 <figure id="fig2">
                     <figcaption class="text-left h4"><strong>Graph [#]: Approved funding (statutory and voted) over a six-year period</strong></figcaption>
                     <p>Graph [#] summarizes the department's approved voted and statutory funding from [insert fiscal year] to [insert fiscal year].</p>
-                    <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/funding-graph.jpg" alt="[alt text]. Text version below:">
+                    <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/blob/master/results-resultats/placeholder-graph.png" alt="[alt text]. Text version below:">
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text version of graph [#]</summary>
                         <table class="table table-bordered">
@@ -813,9 +813,9 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     </table>
 					<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                     <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of expenses and revenues for [fiscal year]</summary>
-                    <p>[Insert text with link to department&#8217;s Future-Oriented Statement of Operations and Notes for 2024-25]</p>
+                    <p>[Insert text with link to department&#8217;s Future-Oriented Statement of Operations and Notes for fiscal year]</p>
                 </details>
-                    <p>The 2024–25 planned results information is provided in [department name]&#8217;s <a href="#">Future-Oriented Statement of Operations and Notes 2024–25</a>. [link to department&#8217;s FOSO]</p>
+                    <p>The [fiscal year] planned results information is provided in [department name]&#8217;s <a href="#">Future-Oriented Statement of Operations and Notes [fiscal year]</a>. [link to department&#8217;s FOSO]</p>
                 </section>
                 <section>
                     <h4>Table [#]: Condensed Statement of Operations (unaudited or audited) for [insert fiscal year] and [insert fiscal year] (dollars)</h4>
@@ -853,7 +853,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     </table>
 					<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of differences in expenses and revenues between [fiscal year] and [fiscal year]</summary>
-                        <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
+                        <p>[Insert narrative on differences in expenses and revenues]</p>
                     </details>
                 </section>
                 <section>
@@ -904,10 +904,11 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     </table>
 					<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of department&#8217;s liabilities and assets since last fiscal year</summary>
-                        <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
+                        <p>[Insert narrative on the liabilities and assets since last fiscal year]</p>
                     </details>
                 </section>
             </section>
+        </section>
         </section>
         <!--Funding close-->
         <section>
@@ -1132,7 +1133,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             <dt>Gender-based Analysis Plus (GBA Plus)<span lang="fr">(analyse comparative entre les sexes plus&#160;[ACS&#160;Plus])</span></dt>
             <dd>An analytical tool that helps to understand the ways diverse individuals experience policies, programs and policies, programs, and other initiatives.&#160;Applying GBA Plus to policies, programs and other initiatives helps to identify the different&#160;needs of the people affected, the ways to be more responsive and inclusive, and the methods to anticipate and mitigate potential barriers to accessing or benefitting from the initiative. GBA Plus&#160;goes beyond biological (sex) and socio-cultural (gender) differences to consider other factors, such as age, disability, education, ethnicity, economic status, geography (including rurality), language, race, religion, and sexual orientation.</dd>
             <dt>government priorities&#160;<span lang="fr">(priorités pangouvernementales)</span></dt>
-            <dd>For the purpose of the 2024–25 Departmental Results Report, government priorities are the high-level themes outlining the government&#8217;s agenda as announced in the <a href="https://www.canada.ca/en/privy-council/campaigns/speech-throne/2021/building-resilient-economy.html">2021 Speech from the Throne</a>.</dd>
+            <dd>For the purpose of the [fiscal year] Departmental Results Report, government priorities are the high-level themes outlining the government&#8217;s agenda as announced in the <a href="https://www.canada.ca/en/privy-council/campaigns/speech-throne/2021/building-resilient-economy.html">2021 Speech from the Throne</a>.</dd>
             <dt>horizontal initiative&#160;<span lang="fr">(initiative horizontale)</span></dt>
             <dd>A program, project or other initiative where two or more federal departments receive funding to work collaboratively on a shared outcome usually linked to a government priority, and where the ministers involved agree to designate it as horizontal. Specific reporting requirements apply, including that the lead department must report on combined expenditures and results.</dd>
             <dt>Indigenous business&#160;<span lang="fr">(enterprise autochtones)</span></dt>
