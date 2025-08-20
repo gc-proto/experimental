@@ -54,7 +54,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
     <section>
         <!--en un coup d'oeil open-->
         <h2 id="toc01">En un coup d'oeil</h2>
-        <p>Le présent rapport sur les résultats ministériels présente les réalisations réelles de [nom du ministère] par rapport aux plans, aux priorités et aux résultats attendus énoncés dans son <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-conjoint.html">Plan ministériel pour 2024-2025 </a>&#160;[hyperlien menant vers le plan ministériel].</p>
+        <p>Le présent rapport sur les résultats ministériels présente les réalisations réelles de [nom du ministère] par rapport aux plans, aux priorités et aux résultats attendus énoncés dans son <a href="https://test.canada.ca/experimental/departmental-plans-ministeriels/pm-plan-ministeriel-conjoint.html">Plan ministériel pour [exercice] </a>&#160;[hyperlien menant vers le plan ministériel].</p>
         <ul>
             <li>Vision, mission, raison d&#8217;être et contexte opérationnel [insérer les hyperliens]</li>
         </ul>
@@ -74,7 +74,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
         </section>
         <section>
             <h3>Sommaire des résultats</h3>
-            <p>Voici un résumé des résultats atteints par le ministère en 2024‑2025&#160;dans ses principaux secteurs d&#8217;activité, appelés &#171; responsabilités essentielles &#187;.</p>
+            <p>Voici un résumé des résultats atteints par le ministère en [exercice]&#160;dans ses principaux secteurs d&#8217;activité, appelés &#171; responsabilités essentielles &#187;.</p>
             <section id="cores">
                 <ul class="list-unstyled">
                     <li>
@@ -710,7 +710,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                 <figure id="fig2">
                     <figcaption class="text-left h4"><strong>Graphique [#]&#160;: Financement approuvé (législatif et voté) pour une période de six exercices</strong></figcaption>
                     <p>Le graphique [#] résume le financement voté et législatif du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
-                    <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/graphique-rrm.jpg" alt="[alt text]. Text version below:">
+                    <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/placeholder-graph.png" alt="[alt text]. Text version below:">
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary id="fig2-text" class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [numéro]</summary>
                         <table class="table table-bordered">
@@ -812,7 +812,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                 </table>
 				<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des charges et des revenus pour [exercice]</summary>
-                        <p>[Insérer un texte avec un lien vers l&#8217;état des opérations et notes prospectives du ministère pour 2024-25].</p>
+                        <p>[Insérer un texte avec un lien vers l&#8217;état des opérations et notes prospectives du ministère pour [exercice]].</p>
                     </details>
             </section>
             <section>
@@ -825,7 +825,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                             <th class="text-left" scope="col">Renseignements financiers</th>
                             <th class="text-left" scope="col">Résultats réels [exercice]</th>
                             <th class="text-left" scope="col">Résultats réels [exercice]</th>
-                            <th class="text-left" scope="col">Différence ([exercise] moins [exercise])</th>
+                            <th class="text-left" scope="col">Différence ([exercise réels] moins [exercise réels])</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -851,7 +851,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                 </table>
 				<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des différences de charges et de revenus entre [exercice] et [exercice]</summary>
-                        <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
+                        <p>[Insérer un texte descriptif sur les différences entre les dépenses et les revenus].</p>
                     </details>
             </section>
             <section>
@@ -902,7 +902,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                 </table>
 				<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du passif et de l'actif du département depuis le dernier exercice fiscal</summary>
-                        <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
+                        <p>[Insérer un texte descriptif sur le passif et l'actif depuis le dernier exercice financier].</p>
                     </details>
             </section>
         </section>
@@ -1142,7 +1142,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                 <dt>priorité ministérielle <span lang="en">(departmental priority)</span></dt>
                 <dd>Plan, projet ou activité sur lequel un ministère met l&#8217;accent et dont il rendra compte au cours d&#8217;une période de planification particulière. Il s&#8217;agit de ce qui importe le plus ou qui doit être réalisé en premier pour obtenir les résultats ministériels attendus.</dd>
                 <dt>priorités pangouvernementales <span lang="en">(government priorities)</span></dt>
-                <dd>Dans le rapport sur les résultats ministériels de 2024-2025, les priorités du gouvernement sont les thèmes généraux qui définissent le programme du gouvernement comme il a été annoncé dans le <a href="https://www.canada.ca/en/privy-council/campaigns/speech-throne/2021/building-resilient-economy.html">discours du Trône de 2021</a>.</dd>
+                <dd>Dans le rapport sur les résultats ministériels de [exercice], les priorités du gouvernement sont les thèmes généraux qui définissent le programme du gouvernement comme il a été annoncé dans le <a href="https://www.canada.ca/en/privy-council/campaigns/speech-throne/2021/building-resilient-economy.html">discours du Trône de 2021</a>.</dd>
                 <dt>programme <span lang="en">(program)</span></dt>
                 <dd>Services et activités, pris séparément ou en groupe, ou une combinaison des deux, qui sont gérés ensemble au sein d&#8217;un ministère et qui portent sur un ensemble déterminé d&#8217;extrants, de résultats ou de niveaux de service.</dd>
                 <dt>rapport sur les résultats ministériels <span lang="en">(Departmental Results Report)</span></dt>
