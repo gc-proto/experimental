@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/drr-combined
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2025-07-23
+dateModified: 2025-08-20
 language: fr
 layout: default
 title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de [nom du ministère]"
