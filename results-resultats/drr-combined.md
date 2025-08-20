@@ -860,7 +860,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <h4>Table [#] Condensed Statement of Financial Position (unaudited or audited) as at [insert date] (dollars)</h4>
                     <p>Table [#] provides a brief snapshot of the amounts the department owes or must spend (liabilities) and its available resources (assets), which helps to indicate its ability to carry out programs and services.</p>
                     <table id="tbl9" class="table table-bordered">
-                        <caption class="h6 text-left wb-inv">Table provides a brief snapshot of the department&#8217;s liabilities (what it owes) and assets (what the department owns), which helps to indicate its ability to carry out programs and services.</caption>
+                        <caption class="h6 text-left wb-inv">Table [#] Condensed Statement of Financial Position (unaudited or audited) as at [insert date] (dollars)</caption>
                         <thead>
                             <tr class="active">
                                 <th class="text-left" scope="col">Financial information</th>
