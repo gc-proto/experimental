@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-conjoint
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2025-07-23
+dateModified: 2025-08-20
 language: en
 layout: default
 title: "[Department name]'s [insert fiscal year] Departmental results report"
@@ -652,7 +652,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <p>[Hyperlink to the related information on GC Infobase]</p>
                 </section>
                 <section>
-                    <h5 class="h4">Table [#]: Budgetary actual gross and net planned spending summary (dollars)(*optional)</h5>
+                    <h5 class="h4">Table [#]: Budgetary actual gross spending summary (dollars)(*optional)</h5>
                     <p>Table [#] reconciles gross planned spending with net spending for [insert fiscal year].</p>
                     <table id="tbl6" class="table table-bordered">
                         <caption class="h6 text-left wb-inv">Table [#]: Budgetary actual gross and net planned spending summary (dollars)</caption>
@@ -698,7 +698,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         </tbody>
                     </table>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of budgetary actual gross and net planned spending summary</summary>
+                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of budgetary actual gross spending summary</summary>
                         <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
                     </details>
                     <p>[Hyperlink to the related information on GC Infobase]</p>
@@ -811,6 +811,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             </tr>
                         </tbody>
                     </table>
+					<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                    <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of expenses and revenues for [fiscal year]</summary>
+                    <p>[Insert text with link to department&#8217;s Future-Oriented Statement of Operations and Notes for 2024-25]</p>
+                </details>
                     <p>The 2024–25 planned results information is provided in [department name]&#8217;s <a href="#">Future-Oriented Statement of Operations and Notes 2024–25</a>. [link to department&#8217;s FOSO]</p>
                 </section>
                 <section>
@@ -822,8 +826,8 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             <tr class="active">
                                 <th class="text-left" scope="col">Financial information</th>
                                 <th class="text-left" scope="col">[Fiscal year] actual results</th>
-                                <th class="text-left" scope="col">[Fiscal year] planned results</th>
-                                <th class="text-left" scope="col">Difference (actual results minus planned)</th>
+                                <th class="text-left" scope="col">[Fiscal year] actual results</th>
+                                <th class="text-left" scope="col">Difference ([actual fiscal year] minus [actual fiscal year])</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -847,6 +851,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             </tr>
                         </tbody>
                     </table>
+					<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of differences in expenses and revenues between [fiscal year] and [fiscal year]</summary>
+                        <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
+                    </details>
                 </section>
                 <section>
                     <h4>Table [#] Condensed Statement of Financial Position (unaudited or audited) as at [insert date] (dollars)</h4>
@@ -894,6 +902,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                             </tr>
                         </tbody>
                     </table>
+					<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of department&#8217;s liabilities and assets since last fiscal year</summary>
+                        <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
+                    </details>
                 </section>
             </section>
         </section>
@@ -1104,7 +1116,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             <dt>core responsibility&#160;<span lang="fr">(responsabilité essentielle)</span></dt>
             <dd>An enduring function or role of a department. The departmental results listed for a core responsibility reflect that the outcome that the department seeks to influence or achieve.</dd>
             <dt>Departmental Plan&#160;<span lang="fr">(plan ministériel)</span></dt>
-            <dd>A report that outlines the anticipated activities and expected performance of an appropriated department over a 3 -year period. Departmental Plans are usually tabled in Parliament in spring.</dd>
+            <dd>A report that outlines the anticipated activities and expected performance of an appropriated department over a 3-year period. Departmental Plans are usually tabled in Parliament in spring.</dd>
             <dt>departmental priority&#160;<span lang="fr">(priorité)</span></dt>
             <dd>A plan, project or activity that a department focuses and reports on during a specific planning period. Priorities represent the most important things to be done or those to be addressed first to help achieve the desired departmental results.</dd>
             <dt>departmental result&#160;<span lang="fr">(résultat ministériel)</span></dt>
