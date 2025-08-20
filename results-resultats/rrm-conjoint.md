@@ -648,10 +648,10 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
                 </section>
                 <section>
-                    <h5 class="h4">Tableau [#]&#160;: Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars) (*facultatif)</h5>
+                    <h5 class="h4">Tableau [#]&#160;: Sommaire des dépenses budgétaire brutes réelles (en dollars) (*facultatif)</h5>
                     <p>Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l&#8217;exercice].</p>
                     <table id="tbl6" class="table table-bordered">
-                        <caption class="h6 text-left wb-inv">Tableau [#]&#160;: Résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues (en dollars)</caption>
+                        <caption class="h6 text-left wb-inv">Tableau [#]&#160;: Sommaire des dépenses budgétaire brutes réelles (en dollars) (*facultatif)</caption>
                         <thead>
                             <tr class="active">
                                 <th class="text-left" scope="col">Responsabilités essentielles et services internes</th>
@@ -694,7 +694,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                         </tbody>
                     </table>
                     <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
-                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du résumé budgétaire des dépenses brutes réelles et des dépenses nettes prévues</summary>
+                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du sommaire des dépenses budgétaire brutes réelles</summary>
                         <p>[Insérez un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
                     </details>
                     <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
@@ -775,7 +775,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
         <section>
             <!--Faits saillants open-->
             <h3 id="toc03-3">Faits saillants des états financiers</h3>
-            <p>Les états financiers de [l nom du ministère] (audités ou non audités) pour l&#8217;exercice terminé le [insérer la date] sont publiés sur le site Web du ministère [lien menant vers les états financiers du ministère].</p>
+            <p>Les états financiers  (audités ou non audités) de [le nom du ministère] pour l&#8217;exercice terminé le [insérer la date] [lien menant vers les états financiers du ministère].</p>
             <section>
                 <h4>Tableau [#] : État condensé des résultats (audité ou non audités) terminé [insérer la date] (en dollars)</h4>
                 <p>Le tableau résume les charges et les revenus pour [l'exercice] qui affectent le coût de fonctionnement avant le financement du gouvernement et les transferts.</p>
@@ -810,7 +810,10 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                         </tr>
                     </tbody>
                 </table>
-				<p>[Hyperlien vers des informations connexes dans l&#8217;infoBase du GC].</p>
+				<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des charges et des revenus pour [exercice]</summary>
+                        <p>[Insérer un texte avec un lien vers l&#8217;état des opérations et notes prospectives du ministère pour 2024-25].</p>
+                    </details>
             </section>
             <section>
                 <h4>Tableau [#] : État condensé des résultats (audité ou non audité) pour les exercices [exercice] et [exercice]</h4>
@@ -846,6 +849,10 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                         </tr>
                     </tbody>
                 </table>
+				<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des différences de charges et de revenus entre [exercice] et [exercice]</summary>
+                        <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
+                    </details>
             </section>
             <section>
                 <h4>Tableau [#] État condensé de la situation financière (audité ou non audités) au [insérer la date] (en dollars)</h4>
@@ -893,6 +900,10 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                         </tr>
                     </tbody>
                 </table>
+				<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+                        <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse du passif et de l'actif du département depuis le dernier exercice fiscal</summary>
+                        <p>[Insérer un texte expliquant les tendances significatives et inclure les notes de bas de page].</p>
+                    </details>
             </section>
         </section>
         <!--Faits saillants close-->
