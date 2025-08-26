@@ -108,7 +108,37 @@
         
 
 
+<style>
+	/* doormats, your gov can be 18px in mobile/desktop to align - no responsiveness */
 
+	.home .gc-srvinfo p {
+		font-size: 18px;
+	}
+
+	.home .home-your-gov li {
+		font-size: 18px;
+	}
+
+	/* keep smaller actually, looking too heavy 
+	.home .home-most-requested li {
+				font-size: 18px;
+	} */
+
+
+	/* alignment for navigation pages */
+
+	.home h2 {
+		font-size: 29px !important;
+	}
+
+	@media screen and (max-width: 991px)
+	{
+		.home h2 {
+			font-size: 26px !important;
+		}
+	}	
+
+</style>
 
     
         
@@ -338,7 +368,7 @@
 				<p>Personal finance, credit reports, fraud protection, paying for education</p>
 			</div>
 		</div>
-		<p><a class="btn btn-all-services" href="/en/services.html">All services</a></p>
+		<p><a class="btn btn-all-services mrgn-bttm-md" href="/en/services.html">All services</a></p>
 	</div>
 </section>
 
@@ -361,12 +391,12 @@
 
 
 
-    <section class="home-your-gov well well-bold provisional well-sm brdr-0"> 
+    <section class="home-your-gov well well-bold provisional well-sm brdr-0 mrgn-bttm-0"> 
  <div class="container"> 
-  <h2>Your government</h2> 
-  <div class="row mrgn-bttm-lg"> 
+  <h2 class="mrgn-tp-md mrgn-bttm-lg">Your government</h2> 
+  <div class="row mrgn-bttm-0"> 
    <div class="col-lg-7 col-xs-12 col-md-6"> 
-    <ul class="row wb-eqht-grd list-unstyled small"> 
+    <ul class="row wb-eqht-grd list-unstyled lst-spcd-2"> 
      <li class="col-xs-12 col-sm-6 mrgn-tp-sm mrgn-bttm-sm"> <a href="/en/contact.html">All contacts</a> </li> 
      <li class="col-xs-12 col-sm-6 mrgn-tp-sm mrgn-bttm-sm"> <a href="/en/news.html">News</a> </li> 
      <li class="col-xs-12 col-sm-6 mrgn-tp-sm mrgn-bttm-sm"> <a href="https://pm.gc.ca/en">Prime Minister</a> </li> 
@@ -380,7 +410,14 @@
   </div> 
  </div> 
 </section>
-
+<div class="row">
+  <section class="gc-featured-link wb-init gc-featured-link-inited" id="wb-auto-4">
+    <div class="container">
+      <h2 class="wb-inv">Featured</h2>
+      <p><a class="stretched-link" href="#">Canada's response to U.S. tariffs on Canadian goods</a></p>
+    </div>
+  </section>
+</div>
 
 </div>
 <div class="mwsgeneric-base-html parbase section">
