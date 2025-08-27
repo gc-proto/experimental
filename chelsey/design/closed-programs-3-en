@@ -12,4 +12,4 @@ layout: default
 pageclass: cnt-wdth-lmtd
 title: "[Program or service name]"
 ---
-<p><span class="label label-danger">Status: This program is closed</span></p>
+<p><span class="label label-danger">Status: This [program/service/benefit/grant] is closed</span></p>
