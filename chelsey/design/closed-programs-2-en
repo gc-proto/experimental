@@ -10,17 +10,10 @@ description: "Standard page with breadcrumbs"
 lang: en
 layout: default
 pageclass: cnt-wdth-lmtd
-title: "Page not found"
+title: "[Program or service name]"
 ---
-<p><span class="label label-danger">404 error</span></p>
-<p>The page you’re looking for may have been moved or deleted. Check that the web address (URL) is spelled correctly. Do not include special characters or spaces in the URL.</p> 
-<p>You may be looking for:</p>
-<ul>
-<li><a href="www.canada.ca">Canada.ca home page</a></li>
-<li><a href="https://www.canada.ca/en/services.html">Government of Canada services</a></li>
-<li><a href="https://www.canada.ca/en/contact.html">Contact the Government of Canada</a></li>
-<li><a href="https://www.canada.ca/en/government/sign-in-online-account.html">Sign in to an account</a></li>
-<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Visit or immigrate to Canada</a></li>
-</ul>
+<p><span class="label label-warning">Status: Closing soon</span></p>
+<section class="alert alert-warning">
+	<h3>Applicaion period ending soont</h3>
+	<p>June 3, 2025, is the last day to apply for the [program or service name].</p>
+</section>
