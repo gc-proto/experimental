@@ -16,7 +16,7 @@ title: "Page not found"
 <p>The page you’re looking for may have been moved or deleted. Check that the web address (URL) is spelled correctly. Do not include special characters or spaces in the URL.</p> 
 <p>You may be looking for:</p>
 <ul>
-<li><a href="www.canada.ca">Canada.ca home page</a></li>
+<li><a href="https://www.canada.ca/en.html">Canada.ca home page</a></li>
 <li><a href="https://www.canada.ca/en/services.html">Government of Canada services</a></li>
 <li><a href="https://www.canada.ca/en/contact.html">Contact the Government of Canada</a></li>
 <li><a href="https://www.canada.ca/en/government/sign-in-online-account.html">Sign in to an account</a></li>
@@ -24,3 +24,28 @@ title: "Page not found"
 <li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
 <li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Visit or immigrate to Canada</a></li>
 </ul>
+   <!-- English search -->
+            <section class="col-md-12">
+              <h3 class="wb-inv">Search</h3>
+              <form action="/en/sr/srb.html" method="get" name="cse-search-box" role="search" class="form-inline">
+                <input name="cdn" value="canada" type="hidden">
+                <input name="st" value="s" type="hidden">
+                <input name="num" value="10" type="hidden">
+                <input name="langs" value="eng" type="hidden">
+                <input name="st1rt" value="0" type="hidden">
+                <input name="s5bm3ts21rch" value="x" type="hidden">
+                <div class="input-group">
+                  <label for="wb-srch-q" class="wb-inv">Search website</label>
+                  <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca">
+                  <datalist id="wb-srch-q-ac"></datalist>
+                  <span class="input-group-btn">
+                    <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+                      <span class="glyphicon glyphicon-search"></span>
+                      <span class="wb-inv">Search</span>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </section>
+          </div>
+        </section>
