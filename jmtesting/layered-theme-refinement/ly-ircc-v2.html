@@ -199,7 +199,7 @@
 		
 		<!-- added custom CSS to make 2 items work -->
 		<style>
-			ul[class*=list-col] {
+			.fix ul[class*=list-col] {
 					list-style-type: disc;
 					margin-block-start: 1em;
 					margin-block-end: 1em;
@@ -208,7 +208,7 @@
 			}
 		</style>
 		<section class="gc-most-requested">
-			<div class="container">
+			<div class="container fix">
 				<h2>Most requested</h2>
 				<!-- seems PP deprecated colcount-md-1? -->
 				<ul class="list-col-md-2">
@@ -217,13 +217,15 @@
 				</ul>
 			</div>
 		</section>
-	<div class="panel-body brdr-0 no-box-shadow mrgn-bttm-sm" style="margin-top: -10px; padding-left: 20px !important; border-bottom: none !important;">
+	<div class="container">
+		<div class="row">
 	<div class="col-md-12">
 		<h2 class="mrgn-tp-0 h4">Your IRCC application</h2>
 		<section class="gc-srvinfo">
 		<p>Pay your fees, give biometrics, get a medical exam or police certificate, use an immigration representative</p>
 		<p><a href="/en/immigration-refugees-citizenship/services/application.html"><strong>Your IRCC application</strong></a>&nbsp;<i class="fas fa-arrow-right" aria-hidden="true"></i></p>
 		</section>
+	</div>
 	</div>
 	<!-- <div class="col-md-3 col-sm-4 hidden-xs">
 		<div class="fa-stack fa-4x icon-gry">
@@ -232,7 +234,7 @@
 	</div> -->
 	</div>
 	<div class="">
-	<div class="container mrgn-bttm-sm mrgn-tp-md">
+	<div class="container mrgn-bttm-sm mrgn-tp-lg">
 		<h2 class="mrgn-tp-0 h4">Visas, permits and immigration</h2>
 		<section class="gc-srvinfo">
 		<div class="row wb-eqht-grd">
@@ -291,17 +293,21 @@
 		</div>
 	</section>
 	</div>
-	<section class="">
 	<div class="container">
-		<div class="row well">
-		<div class="col-md-12">
-			<h3 class="mrgn-tp-0 h6"><i class="fa-solid fa-question"></i> Not sure where to start?</h3>
-			<section class="gc-srvinfo">
-			<p><a href="">Answer a few questions and explore all immigration programs</a></p>
-			</section>
+		<div class="well">
+			<div class="row">
+				<div class="col-sm-1 mrgn-tp-md hidden-xs">
+					<i class="fas fa-question fa-2x"></i>
+				</div>
+				<div class="col-xs-12 col-sm-11">
+					<h3 class="mrgn-tp-0 h5">Not sure where to start?</h3>
+					<section class="gc-srvinfo">
+						<p><a href="">Answer a few questions and explore all immigration programs</a></p>
+					</section>
+				</div>
+			</div>
 		</div>
 	</div>
-	</section>
 	<div class="container mrgn-bttm-md mrgn-tp-lg">
 	<h2 class="mrgn-tp-0 h4">Fraud and inadmissibility</h2>
 	<section class="gc-srvinfo">
