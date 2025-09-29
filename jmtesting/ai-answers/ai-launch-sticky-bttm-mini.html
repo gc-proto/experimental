@@ -259,10 +259,10 @@
   <style>
         .aa-section {
             background-color: #1a2838;
-            padding: 14px 20px;
+            padding: 10px 10px;
             border-radius: 10px;
             position: fixed;
-            bottom: 20px;
+            bottom: 26px;
             right: 20px;
             z-index: 1000;
             width: auto;
@@ -273,7 +273,7 @@
         .footer-content {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 10px;
             position: relative;
         }
         
@@ -282,7 +282,7 @@
         }
         
         .aa-icon img {
-            width: 35px;
+            width: 30px;
             height: auto;
             display: block;
         }
@@ -344,6 +344,11 @@
             box-shadow: 0 0 0 2px white;
         }
         
+		   /* Add bottom margin to body to prevent content from being hidden behind sticky footer */
+        body {
+            margin-bottom: 60px;
+        }
+
     </style>
 </head>
 <body>
