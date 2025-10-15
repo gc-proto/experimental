@@ -95,7 +95,108 @@
 <noscript><link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/noscript.min.css"/></noscript>
 
 
+    <style>
+        .aa-section {
+            background-color: #1a2838;
+            padding: 12px 0;
+            margin-top:0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        
+        .aa-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            position: relative;
+        }
+        
+        .aa-icon {
+            flex-shrink: 0;
+            margin-left: -50px;
+        }
 
+        @media (max-width: 768px) {
+            .aa-icon {
+                margin-left: 0;
+            }
+        }
+        
+        .aa-icon img {
+            width: 30px;
+            height: auto;
+            display: block;
+        }
+        
+        .aa-text {
+            flex: 1;
+        }
+        
+        .aa-text h3 {
+            font-size: 1.625rem;
+            margin-bottom: .5rem;
+            margin-top: 0;
+            color: white;
+        }
+        
+        .aa-text p {
+            margin: 0;
+            font-size: 18px;
+        }
+        
+        .aa-text a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .aa-text a:hover {
+            text-decoration: underline;
+        }
+        
+        .aa-close {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: white;
+            font-size: 32px;
+            cursor: pointer;
+            padding: 0;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s ease;
+            line-height: 1;
+            font-family: Arial, sans-serif;
+            font-weight: normal;
+        }
+        
+        .aa-close:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .aa-close:focus {
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 0 2px white;
+        }
+    
+          /* Add margin to body to prevent content from being hidden behind sticky */
+        body {
+            margin-top: 60px;
+        }
+
+    </style>
 
 
 
@@ -265,6 +366,26 @@
         <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" class="container">
             
             <div class="mwstitle section">
+      
+      <!-- AI Answers -->
+      <div class="aa-section mrgn-tp-md">
+        <section>
+            <div class="container">
+                <div class="aa-content">
+                    <div class="aa-icon">
+                        <img src="../../img/AI-stars.png" alt="AI stars icon" />
+                    </div>
+                    <div class="aa-text">
+                        <h2 class="wb-inv">Use AI answers</h2>
+                        <a href="https://ai-answers.alpha.canada.ca/"><p><strong>Need help?</strong> Use AI Answers</p></a>
+                    </div>
+                </div>
+                <button class="aa-close" type="button" aria-label="Close AI answers banner">
+                    ×
+                </button>
+            </div>
+        </section>
+    </div>
 
     <h1 property="name" class="wb-inv" id="wb-cont" dir="ltr">
 EI maternity and parental benefits: What these benefits offer</h1>
