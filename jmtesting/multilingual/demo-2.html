@@ -141,6 +141,7 @@
 	ul#multilingual-list {
         margin-top: 20px;
 		display: inline-block;
+		padding-inline-start: 10px !important;
 		margin-bottom: 3em !important;
         border: 1px solid #ccc;
 		border-radius: 10px;
@@ -153,20 +154,21 @@
         line-height: 2.5em;
     }
 
-    ul#multilingual-list li:not(:only-child):not(:last-child)::after {
-        content: "|";
-        padding: 0 10px;
-    }
-
     ul#multilingual-list li a {
         display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
     }
     ul#multilingual-list li a:first-child {
         display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
     }
     ul#multilingual-list li span.currentpage {
         display: inline-block;
         font-weight: bold;
+		padding-left: 10px;
+		padding-right: 10px;
     }
 
 
