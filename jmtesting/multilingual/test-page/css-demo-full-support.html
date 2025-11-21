@@ -19,28 +19,29 @@
         <link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
         <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
 
-		<!-- Load the font stylesheets (remove preload for now) -->
+		<!-- Load the font stylesheets -->
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&subset=latin,latin-ext,greek,greek-ext,cyrillic,cyrillic-ext,vietnamese&display=swap" rel="stylesheet"> <!-- 100+ lang support -->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet"> <!-- Arabic -->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;700&display=swap" rel="stylesheet"> <!-- Georgian -->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet"> <!-- Devanagari -->
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Canadian+Aboriginal:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet"> <!-- Traditional Chinese -->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet"> <!-- Simplified Chinese -->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet"> <!-- Japanese -->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet"> <!-- Korean -->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&display=swap" rel="stylesheet"> <!-- Thai -->
         <noscript><link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/css/noscript.min.css" /></noscript>
     </head>
 
 	<style>
-		h1, h2, h3, h4, h5, h6 {
-			font-family: Lato, 'Noto Sans', 'Noto Sans Arabic', 'Noto Sans Georgian', 'Noto Sans Devanagari', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Thai', 'Noto Sans Canadian Aboriginal', serif !important;
-		}
+	h1, h2, h3, h4, h5, h6 {
+        font-family: 'Lato', 'Noto Sans', 'Noto Sans Arabic', 'Noto Sans Georgian', 'Noto Sans Devanagari', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Thai', 'Noto Sans Canadian Aboriginal', sans-serif !important;
+    }
 
-		body {
-			font-family: 'Noto Sans', 'Noto Sans Arabic', 'Noto Sans Georgian', 'Noto Sans Devanagari', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Thai', 'Noto Sans Canadian Aboriginal', sans-serif !important;
-		}
+    body {
+        font-family: 'Noto Sans', 'Noto Sans Arabic', 'Noto Sans Georgian', 'Noto Sans Devanagari', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Thai', 'Noto Sans Canadian Aboriginal', sans-serif !important;
+    }
 	</style>
     <body vocab="http://schema.org/" typeof="WebPage">
         <nav>
@@ -101,83 +102,84 @@
 
 <h1 property="name" id="wb-cont" dir="ltr">Demo for multilingual font support</h1>
 
-<!-- Lato headings, Noto Sans paragraph -->
+<!-- English: Lato headings, Noto Sans paragraph: latin character demo -->
 <section>
 	<h2>Heading 2 (<code>h2</code>) - default appearance</h2>
-	<section><h3>Heading 3 (<code>h3</code>) - default appearance</h3>
-		<section><h4>Heading 4 (<code>h4</code>) - default appearance</h4>
-			<section><h5>Heading 5 (<code>h5</code>) - default appearance</h5>
-				<section><h6>Heading 6 (<code>h6</code>) - default appearance</h6>
-					<p>Paragraph default appearance</p>
-				</section>
-			</section>
-		</section>
-	</section>
+	<p>Paragraph default appearance</p>
 </section>
 
-<!-- Noto Sans heading & paragraph -->
-<section><h2>Επικεφαλίδα 2 (<code>h2</code>) - την προεπιλεγμένη εμφάνιση του</h2>
-	<section><h3>Επικεφαλίδα 3 (<code>h3</code>) - την προεπιλεγμένη εμφάνιση του</h3>
-		<section><h4>Επικεφαλίδα 4 (<code>h4</code>) - την προεπιλεγμένη εμφάνιση του</h4>
-			<section><h5>Επικεφαλίδα 5 (<code>h5</code>) - την προεπιλεγμένη εμφάνιση του</h5>
-				<section><h6>Επικεφαλίδα 6 (<code>h6</code>) - την προεπιλεγμένη εμφάνιση του</h6>
-					<p>Παράγραφος την προεπιλεγμένη εμφάνιση του</p>
-				</section>
-			</section>
-		</section>
-	</section>
+<!-- French: Lato headings, Noto Sans paragraph: latin character demo -->
+<section>
+	<h2>En-tête 2 (<code>h2</code>) - apparence par défaut</h2>
+	<p>Paragraphe apparence par défaut</p>
 </section>
 
-<!-- Noto Sans Indigenous heading & paragraph -->
+<!-- Greek: Noto Sans heading & paragraph: greek character demo -->
 <section>
-<h2>ᐅᓂᒃᑳᓕᐊᑉᑕᐃᔭᐅᓂᖓ&#32;2&#32;(<code>h2</code>)</h2>
-<section>
-<h3>ᐅᓂᒃᑳᓕᐊᑉᑕᐃᔭᐅᓂᖓ&#32;3&#32;(<code>h3</code>)</h3>
-<section>
-<h4>ᐅᓂᒃᑳᓕᐊᑉᑕᐃᔭᐅᓂᖓ&#32;4&#32;(<code>h4</code>)</h4>
-<section>
-<h5>ᐅᓂᒃᑳᓕᐊᑉᑕᐃᔭᐅᓂᖓ&#32;5&#32;(<code>h5</code>)</h5>
-<section>
-<h6>ᐅᓂᒃᑳᓕᐊᑉᑕᐃᔭᐅᓂᖓ&#32;6&#32;(<code>h6</code>)</h6>
-<p>ᐅᖃᐅᓯᑯᑖᒐᒃᓴᑦ - ᑕᐅᑦᑐᖓᐋᖅᑭᒃᐸᒌᖅᓯᒪᔪᖅ</p>
-</section>
-</section>
-</section>
-</section>
+	<h2>Επικεφαλίδα 2 (<code>h2</code>) - την προεπιλεγμένη εμφάνιση του</h2>
+	<p>Παράγραφος την προεπιλεγμένη εμφάνιση του</p>
 </section>
 
-
-<!-- Lato headings, Noto Sans JP paragraph -->
+<!-- Bulgarian: Noto Sans heading & paragraph: cyrillic character demo -->
 <section>
-<h2>見出し&#173;2&#173;(<code>h2</code>)</h2>
-<section>
-<h3>見出し&#173;3&#173;(<code>h3</code>)</h3>
-<section>
-<h4>見出し&#173;4&#173;(<code>h4</code>)</h4>
-<section>
-<h5>見出し&#173;5&#173;(<code>h5</code>)</h5>
-<section>
-<h6>見出し&#173;6&#173;(<code>h6</code>)</h6>
-<p>段落-デフォルトの外観</p>
-</section>
-</section>
-</section>
-</section>
+	<h2>Заглавие 2 (<code>h2</code>) - подразбиране вид</h2>
+	<p>Параграф подразбиране вид</p>
 </section>
 
-<!-- Noto Sans Arabic heading & paragraph -->
+<!-- Inuktitut: Noto Sans Canadian Aboriginal heading & paragraph: indigenous character demo -->
+<section>
+	<h2>ᐅᓂᒃᑳᓕᐊᑉᑕᐃᔭᐅᓂᖓ 2 (<code>h2</code>)</h2>
+	<p>ᐅᖃᐅᓯᑯᑖᒐᒃᓴᑦ - ᑕᐅᑦᑐᖓᐋᖅᑭᒃᐸᒌᖅᓯᒪᔪᖅ</p>
+</section>
+
+<!-- German: Lato headings, Noto Sans paragraph: latin character demo -->
+<section>
+	<h2>Überschrift 2 (<code>h2</code>) - Standarddarstellung</h2>
+	<p>Absatz Standarddarstellung</p>
+</section>
+
+<!-- Polish: Lato headings, Noto Sans paragraph: latin-ext character demo -->
+<section>
+	<h2>Nagłówek 2 (<code>h2</code>) - domyślny wygląd</h2>
+	<p>Ustęp domyślny wygląd</p>
+</section>
+
+<!-- Ukrainian: Noto Sans heading & paragraph: cyrillic-ext character demo -->
+<section>
+	<h2>Заголовок 2 (<code>h2</code>) - зовнішній вигляд за замовчуванням</h2>
+	<p>Пункт зовнішній вигляд за замовчуванням</p>
+</section>
+
+<!-- Korean: Noto Sans KR heading & paragraph: Korean character demo -->
+<section>
+	<h2>표제 2 (<code>h2</code>) - 기본 모양</h2>
+	<p>절 기본 모양</p>
+</section>
+
+<!-- Japanese: Noto Sans JP heading & paragraph: Japanese character demo -->
+<section>
+	<h2>見出し 2 (<code>h2</code>)</h2>
+	<p>段落-デフォルトの外観</p>
+</section>
+
+<!-- Simplified Chinese: Noto Sans SC heading & paragraph: Simplified Chinese character demo -->
+<section>
+	<h2>标题2(<code>h2</code>)-默认外观</h2>
+	<p>段默认外观</p>
+</section>
+
+<!-- Hindi: Noto Sans Devanagari heading & paragraph: Devanagari character demo -->
+<section>
+	<h2>शीर्षक 2 (<code>h2</code>) - डिफ़ॉल्ट उपस्थिति</h2>
+	<p>पैरा डिफ़ॉल्ट उपस्थिति</p>
+</section>
+
+<!-- Arabic: Noto Sans Arabic heading & paragraph: Arabic character demo -->
 <div dir="rtl">
-<section><h2>رؤوس أقلام 2 (<code>h2</code>) - مظهر الافتراضي</h2>
-	<section><h3>رؤوس أقلام 3 (<code>h3</code>) - مظهر الافتراضي</h3>
-		<section><h4>رؤوس أقلام 4 (<code>h4</code>) - مظهر الافتراضي</h4>
-			<section><h5>رؤوس أقلام 5 (<code>h5</code>) - مظهر الافتراضي</h5>
-				<section><h6>رؤوس أقلام 6 (<code>h6</code>) - مظهر الافتراضي</h6>
-					<p>فقرة مظهر الافتراضي</p>
-				</section>
-			</section>
-		</section>
+	<section>
+		<h2>رؤوس أقلام 2 (<code>h2</code>) - مظهر الافتراضي</h2>
+		<p>فقرة مظهر الافتراضي</p>
 	</section>
-</section>
 </div>
 
             <section class="pagedetails container">
