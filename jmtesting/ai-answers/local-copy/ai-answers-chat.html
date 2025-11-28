@@ -630,12 +630,16 @@ hr {
 			// TEST: Use hardcoded URL for testing
 			const referringURL = "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/after-apply-next-steps.html";
 
-			// PRODUCTION: Uncomment this line when ready to use actual referring URL
+			// PRODUCTION: Uncomment this line when ready to use actual referring URL and test
 			// const referringURL = document.referrer;
 
 			const displayElement = document.getElementById('displayReferringURL');
 			// PRODUCTION: replace with safeT
-			displayElement.innerHTML = `<b>Page you were on:</b> ${truncateURL(referringURL)}`;
+			if (referringURL) {
+				displayElement.innerHTML = `<b>Page you were on:</b> ${truncateURL(referringURL)}`;
+				} else {
+				displayElement.style.display = 'none';
+			}
 	</script>
 
 <!-- Custom code ends here -->
