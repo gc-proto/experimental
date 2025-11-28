@@ -384,6 +384,22 @@ hr {
                 scroll-behavior: auto !important;
             }
         }
+
+		.referring-url, #displayReferringURL {
+			font-size: 16px;
+			line-height: 1.55;
+			background-color: #f5f5ff;
+			border-radius: 5px;
+			padding: 0.25em 0.5em;
+			color: #333;
+			display: block;
+
+		}
+		.field-container:focus-within .referring-url, 
+		.field-container:focus-within #displayReferringURL {
+			color: #0535d2;
+		}
+		
     </style>
 
 		<main class="" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
@@ -394,16 +410,14 @@ hr {
 <p>Answers provided by this AI service are information, not official advice. Improvements are ongoing.</p>
 <p><mark>Privacy and AI terms of use</mark></p>
 
-<div class="mistake-disc col-md-12" style="font-size: 16px;">
-                    <p><b>Page you were on</b>: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/after-apply-next-steps.html
-                    </p>
-				</div>
-<div class="clearfix"></div>
+
+
 <form class="mrgn-tp-xl mrgn-bttm-lg">
     <div class="field-container">
 		<label for="message">Ask a Canada.ca question</label>
-		<span class="hint-text"><i class="fa-solid fa-wand-magic-sparkles"></i> Hint: Add details. AI can make mistakes, always check your answer.</span>
-		<div class="form-group">
+		<span class="hint-text" style="padding-bottom: 24px !important;"><i class="fa-solid fa-wand-magic-sparkles"></i> Hint: Add details. AI can make mistakes, always check your answer.</span>
+		<span class="referring-url" id="displayReferringURL"></span>
+		<div class="form-group" style="margin-top: 24px;">
 		  <textarea 
 			id="message" 
 			name="message" 
@@ -597,6 +611,32 @@ hr {
             checkScrollableContent();
         })();
     </script>
+
+	<script>
+		function truncateURL(url) {
+			try {
+				const urlObj = new URL(url);
+				const domain = urlObj.hostname.replace(/^www\./, '');
+				const pathname = urlObj.pathname;
+				const filename = pathname.split('/').pop() || '';
+				
+				return `${domain}/.../${filename}`;
+			} catch (error) {
+				console.error('Invalid URL:', error);
+				return url;
+			}
+			}
+
+			// TEST: Use hardcoded URL for testing
+			const referringURL = "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/after-apply-next-steps.html";
+
+			// PRODUCTION: Uncomment this line when ready to use actual referring URL
+			// const referringURL = document.referrer;
+
+			const displayElement = document.getElementById('displayReferringURL');
+			// PRODUCTION: replace with safeT
+			displayElement.innerHTML = `<b>Page you were on:</b> ${truncateURL(referringURL)}`;
+	</script>
 
 <!-- Custom code ends here -->
 
