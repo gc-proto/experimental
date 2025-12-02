@@ -625,21 +625,21 @@ hr {
 				console.error('Invalid URL:', error);
 				return url;
 			}
-			}
+		} 
+		// TEST: Use hardcoded URL for testing
+		const referringURL = "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/after-apply-next-steps.html";
 
-			// TEST: Use hardcoded URL for testing
-			const referringURL = "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/after-apply-next-steps.html";
+		// PRODUCTION: Uncomment this line when ready to use actual referring URL and test
+		// const referringURL = document.referrer;
 
-			// PRODUCTION: Uncomment this line when ready to use actual referring URL and test
-			// const referringURL = document.referrer;
+		const displayElement = document.getElementById('displayReferringURL');
+					// PRODUCTION: replace with safeT
 
-			const displayElement = document.getElementById('displayReferringURL');
-			// PRODUCTION: replace with safeT
-			if (referringURL) {
-				displayElement.innerHTML = `<b>Page you were on:</b> ${truncateURL(referringURL)}`;
-				} else {
-				displayElement.style.display = 'none';
-			}
+		if (referringURL) {
+			displayElement.innerHTML = `<b>Page you were on:</b> ${truncateURL(referringURL)}`;
+		} else {
+			displayElement.style.display = 'none';
+		}
 	</script>
 
 <!-- Custom code ends here -->
