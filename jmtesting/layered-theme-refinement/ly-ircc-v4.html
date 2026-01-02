@@ -29,8 +29,34 @@
 .info {
 	background-color:#d9edf7 !important;
 }
+	.page-type-theme #gridContainer > nav + section h1#wb-cont {
+    font-size: 29px !important;
+	}
+
+	.page-type-theme #gridContainer > nav + section .banded.gc-most-requested h2 {
+    font-size: 27px !important;
+	}
+
+	@media screen and (max-width: 991px) {
+    .page-type-theme #gridContainer > nav + section h1#wb-cont {
+        font-size: 26px !important;
+    }
+	.page-type-theme #gridContainer > nav + section .banded.gc-most-requested h2 {
+    font-size: 22px !important;
+	}
+}
+
+.page-type-theme #gridContainer > nav + section .gc-most-requested h2 {
+    font-size: 24px !important;
+}
 
 
+
+@media screen and (max-width: 991px) {
+   .page-type-theme #gridContainer > nav + section .gc-most-requested h2 {
+        font-size: 20px !important;
+    }
+}
 
 </style>
 
@@ -157,11 +183,11 @@
 	</nav>
 	<section>
 		<div class="container">
-			<h1 id="wb-cont" class="h3">Immigration and citizenship</h1>
+			<h1 id="wb-cont">Immigration and citizenship</h1>
 		</div>
 		<section class="gc-most-requested info mrgn-bttm-0">
 			<div class="container">
-				<h2 class="h5">Special measures</h2>
+				<h2>Special measures</h2>
 				<ul>
                   <li><a href="/en/immigration-refugees-citizenship/services/israel-west-bank-gaza-2023.html">Gaza and the West Bank</a></li>
                   <li><a href="/en/immigration-refugees-citizenship/services/haiti-2024.html">Haiti</a></li>
@@ -185,7 +211,7 @@
 		</style> -->
 		<section class="gc-most-requested">
 			<div class="container fix">
-				<h2 class="h5">Most requested</h2>
+				<h2>Most requested</h2>
 				<!-- seems PP deprecated colcount-md-1? -->
 				<ul class="list-col-md-2">
 					<li><a href="/en/immigration-refugees-citizenship/services/application/check-status.html">Application status</a> </li>
