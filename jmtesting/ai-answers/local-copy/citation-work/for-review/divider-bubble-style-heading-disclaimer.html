@@ -1,0 +1,694 @@
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>Canada.ca design system - Canada.ca</title>
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<!-- Custom code starts here (Metadata) / Code personalisé commence ici (Métadonnées) -->
+		<link rel="canonical" href="https://design.canada.ca" />
+		<link rel="alternate" href="https://conception.canada.cahttps://conception.canada.ca" hreflang="fr" />
+		<meta name="description" content="The Canada.ca design system holds the reusable styles, templates and patterns that make Government of Canada digital services more usable, consistent and trustworthy." />
+		<meta name="dcterms.title" content="Canada.ca design system"/>
+		<meta name="dcterms.description" content="The Canada.ca design system holds the reusable styles, templates and patterns that make Government of Canada digital services more usable, consistent and trustworthy."/>
+		<meta name="author" content="Employment and Social Development Canada" />
+		<meta name="dcterms.creator" content="Employment and Social Development Canada"/>
+		<meta name="dcterms.language" title="ISO639-2/T" content="eng"/>
+		<meta name="dcterms.issued" title="W3CDTF" content="2021-05-03"/>
+		<meta name="dcterms.modified" title="W3CDTF" content="2023-08-19"/>
+		<meta name="generator" content="Jekyll v4.3.2" />
+		<meta name="google-site-verification" content="Nt_CftRIypA9xVS7Znb2VkrsYbtIDuFWHryxSAC6OwM" />
+		<meta name="yandex-verification" content="b8834a99b9021b0e" />
+		<!-- Custom code ends here (Metadata) / Code personalisé termine ici (Métadonnées)-->
+
+		<link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<link rel="stylesheet" href="https://design.canada.ca/css/custom.css" />
+<link rel="stylesheet" href="./css/App.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+		<!-- Custom code starts here (Analytics) / Code personalisé commence ici (Analytiques) -->
+		<script>
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'GTM-KMVB8C2']);
+			
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		<!-- Custom code ends here (Analytics) / Code personalisé termine ici (Analytiques) -->
+
+
+		<!DOCTYPE html>
+		<html>
+		<head>
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+		  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap" rel="stylesheet">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <style>
+/* Container for the form elements */
+.field-container {
+  max-width: 800px;
+}
+
+/* Style the label */
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Container for the textarea and button */
+.form-group {
+  display: flex;
+  position: relative;
+  border: 2px solid #333;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+/* Style the textarea */
+.form-group textarea {
+  flex: 1;
+  padding: 8px;
+  min-height: 64px;
+  resize: none;
+  overflow: hidden;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+
+/* Button styling */
+/* Button styling */
+.btn-primary-send {
+  margin: 5px 5px 0 0;
+  padding: 8px 16px;
+  background-color: #26374a !important;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1.55em;
+  font-family: "Noto Sans";
+  height: 54px;
+  align-self: flex-start;
+  display: none;
+}
+
+/* Show button with transition */
+.btn-primary-send.visible {
+  display: inline-block;
+  animation: slideIn 0.3s ease forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Character counter */
+.char-counter {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  font-size: 0.75em;
+  color: #666;
+}
+
+/* Label styling */
+.field-container label {
+  font-size: 24px;
+  font-family: "Lato";
+}
+
+/* Hint text styling */
+.hint-text {
+  font-size: 20px;
+  color: #333;
+  font-family: "Noto Sans";
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+/* Focus states */
+.form-group:focus-within {
+  border-color: #0535d2;
+  outline: 3px solid #0535d2;
+  outline-offset: 0.225rem;
+  box-shadow: 0 0 0 0.125rem #fff;
+}
+
+textarea:focus {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+  outline-offset: 0 !important;
+}
+
+/* Button text and icon styles */
+.button-text {
+  display: inline;
+}
+
+.button-icon {
+  display: none;
+}
+
+/* Media query for mobile */
+@media screen and (max-width: 600px) {
+  .button-text {
+    display: none;
+  }
+
+  .button-icon {
+    display: inline;
+  }
+
+  .form-group button {
+    padding: 8px 18px;
+    min-width: 44px;
+  }
+}
+		  </style>
+
+
+<!-- <style>
+.citation-container {
+  border-top: 1px solid #d9d9d9;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: 0.5em -0.68em -0.68em -0.68em;
+  padding: 0.75em 2em;
+  border-radius: 0 0 6px 6px;
+}
+
+@media (min-width: 425px) {
+  .citation-container {
+    margin: 0.25em -0.68em -0.65em -0.68em;
+    padding: 0.75em 2em 0.25em 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  .citation-container {
+    margin: 0.25em -0.6em -0.6em -0.6em;
+    padding: 0.75em 3em 0em;
+  }
+}
+
+@media (min-width: 769px) {
+  .citation-container {
+    margin: 0.25em -1em -1em -1em;
+    padding: 0.75em 4em 0.3em;
+  }
+  .chat-id p {
+    margin-left: 80px;
+  }
+}
+
+.citation-head {
+  font-weight: bold !important;
+  font-family: "Lato";
+  margin-bottom: 0.5rem !important;
+}
+.citation-link {
+  font-size: 0.85em;
+  word-break: break-all;
+  margin-bottom: 0.5rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .citation-link a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em;
+    width: 100%;
+  }
+}
+
+.citation-link a {
+  color: #0535d2;
+}
+
+
+.chat-id {
+  padding: 10px 10px;
+  border-bottom: 1px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  background-color: #f5f5f5;
+  margin-top: -6px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+}
+
+.chat-id p {
+  font-size: 85%;
+  color: #555;
+}
+</style>  -->
+
+<style>
+.citation-container {
+  /* margin-top: .5rem !important; */
+/* border-left: 5px solid #e6e6f5; */
+}
+.notice-style {
+	/* border-left: 5px solid #e6e6f5; */
+}
+.citation-container .mistake-disc {
+	margin-top:0px;
+	background-color: white !important;
+	border-radius: 0px !important;
+}
+.citation-container .mistake-disc p {
+	/* color: #333; */
+	padding: 0 !important;
+}
+.citation-container p {
+    padding-left: 0px;
+}
+.citation-container .notice-style > p:first-child {
+	font-size: 18px !important;
+		/* color:#5050cc; */
+
+}
+.citation-container .notice-style > p:nth-child(2) {
+	font-size: 18px !important;
+	/* color:#5050cc; */
+}
+
+.citation-link a {
+  color: #5050cc;
+}
+
+.citation-container .notice-style > p:nth-child(3) {
+	font-size: 18px !important;
+}
+.citation-head {
+  margin-top: 0rem !important;
+font-weight: bold !important;
+
+}
+/* 
+
+@media (min-width: 425px) {
+  .citation-container {
+    margin: 0.25em -0.68em -0.65em -0.68em;
+    padding: 0.75em 2em 0.25em 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  .citation-container {
+    margin: 0.25em -0.6em -0.6em -0.6em;
+    padding: 0.75em 3em 0em;
+  }
+}
+
+@media (min-width: 769px) {
+  .citation-container {
+    margin: 0.25em -1em -1em -1em;
+    padding: 0.75em 4em 0.3em;
+  }
+  .chat-id p {
+    margin-left: 80px;
+  }
+} */
+
+.citation-link {
+  font-size: 0.85em;
+  word-break: break-all;
+  margin-bottom: 0.5rem !important;
+} 
+
+.citation-link i {
+		color:#0535d2;
+
+}
+
+@media screen and (max-width: 768px) {
+  .citation-link a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em;
+    width: 100%;
+  }
+}
+
+
+.chat-id {
+  padding: 5px 20px;
+  border-bottom: 1px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  background-color: #f5f5f5;
+  margin-top: -6px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: right;
+}
+
+.chat-id p {
+  font-size: 14px;
+  color: #555;
+  max-width: 1000ch !important;
+}
+
+.feedback-text {
+	font-size: 18px !important;
+}
+</style> 
+		
+		
+		  <script>
+			// Combined function for textarea handling
+				function handleTextareaInput(event) {
+				const textarea = event.target;
+				const counter = document.getElementById('charCount');
+				const button = document.querySelector('.btn-primary-send');
+				const maxLength = textarea.maxLength;
+				const currentLength = textarea.value.length;
+				
+				// Update character count
+				counter.textContent = `${currentLength}/${maxLength}`;
+				
+				// Toggle button visibility
+				if (currentLength > 0) {
+					button.classList.add('visible');
+				} else {
+					button.classList.remove('visible');
+				}
+				
+				// Reset height to auto so we can accurately measure scroll height
+				textarea.style.height = 'auto';
+				
+				// Set new height based on scroll height
+				textarea.style.height = (textarea.scrollHeight) + 'px';
+				}
+
+				// Function to handle keyboard events
+				function handleKeyPress(event) {
+				if (event.key === 'Enter') {
+					// If Shift + Enter, allow new line
+					if (event.shiftKey) {
+					return;
+					}
+					
+					// If just Enter, submit the form
+					event.preventDefault();
+					document.querySelector('form').submit();
+				}
+				}
+
+				// Set focus on textarea when page loads
+				window.onload = function() {
+				const textarea = document.getElementById('message');
+				textarea.focus();
+				}
+
+	// Function to handle keyboard events
+	function handleKeyPress(event) {
+	const textarea = event.target;
+	
+	if (event.key === 'Enter') {
+		// If Shift + Enter, allow new line
+		if (event.shiftKey) {
+		return;
+		}
+		
+		// If Enter and the field is empty, prevent both submission and new line
+		if (textarea.value.trim().length === 0) {
+		event.preventDefault();
+		return;
+		}
+		
+		// If Enter and there is text, submit the form
+		event.preventDefault();
+		document.querySelector('form').submit();
+	}
+	}
+
+		  </script>
+		  
+	</head>
+	<body class="cnt-wdth-lmtd" vocab="http://schema.org/" typeof="WebPage"><nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
+		<li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Skip to About this site</a></li></ul>
+</nav>
+
+		<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+			
+				<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+	<h2 class="wb-inv">Language selection</h2>
+	<ul class="list-inline mrgn-bttm-0">
+		<li>
+			<a lang="fr" hreflang="fr" href="about-fr.html">
+				<span class="hidden-xs" translate="no">Français</span>
+				<abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+			</a>
+		</li>
+	</ul>
+</section>
+
+			
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+	<a href="#" property="url">
+		<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" /><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+	</a>
+	<meta property="name" content="Government of Canada">
+	<meta property="areaServed" typeof="Country" content="Canada" />
+	<link property="logo" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" />
+</div>
+
+			
+				
+<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+	<h2>Search</h2>
+	<form action="https://canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search">
+		<div class="form-group wb-srch-qry">
+			<label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+			<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca" />
+			<datalist id="wb-srch-q-ac"></datalist>
+		</div>
+		<div class="form-group submit">
+			<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+				<span class="glyphicon-search glyphicon"></span>
+				<span class="wb-inv">Search</span>
+			</button>
+		</div>
+	</form>
+</section>
+
+			
+		</div>
+	</div>
+	
+	<hr>
+	<div class="container">
+		<div class="row"><div class="col-md-8">
+					<nav class="gcweb-menu" typeof="SiteNavigationElement">
+	<h2 class="wb-inv">Menu</h2>
+	<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+	<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html"><li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+		<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+		<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li></ul>
+</nav>
+
+				</div></div>
+	</div>
+	
+	<nav id="wb-bc" property="breadcrumb">
+	<h2>You are here:</h2>
+	<div class="container">
+		<ol class="breadcrumb" typeof="BreadcrumbList">
+			<li property="itemListElement" typeof="ListItem">
+				<a property="item" typeof="WebPage" href="https://www.canada.ca/en.html">
+					<span property="name">Canada.ca</span>
+				</a>
+				<meta property="position" content="1">
+			</li>
+<!-- 			
+						<li property="itemListElement" typeof="ListItem">
+							<a property="item" typeof="WebPage" href="/index.html">
+								<span property="name">Designing for Canada.ca</span>
+							</a>
+							<meta property="position" content="2">
+						</li> -->
+						
+		</ol>
+	</div>
+</nav>
+
+
+</header>
+
+  
+
+		<main class="" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+			<div class="container">
+				<!-- Custom code starts here --><h1 property="name" id="wb-cont" property="name headline" dir="ltr">AI answers
+				</h1><!-- Custom code ends here -->
+<p><mark>Testing when preview is broken</mark></p>
+
+<form class="mrgn-tp-xl mrgn-bttm-lg">
+    <div class="field-container">
+		<label for="message">Ask a Canada.ca question</label>
+		<span class="hint-text"><i class="fa-solid fa-wand-magic-sparkles"></i> Hint: Add details. AI can make mistakes, always check your answer.</span>
+		<div class="form-group">
+		  <textarea 
+			id="message" 
+			name="message" 
+			maxlength="400"
+			oninput="handleTextareaInput(event)"
+			onkeydown="handleKeyPress(event)"
+			required
+			autofocus
+		  ></textarea>
+		  <button type="submit" class="btn-primary-send">
+			<span class="button-text">Send</span>
+			<i class="button-icon fa-solid fa-arrow-up"></i>
+		  </button>
+		  <span class="char-counter" id="charCount">0/400</span>
+		</div>
+	  </div>
+  </form>
+  <div class="chat-container">
+    <div class="message-list">
+        <div class="message user">
+            <div class="user-message-box"><p class="">can i renew a passport online now?</p></div>
+        </div>
+        <div class="message ai">
+            <div class="ai-message-content">
+                <p class="ai-sentence">Some Canadians can renew their passport online, but only a limited number of online applications are accepted each day.</p>
+                <p class="ai-sentence">If you are eligible, you can start your online renewal by signing in to the passport online account.</p>
+                <p class="ai-sentence">If online renewal is not available, you can still renew by mail or in person.</p>
+
+<hr style="border: none; border-top: 4px solid #d9d9d9; margin:0px; width: 80px;">
+
+                <div class="citation-container">
+								 
+				<div class="notice-style">
+                    <!-- <div class="mistake-disc mrgn-bttm-sm">
+                      <span style="background-color: #f5f5ff; border-radius: 5px; padding: 2px 10px; display: inline-block; font-size: 18px; color: #0535d2;">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>&nbsp;AI can make mistakes
+</span>
+                </div> -->
+				<p class="citation-head"><i class="fa-solid fa-wand-magic-sparkles"></i>&nbsp;Continue with your answer here:</span></p>
+					                    <p class="citation-link" style="margin-top: 10px;">
+                        <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/online-account.html" target="_blank" rel="noopener noreferrer" tabindex="0">
+                            https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/online-account.html</a>
+						 <i class="fa fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </p>
+                </div>
+				</div>
+						 
+            </div>
+            <div class="chat-id"><p>Chat ID: 31e0fd81-2f48-4bbb-a290-57f8d3deba6f</p></div>
+						<div class="ai-message-content mrgn-tp-md">
+
+            <div class="">
+                <span class="feedback-text">How was this answer? </span><button class="feedback-link button-as-link" tabindex="0">Good</button><span class="feedback-separator">·</span><span class="feedback-text">or</span>
+                <span class="feedback-separator">·</span><button class="feedback-link button-as-link" tabindex="0">Needs improvement</button><span class="feedback-separator"></span>
+                <button class="wb-inv" aria-label="Skip follow-on question" tabindex="0">Skip follow-on question</button>
+			</div>
+		</div>
+        </div>
+    </div>
+</div>
+<form class="mrgn-bttm-lg">
+    <div class="field-container">
+		<label for="message">Ask a follow-on question or reply</label>
+		<span class="hint-text"><i class="fa-solid fa-wand-magic-sparkles"></i> Hint: Add details. AI can make mistakes, always check your answer.</span>
+		<div class="form-group">
+		  <textarea 
+			id="message" 
+			name="message" 
+			maxlength="400"
+			oninput="handleTextareaInput(event)"
+			onkeydown="handleKeyPress(event)"
+			required
+			autofocus
+		  ></textarea>
+		  <button type="submit" class="btn-primary-send">
+			<span class="button-text">Send</span>
+			<i class="button-icon fa-solid fa-arrow-up"></i>
+		  </button>
+		  <span class="char-counter" id="charCount">0/400</span>
+		</div>
+	  </div>
+  </form>
+</div>
+</main>
+
+		<footer id="wb-info">
+	<h2 class="wb-inv">About this site</h2>
+
+	<div class="gc-main-footer">
+		<div class="container">
+	
+		</div>
+	</div>
+
+	<div class="gc-sub-footer">
+		<div class="container d-flex align-items-center">
+			<nav>
+				<h3 class="wb-inv">Government of Canada Corporate</h3>
+				<ul>
+					<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+					<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+					<li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li><li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li></ul>
+			</nav>
+			<div class="wtrmrk align-self-end">
+				<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
+			</div>
+		</div>
+	</div>
+</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script><script src="/js/gc-pg-hlpfl.js"></script><!-- Custom code starts here -->
+
+<!-- Custom code ends here -->
+
+	</body>
+</html>
