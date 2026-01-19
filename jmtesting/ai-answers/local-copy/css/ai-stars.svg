@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 200 200">
+  <defs>
+    <path id="star" d="M 0,-10 L -3,-3 L -10,0 L -3,3 L 0,10 L 3,3 L 10,0 L 3,-3 Z" fill="#333"/>
+  </defs>
+  
+  <use href="#star" transform="translate(120, 125) scale(7)"/>
+  <use href="#star" transform="translate(50, 70) scale(4.5)"/>
+  <use href="#star" transform="translate(105, 25) scale(2)"/>
+</svg>
