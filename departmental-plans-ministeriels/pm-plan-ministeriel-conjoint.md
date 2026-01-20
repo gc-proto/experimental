@@ -54,7 +54,7 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
         <p>[Inclure les renseignements sur les droits d&#8217;auteur formatés pour le Web (échantillon: © Sa Majesté le Roi du chef du Canada, représenté par le ministre de [appellation légale du ministère], [année de publication], [ISSN])]</p>
     </details>
     <section class="well"><!--En un coup d'oeil open-->
-        <h2 id="toc01">En un coup d'œil</h2>
+        <h2 id="toc01" class="mrgn-tp-sm">En un coup d'œil</h2>
         <p>Le présent plan ministériel précise les priorités, les projets et les coûts connexes de [insérer le nom du ministère] au cours des trois exercices à venir.</p>
         <p>Les plans sont axés sur les priorités énoncées dans les <a href="#">lettres de mandat</a> [ajouter les hyperliens si des lettres de mandat propres au ministère sont mentionnées], ainsi que sur <a href="#">la vision, la mission, la raison d'être et le contexte opérationnel</a> de [nom du ministère] [Ajouter les hyperliens pertinents].</p>
         <section><!-- Priorités du ministère open-->
