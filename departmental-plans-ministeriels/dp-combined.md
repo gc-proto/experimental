@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs: 
 - title: [theme, topic, or department] 
 link: "#" 
-dateModified: 2026-01-20 
+dateModified: 2026-01-26 
 language: en 
 layout: default 
 title: "[Department name]&#8217;s [insert fiscal year] Departmental plan" 
@@ -51,8 +51,8 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Copyright information</summary>
         <p>[Include copyright information formatted for web (sample: © His Majesty the King in Right of Canada, as represented by the Minister of [legal name of department], [year of publication], ISSN: [#######])]</p>
     </details>
-    <section class="well"><!--At a glance-->
-        <h2 id="toc01" class="mrgn-tp-sm">At a glance</h2>
+    <section><!--At a glance-->
+        <h2 id="toc01">At a glance</h2>
         <p>This departmental plan details [Department name]&#8217;s priorities, plans and associated costs for the upcoming three fiscal years.</p>
         <p>These plans align with the priorities outlined in the <a href="#">Mandate Letters(s)</a> [insert hyperlink(s)], as well as <a href="#">[Department name]&#8217;s Vision, mission, raison d&#8217;être and operating context</a> [add hyperlink(s)].</p>
         <section>
@@ -80,6 +80,7 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                         <li>
                             <details>
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Core responsibility 1: [Insert name of core responsibility 1]</summary>
+								<p>[Insert a summary of your department&#8217;s plans for the core responsibility.]</p>
                                 <ul class="list-unstyled">
                                     <li><strong>Planned spending:</strong> $[Insert amount]</li>
                                     <li><strong>Planned human resources:</strong> [Insert amount]</li>
@@ -90,6 +91,7 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                         <li>
                             <details>
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Core responsibility 2: [Insert name of core responsibility 2]</summary>
+								<p>[Insert a summary of your department&#8217;s plans for the core responsibility.]</p>
                                 <ul class="list-unstyled">
                                     <li><strong>Planned spending:</strong> $[Insert amount]</li>
                                     <li><strong>Planned human resources:</strong> [Insert amount]</li>
@@ -100,6 +102,7 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                         <li>
                             <details>
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Core responsibility 3: [Insert name of core responsibility 3]</summary>
+								<p>[Insert a summary of your department&#8217;s plans for the core responsibility.]</p>
                                 <ul class="list-unstyled">
                                     <li><strong>Planned spending:</strong> $[Insert amount]</li>
                                     <li><strong>Planned human resources:</strong> [Insert amount]</li>
@@ -185,9 +188,12 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
             <section><!--Core responsibilities 1: Indicators, results and targets open-->
                 <h4 id="toc02-1-3">Indicators, results and targets</h4>
                 <p>This section presents details on the department&#8217;s indicators, the actual results from the three&#160;most recently reported fiscal years, the targets and target dates for [insert name of core responsibility]. Details are presented by departmental result.</p>
+				<section>
+				<h5>Table [#]: [Insert name of departmental result 1]</h5>
+				<p class="h6">Table [insert number] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility]. </p>
                 <div class="table-responsive">
                     <table id="tbl1-1" class="table table-bordered table-condensed">
-                        <caption class="h5 text-left">Table [#]: [Insert name of departmental result 1]</caption>
+                        <caption class="wb-inv text-left">Table [#]: [Insert name of departmental result 1]</caption><!--Invisible title same as above-->
                         <thead>
                             <tr class="active">
                                 <th class="text-left" scope="col">Departmental Result Indicators</th>
@@ -224,9 +230,13 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                         </tbody>
                     </table>
                 </div>
+				</section>
+				<section>
+				<h5>Table [#]: [Insert name of departmental result 2]</h5>
+				<p class="h6">Table [insert number] provides a summary of the target and actual results for each indicator associated with the results under [insert name of core responsibility]. </p>
                 <div class="table-responsive">
                     <table id="tbl1-2" class="table table-bordered table-condensed">
-                        <caption class="h5 text-left">Table [#]: [Insert name of departmental result 2]</caption>
+                        <caption class="wb-inv text-left">Table [#]: [Insert name of departmental result 2]</caption><!--Invisible title same as above-->
                         <thead>
                             <tr class="active">
                                 <th scope="col">Departmental Result Indicators</th>
@@ -264,6 +274,7 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                     </table>
                 </div>
                 <p>[Hyperlink to the related information on GC Infobase]</p>
+				</section>
             </section><!--Core responsibilities 1: Indicators, results and targets close-->
             <section><!--Core responsibilities 1: Plans to achieve results open-->
                 <h4 id="toc02-1-4">Plans to achieve results</h4>
@@ -408,6 +419,13 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
     </section><!--Plans to deliver on core responsibilities and internal services close-->
     <section><!--Department-wide considerations open-->
         <h2 id="toc03">Department-wide considerations</h2>
+		<details>
+            <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
+            <ul>
+                <li><a href="#toc03-1">Related Government Priorities</a></li>
+                <li><a href="#toc03-2">Key Risks</a></li>
+            </ul>
+        </details>
         <section><!--Related Government Priorities open-->
             <h3 id="toc03-1">Related Government Priorities</h3>
             <section><!--United Nations 2030 Agenda for Sustainable Development and the UN Sustainable Development Goals [optional] open-->
@@ -426,7 +444,7 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
     </section><!--Department-wide considerations closed-->
     <section><!--Planned spending and human resources open-->
         <h2 id="toc04">Planned spending and human resources</h2>
-        <p>This section provides an overview of [department name]&amp;8217;s planned spending and human resources for the next three fiscal years and of planned spending for [insert fiscal year] with actual spending from previous years.</p>
+        <p>This section provides an overview of [department name]&#8217;s planned spending and human resources for the next three fiscal years and of planned spending for [insert fiscal year] with actual spending from previous years.</p>
         <details>
             <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
             <ul>
@@ -531,9 +549,9 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                                 </tr>
                                 <tr class="active">
                                     <th scope="row">Total (s)</th>
-                                    <td class=""><strong>[Insert total]</strong></td>
-                                    <td class=""><strong>[Insert total]</strong></td>
-                                    <td class=""><strong>[Insert total]</strong></td>
+                                    <td><strong>[Insert total]</strong></td>
+                                    <td><strong>[Insert total]</strong></td>
+                                    <td><strong>[Insert total]</strong></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -585,9 +603,9 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                                 </tr>
                                 <tr class="active">
                                     <th scope="row">Total</th>
-                                    <td class=""><strong>[Insert total]</strong></td>
-                                    <td class=""><strong>[Insert total]</strong></td>
-                                    <td class=""><strong>[Insert total]</strong></td>
+                                    <td><strong>[Insert total]</strong></td>
+                                    <td><strong>[Insert total]</strong></td>
+                                    <td><strong>[Insert total]</strong></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -639,9 +657,9 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                                 </tr>
                                 <tr class="active">
                                     <th scope="row">Total</th>
-                                    <td class=""><strong>[Insert total]</strong></td>
-                                    <td class=""><strong>[Insert total]</strong></td>
-                                    <td class=""><strong>[Insert total]</strong></td>
+                                    <td><strong>[Insert total]</strong></td>
+                                    <td><strong>[Insert total]</strong></td>
+                                    <td><strong>[Insert total]</strong></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -817,9 +835,9 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                             </tr>
                             <tr class="active">
                                 <th scope="row">Total</th>
-                                <td class=""><strong>[Insert total]</strong></td>
-                                <td class=""><strong>[Insert total]</strong></td>
-                                <td class=""><strong>[Insert total]</strong></td>
+                                <td><strong>[Insert total]</strong></td>
+                                <td><strong>[Insert total]</strong></td>
+                                <td><strong>[Insert total]</strong></td>
                             </tr>
                         </tbody>
                     </table>
@@ -870,9 +888,9 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                             </tr>
                             <tr class="active">
                                 <th scope="row">Total</th>
-                                <td class=""><strong>[Insert total]</strong></td>
-                                <td class=""><strong>[Insert total]</strong></td>
-                                <td class=""><strong>[Insert total]</strong></td>
+                                <td><strong>[Insert total]</strong></td>
+                                <td><strong>[Insert total]</strong></td>
+                                <td><strong>[Insert total]</strong></td>
                             </tr>
                         </tbody>
                     </table>
@@ -908,7 +926,7 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
     <section><!--Corporate information open-->
         <h2 id="toc08">Corporate information</h2>
         <div class="accordion">
-            <details>
+            <details class="acc-group print-open">
                 <summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Departmental profile</summary>
                 <div class="tgl-panel">
                     <section>
@@ -937,7 +955,7 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
                     </section>
                 </div>
             </details>
-            <details>
+            <details class="acc-group print-open">
                 <summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Departmental contact information</summary>
                 <div class="tgl-panel">
                     <section>
