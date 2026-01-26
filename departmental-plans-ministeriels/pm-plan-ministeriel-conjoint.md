@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs: 
 - title: [theme, topic, or department] 
 link: "#" 
-dateModified: 2026-01-20
+dateModified: 2026-01-26
 language: fr 
 layout: default 
 title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]" 
@@ -53,8 +53,8 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Renseignements sur les droits d&#8217;auteur</summary>
         <p>[Inclure les renseignements sur les droits d&#8217;auteur formatés pour le Web (échantillon: © Sa Majesté le Roi du chef du Canada, représenté par le ministre de [appellation légale du ministère], [année de publication], [ISSN])]</p>
     </details>
-    <section class="well"><!--En un coup d'oeil open-->
-        <h2 id="toc01" class="mrgn-tp-sm">En un coup d'œil</h2>
+    <section><!--En un coup d'oeil open-->
+        <h2 id="toc01">En un coup d'œil</h2>
         <p>Le présent plan ministériel précise les priorités, les projets et les coûts connexes de [insérer le nom du ministère] au cours des trois exercices à venir.</p>
         <p>Les plans sont axés sur les priorités énoncées dans les <a href="#">lettres de mandat</a> [ajouter les hyperliens si des lettres de mandat propres au ministère sont mentionnées], ainsi que sur <a href="#">la vision, la mission, la raison d'être et le contexte opérationnel</a> de [nom du ministère] [Ajouter les hyperliens pertinents].</p>
         <section><!-- Priorités du ministère open-->
@@ -82,6 +82,7 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                         <li>
                             <details>
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Responsabilité essentielle 1: [Insérer le nom de la responsabilité essentielle.]</summary>
+								<p>[Insérer un résumé des plans de votre ministère pour la responsabilité essentielle]</p>
                                 <ul class="list-unstyled">
                                     <li><strong>Dépenses prévues :</strong> [Insérer le montant]</li>
                                     <li><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</li>
@@ -92,6 +93,7 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                         <li>
                             <details>
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Responsabilité essentielle 2: [Insérer le nom de la responsabilité essentielle.]</summary>
+								<p>[Insérer un résumé des plans de votre ministère pour la responsabilité essentielle]</p>
                                 <ul class="list-unstyled">
                                     <li><strong>Dépenses prévues :</strong> [Insérer le montant]</li>
                                     <li><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</li>
@@ -102,6 +104,7 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                         <li>
                             <details>
                                 <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Responsabilité essentielle 3: [Insérer le nom de la responsabilité essentielle.]</summary>
+								<p>[Insérer un résumé des plans de votre ministère pour la responsabilité essentielle]</p>
                                 <ul class="list-unstyled">
                                     <li><strong>Dépenses prévues :</strong> [Insérer le montant]</li>
                                     <li><strong>Ressources humaines prévues :</strong> [Insérer le nombre]</li>
@@ -188,10 +191,13 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
             </section><!--Responsabilités essentielles Repercussion close-->
             <section><!--Responsabilités essentielles Indicateur, resultats et cibles open-->
                 <h4 id="toc02-1-3">Indicateurs, résultats et cibles</h4>
-                <p>Cette section présente des renseignements détaillés sur les indicateurs du ministère, les résultats réels des trois derniers exercices, les cibles et les dates cibles approuvées en [insérer l&#8217;exercice] pour [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel. [Remplir le tableau suivant pour chaque résultat ministériel lié à la responsabilité essentielle.]</p>
+                <p>Cette section présente des renseignements détaillés sur les indicateurs du ministère, les résultats réels des trois derniers exercices, les cibles et les dates cibles approuvées en [insérer l&#8217;exercice] pour [inscrire le nom de la responsabilité essentielle]. Les renseignements sont présentés par résultat ministériel.</p>
+				<section>
+				<h5>Tableau [#] : [Inscrire le nom du résultat ministériel 1]</h5>
+				<p class="h6">Le tableau [insérer le numéro] fournit un résumé de l&#8217;objectif et des résultats réels pour chaque indicateur associé aux résultats sous [insérer le nom de la responsabilité essentielle]. </p>
                 <div class="table-responsive">
                     <table id="tbl1-1" class="table table-bordered table-condensed">
-                        <caption class="h5 text-left">Tableau [#] : [Inscrire le nom du résultat ministériel 1]</caption>
+                        <caption class="wb-inv text-left">Tableau [#] : [Inscrire le nom du résultat ministériel 1]</caption><!--Invisible title same as above-->
                         <thead>
                             <tr class="active">
                                 <th class="text-left" scope="col">Indicateurs de résultat ministériel</th>
@@ -228,9 +234,13 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                         </tbody>
                     </table>
                 </div>
+				</section>
+				<section>
+				<h5>Tableau [#] : [Inscrire le nom du résultat ministériel 2]</h5>
+				<p class="h6">Le tableau [insérer le numéro] fournit un résumé de l&#8217;objectif et des résultats réels pour chaque indicateur associé aux résultats sous [insérer le nom de la responsabilité essentielle]. </p>
                 <div class="table-responsive">
                     <table id="tbl1-2" class="table table-bordered table-condensed">
-                        <caption class="h5 text-left">Tableau [#] : [Inscrire le nom du résultat ministériel 2]</caption>
+                        <caption class="wb-inv text-left">Tableau [#] : [Inscrire le nom du résultat ministériel 2]</caption><!--Invisible title same as above-->
                         <thead>
                             <tr class="active">
                                 <th class="text-left" scope="col">Indicateurs de résultat ministériel</th>
@@ -268,6 +278,7 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                     </table>
                 </div>
                 <p>[Hyperlien vers des informations connexes dans l'infoBase du GC].</p>
+				</section>
             </section><!--Responsabilités essentielles Indicateur, resultats et cibles close-->
             <section><!--Responsabilités essentielles plan visant a atteindre les cibles open-->
                 <h4 id="toc02-1-4">Plans visant à atteindre les cibles</h4>
@@ -410,14 +421,21 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
     </section><!--Responsabilités essentielles close-->
     <section><!--Considérations à l’échelle du ministère open-->
         <h2 id="toc03">Considérations à l&#8217;échelle du ministère</h2>
+		<details>
+            <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">In this section</summary>
+            <ul>
+                <li><a href="#toc03-1">Priorités gouvernementales connexes</a></li>
+                <li><a href="#toc03-2">Principaux risques</a></li>
+            </ul>
+        </details>
         <section><!--Priorités gouvernementales connexes open-->
-            <h3 id="toc03-1">Priorités gouvernementales connexes [facultatif]</h3>
+            <h3 id="toc03-1">Priorités gouvernementales connexes</h3>
             <section><!--Programme de développement durable à l’horizon 2030 et objectifs de développement durable des Nations Unies open-->
-                <h4>Programme de développement durable à l&#8217;horizon 2030 et objectifs de développement durable des Nations Unies</h4>
+                <h4>Programme de développement durable à l&#8217;horizon 2030 et objectifs de développement durable des Nations Unies [facultatif]</h4>
                 <p>[Insérer le contenue pour cette section]</p>
             </section><!--Programme de développement durable à l’horizon 2030 et objectifs de développement durable des Nations Unies closed-->
             <section><!--Intelligence artificielle open-->
-                <h4>Intelligence artificielle</h4>
+                <h4>Intelligence artificielle [facultatif]</h4>
                 <p>[Insérer le contenue pour cette section]</p>
             </section><!--Intelligence artificielle closed-->
         </section><!--Priorités gouvernementales connexes closed-->
@@ -529,9 +547,9 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                                 </tr>
                                 <tr class="active">
                                     <th scope="row">Total</th>
-                                    <td class=""><strong>[Insérer le total]</strong></td>
-                                    <td class=""><strong>[Insérer le total]</strong></td>
-                                    <td class=""><strong>[Insérer le total]</strong></td>
+                                    <td><strong>[Insérer le total]</strong></td>
+                                    <td><strong>[Insérer le total]</strong></td>
+                                    <td><strong>[Insérer le total]</strong></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -558,13 +576,13 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">[Insérer le nom de la responsabilité essentielle.]</th>
+                                    <th scope="row">[Insérer le nom de la responsabilité essentielle 1.]</th>
                                     <td>[Insérer le montant]</td>
                                     <td>[Insérer le montant]</td>
                                     <td>[Insérer le montant]</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">[Insérer le nom de la responsabilité essentielle.]</th>
+                                    <th scope="row">[Insérer le nom de la responsabilité essentielle 2.]</th>
                                     <td>[Insérer le montant]</td>
                                     <td>[Insérer le montant]</td>
                                     <td>[Insérer le montant]</td>
@@ -583,9 +601,9 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                                 </tr>
                                 <tr class="active">
                                     <th scope="row">Total</th>
-                                    <td class=""><strong>[Insérer le total]</strong></td>
-                                    <td class=""><strong>[Insérer le total]</strong></td>
-                                    <td class=""><strong>[Insérer le total]</strong></td>
+                                    <td><strong>[Insérer le total]</strong></td>
+                                    <td><strong>[Insérer le total]</strong></td>
+                                    <td><strong>[Insérer le total]</strong></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -637,9 +655,9 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                                 </tr>
                                 <tr class="active">
                                     <th scope="row">Total</th>
-                                    <td class=""><strong>[Insérer le total]</strong></td>
-                                    <td class=""><strong>[Insérer le total]</strong></td>
-                                    <td class=""><strong>[Insérer le total]</strong></td>
+                                    <td><strong>[Insérer le total]</strong></td>
+                                    <td><strong>[Insérer le total]</strong></td>
+                                    <td><strong>[Insérer le total]</strong></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -812,9 +830,9 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                             </tr>
                             <tr class="active">
                                 <th scope="row">Total</th>
-                                <td class=""><strong>[Insérer le total]</strong></td>
-                                <td class=""><strong>[Insérer le total]</strong></td>
-                                <td class=""><strong>[Insérer le total]</strong></td>
+                                <td><strong>[Insérer le total]</strong></td>
+                                <td><strong>[Insérer le total]</strong></td>
+                                <td><strong>[Insérer le total]</strong></td>
                             </tr>
                         </tbody>
                     </table>
@@ -864,9 +882,9 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                         </tr>
                         <tr class="active">
                             <th scope="row">Total</th>
-                            <td class=""><strong>[Insérer le total]</strong></td>
-                            <td class=""><strong>[Insérer le total]</strong></td>
-                            <td class=""><strong>[Insérer le total]</strong></td>
+                            <td><strong>[Insérer le total]</strong></td>
+                            <td><strong>[Insérer le total]</strong></td>
+                            <td><strong>[Insérer le total]</strong></td>
                         </tr>
                     </tbody>
                 </table>
@@ -896,12 +914,12 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
         <h2 id="toc07">Dépenses fiscales fédérales</h2>
         <p>Le Plan ministériel de [nom du ministère] ne comprend pas de renseignements sur les dépenses fiscales.</p>
         <p>Il est possible de recourir au système fiscal pour atteindre des objectifs de politique publique en appliquant des mesures spéciales, comme de faibles taux d&#8217;imposition, des exemptions, des déductions, des reports et des crédits. Le ministère des Finances Canada publie chaque année des estimations et des projections du coût de ces mesures dans le <a href="https://www.canada.ca/fr/ministere-finances/services/publications/depenses-fiscales.html">Rapport sur les dépenses fiscales fédérales</a>.</p>
-        <p>Ce rapport fournit aussi des renseignements généraux détaillés sur les dépenses fiscales, dont des descriptions, des objectifs, des données historiques et les renvois aux programmes des dépenses fédéraux connexes ainsi qu‘aux évaluations fiscales et aux résultats de l&#8217;ACS Plus liés aux dépenses fiscales.</p>
+        <p>Ce rapport fournit aussi des renseignements généraux détaillés sur les dépenses fiscales, dont des descriptions, des objectifs, des données historiques et les renvois aux programmes des dépenses fédéraux connexes ainsi qu&#8217;aux évaluations fiscales et aux résultats de l&#8217;ACS Plus liés aux dépenses fiscales.</p>
     </section><!--Dépenses fiscales fédérales close-->
     <section><!--Renseignements ministériels open-->
         <h2 id="toc08">Renseignements ministériels</h2>
         <div class="accordion">
-            <details class="acc-group brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+            <details class="acc-group print-open">
                 <summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Profil du ministère</summary>
                 <div class="tgl-panel">
                     <section>
@@ -930,7 +948,7 @@ title: "Plan ministériel [insérer l&#8217;exercice] de [nom du ministère]"
                     </section>
                 </div>
             </details>
-            <details class="acc-group brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
+            <details class="acc-group print-open">
                 <summary class="wb-toggle tgl-tab" data-toggle="{&quot;parent&quot;: &quot;.accordion&quot;, &quot;group&quot;: &quot;.acc-group&quot;}">Coordonnées du ministère</summary>
                 <div class="tgl-panel">
                     <section>
