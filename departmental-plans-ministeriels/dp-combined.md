@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/departmental-plans-ministeriel
 breadcrumbs: 
 - title: [theme, topic, or department] 
 link: "#" 
-dateModified: 2026-01-26 
+dateModified: 2026-01-27 
 language: en 
 layout: default 
 title: "[Department name]&#8217;s [insert fiscal year] Departmental plan" 
@@ -51,8 +51,8 @@ title: "[Department name]&#8217;s [insert fiscal year] Departmental plan"
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Copyright information</summary>
         <p>[Include copyright information formatted for web (sample: © His Majesty the King in Right of Canada, as represented by the Minister of [legal name of department], [year of publication], ISSN: [#######])]</p>
     </details>
-    <section><!--At a glance-->
-        <h2 id="toc01">At a glance</h2>
+    <section class="well"><!--At a glance-->
+        <h2 id="toc01" class="mrgn-tp-0">At a glance</h2>
         <p>This departmental plan details [Department name]&#8217;s priorities, plans and associated costs for the upcoming three fiscal years.</p>
         <p>These plans align with the priorities outlined in the <a href="#">Mandate Letters(s)</a> [insert hyperlink(s)], as well as <a href="#">[Department name]&#8217;s Vision, mission, raison d&#8217;être and operating context</a> [add hyperlink(s)].</p>
         <section>
