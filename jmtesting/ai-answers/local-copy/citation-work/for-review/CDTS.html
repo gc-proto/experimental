@@ -32,89 +32,99 @@
 
     <!-- AI Answers CSS -->
     <style>
-        .aia-banner {
-            background: #1a2838;
-            bottom: 0;
-            color: #fff;
-            left: 0;
-            position: fixed;
-            right: 0;
-            z-index: 400;
-        }
-        .aia-banner p {
-            font-size: 1.125rem;
-            margin: 0;
-            padding: .875rem 2rem .875rem .75rem;
-        }
-        .aia-banner p a {
-            color: #fff;
-        }
-        .aia-banner p a:focus,
-        .aia-banner p a:hover {
-            color: #b3ffff;
-        }
-        .aia-banner .aia-close {
-            background: transparent;
-            border: none;
-            border-radius: 50%;
-            color: #fff;
-            cursor: pointer;
-            font-family: Arial, sans-serif;
-            font-size: 2rem;
-            font-weight: 400;
-            height: 45px;
-            line-height: 1;
-            padding: 0;
-            position: absolute;
-            right: 2px;
-            top: 50%;
-            transform: translateY(-50%);
-            transition: background-color .2s ease;
-            width: 45px;
-        }
-        .aia-banner .aia-close:hover {
-            background-color: rgba(255, 255, 255, 0.1);
-        }
-        .aia-banner .aia-close:focus {
-            background-color: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 0 0 2px #fff;
-            outline: 0;
-        }
-        .aia-rescue {
-            margin: 1rem 0;
-        }
-        .aia-rescue p {
-            margin: 0;
-            padding: .5rem 0 .5rem .75rem;
-        }
-        .d-flex {
-            display: flex !important;
-        }
-        .align-items-center {
-            align-items: center !important;
-        }
-        body.aia-banner-visible #wb-info {
-            margin-bottom: 3.375rem;
-        }
-        @media screen and (max-width: 767px) {
-            .aia-banner p {
-                font-size: 1rem;
-                padding-left: .5rem;
-            }
-            .aia-banner p a {
-                display: block;
-            }
-            body.aia-banner-visible #wb-info {
-                margin-bottom: 5rem;
-            }
-        }
-        .demo-box {
-            background: #fffbcc;
-            border: 2px solid #ffcc00;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 4px;
-        }
+/* AI Answers Banner */
+.aia-banner {
+    background: #1a2838;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 400;
+    font-family: inherit;
+}
+
+.aia-banner p {
+    font-size: 18px;
+    margin: 0;
+    padding: .875rem 2rem .875rem .75rem;
+    font-family: inherit;
+}
+
+.aia-banner p a {
+    color: #fff;
+    font-family: inherit;
+}
+
+.aia-banner p a:focus,
+.aia-banner p a:hover {
+    color: #b3ffff;
+}
+
+.aia-banner .aia-close {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* just the × symbol */
+    font-size: 3rem;
+    font-weight: 400;
+    height: 45px;
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color .2s ease;
+    width: 45px;
+}
+
+.aia-banner .aia-close:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aia-banner .aia-close:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 2px #fff;
+    outline: 0;
+}
+
+/* AI Answers Rescue Section */
+.aia-rescue {
+    margin: 1rem 0;
+    font-family: inherit;
+}
+
+.aia-rescue p {
+    margin: 0;
+    padding: .5rem 0 .5rem .75rem;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+/* Body class when banner is visible - adds space for fixed banner */
+body.aia-banner-visible #wb-info {
+    margin-bottom: 3.375rem;
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 767px) {
+    .aia-banner p {
+        font-size: 16px;
+        padding-left: .5rem;
+    }
+    
+    .aia-banner p a {
+        display: block;
+    }
+    
+    body.aia-banner-visible #wb-info {
+        margin-bottom: 5rem;
+    }
+}
+
     </style>
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
@@ -143,37 +153,6 @@
     <main role="main" property="mainContentOfPage" class="container">
         <h1 property="name" id="wb-cont">AI Answers Demo - Is your status card valid</h1>
 
-        <div class="demo-box">
-            <h2>🎯 AI Answers Demo</h2>
-            <p><strong>What to test:</strong></p>
-            <ul>
-                <li>Fixed banner at bottom of page</li>
-                <li>Click × to close banner</li>
-                <li>Refresh page - banner stays closed</li>
-                <li>Console: <code>sessionStorage.removeItem('aiaClosed'); location.reload();</code> to reset</li>
-            </ul>
-        </div>
-
-        <!-- AI ANSWERS BANNER -->
-        <section class="aia-banner">
-            <h2 class="wb-inv">AI answers banner</h2>
-            <div class="container">
-                <div class="d-flex align-items-center">
-                    <img src="https://canada.ca/content/dam/canada/ai-stars.png" alt="">
-                    <p> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url" data-gc-analytics-customclick="ESDC-EDSC:AI Answers:Banner Bottom Link Click">Ask AI Answers for assistance</a></p>
-                </div>
-            </div>
-            <button class="aia-close" type="button" aria-label="Close AI answers banner">×</button>
-        </section>
-
-        <!-- AI ANSWERS RESCUE -->
-        <section class="aia-rescue">
-            <h3 class="wb-inv">AI answers</h3>
-            <div class="d-flex align-items-center">
-                <img src="https://canada.ca/content/dam/canada/ai-stars-blue.png" alt="">
-                <p><strong>Need help?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url" data-gc-analytics-customclick="ESDC-EDSC:AI Answers:Content Link Click">Ask AI Answers for help</a></p>
-            </div>
-        </section>
 
         <p>Your registration under the <cite>Indian Act</cite> doesn't need to be renewed, but your status card does.</p>
 
@@ -209,7 +188,26 @@
         <div style="height: 400px; background: #f5f5f5; padding: 20px; margin: 20px 0;">
             <p><strong>Spacer content</strong> - Scroll down to see footer spacing</p>
         </div>
+        <!-- AI ANSWERS BANNER -->
+        <section class="aia-banner">
+            <h2 class="wb-inv">AI answers banner</h2>
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <img src="https://canada.ca/content/dam/canada/ai-stars.png" alt="">
+                    <p> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url" data-gc-analytics-customclick="ESDC-EDSC:AI Answers:Banner Bottom Link Click">Ask AI Answers for assistance</a></p>
+                </div>
+            </div>
+            <button class="aia-close" type="button" aria-label="Close AI answers banner">×</button>
+        </section>
 
+        <!-- AI ANSWERS RESCUE -->
+        <section class="aia-rescue">
+            <h3 class="wb-inv">AI answers</h3>
+            <div class="d-flex align-items-center">
+                <img src="https://canada.ca/content/dam/canada/ai-stars-blue.png" alt="">
+                <p><strong>Need help?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url" data-gc-analytics-customclick="ESDC-EDSC:AI Answers:Content Link Click">Ask AI Answers for help</a></p>
+            </div>
+        </section>
         <div id="def-preFooter">
             <div class="row pagedetails">
                 <div class="col-sm-5 col-xs-12 datemod">
@@ -253,46 +251,44 @@
 
     <!-- AI ANSWERS JAVASCRIPT -->
     <script>
-        async function aiAnswersAvailabilityCheck() {
-            let banners = document.querySelectorAll(".aia-banner, .aia-rescue");
-            const removeBanners = () => banners.forEach(banner => banner.remove());
-            
-            try {
-                const response = await fetch("https://ai-answers.alpha.canada.ca/api/chat/chat-session-availability");
-                if (response?.ok) {
-                    const data = await response.json();
-                    if (!data?.siteStatus || !data?.sessionAvailable) {
-                        removeBanners();
-                    }
-                } else {
-                    removeBanners();
-                }
-            } catch {
+ /* AI Answers Availability Check */
+async function aiAnswersAvailabilityCheck() {
+    let banners = document.querySelectorAll(".aia-banner, .aia-rescue");
+    
+    const removeBanners = () => banners.forEach(banner => banner.remove());
+    
+    try {
+        const response = await fetch("https://ai-answers.alpha.canada.ca/api/chat/chat-session-availability");
+        
+        if (response?.ok) {
+            const data = await response.json();
+            if (!data?.siteStatus || !data?.sessionAvailable) {
                 removeBanners();
             }
+        } else {
+            removeBanners();
         }
+    } catch {
+        removeBanners();
+    }
+}
 
-        document.addEventListener('DOMContentLoaded', function() {
-            const wasClosed = sessionStorage.getItem('aiaClosed') === 'true';
-            
-            if (wasClosed) {
-                const banner = document.querySelector('.aia-banner');
-                if (banner) banner.remove();
-            } else {
-                document.body.classList.add('aia-banner-visible');
-            }
-            
-            const closeButton = document.querySelector('.aia-close');
-            if (closeButton) {
-                closeButton.addEventListener('click', () => {
-                    closeButton.parentElement.remove();
-                    document.body.classList.remove('aia-banner-visible');
-                    sessionStorage.setItem('aiaClosed', 'true');
-                });
-            }
-            
-            aiAnswersAvailabilityCheck();
+/* Initialize AI Answers Banner - Call after DOM is ready */
+aiAnswersAvailabilityCheck();
+
+/* Close button functionality */
+document.addEventListener('DOMContentLoaded', function() {
+    const closeButton = document.querySelector('.aia-close');
+    
+    if (closeButton) {
+        closeButton.addEventListener('click', () => {
+            closeButton.parentElement.remove();
+            document.body.classList.remove('aia-banner-visible');
+            sessionStorage.setItem('aiaClosed', 'true');
         });
+    }
+});
+
     </script>
 </body>
 </html>
