@@ -93,7 +93,7 @@
 
 /* AI Answers Rescue Section */
 .aia-rescue {
-    margin: 1rem 0;
+    margin: 3rem 0 0 0;
     font-family: inherit;
 }
 
@@ -102,6 +102,15 @@
     padding: .5rem 0 .5rem .75rem;
     font-size: 16px;
     font-family: inherit;
+}
+
+/* flexbox utilities */ 
+.d-flex { 
+display: flex !important; 
+} 
+
+.align-items-center { 
+align-items: center !important; 
 }
 
 /* Body class when banner is visible - adds space for fixed banner */
@@ -125,6 +134,7 @@ body.aia-banner-visible #wb-info {
     }
 }
 
+
     </style>
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
@@ -132,23 +142,23 @@ body.aia-banner-visible #wb-info {
     <div id="def-top"></div>
     
     <!-- Write closure template -->
-    <script type="text/javascript">
-        var defTop = document.getElementById("def-top");
-        defTop.outerHTML = wet.builder.customTop({
-            cdnEnv: "prod",
-            showPreContent: false,
-            lngLinks: [{
-                lang: 'fr',
-                href: '#',
-                text: 'Français'
-            }],
-            breadcrumbs: [
-                {title: "Canada.ca", href: "https://www.canada.ca/en.html"},
-                {title: "Indigenous Services Canada", href: "#"},
-                {title: "Indian status", href: "#"}
-            ]
-        });
-    </script>
+<script type="text/javascript">
+    var defTop = document.getElementById("def-top");
+    defTop.outerHTML = wet.builder.top({
+        cdnEnv: "prod",
+        lngLinks: [{
+            lang: 'fr',
+            href: '#',
+            text: 'Français'
+        }],
+        breadcrumbs: [
+            {title: "Canada.ca", href: "https://www.canada.ca/en.html"},
+            {title: "Indigenous Services Canada", href: "#"},
+            {title: "Indian status", href: "#"}
+        ]
+    });
+</script>
+
 
     <main role="main" property="mainContentOfPage" class="container">
         <h1 property="name" id="wb-cont">AI Answers Demo - Is your status card valid</h1>
@@ -184,21 +194,9 @@ body.aia-banner-visible #wb-info {
                 <li>not reported lost, stolen or damaged</li>
             </ul>
         </section>
-
-    
-           <!-- AI ANSWERS BANNER -->
-        <section class="aia-banner">
-            <h2 class="wb-inv">AI answers banner</h2>
-            <div class="container">
-                <div class="d-flex align-items-center">
-                    <img src="https://canada.ca/content/dam/canada/ai-stars.png" alt="">
-                    <p> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url" data-gc-analytics-customclick="ESDC-EDSC:AI Answers:Banner Bottom Link Click">Ask AI Answers for assistance</a></p>
-                </div>
-            </div>
-            <button class="aia-close" type="button" aria-label="Close AI answers banner">×</button>
-        </section>
-
+        
         <!-- AI ANSWERS RESCUE -->
+
         <section class="aia-rescue">
             <h3 class="wb-inv">AI answers</h3>
             <div class="d-flex align-items-center">
@@ -206,7 +204,7 @@ body.aia-banner-visible #wb-info {
                 <p><strong>Need help?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url" data-gc-analytics-customclick="ESDC-EDSC:AI Answers:Content Link Click">Ask AI Answers for help</a></p>
             </div>
         </section>
-     
+
         <div id="def-preFooter">
             <div class="row pagedetails">
                 <div class="col-sm-5 col-xs-12 datemod">
@@ -217,7 +215,8 @@ body.aia-banner-visible #wb-info {
                 </div>
             </div>
         </div>
-        
+
+       </main> 
         <!-- Write closure template -->
         <script type="text/javascript">
             var defPreFooter = document.getElementById("def-preFooter");
@@ -229,7 +228,20 @@ body.aia-banner-visible #wb-info {
                 showShare: false
             });
         </script>
-    </main>
+
+
+           <!-- AI ANSWERS BANNER -->
+        <section class="aia-banner">
+            <h2 class="wb-inv">AI answers banner</h2>
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <img src="https://canada.ca/content/dam/canada/ai-stars.png" alt="">
+                    <p><strong>Need help?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url" data-gc-analytics-customclick="ESDC-EDSC:AI Answers:Banner Bottom Link Click">Ask AI Answers for help</a></p>
+                </div>
+            </div>
+            <button class="aia-close" type="button" aria-label="Close AI answers banner">×</button>
+        </section>
+
 
     <div id="def-footer"></div>
     
@@ -250,7 +262,7 @@ body.aia-banner-visible #wb-info {
 
     <!-- AI ANSWERS JAVASCRIPT -->
     <script>
- /* AI Answers Availability Check */
+/* AI Answers Availability Check */
 async function aiAnswersAvailabilityCheck() {
     let banners = document.querySelectorAll(".aia-banner, .aia-rescue");
     
@@ -272,21 +284,41 @@ async function aiAnswersAvailabilityCheck() {
     }
 }
 
-/* Initialize AI Answers Banner - Call after DOM is ready */
-aiAnswersAvailabilityCheck();
+/* Wait for footer to exist */
+function waitForFooter(callback) {
+    const checkFooter = setInterval(() => {
+        const footer = document.getElementById('wb-info');
+        if (footer) {
+            clearInterval(checkFooter);
+            callback();
+        }
+    }, 100);
+}
 
-/* Close button functionality */
-document.addEventListener('DOMContentLoaded', function() {
-    const closeButton = document.querySelector('.aia-close');
-    
-    if (closeButton) {
-        closeButton.addEventListener('click', () => {
-            closeButton.parentElement.remove();
-            document.body.classList.remove('aia-banner-visible');
-            sessionStorage.setItem('aiaClosed', 'true');
-        });
-    }
-});
+/* Initialize AI Answers */
+(function() {
+    waitForFooter(function() {
+        const wasClosed = sessionStorage.getItem('aiaClosed') === 'true';
+        
+        if (wasClosed) {
+            const banner = document.querySelector('.aia-banner');
+            if (banner) banner.remove();
+        } else {
+            document.body.classList.add('aia-banner-visible');
+        }
+        
+        const closeButton = document.querySelector('.aia-close');
+        if (closeButton) {
+            closeButton.addEventListener('click', () => {
+                closeButton.parentElement.remove();
+                document.body.classList.remove('aia-banner-visible');
+                sessionStorage.setItem('aiaClosed', 'true');
+            });
+        }
+        
+        aiAnswersAvailabilityCheck();
+    });
+})();
 
     </script>
 </body>
