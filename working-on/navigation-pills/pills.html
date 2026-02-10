@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>Task navigation - Canada.ca</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="nav-pill.css">
+		<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/soyutils.js" integrity="sha384-32eoaED5PWLqUcm/SmCNYkjyLGbZouGKcA7SqNkg4pw/HO5GQvYe41sFH2Gurff2" crossorigin="anonymous"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/wet-en.js" integrity="sha384-B2TKsf2HKk2VsYzraxDcEkELMy2ZQnh285esBEuKCCtx0h+xYruKFtkA7Yd+YTLv" crossorigin="anonymous"></script>
+		<!-- Write closure template -->
+		<script>
+			document.write(wet.builder.refTop({
+			}));
+		</script>
+	</head>
+	<body vocab="http://schema.org/" typeof="WebPage">
+		<div id="def-top"></div>
+		<!-- Write closure template -->
+		<script>
+			var defTop = document.getElementById("def-top");
+			defTop.outerHTML = wet.builder.top({
+				lngLinks: [{
+					lang: "fr",
+					href: "Navigation.html",
+					text: "Français"
+				}],
+				breadcrumbs: [{
+					title: "Home",
+					href: "https://www.canada.ca/en.html"
+				},{
+					title: "Design system",
+					href: "https://www.canada.ca/en/government/about/design-system"
+				}, {
+          title: "Components",
+          href: "https://www.canada.ca/en/government/about/design-system/components"
+				}],
+				search: true,
+				siteMenu: true,
+				showPreContent: true
+			});
+    </script>
+    <main property="mainContentOfPage" class="container wb-prettify all-pre">
+      <h1>Task navigation</h1>
+      <section>
+        <h2>Demo and code</h2>
+        <div class="row profile">
+          <div class="col-md-9">
+              <p class="pagetag">Break up a service or content into sections that each focus on a step or specific answer they need to do before moving to the next step or section.</p>
+          </div>
+          <div class="col-md-3">
+              <div class="small">
+                  <ul class="list-unstyled">
+                  <li class="mrgn-rght-lg"><strong>Version:</strong> 0.1</li>
+                  <li class="mrgn-rght-lg"><strong>Updated:</strong> May 25, 2020</li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 id="circles">Unordered tasks</h2>
+        <p><strong>When to use:</strong> Use unordered sections when you want to group related tasks that don't necessarily need to be done in sequence.</p>
+        <div class="gc-stp-stp">
+          <div class="row">
+            <ul class="toc lst-spcd col-md-12">
+              <li class="col-md-4 col-sm-6">
+                <a class="list-group-item active">1. [Step / section page name]</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a class="list-group-item" href="#">2. [Step / section page name]</a>
+              </li>
+              <li class="col-md-4 col-sm-6 clr-lft-sm">
+                <a class="list-group-item" href="#">3. [Step / section page name]</a>
+              </li>
+              <li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg">
+                <a class="list-group-item" href="#">4. [Step / section page name]</a>
+              </li>
+              <li class="col-md-4 col-sm-6 clr-lft-sm">
+                <a class="list-group-item" href="#">5. [Step / section page name]</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a class="list-group-item" href="#">6. [Step / section page name]</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <details>
+          <summary>HTML</summary>
+          <div class="mrgn-tp-lg">
+            <div id="tabs-code-1">
+              <div class="code-variant">
+                <pre><code>&lt;div class="gc-stp-stp"&gt;
+  &lt;div class="row"&gt;
+    &lt;ul class="toc lst-spcd col-md-12"&gt;
+      &lt;li class="col-md-4 col-sm-6"&gt;
+        &lt;a class="list-group-item active"&gt;1. [Step / section page name]&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="col-md-4 col-sm-6"&gt;
+        &lt;a class="list-group-item" href="#"&gt;2. [Step / section page name]&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="col-md-4 col-sm-6 clr-lft-sm"&gt;
+        &lt;a class="list-group-item" href="#"&gt;3. [Step / section page name]&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"&gt;
+        &lt;a class="list-group-item" href="#"&gt;4. [Step / section page name]&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="col-md-4 col-sm-6 clr-lft-sm"&gt;
+        &lt;a class="list-group-item" href="#"&gt;5. [Step / section page name]&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="col-md-4 col-sm-6"&gt;
+        &lt;a class="list-group-item" href="#"&gt;6. [Step / section page name]&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </div>
+        </details>
+        <details>
+          <summary>CSS</summary>
+          <div class="mrgn-tp-lg">
+            <div class="code-variant">
+              <pre><code>.gc-stp-stp {
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.toc li {
+  display: inline;
+  font-size: .85em;
+}
+
+.lst-spcd>li {
+  margin-bottom: 10px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.toc li .list-group-item.active,
+.toc li .list-group-item.active:focus,
+.toc li .list-group-item.active:hover {
+  background-color: #26374a;
+  color: #fff;
+  cursor: auto;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  z-index: 2;
+  color: #fff;
+  background-color: #2572b4;
+  border-color: #2572b4;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}</code></pre>
+            </div>
+          </div>
+        </details>
+      </section>
+      <section>
+        <h2 id="tabs">Ordered steps</h2>
+        <p><strong>When to use:</strong> Use ordered steps when something must be done in a logical sequence.</p>
+        <!-- <div class="col-md-9 col-xs-12 mrgn-tp-md pull-right"> -->
+        <nav aria-label="Section menu">
+          <p class="h3 mrgn-tp-0 hidden-xs hidden-sm">Sections</p>
+          <ul class="gc-navseq">
+            <li class="active"><a class="hidden-xs hidden-sm">Who can apply</a><a class="hidden-md hidden-lg">Who can apply</a></li>
+            <li><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-apply.html" class="hidden-xs hidden-sm">Apply</a><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-apply.html#wb-cont-nav" class="hidden-md hidden-lg">Apply</a></li>
+            <li><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-we-calculate-your-ccb.html" class="hidden-xs hidden-sm">How much you can get</a><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-we-calculate-your-ccb.html#wb-cont-nav" class="hidden-md hidden-lg">How much you can get</a></li>
+            <li><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-payment-dates.html" class="hidden-xs hidden-sm">Payment dates</a><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-payment-dates.html#wb-cont-nav" class="hidden-md hidden-lg">Payment dates</a></li>
+            <li><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-after-you-apply.html" class="hidden-xs hidden-sm">Keep getting your payments</a><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-after-you-apply.html#wb-cont-nav" class="hidden-md hidden-lg">Keep getting your payments</a></li>
+            <li><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-contact.html" class="hidden-xs hidden-sm">Contact the CRA</a><a href="/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-contact.html#wb-cont-nav" class="hidden-md hidden-lg">Contact the CRA</a></li>
+          </ul>
+        </nav>
+        <details>
+          <summary>HTML</summary>
+          <div class="mrgn-tp-lg">
+            <div id="tabs-code-2">
+              <div class="code-variant">
+                <pre>
+                  <code>
+
+                  </code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </details>
+        <details>
+          <summary>CSS</summary>
+          <div class="mrgn-tp-lg">
+            <div class="code-variant">
+              <pre>
+                <code>
+
+                </code>
+              </pre>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <div id="def-preFooter"></div>
+      <!-- Write closure template -->
+      <script>
+        var defPreFooter = document.getElementById("def-preFooter");
+        defPreFooter.outerHTML = wet.builder.preFooter({
+          dateModified: "2020-03-13",
+          showPostContent: true,
+          showFeedback: true,
+          showShare: true
+        });
+      </script>
+    </main>
+    <div id="def-footer"></div>
+    <!-- Write closure template -->
+    <script>
+      var defFooter = document.getElementById("def-footer");
+      defFooter.outerHTML = wet.builder.footer({
+        showFooter: true,
+        showFeatures: true
+      });
+    </script>
+    <!-- Write closure template -->
+    <script>
+      document.write(wet.builder.refFooter({
+      }));
+    </script>
+    <script type="text/javascript">
+      /* function checkboxFocus (event) {
+        event.currentTarget.parentNode.classList.add('focus');
+      };
+      function checkboxBlur (event) {
+        event.currentTarget.parentNode.classList.remove('focus');
+      }; */
+      window.onload = function () {
+        var i;
+        var mixed = document.querySelectorAll('[role="checkbox"]');
+        for (i = 0; i < mixed.length; i++) {
+          var m = new CheckboxMixed(mixed[i]);
+          m.init();
+        }
+        var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        for (i = 0; i < checkboxes.length; i++) {
+          var cb = checkboxes[i];
+          cb.addEventListener('focus', checkboxFocus);
+          cb.addEventListener('blur', checkboxBlur);
+        }
+      };
+    </script>
+  </body>
+</html>
