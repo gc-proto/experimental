@@ -298,21 +298,13 @@ function waitForFooter(callback) {
 /* Initialize AI Answers */
 (function() {
     waitForFooter(function() {
-        const wasClosed = sessionStorage.getItem('aiaClosed') === 'true';
-        
-        if (wasClosed) {
-            const banner = document.querySelector('.aia-banner');
-            if (banner) banner.remove();
-        } else {
-            document.body.classList.add('aia-banner-visible');
-        }
+        document.body.classList.add('aia-banner-visible');
         
         const closeButton = document.querySelector('.aia-close');
         if (closeButton) {
             closeButton.addEventListener('click', () => {
                 closeButton.parentElement.remove();
                 document.body.classList.remove('aia-banner-visible');
-                sessionStorage.setItem('aiaClosed', 'true');
             });
         }
         
