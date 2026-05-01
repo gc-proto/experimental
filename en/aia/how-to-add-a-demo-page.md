@@ -71,8 +71,9 @@ Paste it directly before the AI Answers banner comment block. Make sure the oute
 
 ## 7. Keep the AI Answers banner unchanged
 
-The banner block must stay exactly as-is, immediately after the main content:
+The banner block must stay exactly as-is, immediately after the main content.
 
+**English** (`en/aia/`):
 ```html
 <!-- AI Answers GCWeb modal -->
 <section id="top-bottom" class="wb-overlay modal-content overlay-def wb-bar-b open">
@@ -81,6 +82,20 @@ The banner block must stay exactly as-is, immediately after the main content:
       <li><img src="../img/AI-stars-30.png" alt="" /></li>
       <li><header class="p-0"><h2 class="modal-title">Need help?</h2></header></li>
       <li><a class="btn btn-default" href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Try a beta test of AI Answers</a></li>
+    </ul>
+  </div>
+</section>
+```
+
+**French** (`fr/aia/`) — use the French URL:
+```html
+<!-- AI Answers GCWeb modal -->
+<section id="top-bottom" class="wb-overlay modal-content overlay-def wb-bar-b open">
+  <div class="container">
+    <ul class="list-inline mrgn-bttm-sm">
+      <li><img src="../img/AI-stars-30.png" alt="" /></li>
+      <li><header class="p-0"><h2 class="modal-title">Besoin d'aide?</h2></header></li>
+      <li><a class="btn btn-default" href="https://reponses-ia.alpha.canada.ca/" referrerpolicy="unsafe-url">Essayez une version bêta de Réponses IA</a></li>
     </ul>
   </div>
 </section>
