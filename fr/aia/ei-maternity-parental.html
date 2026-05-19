@@ -64,6 +64,113 @@
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon"/>
 <noscript><link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/noscript.min.css"/></noscript>
 
+    <!-- AI Answers CSS -->
+    <style>
+/* AI Answers Banner */
+.aia-banner {
+    background: #1a2838;
+    bottom: 0;
+    padding: 1rem 1rem; /* added for CDTS*/
+    color: #fff;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 400;
+    font-family: inherit;
+}
+
+.aia-banner p {
+    font-size: 18px;
+    margin: 0;
+    padding: .875rem 2rem .875rem .75rem;
+    font-family: inherit;
+}
+
+.aia-banner p a {
+    color: #fff;
+    font-family: inherit;
+}
+
+.aia-banner p a:focus,
+.aia-banner p a:hover {
+    color: #b3ffff;
+}
+
+.aia-banner .aia-close {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* just the × symbol */
+    font-size: 3rem;
+    font-weight: 400;
+    height: 45px;
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color .2s ease;
+    width: 45px;
+}
+
+.aia-banner .aia-close:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aia-banner .aia-close:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 2px #fff;
+    outline: 0;
+}
+
+/* AI Answers Rescue Section */
+.aia-rescue {
+    margin: 3rem 0 0 0;
+    font-family: inherit;
+}
+
+.aia-rescue p {
+    margin: 0;
+    padding: .5rem 0 .5rem .75rem;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+/* flexbox utilities */
+.d-flex {
+display: flex !important;
+}
+
+.align-items-center {
+align-items: center !important;
+}
+
+/* Body class when banner is visible - adds space for fixed banner */
+body.aia-banner-visible #wb-info {
+    margin-bottom: 6rem;
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 767px) {
+    .aia-banner p {
+        font-size: 16px;
+        padding-left: .5rem;
+    }
+
+    .aia-banner p a {
+        display: block;
+    }
+
+    body.aia-banner-visible #wb-info {
+        margin-bottom: 5rem;
+    }
+}
+
+
+    </style>
 </head>
 
 <body vocab="http://schema.org/" typeof="WebPage" resource="#wb-webpage" class="">
@@ -301,23 +408,30 @@
 </section>
         </main>
 
+           <!-- AI ANSWERS BANNER -->
+        <section class="aia-banner">
+            <h2 class="wb-inv">Bannière Réponses IA</h2>
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <img src="https://canada.ca/content/dam/canada/ai-stars.png" alt="">
+                    <p><strong>Besoin d'aide ?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Demander de l'aide à Réponses IA</a></p>
+                </div>
+            </div>
+            <button class="aia-close" type="button" aria-label="Fermer la bannière Réponses IA">×</button>
+        </section>
 
-<!-- AI Answers GCWeb modal -->
-<section id="top-bottom" class="wb-overlay modal-content overlay-def wb-bar-b open">
-	<div class="container">
-		<ul class="list-inline mrgn-bttm-sm">
-			<li>
-				<img src="../img/AI-stars-30.png" alt="" />
-			</li>
-			<li>
-				<header class="p-0"><h2 class="modal-title">Besoin d'aide?</h2></header>
-			</li>
-			<li>
-				<a class="btn btn-default" href="https://reponses-ia.alpha.canada.ca/" referrerpolicy="unsafe-url">Essayez un test b&ecirc;ta de R&eacute;ponses IA</a>
-			</li>
-		</ul>
-	</div>
-</section>
+
+
+
+        <!-- AI ANSWERS RESCUE -->
+
+        <section class="aia-rescue">
+            <h3 class="wb-inv">Réponses IA</h3>
+            <div class="d-flex align-items-center">
+                <img src="https://canada.ca/content/dam/canada/ai-stars-blue.png" alt="">
+                <p><strong>Besoin d'aide ?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Demander de l'aide à Réponses IA</a></p>
+            </div>
+        </section>
 
 <div class="global-footer">
     <footer id="wb-info">
@@ -392,5 +506,58 @@
 <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
 <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
 
+    <!-- AI ANSWERS JAVASCRIPT -->
+    <script>
+/* AI Answers Availability Check */
+async function aiAnswersAvailabilityCheck() {
+    let banners = document.querySelectorAll(".aia-banner, .aia-rescue");
+
+    const removeBanners = () => banners.forEach(banner => banner.remove());
+
+    try {
+        const response = await fetch("https://ai-answers.alpha.canada.ca/api/chat/chat-session-availability");
+
+        if (response?.ok) {
+            const data = await response.json();
+            if (!data?.siteStatus || !data?.sessionAvailable) {
+                removeBanners();
+            }
+        } else {
+            removeBanners();
+        }
+    } catch {
+        removeBanners();
+    }
+}
+
+/* Wait for footer to exist */
+function waitForFooter(callback) {
+    const checkFooter = setInterval(() => {
+        const footer = document.getElementById('wb-info');
+        if (footer) {
+            clearInterval(checkFooter);
+            callback();
+        }
+    }, 100);
+}
+
+/* Initialize AI Answers */
+(function() {
+    waitForFooter(function() {
+        document.body.classList.add('aia-banner-visible');
+
+        const closeButton = document.querySelector('.aia-close');
+        if (closeButton) {
+            closeButton.addEventListener('click', () => {
+                closeButton.parentElement.remove();
+                document.body.classList.remove('aia-banner-visible');
+            });
+        }
+
+        aiAnswersAvailabilityCheck();
+    });
+})();
+
+    </script>
 </body>
 </html>
