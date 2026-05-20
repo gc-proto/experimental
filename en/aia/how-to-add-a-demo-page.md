@@ -2,6 +2,25 @@
 
 These are the steps to add a new Canada.ca department page to the AI Answers demo set at `en/aia/`.
 
+## Shortcut: `scrape_demo.py`
+
+`en/aia/scrape_demo.py` automates most of the steps below. Run it from the repo root with the live EN and FR URLs:
+
+```
+python en/aia/scrape_demo.py \
+  https://www.canada.ca/en/pacific-economic-development.html \
+  https://www.canada.ca/fr/developpement-economique-pacifique.html
+```
+
+It fetches both pages, extracts the `<main>` content and metadata, writes `en/aia/<slug>.html` and `fr/aia/<slug>.html` using the PrairiesCan demo as the template, and inserts a new alphabetical entry into both index files. Then review the diffs and adjust as needed — in particular, the `gc-contextual` footer (step 8 below) is inherited from PrairiesCan and may need to be replaced for the new department.
+
+Useful flags:
+- `--en-out ircc/contact-ircc.html` / `--fr-out ircc/contactez-ircc.html` for subdirectory output
+- `--en-dept-name` / `--fr-dept-name` to override the index `<h3>` text
+- `--skip-index` to leave `index.html` untouched
+
+The rest of this document explains what the script does and what to check by hand.
+
 ---
 
 ## 1. Find the live page
