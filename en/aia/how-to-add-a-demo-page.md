@@ -15,10 +15,17 @@ Go to the Canada.ca page you want to demo. Note:
 
 ## 2. Copy an existing demo page
 
-Use `national-defence.html` or any recent file in `en/aia/` as your starting point. Copy it and name the new file to match the live page's URL slug:
+Use `military-career-transition.html` as your starting point — it's the most recent and has the current AI Answers banner/rescue/JS pattern. Copy it and name the new file to match the live page's URL slug:
 
 ```
 en/aia/crown-indigenous-relations-northern-affairs.html
+```
+
+If a department has multiple demo pages (e.g. IRCC's contact page, ISC's status card), put them in a subdirectory matching the department slug:
+
+```
+en/aia/ircc/contact-ircc.html
+en/aia/sac-isc/status-card.html
 ```
 
 ## 3. Update the `<head>` metadata
@@ -69,39 +76,60 @@ Get the page source of the live Canada.ca page (View Source or DevTools). Copy e
 
 Paste it directly before the AI Answers banner comment block. Make sure the outer wrapper divs from the live page (`container-fluid`, `mwsgeneric-base-html`, etc.) are included and properly closed.
 
-## 7. Keep the AI Answers banner unchanged
+## 7. Keep the AI Answers pieces unchanged
 
-The banner block must stay exactly as-is, immediately after the main content.
+The AI Answers integration is **four separate pieces** that all need to stay in place. If you started from `military-career-transition.html` they're already there — just leave them alone. The summary below is so you know what to look for.
 
-**English** (`en/aia/`):
+> **Source of truth:** the canonical CDTS reference is `jmtesting/ai-answers/local-copy/citation-work/for-review/CDTS.html`. The demo pages in `en/aia/` mirror its CSS, RESCUE/BANNER markup, and JavaScript. If you need to update the pattern across all demos, start from that file.
+
+### a. CSS in `<head>`
+
+A `<style>` block (~100 lines) defining `.aia-banner`, `.aia-rescue`, `.aia-close`, `body.aia-banner-visible #wb-info`, and mobile media queries. Look for the `<!-- AI Answers CSS -->` comment.
+
+### b. RESCUE section — inside `<main>`
+
+Placed just before `</main>`, after the page's main content. Wrapped in `<div class="container">`:
+
 ```html
-<!-- AI Answers GCWeb modal -->
-<section id="top-bottom" class="wb-overlay modal-content overlay-def wb-bar-b open">
+<!-- AI ANSWERS RESCUE -->
+<div class="container">
+  <section class="aia-rescue">
+    <h3 class="wb-inv">AI answers</h3>
+    <div class="d-flex align-items-center">
+      <img src="https://canada.ca/content/dam/canada/ai-stars-blue.png" alt="">
+      <p><strong>Need help?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Ask AI Answers for help</a></p>
+    </div>
+  </section>
+</div>
+```
+
+### c. BANNER section — outside `<main>`
+
+Placed between `</main>` and the `<div class="global-footer">`:
+
+```html
+<!-- AI ANSWERS BANNER -->
+<section class="aia-banner">
+  <h2 class="wb-inv">AI answers banner</h2>
   <div class="container">
-    <ul class="list-inline mrgn-bttm-sm">
-      <li><img src="../img/AI-stars-30.png" alt="" /></li>
-      <li><header class="p-0"><h2 class="modal-title">Need help?</h2></header></li>
-      <li><a class="btn btn-default" href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Try a beta test of AI Answers</a></li>
-    </ul>
+    <div class="d-flex align-items-center">
+      <img src="https://canada.ca/content/dam/canada/ai-stars.png" alt="">
+      <p><strong>Need help?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Ask AI Answers for help</a></p>
+    </div>
   </div>
+  <button class="aia-close" type="button" aria-label="Close AI answers banner">×</button>
 </section>
 ```
 
-**French** (`fr/aia/`) — use the French URL:
-```html
-<!-- AI Answers GCWeb modal -->
-<section id="top-bottom" class="wb-overlay modal-content overlay-def wb-bar-b open">
-  <div class="container">
-    <ul class="list-inline mrgn-bttm-sm">
-      <li><img src="../img/AI-stars-30.png" alt="" /></li>
-      <li><header class="p-0"><h2 class="modal-title">Besoin d'aide?</h2></header></li>
-      <li><a class="btn btn-default" href="https://reponses-ia.alpha.canada.ca/" referrerpolicy="unsafe-url">Essayez une version bêta de Réponses IA</a></li>
-    </ul>
-  </div>
-</section>
-```
+### d. JavaScript at end of `<body>`
 
-Note the `referrerpolicy="unsafe-url"` attribute — this is what passes the referring page URL to the AI Answers tool.
+A `<script>` block after the WET/jQuery script tags. It pings `ai-answers.alpha.canada.ca/api/chat/chat-session-availability`, removes both `.aia-banner` and `.aia-rescue` elements if AI Answers isn't available, waits for the footer to exist, then adds the `aia-banner-visible` class to `<body>` and wires up the close button. Look for the `<!-- AI ANSWERS JAVASCRIPT -->` comment.
+
+### French pages (`fr/aia/`)
+
+Same four pieces, with French text. The rescue `<h3>` becomes `Réponses IA`, the banner `<h2>` becomes `Bannière Réponses IA`, the close button label becomes `Fermer la bannière Réponses IA`, and the "Need help?" / "Ask AI Answers for help" copy becomes `Besoin d'aide ?` / `Demander de l'aide à Réponses IA`. The URL (`https://ai-answers.alpha.canada.ca`) is the same in both languages — see `fr/aia/transition-carriere-militaire.html` for the reference.
+
+Note the `referrerpolicy="unsafe-url"` attribute on the AI Answers links — this is what passes the referring page URL to the AI Answers tool.
 
 ## 8. Update the contextual footer
 
@@ -117,6 +145,8 @@ Replace the department name and contact link in `gc-contextual`:
   </nav>
 </div>
 ```
+
+⚠️ Easy to miss — the `<h3>` department name and the contact link both need to change. Pages copied from older templates have shipped with stale values (e.g. "Employment Insurance") still in place.
 
 ## 9. Update the date modified
 
@@ -146,12 +176,15 @@ Keep entries alphabetical by department name.
 
 ## Quick checklist
 
-- [ ] File named to match the live page URL slug
+- [ ] File named to match the live page URL slug (in a department subdirectory if there will be multiple demos for that department)
 - [ ] `<head>` metadata updated (title, canonical, alternates, dcterms fields)
+- [ ] AI Answers CSS `<style>` block kept in `<head>`
 - [ ] Language toggle points to FR demo page (or FR live page as fallback)
 - [ ] Breadcrumb matches the live page
 - [ ] Main content pasted from live page source (with wrapper divs properly closed)
-- [ ] AI Answers banner is present and unchanged
-- [ ] Contextual footer has correct department name and contact link
+- [ ] AI ANSWERS RESCUE section present inside `<main>`, just before `</main>`
+- [ ] AI ANSWERS BANNER section present between `</main>` and the global footer
+- [ ] AI Answers JS block kept at the end of `<body>`
+- [ ] Contextual footer `<h3>` and contact link both updated to this department (not stale)
 - [ ] Date modified is today's date
-- [ ] Entry added to `en/aia/index.html`
+- [ ] Entry added to `en/aia/index.html` (alphabetical by department)
