@@ -59,22 +59,40 @@ If the French demo page doesn't exist yet, you can leave it pointing to the live
 
 ## 5. Update the breadcrumb
 
-Match the breadcrumb from the live page:
+The last breadcrumb item must be a link to the **live** page on canada.ca, with link text **"Live version"** (EN) or **"Version en ligne"** (FR). This is how visitors can compare the demo to production.
+
+Above that "Live version" leaf, keep things short — usually just `Canada.ca`, optionally with one department-landing level in between. Don't replicate the live page's full breadcrumb path; the leaf is the only signal that matters.
 
 ```html
-<nav id="wb-bc" ...>
-  <ol class="breadcrumb">
+<nav id="wb-bc" property="breadcrumb">
+  <h2 class="wb-inv">You are here:</h2>
+  <div class="container"><ol class="breadcrumb">
     <li><a href='https://www.canada.ca/en.html'>Canada.ca</a></li>
-    <li><a href='https://www.canada.ca/en/crown-indigenous-relations-northern-affairs.html'>Crown-Indigenous Relations and Northern Affairs Canada</a></li>
-  </ol>
+    <li><a href='https://www.canada.ca/en/department-national-defence.html'>National Defence</a></li>
+    <li><a href='https://www.canada.ca/en/department-national-defence/services/benefits-military/transition.html'>Live version</a></li>
+  </ol></div>
 </nav>
 ```
+
+For a top-level department landing where there's no parent, just `Canada.ca` + `Live version` is fine (see `canada-revenue-agency.html`).
 
 ## 6. Paste the main content
 
 Get the page source of the live Canada.ca page (View Source or DevTools). Copy everything **inside** the `<main>` element — from the first `<div>` after `<main ...>` up to (but not including) `</main>`.
 
 Paste it directly before the AI Answers banner comment block. Make sure the outer wrapper divs from the live page (`container-fluid`, `mwsgeneric-base-html`, etc.) are included and properly closed.
+
+### Append "(demo)" to the H1
+
+The H1 — the `<h1 ... id="wb-cont">` you just pasted — must end with `(demo)` in English or `(démo)` in French. This labels the page as not-the-real-thing for anyone who lands on it.
+
+```html
+<h1 property="name" id="wb-cont">Military career transition (demo)</h1>
+```
+
+```html
+<h1 property="name" id="wb-cont">Transition de carrière pour les militaires (démo)</h1>
+```
 
 ## 7. Keep the AI Answers pieces unchanged
 
@@ -180,7 +198,8 @@ Keep entries alphabetical by department name.
 - [ ] `<head>` metadata updated (title, canonical, alternates, dcterms fields)
 - [ ] AI Answers CSS `<style>` block kept in `<head>`
 - [ ] Language toggle points to FR demo page (or FR live page as fallback)
-- [ ] Breadcrumb matches the live page
+- [ ] Breadcrumb ends with a "Live version" / "Version en ligne" link to the live page on canada.ca
+- [ ] H1 ends with `(demo)` / `(démo)`
 - [ ] Main content pasted from live page source (with wrapper divs properly closed)
 - [ ] AI ANSWERS RESCUE section present inside `<main>`, just before `</main>`
 - [ ] AI ANSWERS BANNER section present between `</main>` and the global footer
