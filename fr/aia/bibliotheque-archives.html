@@ -587,7 +587,7 @@ body.aia-banner-visible #wb-info {
             <h3 class="wb-inv">Réponses IA</h3>
             <div class="d-flex align-items-center">
                 <img src="https://canada.ca/content/dam/canada/ai-stars-blue.png" alt="">
-                <p><strong>Besoin d'aide ?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Demander de l'aide à Réponses IA</a></p>
+                <p><strong>Besoin d'aide ?</strong> <a href="https://reponses-ia.alpha.canada.ca" referrerpolicy="unsafe-url">Demander de l'aide à Réponses IA</a></p>
             </div>
         </section>
         </div>
@@ -610,7 +610,7 @@ body.aia-banner-visible #wb-info {
             <div class="container">
                 <div class="d-flex align-items-center">
                     <img src="https://canada.ca/content/dam/canada/ai-stars.png" alt="">
-                    <p><strong>Besoin d'aide ?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Demander de l'aide à Réponses IA</a></p>
+                    <p><strong>Besoin d'aide ?</strong> <a href="https://reponses-ia.alpha.canada.ca" referrerpolicy="unsafe-url">Demander de l'aide à Réponses IA</a></p>
                 </div>
             </div>
             <button class="aia-close" type="button" aria-label="Fermer la bannière Réponses IA">×</button>
@@ -692,7 +692,7 @@ async function aiAnswersAvailabilityCheck() {
     const removeBanners = () => banners.forEach(banner => banner.remove());
 
     try {
-        const response = await fetch("https://ai-answers.alpha.canada.ca/api/chat/chat-session-availability");
+        const response = await fetch("https://reponses-ia.alpha.canada.ca/api/chat/chat-session-availability");
 
         if (response?.ok) {
             const data = await response.json();

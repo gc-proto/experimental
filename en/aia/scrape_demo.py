@@ -177,7 +177,7 @@ def build_main_block(main_attrs, main_inner, lang, today):
             '            <h3 class="wb-inv">Réponses IA</h3>\n'
             '            <div class="d-flex align-items-center">\n'
             '                <img src="https://canada.ca/content/dam/canada/ai-stars-blue.png" alt="">\n'
-            "                <p><strong>Besoin d'aide ?</strong> <a href=\"https://ai-answers.alpha.canada.ca\" referrerpolicy=\"unsafe-url\">Demander de l'aide à Réponses IA</a></p>\n"
+            "                <p><strong>Besoin d'aide ?</strong> <a href=\"https://reponses-ia.alpha.canada.ca\" referrerpolicy=\"unsafe-url\">Demander de l'aide à Réponses IA</a></p>\n"
             '            </div>\n'
             '        </section>'
         )
