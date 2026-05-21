@@ -164,7 +164,9 @@ A `<script>` block after the WET/jQuery script tags. It pings `ai-answers.alpha.
 
 ### French pages (`fr/aia/`)
 
-Same four pieces, with French text. The rescue `<h3>` becomes `Réponses IA`, the banner `<h2>` becomes `Bannière Réponses IA`, the close button label becomes `Fermer la bannière Réponses IA`, and the "Need help?" / "Ask AI Answers for help" copy becomes `Besoin d'aide ?` / `Demander de l'aide à Réponses IA`. The URL (`https://ai-answers.alpha.canada.ca`) is the same in both languages — see `fr/aia/transition-carriere-militaire.html` for the reference.
+Same four pieces, with French text. The rescue `<h3>` becomes `Réponses IA`, the banner `<h2>` becomes `Bannière Réponses IA`, the close button label becomes `Fermer la bannière Réponses IA`, and the "Need help?" / "Ask AI Answers for help" copy becomes `Besoin d'aide ?` / `Demander de l'aide à Réponses IA`.
+
+**The URL is different in each language** — FR demos must link to `https://reponses-ia.alpha.canada.ca` (not `https://ai-answers.alpha.canada.ca`, which is the EN site). This applies to **all three** spots the URL appears in the FR template: the rescue link, the banner link, and the JavaScript availability-check `fetch()`. See `fr/aia/transition-carriere-militaire.html` for the reference.
 
 Note the `referrerpolicy="unsafe-url"` attribute on the AI Answers links — this is what passes the referring page URL to the AI Answers tool.
 
@@ -223,6 +225,7 @@ Keep entries alphabetical by department name.
 - [ ] AI ANSWERS RESCUE section present inside `<main>`, just before `</main>`
 - [ ] AI ANSWERS BANNER section present between `</main>` and the global footer
 - [ ] AI Answers JS block kept at the end of `<body>`
+- [ ] **FR pages only:** all three AI Answers URLs (rescue link, banner link, JS fetch) point to `reponses-ia.alpha.canada.ca`, not `ai-answers.alpha.canada.ca`
 - [ ] Contextual footer `<h3>` and contact link both updated to this department (not stale)
 - [ ] Date modified is today's date
 - [ ] Entry added to `en/aia/index.html` (alphabetical by department)
