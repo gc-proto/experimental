@@ -90,6 +90,113 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 
+    <!-- AI Answers CSS -->
+    <style>
+/* AI Answers Banner */
+.aia-banner {
+    background: #1a2838;
+    bottom: 0;
+    padding: 1rem 1rem; /* added for CDTS*/
+    color: #fff;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 400;
+    font-family: inherit;
+}
+
+.aia-banner p {
+    font-size: 18px;
+    margin: 0;
+    padding: .875rem 2rem .875rem .75rem;
+    font-family: inherit;
+}
+
+.aia-banner p a {
+    color: #fff;
+    font-family: inherit;
+}
+
+.aia-banner p a:focus,
+.aia-banner p a:hover {
+    color: #b3ffff;
+}
+
+.aia-banner .aia-close {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* just the × symbol */
+    font-size: 3rem;
+    font-weight: 400;
+    height: 45px;
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color .2s ease;
+    width: 45px;
+}
+
+.aia-banner .aia-close:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aia-banner .aia-close:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 2px #fff;
+    outline: 0;
+}
+
+/* AI Answers Rescue Section */
+.aia-rescue {
+    margin: 3rem 0 0 0;
+    font-family: inherit;
+}
+
+.aia-rescue p {
+    margin: 0;
+    padding: .5rem 0 .5rem .75rem;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+/* flexbox utilities */
+.d-flex {
+display: flex !important;
+}
+
+.align-items-center {
+align-items: center !important;
+}
+
+/* Body class when banner is visible - adds space for fixed banner */
+body.aia-banner-visible #wb-info {
+    margin-bottom: 6rem;
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 767px) {
+    .aia-banner p {
+        font-size: 16px;
+        padding-left: .5rem;
+    }
+
+    .aia-banner p a {
+        display: block;
+    }
+
+    body.aia-banner-visible #wb-info {
+        margin-bottom: 5rem;
+    }
+}
+
+
+    </style>
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
 <span typeof="Organization"><meta property="legalName" content="Department_of_Indian_Affairs_and_Northern_Development"></span>
@@ -116,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <h2 class="wb-inv">Language selection</h2>
 <ul class="list-inline mrgn-bttm-0">
 <li>
-<a hreflang="fr" lang="fr" href="https://www.sac-isc.gc.ca/fra/1100100032380/1572461388012">
+<a hreflang="fr" lang="fr" href="https://test.canada.ca/experimental/fr/aia/sac-isc/status-card.html">
 <span class="hidden-xs">Français</span>
 <abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
 </a>
@@ -597,9 +704,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="https://www.canada.ca/en.html">Canada.ca</a>
 </li>
 <li>
-<a href="/eng/1518196579110/1520997240623">Indigenous Services Canada</a></li>
+<a href="https://www.sac-isc.gc.ca/eng/1518196579110/1520997240623">Indigenous Services Canada</a></li>
 <li>
-<a href="/eng/1100100032374/1572457769548">Indian status</a></li>
+<a href="https://www.sac-isc.gc.ca/eng/1100100032374/1572457769548">Indian status</a></li>
+<li>
+<a href="https://www.sac-isc.gc.ca/eng/1100100032380/1572461388012">Live version</a></li>
 </ol>
 </div>
 </nav>
@@ -612,75 +721,75 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             wet.builder.customTop({
             cdnEnv: "prod",
             showPreContent: false,
-            lngLinks: [{lang:  'fr',href: 'https://www.sac-isc.gc.ca/fra/1100100032380/1572461388012',text: 'Français'},],
+            lngLinks: [{lang:  'fr',href: 'https://test.canada.ca/experimental/fr/aia/sac-isc/status-card.html',text: 'Français'},],
             customSearch: [{"action":"https://www.canada.ca/en/indigenous-services-canada/search.html"}],
-            breadcrumbs: [{title: "Canada.ca", href: "https://www.canada.ca/en.html"},{title: "Indigenous Services Canada", href: "/eng/1518196579110/1520997240623"},{title: "Indian status", href: "/eng/1100100032374/1572457769548"}]
+            breadcrumbs: [{title: "Canada.ca", href: "https://www.canada.ca/en.html"},{title: "Indigenous Services Canada", href: "https://www.sac-isc.gc.ca/eng/1518196579110/1520997240623"},{title: "Indian status", href: "https://www.sac-isc.gc.ca/eng/1100100032374/1572457769548"},{title: "Live version", href: "https://www.sac-isc.gc.ca/eng/1100100032380/1572461388012"}]
             });
         </script>
         <aside id="gc-im-popup" class="asideBody gc-im-wb-overlay gc-im-modal-content gc-im-overlay-def gc-im-wb-popup-mid shadow" tabindex="0" style="bottom: 25px; display: none;"></aside><main role="main" property="mainContentOfPage" class="container">
-<h1 property="name" id="wb-cont">Get, renew or replace a status card</h1>
+<h1 property="name" id="wb-cont">Get, renew or replace a status card (demo)</h1>
 
 <!-- WCMS:OPTIONAL LANGUAGE TOGGLE -->
             
 <p class="pagetag">How to apply for, renew or replace a Secure Certificate of Indian Status (secure status card) or Certificate of Indian Status (status card).</p>
 <section class="alert alert-info">
   <h2 id="h3">Possible Canada Post mail delays</h2>
-  <p>Due to&nbsp;<a rel="external" href="https://www.canadapost-postescanada.ca/cpc/en/our-company/news-and-media/corporate-news/negotiations-list.page">Canada Post</a>&nbsp;labour disruption, there may be  mailing delays related to registration and secure status card applications. If  a labour disruption occurs, applicants who would like to submit their  applications for both registration or status cards are encouraged to come&nbsp;<a href="/eng/1710869127709/1710869169637">in person</a>.</p>
+  <p>Due to&nbsp;<a rel="external" href="https://www.canadapost-postescanada.ca/cpc/en/our-company/news-and-media/corporate-news/negotiations-list.page">Canada Post</a>&nbsp;labour disruption, there may be  mailing delays related to registration and secure status card applications. If  a labour disruption occurs, applicants who would like to submit their  applications for both registration or status cards are encouraged to come&nbsp;<a href="https://www.sac-isc.gc.ca/eng/1710869127709/1710869169637">in person</a>.</p>
 </section>
 <div class="row mrgn-tp-lg">
   <section class="col-md-12">
     <h2 class="wb-inv">Services and information</h2><div class="wb-eqht row wb-init wb-eqht-inited" id="wb-auto-4">
       <div class="col-md-4 col-sm-6" style="vertical-align: top; min-height: 68px;">
         <section>
-          <h3 class="h5"><a href="/eng/1695837901058/1695837939989">Get your first secure status card</a></h3>
+          <h3 class="h5"><a href="https://www.sac-isc.gc.ca/eng/1695837901058/1695837939989">Get your first secure status card</a></h3>
           <p>How to apply for a card.</p>
         </section>
       </div>
       <div class="col-md-4 col-sm-6" style="vertical-align: top; min-height: 68px;">
         <section>
-          <h3 class="h5"><a href="/eng/1695840367366/1695840394948">Renew your secure status card</a></h3>
+          <h3 class="h5"><a href="https://www.sac-isc.gc.ca/eng/1695840367366/1695840394948">Renew your secure status card</a></h3>
           <p>How and when to renew your card.</p>
         </section>
       </div>
       <div class="col-md-4 col-sm-6" style="vertical-align: top; min-height: 101px;">
         <section>
-          <h3 class="h5"><a href="/eng/1695840683920/1695840721105">Change the information on your secure status card</a></h3>
+          <h3 class="h5"><a href="https://www.sac-isc.gc.ca/eng/1695840683920/1695840721105">Change the information on your secure status card</a></h3>
           <p>You can change the personal information on your secure status card at any time.</p>
         </section>
       </div>
       <div class="col-md-4 col-sm-6" style="vertical-align: top; min-height: 68px;">
         <section>
-          <h3 class="h5"><a href="/eng/1695840983601/1695841067623">Replace your secure status card</a></h3>
+          <h3 class="h5"><a href="https://www.sac-isc.gc.ca/eng/1695840983601/1695841067623">Replace your secure status card</a></h3>
           <p>What to do if your secure status card has been lost, stolen or damaged.</p>
         </section>
       </div>
       <div class="col-md-4 col-sm-6" style="vertical-align: top; min-height: 123px;">
         <section>
-          <h3 class="h5"><a href="/eng/1641932747043/1641932770031">Registration under the <cite>Indian Act</cite> and applying for a status card, what's the difference</a></h3>
+          <h3 class="h5"><a href="https://www.sac-isc.gc.ca/eng/1641932747043/1641932770031">Registration under the <cite>Indian Act</cite> and applying for a status card, what's the difference</a></h3>
           <p>Registration under the <cite>Indian Act</cite> isn't the same as applying for a status card.</p>
         </section>
       </div>
       <div class="col-md-4 col-sm-6" style="vertical-align: top; min-height: 68px;">
         <section>
-          <h3 class="h5"><a href="/eng/1333474227679/1572461782133">How your photos should look on a secure status card</a></h3>
+          <h3 class="h5"><a href="https://www.sac-isc.gc.ca/eng/1333474227679/1572461782133">How your photos should look on a secure status card</a></h3>
           <p>How to submit acceptable photos when applying for a secure status card.</p>
         </section>
       </div>
       <div class="col-md-4 col-sm-6" style="vertical-align: top; min-height: 101px;">
         <section>
-          <h3 class="h5"><a href="/eng/1100100032424/1572461852643">Is your status card valid</a></h3>
+          <h3 class="h5"><a href="https://www.sac-isc.gc.ca/eng/1100100032424/1572461852643">Is your status card valid</a></h3>
           <p>Your registration under the <cite>Indian Act</cite> doesn't need to be renewed, but your status card does.</p>
         </section>
       </div>
       <div class="col-md-4 col-sm-6" style="vertical-align: top; min-height: 101px;">
         <section>
-          <h3 class="h5"><a href="/eng/1551364517335/1572460866709">Temporary Confirmation of Registration Document</a></h3>
+          <h3 class="h5"><a href="https://www.sac-isc.gc.ca/eng/1551364517335/1572460866709">Temporary Confirmation of Registration Document</a></h3>
           <p>What you need to know about the Temporary Confirmation of Registration Document. </p>
         </section>
       </div>
       <div class="col-md-4 col-sm-6" style="vertical-align: top; min-height: 101px;">
         <section>
-          <h3 class="h5"><a href="/eng/1100100016936/1534342668402">Find a regional office</a></h3>
+          <h3 class="h5"><a href="https://www.sac-isc.gc.ca/eng/1100100016936/1534342668402">Find a regional office</a></h3>
           <p>Contact information for offices where you can submit application forms or get help in person.</p>
         </section>
       </div>
@@ -762,24 +871,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      <!--  <div class="wb-share" data-wb-share="{&quot;pnlId&quot;:&quot;pnlShrPg&quot;, &quot;lnkClass&quot;: &quot;btn btn-default btn-block mrgn-tp-md&quot;}"></div> -->
     </div>
  </div>
- <!-- AI Answers GCWeb modal -->
-<section id="top-bottom" class="wb-overlay modal-content overlay-def wb-bar-b open">
-	<div class="container">
-		<ul class="list-inline mrgn-bttm-sm">
-			<li>
-				<img src="../../img/AI-stars-30.png" alt="" />
-			</li>
-			<li>
-				<header class="p-0"><h2 class="modal-title">Need help?</h2></header>
-			</li>
-			<li>
-				<form action="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url" method="get">
-				<button class="btn btn-default" type="submit">Try a beta test of AI Answers</button>
-				</form>
-			</li>
-		</ul>
-	</div>
-</section>
+        <!-- AI ANSWERS RESCUE -->
+
+<div class="container">
+        <section class="aia-rescue">
+            <h3 class="wb-inv">AI answers</h3>
+            <div class="d-flex align-items-center">
+                <img src="https://canada.ca/content/dam/canada/ai-stars-blue.png" alt="">
+                <p><strong>Need help?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Ask AI Answers for help</a></p>
+            </div>
+        </section>
+        </div>
 
  <!-- END PAGE FEEDBACK WIDGET -->
             <section class="pagedetails ">
@@ -806,6 +908,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 });
             </script>
         </main>
+
+           <!-- AI ANSWERS BANNER -->
+        <section class="aia-banner">
+            <h2 class="wb-inv">AI answers banner</h2>
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <img src="https://canada.ca/content/dam/canada/ai-stars.png" alt="">
+                    <p><strong>Need help?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Ask AI Answers for help</a></p>
+                </div>
+            </div>
+            <button class="aia-close" type="button" aria-label="Close AI answers banner">×</button>
+        </section>
+
+
         <footer id="wb-info" class="">
 <h2 class="wb-inv">About this site</h2>
 <div class="gc-contextual">
@@ -813,7 +929,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <nav aria-labelledby="cdts-contextualFooter">
 <h3 id="cdts-contextualFooter">Indigenous Services Canada</h3>
 <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
-<li><a href="/eng/1291132820288">Contact us</a></li>
+<li><a href="https://www.sac-isc.gc.ca/eng/1291132820288">Contact us</a></li>
 <li><a href="https://www.canada.ca/en/news/advanced-news-search/news-results.html?_=1583265230614&amp;dprtmnt=indigenousservicescanada&amp;start=&amp;end=">News</a></li>
 </ul>
 </nav>
@@ -917,4 +1033,57 @@ defFooter.outerHTML = wet.builder.footer({
 <script src="/DAM/PresentationDAM/STAGING/Scripts/feedback-widget.js"></script>
     
 
+    <!-- AI ANSWERS JAVASCRIPT -->
+    <script>
+/* AI Answers Availability Check */
+async function aiAnswersAvailabilityCheck() {
+    let banners = document.querySelectorAll(".aia-banner, .aia-rescue");
+
+    const removeBanners = () => banners.forEach(banner => banner.remove());
+
+    try {
+        const response = await fetch("https://ai-answers.alpha.canada.ca/api/chat/chat-session-availability");
+
+        if (response?.ok) {
+            const data = await response.json();
+            if (!data?.siteStatus || !data?.sessionAvailable) {
+                removeBanners();
+            }
+        } else {
+            removeBanners();
+        }
+    } catch {
+        removeBanners();
+    }
+}
+
+/* Wait for footer to exist */
+function waitForFooter(callback) {
+    const checkFooter = setInterval(() => {
+        const footer = document.getElementById('wb-info');
+        if (footer) {
+            clearInterval(checkFooter);
+            callback();
+        }
+    }, 100);
+}
+
+/* Initialize AI Answers */
+(function() {
+    waitForFooter(function() {
+        document.body.classList.add('aia-banner-visible');
+
+        const closeButton = document.querySelector('.aia-close');
+        if (closeButton) {
+            closeButton.addEventListener('click', () => {
+                closeButton.parentElement.remove();
+                document.body.classList.remove('aia-banner-visible');
+            });
+        }
+
+        aiAnswersAvailabilityCheck();
+    });
+})();
+
+    </script>
 </body></html>
