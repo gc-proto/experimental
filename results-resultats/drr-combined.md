@@ -641,7 +641,6 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                 <p><a href="#">[Hyperlink to the related information on GC Infobase]</a></p>
             </section>
         </section>
-    </section>
     <section>
         <h3 id="toc03-2">Funding</h3>
         <p>This section provides an overview of the department&#8217;s voted and statutory funding for its core responsibilities and for internal services. Consult the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/budgets-expenditures.html">Government of Canada budgets and expenditures</a> for further information on funding authorities.</p>
