@@ -119,7 +119,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
             <p>[Insérer le message du ou de la ministre; ne pas inclure de signature dans la version Web].</p>
         </div>
         <div class="col-xs-12 col-md-4 hidden-print">
-            <figure><img class="img-responsive center-block" src="#" alt="Headshot of [Name of Minister]">
+            <figure><img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png" alt="Headshot of [Name of Minister]">
                 <figcaption class="text-center small">
                     <p class="mrgn-bttm-0"><strong>L&#8217;honorable [Nom du/de la ministre]</strong></p>
                     <p>[titre du poste]</p>
@@ -135,7 +135,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
             <p>[Insérer le message de l&#8217;administrateur général ou de l&#8217;administratrice générale de l&#8217;institution; ne pas inclure de signature dans la version Web].</p>
         </div>
         <div class="col-xs-12 col-md-4 hidden-print">
-            <figure><img class="img-responsive center-block" src="#" alt="Headshot of [Name of Institutional Head]">
+            <figure><img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/portrait.png" alt="Headshot of [Name of Institutional Head]">
                 <figcaption class="text-center small">
                     <p class="mrgn-bttm-0"><strong>[Nom de l&#8217;administrateur général/de l&#8217;administratrice générale]</strong></p>
                     <p>[titre du poste]</p>
@@ -426,7 +426,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
         <section>
             <figure id="fig1">
                 <figcaption class="text-left h4"><strong>Figure [#] : Dépenses réelles par responsabilité essentielle en [exercice] [*facultatif]</strong></figcaption>
-                <img class="img-responsive center-block" src="#" alt="[alt text]. Text version below:">
+                <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/departmental-plans-ministeriels/pie-chart-en.png" alt="[alt text]. Text version below:">
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                     <summary class="wb-toggle" id="fig1-text" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle de la figure [numéro]</summary>
                     <table class="table table-bordered">
@@ -643,7 +643,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
         <section>
             <figure id="fig2">
                 <figcaption class="text-left h4"><strong>Graphique [#] : Financement approuvé (législatif et voté) pour une période de six exercices</strong></figcaption>
-                <img class="img-responsive center-block" src="#" alt="[alt text]. Text version below:">
+                <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/placeholder-graph.png" alt="[alt text]. Text version below:">
                 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open">
                     <summary class="wb-toggle" id="fig2-text" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Description textuelle du graphique [numéro]</summary>
                     <table class="table table-bordered">
