@@ -650,7 +650,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             <figure id="fig2">
                 <figcaption class="text-left h4"><strong>Graph [#]: Approved funding (statutory and voted) over a six-year period</strong></figcaption>
                 
-                <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/blob/master/results-resultats/placeholder-graph.png" alt="[alt text]. Text description below:">
+                <img class="img-responsive center-block" src="https://raw.githubusercontent.com/gc-proto/experimental/master/results-resultats/placeholder-graph.png" alt="[alt text]. Text description below:">
                 <details class="print-open">
                     <summary class="wb-toggle" id="fig2-text" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Text description of graph [#]</summary>
                     <table class="table table-bordered">
