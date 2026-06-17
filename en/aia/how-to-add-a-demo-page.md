@@ -101,6 +101,17 @@ Get the page source of the live Canada.ca page (View Source or DevTools). Copy e
 
 Paste it directly before the AI Answers banner comment block. Make sure the outer wrapper divs from the live page (`container-fluid`, `mwsgeneric-base-html`, etc.) are included and properly closed.
 
+### Rewrite relative URLs to absolute
+
+Department source pages often use **root-relative** links and image paths (e.g. `href="/en/support-businesses"`, `src="/sites/default/files/img/photo.jpg"`). Because the demo is hosted under `test.canada.ca/experimental/`, those resolve against the wrong host and break. Rewrite every root-relative `href`/`src` in the pasted content to an **absolute URL on the source department's domain**:
+
+```
+/en/support-businesses              → https://fednor.canada.ca/en/support-businesses
+/sites/default/files/img/photo.jpg  → https://fednor.canada.ca/sites/default/files/img/photo.jpg
+```
+
+Leave already-absolute URLs (e.g. `https://www.canada.ca/...`, `https://x.com/...`) untouched. Drupal `data-entity-*` attributes on the source links can be dropped — only the `href` matters for the demo.
+
 ### Append "(demo)" to the H1
 
 The H1 — the `<h1 ... id="wb-cont">` you just pasted — must end with `(demo)` in English or `(démo)` in French. This labels the page as not-the-real-thing for anyone who lands on it.
@@ -222,6 +233,7 @@ Keep entries alphabetical by department name.
 - [ ] Breadcrumb ends with a "Live version" / "Version en ligne" link to the live page on canada.ca
 - [ ] H1 ends with `(demo)` / `(démo)`
 - [ ] Main content pasted from live page source (with wrapper divs properly closed)
+- [ ] Root-relative `href`/`src` in the pasted content rewritten to absolute URLs on the source department's domain
 - [ ] AI ANSWERS RESCUE section present inside `<main>`, just before `</main>`
 - [ ] AI ANSWERS BANNER section present between `</main>` and the global footer
 - [ ] AI Answers JS block kept at the end of `<body>`
