@@ -783,12 +783,11 @@ Cerner les principaux irritants des utilisateurs et regrouper les commentaires e
     navigator.clipboard.writeText(text);
 
     var btn = $(this);
+    btn.text("Copié");
 
-    btn.text("Copied");
-
-    setTimeout(function () {
-        btn.text("Copy prompt");
-    }, 2000);
+setTimeout(function () {
+    btn.text("Copier le prompt");
+}, 2000);
 
 });
 </script>
