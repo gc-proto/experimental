@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+         wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+  <title>Analyse assistée par l’IA des commentaires - Canada.ca</title>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
+
+  <link rel="stylesheet" href="../css/provisional-alerts.css">
+  <link rel="stylesheet" href="../css/split-h1.css">
+  <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="contact-table.css">
+
+  <noscript>
+    <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/wet-boew/css/noscript.min.css" />
+  </noscript>
+  <style>
+    .pattern-demo {
+      padding: 19px;
+    }
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105628416-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-105628416-2');
+  </script>
+</head>
+
+<body class="cnt-wdth-lmtd" vocab="http://schema.org/" typeof="WebPage">
+  <ul id="wb-tphp">
+    <li class="wb-slc">
+      <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+    </li>
+    <li class="wb-slc">
+      <a class="wb-sl" href="#wb-info">Skip to "About government"</a>
+    </li>
+  </ul>
+  <header>
+    <div id="wb-bnr" class="container">
+      <section id="wb-lng" class="text-right">
+        <h2 class="wb-inv">Language selection</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="list-inline margin-bottom-none">
+              <li><a lang="fr" href="">Français</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="row">
+        <div class="brand col-xs-5 col-md-4">
+          <a href="https://www.canada.ca/en.html"><img src="http://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt=""><span class="wb-inv"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span></a>
+        </div>
+        <section id="wb-srch" class="col-lg-8 text-right">
+          <h2>Search</h2>
+          <form action="https://canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search" class="form-inline">
+            <div class="form-group">
+              <label for="wb-srch-q" class="wb-inv">Search website</label>
+              <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="38" maxlength="150" placeholder="Search Canada.ca">
+              <input name="st" value="s" type="hidden" />
+              <input name="num" value="10" type="hidden" />
+              <input name="langs" value="eng" type="hidden" />
+              <input name="st1rt" value="0" type="hidden">
+              <input name="s5bm3ts21rch" value="x" type="hidden" />
+              <datalist id="wb-srch-q-ac">
+              </datalist>
+            </div>
+            <div class="form-group submit">
+              <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <nav class="gweb-v2 gcweb-menu" typeof="SiteNavigationElement">
+      <div class="container">
+        <h2 class="wb-inv">Menu</h2>
+        <button type="button" aria-haspopup="true" aria-controls="gc-mnu" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+        <ul id="gc-mnu" role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://travel.gc.ca/">Travel and tourism</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="http://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+          <li role="none presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/finance.html">Science and innovation</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="wb-bc" property="breadcrumb">
+      <h2>You are here:</h2>
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a href='https://www.canada.ca/en.html'>Canada.ca</a></li>
+
+        </ol>
+      </div>
+    </nav>
+  </header>
+  <main role="main" property="mainContentOfPage" class="wb-prettify all-pre">
+    <div class="container">
+
+
+
+          <h1 class="gc-thickline" id="wb-cont" property="name">Analyse assistée par l’IA des commentaires </h1>
+
+        <p class="lead">
+        Prompts réutilisables et conseils pour analyser les commentaires recueillis au moyen de l’Outil de rétroaction sur les pages Web du GC et du Sondage sur la réussite des tâches à l’aide d’outils d’IA approuvés comme Microsoft Copilot.
+        </p>
+
+
+
+        <h2>Sur cette page</h2>
+
+  <ul>
+    <li><a href="#avant">Avant de commencer</a></li>
+    <li><a href="#protection">Protection des renseignements personnels et sécurité</a></li>
+    <li><a href="#pratques">Bonnes pratiques</a></li>
+    <li><a href="#prompts">Prompts réutilisables</a></li>
+  </ul>
+
+      <!-- BEFORE YOU BEGIN -->
+
+
+      <section aria-labelledby="avant-de-commencer">
+        <h2 id="avant">Avant de commencer</h2>
+
+  <p>
+  Les outils d’IA peuvent aider à repérer des tendances, résumer des commentaires et appuyer l’analyse de rétroactions qualitatives. Ils peuvent faire gagner du temps lorsqu’il faut traiter un grand volume de commentaires, mais ils ne remplacent pas le jugement humain.
+  </p>
+
+  <h3>Vous êtes responsable de :</h3>
+
+  <ul>
+    <li>Vérifier l’exactitude des résultats</li>
+    <li>Valider les thèmes et les dénombrements</li>
+    <li>Repérer les hallucinations ou les conclusions non fondées</li>
+    <li>Protéger les renseignements sensibles</li>
+    <li>Veiller à ce que les constats soient appropriés avant leur diffusion</li>
+  </ul>
+
+  <p>
+  <strong>Important :</strong>
+  Utilisez les outils d’IA comme aide à l’analyse et non comme décideurs faisant autorité.
+  </p>
+      </section>
+
+      <!-- PRIVACY -->
+
+      <section aria-labelledby="protection-des-renseignements">
+        <h2 id="protection">Protection des renseignements personnels et sécurité</h2>
+
+  <p>Avant d’utiliser un outil d’IA :</p>
+
+  <ul>
+    <li>N’incluez pas d’information protégée, classifiée ou opérationnelle sensible</li>
+    <li>Retirez les renseignements personnels des commentaires lorsque possible</li>
+    <li>Suivez les directives de votre ministère concernant l’utilisation des outils d’IA approuvés</li>
+    <li>Utilisez uniquement des environnements approuvés du GC comme Microsoft Copilot</li>
+  </ul>
+
+  <h3>Exemples de renseignements personnels</h3>
+
+  <ul>
+    <li>Noms</li>
+    <li>Numéros de téléphone</li>
+    <li>Adresses courriel</li>
+    <li>Numéros de dossier</li>
+    <li>Identifiants de compte</li>
+  </ul>
+      </section>
+
+      <!-- GOOD PRACTICES -->
+
+      <section aria-labelledby="bonnes-pratiques">
+<h2 id="pratiques">Bonnes pratiques pour l’analyse assistée par l’IA</h2>
+
+<h3>Fournir du contexte</h3>
+
+<p>
+Les outils d’IA produisent généralement de meilleurs résultats lorsqu’un minimum de contexte est fourni avant les commentaires.
+</p>
+
+          <pre><code>
+          Secteur de service : Passeports
+          Page : Vérifier l’état d’une demande de passeport
+          Période : Avril 2026
+          </code></pre>
+
+          <p>Le contexte peut comprendre :</p>
+
+  <ul>
+    <li>Secteur de service</li>
+    <li>Titre de la page</li>
+    <li>URL de la page</li>
+    <li>Période visée</li>
+  </ul>
+        </article>
+
+        <article>
+          <h3>Utiliser des prompts structurés</h3>
+
+  <ul>
+    <li>Définir clairement la tâche analytique</li>
+    <li>Préciser le format de sortie attendu</li>
+    <li>Définir les règles de dénombrement</li>
+    <li>Inclure des directives concernant les renseignements sensibles</li>
+    <li>Expliquer les attentes en matière de catégorisation et de preuve</li>
+  </ul>
+        </article>
+
+        <article>
+          <h3>Valider soigneusement les résultats</h3>
+
+  <p>Vérifiez toujours :</p>
+
+  <ul>
+    <li>Le nombre de commentaires</li>
+    <li>Les citations représentatives</li>
+    <li>Le regroupement des problèmes</li>
+    <li>L’exactitude de l’interprétation</li>
+    <li>Le traitement du contenu bilingue</li>
+    <li>L’exclusion des renseignements sensibles</li>
+  </ul>
+
+
+        </article>
+
+        <article>
+          <h3>Maintenir la responsabilité humaine</h3>
+
+  <p>Les outils d’IA peuvent soutenir :</p>
+
+  <ul>
+    <li>La synthèse</li>
+    <li>Le regroupement thématique</li>
+    <li>La rédaction</li>
+    <li>La détection de tendances</li>
+  </ul>
+
+  <p>Ils ne devraient pas :</p>
+
+  <ul>
+    <li>Déterminer une orientation stratégique ou politique</li>
+    <li>Établir des priorités sans révision humaine</li>
+    <li>Prendre des décisions opérationnelles</li>
+    <li>Remplacer l’interprétation d’un analyste</li>
+  </ul>
+        </article>
+
+
+    <article>
+      <h3 id="communiquer">Communiquer les constats</h3>
+
+<p>
+Lorsque vous communiquez des résultats issus d’une analyse assistée par l’IA :
+</p>
+
+<ul>
+<li>Décrivez la méthodologie de façon transparente</li>
+<li>Incluez la taille de l’échantillon lorsque pertinent</li>
+<li>Maintenez la responsabilité humaine à l’égard des conclusions</li>
+</ul>
+
+<blockquote>
+L’analyse a été réalisée avec l’aide de Microsoft Copilot. Les résultats ont été examinés et validés par un analyste.
+</blockquote>
+        </article>
+
+
+      </section>
+
+      <!-- PROMPTS -->
+
+      <section aria-labelledby="promptsp-réutilisables">
+        <h2 id="prompts">Prompts réutilisables</h2>
+
+  <p>
+  Le prompt ci-dessous est conçu pour être utilisé avec des outils d’IA approuvés tels que Microsoft Copilot.
+  </p>
+
+  <h3>Analyse thématique des commentaires</h3>
+
+  <h4>Objectif</h4>
+
+  <p>
+  Cerner les principaux irritants des utilisateurs et regrouper les commentaires en thèmes clairs.
+  </p>
+
+  <h4>Quand l’utiliser</h4>
+
+  <ul>
+    <li>Commentaires recueillis sur une page Web</li>
+    <li>Réponses ouvertes à un sondage</li>
+    <li>Problèmes d’utilisabilité récurrents</li>
+  </ul>
+
+  <h4>Prompt</h4>
+
+        <!-- Prompt Card -->
+
+        <article class="prompt-card">
+
+          <header class="prompt-card-header">
+            <h3>Feedback Theme Analysis</h3>
+
+          </header>
+
+          <section>
+            <h4>Purpose</h4>
+            <p>
+              Identify user pain points and group comments into clear themes.
+            </p>
+          </section>
+
+          <section>
+            <h4>When to use</h4>
+
+            <ul>
+              <li>Page feedback comments</li>
+              <li>Open-text survey responses</li>
+              <li>Recurring usability issues</li>
+            </ul>
+          </section>
+
+
+          <section>
+            <h4>Prompt</h4>
+
+            <button
+         type="button"
+         class="btn btn-primary copy-btn"
+         data-copy-target="fb-sum-001">
+         Copy prompt
+     </button>
+
+
+              <pre id="fb-sum-001" class="prompt-block"><code>
+          ---
+          Title: Feedback Summary and Theme Analysis
+          Owner: Canada.ca Experience Office
+          Prompt ID: FB-SUM-001
+          Version: 1.3
+          Approved Platform: Microsoft Copilot
+          Sensitivity: Unclassified
+          Human Review Required: Yes
+          Last Updated: 2026-06-17
+          ---
+
+          # HUMAN DOCUMENTATION
+
+          ## Purpose
+
+          Analyze user feedback and identify the most significant user issues based on evidence found within the dataset.
+
+          The objective is to produce:
+
+          - Accurate themes
+          - Consistent outputs
+          - Clear supporting evidence
+          - Actionable understanding of user pain points
+
+          ---
+
+          ## Intended Use
+
+          Use this prompt when:
+
+          - Understanding major user pain points
+          - Producing a feedback summary report
+          - Reviewing small-to-medium feedback datasets
+          - Identifying common user tasks and obstacles
+          - Supporting content, service, or UX reviews
+
+          Do NOT use this prompt for:
+
+          - Root cause analysis
+          - Trend analysis over time
+          - Comparing multiple datasets
+          - Prioritization decisions
+          - Measuring issue severity
+          - Performance reporting
+          - Policy or operational decision-making without additional analysis
+
+          ---
+
+          ## Inputs Required
+
+          Provide:
+
+          - A list or dataset of user comments
+
+          Optional context:
+
+          - Program or service area
+          - Page or user journey
+          - Date range
+          - Language expectations
+
+          ---
+
+          ## Expected Outputs
+
+          The prompt will produce:
+
+          1. Sensitive Information Check
+          2. Dataset Summary
+          3. Issue Summary Table
+          4. Analysis Confidence Statement
+
+          ---
+
+          ## Human Review Requirements
+
+          Before using or sharing results, verify:
+
+          - Counts are correct
+          - Themes accurately reflect user intent
+          - Quotes are copied exactly
+          - Sensitive information is properly handled
+          - Comments are assigned to only one theme
+          - Issue naming is clear and consistent
+          - Overall analysis is factually sound
+
+          AI-generated analysis must be validated by a human reviewer before operational use.
+
+          ---
+
+          # COPY EVERYTHING BELOW INTO COPILOT
+
+          # Role
+
+          You are a data analyst supporting Government of Canada web teams.
+
+          Your task is to analyze user feedback comments and identify the most significant user pain points based strictly on evidence contained within the dataset.
+
+          Do not use external knowledge or assumptions.
+
+          ---
+
+          # Success Criteria
+
+          A successful analysis:
+
+          - Produces distinct, non-overlapping themes
+          - Accounts for all analyzed comments
+          - Includes evidence supporting each theme
+          - Uses consistent naming conventions
+          - Can be understood without reviewing the raw dataset
+
+          ---
+
+          # Core Principles
+
+          ## Evidence Integrity
+
+          You must:
+
+          - Use only comments provided
+          - Never invent, alter, or paraphrase comments
+          - Copy representative comments exactly as written
+          - Use clear, neutral, evidence-based language
+          - Avoid speculation or unsupported conclusions
+
+          ## Comment Assignment Rules
+
+          For counting purposes:
+
+          - Count unique comments only
+          - Count each comment once
+          - Assign each comment to exactly one theme
+          - Do not count the same comment in multiple themes
+
+          The sum of all theme counts must equal the number of comments analyzed.
+          If this condition cannot be met, clearly state the issue in the output.
+
+
+          ## Ambiguity Handling
+
+          - Use minimal inference for short or unclear comments
+          - Assign to the best-fit theme where reasonable
+           - If no grouping is clear, assign to "Other / Unclassified"
+
+          Do not over-interpret intent.
+
+          ---
+
+          # Sensitive Information Handling
+
+          If sensitive or personal information is detected:
+
+          - Do not reproduce sensitive details
+          - Redact sensitive portions when possible
+          - Exclude comments entirely if redaction would remove meaning
+
+          Examples include:
+
+          - Names
+          - Phone numbers
+          - Email addresses
+          - Addresses
+          - SINs
+          - Account or case numbers
+
+          ---
+
+          # Theme Development
+
+          ## Theme Creation
+
+          - Group comments by user task or user problem
+          - Prioritize intent over keyword similarity
+          - Create themes only when supported by evidence
+
+          Guidance:
+          - Typically 3–6 themes when supported by the data
+          - Fewer themes are acceptable for small datasets
+          - Do not create artificial themes simply to reach a target number
+
+
+          ## Theme Naming
+
+          Use consistent task-based naming.
+
+          Examples:
+
+          - Find contact information
+          - Check application status
+          - Complete online form
+          - Sign in to account
+
+          Avoid vague or inconsistent labels.
+
+
+          ## Theme Ranking
+
+          Order themes using:
+
+          1. Highest comment count first
+          2. Relative user impact (based only on evidence)
+
+          ## Other / Unclassified
+
+          Use only when comments do not form a meaningful group.
+
+          Place this category last.
+
+          ---
+
+          # Observed User Impact
+
+          Describe impact using only what is evident in comments.
+
+          Valid examples:
+          - Users unable to complete a task
+          - Users delayed in finding information
+          - Users unclear about next steps Do not infer beyond what is stated.
+
+          ---
+
+          # Validation Check
+
+          Before producing results, verify:
+
+          - All comments were reviewed
+          - Each comment is assigned to one theme
+          - No comment appears in multiple themes
+          - Theme counts sum to the total comments analyzed
+          - Representative comments accurately reflect assigned themes
+
+          If validation cannot be completed:
+
+          - Clearly explain the issue
+          - Identify any count discrepancies
+
+          ---
+
+          # Workflow
+
+          Follow this process in order:
+
+          1. Review all comments
+          2. Identify user tasks and associated problems
+          3. Group comments into themes
+          4. Assign each comment once
+          5. Count comments per theme
+          6. Select representative comments
+          7. Validate totals
+          8. Produce final output
+
+          ---
+
+          # Output Structure
+
+          Produce outputs in this exact order:
+
+          1. Sensitive Information Check
+          2. Dataset Summary
+          3. Issue Summary Table
+          4. Analysis Confidence
+
+          Do not include any additional sections.
+
+          ---
+
+          # Sensitive Information Check
+
+          State exactly one of the following:
+
+          - No sensitive personal information detected
+
+          OR
+
+          - Sensitive information detected — briefly described and excluded
+          ---
+
+          # Dataset Summary
+
+          Provide:
+
+          | Metric | Count |
+          |---|---|
+          | Comments provided | X |
+          | Comments excluded | X |
+          | Comments analyzed | X |
+
+          If comments were excluded, briefly explain why.
+
+          ---
+
+          # Issue Summary Table
+
+          Use exactly this structure:
+
+          | # | User task | Description of pain point | Number of Comments | Representative Comments | Observed User Impact |
+          |---|---|---|---|---|---|
+
+          Requirements:
+
+          - Include 2–5 verbatim comments per theme (when available)
+          - Copy comments exactly as written
+          - Do not paraphrase
+          - Separate comments using: ` || `
+
+          Do NOT include:
+
+          - Recommendations
+          - Prioritization
+          - Severity scoring
+          - Root cause analysis
+          - Policy advice
+          - Operational advice
+
+          ---
+
+          # Analysis Confidence
+
+          Choose one:
+
+          High Confidence
+          Moderate Confidence
+          Low Confidence
+
+          Provide a brief justification based on:
+          - Data clarity
+          - Consistency of comments
+          - Strength of theme grouping
+
+
+            </code></pre>
+          </section>
+
+
+
+
+
+        </article>
+
+      </section>
+
+
+
+    </main>
+
+
+
+
+    </div>
+    <!-- END PAGE FEEDBACK WIDGET -->
+    <div class="pagedetails container">
+
+      <dl id="wb-dtmd">
+        <dt>Date modified:</dt>
+        <dd><time property="dateModified">2021-07-25</time></dd>
+      </dl>
+    </div>
+
+  </main>
+  <footer id="wb-info">
+    <div class="landscape">
+      <nav class="container wb-navcurr">
+        <h2 class="wb-inv">About government</h2>
+        <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+          <li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
+          <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+          <li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
+          <li><a href="https://www.canada.ca/en/news.html">News</a></li>
+          <li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
+          <li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+          <li><a href="https://pm.gc.ca/eng">Prime Minister</a></li>
+          <li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
+          <li><a href="https://open.canada.ca/en/">Open government</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="brand">
+      <div class="container">
+        <div class="row">
+          <nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+            <h2 class="wb-inv">About this site</h2>
+            <ul>
+              <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+              <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+              <li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
+              <li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+              <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+            </ul>
+          </nav>
+          <div class="col-xs-6 visible-sm visible-xs tofpg">
+            <a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+          </div>
+          <div class="col-xs-6 col-md-3 col-lg-2 text-right">
+            <img src="http://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+  <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
+  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+  <script>
+    document.getElementById('submissionPage').value = location.href;
+  </script>
+  <script>
+    $(document).on("wb-ready.wb", function() {
+      $("#btnno").click(function(e) {
+        $(".gc-pg-hlpfl-no").removeClass("nojs-show");
+        $(".gc-pg-hlpfl-btn").addClass("hide");
+        $("#helpful").val("No");
+      });
+      $("#gc-pg-hlpfl-frm").submit(function(e) {
+        e.preventDefault();
+        $(".gc-pg-hlpfl-thnk").removeClass("hide");
+        $("#gc-pg-hlpfl-frm").addClass("hide nojs-show");
+        $.ajax({
+          url: 'https://pagesuccessemailqueue.azurewebsites.net/api/QueueProblemForm',
+          type: 'POST',
+          dataType: 'text',
+          data: $('form#gc-pg-hlpfl-frm').serialize(),
+          success: function(data) {},
+          error: function(xhr, status, err) {
+            console.log(xhr.responseText);
+          }
+        });
+      });
+    });
+  </script>
+
+<script>
+  $(document).on("click", ".copy-btn", function () {
+
+    var targetId = $(this).data("copy-target");
+    var text = $("#" + targetId).text();
+
+    navigator.clipboard.writeText(text);
+
+    var btn = $(this);
+
+    btn.text("Copied");
+
+    setTimeout(function () {
+        btn.text("Copy prompt");
+    }, 2000);
+
+});
+</script>
+
+</body>
+
+</html>
