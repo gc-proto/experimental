@@ -355,9 +355,12 @@
           <section>
             <h4>Prompt</h4>
 
-            <button class="copy-button">
-              Copy prompt
-            </button>
+            <button
+         type="button"
+         class="btn btn-primary copy-btn"
+         data-copy-target="fb-sum-001">
+         Copy prompt
+     </button>
 
             <pre class="prompt-block"><code>
           ---
@@ -790,6 +793,24 @@
       });
     });
   </script>
+
+
+  $(document).on("click", ".copy-btn", function () {
+
+    var targetId = $(this).data("copy-target");
+    var text = $("#" + targetId).text();
+
+    navigator.clipboard.writeText(text);
+
+    var btn = $(this);
+
+    btn.text("Copied");
+
+    setTimeout(function () {
+        btn.text("Copy prompt");
+    }, 2000);
+
+});
 </body>
 
 </html>
