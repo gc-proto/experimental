@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/drr-combined
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2026-06-03
+dateModified: 2026-06-22
 language: fr
 layout: default
 title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de [nom du ministère]"
@@ -13,8 +13,8 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
     <ul>
         <li><a href="#toc01">En un coup d&#8217;œil</a></li>
         <li><a href="#toc01a">Message du/de la ministre</a></li>
-        <li><a href="#toc01b">Message de [titre de l&#8217;administrateur général/de l&#8217;administratrice générale] (*facultatif)</a></li>
-        <li><a href="#toc02">Résultats : Nos réalisations</a>
+        <li><a href="#toc01b">Message de [titre de l&#8217;administrateur général/de l&#8217;administratrice générale] (*obligatoire sans message du ou de la ministre/facultatif avec message du ou de la ministre)</a></li>
+        <li><a href="#toc02">Résultats : nos réalisations</a>
             <ul>
                 <li><a href="#toc02-1">Responsabilité essentielle 1 : [Inscrire le nom de la responsabilité essentielle]</a></li>
                 <li><a href="#toc02-2">Responsabilité essentielle 2 : [Inscrire le nom de la responsabilité essentielle]</a></li>
@@ -66,7 +66,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
     </section>
     <section>
         <h3>Sommaire des résultats</h3>
-        <p>Voici un sommaire des résultats atteints par le ministère en 2025-2026 dans ses &#171;&#160;responsabilités essentielles&#160;&#187; (ses principaux secteurs d&#8217;activité).</p>
+        <p>Voici un sommaire des résultats atteints par le ministère en 2025-2026 dans ses &#171;&#160;responsabilités essentielles&#160;&#187; (ses principaux secteurs d&#8217;activité). [Si votre ministère n&#8217;a qu&#8217;une seule responsabilité essentielle, utiliser "sa &#171;&#160;responsabilité essentielle&#160;&#187; (son principal secteur d&#8217;activité)".]</p>
         <section id="cores">
             <ul class="list-unstyled">
                 <li>
@@ -131,7 +131,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
 <section>
     <div class="row">
         <div class="col-xs-12 col-md-8">
-            <h2 id="toc01b">Message de [titre de l&#8217;administrateur général/de l&#8217;administratrice générale] (*facultatif)</h2>
+            <h2 id="toc01b">Message de [titre de l&#8217;administrateur général/de l&#8217;administratrice générale] (*obligatoire sans message du ou de la ministre/facultatif avec message du ou de la ministre)</h2>
             <p>[Insérer le message de l&#8217;administrateur général ou de l&#8217;administratrice générale de l&#8217;institution; ne pas inclure de signature dans la version Web].</p>
         </div>
         <div class="col-xs-12 col-md-4 hidden-print">
@@ -145,7 +145,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
     </div>
 </section>
 <section>
-    <h2 id="toc02">Résultats : Nos réalisations</h2>
+    <h2 id="toc02">Résultats : nos réalisations</h2>
     <section>
         <h3>Responsabilités essentielles et services internes</h3>
         <ul>
@@ -536,6 +536,10 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                 <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
             </details>
             <p>[Hyperlien vers des informations connexes dans l&#8217;infoBase du GC].</p>
+			</section>
+			<section>
+			<h4>Dépenses prévus au cours des trois prochains exercises</h4>
+			
             <p>Le tableau [#] présente les dépenses prévues de [insérer le nom du ministère] au cours de trois prochains exercices relativement à ses responsabilités essentielles et à ses services internes.</p>
             <table id="tbl5" class="table table-bordered">
                 <caption class="text-left">Tableau [#] : Dépenses prévues au cours des trois prochains exercices pour les responsabilités essentielles et les services internes (en dollars)</caption>
@@ -585,6 +589,9 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                 <p>[Insérer un texte expliquant les tendances significatives, y compris les notes de bas de page].</p>
             </details>
             <p>[Hyperlien vers des informations connexes dans l&#8217;infoBase du GC].</p>
+			</section>
+			<section>
+				<h4>Dépenses budgétaires brutes réelles [facultatif]</h4>
             <p>Le tableau [#] fait le rapprochement des dépenses brutes prévues et des dépenses nettes pour [insérer l&#8217;exercice].</p>
             <table id="tbl6" class="table table-bordered">
                 <caption class="text-left">Tableau [#] : Sommaire des dépenses budgétaires brutes réelles (en dollars)</caption>
@@ -882,7 +889,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
     </details>
     <p>Le tableau [#] présente les équivalents temps plein prévus pour les responsabilités essentielles et les services internes de [nom du ministère] au cours des trois prochains exercices. Les ressources humaines pour l&#8217;exercice en cours sont prévues en fonction des données de l&#8217;exercice à ce jour.</p>
     <table id="tbl11" class="table table-bordered">
-        <caption class="text-left">Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes</caption>
+        <caption class="text-left">Tableau [#] : Sommaire de la planification des ressources humaines pour les responsabilités essentielles et les services internes pour les trois prochains exercices</caption>
         <thead>
             <tr class="active">
                 <th class="text-left" scope="col">Responsabilités essentielles et services internes</th>
@@ -940,6 +947,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
         <li>Réponse aux comités parlementaires et aux audits externes</li>
         <li>Efficacité de la réglementation et de la délivrance des permis pour les projets de croissance propre</li>
     </ul>
+	<p>[Ajouter un hyperlien menant vers chaque tableaux de renseignements supplémentaires]</p>
 </section>
 <section>
     <h2 id="toc05">[Espace pour une section optionnelle]</h2>
@@ -1029,7 +1037,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
             <dt>dépenses votées <span lang="en">(voted expenditures)</span></dt>
             <dd>Dépenses approuvées annuellement par le Parlement au moyen d&#8217;une loi de crédits. Le crédit énonce également les conditions régissant les dépenses.</dd>
             <dt>entreprise autochtone <span lang="en">(Indigenous business)</span></dt>
-            <dd>Les exigences relatives à la vérification des entreprises autochtones aux fins du rapport sur les résultats ministériels sont présentées sur le site Web de Services aux Autochtones Canada (Cible minimale obligatoire de 5 % d&#8217;approvisionnement auprès des entreprises autochtones).</dd>
+            <dd>Les exigences relatives à la vérification des entreprises autochtones aux fins du rapport sur les résultats ministériels sont présentées sur le site Web de Services aux Autochtones Canada (<a href="https://www.sac-isc.gc.ca/fra/1691786841904/1691786863431">Cible minimale obligatoire de 5 % d&#8217;approvisionnement auprès des entreprises autochtones</a>).</dd>
             <dt>équivalent temps plein <span lang="en">(full-time equivalent)</span></dt>
             <dd>Mesure utilisée pour représenter une année-personne dans un budget ministériel. Le calcul d&#8217;un équivalent temps plein correspond au nombre des heures de travail d&#8217;un employé ou d&#8217;une employée divisé par le nombre d&#8217;heures d&#8217;une semaine de travail à temps plein d&#8217;un employeur. Par exemple, un employé qui travaille 20 heures pendant une semaine de travail normale de 40 heures représente un équivalent temps plein de 0,5.</dd>
             <dt>indicateur de rendement <span lang="en">(performance indicator)</span></dt>
@@ -1045,7 +1053,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
             <dt>priorité ministérielle <span lang="en">(departmental priority)</span></dt>
             <dd>Activité, plan ou projet sur lequel un ministère met l&#8217;accent et dont il rendra compte au cours d&#8217;une période de planification particulière. Il s&#8217;agit de ce qui importe le plus ou ce qui doit être réalisé en premier en vue d&#8217;atteindre les résultats ministériels attendus.</dd>
             <dt>priorités pangouvernementales <span lang="en">(government priorities)</span></dt>
-            <dd>Aux fins du rapport sur les résultats ministériels 2025-2026, les priorités du gouvernement sont les thèmes généraux qui définissent le programme du gouvernement comme il a été annoncé dans le discours du Trône de 2025.</dd>
+            <dd>Aux fins du rapport sur les résultats ministériels 2025-2026, les priorités du gouvernement sont les thèmes généraux qui définissent le programme du gouvernement comme il a été annoncé dans le <a href="https://www.canada.ca/fr/conseil-prive/campagnes/discours-trone/2025/discours-du-trone.html">discours du Trône de 2025</a>.</dd>
             <dt>programme <span lang="en">(program)</span></dt>
             <dd>Services et activités, pris séparément ou en groupe, ou une combinaison des deux, qui sont gérés ensemble au sein d&#8217;un ministère et qui portent sur un ensemble déterminé d&#8217;extrants, de résultats ou de niveaux de service.</dd>
             <dt>rapport sur les résultats ministériels <span lang="en">(Departmental Results Report)</span></dt>
