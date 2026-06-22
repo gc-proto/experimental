@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-conjoint
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2026-06-03
+dateModified: 2026-06-22
 language: en
 layout: default
 title: "[Department name]'s [insert fiscal year] Departmental results report"
@@ -15,7 +15,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         <li><a href="#toc01">At a glance</a></li>
         <li><a href="#toc01a">From the Minister</a></li>
         <li><a href="#toc01b">From the [title of institutional head] (*mandatory if there&#8217;s no Minister&#8217;s message, optional if there is)</a></li>
-        <li><a href="#toc02">Results - what we achieved</a>
+        <li><a href="#toc02">Results: what we achieved</a>
             <ul>
                 <li><a href="#toc02-1">Core responsibility 1: [insert core responsibility name]</a></li>
                 <li><a href="#toc02-2">Core responsibility 2: [insert core responsibility name]</a></li>
@@ -46,11 +46,11 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Copyright information</summary>
         <p>[Include copyright information formatted for web (sample: © His Majesty the King in Right of Canada, as represented by the Minister of [legal name of department], [year of publication], ISSN: [#######])]</p>
     </details>
-    <p><strong>Note:</strong> [Department name] used its generative AI tool ([include name of AI tool in parentheses]) to support the development of content in this report. A human has reviewed and validated all AI-generated content.</p>
+    <p><strong>[optional] Note:</strong> [Department name] used its generative AI tool ([include name of AI tool in parentheses]) to support the development of content in this report. A human has reviewed and validated all AI-generated content.</p>
 </section>
 <section class="well">
     <h2 id="toc01" class="mrgn-tp-sm">At a glance</h2>
-    <p>A departmental results report details [department name]&#8217;s actual accomplishments against plans, priorities and expected results outlined in its [fiscal year] Departmental Plan.</p>
+    <p>A departmental results report details [department name]&#8217;s actual accomplishments against plans, priorities and expected results outlined in its [fiscal year] <a href="#">Departmental Plan</a>. [add hyperlink to associated Departmental Plan]</p>
     <p>These results align with the priorities outlined in the <a href="https://www.pm.gc.ca/en/mandate-letters/2025/05/21/mandate-letter">May 21, 2025, mandate letter</a> from the Prime Minister, as well as with [Department name]&#8217;s <a href="#">vision</a>, <a href="#">mission</a>, <a href="#">raison d&#8217;être</a> and <a href="#">operating context</a> <a href="#">[Add hyperlink(s)]</a>.</p>
     <section>
         <h3>Key priorities</h3>
@@ -76,7 +76,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <section>
                             <ul class="list-unstyled">
                                 <li><strong>Actual spending:</strong> [Insert amount]</li>
-                                <li><strong>Actual full-time equivalent staff:</strong> [Insert number]</li>
+                                <li><strong>Actual human resources:</strong> [Insert number]</li>
                             </ul>
                             <p>[insert high-level summary for core responsibility 1]</p>
                             <p>For more information on [department name]&#8217;s activities related to <a href="#toc02-1">[name of core responsibility 1]</a> read the "Results - what we achieved" section of this report.</p>
@@ -89,7 +89,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <section>
                             <ul class="list-unstyled">
                                 <li><strong>Actual spending:</strong> [Insert amount]</li>
-                                <li><strong>Actual full-time equivalent staff:</strong> [Insert number]</li>
+                                <li><strong>Actual human resources:</strong> [Insert number]</li>
                             </ul>
                             <p>[insert high-level summary for core responsibility 2]</p>
                             <p>For more information on [department name]&#8217;s activities related to <a href="#toc02-2">[name of core responsibility 2]</a> read the "Results - what we achieved" section of this report.</p>
@@ -146,7 +146,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
     </div>
 </section>
 <section>
-    <h2 id="toc02">Results – what we achieved</h2>
+    <h2 id="toc02">Results: what we achieved</h2>
     <section>
         <h3>Core responsibilities and internal services</h3>
         <ul>
@@ -188,7 +188,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <caption class="text-left">Table [#]: [insert name of departmental result 1]</caption>
                     <thead>
                         <tr class="active">
-                            <th class="text-left" scope="col">Departmental Result Indicators</th>
+                            <th class="text-left" scope="col">Departmental result indicators</th>
                             <th class="text-left" scope="col">Target</th>
                             <th class="text-left" scope="col">Date to achieve target</th>
                             <th class="text-left" scope="col">Actual results</th>
@@ -226,7 +226,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <caption class="text-left">Table [#]: [insert name of departmental result 2]</caption>
                     <thead>
                         <tr class="active">
-                            <th scope="col">Departmental Result Indicators</th>
+                            <th scope="col">Departmental result indicators</th>
                             <th scope="col">Target</th>
                             <th scope="col">Date to achieve target</th>
                             <th scope="col">Actual results</th>
@@ -323,15 +323,15 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             <h4 id="toc02-1-7">Related government priorities</h4>
             <p>[Insert details of government-wide priorities]</p>
             <details class="print-open">
-                <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Gender-based analysis plus (*mandatory)</summary>
+                <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Gender-based analysis plus [*mandatory]</summary>
                 <p>[Insert description]</p>
             </details>
             <details class="print-open">
-                <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">United Nations 2030 Agenda for Sustainable Development and the Sustainable Development Goals (*Optional)</summary>
+                <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">United Nations 2030 Agenda for Sustainable Development and the Sustainable Development Goals [*Optional]</summary>
                 <p>[Insert description]</p>
             </details>
             <details class="print-open">
-                <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Artificial Intelligence (*Optional)</summary>
+                <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Artificial Intelligence [*Optional]</summary>
                 <p>[Insert description]</p>
             </details>
         </section>
@@ -590,6 +590,10 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                     <p>[Insert narrative that explains significant trends. Include any footnotes]</p>
                 </details>
                 <p><a href="#">[Hyperlink to the related information on GC Infobase]</a></p>
+				
+			</section>
+			<section>
+				<h4>Budgetary actual gross spending [optional]</h4>
                 <p>Table [#] reconciles gross planned spending with net spending for [insert fiscal year].</p>
                 <table id="tbl6" class="table table-bordered">
                     <caption class="text-left">Table [#]: Budgetary actual gross spending summary (dollars)</caption>
@@ -788,7 +792,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             </details>
             <p>Table [#] provides a brief snapshot of the amounts the department owes or must spend (liabilities) and its available resources (assets), which helps to indicate its ability to carry out programs and services.</p>
             <table id="tbl9" class="table table-bordered">
-                <caption class="text-left">Table [#] Condensed Statement of Financial Position (unaudited or audited) as of [insert date] (dollars)</caption>
+                <caption class="text-left">Table [#] Condensed Statement of Financial Position (unaudited or audited) as at [insert date] (dollars)</caption>
                 <thead>
                     <tr class="active">
                         <th class="text-left" scope="col">Financial information</th>
@@ -1040,11 +1044,11 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
             <dt>Gender-based Analysis Plus (GBA Plus) <span lang="fr">(analyse comparative entre les sexes plus [ACS Plus])</span></dt>
             <dd>An analytical tool that helps to understand the ways diverse individuals experience policies, programs and policies, programs, and other initiatives. Applying GBA Plus to policies, programs and other initiatives helps to identify the different needs of the people affected, the ways to be more responsive and inclusive, and the methods to anticipate and mitigate potential barriers to accessing or benefitting from the initiative. GBA Plus goes beyond biological (sex) and socio-cultural (gender) differences to consider other factors, such as age, disability, education, ethnicity, economic status, geography (including rurality), language, race, religion, and sexual orientation.</dd>
             <dt>government priorities <span lang="fr">(priorités pangouvernementales)</span></dt>
-            <dd>For the purpose of the [fiscal year] Departmental Results Report, government priorities are the high-level themes outlining the government&#8217;s agenda as announced in the 2025 Speech from the Throne.</dd>
+            <dd>For the purpose of the [fiscal year] Departmental Results Report, government priorities are the high-level themes outlining the government&#8217;s agenda as announced in the <a href="https://www.canada.ca/en/privy-council/campaigns/speech-throne/2025/speech-from-the-throne.html">2025 Speech from the Throne</a>.</dd>
             <dt>horizontal initiative <span lang="fr">(initiative horizontale)</span></dt>
             <dd>A program, project or other initiative where two or more federal departments receive funding to work collaboratively on a shared outcome usually linked to a government priority, and where the ministers involved agree to designate it as horizontal. Specific reporting requirements apply, including that the lead department must report on combined expenditures and results.</dd>
             <dt>Indigenous business <span lang="fr">(enterprise autochtones)</span></dt>
-            <dd>Requirements for verifying Indigenous businesses for the purposes of the departmental result report are available through the Indigenous Services Canada Mandatory minimum 5% Indigenous procurement target website.</dd>
+            <dd>Requirements for verifying Indigenous businesses for the purposes of the departmental result report are available through the Indigenous Services Canada <a href="https://www.sac-isc.gc.ca/eng/1691786841904/1691786863431">Mandatory minimum 5% Indigenous procurement target</a> website.</dd>
             <dt>non‑budgetary expenditures <span lang="fr">(dépenses non budgétaires)</span></dt>
             <dd>Net outlays and receipts related to loans, investments and advances, which change the composition of the financial assets of the Government of Canada.</dd>
             <dt>performance <span lang="fr">(rendement)</span></dt>
