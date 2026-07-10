@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MSCA Feedback Analysis — July 9, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --navy:#132743;
+    --navy-deep:#0B1A2E;
+    --slate:#5B6B80;
+    --slate-light:#8996A6;
+    --bg:#F4F5F7;
+    --card:#FFFFFF;
+    --line:#E1E4E9;
+    --amber:#B8862E;
+    --amber-light:#F3E6CC;
+    --focus:#1E5FB0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--navy-deep);
+    font-family:'IBM Plex Sans', -apple-system, sans-serif;
+    line-height:1.5;
+  }
+  a{color:var(--focus);}
+  :focus-visible{outline:3px solid var(--focus); outline-offset:2px;}
+
+  header.top{
+    background:linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%);
+    color:#fff;
+    padding:2.5rem 2rem 2.25rem;
+  }
+  .top-inner{max-width:1100px; margin:0 auto;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:#C9D3E0;
+    margin:0 0 0.6rem;
+  }
+  h1{
+    font-family:'IBM Plex Serif', serif;
+    font-weight:600;
+    font-size:clamp(1.6rem, 3.4vw, 2.35rem);
+    margin:0 0 0.5rem;
+    letter-spacing:-0.01em;
+  }
+  .subtitle{color:#B9C4D4; font-size:0.98rem; margin:0; max-width:60ch;}
+
+  main{max-width:1100px; margin:0 auto; padding:0 2rem 4rem;}
+
+  .kpi-row{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+    border-radius:10px;
+    overflow:hidden;
+    margin-top:-2.25rem;
+    box-shadow:0 8px 24px rgba(11,26,46,0.14);
+  }
+  .kpi{
+    background:var(--card);
+    padding:1.1rem 1.25rem;
+  }
+  .kpi .num{
+    font-family:'IBM Plex Serif', serif;
+    font-weight:600;
+    font-size:1.7rem;
+    color:var(--navy-deep);
+    display:block;
+  }
+  .kpi .label{
+    font-size:0.76rem;
+    color:var(--slate);
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+  }
+
+  section{margin-top:2.75rem;}
+  h2{
+    font-family:'IBM Plex Serif', serif;
+    font-size:1.25rem;
+    font-weight:600;
+    margin:0 0 0.3rem;
+    color:var(--navy-deep);
+  }
+  .section-note{color:var(--slate); font-size:0.9rem; margin:0 0 1.25rem; max-width:70ch;}
+
+  .chart-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:1.5rem 1.75rem 1rem;
+  }
+  .chart-wrap{height:340px;}
+
+  .issue-list{display:flex; flex-direction:column; gap:0.9rem;}
+  .issue{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-left:4px solid var(--amber);
+    border-radius:8px;
+    padding:1.1rem 1.4rem;
+  }
+  .issue.other{border-left-color:var(--slate-light);}
+  .issue-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:1rem;
+    flex-wrap:wrap;
+  }
+  .issue-title{
+    font-family:'IBM Plex Serif', serif;
+    font-weight:600;
+    font-size:1.08rem;
+    margin:0;
+    color:var(--navy-deep);
+  }
+  .issue-rank{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem;
+    color:var(--slate);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+  }
+  .issue-count{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:500;
+    color:var(--amber);
+    white-space:nowrap;
+  }
+  .issue-desc{color:var(--navy); font-size:0.94rem; margin:0.5rem 0 0.65rem;}
+  .issue-impact{
+    font-size:0.86rem;
+    color:var(--slate);
+    margin:0 0 0.7rem;
+  }
+  .issue-impact strong{color:var(--navy);}
+  details{margin-top:0.4rem;}
+  summary{
+    cursor:pointer;
+    font-size:0.84rem;
+    color:var(--focus);
+    font-weight:500;
+    padding:0.2rem 0;
+  }
+  summary:hover{text-decoration:underline;}
+  .quotes{
+    margin:0.6rem 0 0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+  }
+  .quotes li{
+    font-size:0.87rem;
+    color:var(--navy);
+    background:#FAFAF8;
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:0.55rem 0.8rem;
+    font-style:italic;
+  }
+
+  .methodology{
+    background:var(--navy-deep);
+    color:#C9D3E0;
+    border-radius:10px;
+    padding:1.5rem 1.75rem;
+    font-size:0.86rem;
+  }
+  .methodology h2{color:#fff;}
+  .methodology dl{
+    display:grid;
+    grid-template-columns:auto 1fr;
+    gap:0.35rem 1rem;
+    margin:0.9rem 0 0;
+  }
+  .methodology dt{color:#8FA0B8; font-family:'IBM Plex Mono', monospace; font-size:0.76rem;}
+  .methodology dd{margin:0; color:#DDE4EC;}
+  .methodology .flag{
+    margin-top:1rem;
+    padding-top:1rem;
+    border-top:1px solid rgba(255,255,255,0.14);
+    color:#F0DCA8;
+  }
+
+  footer{
+    max-width:1100px; margin:0 auto; padding:1.5rem 2rem 3rem;
+    color:var(--slate-light); font-size:0.78rem;
+  }
+
+  @media (max-width:600px){
+    header.top{padding:2rem 1.25rem 2rem;}
+    main{padding:0 1.25rem 3rem;}
+    .kpi-row{margin-top:1.5rem;}
+    .chart-wrap{height:420px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <p class="eyebrow">GC Feedback · My Service Canada Account (MSCA) · ESDC</p>
+    <h1>What users told us on July 9, 2026</h1>
+    <p class="subtitle">Theme analysis of 321 feedback comments submitted through the MSCA sign-out page, prepared for executive review.</p>
+  </div>
+</header>
+
+<main>
+  <div class="kpi-row">
+    <div class="kpi"><span class="num">321</span><span class="label">Comments analyzed</span></div>
+    <div class="kpi"><span class="num">7</span><span class="label">Themes identified</span></div>
+    <div class="kpi"><span class="num">101</span><span class="label">Largest theme (Sign in)</span></div>
+    <div class="kpi"><span class="num">Moderate</span><span class="label">Analysis confidence</span></div>
+  </div>
+
+  <section>
+    <h2>Volume by issue</h2>
+    <p class="section-note">Themes are ordered by comment count only — this reflects how often an issue was mentioned, not a severity or priority judgment.</p>
+    <div class="chart-card">
+      <div class="chart-wrap"><canvas id="themeChart"></canvas></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Issue detail</h2>
+    <p class="section-note">Each issue includes the pattern observed, its evidence base, and what users reported experiencing as a result. Expand a card to see representative comments, quoted exactly as submitted.</p>
+    <div class="issue-list" id="issueList"></div>
+  </section>
+
+  <section>
+    <div class="methodology">
+      <h2>How this was produced</h2>
+      <p style="margin:0.4rem 0 0; color:#DDE4EC;">This analysis followed a fixed, auditable methodology (Prompt FB-SUM-001, v1.4 — Canada.ca Experience Office) designed to keep AI-assisted review evidence-based and reviewable.</p>
+      <dl>
+        <dt>Comments provided</dt><dd>321</dd>
+        <dt>Comments excluded</dt><dd>0</dd>
+        <dt>Sensitive info check</dt><dd>No sensitive personal information detected. Three comments contained content already masked with "#" by the source export system prior to receipt.</dd>
+        <dt>Scope excluded</dt><dd>Recommendations, prioritization beyond volume, severity scoring, root cause analysis, and policy or operational advice</dd>
+        <dt>Human review</dt><dd>Required before distribution — this output has not yet been reviewed</dd>
+      </dl>
+      <p class="flag">All 321 comments were logged as English in the source data; 3 comments were written in French and are quoted in their original language below, per methodology.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Data source: GC Feedback export, feedback_export_28_.csv · Department: Employment and Social Development Canada · Page: My Service Canada Account sign-out · Date: 2026-07-09
+</footer>
+
+<script>
+const themes = [
+  {
+    name: "Sign in to account",
+    count: 101,
+    desc: "Users could not complete login, registration, or identity verification — including two-factor authentication, password grids, security questions, and phone number verification — regardless of correct information entered.",
+    impact: "Users were unable to access their account or complete registration; several report multiple repeated attempts across separate sessions.",
+    quotes: [
+      "Every time I try to sign in the My Service Canada account it asks me to recreate my entire profile as if the previous one I have have doesn't exist. Very frustrating!",
+      "This is the third time I have tried to complete the new verification requirements for registration, only to discover at the next step that you also require something else that I do not currently have access to. Please add a list up front of what I will need to complete the verification.",
+      "two factor authentication is too confusing! You're asking us to download authenticator apps but don't suggest a secure one, so how am I able to trust some random app? You won't let me use text authentication cuz I've already used that, and I'm not going to write down some weird grid code that I'll",
+      "I was asked different security questions than the ones I was originally asked. Had to guess answers. They were incorrect."
+    ]
+  },
+  {
+    name: "Check other benefit status (OAS, EI, or CDCP)",
+    count: 52,
+    desc: "Users could not confirm the status of applications, coverage, or payments for Old Age Security, Employment Insurance, or the Canada Dental Care Plan.",
+    impact: "Users were unable to determine whether an application was received, processed, or approved; some report following up by phone or in person without resolution.",
+    quotes: [
+      "Almost 10 months after registering for My Service Canada Account, I still cannot access my OAS information!!!!! I have called repeatedly and I have visited a MSC office repeatedly but every person I speak to says they cannot help me!!",
+      "there is no information on the status of my EI claim",
+      "I was trying to find confirmation on my coverage status for the CDCP.",
+      "I am trying to start my OAS which i had delayed but it will not let me apply"
+    ]
+  },
+  {
+    name: "Check CPP application, payment, or estimate status",
+    count: 51,
+    desc: "Users could not view Canada Pension Plan application status, payment history, or benefit estimates; pages failed to load or returned errors.",
+    impact: "Users could not complete their intended task of checking status, viewing payments, or estimating benefits; several report repeated attempts across multiple sessions.",
+    quotes: [
+      "I wanted to check out my CPP payment history and it would not load. I have tried 4 times now and not once would it load. Kind of maddening.",
+      "The CPP application form does not open. It is very frustrating",
+      "I wanted to check the status of my CPP application and was unable to.",
+      "No CPP deposit reference numbers, no access to deposit info! Junk"
+    ]
+  },
+  {
+    name: "General site errors or unavailability",
+    count: 22,
+    desc: "Users experienced the site as slow, unresponsive, or non-functional, without describing a specific benefit or task.",
+    impact: "Users were delayed or unable to complete their task due to general site performance, independent of which service they were trying to use.",
+    quotes: [
+      "I keep getting the message - something went wrong",
+      "System is not working!",
+      "The site is too slow and I clicked on the option, it did not work",
+      "The system is very slow today"
+    ]
+  },
+  {
+    name: "Find tax documents (Notice of Assessment, T4, tax information)",
+    count: 12,
+    desc: "Users could not locate tax-related documents, including the Notice of Assessment and T4, within their account.",
+    impact: "Users were unable to find the specific documents needed for tax purposes.",
+    quotes: [
+      "I am looking for my income tax filing information and notice of assessment and cannot find it here.",
+      "Where to find my notice of assessment after I filed my Income Tax for 2025",
+      "looking for my T4-2025",
+      "I was looking for tax info (i.e. my CRA RRSP room for 2026)."
+    ]
+  },
+  {
+    name: "Upload supporting documents",
+    count: 10,
+    desc: "Users could not successfully upload requested documents (e.g., marriage certificates, identity documents) due to connection or system errors.",
+    impact: "Users were unable to complete document submission, which may delay processing of their application or benefit.",
+    quotes: [
+      "Error on file Ontario Marriage Certificate.pdf: File upload failed due to a connection problem. Try again later.",
+      "I have tried repeatedly to add required documents but the site will not upload them. very frustrating, and inefficient",
+      "I attempted to upload a document to EI. The error message EQBL-006 said the system was unavailable due to temporary technical difficulties. The message has consistently been appearing since April 20, 2026.",
+      "Unable to upload a document CPP disability portal - Error Code - many attempts."
+    ]
+  },
+  {
+    name: "Other / Unclassified",
+    count: 73,
+    desc: "Comments spanning a wide range of unrelated or low-frequency topics (Records of Employment, GST/TFSA information, address or banking updates, unrelated service requests), plus comments too brief or ambiguous to assign to a specific theme.",
+    impact: "Not applicable — this category spans multiple unrelated tasks and comment types with no single common impact.",
+    quotes: [
+      "Address change not available",
+      "I need to print my ROE",
+      "Je veux modifier mes informations personnelles comme mon changement d'adresse mais je ne le trouve dans mon profil.",
+      "Gst information"
+    ],
+    isOther: true
+  }
+];
+
+const list = document.getElementById('issueList');
+themes.forEach((t, i) => {
+  const pct = ((t.count/321)*100).toFixed(1);
+  const el = document.createElement('div');
+  el.className = 'issue' + (t.isOther ? ' other' : '');
+  el.innerHTML = `
+    <div class="issue-head">
+      <div>
+        <span class="issue-rank">${t.isOther ? 'Unclassified' : 'Rank ' + (i+1)}</span>
+        <h3 class="issue-title">${t.name}</h3>
+      </div>
+      <span class="issue-count">${t.count} comments · ${pct}%</span>
+    </div>
+    <p class="issue-desc">${t.desc}</p>
+    <p class="issue-impact"><strong>Observed user impact:</strong> ${t.impact}</p>
+    <details>
+      <summary>Show representative comments (verbatim)</summary>
+      <ul class="quotes">${t.quotes.map(q => `<li>"${q}"</li>`).join('')}</ul>
+    </details>
+  `;
+  list.appendChild(el);
+});
+
+const ctx = document.getElementById('themeChart');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: themes.map(t => t.name),
+    datasets: [{
+      data: themes.map(t => t.count),
+      backgroundColor: themes.map(t => t.isOther ? '#B8C0CC' : '#B8862E'),
+      borderRadius: 4,
+      barThickness: 22
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { color: '#E1E4E9' }, ticks: { font: { family: "'IBM Plex Mono', monospace", size: 11 } } },
+      y: { grid: { display: false }, ticks: { font: { family: "'IBM Plex Sans', sans-serif", size: 12.5 }, color: '#132743' } }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
