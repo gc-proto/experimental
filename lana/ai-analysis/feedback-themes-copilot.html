@@ -1,152 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Executive Dashboard - MSCA Feedback Analysis</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MSCA Executive Feedback Dashboard – July 9, 2026</title>
+
 <style>
-body {
-font-family: "Segoe UI", Arial, sans-serif;
-margin: 30px;
-color: #222;
-background: #f5f7fa;
+body{
+font-family:Segoe UI,Arial,sans-serif;
+margin:0;
+background:#f4f6f8;
+color:#222;
 }
 
-.header {
-background: #003366;
-color: white;
-padding: 24px;
-border-radius: 8px;
-margin-bottom: 20px;
+.header{
+background:#003366;
+color:white;
+padding:30px 40px;
 }
 
-.header h1 {
-margin: 0;
+.header h1{
+margin:0;
+font-size:34px;
 }
 
-.summary {
-background: white;
-padding: 20px;
-border-radius: 8px;
-margin-bottom: 20px;
-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+.header p{
+margin:8px 0 0;
+opacity:.9;
 }
 
-.cards {
-display: flex;
-gap: 15px;
-flex-wrap: wrap;
-margin-bottom: 25px;
+.container{
+max-width:1400px;
+margin:auto;
+padding:25px;
 }
 
-.card {
-flex: 1;
-min-width: 180px;
-background: white;
-border-left: 5px solid #005ea5;
-padding: 18px;
-border-radius: 6px;
-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-bottom:25px;
 }
 
-.card h2 {
-margin: 0;
-color: #005ea5;
-font-size: 2rem;
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 6px rgba(0,0,0,.08);
 }
 
-.card p {
-margin: 5px 0 0;
-color: #555;
+.card .number{
+font-size:36px;
+font-weight:700;
+color:#005ea5;
 }
 
-table {
-width: 100%;
-border-collapse: collapse;
-background: white;
-margin-bottom: 25px;
-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+.card .label{
+color:#666;
+margin-top:8px;
 }
 
-th {
-background: #005ea5;
-color: white;
-text-align: left;
-padding: 12px;
+.section{
+background:white;
+padding:25px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 2px 6px rgba(0,0,0,.08);
 }
 
-td {
-padding: 12px;
-border-bottom: 1px solid #ddd;
+.summary-banner{
+background:#e8f2ff;
+border-left:6px solid #005ea5;
 }
 
-.section {
-background: white;
-padding: 20px;
-margin-bottom: 20px;
-border-radius: 8px;
-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+.priority-red{
+border-left:8px solid #d93025;
 }
 
-.priority1 { border-left: 6px solid #d7263d; }
-.priority2 { border-left: 6px solid #ff8c00; }
-.priority3 { border-left: 6px solid #2e8b57; }
-
-blockquote {
-background: #f8f9fb;
-border-left: 4px solid #005ea5;
-margin: 10px 0;
-padding: 10px 15px;
-font-style: italic;
+.priority-orange{
+border-left:8px solid #f29900;
 }
 
-.footer {
-font-size: 0.9em;
-color: #666;
-margin-top: 20px;
+.priority-green{
+border-left:8px solid #188038;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+background:#005ea5;
+color:white;
+padding:12px;
+text-align:left;
+}
+
+td{
+padding:12px;
+border-bottom:1px solid #ddd;
+}
+
+blockquote{
+border-left:4px solid #005ea5;
+background:#f7f9fc;
+padding:10px 15px;
+margin:10px 0;
+font-style:italic;
+}
+
+.priority-list li{
+margin-bottom:10px;
+}
+
+.small{
+color:#666;
+font-size:14px;
+}
+
+.highlight{
+font-weight:700;
+color:#003366;
+}
+
+.footer{
+font-size:13px;
+color:#666;
+margin-top:20px;
 }
 </style>
 </head>
+
 <body>
 
 <div class="header">
-<h1>MSCA Feedback Executive Dashboard</h1>
-<p>Analysis Date: July 9, 2026 Feedback Dataset</p>
+<h1>MSCA Executive Feedback Dashboard</h1>
+<p>Full Dataset Analysis – July 9, 2026</p>
 </div>
 
-<div class="summary">
-<h2>Executive Summary</h2>
+<div class="container">
+
+<div class="section summary-banner">
+<h2>Executive Headline</h2>
 <p>
-User feedback is dominated by three critical issues:
-<strong>authentication barriers</strong>,
-<strong>difficulty accessing CPP/OAS information</strong>,
-and <strong>system reliability failures</strong>.
-Together, these issues account for roughly 77% of analyzed comments and directly prevent users from accessing services, viewing benefits, or completing transactions.
+<span class="highlight">
+More than three quarters of all feedback is concentrated in three issues:
+authentication barriers, inability to access CPP/OAS information,
+and technical reliability failures.
+</span>
+</p>
+
+<p>
+These issues directly prevent users from accessing services,
+viewing benefits, checking application status, and completing
+online transactions.
 </p>
 </div>
 
 <div class="cards">
+
 <div class="card">
-<h2>221</h2>
-<p>Comments Analyzed</p>
+<div class="number">321</div>
+<div class="label">Comments Analyzed</div>
 </div>
 
 <div class="card">
-<h2>70</h2>
-<p>Authentication Issues</p>
+<div class="number">95</div>
+<div class="label">Authentication Issues</div>
 </div>
 
 <div class="card">
-<h2>58</h2>
-<p>CPP/OAS Access Issues</p>
+<div class="number">85</div>
+<div class="label">CPP/OAS Access Issues</div>
 </div>
 
 <div class="card">
-<h2>42</h2>
-<p>Technical Failures</p>
-</div>
+<div class="number">65</div>
+<div class="label">Technical Reliability Issues</div>
 </div>
 
+</div>
+
+<div class="section">
 <h2>Issue Ranking</h2>
 
 <table>
@@ -154,157 +190,216 @@ Together, these issues account for roughly 77% of analyzed comments and directly
 <tr>
 <th>Rank</th>
 <th>Theme</th>
-<th>Comments</th>
+<th>Approx. Comments</th>
 <th>Share</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>Sign-In, Registration & MFA Issues</td>
-<td>70</td>
-<td>32%</td>
+<td>Sign-In, Registration & MFA Problems</td>
+<td>95</td>
+<td>30%</td>
 </tr>
+
 <tr>
 <td>2</td>
-<td>CPP/OAS Status, Payments & Benefits</td>
-<td>58</td>
+<td>CPP/OAS Status, Estimates & Benefit Access</td>
+<td>85</td>
 <td>26%</td>
 </tr>
+
 <tr>
 <td>3</td>
-<td>Technical Failures & Upload Errors</td>
-<td>42</td>
-<td>19%</td>
+<td>Technical Failures, Loading Errors & Upload Problems</td>
+<td>65</td>
+<td>20%</td>
 </tr>
+
 <tr>
 <td>4</td>
-<td>Account Information & Change Requests</td>
-<td>28</td>
-<td>13%</td>
+<td>Account Management & Self-Service Changes</td>
+<td>35</td>
+<td>11%</td>
 </tr>
+
 <tr>
 <td>5</td>
 <td>CRA / Tax Information Expectations</td>
-<td>23</td>
-<td>10%</td>
+<td>25</td>
+<td>8%</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Other / Unclassified</td>
+<td>16</td>
+<td>5%</td>
 </tr>
 </tbody>
 </table>
+</div>
 
-<div class="section priority1">
-<h2>Priority 1: Authentication Experience</h2>
-<h3>70 Comments (32%)</h3>
+<div class="section priority-red">
+<h2>Priority 1 – Authentication & MFA</h2>
+<h3>95 Comments (30%)</h3>
 
 <p><strong>Observed Issues</strong></p>
+
 <ul>
+<li>Users unable to sign in</li>
 <li>Multi-factor authentication failures</li>
-<li>SMS verification issues</li>
 <li>Phone number conflicts</li>
-<li>Registration failures</li>
-<li>Account access loops</li>
+<li>Missing SMS verification codes</li>
 <li>Password grid confusion</li>
+<li>Registration failures and account loops</li>
 </ul>
 
 <p><strong>Representative Feedback</strong></p>
 
 <blockquote>I cannot sign into my account</blockquote>
-<blockquote>You have the wrong phone number listed as my "2-factor authentication"</blockquote>
-<blockquote>Can't enter sms number.</blockquote>
+<blockquote>Can't sign in, too difficult</blockquote>
 <blockquote>too complicated with multi verification process!!!!!</blockquote>
+<blockquote>not receiving the sms authenticator code</blockquote>
 
-<p><strong>Executive Impact:</strong> Users are unable to access any online services and are diverted to call centres and Service Canada offices.</p>
+<p>
+<strong>Executive Impact:</strong>
+Users are completely blocked from online services and frequently
+indicate they must contact Service Canada or visit an office.
+</p>
 </div>
 
-<div class="section priority2">
-<h2>Priority 2: CPP/OAS Information Access</h2>
-<h3>58 Comments (26%)</h3>
+<div class="section priority-orange">
+<h2>Priority 2 – CPP/OAS Information Access</h2>
+<h3>85 Comments (26%)</h3>
 
 <p><strong>Observed Issues</strong></p>
+
 <ul>
 <li>Cannot view CPP application status</li>
-<li>Missing CPP estimates</li>
-<li>Missing payment information</li>
-<li>Missing OAS status information</li>
+<li>Cannot access CPP estimates</li>
+<li>Unable to see payment histories</li>
+<li>OAS information unavailable</li>
 <li>No confirmation of submitted applications</li>
+<li>Missing benefit information</li>
 </ul>
 
 <p><strong>Representative Feedback</strong></p>
 
-<blockquote>I can't see any confirmation that my CPP will start in September or how much my payments will be.</blockquote>
-<blockquote>Don't know if my CPP application has been recieved.</blockquote>
-<blockquote>Looking to see status of my CPP application and Child Rearing Providion form</blockquote>
-<blockquote>could not find my oas payment info</blockquote>
+<blockquote>I want to check the progress of my application for CPP</blockquote>
+<blockquote>CPP payment estimator unavailable</blockquote>
+<blockquote>I was looking for my CPP estimate, and it only gave me an error message.</blockquote>
+<blockquote>The status of my CPP Application feature is not working.</blockquote>
 
-<p><strong>Executive Impact:</strong> Users cannot verify benefit entitlement, payment amounts, or application progress.</p>
+<p>
+<strong>Executive Impact:</strong>
+Users cannot confirm benefit eligibility, application status,
+payment amounts, or expected entitlements.
+</p>
 </div>
 
-<div class="section priority3">
-<h2>Priority 3: Reliability & Technical Performance</h2>
-<h3>42 Comments (19%)</h3>
+<div class="section priority-green">
+<h2>Priority 3 – Platform Reliability</h2>
+<h3>65 Comments (20%)</h3>
 
 <p><strong>Observed Issues</strong></p>
+
 <ul>
 <li>File upload failures</li>
-<li>Pages freezing or timing out</li>
-<li>Technical difficulty messages</li>
-<li>Long load times</li>
-<li>Error pages</li>
+<li>Long loading times</li>
+<li>Frozen screens</li>
+<li>Service outages</li>
+<li>Technical difficulty errors</li>
+<li>Unavailable pages</li>
 </ul>
 
 <p><strong>Representative Feedback</strong></p>
 
 <blockquote>File upload failed due to a connection problem. Try again later.</blockquote>
 <blockquote>Website keeps freezing.</blockquote>
-<blockquote>The system was experiencing technical difficulties.</blockquote>
-<blockquote>Unable (after several tries on multiple days) to upload requested documents</blockquote>
+<blockquote>System is not working!</blockquote>
+<blockquote>Pages wouldn't load up stating currently unavailable.</blockquote>
 
-<p><strong>Executive Impact:</strong> Users are unable to complete applications, upload documents, or retrieve information.</p>
+<p>
+<strong>Executive Impact:</strong>
+Users are unable to complete applications,
+upload documents, or access information required for benefits.
+</p>
 </div>
 
 <div class="section">
-<h2>Secondary Issues</h2>
+<h2>Secondary Findings</h2>
 
-<h3>Account Management Challenges (13%)</h3>
+<h3>Account Management & Self-Service (11%)</h3>
+
 <ul>
 <li>Address changes unavailable</li>
-<li>Banking updates unavailable</li>
-<li>Phone number changes unavailable</li>
-<li>Unable to manage tax withholding settings</li>
+<li>Direct deposit updates unavailable</li>
+<li>Phone number changes difficult or impossible</li>
+<li>Tax deduction preferences difficult to manage</li>
+<li>Banking information updates unsuccessful</li>
 </ul>
 
-<h3>CRA Expectation Gap (10%)</h3>
+<h3>CRA / Tax Information Expectations (8%)</h3>
+
 <ul>
-<li>Users expected Notices of Assessment</li>
-<li>Users expected TFSA and RRSP information</li>
-<li>Users expected CRA integration</li>
+<li>Users expected access to Notices of Assessment</li>
+<li>Users searched for TFSA and RRSP information</li>
+<li>Users expected CRA integration within MSCA</li>
+<li>Users searched for tax documents and assessments</li>
 </ul>
 </div>
 
 <div class="section">
-<h2>Executive Recommended Focus</h2>
+<h2>Executive Action Priorities</h2>
 
-<ol>
-<li><strong>Resolve authentication and MFA barriers immediately</strong></li>
-<li><strong>Restore reliable access to CPP/OAS status and benefit information</strong></li>
-<li><strong>Address platform reliability, loading, and upload failures</strong></li>
-<li><strong>Improve self-service account management capabilities</strong></li>
-<li><strong>Clarify differences between MSCA and CRA services</strong></li>
+<ol class="priority-list">
+<li>
+<strong>Authentication & MFA Stabilization</strong>
+<br>Largest source of feedback and blocks service access.
+</li>
+
+<li>
+<strong>Restore CPP/OAS Visibility</strong>
+<br>Improve status, payments, estimates, and confirmation information.
+</li>
+
+<li>
+<strong>Improve Reliability & Performance</strong>
+<br>Address loading issues, upload failures, and error conditions.
+</li>
+
+<li>
+<strong>Strengthen Self-Service Functions</strong>
+<br>Enable easier management of addresses, phones, and banking information.
+</li>
+
+<li>
+<strong>Clarify MSCA vs CRA Responsibilities</strong>
+<br>Reduce user confusion around tax-related information and services.
+</li>
 </ol>
 </div>
 
 <div class="section">
 <h2>Analysis Confidence</h2>
+
 <p>
-<strong>High Confidence</strong><br>
-Feedback themes were highly repetitive and consistently clustered around
-authentication problems, benefit information access, technical failures,
-account-management tasks, and CRA-related expectations.
+<strong>High Confidence</strong>
+</p>
+
+<p>
+The full dataset contains 321 comments and exhibits strong clustering
+around recurring, well-defined user problems. Authentication, CPP/OAS
+access, and technical reliability issues appear consistently
+throughout the day and represent the majority of all feedback.
 </p>
 </div>
 
 <div class="footer">
-Source: MSCA Feedback Dataset (July 9, 2026) [1](https://014gc-my.sharepoint.com/personal/lana_stewart_servicecanada_gc_ca/_layouts/15/Doc.aspx?sourcedoc=%7B8F7B7EEC-82EA-4D76-872C-65208939B387%7D&file=feedback_export%2828%29.csv&action=default&mobileredirect=true)
+Source: feedback_export(28).csv (321 comments)
+</div>
+
 </div>
 
 </body>
