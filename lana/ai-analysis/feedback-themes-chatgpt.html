@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MSCA User Feedback Dashboard</title>
+
+<style>
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    max-width:1200px;
+    margin:40px auto;
+    padding:0 20px;
+    color:#222;
+    line-height:1.5;
+    background:#fff;
+}
+
+h1{
+    border-bottom:3px solid #26374a;
+    padding-bottom:10px;
+}
+
+h2{
+    margin-top:40px;
+    color:#26374a;
+}
+
+.subtitle{
+    color:#666;
+    margin-top:-10px;
+    margin-bottom:30px;
+}
+
+.card-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-bottom:40px;
+}
+
+.card{
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:20px;
+    background:#fafafa;
+}
+
+.metric{
+    font-size:32px;
+    font-weight:bold;
+    color:#1b5e20;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin:20px 0;
+}
+
+th{
+    background:#26374a;
+    color:white;
+    text-align:left;
+    padding:12px;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:12px;
+    vertical-align:top;
+}
+
+blockquote{
+    margin:12px 0;
+    padding:12px 18px;
+    border-left:4px solid #005ea5;
+    background:#f8f9fa;
+    font-style:italic;
+}
+
+.summary{
+    background:#eef5fb;
+    border-left:6px solid #005ea5;
+    padding:20px;
+    margin-top:20px;
+}
+
+.priority{
+    font-size:18px;
+}
+
+.high{
+    color:#b71c1c;
+    font-weight:bold;
+}
+
+.medium{
+    color:#ef6c00;
+    font-weight:bold;
+}
+
+.low{
+    color:#2e7d32;
+    font-weight:bold;
+}
+
+svg{
+    width:100%;
+    max-width:700px;
+}
+
+.footer{
+    margin-top:50px;
+    color:#666;
+    font-size:14px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>My Service Canada Account (MSCA)</h1>
+<p class="subtitle">
+User Feedback Dashboard – July 9, 2026
+</p>
+
+<div class="card-grid">
+
+<div class="card">
+<div class="metric">321</div>
+<div>Comments Received</div>
+</div>
+
+<div class="card">
+<div class="metric">MSCA</div>
+<div>Service</div>
+</div>
+
+<div class="card">
+<div class="metric">Account Issues</div>
+<div>Dominant Feedback Type</div>
+</div>
+
+<div class="card">
+<div class="metric">High</div>
+<div>Operational Impact</div>
+</div>
+
+</div>
+
+<h2>Top User Issues</h2>
+
+<table>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Issue</th>
+<th>Estimated Share</th>
+<th>Executive Takeaway</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>1</td>
+<td>Unable to access account</td>
+<td>High</td>
+<td>Authentication and sign-in problems continue to prevent users from accessing services.</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Application status unavailable</td>
+<td>High</td>
+<td>Users cannot determine whether applications or documents have been received or processed.</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Technical errors</td>
+<td>High</td>
+<td>System errors, broken pages and upload failures prevent task completion.</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>CPP / OAS payment information</td>
+<td>Medium</td>
+<td>Users struggle to locate payment details and future payment information.</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Dental Care Plan information</td>
+<td>Medium</td>
+<td>Users report difficulty finding application status and coverage information.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>Estimated Distribution of Issues</h2>
+
+<svg viewBox="0 0 700 240">
+
+<text x="0" y="25">Account access &amp; authentication</text>
+<rect x="280" y="10" width="340" height="20" fill="#005ea5"/>
+
+<text x="0" y="65">Application status</text>
+<rect x="280" y="50" width="285" height="20" fill="#4c78a8"/>
+
+<text x="0" y="105">Technical failures</text>
+<rect x="280" y="90" width="245" height="20" fill="#72a2c0"/>
+
+<text x="0" y="145">CPP / OAS information</text>
+<rect x="280" y="130" width="170" height="20" fill="#99c1de"/>
+
+<text x="0" y="185">Dental Care Plan</text>
+<rect x="280" y="170" width="120" height="20" fill="#bdd7ee"/>
+
+<text x="0" y="225">Other</text>
+<rect x="280" y="210" width="80" height="20" fill="#d9e8f5"/>
+
+</svg>
+
+<h2>Primary User Goals</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>User Goal</th>
+<th>Observed Outcome</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Sign into MSCA</td>
+<td>Frequently unsuccessful due to authentication issues.</td>
+</tr>
+
+<tr>
+<td>Check application status</td>
+<td>Status unavailable or unclear.</td>
+</tr>
+
+<tr>
+<td>Upload documents</td>
+<td>Uploads fail or generate errors.</td>
+</tr>
+
+<tr>
+<td>View CPP/OAS payments</td>
+<td>Payment information difficult to locate.</td>
+</tr>
+
+<tr>
+<td>Manage account</td>
+<td>Users encounter authentication and navigation barriers.</td>
+</tr>
+
+</tbody>
+
+</table>
+
+<h2>Representative User Feedback</h2>
+
+<h3>Account Access</h3>
+
+<blockquote>
+"I cannot sign into my account"
+</blockquote>
+
+<blockquote>
+"Can't sign in, too difficult"
+</blockquote>
+
+<blockquote>
+"Keeps signing me out!"
+</blockquote>
+
+<h3>Application Status</h3>
+
+<blockquote>
+"there is no information on the status of my EI claim"
+</blockquote>
+
+<blockquote>
+"I wanted to check the status of my CPP application and was unable to."
+</blockquote>
+
+<blockquote>
+"No indication if they have ever been received or status of application."
+</blockquote>
+
+<h3>Technical Errors</h3>
+
+<blockquote>
+"File upload failed due to a connection problem."
+</blockquote>
+
+<blockquote>
+"Page No Longer Available"
+</blockquote>
+
+<blockquote>
+"Error Code - many attempts."
+</blockquote>
+
+<h3>CPP / OAS Information</h3>
+
+<blockquote>
+"I can't see any confirmation that my CPP will start..."
+</blockquote>
+
+<blockquote>
+"CPP future payments not available"
+</blockquote>
+
+<blockquote>
+"Link of CPP payments not working."
+</blockquote>
+
+<h3>Dental Care Plan</h3>
+
+<blockquote>
+"Couldn’t find new letter regarding Canadian Dental Care Plan coverage"
+</blockquote>
+
+<blockquote>
+"I would like to apply for Dental Care Benefits"
+</blockquote>
+
+<h2>Executive Summary</h2>
+
+<div class="summary">
+
+<p>
+<strong>Key Observation</strong>
+</p>
+
+<ul>
+
+<li>The majority of feedback concerns transaction failures rather than information discovery.</li>
+
+<li>Authentication issues prevent users from accessing multiple online services.</li>
+
+<li>Application status information is frequently unavailable or unclear.</li>
+
+<li>Technical failures continue to interrupt document uploads and account transactions.</li>
+
+<li>Many users report repeated attempts, suggesting persistent operational issues rather than isolated incidents.</li>
+
+</ul>
+
+</div>
+
+<h2>Recommended Investigation Priorities</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Priority</th>
+<th>Area</th>
+<th>Reason</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td class="high">🔴 Immediate</td>
+<td>Authentication &amp; Sign-In</td>
+<td>Prevents access to nearly every online service.</td>
+</tr>
+
+<tr>
+<td class="high">🔴 Immediate</td>
+<td>Application Status</td>
+<td>Users cannot determine claim or application progress.</td>
+</tr>
+
+<tr>
+<td class="high">🔴 Immediate</td>
+<td>Upload Reliability</td>
+<td>Multiple reports of failed uploads and recurring error messages.</td>
+</tr>
+
+<tr>
+<td class="medium">🟠 High</td>
+<td>CPP / OAS Payments</td>
+<td>High-volume task with recurring user complaints.</td>
+</tr>
+
+<tr>
+<td class="low">🟡 Medium</td>
+<td>Dental Care Plan</td>
+<td>Improve discoverability of application status and coverage information.</td>
+</tr>
+
+</tbody>
+
+</table>
+
+<div class="footer">
+Dashboard generated from qualitative analysis of 321 user feedback comments. Distribution estimates are based on thematic review and are intended for executive reporting.
+</div>
+
+</body>
+</html>
