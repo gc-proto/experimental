@@ -249,7 +249,7 @@ Replace the department name and contact link in `gc-contextual`:
 Open `en/aia/index.html` and add a new `<section>` block inside the `<div class="row mrgn-tp-lg">`, following the same pattern as existing entries:
 
 ```html
-<section class="col-md-6 mrgn-bttm-lg">
+<section class="col-md-12 mrgn-bttm-md">
 <h3>Crown-Indigenous Relations and Northern Affairs Canada (CIRNAC)</h3>
 <ul>
 <li>Demo page: <a href="https://test.canada.ca/experimental/en/aia/crown-indigenous-relations-northern-affairs.html">Crown-Indigenous Relations and Northern Affairs Canada (test)</a></li>
@@ -258,7 +258,9 @@ Open `en/aia/index.html` and add a new `<section>` block inside the `<div class=
 </section>
 ```
 
-Keep entries alphabetical by department name.
+Keep entries alphabetical by department name. The list is a **single column** (`col-md-12`) — it was two (`col-md-6`), but with entries of uneven height the alphabetical order became hard to follow across the ragged columns.
+
+If a department has more than one demo, add another `<ul>` to that department's existing `<section>` rather than a second section — see the DND entry.
 
 ---
 

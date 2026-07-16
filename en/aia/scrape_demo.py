@@ -333,7 +333,7 @@ def insert_index_entry(index_path, lang, dept_name, demo_url, demo_text, live_ur
 
     if lang == "en":
         new_section = (
-            '<section class="col-md-6 mrgn-bttm-lg">\n'
+            '<section class="col-md-12 mrgn-bttm-md">\n'
             f'<h3>{dept_name}</h3>\n'
             '<ul>\n'
             f'<li>Demo page: <a href="{demo_url}">{demo_text}</a></li>\n'
@@ -343,7 +343,7 @@ def insert_index_entry(index_path, lang, dept_name, demo_url, demo_text, live_ur
         )
     else:
         new_section = (
-            '<section class="col-md-6 mrgn-bttm-lg">\n'
+            '<section class="col-md-12 mrgn-bttm-md">\n'
             f'<h3>{dept_name}</h3>\n'
             '<ul>\n'
             f'<li>Page de d&eacute;mo&nbsp;: <a href="{demo_url}">{demo_text}</a></li>\n'
@@ -353,7 +353,7 @@ def insert_index_entry(index_path, lang, dept_name, demo_url, demo_text, live_ur
         )
 
     sections = list(re.finditer(
-        r'<section class="col-md-6 mrgn-bttm-lg">\s*<h3>([\s\S]*?)</h3>[\s\S]*?</section>',
+        r'<section class="col-md-12 mrgn-bttm-md">\s*<h3>([\s\S]*?)</h3>[\s\S]*?</section>',
         text,
     ))
     if not sections:
