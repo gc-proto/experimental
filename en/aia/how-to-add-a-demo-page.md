@@ -12,7 +12,14 @@ python en/aia/scrape_demo.py \
   https://www.canada.ca/fr/developpement-economique-pacifique.html
 ```
 
-It fetches both pages, extracts the `<main>` content and metadata, writes `en/aia/<slug>.html` and `fr/aia/<slug>.html` using the PrairiesCan demo as the template, and inserts a new alphabetical entry into both index files. Then review the diffs and adjust as needed — in particular, the `gc-contextual` footer (step 8 below) is inherited from PrairiesCan and may need to be replaced for the new department.
+It fetches both pages, extracts the `<main>` content and metadata, writes `en/aia/<slug>.html` and `fr/aia/<slug>.html` using the `military-career-transition.html` demo as the template, rewrites root-relative URLs to the source department's domain, and inserts a new alphabetical entry into both index files.
+
+**Always open both pages in a browser afterwards.** The script gets the mechanics right but can't tell whether the pasted content *renders* — see "Watch for classes from the department's own theme" under step 6.
+
+Also review:
+- **Any `Warning: … live page has no description, author, …`** the script prints. Live pages don't all carry full metadata, and whatever is missing keeps the **template's** value — i.e. National Defence's. Fill those in by hand (step 3).
+- **The breadcrumb**, which the script rebuilds as `Canada.ca` + `Live version`. Add a department-landing level in between if the page warrants one (step 5).
+- **The index entry text** (department name + link text).
 
 Useful flags:
 - `--en-out ircc/contact-ircc.html` / `--fr-out ircc/contactez-ircc.html` for subdirectory output
@@ -112,6 +119,37 @@ Department source pages often use **root-relative** links and image paths (e.g. 
 
 Leave already-absolute URLs (e.g. `https://www.canada.ca/...`, `https://x.com/...`) untouched. Drupal `data-entity-*` attributes on the source links can be dropped — only the `href` matters for the demo.
 
+### Watch for classes from the department's own theme
+
+A demo page loads **canada.ca's `theme.min.css` and nothing else**. Departments on their own domain (tc.canada.ca, fednor.canada.ca) style their pages with theme classes that don't exist in that stylesheet, so pasted content using them renders unstyled — silently, with no error.
+
+The Transport Canada "Most requested" list is the worked example. Its source markup was:
+
+```html
+<ul class="wb-eqht list-unstyled mrgn-tp-md mrgn-bttm-sm lst-spcd-1 list-responsive-3">
+```
+
+`list-responsive-3` is what makes it three columns on tc.canada.ca and means nothing on canada.ca, and `list-unstyled` removes the bullets — so the list rendered as one long unbulleted stack. The fix is to rewrite the section in the canada.ca pattern (see `treasury-board-secretariat.html`):
+
+```html
+<section class="well well-sm provisional gc-most-requested">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"><h2>Most requested</h2></div>
+      <div class="col-md-10">
+        <ul class="colcount-md-2">
+          <li><a href="…">…</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+⚠️ **The column count is not yours to choose here.** `.gc-most-requested ul` in `theme.min.css` hard-sets `column-count: 2`, and it outranks any `colcount-*` class on the same list — `.gc-most-requested ul` (specificity 0,1,1) beats `.colcount-md-3` (0,1,0). So `colcount-md-2` in the markup above is decorative; TBS carries the same redundant class. Adding `colcount-md-3` to get three columns **does nothing**. A department landing page whose live version is three columns will be two columns as a demo, which is correct — the demo follows the canada.ca pattern, not the department's.
+
+More generally: if pasted content looks wrong, check whether the class doing the work is a canada.ca class or the department's, before assuming the markup is broken.
+
 ### Append "(demo)" to the H1
 
 The H1 — the `<h1 ... id="wb-cont">` you just pasted — must end with `(demo)` in English or `(démo)` in French. This labels the page as not-the-real-thing for anyone who lands on it.
@@ -196,7 +234,7 @@ Replace the department name and contact link in `gc-contextual`:
 </div>
 ```
 
-⚠️ Easy to miss — the `<h3>` department name and the contact link both need to change. Pages copied from older templates have shipped with stale values (e.g. "Employment Insurance") still in place.
+⚠️ Easy to miss — the `<h3>` department name and the contact link both need to change, and **`scrape_demo.py` does not do this for you**. It's near the bottom of the page, below the fold, so nothing about a page that looks fine tells you it's wrong. Pages have shipped with stale values still in place (e.g. "Employment Insurance"); a page built from the current template will say "National Defence" until you change it.
 
 ## 9. Update the date modified
 
@@ -234,6 +272,7 @@ Keep entries alphabetical by department name.
 - [ ] H1 ends with `(demo)` / `(démo)`
 - [ ] Main content pasted from live page source (with wrapper divs properly closed)
 - [ ] Root-relative `href`/`src` in the pasted content rewritten to absolute URLs on the source department's domain
+- [ ] **Both pages opened in a browser** — content styled with the department's own theme classes renders unstyled on canada.ca and fails silently
 - [ ] AI ANSWERS RESCUE section present inside `<main>`, just before `</main>`
 - [ ] AI ANSWERS BANNER section present between `</main>` and the global footer
 - [ ] AI Answers JS block kept at the end of `<body>`
