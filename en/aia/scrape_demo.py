@@ -2,7 +2,7 @@
 """Generate an AIA demo page pair from a live Canada.ca page.
 
 Fetches the EN and FR live pages, extracts <main> content + metadata, and writes
-two demo files using prairies-economic-development.html / developpement-economique-prairies.html
+two demo files using military-career-transition.html / transition-carriere-militaire.html
 as the templates. Also inserts an alphabetical entry into en/aia/index.html and fr/aia/index.html.
 
 Usage:
@@ -34,8 +34,8 @@ from urllib.request import Request, urlopen
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 EN_DIR = REPO_ROOT / "en" / "aia"
 FR_DIR = REPO_ROOT / "fr" / "aia"
-EN_TEMPLATE = EN_DIR / "prairies-economic-development.html"
-FR_TEMPLATE = FR_DIR / "developpement-economique-prairies.html"
+EN_TEMPLATE = EN_DIR / "military-career-transition.html"
+FR_TEMPLATE = FR_DIR / "transition-carriere-militaire.html"
 EN_INDEX = EN_DIR / "index.html"
 FR_INDEX = FR_DIR / "index.html"
 
@@ -96,11 +96,16 @@ def extract_alternate(html, lang):
 
 
 def extract_main(html, lang):
-    """Return (main_attrs, inner_html_with_h1_patched_and_pagedetails_stripped)."""
+    """Return inner_html_with_h1_patched_and_pagedetails_stripped.
+
+    Only the *contents* of the live <main> are kept. The source page's <main>
+    attributes are deliberately discarded: department sites on their own domains
+    (tc.canada.ca, fednor.canada.ca) carry theme-specific classes there that break
+    layout once the content is dropped into the canada.ca WET template.
+    """
     m = re.search(r"<main(\s[^>]*)?>([\s\S]*?)</main>", html, re.IGNORECASE)
     if not m:
         raise SystemExit("Could not find <main>...</main> in live page source")
-    attrs = m.group(1) or ""
     inner = m.group(2)
 
     # Strip the live page's pagedetails section — the demo template provides its own.
@@ -141,66 +146,68 @@ def extract_main(html, lang):
     )
     if n == 0:
         print("Warning: no <h1 id=\"wb-cont\"> found — h1 not patched", file=sys.stderr)
-    return attrs, new_inner
+    return new_inner
 
 
-def build_main_block(main_attrs, main_inner, lang, today):
-    if lang == "en":
-        rescue = (
-            '        <!-- AI ANSWERS RESCUE -->\n'
-            '\n'
-            '        <section class="aia-rescue">\n'
-            '            <h3 class="wb-inv">AI answers</h3>\n'
-            '            <div class="d-flex align-items-center">\n'
-            '                <img src="https://canada.ca/content/dam/canada/ai-stars-blue.png" alt="">\n'
-            '                <p><strong>Need help?</strong> <a href="https://ai-answers.alpha.canada.ca" referrerpolicy="unsafe-url">Ask AI Answers for help</a></p>\n'
-            '            </div>\n'
-            '        </section>'
-        )
-        pagedetails = (
-            '            <section class="pagedetails">\n'
-            '    <h2 class="wb-inv">Page details</h2>\n'
-            '    <div class="row">\n'
-            '        <div class="col-sm-8 col-md-9 col-lg-9">\n'
-            '        </div>\n'
-            '\t</div>\n'
-            '<gcds-date-modified>\n'
-            f'\t{today}\n'
-            '</gcds-date-modified>\n'
-            '</section>'
-        )
-    else:
-        rescue = (
-            '        <!-- AI ANSWERS RESCUE -->\n'
-            '\n'
-            '        <section class="aia-rescue">\n'
-            '            <h3 class="wb-inv">Réponses IA</h3>\n'
-            '            <div class="d-flex align-items-center">\n'
-            '                <img src="https://canada.ca/content/dam/canada/ai-stars-blue.png" alt="">\n'
-            "                <p><strong>Besoin d'aide ?</strong> <a href=\"https://reponses-ia.alpha.canada.ca\" referrerpolicy=\"unsafe-url\">Demander de l'aide à Réponses IA</a></p>\n"
-            '            </div>\n'
-            '        </section>'
-        )
-        pagedetails = (
-            '            <section class="pagedetails">\n'
-            '    <h2 class="wb-inv">Détails de la page</h2>\n'
-            '    <div class="row">\n'
-            '        <div class="col-sm-8 col-md-9 col-lg-9">\n'
-            '        </div>\n'
-            '\t</div>\n'
-            '<gcds-date-modified>\n'
-            f'\t{today}\n'
-            '</gcds-date-modified>\n'
-            '</section>'
-        )
+def rewrite_relative_urls(inner, base):
+    """Rewrite root-relative href/src and CSS url() paths to absolute URLs on `base`.
+
+    Demo pages are served from test.canada.ca/experimental/, so a source page's
+    root-relative paths would otherwise resolve against the wrong host.
+    """
+    inner = re.sub(
+        r'((?:href|src)=")(/[^"]*)(")',
+        lambda m: f"{m.group(1)}{base}{m.group(2)}{m.group(3)}",
+        inner,
+    )
+    inner = re.sub(
+        r"(url\(\s*['\"]?)(/[^'\")]*)",
+        lambda m: f"{m.group(1)}{base}{m.group(2)}",
+        inner,
+    )
+    # Drupal bookkeeping; only the href matters for the demo.
+    inner = re.sub(r'\s+data-entity-(?:substitution|type|uuid)="[^"]*"', "", inner)
+    return inner
+
+
+def build_main_block(template_text, main_inner, today):
+    """Assemble the demo's <main> from the template's own scaffolding.
+
+    The opening <main> tag, the AI Answers rescue block and the pagedetails section
+    are lifted from the template rather than hardcoded here, so the template stays
+    the single source of truth for the AI Answers pattern (and for the French
+    wording / reponses-ia URLs, which differ from English).
+    """
+    tmain = re.search(r"(<main(?:\s[^>]*)?>)([\s\S]*?)(</main>)", template_text, re.IGNORECASE)
+    if not tmain:
+        raise SystemExit("Could not find <main>...</main> in the template")
+    main_open, tpl_inner = tmain.group(1), tmain.group(2)
+
+    rescue = re.search(
+        r"<!--\s*AI ANSWERS RESCUE\s*-->[\s\S]*?</section>\s*</div>", tpl_inner
+    )
+    if not rescue:
+        raise SystemExit("Could not find the AI ANSWERS RESCUE block in the template")
+
+    pagedetails = re.search(
+        r'<section class="pagedetails(?:\s[^"]*)?"[^>]*>[\s\S]*?</section>', tpl_inner
+    )
+    if not pagedetails:
+        raise SystemExit("Could not find the pagedetails section in the template")
+    pagedetails = re.sub(
+        r"(<gcds-date-modified>\s*)[^<]*(\s*</gcds-date-modified>)",
+        lambda m: f"{m.group(1)}{today}{m.group(2)}",
+        pagedetails.group(0),
+        count=1,
+    )
 
     return (
-        f"<main{main_attrs}>\n"
+        f"{main_open}\n"
         f"{main_inner.strip()}\n"
         f"\n"
-        f"{rescue}\n"
+        f"        {rescue.group(0)}\n"
         f"\n"
-        f"{pagedetails}\n"
+        f"            {pagedetails}\n"
         f"        </main>"
     )
 
@@ -277,24 +284,30 @@ def render_demo(template_path, out_path, lang, params):
             text, count=1,
         )
 
-    # Breadcrumb: replace "Live version" / "Version en ligne" leaf href
+    # Breadcrumb: rebuild the whole list, not just the leaf href — the template's
+    # own intermediate levels (e.g. "National Defence") don't belong on other pages.
+    # Per the how-to, Canada.ca + a "Live version" leaf is the baseline; add a
+    # department-landing level by hand if the page warrants one.
     if lang == "en":
-        text = re.sub(
-            r"(<li><a href=')https://www\.canada\.ca/en/[^']*('>Live version</a></li>)",
-            lambda m: f"{m.group(1)}{params['live_en_url']}{m.group(2)}",
-            text, count=1,
+        crumbs = (
+            "<li><a href='https://www.canada.ca/en.html'>Canada.ca</a></li>\n"
+            f"<li><a href='{params['live_en_url']}'>Live version</a></li>"
         )
     else:
-        text = re.sub(
-            r"(<li><a href=')https://www\.canada\.ca/fr/[^']*('>Version en ligne</a></li>)",
-            lambda m: f"{m.group(1)}{params['live_fr_url']}{m.group(2)}",
-            text, count=1,
+        crumbs = (
+            "<li><a href='https://www.canada.ca/fr.html'>Canada.ca</a></li>\n"
+            f"<li><a href='{params['live_fr_url']}'>Version en ligne</a></li>"
         )
+    text, n = re.subn(
+        r'(<ol class="breadcrumb">)[\s\S]*?(</ol>)',
+        lambda m: f"{m.group(1)}\n{crumbs}\n{m.group(2)}",
+        text, count=1,
+    )
+    if n == 0:
+        print("Warning: breadcrumb not found — check it by hand", file=sys.stderr)
 
     # Swap <main> block
-    new_main = build_main_block(
-        params["main_attrs"], params["main_inner"], lang, params["today"]
-    )
+    new_main = build_main_block(text, params["main_inner"], params["today"])
     # Escape backslashes that re.sub would otherwise interpret
     text = re.sub(
         r"<main(\s[^>]*)?>[\s\S]*?</main>",
@@ -392,6 +405,25 @@ def url_to_slug(url):
     return last.removesuffix(".html") if last.endswith(".html") else last
 
 
+def url_base(url):
+    """Scheme + host of a URL, e.g. https://tc.canada.ca"""
+    p = urlparse(url)
+    return f"{p.scheme}://{p.netloc}"
+
+
+def warn_missing_meta(meta, lang):
+    """Live pages don't always carry every meta tag. Whatever is missing keeps the
+    template's value, which is another department's — so say so loudly."""
+    missing = [k for k, v in meta.items() if not v]
+    if missing:
+        print(
+            f"Warning: {lang.upper()} live page has no {', '.join(missing)}.\n"
+            f"         The template's values (another department's!) are still in place — "
+            f"edit {lang}/aia/ by hand.",
+            file=sys.stderr,
+        )
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("en_url", help="Live English Canada.ca URL")
@@ -418,8 +450,8 @@ def main():
     fr_out_path = FR_DIR / fr_out_rel
 
     # Extract main + metadata for each
-    en_main_attrs, en_main_inner = extract_main(en_html, "en")
-    fr_main_attrs, fr_main_inner = extract_main(fr_html, "fr")
+    en_main_inner = rewrite_relative_urls(extract_main(en_html, "en"), url_base(args.en_url))
+    fr_main_inner = rewrite_relative_urls(extract_main(fr_html, "fr"), url_base(args.fr_url))
 
     en_title_tag = first_nonempty(extract_title(en_html)) or "Canada.ca"
     fr_title_tag = first_nonempty(extract_title(fr_html)) or "Canada.ca"
@@ -443,6 +475,9 @@ def main():
         "dcterms.issued": extract_meta(fr_html, "dcterms.issued"),
     }
 
+    warn_missing_meta(en_meta, "en")
+    warn_missing_meta(fr_meta, "fr")
+
     common = {
         "live_en_url": args.en_url,
         "live_fr_url": args.fr_url,
@@ -455,13 +490,13 @@ def main():
     render_demo(
         EN_TEMPLATE, en_out_path, "en",
         {**common, "title_tag": en_title_tag, "meta": en_meta,
-         "main_attrs": en_main_attrs, "main_inner": en_main_inner},
+         "main_inner": en_main_inner},
     )
     print(f"Writing {fr_out_path}", file=sys.stderr)
     render_demo(
         FR_TEMPLATE, fr_out_path, "fr",
         {**common, "title_tag": fr_title_tag, "meta": fr_meta,
-         "main_attrs": fr_main_attrs, "main_inner": fr_main_inner},
+         "main_inner": fr_main_inner},
     )
 
     if not args.skip_index:
@@ -493,10 +528,14 @@ def main():
             args.fr_url, fr_h1,
         )
 
-    print("\nDone. Review the diffs before committing — pay attention to:", file=sys.stderr)
-    print("  - The gc-contextual footer (step 8 in how-to): the template inherits PrairiesCan's;", file=sys.stderr)
-    print("    if the live page has a department-specific contextual footer, copy that across manually.", file=sys.stderr)
-    print("  - Index entry text (department name + link text) — easy to tweak if defaults aren't right.", file=sys.stderr)
+    print("\nDone. Open both pages in a browser before committing — the demo pulls in", file=sys.stderr)
+    print("canada.ca's stylesheet only, so content authored against a department's own", file=sys.stderr)
+    print("theme can render differently than it does live. Also check:", file=sys.stderr)
+    print("  - Any 'no description/author/...' warnings above — those leave another", file=sys.stderr)
+    print("    department's metadata in the file.", file=sys.stderr)
+    print("  - The breadcrumb: Canada.ca + 'Live version' by default; add a department", file=sys.stderr)
+    print("    landing level in between if the page warrants one.", file=sys.stderr)
+    print("  - Index entry text (department name + link text).", file=sys.stderr)
     print("  - dcterms.subject is institution-specific; the script copies the live page's value.", file=sys.stderr)
 
 
