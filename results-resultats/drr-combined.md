@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/rrm-conjoint
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2026-06-22
+dateModified: 2026-07-21
 language: en
 layout: default
 title: "[Department name]'s [insert fiscal year] Departmental results report"
@@ -434,7 +434,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
                         <thead>
                             <tr class="active">
                                 <th class="text-left" scope="col">Core responsibilities and internal services</th>
-                                <th class="text-left" scope="col">[fiscal year] planned spending</th>
+                                <th class="text-left" scope="col">[fiscal year] actual spending</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -647,7 +647,7 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         </section>
     <section>
         <h3 id="toc03-2">Funding</h3>
-        <p>This section provides an overview of the department&#8217;s voted and statutory funding for its core responsibilities and for internal services. Consult the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/budgets-expenditures.html">Government of Canada budgets and expenditures</a> for further information on funding authorities.</p>
+        <p>This section provides an overview of the department&#8217;s voted and statutory funding for its core responsibilities and for internal services.</p>
 		<p>Graph [#] summarizes the department&#8217;s approved voted and statutory funding from [insert fiscal year] to [insert fiscal year].</p>
         <section>
             <figure id="fig2">
@@ -753,7 +753,9 @@ title: "[Department name]'s [insert fiscal year] Departmental results report"
         <details class="print-open">
             <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analysis of expenses and revenues for [fiscal year]</summary>
             <p>[Insert text with link to department&#8217;s Future-Oriented Statement of Operations and Notes for fiscal year]</p>
+			
         </details>
+		<p><em>The 2025–26 planned results information is provided in [department name]&#8217;s <a href="#">Future-Oriented Statement of Operations and Notes 2025–26</a>. [link to department&#8217;s FOSO]</em></p>
             <p>Table [#] summarizes actual expenses and revenues and shows the net cost of operations before government funding and transfers.</p>
             <table id="tbl8" class="table table-bordered">
                 <caption class="text-left">Table [#]: Condensed Statement of Operations (unaudited or audited) for [insert fiscal year] and [insert fiscal year] (dollars)</caption>
