@@ -3,7 +3,7 @@ altLangPage: "https://test.canada.ca/experimental/results-resultats/drr-combined
 breadcrumbs:
 - title: [theme, topic, or department]
 link: "#"
-dateModified: 2026-06-22
+dateModified: 2026-07-21
 language: fr
 layout: default
 title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de [nom du ministère]"
@@ -434,7 +434,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
                         <thead>
                             <tr class="active">
                                 <th class="text-left" scope="col">Responsabilités essentielles et services internes</th>
-                                <th class="text-left" scope="col">Dépenses prévues [insérez l&#8217;exercice]</th>
+                                <th class="text-left" scope="col">Dépenses réelles pour [exercice]</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -645,7 +645,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
     </section>
     <section>
         <h3 id="toc03-2">Financement</h3>
-        <p>Cette section présente un aperçu du financement voté et législatif du ministère pour ses responsabilités essentielles et ses services internes. Consultez la page <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/budgets-depenses.html">Budgets et dépenses du gouvernement du Canada</a> pour obtenir de plus amples renseignements sur les autorisations de financement.</p>
+        <p>Cette section présente un aperçu du financement voté et législatif du ministère pour ses responsabilités essentielles et ses services internes.</p>
         <p>Le graphique [#] résume le financement approuvé, voté et législatif, du ministère pour la période de [insérer exercice] à [insérer exercice].</p>
         <section>
             <figure id="fig2">
@@ -750,6 +750,7 @@ title: "Rapport sur les résultats ministériels [insérer l&#8217;exercice] de 
             <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Analyse des charges et des revenus pour [exercice]</summary>
             <p>[Insérer un texte avec un lien vers l&#8217;état des opérations et notes prospectives du ministère pour [exercice]].</p>
         </details>
+		<p>Les renseignements sur les résultats prévus pour 2025-2026 proviennent de l&#8217;<a href="#">état des résultats prospectif et des notes de 2025-2026</a> de [nom du ministère]. [Hyperlien vers l&#8217;état des résultats prospectif du ministère].</p>
         <p>Le tableau [#] résume les charges et les revenus réels et montre le coût de fonctionnement net avant le financement du gouvernement et les transferts.</p>
         <table id="tbl8" class="table table-bordered">
             <caption class="text-left">Tableau [#] : État condensé des résultats (audité ou non audité) pour [exercice] et [exercice] (en dollars)</caption>
