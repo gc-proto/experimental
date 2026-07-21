@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Feedback Analysis Dashboard</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans:wght@400;500;600;700&display=swap');
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #F2F2F2; color: #333333;
+    font-family: 'Noto Sans', sans-serif; line-height: 1.5;
+  }
+  h1, h2, h3 { font-family: 'Lato', sans-serif; font-weight: 700; margin: 0; }
+  header.report-header {
+    background: #26374A; color: #ffffff; padding: 28px 32px;
+  }
+  header.report-header .eyebrow {
+    text-transform: uppercase; letter-spacing: .05em; font-size: 0.8rem;
+    color: #adcaeb; margin-bottom: 8px;
+  }
+  header.report-header h1 { font-size: 1.8rem; margin-bottom: 8px; }
+  header.report-header p { margin: 0; color: #d6e4f5; max-width: 70ch; }
+  header.report-header .source-line {
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+    color: #d6e4f5; font-size: 0.85rem; margin-bottom: 8px;
+  }
+  header.report-header .source-line .source-title { font-weight: 600; color: #ffffff; }
+  header.report-header .source-line a { color: #9FC2EF; }
+
+  .kpi-row {
+    display: flex; gap: 16px; flex-wrap: wrap; background: #ffffff;
+    margin: -20px 32px 0 32px; padding: 20px; border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.12); position: relative; z-index: 1;
+  }
+  .kpi { flex: 1; min-width: 140px; }
+  .kpi .kpi-value { font-family: 'Lato', sans-serif; font-weight: 700; font-size: 1.9rem; }
+  .kpi .kpi-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: .04em; color: #595959; }
+
+  main { padding: 32px; max-width: 1000px; margin: 0 auto; }
+  section { margin-bottom: 32px; }
+  section > p.section-desc { color: #595959; max-width: 70ch; margin: 4px 0 16px 0; }
+
+  .chart-card {
+    background: #ffffff; border: 1px solid #D9D9D9; border-radius: 6px; padding: 20px;
+  }
+  .bar-row { display: grid; grid-template-columns: minmax(140px,240px) 1fr auto; align-items: center; gap: 12px; margin-bottom: 10px; }
+  .bar-label { font-size: 0.92rem; }
+  .bar-track { background: #F2F2F2; border-radius: 3px; height: 22px; overflow: hidden; }
+  .bar-fill { background: #AA7909; height: 100%; border-radius: 3px; }
+  .bar-value { font-size: 0.85rem; color: #AA7909; font-weight: 600; white-space: nowrap; }
+
+  .issue-card {
+    background: #ffffff; border: 1px solid #D9D9D9; border-left: 4px solid #AA7909;
+    border-radius: 4px; padding: 16px 20px; margin-bottom: 14px;
+  }
+  .issue-rank { font-size: 0.72rem; letter-spacing: .05em; color: #808080; margin-bottom: 4px; }
+  .issue-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .issue-top h3 { font-size: 1.05rem; }
+  .issue-top-right { display: flex; align-items: center; gap: 10px; }
+  .issue-volume { color: #AA7909; font-weight: 600; font-size: 0.9rem; white-space: nowrap; }
+  .outcome-badge {
+    font-size: 0.75rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; white-space: nowrap;
+  }
+  .issue-card p { margin: 8px 0 0 0; }
+  .issue-card p.impact { color: #595959; }
+  .issue-card details { margin-top: 10px; }
+  .issue-card summary { color: #1F497A; cursor: pointer; font-size: 0.9rem; }
+  ul.quotes { margin: 10px 0 0 0; padding-left: 18px; color: #333333; }
+  ul.quotes li { margin-bottom: 6px; font-style: italic; }
+
+  .tone-strip { display: flex; border-radius: 4px; overflow: hidden; height: 20px; }
+  .tone-segment { height: 100%; border-right: 2px solid #F2F2F2; }
+  .tone-segment:last-child { border-right: none; }
+  .tone-legend { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 12px; font-size: 0.88rem; font-weight: 600; }
+  .tone-legend-item { white-space: nowrap; }
+  .tone-legend-pct { color: #595959; font-weight: 400; }
+
+  .pain-points-card {
+    background: #ffffff; border: 1px solid #D9D9D9; border-left: 4px solid #26374A;
+    border-radius: 4px; padding: 18px 22px;
+  }
+  .pain-points-card ul { margin: 0; padding-left: 20px; }
+  .pain-points-card li { margin-bottom: 10px; }
+  .pain-points-card li:last-child { margin-bottom: 0; }
+
+  .journey-path {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    position: relative; padding: 10px 8px 0;
+  }
+  .journey-path-line {
+    position: absolute; top: 38px; left: 36px; right: 36px; height: 2px; background: #D9D9D9;
+  }
+  .journey-node-wrap {
+    position: relative; z-index: 1; display: flex; flex-direction: column;
+    align-items: center; flex: 1; min-width: 70px;
+  }
+  .journey-node {
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font-family: 'Lato', sans-serif; font-weight: 700; font-size: 0.85rem;
+  }
+  .journey-node-label { margin-top: 8px; font-size: 0.72rem; font-weight: 600; text-align: center; line-height: 1.25; }
+  .journey-legend {
+    display: flex; gap: 18px; flex-wrap: wrap; margin-top: 22px; padding-top: 14px;
+    border-top: 1px solid #F2F2F2; font-size: 0.75rem; font-weight: 600;
+  }
+  .journey-legend .legend-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; }
+  .journey-legend .legend-note { color: #595959; font-weight: 400; margin-left: auto; }
+
+  .methodology { background: #ffffff; border: 1px solid #D9D9D9; border-radius: 6px; padding: 20px; }
+  .meta-row { display: grid; grid-template-columns: 200px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid #F2F2F2; }
+  .meta-row:last-child { border-bottom: none; }
+  .meta-label { font-weight: 600; color: #595959; font-size: 0.88rem; }
+  .meta-value { font-size: 0.92rem; }
+</style>
+</head>
+<body>
+  <header class="report-header">
+    <div class="eyebrow">GC Feedback · Generated by GC Feedback Studio</div>
+    <h1>What users told us — July 21, 2026</h1>
+    <div class="source-line">📄 <span class="source-title">Closed: Renew your Canadian Dental Care Plan coverage - Canada.ca</span> · <a href="https://www.canada.ca/en/services/benefits/dental/dental-care-plan/renew.html" target="_blank" rel="noopener noreferrer" style="color:#9FC2EF;">https://www.canada.ca/en/services/benefits/dental/dental-care-plan/renew.html</a></div>
+    <p>Journey phase analysis of 143 feedback comments, collected from Closed: Renew your Canadian Dental Care Plan coverage - Canada.ca, prepared for executive review.</p>
+  </header>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-value">143</div><div class="kpi-label">Comments analyzed</div></div>
+    <div class="kpi"><div class="kpi-value">5</div><div class="kpi-label">Journey phases identified</div></div>
+    <div class="kpi"><div class="kpi-value">85</div><div class="kpi-label">Largest phase (Do)</div></div>
+    <div class="kpi"><div class="kpi-value">Moderate</div><div class="kpi-label">Analysis confidence</div></div>
+  </div>
+
+  <main>
+    
+    <section>
+      <h2>Where the biggest pain points are</h2>
+      <div class="pain-points-card">
+        <ul><li><strong>Do</strong> — 85 comments, Moderate severity, most often unclear.</li><li><strong>Understand</strong> — 28 comments, Moderate severity, most often needs clarification.</li><li><strong>Wait</strong> — 18 comments, Moderate severity, most often unclear.</li></ul>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Where issues occur in the journey</h2>
+      <p class="section-desc">Phases run in the order they typically occur. Node size reflects comment volume; node color reflects the most severe pattern found in that phase.</p>
+      
+      <div class="journey-path">
+        <div class="journey-path-line"></div>
+        
+        <div class="journey-node-wrap">
+          <div class="journey-node" style="width:39px;height:39px;margin-top:9px;background:#FEF3D6;border:2px solid #7A5900;color:#7A5900;">28</div>
+          <div class="journey-node-label">Understand</div>
+        </div>
+        <div class="journey-node-wrap">
+          <div class="journey-node" style="width:56px;height:56px;margin-top:0px;background:#FEF3D6;border:2px solid #7A5900;color:#7A5900;">85</div>
+          <div class="journey-node-label">Do</div>
+        </div>
+        <div class="journey-node-wrap">
+          <div class="journey-node" style="width:36px;height:36px;margin-top:10px;background:#FEF3D6;border:2px solid #7A5900;color:#7A5900;">18</div>
+          <div class="journey-node-label">Wait</div>
+        </div>
+        <div class="journey-node-wrap">
+          <div class="journey-node" style="width:32px;height:32px;margin-top:12px;background:#FEF3D6;border:2px solid #7A5900;color:#7A5900;">8</div>
+          <div class="journey-node-label">Get support</div>
+        </div>
+        <div class="journey-node-wrap">
+          <div class="journey-node" style="width:31px;height:31px;margin-top:12px;background:#F2F2F2;border:2px solid #4D4D4D;color:#4D4D4D;">4</div>
+          <div class="journey-node-label">Other /<br>Unclassified</div>
+        </div>
+      </div>
+      <div class="journey-legend">
+        <span><span class="legend-dot" style="background:#A32A2A;"></span>Critical</span>
+        <span><span class="legend-dot" style="background:#7A5900;"></span>Moderate</span>
+        <span><span class="legend-dot" style="background:#4D4D4D;"></span>Minor</span>
+        <span class="legend-note">Node size = comment volume · color = dominant severity</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Journey phase detail</h2>
+      <p class="section-desc">Each pattern includes the journey phase it occurs in, its severity, what users reported experiencing, and representative comments, quoted exactly as submitted.</p>
+      
+        <div class="issue-card">
+          <div class="issue-rank">RANK 1</div>
+          <div class="issue-top">
+            <h3>Do</h3>
+            <div class="issue-top-right">
+              <span class="outcome-badge" style="background:#FEF3D6;color:#7A5900">Severity: Moderate</span>
+              <span class="outcome-badge" style="background:#F2F2F2;color:#808080">User outcome: Unclear</span>
+              <div class="issue-volume">85 · 59.4%</div>
+            </div>
+          </div>
+          <p>Users cannot locate the renewal form or link needed to complete their CDCP renewal application.</p>
+          <p class="impact"><strong>Observed user impact:</strong> Users report being unable to proceed with renewal due to missing or unclear access to the renewal mechanism on this page.</p>
+          
+          <details open>
+            <summary>Representative comments (verbatim)</summary>
+            <ul class="quotes"><li>renewal link fo cdcp</li>
+<li>I just want a link to renew my CDCP . I see everything else but that. This is so frustrating!</li>
+<li>I cannot find the application form to renew my dental plan</li>
+<li>There is no where to reapply</li>
+<li>I need to renew my CDPC and I am looking for a way to submit my application. There was no link here.</li></ul>
+          </details>
+        </div>
+        <div class="issue-card">
+          <div class="issue-rank">RANK 2</div>
+          <div class="issue-top">
+            <h3>Understand</h3>
+            <div class="issue-top-right">
+              <span class="outcome-badge" style="background:#FEF3D6;color:#7A5900">Severity: Moderate</span>
+              <span class="outcome-badge" style="background:#EAF1FB;color:#1F497A">User outcome: Needs clarification</span>
+              <div class="issue-volume">28 · 19.6%</div>
+            </div>
+          </div>
+          <p>Users are uncertain about the renewal process steps, outcomes, or requirements (e.g., what they will receive after renewal, how long to wait, what to expect).</p>
+          <p class="impact"><strong>Observed user impact:</strong> Users express confusion about what happens during or after renewal and what information or confirmation they should expect to receive.</p>
+          
+          <details open>
+            <summary>Representative comments (verbatim)</summary>
+            <ul class="quotes"><li>if i get renewed. what can expect to get? a confirmation letter/email, a new member card,.. what?</li>
+<li>i like that you kept the information for renewals online this year. my mom can prepare herself in advance. some missing info though: how long to wait to get an confirmation that renew is accepted? is there even a confirmation to wait on? is a new letter to be received? in case of coverage change?</li>
+<li>I don&#x27;t feel like I filled out any forms.</li>
+<li>To hard to figure out…</li>
+<li>I need to check marital status</li></ul>
+          </details>
+        </div>
+        <div class="issue-card">
+          <div class="issue-rank">RANK 3</div>
+          <div class="issue-top">
+            <h3>Wait</h3>
+            <div class="issue-top-right">
+              <span class="outcome-badge" style="background:#FEF3D6;color:#7A5900">Severity: Moderate</span>
+              <span class="outcome-badge" style="background:#F2F2F2;color:#808080">User outcome: Unclear</span>
+              <div class="issue-volume">18 · 12.6%</div>
+            </div>
+          </div>
+          <p>Users submitted a renewal application but have not received confirmation, a new card, or status update.</p>
+          <p class="impact"><strong>Observed user impact:</strong> Users are waiting for outcomes after submitting renewal applications and lack visibility into status or confirmation.</p>
+          
+          <details open>
+            <summary>Representative comments (verbatim)</summary>
+            <ul class="quotes"><li>I submitted my application online before the June 1 deadline and cannot find a way to check the status.</li>
+<li>I sent in my renewal application online beginning of June and have not heard back as to renewal.</li>
+<li>I and my wife had already renewed applied on telephone on May 29, 2026 for July 1,2026 to June 30,2027.We have not received the confirmations.Thank you kindly.</li>
+<li>Didn&#x27;t receive my new dental card after I renewed my application</li>
+<li>New card not received</li></ul>
+          </details>
+        </div>
+        <div class="issue-card">
+          <div class="issue-rank">RANK 4</div>
+          <div class="issue-top">
+            <h3>Get support</h3>
+            <div class="issue-top-right">
+              <span class="outcome-badge" style="background:#FEF3D6;color:#7A5900">Severity: Moderate</span>
+              <span class="outcome-badge" style="background:#F2F2F2;color:#808080">User outcome: Unclear</span>
+              <div class="issue-volume">8 · 5.6%</div>
+            </div>
+          </div>
+          <p>Users report difficulty reaching support by phone or finding contact information for help with renewals.</p>
+          <p class="impact"><strong>Observed user impact:</strong> Users unable to obtain assistance through available support channels or locate appropriate contact information.</p>
+          
+          <details open>
+            <summary>Representative comments (verbatim)</summary>
+            <ul class="quotes"><li>Who to call to renew</li>
+<li>My mom tried to renew his CDCP by phone buy was on hold for so long that she gave up.</li>
+<li>Renew by phone</li>
+<li>no link to a complaints department/email</li>
+<li>Rental phone number</li></ul>
+          </details>
+        </div>
+        <div class="issue-card">
+          <div class="issue-rank">RANK 5</div>
+          <div class="issue-top">
+            <h3>Other / Unclassified</h3>
+            <div class="issue-top-right">
+              <span class="outcome-badge" style="background:#F2F2F2;color:#4D4D4D">Severity: Minor</span>
+              <span class="outcome-badge" style="background:#F2F2F2;color:#808080">User outcome: Unclear</span>
+              <div class="issue-volume">4 · 2.8%</div>
+            </div>
+          </div>
+          <p>Comments that do not fit the renewal context or are too vague to classify meaningfully.</p>
+          <p class="impact"><strong>Observed user impact:</strong> These comments appear unrelated to the CDCP renewal process or lack sufficient context to assign to a journey phase.</p>
+          
+          <details open>
+            <summary>Representative comments (verbatim)</summary>
+            <ul class="quotes"><li>IRCC</li>
+<li>Eye exam</li>
+<li>333333</li>
+<li>about Citizenship certificate</li></ul>
+          </details>
+        </div>
+    </section>
+
+    <section>
+      <h2>How this was produced</h2>
+      <div class="methodology">
+        <div class="meta-row"><div class="meta-label">Comments provided</div><div class="meta-value">143</div></div>
+<div class="meta-row"><div class="meta-label">Comments excluded</div><div class="meta-value">0</div></div>
+<div class="meta-row"><div class="meta-label">Scope excluded</div><div class="meta-value">Recommendations, prioritization beyond volume, severity scoring, root cause analysis, and policy or operational advice</div></div>
+<div class="meta-row"><div class="meta-label">Human review</div><div class="meta-value">Required before distribution — this output has not yet been reviewed</div></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
