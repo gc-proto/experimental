@@ -110,14 +110,30 @@ Paste it directly before the AI Answers banner comment block. Make sure the oute
 
 ### Rewrite relative URLs to absolute
 
-Department source pages often use **root-relative** links and image paths (e.g. `href="/en/support-businesses"`, `src="/sites/default/files/img/photo.jpg"`). Because the demo is hosted under `test.canada.ca/experimental/`, those resolve against the wrong host and break. Rewrite every root-relative `href`/`src` in the pasted content to an **absolute URL on the source department's domain**:
+Department source pages often use **root-relative** links and image paths (e.g. `href="/en/prairies-economic-development/services/support.html"`, `src="/content/dam/cra-arc/photo.jpg"`). Because the demo is hosted under `test.canada.ca/experimental/`, those resolve against **test.canada.ca**, not the site they came from, and break. Rewrite every root-relative `href`/`src` in the pasted content to an **absolute URL on the source department's domain**.
+
+⚠️ **This applies to pages that live on canada.ca itself.** The trap is that `/en/…` *looks* fine — it's a canada.ca path in a canada.ca-styled page — but on the demo host it silently becomes `https://test.canada.ca/en/…`, and every link on the page is dead. Prairies Economic Development shipped this way: one link in a section would be absolute and correct, and the other twenty-six root-relative and broken, which is exactly the pattern that survives a quick visual check. For a canada.ca-hosted department the target host is `https://www.canada.ca`:
+
+```
+/en/prairies-economic-development/services/support.html  → https://www.canada.ca/en/prairies-economic-development/services/support.html
+/content/dam/cra-arc/photo.jpg                           → https://www.canada.ca/content/dam/cra-arc/photo.jpg
+```
+
+For a department on its own domain, use that domain instead:
 
 ```
 /en/support-businesses              → https://fednor.canada.ca/en/support-businesses
 /sites/default/files/img/photo.jpg  → https://fednor.canada.ca/sites/default/files/img/photo.jpg
+/DAM/PresentationDAM/STAGING/…      → https://www.sac-isc.gc.ca/DAM/PresentationDAM/STAGING/…
 ```
 
-Leave already-absolute URLs (e.g. `https://www.canada.ca/...`, `https://x.com/...`) untouched. Drupal `data-entity-*` attributes on the source links can be dropped — only the `href` matters for the demo.
+Leave already-absolute URLs (e.g. `https://www.canada.ca/...`, `https://x.com/...`) and protocol-relative script sources (`//ajax.googleapis.com/...`, `//assets.adobedtm.com/...`) untouched. Drupal `data-entity-*` attributes on the source links can be dropped — only the `href` matters for the demo.
+
+To find what's left, grep the finished page for a root-relative `href`/`src` whose next character isn't another slash — it should return nothing:
+
+```
+grep -n '\(href\|src\)="/[^/]' en/aia/your-page.html
+```
 
 ### Watch for classes from the department's own theme
 
@@ -273,7 +289,7 @@ If a department has more than one demo, add another `<ul>` to that department's 
 - [ ] Breadcrumb ends with a "Live version" / "Version en ligne" link to the live page on canada.ca
 - [ ] H1 ends with `(demo)` / `(démo)`
 - [ ] Main content pasted from live page source (with wrapper divs properly closed)
-- [ ] Root-relative `href`/`src` in the pasted content rewritten to absolute URLs on the source department's domain
+- [ ] Root-relative `href`/`src` in the pasted content rewritten to absolute URLs on the source department's domain — including canada.ca-hosted departments, where `/en/…` must become `https://www.canada.ca/en/…` or it resolves to test.canada.ca and breaks. Verify with `grep -n '\(href\|src\)="/[^/]' <file>` returning nothing
 - [ ] **Both pages opened in a browser** — content styled with the department's own theme classes renders unstyled on canada.ca and fails silently
 - [ ] AI ANSWERS RESCUE section present inside `<main>`, just before `</main>`
 - [ ] AI ANSWERS BANNER section present between `</main>` and the global footer

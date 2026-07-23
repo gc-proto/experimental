@@ -153,15 +153,20 @@ def rewrite_relative_urls(inner, base):
     """Rewrite root-relative href/src and CSS url() paths to absolute URLs on `base`.
 
     Demo pages are served from test.canada.ca/experimental/, so a source page's
-    root-relative paths would otherwise resolve against the wrong host.
+    root-relative paths would otherwise resolve against the wrong host. This
+    applies to canada.ca-hosted departments too: a bare /en/... resolves to
+    test.canada.ca/en/... on the demo host and 404s.
+
+    Protocol-relative URLs (//ajax.googleapis.com/...) already carry their own
+    host and are left alone.
     """
     inner = re.sub(
-        r'((?:href|src)=")(/[^"]*)(")',
+        r'((?:href|src)=")(/(?!/)[^"]*)(")',
         lambda m: f"{m.group(1)}{base}{m.group(2)}{m.group(3)}",
         inner,
     )
     inner = re.sub(
-        r"(url\(\s*['\"]?)(/[^'\")]*)",
+        r"(url\(\s*['\"]?)(/(?!/)[^'\")]*)",
         lambda m: f"{m.group(1)}{base}{m.group(2)}",
         inner,
     )
