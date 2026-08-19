@@ -25,6 +25,7 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 import unicodedata
 from html import unescape
 from pathlib import Path
@@ -42,27 +43,62 @@ FR_INDEX = FR_DIR / "index.html"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
 
+ATTEMPTS = 4
+TIMEOUT = 45
+
+
 def fetch(url):
-    """Fetch URL as text. Prefers curl (handles HTTP/2 + Akamai cleanly) and
-    falls back to urllib if curl is unavailable."""
+    """Fetch URL as text, retrying transient failures.
+
+    www.canada.ca sits behind Akamai and fails intermittently in two ways:
+    forcing --http1.1 can hang until the timeout having received zero bytes,
+    and HTTP/2 occasionally resets the stream mid-response (curl exit 92).
+    Both clear on a retry, so let curl negotiate the protocol itself and try
+    again rather than failing the whole run on the first blip.
+
+    A response with no <main> is treated as a failed attempt too — a block
+    page or truncated body would otherwise sail through and produce a demo
+    page with the template's content still in it.
+
+    Prefers curl; falls back to urllib if curl is unavailable.
+    """
     curl = shutil.which("curl")
-    if curl:
-        result = subprocess.run(
-            [curl, "-sSL", "--http1.1", "--max-time", "30", "-A", UA,
-             "-H", "Accept-Language: en,fr;q=0.8", url],
-            capture_output=True,
-            check=False,
-        )
-        if result.returncode != 0:
-            stderr = result.stderr.decode("utf-8", errors="replace").strip()
-            raise SystemExit(f"curl failed for {url}: {stderr}")
-        return result.stdout.decode("utf-8", errors="replace")
-    # urllib fallback
-    req = Request(url, headers={"User-Agent": UA, "Accept-Language": "en,fr;q=0.8"})
-    with urlopen(req, timeout=30) as resp:
-        data = resp.read()
-    encoding = resp.headers.get_content_charset() or "utf-8"
-    return data.decode(encoding, errors="replace")
+    problems = []
+    for attempt in range(1, ATTEMPTS + 1):
+        try:
+            if curl:
+                result = subprocess.run(
+                    [curl, "-sSL", "--max-time", str(TIMEOUT), "-A", UA,
+                     "-H", "Accept-Language: en,fr;q=0.8", url],
+                    capture_output=True,
+                    check=False,
+                )
+                if result.returncode != 0:
+                    stderr = result.stderr.decode("utf-8", errors="replace").strip()
+                    raise RuntimeError(stderr or f"curl exit {result.returncode}")
+                text = result.stdout.decode("utf-8", errors="replace")
+            else:
+                req = Request(url, headers={"User-Agent": UA, "Accept-Language": "en,fr;q=0.8"})
+                with urlopen(req, timeout=TIMEOUT) as resp:
+                    data = resp.read()
+                    encoding = resp.headers.get_content_charset() or "utf-8"
+                text = data.decode(encoding, errors="replace")
+        except Exception as exc:
+            problems.append(f"attempt {attempt}: {exc}")
+        else:
+            if re.search(r"<main[\s>]", text, re.IGNORECASE):
+                if attempt > 1:
+                    print(f"  (succeeded on attempt {attempt})", file=sys.stderr)
+                return text
+            problems.append(
+                f"attempt {attempt}: no <main> in {len(text)} bytes received"
+            )
+        if attempt < ATTEMPTS:
+            time.sleep(2 * attempt)
+    raise SystemExit(
+        f"Could not fetch {url} after {ATTEMPTS} attempts:\n  "
+        + "\n  ".join(problems)
+    )
 
 
 def extract_meta(html, name):

@@ -166,6 +166,38 @@ The Transport Canada "Most requested" list is the worked example. Its source mar
 
 More generally: if pasted content looks wrong, check whether the class doing the work is a canada.ca class or the department's, before assuming the markup is broken.
 
+### Watch for the page gutter that lived on the source `<main>`
+
+The script keeps the **template's** `<main>` tag and throws away the source page's attributes — deliberately, because department themes hang breaking classes there. But some department layouts also hang the **page gutter** on that tag, and it goes with them.
+
+FedDev Ontario is the worked example. Its live page opens with:
+
+```html
+<main property="mainContentOfPage" class="col-md-12 main-container container js-quickedit-main-content">
+```
+
+Inside, the body content sits in `<div class="region region-content">` — no container of its own. It got its gutter entirely from `main.container`. Once the demo replaces that with the template's bare `<main>`, the Bootstrap `.row` inside applies its `margin-left: -15px` against the viewport instead, and every block from the intro paragraph down sits about 15px left of where the header and breadcrumb sit.
+
+⚠️ **What makes this one easy to miss is that it half-works.** FedDev's H1 is in a *sibling* wrapper, `<div class="container region region-header">`, which carries its own container. So the breadcrumb and H1 stay correctly aligned and only the content below them is wrong — the page looks deliberate at a glance, and the misalignment reads as a design choice until you compare it to the live version.
+
+**Fix it on the content wrapper, not on `<main>`.** Add `container` to the div that lost its gutter:
+
+```html
+<div class="container region region-content">
+```
+
+Putting it on `<main>` instead would double up with the wrappers that already have their own container — `region-header`, and the template's AI Answers rescue `<div class="container">` and `pagedetails container`.
+
+Matching the wrapper also preserves the live nesting depth, which matters for any section that carries its own container. On FedDev, `gc-crprt container` sits two container levels deep on live (`main.container` → `region-content` → `gc-crprt.container`) and two levels deep in the demo (`main` → `region-content.container` → `gc-crprt.container`), so "Corporate information" keeps exactly the slight extra indent it has on the live page rather than gaining a new one.
+
+**How to check:** before you discard it, look at the source page's `<main>` tag. If it carries `container`, find what inside was relying on it:
+
+```
+grep -o '<main[^>]*>' <live-page-source>
+```
+
+The presence of an uncontained wrapper is *not* by itself the test. `fednor.html` and `transport-canada.html` both have a bare `<div class="region region-content">` too, but each has a `<div class="container">` immediately inside that re-establishes the gutter, so both are fine. What matters is whether anything inside the wrapper puts the gutter back.
+
 ### Append "(demo)" to the H1
 
 The H1 — the `<h1 ... id="wb-cont">` you just pasted — must end with `(demo)` in English or `(démo)` in French. This labels the page as not-the-real-thing for anyone who lands on it.
@@ -291,6 +323,7 @@ If a department has more than one demo, add another `<ul>` to that department's 
 - [ ] Main content pasted from live page source (with wrapper divs properly closed)
 - [ ] Root-relative `href`/`src` in the pasted content rewritten to absolute URLs on the source department's domain — including canada.ca-hosted departments, where `/en/…` must become `https://www.canada.ca/en/…` or it resolves to test.canada.ca and breaks. Verify with `grep -n '\(href\|src\)="/[^/]' <file>` returning nothing
 - [ ] **Both pages opened in a browser** — content styled with the department's own theme classes renders unstyled on canada.ca and fails silently
+- [ ] Source page's `<main>` checked for a `container` class — if it had one, the wrapper inside that relied on it needs `container` added, or all content below the H1 loses its left gutter
 - [ ] AI ANSWERS RESCUE section present inside `<main>`, just before `</main>`
 - [ ] AI ANSWERS BANNER section present between `</main>` and the global footer
 - [ ] AI Answers JS block kept at the end of `<body>`
