@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>Checklist, checboxes and radio button experimentations - Canada.ca</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="checklist.css">
+		<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/soyutils.js"></script>
+    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/wet-en.js"></script>
+		<!-- Write closure template -->
+		<script>
+			document.write(wet.builder.refTop({
+			}));
+    </script>
+    <style>
+      li + li.bg-info {
+        background-color: #d9edf7;
+        padding-bottom: 32px;
+        margin-bottom: 0;
+        margin-left: -40px;
+        padding-left: 40px;
+      }
+    </style>
+	</head>
+	<body vocab="http://schema.org/" typeof="WebPage">
+		<div id="def-top"></div>
+		<!-- Write closure template -->
+		<script>
+			var defTop = document.getElementById("def-top");
+			defTop.outerHTML = wet.builder.top({
+				lngLinks: [{
+					lang: "fr",
+					href: "cases-a-cocher.html",
+					text: "Français"
+				}],
+				breadcrumbs: [{
+					title: "Home",
+					href: "https://www.canada.ca/en.html"
+				},{
+					title: "Design system",
+					href: "https://www.canada.ca/en/government/about/design-system"
+				}, {
+          title: "Components",
+          href: "https://www.canada.ca/en/government/about/design-system/components"
+				}],
+				search: true,
+				siteMenu: true,
+				showPreContent: true
+			});
+    </script>
+    <main property="mainContentOfPage" class="container">    
+      <h1 property="name">Checklist examples</h1>
+      <section role="group" class="provisional well well-sm">
+        <h2 class="wb-inv">Example 1</h2>
+        <p>To qualify, you must meet <strong>all</strong> of the following conditions: <small class="text-muted">(checklist, large box)</small></p>
+        <ul class="wb-checklist lst-none lst-spcd-2">
+          <li>
+            <div role="checkbox"
+                 aria-checked="false"
+                 tabindex="0"
+                 id="cond1">
+              You have lost or will lose your employment or self-employment income for at least half of the 4-week period for which you are applying
+            </div>
+          </li>
+          <li>
+            <div role="checkbox"
+                 aria-checked="false"
+                 tabindex="0"
+                 id="cond2">
+              You are a resident of Canada
+            </div>
+          </li>
+          <li>
+            <div role="checkbox"
+                 aria-checked="false"
+                 tabindex="0"
+                 id="cond3">
+              You are 15 years of age or older when you apply
+            </div>
+          </li>
+          <li class="bg-info">
+            <div role="checkbox"
+                 class="group_checkbox mrgn-tp-lg"
+                 aria-checked="false"
+                 wb-data-controls="cond1 cond2 cond3"
+                 tabindex="0">
+              You are eligible and ready to proceed
+          </div>
+          </li>
+        </ul>
+      </section>
+      <section role="group" class="provisional">
+        <h2 class="wb-inv">Example 2</h2>
+        <p>To qualify, you must meet <strong>all</strong> of the following conditions: <small class="text-muted">(checklist, small box)</small></p>
+        <ul class="wb-checklist wb-checklist-sm lst-none lst-spcd">
+          <li>
+            <div role="checkbox"
+                 aria-checked="false"
+                 tabindex="0"
+                 id="cond4">
+              You have lost or will lose your employment or self-employment income for at least half of the 4-week period for which you are applying
+            </div>
+          </li>
+          <li>
+            <div role="checkbox"
+                 aria-checked="false"
+                 tabindex="0"
+                 id="cond5">
+              You are a resident of Canada
+            </div>
+          </li>
+          <li>
+            <div role="checkbox"
+                 aria-checked="false"
+                 tabindex="0"
+                 id="cond6">
+              You are 15 years of age or older when you apply
+            </div>
+          </li>
+        </ul>
+        <div role="checkbox"
+             class="group_checkbox mrgn-tp-lg mrgn-bttm-lg"
+             aria-checked="false"
+             wb-data-controls="cond4 cond5 cond6"
+             tabindex="0">
+          You are eligible and ready to proceed
+        </div>
+      </section>
+      <section role="group" class="provisional well well-sm">
+        <h2 class="wb-inv">Example 3</h2>
+        <p>To qualify, you must meet <strong>all</strong> of the following conditions: <small class="text-muted">(checklist + label, small box)</small></p>
+        <ul class="wb-checklist wb-checklist-sm lst-none lst-spcd">
+          <li>
+            <div role="checkbox"
+                 aria-checked="false"
+                 tabindex="0"
+                 id="cond7">
+              You have lost or will lose your employment or self-employment income for at least half of the 4-week period for which you are applying
+            </div>
+          </li>
+          <li>
+            <div role="checkbox"
+                 aria-checked="false"
+                 tabindex="0"
+                 id="cond8">
+              You are a resident of Canada
+            </div>
+          </li>
+          <li>
+            <div role="checkbox"
+                 aria-checked="false"
+                 tabindex="0"
+                 id="cond6">
+              You are 15 years of age or older when you apply
+            </div>
+          </li>
+       </ul>
+      </section>
+      <section role="group" class="provisional">
+        <h2 class="wb-inv">Example 4</h2>
+        <fieldset class="chkbxrdio-grp wb-checklist">
+          <legend>
+            To qualify, you must meet <strong>all</strong> of the following conditions: <small class="text-muted">(checkboxes + implicit label, large box)</conditions:small>
+          </legend>
+          <ul class="form-group list-unstyled lst-spcd-2">
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" id="cond10">
+                  <span>You have lost or will lose your employment or self-employment income for at least half of the 4-week period for which you are applying</span>
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox"
+                       id="cond11">
+                  <span>You are a resident of Canada</span>
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox"
+                       id="cond12">
+                  <span>You are 15 years of age or older when you apply</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </section>
+      <section role="group" class="provisional well well-sm">
+        <h2 class="wb-inv">Example 5</h2>
+        <fieldset class="chkbxrdio-grp">
+          <legend>
+            To qualify, you must meet <strong>all</strong> of the following conditions: <small class="text-muted">(checkboxes + implicit label, large box)</conditions:small>
+          </legend>
+          <ul class="form-group list-unstyled lst-spcd-2">
+            <li class="radio">
+              <label>
+                <input name="cond13"
+                       type="radio"
+                       id="cond13-a">
+                  <span>You have lost or will lose your employment or self-employment income for at least half of the 4-week period for which you are applying</span>
+              </label>
+            </li>
+            <li class="radio">
+              <label>
+                <input type="radio"
+                       name="cond13"
+                       id="cond13-b">
+                  <span>You are a resident of Canada</span>
+              </label>
+            </li>
+            <li class="radio">
+              <label>
+                <input type="radio"
+                       name="cond13"
+                       id="cond13-c">
+                  <span>You are 15 years of age or older when you apply</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </section>
+      <section role="group" class="provisional">
+        <h2 class="wb-inv">Example 6</h2>
+        <fieldset class="chkbxrdio-grp wb-checklist">
+          <legend>
+            To qualify, you must meet <strong>all</strong> of the following conditions: <small class="text-muted">(checkboxes + explicit label, large box)</conditions:small>
+          </legend>
+          <ul class="form-group list-unstyled lst-spcd-2">
+            <li class="checkbox">
+              <input type="checkbox" id="cond14">
+              <label for="cond14">You have lost or will lose your employment or self-employment income for at least half of the 4-week period for which you are applying</label>
+            </li>
+            <li class="checkbox">
+              <input type="checkbox" id="cond15">
+              <label for="cond15">You are a resident of Canada</label>
+            </li>
+            <li class="checkbox">
+              <input type="checkbox" id="cond16">
+              <label for="cond16"><span>You are 15 years of age or older when you apply</span></label>
+            </li>
+          </ul>
+        </fieldset>
+      </section>
+      <section role="group" class="provisional well well-sm">
+        <h2 class="wb-inv">Example 7</h2>
+        <fieldset class="chkbxrdio-grp">
+          <legend>
+            To qualify, you must meet <strong>all</strong> of the following conditions: <small class="text-muted">(checkboxes + explicit label, large box)</conditions:small>
+          </legend>
+          <ul class="form-group list-unstyled lst-spcd-2">
+            <li class="radio">
+              <input type="radio" name="cond17" id="cond17-a">
+              <label for="cond17-a">You have lost or will lose your employment or self-employment income for at least half of the 4-week period for which you are applying</label>
+            </li>
+            <li class="radio">
+              <input type="radio" name="cond17" id="cond17-b">
+              <label for="cond17-b"><span>You are a resident of Canada</span></label>
+            </li>
+            <li class="radio">
+              <input type="radio" name="cond17" id="cond17-c">
+              <label for="cond17-c"><span>You are 15 years of age or older when you apply</span></label>
+            </li>
+          </ul>
+        </fieldset>
+      </section>
+      <div id="def-preFooter"></div>
+      <!-- Write closure template -->
+      <script>
+        var defPreFooter = document.getElementById("def-preFooter");
+        defPreFooter.outerHTML = wet.builder.preFooter({
+          dateModified: "2020-03-13",
+          showPostContent: true,
+          showFeedback: true,
+          showShare: true
+        });
+      </script>
+    </main>
+    <div id="def-footer"></div>
+    <!-- Write closure template -->
+    <script>
+      var defFooter = document.getElementById("def-footer");
+      defFooter.outerHTML = wet.builder.footer({
+        showFooter: true,
+        showFeatures: true
+      });
+    </script>
+    <!-- Write closure template -->
+    <script>
+      document.write(wet.builder.refFooter({
+      }));
+    </script>
+    <script src="wb-checklist.js"></script>
+  </body>
+</html>
