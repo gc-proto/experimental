@@ -1,0 +1,184 @@
+---
+layout: null
+---
+{%- assign t = site.data.canada_strong_en -%}
+{%- assign b = t.business -%}
+{%- assign e = b.eligibility -%}
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="{{ t.lang }}" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="{{ t.lang }}" dir="ltr"><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>{{ b.title }} - Canada.ca</title>
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<!-- Meta data -->
+		<meta name="description" content="{{ b.description }}">
+		<!-- Meta data-->
+		<!-- Load closure template scripts -->
+		<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_2/cdts/compiled/soyutils.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_2/cdts/compiled/wet-en.js"></script>
+		<noscript>
+			<!-- Write closure fall-back static file -->
+			<!-- refTop.html -->
+		</noscript>
+		<!-- Write closure template -->
+		<script>
+			document.write(wet.builder.refTop({
+				"cdnEnv": "esdcprod"
+			}));
+		</script>
+		<style>
+			/* Result panels and conditional badges start hidden.
+			   Deliberately not Bootstrap's .hidden, which is display:none !important
+			   and so could not be overridden by the matrix rules below. */
+			.wz-badge { display: inline-block; border: 1px solid; border-radius: 3px; padding: 0 .4em; font-size: .85em; white-space: nowrap; }
+			.wz-met    { color: #17632f; border-color: #17632f; }
+			.wz-notmet { color: #a8271b; border-color: #a8271b; }
+			.wz-review { color: #515151; border-color: #515151; }
+			.wz-crit   { margin-bottom: .6em; }
+			.wz-r  { display: none; }
+			.wz-rb { display: none; }
+
+			/* ═══ Generated from business.matrix in _data/canada_strong_en.yml ═══
+			   One rule per line. Edit the YAML, not this block. */
+{% for row in b.matrix %}{% assign ms = row.when | split: " " %}			#wz-state{% for m in ms %}.{{ m }}{% endfor %} .{{ row.show }} { display: {{ row.display | default: "block" }}; }
+{% endfor %}		</style>
+	</head>
+	<body vocab="https://schema.org/" typeof="WebPage">
+		<div id="def-top">
+			<!-- Write closure fall-back static file -->
+			<!-- top-en.html -->
+		</div>
+		<!-- Write closure template -->
+		<script>
+			var defTop = document.getElementById("def-top");
+			defTop.outerHTML = wet.builder.top({
+				"lngLinks": [{
+					"lang": "fr",
+					"href": "{{ t.alt_lang_href }}",
+					"text": "{{ t.alt_lang_text }}"
+				}],
+				"breadcrumbs": [{% for bc in t.breadcrumbs %}{
+					"title": "{{ bc.title }}",
+					"href": "{{ bc.href }}"
+				},{% endfor %}{
+					"title": "{{ t.start.h1 }}",
+					"href": "start-en.html"
+				}],
+				"cdnEnv": "esdcprod"
+			});
+		</script>
+		<main property="mainContentOfPage" typeof="WebPageElement">
+
+			<div class="container">
+				<h1 property="name" id="wb-cont">{{ b.h1 }}</h1>
+
+				<div class="row">
+					<div class="col-md-8">
+
+						<section class="alert alert-warning">
+							<h2 class="h5">{{ t.prototype_notice.heading }}</h2>
+							<p>{{ b.notice }}</p>
+						</section>
+
+						<p>{{ b.intro }}</p>
+
+						<h2 class="mrgn-tp-lg">{{ b.questions_heading }}</h2>
+
+						<div class="wb-frmvld">
+							<form method="get" action="#">
+								{% for q in b.questions %}
+								<div id="{{ q.id }}" class="{% if forloop.first %}wb-fieldflow{% else %}hidden wb-fieldflow-sub{% endif %}" data-wb-fieldflow='{"renderas":"radio","gcChckbxrdio":true{% if forloop.first %},"noForm":true,"base":{"live":true}{% endif %},"default":[{"action":"removeClass","source":"#wz-state","class":"{{ q.clears }}"}{% if q.next %},{"action":"addClass","source":"#wz-results","class":"hidden"}{% endif %}]}'>
+									<p>{{ q.legend }}</p>
+									<ul>
+										{% for o in q.options %}<li data-wb-fieldflow='[{"action":"addClass","source":"#wz-state","class":"{{ o.marker }}"},{% if q.next %}{"action":"append","source":"#{{ q.next }}"}{% else %}{"action":"removeClass","source":"#wz-results","class":"hidden"}{% endif %}]'>{{ o.label }}</li>
+										{% endfor %}
+									</ul>
+								</div>
+								{% endfor %}
+							</form>
+						</div>
+
+						<!-- Answer markers are stamped on #wz-state; the matrix rules in the
+						     <style> block above decide which panels inside it are visible. -->
+						<div id="wz-state">
+							<div id="wz-results" class="hidden">
+								<h2 class="mrgn-tp-lg">{{ b.results_heading }}</h2>
+
+								{% for panel in b.panels %}
+								<section class="panel panel-success mrgn-tp-md{% unless panel.always %} wz-r {{ panel.id }}{% endunless %}">
+									<header class="panel-heading">
+										<h3 class="panel-title h4">{{ panel.heading }}</h3>
+									</header>
+									<div class="panel-body">
+										{% if panel.body %}<p>{{ panel.body }}</p>{% endif %}
+										{% if panel.programs and panel.programs.size > 0 %}
+										<ul{% if panel.body %} class="mrgn-tp-md"{% endif %}>
+											{% for prog in panel.programs %}<li><a href="#">{{ prog.name }}</a>{% if prog.note %} — {{ prog.note }}{% endif %}</li>
+											{% endfor %}
+										</ul>
+										{% endif %}
+										{% if panel.footnote %}<p class="small mrgn-bttm-0">{{ panel.footnote }}</p>{% endif %}
+									</div>
+								</section>
+								{% endfor %}
+
+								<section class="panel panel-default mrgn-tp-md">
+									<header class="panel-heading">
+										<h3 class="panel-title h4">{{ e.heading }}</h3>
+									</header>
+									<div class="panel-body">
+										<p>{{ e.body }}</p>
+										<ul class="list-unstyled mrgn-tp-md">
+											{% for c in e.criteria %}<li class="wz-crit">{{ c.text }}
+												{% for badge in c.badges %}<span class="wz-badge wz-{{ badge.status }}{% if badge.class %} wz-rb {{ badge.class }}{% endif %}">{{ badge.label }}</span>{% endfor %}
+											</li>
+											{% endfor %}
+										</ul>
+										<p class="wz-r wz-large-note mrgn-bttm-0"><strong>{{ e.large_note }}</strong></p>
+									</div>
+								</section>
+
+								<p class="mrgn-tp-lg"><a href="{{ b.back_href }}">{{ b.back_link }}</a></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div id="def-preFooter">
+					<!-- Write closure fall-back static file -->
+					<!-- preFooter-en.html -->
+				</div>
+			</div>
+			<!-- Write closure template -->
+			<script>
+				var defPreFooter = document.getElementById("def-preFooter");
+				defPreFooter.outerHTML = wet.builder.preFooter({
+					"dateModified": "{{ t.date_modified }}",
+					"cdnEnv": "esdcprod"
+				});
+			</script>
+		</main>
+		<div id="def-footer">
+			<!-- Write closure fall-back static file -->
+			<!-- footer-en.html -->
+		</div>
+		<!-- Write closure template -->
+		<script>
+			var defFooter = document.getElementById("def-footer");
+			defFooter.outerHTML = wet.builder.footer({
+				"cdnEnv": "esdcprod"
+			});
+		</script>
+		<!-- Write closure template -->
+		<script>
+			document.write(wet.builder.refFooter({
+				"cdnEnv": "esdcprod"
+			}));
+		</script>
+	</body>
+</html>
