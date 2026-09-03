@@ -1,0 +1,370 @@
+<!doctype html>
+<!--
+  Worker support wizard — PROTOTYPE, separate from the shipped tool
+  ═══════════════════════════════════════════════════════════════════════════
+  This is a standalone companion to business-en.html / business-fr.html, built
+  in answer to how-this-wizard-works.md's own "Next steps" item 6: "Consider a
+  worker path prototype if that page needs design work rather than a link."
+  Today the worker choice on start-en.html / start-fr.html just links out to
+  the live Canada.ca page:
+    https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/support-canadian-workers-employers.html#a1
+  This file is a sketch of what a four-question wizard for that path could
+  look like, in the same spirit as the business wizard (narrow down, then show
+  only the supports that fit).
+
+  WHAT THIS IS NOT (on purpose, so it can be reviewed as a sketch first):
+    - Not wired into Jekyll. No _config.yml, front matter, or site.data — it
+      is one self-contained file you can open directly in a browser.
+    - Not using wb-fieldflow / CDTS. business-en.html leans on a WET fieldflow
+      component served from cdts.service.canada.ca; this prototype uses plain
+      HTML radios and ~40 lines of vanilla JS instead, so it has zero external
+      dependencies and no closure-template quirks to work around.
+    - Not split into CSV + YAML. The business tool deliberately keeps program
+      data (tariff_tool_links.csv) and interface text (canada_strong_*.yml)
+      apart — see how-this-wizard-works.md. The QUESTIONS and SUPPORTS arrays
+      below are that same split, just as two JS objects in one file instead of
+      two files, since a 14-program list doesn't yet earn a spreadsheet of its
+      own. If this becomes real, lift SUPPORTS into a CSV with the same
+      need/org/url_en/url_fr/status shape as tariff_tool_links.csv and this
+      page's logic barely has to change.
+    - English only. The business tool requires a French twin for anything
+      shipped; this prototype does not have one yet — see the comment above
+      QUESTIONS for what a French pass would need to translate.
+
+  All 14 supports and their exact URLs were pulled live from
+  https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/support-canadian-workers-employers.html
+  on 2026-09-03 (same verification standard the CSV uses) — see the SUPPORTS
+  array below. Three worker-side items from that page are deliberately left
+  out here because they are general information pages rather than a support
+  to route someone to (Job Bank's "Worker supports" landing text, the page's
+  own "Upcoming supports" news link, and "Building a strong economy").
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Worker support wizard (prototype) — Canada Strong</title>
+<style>
+  :root {
+    --ink: #26374a;
+    --line: #d9d9d9;
+    --accent: #26374a;
+    --accent-bg: #eaf1fb;
+    --panel-bg: #f5f7fa;
+    --ok: #278400;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Noto Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 4rem;
+    line-height: 1.5;
+  }
+  .proto-banner {
+    background: #ffe6a8;
+    border: 1px solid #d9b34d;
+    border-radius: 4px;
+    padding: .6rem .9rem;
+    font-size: .85rem;
+    margin-bottom: 1.5rem;
+  }
+  h1 { font-size: 1.7rem; margin-bottom: .25rem; }
+  .intro { color: #4a5a6a; margin-top: 0; }
+  fieldset {
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 1rem 1.1rem 1.1rem;
+    margin: 0 0 1rem;
+  }
+  fieldset[hidden] { display: none; }
+  legend {
+    font-weight: 600;
+    padding: 0 .4rem;
+    font-size: 1.02rem;
+  }
+  .opt {
+    display: block;
+    padding: .5rem .4rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .opt:hover { background: var(--accent-bg); }
+  .opt input { margin-right: .6rem; }
+  .opt.picked { background: var(--accent-bg); font-weight: 600; }
+  #results { margin-top: 1rem; }
+  #results[hidden] { display: none; }
+  .cat {
+    margin: 1.4rem 0;
+  }
+  .cat h2 {
+    font-size: 1.15rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: .3rem;
+    margin-bottom: .6rem;
+  }
+  .card {
+    background: var(--panel-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: .8rem 1rem;
+    margin-bottom: .6rem;
+  }
+  .card a { font-weight: 600; color: var(--accent); text-decoration: none; }
+  .card a:hover { text-decoration: underline; }
+  .card .org { color: #5a6a7a; font-size: .82rem; }
+  .card .desc { margin: .25rem 0 0; font-size: .92rem; }
+  .always-on {
+    margin-top: 1.8rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+  }
+  .no-match { color: #5a6a7a; font-style: italic; }
+  #startOver {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: .95rem;
+  }
+  .progress { font-size: .85rem; color: #5a6a7a; margin: 0 0 .3rem; }
+</style>
+</head>
+<body>
+
+<div class="proto-banner">
+  Prototype — not the live tool. Sketch of a worker path for the Canada
+  Strong tariff support tool, for review. See the HTML source comment at the
+  top of this file for exactly what is and isn't wired up.
+</div>
+
+<h1>Find support as a worker</h1>
+<p class="intro">Answer up to four questions and we'll show you the federal supports that fit your situation.</p>
+
+<form id="wizard"></form>
+
+<section id="results" hidden>
+  <h2>Supports that match your answers</h2>
+  <div id="resultsBody"></div>
+  <a id="startOver" href="#">↺ Start over</a>
+</section>
+
+<script>
+/* ═══ WORDS ═══════════════════════════════════════════════════════════════
+   The four questions. Mirrors business-en.html's questions[] shape: each
+   option stamps a marker; the marker is what SUPPORTS below match against.
+   A French pass would translate every "label" and "legend" string here —
+   nothing else in this block is language-specific. */
+const QUESTIONS = [
+  {
+    id: "q1",
+    legend: "Question 1 of 4: What best describes your situation right now?",
+    options: [
+      { marker: "sit-reduced",  label: "My hours have been reduced, or I'm at risk of layoff, but I'm still working" },
+      { marker: "sit-lost",     label: "I've lost my job, or expect to soon" },
+      { marker: "sit-employed", label: "I'm working and want to build new skills" },
+      { marker: "sit-student",  label: "I'm a student, or pursuing an apprenticeship" }
+    ]
+  },
+  {
+    id: "q2",
+    legend: "Question 2 of 4: What kind of support are you looking for right now?",
+    options: [
+      { marker: "need-income",    label: "Income support" },
+      { marker: "need-training",  label: "Skills training or retraining" },
+      { marker: "need-jobsearch", label: "Help finding a new job" },
+      { marker: "need-edfinance", label: "Financial help paying for education or training" }
+    ]
+  },
+  {
+    id: "q3",
+    legend: "Question 3 of 4: Does either of these apply to you?",
+    options: [
+      { marker: "grp-indigenous", label: "I identify as Indigenous" },
+      { marker: "grp-apprentice", label: "I'm in, or want to start, a Red Seal apprenticeship" },
+      { marker: "grp-neither",    label: "Neither applies to me" }
+    ]
+  },
+  {
+    id: "q4",
+    legend: "Question 4 of 4: Does your employer have an approved Work-Sharing agreement?",
+    options: [
+      { marker: "ws-yes", label: "Yes" },
+      { marker: "ws-no",  label: "No, or I'm not sure" }
+    ]
+  }
+];
+
+/* ═══ DATA ════════════════════════════════════════════════════════════════
+   The 14 supports. Shape deliberately echoes tariff_tool_links.csv's
+   columns (program_name / org / url_en / status) so this can graduate into
+   a real CSV row-for-row if the prototype is adopted.
+
+   `when`: an array of clauses; a clause is an array of markers that must ALL
+   be selected (AND). The support shows if ANY clause matches (OR). `when:
+   null` means always shown, same convention as the business tool's
+   always-on hub panel.
+
+   Every url_en below was read directly off the live page's <a href> on
+   2026-09-03, the same way the CSV's rows are sourced — see file header. */
+const SUPPORTS = [
+  { name: "Work-Sharing Program", org: "ESDC", cat: "Income support",
+    url: "https://www.canada.ca/en/employment-social-development/services/work-sharing.html",
+    desc: "Lets your employer reduce hours instead of laying staff off, with EI topping up your income.",
+    when: [["sit-reduced"]] },
+  { name: "Worker Retention Grant", org: "ESDC", cat: "Income support",
+    url: "https://www.canada.ca/en/employment-social-development/services/funding/worker-retention-grant.html",
+    desc: "Extra income support for EI-eligible employees on reduced hours and training, where your employer has an approved Work-Sharing agreement.",
+    when: [["ws-yes", "need-income"]] },
+  { name: "Temporary Employment Insurance (EI) Measures", org: "ESDC", cat: "Income support",
+    url: "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+    desc: "Improved access to EI benefits, including a waived one-week waiting period.",
+    when: [["sit-lost"], ["need-income"]] },
+
+  { name: "Employment Insurance-funded Labour Market Development Agreements (LMDAs)", org: "ESDC", cat: "Skills and training",
+    url: "https://www.canada.ca/en/employment-social-development/programs/training-agreements/workforce-tariff-response.html",
+    desc: "Training and employment support funded through EI for tariff-affected workers.",
+    when: [["need-training"], ["sit-lost"]] },
+  { name: "Skills for Success", org: "Government of Canada", cat: "Skills and training",
+    url: "https://www.canada.ca/en/services/jobs/training/initiatives/skills-success.html",
+    desc: "Assess your skills and see what today's labour market is asking for.",
+    when: [["need-training"]] },
+  { name: "Training Finder", org: "Job Bank", cat: "Skills and training",
+    url: "https://www.jobbank.gc.ca/career-planning/find-training",
+    desc: "Search in-demand training courses from recognized Canadian institutions.",
+    when: [["need-training"]] },
+  { name: "Employment Insurance (EI) and courses or training programs", org: "ESDC", cat: "Skills and training",
+    url: "https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/courses-training.html",
+    desc: "Take a course or training program while you continue to receive EI benefits.",
+    when: [["need-training", "sit-lost"], ["need-training", "sit-reduced"]] },
+
+  { name: "Job Bank", org: "Job Bank", cat: "Job search",
+    url: "https://www.jobbank.gc.ca/home",
+    desc: "Job postings and labour market information — the Government of Canada's leading source for jobs.",
+    when: [["need-jobsearch"]] },
+
+  { name: "Canada Student Grants and Loans", org: "Government of Canada", cat: "Financial help for education",
+    url: "https://www.canada.ca/en/services/benefits/education/student-aid/grants-loans.html",
+    desc: "Grants and loans for full-time and part-time post-secondary students.",
+    when: [["need-edfinance"]] },
+  { name: "Repayment Assistance Plan (RAP)", org: "Government of Canada", cat: "Financial help for education",
+    url: "https://www.canada.ca/en/services/benefits/education/student-aid/grants-loans/repay/assistance/rap.html",
+    desc: "Help if you're having trouble repaying a student loan.",
+    when: [["need-edfinance"]] },
+
+  { name: "Skills and employment training for Indigenous people", org: "ESDC", cat: "Targeted support",
+    url: "https://www.canada.ca/en/employment-social-development/programs/indigenous-skills-employment-training/service-delivery-organizations.html",
+    desc: "Job training and skills development delivered through Indigenous service organizations.",
+    when: [["grp-indigenous"]] },
+  { name: "Canada Apprentice Loan", org: "Government of Canada", cat: "Targeted support",
+    url: "https://www.canada.ca/en/services/jobs/training/support-skilled-trades-apprentices/loan.html",
+    desc: "Interest-free loans to help complete a Red Seal apprenticeship.",
+    when: [["grp-apprentice"]] },
+  { name: "Tax deductions and credits for apprentices", org: "Government of Canada", cat: "Targeted support",
+    url: "https://www.canada.ca/en/services/jobs/training/support-skilled-trades-apprentices/tax-deductions-apprentices.html",
+    desc: "Tax relief for tradesperson expenses — tools, moving costs and tuition.",
+    when: [["grp-apprentice"]] },
+  { name: "EI for apprentices", org: "ESDC", cat: "Targeted support",
+    url: "https://www.canada.ca/en/services/jobs/training/support-skilled-trades-apprentices/ei-apprentices.html",
+    desc: "Income support during full-time technical training.",
+    when: [["grp-apprentice", "need-income"]] }
+];
+
+/* Always-on, regardless of answers — same idea as the business tool's
+   always-on hub panel (Business Benefits Finder / Supports for business). */
+const ALWAYS_ON = {
+  name: "Support for Canadian workers and employers",
+  org: "Finance Canada",
+  url: "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/support-canadian-workers-employers.html#a1",
+  desc: "The canonical Government of Canada hub this prototype is drawn from — kept current, so check it if something here looks out of date."
+};
+
+const CATEGORY_ORDER = ["Income support", "Skills and training", "Job search", "Financial help for education", "Targeted support"];
+
+/* ═══ ENGINE ══════════════════════════════════════════════════════════════
+   ~40 lines: render one question at a time, stamp the chosen marker into
+   `answers`, reveal the next question (or the results on the last one).
+   No fieldflow, no generated CSS rules — just a Set and a re-render. */
+const answers = new Set();
+const form = document.getElementById("wizard");
+const resultsSection = document.getElementById("results");
+const resultsBody = document.getElementById("resultsBody");
+
+function matches(support) {
+  if (!support.when) return true;
+  return support.when.some(clause => clause.every(marker => answers.has(marker)));
+}
+
+function renderQuestion(index) {
+  const q = QUESTIONS[index];
+  const fs = document.createElement("fieldset");
+  fs.id = q.id;
+  fs.innerHTML = `<p class="progress">Question ${index + 1} of ${QUESTIONS.length}</p><legend>${q.legend}</legend>`;
+  q.options.forEach(o => {
+    const label = document.createElement("label");
+    label.className = "opt";
+    label.innerHTML = `<input type="radio" name="${q.id}" value="${o.marker}"> ${o.label}`;
+    label.querySelector("input").addEventListener("change", () => {
+      fs.querySelectorAll(".opt").forEach(el => el.classList.remove("picked"));
+      label.classList.add("picked");
+      answers.add(o.marker);
+      fs.querySelectorAll("input").forEach(inp => inp.disabled = true);
+      if (index + 1 < QUESTIONS.length) {
+        renderQuestion(index + 1);
+      } else {
+        renderResults();
+      }
+    });
+    fs.appendChild(label);
+  });
+  form.appendChild(fs);
+}
+
+function renderResults() {
+  resultsBody.innerHTML = "";
+  const grouped = CATEGORY_ORDER.map(cat => ({
+    cat,
+    items: SUPPORTS.filter(s => s.cat === cat && matches(s))
+  })).filter(g => g.items.length > 0);
+
+  if (grouped.length === 0) {
+    resultsBody.innerHTML = '<p class="no-match">No specific support matched those answers — the hub below is still a good place to start.</p>';
+  } else {
+    grouped.forEach(g => {
+      const div = document.createElement("div");
+      div.className = "cat";
+      div.innerHTML = `<h2>${g.cat}</h2>` + g.items.map(cardHtml).join("");
+      resultsBody.appendChild(div);
+    });
+  }
+
+  const alwaysDiv = document.createElement("div");
+  alwaysDiv.className = "always-on";
+  alwaysDiv.innerHTML = `<h2>Where to find more support</h2>${cardHtml(ALWAYS_ON)}`;
+  resultsBody.appendChild(alwaysDiv);
+
+  resultsSection.hidden = false;
+  resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function cardHtml(s) {
+  return `<div class="card">
+    <a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>
+    <div class="org">${s.org}</div>
+    <p class="desc">${s.desc}</p>
+  </div>`;
+}
+
+document.getElementById("startOver").addEventListener("click", (e) => {
+  e.preventDefault();
+  answers.clear();
+  form.innerHTML = "";
+  resultsSection.hidden = true;
+  renderQuestion(0);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+renderQuestion(0);
+</script>
+
+</body>
+</html>
