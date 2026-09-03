@@ -41,23 +41,35 @@ class TestRouting < Minitest::Test
         shown.join("\n  ") + more
     end
 
-    # A combination with no sector-specific stream must say so, not go silent.
-    define_method("test_route_note_appears_exactly_where_the_cell_is_empty_#{lang}") do
+    # A combination with no sector-specific stream shows nothing sector-
+    # specific at all — no panel, no "no stream for your sector" box. The
+    # sector-agnostic, regional and hub panels for that need still carry the
+    # page; there is nothing worth telling the business it didn't get.
+    define_method("test_no_sector_panel_when_the_cell_is_empty_#{lang}") do
       page = Wizard::BUSINESS[lang]
-      label = Wizard.text(lang)["business"]["labels"]["route_heading"]
       wrong = []
 
       combos_for(lang).each do |c|
         markers = [c[:need], c[:region], c[:sector], "size-1to5m"]
         shown = Wizard.visible_panels(page, markers)
-                      .any? { |p| p.at_css(".panel-title").text.strip == label }
-        want = Wizard::Expected.route_note?(
+                      .any? { |p| p["class"].to_s.include?("wz-p-#{Wizard.need_csv(lang, c[:need])}-#{Wizard.sector_csv(lang, c[:sector])}") }
+        want = !Wizard::Expected.no_sector_stream?(
           Wizard.need_csv(lang, c[:need]), Wizard.sector_csv(lang, c[:sector]), lang
         )
-        wrong << "#{c[:need]} / #{c[:sector]}: note #{shown ? 'shown' : 'absent'}, expected #{want ? 'shown' : 'absent'}" if shown != want
+        wrong << "#{c[:need]} / #{c[:sector]}: panel #{shown ? 'shown' : 'absent'}, expected #{want ? 'shown' : 'absent'}" if shown != want
       end
 
-      assert_empty wrong.uniq, "route note in the wrong places (#{lang}):\n  " + wrong.uniq.join("\n  ")
+      assert_empty wrong.uniq, "sector panel appears where the CSV has no stream (#{lang}):\n  " + wrong.uniq.join("\n  ")
+    end
+
+    # The removed box's markup and labels must actually be gone, not just
+    # unreachable — a leftover .wz-route-* rule or route_heading string would
+    # mean the suppression is incomplete rather than deliberate.
+    define_method("test_the_route_note_box_is_fully_removed_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      assert_empty Wizard.doc(page).css("[class*=wz-route-]").to_a, "#{lang}: a wz-route-* element is still in the DOM"
+      refute Wizard.text(lang)["business"]["labels"].key?("route_heading"), "#{lang}: route_heading label is still defined"
+      refute Wizard.text(lang)["business"]["labels"].key?("route_body"), "#{lang}: route_body label is still defined"
     end
 
     # Answering only the first question must not reveal anything: every panel

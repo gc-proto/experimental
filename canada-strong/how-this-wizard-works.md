@@ -34,7 +34,7 @@ _data/canada_strong_en.yml     English interface text + eligibility rules
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 106 tests over the files above
+_tests/                        the suite: 108 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
@@ -93,8 +93,13 @@ bring a dropped row back, take its status out of that list.
 Other statuses (`verified`, `added`, `weak`, `ambiguous`, `best-guess`, `duplicate-url`)
 all render. They are confidence notes for you, not switches.
 
-`route` rows are special: they mark a cell with no sector-specific stream, and render as
-the "no stream specific to your sector" note instead of a link.
+`route` rows are special: they mark a cell researched and confirmed to have no
+sector-specific stream. The sector-specific panel is simply omitted for that
+need — no panel, no "no stream for your sector" box — and the business still sees
+whatever the sector-agnostic column, region and hubs have for that need. A `route`
+row's only job is telling you the empty cell was checked, not missed; it changes
+nothing at build time. (An empty cell without a `route` row renders exactly the same
+way, so adding one is a research note to leave for the next person, not a fix.)
 
 ## How a combination becomes a visible panel
 
@@ -124,7 +129,7 @@ agriculture         | financing=2 | liquidity=5 | transformation=5 | workforce=0
 ```
 
 **Resetting.** Each question's `clears:` string lists every marker it invalidates.
-Question 1 clears all nineteen, question 2 clears region, size and sector, and so on. This
+Question 1 clears all twenty, question 2 clears region, size and sector, and so on. This
 is what stops a stale panel surviving when someone changes an earlier answer.
 
 ## The vocabulary bridge
@@ -200,7 +205,7 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 
 `_tests/README.md` says what each test file covers. In short:
 
-- **All 120 combinations**, both languages. It parses the generated CSS back out of the
+- **All 140 combinations**, both languages. It parses the generated CSS back out of the
   page, works out which panels a set of answer markers reveals, and diffs the programs
   in them against the CSV — which it reads through a second, separate implementation of
   the rules on this page, so it cannot just agree with the template's bugs.
@@ -266,6 +271,14 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   from each page's own `<h1>`, all seven URLs checked live on 2026-09-03. The paragraph for
   every region is in the DOM at once, one `#wz-state.reg-marker .wz-rda-reg-marker` rule
   each, same pattern as the sector hubs' `.wz-hub-*` rule just above it.
+- **An empty sector cell shows nothing, not a "no stream" box.** The original design put
+  up a panel reading "No stream specific to your sector" for the six need x sector
+  combinations the CSV has no dedicated program for. In practice a box announcing an
+  absence, next to panels announcing programs, read as a mistake rather than information —
+  the business still gets the sector-agnostic results for that need either way, so the box
+  said nothing they needed. `route_heading` / `route_body` and the `wz-route-*` markup are
+  gone; the `route` status in the CSV stays, as a research note that the empty cell was
+  checked rather than missed — see `status` above.
 
 ## Next steps
 
