@@ -4,10 +4,14 @@ Everything the wizard's "Verifying a change" section asks for, minus the browser
 No Jekyll needed — the harness renders the templates with the same Liquid and the
 same two Jekyll array filters the real build uses.
 
+Run from the `canada-strong` folder. The suite is anchored to this folder rather
+than to the repo, so it also works on a copy of `canada-strong` on its own —
+the three tests that check `_config.yml` skip when there is no repo around it.
+
 ```bash
-ruby _tests/canada-strong/run.rb          # the whole suite
-ruby _tests/canada-strong/test_routing.rb # one file
-ruby _tests/canada-strong/preview.rb out  # render the pages to ./out
+ruby _tests/run.rb          # the whole suite
+ruby _tests/test_routing.rb # one file
+ruby _tests/preview.rb out  # render the pages to ./out
 ```
 
 Requires the `liquid` and `nokogiri` gems; both are already installed on the
@@ -26,8 +30,10 @@ gem install --user-install liquid -v 4.0.4 --no-document
 | `test_eligibility.rb` | Exactly one badge per criterion for every size x sector, and nothing painted before its question is answered. |
 | `test_markup.rb` | Heading order, one h1, the fieldflow chain, the reset cascade, and the traps listed under "Gotchas found the hard way". |
 | `test_parity.rb` | The French templates are the English ones with the language swapped; the two YAML files stay the same shape. |
+| `test_standalone.rb` | The folder carries its own data, docs and tests, and `data_dir` still points into it. |
 
-`support/wizard.rb` renders and reads the pages. `support/expected.rb` works out
+`support/wizard.rb` renders and reads the pages, and finds the program data via
+`data_dir` in the repo's `_config.yml` (falling back to `canada-strong/_data`). `support/expected.rb` works out
 what the CSV *should* produce — deliberately a second implementation, so it does
 not just agree with the template's bugs.
 

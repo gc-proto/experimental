@@ -12,8 +12,10 @@ require "minitest/autorun"
 require_relative "support/wizard"
 
 class TestStandalone < Minitest::Test
+  # Outside the Jekyll repo there is no _config.yml to check; the harness falls
+  # back to this folder's own _data and the rest of the suite still applies.
   def config
-    @config ||= YAML.load_file(Wizard::CONFIG)
+    Wizard.config or skip("no _config.yml — running from a copy of the folder alone")
   end
 
   def test_config_points_its_data_dir_into_this_folder
