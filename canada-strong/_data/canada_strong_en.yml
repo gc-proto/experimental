@@ -139,7 +139,7 @@ business:
         - {marker: reg-qc,   label: "Quebec"}
         - {marker: reg-on-n, label: "Northern Ontario (including Parry Sound)"}
         - {marker: reg-on-s, label: "Southern Ontario (south of Muskoka)"}
-        - {marker: reg-pr,   label: "Prairies"}
+        - {marker: reg-pr,   label: "Manitoba, Saskatchewan, Alberta"}
         - {marker: reg-bc,   label: "British Columbia"}
         - {marker: reg-nor,  label: "The North"}
 

@@ -113,8 +113,7 @@ class TestParity < Minitest::Test
   # after checking the French, never to quiet the test.
   ALLOWED_IDENTICAL = [
     "Canada.ca",
-    "Ontario",   # same in French
-    "Prairies"   # "les Prairies" in French
+    "Manitoba, Saskatchewan, Alberta"   # province names are spelled the same in French
   ].freeze
 
   def test_no_obviously_untranslated_interface_text

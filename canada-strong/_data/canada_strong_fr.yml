@@ -117,7 +117,7 @@ business:
         - {marker: reg-qc,   label: "Québec"}
         - {marker: reg-on-n, label: "Nord de l'Ontario (y compris Parry Sound)"}
         - {marker: reg-on-s, label: "Sud de l'Ontario (au sud de Muskoka)"}
-        - {marker: reg-pr,   label: "Prairies"}
+        - {marker: reg-pr,   label: "Manitoba, Saskatchewan, Alberta"}
         - {marker: reg-bc,   label: "Colombie-Britannique"}
         - {marker: reg-nor,  label: "Le Nord"}
 
