@@ -152,7 +152,7 @@ module Wizard
     # ── Reading the rendered page back ─────────────────────────────────────
     def shown?(node, visible)
       cls = node["class"].to_s.split
-      conditional = cls.include?("wz-r") || cls.include?("wz-rb")
+      conditional = cls.include?("wz-r") || cls.include?("wz-rb") || cls.include?("wz-sz")
       !conditional || (cls & visible).any?
     end
 
@@ -162,9 +162,13 @@ module Wizard
     end
 
     # Programs listed in one panel, as [name, url] pairs. Eligibility criteria
-    # live in a panel too, and carry .wz-crit; they are not programs.
-    def panel_programs(panel)
+    # live in a panel too, and carry .wz-crit; they are not programs. Pass
+    # `visible` to also drop individual rows a CSV `size` column hides for
+    # this set of markers (e.g. LETL under a non-large size); omit it to get
+    # every row regardless of visibility, for DOM-wide leak checks.
+    def panel_programs(panel, visible = nil)
       items = panel.css(".panel-body > ul > li").reject { |li| li["class"].to_s.split.include?("wz-crit") }
+      items = items.select { |li| shown?(li, visible) } if visible
       items.map do |li|
         link = li.at_css("a")
         if link
@@ -179,7 +183,8 @@ module Wizard
 
     # Every program visible for one set of answers, across every shown panel.
     def visible_programs(page, markers)
-      visible_panels(page, markers).flat_map { |p| panel_programs(p) }
+      visible = visible_targets(page, markers)
+      visible_panels(page, markers).flat_map { |p| panel_programs(p, visible) }
     end
 
     # Every program in the DOM, visible or not. Used to check that rows the
@@ -220,13 +225,29 @@ module Wizard
       e ? e["csv"].split(";") : []
     end
 
-    # All 120 program-affecting answer combinations (size does not change the
-    # program list, only the eligibility badges).
+    # Most rows have no size column and show for every size; size_csv is what
+    # the rare row that restricts itself (e.g. LETL, size: large) is checked
+    # against.
+    def size_csv(lang, marker)
+      e = text(lang)["sizes"].find { |s| s["marker"] == marker }
+      e && e["csv"]
+    end
+
+    # All 140 need x region x sector combinations (the routing dimensions).
     def combinations(lang)
       need_markers(lang).flat_map do |n|
         region_markers(lang).flat_map do |r|
           sector_markers(lang).map { |s| { need: n, region: r, sector: s } }
         end
+      end
+    end
+
+    # The above, crossed with every size answer too — 700 total. Used where a
+    # test needs to check that a size-gated CSV row (like LETL) behaves
+    # correctly everywhere it could appear, not just at one fixed size.
+    def combinations_with_size(lang)
+      combinations(lang).flat_map do |c|
+        size_markers(lang).map { |sz| c.merge(size: sz) }
       end
     end
   end

@@ -101,6 +101,24 @@ class TestEligibility < Minitest::Test
       assert_equal urls.uniq.size, urls.size, "#{lang}: two regions share the same rda_url"
     end
 
+    # size-nonprofit (non-profits, associations, boards of trade) is mapped to
+    # size-under1m's badges as a stand-in, not because it's actually under
+    # $1M — see the comment by the question in the YAML. A data-driven test
+    # can't catch this decision quietly drifting, since both sides would read
+    # the same eligibility_rules; this pins the two size answers producing
+    # identical badges until someone deliberately gives size-nonprofit its
+    # own rules.
+    define_method("test_nonprofit_size_answer_matches_under1m_badges_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+
+      Wizard.sector_markers(lang).each do |sector|
+        under1m    = criteria_list(page, ["size-under1m",   sector, "need-fin", "reg-atl"])
+        nonprofit  = criteria_list(page, ["size-nonprofit", sector, "need-fin", "reg-atl"])
+        assert_equal under1m, nonprofit,
+          "#{lang}: size-nonprofit's badges no longer match size-under1m's for #{sector}"
+      end
+    end
+
     # Every rule points at a badge class the page actually contains, and every
     # conditional badge is reachable by some answer.
     define_method("test_every_rule_and_badge_is_wired_up_#{lang}") do

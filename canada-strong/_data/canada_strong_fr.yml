@@ -53,6 +53,23 @@ regions:
   - {marker: reg-bc,    csv: "British Columbia",  rda: "PacifiCan",                                                    rda_url: "https://www.canada.ca/fr/developpement-economique-pacifique.html"}
   - {marker: reg-nor,   csv: "North",             rda: "Agence canadienne de développement économique du Nord",       rda_url: "https://www.canada.ca/fr/developpement-economique-nord.html"}
 
+# La plupart des lignes du CSV ont une colonne `size` vide et s'affichent pour
+# toutes les tailles — cette liste ne compte que pour la rare ligne qui se
+# restreint elle-même, comme le Crédit pour les grandes entreprises
+# (`size: large`) ou la répartition NIA/PME d'Agri-marketing. size-nonprofit
+# a son propre compartiment `nonprofit` ici, distinct de under-1m — un
+# programme peut maintenant s'afficher pour les OSBL sans s'afficher aussi
+# pour toute entreprise sous 1 M$, et inversement. (Ses insignes
+# d'admissibilité sont un mécanisme différent, basé directement sur le
+# marqueur dans eligibility_rules ci-dessous, et empruntent toujours ceux de
+# size-under1m comme choix provisoire — inchangé par cette décision.)
+sizes:
+  - {marker: size-under1m,   csv: "under-1m"}
+  - {marker: size-nonprofit, csv: "nonprofit"}
+  - {marker: size-1to5m,     csv: "1to5m"}
+  - {marker: size-5mplus,    csv: "5mplus"}
+  - {marker: size-large,     csv: "large"}
+
 exclude_statuses: "no-page disputed"
 
 # ═══ PAGE DE DÉPART ══════════════════════════════════════════════════════════
@@ -100,7 +117,7 @@ business:
   questions:
     - id: question-1
       legend: "Question 1 sur 4 : De quoi avez-vous besoin en ce moment?"
-      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-2"
       options:
         - {marker: need-fin, label: "Du financement pour poursuivre vos activités ou prendre de l'expansion"}
@@ -110,7 +127,7 @@ business:
 
     - id: question-2
       legend: "Question 2 sur 4 : Où votre entreprise est-elle située?"
-      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-3"
       options:
         - {marker: reg-atl,  label: "Atlantique"}
@@ -123,10 +140,18 @@ business:
 
     - id: question-3
       legend: "Question 3 sur 4 : Quels sont votre taille et vos revenus?"
-      clears: "size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-4"
       options:
         - {marker: size-under1m, label: "Moins de 1 million de dollars de revenus annuels"}
+        # L'Initiative régionale de réponse tarifaire est aussi ouverte aux
+        # « organismes sans but lucratif, associations industrielles et
+        # sectorielles, chambres de commerce et entités provinciales qui
+        # soutiennent les entreprises touchées » — la partie sur les entités
+        # provinciales est volontairement omise de l'étiquette. Cette réponse
+        # est associée aux mêmes eligibility_rules que size-under1m
+        # ci-dessous, jusqu'à avis contraire.
+        - {marker: size-nonprofit, label: "Organisme sans but lucratif, association, chambre de commerce"}
         - {marker: size-1to5m,   label: "De 1 à 5 millions de dollars et 3 ans ou plus d'activité"}
         - {marker: size-5mplus,  label: "5 millions de dollars ou plus et 10 employés à temps plein ou plus"}
         - {marker: size-large,   label: "Grande entreprise"}
@@ -167,15 +192,17 @@ business:
     large_note: "En tant que grande entreprise, le Crédit pour les grandes entreprises touchées par les droits de douane est le volet conçu pour votre taille."
 
   eligibility_rules:
-    - {when: "size-1to5m",   show: wz-yrs-met,    display: inline-block}
-    - {when: "size-under1m", show: wz-yrs-review, display: inline-block}
-    - {when: "size-5mplus",  show: wz-yrs-review, display: inline-block}
-    - {when: "size-large",   show: wz-yrs-review, display: inline-block}
+    - {when: "size-1to5m",     show: wz-yrs-met,    display: inline-block}
+    - {when: "size-under1m",   show: wz-yrs-review, display: inline-block}
+    - {when: "size-nonprofit", show: wz-yrs-review, display: inline-block}
+    - {when: "size-5mplus",    show: wz-yrs-review, display: inline-block}
+    - {when: "size-large",     show: wz-yrs-review, display: inline-block}
 
-    - {when: "size-1to5m",   show: wz-rev-met,    display: inline-block}
-    - {when: "size-5mplus",  show: wz-rev-met,    display: inline-block}
-    - {when: "size-large",   show: wz-rev-met,    display: inline-block}
-    - {when: "size-under1m", show: wz-rev-notmet, display: inline-block}
+    - {when: "size-1to5m",     show: wz-rev-met,    display: inline-block}
+    - {when: "size-5mplus",    show: wz-rev-met,    display: inline-block}
+    - {when: "size-large",     show: wz-rev-met,    display: inline-block}
+    - {when: "size-under1m",   show: wz-rev-notmet, display: inline-block}
+    - {when: "size-nonprofit", show: wz-rev-notmet, display: inline-block}
 
     - {when: "sec-usexport", show: wz-us-met,    display: inline-block}
     - {when: "sec-forestry", show: wz-us-review, display: inline-block}

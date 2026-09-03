@@ -16,20 +16,25 @@ class TestRouting < Minitest::Test
   end
 
   # ── The sweep ───────────────────────────────────────────────────────────
+  # Crossed with every size answer too (700 total), not fixed at one size:
+  # most CSV rows ignore size entirely, but a row with a `size` column (like
+  # LETL) only shows for the sizes it lists, and that has to hold at every
+  # need x region x sector it could appear under, not just one hand-picked
+  # combination.
   Wizard::LANGS.each do |lang|
     define_method("test_every_combination_shows_the_programs_the_csv_says_#{lang}") do
       page = Wizard::BUSINESS[lang]
       failures = []
 
-      combos_for(lang).each do |c|
-        markers = [c[:need], c[:region], c[:sector], "size-1to5m"]
+      Wizard.combinations_with_size(lang).each do |c|
+        markers = [c[:need], c[:region], c[:sector], c[:size]]
         actual   = Wizard.visible_programs(page, markers).sort
-        expected = Wizard::Expected.programs(lang, c[:need], c[:region], c[:sector]).sort
+        expected = Wizard::Expected.programs(lang, c[:need], c[:region], c[:sector], c[:size]).sort
         next if actual == expected
 
         missing = expected - actual
         extra   = actual - expected
-        failures << "#{c[:need]} / #{c[:region]} / #{c[:sector]}" \
+        failures << "#{c[:need]} / #{c[:region]} / #{c[:sector]} / #{c[:size]}" \
                     "#{missing.empty? ? '' : "\n    missing: #{missing.map(&:first).join(', ')}"}" \
                     "#{extra.empty?   ? '' : "\n    extra:   #{extra.map(&:first).join(', ')}"}"
       end
@@ -37,7 +42,7 @@ class TestRouting < Minitest::Test
       shown = failures.first(12)
       more  = failures.size > shown.size ? "\n  ... and #{failures.size - shown.size} more" : ""
       assert_empty failures,
-        "#{failures.size} of #{combos_for(lang).size} combinations disagree with the CSV (#{lang}):\n  " +
+        "#{failures.size} of #{Wizard.combinations_with_size(lang).size} combinations disagree with the CSV (#{lang}):\n  " +
         shown.join("\n  ") + more
     end
 
@@ -72,6 +77,36 @@ class TestRouting < Minitest::Test
       refute Wizard.text(lang)["business"]["labels"].key?("route_body"), "#{lang}: route_body label is still defined"
     end
 
+    # A panel's own visibility is decided by need/sector/region alone; size
+    # only hides individual <li>s inside it (see "How a size-gated row hides
+    # itself"). Those are two separate mechanisms, so nothing stops a CSV
+    # edit from restricting every row in a panel to sizes that don't add up
+    # to "everyone" — the panel would still show (need/sector/region matched)
+    # with a heading and an empty body for whichever size that leaves out.
+    # Not a live bug today — every panel has at least one row visible at
+    # every size — but a spreadsheet edit could cause it silently, so the
+    # invariant is checked directly rather than trusted to hold by accident.
+    define_method("test_no_panel_ever_renders_with_zero_visible_programs_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      wrong = []
+
+      Wizard.combinations_with_size(lang).each do |c|
+        markers = [c[:need], c[:region], c[:sector], c[:size]]
+        visible = Wizard.visible_targets(page, markers)
+
+        Wizard.visible_panels(page, markers).each do |panel|
+          items = panel.css(".panel-body > ul > li").reject { |li| li["class"].to_s.split.include?("wz-crit") }
+          next if items.empty? # not a program-list panel (e.g. the eligibility section)
+
+          next if items.any? { |li| Wizard.shown?(li, visible) }
+          wrong << "#{c[:need]} / #{c[:region]} / #{c[:sector]} / #{c[:size]}: #{panel['class']}"
+        end
+      end
+
+      assert_empty wrong.uniq.first(12),
+        "panels rendered with a heading but no visible programs (#{lang}):\n  " + wrong.uniq.first(12).join("\n  ")
+    end
+
     # Answering only the first question must not reveal anything: every panel
     # is gated on at least a need *and* something else, or on nothing at all.
     define_method("test_no_results_before_the_last_answer_#{lang}") do
@@ -81,17 +116,55 @@ class TestRouting < Minitest::Test
         "#wz-results must start hidden; fieldflow un-hides it on the last answer"
     end
 
-    # Size answers change the eligibility badges, never the program list.
-    define_method("test_size_does_not_change_the_program_list_#{lang}") do
+    # Size mostly doesn't change the program list — only the eligibility
+    # badges — except for a CSV row that opts in via its `size` column. LETL
+    # is currently the only one; pinned explicitly rather than left to the
+    # exhaustive sweep alone, since "large enterprise only" is a decision
+    # someone made on purpose, not just a fact the CSV happens to encode.
+    define_method("test_letl_only_shows_for_size_large_#{lang}") do
       page = Wizard::BUSINESS[lang]
-      sizes = Wizard.size_markers(lang)
-      c = combos_for(lang).first
-      baseline = Wizard.visible_programs(page, [c[:need], c[:region], c[:sector], sizes.first]).sort
+      letl = Wizard.rows.find { |r| r["size"].to_s.strip == "large" }
+      refute_nil letl, "no row in the CSV is gated to size=large any more — was LETL's size column cleared?"
+      name = Wizard::Expected.display(letl, lang).first
 
-      sizes.drop(1).each do |s|
-        got = Wizard.visible_programs(page, [c[:need], c[:region], c[:sector], s]).sort
-        assert_equal baseline, got, "#{s} changed the program list"
+      Wizard.size_markers(lang).each do |sz|
+        shown = Wizard.visible_programs(page, ["need-liq", "reg-atl", "sec-usexport", sz]).map(&:first)
+        want  = (sz == "size-large")
+        assert_equal want, shown.include?(name),
+          "#{lang}: LETL #{shown.include?(name) ? 'shown' : 'hidden'} for #{sz}, expected #{want ? 'shown' : 'hidden'}"
       end
+    end
+
+    # AgriMarketing has two mutually exclusive streams for the same need x
+    # sector cell: SMEs (for-profit) and NIA (non-profits, industry
+    # associations). The CSV's `size` column is what tells them apart — one
+    # excludes size-nonprofit, the other is size-nonprofit only. Pinned so a
+    # future edit can't quietly let both, or neither, show together.
+    define_method("test_agrimarketing_sme_and_nia_are_mutually_exclusive_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      sme = Wizard.rows.find { |r| r["program_name"].to_s.include?("Market Diversification for SMEs") }
+      nia = Wizard.rows.find { |r| r["program_name"].to_s.include?("National Industry Associations") }
+      refute_nil sme, "the AgriMarketing SME row is missing"
+      refute_nil nia, "the AgriMarketing NIA row is missing"
+      sme_name = Wizard::Expected.display(sme, lang).first
+      nia_name = Wizard::Expected.display(nia, lang).first
+
+      Wizard.size_markers(lang).each do |sz|
+        shown = Wizard.visible_programs(page, ["need-tra", "reg-atl", "sec-agri", sz]).map(&:first)
+        want_nia = (sz == "size-nonprofit")
+        assert_equal !want_nia, shown.include?(sme_name), "#{lang}: SME stream wrong for #{sz}"
+        assert_equal want_nia, shown.include?(nia_name), "#{lang}: NIA stream wrong for #{sz}"
+      end
+    end
+
+    # Every CSV row that restricts itself by size must use a size the wizard
+    # actually asks about — a typo here would silently hide a program forever.
+    define_method("test_size_restricted_rows_use_known_sizes_#{lang}") do
+      known = Wizard.text(lang)["sizes"].map { |s| s["csv"] }
+      bad = Wizard.rows.reject { |r| r["size"].to_s.strip.empty? }
+                       .reject { |r| r["size"].split(";").map(&:strip).all? { |v| known.include?(v) } }
+      assert_empty bad.map { |r| "#{r['program_name']}: size=#{r['size'].inspect}" },
+        "#{lang}: rows with an unrecognised size value (known: #{known.join(', ')})"
     end
   end
 
@@ -131,9 +204,13 @@ class TestRouting < Minitest::Test
       page = Wizard::BUSINESS[lang]
       repeats = []
 
-      Wizard.combinations(lang).each do |c|
-        shown = Wizard.visible_programs(page, [c[:need], c[:region], c[:sector], "size-1to5m"])
-        where = "#{c[:need]} / #{c[:region]} / #{c[:sector]}"
+      # Crossed with size, not fixed at one: two rows could share a name or
+      # URL only when a *particular* size answer brings both into view (one
+      # via a size-restricted row, say, another via a hub that isn't
+      # restricted) — a single fixed size could miss that.
+      Wizard.combinations_with_size(lang).each do |c|
+        shown = Wizard.visible_programs(page, [c[:need], c[:region], c[:sector], c[:size]])
+        where = "#{c[:need]} / #{c[:region]} / #{c[:sector]} / #{c[:size]}"
 
         dup_names = shown.map(&:first).group_by { |n| n }.select { |_, v| v.size > 1 }.keys
         dup_names.each { |n| repeats << "#{where}: \"#{n}\" listed twice" }
