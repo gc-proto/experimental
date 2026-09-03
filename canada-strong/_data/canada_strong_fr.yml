@@ -126,7 +126,7 @@ business:
         - {marker: need-wrk, label: "Le maintien en poste et le recyclage de votre main-d'œuvre"}
 
     - id: question-2
-      legend: "Question 2 sur 4 : Où votre entreprise est-elle située?"
+      legend: "Question 2 sur 4 : Où votre entreprise a-t-elle son siège social?"
       clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-3"
       options:
@@ -166,48 +166,3 @@ business:
         - {marker: sec-mfg,      label: "Fabrication et autres exportateurs"}
         - {marker: sec-agri,     label: "Agriculture, agroalimentaire, poisson et fruits de mer"}
         - {marker: sec-usexport, label: "Exportations vers les États-Unis représentant 15 % ou plus de vos revenus"}
-
-  eligibility:
-    heading: "Critères d'admissibilité"
-    body: "Les programmes de cette page appliquent couramment ces critères. Il s'agit d'un guide et non d'une décision : le programme auquel vous présentez une demande rend la décision finale."
-    criteria:
-      - text: "Constituée en société au Canada"
-        badges:
-          - {status: review, label: "À vérifier"}
-      - text: "3 ans ou plus d'activité"
-        badges:
-          - {status: met,    label: "Satisfait",  class: wz-yrs-met}
-          - {status: review, label: "À vérifier", class: wz-yrs-review}
-      - text: "1 million de dollars ou plus de revenus annuels"
-        badges:
-          - {status: met,    label: "Satisfait",     class: wz-rev-met}
-          - {status: notmet, label: "Non satisfait", class: wz-rev-notmet}
-      - text: "Flux de trésorerie positif"
-        badges:
-          - {status: review, label: "À vérifier"}
-      - text: "15 % ou plus des revenus provenant d'exportations vers les États-Unis, ou une baisse de revenus ou une hausse de coûts de 10 % attribuable aux droits de douane"
-        badges:
-          - {status: met,    label: "Satisfait",  class: wz-us-met}
-          - {status: review, label: "À vérifier", class: wz-us-review}
-    large_note: "En tant que grande entreprise, le Crédit pour les grandes entreprises touchées par les droits de douane est le volet conçu pour votre taille."
-
-  eligibility_rules:
-    - {when: "size-1to5m",     show: wz-yrs-met,    display: inline-block}
-    - {when: "size-under1m",   show: wz-yrs-review, display: inline-block}
-    - {when: "size-nonprofit", show: wz-yrs-review, display: inline-block}
-    - {when: "size-5mplus",    show: wz-yrs-review, display: inline-block}
-    - {when: "size-large",     show: wz-yrs-review, display: inline-block}
-
-    - {when: "size-1to5m",     show: wz-rev-met,    display: inline-block}
-    - {when: "size-5mplus",    show: wz-rev-met,    display: inline-block}
-    - {when: "size-large",     show: wz-rev-met,    display: inline-block}
-    - {when: "size-under1m",   show: wz-rev-notmet, display: inline-block}
-    - {when: "size-nonprofit", show: wz-rev-notmet, display: inline-block}
-
-    - {when: "sec-usexport", show: wz-us-met,    display: inline-block}
-    - {when: "sec-forestry", show: wz-us-review, display: inline-block}
-    - {when: "sec-steel",    show: wz-us-review, display: inline-block}
-    - {when: "sec-mfg",      show: wz-us-review, display: inline-block}
-    - {when: "sec-agri",     show: wz-us-review, display: inline-block}
-
-    - {when: "size-large", show: wz-large-note}

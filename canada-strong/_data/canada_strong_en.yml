@@ -10,10 +10,10 @@
 # What lives here:
 #   needs / sectors / regions  the bridge between our answer markers and the
 #                              CSV's own need / sector / region vocabulary
+#   sizes                      the same, for the rare CSV row that restricts
+#                              itself by size (see the `size` column)
 #   questions                  the four questions and their answers
 #   labels                     headings the template builds results out of
-#   eligibility                the size-based criteria checklist
-#   eligibility_rules          which size answer shows which badge
 #
 # French is _data/canada_strong_fr.yml — the same shape, translated. The CSV is
 # shared between both: it carries name_fr and url_fr columns.
@@ -147,7 +147,7 @@ business:
         - {marker: need-wrk, label: "Workforce retention and retraining"}
 
     - id: question-2
-      legend: "Question 2 of 4: Where is your business located?"
+      legend: "Question 2 of 4: Where is your business headquartered?"
       clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-3"
       options:
@@ -186,57 +186,3 @@ business:
         - {marker: sec-mfg,      label: "Manufacturing and other exporters"}
         - {marker: sec-agri,     label: "Agriculture, agri-food, fish and seafood"}
         - {marker: sec-usexport, label: "Exporting to the U.S. with 15% or more of revenue from U.S. exports"}
-
-  # ── Eligibility checklist ──────────────────────────────────────────────────
-  # Criteria with one badge always show it. Criteria with several show whichever
-  # `eligibility_rules` below reveals for the chosen answers.
-  eligibility:
-    heading: "Eligibility criteria"
-    body: "Programs on this page commonly apply these criteria. This is a guide, not a decision — the program you apply to makes the final determination."
-    criteria:
-      - text: "Canadian-incorporated"
-        badges:
-          - {status: review, label: "Needs review"}
-      - text: "3 or more years operating"
-        badges:
-          - {status: met,    label: "Met",          class: wz-yrs-met}
-          - {status: review, label: "Needs review", class: wz-yrs-review}
-      - text: "$1 million or more in annual revenue"
-        badges:
-          - {status: met,    label: "Met",     class: wz-rev-met}
-          - {status: notmet, label: "Not met", class: wz-rev-notmet}
-      - text: "Positive cash flow"
-        badges:
-          - {status: review, label: "Needs review"}
-      - text: "15% or more of revenue from U.S. exports, or a 10% tariff-driven revenue decline or cost increase"
-        badges:
-          - {status: met,    label: "Met",          class: wz-us-met}
-          - {status: review, label: "Needs review", class: wz-us-review}
-    large_note: "As a large enterprise, the Large Enterprise Tariff Loan (LETL) is the stream built for your size."
-
-  # ── Eligibility badge rules ────────────────────────────────────────────────
-  # The only routing left in this file. Program routing comes from the CSV.
-  # size-nonprofit (non-profits, associations, boards of trade) is mapped to
-  # the same badges as size-under1m, not because it's actually under $1M, but
-  # because that's what we've been told for now — see the note by the
-  # question. Revisit if eligibility guidance for this group changes.
-  eligibility_rules:
-    - {when: "size-1to5m",     show: wz-yrs-met,    display: inline-block}
-    - {when: "size-under1m",   show: wz-yrs-review, display: inline-block}
-    - {when: "size-nonprofit", show: wz-yrs-review, display: inline-block}
-    - {when: "size-5mplus",    show: wz-yrs-review, display: inline-block}
-    - {when: "size-large",     show: wz-yrs-review, display: inline-block}
-
-    - {when: "size-1to5m",     show: wz-rev-met,    display: inline-block}
-    - {when: "size-5mplus",    show: wz-rev-met,    display: inline-block}
-    - {when: "size-large",     show: wz-rev-met,    display: inline-block}
-    - {when: "size-under1m",   show: wz-rev-notmet, display: inline-block}
-    - {when: "size-nonprofit", show: wz-rev-notmet, display: inline-block}
-
-    - {when: "sec-usexport", show: wz-us-met,    display: inline-block}
-    - {when: "sec-forestry", show: wz-us-review, display: inline-block}
-    - {when: "sec-steel",    show: wz-us-review, display: inline-block}
-    - {when: "sec-mfg",      show: wz-us-review, display: inline-block}
-    - {when: "sec-agri",     show: wz-us-review, display: inline-block}
-
-    - {when: "size-large", show: wz-large-note}

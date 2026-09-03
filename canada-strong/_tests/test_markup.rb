@@ -131,13 +131,13 @@ class TestMarkup < Minitest::Test
     # can override. Panels must use .wz-r instead.
     define_method("test_conditional_panels_do_not_use_bootstrap_hidden_#{lang}") do
       doc = Wizard.doc(Wizard::BUSINESS[lang])
-      clash = doc.css(".wz-r, .wz-rb").select { |n| n["class"].to_s.split.include?("hidden") }
+      clash = doc.css(".wz-r, .wz-sz").select { |n| n["class"].to_s.split.include?("hidden") }
       assert_empty clash.map { |n| n["class"] },
         "#{lang}: .hidden on a generated-rule target can never be overridden"
 
       style = Wizard.stylesheet(Wizard::BUSINESS[lang])
       assert_match(/\.wz-r\s*\{\s*display:\s*none/, style, "#{lang}: .wz-r has no hiding rule")
-      assert_match(/\.wz-rb\s*\{\s*display:\s*none/, style, "#{lang}: .wz-rb has no hiding rule")
+      assert_match(/\.wz-sz\s*\{\s*display:\s*none/, style, "#{lang}: .wz-sz has no hiding rule")
     end
 
     define_method("test_every_result_panel_has_a_heading_#{lang}") do

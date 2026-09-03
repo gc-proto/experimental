@@ -95,8 +95,8 @@ class TestRouting < Minitest::Test
         visible = Wizard.visible_targets(page, markers)
 
         Wizard.visible_panels(page, markers).each do |panel|
-          items = panel.css(".panel-body > ul > li").reject { |li| li["class"].to_s.split.include?("wz-crit") }
-          next if items.empty? # not a program-list panel (e.g. the eligibility section)
+          items = panel.css(".panel-body > ul > li")
+          next if items.empty? # not a program-list panel
 
           next if items.any? { |li| Wizard.shown?(li, visible) }
           wrong << "#{c[:need]} / #{c[:region]} / #{c[:sector]} / #{c[:size]}: #{panel['class']}"
@@ -116,11 +116,11 @@ class TestRouting < Minitest::Test
         "#wz-results must start hidden; fieldflow un-hides it on the last answer"
     end
 
-    # Size mostly doesn't change the program list — only the eligibility
-    # badges — except for a CSV row that opts in via its `size` column. LETL
-    # is currently the only one; pinned explicitly rather than left to the
-    # exhaustive sweep alone, since "large enterprise only" is a decision
-    # someone made on purpose, not just a fact the CSV happens to encode.
+    # Size mostly doesn't change the program list at all — it only matters for
+    # a CSV row that opts in via its `size` column. LETL is currently the only
+    # one; pinned explicitly rather than left to the exhaustive sweep alone,
+    # since "large enterprise only" is a decision someone made on purpose, not
+    # just a fact the CSV happens to encode.
     define_method("test_letl_only_shows_for_size_large_#{lang}") do
       page = Wizard::BUSINESS[lang]
       letl = Wizard.rows.find { |r| r["size"].to_s.strip == "large" }
@@ -243,8 +243,13 @@ class TestRouting < Minitest::Test
       answered = Wizard.text(lang)["business"]["questions"].flat_map { |q| q["options"].map { |o| o["marker"] } }
       used = Wizard.rules(page).flat_map { |r| r[:markers] }.uniq
 
+      # Manufacturing and the U.S.-exporter sector answers are documented as
+      # sector-agnostic-only — no dedicated stream, so no marker of their own
+      # in `sectors:`. They legitimately reveal nothing in the generated CSS.
+      agnostic_only = Wizard.sector_markers(lang) - Wizard.text(lang)["sectors"].map { |s| s["marker"] }
+
       assert_empty used - answered, "#{lang}: CSS gates on markers no answer stamps"
-      assert_empty answered - used, "#{lang}: answers that reveal nothing at all"
+      assert_empty answered - used - agnostic_only, "#{lang}: answers that reveal nothing at all"
     end
   end
 end

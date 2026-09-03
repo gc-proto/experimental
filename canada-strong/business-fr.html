@@ -3,7 +3,6 @@ layout: null
 ---
 {%- assign t = site.data.canada_strong_fr -%}
 {%- assign b = t.business -%}
-{%- assign e = b.eligibility -%}
 {%- assign L = b.labels -%}
 {%- assign NAME = "name_fr" -%}
 {%- assign URLF = "url_fr" -%}
@@ -41,17 +40,11 @@ layout: null
 			}));
 		</script>
 		<style>
-			/* Result panels and conditional badges start hidden. Deliberately not
-			   Bootstrap's .hidden, which is display:none !important and so could
-			   not be overridden by the rules below. */
-			.wz-badge { display: inline-block; border: 1px solid; border-radius: 3px; padding: 0 .4em; font-size: .85em; white-space: nowrap; }
-			.wz-met    { color: #17632f; border-color: #17632f; }
-			.wz-notmet { color: #a8271b; border-color: #a8271b; }
-			.wz-review { color: #515151; border-color: #515151; }
-			.wz-crit   { margin-bottom: .6em; }
-			.wz-org    { color: #515151; }
+			/* Result panels start hidden. Deliberately not Bootstrap's .hidden,
+			   which is display:none !important and so could not be overridden
+			   by the rules below. */
+			.wz-org { color: #515151; }
 			.wz-r  { display: none; }
-			.wz-rb { display: none; }
 			.wz-sz { display: none; }
 
 			/* ═══ Generated from _data/tariff_tool_links.csv ═══════════════════
@@ -64,7 +57,6 @@ layout: null
 {% endfor %}{% endfor %}{% for sec in t.sectors %}			#wz-state.{{ sec.marker }} .wz-hub-{{ sec.csv }} { display: block; }
 {% endfor %}{% for reg in t.regions %}			#wz-state.{{ reg.marker }} .wz-rda-{{ reg.marker }} { display: block; }
 {% endfor %}{% for sz in t.sizes %}			#wz-state.{{ sz.marker }} .wz-sz-{{ sz.marker }} { display: list-item; }
-{% endfor %}{% for row in b.eligibility_rules %}{% assign ms = row.when | split: " " %}			#wz-state{% for m in ms %}.{{ m }}{% endfor %} .{{ row.show }} { display: {{ row.display | default: "block" }}; }
 {% endfor %}		</style>
 	</head>
 	<body vocab="https://schema.org/" typeof="WebPage">
@@ -190,24 +182,8 @@ layout: null
 									</div>
 								</section>
 
-								<section class="panel panel-default mrgn-tp-md">
-									<header class="panel-heading">
-										<h3 class="panel-title h4">{{ e.heading }}</h3>
-									</header>
-									<div class="panel-body">
-										<p>{{ e.body }}</p>
-										<ul class="list-unstyled mrgn-tp-md">
-											{% for c in e.criteria %}<li class="wz-crit">{{ c.text }}
-												{% for badge in c.badges %}<span class="wz-badge wz-{{ badge.status }}{% if badge.class %} wz-rb {{ badge.class }}{% endif %}">{{ badge.label }}</span>{% endfor %}
-											</li>
-											{% endfor %}
-										</ul>
-										<p class="wz-r wz-large-note"><strong>{{ e.large_note }}</strong></p>
-										{% for reg in t.regions %}<p class="wz-r wz-rda-{{ reg.marker }} mrgn-bttm-0">{{ L.rda_prefix }}<a href="{{ reg.rda_url }}">{{ reg.rda }}</a></p>
-										{% endfor %}
-									</div>
-								</section>
-
+								{% for reg in t.regions %}<p class="wz-r wz-rda-{{ reg.marker }} mrgn-tp-md mrgn-bttm-0">{{ L.rda_prefix }}<a href="{{ reg.rda_url }}">{{ reg.rda }}</a></p>
+								{% endfor %}
 								<p class="mrgn-tp-lg"><a href="{{ b.back_href }}">{{ b.back_link }}</a></p>
 							</div>
 						</div>
@@ -227,6 +203,7 @@ layout: null
 				var defPreFooter = document.getElementById("def-preFooter");
 				defPreFooter.outerHTML = wet.builder.preFooter({
 					"dateModified": "{{ t.date_modified }}",
+					"showShare": false,
 					"cdnEnv": "esdcprod"
 				});
 			</script>

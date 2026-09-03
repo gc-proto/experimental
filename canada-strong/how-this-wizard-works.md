@@ -20,7 +20,6 @@ Live on test.canada.ca:
 | Add, move, retire or re-link a **program** | `_data/tariff_tool_links.csv` |
 | Fix a **program name or URL**, in either language | `_data/tariff_tool_links.csv` |
 | Change a **question, answer, heading or label** | `_data/canada_strong_en.yml` / `_fr.yml` |
-| Change the **eligibility criteria** or which size shows which badge | the same two YAML files |
 | Change **layout or markup** | `business-*.html` / `start-*.html` |
 | Check you did not break anything | `ruby _tests/run.rb` |
 
@@ -30,11 +29,11 @@ on and copied as a unit — see "This folder stands alone" below.
 
 ```
 _data/tariff_tool_links.csv    59 rows — every program, both languages, and its routing
-_data/canada_strong_en.yml     English interface text + eligibility rules
+_data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 116 tests over the files above
+_tests/                        the suite: 107 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
@@ -142,8 +141,8 @@ section around it.
 
 Each `<li>` checks its own row's `size` column at build time. If it's blank, nothing
 changes — the `<li>` has no class and is never hidden, exactly like before this existed. If
-it's set, the `<li>` gets `wz-sz` (hidden by default, same idea as `.wz-r`/`.wz-rb`) plus
-one `wz-sz-{{ marker }}` class per size the row lists:
+it's set, the `<li>` gets `wz-sz` (hidden by default, same idea as `.wz-r`) plus one
+`wz-sz-{{ marker }}` class per size the row lists:
 
 ```liquid
 <li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>
@@ -266,9 +265,9 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 - **The CSV**: required columns, closed vocabularies for need / sector / region / status,
   https URLs, French coverage on every row that renders, no untriaged duplicate
   destinations.
-- **Eligibility**: exactly one badge per criterion for all twenty size x sector pairs,
-  nothing painted before its question is answered, and exactly one RDA link — the right
-  one — for whichever region was chosen.
+- **RDA link**: exactly one — the right one — for whichever region was chosen, sitting
+  directly above "Start over", and that the removed eligibility criteria section stays
+  fully gone rather than just unreachable.
 - **Markup**: one h1 and no skipped heading levels, the fieldflow chain, the reset
   cascade, and each gotcha listed above — `.hidden` on a generated-rule target, the wrong
   `wet-*.js`, the missing space before a French colon, missing `layout: null`.
@@ -317,14 +316,16 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   — so one answer would have shown every Ontario business both agencies' regional program.
   The split is at Muskoka, with the answer labels naming the boundary and Parry Sound
   explicitly, since that's the district people are most likely to be unsure about.
-- **The eligibility section ends with a link to the business's own RDA.** Not the region's
-  tariff-specific program — that's already linked above, under "Programs for your region" —
-  but the agency's own homepage, added because the RDA is worth pointing to regardless of
-  what the CSV's programs turn up for that need. It's not deck content: `regions:` in each
-  YAML gained `rda` and `rda_url` fields alongside the marker and `csv` value, names taken
-  from each page's own `<h1>`, all seven URLs checked live on 2026-09-03. The paragraph for
-  every region is in the DOM at once, one `#wz-state.reg-marker .wz-rda-reg-marker` rule
-  each, same pattern as the sector hubs' `.wz-hub-*` rule just above it.
+- **Results end with a link to the business's own RDA**, just above "Start over." Not the
+  region's tariff-specific program — that's already linked above, under "Programs for your
+  region" — but the agency's own homepage, there because the RDA is worth pointing to
+  regardless of what the CSV's programs turn up for that need. It's not deck content:
+  `regions:` in each YAML carries `rda` and `rda_url` fields alongside the marker and `csv`
+  value, names taken from each page's own `<h1>`, all seven URLs checked live on
+  2026-09-03. The paragraph for every region is in the DOM at once, one
+  `#wz-state.reg-marker .wz-rda-reg-marker` rule each, same pattern as the sector hubs'
+  `.wz-hub-*` rule above it. It originally sat inside the eligibility criteria section —
+  see the removal entry below for why it moved.
 - **An empty sector cell shows nothing, not a "no stream" box.** The original design put
   up a panel reading "No stream specific to your sector" for the six need x sector
   combinations the CSV has no dedicated program for. In practice a box announcing an
@@ -337,12 +338,9 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   Regional Tariff Response Initiative is also open to "non-profit organizations, industry
   and sector associations, boards of trade, and provincial entities that support affected
   businesses" — the provincial-entities part is left out of the label on purpose, per
-  direction. It sits right after "Under $1 million," and is mapped to that same answer's
-  eligibility badges (`size-nonprofit` uses `size-under1m`'s `eligibility_rules` rows) as a
-  placeholder until there's real guidance for this group specifically —
-  `test_nonprofit_size_answer_matches_under1m_badges` pins that so it can't drift quietly.
-  At the time this was written size only changed the eligibility badges, never which
-  programs showed — the next entry is why that's no longer true.
+  direction. It sits right after "Under $1 million." At the time this was added, size only
+  changed the (since-removed) eligibility badges, never which programs showed — the next
+  entry is why that's no longer true.
 - **Size can now gate an individual program, not just badges.** LETL's own research note
   said "Large enterprise only - gate on the Q3 size answer" and nothing did. The CSV gained
   a `size` column (blank means shown to everyone, which is nearly every row) and LETL is
@@ -355,9 +353,24 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   `size: nonprofit`; the SME row is every other size. This is also why `size-nonprofit`
   needed its own bucket in the `sizes:` bridge rather than sharing `size-under1m`'s — two
   programs that both restrict by size, one to "actual businesses under $1M" and one to
-  "non-profits," would otherwise be indistinguishable to the routing mechanism, even though
-  their eligibility badges still deliberately share size-under1m's as a placeholder. Pinned
-  by `test_agrimarketing_sme_and_nia_are_mutually_exclusive`.
+  "non-profits," would otherwise be indistinguishable to the routing mechanism. Pinned by
+  `test_agrimarketing_sme_and_nia_are_mutually_exclusive`.
+- **The eligibility criteria checklist is gone.** The badge grid — Canadian-incorporated,
+  years operating, revenue, cash flow, U.S.-export share, each with a Met/Not
+  met/Needs review badge — read as confusing next to the results rather than helpful, so
+  the whole section was removed: `eligibility` and `eligibility_rules` are gone from both
+  YAML files, and `.wz-badge` / `.wz-met` / `.wz-notmet` / `.wz-review` / `.wz-crit` /
+  `.wz-rb` and their generated CSS loop are gone from both templates.
+  `size-nonprofit`'s eligibility-badge placeholder decision (the previous two entries)
+  is moot now that there's no badge UI left — its `size` column routing (LETL,
+  AgriMarketing/NIA) is a separate mechanism and is unaffected.
+- **"Where is your business headquartered?"**, not "located" — a business with sites in
+  more than one region needs a single answer to give, and headquarters is the
+  unambiguous one.
+- **The CDTS "Share this page" widget is off, on all four pages.** `wet.builder.preFooter`
+  defaults to showing it — passing `"showShare": false` is what turns it off; there's no
+  markup of our own to remove; the widget didn't exist in this repo's source at all before
+  WET's own JS built it in as a default.
 
 ## Next steps
 
@@ -386,11 +399,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    (~33px), tighten the gap to `mrgn-bttm-sm` (~20px). Buttons cost only 12px more than
    plain links, so they are not the thing to cut.
 6. **Consider a worker path prototype** if that page needs design work rather than a link.
-7. **Give `size-nonprofit` its own eligibility badges** once there's real guidance for
-   non-profits, associations and boards of trade — it currently borrows `size-under1m`'s as
-   a placeholder (see "what we changed"), and "3 or more years operating" / "$1 million or
-   more in annual revenue" are business-shaped criteria that may not fit this group at all.
-8. **Consider the Kosher and Halal Investment Component** as a third AgriMarketing row.
+7. **Consider the Kosher and Halal Investment Component** as a third AgriMarketing row.
    Research on the SME/NIA split turned this up as a further stream under the same
    program, sector-specific rather than size-specific — not added, since its own URL and
    French name still need the same live-page verification every other row got.
