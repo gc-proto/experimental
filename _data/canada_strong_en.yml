@@ -1,26 +1,26 @@
 # ─────────────────────────────────────────────────────────────────────────────
-# Canada Strong tariff support tool — all English text and all routing logic.
+# Canada Strong tariff support tool — English interface text.
 #
-# Source: canada-strong-tariff-tool-LB_Sept_01.pdf (5 slides, Sept 1 2026).
+# THIS FILE HOLDS WORDS, NOT PROGRAMS.
 #
-# Nothing in canada-strong/*.html is hardcoded copy — to change what the wizard
-# says or what it returns, change this file. A French version is a copy of this
-# file as _data/canada_strong_fr.yml plus `fr` pages pointing at it.
+# Which programs appear for which answers lives in _data/tariff_tool_links.csv,
+# one row per program. To add, move, retire or re-link a program, edit that CSV
+# in a spreadsheet — nothing here needs to change.
 #
-# Three things live here:
-#   questions:  the four business questions and their answers
-#   panels:     the result panels and the programs inside them
-#   matrix:     which combination of answers reveals which panel
+# What lives here:
+#   needs / sectors / regions  the bridge between our answer markers and the
+#                              CSV's own need / sector / region vocabulary
+#   questions                  the four questions and their answers
+#   labels                     headings the template builds results out of
+#   eligibility                the size-based criteria checklist
+#   eligibility_rules          which size answer shows which badge
 #
-# Every program link is a placeholder (#) in this pass — see `todo` below.
+# French is _data/canada_strong_fr.yml — the same shape, translated. The CSV is
+# shared between both: it carries name_fr and url_fr columns.
 # ─────────────────────────────────────────────────────────────────────────────
 
 lang: en
 date_modified: "2026-09-02"
-
-# Where the CDTS language toggle points. Until French pages exist this is the
-# live Canada.ca French landing page.
-alt_lang_href: "https://www.canada.ca/fr/ministere-finances/programmes/politiques-finances-echanges-internationaux/reponse-canada-droits-douane-americains.html"
 alt_lang_text: "Français"
 
 breadcrumbs:
@@ -29,13 +29,40 @@ breadcrumbs:
   - title: "Canada's response to US tariffs"
     href: "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs.html"
 
-prototype_notice:
-  heading: "Prototype"
-  # Each page supplies its own body under `notice` below.
+# ═══ VOCABULARY BRIDGE ═══════════════════════════════════════════════════════
+# Our answer markers on the left, the CSV's values on the right. Change a CSV
+# value here if you rename one in the spreadsheet.
+needs:
+  - {marker: need-fin, csv: financing,      heading: "Financing"}
+  - {marker: need-liq, csv: liquidity,      heading: "Liquidity"}
+  - {marker: need-tra, csv: transformation, heading: "Transformation and capital projects"}
+  - {marker: need-wrk, csv: workforce,      heading: "Workforce retention and retraining"}
 
-# ═══ START PAGE (slide 1) ════════════════════════════════════════════════════
-# Three choices, one line of supporting text each, no card chrome — the page is
-# meant to fit a phone screen without scrolling.
+# Sectors that have rows of their own in the CSV. Manufacturing and the
+# U.S.-exporter answer are deliberately absent: they have no sector-specific
+# stream, so they see the sector-agnostic results only.
+sectors:
+  - {marker: sec-forestry, csv: forestry-and-lumber, heading: "Forestry and lumber"}
+  - {marker: sec-steel,    csv: steel-and-aluminum,  heading: "Steel and aluminum"}
+  - {marker: sec-agri,     csv: agriculture,         heading: "Agriculture"}
+
+# Ontario maps to two CSV regions; separate multiple values with a semicolon.
+regions:
+  - {marker: reg-atl, csv: "Atlantic"}
+  - {marker: reg-qc,  csv: "Quebec"}
+  - {marker: reg-on,  csv: "Southern Ontario;Northern Ontario"}
+  - {marker: reg-pr,  csv: "Prairies"}
+  - {marker: reg-bc,  csv: "British Columbia"}
+  - {marker: reg-nor, csv: "North"}
+
+# CSV rows carrying these statuses are never rendered.
+#   no-page   the research found no program by that name
+#   disputed  the deck named a program the department does not route to
+# Removing a status here brings those rows back — that is the whole fix for the
+# forestry transformation cell, which the deck got wrong.
+exclude_statuses: "no-page disputed"
+
+# ═══ START PAGE ══════════════════════════════════════════════════════════════
 start:
   title: "Find support for tariff impacts"
   description: "Find the federal supports available to businesses, employers and workers affected by United States tariffs."
@@ -56,17 +83,28 @@ start:
       cta: "Give me the overview"
       href: "https://www.canada.ca/en/government/united-states-canada.html"
 
-# ═══ BUSINESS WIZARD (slides 2, 3, 4) ════════════════════════════════════════
+# ═══ BUSINESS WIZARD ═════════════════════════════════════════════════════════
 business:
   title: "Find support for your business"
   description: "Answer four questions to get a shortlist of federal programs for businesses affected by United States tariffs."
   h1: "Find support for your business"
-  notice: "This is a design prototype. Every program name in the results links to a placeholder, not to the real program page."
   intro: "Answer four questions and we will show you the programs that fit your need, your region, your size and your sector."
   questions_heading: "Tell us about your business"
   results_heading: "Programs that match your answers"
   back_link: "Start over"
   back_href: "start-en.html"
+
+  # Headings the template assembles around the CSV rows.
+  labels:
+    # French puts a space before a colon; English does not.
+    heading_sep: ": "
+    agnostic_suffix: "open to all sectors"
+    route_heading: "No stream specific to your sector"
+    route_body: "There is no program stream built for your sector and this need. The programs below are open to all sectors and are where you should start."
+    region_heading: "Programs for your region"
+    region_footnote: "Regional criteria and intake dates vary."
+    hub_heading: "Where these programs are listed"
+    hub_body: "These hubs are the departments' own lists. They are kept current, so check them if something here looks out of date."
 
   # ── The four questions ─────────────────────────────────────────────────────
   # `clears` lists every marker this question resets before applying the new
@@ -117,128 +155,9 @@ business:
         - {marker: sec-agri,     label: "Agriculture, agri-food, fish and seafood"}
         - {marker: sec-usexport, label: "Exporting to the U.S. with 15% or more of revenue from U.S. exports"}
 
-  # ── Result panels, in the order they appear ────────────────────────────────
-  # `always: true` means the panel is not filtered — it shows with every result.
-  panels:
-
-    # Sector rows from slide 4
-    - id: wz-liq-forestry
-      heading: "Forestry and lumber: liquidity"
-      programs:
-        - {name: "BDC Forestry Liquidity"}
-        - {name: "BDC Softwood Lumber Guarantee"}
-
-    - id: wz-tra-forestry
-      heading: "Forestry and lumber: transformation"
-      programs:
-        - {name: "BDC Forestry Transformation"}
-
-    - id: wz-fin-agri
-      heading: "Agriculture: financing"
-      programs:
-        - {name: "Canadian Agricultural Loans Act", note: "Loan guarantees for farmers and co-operatives."}
-        - {name: "FCC term loan support"}
-
-    - id: wz-liq-agri
-      heading: "Agriculture: liquidity"
-      programs:
-        - {name: "AAFC Advance Payments Program"}
-        - {name: "FCC Trade Disruption Program"}
-        - {name: "AgriStability"}
-        - {name: "AgriInvest and Price Pooling"}
-
-    - id: wz-tra-agri
-      heading: "Agriculture: transformation"
-      programs:
-        - {name: "AAFC AgriMarketing Market Diversification"}
-        - {name: "AAFC Agricultural Trade Commissioner Service"}
-        - {name: "AAFC Canada Brand and the agri-food single window"}
-
-    - id: wz-liq-steel
-      heading: "Steel and aluminum: liquidity"
-      programs:
-        - {name: "BDC Steel and Aluminium"}
-
-    - id: wz-agnostic-only
-      heading: "No stream specific to your sector"
-      body: "There is no program stream built for your sector and this need. The programs below are open to all sectors and are where you should start."
-      programs: []
-
-    # Sector-agnostic column from slide 4
-    - id: wz-need-fin
-      heading: "Financing: open to all sectors"
-      programs:
-        - {name: "BDC Pivot to Grow"}
-        - {name: "BDC Equipment Financing"}
-        - {name: "EDC Working Capital Support"}
-        - {name: "EDC Export Financing Loans"}
-
-    - id: wz-need-liq
-      heading: "Liquidity: open to all sectors"
-      programs:
-        - {name: "BDC Pivot to Grow Liquidity"}
-        - {name: "CEEFC Large Enterprise Tariff Loan Facility"}
-        - {name: "RDA Regional Tariff Response Initiative"}
-
-    - id: wz-need-tra
-      heading: "Transformation and capital projects: open to all sectors"
-      programs:
-        - {name: "ISED Strategic Response Fund"}
-        - {name: "RDA Regional Tariff Response Initiative"}
-        - {name: "EDC Market Diversification Support"}
-        - {name: "GAC Trade Commissioner Service"}
-
-    # Slide 3 — the employer workforce supports, shown when workforce is the need
-    - id: wz-need-wrk
-      heading: "Workforce retention and retraining"
-      body: "When workforce retention and retraining is your need, these are the programs to start with."
-      programs:
-        - {name: "Work-Sharing agreement", note: "Measures for employers experiencing a temporary reduction in business."}
-        - {name: "Worker Retention Grant", note: "Enables employers with an approved and implemented Work-Sharing agreement to provide additional income support to their EI eligible employees who are working reduced hours and are on training."}
-        - {name: "ESDC Rapid Response Supports for Workers and Employers", note: "Up to $1,000 per participant. LMDA-funded provincial programs deliver the training itself."}
-        - {name: "Student Work Placement Program", note: "Apply for wage subsidies to hire post-secondary students."}
-
-    # Regional development agencies (slide 2, question 2)
-    - id: wz-rda-atl
-      heading: "Your regional development agency: Atlantic"
-      programs: [{name: "Atlantic Canada Opportunities Agency (ACOA)"}]
-      footnote: "Regional criteria and intake dates vary."
-    - id: wz-rda-qc
-      heading: "Your regional development agency: Quebec"
-      programs: [{name: "Canada Economic Development for Quebec Regions (CED)"}]
-      footnote: "Regional criteria and intake dates vary."
-    - id: wz-rda-on
-      heading: "Your regional development agency: Ontario"
-      programs:
-        - {name: "FedDev Ontario", note: "Southern Ontario."}
-        - {name: "FedNor", note: "Northern Ontario."}
-      footnote: "Regional criteria and intake dates vary."
-    - id: wz-rda-pr
-      heading: "Your regional development agency: Prairies"
-      programs: [{name: "Prairies Economic Development Canada (PrairiesCan)"}]
-      footnote: "Regional criteria and intake dates vary."
-    - id: wz-rda-bc
-      heading: "Your regional development agency: British Columbia"
-      programs: [{name: "Pacific Economic Development Canada (PacifiCan)"}]
-      footnote: "Regional criteria and intake dates vary."
-    - id: wz-rda-nor
-      heading: "Your regional development agency: the North"
-      programs: [{name: "Canadian Northern Economic Development Agency (CanNor)"}]
-      footnote: "Regional criteria and intake dates vary."
-
-    # Extra resources
-    - id: wz-agpal
-      heading: "More agriculture resources"
-      programs: [{name: "AgPal"}]
-
-    - id: wz-bbf
-      heading: "More business supports"
-      always: true
-      programs: [{name: "Business Benefits Finder (ISED)"}]
-
-  # ── Eligibility checklist (slide 2, bottom) ────────────────────────────────
-  # Criteria with one badge always show that badge. Criteria with several show
-  # whichever one the `matrix` rules below reveal for the chosen answers.
+  # ── Eligibility checklist ──────────────────────────────────────────────────
+  # Criteria with one badge always show it. Criteria with several show whichever
+  # `eligibility_rules` below reveals for the chosen answers.
   eligibility:
     heading: "Eligibility criteria"
     body: "Programs on this page commonly apply these criteria. This is a guide, not a decision — the program you apply to makes the final determination."
@@ -261,53 +180,11 @@ business:
         badges:
           - {status: met,    label: "Met",          class: wz-us-met}
           - {status: review, label: "Needs review", class: wz-us-review}
-    large_note: "As a large enterprise, the CEEFC Large Enterprise Tariff Loan Facility is the stream built for your size."
+    large_note: "As a large enterprise, the Large Enterprise Tariff Loan (LETL) is the stream built for your size."
 
-  # ── The matrix: which answers reveal which panel ───────────────────────────
-  # `when` is one or more answer markers that must all be selected.
-  # `show` is the panel or badge revealed. `display` defaults to block.
-  # To change what a combination returns, change one line here.
-  matrix:
-
-    # Sector-agnostic column — keyed on the need alone
-    - {when: "need-fin", show: wz-need-fin}
-    - {when: "need-liq", show: wz-need-liq}
-    - {when: "need-tra", show: wz-need-tra}
-    - {when: "need-wrk", show: wz-need-wrk}
-
-    # Slide 4 matrix — rows are sectors, columns are needs, all 12 cells present
-    #                        FINANCING          LIQUIDITY          TRANSFORMATION     WORKFORCE
-    - {when: "sec-forestry need-fin", show: wz-agnostic-only}
-    - {when: "sec-forestry need-liq", show: wz-liq-forestry}
-    - {when: "sec-forestry need-tra", show: wz-tra-forestry}
-    - {when: "sec-forestry need-wrk", show: wz-agnostic-only}
-
-    - {when: "sec-agri need-fin", show: wz-fin-agri}
-    - {when: "sec-agri need-liq", show: wz-liq-agri}
-    - {when: "sec-agri need-tra", show: wz-tra-agri}
-    - {when: "sec-agri need-wrk", show: wz-agnostic-only}
-
-    - {when: "sec-steel need-fin", show: wz-agnostic-only}
-    - {when: "sec-steel need-liq", show: wz-liq-steel}
-    - {when: "sec-steel need-tra", show: wz-agnostic-only}
-    - {when: "sec-steel need-wrk", show: wz-agnostic-only}
-
-    # Manufacturing and U.S. exporters have no sector row: agnostic throughout
-    - {when: "sec-mfg",      show: wz-agnostic-only}
-    - {when: "sec-usexport", show: wz-agnostic-only}
-
-    # Extra resources
-    - {when: "sec-agri", show: wz-agpal}
-
-    # Regional development agency
-    - {when: "reg-atl", show: wz-rda-atl}
-    - {when: "reg-qc",  show: wz-rda-qc}
-    - {when: "reg-on",  show: wz-rda-on}
-    - {when: "reg-pr",  show: wz-rda-pr}
-    - {when: "reg-bc",  show: wz-rda-bc}
-    - {when: "reg-nor", show: wz-rda-nor}
-
-    # Eligibility badges
+  # ── Eligibility badge rules ────────────────────────────────────────────────
+  # The only routing left in this file. Program routing comes from the CSV.
+  eligibility_rules:
     - {when: "size-1to5m",   show: wz-yrs-met,    display: inline-block}
     - {when: "size-under1m", show: wz-yrs-review, display: inline-block}
     - {when: "size-5mplus",  show: wz-yrs-review, display: inline-block}
@@ -325,14 +202,3 @@ business:
     - {when: "sec-agri",     show: wz-us-review, display: inline-block}
 
     - {when: "size-large", show: wz-large-note}
-
-# ─────────────────────────────────────────────────────────────────────────────
-# TODO before this goes past prototype
-#   - Replace every program href (currently "#") with the real intake page.
-#   - Slide 4 says each result should show amount, term and repayment terms up
-#     front. The deck gives no figures, so nothing is shown; add an `amount`,
-#     `term` and `repayment` key per program once the numbers are confirmed.
-#   - Confirm the RDA names and that Ontario should list both FedDev and FedNor.
-#   - Confirm the eligibility statuses per size band below are the intended
-#     reading of slide 2's filter list.
-# ─────────────────────────────────────────────────────────────────────────────

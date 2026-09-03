@@ -1,0 +1,177 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Outil de soutien tarifaire Canada fort — texte de l'interface en français.
+#
+# CE FICHIER CONTIENT DES MOTS, PAS DES PROGRAMMES.
+#
+# Les programmes affichés selon les réponses proviennent de
+# _data/tariff_tool_links.csv, partagé avec l'anglais : ce fichier porte les
+# colonnes name_fr et url_fr. Pour ajouter, déplacer, retirer ou relier un
+# programme, modifiez le CSV — rien ici ne change.
+#
+# Même structure que _data/canada_strong_en.yml. Les clés (marker, csv, status)
+# restent en anglais : ce sont des identifiants, pas du texte affiché.
+# ─────────────────────────────────────────────────────────────────────────────
+
+lang: fr
+date_modified: "2026-09-02"
+alt_lang_text: "English"
+
+breadcrumbs:
+  - title: "Canada.ca"
+    href: "https://www.canada.ca/fr.html"
+  - title: "Réponse du Canada aux droits de douane américains"
+    href: "https://www.canada.ca/fr/ministere-finances/programmes/politiques-finances-echanges-internationaux/reponse-canada-droits-douane-americains.html"
+
+# ═══ PONT DE VOCABULAIRE ═════════════════════════════════════════════════════
+# Nos marqueurs de réponse à gauche, les valeurs du CSV à droite. Les valeurs
+# `csv` sont identiques à celles du fichier anglais : c'est le même CSV.
+needs:
+  - {marker: need-fin, csv: financing,      heading: "Financement"}
+  - {marker: need-liq, csv: liquidity,      heading: "Liquidités"}
+  - {marker: need-tra, csv: transformation, heading: "Transformation et projets d'immobilisations"}
+  - {marker: need-wrk, csv: workforce,      heading: "Maintien en poste et recyclage de la main-d'œuvre"}
+
+sectors:
+  - {marker: sec-forestry, csv: forestry-and-lumber, heading: "Foresterie et bois d'œuvre"}
+  - {marker: sec-steel,    csv: steel-and-aluminum,  heading: "Acier et aluminium"}
+  - {marker: sec-agri,     csv: agriculture,         heading: "Agriculture"}
+
+regions:
+  - {marker: reg-atl, csv: "Atlantic"}
+  - {marker: reg-qc,  csv: "Quebec"}
+  - {marker: reg-on,  csv: "Southern Ontario;Northern Ontario"}
+  - {marker: reg-pr,  csv: "Prairies"}
+  - {marker: reg-bc,  csv: "British Columbia"}
+  - {marker: reg-nor, csv: "North"}
+
+exclude_statuses: "no-page disputed"
+
+# ═══ PAGE DE DÉPART ══════════════════════════════════════════════════════════
+start:
+  title: "Trouver du soutien face aux droits de douane"
+  description: "Trouvez les mesures de soutien fédérales offertes aux entreprises, aux employeurs et aux travailleurs touchés par les droits de douane américains."
+  h1: "Trouver du soutien face aux droits de douane"
+  intro: "Trouvez le soutien qu'il vous faut"
+  options:
+    - label: "Je suis une entreprise ou un employeur"
+      description: "Répondez à quatre questions sur votre besoin, votre région, votre taille et votre secteur"
+      cta: "Dressez ma liste"
+      href: "business-fr.html"
+    - label: "Je suis un travailleur ou une travailleuse"
+      description: "Accédez directement au soutien du revenu, à la formation et à l'aide aux étudiants"
+      cta: "Montrez-moi le soutien aux travailleurs"
+      # Provisoire : la page en ligne de Canada.ca tient lieu de prototype travailleur
+      href: "https://www.canada.ca/fr/ministere-finances/programmes/politiques-finances-echanges-internationaux/reponse-canada-droits-douane-americains/soutien-employeurs-et-travailleurs-canadiens.html#a1"
+    - label: "Je veux plus d'information"
+      description: "Aperçu général de la réponse du Canada aux droits de douane américains"
+      cta: "Donnez-moi l'aperçu"
+      href: "https://www.canada.ca/fr/gouvernement/etats-unis-canada.html"
+
+# ═══ ASSISTANT POUR LES ENTREPRISES ══════════════════════════════════════════
+business:
+  title: "Trouver du soutien pour votre entreprise"
+  description: "Répondez à quatre questions pour obtenir une liste de programmes fédéraux destinés aux entreprises touchées par les droits de douane américains."
+  h1: "Trouver du soutien pour votre entreprise"
+  intro: "Répondez à quatre questions et nous vous montrerons les programmes qui correspondent à votre besoin, à votre région, à votre taille et à votre secteur."
+  questions_heading: "Parlez-nous de votre entreprise"
+  results_heading: "Programmes correspondant à vos réponses"
+  back_link: "Recommencer"
+  back_href: "start-fr.html"
+
+  labels:
+    # French puts a space before a colon; English does not.
+    heading_sep: " : "
+    agnostic_suffix: "tous secteurs confondus"
+    route_heading: "Aucun volet propre à votre secteur"
+    route_body: "Il n'existe pas de volet conçu pour votre secteur et ce besoin. Les programmes ci-dessous sont ouverts à tous les secteurs et constituent votre point de départ."
+    region_heading: "Programmes pour votre région"
+    region_footnote: "Les critères régionaux et les dates de réception des demandes varient."
+    hub_heading: "Où ces programmes sont répertoriés"
+    hub_body: "Ces carrefours sont les listes tenues par les ministères eux-mêmes. Ils sont à jour : consultez-les si une information ici semble désuète."
+
+  questions:
+    - id: question-1
+      legend: "Question 1 sur 4 : De quoi avez-vous besoin en ce moment?"
+      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      next: "question-2"
+      options:
+        - {marker: need-fin, label: "Du financement pour poursuivre vos activités ou prendre de l'expansion"}
+        - {marker: need-liq, label: "Des liquidités pour combler un manque de trésorerie causé par les droits de douane"}
+        - {marker: need-tra, label: "Un projet de transformation ou d'immobilisations"}
+        - {marker: need-wrk, label: "Le maintien en poste et le recyclage de votre main-d'œuvre"}
+
+    - id: question-2
+      legend: "Question 2 sur 4 : Où votre entreprise est-elle située?"
+      clears: "reg-atl reg-qc reg-on reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      next: "question-3"
+      options:
+        - {marker: reg-atl, label: "Atlantique"}
+        - {marker: reg-qc,  label: "Québec"}
+        - {marker: reg-on,  label: "Ontario"}
+        - {marker: reg-pr,  label: "Prairies"}
+        - {marker: reg-bc,  label: "Colombie-Britannique"}
+        - {marker: reg-nor, label: "Le Nord"}
+
+    - id: question-3
+      legend: "Question 3 sur 4 : Quels sont votre taille et vos revenus?"
+      clears: "size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      next: "question-4"
+      options:
+        - {marker: size-under1m, label: "Moins de 1 million de dollars de revenus annuels"}
+        - {marker: size-1to5m,   label: "De 1 à 5 millions de dollars et 3 ans ou plus d'activité"}
+        - {marker: size-5mplus,  label: "5 millions de dollars ou plus et 10 employés à temps plein ou plus"}
+        - {marker: size-large,   label: "Grande entreprise"}
+
+    - id: question-4
+      legend: "Question 4 sur 4 : Quel est votre secteur et quelle est l'incidence des droits de douane?"
+      clears: "sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      next: null
+      options:
+        - {marker: sec-forestry, label: "Foresterie et bois d'œuvre"}
+        - {marker: sec-steel,    label: "Acier, aluminium et cuivre"}
+        - {marker: sec-mfg,      label: "Fabrication et autres exportateurs"}
+        - {marker: sec-agri,     label: "Agriculture, agroalimentaire, poisson et fruits de mer"}
+        - {marker: sec-usexport, label: "Exportations vers les États-Unis représentant 15 % ou plus de vos revenus"}
+
+  eligibility:
+    heading: "Critères d'admissibilité"
+    body: "Les programmes de cette page appliquent couramment ces critères. Il s'agit d'un guide et non d'une décision : le programme auquel vous présentez une demande rend la décision finale."
+    criteria:
+      - text: "Constituée en société au Canada"
+        badges:
+          - {status: review, label: "À vérifier"}
+      - text: "3 ans ou plus d'activité"
+        badges:
+          - {status: met,    label: "Satisfait",  class: wz-yrs-met}
+          - {status: review, label: "À vérifier", class: wz-yrs-review}
+      - text: "1 million de dollars ou plus de revenus annuels"
+        badges:
+          - {status: met,    label: "Satisfait",     class: wz-rev-met}
+          - {status: notmet, label: "Non satisfait", class: wz-rev-notmet}
+      - text: "Flux de trésorerie positif"
+        badges:
+          - {status: review, label: "À vérifier"}
+      - text: "15 % ou plus des revenus provenant d'exportations vers les États-Unis, ou une baisse de revenus ou une hausse de coûts de 10 % attribuable aux droits de douane"
+        badges:
+          - {status: met,    label: "Satisfait",  class: wz-us-met}
+          - {status: review, label: "À vérifier", class: wz-us-review}
+    large_note: "En tant que grande entreprise, le Crédit pour les grandes entreprises touchées par les droits de douane est le volet conçu pour votre taille."
+
+  eligibility_rules:
+    - {when: "size-1to5m",   show: wz-yrs-met,    display: inline-block}
+    - {when: "size-under1m", show: wz-yrs-review, display: inline-block}
+    - {when: "size-5mplus",  show: wz-yrs-review, display: inline-block}
+    - {when: "size-large",   show: wz-yrs-review, display: inline-block}
+
+    - {when: "size-1to5m",   show: wz-rev-met,    display: inline-block}
+    - {when: "size-5mplus",  show: wz-rev-met,    display: inline-block}
+    - {when: "size-large",   show: wz-rev-met,    display: inline-block}
+    - {when: "size-under1m", show: wz-rev-notmet, display: inline-block}
+
+    - {when: "sec-usexport", show: wz-us-met,    display: inline-block}
+    - {when: "sec-forestry", show: wz-us-review, display: inline-block}
+    - {when: "sec-steel",    show: wz-us-review, display: inline-block}
+    - {when: "sec-mfg",      show: wz-us-review, display: inline-block}
+    - {when: "sec-agri",     show: wz-us-review, display: inline-block}
+
+    - {when: "size-large", show: wz-large-note}

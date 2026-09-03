@@ -1,111 +1,154 @@
 # Canada Strong tariff support tool — how it works
 
 A wb-fieldflow wizard that routes businesses affected by U.S. tariffs to the federal
-programs that fit them. Built from `canada-strong-tariff-tool-LB_Sept_01.pdf` (5 slides).
+programs that fit them. Built from `canada-strong-tariff-tool-LB_Sept_01.pdf`, then
+corrected against `tariff-tool-links.csv`, which is the researched source of truth.
 
 Live on test.canada.ca:
 
-- [start-en.html](https://test.canada.ca/experimental/canada-strong/start-en.html) — the splitter question
-- [business-en.html](https://test.canada.ca/experimental/canada-strong/business-en.html) — the four-question wizard
+| | |
+|---|---|
+| [start-en.html](https://test.canada.ca/experimental/canada-strong/start-en.html) | the splitter question |
+| [business-en.html](https://test.canada.ca/experimental/canada-strong/business-en.html) | the four-question wizard |
+| [start-fr.html](https://test.canada.ca/experimental/canada-strong/start-fr.html) | page de départ |
+| [business-fr.html](https://test.canada.ca/experimental/canada-strong/business-fr.html) | assistant pour les entreprises |
 
-## The short version
+## The short version — which file do I edit?
 
-**All text and all logic live in `_data/canada_strong_en.yml`.** The two HTML files are
-Liquid loops with no hardcoded copy. If you are changing what the wizard says or what it
-returns, you almost certainly want the YAML and not the HTML.
+| I want to… | Edit |
+|---|---|
+| Add, move, retire or re-link a **program** | `_data/tariff_tool_links.csv` |
+| Fix a **program name or URL**, in either language | `_data/tariff_tool_links.csv` |
+| Change a **question, answer, heading or label** | `_data/canada_strong_en.yml` / `_fr.yml` |
+| Change the **eligibility criteria** or which size shows which badge | the same two YAML files |
+| Change **layout or markup** | `canada-strong/*.html` |
+
+The four HTML files contain no copy and no program data. Both languages share one CSV.
 
 ```
-_data/canada_strong_en.yml     335 lines — 4 questions, 19 panels, 39 matrix rows, 37 programs
-canada-strong/start-en.html    3 choices, links out
-canada-strong/business-en.html the wizard: questions, results, and the generated CSS
+_data/tariff_tool_links.csv    59 rows — every program, both languages, and its routing
+_data/canada_strong_en.yml     English interface text + eligibility rules
+_data/canada_strong_fr.yml     the same, in French
+canada-strong/start-*.html     three choices, links out
+canada-strong/business-*.html  the wizard: questions, generated results, generated CSS
 ```
 
-## How the filtering actually works
+`business-fr.html` is `business-en.html` with three lines changed — the data file it reads,
+and `NAME` / `URLF` pointing at the CSV's `name_fr` and `url_fr` columns. Keep them in step.
 
-The results depend on **two answers at once** — the need from question 1 and the sector
-from question 4. A fieldflow option can only reveal one fixed target, so it cannot express
-"show this when the answer is X *and* Y".
+## The CSV is the routing table
 
-The way around it: **each answer stamps a marker class on one wrapper div, and CSS decides
-what that combination means.**
+Each row is one program, and its `need`, `sector` and `region` columns *are* the routing.
+Nothing else decides what a combination returns.
 
-1. Every answer carries an `addClass` action that stamps its marker on `#wz-state`:
-   `need-liq`, `reg-on`, `size-1to5m`, `sec-agri`. There are 19 markers, one per answer.
-2. Every result panel is hidden by default (`.wz-r { display: none }`) and carries a class
-   naming it, e.g. `wz-liq-agri`.
-3. The `matrix:` list in the YAML says which marker combination reveals which panel. At
-   build time it compiles to one CSS rule per row:
+| Column | Meaning |
+|---|---|
+| `need` | `financing`, `liquidity`, `transformation`, `workforce`, or `all` for a hub shown under every need. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
+| `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
+| `region` | `national`, or one of the seven RDA regions |
+| `program_name` / `name_fr` | what the user sees. Blank `name_fr` falls back to English so a gap is visible, not silent. |
+| `url_en` / `url_fr` | where the link goes |
+| `status` | research confidence. `no-page` and `disputed` are **not rendered** — see below |
+| `note` | internal research notes. **Never rendered.** Say anything you like here. |
+| `slide_label` | what the original deck called it, for tracing back. Not used at build time. |
 
-   ```yaml
-   - {when: "sec-agri need-liq", show: wz-liq-agri}
-   ```
-   ```css
-   #wz-state.sec-agri.need-liq .wz-liq-agri { display: block; }
-   ```
+**Adding a program is one row.** No YAML change, no template change.
 
-Because `#wz-state.sec-agri.need-liq` (specificity 1,3,0) outranks `.wz-r` (0,1,0), the
-matching panel wins. No JavaScript of our own — fieldflow stamps the classes, CSS does
-the rest.
+### `status` decides what ships
+
+`exclude_statuses: "no-page disputed"` in both YAML files drops those rows entirely. That
+single line is the whole forestry fix: the deck named a BDC forestry transformation stream
+the department does not actually route to, the CSV marked it `disputed`, and four NRCan
+programs (IFIT, Forest Innovation, GCWood, Global Forest Leadership) took its place. To
+bring a dropped row back, take its status out of that list.
+
+Other statuses (`verified`, `added`, `weak`, `ambiguous`, `best-guess`, `duplicate-url`)
+all render. They are confidence notes for you, not switches.
+
+`route` rows are special: they mark a cell with no sector-specific stream, and render as
+the "no stream specific to your sector" note instead of a link.
+
+## How a combination becomes a visible panel
+
+Results depend on **two answers at once** — the need and the sector — and a fieldflow
+option can only reveal one fixed target. So:
+
+1. Each answer stamps a **marker class** on `#wz-state`: `need-liq`, `sec-agri`,
+   `reg-on`, `size-1to5m`. Nineteen markers, one per answer.
+2. At build time the template groups the CSV into a panel per need × sector, per region,
+   and per sector hub. Every panel is in the DOM, hidden by `.wz-r { display: none }`.
+3. It also generates one CSS rule per panel, which is what reveals it:
+
+```css
+#wz-state.need-liq.sec-agri .wz-p-liquidity-agriculture { display: block; }
+```
+
+`#wz-state.need-liq.sec-agri` (specificity 1,3,0) outranks `.wz-r` (0,1,0), so the matching
+panel wins. No JavaScript of our own — fieldflow stamps the classes, CSS does the rest.
+
+The generated `<style>` block opens with a **grid comment counting each cell**, so you can
+still check the shape at a glance without maintaining it by hand:
+
+```
+forestry-and-lumber | financing=0 | liquidity=2 | transformation=4 | workforce=0
+steel-and-aluminum  | financing=0 | liquidity=1 | transformation=0 | workforce=0
+agriculture         | financing=2 | liquidity=5 | transformation=5 | workforce=0
+```
 
 **Resetting.** Each question's `clears:` string lists every marker it invalidates.
-Question 1 clears all 19; question 2 clears region, size and sector; and so on. This is
-what stops a stale panel surviving when someone changes an earlier answer. It is wired to
-fieldflow's `default` action, which fires on every change to that question.
+Question 1 clears all nineteen, question 2 clears region, size and sector, and so on. This
+is what stops a stale panel surviving when someone changes an earlier answer.
 
-## Making changes
+## The vocabulary bridge
 
-| To do this | Change this |
-|---|---|
-| Change the programs in a result | That panel's `programs:` list under `panels:` |
-| Change which answers reveal a panel | The one `matrix:` line naming it |
-| Reword a question or an answer | `questions: → legend` or `options: → label` |
-| Add a program link | Replace `href="#"` — see "Program links" below |
-| Add a new sector | See the recipe below |
-| Add French | Copy the YAML to `_data/canada_strong_fr.yml`, translate the values, copy the two pages to `*-fr.html` pointing at it |
+The YAML's `needs`, `sectors` and `regions` map our markers to the CSV's own words. Rename
+a value in the spreadsheet and you change it here too — in **both** language files, because
+the `csv:` values are identifiers and stay English in the French file.
 
-**Never edit the generated CSS block** in `business-en.html`. It is rebuilt from
-`matrix:` on every Jekyll build and your edit will be overwritten.
+```yaml
+needs:
+  - {marker: need-liq, csv: liquidity, heading: "Liquidity"}
+sectors:
+  - {marker: sec-agri, csv: agriculture, heading: "Agriculture"}
+regions:
+  - {marker: reg-on, csv: "Southern Ontario;Northern Ontario"}   # semicolons for several
+```
 
-### Recipe: adding a sector
-
-1. Add the answer to question 4's `options:` with a new marker, e.g. `sec-fish`.
-2. Add that marker to question 4's `clears:` string, **and** to question 1's, 2's and 3's
-   `clears:` strings. Miss one and the marker will survive a back-track and leak a panel
-   into an unrelated result.
-3. Add a panel per populated cell, e.g. `wz-liq-fish`.
-4. Add four `matrix:` lines — one per need. Use `show: wz-agnostic-only` for the cells
-   with no stream of their own, so the empty cells stay explicit rather than silently
-   showing nothing.
-
-### Program links
-
-All 37 program links are `href="#"` placeholders. They come from the `programs:` lists,
-so to make them real, add an `href` key and update the template line in
-`business-en.html` that currently hardcodes `href="#"`.
+Manufacturing and the U.S.-exporter answer are deliberately absent from `sectors:` — they
+have no sector-specific stream, so they see the sector-agnostic results only.
 
 ## Gotchas found the hard way
 
 - **fieldflow's generated markup is a sibling, not a child.** After init, `#question-1` is
-  hidden and the real `<fieldset>` with the radios is inserted *next to* it. Selectors
-  like `#question-1 input[type=radio]` find nothing. This looks like a total failure and
-  is not one.
-- **Do not use Bootstrap's `.hidden` for anything the matrix controls.** It is
-  `display: none !important`, which no matrix rule can override. That is why the panels
-  use `.wz-r`. `.hidden` is still correct for `#wz-results` as a whole, which fieldflow
-  toggles directly.
-- **The CDTS theme is served from `cdts.service.canada.ca`, not `www.canada.ca`.** Both
-  copies of `theme.min.js` bundle wb-fieldflow — including the newer `gcChckbxrdio` option
-  that produces the GC-styled radio buttons — so no extra `<script>` tag is needed. The
-  older local copy at `en/assets/wb-fieldflow.min.js` predates `gcChckbxrdio`; do not use it.
-- **`layout: null`** in the front matter is what lets the raw CDTS HTML through while
-  still running Liquid. Without front matter entirely, Jekyll copies the file verbatim and
-  the Liquid tags ship to the browser as literal text.
+  hidden and the real `<fieldset>` is inserted *next to* it. `#question-1 input[type=radio]`
+  finds nothing. This looks like total failure and is not.
+- **Do not use Bootstrap's `.hidden` for anything the generated rules control.** It is
+  `display: none !important`, which no rule can override. That is why panels use `.wz-r`.
+  `.hidden` is still right for `#wz-results` as a whole, which fieldflow toggles directly.
+- **Liquid has no `not`.** The exclusion list is applied by chaining one `where_exp` per
+  status, which is why that loop looks odd:
+  ```liquid
+  {%- for st in excluded -%}{%- assign live = live | where_exp: "r", "r.status != st" -%}{%- endfor -%}
+  ```
+- **`where` and `where_exp` are Jekyll filters, not core Liquid.** They work on
+  GitHub Pages; they do not exist in the bare `liquid` gem, so the local preview script
+  below has to define them or local and deployed silently diverge.
+- **The CDTS theme is served from `cdts.service.canada.ca`, not `www.canada.ca`.** It
+  bundles wb-fieldflow including `gcChckbxrdio`, so no extra `<script>` is needed. The old
+  local copy at `en/assets/wb-fieldflow.min.js` predates `gcChckbxrdio`; do not use it.
+- **French pages must load `wet-fr.js`**, not `wet-en.js`, or WET's own strings — the
+  "(required)" after each legend — come out in English on a French page.
+- **French puts a space before a colon.** Panel headings are assembled from parts, so the
+  separator is `labels.heading_sep`: `": "` in English, `" : "` in French.
+- **`layout: null`** in the front matter is what runs Liquid while letting the raw CDTS
+  HTML through. With no front matter at all, Jekyll copies the file verbatim and the Liquid
+  tags ship to the browser as literal text.
 
 ## Previewing before you push
 
-Jekyll does not run on the team's machines (system Ruby 2.6, bundler mismatch), and that
-is fine — test.canada.ca is the target. But if you want to see output locally without
-pushing, the `liquid` gem alone is enough:
+Jekyll does not run on the team's machines and does not need to — test.canada.ca is the
+target. To see output locally without pushing, the `liquid` gem plus the two Jekyll filters
+is enough:
 
 ```bash
 gem install --user-install liquid -v 4.0.4 --no-document
@@ -113,94 +156,108 @@ gem install --user-install liquid -v 4.0.4 --no-document
 
 ```ruby
 # render.rb — put this at the repo root, then: mkdir out && ruby render.rb ./out
-require "yaml"
+require "yaml"; require "csv"
 $LOAD_PATH.unshift(*Dir[File.expand_path("~/.gem/ruby/2.6.0/gems/*/lib")])
 require "liquid"
+
+# Jekyll's array filters, which plain Liquid does not ship.
+module JekyllishFilters
+  def where(input, prop, value)
+    return input unless input.respond_to?(:select)
+    input.select { |i| i.is_a?(Hash) && i[prop].to_s == value.to_s }
+  end
+  def where_exp(input, var, expr)
+    return input unless input.respond_to?(:select)
+    tmpl = Liquid::Template.parse("{% if #{expr} %}1{% endif %}")
+    input.select do |i|
+      @context.stack { @context[var] = i; tmpl.render(@context).strip == "1" }
+    end
+  end
+end
+Liquid::Template.register_filter(JekyllishFilters)
 
 root = __dir__
 data = {}
 Dir["#{root}/_data/*.yml"].each { |f| data[File.basename(f, ".yml")] = YAML.load_file(f) }
+Dir["#{root}/_data/*.csv"].each { |f| data[File.basename(f, ".csv")] = CSV.read(f, headers: true).map(&:to_h) }
 
 Dir["#{root}/canada-strong/*.html"].each do |f|
   body = File.read(f).sub(/\A---\s*\n.*?\n---\s*\n/m, "")   # strip front matter as Jekyll does
-  out  = Liquid::Template.parse(body).render({ "site" => { "data" => data } })
+  tmpl = Liquid::Template.parse(body)
+  out  = tmpl.render({ "site" => { "data" => data } })
+  warn "  ! #{File.basename(f)}: #{tmpl.errors.join('; ')}" if tmpl.errors.any?
   File.write(File.join(ARGV[0], File.basename(f)), out)
 end
 ```
 
-Then `python3 -m http.server` from the output directory. A local server is required —
-the CDTS closure scripts do not run reliably from `file://`.
+Then `python3 -m http.server` from the output directory — a local server is required, the
+CDTS closure scripts do not run reliably from `file://`.
 
 ## Verifying a change
 
-The fast way to test all 20 need × sector combinations is **not** to click through them.
-Fieldflow re-renders on every answer, and a backgrounded Chrome tab throttles timers hard
-enough that a click-driven sweep takes minutes and produces confusing intermediate states.
+Split the test in two. Do **not** try to click through every combination: fieldflow
+re-renders on each answer and a backgrounded Chrome tab throttles timers hard enough that a
+click-driven sweep takes minutes and produces confusing intermediate states.
 
-Split the test in two:
+**1. Does fieldflow stamp the right markers?** Click one full path by hand, watching
+`document.getElementById("wz-state").className` after each answer. Then change an earlier
+answer and confirm the cascade clears and the results re-hide.
 
-1. **Does fieldflow stamp the right markers?** Click through one full path by hand and
-   watch `document.getElementById("wz-state").className` after each answer. Then change an
-   earlier answer and confirm the marker cascade clears and the results re-hide.
-2. **Does the matrix reveal the right panels?** Set the state directly and read what is
-   visible — instant, and it covers every combination:
+**2. Does the CSV reach the page correctly?** Compute the expected result for every
+combination straight from the CSV and diff it against the rendered panels — no browser, and
+it covers all 120 (4 needs × 5 sectors × 6 regions):
 
-   ```js
-   const st = document.getElementById("wz-state"), res = document.getElementById("wz-results");
-   res.classList.remove("hidden");
-   st.className = "need-liq reg-on size-1to5m sec-agri";
-   [...res.querySelectorAll("section")].filter(s => s.offsetParent !== null)
-     .map(s => s.querySelector(".panel-title").textContent.trim());
-   ```
+- parse `_data/tariff_tool_links.csv`, drop `no-page` and `disputed`
+- for each need × sector × region, gather sector cell + agnostic column + region rows +
+  hubs, exactly as the template does
+- parse the rendered HTML into `panel class -> program names` and compare the two sets
 
 Worth checking every time: heading order runs h1 → h2 → h3 with no skips, every radio sits
-inside a `<fieldset>` with a `<legend>`, and exactly one eligibility badge is visible per
-criterion.
+inside a `<fieldset>` with a `<legend>`, exactly one eligibility badge shows per criterion,
+and no French page shows an English program name or URL.
 
 ## Where the content came from, and what we changed
 
-The deck is the source for every program name and every routing decision. Four
-deliberate departures:
+The deck was the starting point; the CSV corrected it. Deliberate departures:
 
-- **Slide 3 is not a separate page.** The deck says the employer "is directed to these
-  programs" once workforce retention is the identified need, so those four programs are
-  the `wz-need-wrk` result panel.
-- **Slide 5 is not built.** The worker choice on the start page links to the live Canada.ca
-  worker supports page instead.
-- **The start page does not use slide 1's card layout.** The cards were an artifact of the
-  deck, not design intent. Each choice is now a plain label, one line of supporting text
-  and a `btn btn-primary` call to action, with no card chrome and no prototype alert. The
-  label is deliberately *not* a link: with the button there, linking both would put two
-  adjacent links to the same destination in every choice. The prototype alert stays on the
-  business page, where the placeholder links make it necessary.
-- **Amount, term and repayment are not shown.** Slide 4 says each result should show them
-  up front, but the deck gives no figures, and inventing numbers on a Canada.ca-looking
-  page is not acceptable. The eligibility met / not met / needs review marking, which the
-  deck does specify, is built.
+- **Slide 3 is not a separate page.** Those employer workforce programs are the workforce
+  column, which is where the deck says the employer gets directed.
+- **Slide 5 is not built.** The worker choice links to the live Canada.ca page.
+- **The start page does not use slide 1's card layout.** Cards were a deck artifact, not
+  design intent. Each choice is now a label, one line of text and a `btn btn-primary`. The
+  label is deliberately not also a link — that would put two adjacent links to the same
+  destination in every choice.
+- **Amount, term and repayment are not shown.** Slide 4 asks for them; no figures exist
+  yet, and inventing them on a Canada.ca-looking page is not acceptable.
+- **The forestry transformation cell is the deck's, corrected.** See `status` above.
 
 ## Next steps
 
-1. **Replace the 37 placeholder links** with real intake URLs. This is the largest
-   remaining gap and the one that makes the prototype misleading if it is user-tested as is.
-2. **Add amount, term and repayment** per program once the figures are confirmed — add
-   `amount`, `term` and `repayment` keys to each entry in `programs:` and render them.
-3. **Build the French pages** — `_data/canada_strong_fr.yml` plus `start-fr.html` and
-   `business-fr.html`, and point the CDTS `lngLinks` at each other instead of at the live
-   Canada.ca page.
-4. **Confirm the routing decisions with the policy leads**, specifically:
-   - the RDA names, and whether Ontario should list both FedDev Ontario and FedNor
-   - whether the eligibility status per size band is the intended reading of slide 2's
-     filter list
-   - whether "manufacturing and other exporters" and the U.S.-exporter option really have
-     no sector-specific stream, or whether that is a gap in the deck rather than in policy
-5. **The start page no longer fits a phone screen.** Each choice is a label, a
-   description and a button, and measures 143px at a 390px viewport, putting the third
-   button about 872px down — past the ~724px a mobile browser leaves visible once its
-   toolbars show. The 271px of CDTS header and breadcrumb above the h1 is most of that
-   budget and is not ours to reclaim. Ways to get the space back, cheapest first: shorten
-   each `description` so it fits one line at 360px, about 40 characters (~78px), drop the
-   "Find the support you need" intro (~33px), or tighten the option gap from
-   `mrgn-bttm-md` to `mrgn-bttm-sm` (~20px). Buttons themselves cost only 12px more per
-   choice than a plain text link, so they are not the thing to cut.
-6. **Consider a worker path prototype** if the live page turns out to need design work
-   rather than just a link.
+1. **Spot-check the nine composed French names.** 43 of 52 were read off the live French
+   page's own `<h1>`, cleaned of taglines, org suffixes and AAFC's ": 1. Ce qu'offre ce
+   programme" step numbering. The `fr_source` column records the provenance of every row;
+   the eight marked `composed:` carry the reason, and they are the only ones needing a
+   French-language judgement call:
+   - three regional IRRT pages whose own h1 omits the region
+   - two stream names whose parent page covers several streams
+   - CEEFC, whose h1 is the corporation name rather than the product
+   - the Business Benefits Finder, whose page has no h1 at all
+   - FCC's French financing page, which still carries an English title
+   ("Marque Canada" is confirmed correct — its site was simply down when checked.)
+2. **Resolve the flagged rows.** `duplicate-url` (3), `weak` (2), `ambiguous` (1) and
+   `best-guess` (1). Each `note` says what the doubt is. The `duplicate-url` rows in
+   particular send two differently-named results to the same page, which reads as a bug.
+3. **Decide about the AgriMarketing association row.** Its note says *"Associations only,
+   not individual businesses"*, but this tool asks "I am a business or employer" — so it
+   arguably should not surface here at all, or needs a visible caveat.
+4. **Report the AAFC language-toggle bug.** One note records that the French AAFC hub's
+   English toggle targets a 404. That is a live Canada.ca defect, unrelated to this work.
+5. **Add amount, term and repayment** once the figures exist — new CSV columns and a line
+   in the template.
+6. **The start page does not fit a phone screen.** Each choice measures 143px at a 390px
+   viewport, putting the third button about 872px down, past the ~724px a mobile browser
+   leaves visible. The 271px of CDTS header and breadcrumb is most of that budget. Cheapest
+   fixes: shorten each `description` to one line at 360px (~78px), drop the intro line
+   (~33px), tighten the gap to `mrgn-bttm-sm` (~20px). Buttons cost only 12px more than
+   plain links, so they are not the thing to cut.
+7. **Consider a worker path prototype** if that page needs design work rather than a link.

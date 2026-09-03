@@ -1,12 +1,12 @@
 ---
 layout: null
 ---
-{%- assign t = site.data.canada_strong_en -%}
+{%- assign t = site.data.canada_strong_fr -%}
 {%- assign b = t.business -%}
 {%- assign e = b.eligibility -%}
 {%- assign L = b.labels -%}
-{%- assign NAME = "program_name" -%}
-{%- assign URLF = "url_en" -%}
+{%- assign NAME = "name_fr" -%}
+{%- assign URLF = "url_fr" -%}
 {%- comment -%}
   Program routing comes entirely from _data/tariff_tool_links.csv.
   Drop excluded statuses first: Liquid has no `not`, so chain one
@@ -29,7 +29,7 @@ layout: null
 		<!-- Meta data-->
 		<!-- Load closure template scripts -->
 		<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_2/cdts/compiled/soyutils.js"></script>
-		<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_2/cdts/compiled/wet-en.js"></script>
+		<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_2/cdts/compiled/wet-fr.js"></script>
 		<noscript>
 			<!-- Write closure fall-back static file -->
 			<!-- refTop.html -->
@@ -68,15 +68,15 @@ layout: null
 	<body vocab="https://schema.org/" typeof="WebPage">
 		<div id="def-top">
 			<!-- Write closure fall-back static file -->
-			<!-- top-en.html -->
+			<!-- top-fr.html -->
 		</div>
 		<!-- Write closure template -->
 		<script>
 			var defTop = document.getElementById("def-top");
 			defTop.outerHTML = wet.builder.top({
 				"lngLinks": [{
-					"lang": "fr",
-					"href": "business-fr.html",
+					"lang": "en",
+					"href": "business-en.html",
 					"text": "{{ t.alt_lang_text }}"
 				}],
 				"breadcrumbs": [{% for bc in t.breadcrumbs %}{
@@ -84,7 +84,7 @@ layout: null
 					"href": "{{ bc.href }}"
 				},{% endfor %}{
 					"title": "{{ t.start.h1 }}",
-					"href": "start-en.html"
+					"href": "start-fr.html"
 				}],
 				"cdnEnv": "esdcprod"
 			});
@@ -220,7 +220,7 @@ layout: null
 			<div class="container">
 				<div id="def-preFooter">
 					<!-- Write closure fall-back static file -->
-					<!-- preFooter-en.html -->
+					<!-- preFooter-fr.html -->
 				</div>
 			</div>
 			<!-- Write closure template -->
@@ -234,7 +234,7 @@ layout: null
 		</main>
 		<div id="def-footer">
 			<!-- Write closure fall-back static file -->
-			<!-- footer-en.html -->
+			<!-- footer-fr.html -->
 		</div>
 		<!-- Write closure template -->
 		<script>
