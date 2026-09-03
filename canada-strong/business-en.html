@@ -59,7 +59,6 @@ layout: null
 {% endfor %}			*/
 {% for need in t.needs %}			#wz-state.{{ need.marker }} .wz-p-{{ need.csv }}-agnostic { display: block; }
 {% for sec in t.sectors %}			#wz-state.{{ need.marker }}.{{ sec.marker }} .wz-p-{{ need.csv }}-{{ sec.csv }} { display: block; }
-			#wz-state.{{ need.marker }}.{{ sec.marker }} .wz-route-{{ need.csv }}-{{ sec.csv }} { display: block; }
 {% endfor %}{% for reg in t.regions %}			#wz-state.{{ need.marker }}.{{ reg.marker }} .wz-rg-{{ reg.marker }}-{{ need.csv }} { display: block; }
 {% endfor %}{% endfor %}{% for sec in t.sectors %}			#wz-state.{{ sec.marker }} .wz-hub-{{ sec.csv }} { display: block; }
 {% endfor %}{% for reg in t.regions %}			#wz-state.{{ reg.marker }} .wz-rda-{{ reg.marker }} { display: block; }
@@ -133,11 +132,6 @@ layout: null
 										{% for r in hits %}<li>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 										{% endfor %}
 									</ul></div>
-								</section>
-								{%- else %}
-								<section class="panel panel-info mrgn-tp-md wz-r wz-route-{{ need.csv }}-{{ sec.csv }}">
-									<header class="panel-heading"><h3 class="panel-title h4">{{ L.route_heading }}</h3></header>
-									<div class="panel-body"><p class="mrgn-bttm-0">{{ L.route_body }}</p></div>
 								</section>
 								{%- endif %}{% endfor %}{% endfor %}
 

@@ -91,8 +91,6 @@ business:
     # French puts a space before a colon; English does not.
     heading_sep: " : "
     agnostic_suffix: "tous secteurs confondus"
-    route_heading: "Aucun volet propre à votre secteur"
-    route_body: "Il n'existe pas de volet conçu pour votre secteur et ce besoin. Les programmes ci-dessous sont ouverts à tous les secteurs et constituent votre point de départ."
     region_heading: "Programmes pour votre région"
     region_footnote: "Les critères régionaux et les dates de réception des demandes varient."
     hub_heading: "Où ces programmes sont répertoriés"

@@ -108,8 +108,6 @@ business:
     # French puts a space before a colon; English does not.
     heading_sep: ": "
     agnostic_suffix: "open to all sectors"
-    route_heading: "No stream specific to your sector"
-    route_body: "There is no program stream built for your sector and this need. The programs below are open to all sectors and are where you should start."
     region_heading: "Programs for your region"
     region_footnote: "Regional criteria and intake dates vary."
     hub_heading: "Where these programs are listed"

@@ -73,9 +73,10 @@ module Wizard
 
     # ── One combination ────────────────────────────────────────────────────
 
-    # True when the sector cell is empty and the page should show the
-    # "no stream specific to your sector" note instead of a panel of links.
-    def route_note?(need_csv, sector_csv, lang = "en")
+    # True when the sector cell has no dedicated stream — the sector-specific
+    # panel is omitted entirely rather than shown with a "no stream" note; the
+    # business still sees the sector-agnostic results for that need.
+    def no_sector_stream?(need_csv, sector_csv, lang = "en")
       !sector_csv.nil? && sector_cell(need_csv, sector_csv, lang).empty?
     end
 
