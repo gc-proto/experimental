@@ -20,8 +20,16 @@ rescue LoadError
 end
 
 module Wizard
-  ROOT  = File.expand_path("../../..", __dir__)
-  PAGES = File.join(ROOT, "canada-strong")
+  ROOT   = File.expand_path("../../..", __dir__)
+  PAGES  = File.join(ROOT, "canada-strong")
+  CONFIG = File.join(ROOT, "_config.yml")
+
+  # Read the data directory out of _config.yml rather than hardcoding it, so
+  # the tests follow the real build instead of asserting a parallel truth.
+  # Jekyll's own default is "_data" when the key is absent.
+  def self.data_dir
+    @data_dir ||= File.join(ROOT, (YAML.load_file(CONFIG)["data_dir"] || "_data"))
+  end
 
   LANGS = %w[en fr].freeze
   BUSINESS = { "en" => "business-en.html", "fr" => "business-fr.html" }.freeze
@@ -58,8 +66,8 @@ module Wizard
     def site_data
       @site_data ||= begin
         d = {}
-        Dir[File.join(ROOT, "_data", "*.yml")].each { |f| d[File.basename(f, ".yml")] = YAML.load_file(f) }
-        Dir[File.join(ROOT, "_data", "*.csv")].each { |f| d[File.basename(f, ".csv")] = CSV.read(f, headers: true).map(&:to_h) }
+        Dir[File.join(data_dir, "*.yml")].each { |f| d[File.basename(f, ".yml")] = YAML.load_file(f) }
+        Dir[File.join(data_dir, "*.csv")].each { |f| d[File.basename(f, ".csv")] = CSV.read(f, headers: true).map(&:to_h) }
         d
       end
     end
