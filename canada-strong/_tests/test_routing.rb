@@ -157,6 +157,30 @@ class TestRouting < Minitest::Test
       end
     end
 
+    # ACOA's own eligibility for the Atlantic RTRI row requires $1M+ annual
+    # revenue — pinned because it's the row that's actually empty for
+    # size-under1m today (it's the only program in Atlantic's regional
+    # group), so this also exercises the size-aware regional-panel fix: the
+    # whole panel must vanish, not render with a heading and nothing in it.
+    define_method("test_atlantic_rtri_requires_at_least_1m_revenue_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      row  = Wizard.rows.find { |r| r["program_name"].to_s.include?("Regional Tariff Response Initiative - Atlantic") }
+      refute_nil row, "the Atlantic RTRI row is missing"
+      name = Wizard::Expected.display(row, lang).first
+
+      Wizard.size_markers(lang).each do |sz|
+        markers = ["need-liq", "reg-atl", "sec-usexport", sz]
+        shown   = Wizard.visible_programs(page, markers).map(&:first)
+        want    = (sz != "size-under1m")
+        assert_equal want, shown.include?(name),
+          "#{lang}: Atlantic RTRI #{shown.include?(name) ? 'shown' : 'hidden'} for #{sz}, expected #{want ? 'shown' : 'hidden'}"
+
+        panel_present = Wizard.visible_panels(page, markers).any? { |p| p["class"].to_s.include?("wz-rg-reg-atl-liquidity") }
+        assert_equal want, panel_present,
+          "#{lang}: Atlantic's regional panel #{panel_present ? 'renders' : 'is absent'} for #{sz}, expected #{want ? 'to render' : 'absent, not empty'}"
+      end
+    end
+
     # Every CSV row that restricts itself by size must use a size the wizard
     # actually asks about — a typo here would silently hide a program forever.
     define_method("test_size_restricted_rows_use_known_sizes_#{lang}") do

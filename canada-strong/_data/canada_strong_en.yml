@@ -128,7 +128,7 @@ business:
     region_footnote: "Regional criteria and intake dates vary."
     hub_heading: "Where these programs are listed"
     hub_body: "These hubs are the departments' own lists. They are kept current, so check them if something here looks out of date."
-    rda_prefix: "Your regional development agency can help you: "
+    rda_prefix: "Get additional support from: "
 
   # ── The four questions ─────────────────────────────────────────────────────
   # `clears` lists every marker this question resets before applying the new
@@ -147,14 +147,14 @@ business:
         - {marker: need-wrk, label: "Workforce retention and retraining"}
 
     - id: question-2
-      legend: "Question 2 of 4: Where is your business headquartered?"
+      legend: "Question 2 of 4: Where is your business mainly located?"
       clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-3"
       options:
         - {marker: reg-atl,  label: "Atlantic"}
         - {marker: reg-qc,   label: "Quebec"}
         - {marker: reg-on-n, label: "Northern Ontario (including Parry Sound)"}
-        - {marker: reg-on-s, label: "Southern Ontario (south of Muskoka)"}
+        - {marker: reg-on-s, label: "Southern and Eastern Ontario"}
         - {marker: reg-pr,   label: "Manitoba, Saskatchewan, Alberta"}
         - {marker: reg-bc,   label: "British Columbia"}
         - {marker: reg-nor,  label: "The North"}
@@ -172,9 +172,9 @@ business:
         # answer maps to the same eligibility_rules outcomes as
         # size-under1m below, until we're told otherwise.
         - {marker: size-nonprofit, label: "Non-profit, association, board of trade"}
-        - {marker: size-1to5m,   label: "$1 million to $5 million and 3 or more years operating"}
+        - {marker: size-1to5m,   label: "$1 million to $5 million"}
         - {marker: size-5mplus,  label: "$5 million or more with 10 or more full-time employees"}
-        - {marker: size-large,   label: "Large enterprise"}
+        - {marker: size-large,   label: "Larger enterprise ($150 million or more in annual revenue)"}
 
     - id: question-4
       legend: "Question 4 of 4: What is your sector and tariff impact?"
@@ -183,6 +183,6 @@ business:
       options:
         - {marker: sec-forestry, label: "Forestry and softwood lumber"}
         - {marker: sec-steel,    label: "Steel, aluminium and copper"}
-        - {marker: sec-mfg,      label: "Manufacturing and other exporters"}
+        - {marker: sec-mfg,      label: "Other manufacturing and exporters"}
         - {marker: sec-agri,     label: "Agriculture, agri-food, fish and seafood"}
         - {marker: sec-usexport, label: "Exporting to the U.S. with 15% or more of revenue from U.S. exports"}

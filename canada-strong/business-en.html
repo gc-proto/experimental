@@ -53,7 +53,8 @@ layout: null
 {% endfor %}			*/
 {% for need in t.needs %}			#wz-state.{{ need.marker }} .wz-p-{{ need.csv }}-agnostic { display: block; }
 {% for sec in t.sectors %}			#wz-state.{{ need.marker }}.{{ sec.marker }} .wz-p-{{ need.csv }}-{{ sec.csv }} { display: block; }
-{% endfor %}{% for reg in t.regions %}			#wz-state.{{ need.marker }}.{{ reg.marker }} .wz-rg-{{ reg.marker }}-{{ need.csv }} { display: block; }
+{% endfor %}{% for reg in t.regions %}{%- assign regnames = reg.csv | split: ";" -%}{%- assign rgrows = "" | split: "" -%}{%- for rn in regnames -%}{%- assign m = live | where: "region", rn | where_exp: "r", "r.need contains need.csv" -%}{%- assign rgrows = rgrows | concat: m -%}{%- endfor -%}{%- for sz in t.sizes -%}{%- assign szcount = 0 -%}{%- for r in rgrows -%}{%- if r.size and r.size != "" -%}{%- if r.size contains sz.csv -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- else -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- if szcount > 0 %}			#wz-state.{{ need.marker }}.{{ reg.marker }}.{{ sz.marker }} .wz-rg-{{ reg.marker }}-{{ need.csv }} { display: block; }
+{% endif %}{% endfor %}
 {% endfor %}{% endfor %}{% for sec in t.sectors %}			#wz-state.{{ sec.marker }} .wz-hub-{{ sec.csv }} { display: block; }
 {% endfor %}{% for reg in t.regions %}			#wz-state.{{ reg.marker }} .wz-rda-{{ reg.marker }} { display: block; }
 {% endfor %}{% for sz in t.sizes %}			#wz-state.{{ sz.marker }} .wz-sz-{{ sz.marker }} { display: list-item; }
