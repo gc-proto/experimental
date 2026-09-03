@@ -22,6 +22,7 @@ Live on test.canada.ca:
 | Change a **question, answer, heading or label** | `_data/canada_strong_en.yml` / `_fr.yml` |
 | Change the **eligibility criteria** or which size shows which badge | the same two YAML files |
 | Change **layout or markup** | `canada-strong/*.html` |
+| Check you did not break anything | `ruby _tests/canada-strong/run.rb` |
 
 The four HTML files contain no copy and no program data. Both languages share one CSV.
 
@@ -31,6 +32,7 @@ _data/canada_strong_en.yml     English interface text + eligibility rules
 _data/canada_strong_fr.yml     the same, in French
 canada-strong/start-*.html     three choices, links out
 canada-strong/business-*.html  the wizard: questions, generated results, generated CSS
+_tests/canada-strong/          the suite: 92 tests over the four files above
 ```
 
 `business-fr.html` is `business-en.html` with three lines changed — the data file it reads,
@@ -131,8 +133,9 @@ have no sector-specific stream, so they see the sector-agnostic results only.
   {%- for st in excluded -%}{%- assign live = live | where_exp: "r", "r.status != st" -%}{%- endfor -%}
   ```
 - **`where` and `where_exp` are Jekyll filters, not core Liquid.** They work on
-  GitHub Pages; they do not exist in the bare `liquid` gem, so the local preview script
-  below has to define them or local and deployed silently diverge.
+  GitHub Pages; they do not exist in the bare `liquid` gem, so anything rendering these
+  templates outside Jekyll has to define them or local and deployed silently diverge.
+  `_tests/canada-strong/support/wizard.rb` is the one place that does.
 - **The CDTS theme is served from `cdts.service.canada.ca`, not `www.canada.ca`.** It
   bundles wb-fieldflow including `gcChckbxrdio`, so no extra `<script>` is needed. The old
   local copy at `en/assets/wb-fieldflow.min.js` predates `gcChckbxrdio`; do not use it.
@@ -144,77 +147,60 @@ have no sector-specific stream, so they see the sector-agnostic results only.
   HTML through. With no front matter at all, Jekyll copies the file verbatim and the Liquid
   tags ship to the browser as literal text.
 
-## Previewing before you push
+## Tests
 
-Jekyll does not run on the team's machines and does not need to — test.canada.ca is the
-target. To see output locally without pushing, the `liquid` gem plus the two Jekyll filters
-is enough:
+`_tests/canada-strong/` covers everything below that does not need a browser.
+No Jekyll: the harness renders these templates with the same Liquid and the same two
+Jekyll array filters the real build uses, so it sees the bytes that ship.
 
 ```bash
-gem install --user-install liquid -v 4.0.4 --no-document
+ruby _tests/canada-strong/run.rb          # the whole suite
+ruby _tests/canada-strong/preview.rb out  # render the pages to ./out to look at them
 ```
 
-```ruby
-# render.rb — put this at the repo root, then: mkdir out && ruby render.rb ./out
-require "yaml"; require "csv"
-$LOAD_PATH.unshift(*Dir[File.expand_path("~/.gem/ruby/2.6.0/gems/*/lib")])
-require "liquid"
+Both need the `liquid` and `nokogiri` gems, already installed on the team's machines
+(`gem install --user-install liquid -v 4.0.4 --no-document` if not). CI runs the suite
+on every push and pull request, before the Jekyll build.
 
-# Jekyll's array filters, which plain Liquid does not ship.
-module JekyllishFilters
-  def where(input, prop, value)
-    return input unless input.respond_to?(:select)
-    input.select { |i| i.is_a?(Hash) && i[prop].to_s == value.to_s }
-  end
-  def where_exp(input, var, expr)
-    return input unless input.respond_to?(:select)
-    tmpl = Liquid::Template.parse("{% if #{expr} %}1{% endif %}")
-    input.select do |i|
-      @context.stack { @context[var] = i; tmpl.render(@context).strip == "1" }
-    end
-  end
-end
-Liquid::Template.register_filter(JekyllishFilters)
+To look at the output, `python3 -m http.server` from the directory `preview.rb` wrote —
+a local server is required, the CDTS closure scripts do not run reliably from `file://`.
 
-root = __dir__
-data = {}
-Dir["#{root}/_data/*.yml"].each { |f| data[File.basename(f, ".yml")] = YAML.load_file(f) }
-Dir["#{root}/_data/*.csv"].each { |f| data[File.basename(f, ".csv")] = CSV.read(f, headers: true).map(&:to_h) }
+`_tests/canada-strong/README.md` says what each test file covers. In short:
 
-Dir["#{root}/canada-strong/*.html"].each do |f|
-  body = File.read(f).sub(/\A---\s*\n.*?\n---\s*\n/m, "")   # strip front matter as Jekyll does
-  tmpl = Liquid::Template.parse(body)
-  out  = tmpl.render({ "site" => { "data" => data } })
-  warn "  ! #{File.basename(f)}: #{tmpl.errors.join('; ')}" if tmpl.errors.any?
-  File.write(File.join(ARGV[0], File.basename(f)), out)
-end
-```
+- **All 120 combinations**, both languages. It parses the generated CSS back out of the
+  page, works out which panels a set of answer markers reveals, and diffs the programs
+  in them against the CSV — which it reads through a second, separate implementation of
+  the rules on this page, so it cannot just agree with the template's bugs.
+- **The CSV**: required columns, closed vocabularies for need / sector / region / status,
+  https URLs, French coverage on every row that renders, no untriaged duplicate
+  destinations.
+- **Eligibility**: exactly one badge per criterion for all twenty size x sector pairs,
+  and nothing painted before its question is answered.
+- **Markup**: one h1 and no skipped heading levels, the fieldflow chain, the reset
+  cascade, and each gotcha listed above — `.hidden` on a generated-rule target, the wrong
+  `wet-*.js`, the missing space before a French colon, missing `layout: null`.
+- **Parity**: the French templates are the English ones with the language swapped, and
+  the two YAML files stay the same shape.
 
-Then `python3 -m http.server` from the output directory — a local server is required, the
-CDTS closure scripts do not run reliably from `file://`.
+Two tests pin decisions rather than data — the forestry transformation cell routing to
+NRCan and not BDC, and the duplicate-URL triage. Data-driven tests cannot catch those:
+both sides read the same CSV, so changing the CSV changes the expectation too. If one of
+those decisions is genuinely revisited, delete the test on purpose.
 
 ## Verifying a change
 
-Split the test in two. Do **not** try to click through every combination: fieldflow
-re-renders on each answer and a backgrounded Chrome tab throttles timers hard enough that a
-click-driven sweep takes minutes and produces confusing intermediate states.
+Run the suite. What is left needs a browser, because wb-fieldflow builds the radios,
+fieldsets and legends at runtime — before init there is nothing in the static HTML to
+find.
 
-**1. Does fieldflow stamp the right markers?** Click one full path by hand, watching
-`document.getElementById("wz-state").className` after each answer. Then change an earlier
-answer and confirm the cascade clears and the results re-hide.
+Do **not** click through every combination: fieldflow re-renders on each answer and a
+backgrounded Chrome tab throttles timers hard enough that a click-driven sweep takes
+minutes and produces confusing intermediate states. The suite already covers all 120.
 
-**2. Does the CSV reach the page correctly?** Compute the expected result for every
-combination straight from the CSV and diff it against the rendered panels — no browser, and
-it covers all 120 (4 needs × 5 sectors × 6 regions):
-
-- parse `_data/tariff_tool_links.csv`, drop `no-page` and `disputed`
-- for each need × sector × region, gather sector cell + agnostic column + region rows +
-  hubs, exactly as the template does
-- parse the rendered HTML into `panel class -> program names` and compare the two sets
-
-Worth checking every time: heading order runs h1 → h2 → h3 with no skips, every radio sits
-inside a `<fieldset>` with a `<legend>`, exactly one eligibility badge shows per criterion,
-and no French page shows an English program name or URL.
+Click one full path by hand instead, watching `document.getElementById("wz-state").className`
+after each answer. Then change an earlier answer and confirm the cascade clears and the
+results re-hide. Check the generated radios sit inside a `<fieldset>` with a `<legend>`,
+and that layout holds at a 390px viewport.
 
 ## Where the content came from, and what we changed
 
