@@ -62,7 +62,7 @@ layout: null
 							{% for opt in p.options %}<li class="mrgn-bttm-md">
 								<p class="h5 mrgn-tp-0 mrgn-bttm-sm">{{ opt.label }}</p>
 								<p class="mrgn-bttm-sm">{{ opt.description }}</p>
-								<p class="mrgn-bttm-0"><span aria-hidden="true">&#8226;</span> <a href="{{ opt.href }}">{{ opt.cta }}</a></p>
+								<a href="{{ opt.href }}" class="btn btn-primary">{{ opt.cta }}</a>
 							</li>
 							{% endfor %}
 						</ul>

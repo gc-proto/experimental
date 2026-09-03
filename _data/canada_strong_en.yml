@@ -48,7 +48,7 @@ start:
       href: "business-en.html"
     - label: "I am a worker"
       description: "Reach income support, skills training and student aid directly"
-      cta: "Go to the worker path"
+      cta: "Show me worker supports"
       # Placeholder: the live Canada.ca page stands in until a worker prototype exists
       href: "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/support-canadian-workers-employers.html#a1"
     - label: "I want more information"

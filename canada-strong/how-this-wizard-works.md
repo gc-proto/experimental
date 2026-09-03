@@ -168,10 +168,11 @@ deliberate departures:
 - **Slide 5 is not built.** The worker choice on the start page links to the live Canada.ca
   worker supports page instead.
 - **The start page does not use slide 1's card layout.** The cards were an artifact of the
-  deck, not design intent. It is now a plain list of three links with one line of
-  supporting text each, and no prototype alert, so the whole choice fits a phone screen.
-  The prototype alert stays on the business page, where the placeholder links make it
-  necessary.
+  deck, not design intent. Each choice is now a plain label, one line of supporting text
+  and a `btn btn-primary` call to action, with no card chrome and no prototype alert. The
+  label is deliberately *not* a link: with the button there, linking both would put two
+  adjacent links to the same destination in every choice. The prototype alert stays on the
+  business page, where the placeholder links make it necessary.
 - **Amount, term and repayment are not shown.** Slide 4 says each result should show them
   up front, but the deck gives no figures, and inventing numbers on a Canada.ca-looking
   page is not acceptable. The eligibility met / not met / needs review marking, which the
@@ -192,13 +193,14 @@ deliberate departures:
      filter list
    - whether "manufacturing and other exporters" and the U.S.-exporter option really have
      no sector-specific stream, or whether that is a gap in the deck rather than in policy
-5. **The start page no longer fits a phone screen.** Each option is now three lines
-   (label, description, bulleted call to action) and wraps to 131px at a 390px viewport,
-   putting the third option's link about 836px down — past the ~724px a mobile browser
-   leaves visible once its toolbars show. The 271px of CDTS header and breadcrumb above
-   the h1 is most of the budget and is not ours to reclaim. Ways to get the space back,
-   cheapest first: shorten each `description` so it fits one line at 360px (about 40
-   characters, saves ~78px), drop the "Find the support you need" intro (~33px), or
-   tighten the option gap from `mrgn-bttm-md` to `mrgn-bttm-sm` (~20px).
+5. **The start page no longer fits a phone screen.** Each choice is a label, a
+   description and a button, and measures 143px at a 390px viewport, putting the third
+   button about 872px down — past the ~724px a mobile browser leaves visible once its
+   toolbars show. The 271px of CDTS header and breadcrumb above the h1 is most of that
+   budget and is not ours to reclaim. Ways to get the space back, cheapest first: shorten
+   each `description` so it fits one line at 360px, about 40 characters (~78px), drop the
+   "Find the support you need" intro (~33px), or tighten the option gap from
+   `mrgn-bttm-md` to `mrgn-bttm-sm` (~20px). Buttons themselves cost only 12px more per
+   choice than a plain text link, so they are not the thing to cut.
 6. **Consider a worker path prototype** if the live page turns out to need design work
    rather than just a link.
