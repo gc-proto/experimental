@@ -20,15 +20,26 @@ rescue LoadError
 end
 
 module Wizard
-  ROOT   = File.expand_path("../../..", __dir__)
-  PAGES  = File.join(ROOT, "canada-strong")
+  # Anchored to this folder, not to the repo, so the suite still runs if
+  # canada-strong is copied somewhere else to be worked on.
+  PAGES  = File.expand_path("../..", __dir__)
+  ROOT   = File.expand_path("..", PAGES)
   CONFIG = File.join(ROOT, "_config.yml")
 
-  # Read the data directory out of _config.yml rather than hardcoding it, so
-  # the tests follow the real build instead of asserting a parallel truth.
-  # Jekyll's own default is "_data" when the key is absent.
+  # Where the program data lives. Inside the Jekyll repo this comes out of
+  # _config.yml, so the tests follow the real build rather than asserting a
+  # parallel truth. Outside it — a copy of just this folder — fall back to the
+  # folder's own _data, which is where the files sit anyway.
+  def self.config
+    @config ||= File.exist?(CONFIG) ? (YAML.load_file(CONFIG) || {}) : nil
+  end
+
   def self.data_dir
-    @data_dir ||= File.join(ROOT, (YAML.load_file(CONFIG)["data_dir"] || "_data"))
+    @data_dir ||= if config && config["data_dir"]
+                    File.join(ROOT, config["data_dir"])
+                  else
+                    File.join(PAGES, "_data")
+                  end
   end
 
   LANGS = %w[en fr].freeze

@@ -4,7 +4,7 @@
 # Renders the canada-strong pages to a directory, using the same harness the
 # tests use — so what you preview cannot drift from what the tests check.
 #
-#   ruby _tests/canada-strong/preview.rb out && (cd out && python3 -m http.server)
+#   ruby _tests/preview.rb out && (cd out && python3 -m http.server)   (run from canada-strong/)
 #
 # A local server is required: the CDTS closure scripts do not run reliably
 # from file://.

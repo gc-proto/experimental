@@ -21,22 +21,48 @@ Live on test.canada.ca:
 | Fix a **program name or URL**, in either language | `_data/tariff_tool_links.csv` |
 | Change a **question, answer, heading or label** | `_data/canada_strong_en.yml` / `_fr.yml` |
 | Change the **eligibility criteria** or which size shows which badge | the same two YAML files |
-| Change **layout or markup** | `canada-strong/*.html` |
-| Check you did not break anything | `ruby _tests/canada-strong/run.rb` |
+| Change **layout or markup** | `business-*.html` / `start-*.html` |
+| Check you did not break anything | `ruby _tests/run.rb` |
 
 The four HTML files contain no copy and no program data. Both languages share one CSV.
+Paths below are relative to this folder (`canada-strong/`), which is meant to be worked
+on and copied as a unit — see "This folder stands alone" below.
 
 ```
 _data/tariff_tool_links.csv    59 rows — every program, both languages, and its routing
 _data/canada_strong_en.yml     English interface text + eligibility rules
 _data/canada_strong_fr.yml     the same, in French
-canada-strong/start-*.html     three choices, links out
-canada-strong/business-*.html  the wizard: questions, generated results, generated CSS
-_tests/canada-strong/          the suite: 92 tests over the four files above
+start-*.html                   three choices, links out
+business-*.html                the wizard: questions, generated results, generated CSS
+_tests/                        the suite: 100 tests over the files above
+how-this-wizard-works.md       this file
 ```
 
 `business-fr.html` is `business-en.html` with three lines changed — the data file it reads,
 and `NAME` / `URLF` pointing at the CSV's `name_fr` and `url_fr` columns. Keep them in step.
+
+## This folder stands alone
+
+Everything to work on this prototype lives inside `canada-strong/`: the four pages, the
+copy and routing data in `_data/`, the docs, and the test suite in `_tests/`. Someone can
+copy this one folder out — to pull into AEM, hand to another team, whatever — and it works
+on its own; `_tests/test_standalone.rb` checks exactly that.
+
+Two things make it work:
+
+- **`_config.yml` at the repo root** sets `data_dir: canada-strong/_data`, which is what
+  lets Jekyll find `site.data.canada_strong_en` and friends from inside this folder rather
+  than the repo-root `_data/` it defaults to. Jekyll only allows one `data_dir` for the
+  whole site, and canada-strong is the only thing in this repo that uses `site.data`, so
+  this doesn't collide with anything else.
+- **The underscore on `_data/` is load-bearing.** Jekyll skips any folder starting with
+  `_` when it copies files into the built site. Without it, `tariff_tool_links.csv` — internal
+  research notes and all, see the `note` column below — would be a fetchable file on
+  test.canada.ca. The test suite lives in `_tests/` for the same reason.
+
+If this folder is copied somewhere Jekyll never runs, `_tests/support/wizard.rb` falls back
+to reading `canada-strong/_data` directly, so the suite still runs; the three tests that
+check `_config.yml` itself skip in that case.
 
 ## The CSV is the routing table
 
@@ -135,7 +161,7 @@ have no sector-specific stream, so they see the sector-agnostic results only.
 - **`where` and `where_exp` are Jekyll filters, not core Liquid.** They work on
   GitHub Pages; they do not exist in the bare `liquid` gem, so anything rendering these
   templates outside Jekyll has to define them or local and deployed silently diverge.
-  `_tests/canada-strong/support/wizard.rb` is the one place that does.
+  `_tests/support/wizard.rb` is the one place that does.
 - **The CDTS theme is served from `cdts.service.canada.ca`, not `www.canada.ca`.** It
   bundles wb-fieldflow including `gcChckbxrdio`, so no extra `<script>` is needed. The old
   local copy at `en/assets/wb-fieldflow.min.js` predates `gcChckbxrdio`; do not use it.
@@ -149,13 +175,13 @@ have no sector-specific stream, so they see the sector-agnostic results only.
 
 ## Tests
 
-`_tests/canada-strong/` covers everything below that does not need a browser.
+`_tests/` covers everything below that does not need a browser.
 No Jekyll: the harness renders these templates with the same Liquid and the same two
 Jekyll array filters the real build uses, so it sees the bytes that ship.
 
 ```bash
-ruby _tests/canada-strong/run.rb          # the whole suite
-ruby _tests/canada-strong/preview.rb out  # render the pages to ./out to look at them
+ruby _tests/run.rb          # the whole suite
+ruby _tests/preview.rb out  # render the pages to ./out to look at them
 ```
 
 Both need the `liquid` and `nokogiri` gems, already installed on the team's machines
@@ -165,7 +191,7 @@ on every push and pull request, before the Jekyll build.
 To look at the output, `python3 -m http.server` from the directory `preview.rb` wrote —
 a local server is required, the CDTS closure scripts do not run reliably from `file://`.
 
-`_tests/canada-strong/README.md` says what each test file covers. In short:
+`_tests/README.md` says what each test file covers. In short:
 
 - **All 120 combinations**, both languages. It parses the generated CSS back out of the
   page, works out which panels a set of answer markers reveals, and diffs the programs
