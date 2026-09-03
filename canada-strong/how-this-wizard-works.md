@@ -34,7 +34,7 @@ _data/canada_strong_en.yml     English interface text + eligibility rules
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 108 tests over the files above
+_tests/                        the suite: 116 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
@@ -74,6 +74,7 @@ Nothing else decides what a combination returns.
 | `need` | `financing`, `liquidity`, `transformation`, `workforce`, or `all` for a hub shown under every need. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
 | `region` | `national`, or one of the seven RDA regions |
+| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL (`large`) and AgriMarketing's SME/NIA split use this today. |
 | `program_name` / `name_fr` | what the user sees. Blank `name_fr` falls back to English so a gap is visible, not silent. |
 | `url_en` / `url_fr` | where the link goes |
 | `status` | research confidence. `no-page` and `disputed` are **not rendered** — see below |
@@ -132,6 +133,51 @@ agriculture         | financing=2 | liquidity=5 | transformation=5 | workforce=0
 Question 1 clears all twenty, question 2 clears region, size and sector, and so on. This
 is what stops a stale panel surviving when someone changes an earlier answer.
 
+## How a size-gated row hides itself
+
+Everything above works at the level of a whole panel. Size doesn't get its own panel — a
+size-restricted program (LETL) sits in a panel that's already visible for other reasons
+(the sector-agnostic liquidity column, say), so what needs hiding is one `<li>`, not the
+section around it.
+
+Each `<li>` checks its own row's `size` column at build time. If it's blank, nothing
+changes — the `<li>` has no class and is never hidden, exactly like before this existed. If
+it's set, the `<li>` gets `wz-sz` (hidden by default, same idea as `.wz-r`/`.wz-rb`) plus
+one `wz-sz-{{ marker }}` class per size the row lists:
+
+```liquid
+<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>
+```
+
+and one generated CSS rule per size marker reveals it, same pattern as the sector hubs:
+
+```css
+#wz-state.size-large .wz-sz-size-large { display: list-item; }
+```
+
+**The blank check has to be `r.size and r.size != ""`, not just `!= ""`.** A blank CSV
+cell parses as Ruby `nil`, and in Liquid `nil != ""` is true — so a bare `!= ""` check
+would tag *every* row, including the hundreds with nothing in `size`, with an unmatchable
+`wz-sz` class and hide them all. `r.org != ""` had the same latent bug (dormant, since no
+rendered row has ever had a blank org); both checks now guard the nil case first.
+
+**The size match has to split on `;` before comparing, not use `contains` on the raw
+string.** Liquid's `contains` is substring matching against a string but exact-element
+matching against an array — `r.size | split: ";"` makes it an array first. With today's
+five size codes none is a substring of another, so the raw-string version happened to work,
+but it's the same class of bug as the blank check above: correct by accident, not by
+construction. `Expected.size_ok?` on the Ruby side already split and compared exactly; the
+template didn't match it until this was caught in review.
+
+**A panel's own visibility and a row's size gating are two separate mechanisms**, decided
+at different points (need/sector/region for the panel, `size` for the `<li>`s inside it).
+Nothing stops a CSV edit from restricting every row in a panel to sizes that don't add up
+to "everyone" — the panel would still render, heading and all, with an empty body for
+whichever size that leaves out. Not a live bug — every panel today has at least one row
+visible at every size — but a spreadsheet edit could cause it silently, so
+`test_no_panel_ever_renders_with_zero_visible_programs` checks the invariant directly
+rather than trusting it to hold by accident, the same reasoning as the two bugs above.
+
 ## The vocabulary bridge
 
 The YAML's `needs`, `sectors` and `regions` map our markers to the CSV's own words. Rename
@@ -156,6 +202,13 @@ Southern Ontario business FedNor's program too, and vice versa.
 
 Manufacturing and the U.S.-exporter answer are deliberately absent from `sectors:` — they
 have no sector-specific stream, so they see the sector-agnostic results only.
+
+There's a fourth bridge, `sizes:`, the same shape as the other three. It exists only for
+the rare CSV row that restricts itself by size (the `size` column above) — every row
+without one ignores it completely, which is nearly all of them. Unlike need/sector/region,
+size is never the *only* thing gating a row: it narrows an already-visible panel's list,
+one `<li>` at a time, rather than showing or hiding a whole panel — see "How a size-gated
+row hides itself" below.
 
 ## Gotchas found the hard way
 
@@ -205,7 +258,8 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 
 `_tests/README.md` says what each test file covers. In short:
 
-- **All 140 combinations**, both languages. It parses the generated CSS back out of the
+- **All 700 combinations** (140 need x region x sector, crossed with every size answer),
+  both languages. It parses the generated CSS back out of the
   page, works out which panels a set of answer markers reveals, and diffs the programs
   in them against the CSV — which it reads through a second, separate implementation of
   the rules on this page, so it cannot just agree with the template's bugs.
@@ -279,6 +333,31 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   said nothing they needed. `route_heading` / `route_body` and the `wz-route-*` markup are
   gone; the `route` status in the CSV stays, as a research note that the empty cell was
   checked rather than missed — see `status` above.
+- **Question 3 has a fifth answer for organizations, not just businesses by size.** The
+  Regional Tariff Response Initiative is also open to "non-profit organizations, industry
+  and sector associations, boards of trade, and provincial entities that support affected
+  businesses" — the provincial-entities part is left out of the label on purpose, per
+  direction. It sits right after "Under $1 million," and is mapped to that same answer's
+  eligibility badges (`size-nonprofit` uses `size-under1m`'s `eligibility_rules` rows) as a
+  placeholder until there's real guidance for this group specifically —
+  `test_nonprofit_size_answer_matches_under1m_badges` pins that so it can't drift quietly.
+  At the time this was written size only changed the eligibility badges, never which
+  programs showed — the next entry is why that's no longer true.
+- **Size can now gate an individual program, not just badges.** LETL's own research note
+  said "Large enterprise only - gate on the Q3 size answer" and nothing did. The CSV gained
+  a `size` column (blank means shown to everyone, which is nearly every row) and LETL is
+  set to `large`. See "How a size-gated row hides itself" above for the mechanism, and
+  `test_letl_only_shows_for_size_large` for the pin.
+- **AgriMarketing's SME and NIA rows now split on the `size-nonprofit` answer.** The NIA
+  row (Market Diversification for National Industry Associations) was already in the CSV,
+  flagged with *"Associations only, not individual businesses"* and no way to act on that —
+  this tool asks "I am a business or employer," so it could show to everyone. It's now
+  `size: nonprofit`; the SME row is every other size. This is also why `size-nonprofit`
+  needed its own bucket in the `sizes:` bridge rather than sharing `size-under1m`'s — two
+  programs that both restrict by size, one to "actual businesses under $1M" and one to
+  "non-profits," would otherwise be indistinguishable to the routing mechanism, even though
+  their eligibility badges still deliberately share size-under1m's as a placeholder. Pinned
+  by `test_agrimarketing_sme_and_nia_are_mutually_exclusive`.
 
 ## Next steps
 
@@ -293,20 +372,25 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    - the Business Benefits Finder, whose page has no h1 at all
    - FCC's French financing page, which still carries an English title
    ("Marque Canada" is confirmed correct — its site was simply down when checked.)
-2. **Resolve the flagged rows.** `duplicate-url` (3), `weak` (2), `ambiguous` (1) and
-   `best-guess` (1). Each `note` says what the doubt is. The `duplicate-url` rows in
+2. **Resolve the remaining flagged rows.** `duplicate-url` (3), `weak` (2), `ambiguous` (1)
+   and `best-guess` (1). Each `note` says what the doubt is. The `duplicate-url` rows in
    particular send two differently-named results to the same page, which reads as a bug.
-3. **Decide about the AgriMarketing association row.** Its note says *"Associations only,
-   not individual businesses"*, but this tool asks "I am a business or employer" — so it
-   arguably should not surface here at all, or needs a visible caveat.
-4. **Report the AAFC language-toggle bug.** One note records that the French AAFC hub's
+3. **Report the AAFC language-toggle bug.** One note records that the French AAFC hub's
    English toggle targets a 404. That is a live Canada.ca defect, unrelated to this work.
-5. **Add amount, term and repayment** once the figures exist — new CSV columns and a line
+4. **Add amount, term and repayment** once the figures exist — new CSV columns and a line
    in the template.
-6. **The start page does not fit a phone screen.** Each choice measures 143px at a 390px
+5. **The start page does not fit a phone screen.** Each choice measures 143px at a 390px
    viewport, putting the third button about 872px down, past the ~724px a mobile browser
    leaves visible. The 271px of CDTS header and breadcrumb is most of that budget. Cheapest
    fixes: shorten each `description` to one line at 360px (~78px), drop the intro line
    (~33px), tighten the gap to `mrgn-bttm-sm` (~20px). Buttons cost only 12px more than
    plain links, so they are not the thing to cut.
-7. **Consider a worker path prototype** if that page needs design work rather than a link.
+6. **Consider a worker path prototype** if that page needs design work rather than a link.
+7. **Give `size-nonprofit` its own eligibility badges** once there's real guidance for
+   non-profits, associations and boards of trade — it currently borrows `size-under1m`'s as
+   a placeholder (see "what we changed"), and "3 or more years operating" / "$1 million or
+   more in annual revenue" are business-shaped criteria that may not fit this group at all.
+8. **Consider the Kosher and Halal Investment Component** as a third AgriMarketing row.
+   Research on the SME/NIA split turned this up as a further stream under the same
+   program, sector-specific rather than size-specific — not added, since its own URL and
+   French name still need the same live-page verification every other row got.

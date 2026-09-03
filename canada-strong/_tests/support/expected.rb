@@ -80,11 +80,21 @@ module Wizard
       !sector_csv.nil? && sector_cell(need_csv, sector_csv, lang).empty?
     end
 
+    # A row with a blank `size` column shows for every size — that's nearly
+    # every row. Only a row that restricts itself (semicolon-separated CSV
+    # size values, same convention as `need`) is checked against the answer.
+    def size_ok?(row, size_csv)
+      list = row["size"].to_s.strip
+      return true if list.empty?
+      list.split(";").map(&:strip).include?(size_csv)
+    end
+
     # Every program that should be visible, in no particular order.
-    def programs(lang, need_marker, region_marker, sector_marker)
+    def programs(lang, need_marker, region_marker, sector_marker, size_marker)
       need_csv   = Wizard.need_csv(lang, need_marker)
       sec_csv    = Wizard.sector_csv(lang, sector_marker)
       reg_csvs   = Wizard.region_csvs(lang, region_marker)
+      size_csv   = Wizard.size_csv(lang, size_marker)
 
       rows = sector_cell(need_csv, sec_csv, lang) +
              sector_hub(sec_csv, lang) +
@@ -92,7 +102,7 @@ module Wizard
              regional(need_csv, reg_csvs, lang) +
              agnostic_hubs(lang)
 
-      rows.map { |r| display(r, lang) }
+      rows.select { |r| size_ok?(r, size_csv) }.map { |r| display(r, lang) }
     end
   end
 end
