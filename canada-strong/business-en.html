@@ -62,6 +62,7 @@ layout: null
 			#wz-state.{{ need.marker }}.{{ sec.marker }} .wz-route-{{ need.csv }}-{{ sec.csv }} { display: block; }
 {% endfor %}{% for reg in t.regions %}			#wz-state.{{ need.marker }}.{{ reg.marker }} .wz-rg-{{ reg.marker }}-{{ need.csv }} { display: block; }
 {% endfor %}{% endfor %}{% for sec in t.sectors %}			#wz-state.{{ sec.marker }} .wz-hub-{{ sec.csv }} { display: block; }
+{% endfor %}{% for reg in t.regions %}			#wz-state.{{ reg.marker }} .wz-rda-{{ reg.marker }} { display: block; }
 {% endfor %}{% for row in b.eligibility_rules %}{% assign ms = row.when | split: " " %}			#wz-state{% for m in ms %}.{{ m }}{% endfor %} .{{ row.show }} { display: {{ row.display | default: "block" }}; }
 {% endfor %}		</style>
 	</head>
@@ -205,7 +206,9 @@ layout: null
 											</li>
 											{% endfor %}
 										</ul>
-										<p class="wz-r wz-large-note mrgn-bttm-0"><strong>{{ e.large_note }}</strong></p>
+										<p class="wz-r wz-large-note"><strong>{{ e.large_note }}</strong></p>
+										{% for reg in t.regions %}<p class="wz-r wz-rda-{{ reg.marker }} mrgn-bttm-0">{{ L.rda_prefix }}<a href="{{ reg.rda_url }}">{{ reg.rda }}</a></p>
+										{% endfor %}
 									</div>
 								</section>
 

@@ -46,14 +46,23 @@ sectors:
   - {marker: sec-steel,    csv: steel-and-aluminum,  heading: "Steel and aluminum"}
   - {marker: sec-agri,     csv: agriculture,         heading: "Agriculture"}
 
-# Ontario maps to two CSV regions; separate multiple values with a semicolon.
+# Ontario is two RDAs, not one, so it is two separate answers rather than a
+# single "Ontario" that shows both. FedNor serves Northern Ontario; FedDev
+# Ontario serves Southern Ontario. Split at Muskoka, per
+# https://ised-isde.canada.ca/site/ised/en/canadas-regional-development-agencies
+#
+# `rda` / `rda_url` are the agency's own name and homepage — not the
+# region's tariff-specific program, which is `wz-rg-*` above and already a
+# link in "Programs for your region". Names are each page's own <h1>, URLs
+# checked live (2026-09-03), same convention as the CSV's `fr_source`.
 regions:
-  - {marker: reg-atl, csv: "Atlantic"}
-  - {marker: reg-qc,  csv: "Quebec"}
-  - {marker: reg-on,  csv: "Southern Ontario;Northern Ontario"}
-  - {marker: reg-pr,  csv: "Prairies"}
-  - {marker: reg-bc,  csv: "British Columbia"}
-  - {marker: reg-nor, csv: "North"}
+  - {marker: reg-atl,   csv: "Atlantic",          rda: "Atlantic Canada Opportunities Agency",              rda_url: "https://www.canada.ca/en/atlantic-canada-opportunities.html"}
+  - {marker: reg-qc,    csv: "Quebec",            rda: "Canada Economic Development for Quebec Regions",    rda_url: "https://www.canada.ca/en/economic-development-quebec-regions.html"}
+  - {marker: reg-on-n,  csv: "Northern Ontario",  rda: "Federal Economic Development Agency for Northern Ontario", rda_url: "https://fednor.canada.ca/en"}
+  - {marker: reg-on-s,  csv: "Southern Ontario",  rda: "Federal Economic Development Agency for Southern Ontario", rda_url: "https://feddev-ontario.canada.ca/en"}
+  - {marker: reg-pr,    csv: "Prairies",          rda: "Prairies Economic Development Canada",               rda_url: "https://www.canada.ca/en/prairies-economic-development.html"}
+  - {marker: reg-bc,    csv: "British Columbia",  rda: "PacifiCan",                                          rda_url: "https://www.canada.ca/en/pacific-economic-development.html"}
+  - {marker: reg-nor,   csv: "North",             rda: "Canadian Northern Economic Development Agency",      rda_url: "https://www.canada.ca/en/northern-economic-development.html"}
 
 # CSV rows carrying these statuses are never rendered.
 #   no-page   the research found no program by that name
@@ -105,6 +114,7 @@ business:
     region_footnote: "Regional criteria and intake dates vary."
     hub_heading: "Where these programs are listed"
     hub_body: "These hubs are the departments' own lists. They are kept current, so check them if something here looks out of date."
+    rda_prefix: "Your regional development agency can help you: "
 
   # ── The four questions ─────────────────────────────────────────────────────
   # `clears` lists every marker this question resets before applying the new
@@ -114,7 +124,7 @@ business:
   questions:
     - id: question-1
       legend: "Question 1 of 4: What do you need right now?"
-      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-2"
       options:
         - {marker: need-fin, label: "Financing to keep operating or grow"}
@@ -124,15 +134,16 @@ business:
 
     - id: question-2
       legend: "Question 2 of 4: Where is your business located?"
-      clears: "reg-atl reg-qc reg-on reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-3"
       options:
-        - {marker: reg-atl, label: "Atlantic"}
-        - {marker: reg-qc,  label: "Quebec"}
-        - {marker: reg-on,  label: "Ontario"}
-        - {marker: reg-pr,  label: "Prairies"}
-        - {marker: reg-bc,  label: "British Columbia"}
-        - {marker: reg-nor, label: "The North"}
+        - {marker: reg-atl,  label: "Atlantic"}
+        - {marker: reg-qc,   label: "Quebec"}
+        - {marker: reg-on-n, label: "Northern Ontario (including Parry Sound)"}
+        - {marker: reg-on-s, label: "Southern Ontario (south of Muskoka)"}
+        - {marker: reg-pr,   label: "Prairies"}
+        - {marker: reg-bc,   label: "British Columbia"}
+        - {marker: reg-nor,  label: "The North"}
 
     - id: question-3
       legend: "Question 3 of 4: What is your size and revenue?"

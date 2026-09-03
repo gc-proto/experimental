@@ -27,7 +27,7 @@ gem install --user-install liquid -v 4.0.4 --no-document
 |---|---|
 | `test_routing.rb` | All 120 need x sector x region combinations, both languages, against the CSV. Route notes, excluded rows, internal notes, duplicate results. |
 | `test_csv_data.rb` | The CSV itself: required columns, closed vocabularies, statuses, URLs, French coverage, and two decisions pinned so they cannot be undone quietly. |
-| `test_eligibility.rb` | Exactly one badge per criterion for every size x sector, and nothing painted before its question is answered. |
+| `test_eligibility.rb` | Exactly one badge per criterion for every size x sector, nothing painted before its question is answered, and exactly one RDA link matching the chosen region. |
 | `test_markup.rb` | Heading order, one h1, the fieldflow chain, the reset cascade, and the traps listed under "Gotchas found the hard way". |
 | `test_parity.rb` | The French templates are the English ones with the language swapped; the two YAML files stay the same shape. |
 | `test_standalone.rb` | The folder carries its own data, docs and tests, and `data_dir` still points into it. |
