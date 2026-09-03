@@ -34,32 +34,27 @@ prototype_notice:
   # Each page supplies its own body under `notice` below.
 
 # ═══ START PAGE (slide 1) ════════════════════════════════════════════════════
+# Three choices, one line of supporting text each, no card chrome — the page is
+# meant to fit a phone screen without scrolling.
 start:
   title: "Find support for tariff impacts"
   description: "Find the federal supports available to businesses, employers and workers affected by United States tariffs."
   h1: "Find support for tariff impacts"
-  notice: "This is a design prototype built from a slide deck. The worker path and the information hub link out to the live Canada.ca pages."
-  intro: "What brings you here today?"
-  cards:
-    - heading: "I am a business or employer"
-      bullets:
-        - "Answer four questions about need, region, size and sector"
-        - "Get a shortlist of financing, liquidity, project and workforce programs"
-      cta: "Go to the business path"
+  intro: "Find the support you need"
+  options:
+    - label: "I am a business or employer"
+      description: "Answer four questions about need, region, size and sector"
+      cta: "Build me a short list"
       href: "business-en.html"
-    - heading: "I am a worker"
-      bullets:
-        - "Reach income support, skills training and student aid directly"
-        - "No eligibility questionnaire required to browse"
+    - label: "I am a worker"
+      description: "Reach income support, skills training and student aid directly"
       cta: "Go to the worker path"
       # Placeholder: the live Canada.ca page stands in until a worker prototype exists
       href: "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/support-canadian-workers-employers.html#a1"
-    - heading: "I want more information"
-      bullets:
-        - "General overview of Canada's response to U.S. tariffs"
-        - "Link to the Canada.ca tariff response landing page"
-      cta: "Go to the information hub"
-      href: "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs.html"
+    - label: "I want more information"
+      description: "General overview of Canada's response to U.S. tariffs"
+      cta: "Give me the overview"
+      href: "https://www.canada.ca/en/government/united-states-canada.html"
 
 # ═══ BUSINESS WIZARD (slides 2, 3, 4) ════════════════════════════════════════
 business:

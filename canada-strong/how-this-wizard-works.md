@@ -15,8 +15,8 @@ Liquid loops with no hardcoded copy. If you are changing what the wizard says or
 returns, you almost certainly want the YAML and not the HTML.
 
 ```
-_data/canada_strong_en.yml     343 lines — 4 questions, 19 panels, 39 matrix rows, 37 programs
-canada-strong/start-en.html    3 cards, links out
+_data/canada_strong_en.yml     335 lines — 4 questions, 19 panels, 39 matrix rows, 37 programs
+canada-strong/start-en.html    3 choices, links out
 canada-strong/business-en.html the wizard: questions, results, and the generated CSS
 ```
 
@@ -159,14 +159,19 @@ criterion.
 
 ## Where the content came from, and what we changed
 
-The deck is the source for every program name and every routing decision. Three
+The deck is the source for every program name and every routing decision. Four
 deliberate departures:
 
 - **Slide 3 is not a separate page.** The deck says the employer "is directed to these
   programs" once workforce retention is the identified need, so those four programs are
   the `wz-need-wrk` result panel.
-- **Slide 5 is not built.** The worker card on the start page links to the live Canada.ca
+- **Slide 5 is not built.** The worker choice on the start page links to the live Canada.ca
   worker supports page instead.
+- **The start page does not use slide 1's card layout.** The cards were an artifact of the
+  deck, not design intent. It is now a plain list of three links with one line of
+  supporting text each, and no prototype alert, so the whole choice fits a phone screen.
+  The prototype alert stays on the business page, where the placeholder links make it
+  necessary.
 - **Amount, term and repayment are not shown.** Slide 4 says each result should show them
   up front, but the deck gives no figures, and inventing numbers on a Canada.ca-looking
   page is not acceptable. The eligibility met / not met / needs review marking, which the
@@ -187,8 +192,13 @@ deliberate departures:
      filter list
    - whether "manufacturing and other exporters" and the U.S.-exporter option really have
      no sector-specific stream, or whether that is a gap in the deck rather than in policy
-5. **Decide on the start page.** It is three cards today because slide 1 mocks it that way
-   and the bullets need somewhere to live. It could become a fieldflow radio question with
-   a Continue button for consistency with the wizard.
+5. **The start page no longer fits a phone screen.** Each option is now three lines
+   (label, description, bulleted call to action) and wraps to 131px at a 390px viewport,
+   putting the third option's link about 836px down — past the ~724px a mobile browser
+   leaves visible once its toolbars show. The 271px of CDTS header and breadcrumb above
+   the h1 is most of the budget and is not ours to reclaim. Ways to get the space back,
+   cheapest first: shorten each `description` so it fits one line at 360px (about 40
+   characters, saves ~78px), drop the "Find the support you need" intro (~33px), or
+   tighten the option gap from `mrgn-bttm-md` to `mrgn-bttm-sm` (~20px).
 6. **Consider a worker path prototype** if the live page turns out to need design work
    rather than just a link.

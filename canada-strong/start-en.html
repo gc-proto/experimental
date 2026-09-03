@@ -56,30 +56,16 @@ layout: null
 
 				<div class="row">
 					<div class="col-md-8">
-						<section class="alert alert-warning">
-							<h2 class="h5">{{ t.prototype_notice.heading }}</h2>
-							<p>{{ p.notice }}</p>
-						</section>
-
 						<p>{{ p.intro }}</p>
 
-						{% for card in p.cards %}
-						<section class="panel panel-default mrgn-tp-md">
-							<header class="panel-heading">
-								<h2 class="panel-title h3">{{ card.heading }}</h2>
-							</header>
-							<div class="panel-body">
-								<ul>
-									{% for bullet in card.bullets %}<li>{{ bullet }}</li>
-									{% endfor %}
-								</ul>
-								<p class="mrgn-tp-md mrgn-bttm-0">
-									<a href="{{ card.href }}" class="btn btn-primary">{{ card.cta }}</a>
-								</p>
-							</div>
-						</section>
-						{% endfor %}
-
+						<ul class="list-unstyled mrgn-tp-md">
+							{% for opt in p.options %}<li class="mrgn-bttm-md">
+								<p class="h5 mrgn-tp-0 mrgn-bttm-sm">{{ opt.label }}</p>
+								<p class="mrgn-bttm-sm">{{ opt.description }}</p>
+								<p class="mrgn-bttm-0"><span aria-hidden="true">&#8226;</span> <a href="{{ opt.href }}">{{ opt.cta }}</a></p>
+							</li>
+							{% endfor %}
+						</ul>
 					</div>
 				</div>
 			</div>
