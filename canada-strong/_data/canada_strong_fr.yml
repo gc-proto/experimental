@@ -36,13 +36,22 @@ sectors:
   - {marker: sec-steel,    csv: steel-and-aluminum,  heading: "Acier et aluminium"}
   - {marker: sec-agri,     csv: agriculture,         heading: "Agriculture"}
 
+# L'Ontario correspond à deux ADR, pas une seule : FedNor dessert le nord,
+# FedDev Ontario le sud. Les valeurs csv: sont des identifiants et restent en
+# anglais ici, comme dans le fichier anglais.
+#
+# `rda` / `rda_url` sont le nom et le site de l'agence elle-même — pas le
+# programme tarifaire régional, qui est `wz-rg-*` ci-dessus et déjà un lien
+# sous « Programmes pour votre région ». Noms tirés du <h1> de chaque page,
+# adresses vérifiées en direct (2026-09-03).
 regions:
-  - {marker: reg-atl, csv: "Atlantic"}
-  - {marker: reg-qc,  csv: "Quebec"}
-  - {marker: reg-on,  csv: "Southern Ontario;Northern Ontario"}
-  - {marker: reg-pr,  csv: "Prairies"}
-  - {marker: reg-bc,  csv: "British Columbia"}
-  - {marker: reg-nor, csv: "North"}
+  - {marker: reg-atl,   csv: "Atlantic",          rda: "Agence de promotion économique du Canada atlantique",         rda_url: "https://www.canada.ca/fr/promotion-economique-canada-atlantique.html"}
+  - {marker: reg-qc,    csv: "Quebec",            rda: "Développement économique Canada pour les régions du Québec",  rda_url: "https://www.canada.ca/fr/developpement-economique-regions-quebec.html"}
+  - {marker: reg-on-n,  csv: "Northern Ontario",  rda: "Agence fédérale de développement économique pour le Nord de l'Ontario", rda_url: "https://fednor.canada.ca/fr"}
+  - {marker: reg-on-s,  csv: "Southern Ontario",  rda: "Agence fédérale de développement économique pour le Sud de l'Ontario",  rda_url: "https://feddev-ontario.canada.ca/fr"}
+  - {marker: reg-pr,    csv: "Prairies",          rda: "Développement économique Canada pour les Prairies",            rda_url: "https://www.canada.ca/fr/developpement-economique-prairies.html"}
+  - {marker: reg-bc,    csv: "British Columbia",  rda: "PacifiCan",                                                    rda_url: "https://www.canada.ca/fr/developpement-economique-pacifique.html"}
+  - {marker: reg-nor,   csv: "North",             rda: "Agence canadienne de développement économique du Nord",       rda_url: "https://www.canada.ca/fr/developpement-economique-nord.html"}
 
 exclude_statuses: "no-page disputed"
 
@@ -88,11 +97,12 @@ business:
     region_footnote: "Les critères régionaux et les dates de réception des demandes varient."
     hub_heading: "Où ces programmes sont répertoriés"
     hub_body: "Ces carrefours sont les listes tenues par les ministères eux-mêmes. Ils sont à jour : consultez-les si une information ici semble désuète."
+    rda_prefix: "Votre agence de développement régional peut vous aider : "
 
   questions:
     - id: question-1
       legend: "Question 1 sur 4 : De quoi avez-vous besoin en ce moment?"
-      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-2"
       options:
         - {marker: need-fin, label: "Du financement pour poursuivre vos activités ou prendre de l'expansion"}
@@ -102,15 +112,16 @@ business:
 
     - id: question-2
       legend: "Question 2 sur 4 : Où votre entreprise est-elle située?"
-      clears: "reg-atl reg-qc reg-on reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
       next: "question-3"
       options:
-        - {marker: reg-atl, label: "Atlantique"}
-        - {marker: reg-qc,  label: "Québec"}
-        - {marker: reg-on,  label: "Ontario"}
-        - {marker: reg-pr,  label: "Prairies"}
-        - {marker: reg-bc,  label: "Colombie-Britannique"}
-        - {marker: reg-nor, label: "Le Nord"}
+        - {marker: reg-atl,  label: "Atlantique"}
+        - {marker: reg-qc,   label: "Québec"}
+        - {marker: reg-on-n, label: "Nord de l'Ontario (y compris Parry Sound)"}
+        - {marker: reg-on-s, label: "Sud de l'Ontario (au sud de Muskoka)"}
+        - {marker: reg-pr,   label: "Prairies"}
+        - {marker: reg-bc,   label: "Colombie-Britannique"}
+        - {marker: reg-nor,  label: "Le Nord"}
 
     - id: question-3
       legend: "Question 3 sur 4 : Quels sont votre taille et vos revenus?"

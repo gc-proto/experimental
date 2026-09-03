@@ -30,7 +30,7 @@ class TestEligibility < Minitest::Test
       wrong = []
 
       answer_pairs(lang).each do |size, sector|
-        criteria_list(page, [size, sector, "need-fin", "reg-on"]).each do |text, badges|
+        criteria_list(page, [size, sector, "need-fin", "reg-on-s"]).each do |text, badges|
           next if badges.size == 1
           wrong << "#{size} + #{sector}: \"#{text[0, 48]}\" shows #{badges.size} badges (#{badges.join(', ')})"
         end
@@ -42,7 +42,7 @@ class TestEligibility < Minitest::Test
     # Answering only some questions must not paint a criterion prematurely.
     define_method("test_no_conditional_badge_before_its_question_is_answered_#{lang}") do
       page = Wizard::BUSINESS[lang]
-      visible = Wizard.visible_targets(page, ["need-fin", "reg-on"])
+      visible = Wizard.visible_targets(page, ["need-fin", "reg-on-s"])
       early = Wizard.doc(page).css("span.wz-badge").select { |b| Wizard.shown?(b, visible) }
                     .select { |b| b["class"].to_s.split.include?("wz-rb") }
       assert_empty early.map { |b| b.text.strip },
@@ -56,11 +56,49 @@ class TestEligibility < Minitest::Test
       refute_nil note, "#{lang}: the large-enterprise note is missing"
 
       Wizard.size_markers(lang).each do |size|
-        visible = Wizard.visible_targets(page, [size, "need-fin", "reg-on", "sec-agri"])
+        visible = Wizard.visible_targets(page, [size, "need-fin", "reg-on-s", "sec-agri"])
         shown = Wizard.shown?(note, visible)
         want  = (size == "size-large")
         assert_equal want, shown, "#{lang}: large note #{shown ? 'shown' : 'hidden'} for #{size}"
       end
+    end
+
+    # Exactly one RDA link at the bottom of the eligibility section, matching
+    # whichever region was answered — never none, and never more than one at
+    # once (each region's paragraph is independently gated on its own marker).
+    define_method("test_exactly_one_rda_link_for_the_chosen_region_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      prefix = Wizard.text(lang)["business"]["labels"]["rda_prefix"]
+
+      Wizard.region_markers(lang).each do |m|
+        visible = Wizard.visible_targets(page, [m, "need-fin", "sec-agri", "size-1to5m"])
+        shown = Wizard.doc(page).css("p.wz-r").select do |p|
+          p["class"].to_s.split.any? { |c| c.start_with?("wz-rda-") } && Wizard.shown?(p, visible)
+        end
+
+        assert_equal 1, shown.size, "#{lang}: #{m} reveals #{shown.size} RDA links, expected exactly 1"
+        para = shown.first
+        assert para.text.strip.start_with?(prefix.strip), "#{lang}: RDA paragraph for #{m} is missing rda_prefix"
+        assert_includes para["class"], "wz-rda-#{m}", "#{lang}: #{m} shows a different region's RDA link"
+      end
+    end
+
+    # Every region's RDA link points at that agency's own site, not the
+    # region's tariff-specific program (already linked above, under "Programs
+    # for your region") and not another region's agency.
+    define_method("test_rda_links_point_at_the_right_agency_#{lang}") do
+      Wizard.text(lang)["regions"].each do |reg|
+        refute_nil reg["rda"], "#{lang}: #{reg['marker']} has no rda name"
+        refute_nil reg["rda_url"], "#{lang}: #{reg['marker']} has no rda_url"
+        assert reg["rda_url"].start_with?("https://"), "#{lang}: #{reg['marker']}'s rda_url is not https"
+        refute_includes reg["rda_url"], "regional-tariff-response-initiative",
+          "#{lang}: #{reg['marker']}'s rda_url points at the RTRI program page, not the agency's own site"
+        refute_includes reg["rda_url"], "initiative-regionale-reponse-tarifaire",
+          "#{lang}: #{reg['marker']}'s rda_url points at the RTRI program page, not the agency's own site"
+      end
+
+      urls = Wizard.text(lang)["regions"].map { |r| r["rda_url"] }
+      assert_equal urls.uniq.size, urls.size, "#{lang}: two regions share the same rda_url"
     end
 
     # Every rule points at a badge class the page actually contains, and every

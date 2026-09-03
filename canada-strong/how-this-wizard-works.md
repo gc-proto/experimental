@@ -34,7 +34,7 @@ _data/canada_strong_en.yml     English interface text + eligibility rules
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 100 tests over the files above
+_tests/                        the suite: 106 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
@@ -102,7 +102,7 @@ Results depend on **two answers at once** — the need and the sector — and a 
 option can only reveal one fixed target. So:
 
 1. Each answer stamps a **marker class** on `#wz-state`: `need-liq`, `sec-agri`,
-   `reg-on`, `size-1to5m`. Nineteen markers, one per answer.
+   `reg-on-s`, `size-1to5m`. Twenty markers, one per answer.
 2. At build time the template groups the CSV into a panel per need × sector, per region,
    and per sector hub. Every panel is in the DOM, hidden by `.wz-r { display: none }`.
 3. It also generates one CSS rule per panel, which is what reveals it:
@@ -139,8 +139,15 @@ needs:
 sectors:
   - {marker: sec-agri, csv: agriculture, heading: "Agriculture"}
 regions:
-  - {marker: reg-on, csv: "Southern Ontario;Northern Ontario"}   # semicolons for several
+  - {marker: reg-atl,  csv: "Atlantic"}
+  - {marker: reg-on-n, csv: "Northern Ontario"}   # its own RDA (FedNor); see below
 ```
+
+A marker can map to several CSV values at once — semicolons for "regional criteria use
+this region OR that one" — but Ontario isn't that: it's two RDAs with two different
+regional programs, so it's two separate answers (`reg-on-n`, `reg-on-s`), each mapping to
+exactly one CSV region. One marker with `"Southern Ontario;Northern Ontario"` would show a
+Southern Ontario business FedNor's program too, and vice versa.
 
 Manufacturing and the U.S.-exporter answer are deliberately absent from `sectors:` — they
 have no sector-specific stream, so they see the sector-agnostic results only.
@@ -201,7 +208,8 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
   https URLs, French coverage on every row that renders, no untriaged duplicate
   destinations.
 - **Eligibility**: exactly one badge per criterion for all twenty size x sector pairs,
-  and nothing painted before its question is answered.
+  nothing painted before its question is answered, and exactly one RDA link — the right
+  one — for whichever region was chosen.
 - **Markup**: one h1 and no skipped heading levels, the fieldflow chain, the reset
   cascade, and each gotcha listed above — `.hidden` on a generated-rule target, the wrong
   `wet-*.js`, the missing space before a French colon, missing `layout: null`.
@@ -242,6 +250,22 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
 - **Amount, term and repayment are not shown.** Slide 4 asks for them; no figures exist
   yet, and inventing them on a Canada.ca-looking page is not acceptable.
 - **The forestry transformation cell is the deck's, corrected.** See `status` above.
+- **Ontario is two region answers, not one.** The deck's region question (and an earlier
+  version of this page) asked once for "Ontario". Ontario has two regional development
+  agencies with two different regional programs — FedNor for the north, FedDev Ontario for
+  the south (see
+  [Canada's regional development agencies](https://ised-isde.canada.ca/site/ised/en/canadas-regional-development-agencies))
+  — so one answer would have shown every Ontario business both agencies' regional program.
+  The split is at Muskoka, with the answer labels naming the boundary and Parry Sound
+  explicitly, since that's the district people are most likely to be unsure about.
+- **The eligibility section ends with a link to the business's own RDA.** Not the region's
+  tariff-specific program — that's already linked above, under "Programs for your region" —
+  but the agency's own homepage, added because the RDA is worth pointing to regardless of
+  what the CSV's programs turn up for that need. It's not deck content: `regions:` in each
+  YAML gained `rda` and `rda_url` fields alongside the marker and `csv` value, names taken
+  from each page's own `<h1>`, all seven URLs checked live on 2026-09-03. The paragraph for
+  every region is in the DOM at once, one `#wz-state.reg-marker .wz-rda-reg-marker` rule
+  each, same pattern as the sector hubs' `.wz-hub-*` rule just above it.
 
 ## Next steps
 

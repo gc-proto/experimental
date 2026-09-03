@@ -182,6 +182,38 @@ class TestCsvData < Minitest::Test
       "a BDC stream is back in the forestry transformation cell — see the `status` section of how-this-wizard-works.md"
   end
 
+  # Ontario has two regional development agencies — FedNor (north) and FedDev
+  # Ontario (south) — with two different regional programs. An earlier version
+  # of this page asked "Ontario" once and mapped it to both CSV regions at
+  # once, which showed every Ontario business both agencies' program. Pinned
+  # here because a data-driven test cannot catch a regression to that: nothing
+  # stops someone re-merging the two answers in the YAML, since the CSV rows
+  # themselves would be unchanged either way. See the Ontario entry under
+  # "what we changed" in how-this-wizard-works.md.
+  def test_ontario_is_two_region_answers_not_one
+    en = Wizard.text("en")["regions"]
+    on = en.select { |r| r["csv"].to_s.include?("Ontario") }
+
+    assert_equal 2, on.size, "Ontario should be two region answers (Northern and Southern), found #{on.size}"
+    on.each do |r|
+      refute_includes r["csv"], ";", "#{r['marker']} maps to more than one CSV region: #{r['csv']}"
+    end
+
+    assert_equal %w[Northern\ Ontario Southern\ Ontario], on.map { |r| r["csv"] }.sort,
+      "the two Ontario answers should map to exactly Northern Ontario and Southern Ontario"
+  end
+
+  # Each of the seven RDAs must have somewhere to send its region's businesses,
+  # not just a heading in the YAML with nothing behind it.
+  def test_every_region_has_its_own_regional_program
+    Wizard.text("en")["regions"].each do |reg|
+      reg["csv"].split(";").each do |csv_region|
+        has_program = Wizard::Expected.live.any? { |r| r["region"] == csv_region }
+        assert has_program, "#{csv_region} (#{reg['marker']}) has no program routed to it"
+      end
+    end
+  end
+
   # Two rows pointing at the same page must be triaged, not shipped silently:
   # the CSV has a `duplicate-url` status for exactly that. This forces a new
   # collision to be looked at rather than quietly rendering twice.
