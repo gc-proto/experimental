@@ -161,13 +161,12 @@ module Wizard
       doc(page).css("section.panel").select { |s| shown?(s, visible) }
     end
 
-    # Programs listed in one panel, as [name, url] pairs. Eligibility criteria
-    # live in a panel too, and carry .wz-crit; they are not programs. Pass
-    # `visible` to also drop individual rows a CSV `size` column hides for
-    # this set of markers (e.g. LETL under a non-large size); omit it to get
-    # every row regardless of visibility, for DOM-wide leak checks.
+    # Programs listed in one panel, as [name, url] pairs. Pass `visible` to
+    # also drop individual rows a CSV `size` column hides for this set of
+    # markers (e.g. LETL under a non-large size); omit it to get every row
+    # regardless of visibility, for DOM-wide leak checks.
     def panel_programs(panel, visible = nil)
-      items = panel.css(".panel-body > ul > li").reject { |li| li["class"].to_s.split.include?("wz-crit") }
+      items = panel.css(".panel-body > ul > li")
       items = items.select { |li| shown?(li, visible) } if visible
       items.map do |li|
         link = li.at_css("a")

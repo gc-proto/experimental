@@ -20,7 +20,6 @@ Live on test.canada.ca:
 | Add, move, retire or re-link a **program** | `_data/tariff_tool_links.csv` |
 | Fix a **program name or URL**, in either language | `_data/tariff_tool_links.csv` |
 | Change a **question, answer, heading or label** | `_data/canada_strong_en.yml` / `_fr.yml` |
-| Change the **eligibility criteria** or which size shows which badge | the same two YAML files |
 | Change **layout or markup** | `business-*.html` / `start-*.html` |
 | Check you did not break anything | `ruby _tests/run.rb` |
 
@@ -30,11 +29,11 @@ on and copied as a unit — see "This folder stands alone" below.
 
 ```
 _data/tariff_tool_links.csv    59 rows — every program, both languages, and its routing
-_data/canada_strong_en.yml     English interface text + eligibility rules
+_data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 116 tests over the files above
+_tests/                        the suite: 109 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
@@ -74,7 +73,7 @@ Nothing else decides what a combination returns.
 | `need` | `financing`, `liquidity`, `transformation`, `workforce`, or `all` for a hub shown under every need. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
 | `region` | `national`, or one of the seven RDA regions |
-| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL (`large`) and AgriMarketing's SME/NIA split use this today. |
+| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, and Atlantic's RTRI row use this today. |
 | `program_name` / `name_fr` | what the user sees. Blank `name_fr` falls back to English so a gap is visible, not silent. |
 | `url_en` / `url_fr` | where the link goes |
 | `status` | research confidence. `no-page` and `disputed` are **not rendered** — see below |
@@ -142,8 +141,8 @@ section around it.
 
 Each `<li>` checks its own row's `size` column at build time. If it's blank, nothing
 changes — the `<li>` has no class and is never hidden, exactly like before this existed. If
-it's set, the `<li>` gets `wz-sz` (hidden by default, same idea as `.wz-r`/`.wz-rb`) plus
-one `wz-sz-{{ marker }}` class per size the row lists:
+it's set, the `<li>` gets `wz-sz` (hidden by default, same idea as `.wz-r`) plus one
+`wz-sz-{{ marker }}` class per size the row lists:
 
 ```liquid
 <li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>
@@ -169,14 +168,40 @@ but it's the same class of bug as the blank check above: correct by accident, no
 construction. `Expected.size_ok?` on the Ruby side already split and compared exactly; the
 template didn't match it until this was caught in review.
 
-**A panel's own visibility and a row's size gating are two separate mechanisms**, decided
-at different points (need/sector/region for the panel, `size` for the `<li>`s inside it).
-Nothing stops a CSV edit from restricting every row in a panel to sizes that don't add up
-to "everyone" — the panel would still render, heading and all, with an empty body for
-whichever size that leaves out. Not a live bug — every panel today has at least one row
-visible at every size — but a spreadsheet edit could cause it silently, so
-`test_no_panel_ever_renders_with_zero_visible_programs` checks the invariant directly
-rather than trusting it to hold by accident, the same reasoning as the two bugs above.
+**A panel's own visibility and a row's size gating were two separate mechanisms**
+(need/sector/region for the panel, `size` for the `<li>`s inside it) — which meant nothing
+stopped a CSV edit from restricting every row in a panel to sizes that don't add up to
+"everyone", leaving the panel rendered, heading and all, with an empty body for whichever
+size that left out. This was flagged as a latent risk before it was a real one — every
+panel had at least one row visible at every size, at the time `test_no_panel_ever_renders_with_zero_visible_programs`
+was written to guard it — until gating the Atlantic RTRI row to `1to5m;5mplus;large;nonprofit`
+(its own eligibility requires $1M+ annual revenue; see the CSV `note`) made it the *only*
+row in the Atlantic + liquidity/transformation regional group, and `size-under1m` had
+nothing left to show.
+
+The regional-programs panel now generates one reveal rule per **need × region × size**
+that actually has a qualifying row, not just need × region — the same
+generated-CSS-per-marker pattern used everywhere else, extended by one dimension:
+
+```css
+#wz-state.need-liq.reg-atl.size-1to5m .wz-rg-reg-atl-liquidity { display: block; }
+```
+
+For `size-under1m`, no such rule exists at all, so the panel stays hidden — not rendered
+empty. Computing "does this size have a qualifying row" couldn't reuse `where_exp` with a
+literal `== nil` / `== ""` comparison the way the rest of this file does: under real
+template rendering (not an isolated test), `where_exp`'s reused-template-plus-`context.stack`
+mechanism gave wrong answers for that specific comparison, even though the identical
+comparison was reliable everywhere else `where_exp` is already used (e.g. `r.need contains
+ncsv`) and in isolated tests of the same expression. The count is a plain nested
+`{% for %}` / `{% if %}` loop instead — slower to read, but it doesn't touch the part of
+Liquid that misbehaved.
+
+The other three panel types (sector cell, sector-agnostic column, hubs) share the same
+theoretical gap and are not yet fixed the same way — `test_no_panel_ever_renders_with_zero_visible_programs`
+still covers all four, so a future CSV edit that empties one of those will fail loudly
+rather than ship silently, but generalizing the regional fix to them is a separate piece of
+work, not yet needed by anything in the CSV.
 
 ## The vocabulary bridge
 
@@ -266,9 +291,9 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 - **The CSV**: required columns, closed vocabularies for need / sector / region / status,
   https URLs, French coverage on every row that renders, no untriaged duplicate
   destinations.
-- **Eligibility**: exactly one badge per criterion for all twenty size x sector pairs,
-  nothing painted before its question is answered, and exactly one RDA link — the right
-  one — for whichever region was chosen.
+- **RDA link**: exactly one — the right one — for whichever region was chosen, sitting
+  directly above "Start over", and that the removed eligibility criteria section stays
+  fully gone rather than just unreachable.
 - **Markup**: one h1 and no skipped heading levels, the fieldflow chain, the reset
   cascade, and each gotcha listed above — `.hidden` on a generated-rule target, the wrong
   `wet-*.js`, the missing space before a French colon, missing `layout: null`.
@@ -315,16 +340,21 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   the south (see
   [Canada's regional development agencies](https://ised-isde.canada.ca/site/ised/en/canadas-regional-development-agencies))
   — so one answer would have shown every Ontario business both agencies' regional program.
-  The split is at Muskoka, with the answer labels naming the boundary and Parry Sound
-  explicitly, since that's the district people are most likely to be unsure about.
-- **The eligibility section ends with a link to the business's own RDA.** Not the region's
-  tariff-specific program — that's already linked above, under "Programs for your region" —
-  but the agency's own homepage, added because the RDA is worth pointing to regardless of
-  what the CSV's programs turn up for that need. It's not deck content: `regions:` in each
-  YAML gained `rda` and `rda_url` fields alongside the marker and `csv` value, names taken
-  from each page's own `<h1>`, all seven URLs checked live on 2026-09-03. The paragraph for
-  every region is in the DOM at once, one `#wz-state.reg-marker .wz-rda-reg-marker` rule
-  each, same pattern as the sector hubs' `.wz-hub-*` rule just above it.
+  The split is at Muskoka. The Northern answer names Parry Sound explicitly, since that's
+  the district people are most likely to be unsure about; the Southern answer originally
+  spelled out "(south of Muskoka)" too, but was simplified to "Southern and Eastern
+  Ontario" — plain enough that someone in Ottawa or Kingston doesn't read "Southern" and
+  assume it means someone else.
+- **Results end with a link to the business's own RDA**, just above "Start over." Not the
+  region's tariff-specific program — that's already linked above, under "Programs for your
+  region" — but the agency's own homepage, there because the RDA is worth pointing to
+  regardless of what the CSV's programs turn up for that need. It's not deck content:
+  `regions:` in each YAML carries `rda` and `rda_url` fields alongside the marker and `csv`
+  value, names taken from each page's own `<h1>`, all seven URLs checked live on
+  2026-09-03. The paragraph for every region is in the DOM at once, one
+  `#wz-state.reg-marker .wz-rda-reg-marker` rule each, same pattern as the sector hubs'
+  `.wz-hub-*` rule above it. It originally sat inside the eligibility criteria section —
+  see the removal entry below for why it moved.
 - **An empty sector cell shows nothing, not a "no stream" box.** The original design put
   up a panel reading "No stream specific to your sector" for the six need x sector
   combinations the CSV has no dedicated program for. In practice a box announcing an
@@ -337,12 +367,9 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   Regional Tariff Response Initiative is also open to "non-profit organizations, industry
   and sector associations, boards of trade, and provincial entities that support affected
   businesses" — the provincial-entities part is left out of the label on purpose, per
-  direction. It sits right after "Under $1 million," and is mapped to that same answer's
-  eligibility badges (`size-nonprofit` uses `size-under1m`'s `eligibility_rules` rows) as a
-  placeholder until there's real guidance for this group specifically —
-  `test_nonprofit_size_answer_matches_under1m_badges` pins that so it can't drift quietly.
-  At the time this was written size only changed the eligibility badges, never which
-  programs showed — the next entry is why that's no longer true.
+  direction. It sits right after "Under $1 million." At the time this was added, size only
+  changed the (since-removed) eligibility badges, never which programs showed — the next
+  entry is why that's no longer true.
 - **Size can now gate an individual program, not just badges.** LETL's own research note
   said "Large enterprise only - gate on the Q3 size answer" and nothing did. The CSV gained
   a `size` column (blank means shown to everyone, which is nearly every row) and LETL is
@@ -355,9 +382,48 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   `size: nonprofit`; the SME row is every other size. This is also why `size-nonprofit`
   needed its own bucket in the `sizes:` bridge rather than sharing `size-under1m`'s — two
   programs that both restrict by size, one to "actual businesses under $1M" and one to
-  "non-profits," would otherwise be indistinguishable to the routing mechanism, even though
-  their eligibility badges still deliberately share size-under1m's as a placeholder. Pinned
-  by `test_agrimarketing_sme_and_nia_are_mutually_exclusive`.
+  "non-profits," would otherwise be indistinguishable to the routing mechanism. Pinned by
+  `test_agrimarketing_sme_and_nia_are_mutually_exclusive`.
+- **The eligibility criteria checklist is gone.** The badge grid — Canadian-incorporated,
+  years operating, revenue, cash flow, U.S.-export share, each with a Met/Not
+  met/Needs review badge — read as confusing next to the results rather than helpful, so
+  the whole section was removed: `eligibility` and `eligibility_rules` are gone from both
+  YAML files, and `.wz-badge` / `.wz-met` / `.wz-notmet` / `.wz-review` / `.wz-crit` /
+  `.wz-rb` and their generated CSS loop are gone from both templates.
+  `size-nonprofit`'s eligibility-badge placeholder decision (the previous two entries)
+  is moot now that there's no badge UI left — its `size` column routing (LETL,
+  AgriMarketing/NIA) is a separate mechanism and is unaffected.
+- **"Where is your business mainly located?"**, not just "located" — a business with sites
+  in more than one region needs a single answer to give. "Headquartered" was tried first
+  and reverted: precise, but corporate-sounding language a small business owner might not
+  immediately map to themselves. "Mainly located" resolves the same ambiguity in plainer
+  words.
+- **The CDTS "Share this page" widget is off, on all four pages.** `wet.builder.preFooter`
+  defaults to showing it — passing `"showShare": false` is what turns it off; there's no
+  markup of our own to remove; the widget didn't exist in this repo's source at all before
+  WET's own JS built it in as a default.
+- **Atlantic's RTRI row is now gated to ACOA's own eligibility.** ACOA's SME stream
+  requires the business to have been viable before the tariffs and to have $1M+ in annual
+  revenue — `size` is `1to5m;5mplus;large;nonprofit` (everyone except `under-1m`). The
+  "viable before tariffs" test and the 25%-US/China-sales-or-tariff-affected test aren't
+  gated: the first has no wizard answer to hang it on, and the second's OR-branch
+  ("affected by trade disruptions") is true for literally every visitor this tool has,
+  by definition — see the row's `note`. This is the row that forced "How a size-gated row
+  hides itself" above to get a real fix rather than stay a documented risk: it's the only
+  program in Atlantic's regional group, so `size-under1m` had nothing left to show once it
+  was gated, and the panel would have rendered empty rather than not rendering at all.
+- **Question 3's two largest answers were trimmed, renamed, and given a real number.**
+  "$1 million to $5 million" no longer says "and 3 or more years operating" — a criterion,
+  not a size, and this question is about size. "Large enterprise" became "Larger enterprise
+  ($150 million or more in annual revenue)": LETL's real eligibility (colleague-verified,
+  not in the original deck) needs roughly $150M or more in annual Canadian revenue and a
+  minimum loan size of $60M — well above what a business would guess "large" means on its
+  own, and well above `size-5mplus`'s $5M+ floor. Putting the number in the answer itself,
+  not just the word "Larger", is what actually stops a $10M-$50M business from
+  self-selecting into a bucket that only shows them a $60M-minimum loan they can't use —
+  the size logic already routed them correctly (`size-5mplus`, not `size-large`) before
+  this, the ambiguity was in the label a person reads, not the routing. See LETL's `note`
+  for the full criteria.
 
 ## Next steps
 
@@ -386,11 +452,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    (~33px), tighten the gap to `mrgn-bttm-sm` (~20px). Buttons cost only 12px more than
    plain links, so they are not the thing to cut.
 6. **Consider a worker path prototype** if that page needs design work rather than a link.
-7. **Give `size-nonprofit` its own eligibility badges** once there's real guidance for
-   non-profits, associations and boards of trade — it currently borrows `size-under1m`'s as
-   a placeholder (see "what we changed"), and "3 or more years operating" / "$1 million or
-   more in annual revenue" are business-shaped criteria that may not fit this group at all.
-8. **Consider the Kosher and Halal Investment Component** as a third AgriMarketing row.
+7. **Consider the Kosher and Halal Investment Component** as a third AgriMarketing row.
    Research on the SME/NIA split turned this up as a further stream under the same
    program, sector-specific rather than size-specific — not added, since its own URL and
    French name still need the same live-page verification every other row got.

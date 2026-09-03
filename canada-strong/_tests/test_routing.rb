@@ -95,8 +95,8 @@ class TestRouting < Minitest::Test
         visible = Wizard.visible_targets(page, markers)
 
         Wizard.visible_panels(page, markers).each do |panel|
-          items = panel.css(".panel-body > ul > li").reject { |li| li["class"].to_s.split.include?("wz-crit") }
-          next if items.empty? # not a program-list panel (e.g. the eligibility section)
+          items = panel.css(".panel-body > ul > li")
+          next if items.empty? # not a program-list panel
 
           next if items.any? { |li| Wizard.shown?(li, visible) }
           wrong << "#{c[:need]} / #{c[:region]} / #{c[:sector]} / #{c[:size]}: #{panel['class']}"
@@ -116,11 +116,11 @@ class TestRouting < Minitest::Test
         "#wz-results must start hidden; fieldflow un-hides it on the last answer"
     end
 
-    # Size mostly doesn't change the program list — only the eligibility
-    # badges — except for a CSV row that opts in via its `size` column. LETL
-    # is currently the only one; pinned explicitly rather than left to the
-    # exhaustive sweep alone, since "large enterprise only" is a decision
-    # someone made on purpose, not just a fact the CSV happens to encode.
+    # Size mostly doesn't change the program list at all — it only matters for
+    # a CSV row that opts in via its `size` column. LETL is currently the only
+    # one; pinned explicitly rather than left to the exhaustive sweep alone,
+    # since "large enterprise only" is a decision someone made on purpose, not
+    # just a fact the CSV happens to encode.
     define_method("test_letl_only_shows_for_size_large_#{lang}") do
       page = Wizard::BUSINESS[lang]
       letl = Wizard.rows.find { |r| r["size"].to_s.strip == "large" }
@@ -154,6 +154,30 @@ class TestRouting < Minitest::Test
         want_nia = (sz == "size-nonprofit")
         assert_equal !want_nia, shown.include?(sme_name), "#{lang}: SME stream wrong for #{sz}"
         assert_equal want_nia, shown.include?(nia_name), "#{lang}: NIA stream wrong for #{sz}"
+      end
+    end
+
+    # ACOA's own eligibility for the Atlantic RTRI row requires $1M+ annual
+    # revenue — pinned because it's the row that's actually empty for
+    # size-under1m today (it's the only program in Atlantic's regional
+    # group), so this also exercises the size-aware regional-panel fix: the
+    # whole panel must vanish, not render with a heading and nothing in it.
+    define_method("test_atlantic_rtri_requires_at_least_1m_revenue_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      row  = Wizard.rows.find { |r| r["program_name"].to_s.include?("Regional Tariff Response Initiative - Atlantic") }
+      refute_nil row, "the Atlantic RTRI row is missing"
+      name = Wizard::Expected.display(row, lang).first
+
+      Wizard.size_markers(lang).each do |sz|
+        markers = ["need-liq", "reg-atl", "sec-usexport", sz]
+        shown   = Wizard.visible_programs(page, markers).map(&:first)
+        want    = (sz != "size-under1m")
+        assert_equal want, shown.include?(name),
+          "#{lang}: Atlantic RTRI #{shown.include?(name) ? 'shown' : 'hidden'} for #{sz}, expected #{want ? 'shown' : 'hidden'}"
+
+        panel_present = Wizard.visible_panels(page, markers).any? { |p| p["class"].to_s.include?("wz-rg-reg-atl-liquidity") }
+        assert_equal want, panel_present,
+          "#{lang}: Atlantic's regional panel #{panel_present ? 'renders' : 'is absent'} for #{sz}, expected #{want ? 'to render' : 'absent, not empty'}"
       end
     end
 
@@ -243,8 +267,13 @@ class TestRouting < Minitest::Test
       answered = Wizard.text(lang)["business"]["questions"].flat_map { |q| q["options"].map { |o| o["marker"] } }
       used = Wizard.rules(page).flat_map { |r| r[:markers] }.uniq
 
+      # Manufacturing and the U.S.-exporter sector answers are documented as
+      # sector-agnostic-only — no dedicated stream, so no marker of their own
+      # in `sectors:`. They legitimately reveal nothing in the generated CSS.
+      agnostic_only = Wizard.sector_markers(lang) - Wizard.text(lang)["sectors"].map { |s| s["marker"] }
+
       assert_empty used - answered, "#{lang}: CSS gates on markers no answer stamps"
-      assert_empty answered - used, "#{lang}: answers that reveal nothing at all"
+      assert_empty answered - used - agnostic_only, "#{lang}: answers that reveal nothing at all"
     end
   end
 end
