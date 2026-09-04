@@ -15,6 +15,16 @@ layout: null
 {%- assign excluded = t.exclude_statuses | split: " " -%}
 {%- for st in excluded -%}{%- assign live = live | where_exp: "r", "r.status != st" -%}{%- endfor -%}
 {%- assign national = live | where: "region", "national" -%}
+{%- comment -%}
+  "All of the above" is Q1's last answer. It is not a need: it reveals a
+  parallel set of panels, one per need, whose rows are deduplicated at build
+  time so a program serving two needs is listed once — under the FIRST need its
+  `need` cell names. That is why it needs its own panels rather than simply
+  revealing the four per-need ones: two conditional CSS mechanisms on the same
+  <li> would compose as OR, not AND, and a size-hidden row would reappear.
+{%- endcomment -%}
+{%- assign ALLN = t.all_needs_marker -%}
+{%- assign regional = live | where_exp: "r", "r.region != 'national'" -%}
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="{{ t.lang }}" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js" lang="{{ t.lang }}" dir="ltr"><!--<![endif]-->
@@ -56,7 +66,15 @@ layout: null
 {% endif %}{% endfor %}
 {% endfor %}{% for reg in t.regions %}{%- assign regnames = reg.csv | split: ";" -%}{%- assign rgrows = "" | split: "" -%}{%- for rn in regnames -%}{%- assign m = live | where: "region", rn | where_exp: "r", "r.need contains need.csv" -%}{%- assign rgrows = rgrows | concat: m -%}{%- endfor -%}{%- for sz in t.sizes -%}{%- assign szcount = 0 -%}{%- for r in rgrows -%}{%- if r.size and r.size != "" -%}{%- assign r_sizes = r.size | split: ";" -%}{%- if r_sizes contains sz.csv -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- else -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- if szcount > 0 %}			#wz-state.{{ need.marker }}.{{ reg.marker }}.{{ sz.marker }} .wz-rg-{{ reg.marker }}-{{ need.csv }} { display: block; }
 {% endif %}{% endfor %}
-{% endfor %}{% endfor %}{% for sec in t.sectors %}			#wz-state.{{ sec.marker }} .wz-hub-{{ sec.csv }} { display: block; }
+{% endfor %}{% endfor %}
+			/* "All of the above": the same panels, deduplicated — each row under
+			   the first need its CSV cell names, so nothing is listed twice. */
+{% for need in t.needs %}{%- assign ncsv = need.csv -%}{%- assign agn = national | where: "sector", "sector-agnostic" -%}{%- assign agncount = 0 -%}{%- for r in agn -%}{%- assign fn = r.need | split: ";" | first -%}{%- if fn == ncsv -%}{%- assign agncount = agncount | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- if agncount > 0 %}			#wz-state.{{ ALLN }} .wz-ap-{{ need.csv }}-agnostic { display: block; }
+{% endif %}{%- for sec in t.sectors -%}{%- assign cell = national | where: "sector", sec.csv | where_exp: "r", "r.status != 'route'" -%}{%- for sz in t.sizes -%}{%- assign szcount = 0 -%}{%- for r in cell -%}{%- assign fn = r.need | split: ";" | first -%}{%- if fn == ncsv -%}{%- if r.size and r.size != "" -%}{%- assign r_sizes = r.size | split: ";" -%}{%- if r_sizes contains sz.csv -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- else -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- endif -%}{%- endfor -%}{%- if szcount > 0 %}			#wz-state.{{ ALLN }}.{{ sec.marker }}.{{ sz.marker }} .wz-ap-{{ need.csv }}-{{ sec.csv }} { display: block; }
+{% endif %}{%- endfor -%}{%- endfor -%}
+{% endfor %}{%- comment -%} One regional panel, not one per need: its heading names no need, so two of them would read as the same box twice. {%- endcomment -%}
+{% for reg in t.regions %}{%- assign regnames = reg.csv | split: ";" -%}{%- assign rgrows = "" | split: "" -%}{%- for rn in regnames -%}{%- assign m = regional | where: "region", rn -%}{%- assign rgrows = rgrows | concat: m -%}{%- endfor -%}{%- for sz in t.sizes -%}{%- assign szcount = 0 -%}{%- for r in rgrows -%}{%- if r.size and r.size != "" -%}{%- assign r_sizes = r.size | split: ";" -%}{%- if r_sizes contains sz.csv -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- else -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- if szcount > 0 %}			#wz-state.{{ ALLN }}.{{ reg.marker }}.{{ sz.marker }} .wz-arg-{{ reg.marker }} { display: block; }
+{% endif %}{%- endfor -%}{% endfor %}{% for sec in t.sectors %}			#wz-state.{{ sec.marker }} .wz-hub-{{ sec.csv }} { display: block; }
 {% endfor %}{% for reg in t.regions %}			#wz-state.{{ reg.marker }} .wz-rda-{{ reg.marker }} { display: block; }
 {% endfor %}{% for sz in t.sizes %}			#wz-state.{{ sz.marker }} .wz-sz-{{ sz.marker }} { display: list-item; }
 {% endfor %}		</style>
@@ -131,6 +149,20 @@ layout: null
 								</section>
 								{%- endif %}{% endfor %}{% endfor %}
 
+								{%- comment -%} The same cells for "All of the above", each row under its first need only {%- endcomment -%}
+								{% for need in t.needs %}{% assign ncsv = need.csv %}{% for sec in t.sectors %}
+								{%- assign cell = national | where: "sector", sec.csv | where_exp: "r", "r.status != 'route'" -%}
+								{%- assign mine = 0 -%}{%- for r in cell -%}{%- assign fn = r.need | split: ";" | first -%}{%- if fn == ncsv -%}{%- assign mine = mine | plus: 1 -%}{%- endif -%}{%- endfor -%}
+								{%- if mine > 0 %}
+								<section class="panel panel-success mrgn-tp-md wz-r wz-ap-{{ need.csv }}-{{ sec.csv }}">
+									<header class="panel-heading"><h3 class="panel-title h4">{{ sec.heading }}{{ L.heading_sep }}{{ need.heading | downcase }}</h3></header>
+									<div class="panel-body"><ul>
+										{% for r in cell %}{% assign fn = r.need | split: ";" | first %}{% if fn == ncsv %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{%- assign nm = r[NAME] | default: r.program_name -%}{%- assign u = r[URLF] | default: r.url_en -%}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% endif %}{% endfor %}
+									</ul></div>
+								</section>
+								{%- endif %}{% endfor %}{% endfor %}
+
 								{%- comment -%} Regional programs {%- endcomment -%}
 								{% for reg in t.regions %}{% assign regnames = reg.csv | split: ";" %}{% for need in t.needs %}{% assign ncsv = need.csv %}
 								{%- assign rgrows = "" -%}{%- assign rgcount = 0 -%}
@@ -145,6 +177,19 @@ layout: null
 								</section>
 								{%- endif %}{% endfor %}{% endfor %}
 
+								{%- comment -%} One regional panel for "All of the above": its heading names no need, so the per-need ones would read as the same box twice {%- endcomment -%}
+								{% for reg in t.regions %}{% assign regnames = reg.csv | split: ";" %}
+								{%- assign rgrows = "" | split: "" -%}{%- for rn in regnames -%}{%- assign m = regional | where: "region", rn -%}{%- assign rgrows = rgrows | concat: m -%}{%- endfor -%}
+								{%- if rgrows.size > 0 %}
+								<section class="panel panel-success mrgn-tp-md wz-r wz-arg-{{ reg.marker }}">
+									<header class="panel-heading"><h3 class="panel-title h4">{{ L.region_heading }}</h3></header>
+									<div class="panel-body"><ul>
+										{% for r in rgrows %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{%- assign nm = r[NAME] | default: r.program_name -%}{%- assign u = r[URLF] | default: r.url_en -%}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% endfor %}
+									</ul></div>
+								</section>
+								{%- endif %}{% endfor %}
+
 								{%- comment -%} Sector-agnostic column {%- endcomment -%}
 								{% for need in t.needs %}{% assign ncsv = need.csv %}
 								{%- assign agn = national | where: "sector", "sector-agnostic" | where_exp: "r", "r.need contains ncsv" -%}
@@ -154,6 +199,20 @@ layout: null
 									<div class="panel-body"><ul>
 										{% for r in agn %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 										{% endfor %}
+									</ul></div>
+								</section>
+								{%- endif %}{% endfor %}
+
+								{%- comment -%} The same column for "All of the above", each row under its first need only {%- endcomment -%}
+								{% for need in t.needs %}{% assign ncsv = need.csv %}
+								{%- assign agn = national | where: "sector", "sector-agnostic" -%}
+								{%- assign mine = 0 -%}{%- for r in agn -%}{%- assign fn = r.need | split: ";" | first -%}{%- if fn == ncsv -%}{%- assign mine = mine | plus: 1 -%}{%- endif -%}{%- endfor -%}
+								{%- if mine > 0 %}
+								<section class="panel panel-success mrgn-tp-md wz-r wz-ap-{{ need.csv }}-agnostic">
+									<header class="panel-heading"><h3 class="panel-title h4">{{ need.heading }}{{ L.heading_sep }}{{ L.agnostic_suffix }}</h3></header>
+									<div class="panel-body"><ul>
+										{% for r in agn %}{% assign fn = r.need | split: ";" | first %}{% if fn == ncsv %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{%- assign nm = r[NAME] | default: r.program_name -%}{%- assign u = r[URLF] | default: r.url_en -%}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% endif %}{% endfor %}
 									</ul></div>
 								</section>
 								{%- endif %}{% endfor %}

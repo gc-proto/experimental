@@ -16,7 +16,7 @@ class TestRouting < Minitest::Test
   end
 
   # ── The sweep ───────────────────────────────────────────────────────────
-  # Crossed with every size answer too (560 total), not fixed at one size:
+  # Crossed with every size answer too (700 total), not fixed at one size:
   # most CSV rows ignore size entirely, but a row with a `size` column (like
   # LETL) only shows for the sizes it lists, and that has to hold at every
   # need x region x sector it could appear under, not just one hand-picked
@@ -52,15 +52,35 @@ class TestRouting < Minitest::Test
     # page; there is nothing worth telling the business it didn't get.
     define_method("test_no_sector_panel_when_the_cell_is_empty_#{lang}") do
       page = Wizard::BUSINESS[lang]
+      needs = Wizard.text(lang)["needs"].map { |n| n["csv"] }
       wrong = []
 
       combos_for(lang).each do |c|
         markers = [c[:need], c[:region], c[:sector], "size-1to5m"]
+        sec_csv = Wizard.sector_csv(lang, c[:sector])
+        all     = Wizard.all_needs?(lang, c[:need])
+
+        # Matched as whole class names, not substrings: "wz-p-financing-" is a
+        # prefix of "wz-p-financing-agnostic", so a substring test called the
+        # sector-agnostic column a sector panel and passed for the wrong reason.
+        wanted_classes =
+          if sec_csv.nil? then []
+          elsif all       then needs.map { |n| "wz-ap-#{n}-#{sec_csv}" }
+          else                 ["wz-p-#{Wizard.need_csv(lang, c[:need])}-#{sec_csv}"]
+          end
+
         shown = Wizard.visible_panels(page, markers)
-                      .any? { |p| p["class"].to_s.include?("wz-p-#{Wizard.need_csv(lang, c[:need])}-#{Wizard.sector_csv(lang, c[:sector])}") }
-        want = !Wizard::Expected.no_sector_stream?(
-          Wizard.need_csv(lang, c[:need]), Wizard.sector_csv(lang, c[:sector]), lang
-        )
+                      .any? { |p| (p["class"].to_s.split & wanted_classes).any? }
+
+        # A sector answer with no `sectors:` entry (manufacturing) has no
+        # dedicated stream at all. Under "All of the above" the sector shows a
+        # panel if it has any stream under any need.
+        want =
+          if sec_csv.nil? then false
+          elsif all       then Wizard::Expected.all_needs(sec_csv, [], lang).any? { |r| r["sector"] == sec_csv }
+          else                 !Wizard::Expected.no_sector_stream?(Wizard.need_csv(lang, c[:need]), sec_csv, lang)
+          end
+
         wrong << "#{c[:need]} / #{c[:sector]}: panel #{shown ? 'shown' : 'absent'}, expected #{want ? 'shown' : 'absent'}" if shown != want
       end
 
@@ -235,6 +255,62 @@ class TestRouting < Minitest::Test
       assert_empty bad.map { |r| "#{r['program_name']}: size=#{r['size'].inspect}" },
         "#{lang}: rows with an unrecognised size value (known: #{known.join(', ')})"
     end
+  end
+
+  # ── "All of the above" ──────────────────────────────────────────────────
+
+  # The promise of Q1's last answer, stated as the visitor would: it shows
+  # everything the four separate answers would have shown, and nothing else.
+  # The sweep already checks the all-view against the CSV; this checks it
+  # against the wizard's own other answers, which is the claim being made to
+  # the business that picks it.
+  Wizard::LANGS.each do |lang|
+    define_method("test_all_of_the_above_is_exactly_the_union_of_the_four_needs_#{lang}") do
+      page  = Wizard::BUSINESS[lang]
+      all_m = Wizard.all_needs_marker(lang)
+      needs = Wizard.need_markers(lang) - [all_m]
+      refute_nil all_m, "#{lang}: no all_needs_marker in the YAML"
+      wrong = []
+
+      Wizard.region_markers(lang).each do |reg|
+        Wizard.sector_markers(lang).each do |sec|
+          Wizard.size_markers(lang).each do |sz|
+            union = needs.flat_map { |n| Wizard.visible_programs(page, [n, reg, sec, sz]) }.uniq.sort
+            shown = Wizard.visible_programs(page, [all_m, reg, sec, sz]).sort
+            next if shown == union
+
+            missing = union - shown
+            extra   = shown - union
+            wrong << "#{reg} / #{sec} / #{sz}" \
+                     "#{missing.empty? ? '' : "\n    missing: #{missing.map(&:first).join(', ')}"}" \
+                     "#{extra.empty?   ? '' : "\n    extra:   #{extra.map(&:first).join(', ')}"}"
+          end
+        end
+      end
+
+      assert_empty wrong.first(8),
+        "\"All of the above\" is not the union of the four needs (#{lang}):\n  " + wrong.first(8).join("\n  ")
+    end
+  end
+
+  # Where a program lands under "All of the above" is decided by the order
+  # inside its `need` cell — first need wins — and that is a property of the
+  # data, not of the template. Pinned on the two rows it currently decides, so
+  # reordering a cell in the spreadsheet is a visible choice rather than an
+  # accident.
+  def test_a_two_need_program_is_filed_under_the_first_need_it_names
+    page  = Wizard::BUSINESS["en"]
+    all_m = Wizard.all_needs_marker("en")
+    pivot = Wizard.rows.find { |r| r["program_name"] == "Pivot to Grow Loan" }
+    assert_equal "financing;liquidity", pivot["need"], "the row this test pins has been re-ordered"
+
+    panels = Wizard.visible_panels(page, [all_m, "reg-atl", "sec-agri", "size-1to5m"])
+    holding = panels.select do |p|
+      Wizard.panel_programs(p).any? { |n, _| n == "Pivot to Grow Loan" }
+    end
+    assert_equal 1, holding.size, "Pivot to Grow Loan appears in #{holding.size} panels under All of the above"
+    assert_includes holding.first.at_css(".panel-title").text, "Financing",
+      "filed under the second need it names, not the first"
   end
 
   # ── Rows the CSV says must never ship ───────────────────────────────────

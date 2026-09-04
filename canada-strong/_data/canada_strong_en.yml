@@ -41,6 +41,18 @@ needs:
 # Sectors that have rows of their own in the CSV. Manufacturing and the
 # U.S.-exporter answer are deliberately absent: they have no sector-specific
 # stream, so they see the sector-agnostic results only.
+# Question 1's last answer is not a need of its own — it shows every need at
+# once. It gets no `needs:` entry (that list generates one panel per need) and
+# no `csv` value (no row is filed under it). It is named here so the template
+# and the tests share one definition instead of hard-coding the marker.
+#
+# Under this answer a program appears exactly once, filed under the FIRST need
+# its CSV `need` column lists. That makes the order inside a semicolon-
+# separated need cell meaningful: `financing;liquidity` files the Pivot to Grow
+# Loan under Financing, `liquidity;transformation` files the RTRI rows under
+# Liquidity. Reorder the cell to move a program between headings.
+all_needs_marker: need-all
+
 sectors:
   - {marker: sec-forestry, csv: forestry-and-lumber, heading: "Forestry and lumber"}
   - {marker: sec-steel,    csv: steel-and-aluminum,  heading: "Steel and aluminum"}
@@ -146,13 +158,14 @@ business:
   questions:
     - id: question-1
       legend: "Question 1 of 4: What do you need right now?"
-      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
+      clears: "need-fin need-liq need-tra need-wrk need-all reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-2"
       options:
         - {marker: need-fin, label: "Financing to keep operating or grow"}
         - {marker: need-liq, label: "Liquidity for a tariff-driven cash-flow gap"}
         - {marker: need-tra, label: "Transformation or capital project"}
         - {marker: need-wrk, label: "Workforce retention and retraining"}
+        - {marker: need-all, label: "All of the above"}
 
     - id: question-2
       legend: "Question 2 of 4: Where is your business mainly located?"

@@ -71,6 +71,26 @@ module Wizard
       live(lang).select { |r| r["need"] == "all" && r["sector"] == "sector-agnostic" }
     end
 
+    # "All of the above" is not a need, and this is deliberately not a copy of
+    # how the template gets there. The template files each row under the first
+    # need its cell names and generates a panel per need; the rule that has to
+    # hold, stated on its own terms, is simpler: the visitor sees every row that
+    # applies to their sector, region and size, exactly once. If the two ever
+    # disagree the sweep says so, which is the whole point of this file.
+    def all_needs(sector_csv, region_csvs, lang = "en")
+      live(lang).select do |r|
+        next false if %w[all featured].include?(r["need"])
+        if r["region"] == "national"
+          next false unless r["sector"] == sector_csv || r["sector"] == "sector-agnostic"
+          # `route` markers stand for "no stream here" in a sector cell; the
+          # sector-agnostic column has never filtered them.
+          r["sector"] == "sector-agnostic" || r["status"] != "route"
+        else
+          region_csvs.include?(r["region"])
+        end
+      end
+    end
+
     # ── One combination ────────────────────────────────────────────────────
 
     # True when the sector cell has no dedicated stream — the sector-specific
@@ -96,11 +116,15 @@ module Wizard
       reg_csvs   = Wizard.region_csvs(lang, region_marker)
       size_csv   = Wizard.size_csv(lang, size_marker)
 
-      rows = sector_cell(need_csv, sec_csv, lang) +
-             sector_hub(sec_csv, lang) +
-             agnostic_column(need_csv, lang) +
-             regional(need_csv, reg_csvs, lang) +
-             agnostic_hubs(lang)
+      rows = if Wizard.all_needs?(lang, need_marker)
+               all_needs(sec_csv, reg_csvs, lang) + sector_hub(sec_csv, lang) + agnostic_hubs(lang)
+             else
+               sector_cell(need_csv, sec_csv, lang) +
+                 sector_hub(sec_csv, lang) +
+                 agnostic_column(need_csv, lang) +
+                 regional(need_csv, reg_csvs, lang) +
+                 agnostic_hubs(lang)
+             end
 
       rows.select { |r| size_ok?(r, size_csv) }.map { |r| display(r, lang) }
     end

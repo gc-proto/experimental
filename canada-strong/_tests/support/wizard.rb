@@ -209,6 +209,16 @@ module Wizard
 
     # marker -> the CSV value(s) it stands for. Sector answers with no CSV
     # sector of their own (manufacturing, U.S. exporter) map to nil on purpose.
+    # Q1's "All of the above" answer. Not a need, so `needs:` does not carry it
+    # and need_csv returns nil for it — callers branch on this instead.
+    def all_needs_marker(lang)
+      text(lang)["all_needs_marker"]
+    end
+
+    def all_needs?(lang, marker)
+      marker == all_needs_marker(lang)
+    end
+
     def need_csv(lang, marker)
       e = text(lang)["needs"].find { |n| n["marker"] == marker }
       e && e["csv"]
@@ -232,7 +242,7 @@ module Wizard
       e && e["csv"]
     end
 
-    # All 112 need x region x sector combinations (the routing dimensions).
+    # All 140 need x region x sector combinations (the routing dimensions).
     def combinations(lang)
       need_markers(lang).flat_map do |n|
         region_markers(lang).flat_map do |r|
@@ -241,7 +251,7 @@ module Wizard
       end
     end
 
-    # The above, crossed with every size answer too — 560 total. Used where a
+    # The above, crossed with every size answer too — 700 total. Used where a
     # test needs to check that a size-gated CSV row (like LETL) behaves
     # correctly everywhere it could appear, not just at one fixed size.
     def combinations_with_size(lang)

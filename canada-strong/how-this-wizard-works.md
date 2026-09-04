@@ -107,7 +107,7 @@ Results depend on **two answers at once** — the need and the sector — and a 
 option can only reveal one fixed target. So:
 
 1. Each answer stamps a **marker class** on `#wz-state`: `need-liq`, `sec-agri`,
-   `reg-on-s`, `size-1to5m`. Twenty markers, one per answer.
+   `reg-on-s`, `size-1to5m`. Twenty-one markers, one per answer.
 2. At build time the template groups the CSV into a panel per need × sector, per region,
    and per sector hub. Every panel is in the DOM, hidden by `.wz-r { display: none }`.
 3. It also generates one CSS rule per panel, which is what reveals it:
@@ -134,8 +134,40 @@ agriculture         | financing=2 | liquidity=5 | transformation=5 | workforce=0
 ```
 
 **Resetting.** Each question's `clears:` string lists every marker it invalidates.
-Question 1 clears all twenty, question 2 clears region, size and sector, and so on. This
-is what stops a stale panel surviving when someone changes an earlier answer.
+Question 1 clears all twenty-one, question 2 clears region, size and sector, and so on.
+This is what stops a stale panel surviving when someone changes an earlier answer.
+
+## "All of the above" is a second set of panels
+
+Question 1's last answer, `need-all`, is not a need. It has no `needs:` entry, no `csv`
+value, and no CSV row is filed under it — `all_needs_marker` in both YAML files is the
+one place it is named.
+
+What it shows is **every row that applies to the visitor's sector, region and size,
+exactly once**, still grouped under the four need headings. Getting there needs its own
+panels — `wz-ap-<need>-<sector>`, `wz-ap-<need>-agnostic`, `wz-arg-<region>` — generated
+alongside the per-need ones and revealed only by `#wz-state.need-all…`. Two reasons:
+
+- **A program can serve two needs.** Eight rows do: the Pivot to Grow Loan is
+  `financing;liquidity`, and all seven RTRI rows are `liquidity;transformation`. Revealing
+  the per-need panels together would list each of them twice. In the all-view each row is
+  emitted **under the first need its `need` cell names** and skipped in the others, so the
+  order inside a semicolon-separated cell now carries meaning: reorder it to move a
+  program between headings.
+- **Two conditional CSS mechanisms on one `<li>` compose as OR, not AND.** The obvious
+  cheaper fix — keep the per-need panels and hide the duplicate `<li>` with a second
+  class — cannot work here. Both `.wz-sz` size gating and any dedup class are "hidden by
+  default, revealed by a marker rule", so a row that is size-hidden *and* duplicate would
+  be revealed by the rule that does match. Deciding it at build time sidesteps the
+  cascade entirely.
+
+The regional panel is the one place the all-view has **one panel where the per-need view
+has several**: its heading, "Programs for your region", names no need, so two of them
+would read as the same box printed twice.
+
+`test_all_of_the_above_is_exactly_the_union_of_the_four_needs` is the guard, and it
+checks the claim the answer actually makes to the visitor: what they see equals what the
+four separate answers would have shown them, with nothing extra.
 
 ## How a size-gated row hides itself
 
@@ -325,7 +357,7 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 
 `_tests/README.md` says what each test file covers. In short:
 
-- **All 560 combinations** (112 need x region x sector, crossed with every size answer),
+- **All 700 combinations** (140 need x region x sector, crossed with every size answer),
   both languages. It parses the generated CSS back out of the
   page, works out which panels a set of answer markers reveals, and diffs the programs
   in them against the CSV — which it reads through a second, separate implementation of
@@ -361,7 +393,7 @@ find.
 
 Do **not** click through every combination: fieldflow re-renders on each answer and a
 backgrounded Chrome tab throttles timers hard enough that a click-driven sweep takes
-minutes and produces confusing intermediate states. The suite already covers all 560.
+minutes and produces confusing intermediate states. The suite already covers all 700.
 
 Click one full path by hand instead, watching `document.getElementById("wz-state").className`
 after each answer. Then change an earlier answer and confirm the cascade clears and the
@@ -532,6 +564,19 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
   count is restated in four places, all updated. Incidentally this made the "twenty markers"
   figure in "How a combination becomes a visible panel" true again; it had been 21.
+- **Question 1 gained "All of the above".** Departments were not the only ones reading the
+  wizard as a complete list; a business that wants everything it qualifies for had no way
+  to ask for it, and four separate runs of the wizard was the only workaround. The answer
+  shows every program for the sector, region and size at once — 29 of them for an Atlantic
+  agriculture SME, against 9 for financing alone — still grouped by need. It is not a
+  fifth need: see ""All of the above" is a second set of panels" above for why it needs
+  its own panels and what that does to the meaning of a semicolon-separated `need` cell.
+  The sweep grew from 560 combinations to 700 by itself, being driven off Q1's own
+  options. One latent bug surfaced while wiring it up:
+  `test_no_sector_panel_when_the_cell_is_empty` matched panel classes by substring, and
+  `wz-p-financing-` is a prefix of `wz-p-financing-agnostic` — so the sector-agnostic
+  column was being counted as a sector panel and the manufacturing answer passed for the
+  wrong reason. It matches whole class names now.
 - **The hub panel points outward now: "More options".** It was headed "Where these programs
   are listed" and explained that the hubs were the departments' own current lists. That
   framing invited the reading that the wizard's four answers *were* the tariff programs, and
@@ -540,7 +585,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   Benefits Finder** — "view or search all provincial and federal programs and services,
   including tariff support". The Finder was already a hub row; it is now the CSV's one
   `need: featured` row, which takes it out of the hub list and gives it its own line. `need:
-  featured` matches no question answer and carries no `size`, so it renders on all 560
+  featured` matches no question answer and carries no `size`, so it renders on all 700
   combinations — that is the point, and `test_exactly_one_featured_row_and_it_is_the_benefits_finder`
   pins it. Its URLs changed too, from the Finder's front door to the tariff-filtered
   `list-liste` view with ISED's token, so the link lands on programs rather than an empty

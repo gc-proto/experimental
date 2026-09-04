@@ -31,6 +31,20 @@ needs:
   - {marker: need-tra, csv: transformation, heading: "Transformation et projets d'immobilisations"}
   - {marker: need-wrk, csv: workforce,      heading: "Maintien en poste et recyclage de la main-d'œuvre"}
 
+# La dernière réponse de la question 1 n'est pas un besoin en soi — elle
+# affiche tous les besoins à la fois. Elle n'a pas d'entrée dans `needs:` (cette
+# liste génère un panneau par besoin) ni de valeur `csv` (aucune ligne n'y est
+# classée). Elle est nommée ici pour que le gabarit et les tests partagent une
+# seule définition plutôt que de coder le marqueur en dur.
+#
+# Sous cette réponse, un programme apparaît une seule fois, classé sous le
+# PREMIER besoin que sa colonne `need` énumère. L'ordre à l'intérieur d'une
+# cellule séparée par des points-virgules est donc significatif :
+# `financing;liquidity` classe le Prêt Pivoter pour croître sous Financement,
+# `liquidity;transformation` classe les lignes de l'IRRT sous Liquidités.
+# Réordonner la cellule déplace le programme d'un titre à l'autre.
+all_needs_marker: need-all
+
 sectors:
   - {marker: sec-forestry, csv: forestry-and-lumber, heading: "Foresterie et bois d'œuvre"}
   - {marker: sec-steel,    csv: steel-and-aluminum,  heading: "Acier et aluminium"}
@@ -126,13 +140,14 @@ business:
   questions:
     - id: question-1
       legend: "Question 1 sur 4 : De quoi avez-vous besoin en ce moment?"
-      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
+      clears: "need-fin need-liq need-tra need-wrk need-all reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-2"
       options:
         - {marker: need-fin, label: "Du financement pour poursuivre vos activités ou prendre de l'expansion"}
         - {marker: need-liq, label: "Des liquidités pour combler un manque de trésorerie causé par les droits de douane"}
         - {marker: need-tra, label: "Un projet de transformation ou d'immobilisations"}
         - {marker: need-wrk, label: "Le maintien en poste et le recyclage de votre main-d'œuvre"}
+        - {marker: need-all, label: "Tout ce qui précède"}
 
     - id: question-2
       legend: "Question 2 sur 4 : Où votre entreprise est-elle principalement située?"
