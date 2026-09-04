@@ -574,6 +574,25 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
   count is restated in four places, all updated. Incidentally this made the "twenty markers"
   figure in "How a combination becomes a visible panel" true again; it had been 21.
+- **A second remission process, and both remission labels stop repeating themselves.** The
+  steel derivative goods remission (Finance Canada) is new: open to any firm incorporated
+  in Canada, no size or sector test on the page, so `size` is blank and it is
+  sector-agnostic — "steel derivative goods" describes what is imported, not who imports
+  it, and the importers are manufacturers across sectors rather than steel producers. It
+  routes to `liquidity;transformation`, and the general U.S.-goods remission was moved to
+  match: the two are the same mechanism on different goods, and answering different needs
+  implied a distinction the department does not draw. Liquidity is named first in both, so
+  both file under it in the all-view.
+
+  The labels are the reason this is written down. The two pages' h1s share their first
+  eleven words — "Process for requesting remission of tariffs that apply on certain…" —
+  which as two links one above the other is unreadable, and a screen reader says the whole
+  stem twice before reaching the difference. Both rows are now composed rather than taken
+  verbatim: **"Tariff remission: goods from the U.S."** and **"Tariff remission: steel
+  derivative goods"**, with the French matched. That is a deliberate departure from the
+  default of naming a program by its own h1, so `fr_source` on both rows records the h1 it
+  came from and why it was front-loaded. The h1s were checked live the day of the change
+  and were unchanged; only the rendered label is ours.
 - **French review from DEC/CED, applied and rationalized against what had changed since.**
   Samir Goulamaly (DEC/CED, the Quebec RDA) reviewed the French wizard in tracked changes.
   Marked directly: "nous vous **montrerons**" became "nous vous **indiquerons**"; the
