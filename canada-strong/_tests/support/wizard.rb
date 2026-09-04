@@ -5,9 +5,9 @@
 # Renders the four canada-strong templates the way Jekyll does — same _data,
 # same Liquid, same two Jekyll-only array filters — so the tests see the bytes
 # that ship to test.canada.ca. Nothing here knows what the answer *should* be;
-# the expected side is rebuilt from the CSV in `expected.rb`.
+# the expected side is rebuilt from the program data in `expected.rb`.
 
-require "csv"
+require "json"
 require "yaml"
 require "nokogiri"
 
@@ -47,8 +47,8 @@ module Wizard
   START    = { "en" => "start-en.html",    "fr" => "start-fr.html" }.freeze
   ALL_PAGES = (BUSINESS.values + START.values).freeze
 
-  # Which CSV columns each language reads, and what it falls back to when the
-  # column is blank. The fallback is deliberate: a missing French name shows
+  # Which program fields each language reads, and what it falls back to when the
+  # field is blank. The fallback is deliberate: a missing French name shows
   # the English one so the gap is visible rather than silent.
   COLUMNS = {
     "en" => { name: "program_name", url: "url_en" },
@@ -78,7 +78,7 @@ module Wizard
       @site_data ||= begin
         d = {}
         Dir[File.join(data_dir, "*.yml")].each { |f| d[File.basename(f, ".yml")] = YAML.load_file(f) }
-        Dir[File.join(data_dir, "*.csv")].each { |f| d[File.basename(f, ".csv")] = CSV.read(f, headers: true).map(&:to_h) }
+        Dir[File.join(data_dir, "*.json")].each { |f| d[File.basename(f, ".json")] = JSON.parse(File.read(f)) }
         d
       end
     end
@@ -162,7 +162,7 @@ module Wizard
     end
 
     # Programs listed in one panel, as [name, url] pairs. Pass `visible` to
-    # also drop individual rows a CSV `size` column hides for this set of
+    # also drop individual rows a `size` field hides for this set of
     # markers (e.g. LETL under a non-large size); omit it to get every row
     # regardless of visibility, for DOM-wide leak checks.
     # A link's visible text. Result links carry a new-tab arrow and a wb-inv
@@ -196,7 +196,7 @@ module Wizard
     end
 
     # Every program in the DOM, visible or not. Used to check that rows the
-    # CSV excludes were never written out in the first place.
+    # excluded rows were never written out in the first place.
     def all_programs(page)
       @all_programs ||= {}
       @all_programs[page] ||= doc(page).css("section.panel").flat_map { |p| panel_programs(p) }
@@ -216,7 +216,7 @@ module Wizard
     def size_markers(lang)   markers_for(lang, "question-3") end
     def sector_markers(lang) markers_for(lang, "question-4") end
 
-    # marker -> the CSV value(s) it stands for. Sector answers with no CSV
+    # marker -> the data value(s) it stands for. Sector answers with no data
     # sector of their own (manufacturing, U.S. exporter) map to nil on purpose.
     # Q1's "All of the above" answer. Not a need, so `needs:` does not carry it
     # and need_csv returns nil for it — callers branch on this instead.
@@ -243,7 +243,7 @@ module Wizard
       e ? e["csv"].split(";") : []
     end
 
-    # Most rows have no size column and show for every size; size_csv is what
+    # Most rows have no size field and show for every size; size_csv is what
     # the rare row that restricts itself (e.g. LETL, size: large) is checked
     # against.
     def size_csv(lang, marker)
@@ -261,7 +261,7 @@ module Wizard
     end
 
     # The above, crossed with every size answer too — 700 total. Used where a
-    # test needs to check that a size-gated CSV row (like LETL) behaves
+    # test needs to check that a size-gated row (like LETL) behaves
     # correctly everywhere it could appear, not just at one fixed size.
     def combinations_with_size(lang)
       combinations(lang).flat_map do |c|

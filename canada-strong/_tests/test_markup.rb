@@ -189,7 +189,7 @@ class TestMarkup < Minitest::Test
     # The promoted Business Benefits Finder line. It is a <p>, not a list item,
     # so the routing sweep cannot see it — it is checked here instead: present
     # once, inside the More options panel, closing it below the hub list,
-    # carrying the CSV's own name and URL for the language.
+    # carrying the row's own name and URL for the language.
     define_method("test_the_featured_finder_line_closes_the_hub_panel_#{lang}") do
       row = Wizard::Expected.live(lang).find { |r| r["need"] == "featured" }
       refute_nil row, "#{lang}: no need=featured row to render"
@@ -231,7 +231,7 @@ class TestMarkup < Minitest::Test
     composed.each { |h| assert_includes h, " : ", "French heading missing the space before its colon: #{h}" }
   end
 
-  # No English program name or URL may surface on a French page where the CSV
+  # No English program name or URL may surface on a French page where the data
   # carries a French one.
   def test_french_page_shows_french_names_and_urls
     translated = Wizard::Expected.live("fr").reject do |r|

@@ -7,7 +7,7 @@ layout: null
 {%- assign NAME = "name_fr" -%}
 {%- assign URLF = "url_fr" -%}
 {%- comment -%}
-  Program routing comes entirely from _data/tariff_tool_links.csv.
+  Program routing comes entirely from _data/tariff_tool_links.json.
   Drop excluded statuses first: Liquid has no `not`, so chain one
   where_exp per status named in the YAML's exclude_statuses.
 {%- endcomment -%}
@@ -19,7 +19,7 @@ layout: null
   "All of the above" is Q1's last answer. It is not a need: it reveals a
   parallel set of panels, one per need, whose rows are deduplicated at build
   time so a program serving two needs is listed once — under the FIRST need its
-  `need` cell names. That is why it needs its own panels rather than simply
+  `need` field names. That is why it needs its own panels rather than simply
   revealing the four per-need ones: two conditional CSS mechanisms on the same
   <li> would compose as OR, not AND, and a size-hidden row would reappear.
 {%- endcomment -%}
@@ -71,8 +71,8 @@ layout: null
 			.wz-r  { display: none; }
 			.wz-sz { display: none; }
 
-			/* ═══ Generated from _data/tariff_tool_links.csv ═══════════════════
-			   Rows are sectors, columns are needs. Edit the CSV, not this block.
+			/* ═══ Generated from _data/tariff_tool_links.json ═══════════════════
+			   Rows are sectors, columns are needs. Edit the data, not this block.
 {% for sec in t.sectors %}			   {{ sec.csv }}{% for need in t.needs %}{% assign ncsv = need.csv %}{% assign scsv = sec.csv %}{% assign cell = national | where: "sector", scsv | where_exp: "r", "r.need contains ncsv" %}{% assign hits = cell | where_exp: "r", "r.status != 'route'" %} | {{ need.csv }}={{ hits.size }}{% endfor %}
 {% endfor %}			*/
 {% for need in t.needs %}			#wz-state.{{ need.marker }} .wz-p-{{ need.csv }}-agnostic { display: block; }
@@ -82,7 +82,7 @@ layout: null
 {% endif %}{% endfor %}
 {% endfor %}{% endfor %}
 			/* "All of the above": the same panels, deduplicated — each row under
-			   the first need its CSV cell names, so nothing is listed twice. */
+			   the first need its `need` field names, so nothing is listed twice. */
 {% for need in t.needs %}{%- assign ncsv = need.csv -%}{%- assign agn = national | where: "sector", "sector-agnostic" -%}{%- assign agncount = 0 -%}{%- for r in agn -%}{%- assign fn = r.need | split: ";" | first -%}{%- if fn == ncsv -%}{%- assign agncount = agncount | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- if agncount > 0 %}			#wz-state.{{ ALLN }} .wz-ap-{{ need.csv }}-agnostic { display: block; }
 {% endif %}{%- for sec in t.sectors -%}{%- assign cell = national | where: "sector", sec.csv | where_exp: "r", "r.status != 'route'" -%}{%- for sz in t.sizes -%}{%- assign szcount = 0 -%}{%- for r in cell -%}{%- assign fn = r.need | split: ";" | first -%}{%- if fn == ncsv -%}{%- if r.size and r.size != "" -%}{%- assign r_sizes = r.size | split: ";" -%}{%- if r_sizes contains sz.csv -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- else -%}{%- assign szcount = szcount | plus: 1 -%}{%- endif -%}{%- endif -%}{%- endfor -%}{%- if szcount > 0 %}			#wz-state.{{ ALLN }}.{{ sec.marker }}.{{ sz.marker }} .wz-ap-{{ need.csv }}-{{ sec.csv }} { display: block; }
 {% endif %}{%- endfor -%}{%- endfor -%}
