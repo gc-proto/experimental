@@ -131,6 +131,20 @@ layout: null
 								</section>
 								{%- endif %}{% endfor %}{% endfor %}
 
+								{%- comment -%} Regional programs {%- endcomment -%}
+								{% for reg in t.regions %}{% assign regnames = reg.csv | split: ";" %}{% for need in t.needs %}{% assign ncsv = need.csv %}
+								{%- assign rgrows = "" -%}{%- assign rgcount = 0 -%}
+								{%- for rn in regnames -%}{%- assign m = live | where: "region", rn | where_exp: "r", "r.need contains ncsv" -%}{%- assign rgcount = rgcount | plus: m.size -%}{%- endfor -%}
+								{%- if rgcount > 0 %}
+								<section class="panel panel-success mrgn-tp-md wz-r wz-rg-{{ reg.marker }}-{{ need.csv }}">
+									<header class="panel-heading"><h3 class="panel-title h4">{{ L.region_heading }}</h3></header>
+									<div class="panel-body"><ul>
+										{% for rn in regnames %}{% assign m = live | where: "region", rn | where_exp: "r", "r.need contains ncsv" %}{% for r in m %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% endfor %}{% endfor %}
+									</ul></div>
+								</section>
+								{%- endif %}{% endfor %}{% endfor %}
+
 								{%- comment -%} Sector-agnostic column {%- endcomment -%}
 								{% for need in t.needs %}{% assign ncsv = need.csv %}
 								{%- assign agn = national | where: "sector", "sector-agnostic" | where_exp: "r", "r.need contains ncsv" -%}
@@ -144,20 +158,6 @@ layout: null
 								</section>
 								{%- endif %}{% endfor %}
 
-								{%- comment -%} Regional programs {%- endcomment -%}
-								{% for reg in t.regions %}{% assign regnames = reg.csv | split: ";" %}{% for need in t.needs %}{% assign ncsv = need.csv %}
-								{%- assign rgrows = "" -%}{%- assign rgcount = 0 -%}
-								{%- for rn in regnames -%}{%- assign m = live | where: "region", rn | where_exp: "r", "r.need contains ncsv" -%}{%- assign rgcount = rgcount | plus: m.size -%}{%- endfor -%}
-								{%- if rgcount > 0 %}
-								<section class="panel panel-success mrgn-tp-md wz-r wz-rg-{{ reg.marker }}-{{ need.csv }}">
-									<header class="panel-heading"><h3 class="panel-title h4">{{ L.region_heading }}</h3></header>
-									<div class="panel-body"><ul>
-										{% for rn in regnames %}{% assign m = live | where: "region", rn | where_exp: "r", "r.need contains ncsv" %}{% for r in m %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
-										{% endfor %}{% endfor %}
-									</ul>
-									<p class="small mrgn-bttm-0">{{ L.region_footnote }}</p></div>
-								</section>
-								{%- endif %}{% endfor %}{% endfor %}
 
 								{%- comment -%} Departmental hubs: sector-specific, then the always-on ones {%- endcomment -%}
 								{% for sec in t.sectors %}{% assign scsv = sec.csv %}

@@ -125,7 +125,6 @@ business:
     heading_sep: ": "
     agnostic_suffix: "open to all sectors"
     region_heading: "Programs for your region"
-    region_footnote: "Regional criteria and intake dates vary."
     hub_heading: "Where these programs are listed"
     hub_body: "These hubs are the departments' own lists. They are kept current, so check them if something here looks out of date."
     rda_prefix: "Get additional support from: "

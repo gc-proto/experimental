@@ -109,7 +109,6 @@ business:
     heading_sep: " : "
     agnostic_suffix: "tous secteurs confondus"
     region_heading: "Programmes pour votre région"
-    region_footnote: "Les critères régionaux et les dates de réception des demandes varient."
     hub_heading: "Où ces programmes sont répertoriés"
     hub_body: "Ces carrefours sont les listes tenues par les ministères eux-mêmes. Ils sont à jour : consultez-les si une information ici semble désuète."
     rda_prefix: "Obtenez un soutien supplémentaire auprès de : "

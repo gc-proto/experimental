@@ -28,7 +28,7 @@ Paths below are relative to this folder (`canada-strong/`), which is meant to be
 on and copied as a unit — see "This folder stands alone" below.
 
 ```
-_data/tariff_tool_links.csv    57 rows — every program, both languages, and its routing
+_data/tariff_tool_links.csv    56 rows — every program, both languages, and its routing
 _data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
@@ -73,7 +73,7 @@ Nothing else decides what a combination returns.
 | `need` | `financing`, `liquidity`, `transformation`, `workforce`, or `all` for a hub shown under every need. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
 | `region` | `national`, or one of the seven RDA regions |
-| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and seven of the eight RTRI rows (all but Quebec) use this today. |
+| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and six of the seven RTRI rows (all but Quebec) use this today. |
 | `program_name` / `name_fr` | what the user sees. Blank `name_fr` falls back to English so a gap is visible, not silent. |
 | `url_en` / `url_fr` | where the link goes |
 | `status` | research confidence. `no-page` and `disputed` are **not rendered** — see below |
@@ -456,23 +456,26 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   answer with no sector routing behind it. Left ungated on purpose — see the row's `note`,
   and "Q3's buckets are not being redrawn for one region" below.
 
-  **The national hub row is gated the same way, which only became correct once the sweep
-  finished.** Since all seven RDAs require at least $1M, an under-$1M business qualifies for
-  RTRI nowhere in Canada. Ungated, the hub was the only RTRI result they saw — an umbrella
-  link with all seven regional panels correctly hidden beneath it, which reads as a broken
-  page rather than as ineligibility. They still reach their own RDA through the `rda_url`
-  link at the foot of the results, which is a homepage rather than this program. One
-  residual case cannot be fixed this way: a $1M–$2M Quebec business still sees the hub with
-  no Quebec panel, because CED's $2M floor falls inside a Q3 bucket.
+  **The national hub row is deleted.** RTRI used to have an eighth row — the ISED hub
+  covering every region — which surfaced under "open to all sectors" while the visitor's own
+  RDA row sat in "Programs for your region" directly below. Two entries for the same
+  programme, the general one above the specific one. It was briefly size-gated to match the
+  regions instead of removed; that was the wrong fix, because the hub is redundant whenever
+  it appears rather than only at some sizes. Checked exhaustively before deleting: across all
+  70 need × region × size combinations the hub could render in, there is **not one** where it
+  is the only RTRI result. Every region has its own row, both cover the same two needs, and a
+  region answer is mandatory — so the specific row is always there. A business that wants the
+  national picture still gets its own RDA through the `rda_url` link at the foot of results.
 
-  **`nonprofit` is in all eight gates because the floor is an *SME* criterion.** The hub
-  describes RTRI as equipping "SMEs, and the organizations that support them" — two
+  **`nonprofit` is in all seven gates because the floor is an *SME* criterion.** RTRI
+  describes itself as equipping "SMEs, and the organizations that support them" — two
   populations, not one — and every revenue floor that names a subject names an SME ("SMEs
   must have… at least $1 million"). A board of trade is therefore not a small SME failing a
   $1M test; it is in the other population, which has no stated floor. That is reasoning from
-  the hub plus the three pages that give a subject, not a quoted non-profit rule: four RDA
-  pages were read only for their revenue fragment. The national hub row's `note` is the
-  canonical write-up; the other seven point at it.
+  the hub's wording plus the three pages that give a subject, not a quoted non-profit rule:
+  four RDA pages were read only for their revenue fragment. The canonical write-up moved to
+  the **Atlantic** row's `note` when the hub row was deleted — the reasoning was derived
+  there originally, and the other six point at it.
 
   **Read the alert banner, not just the eligibility list.** FedNor appeared during this
   sweep to be a second exception with no floor at all, and an argument was half-built for
@@ -511,6 +514,17 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
   count is restated in four places, all updated. Incidentally this made the "twenty markers"
   figure in "How a combination becomes a visible panel" true again; it had been 21.
+- **Results lead with the region, not the national column.** The panel order is
+  sector-specific cell → **Programs for your region** → *need*: open to all sectors →
+  departmental hubs, i.e. most specific first. It used to put the national column above the
+  regional one, which read oddly: the visitor answered a region question, then had the
+  answer to it shown third. The two blocks were swapped in both templates; nothing else
+  about them changed, and the generated CSS is unaffected since each panel is revealed by
+  its own rule regardless of document order.
+- **The "Regional criteria and intake dates vary" footnote is gone.** It sat under the
+  regional list, hedging in the abstract about criteria the tool now encodes concretely —
+  seven RDA eligibility rules, six of them size-gated. `region_footnote` is removed from
+  both YAML files and the `<p>` from both templates.
 - **In agriculture the `size` column is carrying organization type, not size at all.** Most
   agriculture programs have no revenue threshold, so their blank `size` is verified rather
   than unchecked. What does vary is *who* qualifies, and the only lever for that is
@@ -551,7 +565,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   page body, so `slide_label` can keep doing its archival job without the short name being
   one careless edit away from a user.
 - **A program serving two needs is one row, not two.** The deck listed BDC's Pivot to Grow
-  Loan under both financing and liquidity, and the RTRI national hub under both liquidity
+  Loan under both financing and liquidity, and the RTRI national hub (since deleted) under both liquidity
   and transformation, so the CSV carried each twice — the second copy flagged
   `duplicate-url`, sending a second, differently-named result to a page already linked
   above. The `need` column has always taken semicolons (the seven regional RTRI rows use
@@ -591,7 +605,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    `duplicate-url` is BDC's forestry cash-flow stream, whose twin is the `disputed`
    transformation row that never renders — so it is a flag to re-check, not a live
    double-listing.
-3. **Check whether RTRI's steel targeting needs a row of its own.** The national hub says
+3. **Check whether RTRI's steel targeting needs a row of its own.** The ISED national hub says
    "The RTRI includes targeted support for SME projects in the Canadian steel sector."
    Nothing is mis-routed today — the RTRI rows are `sector-agnostic`, so a steel business
    already sees them — so this is only worth acting on if the steel support is a *separate
