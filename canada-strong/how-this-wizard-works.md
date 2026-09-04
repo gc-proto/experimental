@@ -564,6 +564,17 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
   count is restated in four places, all updated. Incidentally this made the "twenty markers"
   figure in "How a combination becomes a visible panel" true again; it had been 21.
+- **Work-Sharing is a prerequisite for the Worker Retention Grant, and the column now says
+  so.** The dependency was research the CSV already held — the grant's `note` has always
+  read "Requires an approved Work-Sharing agreement" — but nothing reached the page: the
+  two sat three apart in the workforce column, in an order that put the grant first, with
+  no hint that one gates the other. The grant's rendered name is now "Worker Retention
+  Grant (prerequisite: Work-Sharing Program)", matched in French with "(préalable :
+  Programme de Travail partagé)", and the two rows were swapped so the prerequisite is
+  listed above the thing that needs it. Row order in the CSV is the display order within a
+  panel, so this was a CSV edit and nothing else. `fr_source` on that row now records that
+  the bracketed half is composed rather than taken from the page's `h1`, which is what that
+  column is for.
 - **Question 3 asks one thing, and its answers answer it.** The legend was "What is your
   size and revenue?", which asked two questions and let the answers drift into criteria
   again — `size-5mplus` read "$5 million or more with 10 or more full-time employees",
