@@ -22,6 +22,7 @@ Live on test.canada.ca:
 | Change a **question, answer, heading or label** | `_data/canada_strong_en.yml` / `_fr.yml` |
 | Change **layout or markup** | `business-*.html` / `start-*.html` |
 | Check you did not break anything | `ruby _tests/run.rb` |
+| Refresh the **public feed** after a program edit | `ruby _bin/build-programs-json.rb` |
 
 The four HTML files contain no copy and no program data. Both languages share one data file.
 Paths below are relative to this folder (`canada-strong/`), which is meant to be worked
@@ -29,6 +30,7 @@ on and copied as a unit — see "This folder stands alone" below.
 
 ```
 _data/tariff_tool_links.json    57 rows — every program, both languages, and its routing
+programs.json                  the published subset of the above — see "The public feed"
 _data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
@@ -56,8 +58,11 @@ Two things make it work:
   this doesn't collide with anything else.
 - **The underscore on `_data/` is load-bearing.** Jekyll skips any folder starting with
   `_` when it copies files into the built site. Without it, `tariff_tool_links.json` — internal
-  research notes and all, see the `note` column below — would be a fetchable file on
-  test.canada.ca. The test suite lives in `_tests/` for the same reason.
+  research notes and all, see the `note` field below — would be a fetchable file on
+  test.canada.ca. The test suite lives in `_tests/`, and the feed generator in `_bin/`,
+  for the same reason. `programs.json` is the deliberate exception: it sits outside
+  `_data/` precisely so it *is* fetchable, which is why it carries no research notes and
+  why `test_public_feed.rb` exists to keep it that way.
 
 If this folder is copied somewhere Jekyll never runs, `_tests/support/wizard.rb` falls back
 to reading `canada-strong/_data` directly, so the suite still runs; the three tests that
@@ -272,6 +277,34 @@ genuinely un-emptied today — every row in them is either ungated or sits besid
 sibling — but "not needed yet" is exactly what was said about the sector cell. The guard
 test covers all four, so the failure mode is a loud test, not a broken page. If you are
 gating the last remaining row in either, expect to generalize the pattern one more time.
+
+## The public feed
+
+`_data/tariff_tool_links.json` is the working file. It carries research prose,
+confidence grades and the deck's original labels, and the underscore on `_data/`
+keeps Jekyll from publishing any of it.
+
+AEM needs the programs as a fetchable endpoint, so `programs.json` sits beside the
+pages — no underscore, published by the build — and carries only what is safe to
+serve. `_bin/programs_feed.rb` is the single definition of that subset:
+
+| | |
+|---|---|
+| **Published** | `need`, `sector`, `size`, `region`, `program_name`, `name_fr`, `org`, `url_en`, `url_fr` |
+| **Withheld** | `note` (research prose), `slide_label` (what the deck got wrong), `fr_source` (how each French name was sourced, including our QA of other departments' pages), `status` (our private confidence grades — `weak`, `best-guess`, `ambiguous`, `disputed` would read as public grading of other departments' programs) |
+| **Rows dropped** | the eight `route`, `no-page` and `disputed` markers. Their names are placeholders like `(route to sector-agnostic)`; they exist so an empty cell reads as checked rather than forgotten, and none of them renders. 49 of 57 rows ship. |
+
+A new field added to the working file stays private until someone adds it to
+`PUBLIC_FIELDS` on purpose. That default is the point: the failure mode worth
+designing against is a research note reaching the endpoint, not a useful field
+arriving a week late.
+
+**`programs.json` is generated, not edited.** Run `ruby _bin/build-programs-json.rb`
+after any program change and commit the result. It is committed rather than built
+by Jekyll because this site runs on GitHub Pages, which will not run a custom
+plugin — so `test_public_feed.rb` fails if the two files drift apart, and also
+checks the feed against the *rendered page*, so the feed and the wizard cannot
+quietly come to name different programs.
 
 ## The vocabulary bridge
 

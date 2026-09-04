@@ -26,6 +26,7 @@ gem install --user-install liquid -v 4.0.4 --no-document
 | File | Checks |
 |---|---|
 | `test_routing.rb` | All 700 need x sector x region x size combinations, both languages, against the routing table. Empty-cell suppression, size-gated rows, no panel ever rendering empty, excluded rows, internal notes, duplicate results, and that "All of the above" is exactly the union of the four needs. |
+| `test_public_feed.rb` | `programs.json`, the one published data file: that it matches the working file it is generated from, that no internal field or research note is in it, that marker rows are not, and that it names exactly the programs the page renders. |
 | `test_program_data.rb` | The routing table itself: required fields, closed vocabularies, statuses, URLs, French coverage, and two decisions pinned so they cannot be undone quietly. |
 | `test_rda.rb` | Exactly one RDA link matching the chosen region, sitting right above "Start over", and that the removed eligibility section stays fully gone. |
 | `test_markup.rb` | Heading order, one h1, the fieldflow chain, the reset cascade, and the traps listed under "Gotchas found the hard way". |

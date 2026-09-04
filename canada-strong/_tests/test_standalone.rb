@@ -136,6 +136,7 @@ class TestStandalone < Minitest::Test
     %w[
       how-this-wizard-works.md
       _data/tariff_tool_links.json
+      programs.json _bin/programs_feed.rb _bin/build-programs-json.rb
       business-en.html business-fr.html start-en.html start-fr.html
     ].each do |f|
       assert File.exist?(File.join(Wizard::PAGES, f)), "canada-strong/#{f} is missing"
