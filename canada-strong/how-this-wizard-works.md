@@ -574,6 +574,15 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
   count is restated in four places, all updated. Incidentally this made the "twenty markers"
   figure in "How a combination becomes a visible panel" true again; it had been 21.
+- **Question 4 asks for the sector, and only that.** The legend still read "What is your
+  sector and tariff impact?" after the U.S.-exporter answer was removed — the tariff-impact
+  half had nothing left to point at, and the question had been asking two things anyway. It
+  is now "What is your sector?" ("Quel est votre secteur?"). "Other manufacturing and
+  exporters" also moved from third to last: it is the one answer with no stream of its own,
+  so it belongs at the end reading as the catch-all it is, not sitting between steel and
+  agriculture as though it were a fourth sector with its own programs. Answer order is
+  presentation only — the routing sweep iterates the options and does not care what order
+  they come in.
 - **Results open in a new tab, after a usability session cost someone their answers.** The
   participant clicked a program, read it, pressed Back — and had to answer all four
   questions again, because fieldflow's state lives in the DOM and Back rebuilt the page

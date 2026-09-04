@@ -207,11 +207,13 @@ business:
         - {marker: size-nonprofit, label: "Non-profit, association, board of trade"}
 
     - id: question-4
-      legend: "Question 4 of 4: What is your sector and tariff impact?"
+      legend: "Question 4 of 4: What is your sector?"
       clears: "sec-forestry sec-steel sec-mfg sec-agri"
       next: null
       options:
         - {marker: sec-forestry, label: "Forestry and softwood lumber"}
         - {marker: sec-steel,    label: "Steel, aluminium and copper"}
-        - {marker: sec-mfg,      label: "Other manufacturing and exporters"}
         - {marker: sec-agri,     label: "Agriculture, agri-food, fish and seafood"}
+        # Last on purpose: the only answer with no stream of its own, so it
+        # reads as the catch-all it is rather than as one sector among four.
+        - {marker: sec-mfg,      label: "Other manufacturing and exporters"}

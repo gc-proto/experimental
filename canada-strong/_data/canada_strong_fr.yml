@@ -192,11 +192,14 @@ business:
         - {marker: size-nonprofit, label: "Organisme sans but lucratif, association, chambre de commerce"}
 
     - id: question-4
-      legend: "Question 4 sur 4 : Quel est votre secteur et quelle est l'incidence des droits de douane?"
+      legend: "Question 4 sur 4 : Quel est votre secteur?"
       clears: "sec-forestry sec-steel sec-mfg sec-agri"
       next: null
       options:
         - {marker: sec-forestry, label: "Foresterie et bois d'œuvre"}
         - {marker: sec-steel,    label: "Acier, aluminium et cuivre"}
-        - {marker: sec-mfg,      label: "Autre fabrication et exportateurs"}
         - {marker: sec-agri,     label: "Agriculture, agroalimentaire, poisson et fruits de mer"}
+        # En dernier volontairement : seule réponse sans filière qui lui soit
+        # propre, elle se lit ainsi comme la catégorie fourre-tout qu'elle est
+        # plutôt que comme un secteur parmi quatre.
+        - {marker: sec-mfg,      label: "Autre fabrication et exportateurs"}
