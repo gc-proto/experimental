@@ -177,6 +177,31 @@ class TestRouting < Minitest::Test
         "#{lang}: the deck's bare \"Pivot to Grow\" reached the rendered page")
     end
 
+    # BDC's steel/aluminium program requires $1M+ annual revenue and is the
+    # ONLY program in the steel liquidity sector cell, so gating it is what
+    # forced the sector-cell panel to get the same size-aware treatment the
+    # regional panel already had. The sibling of the Atlantic pin below: that
+    # one exercises the regional fix, this one the sector-cell fix. Both assert
+    # the panel vanishes rather than rendering a heading over an empty list.
+    define_method("test_steel_support_requires_at_least_1m_revenue_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      row  = Wizard.rows.find { |r| r["url_en"].to_s.include?("steel-aluminium-support-program") }
+      refute_nil row, "the BDC steel and aluminium row is missing"
+      name = Wizard::Expected.display(row, lang).first
+
+      Wizard.size_markers(lang).each do |sz|
+        markers = ["need-liq", "reg-atl", "sec-steel", sz]
+        shown   = Wizard.visible_programs(page, markers).map(&:first)
+        want    = (sz != "size-under1m")
+        assert_equal want, shown.include?(name),
+          "#{lang}: steel support #{shown.include?(name) ? 'shown' : 'hidden'} for #{sz}, expected #{want ? 'shown' : 'hidden'}"
+
+        panel_present = Wizard.visible_panels(page, markers).any? { |p| p["class"].to_s.include?("wz-p-liquidity-steel-and-aluminum") }
+        assert_equal want, panel_present,
+          "#{lang}: steel liquidity panel #{panel_present ? 'rendered' : 'absent'} for #{sz} — it holds only this one program, so it must vanish entirely, not render empty"
+      end
+    end
+
     # ACOA's own eligibility for the Atlantic RTRI row requires $1M+ annual
     # revenue — pinned because it's the row that's actually empty for
     # size-under1m today (it's the only program in Atlantic's regional

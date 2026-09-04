@@ -33,7 +33,7 @@ _data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 111 tests over the files above
+_tests/                        the suite: 113 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
@@ -73,7 +73,7 @@ Nothing else decides what a combination returns.
 | `need` | `financing`, `liquidity`, `transformation`, `workforce`, or `all` for a hub shown under every need. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
 | `region` | `national`, or one of the seven RDA regions |
-| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, BDC's Pivot to Grow Loan, and seven of the eight RTRI rows (all but Quebec) use this today. |
+| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and seven of the eight RTRI rows (all but Quebec) use this today. |
 | `program_name` / `name_fr` | what the user sees. Blank `name_fr` falls back to English so a gap is visible, not silent. |
 | `url_en` / `url_fr` | where the link goes |
 | `status` | research confidence. `no-page` and `disputed` are **not rendered** — see below |
@@ -118,6 +118,11 @@ option can only reveal one fixed target. So:
 
 `#wz-state.need-liq.sec-agri` (specificity 1,3,0) outranks `.wz-r` (0,1,0), so the matching
 panel wins. No JavaScript of our own — fieldflow stamps the classes, CSS does the rest.
+
+Sector-cell and regional panels carry a fourth class for the size answer
+(`…need-liq.sec-steel.size-1to5m…`), and are emitted only for sizes that actually have a
+qualifying row — see "How a size-gated row hides itself" for why. The specificity argument
+is unchanged; it only goes up.
 
 The generated `<style>` block opens with a **grid comment counting each cell**, so you can
 still check the shape at a glance without maintaining it by hand:
@@ -168,6 +173,12 @@ but it's the same class of bug as the blank check above: correct by accident, no
 construction. `Expected.size_ok?` on the Ruby side already split and compared exactly; the
 template didn't match it until this was caught in review.
 
+That review fixed the `<li>` gating but missed the **panel counting loops**, which kept
+comparing `r.size contains sz.csv` against the raw string — the same accident, one level up,
+surviving the fix that was supposed to end it. Both now split first. The lesson is that
+"correct by accident" tends to exist in more than one place: the grep worth running is for
+`contains sz.csv`, not for the one line someone happened to notice.
+
 **A panel's own visibility and a row's size gating were two separate mechanisms**
 (need/sector/region for the panel, `size` for the `<li>`s inside it) — which meant nothing
 stopped a CSV edit from restricting every row in a panel to sizes that don't add up to
@@ -197,11 +208,26 @@ ncsv`) and in isolated tests of the same expression. The count is a plain nested
 `{% for %}` / `{% if %}` loop instead — slower to read, but it doesn't touch the part of
 Liquid that misbehaved.
 
-The other three panel types (sector cell, sector-agnostic column, hubs) share the same
-theoretical gap and are not yet fixed the same way — `test_no_panel_ever_renders_with_zero_visible_programs`
-still covers all four, so a future CSV edit that empties one of those will fail loudly
-rather than ship silently, but generalizing the regional fix to them is a separate piece of
-work, not yet needed by anything in the CSV.
+**The sector cell now has the same fix, and getting it was not optional.** The paragraph
+above used to end by calling the other three panel types a theoretical gap "not yet needed
+by anything in the CSV." Gating BDC's Steel and Aluminium Industries Support Program to
+$1M+ needed it within the hour: that program is the only row in the steel liquidity cell,
+so `size-under1m` had a heading over an empty list in seven regions at once.
+`test_no_panel_ever_renders_with_zero_visible_programs` caught it exactly as that paragraph
+promised, in both languages, before anything shipped.
+
+The sector-cell rule is now generated per **need × sector × size**, the same shape as the
+regional one:
+
+```css
+#wz-state.need-liq.sec-steel.size-1to5m .wz-p-liquidity-steel-and-aluminum { display: block; }
+```
+
+**Two panel types are still unfixed: the sector-agnostic column and the hubs.** They are
+genuinely un-emptied today — every row in them is either ungated or sits beside an ungated
+sibling — but "not needed yet" is exactly what was said about the sector cell. The guard
+test covers all four, so the failure mode is a loud test, not a broken page. If you are
+gating the last remaining row in either, expect to generalize the pattern one more time.
 
 ## The vocabulary bridge
 
@@ -300,7 +326,7 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 - **Parity**: the French templates are the English ones with the language swapped, and
   the two YAML files stay the same shape.
 
-Three tests pin decisions rather than data — the forestry transformation cell routing to
+Four tests pin decisions rather than data — the forestry transformation cell routing to
 NRCan and not BDC, the duplicate-URL triage, and BDC's product being the "Pivot to Grow
 Loan" rather than the deck's bare "Pivot to Grow". Data-driven tests cannot catch those:
 both sides read the same CSV, so changing the CSV changes the expectation too. If one of
@@ -451,12 +477,46 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   page instead of in the eligibility section below. The general lesson is worth more than
   the specific fix: these seven pages do not share a template, so a criterion absent from
   where the last six pages put it is a reason to re-read the whole page, not a finding.
-- **Q3's buckets are not being redrawn for one region.** Splitting "$1 million to $5
-  million" into $1–2M and $2–5M would let Quebec's floor be gated exactly, and was
-  considered. It was rejected: it complicates the question every single visitor answers in
-  order to fix one region of seven, and it still would not capture CED's other two tests, so
-  Quebec needs its criteria stated in result text regardless. One extra answer that only
-  partly fixes the one case is worse than stating the case plainly.
+- **Q3's buckets are not being redrawn, and two thresholds now straddle them.** The real
+  thresholds in the CSV are $1M, $2M (CED), $10M (EDC direct lending) and $150M (LETL). The
+  buckets were drawn before any of them were known, and two now cut through the middle of a
+  bucket rather than along its edge:
+  - **CED's $2M** sits inside "$1 million to $5 million" — a $1.2M and a $3M business give
+    the same answer, and only one qualifies.
+  - **EDC's $10M** sits inside "$5 million or more" — so that row is gated `5mplus;large`,
+    which correctly excludes everyone under $5M but still shows the program to a $5–10M
+    business who cannot use it.
+
+  Drawing buckets that fit every threshold would need roughly six size answers before the
+  non-profit one, turning the shortest question in the wizard into its longest. And it still
+  would not capture CED's other two tests (<500 employees, manufacturing) or EDC's "seeking
+  at least $1M in funding", none of which are sizes at all. The size gate is therefore doing
+  what it is good at — excluding whole buckets that are certainly ineligible — and the
+  residue belongs in **criteria text on the result card**, a mechanism the CSV does not have
+  yet. That mechanism is now wanted by at least two rows rather than one, which is what
+  makes it worth building rather than deferring again.
+- **In agriculture the `size` column is carrying organization type, not size at all.** Most
+  agriculture programs have no revenue threshold, so their blank `size` is verified rather
+  than unchecked. What does vary is *who* qualifies, and the only lever for that is
+  `size-nonprofit` — the one Q3 answer that is a kind of organization rather than a
+  turnover band. So:
+  - **AgriStability and AgriInvest are farmers-only**, and now carry
+    `under-1m;1to5m;5mplus;large` — every business size, no non-profits.
+  - **Price Pooling goes the other way and must stay blank.** It is open to associations of
+    producers *and* to processors and marketing agencies, so it is not the AgriMarketing NIA
+    case ("associations only") and must not be gated to match it. Its real test — marketing
+    under an official cooperative plan and pooling revenues — is not a size at all, so blank
+    over-shows it to ordinary farm businesses. Criteria text, not a size gate.
+
+  AgriInvest and Price Pooling arrived on the same deck slide, in the same box, and point in
+  opposite directions on exactly this question. Splitting that box into two rows was already
+  recorded as a correction; it turns out to have mattered more than it looked.
+
+  FCC's Trade Disruption Customer Support Program was checked and has no size criteria, so
+  its blank is verified too. That leaves the **Advance Payments Program** as the last row in
+  this cell whose eligibility has not been read off its own page — it advances against a
+  producer's own crop or livestock, so farmers-only is the likely answer, but that is an
+  inference and its `note` says so rather than acting on it.
 - **BDC's two loans are gated differently, and that difference carries weight.** The Pivot
   to Grow Loan requires $1M+ annual revenue, so it is gated like the RTRI rows
   (`1to5m;5mplus;large;nonprofit`). Its other three criteria — 3 years in business,
@@ -522,10 +582,13 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    stream with its own page*, which would make it a row. If it is prioritization within the
    same application, it is result-card text at most, and shares a mechanism with the Quebec
    criteria below.
-4. **Write Quebec's criteria into the result card.** CED's $2M / <500 employees /
-   manufacturing tests cannot be gated (see the departures above), so the only honest way to
-   convey them is text on the Quebec RTRI result. This needs a mechanism the CSV does not
-   have yet — a per-row criteria string, rendered under the program name.
+4. **Build the per-row criteria line.** A new CSV column (plus a French twin) rendered as
+   small text under the program name, for the eligibility that size gates cannot express.
+   Wanted by at least three rows today: CED's Quebec RTRI ($2M, <500 employees,
+   manufacturing), EDC direct lending ($10M inside the `5mplus` bucket, and a $1M minimum
+   draw), and BDC's Pivot to Grow Loan (3 years in business, positive cash flow, 15% U.S.
+   export share). Each is currently a `note` no visitor will ever read. This is the single
+   highest-value thing left in this list — every straddled bucket above resolves to it.
 5. **Report the AAFC language-toggle bug.** One note records that the French AAFC hub's
    English toggle targets a 404. That is a live Canada.ca defect, unrelated to this work.
 6. **Add amount, term and repayment** once the figures exist — new CSV columns and a line
