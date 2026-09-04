@@ -574,6 +574,55 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
   count is restated in four places, all updated. Incidentally this made the "twenty markers"
   figure in "How a combination becomes a visible panel" true again; it had been 21.
+- **French review from DEC/CED, applied and rationalized against what had changed since.**
+  Samir Goulamaly (DEC/CED, the Quebec RDA) reviewed the French wizard in tracked changes.
+  Marked directly: "nous vous **montrerons**" became "nous vous **indiquerons**"; the
+  intro's repeated "à" was dropped ("à votre besoin, votre région, votre taille"); "votre
+  secteur" became "votre **secteur d'activités**"; and two Q1 answers were rewritten to
+  actually answer the question they sit under — "De quoi avez-vous besoin?" takes the
+  partitive, so "Un projet" became "**D'un** projet" and "Le maintien en poste et le
+  recyclage de votre main-d'œuvre" became "**De maintenir votre main-d'œuvre en poste et
+  d'en assurer la reconversion**". That pattern is now the rule for Q1 in French: du, des,
+  d'un, de.
+
+  The review was done against an older page, so three consequences were carried across
+  rather than left inconsistent. The `needs:` heading for workforce still said "recyclage",
+  the word the reviewer had just replaced — it is "reconversion" now, and `recyclage`
+  appears nowhere in the French file. "Tout ce qui précède" postdates the review and is the
+  fifth answer to the same question, so it takes the partitive too: "**De** tout ce qui
+  précède". And the start page describes the same four questions, so its "votre secteur"
+  became "votre secteur d'activités" as well. None of these three were marked by the
+  reviewer; they follow from what was.
+
+  This is the first place the two languages deliberately diverge in register. English Q1
+  answers are noun phrases under "What do you need right now?"; French ones are now verb
+  and partitive phrases under "De quoi avez-vous besoin?". Both are right for their own
+  question, and the parity test only flags strings that are byte-identical, so nothing here
+  fights it.
+
+  **Revenue is `chiffre d'affaires` in French, not `revenus`.** The reviewer struck "vos
+  revenus" for "votre chiffre d'affaire" in the Q3 legend, which settles a collision his
+  screenshots could not have seen: the legend and the first answer had both moved to
+  "revenus annuels" the same week. The word now appears once, in the first answer, and not
+  again — the rule the English answers already followed, and the reason his own addition of
+  "de chiffre d'affaires" to the $5M answer was not kept. `revenus` is gone from the French
+  file. Also from the same pass: "5 millions de dollars ou plus" became "**Plus de** 5
+  millions", which quietly fixes a real overlap — "De 1 à 5 millions" and "5 millions ou
+  plus" both contain exactly $5M, and **the English still does**; "Plus grande entreprise"
+  became "Grande entreprise", since the $150M figure and not the comparative is what does
+  the work; and Q4's legend gained "d'activités".
+
+  **What was declined, so it is not re-litigated.** Three comments came back with the
+  edits. One asked what separates the financing answer from the transformation one — that
+  is a question about the wizard's structure, not its French, and liquidity and
+  transformation stay separate answers: decided above this review and confirmed in
+  usability testing. One asked for a verb in "D'un projet de transformation ou
+  d'immobilisations", which contradicts the tracked change a second reviewer had just made
+  on that same line; the tracked change won. The remaining two were the reviewer's own
+  rationale for edits already applied. One tracked change was also left out: rewriting the
+  non-profit answer as "Pas de chiffre d'affaires (organisme sans but lucratif...)" answers
+  the revenue question the current wording ignores, but "no revenue" is not true of most
+  non-profits and it would diverge from the English. Open, not rejected.
 - **Question 4 asks for the sector, and only that.** The legend still read "What is your
   sector and tariff impact?" after the U.S.-exporter answer was removed — the tariff-impact
   half had nothing left to point at, and the question had been asking two things anyway. It

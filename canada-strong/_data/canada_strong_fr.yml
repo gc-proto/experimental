@@ -29,7 +29,7 @@ needs:
   - {marker: need-fin, csv: financing,      heading: "Financement"}
   - {marker: need-liq, csv: liquidity,      heading: "Liquidités"}
   - {marker: need-tra, csv: transformation, heading: "Transformation et projets d'immobilisations"}
-  - {marker: need-wrk, csv: workforce,      heading: "Maintien en poste et recyclage de la main-d'œuvre"}
+  - {marker: need-wrk, csv: workforce,      heading: "Maintien en poste et reconversion de la main-d'œuvre"}
 
 # La dernière réponse de la question 1 n'est pas un besoin en soi — elle
 # affiche tous les besoins à la fois. Elle n'a pas d'entrée dans `needs:` (cette
@@ -94,7 +94,7 @@ start:
   intro: "Trouvez le soutien qu'il vous faut"
   options:
     - label: "Je suis une entreprise ou un employeur"
-      description: "Répondez à quatre questions sur votre besoin, votre région, votre taille et votre secteur"
+      description: "Répondez à quatre questions sur votre besoin, votre région, votre taille et votre secteur d'activités"
       cta: "Dressez ma liste"
       href: "business-fr.html"
     - label: "Je suis un travailleur ou une travailleuse"
@@ -112,7 +112,7 @@ business:
   title: "Trouver du soutien pour votre entreprise"
   description: "Répondez à quatre questions pour obtenir une liste de programmes fédéraux destinés aux entreprises touchées par les droits de douane américains."
   h1: "Trouver du soutien pour votre entreprise"
-  intro: "Répondez à quatre questions et nous vous montrerons les programmes qui correspondent à votre besoin, à votre région, à votre taille et à votre secteur."
+  intro: "Répondez à quatre questions et nous vous indiquerons les programmes qui correspondent à votre besoin, votre région, votre taille et votre secteur d'activités."
   questions_heading: "Parlez-nous de votre entreprise"
   results_heading: "Programmes correspondant à vos réponses"
   back_link: "Recommencer"
@@ -152,9 +152,9 @@ business:
       options:
         - {marker: need-fin, label: "Du financement pour poursuivre vos activités ou prendre de l'expansion"}
         - {marker: need-liq, label: "Des liquidités pour combler un manque de trésorerie causé par les droits de douane"}
-        - {marker: need-tra, label: "Un projet de transformation ou d'immobilisations"}
-        - {marker: need-wrk, label: "Le maintien en poste et le recyclage de votre main-d'œuvre"}
-        - {marker: need-all, label: "Tout ce qui précède"}
+        - {marker: need-tra, label: "D'un projet de transformation ou d'immobilisations"}
+        - {marker: need-wrk, label: "De maintenir votre main-d'œuvre en poste et d'en assurer la reconversion"}
+        - {marker: need-all, label: "De tout ce qui précède"}
 
     - id: question-2
       legend: "Question 2 sur 4 : Où votre entreprise est-elle principalement située?"
@@ -170,14 +170,14 @@ business:
         - {marker: reg-nor,  label: "Le Nord (NU, NT, YT)"}
 
     - id: question-3
-      legend: "Question 3 sur 4 : Quels sont vos revenus annuels?"
+      legend: "Question 3 sur 4 : Quel est votre chiffre d'affaires annuel?"
       clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-4"
       options:
-        - {marker: size-under1m, label: "Moins de 1 million de dollars de revenus annuels"}
+        - {marker: size-under1m, label: "Moins de 1 million de dollars de chiffre d'affaires"}
         - {marker: size-1to5m,   label: "De 1 à 5 millions de dollars"}
-        - {marker: size-5mplus,  label: "5 millions de dollars ou plus"}
-        - {marker: size-large,   label: "Plus grande entreprise (150 millions de dollars ou plus)"}
+        - {marker: size-5mplus,  label: "Plus de 5 millions de dollars"}
+        - {marker: size-large,   label: "Grande entreprise (150 millions de dollars ou plus)"}
         # En dernier volontairement : ce n'est pas une tranche de revenus, et
         # placée entre les tranches elle brisait l'ordre de lecture des
         # montants.
@@ -192,7 +192,7 @@ business:
         - {marker: size-nonprofit, label: "Organisme sans but lucratif, association, chambre de commerce"}
 
     - id: question-4
-      legend: "Question 4 sur 4 : Quel est votre secteur?"
+      legend: "Question 4 sur 4 : Quel est votre secteur d'activités?"
       clears: "sec-forestry sec-steel sec-mfg sec-agri"
       next: null
       options:
