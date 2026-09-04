@@ -70,7 +70,7 @@ Nothing else decides what a combination returns.
 
 | Column | Meaning |
 |---|---|
-| `need` | `financing`, `liquidity`, `transformation`, `workforce`, or `all` for a hub shown under every need. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
+| `need` | `financing`, `liquidity`, `transformation`, `workforce`, `all` for a hub shown under every need, or `featured` for the one promoted row that closes the More options panel. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
 | `region` | `national`, or one of the seven RDA regions |
 | `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and six of the seven RTRI rows (all but Quebec) use this today. |
@@ -291,6 +291,19 @@ row hides itself" below.
 - **`layout: null`** in the front matter is what runs Liquid while letting the raw CDTS
   HTML through. With no front matter at all, Jekyll copies the file verbatim and the Liquid
   tags ship to the browser as literal text.
+- **This file is excluded from the build, and has to stay excluded.** Jekyll runs Liquid
+  over the folder's renderable files before Markdown ever sees them, and a fenced code
+  block protects nothing — Liquid parses the whole file first. This document quotes the
+  template's own tags, so one `{% for %}` written to be read rather than run failed to
+  parse, took the entire Pages build down with `Syntax Error in 'for loop'`, and stranded
+  test.canada.ca on a stale build for five hours. One broken file fails the *site*, not
+  just the page. `_config.yml` lists it under `exclude`, and
+  `test_every_file_the_build_reads_parses_as_liquid` is the guard: every `.html`/`.md` in
+  this folder either parses as Liquid or is excluded. **If you add a document that quotes
+  Liquid, exclude it in `_config.yml` in the same commit** — or wrap the examples in
+  `{% raw %}`, which is the alternative the exclusion was chosen over, since this file was
+  never meant to publish anyway. Note that `exclude` *replaces* Jekyll's defaults rather
+  than adding to them, so the list restates them; drop one and it starts publishing.
 
 ## Tests
 
@@ -328,10 +341,15 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
   `wet-*.js`, the missing space before a French colon, missing `layout: null`.
 - **Parity**: the French templates are the English ones with the language swapped, and
   the two YAML files stay the same shape.
+- **Standalone, and the build**: `data_dir` still points into this folder, the pages
+  render populated rather than merely well-formed, and — the guard added after the
+  five-hour outage — every `.html`/`.md` here either parses as Liquid or is excluded in
+  `_config.yml`.
 
-Four tests pin decisions rather than data — the forestry transformation cell routing to
-NRCan and not BDC, the duplicate-URL triage, and BDC's product being the "Pivot to Grow
-Loan" rather than the deck's bare "Pivot to Grow". Data-driven tests cannot catch those:
+Five tests pin decisions rather than data — the forestry transformation cell routing to
+NRCan and not BDC, the duplicate-URL triage, BDC's product being the "Pivot to Grow
+Loan" rather than the deck's bare "Pivot to Grow", and the Business Benefits Finder
+being the one promoted `need: featured` row with no size gate. Data-driven tests cannot catch those:
 both sides read the same CSV, so changing the CSV changes the expectation too. If one of
 those decisions is genuinely revisited, delete the test on purpose.
 
@@ -514,6 +532,20 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
   count is restated in four places, all updated. Incidentally this made the "twenty markers"
   figure in "How a combination becomes a visible panel" true again; it had been 21.
+- **The hub panel points outward now: "More options".** It was headed "Where these programs
+  are listed" and explained that the hubs were the departments' own current lists. That
+  framing invited the reading that the wizard's four answers *were* the tariff programs, and
+  departments were making it. The panel is now headed **More options**, introduces its links
+  with "For more programs and context:", and closes with a sentence promoting the **Business
+  Benefits Finder** — "view or search all provincial and federal programs and services,
+  including tariff support". The Finder was already a hub row; it is now the CSV's one
+  `need: featured` row, which takes it out of the hub list and gives it its own line. `need:
+  featured` matches no question answer and carries no `size`, so it renders on all 560
+  combinations — that is the point, and `test_exactly_one_featured_row_and_it_is_the_benefits_finder`
+  pins it. Its URLs changed too, from the Finder's front door to the tariff-filtered
+  `list-liste` view with ISED's token, so the link lands on programs rather than an empty
+  search. The line is a `<p>`, not a list item, so the routing sweep cannot see it;
+  `test_the_featured_finder_line_closes_the_hub_panel_*` checks it instead.
 - **Results lead with the region, not the national column.** The panel order is
   sector-specific cell → **Programs for your region** → *need*: open to all sectors →
   departmental hubs, i.e. most specific first. It used to put the national column above the

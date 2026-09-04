@@ -173,6 +173,7 @@ layout: null
 								{%- endif %}{% endfor %}
 
 								{%- assign hubs = live | where: "need", "all" | where: "sector", "sector-agnostic" -%}
+								{%- assign featured = live | where: "need", "featured" -%}
 								<section class="panel panel-default mrgn-tp-md">
 									<header class="panel-heading"><h3 class="panel-title h4">{{ L.hub_heading }}</h3></header>
 									<div class="panel-body">
@@ -181,6 +182,9 @@ layout: null
 											{% for r in hubs %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 											{% endfor %}
 										</ul>
+										{%- comment -%} The one `need: featured` row, closing the panel below the hub list. {%- endcomment -%}
+										{% for r in featured %}<p class="mrgn-tp-md mrgn-bttm-0">{{ L.featured_prefix }}<a href="{{ r[URLF] | default: r.url_en }}">{{ r[NAME] | default: r.program_name }}</a>{{ L.featured_suffix }}</p>
+										{% endfor %}
 									</div>
 								</section>
 

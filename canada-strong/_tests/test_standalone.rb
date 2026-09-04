@@ -85,6 +85,52 @@ class TestStandalone < Minitest::Test
     assert_empty strays, strays.join("\n  ")
   end
 
+  # The build that ships is GitHub Pages, and it runs Liquid over the folder's
+  # renderable files before Markdown ever sees them — fenced code blocks do not
+  # protect anything. how-this-wizard-works.md documents this template's Liquid,
+  # so it necessarily contains tags written to be read rather than executed; one
+  # of them failed to parse, took the whole Pages build down with "Syntax Error
+  # in 'for loop'", and left test.canada.ca on a stale build for five hours. The
+  # fix was to exclude the file in _config.yml, and this is the guard on it: a
+  # file in this folder either parses as Liquid or is excluded from the build.
+  # Nothing here can catch it at commit time except a check like this, because
+  # the suite deliberately renders without Jekyll.
+  def test_every_file_the_build_reads_parses_as_liquid
+    require "liquid"
+    excluded = Array(config["exclude"])
+    unparseable = []
+
+    Dir.glob(File.join(Wizard::PAGES, "**", "*.{html,md,markdown}")).sort.each do |path|
+      rel = path.sub(%r{\A#{Regexp.escape(File.dirname(Wizard::PAGES))}/}, "")
+      next if rel.split("/").any? { |seg| seg.start_with?("_") || seg == "out" }
+      next if excluded.any? { |e| rel == e || rel.start_with?(e.chomp("/") + "/") }
+
+      begin
+        Liquid::Template.parse(File.read(path))
+      rescue Liquid::Error => e
+        unparseable << "#{rel}: #{e.message}"
+      end
+    end
+
+    assert_empty unparseable,
+      "these would fail the Pages build; fix the Liquid or add the file to `exclude` in _config.yml:\n  " +
+      unparseable.join("\n  ")
+  end
+
+  # Excluding a file only helps while the exclusion is actually there, and
+  # `exclude` REPLACES Jekyll's defaults rather than adding to them — so the
+  # list has to keep restating them. Both halves are pinned.
+  def test_the_liquid_documentation_stays_out_of_the_build
+    excluded = Array(config["exclude"])
+    assert_includes excluded, "canada-strong/how-this-wizard-works.md",
+      "the wizard's own documentation is full of Liquid written to be read, not run; " \
+      "in the build it is a syntax error that takes the whole site down"
+    %w[Gemfile Gemfile.lock vendor/bundle/ node_modules/].each do |default|
+      assert_includes excluded, default,
+        "`exclude` replaces Jekyll's defaults; dropping #{default} starts publishing it"
+    end
+  end
+
   # Everything needed to work on this prototype should be in the one folder.
   def test_the_folder_carries_its_own_docs_data_and_tests
     %w[
