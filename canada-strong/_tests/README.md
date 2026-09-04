@@ -25,7 +25,7 @@ gem install --user-install liquid -v 4.0.4 --no-document
 
 | File | Checks |
 |---|---|
-| `test_routing.rb` | All 700 need x sector x region x size combinations, both languages, against the CSV. Empty-cell suppression, size-gated rows, no panel ever rendering empty, excluded rows, internal notes, duplicate results. |
+| `test_routing.rb` | All 560 need x sector x region x size combinations, both languages, against the CSV. Empty-cell suppression, size-gated rows, no panel ever rendering empty, excluded rows, internal notes, duplicate results. |
 | `test_csv_data.rb` | The CSV itself: required columns, closed vocabularies, statuses, URLs, French coverage, and two decisions pinned so they cannot be undone quietly. |
 | `test_rda.rb` | Exactly one RDA link matching the chosen region, sitting right above "Start over", and that the removed eligibility section stays fully gone. |
 | `test_markup.rb` | Heading order, one h1, the fieldflow chain, the reset cascade, and the traps listed under "Gotchas found the hard way". |

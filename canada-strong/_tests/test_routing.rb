@@ -16,7 +16,7 @@ class TestRouting < Minitest::Test
   end
 
   # ── The sweep ───────────────────────────────────────────────────────────
-  # Crossed with every size answer too (700 total), not fixed at one size:
+  # Crossed with every size answer too (560 total), not fixed at one size:
   # most CSV rows ignore size entirely, but a row with a `size` column (like
   # LETL) only shows for the sizes it lists, and that has to hold at every
   # need x region x sector it could appear under, not just one hand-picked
@@ -128,7 +128,7 @@ class TestRouting < Minitest::Test
       name = Wizard::Expected.display(letl, lang).first
 
       Wizard.size_markers(lang).each do |sz|
-        shown = Wizard.visible_programs(page, ["need-liq", "reg-atl", "sec-usexport", sz]).map(&:first)
+        shown = Wizard.visible_programs(page, ["need-liq", "reg-atl", "sec-mfg", sz]).map(&:first)
         want  = (sz == "size-large")
         assert_equal want, shown.include?(name),
           "#{lang}: LETL #{shown.include?(name) ? 'shown' : 'hidden'} for #{sz}, expected #{want ? 'shown' : 'hidden'}"
@@ -214,7 +214,7 @@ class TestRouting < Minitest::Test
       name = Wizard::Expected.display(row, lang).first
 
       Wizard.size_markers(lang).each do |sz|
-        markers = ["need-liq", "reg-atl", "sec-usexport", sz]
+        markers = ["need-liq", "reg-atl", "sec-mfg", sz]
         shown   = Wizard.visible_programs(page, markers).map(&:first)
         want    = (sz != "size-under1m")
         assert_equal want, shown.include?(name),

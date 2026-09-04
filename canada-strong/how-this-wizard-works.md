@@ -251,8 +251,11 @@ regional programs, so it's two separate answers (`reg-on-n`, `reg-on-s`), each m
 exactly one CSV region. One marker with `"Southern Ontario;Northern Ontario"` would show a
 Southern Ontario business FedNor's program too, and vice versa.
 
-Manufacturing and the U.S.-exporter answer are deliberately absent from `sectors:` — they
-have no sector-specific stream, so they see the sector-agnostic results only.
+Manufacturing is deliberately absent from `sectors:` — it has no sector-specific stream, so
+it sees the sector-agnostic results only. It is now the *only* Q4 answer like that, which
+makes it the one to reach for when a test needs a sector that reveals no sector panel;
+`test_letl_only_shows_for_size_large` and `test_steel_support_requires_at_least_1m_revenue`
+both do exactly that.
 
 There's a fourth bridge, `sizes:`, the same shape as the other three. It exists only for
 the rare CSV row that restricts itself by size (the `size` column above) — every row
@@ -309,7 +312,7 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 
 `_tests/README.md` says what each test file covers. In short:
 
-- **All 700 combinations** (140 need x region x sector, crossed with every size answer),
+- **All 560 combinations** (112 need x region x sector, crossed with every size answer),
   both languages. It parses the generated CSS back out of the
   page, works out which panels a set of answer markers reveals, and diffs the programs
   in them against the CSV — which it reads through a second, separate implementation of
@@ -340,7 +343,7 @@ find.
 
 Do **not** click through every combination: fieldflow re-renders on each answer and a
 backgrounded Chrome tab throttles timers hard enough that a click-driven sweep takes
-minutes and produces confusing intermediate states. The suite already covers all 120.
+minutes and produces confusing intermediate states. The suite already covers all 560.
 
 Click one full path by hand instead, watching `document.getElementById("wz-state").className`
 after each answer. Then change an earlier answer and confirm the cascade clears and the
@@ -495,6 +498,19 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   residue belongs in **criteria text on the result card**, a mechanism the CSV does not have
   yet. That mechanism is now wanted by at least two rows rather than one, which is what
   makes it worth building rather than deferring again.
+- **Q4's U.S.-exporter answer is gone.** "Exporting to the U.S. with 15% or more of revenue
+  from U.S. exports" was the odd one out in a question whose other four answers are sectors,
+  and it asked the visitor to self-assess a percentage — the same exposure threshold the DM
+  ruled out as a triage question, since BDC uses 15% and RTRI 25%. Removed on direction.
+  **It drove no logic:** like manufacturing, it was absent from the `sectors:` bridge, so the
+  `sec-usexport` marker it stamped matched no generated rule and anyone choosing it saw
+  exactly the sector-agnostic results. Removing it therefore changes no routing — only the
+  question. What it did touch was bookkeeping: the marker appeared in all four `clears:`
+  cascades in both YAML files, and two tests used `sec-usexport` as their "sector that
+  reveals no panel" (now `sec-mfg`, the only remaining answer of that kind). The sweep is
+  driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
+  count is restated in four places, all updated. Incidentally this made the "twenty markers"
+  figure in "How a combination becomes a visible panel" true again; it had been 21.
 - **In agriculture the `size` column is carrying organization type, not size at all.** Most
   agriculture programs have no revenue threshold, so their blank `size` is verified rather
   than unchecked. What does vary is *who* qualifies, and the only lever for that is

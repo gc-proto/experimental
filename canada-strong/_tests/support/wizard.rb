@@ -232,7 +232,7 @@ module Wizard
       e && e["csv"]
     end
 
-    # All 140 need x region x sector combinations (the routing dimensions).
+    # All 112 need x region x sector combinations (the routing dimensions).
     def combinations(lang)
       need_markers(lang).flat_map do |n|
         region_markers(lang).flat_map do |r|
@@ -241,7 +241,7 @@ module Wizard
       end
     end
 
-    # The above, crossed with every size answer too — 700 total. Used where a
+    # The above, crossed with every size answer too — 560 total. Used where a
     # test needs to check that a size-gated CSV row (like LETL) behaves
     # correctly everywhere it could appear, not just at one fixed size.
     def combinations_with_size(lang)

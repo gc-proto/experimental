@@ -138,7 +138,7 @@ business:
   questions:
     - id: question-1
       legend: "Question 1 of 4: What do you need right now?"
-      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "need-fin need-liq need-tra need-wrk reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-2"
       options:
         - {marker: need-fin, label: "Financing to keep operating or grow"}
@@ -148,7 +148,7 @@ business:
 
     - id: question-2
       legend: "Question 2 of 4: Where is your business mainly located?"
-      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-3"
       options:
         - {marker: reg-atl,  label: "Atlantic"}
@@ -161,7 +161,7 @@ business:
 
     - id: question-3
       legend: "Question 3 of 4: What is your size and revenue?"
-      clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-4"
       options:
         - {marker: size-under1m, label: "Under $1 million in annual revenue"}
@@ -178,11 +178,10 @@ business:
 
     - id: question-4
       legend: "Question 4 of 4: What is your sector and tariff impact?"
-      clears: "sec-forestry sec-steel sec-mfg sec-agri sec-usexport"
+      clears: "sec-forestry sec-steel sec-mfg sec-agri"
       next: null
       options:
         - {marker: sec-forestry, label: "Forestry and softwood lumber"}
         - {marker: sec-steel,    label: "Steel, aluminium and copper"}
         - {marker: sec-mfg,      label: "Other manufacturing and exporters"}
         - {marker: sec-agri,     label: "Agriculture, agri-food, fish and seafood"}
-        - {marker: sec-usexport, label: "Exporting to the U.S. with 15% or more of revenue from U.S. exports"}
