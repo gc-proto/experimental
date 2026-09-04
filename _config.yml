@@ -8,6 +8,29 @@ description:
 # internal `note` column out of the published site.
 data_dir: canada-strong/_data
 
+# Jekyll runs Liquid over every renderable file BEFORE Markdown, and fenced code
+# blocks do not protect it. how-this-wizard-works.md documents this template's
+# Liquid, so it necessarily contains tags like {% raw %}{% for %}{% endraw %} written for a human to
+# read rather than for Liquid to execute — one of those took the whole Pages
+# build down with "Syntax Error in 'for loop'" and stranded test.canada.ca on a
+# stale build for five hours. It is internal documentation and was never meant
+# to be published anyway, so it is excluded rather than made Liquid-safe.
+#
+# Setting `exclude` REPLACES Jekyll's defaults, so they are restated here; drop
+# one and it starts publishing, e.g. Gemfile.lock.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - canada-strong/how-this-wizard-works.md
+
 plugins:
   - jekyll-remote-theme
 remote_theme: wet-boew/gcweb-jekyll
