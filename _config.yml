@@ -2,10 +2,10 @@ baseurl: "/experimental"
 description:
   en: "Area for the development of new tools and patterns"
 # canada-strong keeps its own data so the folder stands alone: the templates,
-# the YAML copy, the program CSV and the tests all travel together. Jekyll
+# the YAML copy, the program data and the tests all travel together. Jekyll
 # allows one data directory site-wide, and canada-strong is the only thing in
-# this repo that uses site.data. The underscore matters — it keeps the CSV's
-# internal `note` column out of the published site.
+# this repo that uses site.data. The underscore matters — it keeps the program
+# data's internal `note` field out of the published site.
 data_dir: canada-strong/_data
 
 # Jekyll runs Liquid over every renderable file BEFORE Markdown, and fenced code

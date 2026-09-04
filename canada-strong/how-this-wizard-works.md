@@ -2,7 +2,7 @@
 
 A wb-fieldflow wizard that routes businesses affected by U.S. tariffs to the federal
 programs that fit them. Built from `canada-strong-tariff-tool-LB_Sept_01.pdf`, then
-corrected against `tariff-tool-links.csv`, which is the researched source of truth.
+corrected against `tariff_tool_links.json`, which is the researched source of truth.
 
 Live on test.canada.ca:
 
@@ -17,18 +17,18 @@ Live on test.canada.ca:
 
 | I want to… | Edit |
 |---|---|
-| Add, move, retire or re-link a **program** | `_data/tariff_tool_links.csv` |
-| Fix a **program name or URL**, in either language | `_data/tariff_tool_links.csv` |
+| Add, move, retire or re-link a **program** | `_data/tariff_tool_links.json` |
+| Fix a **program name or URL**, in either language | `_data/tariff_tool_links.json` |
 | Change a **question, answer, heading or label** | `_data/canada_strong_en.yml` / `_fr.yml` |
 | Change **layout or markup** | `business-*.html` / `start-*.html` |
 | Check you did not break anything | `ruby _tests/run.rb` |
 
-The four HTML files contain no copy and no program data. Both languages share one CSV.
+The four HTML files contain no copy and no program data. Both languages share one data file.
 Paths below are relative to this folder (`canada-strong/`), which is meant to be worked
 on and copied as a unit — see "This folder stands alone" below.
 
 ```
-_data/tariff_tool_links.csv    56 rows — every program, both languages, and its routing
+_data/tariff_tool_links.json    57 rows — every program, both languages, and its routing
 _data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
@@ -38,7 +38,7 @@ how-this-wizard-works.md       this file
 ```
 
 `business-fr.html` is `business-en.html` with three lines changed — the data file it reads,
-and `NAME` / `URLF` pointing at the CSV's `name_fr` and `url_fr` columns. Keep them in step.
+and `NAME` / `URLF` pointing at the `name_fr` and `url_fr` fields. Keep them in step.
 
 ## This folder stands alone
 
@@ -55,7 +55,7 @@ Two things make it work:
   whole site, and canada-strong is the only thing in this repo that uses `site.data`, so
   this doesn't collide with anything else.
 - **The underscore on `_data/` is load-bearing.** Jekyll skips any folder starting with
-  `_` when it copies files into the built site. Without it, `tariff_tool_links.csv` — internal
+  `_` when it copies files into the built site. Without it, `tariff_tool_links.json` — internal
   research notes and all, see the `note` column below — would be a fetchable file on
   test.canada.ca. The test suite lives in `_tests/` for the same reason.
 
@@ -63,12 +63,24 @@ If this folder is copied somewhere Jekyll never runs, `_tests/support/wizard.rb`
 to reading `canada-strong/_data` directly, so the suite still runs; the three tests that
 check `_config.yml` itself skip in that case.
 
-## The CSV is the routing table
+## The JSON file is the routing table
 
-Each row is one program, and its `need`, `sector` and `region` columns *are* the routing.
+Each entry is one program, and its `need`, `sector` and `region` fields *are* the routing.
 Nothing else decides what a combination returns.
 
-| Column | Meaning |
+The file is a flat JSON array of objects — one object per program, every object carrying
+all thirteen keys, blank ones as `""` rather than `null` or a missing key. Two conventions
+survive from the spreadsheet this used to be, and both are deliberate:
+
+- **Multi-value fields are semicolon-separated strings, not JSON arrays** — `"need":
+  "financing;liquidity"`, `"size": "1to5m;5mplus"`. The templates split them with Liquid's
+  `split: ";"`. Real arrays would read better, but they would mean rewriting roughly ten
+  `split` / `contains` sites across both templates and the tests' second implementation in
+  `_tests/support/expected.rb`. Worth doing on purpose one day; not worth doing by accident.
+- **Array order is display order.** Rows appear inside a panel in the order they appear in
+  the file, so moving an object moves the program on the page.
+
+| Field | Meaning |
 |---|---|
 | `need` | `financing`, `liquidity`, `transformation`, `workforce`, `all` for a hub shown under every need, or `featured` for the one promoted row that closes the More options panel. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
@@ -86,7 +98,7 @@ Nothing else decides what a combination returns.
 
 `exclude_statuses: "no-page disputed"` in both YAML files drops those rows entirely. That
 single line is the whole forestry fix: the deck named a BDC forestry transformation stream
-the department does not actually route to, the CSV marked it `disputed`, and four NRCan
+the department does not actually route to, the data marked it `disputed`, and four NRCan
 programs (IFIT, Forest Innovation, GCWood, Global Forest Leadership) took its place. To
 bring a dropped row back, take its status out of that list.
 
@@ -108,7 +120,7 @@ option can only reveal one fixed target. So:
 
 1. Each answer stamps a **marker class** on `#wz-state`: `need-liq`, `sec-agri`,
    `reg-on-s`, `size-1to5m`. Twenty-one markers, one per answer.
-2. At build time the template groups the CSV into a panel per need × sector, per region,
+2. At build time the template groups the data into a panel per need × sector, per region,
    and per sector hub. Every panel is in the DOM, hidden by `.wz-r { display: none }`.
 3. It also generates one CSS rule per panel, which is what reveals it:
 
@@ -140,7 +152,7 @@ This is what stops a stale panel surviving when someone changes an earlier answe
 ## "All of the above" is a second set of panels
 
 Question 1's last answer, `need-all`, is not a need. It has no `needs:` entry, no `csv`
-value, and no CSV row is filed under it — `all_needs_marker` in both YAML files is the
+value, and no row is filed under it — `all_needs_marker` in both YAML files is the
 one place it is named.
 
 What it shows is **every row that applies to the visitor's sector, region and size,
@@ -191,7 +203,7 @@ and one generated CSS rule per size marker reveals it, same pattern as the secto
 #wz-state.size-large .wz-sz-size-large { display: list-item; }
 ```
 
-**The blank check has to be `r.size and r.size != ""`, not just `!= ""`.** A blank CSV
+**The blank check has to be `r.size and r.size != ""`, not just `!= ""`.** A blank
 cell parses as Ruby `nil`, and in Liquid `nil != ""` is true — so a bare `!= ""` check
 would tag *every* row, including the hundreds with nothing in `size`, with an unmatchable
 `wz-sz` class and hide them all. `r.org != ""` had the same latent bug (dormant, since no
@@ -213,12 +225,12 @@ surviving the fix that was supposed to end it. Both now split first. The lesson 
 
 **A panel's own visibility and a row's size gating were two separate mechanisms**
 (need/sector/region for the panel, `size` for the `<li>`s inside it) — which meant nothing
-stopped a CSV edit from restricting every row in a panel to sizes that don't add up to
+stopped a data edit from restricting every row in a panel to sizes that don't add up to
 "everyone", leaving the panel rendered, heading and all, with an empty body for whichever
 size that left out. This was flagged as a latent risk before it was a real one — every
 panel had at least one row visible at every size, at the time `test_no_panel_ever_renders_with_zero_visible_programs`
 was written to guard it — until gating the Atlantic RTRI row to `1to5m;5mplus;large;nonprofit`
-(its own eligibility requires $1M+ annual revenue; see the CSV `note`) made it the *only*
+(its own eligibility requires $1M+ annual revenue; see the `note` field) made it the *only*
 row in the Atlantic + liquidity/transformation regional group, and `size-under1m` had
 nothing left to show.
 
@@ -242,7 +254,7 @@ Liquid that misbehaved.
 
 **The sector cell now has the same fix, and getting it was not optional.** The paragraph
 above used to end by calling the other three panel types a theoretical gap "not yet needed
-by anything in the CSV." Gating BDC's Steel and Aluminium Industries Support Program to
+by anything in the data." Gating BDC's Steel and Aluminium Industries Support Program to
 $1M+ needed it within the hour: that program is the only row in the steel liquidity cell,
 so `size-under1m` had a heading over an empty list in seven regions at once.
 `test_no_panel_ever_renders_with_zero_visible_programs` caught it exactly as that paragraph
@@ -263,9 +275,11 @@ gating the last remaining row in either, expect to generalize the pattern one mo
 
 ## The vocabulary bridge
 
-The YAML's `needs`, `sectors` and `regions` map our markers to the CSV's own words. Rename
-a value in the spreadsheet and you change it here too — in **both** language files, because
-the `csv:` values are identifiers and stay English in the French file.
+The YAML's `needs`, `sectors` and `regions` map our markers to the data's own words. Rename
+a value in the data file and you change it here too — in **both** language files, because
+the `csv:` values are identifiers and stay English in the French file. That key is still
+named `csv:` on purpose: renaming it would touch every template and test for no behaviour
+change, so it now reads as "the value the data file uses".
 
 ```yaml
 needs:
@@ -277,10 +291,10 @@ regions:
   - {marker: reg-on-n, csv: "Northern Ontario"}   # its own RDA (FedNor); see below
 ```
 
-A marker can map to several CSV values at once — semicolons for "regional criteria use
+A marker can map to several data values at once — semicolons for "regional criteria use
 this region OR that one" — but Ontario isn't that: it's two RDAs with two different
 regional programs, so it's two separate answers (`reg-on-n`, `reg-on-s`), each mapping to
-exactly one CSV region. One marker with `"Southern Ontario;Northern Ontario"` would show a
+exactly one region value. One marker with `"Southern Ontario;Northern Ontario"` would show a
 Southern Ontario business FedNor's program too, and vice versa.
 
 Manufacturing is deliberately absent from `sectors:` — it has no sector-specific stream, so
@@ -290,7 +304,7 @@ makes it the one to reach for when a test needs a sector that reveals no sector 
 both do exactly that.
 
 There's a fourth bridge, `sizes:`, the same shape as the other three. It exists only for
-the rare CSV row that restricts itself by size (the `size` column above) — every row
+the rare row that restricts itself by size (the `size` field above) — every row
 without one ignores it completely, which is nearly all of them. Unlike need/sector/region,
 size is never the *only* thing gating a row: it narrows an already-visible panel's list,
 one `<li>` at a time, rather than showing or hiding a whole panel — see "How a size-gated
@@ -370,9 +384,9 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 - **All 700 combinations** (140 need x region x sector, crossed with every size answer),
   both languages. It parses the generated CSS back out of the
   page, works out which panels a set of answer markers reveals, and diffs the programs
-  in them against the CSV — which it reads through a second, separate implementation of
+  in them against the routing table — which it reads through a second, separate implementation of
   the rules on this page, so it cannot just agree with the template's bugs.
-- **The CSV**: required columns, closed vocabularies for need / sector / region / status,
+- **The routing table**: required fields, closed vocabularies for need / sector / region / status,
   https URLs, French coverage on every row that renders, no untriaged duplicate
   destinations.
 - **RDA link**: exactly one — the right one — for whichever region was chosen, sitting
@@ -392,7 +406,7 @@ Five tests pin decisions rather than data — the forestry transformation cell r
 NRCan and not BDC, the duplicate-URL triage, BDC's product being the "Pivot to Grow
 Loan" rather than the deck's bare "Pivot to Grow", and the Business Benefits Finder
 being the one promoted `need: featured` row with no size gate. Data-driven tests cannot catch those:
-both sides read the same CSV, so changing the CSV changes the expectation too. If one of
+both sides read the same data file, so changing the data changes the expectation too. If one of
 those decisions is genuinely revisited, delete the test on purpose.
 
 ## Verifying a change
@@ -412,7 +426,7 @@ and that layout holds at a 390px viewport.
 
 ## Where the content came from, and what we changed
 
-The deck was the starting point; the CSV corrected it. Deliberate departures:
+The deck was the starting point; the data corrected it. Deliberate departures:
 
 - **Slide 3 is not a separate page.** Those employer workforce programs are the workforce
   column, which is where the deck says the employer gets directed.
@@ -438,7 +452,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
 - **Results end with a link to the business's own RDA**, just above "Start over." Not the
   region's tariff-specific program — that's already linked above, under "Programs for your
   region" — but the agency's own homepage, there because the RDA is worth pointing to
-  regardless of what the CSV's programs turn up for that need. It's not deck content:
+  regardless of what the data's programs turn up for that need. It's not deck content:
   `regions:` in each YAML carries `rda` and `rda_url` fields alongside the marker and `csv`
   value, names taken from each page's own `<h1>`, all seven URLs checked live on
   2026-09-03. The paragraph for every region is in the DOM at once, one
@@ -447,11 +461,11 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   see the removal entry below for why it moved.
 - **An empty sector cell shows nothing, not a "no stream" box.** The original design put
   up a panel reading "No stream specific to your sector" for the six need x sector
-  combinations the CSV has no dedicated program for. In practice a box announcing an
+  combinations the data has no dedicated program for. In practice a box announcing an
   absence, next to panels announcing programs, read as a mistake rather than information —
   the business still gets the sector-agnostic results for that need either way, so the box
   said nothing they needed. `route_heading` / `route_body` and the `wz-route-*` markup are
-  gone; the `route` status in the CSV stays, as a research note that the empty cell was
+  gone; the `route` status in the data stays, as a research note that the empty cell was
   checked rather than missed — see `status` above.
 - **Question 3 has a fifth answer for organizations, not just businesses by size.** The
   Regional Tariff Response Initiative is also open to "non-profit organizations, industry
@@ -461,12 +475,12 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   changed the (since-removed) eligibility badges, never which programs showed — the next
   entry is why that's no longer true.
 - **Size can now gate an individual program, not just badges.** LETL's own research note
-  said "Large enterprise only - gate on the Q3 size answer" and nothing did. The CSV gained
+  said "Large enterprise only - gate on the Q3 size answer" and nothing did. The data gained
   a `size` column (blank means shown to everyone, which is nearly every row) and LETL is
   set to `large`. See "How a size-gated row hides itself" above for the mechanism, and
   `test_letl_only_shows_for_size_large` for the pin.
 - **AgriMarketing's SME and NIA rows now split on the `size-nonprofit` answer.** The NIA
-  row (Market Diversification for National Industry Associations) was already in the CSV,
+  row (Market Diversification for National Industry Associations) was already in the data,
   flagged with *"Associations only, not individual businesses"* and no way to act on that —
   this tool asks "I am a business or employer," so it could show to everyone. It's now
   `size: nonprofit`; the SME row is every other size. This is also why `size-nonprofit`
@@ -544,7 +558,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   the specific fix: these seven pages do not share a template, so a criterion absent from
   where the last six pages put it is a reason to re-read the whole page, not a finding.
 - **Q3's buckets are not being redrawn, and two thresholds now straddle them.** The real
-  thresholds in the CSV are $1M, $2M (CED), $10M (EDC direct lending) and $150M (LETL). The
+  thresholds in the data are $1M, $2M (CED), $10M (EDC direct lending) and $150M (LETL). The
   buckets were drawn before any of them were known, and two now cut through the middle of a
   bucket rather than along its edge:
   - **CED's $2M** sits inside "$1 million to $5 million" — a $1.2M and a $3M business give
@@ -558,7 +572,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   would not capture CED's other two tests (<500 employees, manufacturing) or EDC's "seeking
   at least $1M in funding", none of which are sizes at all. The size gate is therefore doing
   what it is good at — excluding whole buckets that are certainly ineligible — and the
-  residue belongs in **criteria text on the result card**, a mechanism the CSV does not have
+  residue belongs in **criteria text on the result card**, a mechanism the data does not have
   yet. That mechanism is now wanted by at least two rows rather than one, which is what
   makes it worth building rather than deferring again.
 - **Q4's U.S.-exporter answer is gone.** "Exporting to the U.S. with 15% or more of revenue
@@ -664,26 +678,26 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   strong is a CDTS/WET page and cannot load GCDS components, so the markup is reproduced
   rather than imported. "Start over" is deliberately left alone.
 - **Work-Sharing is a prerequisite for the Worker Retention Grant, and the column now says
-  so.** The dependency was research the CSV already held — the grant's `note` has always
+  so.** The dependency was research the data already held — the grant's `note` has always
   read "Requires an approved Work-Sharing agreement" — but nothing reached the page: the
   two sat three apart in the workforce column, in an order that put the grant first, with
   no hint that one gates the other. The grant's rendered name is now "Worker Retention
   Grant (prerequisite: Work-Sharing Program)", matched in French with "(préalable :
   Programme de Travail partagé)", and the two rows were swapped so the prerequisite is
-  listed above the thing that needs it. Row order in the CSV is the display order within a
-  panel, so this was a CSV edit and nothing else. `fr_source` on that row now records that
+  listed above the thing that needs it. Row order in the data file is the display order within a
+  panel, so this was a data edit and nothing else. `fr_source` on that row now records that
   the bracketed half is composed rather than taken from the page's `h1`, which is what that
   column is for.
 - **Question 3 asks one thing, and its answers answer it.** The legend was "What is your
   size and revenue?", which asked two questions and let the answers drift into criteria
   again — `size-5mplus` read "$5 million or more with 10 or more full-time employees",
   reintroducing exactly the mistake the "3 or more years operating" trim below had already
-  corrected on the answer beside it. A headcount is not a revenue band, and no CSV row
+  corrected on the answer beside it. A headcount is not a revenue band, and no data row
   routes on it. The legend is now "What is your annual revenue?", `size-5mplus` is "$5
   million or more", and "Larger enterprise ($150 million or more in annual revenue)" drops
   its last three words, which the question now supplies. The `$150 million` number stays —
   that one is doing real work, per the entry below. Nothing about the routing changed:
-  these are labels, and the `sizes:` vocabulary bridge and every `size` cell in the CSV are
+  these are labels, and the `sizes:` vocabulary bridge and every `size` value in the data are
   untouched.
 - **Question 1 gained "All of the above".** Departments were not the only ones reading the
   wizard as a complete list; a business that wants everything it qualifies for had no way
@@ -704,7 +718,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   departments were making it. The panel is now headed **More options**, introduces its links
   with "For more programs and context:", and closes with a sentence promoting the **Business
   Benefits Finder** — "view or search all provincial and federal programs and services,
-  including tariff support". The Finder was already a hub row; it is now the CSV's one
+  including tariff support". The Finder was already a hub row; it is now the data file's one
   `need: featured` row, which takes it out of the hub list and gives it its own line. `need:
   featured` matches no question answer and carries no `size`, so it renders on all 700
   combinations — that is the point, and `test_exactly_one_featured_row_and_it_is_the_benefits_finder`
@@ -764,7 +778,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   one careless edit away from a user.
 - **A program serving two needs is one row, not two.** The deck listed BDC's Pivot to Grow
   Loan under both financing and liquidity, and the RTRI national hub (since deleted) under both liquidity
-  and transformation, so the CSV carried each twice — the second copy flagged
+  and transformation, so the data carried each twice — the second copy flagged
   `duplicate-url`, sending a second, differently-named result to a page already linked
   above. The `need` column has always taken semicolons (the seven regional RTRI rows use
   `liquidity;transformation`), so both are now single rows with `need` listing both needs.
@@ -810,7 +824,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    stream with its own page*, which would make it a row. If it is prioritization within the
    same application, it is result-card text at most, and shares a mechanism with the Quebec
    criteria below.
-4. **Build the per-row criteria line.** A new CSV column (plus a French twin) rendered as
+4. **Build the per-row criteria line.** A new field (plus a French twin) rendered as
    small text under the program name, for the eligibility that size gates cannot express.
    Wanted by at least three rows today: CED's Quebec RTRI ($2M, <500 employees,
    manufacturing), EDC direct lending ($10M inside the `5mplus` bucket, and a $1M minimum
@@ -819,7 +833,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    highest-value thing left in this list — every straddled bucket above resolves to it.
 5. **Report the AAFC language-toggle bug.** One note records that the French AAFC hub's
    English toggle targets a 404. That is a live Canada.ca defect, unrelated to this work.
-6. **Add amount, term and repayment** once the figures exist — new CSV columns and a line
+6. **Add amount, term and repayment** once the figures exist — new fields and a line
    in the template.
 7. **The start page does not fit a phone screen.** Each choice measures 143px at a 390px
    viewport, putting the third button about 872px down, past the ~724px a mobile browser

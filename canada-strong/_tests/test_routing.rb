@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 #
-# Does the CSV reach the page correctly?
+# Does the routing table reach the page correctly?
 #
 # The wizard's markdown says not to click through combinations in a browser.
 # This is the other half of that split: compute the expected result for every
-# need x sector x region straight from the CSV, resolve the generated CSS to
+# need x sector x region straight from the routing table, resolve the generated CSS to
 # find out which panels a given set of answer markers reveals, and diff.
 
 require "minitest/autorun"
@@ -17,7 +17,7 @@ class TestRouting < Minitest::Test
 
   # ── The sweep ───────────────────────────────────────────────────────────
   # Crossed with every size answer too (700 total), not fixed at one size:
-  # most CSV rows ignore size entirely, but a row with a `size` column (like
+  # most rows ignore size entirely, but a row with a `size` column (like
   # LETL) only shows for the sizes it lists, and that has to hold at every
   # need x region x sector it could appear under, not just one hand-picked
   # combination.
@@ -42,7 +42,7 @@ class TestRouting < Minitest::Test
       shown = failures.first(12)
       more  = failures.size > shown.size ? "\n  ... and #{failures.size - shown.size} more" : ""
       assert_empty failures,
-        "#{failures.size} of #{Wizard.combinations_with_size(lang).size} combinations disagree with the CSV (#{lang}):\n  " +
+        "#{failures.size} of #{Wizard.combinations_with_size(lang).size} combinations disagree with the routing table (#{lang}):\n  " +
         shown.join("\n  ") + more
     end
 
@@ -84,7 +84,7 @@ class TestRouting < Minitest::Test
         wrong << "#{c[:need]} / #{c[:sector]}: panel #{shown ? 'shown' : 'absent'}, expected #{want ? 'shown' : 'absent'}" if shown != want
       end
 
-      assert_empty wrong.uniq, "sector panel appears where the CSV has no stream (#{lang}):\n  " + wrong.uniq.join("\n  ")
+      assert_empty wrong.uniq, "sector panel appears where the data has no stream (#{lang}):\n  " + wrong.uniq.join("\n  ")
     end
 
     # The removed box's markup and labels must actually be gone, not just
@@ -99,7 +99,7 @@ class TestRouting < Minitest::Test
 
     # A panel's own visibility is decided by need/sector/region alone; size
     # only hides individual <li>s inside it (see "How a size-gated row hides
-    # itself"). Those are two separate mechanisms, so nothing stops a CSV
+    # itself"). Those are two separate mechanisms, so nothing stops a data
     # edit from restricting every row in a panel to sizes that don't add up
     # to "everyone" — the panel would still show (need/sector/region matched)
     # with a heading and an empty body for whichever size that leaves out.
@@ -137,14 +137,14 @@ class TestRouting < Minitest::Test
     end
 
     # Size mostly doesn't change the program list at all — it only matters for
-    # a CSV row that opts in via its `size` column. LETL is currently the only
+    # a row that opts in via its `size` column. LETL is currently the only
     # one; pinned explicitly rather than left to the exhaustive sweep alone,
     # since "large enterprise only" is a decision someone made on purpose, not
-    # just a fact the CSV happens to encode.
+    # just a fact the data happens to encode.
     define_method("test_letl_only_shows_for_size_large_#{lang}") do
       page = Wizard::BUSINESS[lang]
       letl = Wizard.rows.find { |r| r["size"].to_s.strip == "large" }
-      refute_nil letl, "no row in the CSV is gated to size=large any more — was LETL's size column cleared?"
+      refute_nil letl, "no row in the routing table is gated to size=large any more — was LETL's size field cleared?"
       name = Wizard::Expected.display(letl, lang).first
 
       Wizard.size_markers(lang).each do |sz|
@@ -157,7 +157,7 @@ class TestRouting < Minitest::Test
 
     # AgriMarketing has two mutually exclusive streams for the same need x
     # sector cell: SMEs (for-profit) and NIA (non-profits, industry
-    # associations). The CSV's `size` column is what tells them apart — one
+    # associations). The `size` field is what tells them apart — one
     # excludes size-nonprofit, the other is size-nonprofit only. Pinned so a
     # future edit can't quietly let both, or neither, show together.
     define_method("test_agrimarketing_sme_and_nia_are_mutually_exclusive_#{lang}") do
@@ -246,7 +246,7 @@ class TestRouting < Minitest::Test
       end
     end
 
-    # Every CSV row that restricts itself by size must use a size the wizard
+    # Every row that restricts itself by size must use a size the wizard
     # actually asks about — a typo here would silently hide a program forever.
     define_method("test_size_restricted_rows_use_known_sizes_#{lang}") do
       known = Wizard.text(lang)["sizes"].map { |s| s["csv"] }
@@ -261,7 +261,7 @@ class TestRouting < Minitest::Test
 
   # The promise of Q1's last answer, stated as the visitor would: it shows
   # everything the four separate answers would have shown, and nothing else.
-  # The sweep already checks the all-view against the CSV; this checks it
+  # The sweep already checks the all-view against the data; this checks it
   # against the wizard's own other answers, which is the claim being made to
   # the business that picks it.
   Wizard::LANGS.each do |lang|
@@ -313,7 +313,7 @@ class TestRouting < Minitest::Test
       "filed under the second need it names, not the first"
   end
 
-  # ── Rows the CSV says must never ship ───────────────────────────────────
+  # ── Rows the data says must never ship ───────────────────────────────────
   def test_excluded_statuses_never_render
     excluded = Wizard.text("en")["exclude_statuses"].split(" ")
     dropped  = Wizard.rows.select { |r| excluded.include?(r["status"].to_s) }

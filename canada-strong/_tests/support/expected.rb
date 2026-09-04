@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 #
 # The expected side of the routing test: what _data/tariff_tool_links.csv says
-# a combination of answers should return, worked out straight from the CSV.
+# a combination of answers should return, worked out straight from the routing table.
 #
 # This is deliberately a second implementation of the rules the wizard's
 # markdown describes, not a call into the template. If it just asked the
@@ -13,7 +13,7 @@ module Wizard
   module Expected
     module_function
 
-    # Rows that survive `exclude_statuses`. Those statuses are the CSV's way of
+    # Rows that survive `exclude_statuses`. Those statuses are the data file's way of
     # saying "researched, and it does not belong on the page".
     def live(lang = "en")
       excluded = Wizard.text(lang)["exclude_statuses"].to_s.split(" ")
@@ -101,7 +101,7 @@ module Wizard
     end
 
     # A row with a blank `size` column shows for every size — that's nearly
-    # every row. Only a row that restricts itself (semicolon-separated CSV
+    # every row. Only a row that restricts itself (semicolon-separated
     # size values, same convention as `need`) is checked against the answer.
     def size_ok?(row, size_csv)
       list = row["size"].to_s.strip

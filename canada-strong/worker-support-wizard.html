@@ -19,13 +19,13 @@
       component served from cdts.service.canada.ca; this prototype uses plain
       HTML radios and ~40 lines of vanilla JS instead, so it has zero external
       dependencies and no closure-template quirks to work around.
-    - Not split into CSV + YAML. The business tool deliberately keeps program
-      data (tariff_tool_links.csv) and interface text (canada_strong_*.yml)
+    - Not split into JSON + YAML. The business tool deliberately keeps program
+      data (tariff_tool_links.json) and interface text (canada_strong_*.yml)
       apart — see how-this-wizard-works.md. The QUESTIONS and SUPPORTS arrays
       below are that same split, just as two JS objects in one file instead of
       two files, since a 14-program list doesn't yet earn a spreadsheet of its
-      own. If this becomes real, lift SUPPORTS into a CSV with the same
-      need/org/url_en/url_fr/status shape as tariff_tool_links.csv and this
+      own. If this becomes real, lift SUPPORTS into a JSON file with the same
+      need/org/url_en/url_fr/status shape as tariff_tool_links.json and this
       page's logic barely has to change.
     - English only. The business tool requires a French twin for anything
       shipped; this prototype does not have one yet — see the comment above
@@ -33,7 +33,7 @@
 
   All 14 supports and their exact URLs were pulled live from
   https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/support-canadian-workers-employers.html
-  on 2026-09-03 (same verification standard the CSV uses) — see the SUPPORTS
+  on 2026-09-03 (same verification standard the program data uses) — see the SUPPORTS
   array below. Three worker-side items from that page are deliberately left
   out here because they are general information pages rather than a support
   to route someone to (Job Bank's "Worker supports" landing text, the page's
@@ -195,9 +195,9 @@ const QUESTIONS = [
 ];
 
 /* ═══ DATA ════════════════════════════════════════════════════════════════
-   The 14 supports. Shape deliberately echoes tariff_tool_links.csv's
+   The 14 supports. Shape deliberately echoes tariff_tool_links.json's
    columns (program_name / org / url_en / status) so this can graduate into
-   a real CSV row-for-row if the prototype is adopted.
+   a real data file row-for-row if the prototype is adopted.
 
    `when`: an array of clauses; a clause is an array of markers that must ALL
    be selected (AND). The support shows if ANY clause matches (OR). `when:
@@ -205,7 +205,7 @@ const QUESTIONS = [
    always-on hub panel.
 
    Every url_en below was read directly off the live page's <a href> on
-   2026-09-03, the same way the CSV's rows are sourced — see file header. */
+   2026-09-03, the same way the program data's rows are sourced — see file header. */
 const SUPPORTS = [
   { name: "Work-Sharing Program", org: "ESDC", cat: "Income support",
     url: "https://www.canada.ca/en/employment-social-development/services/work-sharing.html",

@@ -26,19 +26,19 @@ class TestStandalone < Minitest::Test
     assert Dir.exist?(Wizard.data_dir), "data_dir points at #{dir}, which does not exist"
   end
 
-  # The CSV's `note` column is an internal research scratchpad — the wizard's
+  # The `note` field is an internal research scratchpad — the wizard's
   # markdown says say anything you like in it. Jekyll copies any folder it can
   # see into the built site, so a data folder without the leading underscore
-  # would publish those notes as a fetchable CSV on test.canada.ca.
+  # would publish those notes as a fetchable JSON file on test.canada.ca.
   def test_the_data_folder_is_not_published
     dir = config["data_dir"]
     assert File.basename(dir).start_with?("_"),
-      "#{dir} would be copied into the built site, publishing the CSV's internal notes. " \
+      "#{dir} would be copied into the built site, publishing the internal `note` field. " \
       "Jekyll skips entries starting with an underscore."
   end
 
   def test_every_data_file_the_pages_need_is_present
-    %w[canada_strong_en.yml canada_strong_fr.yml tariff_tool_links.csv].each do |f|
+    %w[canada_strong_en.yml canada_strong_fr.yml tariff_tool_links.json].each do |f|
       assert File.exist?(File.join(Wizard.data_dir, f)),
         "#{f} is missing from #{config['data_dir']}"
     end
@@ -68,7 +68,7 @@ class TestStandalone < Minitest::Test
       assert_equal 4, doc.css("[id^=question-]").size, "#{lang}: the questions did not render"
       refute_empty doc.at_css("h1").text.strip, "#{lang}: the h1 is empty"
       assert Wizard.all_programs(page).size > 40,
-        "#{lang}: only #{Wizard.all_programs(page).size} programs rendered — the CSV did not load"
+        "#{lang}: only #{Wizard.all_programs(page).size} programs rendered — the program data did not load"
       refute_empty Wizard.rules(page), "#{lang}: no routing rules were generated"
     end
   end
@@ -135,7 +135,7 @@ class TestStandalone < Minitest::Test
   def test_the_folder_carries_its_own_docs_data_and_tests
     %w[
       how-this-wizard-works.md
-      _data/tariff_tool_links.csv
+      _data/tariff_tool_links.json
       business-en.html business-fr.html start-en.html start-fr.html
     ].each do |f|
       assert File.exist?(File.join(Wizard::PAGES, f)), "canada-strong/#{f} is missing"

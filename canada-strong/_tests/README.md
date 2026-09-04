@@ -25,8 +25,8 @@ gem install --user-install liquid -v 4.0.4 --no-document
 
 | File | Checks |
 |---|---|
-| `test_routing.rb` | All 700 need x sector x region x size combinations, both languages, against the CSV. Empty-cell suppression, size-gated rows, no panel ever rendering empty, excluded rows, internal notes, duplicate results, and that "All of the above" is exactly the union of the four needs. |
-| `test_csv_data.rb` | The CSV itself: required columns, closed vocabularies, statuses, URLs, French coverage, and two decisions pinned so they cannot be undone quietly. |
+| `test_routing.rb` | All 700 need x sector x region x size combinations, both languages, against the routing table. Empty-cell suppression, size-gated rows, no panel ever rendering empty, excluded rows, internal notes, duplicate results, and that "All of the above" is exactly the union of the four needs. |
+| `test_program_data.rb` | The routing table itself: required fields, closed vocabularies, statuses, URLs, French coverage, and two decisions pinned so they cannot be undone quietly. |
 | `test_rda.rb` | Exactly one RDA link matching the chosen region, sitting right above "Start over", and that the removed eligibility section stays fully gone. |
 | `test_markup.rb` | Heading order, one h1, the fieldflow chain, the reset cascade, and the traps listed under "Gotchas found the hard way". |
 | `test_parity.rb` | The French templates are the English ones with the language swapped; the two YAML files stay the same shape. |
@@ -34,7 +34,7 @@ gem install --user-install liquid -v 4.0.4 --no-document
 
 `support/wizard.rb` renders and reads the pages, and finds the program data via
 `data_dir` in the repo's `_config.yml` (falling back to `canada-strong/_data`). `support/expected.rb` works out
-what the CSV *should* produce — deliberately a second implementation, so it does
+what the routing table *should* produce — deliberately a second implementation, so it does
 not just agree with the template's bugs.
 
 ## How the routing test works
@@ -42,7 +42,7 @@ not just agree with the template's bugs.
 Results depend on two answers at once, so the template generates one CSS rule per
 panel and fieldflow stamps marker classes on `#wz-state`. The test reads those
 generated rules back, works out which panels a given set of markers reveals, and
-compares the programs in them against the CSV. No browser, no clicking.
+compares the programs in them against the routing table. No browser, no clicking.
 
 ## What it cannot check
 
@@ -53,7 +53,7 @@ do with layout, still need a browser — see "Verifying a change" in
 
 ## Adding a test
 
-Pin decisions, not data. A test that restates a CSV row will pass no matter what
+Pin decisions, not data. A test that restates a data row will pass no matter what
 the row says, because both sides read the same file. The two tests worth copying
 the shape of are `test_forestry_transformation_routes_to_nrcan_not_bdc` and
 `test_shared_destinations_are_flagged_as_duplicates`: both encode a judgement
