@@ -41,9 +41,11 @@ class TestCsvData < Minitest::Test
   end
 
   # The need column is the routing. A value the YAML does not know about means
-  # the row is in the CSV and on no page.
+  # the row is in the CSV and on no page. Two values are not needs: "all" is a
+  # hub, shown whatever the answers; "featured" is the promoted line at the top
+  # of the More options panel.
   def test_need_values_are_in_the_vocabulary
-    known = Wizard.text("en")["needs"].map { |n| n["csv"] } + ["all"]
+    known = Wizard.text("en")["needs"].map { |n| n["csv"] } + %w[all featured]
     bad = rows.reject { |r| (Wizard::Expected.needs_of(r) - known).empty? }
     assert_empty bad.map { |r| "line #{line_of(r)}: need=#{r['need']} (known: #{known.join(', ')})" }.join("\n  "),
       "rows whose need column routes nowhere"
@@ -163,6 +165,21 @@ class TestCsvData < Minitest::Test
   end
 
   # ── Decisions the research made, recorded so they cannot be undone quietly ──
+
+  # Departments were reading the wizard's four answers as the complete list of
+  # tariff support. The Business Benefits Finder is promoted out of the hub
+  # list to say otherwise, and the template renders exactly one featured row —
+  # a second one would print a second sentence with no heading between them,
+  # and none would leave the "For more programs and context, use:" line
+  # introducing nothing.
+  def test_exactly_one_featured_row_and_it_is_the_benefits_finder
+    featured = Wizard::Expected.live.select { |r| r["need"] == "featured" }
+    assert_equal 1, featured.size, "expected one need=featured row, found #{featured.size}"
+    assert_equal "Business Benefits Finder", featured.first["program_name"]
+    assert_equal "", featured.first["size"].to_s.strip,
+      "the featured row must carry no size gate — it shows for every answer"
+  end
+
 
   # The deck named a BDC forestry transformation stream the department does not
   # actually route to; NRCan's own forest hub sends forestry transformation to

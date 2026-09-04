@@ -113,7 +113,12 @@ class TestParity < Minitest::Test
   # after checking the French, never to quiet the test.
   ALLOWED_IDENTICAL = [
     "Canada.ca",
-    "Manitoba, Saskatchewan, Alberta"   # province names are spelled the same in French
+    # "Prairies" is spelled the same in both languages, and the codes in
+    # brackets are Statistics Canada's international abbreviations, which are
+    # language-neutral by definition — the same two letters in the English and
+    # French columns of the census dictionary. Atlantique and Le Nord differ,
+    # so this is the only region answer that lands here.
+    "Prairies (MB, SK, AB)"
   ].freeze
 
   def test_no_obviously_untranslated_interface_text

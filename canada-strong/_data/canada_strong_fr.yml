@@ -109,8 +109,18 @@ business:
     heading_sep: " : "
     agnostic_suffix: "tous secteurs confondus"
     region_heading: "Programmes pour votre région"
-    hub_heading: "Où ces programmes sont répertoriés"
-    hub_body: "Ces carrefours sont les listes tenues par les ministères eux-mêmes. Ils sont à jour : consultez-les si une information ici semble désuète."
+    # Ce panneau indiquait d'où venaient les programmes de l'assistant. Il fait
+    # maintenant l'inverse, volontairement : des ministères lisaient les quatre
+    # réponses comme l'ensemble complet du soutien tarifaire, alors le panneau
+    # renvoie ailleurs plutôt qu'à lui-même.
+    hub_heading: "Plus d'options"
+    hub_body: "Pour plus de programmes et de contexte :"
+    # La ligne en vedette encadre la seule ligne `need: featured` du CSV :
+    # préfixe, le nom du programme comme lien, puis le suffixe. Le préfixe se
+    # termine par une apostrophe élidée parce que le nom commence par « Outil » ;
+    # si ce nom change dans le CSV, revoir l'élision ici.
+    featured_prefix: "Utilisez l'"
+    featured_suffix: " pour afficher ou rechercher tous les programmes et services provinciaux et fédéraux, y compris les ressources de soutien tarifaire."
     rda_prefix: "Obtenez un soutien supplémentaire auprès de : "
 
   questions:
@@ -129,13 +139,13 @@ business:
       clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-3"
       options:
-        - {marker: reg-atl,  label: "Atlantique"}
+        - {marker: reg-atl,  label: "Atlantique (NB, NS, PE, NL)"}
         - {marker: reg-qc,   label: "Québec"}
         - {marker: reg-on-n, label: "Nord de l'Ontario (y compris Parry Sound)"}
         - {marker: reg-on-s, label: "Sud et Est de l'Ontario"}
-        - {marker: reg-pr,   label: "Manitoba, Saskatchewan, Alberta"}
+        - {marker: reg-pr,   label: "Prairies (MB, SK, AB)"}
         - {marker: reg-bc,   label: "Colombie-Britannique"}
-        - {marker: reg-nor,  label: "Le Nord"}
+        - {marker: reg-nor,  label: "Le Nord (NU, NT, YT)"}
 
     - id: question-3
       legend: "Question 3 sur 4 : Quels sont votre taille et vos revenus?"
@@ -143,17 +153,21 @@ business:
       next: "question-4"
       options:
         - {marker: size-under1m, label: "Moins de 1 million de dollars de revenus annuels"}
+        - {marker: size-1to5m,   label: "De 1 à 5 millions de dollars"}
+        - {marker: size-5mplus,  label: "5 millions de dollars ou plus et 10 employés à temps plein ou plus"}
+        - {marker: size-large,   label: "Plus grande entreprise (150 millions de dollars ou plus de revenus annuels)"}
+        # En dernier volontairement : ce n'est pas une tranche de revenus, et
+        # placée entre les tranches elle brisait l'ordre de lecture des
+        # montants.
+        #
         # L'Initiative régionale de réponse tarifaire est aussi ouverte aux
         # « organismes sans but lucratif, associations industrielles et
         # sectorielles, chambres de commerce et entités provinciales qui
         # soutiennent les entreprises touchées » — la partie sur les entités
         # provinciales est volontairement omise de l'étiquette. Cette réponse
         # est associée aux mêmes eligibility_rules que size-under1m
-        # ci-dessous, jusqu'à avis contraire.
+        # ci-dessus, jusqu'à avis contraire.
         - {marker: size-nonprofit, label: "Organisme sans but lucratif, association, chambre de commerce"}
-        - {marker: size-1to5m,   label: "De 1 à 5 millions de dollars"}
-        - {marker: size-5mplus,  label: "5 millions de dollars ou plus et 10 employés à temps plein ou plus"}
-        - {marker: size-large,   label: "Plus grande entreprise (150 millions de dollars ou plus de revenus annuels)"}
 
     - id: question-4
       legend: "Question 4 sur 4 : Quel est votre secteur et quelle est l'incidence des droits de douane?"

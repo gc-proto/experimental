@@ -30,7 +30,7 @@ gem install --user-install liquid -v 4.0.4 --no-document
 | `test_rda.rb` | Exactly one RDA link matching the chosen region, sitting right above "Start over", and that the removed eligibility section stays fully gone. |
 | `test_markup.rb` | Heading order, one h1, the fieldflow chain, the reset cascade, and the traps listed under "Gotchas found the hard way". |
 | `test_parity.rb` | The French templates are the English ones with the language swapped; the two YAML files stay the same shape. |
-| `test_standalone.rb` | The folder carries its own data, docs and tests, and `data_dir` still points into it. |
+| `test_standalone.rb` | The folder carries its own data, docs and tests, `data_dir` still points into it, and every `.html`/`.md` here either parses as Liquid or is excluded from the Jekyll build. |
 
 `support/wizard.rb` renders and reads the pages, and finds the program data via
 `data_dir` in the repo's `_config.yml` (falling back to `canada-strong/_data`). `support/expected.rb` works out

@@ -146,6 +146,38 @@ class TestMarkup < Minitest::Test
       missing = panels.reject { |p| p.at_css(".panel-heading h3") }
       assert_empty missing.map { |p| p["class"] }, "#{lang}: panels without an h3"
     end
+
+    # The promoted Business Benefits Finder line. It is a <p>, not a list item,
+    # so the routing sweep cannot see it — it is checked here instead: present
+    # once, inside the More options panel, closing it below the hub list,
+    # carrying the CSV's own name and URL for the language.
+    define_method("test_the_featured_finder_line_closes_the_hub_panel_#{lang}") do
+      row = Wizard::Expected.live(lang).find { |r| r["need"] == "featured" }
+      refute_nil row, "#{lang}: no need=featured row to render"
+      name = lang == "fr" ? row["name_fr"] : row["program_name"]
+      url  = lang == "fr" ? row["url_fr"]  : row["url_en"]
+      labels = Wizard.text(lang)["business"]["labels"]
+
+      panel = Wizard.doc(Wizard::BUSINESS[lang]).css("section.panel").find do |sec|
+        sec.at_css(".panel-heading h3")&.text&.strip == labels["hub_heading"]
+      end
+      refute_nil panel, "#{lang}: no panel headed #{labels['hub_heading'].inspect}"
+
+      links = panel.css(".panel-body > p a").select { |a| a["href"] == url }
+      assert_equal 1, links.size, "#{lang}: expected one featured link to #{url}, found #{links.size}"
+      assert_equal name.strip, links.first.text.strip
+
+      para = links.first.parent
+      assert_includes para.text, labels["featured_prefix"].strip
+      assert_includes para.text, labels["featured_suffix"].strip
+
+      body = panel.at_css(".panel-body").element_children
+      assert_operator body.index(para), :>, body.index(panel.at_css(".panel-body > ul")),
+        "#{lang}: the featured line renders above the hub list, not below it"
+
+      hub_items = panel.css(".panel-body > ul > li a").map { |a| a["href"] }
+      refute_includes hub_items, url, "#{lang}: the finder is still in the hub list as well"
+    end
   end
 
   # French puts a space before a colon; the separator comes from the YAML so
