@@ -1,0 +1,12 @@
+# Rendered preview output. `ruby _tests/preview.rb out` writes the four built
+# pages here to look at in a browser; they are generated from the CSV and the
+# YAML every time, so committing them would ship a stale copy of the real
+# source alongside it.
+#
+# This lives in canada-strong/ rather than the repo root on purpose: the folder
+# is meant to be copied out and worked on as a unit (see "This folder stands
+# alone" in how-this-wizard-works.md), so the ignore travels with it.
+#
+# preview.rb takes the directory as an argument and only defaults to `out`, so
+# if you render somewhere else, add it here too.
+out/

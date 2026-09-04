@@ -28,12 +28,12 @@ Paths below are relative to this folder (`canada-strong/`), which is meant to be
 on and copied as a unit — see "This folder stands alone" below.
 
 ```
-_data/tariff_tool_links.csv    59 rows — every program, both languages, and its routing
+_data/tariff_tool_links.csv    57 rows — every program, both languages, and its routing
 _data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 109 tests over the files above
+_tests/                        the suite: 111 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
@@ -73,7 +73,7 @@ Nothing else decides what a combination returns.
 | `need` | `financing`, `liquidity`, `transformation`, `workforce`, or `all` for a hub shown under every need. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
 | `region` | `national`, or one of the seven RDA regions |
-| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, and Atlantic's RTRI row use this today. |
+| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, BDC's Pivot to Grow Loan, and seven of the eight RTRI rows (all but Quebec) use this today. |
 | `program_name` / `name_fr` | what the user sees. Blank `name_fr` falls back to English so a gap is visible, not silent. |
 | `url_en` / `url_fr` | where the link goes |
 | `status` | research confidence. `no-page` and `disputed` are **not rendered** — see below |
@@ -300,8 +300,9 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 - **Parity**: the French templates are the English ones with the language swapped, and
   the two YAML files stay the same shape.
 
-Two tests pin decisions rather than data — the forestry transformation cell routing to
-NRCan and not BDC, and the duplicate-URL triage. Data-driven tests cannot catch those:
+Three tests pin decisions rather than data — the forestry transformation cell routing to
+NRCan and not BDC, the duplicate-URL triage, and BDC's product being the "Pivot to Grow
+Loan" rather than the deck's bare "Pivot to Grow". Data-driven tests cannot catch those:
 both sides read the same CSV, so changing the CSV changes the expectation too. If one of
 those decisions is genuinely revisited, delete the test on purpose.
 
@@ -412,6 +413,77 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   hides itself" above to get a real fix rather than stay a documented risk: it's the only
   program in Atlantic's regional group, so `size-under1m` had nothing left to show once it
   was gated, and the panel would have rendered empty rather than not rendering at all.
+- **RTRI's eligibility is set per RDA, and six of seven gate on $1 million.** The deck
+  treated the Regional Tariff Response Initiative as one program with one set of rules. It
+  isn't: each RDA publishes its own eligibility, and all seven were checked one page at a
+  time. ACOA, FedDev, FedNor, PrairiesCan, PacifiCan and CanNor all require $1M+ in annual
+  revenue — the `size` column expresses that exactly, since `size-under1m` is the only Q3
+  answer below the line, so all six carry `1to5m;5mplus;large;nonprofit`. One does not fit:
+
+  **CED (Quebec) requires $2M+, fewer than 500 employees, and manufacturing.** None of the
+  three is expressible. $2M falls *inside* the "$1 million to $5 million" answer, so no size
+  gate can separate a qualifying $3M business from a non-qualifying $1.2M one; "fewer than
+  500 employees" is a ceiling where every other gate is a floor; and manufacturing is a Q4
+  answer with no sector routing behind it. Left ungated on purpose — see the row's `note`,
+  and "Q3's buckets are not being redrawn for one region" below.
+
+  **The national hub row is gated the same way, which only became correct once the sweep
+  finished.** Since all seven RDAs require at least $1M, an under-$1M business qualifies for
+  RTRI nowhere in Canada. Ungated, the hub was the only RTRI result they saw — an umbrella
+  link with all seven regional panels correctly hidden beneath it, which reads as a broken
+  page rather than as ineligibility. They still reach their own RDA through the `rda_url`
+  link at the foot of the results, which is a homepage rather than this program. One
+  residual case cannot be fixed this way: a $1M–$2M Quebec business still sees the hub with
+  no Quebec panel, because CED's $2M floor falls inside a Q3 bucket.
+
+  **`nonprofit` is in all eight gates because the floor is an *SME* criterion.** The hub
+  describes RTRI as equipping "SMEs, and the organizations that support them" — two
+  populations, not one — and every revenue floor that names a subject names an SME ("SMEs
+  must have… at least $1 million"). A board of trade is therefore not a small SME failing a
+  $1M test; it is in the other population, which has no stated floor. That is reasoning from
+  the hub plus the three pages that give a subject, not a quoted non-profit rule: four RDA
+  pages were read only for their revenue fragment. The national hub row's `note` is the
+  canonical write-up; the other seven point at it.
+
+  **Read the alert banner, not just the eligibility list.** FedNor appeared during this
+  sweep to be a second exception with no floor at all, and an argument was half-built for
+  why that might be deliberate. It states the $1M floor in an alert banner at the top of the
+  page instead of in the eligibility section below. The general lesson is worth more than
+  the specific fix: these seven pages do not share a template, so a criterion absent from
+  where the last six pages put it is a reason to re-read the whole page, not a finding.
+- **Q3's buckets are not being redrawn for one region.** Splitting "$1 million to $5
+  million" into $1–2M and $2–5M would let Quebec's floor be gated exactly, and was
+  considered. It was rejected: it complicates the question every single visitor answers in
+  order to fix one region of seven, and it still would not capture CED's other two tests, so
+  Quebec needs its criteria stated in result text regardless. One extra answer that only
+  partly fixes the one case is worse than stating the case plainly.
+- **BDC's two loans are gated differently, and that difference carries weight.** The Pivot
+  to Grow Loan requires $1M+ annual revenue, so it is gated like the RTRI rows
+  (`1to5m;5mplus;large;nonprofit`). Its other three criteria — 3 years in business,
+  historically positive cash flow, and 15% of sales exported to the U.S. — are not gated: no
+  Q3 answer fits the first two, and the third is the exposure threshold that was ruled out
+  as a triage question in the first place, BDC's 15% against RTRI's 25% being exactly why
+  this tool triages by size. BDC's **Equipment Loan** has no revenue floor at all (Canada-
+  based, 12+ months generating revenue, profitable, good credit), so its blank `size` is
+  verified rather than unchecked, and it should stay blank: it is what an under-$1M business
+  still sees under financing once Pivot to Grow is gated away from them. Gating the two to
+  match would leave the smallest businesses with materially less than they qualify for.
+- **The product is the "Pivot to Grow Loan"; the deck's "Pivot to Grow" survives only in
+  `slide_label`.** Both strings sit in the same row, one rendered and one not, which makes
+  promoting the wrong one an easy future slip. `test_pivot_to_grow_is_named_in_full` pins
+  the rendered name in both languages *and* asserts the bare form appears nowhere in the
+  page body, so `slide_label` can keep doing its archival job without the short name being
+  one careless edit away from a user.
+- **A program serving two needs is one row, not two.** The deck listed BDC's Pivot to Grow
+  Loan under both financing and liquidity, and the RTRI national hub under both liquidity
+  and transformation, so the CSV carried each twice — the second copy flagged
+  `duplicate-url`, sending a second, differently-named result to a page already linked
+  above. The `need` column has always taken semicolons (the seven regional RTRI rows use
+  `liquidity;transformation`), so both are now single rows with `need` listing both needs.
+  This also retired the composed name "Pivot to Grow Loan - Liquidity Support stream": BDC's
+  one page covers three streams and has no anchor to deep-link, so naming a stream the page
+  does not separately title was inventing a program. Two of the three `duplicate-url` rows
+  are gone as a result.
 - **Question 3's two largest answers were trimmed, renamed, and given a real number.**
   "$1 million to $5 million" no longer says "and 3 or more years operating" — a criterion,
   not a size, and this question is about size. "Large enterprise" became "Larger enterprise
@@ -427,32 +499,45 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
 
 ## Next steps
 
-1. **Spot-check the nine composed French names.** 43 of 52 were read off the live French
+1. **Spot-check the seven composed French names.** 41 of 49 were read off the live French
    page's own `<h1>`, cleaned of taglines, org suffixes and AAFC's ": 1. Ce qu'offre ce
    programme" step numbering. The `fr_source` column records the provenance of every row;
-   the eight marked `composed:` carry the reason, and they are the only ones needing a
+   the seven marked `composed:` carry the reason, and they are the only ones needing a
    French-language judgement call:
    - three regional IRRT pages whose own h1 omits the region
-   - two stream names whose parent page covers several streams
+   - one stream name whose parent page covers several streams
    - CEEFC, whose h1 is the corporation name rather than the product
    - the Business Benefits Finder, whose page has no h1 at all
    - FCC's French financing page, which still carries an English title
    ("Marque Canada" is confirmed correct — its site was simply down when checked.)
-2. **Resolve the remaining flagged rows.** `duplicate-url` (3), `weak` (2), `ambiguous` (1)
-   and `best-guess` (1). Each `note` says what the doubt is. The `duplicate-url` rows in
-   particular send two differently-named results to the same page, which reads as a bug.
-3. **Report the AAFC language-toggle bug.** One note records that the French AAFC hub's
+2. **Resolve the remaining flagged rows.** `duplicate-url` (1), `weak` (2), `ambiguous` (1)
+   and `best-guess` (1). Each `note` says what the doubt is. The one remaining
+   `duplicate-url` is BDC's forestry cash-flow stream, whose twin is the `disputed`
+   transformation row that never renders — so it is a flag to re-check, not a live
+   double-listing.
+3. **Check whether RTRI's steel targeting needs a row of its own.** The national hub says
+   "The RTRI includes targeted support for SME projects in the Canadian steel sector."
+   Nothing is mis-routed today — the RTRI rows are `sector-agnostic`, so a steel business
+   already sees them — so this is only worth acting on if the steel support is a *separate
+   stream with its own page*, which would make it a row. If it is prioritization within the
+   same application, it is result-card text at most, and shares a mechanism with the Quebec
+   criteria below.
+4. **Write Quebec's criteria into the result card.** CED's $2M / <500 employees /
+   manufacturing tests cannot be gated (see the departures above), so the only honest way to
+   convey them is text on the Quebec RTRI result. This needs a mechanism the CSV does not
+   have yet — a per-row criteria string, rendered under the program name.
+5. **Report the AAFC language-toggle bug.** One note records that the French AAFC hub's
    English toggle targets a 404. That is a live Canada.ca defect, unrelated to this work.
-4. **Add amount, term and repayment** once the figures exist — new CSV columns and a line
+6. **Add amount, term and repayment** once the figures exist — new CSV columns and a line
    in the template.
-5. **The start page does not fit a phone screen.** Each choice measures 143px at a 390px
+7. **The start page does not fit a phone screen.** Each choice measures 143px at a 390px
    viewport, putting the third button about 872px down, past the ~724px a mobile browser
    leaves visible. The 271px of CDTS header and breadcrumb is most of that budget. Cheapest
    fixes: shorten each `description` to one line at 360px (~78px), drop the intro line
    (~33px), tighten the gap to `mrgn-bttm-sm` (~20px). Buttons cost only 12px more than
    plain links, so they are not the thing to cut.
-6. **Consider a worker path prototype** if that page needs design work rather than a link.
-7. **Consider the Kosher and Halal Investment Component** as a third AgriMarketing row.
+8. **Consider a worker path prototype** if that page needs design work rather than a link.
+9. **Consider the Kosher and Halal Investment Component** as a third AgriMarketing row.
    Research on the SME/NIA split turned this up as a further stream under the same
    program, sector-specific rather than size-specific — not added, since its own URL and
    French name still need the same live-page verification every other row got.

@@ -157,6 +157,26 @@ class TestRouting < Minitest::Test
       end
     end
 
+    # BDC's product is the "Pivot to Grow Loan". The deck called it "Pivot to
+    # Grow", and that shorter form survives on purpose in the row's
+    # `slide_label` — which never renders — so the two live side by side in one
+    # row and a future edit could easily promote the wrong one. Pinned on the
+    # rendered name only: the bare form must never reach a user.
+    define_method("test_pivot_to_grow_is_named_in_full_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      row  = Wizard.rows.find { |r| r["url_en"].to_s.include?("pivot-grow-loan") }
+      refute_nil row, "the BDC Pivot to Grow Loan row is missing"
+      name = Wizard::Expected.display(row, lang).first
+
+      assert_match(/Pivot to Grow Loan|Pivoter pour se propulser/, name,
+        "#{lang}: rendered name is \"#{name}\" — BDC's product is the \"Pivot to Grow Loan\"")
+
+      # And the bare deck form must not be anywhere a user can read it.
+      body = Wizard.doc(page).at_css("body").text
+      refute_match(/Pivot to Grow(?! Loan)/, body,
+        "#{lang}: the deck's bare \"Pivot to Grow\" reached the rendered page")
+    end
+
     # ACOA's own eligibility for the Atlantic RTRI row requires $1M+ annual
     # revenue — pinned because it's the row that's actually empty for
     # size-under1m today (it's the only program in Atlantic's regional
