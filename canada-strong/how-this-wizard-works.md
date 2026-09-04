@@ -564,6 +564,17 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
   count is restated in four places, all updated. Incidentally this made the "twenty markers"
   figure in "How a combination becomes a visible panel" true again; it had been 21.
+- **Question 3 asks one thing, and its answers answer it.** The legend was "What is your
+  size and revenue?", which asked two questions and let the answers drift into criteria
+  again — `size-5mplus` read "$5 million or more with 10 or more full-time employees",
+  reintroducing exactly the mistake the "3 or more years operating" trim below had already
+  corrected on the answer beside it. A headcount is not a revenue band, and no CSV row
+  routes on it. The legend is now "What is your annual revenue?", `size-5mplus` is "$5
+  million or more", and "Larger enterprise ($150 million or more in annual revenue)" drops
+  its last three words, which the question now supplies. The `$150 million` number stays —
+  that one is doing real work, per the entry below. Nothing about the routing changed:
+  these are labels, and the `sizes:` vocabulary bridge and every `size` cell in the CSV are
+  untouched.
 - **Question 1 gained "All of the above".** Departments were not the only ones reading the
   wizard as a complete list; a business that wants everything it qualifies for had no way
   to ask for it, and four separate runs of the wizard was the only workaround. The answer

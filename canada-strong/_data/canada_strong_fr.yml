@@ -163,14 +163,14 @@ business:
         - {marker: reg-nor,  label: "Le Nord (NU, NT, YT)"}
 
     - id: question-3
-      legend: "Question 3 sur 4 : Quels sont votre taille et vos revenus?"
+      legend: "Question 3 sur 4 : Quels sont vos revenus annuels?"
       clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-4"
       options:
         - {marker: size-under1m, label: "Moins de 1 million de dollars de revenus annuels"}
         - {marker: size-1to5m,   label: "De 1 à 5 millions de dollars"}
-        - {marker: size-5mplus,  label: "5 millions de dollars ou plus et 10 employés à temps plein ou plus"}
-        - {marker: size-large,   label: "Plus grande entreprise (150 millions de dollars ou plus de revenus annuels)"}
+        - {marker: size-5mplus,  label: "5 millions de dollars ou plus"}
+        - {marker: size-large,   label: "Plus grande entreprise (150 millions de dollars ou plus)"}
         # En dernier volontairement : ce n'est pas une tranche de revenus, et
         # placée entre les tranches elle brisait l'ordre de lecture des
         # montants.

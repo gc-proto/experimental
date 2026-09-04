@@ -181,14 +181,14 @@ business:
         - {marker: reg-nor,  label: "The North (NU, NT, YT)"}
 
     - id: question-3
-      legend: "Question 3 of 4: What is your size and revenue?"
+      legend: "Question 3 of 4: What is your annual revenue?"
       clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-4"
       options:
         - {marker: size-under1m, label: "Under $1 million in annual revenue"}
         - {marker: size-1to5m,   label: "$1 million to $5 million"}
-        - {marker: size-5mplus,  label: "$5 million or more with 10 or more full-time employees"}
-        - {marker: size-large,   label: "Larger enterprise ($150 million or more in annual revenue)"}
+        - {marker: size-5mplus,  label: "$5 million or more"}
+        - {marker: size-large,   label: "Larger enterprise ($150 million or more)"}
         # Last on purpose: it is not a revenue band, and sitting between the
         # bands it broke the reading order of the money answers.
         #
