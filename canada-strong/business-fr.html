@@ -25,6 +25,17 @@ layout: null
 {%- endcomment -%}
 {%- assign ALLN = t.all_needs_marker -%}
 {%- assign regional = live | where_exp: "r", "r.region != 'national'" -%}
+{%- comment -%}
+  Every result link opens in a new tab: a usability participant opened a
+  program, pressed Back, and their answers were gone — fieldflow keeps its
+  state in the DOM, not the URL, so Back lands on an empty wizard.
+  The arrow and the invisible sentence are what tell people that, drawn to
+  match the GC Design System's gcds-link so results look the same as the
+  department's other tools. Captured once here rather than repeated inside
+  each of the ten anchors below.
+{%- endcomment -%}
+{%- capture NEWTAB -%}<svg class="wz-ext" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M4.6 11.4 11 5m0 0H6.4M11 5v4.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="wb-inv">{{ L.new_tab }}</span>{%- endcapture -%}
+{%- assign TAB = 'target="_blank" rel="noopener noreferrer"' -%}
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="{{ t.lang }}" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js" lang="{{ t.lang }}" dir="ltr"><!--<![endif]-->
@@ -54,6 +65,9 @@ layout: null
 			   which is display:none !important and so could not be overridden
 			   by the rules below. */
 			.wz-org { color: #515151; }
+			/* The new-tab arrow. Sized in em so it tracks the link text, and
+			   drawn in currentColor so it picks up visited and focus states. */
+			.wz-ext { width: .7em; height: .7em; margin-left: .25em; vertical-align: baseline; }
 			.wz-r  { display: none; }
 			.wz-sz { display: none; }
 
@@ -143,7 +157,7 @@ layout: null
 								<section class="panel panel-success mrgn-tp-md wz-r wz-p-{{ need.csv }}-{{ sec.csv }}">
 									<header class="panel-heading"><h3 class="panel-title h4">{{ sec.heading }}{{ L.heading_sep }}{{ need.heading | downcase }}</h3></header>
 									<div class="panel-body"><ul>
-										{% for r in hits %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% for r in hits %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}" {{ TAB }}>{{ nm }}{{ NEWTAB }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 										{% endfor %}
 									</ul></div>
 								</section>
@@ -157,7 +171,7 @@ layout: null
 								<section class="panel panel-success mrgn-tp-md wz-r wz-ap-{{ need.csv }}-{{ sec.csv }}">
 									<header class="panel-heading"><h3 class="panel-title h4">{{ sec.heading }}{{ L.heading_sep }}{{ need.heading | downcase }}</h3></header>
 									<div class="panel-body"><ul>
-										{% for r in cell %}{% assign fn = r.need | split: ";" | first %}{% if fn == ncsv %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{%- assign nm = r[NAME] | default: r.program_name -%}{%- assign u = r[URLF] | default: r.url_en -%}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% for r in cell %}{% assign fn = r.need | split: ";" | first %}{% if fn == ncsv %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{%- assign nm = r[NAME] | default: r.program_name -%}{%- assign u = r[URLF] | default: r.url_en -%}{% if u != "" %}<a href="{{ u }}" {{ TAB }}>{{ nm }}{{ NEWTAB }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 										{% endif %}{% endfor %}
 									</ul></div>
 								</section>
@@ -171,7 +185,7 @@ layout: null
 								<section class="panel panel-success mrgn-tp-md wz-r wz-rg-{{ reg.marker }}-{{ need.csv }}">
 									<header class="panel-heading"><h3 class="panel-title h4">{{ L.region_heading }}</h3></header>
 									<div class="panel-body"><ul>
-										{% for rn in regnames %}{% assign m = live | where: "region", rn | where_exp: "r", "r.need contains ncsv" %}{% for r in m %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% for rn in regnames %}{% assign m = live | where: "region", rn | where_exp: "r", "r.need contains ncsv" %}{% for r in m %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}" {{ TAB }}>{{ nm }}{{ NEWTAB }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 										{% endfor %}{% endfor %}
 									</ul></div>
 								</section>
@@ -184,7 +198,7 @@ layout: null
 								<section class="panel panel-success mrgn-tp-md wz-r wz-arg-{{ reg.marker }}">
 									<header class="panel-heading"><h3 class="panel-title h4">{{ L.region_heading }}</h3></header>
 									<div class="panel-body"><ul>
-										{% for r in rgrows %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{%- assign nm = r[NAME] | default: r.program_name -%}{%- assign u = r[URLF] | default: r.url_en -%}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% for r in rgrows %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{%- assign nm = r[NAME] | default: r.program_name -%}{%- assign u = r[URLF] | default: r.url_en -%}{% if u != "" %}<a href="{{ u }}" {{ TAB }}>{{ nm }}{{ NEWTAB }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 										{% endfor %}
 									</ul></div>
 								</section>
@@ -197,7 +211,7 @@ layout: null
 								<section class="panel panel-success mrgn-tp-md wz-r wz-p-{{ need.csv }}-agnostic">
 									<header class="panel-heading"><h3 class="panel-title h4">{{ need.heading }}{{ L.heading_sep }}{{ L.agnostic_suffix }}</h3></header>
 									<div class="panel-body"><ul>
-										{% for r in agn %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% for r in agn %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}" {{ TAB }}>{{ nm }}{{ NEWTAB }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 										{% endfor %}
 									</ul></div>
 								</section>
@@ -211,7 +225,7 @@ layout: null
 								<section class="panel panel-success mrgn-tp-md wz-r wz-ap-{{ need.csv }}-agnostic">
 									<header class="panel-heading"><h3 class="panel-title h4">{{ need.heading }}{{ L.heading_sep }}{{ L.agnostic_suffix }}</h3></header>
 									<div class="panel-body"><ul>
-										{% for r in agn %}{% assign fn = r.need | split: ";" | first %}{% if fn == ncsv %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{%- assign nm = r[NAME] | default: r.program_name -%}{%- assign u = r[URLF] | default: r.url_en -%}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% for r in agn %}{% assign fn = r.need | split: ";" | first %}{% if fn == ncsv %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{%- assign nm = r[NAME] | default: r.program_name -%}{%- assign u = r[URLF] | default: r.url_en -%}{% if u != "" %}<a href="{{ u }}" {{ TAB }}>{{ nm }}{{ NEWTAB }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 										{% endif %}{% endfor %}
 									</ul></div>
 								</section>
@@ -225,7 +239,7 @@ layout: null
 								<section class="panel panel-default mrgn-tp-md wz-r wz-hub-{{ sec.csv }}">
 									<header class="panel-heading"><h3 class="panel-title h4">{{ sec.heading }}{{ L.heading_sep }}{{ L.hub_heading | downcase }}</h3></header>
 									<div class="panel-body"><ul>
-										{% for r in hub %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+										{% for r in hub %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}" {{ TAB }}>{{ nm }}{{ NEWTAB }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 										{% endfor %}
 									</ul></div>
 								</section>
@@ -238,16 +252,16 @@ layout: null
 									<div class="panel-body">
 										<p>{{ L.hub_body }}</p>
 										<ul class="mrgn-tp-md">
-											{% for r in hubs %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}">{{ nm }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
+											{% for r in hubs %}<li{% if r.size and r.size != "" %} class="wz-sz{% assign r_sizes = r.size | split: ";" %}{% for sz in t.sizes %}{% if r_sizes contains sz.csv %} wz-sz-{{ sz.marker }}{% endif %}{% endfor %}"{% endif %}>{% assign nm = r[NAME] | default: r.program_name %}{% assign u = r[URLF] | default: r.url_en %}{% if u != "" %}<a href="{{ u }}" {{ TAB }}>{{ nm }}{{ NEWTAB }}</a>{% else %}{{ nm }}{% endif %}{% if r.org and r.org != "" %} <span class="small wz-org">{{ r.org }}</span>{% endif %}</li>
 											{% endfor %}
 										</ul>
 										{%- comment -%} The one `need: featured` row, closing the panel below the hub list. {%- endcomment -%}
-										{% for r in featured %}<p class="mrgn-tp-md mrgn-bttm-0">{{ L.featured_prefix }}<a href="{{ r[URLF] | default: r.url_en }}">{{ r[NAME] | default: r.program_name }}</a>{{ L.featured_suffix }}</p>
+										{% for r in featured %}<p class="mrgn-tp-md mrgn-bttm-0">{{ L.featured_prefix }}<a href="{{ r[URLF] | default: r.url_en }}" {{ TAB }}>{{ r[NAME] | default: r.program_name }}{{ NEWTAB }}</a>{{ L.featured_suffix }}</p>
 										{% endfor %}
 									</div>
 								</section>
 
-								{% for reg in t.regions %}<p class="wz-r wz-rda-{{ reg.marker }} mrgn-tp-md mrgn-bttm-0">{{ L.rda_prefix }}<a href="{{ reg.rda_url }}">{{ reg.rda }}</a></p>
+								{% for reg in t.regions %}<p class="wz-r wz-rda-{{ reg.marker }} mrgn-tp-md mrgn-bttm-0">{{ L.rda_prefix }}<a href="{{ reg.rda_url }}" {{ TAB }}>{{ reg.rda }}{{ NEWTAB }}</a></p>
 								{% endfor %}
 								<p class="mrgn-tp-lg"><a href="{{ b.back_href }}">{{ b.back_link }}</a></p>
 							</div>

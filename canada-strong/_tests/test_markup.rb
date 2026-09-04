@@ -147,6 +147,45 @@ class TestMarkup < Minitest::Test
       assert_empty missing.map { |p| p["class"] }, "#{lang}: panels without an h3"
     end
 
+    # A usability participant opened a program, pressed Back, and their answers
+    # were gone: fieldflow keeps its state in the DOM, not the URL, so Back
+    # lands on an empty wizard. Every link that leaves for a program now opens
+    # in a new tab, and says so — an arrow a sighted person can see and a
+    # wb-inv sentence a screen reader reads. A silent new tab fails WCAG 3.2.5,
+    # so the parts are checked together: one without the others is the
+    # regression worth catching.
+    define_method("test_every_result_link_opens_in_a_new_tab_and_says_so_#{lang}") do
+      doc  = Wizard.doc(Wizard::BUSINESS[lang])
+      said = Wizard.text(lang)["business"]["labels"]["new_tab"]
+      refute_nil said, "#{lang}: no new_tab label in the YAML"
+
+      # Programs and hubs live in panels; the RDA line and the featured Finder
+      # line are loose <p>s outside them, and leave the site just the same.
+      links = doc.css("section.panel a, p[class*=wz-rda-] a")
+      assert_operator links.size, :>, 40, "#{lang}: only #{links.size} result links found"
+
+      bad = []
+      links.each do |a|
+        here = "#{Wizard.link_text(a)} -> #{a['href']}"
+        bad << "#{here}: not target=_blank" unless a["target"] == "_blank"
+        bad << "#{here}: no rel=noopener"   unless a["rel"].to_s.include?("noopener")
+        bad << "#{here}: no arrow"          unless a.at_css("svg.wz-ext")
+        bad << "#{here}: nothing read out"  unless a.at_css("span.wb-inv")&.text == said
+      end
+      assert_empty bad.first(8), "#{lang}: result links that leave silently:\n  " + bad.first(8).join("\n  ")
+    end
+
+    # "Start over" goes back to this same wizard. Opening the tool itself in a
+    # second tab is not what the new-tab rule is for.
+    define_method("test_the_start_over_link_stays_in_this_tab_#{lang}") do
+      doc  = Wizard.doc(Wizard::BUSINESS[lang])
+      back = Wizard.text(lang)["business"]["back_href"]
+      link = doc.css("a").find { |a| a["href"] == back }
+      refute_nil link, "#{lang}: no link back to #{back}"
+      assert_nil link["target"], "#{lang}: Start over opens in a new tab"
+      assert_nil link.at_css("svg.wz-ext"), "#{lang}: Start over carries the new-tab arrow"
+    end
+
     # The promoted Business Benefits Finder line. It is a <p>, not a list item,
     # so the routing sweep cannot see it — it is checked here instead: present
     # once, inside the More options panel, closing it below the hub list,
@@ -165,7 +204,7 @@ class TestMarkup < Minitest::Test
 
       links = panel.css(".panel-body > p a").select { |a| a["href"] == url }
       assert_equal 1, links.size, "#{lang}: expected one featured link to #{url}, found #{links.size}"
-      assert_equal name.strip, links.first.text.strip
+      assert_equal name.strip, Wizard.link_text(links.first)
 
       para = links.first.parent
       assert_includes para.text, labels["featured_prefix"].strip

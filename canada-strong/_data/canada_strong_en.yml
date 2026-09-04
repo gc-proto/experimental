@@ -149,6 +149,12 @@ business:
     featured_prefix: "Use the "
     featured_suffix: " to view or search all provincial and federal programs and services, including tariff support."
     rda_prefix: "Get additional support from: "
+    # Read out after the link text by a screen reader, and never shown. A
+    # usability participant opened a program, pressed Back, and found their
+    # answers gone — every result link now opens in a new tab, so the wording
+    # has to say so. Taken from the GC Design System's own gcds-link, which is
+    # what the department's other tools use, so the two sound the same.
+    new_tab: " (Opens destination in a new tab.)"
 
   # ── The four questions ─────────────────────────────────────────────────────
   # `clears` lists every marker this question resets before applying the new

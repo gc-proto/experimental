@@ -136,6 +136,13 @@ business:
     featured_prefix: "Utilisez l'"
     featured_suffix: " pour afficher ou rechercher tous les programmes et services provinciaux et fédéraux, y compris les ressources de soutien tarifaire."
     rda_prefix: "Obtenez un soutien supplémentaire auprès de : "
+    # Lu après le texte du lien par un lecteur d'écran, jamais affiché. Une
+    # participante à un test d'utilisabilité a ouvert un programme, appuyé sur
+    # Précédent et retrouvé ses réponses perdues — chaque lien de résultat
+    # s'ouvre maintenant dans un nouvel onglet, et la formulation doit le dire.
+    # Tirée de gcds-link du Système de design GC, que les autres outils du
+    # ministère utilisent, pour que les deux se ressemblent.
+    new_tab: " (Ouvre l'emplacement dans un nouvel onglet.)"
 
   questions:
     - id: question-1

@@ -165,13 +165,22 @@ module Wizard
     # also drop individual rows a CSV `size` column hides for this set of
     # markers (e.g. LETL under a non-large size); omit it to get every row
     # regardless of visibility, for DOM-wide leak checks.
+    # A link's visible text. Result links carry a new-tab arrow and a wb-inv
+    # sentence saying so, both inside the <a>; neither is part of the program's
+    # name, so both come off before the text is read.
+    def link_text(link)
+      copy = link.dup
+      copy.css("span.wb-inv, svg").remove
+      copy.text.strip
+    end
+
     def panel_programs(panel, visible = nil)
       items = panel.css(".panel-body > ul > li")
       items = items.select { |li| shown?(li, visible) } if visible
       items.map do |li|
         link = li.at_css("a")
         if link
-          [link.text.strip, link["href"].to_s.strip]
+          [link_text(link), link["href"].to_s.strip]
         else
           copy = li.dup
           copy.css("span.wz-org").remove

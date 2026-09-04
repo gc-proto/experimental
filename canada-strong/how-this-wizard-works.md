@@ -323,6 +323,16 @@ row hides itself" below.
 - **`layout: null`** in the front matter is what runs Liquid while letting the raw CDTS
   HTML through. With no front matter at all, Jekyll copies the file verbatim and the Liquid
   tags ship to the browser as literal text.
+- **Back destroys the results, so results open in a new tab.** fieldflow keeps its state in
+  the DOM, not in the URL — there is no query string to return to. A usability participant
+  opened a program, pressed Back, and landed on an empty wizard with four answers to give
+  again. Every link that leaves for a program now carries
+  `target="_blank" rel="noopener noreferrer"`, a `.wz-ext` arrow, and a `wb-inv` sentence
+  saying so; a new tab that opens silently fails WCAG 3.2.5, so the three travel together.
+  The arrow and the sentence sit *inside* the `<a>`, which means anything reading a link's
+  text has to strip them first — `Wizard.link_text` is that, and forgetting it makes every
+  program name comparison fail at once. "Start over" is the exception: it goes back to this
+  same wizard, so it stays in the tab it is in.
 - **This file is excluded from the build, and has to stay excluded.** Jekyll runs Liquid
   over the folder's renderable files before Markdown ever sees them, and a fenced code
   block protects nothing — Liquid parses the whole file first. This document quotes the
@@ -564,6 +574,18 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   driven off Q4's own options, so it dropped from 700 combinations to 560 by itself — the
   count is restated in four places, all updated. Incidentally this made the "twenty markers"
   figure in "How a combination becomes a visible panel" true again; it had been 21.
+- **Results open in a new tab, after a usability session cost someone their answers.** The
+  participant clicked a program, read it, pressed Back — and had to answer all four
+  questions again, because fieldflow's state lives in the DOM and Back rebuilt the page
+  empty. Keeping the state in the URL is the fuller fix and a much larger change; opening
+  results in a new tab is the one that could ship the same day. All ten anchors that leave
+  for a program — the eight program lists, the featured Business Benefits Finder line and
+  the RDA line — now carry `target="_blank" rel="noopener noreferrer"` plus an arrow and an
+  invisible sentence, captured once at the top of the template as `NEWTAB` rather than
+  written out ten times. The wording and the arrow copy the GC Design System's `gcds-link`,
+  which the department's other tools already use, so the two read the same way; canada-
+  strong is a CDTS/WET page and cannot load GCDS components, so the markup is reproduced
+  rather than imported. "Start over" is deliberately left alone.
 - **Work-Sharing is a prerequisite for the Worker Retention Grant, and the column now says
   so.** The dependency was research the CSV already held — the grant's `note` has always
   read "Requires an approved Work-Sharing agreement" — but nothing reached the page: the
