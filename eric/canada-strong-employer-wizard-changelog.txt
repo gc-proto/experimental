@@ -1,13 +1,16 @@
 CHANGELOG — "Find support for your business" wizard, employer expansion
 =======================================================================
 
-File produced : eric/canada-strong-employer-wizard.html
-Built from    : https://www.canada.ca/en/campaign/canadastrong/find-support-for-your-business.html
-                (retrieved 2026-09-10)
-New content    : https://www.canada.ca/en/campaign/canadastrong/businesses-industries.html#emp-sup
-sourced from    https://www.canada.ca/en/employment-social-development/services/workforce-retention-retraining-program.html
-Date           : 2026-09-10
-Revision       : 2 (see REVISION 2 at the foot of this file)
+Files produced : eric/canada-strong-employer-wizard.html          (English)
+                 eric/un-canada-fort-assistant-employeurs.html     (French)
+Built from     : https://www.canada.ca/en/campaign/canadastrong/find-support-for-your-business.html
+                 https://www.canada.ca/fr/campagne/uncanadafort/trouvez-du-soutien-pour-votre-entreprise.html
+                 (both retrieved 2026-09-10)
+New content     : .../campaign/canadastrong/businesses-industries.html#emp-sup
+sourced from     .../services/workforce-retention-retraining-program.html
+                 and their French equivalents
+Date            : 2026-09-10
+Revision        : 3 (see REVISION 2 and REVISION 3 at the foot of this file)
 
 
 SUMMARY
@@ -206,8 +209,7 @@ NOT CHANGED
   chains, and every sector, region and size panel they use. They remain
   four questions and were re-tested against the rewritten analytics script.
 - The page header, footer, breadcrumb, feedback widget and page details.
-- The French page. This is an English-only mockup; a production change
-  would need the matching /fr/campagne/uncanadafort/ page.
+- The four-question branches' own wording in either language.
 
 
 VERIFICATION PERFORMED
@@ -277,3 +279,58 @@ REVISION 2 (2026-09-10) — what changed from the first draft
   was removed from the layoff panel. (item 9)
 - The analytics script was rewritten, since a five-question branch with a
   multi-select question broke every assumption in the original. (item 14)
+
+
+REVISION 3 (2026-09-10) — French version added
+-----------------------------------------------
+eric/un-canada-fort-assistant-employeurs.html is the French wizard, built
+from the live French page with exactly the same structural edits as the
+English one, items 1 to 15 above. Same ids, same classes, same fieldflow
+actions, same analytics script - the French page on canada.ca mirrors the
+English one node for node, so nothing had to be reshaped for it.
+
+The builder was refactored to do this. It is one script with one set of
+structural edits and two language packs; every string that differs between
+the two files lives in a dictionary, so the two can no longer drift apart
+structurally. Rebuilding produced a byte-for-byte equivalent English file
+apart from the two changes in this revision.
+
+French wording was taken from the French Government of Canada pages, not
+back-translated from the English mockup:
+  - Programme names and URLs come from the French wizard's own workforce
+    panel (Travail partagé, Subvention pour le maintien à l'emploi des
+    travailleurs, Réponse tarifaire pour la main-d'oeuvre, Programme de
+    stages pratiques pour étudiants), from entreprises-industries.html
+    #emp-sup (the three Guichet-Emplois links and Soutien aux travailleurs
+    en réponse aux droits de douane), and from the PMERMO page.
+  - Region, revenue and sector answer labels were lifted verbatim from the
+    French wizard's existing questions, including its abbr markup.
+  - The 1 000 $ figure, the 4-to-152-week range and the regional-development
+    -agency delivery sentence are the French page's own phrasing.
+  - New-window text is the French page's "(Ouvre l'emplacement dans un
+    nouvel onglet.)".
+
+Two French-specific notes:
+  - The French Q1 prompt had irregular spacing in the source ("Question  1
+    sur 4  :  De quoi..."). Rewriting it to drop the total also normalised
+    it to "Question 1 : De quoi...".
+  - entreprises-industries.html#emp-sup writes "Guichet-Emploi" in one link
+    title while its own body text and the site itself use "Guichet-Emplois".
+    The mockup uses "Guichet-Emplois" rather than carrying the typo across.
+
+Also in this revision, in both files: the header language toggle now points
+at the sibling mockup instead of the live page, so the pair can be reviewed
+as a pair. Everything else in the header, footer and breadcrumb is
+untouched.
+
+All nine French destination URLs return HTTP 200. The French file was
+walked in a browser the same way as the English one: the five-question
+employer branch, multi-select with two situations ticked (both panels
+shown, question 3 appended once), size gating on the non-profit answer,
+the sector question revealing the forestry hub, and the four-question
+liquidity branch as a regression check. The analytics path it produces:
+
+  ServCan:CanadaStrongWizard:Main-d'oeuvre : maintien en poste, formation
+  ou embauche > Je dois former ou perfectionner mes employés actuels + Je
+  dois recruter et embaucher de nouveaux travailleurs > Québec > De 1 à 5
+  millions de dollars > Foresterie et bois d'oeuvre

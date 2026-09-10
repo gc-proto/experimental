@@ -1,12 +1,21 @@
 QUESTIONS AND LOGIC ADDED FOR EMPLOYER SUPPORTS
 ===============================================
 
-File : eric/canada-strong-employer-wizard.html
-Date : 2026-09-10 (revision 2)
+Files : eric/canada-strong-employer-wizard.html       (English)
+        eric/un-canada-fort-assistant-employeurs.html  (French)
+Date  : 2026-09-10 (revision 3)
 
 This document covers only the employer path. The financing, liquidity,
 transformation and "All of the above" paths are unchanged from the live
-page and are not repeated here.
+pages and are not repeated here.
+
+The two language versions share one structure: same question ids, same
+panel ids, same classes, same fieldflow actions, same analytics script.
+Everything below therefore describes both. Where a French string matters -
+a programme name, a URL, an answer label - it is given alongside the
+English one. French wording is taken from the French Government of Canada
+pages, not back-translated from the English mockup; see FRENCH SOURCES at
+the foot of this document.
 
 
 HOW THE WIZARD MECHANISM WORKS
@@ -358,3 +367,121 @@ From workforce-retention-retraining-program.html:
 Also carried through from the live wizard:
 
   Workforce Tariff Response - EI-funded LMDAs        C, all-paths
+
+
+FRENCH EQUIVALENTS
+------------------
+
+Question 1, fourth answer
+  EN  Workforce: keeping, retraining or hiring workers
+  FR  Main-d'oeuvre : maintien en poste, formation ou embauche
+
+Question 2, the five situations
+  A  EN  I need to reduce employee hours instead of laying people off
+     FR  Je dois reduire les heures de mes employes plutot que de faire
+         des mises a pied
+  B  EN  I already have a Work-Sharing agreement in place
+     FR  J'ai deja un accord de Travail partage en vigueur
+  C  EN  I need to train or upskill my current employees
+     FR  Je dois former ou perfectionner mes employes actuels
+  D  EN  I need to recruit and hire new workers
+     FR  Je dois recruter et embaucher de nouveaux travailleurs
+  E  EN  I have laid off workers or expect to soon
+     FR  J'ai fait des mises a pied ou je prevois en faire bientot
+  (the file itself carries the correct accents; they are stripped here
+  only to keep this plain-text document portable)
+
+Panel titles
+  p-workforce-agnostic  Workforce supports: open to all employers
+                        Mesures de soutien a la main-d'oeuvre : offertes a
+                        tous les employeurs
+  p-emp-reduce          Cutting hours instead of cutting jobs
+                        Reduire les heures plutot que supprimer des emplois
+  p-emp-agreement       You already have a Work-Sharing agreement
+                        Vous avez deja un accord de Travail partage
+  p-emp-train           Training and upskilling your current employees
+                        Former et perfectionner vos employes actuels
+  p-emp-hire            Recruiting and hiring new workers
+                        Recruter et embaucher de nouveaux travailleurs
+  p-emp-layoff          If you have laid off workers or expect to
+                        Si vous avez fait des mises a pied ou prevoyez en
+                        faire
+  p-emp-size-note       Based on the size of your business
+                        Selon la taille de votre entreprise
+
+The nine employer supports, both languages
+  WRRP / PMERMO
+    /en/employment-social-development/services/
+      workforce-retention-retraining-program.html
+    /fr/emploi-developpement-social/services/
+      programme-maintien-emploi-reorientation-main-oeuvre.html
+    "Workforce Retention and Retraining Program (WRRP)"
+    "Programme de maintien a l'emploi et de reorientation de la
+     main-d'oeuvre (PMERMO)"
+  Work-Sharing / Travail partage
+    /en/employment-social-development/services/work-sharing.html
+    /fr/emploi-developpement-social/services/travail-partage.html
+  Worker Retention Grant / Subvention pour le maintien a l'emploi
+    /en/employment-social-development/services/funding/
+      worker-retention-grant.html
+    /fr/emploi-developpement-social/services/financement/
+      subvention-maintien-travailleurs.html
+  Workforce Tariff Response / Reponse tarifaire pour la main-d'oeuvre
+    /en/employment-social-development/programs/training-agreements/
+      workforce-tariff-response.html
+    /fr/emploi-developpement-social/programmes/accords-formation/
+      reponse-tarifaire-main-doeuvre.html
+  Student Work Placement / Stages pratiques pour etudiants
+    /en/employment-social-development/services/
+      student-work-placements-wage-subsidies.html
+    /fr/emploi-developpement-social/services/
+      stages-pratiques-etudiants-subventions-salariales.html
+  Job Bank hiring resources / Ressources d'embauche du Guichet-Emplois
+    https://www.jobbank.gc.ca/hiring/resources
+    https://www.guichetemplois.gc.ca/embauche/ressources
+  Available workers / Travailleurs disponibles
+    https://www.jobbank.gc.ca/hiring/dashboard-available-workers
+    https://www.guichetemplois.gc.ca/embauche/
+      tableau-bord-travailleurs-disponibles
+  Training options / Options de formation
+    https://www.jobbank.gc.ca/career-planning/resources/
+      training-options-work-sharing-employers
+    https://www.guichetemplois.gc.ca/planification-carriere/ressources/
+      options-formation-employeurs-travail-partage
+  Support for workers / Soutien aux travailleurs
+    /en/department-finance/programs/international-trade-finance-policy/
+      canadas-response-us-tariffs/support-canadian-workers-employers.html
+    /fr/ministere-finances/programmes/
+      politiques-finances-echanges-internationaux/
+      reponse-canada-droits-douane-americains/
+      soutien-employeurs-et-travailleurs-canadiens.html
+
+French analytics path, captured in-browser
+  ServCan:CanadaStrongWizard:Main-d'oeuvre : maintien en poste, formation
+  ou embauche > Je dois former ou perfectionner mes employes actuels + Je
+  dois recruter et embaucher de nouveaux travailleurs > Quebec > De 1 a 5
+  millions de dollars > Foresterie et bois d'oeuvre
+  The prefix is unchanged: the live French page already reports under
+  ServCan:CanadaStrongWizard, so the two languages stay comparable and are
+  told apart by the answer text, as they were before.
+
+
+FRENCH SOURCES
+--------------
+  - Programme names and URLs for Travail partage, the Subvention pour le
+    maintien a l'emploi des travailleurs, the Reponse tarifaire pour la
+    main-d'oeuvre and the Programme de stages pratiques pour etudiants come
+    from the French wizard's own workforce panel.
+  - The three Guichet-Emplois links and Soutien aux travailleurs en reponse
+    aux droits de douane come from the "Soutien aux employeurs" section of
+    fr/campagne/uncanadafort/entreprises-industries.html.
+  - PMERMO's name, the 1 000 $ figure, the 4-to-152-week range and the
+    regional-development-agency delivery sentence come from the French
+    PMERMO page.
+  - Region, revenue and sector answer labels were lifted verbatim from the
+    French wizard's existing questions, abbr markup included.
+  - New-window text is the French page's own "(Ouvre l'emplacement dans un
+    nouvel onglet.)".
+  - One deliberate departure: entreprises-industries.html writes
+    "Guichet-Emploi" in one link title while its own body text and the site
+    itself use "Guichet-Emplois". The mockup uses "Guichet-Emplois".
