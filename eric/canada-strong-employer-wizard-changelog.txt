@@ -1,0 +1,279 @@
+CHANGELOG — "Find support for your business" wizard, employer expansion
+=======================================================================
+
+File produced : eric/canada-strong-employer-wizard.html
+Built from    : https://www.canada.ca/en/campaign/canadastrong/find-support-for-your-business.html
+                (retrieved 2026-09-10)
+New content    : https://www.canada.ca/en/campaign/canadastrong/businesses-industries.html#emp-sup
+sourced from    https://www.canada.ca/en/employment-social-development/services/workforce-retention-retraining-program.html
+Date           : 2026-09-10
+Revision       : 2 (see REVISION 2 at the foot of this file)
+
+
+SUMMARY
+-------
+The live wizard asks four questions (need > region > revenue > sector) and
+reveals matching program panels. Its "Workforce retention and retraining"
+branch ran through the same region/revenue/sector chain as the financing
+branches and ended in a single generic panel of four links.
+
+That branch has been replaced with a dedicated employer path of five
+questions: need > workforce situation > region > revenue > sector. The
+workforce-situation question is multi-select, because employers commonly
+face more than one of these situations at once, and each ticked situation
+opens its own panel of supports.
+
+Every employer support listed under the "Employer supports" heading on the
+businesses-industries page, plus the three programs described on the
+Workforce Retention and Retraining Program (WRRP) page, is now reachable.
+All nine destination URLs were checked and return HTTP 200.
+
+
+CHANGES IN ORDER
+----------------
+
+1. <base> element and provenance comment added to <head>
+   Added immediately after the opening <head> tag:
+     <base href="https://www.canada.ca/en/campaign/canadastrong/
+                 find-support-for-your-business.html"/>
+   The page's own relative asset and link URLs (WET/GCWeb CSS and JS, the
+   /en/... program links) therefore resolve against canada.ca when the file
+   is opened from disk. This matches the convention already used by
+   eric/services.html and eric/sign-in-online-account.html.
+
+2. Intro sentence extended
+   Was: "Answer four questions and we will show you the programs that fit
+        your need, region, size and sector."
+   Now: same sentence, plus "If you are an employer looking to keep, retrain
+        or hire workers, we will add a question about your workforce
+        situation, where you can select as many situations as apply."
+
+3. Question 1 prompt no longer names a total
+   Was: "Question 1 of 4: What do you need right now?"
+   Now: "Question 1: What do you need right now?"
+   Question 1 is shared by every branch and the branches are no longer all
+   the same length (four questions, or five on the employer branch), so the
+   total is not known until the need is chosen. Questions 2 onward still
+   name their branch total: "Question 3 of 4" on the financing, liquidity,
+   transformation and "All of the above" branches, "Question 3 of 5" on the
+   employer branch.
+
+4. Question 1, fourth option relabelled and re-pointed
+   Label  : "Workforce retention and retraining"
+         -> "Workforce: keeping, retraining or hiring workers"
+   Actions: still reveals #p-workforce-agnostic, but now appends
+            #q2-need-emp instead of #q2-need-wrk.
+   The other four options of question 1 are untouched.
+
+5. Retired question chain deleted (13 <div> blocks)
+   Removed as unreachable once question 1 re-points:
+     #q2-need-wrk
+     #q3-need-wrk-reg-atl | -qc | -on-n | -on-s | -pr | -bc | -nor
+     #q4-need-wrk-size-under1m | -1to5m | -5mplus | -large | -nonprofit
+   These were near-duplicates of the financing/liquidity/transformation
+   chains and produced no workforce-specific output.
+
+6. Four new question blocks added (before #q2-need-all)
+     #q2-need-emp  What is your workforce situation right now?  MULTI-SELECT
+     #q3-need-emp  Where is your business primarily located?    (7 answers)
+     #q4-need-emp  What is your annual revenue?                 (5 answers)
+     #q5-need-emp  What is your sector?                         (4 answers)
+   All five situations append the same #q3-need-emp, all seven regions
+   append the same #q4-need-emp, and all five revenue bands append the same
+   #q5-need-emp. This is the pattern the original page already uses for
+   #q4-need-fin-size-under1m, which is appended by all seven financing
+   region blocks. Thirteen deleted blocks are replaced by four.
+
+7. #q2-need-emp is rendered as checkboxes, not radios
+   "renderas":"checkbox" on the question config. Two consequences handled:
+
+   a. The append that renders question 3 sits in the question's own
+      "default" action list rather than on each answer. fieldflow runs
+      "default" once per change event but runs an answer's actions once per
+      selected answer, so leaving the append on the answers would have
+      appended question 3 once per box ticked.
+
+   b. Ticking or unticking a box re-runs the question, which tears down
+      questions 3 to 5 and collapses the results. That is the same reset
+      behaviour the radio questions already have, and it is correct - a new
+      situation can change what the later answers should surface - but it
+      does mean an employer who adds a situation late has to re-answer the
+      questions below it. The prompt says "Select all that apply" to push
+      the selections to the front.
+
+8. #p-workforce-agnostic rewritten
+   Was a four-link catch-all panel titled "Workforce retention and
+   retraining: open to all sectors". It is revealed by question 1, before
+   the situation is known, so it is now the two-link panel that is true for
+   every employer regardless of situation:
+     - Workforce Retention and Retraining Program (WRRP)   [NEW]
+     - Support for workers impacted by tariffs             [NEW here]
+   Its three former links (Work-Sharing, Worker Retention Grant, Workforce
+   Tariff Response) moved into the situation panels below, where they are
+   shown with the situations they actually apply to. Student Work Placement
+   moved to the hiring panel.
+
+9. Five situation panels added (new, class "wz-g wz-g-emp")
+     #p-emp-reduce     Cutting hours instead of cutting jobs
+     #p-emp-agreement  You already have a Work-Sharing agreement
+     #p-emp-train      Training and upskilling your current employees
+     #p-emp-hire       Recruiting and hiring new workers
+     #p-emp-layoff     If you have laid off workers or expect to
+   Each carries two or three links. Because the question is multi-select,
+   several of these can be on screen at once, so each programme is listed
+   in the one or two panels where it is genuinely the answer rather than in
+   every panel it touches. The reduce, agreement and train panels also
+   carry a one-sentence lead paragraph drawn from the WRRP page (the $1,000
+   per-employee training amount, the 4-to-152-week agreement range,
+   training in non-working hours).
+
+10. Size panel added
+    #p-emp-size-note  Based on the size of your business
+    A panel-default section with three list items, only one of which is
+    visible at a time:
+      under $1M / $1-5M / $5M+   WRRP delivered with the regional
+                                 development agencies for SMEs
+      $150M+                     larger enterprises deal directly with
+                                 Service Canada for Work-Sharing
+      non-profit                 eligible employer under the Student Work
+                                 Placement Program
+
+11. New CSS hook: .wz-emp-size-*
+    Question 4 of the employer branch reveals .wz-emp-size-under1m (and so
+    on) rather than the existing .wz-sz-size-under1m. The existing size
+    classes are revealed by question 3 of every other branch, so reusing
+    them would have made #p-emp-size-note appear in the financing, liquidity
+    and transformation results as well. The employer panels still carry
+    wz-g wz-g-sz so the existing reset actions hide them.
+
+12. Sector question reuses the existing sector hubs
+    #q5-need-emp offers the same four sectors as the other branches and
+    reveals the same #hub-forestry-and-lumber, #hub-steel-and-aluminum and
+    #hub-agriculture panels. "Other manufacturing and exporting" reveals no
+    hub, as on the other branches. No new sector panels were needed: none
+    of the employer supports vary by sector, but the sector hubs carry
+    employer-relevant material, in particular NRCan's "Support for forest
+    sector employers and workers".
+
+13. #ap-workforce-agnostic expanded (the "All of the above" path)
+    That path never asks the situation question, so its workforce panel now
+    lists all nine employer supports: WRRP, Work-Sharing, Worker Retention
+    Grant, Workforce Tariff Response, Student Work Placement, Job Bank
+    hiring resources, Job Bank available-workers dashboard, Job Bank
+    training options, and Support for workers impacted by tariffs.
+    Title changed to "Workforce retention, retraining and hiring: open to
+    all employers".
+
+14. Click-analytics script rewritten
+    The original script hard-coded QUESTIONS = 4, collected only
+    input[type='radio']:checked, and fired when exactly four radios were
+    checked. All three assumptions break on a five-question branch whose
+    second question is multi-select. Replaced with:
+
+    - End-of-branch detection instead of a question count. fieldflow
+      stamps data-wb-fieldflow-source="<source div id>" onto every fieldset
+      it renders and leaves the hidden source <div> in the document, so the
+      script looks the source up and treats the question as the end of its
+      branch when neither the question config nor any of its answers
+      contains an "append" action. No list of terminal questions to
+      maintain: adding or reordering questions needs no script change.
+    - Answer collection walks the fieldsets in order and joins each
+      question's checked controls, so a multi-select question contributes
+      one entry. Multiple answers to one question are joined with " + ",
+      keeping " > " as the between-questions separator.
+    - The listener now matches checkboxes as well as radios, and bails if
+      any question on screen has no answer.
+
+    Sample paths produced, both captured in-browser:
+      ServCan:CanadaStrongWizard:Liquidity for a tariff-driven cash-flow
+      gap > Quebec > Larger enterprise ($150 million or more) > Steel,
+      aluminium and copper
+
+      ServCan:CanadaStrongWizard:Workforce: keeping, retraining or hiring
+      workers > I need to reduce employee hours instead of laying people
+      off + I need to recruit and hire new workers > British Columbia >
+      Under $1 million > Agriculture, agri-food, fish and seafood
+
+15. "Start Over" link re-pointed
+    From /en/campaign/canadastrong/find-support-for-your-business.html to
+    canada-strong-employer-wizard.html, so restarting stays in the mockup
+    instead of jumping to the live page.
+
+
+NOT CHANGED
+-----------
+- The financing, liquidity, transformation and "All of the above" question
+  chains, and every sector, region and size panel they use. They remain
+  four questions and were re-tested against the rewritten analytics script.
+- The page header, footer, breadcrumb, feedback widget and page details.
+- The French page. This is an English-only mockup; a production change
+  would need the matching /fr/campagne/uncanadafort/ page.
+
+
+VERIFICATION PERFORMED
+----------------------
+- Every fieldflow #id and .class selector in the file resolves to an
+  element that exists; no orphan selectors, no leftover "need-wrk"
+  references.
+- All nine employer destination URLs return HTTP 200.
+- Loaded in a browser with the live WET/GCWeb assets and walked:
+  * the employer branch end to end, all five situations;
+  * multi-select with two situations ticked - both panels shown, and
+    question 3 appended exactly once rather than once per box;
+  * unticking one of two boxes - that panel hides, the other stays;
+  * back-editing question 2 after finishing - questions 3 to 5 torn down,
+    results collapsed, then rebuilt correctly on re-answering;
+  * size gating at $1-5M, $5M+, $150M+ and non-profit (one list item each);
+  * the sector question revealing the forestry and agriculture hubs;
+  * the liquidity branch, to confirm four-question branches still complete
+    and still fire analytics, and that no employer panel leaks into them;
+  * "All of the above", to confirm the expanded panel renders;
+  * the analytics attribute on both a four-question and a five-question
+    completion, including the multi-select join.
+
+
+KNOWN GAPS / SUGGESTED NEXT STEPS
+---------------------------------
+- Ticking an extra situation after reaching the results costs the employer
+  their region, revenue and sector answers. Preserving them would mean
+  moving the multi-select question to the end of the branch, or holding
+  state outside fieldflow.
+- Nothing stops an employer ticking both "I need to reduce employee hours
+  instead of laying people off" and "I already have a Work-Sharing
+  agreement in place", which are close to mutually exclusive. The two
+  panels overlap by one link (Worker Retention Grant) if they do.
+- Question totals are hard-coded in the prompt text, as on the live page.
+  Any change to a branch's length means editing those strings, though the
+  analytics script no longer needs to be touched.
+- WRRP is described on its own page as a future program. The wording in
+  the panels says so; it will need revisiting when the program launches
+  and the Work-Sharing and Worker Retention Grant pages are superseded.
+
+
+REVISION 2 (2026-09-10) — what changed from the first draft
+-----------------------------------------------------------
+- Sector question added back as question 5 of the employer branch, and the
+  employer branch renumbered from "of 4" to "of 5". Question 1's prompt
+  dropped its total. (items 3, 6, 12)
+- The two overlapping situations were reworded to separate current
+  employees from new hires:
+    "I need to retrain or upskill the workers I have"
+      -> "I need to train or upskill my current employees"
+    "I need to find, hire or keep the right workers"
+      -> "I need to recruit and hire new workers"
+  The word "keep" left the hiring option, since retention is what the
+  first two situations are about. Panel titles followed: "Retraining and
+  upskilling the workers you have" -> "Training and upskilling your
+  current employees", and "Finding, hiring and keeping the right workers"
+  -> "Recruiting and hiring new workers". Workforce Tariff Response left
+  the hiring panel, where it had been justified as training for new hires,
+  and now appears only in the training panel.
+- The situation question became multi-select. (item 7)
+- Panel contents were thinned so that two or three panels on screen at once
+  stay readable: WRRP now appears in the always-on panel and the training
+  panel rather than in four panels; the Job Bank training-options link was
+  removed from the reduce panel, where it did not belong, since it is for
+  employers who already hold an agreement; the available-workers dashboard
+  was removed from the layoff panel. (item 9)
+- The analytics script was rewritten, since a five-question branch with a
+  multi-select question broke every assumption in the original. (item 14)
