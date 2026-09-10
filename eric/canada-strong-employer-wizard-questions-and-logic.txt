@@ -1,0 +1,360 @@
+QUESTIONS AND LOGIC ADDED FOR EMPLOYER SUPPORTS
+===============================================
+
+File : eric/canada-strong-employer-wizard.html
+Date : 2026-09-10 (revision 2)
+
+This document covers only the employer path. The financing, liquidity,
+transformation and "All of the above" paths are unchanged from the live
+page and are not repeated here.
+
+
+HOW THE WIZARD MECHANISM WORKS
+------------------------------
+The page uses WET's wb-fieldflow plugin. There is no bespoke routing code.
+
+- Every question is a hidden <div> holding a <p> prompt and a <ul> of
+  answers. fieldflow renders it as a radio or checkbox fieldset.
+- Each answer <li> carries a data-wb-fieldflow list of actions:
+    removeClass  un-hide a result panel (by #id) or a set of list items
+                 (by .class)
+    append       render the next question, named by #id
+- Each question <div> carries a "default" action list. fieldflow runs it
+  once per change, before the selected answers' actions, and it re-hides
+  everything the questions below had revealed, so changing an earlier
+  answer cleanly resets the results.
+- Results stay inside #wz-results, which is itself hidden until the last
+  question of the branch is answered.
+
+Group classes used for reset:
+    wz-g        every result element (question 1 hides all of these)
+    wz-g-agn    sector-agnostic panels
+    wz-g-rda    the regional development agency line
+    wz-g-sz     size-conditional elements
+    wz-g-sec    sector panels and hubs
+    wz-g-emp    NEW - the employer situation panels
+    wz-emp-size-*  NEW - employer size gates, kept separate from the
+                   existing wz-sz-size-* so the employer size panel cannot
+                   appear in the financing/liquidity/transformation results
+
+
+THE PATH
+--------
+
+  Q1 need ──"Workforce: keeping, retraining or hiring workers"──> Q2
+  Q2 situation  MULTI-SELECT, 5 answers ────────────────────────> Q3
+  Q3 region     7 answers ──all seven append────────────────────> Q4
+  Q4 revenue    5 answers ──all five append─────────────────────> Q5
+  Q5 sector     4 answers ──reveals #wz-results──> results
+
+Five questions. Every other branch is still four. Question 1 is shared, so
+its prompt no longer names a total ("Question 1: What do you need right
+now?"); questions 2 onward say "of 5" on this branch and "of 4" elsewhere.
+
+
+QUESTION 1 — What do you need right now?
+----------------------------------------
+Unchanged except the fourth answer.
+
+  Answer  : "Workforce: keeping, retraining or hiring workers"
+            (was "Workforce retention and retraining")
+  Actions : removeClass #p-workforce-agnostic
+            append      #q2-need-emp        (was #q2-need-wrk)
+
+  #p-workforce-agnostic is the always-on panel for this branch. It holds
+  the two things true for every employer, whatever their situation:
+    - Workforce Retention and Retraining Program (WRRP)
+      /en/employment-social-development/services/
+        workforce-retention-retraining-program.html
+    - Support for workers impacted by tariffs
+      /en/department-finance/programs/international-trade-finance-policy/
+        canadas-response-us-tariffs/support-canadian-workers-employers.html
+
+
+QUESTION 2 (NEW) — What is your workforce situation right now?
+--------------------------------------------------------------
+Block id : #q2-need-emp
+Renders  : CHECKBOXES ("renderas":"checkbox"). Prompt ends "Select all
+           that apply."
+Default  : addClass hidden on ".wz-g-emp, .wz-g-rda, .wz-g-sz, .wz-g-sec"
+           and on "#wz-results"
+           append #q3-need-emp
+
+Why the append is in "default" and not on the answers: fieldflow runs a
+question's "default" once per change event, but runs an answer's actions
+once per selected answer. With the append on each answer, ticking three
+boxes would have rendered question 3 three times. In "default" it renders
+exactly once however many boxes are ticked. Verified in-browser: two boxes
+ticked produces three fieldsets, not four.
+
+Ticking or unticking a box re-runs the question, which tears questions 3
+to 5 down and collapses the results - the same reset the radio questions
+already do.
+
+This is the question that does the routing. Each ticked box opens one
+panel, and several panels can be on screen at once.
+
+A. "I need to reduce employee hours instead of laying people off"
+   reveals #p-emp-reduce
+   Panel: Cutting hours instead of cutting jobs
+     Work-Sharing Program                                        ESDC
+       /en/employment-social-development/services/work-sharing.html
+     Worker Retention Grant
+       (requires an approved Work-Sharing agreement)             ESDC
+       /en/employment-social-development/services/funding/
+         worker-retention-grant.html
+   Why: this is the situation Work-Sharing exists for, and the situation
+   WRRP is being built to replace it with. The lead sentence carries the
+   WRRP page's "up to $1,000 per participating employee" figure; the WRRP
+   link itself is in the always-on panel above.
+
+B. "I already have a Work-Sharing agreement in place"
+   reveals #p-emp-agreement
+   Panel: You already have a Work-Sharing agreement
+     Worker Retention Grant                                      ESDC
+     Training options while on Work-Sharing
+       (Training Finder and other resources)                 Job Bank
+       https://www.jobbank.gc.ca/career-planning/resources/
+         training-options-work-sharing-employers
+     Work-Sharing Program: agreement terms and flexibilities     ESDC
+   Why: the Worker Retention Grant and the Job Bank training-options page
+   both name an existing Work-Sharing agreement as their entry condition,
+   so this answer promotes them instead of burying them behind a
+   prerequisite note. Lead sentence carries the new 4-to-152-week range
+   and the uneven hour-sharing flexibility from the WRRP page.
+
+C. "I need to train or upskill my current employees"
+   reveals #p-emp-train
+   Panel: Training and upskilling your current employees
+     WRRP: up to $1,000 per participating employee               ESDC
+     Workforce Tariff Response - EI-funded LMDAs                 ESDC
+       /en/employment-social-development/programs/training-agreements/
+         workforce-tariff-response.html
+     Training options for employers (Training Finder)        Job Bank
+   Why: training money first, training tools second. Lead sentence
+   explains the WRRP mechanic - training happens in the non-working hours.
+
+D. "I need to recruit and hire new workers"
+   reveals #p-emp-hire
+   Panel: Recruiting and hiring new workers
+     Adapt to today's marketplace using Job Bank:
+       find, hire and retain workers                         Job Bank
+       https://www.jobbank.gc.ca/hiring/resources
+     Find workers with the right skills:
+       available workers by occupation                       Job Bank
+       https://www.jobbank.gc.ca/hiring/dashboard-available-workers
+     Student Work Placement Program:
+       wage subsidies to hire post-secondary students             ESDC
+       /en/employment-social-development/services/
+         student-work-placements-wage-subsidies.html
+   Why: this is the only answer that leads with the two Job Bank hiring
+   tools, which had no route into the live wizard at all.
+
+E. "I have laid off workers or expect to soon"
+   reveals #p-emp-layoff
+   Panel: If you have laid off workers or expect to
+     Support for workers impacted by tariffs               FIN / ESDC
+     Work-Sharing Program: avoid further layoffs                ESDC
+     Job Bank hiring resources: rehiring, redeployment and
+       employment standards                                 Job Bank
+   Why: an employer past the point of prevention needs the worker-facing
+   hub first (so they can point staff at it), then the tools to stop the
+   next round and to rehire.
+
+Keeping C and D apart. In the first draft these read "I need to retrain or
+upskill the workers I have" and "I need to find, hire or keep the right
+workers", which overlapped on both retention and skills. The split is now
+by who the worker is: C is about the people already on the payroll, D is
+about people not yet hired. "Keep" left D, since retention is what A and B
+are about. Workforce Tariff Response also left D - it had been listed
+there as training for new hires - so training programmes now sit only in
+C, and D is purely recruitment.
+
+Overlap between panels, now that several can show at once. Each programme
+is listed only where it is genuinely the answer:
+  Work-Sharing        A, B (terms), E (avoid further layoffs)
+  Worker Retention    A, B
+  WRRP                always-on panel, plus C for the $1,000
+  Job Bank training   B, C
+  Job Bank hiring     D, E
+The one duplicate a plausible pair of tick-boxes can produce is Worker
+Retention Grant, if an employer ticks both A and B - which are close to
+mutually exclusive in practice.
+
+
+QUESTION 3 (NEW) — Where is your business primarily located?
+-------------------------------------------------------------
+Block id : #q3-need-emp
+Default  : addClass hidden on ".wz-g-rda, .wz-g-sz, .wz-g-sec" and on
+           "#wz-results"
+
+Seven answers, the same regions the rest of the wizard uses. Each reveals
+the existing regional development agency line and appends the same Q4:
+
+  Atlantic (N.B., N.S., P.E.I., N.L.)  -> #rda-reg-atl   ACOA
+  Quebec                               -> #rda-reg-qc    CED
+  Northern Ontario (incl. Parry Sound) -> #rda-reg-on-n  FedNor
+  Southern and Eastern Ontario         -> #rda-reg-on-s  FedDev Ontario
+  Prairies (Man., Sask., Alta.)        -> #rda-reg-pr    PrairiesCan
+  British Columbia                     -> #rda-reg-bc    PacifiCan
+  The North (NU, N.W.T., Yk.)          -> #rda-reg-nor   CanNor
+
+  all seven: append #q4-need-emp
+
+Why region is still asked on this branch: the WRRP page states the
+program will be delivered in collaboration with the regional development
+agencies, so the RDA line is the employer's actual point of contact, not
+just a footnote. The existing #rda-reg-* elements are reused as-is.
+
+
+QUESTION 4 (NEW) — What is your annual revenue?
+------------------------------------------------
+Block id : #q4-need-emp
+Default  : addClass hidden on ".wz-g-sz, .wz-g-sec" and on "#wz-results"
+
+  Under $1 million             -> removeClass .wz-emp-size-under1m
+  $1 million to $5 million     -> removeClass .wz-emp-size-1to5m
+  $5 million or more           -> removeClass .wz-emp-size-5mplus
+  Larger enterprise ($150M+)   -> removeClass .wz-emp-size-large
+  Non-profit, association,
+    board of trade             -> removeClass .wz-emp-size-nonprofit
+
+  all five, additionally: append #q5-need-emp
+
+Size drives one panel, #p-emp-size-note ("Based on the size of your
+business"). The section itself carries all five wz-emp-size-* classes so
+it appears whatever the answer; its three list items are gated so exactly
+one shows:
+
+  wz-emp-size-under1m
+  wz-emp-size-1to5m      "WRRP is delivered with the regional development
+  wz-emp-size-5mplus      agencies so small and medium-sized enterprises
+                          can get help quickly"            -> WRRP page
+
+  wz-emp-size-large      "Larger enterprises work directly with Service
+                          Canada to set up a Work-Sharing agreement"
+                                                    -> Work-Sharing page
+
+  wz-emp-size-nonprofit  "Non-profits, associations and boards of trade
+                          are eligible employers under the Student Work
+                          Placement Program"                -> SWPP page
+
+Why a separate class family: question 3 of every other branch reveals
+.wz-sz-size-*, so reusing those classes would have surfaced this employer
+panel in the financing, liquidity and transformation results too. The
+panel still carries wz-g wz-g-sz, so the existing reset actions hide it.
+
+
+QUESTION 5 (NEW) — What is your sector?
+----------------------------------------
+Block id : #q5-need-emp
+Default  : addClass hidden on ".wz-g-sec"
+
+The same four sectors the other branches offer, revealing the same hubs:
+
+  Forestry and softwood lumber      -> #hub-forestry-and-lumber   NRCan
+  Steel, aluminium and copper       -> #hub-steel-and-aluminum    FIN
+  Agriculture, agri-food, fish and
+    seafood                         -> #hub-agriculture           AAFC
+  Other manufacturing and exporting -> (no hub)
+
+  all four, additionally: removeClass #wz-results  (show the results)
+
+No employer support varies by sector, so no new sector panels were built.
+The sector hubs are worth reaching anyway: NRCan's is titled "Support for
+forest sector employers and workers", AAFC's carries AgPal, and the steel
+hub carries the sector announcement. "Other manufacturing and exporting"
+reveals no hub, matching the other branches.
+
+
+WHAT THE EMPLOYER SEES AT THE END
+---------------------------------
+  1. #p-workforce-agnostic   WRRP + support for workers      (from Q1)
+  2. one #p-emp-* panel per ticked situation, in the order they appear
+     in the document, not the order ticked                   (from Q2)
+  3. #p-emp-size-note        one size-specific line          (from Q4)
+  4. #hub-*                  the sector hub, if any          (from Q5)
+  5. the standing "More options" panel  (unchanged: ISED supports-for-
+     business hub, support for Canadian workers, Business Benefits
+     Finder, 1 800 O-Canada)
+  6. #rda-reg-*              the regional development agency (from Q3)
+
+Worked example, verified in-browser:
+  Workforce > [reduce hours] + [recruit and hire] > British Columbia >
+  Under $1 million > Agriculture, agri-food, fish and seafood
+  shows the WRRP panel, the cutting-hours panel, the recruiting panel,
+  the SME/RDA delivery line, the agriculture hub, More options, and
+  PacifiCan.
+
+
+CLICK-ANALYTICS LOGIC
+---------------------
+The page's own script stamps the full answer path onto the control that
+completes the wizard. It had assumed every branch was four radio
+questions, which a five-question branch with a multi-select question
+breaks. Rewritten to:
+
+  End of branch  fieldflow puts data-wb-fieldflow-source="<source div id>"
+                 on each fieldset it renders and leaves the hidden source
+                 <div> in the document. The script looks the source up and
+                 treats the question as the end of its branch when neither
+                 the question config nor any of its answers contains an
+                 "append" action. No hard-coded question count, and no list
+                 of terminal questions to maintain.
+  Answers        walks the fieldsets in order and joins each question's
+                 checked controls, so a multi-select question contributes
+                 one entry. Answers within a question join with " + ",
+                 questions join with " > ".
+  Guard          bails if any question on screen has no answer, which is
+                 what happens if an employer unticks every box.
+
+Paths produced, both captured in-browser:
+
+  ServCan:CanadaStrongWizard:Liquidity for a tariff-driven cash-flow gap >
+  Quebec > Larger enterprise ($150 million or more) > Steel, aluminium and
+  copper
+
+  ServCan:CanadaStrongWizard:Workforce: keeping, retraining or hiring
+  workers > I need to reduce employee hours instead of laying people off +
+  I need to recruit and hire new workers > British Columbia > Under $1
+  million > Agriculture, agri-food, fish and seafood
+
+
+THE "ALL OF THE ABOVE" PATH
+---------------------------
+That path never asks the situation question, so its workforce panel
+(#ap-workforce-agnostic) was widened to carry all nine employer supports
+rather than the four it held before. No logic change - the panel is still
+revealed by the "All of the above" answer to question 1 through the
+.wz-apagn class.
+
+
+COVERAGE — every employer support and where it is reachable
+-----------------------------------------------------------
+From businesses-industries.html#emp-sup:
+
+  Adapt to today's marketplace using Job Bank        D, E, all-paths
+  Try the Student Work Placement Program             D, size:non-profit,
+                                                       all-paths
+  Training options (Work-Sharing employers)          B, C, all-paths
+  Find workers with the right skills                 D, all-paths
+  Support for workers impacted by tariffs            every employer path
+                                                       (Q1 panel), E,
+                                                       all-paths, and the
+                                                       standing More
+                                                       options panel
+
+From workforce-retention-retraining-program.html:
+
+  Workforce Retention and Retraining Program (WRRP)  every employer path
+                                                       (Q1 panel), C,
+                                                       size:SME,
+                                                       all-paths
+  Prevent layoffs with the Work-Sharing Program      A, B, E,
+                                                       size:$150M+,
+                                                       all-paths
+  Worker Retention Grant                             A, B, all-paths
+
+Also carried through from the live wizard:
+
+  Workforce Tariff Response - EI-funded LMDAs        C, all-paths
