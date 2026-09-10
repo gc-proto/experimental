@@ -28,17 +28,18 @@ Paths below are relative to this folder (`canada-strong/`), which is meant to be
 on and copied as a unit — see "This folder stands alone" below.
 
 ```
-_data/tariff_tool_links.csv    56 rows — every program, both languages, and its routing
+_data/tariff_tool_links.csv    57 rows — every program, both languages, and its routing
 _data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 113 tests over the files above
+_tests/                        the suite: 126 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
-`business-fr.html` is `business-en.html` with three lines changed — the data file it reads,
-and `NAME` / `URLF` pointing at the CSV's `name_fr` and `url_fr` columns. Keep them in step.
+`business-fr.html` is `business-en.html` with four lines changed — the data file it reads,
+and `NAME` / `URLF` / `ORGF` pointing at the CSV's `name_fr`, `url_fr` and `org_fr`
+columns. Keep them in step; `test_parity` normalises exactly those four and fails on a fifth.
 
 ## This folder stands alone
 
@@ -76,6 +77,7 @@ Nothing else decides what a combination returns.
 | `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and six of the seven RTRI rows (all but Quebec) use this today. |
 | `program_name` / `name_fr` | what the user sees. Blank `name_fr` falls back to English so a gap is visible, not silent. |
 | `url_en` / `url_fr` | where the link goes |
+| `org` / `org_fr` | the department credited after the link. Blank `org_fr` falls back to `org`, the same contract as `name_fr` — correct for the acronyms that do not change in French (BDC, EDC, CanNor, FedNor, PacifiCan, PrairiesCan, FIN, CED / DEC, CEEFC / CDEV, FedDev Ontario) and wrong for anything else. |
 | `status` | research confidence. `no-page` and `disputed` are **not rendered** — see below |
 | `note` | internal research notes. **Never rendered.** Say anything you like here. |
 | `slide_label` | what the original deck called it, for tracing back. Not used at build time. |
@@ -784,6 +786,76 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   the size logic already routed them correctly (`size-5mplus`, not `size-large`) before
   this, the ambiguity was in the label a person reads, not the routing. See LETL's `note`
   for the full criteria.
+
+- **The data files were matched back to the launched page (2026-09-10).** The tool
+  shipped as hand-maintained raw HTML rather than from this build, so the live page
+  became the source of truth for content while this folder kept the model. Matching one
+  to the other is a structural diff, not a read-through: render `_tests/preview.rb`
+  output, pull every panel down to `(panel id, program name, URL, org)` on both sides,
+  and diff those. Doing it by eye would have buried the four real changes under ~200
+  differences of markup convention — live rewrote the reveal mechanism (Bootstrap
+  `.hidden` plus fieldflow `removeClass` actions, panel `id`s instead of generated CSS
+  and `wz-` classes), writes canada.ca links root-relative, and renamed the org span to
+  `.text-muted`. None of that is content. What was:
+  - **The Strategic Response Fund now answers liquidity as well as transformation**, and
+    both URLs deep-link the tariff-relief section of its key investment priorities rather
+    than the programme front door. `liquidity` is named first, so the all-view files it
+    under Liquidity.
+  - **Finance Canada is now `FIN`**, the only org that had been written as a name rather
+    than an acronym.
+  - **English answer labels** took Canadian Press province abbreviations (`N.B.`,
+    `Man.`, `N.W.T.`), dropped the repeated "in annual revenue" the Q3 legend already
+    supplies, and changed "exporters" to "exporting". Q2 became "primarily located" —
+    which reverses the "mainly located" entry above, and incidentally brings English in
+    line with the French, which had always said "principalement".
+  - **French answer labels** were taken verbatim from live, including Q1 losing the
+    partitive. See the two flags below.
+
+  **`org_fr` is new, and the launch is what exposed the need for it.** One `org` column
+  served both languages, so the French page credited AAFC, NRCan, CBSA, GAC, ESDC, ACOA,
+  FCC and ISED with their English acronyms. Live fixed that by hand; the model could not
+  express it. `org_fr` is the French twin, same blank-falls-back contract as `name_fr`,
+  read through an `ORGF` indirection beside `NAME` and `URLF` at the top of each
+  template. 28 of 57 rows carry one. `test_org_fr_is_set_consistently_for_every_org`
+  guards the failure the fallback invites — one row filled in and its twin left blank,
+  which renders as the same department credited two ways on one page.
+
+  **Two things were deliberately not matched, and both are arguments for the model.**
+  - **The French sector-agnostic heading is inconsistent on the live page.** It reads
+    "tous les secteurs" under financing and liquidity, and still "tous secteurs
+    confondus" under transformation and workforce. In this folder that string is one
+    key, `labels.agnostic_suffix`, so the inconsistency is not reproducible — it is
+    "tous les secteurs" in all four. This is the clearest thing the launch demonstrated:
+    the edit was made twice by hand where four occurrences existed, and nothing caught it.
+  - **Three abbreviations were wrong, two in French and one in English**, and all three
+    are corrected here rather than matched. In French, `Î- P.-É` (stray space, no period
+    after `Î`, no final period) is now `Î.-P.-É.`, and `T.N.-O` is now `T.N.-O.`; `Nt`
+    and `Yn` were already the TERMIUM forms and stay. In English, `The North (NU, N.W.T.,
+    Yk.)` ran three conventions through three items — `NU` is a postal code, `N.W.T.` is
+    Canadian Press, and `Yk.` is neither (the postal code is `YT`, and CP spells Yukon
+    out; it looks worked backwards from the French `Yn`). It is now **`The North
+    (Nunavut, N.W.T., Yukon)`**, which is what CP does with the two territories that have
+    no settled short form.
+
+    The rest of the region labels were checked at the same time and are right as they
+    stand: `Man., Sask., Alta.` and `N.B., N.S., P.E.I., N.L.` are correct CP, and
+    `Man., Sask., Alb.` and `N.-B., N.-É., Î.-P.-É., T.-N.-L.` are correct TERMIUM.
+    Postal codes (`AB`, `SK`, `MB`) are a different register — addresses and tables, not
+    answer labels — so the pre-launch labels, which used them throughout, were the thing
+    that was actually off-style. Both languages now use the abbreviation where the style
+    guide has one and the full name where it does not, which is the rule that makes the
+    English and French lines agree convention-for-convention rather than word-for-word.
+
+  **What the match cost the French review.** The live Q1 answers are noun phrases again
+  — "Financement…", "Liquidités…", "Projet de…", "Rétention ou requalifications de la
+  main-d'œuvre", "Tout ce qui précède" — which undoes the tracked changes Samir Goulamaly
+  (DEC/CED) made, recorded in the French-review entry above. They no longer answer the
+  partitive question they sit under ("De quoi avez-vous besoin?"), and "requalifications"
+  is a third word for the thing he had already moved from "recyclage" to "reconversion".
+  Taken verbatim on direction, so the page and the data agree; the `needs:` heading for
+  workforce still says "reconversion", which is now the one place that wording survives.
+  If the review is ever reinstated, that entry has the reasoning and this one has what
+  replaced it.
 
 ## Next steps
 

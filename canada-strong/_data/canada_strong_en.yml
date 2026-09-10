@@ -20,7 +20,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 lang: en
-date_modified: "2026-09-04"
+date_modified: "2026-09-10"
 alt_lang_text: "Français"
 
 breadcrumbs:
@@ -125,7 +125,7 @@ business:
   title: "Find support for your business"
   description: "Answer four questions to get a shortlist of federal programs for businesses affected by United States tariffs."
   h1: "Find support for your business"
-  intro: "Answer four questions and we will show you the programs that fit your need, your region, your size and your sector."
+  intro: "Answer four questions and we will show you the programs that fit your need, region, size and sector."
   questions_heading: "Tell us about your business"
   results_heading: "Programs that match your answers"
   back_link: "Start over"
@@ -174,24 +174,24 @@ business:
         - {marker: need-all, label: "All of the above"}
 
     - id: question-2
-      legend: "Question 2 of 4: Where is your business mainly located?"
+      legend: "Question 2 of 4: Where is your business primarily located?"
       clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-3"
       options:
-        - {marker: reg-atl,  label: "Atlantic (NB, NS, PE, NL)"}
+        - {marker: reg-atl,  label: "Atlantic (N.B., N.S., P.E.I., N.L.)"}
         - {marker: reg-qc,   label: "Quebec"}
         - {marker: reg-on-n, label: "Northern Ontario (including Parry Sound)"}
         - {marker: reg-on-s, label: "Southern and Eastern Ontario"}
-        - {marker: reg-pr,   label: "Prairies (MB, SK, AB)"}
+        - {marker: reg-pr,   label: "Prairies (Man., Sask., Alta.)"}
         - {marker: reg-bc,   label: "British Columbia"}
-        - {marker: reg-nor,  label: "The North (NU, NT, YT)"}
+        - {marker: reg-nor,  label: "The North (Nunavut, N.W.T., Yukon)"}
 
     - id: question-3
       legend: "Question 3 of 4: What is your annual revenue?"
       clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-4"
       options:
-        - {marker: size-under1m, label: "Under $1 million in annual revenue"}
+        - {marker: size-under1m, label: "Under $1 million"}
         - {marker: size-1to5m,   label: "$1 million to $5 million"}
         - {marker: size-5mplus,  label: "$5 million or more"}
         - {marker: size-large,   label: "Larger enterprise ($150 million or more)"}
@@ -216,4 +216,4 @@ business:
         - {marker: sec-agri,     label: "Agriculture, agri-food, fish and seafood"}
         # Last on purpose: the only answer with no stream of its own, so it
         # reads as the catch-all it is rather than as one sector among four.
-        - {marker: sec-mfg,      label: "Other manufacturing and exporters"}
+        - {marker: sec-mfg,      label: "Other manufacturing and exporting"}

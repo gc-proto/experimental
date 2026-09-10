@@ -16,6 +16,7 @@ class TestParity < Minitest::Test
       .gsub(/canada_strong_(en|fr)\b/, 'canada_strong_LANG')
       .gsub(/assign NAME = "(program_name|name_fr)"/, 'assign NAME = "LANG"')
       .gsub(/assign URLF = "(url_en|url_fr)"/, 'assign URLF = "LANG"')
+      .gsub(/assign ORGF = "(org|org_fr)"/, 'assign ORGF = "LANG"')
       .gsub(/wet-(en|fr)\.js/, 'wet-LANG.js')
       .gsub(/(top|footer|preFooter|refTop|refFooter)-(en|fr)\.html/, '\1-LANG.html')
       .gsub(/(start|business)-(en|fr)\.html/, '\1-LANG.html')
