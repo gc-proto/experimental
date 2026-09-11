@@ -154,6 +154,23 @@ class TestCsvData < Minitest::Test
       "rows that render on the French page with no French name or URL"
   end
 
+  # org_fr is the French twin of org, and follows name_fr's contract: blank
+  # falls back to the English acronym. That fallback is correct for the orgs
+  # whose acronym is the same in both languages (BDC, EDC, CanNor, FedNor,
+  # PacifiCan, PrairiesCan, FIN, CED / DEC, CEEFC / CDEV, FedDev Ontario) and
+  # wrong for anything else, so an org that differs in French must say so on
+  # every row that carries it — one row filled in and its twin left blank is
+  # the drift this catches.
+  def test_org_fr_is_set_consistently_for_every_org
+    by_org = rows.reject { |r| r["org"].to_s.strip.empty? }.group_by { |r| r["org"] }
+    split = by_org.select do |_org, rs|
+      rs.map { |r| r["org_fr"].to_s.strip }.uniq.size > 1
+    end
+    assert_empty split.map { |org, rs|
+      "#{org}: " + rs.map { |r| "line #{line_of(r)} org_fr=#{r['org_fr'].inspect}" }.join(", ")
+    }, "the same org carries different org_fr values on different rows"
+  end
+
   # fr_source records the provenance of each French name; composed ones are the
   # rows still needing a French-language judgement call.
   def test_translated_rows_record_their_provenance

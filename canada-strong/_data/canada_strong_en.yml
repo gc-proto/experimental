@@ -20,14 +20,14 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 lang: en
-date_modified: "2026-09-04"
+date_modified: "2026-09-11"
 alt_lang_text: "Français"
 
 breadcrumbs:
   - title: "Canada.ca"
     href: "https://www.canada.ca/en.html"
-  - title: "Canada's response to US tariffs"
-    href: "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs.html"
+  - title: "Canada Strong"
+    href: "https://www.canada.ca/en/campaign/canadastrong.html"
 
 # ═══ VOCABULARY BRIDGE ═══════════════════════════════════════════════════════
 # Our answer markers on the left, the CSV's values on the right. Change a CSV
@@ -36,7 +36,8 @@ needs:
   - {marker: need-fin, csv: financing,      heading: "Financing"}
   - {marker: need-liq, csv: liquidity,      heading: "Liquidity"}
   - {marker: need-tra, csv: transformation, heading: "Transformation and capital projects"}
-  - {marker: need-wrk, csv: workforce,      heading: "Workforce retention and retraining"}
+  - {marker: need-wrk, csv: workforce,      heading: "Workforce retention and work-sharing"}
+  - {marker: need-hire, csv: hiring,        heading: "Retraining and hiring support"}
 
 # Sectors that have rows of their own in the CSV. Manufacturing and the
 # U.S.-exporter answer are deliberately absent: they have no sector-specific
@@ -90,6 +91,7 @@ sizes:
   - {marker: size-nonprofit, csv: "nonprofit"}
   - {marker: size-1to5m,     csv: "1to5m"}
   - {marker: size-5mplus,    csv: "5mplus"}
+  - {marker: size-20mplus,   csv: "20mplus"}
   - {marker: size-large,     csv: "large"}
 
 # CSV rows carrying these statuses are never rendered.
@@ -125,7 +127,7 @@ business:
   title: "Find support for your business"
   description: "Answer four questions to get a shortlist of federal programs for businesses affected by United States tariffs."
   h1: "Find support for your business"
-  intro: "Answer four questions and we will show you the programs that fit your need, your region, your size and your sector."
+  intro: "Answer four questions and we will show you the programs that fit your need, region, size and sector."
   questions_heading: "Tell us about your business"
   results_heading: "Programs that match your answers"
   back_link: "Start over"
@@ -164,36 +166,38 @@ business:
   questions:
     - id: question-1
       legend: "Question 1 of 4: What do you need right now?"
-      clears: "need-fin need-liq need-tra need-wrk need-all reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
+      clears: "need-fin need-liq need-tra need-wrk need-hire need-all reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-20mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-2"
       options:
         - {marker: need-fin, label: "Financing to keep operating or grow"}
         - {marker: need-liq, label: "Liquidity for a tariff-driven cash-flow gap"}
         - {marker: need-tra, label: "Transformation or capital project"}
-        - {marker: need-wrk, label: "Workforce retention and retraining"}
+        - {marker: need-wrk, label: "Workforce retention and work-sharing"}
+        - {marker: need-hire, label: "Retraining and hiring support"}
         - {marker: need-all, label: "All of the above"}
 
     - id: question-2
-      legend: "Question 2 of 4: Where is your business mainly located?"
-      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
+      legend: "Question 2 of 4: Where is your business primarily located?"
+      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-20mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-3"
       options:
-        - {marker: reg-atl,  label: "Atlantic (NB, NS, PE, NL)"}
+        - {marker: reg-atl,  label: "Atlantic (N.B., N.S., P.E.I., N.L.)"}
         - {marker: reg-qc,   label: "Quebec"}
         - {marker: reg-on-n, label: "Northern Ontario (including Parry Sound)"}
         - {marker: reg-on-s, label: "Southern and Eastern Ontario"}
-        - {marker: reg-pr,   label: "Prairies (MB, SK, AB)"}
+        - {marker: reg-pr,   label: "Prairies (Man., Sask., Alta.)"}
         - {marker: reg-bc,   label: "British Columbia"}
-        - {marker: reg-nor,  label: "The North (NU, NT, YT)"}
+        - {marker: reg-nor,  label: "The North (Nunavut, N.W.T., Yukon)"}
 
     - id: question-3
       legend: "Question 3 of 4: What is your annual revenue?"
-      clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
+      clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-20mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-4"
       options:
-        - {marker: size-under1m, label: "Under $1 million in annual revenue"}
+        - {marker: size-under1m, label: "Under $1 million"}
         - {marker: size-1to5m,   label: "$1 million to $5 million"}
-        - {marker: size-5mplus,  label: "$5 million or more"}
+        - {marker: size-5mplus,  label: "$5 million to $20 million"}
+        - {marker: size-20mplus, label: "More than $20 million"}
         - {marker: size-large,   label: "Larger enterprise ($150 million or more)"}
         # Last on purpose: it is not a revenue band, and sitting between the
         # bands it broke the reading order of the money answers.
@@ -214,6 +218,13 @@ business:
         - {marker: sec-forestry, label: "Forestry and softwood lumber"}
         - {marker: sec-steel,    label: "Steel, aluminium and copper"}
         - {marker: sec-agri,     label: "Agriculture, agri-food, fish and seafood"}
-        # Last on purpose: the only answer with no stream of its own, so it
-        # reads as the catch-all it is rather than as one sector among four.
-        - {marker: sec-mfg,      label: "Other manufacturing and exporters"}
+        # Last on purpose, and the only answer with no stream of its own: it
+        # stamps a marker that no `sectors:` entry names, so no sector panel is
+        # revealed and the visitor drops through to the sector-agnostic column,
+        # their region and the hubs — a full page of results, not an empty one.
+        #
+        # Named plainly because live visitors were reaching Q4, finding nothing
+        # that described them, and stopping. It is "none of the above" without
+        # the rejection; "Other manufacturing and exporting" was narrower than
+        # what it actually routes, and excluded the people most likely to need it.
+        - {marker: sec-mfg,      label: "Other"}

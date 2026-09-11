@@ -28,17 +28,18 @@ Paths below are relative to this folder (`canada-strong/`), which is meant to be
 on and copied as a unit — see "This folder stands alone" below.
 
 ```
-_data/tariff_tool_links.csv    56 rows — every program, both languages, and its routing
+_data/tariff_tool_links.csv    60 rows — every program, both languages, and its routing
 _data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 113 tests over the files above
+_tests/                        the suite: 136 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
-`business-fr.html` is `business-en.html` with three lines changed — the data file it reads,
-and `NAME` / `URLF` pointing at the CSV's `name_fr` and `url_fr` columns. Keep them in step.
+`business-fr.html` is `business-en.html` with four lines changed — the data file it reads,
+and `NAME` / `URLF` / `ORGF` pointing at the CSV's `name_fr`, `url_fr` and `org_fr`
+columns. Keep them in step; `test_parity` normalises exactly those four and fails on a fifth.
 
 ## This folder stands alone
 
@@ -70,12 +71,13 @@ Nothing else decides what a combination returns.
 
 | Column | Meaning |
 |---|---|
-| `need` | `financing`, `liquidity`, `transformation`, `workforce`, `all` for a hub shown under every need, or `featured` for the one promoted row that closes the More options panel. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
+| `need` | `financing`, `liquidity`, `transformation`, `workforce`, `hiring`, `all` for a hub shown under every need, or `featured` for the one promoted row that closes the More options panel. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
 | `region` | `national`, or one of the seven RDA regions |
-| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and six of the seven RTRI rows (all but Quebec) use this today. |
+| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `20mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and six of the seven RTRI rows (all but Quebec) use this today. |
 | `program_name` / `name_fr` | what the user sees. Blank `name_fr` falls back to English so a gap is visible, not silent. |
 | `url_en` / `url_fr` | where the link goes |
+| `org` / `org_fr` | the department credited after the link. Blank `org_fr` falls back to `org`, the same contract as `name_fr` — correct for the acronyms that do not change in French (BDC, EDC, CanNor, FedNor, PacifiCan, PrairiesCan, FIN, CED / DEC, CEEFC / CDEV, FedDev Ontario) and wrong for anything else. |
 | `status` | research confidence. `no-page` and `disputed` are **not rendered** — see below |
 | `note` | internal research notes. **Never rendered.** Say anything you like here. |
 | `slide_label` | what the original deck called it, for tracing back. Not used at build time. |
@@ -107,7 +109,7 @@ Results depend on **two answers at once** — the need and the sector — and a 
 option can only reveal one fixed target. So:
 
 1. Each answer stamps a **marker class** on `#wz-state`: `need-liq`, `sec-agri`,
-   `reg-on-s`, `size-1to5m`. Twenty-one markers, one per answer.
+   `reg-on-s`, `size-1to5m`. Twenty-three markers, one per answer.
 2. At build time the template groups the CSV into a panel per need × sector, per region,
    and per sector hub. Every panel is in the DOM, hidden by `.wz-r { display: none }`.
 3. It also generates one CSS rule per panel, which is what reveals it:
@@ -200,7 +202,7 @@ rendered row has ever had a blank org); both checks now guard the nil case first
 **The size match has to split on `;` before comparing, not use `contains` on the raw
 string.** Liquid's `contains` is substring matching against a string but exact-element
 matching against an array — `r.size | split: ";"` makes it an array first. With today's
-five size codes none is a substring of another, so the raw-string version happened to work,
+six size codes none is a substring of another, so the raw-string version happened to work,
 but it's the same class of bug as the blank check above: correct by accident, not by
 construction. `Expected.size_ok?` on the Ruby side already split and compared exactly; the
 template didn't match it until this was caught in review.
@@ -283,11 +285,18 @@ regional programs, so it's two separate answers (`reg-on-n`, `reg-on-s`), each m
 exactly one CSV region. One marker with `"Southern Ontario;Northern Ontario"` would show a
 Southern Ontario business FedNor's program too, and vice versa.
 
-Manufacturing is deliberately absent from `sectors:` — it has no sector-specific stream, so
-it sees the sector-agnostic results only. It is now the *only* Q4 answer like that, which
-makes it the one to reach for when a test needs a sector that reveals no sector panel;
-`test_letl_only_shows_for_size_large` and `test_steel_support_requires_at_least_1m_revenue`
-both do exactly that.
+"Other" (`sec-mfg`) is deliberately absent from `sectors:` — it has no sector-specific
+stream, so it stamps a marker no generated rule names and the visitor drops through to the
+sector-agnostic column, their region and the hubs. It is the *only* Q4 answer like that,
+which makes it the one to reach for when a test needs a sector that reveals no sector
+panel; `test_letl_only_shows_for_size_large` and
+`test_steel_support_requires_at_least_1m_revenue` both do exactly that.
+
+**Absent from `sectors:` is the mechanism, not an oversight.** Adding `sec-mfg` to that
+bridge would point it at a CSV sector and silently turn the catch-all into a fourth
+sector. The marker name still says `mfg` because renaming it would touch both YAML files,
+four `clears:` cascades and two tests to no visible effect — the label is what a visitor
+reads, and the label is "Other".
 
 There's a fourth bridge, `sizes:`, the same shape as the other three. It exists only for
 the rare CSV row that restricts itself by size (the `size` column above) — every row
@@ -367,7 +376,7 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 
 `_tests/README.md` says what each test file covers. In short:
 
-- **All 700 combinations** (140 need x region x sector, crossed with every size answer),
+- **All 1,008 combinations** (168 need x region x sector, crossed with every size answer),
   both languages. It parses the generated CSS back out of the
   page, works out which panels a set of answer markers reveals, and diffs the programs
   in them against the CSV — which it reads through a second, separate implementation of
@@ -403,7 +412,7 @@ find.
 
 Do **not** click through every combination: fieldflow re-renders on each answer and a
 backgrounded Chrome tab throttles timers hard enough that a click-driven sweep takes
-minutes and produces confusing intermediate states. The suite already covers all 700.
+minutes and produces confusing intermediate states. The suite already covers all 1,008.
 
 Click one full path by hand instead, watching `document.getElementById("wz-state").className`
 after each answer. Then change an earlier answer and confirm the cascade clears and the
@@ -706,7 +715,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   Benefits Finder** — "view or search all provincial and federal programs and services,
   including tariff support". The Finder was already a hub row; it is now the CSV's one
   `need: featured` row, which takes it out of the hub list and gives it its own line. `need:
-  featured` matches no question answer and carries no `size`, so it renders on all 700
+  featured` matches no question answer and carries no `size`, so it renders on all 1,008
   combinations — that is the point, and `test_exactly_one_featured_row_and_it_is_the_benefits_finder`
   pins it. Its URLs changed too, from the Finder's front door to the tariff-filtered
   `list-liste` view with ISED's token, so the link lands on programs rather than an empty
@@ -785,6 +794,325 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   this, the ambiguity was in the label a person reads, not the routing. See LETL's `note`
   for the full criteria.
 
+- **The data files were matched back to the launched page (2026-09-10).** The tool
+  shipped as hand-maintained raw HTML rather than from this build, so the live page
+  became the source of truth for content while this folder kept the model. Matching one
+  to the other is a structural diff, not a read-through: render `_tests/preview.rb`
+  output, pull every panel down to `(panel id, program name, URL, org)` on both sides,
+  and diff those. Doing it by eye would have buried the four real changes under ~200
+  differences of markup convention — live rewrote the reveal mechanism (Bootstrap
+  `.hidden` plus fieldflow `removeClass` actions, panel `id`s instead of generated CSS
+  and `wz-` classes), writes canada.ca links root-relative, and renamed the org span to
+  `.text-muted`. None of that is content. What was:
+  - **The Strategic Response Fund now answers liquidity as well as transformation**, and
+    both URLs deep-link the tariff-relief section of its key investment priorities rather
+    than the programme front door. `liquidity` is named first, so the all-view files it
+    under Liquidity.
+  - **Finance Canada is now `FIN`**, the only org that had been written as a name rather
+    than an acronym.
+  - **English answer labels** took Canadian Press province abbreviations (`N.B.`,
+    `Man.`, `N.W.T.`), dropped the repeated "in annual revenue" the Q3 legend already
+    supplies, and changed "exporters" to "exporting". Q2 became "primarily located" —
+    which reverses the "mainly located" entry above, and incidentally brings English in
+    line with the French, which had always said "principalement".
+  - **French answer labels** were taken verbatim from live, including Q1 losing the
+    partitive. See the two flags below.
+
+  **`org_fr` is new, and the launch is what exposed the need for it.** One `org` column
+  served both languages, so the French page credited AAFC, NRCan, CBSA, GAC, ESDC, ACOA,
+  FCC and ISED with their English acronyms. Live fixed that by hand; the model could not
+  express it. `org_fr` is the French twin, same blank-falls-back contract as `name_fr`,
+  read through an `ORGF` indirection beside `NAME` and `URLF` at the top of each
+  template. 28 of 57 rows carry one. `test_org_fr_is_set_consistently_for_every_org`
+  guards the failure the fallback invites — one row filled in and its twin left blank,
+  which renders as the same department credited two ways on one page.
+
+  **Two things were deliberately not matched, and both are arguments for the model.**
+  - **The French sector-agnostic heading is inconsistent on the live page.** It reads
+    "tous les secteurs" under financing and liquidity, and still "tous secteurs
+    confondus" under transformation and workforce. In this folder that string is one
+    key, `labels.agnostic_suffix`, so the inconsistency is not reproducible — it is
+    "tous les secteurs" in all four. This is the clearest thing the launch demonstrated:
+    the edit was made twice by hand where four occurrences existed, and nothing caught it.
+  - **Three abbreviations were wrong, two in French and one in English**, and all three
+    are corrected here rather than matched. In French, `Î- P.-É` (stray space, no period
+    after `Î`, no final period) is now `Î.-P.-É.`, and `T.N.-O` is now `T.N.-O.`; `Nt`
+    and `Yn` were already the TERMIUM forms and stay. In English, `The North (NU, N.W.T.,
+    Yk.)` ran three conventions through three items — `NU` is a postal code, `N.W.T.` is
+    Canadian Press, and `Yk.` is neither (the postal code is `YT`, and CP spells Yukon
+    out; it looks worked backwards from the French `Yn`). It is now **`The North
+    (Nunavut, N.W.T., Yukon)`**, which is what CP does with the two territories that have
+    no settled short form.
+
+    The rest of the region labels were checked at the same time and are right as they
+    stand: `Man., Sask., Alta.` and `N.B., N.S., P.E.I., N.L.` are correct CP, and
+    `Man., Sask., Alb.` and `N.-B., N.-É., Î.-P.-É., T.-N.-L.` are correct TERMIUM.
+    Postal codes (`AB`, `SK`, `MB`) are a different register — addresses and tables, not
+    answer labels — so the pre-launch labels, which used them throughout, were the thing
+    that was actually off-style. Both languages now use the abbreviation where the style
+    guide has one and the full name where it does not, which is the rule that makes the
+    English and French lines agree convention-for-convention rather than word-for-word.
+
+  **What the match cost the French review.** The live Q1 answers are noun phrases again
+  — "Financement…", "Liquidités…", "Projet de…", "Rétention ou requalifications de la
+  main-d'œuvre", "Tout ce qui précède" — which undoes the tracked changes Samir Goulamaly
+  (DEC/CED) made, recorded in the French-review entry above. They no longer answer the
+  partitive question they sit under ("De quoi avez-vous besoin?"), and "requalifications"
+  is a third word for the thing he had already moved from "recyclage" to "reconversion".
+  Taken verbatim on direction, so the page and the data agree; the `needs:` heading for
+  workforce still said "reconversion", which was then the one place that wording survived
+  — until retraining moved to the hiring answer on 2026-09-11 and took the last of it
+  with it. If the review is ever reinstated, that entry has the reasoning and this one
+  has what replaced it.
+
+- **The SRF row is named for the Canada Strong Diversification Fund, not its parent.**
+  The row renders as **"Canada Strong Diversification Fund (Strategic Response Fund)"** /
+  **"Fonds de diversification pour un Canada fort (Fonds de réponse stratégique)"**, and
+  links to the CSDF eligibility and expression-of-interest page. It was briefly left as
+  plain "Strategic Response Fund (SRF)" when the department asked for a link change only;
+  reading the SRF's own pages is what changed that.
+
+  **The SRF has three key investment priorities, and only one of them is ours** — Tariff
+  relief (the CSDF), Innovation, and the AI Compute Challenge. Naming the row after the
+  parent fund therefore pointed a tariff-affected visitor at something two-thirds
+  irrelevant to them, while linking to the tariff page anyway. The parent stays in
+  brackets because departmental news releases name the SRF, so someone searching that term
+  still finds the row.
+
+  **It is still one row.** There is no second thing to apply to: the CSDF is "delivered
+  through the Strategic Response Fund", with one SRF-level eligibility tool behind it. A
+  firm could pursue a tariff project and an innovation project, but it would do that by
+  choosing a Pillar in one application, not by picking between two funds.
+
+  **Mind the vocabulary if you go back to these pages — three axes, three words, and they
+  do not line up.** The eligibility tool divides the SRF into two **pillars** (Business
+  Innovation/Investment Attraction/Growth; Innovation Ecosystems). The priorities page
+  divides it into three **priorities** (the list above). The CSDF page divides *itself*
+  into two **streams** (adapting/pivoting/diversifying; capital maintenance). "Stream" is
+  the bottom layer; the CSDF sits at the middle one. Reading any one page alone makes the
+  other two layers invisible, which is how the row came to be named after the parent in
+  the first place.
+
+  **The $20M size gate is a proxy, and is knowingly left as one.** The CSDF page says it
+  "focuses primarily on proposals with eligible project costs of more than $20 million and
+  requests for federal contributions of $10 million or more" — that is **project cost**,
+  where Q3 asks **annual revenue**. A firm bringing a $20M project is rarely small, so the
+  gate is defensible, but it is not the stated criterion and should not be read as a
+  verified threshold. Raised with ISED on 2026-09-10; left in place pending their answer,
+  and a third candidate for the per-row criteria line in "Next steps".
+
+- **Q3 gained a sixth answer, and it exists for exactly one row.** "$5 million or more"
+  was split into **"$5 to $20 million"** and a new **"$20 million or more"**
+  (`size-20mplus`), placed before "Larger enterprise". The new band inherits everything
+  the old top band showed — all thirteen rows carrying `5mplus` are revenue *floors*, so
+  a $20M business qualifies for every one of them, and each gained `20mplus` alongside.
+  `test_the_20m_band_differs_from_5m_only_by_srf` pins that: across all 140 need × region
+  × sector combinations, the only program that differs between the two answers is SRF.
+
+  **SRF-CSDF is the row the band was added for.** It is now `size: 20mplus;large`, so it
+  shows only at the top two answers, and its existing `liquidity;transformation` need cell
+  already restricts it to Liquidity, Transformation and "All of the above" — no need
+  change was required. That works out to 6 need × size pairs × 7 regions × 4 sectors =
+  **168 of the 1,008 combinations**, and `test_srf_shows_only_at_20m_plus_and_large` checks
+  both halves: nothing outside those 168, and nothing missing inside them. This is a
+  decision test, not a data test — both sides would otherwise read the same CSV.
+
+  **The sweep is now 840 combinations**, up from 700, because it is driven off Q3's own
+  options. The count is restated in four places, all updated, and "twenty-one markers"
+  became twenty-two.
+
+  **Two thresholds still straddle a bucket, and one of them is new.** The entry above
+  ("Q3's buckets are not being redrawn") listed CED's $2M and EDC's $10M as thresholds
+  cutting through the middle of an answer rather than along its edge. The new split does
+  not fix either — **EDC's $10M now sits inside "$5 to $20 million"** instead of inside
+  "$5 million or more", which is the same problem one bucket narrower, and CED's $2M is
+  untouched inside "$1 million to $5 million". The per-row criteria line in "Next steps"
+  is still where that residue belongs.
+
+  **The English boundary labels were rewritten to match the French, not the other way
+  round.** As first drafted they were "$5 to $20 million" and "$20 million or more",
+  which disagreed with the French at the $20M boundary — "Plus de 20 millions" excludes a
+  business at exactly $20M, "or more" includes it — and dropped the unit off the first
+  figure, which the French carries on both. They are now **"$5 million to $20 million"**
+  and **"More than $20 million"**, so each band means the same thing in both languages:
+
+  | | English | French |
+  |---|---|---|
+  | | Under $1 million | Moins de 1 million de dollars |
+  | | $1 million to $5 million | De 1 à 5 millions de dollars |
+  | | $5 million to $20 million | De 5 à 20 millions de dollars |
+  | | More than $20 million | Plus de 20 millions de dollars |
+  | | Larger enterprise ($150 million or more) | Grande entreprise (150 millions de dollars ou plus) |
+
+  The French is the reference here because the DEC/CED reviewer had already settled this
+  question once on that side, changing "5 millions de dollars ou plus" to "Plus de 5
+  millions" so two adjacent bands would not both name the same figure — see the
+  French-review entry above. Applying his convention to English is what closed the $20M
+  gap; it was never an English-only decision.
+
+  **Two overlaps survive on purpose, both pre-dating this change.** "$1 million to $5
+  million" and "$5 million to $20 million" both contain exactly $5M — the reviewer's
+  "Plus de 5 millions" had removed that, and reintroducing a closed range at the bottom
+  of the new band brings it back in both languages. Writing it out ("More than $5 million
+  to $20 million" / "Plus de 5 à 20 millions") is accurate and reads badly, so it is left
+  as is. And "More than $20 million" and "Larger enterprise ($150 million or more)" both
+  describe a $200M business; that one is as old as the `size-large` answer, and is
+  tolerable because "Larger enterprise" reads as a category rather than a band. Neither
+  affects routing — a business landing in either bucket at those exact figures sees
+  nearly the same list — but both are labels a person reads, which is where the previous
+  round of this argument was won.
+
+- **Q4's catch-all is now just "Other", because live visitors were falling off it.**
+  People were reaching the last question, finding none of the four answers described
+  them, and stopping — a retailer, a haulier, a construction firm had nothing to pick.
+  The answer they needed already existed and was mislabelled: `sec-mfg` read "Other
+  manufacturing and exporting", which is far narrower than what it actually routes.
+  It routes *everything* that is not forestry, steel or agriculture.
+
+  **The label was the whole bug.** `sec-mfg` has no `sectors:` entry, so it stamps a
+  marker no generated rule matches, no sector panel opens, and the visitor gets the
+  sector-agnostic column, their region and the hubs — between 5 and 16 programs depending
+  on the need, never zero. That behaviour is unchanged; only the words are. Nothing in
+  the CSV, the bridges, the `clears:` cascades or the generated CSS moved, and the sweep
+  is still 840 combinations.
+
+  **A separate "Other sectors" answer was built first and then removed.** It worked — it
+  was a second marker with no `sectors:` entry, identical to `sec-mfg` across all 1,050
+  combinations the sweep then had — but two adjacent "Other" answers that route
+  identically ask the visitor to make a distinction that does not exist. One answer named
+  "Other" is both tidier and easier to choose, which is the same argument twice.
+
+  **"Other" is not "none of the above"**, which is what it literally is. That wording
+  reads as a rejection at the exact moment the tool should be helping, and the page
+  behind it is a full set of results, not an apology.
+
+  `test_the_catch_all_sector_never_shows_an_empty_page` is what survived the detour: the
+  fall-through is only acceptable while there is something to fall through *to*, in every
+  need x region x size, in both languages. It is the one guard that would have caught the
+  original problem if the original problem had been mechanical rather than editorial.
+
+- **Q1 gained a fifth need, "Retraining and hiring support", instead of a second
+  workforce question.** The department wanted the workforce side fleshed out, and the
+  `/eric/` employer-wizard draft proposed a new checkbox question — *"What is your
+  workforce situation right now? Select all that apply"* — with five answers covering
+  reduced hours, an existing Work-Sharing agreement, upskilling, hiring, and layoffs.
+  That draft was not taken, for four reasons in descending weight:
+
+  1. **It asks the visitor to self-diagnose eligibility.** "I already have a Work-Sharing
+     agreement in place" is a criterion, not a need. This wizard has backed away from
+     criteria-as-triage three times already — the "3 or more years operating" trim, the
+     removed U.S.-exporter answer, and the DM ruling out exposure thresholds — and each
+     entry above says why.
+  2. **It is a conditional fifth question**, shown only on the workforce branch, so
+     "Question 2 of 5" is true there and false on every other path. The four questions
+     are unconditional and the counter is honest.
+  3. **It is multi-select**, which breaks the one-marker-per-question model the `clears:`
+     cascade depends on.
+  4. **Four of its five panels re-sort programs already on the page.** Only three
+     destinations in the whole draft were new.
+
+  A fifth need is a real answer to "What do you need right now?", so it needed no new
+  mechanism at all: a `needs:` entry, a Q1 option, the marker in Q1's `clears:`, and rows
+  tagged `hiring`. "All of the above" picked it up for free.
+
+  **The answer shipped as "Recruit and hire new workers" and was renamed the next day.**
+  Recruiting on its own does not read as tariff support — it is the one thing in Q1 a
+  visitor could arrive at without a tariff problem, sitting under a heading that promises
+  help with one. Retraining moved across to join it on 2026-09-11, so the two people
+  answers are now **"Workforce retention and work-sharing"** and **"Retraining and hiring
+  support"**. That line is the one worth holding: the workforce answer is for keeping the
+  staff you have, the hiring answer is for the ones you do not have yet, whether you
+  train them or recruit them. The `csv` key is still `hiring`; only the label moved.
+
+  **It is the only Q1 answer that says "support", and that is the point.** The other four
+  name the thing you need — financing, liquidity, a project, retention — and let the page
+  supply the rest, because the h1 above them already says "Find support for your
+  business" / "Trouver du soutien pour votre entreprise". Hiring could not do that:
+  "Retraining and hiring workers" read as something the business was *doing*, which is
+  what made it the one answer a visitor could reach without a tariff problem. Naming the
+  support turns it back into something the government offers. The asymmetry with the
+  other four answers is the price, and it was paid deliberately. The French does the same
+  thing with the same word the French h1 uses — "Soutien à la requalification et à
+  l'embauche" — so the two languages are off-pattern in the same place, not two
+  different places.
+
+  **Three rows came across from the draft; one did not.** Job Bank's *Resources for
+  employers* and *Available Workers Dashboard* are `hiring`. Job Bank's *Training options
+  for Work-Sharing employers* is **`workforce`, not `hiring`** — and it stayed there on
+  2026-09-11 when the rest of retraining moved, which makes it the one row where the
+  prerequisite beats the subject. It is a retraining page, but it is only reachable by an
+  employer who already has an approved Work-Sharing agreement, so it reads as part of
+  that chain and sits directly below the Worker Retention Grant. Someone answering the
+  hiring question cannot act on it; someone answering the work-sharing question can. All
+  six URLs verified 200 in both languages on 2026-09-10.
+
+  **What moved with the word.** *Workforce Tariff Response — EI-funded LMDAs* is `hiring`
+  now: EI-funded skills training for tariff-affected workers, with no Work-Sharing
+  prerequisite holding it in the retention panel. That leaves the workforce answer as the
+  Work-Sharing chain and nothing else — Work-Sharing, the Worker Retention Grant that
+  requires it, and the training page that requires it.
+
+  **The Workforce Retention and Retraining Program (WRRP) is deliberately not a row.**
+  Its page is live but the programme is not: it is written in the future tense and says
+  plainly that "until the new Workforce Retention and Retraining Program comes into
+  effect, the Work-Sharing Program and the Worker Retention Grant will continue to
+  operate." Both of those are already in the wizard, so holding WRRP costs a visitor
+  nothing. Add the row when the programme starts, not when the page appears.
+
+  **The Student Work Placement Program was the first row to answer two *people* needs,
+  and held that for one day.** It shipped `workforce;hiring` — a wage subsidy *and* the
+  channel through which an employer takes on post-secondary students — on the same
+  first-need rule the RTRI and Pivot to Grow rows use. It is `hiring` alone as of
+  2026-09-11: once the workforce answer narrowed to retention and work-sharing, a subsidy
+  for taking on students who do not work there yet had nothing left to say to it. No row
+  bridges the two people needs now, which is the point of drawing the line where it is —
+  if one appears, the line is in the wrong place.
+
+  **The all-view's no-duplicates promise now has a direct test.** Eleven live rows name
+  two needs — all money pairs now — and every one of them is a chance for a program to
+  list twice under "All of the above". `test_no_program_ever_lists_twice` checks all
+  1,008 combinations in both languages. Confirmed to fail by disabling the all-view's
+  first-need filter, which is what the regression would actually look like. The row-level
+  pin that sat beside it named the Student Work Placement Program and went stale the day
+  that row became single-need; it is now two tests that pin the retention/retraining line
+  itself — `test_retraining_and_hiring_rows_are_not_under_retention` and
+  `test_the_work_sharing_training_page_stays_with_its_chain`.
+
+  **Q1's workforce answer names work-sharing, in lower case on purpose.** The answer is
+  "Workforce retention and work-sharing" / "Rétention ou travail partagé de la
+  main-d'œuvre". Work-sharing is the single most recognisable thing behind that answer
+  and every row in the panel now names it, so the cue belongs at the point where someone
+  is choosing rather than after they arrive. It is
+  **not** capitalised as the programme is, because the Work-Sharing Program is being
+  replaced by WRRP and will be renamed: the answer names an activity, at the same level
+  as retention and retraining, and survives that rename untouched. The capitalised
+  "Work-Sharing Program" still appears in the results, where it is the actual thing being
+  linked. Do not "correct" the label to match the programme name.
+
+  **The results headings match their answers again.** "Workforce retention and
+  retraining" was deliberately left mismatched with its answer for a day, on the grounds
+  that the heading already carries the ": open to all sectors" suffix and runs long in
+  French. Moving retraining out settled it: the heading could not keep a word the answer
+  no longer had, so it is "Workforce retention and work-sharing" / "Maintien en poste et
+  travail partagé de la main-d'œuvre", and the new one is "Retraining and hiring support"
+  / "Soutien à la requalification et à l'embauche". The answer-to-heading mismatch
+  flagged on the live French page above is now gone from both languages.
+
+  **"Reconversion" is out of the French file.** It survived in exactly one place — the
+  `needs:` heading for workforce — after the live Q1 answers were taken verbatim, as the
+  French-review entry above records. That heading is about work-sharing now, and the
+  heading that replaced it as the retraining one reads "Requalification", matching its
+  own Q1 answer word for word rather than preserving a word the answers had already
+  dropped. Samir Goulamaly's (DEC/CED) reasoning for "reconversion" over "recyclage" is
+  still in that entry; the wizard no longer uses either.
+
+  **What the draft had that this does not.** Its Work-Sharing answer surfaced the
+  *prerequisite chain* — that the Worker Retention Grant and the Job Bank training page
+  both require an approved Work-Sharing agreement. Here that lives in the rendered name,
+  "Worker Retention Grant (prerequisite: Work-Sharing Program)", with the rows ordered so
+  Work-Sharing reads first. Less prominent, and the fuller answer is the per-row criteria
+  line in "Next steps" — which this adds a third and fourth row to.
+
 ## Next steps
 
 1. **Spot-check the seven composed French names.** 41 of 49 were read off the live French
@@ -812,11 +1140,16 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    criteria below.
 4. **Build the per-row criteria line.** A new CSV column (plus a French twin) rendered as
    small text under the program name, for the eligibility that size gates cannot express.
-   Wanted by at least three rows today: CED's Quebec RTRI ($2M, <500 employees,
+   Wanted by at least six rows today: CED's Quebec RTRI ($2M, <500 employees,
    manufacturing), EDC direct lending ($10M inside the `5mplus` bucket, and a $1M minimum
-   draw), and BDC's Pivot to Grow Loan (3 years in business, positive cash flow, 15% U.S.
-   export share). Each is currently a `note` no visitor will ever read. This is the single
-   highest-value thing left in this list — every straddled bucket above resolves to it.
+   draw), BDC's Pivot to Grow Loan (3 years in business, positive cash flow, 15% U.S.
+   export share), and — added with the hiring need — the Worker Retention Grant and Job
+   Bank's Work-Sharing training page, which both require an approved Work-Sharing
+   agreement no Q3 answer can express, and the Canada Strong Diversification Fund, whose
+   real threshold is a $20M *project cost* rather than the annual revenue Q3 asks about. Each is currently a `note` no visitor will ever
+   read. This is the single highest-value thing left in this list — every straddled bucket
+   above resolves to it, and so does the prerequisite chain the `/eric/` draft tried to
+   solve with a whole extra question.
 5. **Report the AAFC language-toggle bug.** One note records that the French AAFC hub's
    English toggle targets a 404. That is a live Canada.ca defect, unrelated to this work.
 6. **Add amount, term and repayment** once the figures exist — new CSV columns and a line
