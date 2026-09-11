@@ -26,8 +26,8 @@ alt_lang_text: "Français"
 breadcrumbs:
   - title: "Canada.ca"
     href: "https://www.canada.ca/en.html"
-  - title: "Canada's response to US tariffs"
-    href: "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs.html"
+  - title: "Canada Strong"
+    href: "https://www.canada.ca/en/campaign/canadastrong.html"
 
 # ═══ VOCABULARY BRIDGE ═══════════════════════════════════════════════════════
 # Our answer markers on the left, the CSV's values on the right. Change a CSV
@@ -37,7 +37,7 @@ needs:
   - {marker: need-liq, csv: liquidity,      heading: "Liquidity"}
   - {marker: need-tra, csv: transformation, heading: "Transformation and capital projects"}
   - {marker: need-wrk, csv: workforce,      heading: "Workforce retention and work-sharing"}
-  - {marker: need-hire, csv: hiring,        heading: "Retraining and hiring workers"}
+  - {marker: need-hire, csv: hiring,        heading: "Retraining and hiring support"}
 
 # Sectors that have rows of their own in the CSV. Manufacturing and the
 # U.S.-exporter answer are deliberately absent: they have no sector-specific
@@ -173,7 +173,7 @@ business:
         - {marker: need-liq, label: "Liquidity for a tariff-driven cash-flow gap"}
         - {marker: need-tra, label: "Transformation or capital project"}
         - {marker: need-wrk, label: "Workforce retention and work-sharing"}
-        - {marker: need-hire, label: "Retraining and hiring workers"}
+        - {marker: need-hire, label: "Retraining and hiring support"}
         - {marker: need-all, label: "All of the above"}
 
     - id: question-2

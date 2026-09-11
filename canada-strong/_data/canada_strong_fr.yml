@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────────────────────────────────────
-# Outil de soutien tarifaire Canada fort — texte de l'interface en français.
+# Outil de soutien tarifaire de la campagne Un Canada fort — texte de l'interface en français.
 #
 # CE FICHIER CONTIENT DES MOTS, PAS DES PROGRAMMES.
 #
@@ -19,8 +19,8 @@ alt_lang_text: "English"
 breadcrumbs:
   - title: "Canada.ca"
     href: "https://www.canada.ca/fr.html"
-  - title: "Réponse du Canada aux droits de douane américains"
-    href: "https://www.canada.ca/fr/ministere-finances/programmes/politiques-finances-echanges-internationaux/reponse-canada-droits-douane-americains.html"
+  - title: "Un Canada fort"
+    href: "https://www.canada.ca/fr/campagne/uncanadafort.html"
 
 # ═══ PONT DE VOCABULAIRE ═════════════════════════════════════════════════════
 # Nos marqueurs de réponse à gauche, les valeurs du CSV à droite. Les valeurs
@@ -30,7 +30,7 @@ needs:
   - {marker: need-liq, csv: liquidity,      heading: "Liquidités"}
   - {marker: need-tra, csv: transformation, heading: "Transformation et projets d'immobilisations"}
   - {marker: need-wrk, csv: workforce,      heading: "Maintien en poste et travail partagé de la main-d'œuvre"}
-  - {marker: need-hire, csv: hiring,        heading: "Requalification et embauche de la main-d'œuvre"}
+  - {marker: need-hire, csv: hiring,        heading: "Soutien à la requalification et à l'embauche"}
 
 # La dernière réponse de la question 1 n'est pas un besoin en soi — elle
 # affiche tous les besoins à la fois. Elle n'a pas d'entrée dans `needs:` (cette
@@ -156,7 +156,7 @@ business:
         - {marker: need-liq, label: "Liquidités pour combler un manque de trésorerie causé par les droits de douane"}
         - {marker: need-tra, label: "Projet de transformation ou d'immobilisations"}
         - {marker: need-wrk, label: "Rétention ou travail partagé de la main-d'œuvre"}
-        - {marker: need-hire, label: "Requalification et embauche de travailleurs"}
+        - {marker: need-hire, label: "Soutien à la requalification et à l'embauche"}
         - {marker: need-all, label: "Tout ce qui précède"}
 
     - id: question-2

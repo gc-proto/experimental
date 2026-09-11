@@ -991,7 +991,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   need x region x size, in both languages. It is the one guard that would have caught the
   original problem if the original problem had been mechanical rather than editorial.
 
-- **Q1 gained a fifth need, "Retraining and hiring workers", instead of a second
+- **Q1 gained a fifth need, "Retraining and hiring support", instead of a second
   workforce question.** The department wanted the workforce side fleshed out, and the
   `/eric/` employer-wizard draft proposed a new checkbox question — *"What is your
   workforce situation right now? Select all that apply"* — with five answers covering
@@ -1020,9 +1020,21 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   visitor could arrive at without a tariff problem, sitting under a heading that promises
   help with one. Retraining moved across to join it on 2026-09-11, so the two people
   answers are now **"Workforce retention and work-sharing"** and **"Retraining and hiring
-  workers"**. That line is the one worth holding: the workforce answer is for keeping the
+  support"**. That line is the one worth holding: the workforce answer is for keeping the
   staff you have, the hiring answer is for the ones you do not have yet, whether you
   train them or recruit them. The `csv` key is still `hiring`; only the label moved.
+
+  **It is the only Q1 answer that says "support", and that is the point.** The other four
+  name the thing you need — financing, liquidity, a project, retention — and let the page
+  supply the rest, because the h1 above them already says "Find support for your
+  business" / "Trouver du soutien pour votre entreprise". Hiring could not do that:
+  "Retraining and hiring workers" read as something the business was *doing*, which is
+  what made it the one answer a visitor could reach without a tariff problem. Naming the
+  support turns it back into something the government offers. The asymmetry with the
+  other four answers is the price, and it was paid deliberately. The French does the same
+  thing with the same word the French h1 uses — "Soutien à la requalification et à
+  l'embauche" — so the two languages are off-pattern in the same place, not two
+  different places.
 
   **Three rows came across from the draft; one did not.** Job Bank's *Resources for
   employers* and *Available Workers Dashboard* are `hiring`. Job Bank's *Training options
@@ -1082,8 +1094,8 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   that the heading already carries the ": open to all sectors" suffix and runs long in
   French. Moving retraining out settled it: the heading could not keep a word the answer
   no longer had, so it is "Workforce retention and work-sharing" / "Maintien en poste et
-  travail partagé de la main-d'œuvre", and the new one is "Retraining and hiring workers"
-  / "Requalification et embauche de la main-d'œuvre". The answer-to-heading mismatch
+  travail partagé de la main-d'œuvre", and the new one is "Retraining and hiring support"
+  / "Soutien à la requalification et à l'embauche". The answer-to-heading mismatch
   flagged on the live French page above is now gone from both languages.
 
   **"Reconversion" is out of the French file.** It survived in exactly one place — the

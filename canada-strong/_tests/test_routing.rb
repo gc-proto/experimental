@@ -477,7 +477,7 @@ class TestRouting < Minitest::Test
   # of criteria-as-triage this wizard has backed away from three times.
   #
   # The line moved on 2026-09-11: retraining left the workforce answer for the
-  # hiring one, which is now "Retraining and hiring workers", leaving workforce
+  # hiring one, which is now "Retraining and hiring support", leaving workforce
   # as retention and work-sharing. These two rows are what that line is made
   # of, and they are the two that would move back first if it eroded.
   %w[en fr].each do |lang|
