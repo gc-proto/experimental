@@ -74,7 +74,7 @@ Nothing else decides what a combination returns.
 | `need` | `financing`, `liquidity`, `transformation`, `workforce`, `all` for a hub shown under every need, or `featured` for the one promoted row that closes the More options panel. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
 | `region` | `national`, or one of the seven RDA regions |
-| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and six of the seven RTRI rows (all but Quebec) use this today. |
+| `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `20mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and six of the seven RTRI rows (all but Quebec) use this today. |
 | `program_name` / `name_fr` | what the user sees. Blank `name_fr` falls back to English so a gap is visible, not silent. |
 | `url_en` / `url_fr` | where the link goes |
 | `org` / `org_fr` | the department credited after the link. Blank `org_fr` falls back to `org`, the same contract as `name_fr` — correct for the acronyms that do not change in French (BDC, EDC, CanNor, FedNor, PacifiCan, PrairiesCan, FIN, CED / DEC, CEEFC / CDEV, FedDev Ontario) and wrong for anything else. |
@@ -109,7 +109,7 @@ Results depend on **two answers at once** — the need and the sector — and a 
 option can only reveal one fixed target. So:
 
 1. Each answer stamps a **marker class** on `#wz-state`: `need-liq`, `sec-agri`,
-   `reg-on-s`, `size-1to5m`. Twenty-one markers, one per answer.
+   `reg-on-s`, `size-1to5m`. Twenty-two markers, one per answer.
 2. At build time the template groups the CSV into a panel per need × sector, per region,
    and per sector hub. Every panel is in the DOM, hidden by `.wz-r { display: none }`.
 3. It also generates one CSS rule per panel, which is what reveals it:
@@ -202,7 +202,7 @@ rendered row has ever had a blank org); both checks now guard the nil case first
 **The size match has to split on `;` before comparing, not use `contains` on the raw
 string.** Liquid's `contains` is substring matching against a string but exact-element
 matching against an array — `r.size | split: ";"` makes it an array first. With today's
-five size codes none is a substring of another, so the raw-string version happened to work,
+six size codes none is a substring of another, so the raw-string version happened to work,
 but it's the same class of bug as the blank check above: correct by accident, not by
 construction. `Expected.size_ok?` on the Ruby side already split and compared exactly; the
 template didn't match it until this was caught in review.
@@ -285,11 +285,18 @@ regional programs, so it's two separate answers (`reg-on-n`, `reg-on-s`), each m
 exactly one CSV region. One marker with `"Southern Ontario;Northern Ontario"` would show a
 Southern Ontario business FedNor's program too, and vice versa.
 
-Manufacturing is deliberately absent from `sectors:` — it has no sector-specific stream, so
-it sees the sector-agnostic results only. It is now the *only* Q4 answer like that, which
-makes it the one to reach for when a test needs a sector that reveals no sector panel;
-`test_letl_only_shows_for_size_large` and `test_steel_support_requires_at_least_1m_revenue`
-both do exactly that.
+"Other" (`sec-mfg`) is deliberately absent from `sectors:` — it has no sector-specific
+stream, so it stamps a marker no generated rule names and the visitor drops through to the
+sector-agnostic column, their region and the hubs. It is the *only* Q4 answer like that,
+which makes it the one to reach for when a test needs a sector that reveals no sector
+panel; `test_letl_only_shows_for_size_large` and
+`test_steel_support_requires_at_least_1m_revenue` both do exactly that.
+
+**Absent from `sectors:` is the mechanism, not an oversight.** Adding `sec-mfg` to that
+bridge would point it at a CSV sector and silently turn the catch-all into a fourth
+sector. The marker name still says `mfg` because renaming it would touch both YAML files,
+four `clears:` cascades and two tests to no visible effect — the label is what a visitor
+reads, and the label is "Other".
 
 There's a fourth bridge, `sizes:`, the same shape as the other three. It exists only for
 the rare CSV row that restricts itself by size (the `size` column above) — every row
@@ -369,7 +376,7 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 
 `_tests/README.md` says what each test file covers. In short:
 
-- **All 700 combinations** (140 need x region x sector, crossed with every size answer),
+- **All 840 combinations** (140 need x region x sector, crossed with every size answer),
   both languages. It parses the generated CSS back out of the
   page, works out which panels a set of answer markers reveals, and diffs the programs
   in them against the CSV — which it reads through a second, separate implementation of
@@ -405,7 +412,7 @@ find.
 
 Do **not** click through every combination: fieldflow re-renders on each answer and a
 backgrounded Chrome tab throttles timers hard enough that a click-driven sweep takes
-minutes and produces confusing intermediate states. The suite already covers all 700.
+minutes and produces confusing intermediate states. The suite already covers all 840.
 
 Click one full path by hand instead, watching `document.getElementById("wz-state").className`
 after each answer. Then change an earlier answer and confirm the cascade clears and the
@@ -708,7 +715,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   Benefits Finder** — "view or search all provincial and federal programs and services,
   including tariff support". The Finder was already a hub row; it is now the CSV's one
   `need: featured` row, which takes it out of the hub list and gives it its own line. `need:
-  featured` matches no question answer and carries no `size`, so it renders on all 700
+  featured` matches no question answer and carries no `size`, so it renders on all 840
   combinations — that is the point, and `test_exactly_one_featured_row_and_it_is_the_benefits_finder`
   pins it. Its URLs changed too, from the Finder's front door to the tariff-filtered
   `list-liste` view with ISED's token, so the link lands on programs rather than an empty
@@ -856,6 +863,96 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   workforce still says "reconversion", which is now the one place that wording survives.
   If the review is ever reinstated, that entry has the reasoning and this one has what
   replaced it.
+
+- **Q3 gained a sixth answer, and it exists for exactly one row.** "$5 million or more"
+  was split into **"$5 to $20 million"** and a new **"$20 million or more"**
+  (`size-20mplus`), placed before "Larger enterprise". The new band inherits everything
+  the old top band showed — all thirteen rows carrying `5mplus` are revenue *floors*, so
+  a $20M business qualifies for every one of them, and each gained `20mplus` alongside.
+  `test_the_20m_band_differs_from_5m_only_by_srf` pins that: across all 140 need × region
+  × sector combinations, the only program that differs between the two answers is SRF.
+
+  **SRF-CSDF is the row the band was added for.** It is now `size: 20mplus;large`, so it
+  shows only at the top two answers, and its existing `liquidity;transformation` need cell
+  already restricts it to Liquidity, Transformation and "All of the above" — no need
+  change was required. That works out to 6 need × size pairs × 7 regions × 4 sectors =
+  **168 of the 840 combinations**, and `test_srf_shows_only_at_20m_plus_and_large` checks
+  both halves: nothing outside those 168, and nothing missing inside them. This is a
+  decision test, not a data test — both sides would otherwise read the same CSV.
+
+  **The sweep is now 840 combinations**, up from 700, because it is driven off Q3's own
+  options. The count is restated in four places, all updated, and "twenty-one markers"
+  became twenty-two.
+
+  **Two thresholds still straddle a bucket, and one of them is new.** The entry above
+  ("Q3's buckets are not being redrawn") listed CED's $2M and EDC's $10M as thresholds
+  cutting through the middle of an answer rather than along its edge. The new split does
+  not fix either — **EDC's $10M now sits inside "$5 to $20 million"** instead of inside
+  "$5 million or more", which is the same problem one bucket narrower, and CED's $2M is
+  untouched inside "$1 million to $5 million". The per-row criteria line in "Next steps"
+  is still where that residue belongs.
+
+  **The English boundary labels were rewritten to match the French, not the other way
+  round.** As first drafted they were "$5 to $20 million" and "$20 million or more",
+  which disagreed with the French at the $20M boundary — "Plus de 20 millions" excludes a
+  business at exactly $20M, "or more" includes it — and dropped the unit off the first
+  figure, which the French carries on both. They are now **"$5 million to $20 million"**
+  and **"More than $20 million"**, so each band means the same thing in both languages:
+
+  | | English | French |
+  |---|---|---|
+  | | Under $1 million | Moins de 1 million de dollars |
+  | | $1 million to $5 million | De 1 à 5 millions de dollars |
+  | | $5 million to $20 million | De 5 à 20 millions de dollars |
+  | | More than $20 million | Plus de 20 millions de dollars |
+  | | Larger enterprise ($150 million or more) | Grande entreprise (150 millions de dollars ou plus) |
+
+  The French is the reference here because the DEC/CED reviewer had already settled this
+  question once on that side, changing "5 millions de dollars ou plus" to "Plus de 5
+  millions" so two adjacent bands would not both name the same figure — see the
+  French-review entry above. Applying his convention to English is what closed the $20M
+  gap; it was never an English-only decision.
+
+  **Two overlaps survive on purpose, both pre-dating this change.** "$1 million to $5
+  million" and "$5 million to $20 million" both contain exactly $5M — the reviewer's
+  "Plus de 5 millions" had removed that, and reintroducing a closed range at the bottom
+  of the new band brings it back in both languages. Writing it out ("More than $5 million
+  to $20 million" / "Plus de 5 à 20 millions") is accurate and reads badly, so it is left
+  as is. And "More than $20 million" and "Larger enterprise ($150 million or more)" both
+  describe a $200M business; that one is as old as the `size-large` answer, and is
+  tolerable because "Larger enterprise" reads as a category rather than a band. Neither
+  affects routing — a business landing in either bucket at those exact figures sees
+  nearly the same list — but both are labels a person reads, which is where the previous
+  round of this argument was won.
+
+- **Q4's catch-all is now just "Other", because live visitors were falling off it.**
+  People were reaching the last question, finding none of the four answers described
+  them, and stopping — a retailer, a haulier, a construction firm had nothing to pick.
+  The answer they needed already existed and was mislabelled: `sec-mfg` read "Other
+  manufacturing and exporting", which is far narrower than what it actually routes.
+  It routes *everything* that is not forestry, steel or agriculture.
+
+  **The label was the whole bug.** `sec-mfg` has no `sectors:` entry, so it stamps a
+  marker no generated rule matches, no sector panel opens, and the visitor gets the
+  sector-agnostic column, their region and the hubs — between 5 and 16 programs depending
+  on the need, never zero. That behaviour is unchanged; only the words are. Nothing in
+  the CSV, the bridges, the `clears:` cascades or the generated CSS moved, and the sweep
+  is still 840 combinations.
+
+  **A separate "Other sectors" answer was built first and then removed.** It worked — it
+  was a second marker with no `sectors:` entry, identical to `sec-mfg` across all 1,050
+  combinations the sweep then had — but two adjacent "Other" answers that route
+  identically ask the visitor to make a distinction that does not exist. One answer named
+  "Other" is both tidier and easier to choose, which is the same argument twice.
+
+  **"Other" is not "none of the above"**, which is what it literally is. That wording
+  reads as a rejection at the exact moment the tool should be helping, and the page
+  behind it is a full set of results, not an apology.
+
+  `test_the_catch_all_sector_never_shows_an_empty_page` is what survived the detour: the
+  fall-through is only acceptable while there is something to fall through *to*, in every
+  need x region x size, in both languages. It is the one guard that would have caught the
+  original problem if the original problem had been mechanical rather than editorial.
 
 ## Next steps
 

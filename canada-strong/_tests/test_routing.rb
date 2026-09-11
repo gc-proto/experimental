@@ -397,4 +397,72 @@ class TestRouting < Minitest::Test
       assert_empty answered - used - agnostic_only, "#{lang}: answers that reveal nothing at all"
     end
   end
+  # ── Q3's $20M band exists for exactly one row ──────────────────────────────
+  #
+  # The band was added so SRF-CSDF could be gated to the top of the scale: it
+  # shows only for "$20 million or more" or "Larger enterprise", and only under
+  # liquidity, transformation or all-of-the-above. Both sides of a data-driven
+  # test would read the same CSV, so this pins the decision instead.
+  %w[en fr].each do |lang|
+    define_method("test_srf_shows_only_at_20m_plus_and_large_#{lang}") do
+      page  = Wizard::BUSINESS[lang]
+      label = lang == "en" ? "Strategic Response Fund" : "Fonds de réponse stratégique"
+      ok_needs = %w[need-liq need-tra need-all]
+      ok_sizes = %w[size-20mplus size-large]
+      seen = []
+      Wizard.combinations_with_size(lang).each do |c|
+        markers = [c[:need], c[:region], c[:sector], c[:size]]
+        next unless Wizard.visible_programs(page, markers).map(&:first).any? { |p| p.include?(label) }
+        seen << [c[:need], c[:size]]
+        assert_includes ok_needs, c[:need],
+          "#{label} showed for #{c[:need]} (#{markers.join(', ')})"
+        assert_includes ok_sizes, c[:size],
+          "#{label} showed for #{c[:size]} (#{markers.join(', ')})"
+      end
+      assert_equal ok_needs.product(ok_sizes).sort, seen.uniq.sort,
+        "#{label} did not appear for every need x size pair it is meant to"
+    end
+
+    # The band was split out of "$5 million or more", so the lower half must
+    # still show everything that answer showed before the split. Anything else
+    # moving between the two bands is a gate that was widened by accident.
+    define_method("test_the_20m_band_differs_from_5m_only_by_srf_#{lang}") do
+      page  = Wizard::BUSINESS[lang]
+      label = lang == "en" ? "Strategic Response Fund" : "Fonds de réponse stratégique"
+      moved = []
+      Wizard.combinations(lang).each do |c|
+        base = [c[:need], c[:region], c[:sector]]
+        a = Wizard.visible_programs(page, base + ["size-5mplus"]).map(&:first).sort
+        b = Wizard.visible_programs(page, base + ["size-20mplus"]).map(&:first).sort
+        moved.concat(((b - a) + (a - b)).reject { |p| p.include?(label) })
+      end
+      assert_empty moved.uniq,
+        "programs other than #{label} differ between the $5-20M and $20M+ answers"
+    end
+  end
+
+  # ── The catch-all sector answer always lands somewhere ─────────────────────
+  #
+  # sec-mfg ("Other") is the one Q4 answer with no `sectors:` entry, so it
+  # reveals no sector panel by design and the visitor falls through to the
+  # sector-agnostic column, their region and the hubs. That is only acceptable
+  # while the fall-through is non-empty: a visitor who answers all four
+  # questions and is shown nothing is the failure this answer exists to
+  # prevent, so it must not become the failure it introduces.
+  %w[en fr].each do |lang|
+    define_method("test_the_catch_all_sector_never_shows_an_empty_page_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      empty = []
+      Wizard.need_markers(lang).each do |n|
+        Wizard.region_markers(lang).each do |r|
+          Wizard.size_markers(lang).each do |sz|
+            markers = [n, r, sz, "sec-mfg"]
+            empty << markers.join(", ") if Wizard.visible_programs(page, markers).empty?
+          end
+        end
+      end
+      assert_empty empty, "answer combinations that produce no programs at all"
+    end
+  end
+
 end

@@ -90,6 +90,7 @@ sizes:
   - {marker: size-nonprofit, csv: "nonprofit"}
   - {marker: size-1to5m,     csv: "1to5m"}
   - {marker: size-5mplus,    csv: "5mplus"}
+  - {marker: size-20mplus,   csv: "20mplus"}
   - {marker: size-large,     csv: "large"}
 
 # CSV rows carrying these statuses are never rendered.
@@ -164,7 +165,7 @@ business:
   questions:
     - id: question-1
       legend: "Question 1 of 4: What do you need right now?"
-      clears: "need-fin need-liq need-tra need-wrk need-all reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
+      clears: "need-fin need-liq need-tra need-wrk need-all reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-20mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-2"
       options:
         - {marker: need-fin, label: "Financing to keep operating or grow"}
@@ -175,7 +176,7 @@ business:
 
     - id: question-2
       legend: "Question 2 of 4: Where is your business primarily located?"
-      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
+      clears: "reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-20mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-3"
       options:
         - {marker: reg-atl,  label: "Atlantic (N.B., N.S., P.E.I., N.L.)"}
@@ -188,12 +189,13 @@ business:
 
     - id: question-3
       legend: "Question 3 of 4: What is your annual revenue?"
-      clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
+      clears: "size-under1m size-nonprofit size-1to5m size-5mplus size-20mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-4"
       options:
         - {marker: size-under1m, label: "Under $1 million"}
         - {marker: size-1to5m,   label: "$1 million to $5 million"}
-        - {marker: size-5mplus,  label: "$5 million or more"}
+        - {marker: size-5mplus,  label: "$5 million to $20 million"}
+        - {marker: size-20mplus, label: "More than $20 million"}
         - {marker: size-large,   label: "Larger enterprise ($150 million or more)"}
         # Last on purpose: it is not a revenue band, and sitting between the
         # bands it broke the reading order of the money answers.
@@ -214,6 +216,13 @@ business:
         - {marker: sec-forestry, label: "Forestry and softwood lumber"}
         - {marker: sec-steel,    label: "Steel, aluminium and copper"}
         - {marker: sec-agri,     label: "Agriculture, agri-food, fish and seafood"}
-        # Last on purpose: the only answer with no stream of its own, so it
-        # reads as the catch-all it is rather than as one sector among four.
-        - {marker: sec-mfg,      label: "Other manufacturing and exporting"}
+        # Last on purpose, and the only answer with no stream of its own: it
+        # stamps a marker that no `sectors:` entry names, so no sector panel is
+        # revealed and the visitor drops through to the sector-agnostic column,
+        # their region and the hubs — a full page of results, not an empty one.
+        #
+        # Named plainly because live visitors were reaching Q4, finding nothing
+        # that described them, and stopping. It is "none of the above" without
+        # the rejection; "Other manufacturing and exporting" was narrower than
+        # what it actually routes, and excluded the people most likely to need it.
+        - {marker: sec-mfg,      label: "Other"}
