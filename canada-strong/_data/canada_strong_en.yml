@@ -23,6 +23,12 @@ lang: en
 date_modified: "2026-09-11"
 alt_lang_text: "Français"
 
+# The campaign name. Rendered as the first of the two h1s on every page, the
+# pattern canada.ca uses to put a service above a page name — see the CCB
+# pages. Same string as the second breadcrumb, kept separate because the
+# breadcrumb is a link and this is a heading.
+campaign_name: "Canada Strong"
+
 breadcrumbs:
   - title: "Canada.ca"
     href: "https://www.canada.ca/en.html"
@@ -103,8 +109,8 @@ exclude_statuses: "no-page disputed"
 
 # ═══ START PAGE ══════════════════════════════════════════════════════════════
 start:
-  title: "Find support for tariff impacts"
-  description: "Find the federal supports available to businesses, employers and workers affected by United States tariffs."
+  title: "Find support for tariff impacts - Canada Strong"
+  description: "Find the Canada Strong federal supports available to businesses, employers and workers affected by United States tariffs."
   h1: "Find support for tariff impacts"
   intro: "Find the support you need"
   options:
@@ -124,8 +130,8 @@ start:
 
 # ═══ BUSINESS WIZARD ═════════════════════════════════════════════════════════
 business:
-  title: "Find support for your business"
-  description: "Answer four questions to get a shortlist of federal programs for businesses affected by United States tariffs."
+  title: "Find support for your business - Canada Strong"
+  description: "Answer four questions to get a shortlist of Canada Strong federal programs for businesses affected by United States tariffs."
   h1: "Find support for your business"
   intro: "Answer four questions and we will show you the programs that fit your need, region, size and sector."
   questions_heading: "Tell us about your business"

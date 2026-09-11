@@ -27,6 +27,22 @@ layout: null
 				"cdnEnv": "esdcprod"
 			}));
 		</script>
+		<style>
+			/* The campaign name above the page name — the canada.ca pattern that
+			   puts a service above a page title (the CCB pages are the model).
+			   The size and colour are lifted from the theme's own
+			   `.gc-subway:not(.gc-subway-index) h1` rule, and the 16px/10px
+			   spacing is what that rule plus its parent's `margin: 2em 0 0 .5em`
+			   actually resolve to on the model page. The rest of the rule —
+			   float, white background, negative top margin — is left out on
+			   purpose: it exists to float the heading onto the subway box's
+			   border, and there is no subway nav here to float it onto.
+			   The red rule under the page title is NOT from `gc-thickline`,
+			   which is defined in none of the loaded stylesheets; it comes from
+			   `h1#wb-cont`, so it depends on the id and not on the class. */
+			.wz-campaign { font-size: 1.3em; color: #555; border-bottom: none; margin: 16px 0 0; padding: 0 0 10px; }
+			.wz-campaign + h1 { margin-top: 0; }
+		</style>
 	</head>
 	<body vocab="https://schema.org/" typeof="WebPage">
 		<div id="def-top">
@@ -52,7 +68,8 @@ layout: null
 		<main property="mainContentOfPage" typeof="WebPageElement">
 
 			<div class="container">
-				<h1 property="name" id="wb-cont">{{ p.h1 }}</h1>
+				<h1 class="wz-campaign">{{ t.campaign_name }}</h1>
+				<h1 property="name" id="wb-cont" class="gc-thickline">{{ p.h1 }}</h1>
 
 				<div class="row">
 					<div class="col-md-8">

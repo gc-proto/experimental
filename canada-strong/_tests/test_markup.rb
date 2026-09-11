@@ -29,13 +29,27 @@ class TestMarkup < Minitest::Test
       refute_match(/\{\{|\{%/, html, "#{page} still contains Liquid markup after rendering")
     end
 
-    define_method("test_one_h1_and_no_skipped_heading_levels_#{slug}") do
+    # Two h1s, deliberately: the canada.ca pattern that puts a service name
+    # above a page name (the CCB pages are the model) renders both as h1, with
+    # the page name carrying property/id and the thick rule. Anything past two
+    # is the accident this guard is for.
+    define_method("test_the_two_h1s_and_no_skipped_heading_levels_#{slug}") do
       main = Wizard.doc(page).at_css("main")
       refute_nil main, "#{page} has no <main>"
 
+      h1s = main.css("h1")
+      assert_equal 2, h1s.size, "#{page} must have exactly two h1s"
+      lang = page.end_with?("-fr.html") ? "fr" : "en"
+      assert_equal Wizard.text(lang)["campaign_name"], h1s.first.text.strip,
+        "#{page}'s first h1 is not the campaign name"
+      assert_equal "wb-cont", h1s.last["id"],
+        "#{page}'s page-name h1 lost the skip-to-content anchor"
+      assert_includes h1s.last["class"].to_s, "gc-thickline",
+        "#{page}'s page-name h1 lost the thick rule that separates it from the campaign name"
+      refute h1s.first["id"], "#{page}'s campaign-name h1 must not take the wb-cont anchor"
+
       levels = main.css("h1,h2,h3,h4,h5,h6").map { |h| [h.name[1].to_i, h.text.strip] }
-      assert_equal 1, levels.count { |l, _| l == 1 }, "#{page} must have exactly one h1"
-      assert_equal 1, levels.first[0], "#{page}'s first heading is not the h1"
+      assert_equal 1, levels.first[0], "#{page}'s first heading is not an h1"
 
       levels.each_cons(2) do |(a, _), (b, txt)|
         assert b <= a + 1, "#{page}: h#{a} jumps straight to h#{b} at \"#{txt[0, 50]}\""

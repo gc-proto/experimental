@@ -16,6 +16,12 @@ lang: fr
 date_modified: "2026-09-11"
 alt_lang_text: "English"
 
+# Le nom de la campagne. Rendu comme le premier des deux h1 de chaque page,
+# le modèle qu'utilise canada.ca pour placer un service au-dessus du nom de
+# la page — voir les pages de l'ACE. Même chaîne que le deuxième fil
+# d'Ariane, gardée à part parce que celui-ci est un lien et ceci un titre.
+campaign_name: "Un Canada fort"
+
 breadcrumbs:
   - title: "Canada.ca"
     href: "https://www.canada.ca/fr.html"
@@ -90,8 +96,8 @@ exclude_statuses: "no-page disputed"
 
 # ═══ PAGE DE DÉPART ══════════════════════════════════════════════════════════
 start:
-  title: "Trouver du soutien face aux droits de douane"
-  description: "Trouvez les mesures de soutien fédérales offertes aux entreprises, aux employeurs et aux travailleurs touchés par les droits de douane américains."
+  title: "Trouver du soutien face aux droits de douane - Un Canada fort"
+  description: "Trouvez les mesures de soutien fédérales de la campagne Un Canada fort offertes aux entreprises, aux employeurs et aux travailleurs touchés par les droits de douane américains."
   h1: "Trouver du soutien face aux droits de douane"
   intro: "Trouvez le soutien qu'il vous faut"
   options:
@@ -111,8 +117,8 @@ start:
 
 # ═══ ASSISTANT POUR LES ENTREPRISES ══════════════════════════════════════════
 business:
-  title: "Trouver du soutien pour votre entreprise"
-  description: "Répondez à quatre questions pour obtenir une liste de programmes fédéraux destinés aux entreprises touchées par les droits de douane américains."
+  title: "Trouver du soutien pour votre entreprise - Un Canada fort"
+  description: "Répondez à quatre questions pour obtenir une liste de programmes fédéraux de la campagne Un Canada fort destinés aux entreprises touchées par les droits de douane américains."
   h1: "Trouver du soutien pour votre entreprise"
   intro: "Répondez à quatre questions et nous vous indiquerons les programmes qui correspondent à vos besoins, à votre région, à la taille et au secteur d'activité de votre entreprise."
   questions_heading: "Parlez-nous de votre entreprise"
