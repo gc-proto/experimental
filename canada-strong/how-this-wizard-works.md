@@ -864,6 +864,42 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   If the review is ever reinstated, that entry has the reasoning and this one has what
   replaced it.
 
+- **The SRF row is named for the Canada Strong Diversification Fund, not its parent.**
+  The row renders as **"Canada Strong Diversification Fund (Strategic Response Fund)"** /
+  **"Fonds de diversification pour un Canada fort (Fonds de réponse stratégique)"**, and
+  links to the CSDF eligibility and expression-of-interest page. It was briefly left as
+  plain "Strategic Response Fund (SRF)" when the department asked for a link change only;
+  reading the SRF's own pages is what changed that.
+
+  **The SRF has three key investment priorities, and only one of them is ours** — Tariff
+  relief (the CSDF), Innovation, and the AI Compute Challenge. Naming the row after the
+  parent fund therefore pointed a tariff-affected visitor at something two-thirds
+  irrelevant to them, while linking to the tariff page anyway. The parent stays in
+  brackets because departmental news releases name the SRF, so someone searching that term
+  still finds the row.
+
+  **It is still one row.** There is no second thing to apply to: the CSDF is "delivered
+  through the Strategic Response Fund", with one SRF-level eligibility tool behind it. A
+  firm could pursue a tariff project and an innovation project, but it would do that by
+  choosing a Pillar in one application, not by picking between two funds.
+
+  **Mind the vocabulary if you go back to these pages — three axes, three words, and they
+  do not line up.** The eligibility tool divides the SRF into two **pillars** (Business
+  Innovation/Investment Attraction/Growth; Innovation Ecosystems). The priorities page
+  divides it into three **priorities** (the list above). The CSDF page divides *itself*
+  into two **streams** (adapting/pivoting/diversifying; capital maintenance). "Stream" is
+  the bottom layer; the CSDF sits at the middle one. Reading any one page alone makes the
+  other two layers invisible, which is how the row came to be named after the parent in
+  the first place.
+
+  **The $20M size gate is a proxy, and is knowingly left as one.** The CSDF page says it
+  "focuses primarily on proposals with eligible project costs of more than $20 million and
+  requests for federal contributions of $10 million or more" — that is **project cost**,
+  where Q3 asks **annual revenue**. A firm bringing a $20M project is rarely small, so the
+  gate is defensible, but it is not the stated criterion and should not be read as a
+  verified threshold. Raised with ISED on 2026-09-10; left in place pending their answer,
+  and a third candidate for the per-row criteria line in "Next steps".
+
 - **Q3 gained a sixth answer, and it exists for exactly one row.** "$5 million or more"
   was split into **"$5 to $20 million"** and a new **"$20 million or more"**
   (`size-20mplus`), placed before "Larger enterprise". The new band inherits everything
@@ -1058,12 +1094,13 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    criteria below.
 4. **Build the per-row criteria line.** A new CSV column (plus a French twin) rendered as
    small text under the program name, for the eligibility that size gates cannot express.
-   Wanted by at least five rows today: CED's Quebec RTRI ($2M, <500 employees,
+   Wanted by at least six rows today: CED's Quebec RTRI ($2M, <500 employees,
    manufacturing), EDC direct lending ($10M inside the `5mplus` bucket, and a $1M minimum
    draw), BDC's Pivot to Grow Loan (3 years in business, positive cash flow, 15% U.S.
    export share), and — added with the hiring need — the Worker Retention Grant and Job
    Bank's Work-Sharing training page, which both require an approved Work-Sharing
-   agreement no Q3 answer can express. Each is currently a `note` no visitor will ever
+   agreement no Q3 answer can express, and the Canada Strong Diversification Fund, whose
+   real threshold is a $20M *project cost* rather than the annual revenue Q3 asks about. Each is currently a `note` no visitor will ever
    read. This is the single highest-value thing left in this list — every straddled bucket
    above resolves to it, and so does the prerequisite chain the `/eric/` draft tried to
    solve with a whole extra question.

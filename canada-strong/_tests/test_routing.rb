@@ -406,7 +406,9 @@ class TestRouting < Minitest::Test
   %w[en fr].each do |lang|
     define_method("test_srf_shows_only_at_20m_plus_and_large_#{lang}") do
       page  = Wizard::BUSINESS[lang]
-      label = lang == "en" ? "Strategic Response Fund" : "Fonds de réponse stratégique"
+      # Match the distinctive half: the parent fund's name also appears in the
+      # brackets, so keying on that would survive an accidental rename.
+      label = lang == "en" ? "Canada Strong Diversification Fund" : "Fonds de diversification pour un Canada fort"
       ok_needs = %w[need-liq need-tra need-all]
       ok_sizes = %w[size-20mplus size-large]
       seen = []
@@ -428,7 +430,9 @@ class TestRouting < Minitest::Test
     # moving between the two bands is a gate that was widened by accident.
     define_method("test_the_20m_band_differs_from_5m_only_by_srf_#{lang}") do
       page  = Wizard::BUSINESS[lang]
-      label = lang == "en" ? "Strategic Response Fund" : "Fonds de réponse stratégique"
+      # Match the distinctive half: the parent fund's name also appears in the
+      # brackets, so keying on that would survive an accidental rename.
+      label = lang == "en" ? "Canada Strong Diversification Fund" : "Fonds de diversification pour un Canada fort"
       moved = []
       Wizard.combinations(lang).each do |c|
         base = [c[:need], c[:region], c[:sector]]
