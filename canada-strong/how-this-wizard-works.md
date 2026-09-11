@@ -866,18 +866,29 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   has what replaced it.
 
 - **The SRF row is named for the Canada Strong Diversification Fund, not its parent.**
-  The row renders as **"Canada Strong Diversification Fund (Strategic Response Fund)"** /
-  **"Fonds de diversification pour un Canada fort (Fonds de réponse stratégique)"**, and
-  links to the CSDF eligibility and expression-of-interest page. It was briefly left as
-  plain "Strategic Response Fund (SRF)" when the department asked for a link change only;
-  reading the SRF's own pages is what changed that.
+  The row renders as **"Canada Strong Diversification Fund"** / **"Fonds de
+  diversification pour un Canada fort"**, and links to the CSDF eligibility and
+  expression-of-interest page. It was briefly left as plain "Strategic Response Fund
+  (SRF)" when the department asked for a link change only; reading the SRF's own pages is
+  what changed that.
+
+  **The parent lives in the org acronym now, not in brackets after the name.** On
+  2026-09-11 ISED suggested crediting the row to **ISED-SRF** / **ISDE-FRS** and dropping
+  the trailing "(Strategic Response Fund)" / "(Fonds de réponse stratégique)". It was the
+  longest name in the tool and the bracket made it longer. FRS is not a guess: the French
+  CSDF page uses it itself — "Le Fonds de diversification pour un Canada fort (FDCF), qui
+  relève du Fonds de réponse stratégique (FRS)". **What this costs:** the full phrase
+  "Strategic Response Fund" is now nowhere on the rendered page, only the abbreviation, so
+  someone scanning for the words the departmental news releases use will not find them.
+  That searchability was the original reason for the bracket, and it was traded knowingly
+  for the shorter line.
 
   **The SRF has three key investment priorities, and only one of them is ours** — Tariff
   relief (the CSDF), Innovation, and the AI Compute Challenge. Naming the row after the
   parent fund therefore pointed a tariff-affected visitor at something two-thirds
-  irrelevant to them, while linking to the tariff page anyway. The parent stays in
-  brackets because departmental news releases name the SRF, so someone searching that term
-  still finds the row.
+  irrelevant to them, while linking to the tariff page anyway. The parent is still
+  credited, in the org acronym rather than in the name — see the entry above for what that
+  trade cost.
 
   **It is still one row.** There is no second thing to apply to: the CSDF is "delivered
   through the Strategic Response Fund", with one SRF-level eligibility tool behind it. A
