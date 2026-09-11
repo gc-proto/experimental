@@ -13,7 +13,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 lang: fr
-date_modified: "2026-09-10"
+date_modified: "2026-09-11"
 alt_lang_text: "English"
 
 breadcrumbs:
@@ -29,8 +29,8 @@ needs:
   - {marker: need-fin, csv: financing,      heading: "Financement"}
   - {marker: need-liq, csv: liquidity,      heading: "Liquidités"}
   - {marker: need-tra, csv: transformation, heading: "Transformation et projets d'immobilisations"}
-  - {marker: need-wrk, csv: workforce,      heading: "Maintien en poste et reconversion de la main-d'œuvre"}
-  - {marker: need-hire, csv: hiring,        heading: "Recrutement et embauche"}
+  - {marker: need-wrk, csv: workforce,      heading: "Maintien en poste et travail partagé de la main-d'œuvre"}
+  - {marker: need-hire, csv: hiring,        heading: "Requalification et embauche de la main-d'œuvre"}
 
 # La dernière réponse de la question 1 n'est pas un besoin en soi — elle
 # affiche tous les besoins à la fois. Elle n'a pas d'entrée dans `needs:` (cette
@@ -155,8 +155,8 @@ business:
         - {marker: need-fin, label: "Financement pour maintenir vos activités ou favoriser votre croissance"}
         - {marker: need-liq, label: "Liquidités pour combler un manque de trésorerie causé par les droits de douane"}
         - {marker: need-tra, label: "Projet de transformation ou d'immobilisations"}
-        - {marker: need-wrk, label: "Rétention, travail partagé ou requalifications de la main-d'œuvre"}
-        - {marker: need-hire, label: "Recrutement et embauche de nouveaux employés"}
+        - {marker: need-wrk, label: "Rétention ou travail partagé de la main-d'œuvre"}
+        - {marker: need-hire, label: "Requalification et embauche de travailleurs"}
         - {marker: need-all, label: "Tout ce qui précède"}
 
     - id: question-2

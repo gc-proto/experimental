@@ -20,7 +20,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 lang: en
-date_modified: "2026-09-10"
+date_modified: "2026-09-11"
 alt_lang_text: "Français"
 
 breadcrumbs:
@@ -36,8 +36,8 @@ needs:
   - {marker: need-fin, csv: financing,      heading: "Financing"}
   - {marker: need-liq, csv: liquidity,      heading: "Liquidity"}
   - {marker: need-tra, csv: transformation, heading: "Transformation and capital projects"}
-  - {marker: need-wrk, csv: workforce,      heading: "Workforce retention and retraining"}
-  - {marker: need-hire, csv: hiring,        heading: "Recruiting and hiring"}
+  - {marker: need-wrk, csv: workforce,      heading: "Workforce retention and work-sharing"}
+  - {marker: need-hire, csv: hiring,        heading: "Retraining and hiring workers"}
 
 # Sectors that have rows of their own in the CSV. Manufacturing and the
 # U.S.-exporter answer are deliberately absent: they have no sector-specific
@@ -172,8 +172,8 @@ business:
         - {marker: need-fin, label: "Financing to keep operating or grow"}
         - {marker: need-liq, label: "Liquidity for a tariff-driven cash-flow gap"}
         - {marker: need-tra, label: "Transformation or capital project"}
-        - {marker: need-wrk, label: "Workforce retention, work-sharing and retraining"}
-        - {marker: need-hire, label: "Recruit and hire new workers"}
+        - {marker: need-wrk, label: "Workforce retention and work-sharing"}
+        - {marker: need-hire, label: "Retraining and hiring workers"}
         - {marker: need-all, label: "All of the above"}
 
     - id: question-2

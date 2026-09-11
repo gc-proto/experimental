@@ -860,9 +860,10 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   partitive question they sit under ("De quoi avez-vous besoin?"), and "requalifications"
   is a third word for the thing he had already moved from "recyclage" to "reconversion".
   Taken verbatim on direction, so the page and the data agree; the `needs:` heading for
-  workforce still says "reconversion", which is now the one place that wording survives.
-  If the review is ever reinstated, that entry has the reasoning and this one has what
-  replaced it.
+  workforce still said "reconversion", which was then the one place that wording survived
+  — until retraining moved to the hiring answer on 2026-09-11 and took the last of it
+  with it. If the review is ever reinstated, that entry has the reasoning and this one
+  has what replaced it.
 
 - **The SRF row is named for the Canada Strong Diversification Fund, not its parent.**
   The row renders as **"Canada Strong Diversification Fund (Strategic Response Fund)"** /
@@ -990,7 +991,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   need x region x size, in both languages. It is the one guard that would have caught the
   original problem if the original problem had been mechanical rather than editorial.
 
-- **Q1 gained a fifth need, "Recruit and hire new workers", instead of a second
+- **Q1 gained a fifth need, "Retraining and hiring workers", instead of a second
   workforce question.** The department wanted the workforce side fleshed out, and the
   `/eric/` employer-wizard draft proposed a new checkbox question — *"What is your
   workforce situation right now? Select all that apply"* — with five answers covering
@@ -1010,16 +1011,34 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   4. **Four of its five panels re-sort programs already on the page.** Only three
      destinations in the whole draft were new.
 
-  "Recruit and hire new workers" is a real answer to "What do you need right now?", so it
-  needed no new mechanism at all: a `needs:` entry, a Q1 option, the marker in Q1's
-  `clears:`, and rows tagged `hiring`. "All of the above" picked it up for free.
+  A fifth need is a real answer to "What do you need right now?", so it needed no new
+  mechanism at all: a `needs:` entry, a Q1 option, the marker in Q1's `clears:`, and rows
+  tagged `hiring`. "All of the above" picked it up for free.
+
+  **The answer shipped as "Recruit and hire new workers" and was renamed the next day.**
+  Recruiting on its own does not read as tariff support — it is the one thing in Q1 a
+  visitor could arrive at without a tariff problem, sitting under a heading that promises
+  help with one. Retraining moved across to join it on 2026-09-11, so the two people
+  answers are now **"Workforce retention and work-sharing"** and **"Retraining and hiring
+  workers"**. That line is the one worth holding: the workforce answer is for keeping the
+  staff you have, the hiring answer is for the ones you do not have yet, whether you
+  train them or recruit them. The `csv` key is still `hiring`; only the label moved.
 
   **Three rows came across from the draft; one did not.** Job Bank's *Resources for
   employers* and *Available Workers Dashboard* are `hiring`. Job Bank's *Training options
-  for Work-Sharing employers* is **`workforce`, not `hiring`** — it is a retraining
-  resource, which is why it is absent from the recruiting list and sits directly below
-  the Worker Retention Grant with the rest of the Work-Sharing chain. All six URLs
-  verified 200 in both languages on 2026-09-10.
+  for Work-Sharing employers* is **`workforce`, not `hiring`** — and it stayed there on
+  2026-09-11 when the rest of retraining moved, which makes it the one row where the
+  prerequisite beats the subject. It is a retraining page, but it is only reachable by an
+  employer who already has an approved Work-Sharing agreement, so it reads as part of
+  that chain and sits directly below the Worker Retention Grant. Someone answering the
+  hiring question cannot act on it; someone answering the work-sharing question can. All
+  six URLs verified 200 in both languages on 2026-09-10.
+
+  **What moved with the word.** *Workforce Tariff Response — EI-funded LMDAs* is `hiring`
+  now: EI-funded skills training for tariff-affected workers, with no Work-Sharing
+  prerequisite holding it in the retention panel. That leaves the workforce answer as the
+  Work-Sharing chain and nothing else — Work-Sharing, the Worker Retention Grant that
+  requires it, and the training page that requires it.
 
   **The Workforce Retention and Retraining Program (WRRP) is deliberately not a row.**
   Its page is live but the programme is not: it is written in the future tense and says
@@ -1028,37 +1047,52 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   operate." Both of those are already in the wizard, so holding WRRP costs a visitor
   nothing. Add the row when the programme starts, not when the page appears.
 
-  **The Student Work Placement Program is the first row to answer two needs that are not
-  a financing pair.** It is `workforce;hiring` — a wage subsidy *and* the channel through
-  which an employer takes on post-secondary students — so it appears under both answers
-  and, because `workforce` is named first, files under Workforce in the all-view. That is
-  the same first-need rule the RTRI and Pivot to Grow rows use; this is just the first
-  time it has been used to bridge two *people* needs rather than two money ones.
+  **The Student Work Placement Program was the first row to answer two *people* needs,
+  and held that for one day.** It shipped `workforce;hiring` — a wage subsidy *and* the
+  channel through which an employer takes on post-secondary students — on the same
+  first-need rule the RTRI and Pivot to Grow rows use. It is `hiring` alone as of
+  2026-09-11: once the workforce answer narrowed to retention and work-sharing, a subsidy
+  for taking on students who do not work there yet had nothing left to say to it. No row
+  bridges the two people needs now, which is the point of drawing the line where it is —
+  if one appears, the line is in the wrong place.
 
-  **The all-view's no-duplicates promise now has a direct test.** Eight rows name two
-  needs, and every one of them is a chance for a program to list twice under "All of the
-  above". `test_no_program_ever_lists_twice` checks all 1,008 combinations in both
-  languages, and `test_student_work_placement_answers_both_needs_once` pins the specific
-  row. Confirmed to fail by disabling the all-view's first-need filter, which is what the
-  regression would actually look like.
+  **The all-view's no-duplicates promise now has a direct test.** Eleven live rows name
+  two needs — all money pairs now — and every one of them is a chance for a program to
+  list twice under "All of the above". `test_no_program_ever_lists_twice` checks all
+  1,008 combinations in both languages. Confirmed to fail by disabling the all-view's
+  first-need filter, which is what the regression would actually look like. The row-level
+  pin that sat beside it named the Student Work Placement Program and went stale the day
+  that row became single-need; it is now two tests that pin the retention/retraining line
+  itself — `test_retraining_and_hiring_rows_are_not_under_retention` and
+  `test_the_work_sharing_training_page_stays_with_its_chain`.
 
   **Q1's workforce answer names work-sharing, in lower case on purpose.** The answer is
-  "Workforce retention, work-sharing and retraining" / "Rétention, travail partagé ou
-  requalifications de la main-d'œuvre". Work-sharing is the single most recognisable
-  thing behind that answer and three of the five rows in the panel name it, so the cue
-  belongs at the point where someone is choosing rather than after they arrive. It is
+  "Workforce retention and work-sharing" / "Rétention ou travail partagé de la
+  main-d'œuvre". Work-sharing is the single most recognisable thing behind that answer
+  and every row in the panel now names it, so the cue belongs at the point where someone
+  is choosing rather than after they arrive. It is
   **not** capitalised as the programme is, because the Work-Sharing Program is being
   replaced by WRRP and will be renamed: the answer names an activity, at the same level
   as retention and retraining, and survives that rename untouched. The capitalised
   "Work-Sharing Program" still appears in the results, where it is the actual thing being
   linked. Do not "correct" the label to match the programme name.
 
-  **The results heading was deliberately left as "Workforce retention and retraining."**
-  It already carries the ": open to all sectors" suffix and runs long in French, and by
-  the time a visitor reads it, work-sharing is the first row beneath it. This is a mild
-  answer-to-heading mismatch of the kind flagged on the live French page above — the
-  difference being that the live page used three different words for one concept, where
-  this is the same words plus one item.
+  **The results headings match their answers again.** "Workforce retention and
+  retraining" was deliberately left mismatched with its answer for a day, on the grounds
+  that the heading already carries the ": open to all sectors" suffix and runs long in
+  French. Moving retraining out settled it: the heading could not keep a word the answer
+  no longer had, so it is "Workforce retention and work-sharing" / "Maintien en poste et
+  travail partagé de la main-d'œuvre", and the new one is "Retraining and hiring workers"
+  / "Requalification et embauche de la main-d'œuvre". The answer-to-heading mismatch
+  flagged on the live French page above is now gone from both languages.
+
+  **"Reconversion" is out of the French file.** It survived in exactly one place — the
+  `needs:` heading for workforce — after the live Q1 answers were taken verbatim, as the
+  French-review entry above records. That heading is about work-sharing now, and the
+  heading that replaced it as the retraining one reads "Requalification", matching its
+  own Q1 answer word for word rather than preserving a word the answers had already
+  dropped. Samir Goulamaly's (DEC/CED) reasoning for "reconversion" over "recyclage" is
+  still in that entry; the wizard no longer uses either.
 
   **What the draft had that this does not.** Its Work-Sharing answer surfaced the
   *prerequisite chain* — that the Worker Retention Grant and the Job Bank training page
