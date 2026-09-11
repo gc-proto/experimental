@@ -465,4 +465,43 @@ class TestRouting < Minitest::Test
     end
   end
 
+  # ── The hiring need, and the row that answers two needs ────────────────────
+  #
+  # "Recruit and hire new workers" was added as a fifth Q1 need rather than as
+  # the extra workforce question the /eric/ draft proposed - that draft asked
+  # the visitor to self-diagnose eligibility ("I already have a Work-Sharing
+  # agreement"), which is the kind of criteria-as-triage this wizard has backed
+  # away from three times. The Student Work Placement Program is the one row
+  # filed under both needs, so it is the one that could list twice.
+  %w[en fr].each do |lang|
+    define_method("test_student_work_placement_answers_both_needs_once_#{lang}") do
+      page  = Wizard::BUSINESS[lang]
+      label = lang == "en" ? "Student Work Placement" : "stages pratiques"
+      %w[need-wrk need-hire].each do |n|
+        names = Wizard.visible_programs(page, [n, "reg-on-s", "size-1to5m", "sec-mfg"]).map(&:first)
+        assert names.any? { |p| p =~ /#{label}/i },
+          "the student placement row is missing from #{n}"
+      end
+      # In the all-view it must appear once, under the FIRST need its cell
+      # names - workforce - not under both.
+      markers = ["need-all", "reg-on-s", "size-1to5m", "sec-mfg"]
+      hits = Wizard.visible_programs(page, markers).map(&:first).select { |p| p =~ /#{label}/i }
+      assert_equal 1, hits.size,
+        "the student placement row lists #{hits.size} times under all-of-the-above"
+    end
+
+    # The all-view promises the union of the four needs with nothing repeated.
+    # A second dual-need row is exactly how that quietly stops being true.
+    define_method("test_no_program_ever_lists_twice_#{lang}") do
+      page = Wizard::BUSINESS[lang]
+      dupes = []
+      Wizard.combinations_with_size(lang).each do |c|
+        names = Wizard.visible_programs(page, [c[:need], c[:region], c[:sector], c[:size]]).map(&:first)
+        repeated = names.group_by { |x| x }.select { |_, v| v.size > 1 }.keys
+        dupes << "#{[c[:need], c[:region], c[:size], c[:sector]].join(', ')}: #{repeated.join('; ')}" unless repeated.empty?
+      end
+      assert_empty dupes, "answer combinations that list the same program more than once"
+    end
+  end
+
 end

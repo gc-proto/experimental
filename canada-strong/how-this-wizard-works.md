@@ -28,12 +28,12 @@ Paths below are relative to this folder (`canada-strong/`), which is meant to be
 on and copied as a unit — see "This folder stands alone" below.
 
 ```
-_data/tariff_tool_links.csv    57 rows — every program, both languages, and its routing
+_data/tariff_tool_links.csv    60 rows — every program, both languages, and its routing
 _data/canada_strong_en.yml     English interface text
 _data/canada_strong_fr.yml     the same, in French
 start-*.html                   three choices, links out
 business-*.html                the wizard: questions, generated results, generated CSS
-_tests/                        the suite: 126 tests over the files above
+_tests/                        the suite: 136 tests over the files above
 how-this-wizard-works.md       this file
 ```
 
@@ -71,7 +71,7 @@ Nothing else decides what a combination returns.
 
 | Column | Meaning |
 |---|---|
-| `need` | `financing`, `liquidity`, `transformation`, `workforce`, `all` for a hub shown under every need, or `featured` for the one promoted row that closes the More options panel. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
+| `need` | `financing`, `liquidity`, `transformation`, `workforce`, `hiring`, `all` for a hub shown under every need, or `featured` for the one promoted row that closes the More options panel. Semicolons for more than one — the regional rows use `liquidity;transformation`. |
 | `sector` | `sector-agnostic`, `agriculture`, `forestry-and-lumber`, `steel-and-aluminum` |
 | `region` | `national`, or one of the seven RDA regions |
 | `size` | blank by default — shown for every size. Set to restrict a row: `under-1m`, `nonprofit`, `1to5m`, `5mplus`, `20mplus`, `large`, semicolons for more than one. LETL, AgriMarketing's SME/NIA split, three BDC programs (Pivot to Grow Loan, Steel and Aluminium, Softwood Lumber Guarantee), EDC direct lending, and six of the seven RTRI rows (all but Quebec) use this today. |
@@ -109,7 +109,7 @@ Results depend on **two answers at once** — the need and the sector — and a 
 option can only reveal one fixed target. So:
 
 1. Each answer stamps a **marker class** on `#wz-state`: `need-liq`, `sec-agri`,
-   `reg-on-s`, `size-1to5m`. Twenty-two markers, one per answer.
+   `reg-on-s`, `size-1to5m`. Twenty-three markers, one per answer.
 2. At build time the template groups the CSV into a panel per need × sector, per region,
    and per sector hub. Every panel is in the DOM, hidden by `.wz-r { display: none }`.
 3. It also generates one CSS rule per panel, which is what reveals it:
@@ -376,7 +376,7 @@ a local server is required, the CDTS closure scripts do not run reliably from `f
 
 `_tests/README.md` says what each test file covers. In short:
 
-- **All 840 combinations** (140 need x region x sector, crossed with every size answer),
+- **All 1,008 combinations** (168 need x region x sector, crossed with every size answer),
   both languages. It parses the generated CSS back out of the
   page, works out which panels a set of answer markers reveals, and diffs the programs
   in them against the CSV — which it reads through a second, separate implementation of
@@ -412,7 +412,7 @@ find.
 
 Do **not** click through every combination: fieldflow re-renders on each answer and a
 backgrounded Chrome tab throttles timers hard enough that a click-driven sweep takes
-minutes and produces confusing intermediate states. The suite already covers all 840.
+minutes and produces confusing intermediate states. The suite already covers all 1,008.
 
 Click one full path by hand instead, watching `document.getElementById("wz-state").className`
 after each answer. Then change an earlier answer and confirm the cascade clears and the
@@ -715,7 +715,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   Benefits Finder** — "view or search all provincial and federal programs and services,
   including tariff support". The Finder was already a hub row; it is now the CSV's one
   `need: featured` row, which takes it out of the hub list and gives it its own line. `need:
-  featured` matches no question answer and carries no `size`, so it renders on all 840
+  featured` matches no question answer and carries no `size`, so it renders on all 1,008
   combinations — that is the point, and `test_exactly_one_featured_row_and_it_is_the_benefits_finder`
   pins it. Its URLs changed too, from the Finder's front door to the tariff-filtered
   `list-liste` view with ISED's token, so the link lands on programs rather than an empty
@@ -876,7 +876,7 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   shows only at the top two answers, and its existing `liquidity;transformation` need cell
   already restricts it to Liquidity, Transformation and "All of the above" — no need
   change was required. That works out to 6 need × size pairs × 7 regions × 4 sectors =
-  **168 of the 840 combinations**, and `test_srf_shows_only_at_20m_plus_and_large` checks
+  **168 of the 1,008 combinations**, and `test_srf_shows_only_at_20m_plus_and_large` checks
   both halves: nothing outside those 168, and nothing missing inside them. This is a
   decision test, not a data test — both sides would otherwise read the same CSV.
 
@@ -954,6 +954,83 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
   need x region x size, in both languages. It is the one guard that would have caught the
   original problem if the original problem had been mechanical rather than editorial.
 
+- **Q1 gained a fifth need, "Recruit and hire new workers", instead of a second
+  workforce question.** The department wanted the workforce side fleshed out, and the
+  `/eric/` employer-wizard draft proposed a new checkbox question — *"What is your
+  workforce situation right now? Select all that apply"* — with five answers covering
+  reduced hours, an existing Work-Sharing agreement, upskilling, hiring, and layoffs.
+  That draft was not taken, for four reasons in descending weight:
+
+  1. **It asks the visitor to self-diagnose eligibility.** "I already have a Work-Sharing
+     agreement in place" is a criterion, not a need. This wizard has backed away from
+     criteria-as-triage three times already — the "3 or more years operating" trim, the
+     removed U.S.-exporter answer, and the DM ruling out exposure thresholds — and each
+     entry above says why.
+  2. **It is a conditional fifth question**, shown only on the workforce branch, so
+     "Question 2 of 5" is true there and false on every other path. The four questions
+     are unconditional and the counter is honest.
+  3. **It is multi-select**, which breaks the one-marker-per-question model the `clears:`
+     cascade depends on.
+  4. **Four of its five panels re-sort programs already on the page.** Only three
+     destinations in the whole draft were new.
+
+  "Recruit and hire new workers" is a real answer to "What do you need right now?", so it
+  needed no new mechanism at all: a `needs:` entry, a Q1 option, the marker in Q1's
+  `clears:`, and rows tagged `hiring`. "All of the above" picked it up for free.
+
+  **Three rows came across from the draft; one did not.** Job Bank's *Resources for
+  employers* and *Available Workers Dashboard* are `hiring`. Job Bank's *Training options
+  for Work-Sharing employers* is **`workforce`, not `hiring`** — it is a retraining
+  resource, which is why it is absent from the recruiting list and sits directly below
+  the Worker Retention Grant with the rest of the Work-Sharing chain. All six URLs
+  verified 200 in both languages on 2026-09-10.
+
+  **The Workforce Retention and Retraining Program (WRRP) is deliberately not a row.**
+  Its page is live but the programme is not: it is written in the future tense and says
+  plainly that "until the new Workforce Retention and Retraining Program comes into
+  effect, the Work-Sharing Program and the Worker Retention Grant will continue to
+  operate." Both of those are already in the wizard, so holding WRRP costs a visitor
+  nothing. Add the row when the programme starts, not when the page appears.
+
+  **The Student Work Placement Program is the first row to answer two needs that are not
+  a financing pair.** It is `workforce;hiring` — a wage subsidy *and* the channel through
+  which an employer takes on post-secondary students — so it appears under both answers
+  and, because `workforce` is named first, files under Workforce in the all-view. That is
+  the same first-need rule the RTRI and Pivot to Grow rows use; this is just the first
+  time it has been used to bridge two *people* needs rather than two money ones.
+
+  **The all-view's no-duplicates promise now has a direct test.** Eight rows name two
+  needs, and every one of them is a chance for a program to list twice under "All of the
+  above". `test_no_program_ever_lists_twice` checks all 1,008 combinations in both
+  languages, and `test_student_work_placement_answers_both_needs_once` pins the specific
+  row. Confirmed to fail by disabling the all-view's first-need filter, which is what the
+  regression would actually look like.
+
+  **Q1's workforce answer names work-sharing, in lower case on purpose.** The answer is
+  "Workforce retention, work-sharing and retraining" / "Rétention, travail partagé ou
+  requalifications de la main-d'œuvre". Work-sharing is the single most recognisable
+  thing behind that answer and three of the five rows in the panel name it, so the cue
+  belongs at the point where someone is choosing rather than after they arrive. It is
+  **not** capitalised as the programme is, because the Work-Sharing Program is being
+  replaced by WRRP and will be renamed: the answer names an activity, at the same level
+  as retention and retraining, and survives that rename untouched. The capitalised
+  "Work-Sharing Program" still appears in the results, where it is the actual thing being
+  linked. Do not "correct" the label to match the programme name.
+
+  **The results heading was deliberately left as "Workforce retention and retraining."**
+  It already carries the ": open to all sectors" suffix and runs long in French, and by
+  the time a visitor reads it, work-sharing is the first row beneath it. This is a mild
+  answer-to-heading mismatch of the kind flagged on the live French page above — the
+  difference being that the live page used three different words for one concept, where
+  this is the same words plus one item.
+
+  **What the draft had that this does not.** Its Work-Sharing answer surfaced the
+  *prerequisite chain* — that the Worker Retention Grant and the Job Bank training page
+  both require an approved Work-Sharing agreement. Here that lives in the rendered name,
+  "Worker Retention Grant (prerequisite: Work-Sharing Program)", with the rows ordered so
+  Work-Sharing reads first. Less prominent, and the fuller answer is the per-row criteria
+  line in "Next steps" — which this adds a third and fourth row to.
+
 ## Next steps
 
 1. **Spot-check the seven composed French names.** 41 of 49 were read off the live French
@@ -981,11 +1058,15 @@ The deck was the starting point; the CSV corrected it. Deliberate departures:
    criteria below.
 4. **Build the per-row criteria line.** A new CSV column (plus a French twin) rendered as
    small text under the program name, for the eligibility that size gates cannot express.
-   Wanted by at least three rows today: CED's Quebec RTRI ($2M, <500 employees,
+   Wanted by at least five rows today: CED's Quebec RTRI ($2M, <500 employees,
    manufacturing), EDC direct lending ($10M inside the `5mplus` bucket, and a $1M minimum
-   draw), and BDC's Pivot to Grow Loan (3 years in business, positive cash flow, 15% U.S.
-   export share). Each is currently a `note` no visitor will ever read. This is the single
-   highest-value thing left in this list — every straddled bucket above resolves to it.
+   draw), BDC's Pivot to Grow Loan (3 years in business, positive cash flow, 15% U.S.
+   export share), and — added with the hiring need — the Worker Retention Grant and Job
+   Bank's Work-Sharing training page, which both require an approved Work-Sharing
+   agreement no Q3 answer can express. Each is currently a `note` no visitor will ever
+   read. This is the single highest-value thing left in this list — every straddled bucket
+   above resolves to it, and so does the prerequisite chain the `/eric/` draft tried to
+   solve with a whole extra question.
 5. **Report the AAFC language-toggle bug.** One note records that the French AAFC hub's
    English toggle targets a 404. That is a live Canada.ca defect, unrelated to this work.
 6. **Add amount, term and repayment** once the figures exist — new CSV columns and a line
