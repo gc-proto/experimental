@@ -7,16 +7,17 @@ Supports: https://www.canada.ca/en/department-finance/programs/
           support-canadian-workers-employers.html#a1
 Shell   : https://www.canada.ca/en/campaign/canadastrong/
           find-support-for-your-business.html   (retrieved 2026-09-10)
-Date    : 2026-09-10
+Date    : 2026-09-14 (rev 2: self-employed hand-off)
 Language: English. A French version can follow once the question wording
           is settled.
 
 
 WHAT THIS IS
 ------------
-A standalone, worker-facing companion to the employer wizard. It asks four
-questions and shows the Employment Insurance, job, training, student aid
-and apprenticeship supports that fit the answers.
+A standalone, worker-facing companion to the employer wizard. It asks up to
+four questions and shows the Employment Insurance, job, training, student
+aid and apprenticeship supports that fit the answers. People who say they
+are self-employed are handed off to the business wizard at question 1.
 
 The page shell is the Canada Strong business wizard: same WET/GCWeb chrome,
 same wb-fieldflow plugin, same click-analytics pattern, so the two tools
@@ -50,40 +51,73 @@ Group classes, used for reset:
     wz-g-trade  apprenticeship lines        (question 4 sets)
 
 Value classes, set by an answer and used to gate individual list items:
-    wz-sit-laidoff | -reduced | -working | -selfemp
+    wz-sit-laidoff | -reduced | -working
+      (there is no wz-sit-selfemp: that answer reveals its panel by id,
+       because it is the only thing that answer shows)
     wz-ei-receiving | -applying | -no | -unsure
     wz-trade-app | -any
 
-Results live in #wz-results, hidden until question 4 is answered.
+Results live in #wz-results, hidden until the last question on the path is
+answered: question 4 for employees, question 1 for the self-employed
+hand-off.
 
 
 THE TREE
 --------
 
   Q1 situation   4 answers, radio     ─ sets .wz-sit-*    ─> Q2
+                 └─ "self-employed"  ───────────────────────> results
   Q2 needs       3 answers, CHECKBOX  ─ opens need panels ─> Q3
   Q3 EI status   4 answers, radio     ─ sets .wz-ei-*     ─> Q4
   Q4 trades      3 answers, radio     ─ sets .wz-trade-*  ─> results
 
-Four questions on every path. 4 x (2^3 - 1) x 4 x 3 = 336 distinct answer
-combinations, resolving to between three and seven panels on screen.
+Two path lengths. The self-employed answer ends at question 1 and hands off
+to the business wizard. The other three run four questions:
+3 x (2^3 - 1) x 4 x 3 = 252 combinations, plus the single self-employed
+path. Two panels on the hand-off, three to seven on the rest.
 
 
 QUESTION 1 — What best describes your situation?
 ------------------------------------------------
 Block id : #question-1   (radio)
 Default  : addClass hidden on ".wz-g" and on "#wz-results"
-Each answer: removeClass .wz-sit-<key>, then append #q2-needs
 
   laidoff  I have been laid off, or my job has ended
   reduced  My hours or shifts have been reduced
   working  I am still working, but my workplace or industry is affected
+           -> removeClass .wz-sit-<key>, then append #q2-needs
   selfemp  I am self-employed, or I run a small business
+           -> removeClass #p-selfemp, removeClass #wz-results
+              no append: the wizard ends here
 
-This question owns income support. It drives #p-situation-note, which is
-shown on every path and carries exactly one line, the one matching the
-answer. All four lines point at Temporary EI Measures; what differs is what
-they tell you to do about it:
+The prompt does not name a total, because the two paths are not the same
+length. Questions 2 to 4 still say "of 4"; they only ever appear on the
+employee path.
+
+THE SELF-EMPLOYED HAND-OFF
+  This tool is for employees. A self-employed person or business owner
+  needs financing, liquidity, transformation and workforce measures, not
+  Employment Insurance, so that answer skips questions 2 to 4 and reveals
+  the results immediately with a single panel:
+
+    #p-selfemp   "This tool is for employees"
+                 Find support for your business   [the business wizard]
+                 /en/campaign/canadastrong/find-support-for-your-business.html
+
+  The standing "More options" panel stays on screen underneath it, so the
+  businesses-and-industries page and 1 800 O-Canada are still one click
+  away. #p-selfemp carries only the wizard link: businesses-and-industries
+  is in the standing panel already, and listing it twice on a two-panel
+  screen would be conspicuous.
+
+  Because the answer reveals #wz-results directly, and question 1's default
+  re-hides it, switching to any other answer tears the hand-off down and
+  collapses the results as normal. Verified in-browser.
+
+The other three answers own income support. They drive #p-situation-note,
+which carries exactly one line, the one matching the answer. All three
+point at Temporary EI Measures; what differs is what they tell you to do
+about it:
 
   laidoff  "Apply as soon as your job ends. The temporary measures waive
             the one-week waiting period."
@@ -92,9 +126,6 @@ they tell you to do about it:
   working  "You cannot claim while you are working your normal hours. Read
             the measures now so you know what applies if your hours are
             cut."
-  selfemp  "EI works differently for self-employed people. Check whether
-            you have opted in to EI special benefits before you count on
-            it."
 
 Why income is not one of the question 2 options: it would have put the same
 EI link on screen twice, once here and once in a need panel. Question 1
@@ -220,7 +251,8 @@ combination of answers:
   - "Didn't find what you were looking for?" -> 1 800 O-Canada
 
 This is also what makes the business-supports link reachable on every path,
-including for someone who is not self-employed.
+including the self-employed hand-off, where it sits under the business
+wizard link.
 
 
 ONE SUPPORT, ONE PANEL
@@ -228,7 +260,8 @@ ONE SUPPORT, ONE PANEL
 Because question 2 is multi-select, up to seven panels can be on screen at
 once, so every one of the thirteen supports is listed in exactly one panel.
 Verified in-browser on the maximal path (all three needs ticked, receiving
-EI, Red Seal apprentice): fifteen links visible, zero repeats.
+EI, Red Seal apprentice): fifteen links visible, zero repeats. The
+self-employed hand-off was checked the same way: four links, zero repeats.
 
 That rule is what shaped several placements:
   - Job Bank sits only in #p-job, not in the standing panel.
@@ -270,6 +303,10 @@ Red Seal trades
 Businesses and industries
   Support for businesses and industries           standing panel
 
+Not a support on the source page, added as a hand-off
+  Find support for your business (the business    #p-selfemp
+    wizard)
+
 
 WORKED EXAMPLES, both captured in-browser
 ------------------------------------------
@@ -288,6 +325,10 @@ Still working > training only > not on EI and not applying > no trade
   #p-ei-note         not everything here needs an active EI claim
   standing           business supports, source page, 1 800 O-Canada
 
+Self-employed  (one question, then out)
+  #p-selfemp         Find support for your business
+  standing           business supports, source page, 1 800 O-Canada
+
 
 ANALYTICS
 ---------
@@ -299,15 +340,32 @@ separately from the business one.
 The script detects the end of the branch from the DOM rather than from a
 question count: fieldflow stamps data-wb-fieldflow-source onto every
 fieldset it renders and leaves the hidden source <div> in the document, so
-the script treats a question as terminal when neither it nor any of its
-answers contains an "append" action. A multi-select question contributes
-one entry, its ticked answers joined with " + "; questions are joined with
-" > ". Captured path:
+the script can look the question up and read its actions.
+
+The test is per ANSWER, not per question. Question 1 mixes three answers
+that continue to question 2 with one, "I am self-employed", that ends the
+wizard there, so a question-level test would have missed the hand-off
+entirely. The rendered control cannot be read directly, because fieldflow
+moves the actions off it and leaves a bind reference behind; instead the
+script takes the control's position among its fieldset's inputs and reads
+the source <li> at the same position, fieldflow having rendered them in
+document order. A question that carries its own append, which is how a
+multi-select question has to do it, is never the end of a branch.
+
+A multi-select question contributes one entry, its ticked answers joined
+with " + "; questions are joined with " > ". Both captured in-browser:
 
   ServCan:CanadaStrongWorkerWizard:I have been laid off, or my job has
   ended > Finding another job + Training or new skills + Paying for school,
   or managing a student loan > I am receiving EI now > Yes, I am a
   registered apprentice in a Red Seal trade
+
+  ServCan:CanadaStrongWorkerWizard:I am self-employed, or I run a small
+  business
+
+Each stamp sits on the control that completed its own branch, so the two
+path lengths report separately and the hand-off is measurable: how many
+people land in the wrong tool is worth knowing.
 
 
 VERIFICATION PERFORMED
@@ -316,6 +374,12 @@ VERIFICATION PERFORMED
   exists; no orphan selectors.
 - All thirteen supports present; all fifteen outbound URLs return HTTP 200.
 - Walked in a browser with the live WET/GCWeb assets:
+  * the self-employed hand-off - one fieldset only, results shown straight
+    away, two panels, four links, zero repeats, and the analytics stamp
+    carrying the single answer;
+  * switching from self-employed to "laid off" - hand-off panel hidden,
+    results collapsed, question 2 rendered, and the four-question path then
+    completing and stamping its own control;
   * maximal path, all three needs ticked - seven panels, fifteen links,
     zero repeated links;
   * minimal path, one need ticked, no EI, no trade - four panels;
@@ -345,4 +409,10 @@ NOTES AND OPEN ITEMS
   wizard, inherited from the shell. It needs re-pointing when a French
   worker wizard exists.
 - "Question N of 4" is hard-coded in the prompts, as on the live tools. The
-  analytics script does not depend on it.
+  analytics script does not depend on it. Question 1 names no total, since
+  the self-employed answer makes the path length vary.
+- The hand-off is a one-way door by design: someone who picks self-employed
+  and then realises they are asking as an employee has to change their
+  question 1 answer, which is one click. If testing shows people get stuck
+  there, the panel could gain a "no, I am an employee" link that simply
+  re-focuses question 1.

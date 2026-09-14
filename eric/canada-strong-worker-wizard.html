@@ -274,12 +274,12 @@
 <div id="cs-wizard" class="wb-frmvld" data-gc-analytics-formname="ServCan:CanadaStrongWorkerWizard" data-gc-analytics-collect="[{&quot;value&quot;:&quot;input&quot;,&quot;emptyField&quot;: &quot;n/a&quot;}]">
 	<form method="get" action="#">
 	<div id="question-1" class="wb-fieldflow" data-wb-fieldflow="{&quot;renderas&quot;:&quot;radio&quot;,&quot;gcChckbxrdio&quot;:true,&quot;noForm&quot;:true,&quot;base&quot;:{&quot;live&quot;:true},&quot;default&quot;:[{&quot;action&quot;:&quot;addClass&quot;,&quot;source&quot;:&quot;.wz-g&quot;,&quot;class&quot;:&quot;hidden&quot;},{&quot;action&quot;:&quot;addClass&quot;,&quot;source&quot;:&quot;#wz-results&quot;,&quot;class&quot;:&quot;hidden&quot;}]}">
-		<p>Question 1 of 4: What best describes your situation?</p>
+		<p>Question 1: What best describes your situation?</p>
 		<ul>
 			<li data-wb-fieldflow="[{&quot;action&quot;:&quot;removeClass&quot;,&quot;source&quot;:&quot;.wz-sit-laidoff&quot;,&quot;class&quot;:&quot;hidden&quot;},{&quot;action&quot;:&quot;append&quot;,&quot;source&quot;:&quot;#q2-needs&quot;}]">I have been laid off, or my job has ended</li>
 			<li data-wb-fieldflow="[{&quot;action&quot;:&quot;removeClass&quot;,&quot;source&quot;:&quot;.wz-sit-reduced&quot;,&quot;class&quot;:&quot;hidden&quot;},{&quot;action&quot;:&quot;append&quot;,&quot;source&quot;:&quot;#q2-needs&quot;}]">My hours or shifts have been reduced</li>
 			<li data-wb-fieldflow="[{&quot;action&quot;:&quot;removeClass&quot;,&quot;source&quot;:&quot;.wz-sit-working&quot;,&quot;class&quot;:&quot;hidden&quot;},{&quot;action&quot;:&quot;append&quot;,&quot;source&quot;:&quot;#q2-needs&quot;}]">I am still working, but my workplace or industry is affected</li>
-			<li data-wb-fieldflow="[{&quot;action&quot;:&quot;removeClass&quot;,&quot;source&quot;:&quot;.wz-sit-selfemp&quot;,&quot;class&quot;:&quot;hidden&quot;},{&quot;action&quot;:&quot;append&quot;,&quot;source&quot;:&quot;#q2-needs&quot;}]">I am self-employed, or I run a small business</li>
+			<li data-wb-fieldflow="[{&quot;action&quot;:&quot;removeClass&quot;,&quot;source&quot;:&quot;#p-selfemp&quot;,&quot;class&quot;:&quot;hidden&quot;},{&quot;action&quot;:&quot;removeClass&quot;,&quot;source&quot;:&quot;#wz-results&quot;,&quot;class&quot;:&quot;hidden&quot;}]">I am self-employed, or I run a small business</li>
 		</ul>
 	</div>
 	<div id="q2-needs" class="hidden wb-fieldflow-sub" data-wb-fieldflow="{&quot;renderas&quot;:&quot;checkbox&quot;,&quot;gcChckbxrdio&quot;:true,&quot;default&quot;:[{&quot;action&quot;:&quot;addClass&quot;,&quot;source&quot;:&quot;.wz-g-need, .wz-g-ei, .wz-g-trade&quot;,&quot;class&quot;:&quot;hidden&quot;},{&quot;action&quot;:&quot;addClass&quot;,&quot;source&quot;:&quot;#wz-results&quot;,&quot;class&quot;:&quot;hidden&quot;},{&quot;action&quot;:&quot;append&quot;,&quot;source&quot;:&quot;#q3-ei&quot;}]}">
@@ -319,14 +319,20 @@
 	<div id="wz-results" class="hidden">
 		<h2 class="mrgn-tp-lg">Supports that match your answers</h2>
 
-		<section id="p-situation-note" class="panel panel-success mrgn-tp-md hidden wz-g wz-g-sit wz-sit-laidoff wz-sit-reduced wz-sit-working wz-sit-selfemp">
+		<section id="p-situation-note" class="panel panel-success mrgn-tp-md hidden wz-g wz-g-sit wz-sit-laidoff wz-sit-reduced wz-sit-working">
 			<header class="panel-heading"><h3 class="panel-title h4">Income support for your situation</h3></header>
 			<div class="panel-body">			<p>Employment Insurance is the main income support while you are not working, or working reduced hours.</p>
 			<ul>
 			<li class="hidden wz-g wz-sit-laidoff"><a href="/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html" target="_blank" rel="noopener noreferrer">Temporary Employment Insurance (EI) Measures<span class="glyphicon glyphicon-new-window mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> (Opens destination in a new tab.)</span></a> <span class="small text-muted">ESDC</span><br><span class="small">Apply as soon as your job ends. The temporary measures waive the one-week waiting period.</span></li>
 			<li class="hidden wz-g wz-sit-reduced"><a href="/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html" target="_blank" rel="noopener noreferrer">Temporary Employment Insurance (EI) Measures<span class="glyphicon glyphicon-new-window mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> (Opens destination in a new tab.)</span></a> <span class="small text-muted">ESDC</span><br><span class="small">You may still qualify for EI while you are working reduced hours.</span></li>
 			<li class="hidden wz-g wz-sit-working"><a href="/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html" target="_blank" rel="noopener noreferrer">Temporary Employment Insurance (EI) Measures<span class="glyphicon glyphicon-new-window mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> (Opens destination in a new tab.)</span></a> <span class="small text-muted">ESDC</span><br><span class="small">You cannot claim while you are working your normal hours. Read the measures now so you know what applies if your hours are cut.</span></li>
-			<li class="hidden wz-g wz-sit-selfemp"><a href="/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html" target="_blank" rel="noopener noreferrer">Temporary Employment Insurance (EI) Measures<span class="glyphicon glyphicon-new-window mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> (Opens destination in a new tab.)</span></a> <span class="small text-muted">ESDC</span><br><span class="small">EI works differently for self-employed people. Check whether you have opted in to EI special benefits before you count on it.</span></li>
+			</ul></div>
+		</section>
+		<section id="p-selfemp" class="panel panel-success mrgn-tp-md hidden wz-g wz-g-sit">
+			<header class="panel-heading"><h3 class="panel-title h4">Use the business support tool instead</h3></header>
+			<div class="panel-body">			<p>If you are self-employed or you run a business,<a href="/en/campaign/canadastrong/find-support-for-your-business.html" target="_blank" rel="noopener noreferrer"><\ use the business tool instead.</p></a>
+			<ul>
+			<li><a href="/en/campaign/canadastrong/find-support-for-your-business.html" target="_blank" rel="noopener noreferrer">Find support for your business: answer a few questions<span class="glyphicon glyphicon-new-window mrgn-lft-sm" aria-hidden="true"></span><span class="wb-inv"> (Opens destination in a new tab.)</span></a> <span class="small text-muted">Service Canada</span><br><span class="small">The business tool asks about your need, region, revenue and sector, and about your workforce if you have employees.</span></li>
 			</ul></div>
 		</section>
 		<section id="p-job" class="panel panel-success mrgn-tp-md hidden wz-g wz-g-need">
@@ -419,23 +425,38 @@
 		ATTR   = "data-gc-analytics-customclick";
 
 	// fieldflow stamps the id of the source question <div> onto each fieldset it
-	// renders, and leaves the source <div> in the document. A question ends its
-	// branch when neither the question nor any of its answers appends another
-	// question.
-	function terminal( fieldset ) {
+	// renders, and leaves the source <div> in the document.
+	//
+	// The test is per ANSWER, not per question: question 1 mixes answers that
+	// continue to question 2 with "I am self-employed", which ends the wizard
+	// there and hands off to the business tool. An answer ends the branch when
+	// neither it nor its question appends anything.
+	function terminal( input, fieldset ) {
 		var source = document.getElementById( fieldset.getAttribute( "data-wb-fieldflow-source" ) ),
-			nodes, i;
+			inputs, answers, index;
 		if ( !source ) {
 			return false;
 		}
-		nodes = [ source ].concat( Array.prototype.slice.call(
-			source.querySelectorAll( "[data-wb-fieldflow]" ) ) );
-		for ( i = 0; i < nodes.length; i++ ) {
-			if ( ( nodes[ i ].getAttribute( "data-wb-fieldflow" ) || "" ).indexOf( "\"append\"" ) > -1 ) {
-				return false;
-			}
+
+		// A multi-select question carries its append on the question itself,
+		// because fieldflow runs that once per change rather than once per
+		// ticked box. Such a question is never the end of a branch.
+		if ( ( source.getAttribute( "data-wb-fieldflow" ) || "" ).indexOf( "\"append\"" ) > -1 ) {
+			return false;
 		}
-		return true;
+
+		// fieldflow renders the source <li> answers in document order, so the
+		// control's position in its fieldset is the position of the answer that
+		// produced it. The rendered control cannot be read directly: fieldflow
+		// moves the actions off it and leaves a bind reference behind.
+		inputs = fieldset.querySelectorAll( "input[type='radio'], input[type='checkbox']" );
+		answers = source.querySelectorAll( "ul > li[data-wb-fieldflow]" );
+		index = Array.prototype.indexOf.call( inputs, input );
+		if ( index < 0 || index >= answers.length ) {
+			return false;
+		}
+		return ( answers[ index ].getAttribute( "data-wb-fieldflow" ) || "" )
+			.indexOf( "\"append\"" ) === -1;
 	}
 
 	// One entry per question on screen, in question order. fieldflow builds
@@ -484,7 +505,7 @@
 			return;
 		}
 		last = fieldsets[ fieldsets.length - 1 ];
-		if ( input.closest( "fieldset" ) !== last || !terminal( last ) ) {
+		if ( input.closest( "fieldset" ) !== last || !terminal( input, last ) ) {
 			return;
 		}
 
