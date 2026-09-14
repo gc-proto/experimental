@@ -1,22 +1,27 @@
 DECISION TREE — worker support wizard
 =====================================
 
-File    : eric/canada-strong-worker-wizard.html
+Files   : eric/canada-strong-worker-wizard.html          (English)
+          eric/un-canada-fort-assistant-travailleurs.html  (French)
 Supports: https://www.canada.ca/en/department-finance/programs/
           international-trade-finance-policy/canadas-response-us-tariffs/
           support-canadian-workers-employers.html#a1
 Shell   : https://www.canada.ca/en/campaign/canadastrong/
           find-support-for-your-business.html   (retrieved 2026-09-10)
-Date    : 2026-09-10
-Language: English. A French version can follow once the question wording
-          is settled.
+Date    : 2026-09-14 (rev 5: Start over now resets the prototype)
+Language: Both. The two files share one structure - same question ids,
+          same panel ids, same classes, same fieldflow actions, same
+          analytics script - so everything below describes both. French
+          wording comes from the French Government of Canada pages, not
+          back-translated; see FRENCH EQUIVALENTS at the foot.
 
 
 WHAT THIS IS
 ------------
-A standalone, worker-facing companion to the employer wizard. It asks four
-questions and shows the Employment Insurance, job, training, student aid
-and apprenticeship supports that fit the answers.
+A standalone, worker-facing companion to the employer wizard. It asks up to
+four questions and shows the Employment Insurance, job, training, student
+aid and apprenticeship supports that fit the answers. People who say they
+are self-employed are handed off to the business wizard at question 1.
 
 The page shell is the Canada Strong business wizard: same WET/GCWeb chrome,
 same wb-fieldflow plugin, same click-analytics pattern, so the two tools
@@ -24,8 +29,9 @@ look and behave alike. Everything inside <main> is new. A <base> element
 makes the shell's relative asset and link URLs resolve against canada.ca
 when the file is opened from disk.
 
-All thirteen supports listed under "Worker supports" on the source page are
-reachable. Every destination URL was checked and returns HTTP 200.
+Twelve of the thirteen supports listed under "Worker supports" on the
+source page are reachable; see COVERAGE for the one that is not. Every
+destination URL was checked and returns HTTP 200 in both languages.
 
 
 HOW THE MECHANISM WORKS
@@ -50,40 +56,73 @@ Group classes, used for reset:
     wz-g-trade  apprenticeship lines        (question 4 sets)
 
 Value classes, set by an answer and used to gate individual list items:
-    wz-sit-laidoff | -reduced | -working | -selfemp
+    wz-sit-laidoff | -reduced | -working
+      (there is no wz-sit-selfemp: that answer reveals its panel by id,
+       because it is the only thing that answer shows)
     wz-ei-receiving | -applying | -no | -unsure
     wz-trade-app | -any
 
-Results live in #wz-results, hidden until question 4 is answered.
+Results live in #wz-results, hidden until the last question on the path is
+answered: question 4 for employees, question 1 for the self-employed
+hand-off.
 
 
 THE TREE
 --------
 
   Q1 situation   4 answers, radio     ─ sets .wz-sit-*    ─> Q2
+                 └─ "self-employed"  ───────────────────────> results
   Q2 needs       3 answers, CHECKBOX  ─ opens need panels ─> Q3
   Q3 EI status   4 answers, radio     ─ sets .wz-ei-*     ─> Q4
   Q4 trades      3 answers, radio     ─ sets .wz-trade-*  ─> results
 
-Four questions on every path. 4 x (2^3 - 1) x 4 x 3 = 336 distinct answer
-combinations, resolving to between three and seven panels on screen.
+Two path lengths. The self-employed answer ends at question 1 and hands off
+to the business wizard. The other three run four questions:
+3 x (2^3 - 1) x 4 x 3 = 252 combinations, plus the single self-employed
+path. Two panels on the hand-off, three to seven on the rest.
 
 
 QUESTION 1 — What best describes your situation?
 ------------------------------------------------
 Block id : #question-1   (radio)
 Default  : addClass hidden on ".wz-g" and on "#wz-results"
-Each answer: removeClass .wz-sit-<key>, then append #q2-needs
 
   laidoff  I have been laid off, or my job has ended
   reduced  My hours or shifts have been reduced
   working  I am still working, but my workplace or industry is affected
+           -> removeClass .wz-sit-<key>, then append #q2-needs
   selfemp  I am self-employed, or I run a small business
+           -> removeClass #p-selfemp, removeClass #wz-results
+              no append: the wizard ends here
 
-This question owns income support. It drives #p-situation-note, which is
-shown on every path and carries exactly one line, the one matching the
-answer. All four lines point at Temporary EI Measures; what differs is what
-they tell you to do about it:
+The prompt does not name a total, because the two paths are not the same
+length. Questions 2 to 4 still say "of 4"; they only ever appear on the
+employee path.
+
+THE SELF-EMPLOYED HAND-OFF
+  This tool is for employees. A self-employed person or business owner
+  needs financing, liquidity, transformation and workforce measures, not
+  Employment Insurance, so that answer skips questions 2 to 4 and reveals
+  the results immediately with a single panel:
+
+    #p-selfemp   "This tool is for employees"
+                 Find support for your business   [the business wizard]
+                 /en/campaign/canadastrong/find-support-for-your-business.html
+
+  The standing "More options" panel stays on screen underneath it, so the
+  businesses-and-industries page and 1 800 O-Canada are still one click
+  away. #p-selfemp carries only the wizard link: businesses-and-industries
+  is in the standing panel already, and listing it twice on a two-panel
+  screen would be conspicuous.
+
+  Because the answer reveals #wz-results directly, and question 1's default
+  re-hides it, switching to any other answer tears the hand-off down and
+  collapses the results as normal. Verified in-browser.
+
+The other three answers own income support. They drive #p-situation-note,
+which carries exactly one line, the one matching the answer. All three
+point at Temporary EI Measures; what differs is what they tell you to do
+about it:
 
   laidoff  "Apply as soon as your job ends. The temporary measures waive
             the one-week waiting period."
@@ -92,9 +131,6 @@ they tell you to do about it:
   working  "You cannot claim while you are working your normal hours. Read
             the measures now so you know what applies if your hours are
             cut."
-  selfemp  "EI works differently for self-employed people. Check whether
-            you have opted in to EI special benefits before you count on
-            it."
 
 Why income is not one of the question 2 options: it would have put the same
 EI link on screen twice, once here and once in a need panel. Question 1
@@ -214,13 +250,14 @@ so both trade answers see it.
 ALWAYS ON SCREEN
 ----------------
 A standing "More options" panel with no hidden class, so it survives every
-combination of answers:
-  - Support for businesses and industries impacted by tariffs
+combination of answers. Trimmed to two lines on 2026-09-14:
   - "See every measure in one place" -> the source page
   - "Didn't find what you were looking for?" -> 1 800 O-Canada
 
-This is also what makes the business-supports link reachable on every path,
-including for someone who is not self-employed.
+It previously also carried "Support for businesses and industries impacted
+by tariffs". That bullet and the panel's lead sentence were removed, so the
+first paragraph now sits flush to the top of the panel body. The
+consequence for coverage is recorded below.
 
 
 ONE SUPPORT, ONE PANEL
@@ -228,7 +265,8 @@ ONE SUPPORT, ONE PANEL
 Because question 2 is multi-select, up to seven panels can be on screen at
 once, so every one of the thirteen supports is listed in exactly one panel.
 Verified in-browser on the maximal path (all three needs ticked, receiving
-EI, Red Seal apprentice): fifteen links visible, zero repeats.
+EI, Red Seal apprentice): fifteen links visible, zero repeats. The
+self-employed hand-off was checked the same way: four links, zero repeats.
 
 That rule is what shaped several placements:
   - Job Bank sits only in #p-job, not in the standing panel.
@@ -268,7 +306,24 @@ Red Seal trades
   EI for apprentices                              #p-trades, apprentice
 
 Businesses and industries
-  Support for businesses and industries           standing panel
+  Support for businesses and industries           NO LONGER REACHABLE
+
+  This is the one support from the source page that the wizard no longer
+  links. It had a single home, the standing "More options" panel, and that
+  bullet was removed on 2026-09-14. Worth a decision rather than a silent
+  gap: the natural home for it now is #p-selfemp, the hand-off panel, which
+  is exactly where a business owner lands, and where it would sit beside
+  the business wizard link rather than in front of every worker. Restoring
+  it there costs one line.
+
+  The source page files it under its own heading, "Support for businesses
+  and industries", separate from the three worker groupings, so leaving it
+  out of a worker-facing tool is defensible. It only needs to be a
+  deliberate choice.
+
+Not a support on the source page, added as a hand-off
+  Find support for your business (the business    #p-selfemp
+    wizard)
 
 
 WORKED EXAMPLES, both captured in-browser
@@ -288,6 +343,10 @@ Still working > training only > not on EI and not applying > no trade
   #p-ei-note         not everything here needs an active EI claim
   standing           business supports, source page, 1 800 O-Canada
 
+Self-employed  (one question, then out)
+  #p-selfemp         Find support for your business
+  standing           business supports, source page, 1 800 O-Canada
+
 
 ANALYTICS
 ---------
@@ -299,15 +358,32 @@ separately from the business one.
 The script detects the end of the branch from the DOM rather than from a
 question count: fieldflow stamps data-wb-fieldflow-source onto every
 fieldset it renders and leaves the hidden source <div> in the document, so
-the script treats a question as terminal when neither it nor any of its
-answers contains an "append" action. A multi-select question contributes
-one entry, its ticked answers joined with " + "; questions are joined with
-" > ". Captured path:
+the script can look the question up and read its actions.
+
+The test is per ANSWER, not per question. Question 1 mixes three answers
+that continue to question 2 with one, "I am self-employed", that ends the
+wizard there, so a question-level test would have missed the hand-off
+entirely. The rendered control cannot be read directly, because fieldflow
+moves the actions off it and leaves a bind reference behind; instead the
+script takes the control's position among its fieldset's inputs and reads
+the source <li> at the same position, fieldflow having rendered them in
+document order. A question that carries its own append, which is how a
+multi-select question has to do it, is never the end of a branch.
+
+A multi-select question contributes one entry, its ticked answers joined
+with " + "; questions are joined with " > ". Both captured in-browser:
 
   ServCan:CanadaStrongWorkerWizard:I have been laid off, or my job has
   ended > Finding another job + Training or new skills + Paying for school,
   or managing a student loan > I am receiving EI now > Yes, I am a
   registered apprentice in a Red Seal trade
+
+  ServCan:CanadaStrongWorkerWizard:I am self-employed, or I run a small
+  business
+
+Each stamp sits on the control that completed its own branch, so the two
+path lengths report separately and the hand-off is measurable: how many
+people land in the wrong tool is worth knowing.
 
 
 VERIFICATION PERFORMED
@@ -316,6 +392,12 @@ VERIFICATION PERFORMED
   exists; no orphan selectors.
 - All thirteen supports present; all fifteen outbound URLs return HTTP 200.
 - Walked in a browser with the live WET/GCWeb assets:
+  * the self-employed hand-off - one fieldset only, results shown straight
+    away, two panels, four links, zero repeats, and the analytics stamp
+    carrying the single answer;
+  * switching from self-employed to "laid off" - hand-off panel hidden,
+    results collapsed, question 2 rendered, and the four-question path then
+    completing and stamping its own control;
   * maximal path, all three needs ticked - seven panels, fifteen links,
     zero repeated links;
   * minimal path, one need ticked, no EI, no trade - four panels;
@@ -345,4 +427,235 @@ NOTES AND OPEN ITEMS
   wizard, inherited from the shell. It needs re-pointing when a French
   worker wizard exists.
 - "Question N of 4" is hard-coded in the prompts, as on the live tools. The
-  analytics script does not depend on it.
+  analytics script does not depend on it. Question 1 names no total, since
+  the self-employed answer makes the path length vary.
+- The hand-off is a one-way door by design: someone who picks self-employed
+  and then realises they are asking as an employee has to change their
+  question 1 answer, which is one click. If testing shows people get stuck
+  there, the panel could gain a "no, I am an employee" link that simply
+  re-focuses question 1.
+
+
+TEST RESULTS
+------------
+Both files were driven through every combination in a browser with the live
+WET/GCWeb assets, each result compared against an expected-results model
+written from this document rather than read off the page.
+
+  252  employee combinations
+         3 situations x 7 need subsets x 4 EI answers x 3 trade answers
+    1  self-employed hand-off
+    2  edge cases: unticking the last need; changing the EI answer in
+         place
+  ---
+  256  checks per language, 512 in total. All pass. The extra check per
+       language is "Start over" returning the wizard to question 1.
+
+  Re-run after every change since, including the More options trim: the
+  expected standing panel is now the source page and 1 800 O-Canada, and
+  the suite would fail if the businesses-and-industries bullet came back
+  in one language but not the other.
+
+Each check asserts: the exact set of visible panels, the exact set of
+visible links in each panel, no link appearing twice anywhere in the
+results, exactly one visible line in the situation panel, and exactly one
+visible line in the EI panel.
+
+TWO BUGS THE SWEEP FOUND
+  Neither showed up in the first 252-combination pass, because that pass
+  reset through question 1 between cases, and question 1's reset hides
+  .wz-g - everything. They appeared only when an answer was changed in
+  place, which is what a person actually does.
+
+  1. Changing the EI answer left the old line on screen beside the new one.
+     The lines in #p-ei-note carried "wz-g wz-ei-receiving" but not
+     "wz-g-ei", so question 3's reset ("addClass .wz-g-ei") matched the
+     panel and not the lines inside it. Fixed by giving every gated line
+     its question's group class; the builder now derives it rather than
+     relying on each call site to pass it. The trades lines already had
+     theirs, which is why they were unaffected.
+
+  2. Unticking the last need left a stale result on screen. fieldflow runs
+     a question's "default" actions only when something is selected, so
+     unticking the last box tore questions 3 and 4 down but nothing re-hid
+     what they had revealed: the training panel stayed up with the training
+     box unticked. Fixed with a short guard in the page script that hides
+     the results and the need, EI and trade panels whenever question 2 has
+     no answer.
+
+Console errors on both pages come only from the Adobe Analytics loader and
+from the preview sandbox blocking cookies and localStorage on data: URLs.
+Nothing from the wizard itself.
+
+NO LINK APPEARS TWICE
+  #p-selfemp briefly linked the business wizard twice, from the lead
+  sentence and from the list item below it. The lead sentence is now plain
+  text and the list item carries the one link, in both languages. The
+  suite asserts this directly, so every panel in both files holds each
+  support exactly once.
+
+
+FRENCH EQUIVALENTS
+------------------
+File: eric/un-canada-fort-assistant-travailleurs.html, built from the French
+business wizard shell. Same ids, classes and fieldflow actions as the
+English file.
+
+  H1    Trouvez du soutien si les droits de douane ont touche votre emploi
+  Q1    Question 1 : Quelle est votre situation?
+  Q2    Question 2 sur 4 : De quoi avez-vous besoin? Selectionnez toutes
+        les reponses qui s'appliquent.
+  Q3    Question 3 sur 4 : Recevez-vous des prestations d'assurance-emploi
+        ou prevoyez-vous en faire la demande?
+  Q4    Question 4 sur 4 : Etes-vous apprenti ou travaillez-vous dans un
+        metier specialise?
+
+  Situations   J'ai ete mis a pied ou mon emploi a pris fin
+               Mes heures ou mes quarts de travail ont ete reduits
+               Je travaille toujours, mais mon milieu de travail ou mon
+                 secteur est touche
+               Je suis travailleur autonome ou je dirige une petite
+                 entreprise           -> hands off, ends the wizard
+  Needs        Trouver un autre emploi
+               Formation ou nouvelles competences
+               Payer mes etudes ou gerer un pret etudiant
+  EI           Je recois des prestations d'assurance-emploi en ce moment
+               J'ai fait une demande ou je suis sur le point d'en faire une
+               Je ne recois pas de prestations et je ne prevois pas en
+                 demander
+               Je ne sais pas si je suis admissible
+  Trades       Oui, je suis un apprenti inscrit dans un metier designe
+                 Sceau rouge
+               Je travaille dans un metier specialise, mais je ne suis pas
+                 apprenti
+               Non
+
+  Panels       Soutien du revenu selon votre situation
+               Utilisez plutot l'outil de soutien aux entreprises
+               Trouver un autre emploi
+               Formation et nouvelles competences
+               Payer vos etudes et gerer vos prets etudiants
+               A propos de votre situation d'assurance-emploi
+               Apprentissage et metiers specialises
+               Autres options
+
+  (the file itself carries the correct accents; they are stripped in this
+  section only to keep this plain-text document portable)
+
+The thirteen supports, French URLs
+  Mesures temporaires de l'assurance-emploi
+    /fr/services/prestations/ae/
+      mesures-temporaires-pour-conditions-economiques-majeures.html
+  Guichet-Emplois                  https://www.guichetemplois.gc.ca/accueil
+  Ententes sur le developpement du marche du travail financees par
+    l'assurance-emploi (EDMT)
+    /fr/emploi-developpement-social/programmes/accords-formation/
+      reponse-tarifaire-main-doeuvre.html
+  Competences pour reussir
+    /fr/services/emplois/formation/initiatives/competence-reussir.html
+  Outil de recherche de formation
+    https://www.guichetemplois.gc.ca/planification-carriere/
+      recherche-formation   (the page's own utm parameters, utm_term=FR)
+  Formation pour les competences et l'emploi destinee aux Autochtones
+    /fr/emploi-developpement-social/programmes/
+      formation-competences-emploi-autochones/
+      organismes-prestation-services.html
+  Bourses et prets d'etudes canadiens
+    /fr/services/prestations/education/aide-etudiants/bourses-prets.html
+  Programme d'aide au remboursement (PAR)
+    /fr/services/prestations/education/aide-etudiants/bourses-prets/
+      rembourser/aide-remboursement/par.html
+  L'assurance-emploi et les cours ou les programmes de formation
+    /fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/
+      cours-formation.html
+  Pret canadien aux apprentis
+    /fr/services/emplois/formation/soutien-metiers-specialises-apprentis/
+      prets.html
+  Deductions fiscales et credits d'impot
+    /fr/services/emplois/formation/soutien-metiers-specialises-apprentis/
+      credits-dimpot-apprentis.html
+  Assurance-emploi pour les apprentis
+    /fr/services/emplois/formation/soutien-metiers-specialises-apprentis/
+      assurance-emploi-apprentis.html
+  Soutien aux entreprises et aux industries touchees par les droits de
+    douane
+    /fr/campagne/uncanadafort/entreprises-industries.html
+  Hand-off target: Trouvez du soutien pour votre entreprise
+    /fr/campagne/uncanadafort/trouvez-du-soutien-pour-votre-entreprise.html
+
+Sources: every programme name and URL above is taken verbatim from the
+"Soutien aux travailleurs" section of the French tariff-response page, or
+from the French business wizard. Department labels follow suit: EDSC, ARC,
+Guichet-Emplois, Service Canada. New-window text is the French page's own
+"(Ouvre l'emplacement dans un nouvel onglet.)".
+
+The analytics prefix is deliberately the same in both languages,
+ServCan:CanadaStrongWorkerWizard, so the two report together and are told
+apart by the answer text. French path captured in-browser:
+
+  ServCan:CanadaStrongWorkerWizard:Je travaille toujours, mais mon milieu
+  de travail ou mon secteur est touche > Formation ou nouvelles competences
+  + Payer mes etudes ou gerer un pret etudiant > Je ne sais pas si je suis
+  admissible > Je travaille dans un metier specialise, mais je ne suis pas
+  apprenti
+
+Each file's header language toggle points at the other file, so the pair
+can be reviewed together. That also closes the gap noted in rev 2, where
+the English file's toggle still pointed at the live French business wizard.
+
+
+REV 4 (2026-09-14) - More options trimmed
+------------------------------------------
+Eric removed the lead sentence and the businesses-and-industries bullet
+from the standing panel, leaving two lines. Mirrored into the French file
+through the builder, so both came out of the same build:
+
+  EN  See every measure in one place: Support for workers impacted by
+      tariffs
+      Didn't find what you were looking for? Call us at 1 800 O-Canada.
+      Find service hours and current wait times.
+
+  FR  Voyez toutes les mesures au meme endroit : Soutien aux travailleurs
+      en reponse aux droits de douane
+      Vous n'avez pas trouve ce que vous cherchiez? Appelez-nous au
+      1 800 O-Canada. Trouvez les heures de service et les temps d'attente
+      actuels.
+
+The rebuild reproduced Eric's English file byte for byte, so nothing of the
+hand edit was lost. See COVERAGE for the one support this leaves unlinked.
+
+REV 5 (2026-09-14) - Start over fixed
+--------------------------------------
+Label lowercased to "Start over" in English; the French button keeps
+"Recommencer".
+
+The control did not work. Two separate reasons, both fixed:
+
+  1. The href was the prototype's own filename, but the page carries a
+     <base> pointing at canada.ca so the shell's relative asset and
+     programme URLs resolve when the file is opened from disk. That base
+     also caught this link, so it resolved to
+       https://www.canada.ca/en/campaign/canadastrong/
+         canada-strong-worker-wizard.html
+     which does not exist. The French one resolved to the equivalent 404
+     under /fr/campagne/uncanadafort/.
+
+  2. A plain reload would not have been a reset either. Browsers restore
+     form state on reload, and questions 2 onward are built by fieldflow
+     rather than present in the markup, so the wizard came back
+     part-answered: tested, and the reload left all four questions on
+     screen with every answer still checked.
+
+So the link now resets in place. On click it clears the form, dispatches a
+change so fieldflow tears down the questions it had appended, re-hides
+every .wz-g result element and #wz-results, and scrolls back to the h1. Its
+href is still set at runtime to the document that is actually open, so it
+behaves like a link for middle-click and copy-link.
+
+Verified in both languages, from a completed four-question path and from
+the self-employed hand-off: back to one question, nothing checked, results
+hidden, no panels showing - and the wizard rebuilds normally afterwards.
+
+Note for a real deployment: on canada.ca there is no <base> and the page
+sits at its own URL, so a plain href would work. The in-place reset is
+still the better behaviour, and costs nothing there.
