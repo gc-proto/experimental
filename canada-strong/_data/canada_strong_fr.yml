@@ -13,7 +13,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 lang: fr
-date_modified: "2026-09-11"
+date_modified: "2026-09-14"
 alt_lang_text: "English"
 
 # Le nom de la campagne. Rendu comme le premier des deux h1 de chaque page,
@@ -35,8 +35,7 @@ needs:
   - {marker: need-fin, csv: financing,      heading: "Financement"}
   - {marker: need-liq, csv: liquidity,      heading: "Liquidités"}
   - {marker: need-tra, csv: transformation, heading: "Transformation et projets d'immobilisations"}
-  - {marker: need-wrk, csv: workforce,      heading: "Maintien en poste et travail partagé de la main-d'œuvre"}
-  - {marker: need-hire, csv: hiring,        heading: "Soutien à la requalification et à l'embauche"}
+  - {marker: need-wrk, csv: workforce,      heading: "Maintien en poste et reconversion de la main-d'œuvre"}
 
 # La dernière réponse de la question 1 n'est pas un besoin en soi — elle
 # affiche tous les besoins à la fois. Elle n'a pas d'entrée dans `needs:` (cette
@@ -155,14 +154,13 @@ business:
   questions:
     - id: question-1
       legend: "Question 1 sur 4 : De quoi avez-vous besoin en ce moment?"
-      clears: "need-fin need-liq need-tra need-wrk need-hire need-all reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-20mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
+      clears: "need-fin need-liq need-tra need-wrk need-all reg-atl reg-qc reg-on-n reg-on-s reg-pr reg-bc reg-nor size-under1m size-nonprofit size-1to5m size-5mplus size-20mplus size-large sec-forestry sec-steel sec-mfg sec-agri"
       next: "question-2"
       options:
         - {marker: need-fin, label: "Financement pour maintenir vos activités ou favoriser votre croissance"}
         - {marker: need-liq, label: "Liquidités pour combler un manque de trésorerie causé par les droits de douane"}
         - {marker: need-tra, label: "Projet de transformation ou d'immobilisations"}
-        - {marker: need-wrk, label: "Rétention ou travail partagé de la main-d'œuvre"}
-        - {marker: need-hire, label: "Soutien à la requalification et à l'embauche"}
+        - {marker: need-wrk, label: "Rétention ou requalifications de la main-d'œuvre"}
         - {marker: need-all, label: "Tout ce qui précède"}
 
     - id: question-2

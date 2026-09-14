@@ -469,49 +469,40 @@ class TestRouting < Minitest::Test
     end
   end
 
-  # ── The two people needs, and the line between them ────────────────────────
+  # ── The workforce need is one answer again ──────────────────────────────
   #
-  # The fifth need was added to Q1 rather than as the extra workforce question
-  # the /eric/ draft proposed - that draft asked the visitor to self-diagnose
-  # eligibility ("I already have a Work-Sharing agreement"), which is the kind
-  # of criteria-as-triage this wizard has backed away from three times.
+  # A fifth Q1 answer, "Retraining and hiring support", split retraining out of
+  # the workforce answer on 2026-09-11. It was reverted on 2026-09-14: the
+  # answer is out of Q1, and every row filed under `hiring` is `workforce`
+  # again. The two tests that pinned the split went with it.
   #
-  # The line moved on 2026-09-11: retraining left the workforce answer for the
-  # hiring one, which is now "Retraining and hiring support", leaving workforce
-  # as retention and work-sharing. These two rows are what that line is made
-  # of, and they are the two that would move back first if it eroded.
+  # These pin the revert. Retention and retraining are one answer, and the rows
+  # that moved across the line are the ones that would drift back first.
   %w[en fr].each do |lang|
-    define_method("test_retraining_and_hiring_rows_are_not_under_retention_#{lang}") do
+    define_method("test_retraining_rows_sit_with_retention_#{lang}") do
       page    = Wizard::BUSINESS[lang]
       markers = ["reg-on-s", "size-1to5m", "sec-mfg"]
-      hire = Wizard.visible_programs(page, ["need-hire"] + markers).map(&:first)
-      wrk  = Wizard.visible_programs(page, ["need-wrk"] + markers).map(&:first)
+      wrk = Wizard.visible_programs(page, ["need-wrk"] + markers).map(&:first)
       {
-        # Pure retraining, no Work-Sharing prerequisite - it moved with the word.
+        # Pure retraining - it moved out with the word, and back with it.
         "Workforce Tariff Response" => "Réponse tarifaire",
-        # A subsidy for taking on new students, not for keeping existing staff.
+        # A subsidy for taking on new students.
         "Student Work Placement"    => "stages pratiques",
       }.each do |en_label, fr_label|
         label = lang == "en" ? en_label : fr_label
-        assert hire.any? { |p| p =~ /#{label}/i },
-          "#{en_label} is missing from the retraining and hiring need"
-        refute wrk.any? { |p| p =~ /#{label}/i },
-          "#{en_label} is back under workforce retention and work-sharing"
+        assert wrk.any? { |p| p =~ /#{label}/i },
+          "#{en_label} is not under the workforce need"
       end
     end
 
-    # The one retraining row that stayed behind, because the page is only
-    # reachable through an approved Work-Sharing agreement.
-    define_method("test_the_work_sharing_training_page_stays_with_its_chain_#{lang}") do
-      page    = Wizard::BUSINESS[lang]
-      markers = ["reg-on-s", "size-1to5m", "sec-mfg"]
-      label   = lang == "en" ? "Training options for Work-Sharing" : "Options de formation"
-      wrk  = Wizard.visible_programs(page, ["need-wrk"] + markers).map(&:first)
-      hire = Wizard.visible_programs(page, ["need-hire"] + markers).map(&:first)
-      assert wrk.any? { |p| p =~ /#{label}/i },
-        "the Work-Sharing training page left the chain it depends on"
-      refute hire.any? { |p| p =~ /#{label}/i },
-        "the Work-Sharing training page is in the hiring list, where its prerequisite cannot be seen"
+    # The answer itself is gone, not just emptied of rows.
+    define_method("test_question_one_has_no_hiring_answer_#{lang}") do
+      refute_includes Wizard.need_markers(lang), "need-hire",
+        "Q1 offers the retraining and hiring answer again"
+      assert_nil Wizard.need_csv(lang, "need-hire"),
+        "the needs bridge still maps need-hire to a CSV value"
+      refute_includes Wizard::Expected.live(lang).flat_map { |r| Wizard::Expected.needs_of(r) },
+        "hiring", "the CSV still files rows under hiring"
     end
 
     # The all-view promises the union of the four needs with nothing repeated.
