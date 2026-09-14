@@ -1,0 +1,348 @@
+DECISION TREE — worker support wizard
+=====================================
+
+File    : eric/canada-strong-worker-wizard.html
+Supports: https://www.canada.ca/en/department-finance/programs/
+          international-trade-finance-policy/canadas-response-us-tariffs/
+          support-canadian-workers-employers.html#a1
+Shell   : https://www.canada.ca/en/campaign/canadastrong/
+          find-support-for-your-business.html   (retrieved 2026-09-10)
+Date    : 2026-09-10
+Language: English. A French version can follow once the question wording
+          is settled.
+
+
+WHAT THIS IS
+------------
+A standalone, worker-facing companion to the employer wizard. It asks four
+questions and shows the Employment Insurance, job, training, student aid
+and apprenticeship supports that fit the answers.
+
+The page shell is the Canada Strong business wizard: same WET/GCWeb chrome,
+same wb-fieldflow plugin, same click-analytics pattern, so the two tools
+look and behave alike. Everything inside <main> is new. A <base> element
+makes the shell's relative asset and link URLs resolve against canada.ca
+when the file is opened from disk.
+
+All thirteen supports listed under "Worker supports" on the source page are
+reachable. Every destination URL was checked and returns HTTP 200.
+
+
+HOW THE MECHANISM WORKS
+-----------------------
+No bespoke routing code. Each question is a hidden <div> holding a prompt
+and a <ul> of answers; fieldflow renders it as a radio or checkbox
+fieldset. Each answer carries a list of actions:
+
+    removeClass  un-hide a panel (by #id) or a set of list items (by .class)
+    append       render the next question, named by #id
+
+Each question also carries a "default" action list, which fieldflow runs
+once per change before the selected answers' actions. It re-hides whatever
+the questions below had revealed, so changing an earlier answer resets the
+results cleanly.
+
+Group classes, used for reset:
+    wz-g        every result element        (question 1 hides all of these)
+    wz-g-sit    situation-gated lines       (question 1 sets)
+    wz-g-need   the three need panels       (question 2 sets)
+    wz-g-ei     EI-gated lines              (question 3 sets)
+    wz-g-trade  apprenticeship lines        (question 4 sets)
+
+Value classes, set by an answer and used to gate individual list items:
+    wz-sit-laidoff | -reduced | -working | -selfemp
+    wz-ei-receiving | -applying | -no | -unsure
+    wz-trade-app | -any
+
+Results live in #wz-results, hidden until question 4 is answered.
+
+
+THE TREE
+--------
+
+  Q1 situation   4 answers, radio     ─ sets .wz-sit-*    ─> Q2
+  Q2 needs       3 answers, CHECKBOX  ─ opens need panels ─> Q3
+  Q3 EI status   4 answers, radio     ─ sets .wz-ei-*     ─> Q4
+  Q4 trades      3 answers, radio     ─ sets .wz-trade-*  ─> results
+
+Four questions on every path. 4 x (2^3 - 1) x 4 x 3 = 336 distinct answer
+combinations, resolving to between three and seven panels on screen.
+
+
+QUESTION 1 — What best describes your situation?
+------------------------------------------------
+Block id : #question-1   (radio)
+Default  : addClass hidden on ".wz-g" and on "#wz-results"
+Each answer: removeClass .wz-sit-<key>, then append #q2-needs
+
+  laidoff  I have been laid off, or my job has ended
+  reduced  My hours or shifts have been reduced
+  working  I am still working, but my workplace or industry is affected
+  selfemp  I am self-employed, or I run a small business
+
+This question owns income support. It drives #p-situation-note, which is
+shown on every path and carries exactly one line, the one matching the
+answer. All four lines point at Temporary EI Measures; what differs is what
+they tell you to do about it:
+
+  laidoff  "Apply as soon as your job ends. The temporary measures waive
+            the one-week waiting period."
+  reduced  "You may still qualify for EI while you are working reduced
+            hours."
+  working  "You cannot claim while you are working your normal hours. Read
+            the measures now so you know what applies if your hours are
+            cut."
+  selfemp  "EI works differently for self-employed people. Check whether
+            you have opted in to EI special benefits before you count on
+            it."
+
+Why income is not one of the question 2 options: it would have put the same
+EI link on screen twice, once here and once in a need panel. Question 1
+already tells us the person's income situation, so it answers it.
+
+
+QUESTION 2 — What do you need help with?
+-----------------------------------------
+Block id : #q2-needs   (CHECKBOX, multi-select)
+Prompt   : ends "Select all that apply."
+Default  : addClass hidden on ".wz-g-need, .wz-g-ei, .wz-g-trade" and on
+           "#wz-results"; append #q3-ei
+Each answer: removeClass its panel only
+
+  Finding another job                          -> #p-job
+  Training or new skills                       -> #p-training
+  Paying for school, or managing a student loan -> #p-school
+
+Why the append sits in "default" and not on the answers: fieldflow runs a
+question's "default" once per change event, but runs an answer's actions
+once per selected answer. With the append on each answer, ticking three
+boxes would have rendered question 3 three times. In "default" it renders
+exactly once however many boxes are ticked. Verified in-browser.
+
+Ticking or unticking a box re-runs the question, which tears questions 3
+and 4 down and collapses the results. That is the same reset the radio
+questions do, and it is correct, but it does mean adding a need late costs
+the answers below it. Hence "Select all that apply" in the prompt.
+
+  #p-job     Finding another job
+             Job Bank: job postings and labour market information
+             Intro notes that provinces and territories also deliver
+             job-search and employment assistance services under the labour
+             market agreements listed in the training results.
+
+  #p-training  Training and new skills
+             EI-funded Labour Market Development Agreements (LMDAs)
+             Skills for Success
+             Training Finder
+             Skills and employment training for Indigenous people
+
+             The Indigenous line is shown to everyone who asks about
+             training, with wording that lets people self-select. The
+             wizard asks nothing about identity.
+
+  #p-school  Paying for school and managing student loans
+             Canada Student Grants and Loans
+             Repayment Assistance Plan (RAP)
+             Intro points at the EI note below for anyone on EI, or about
+             to be, who is thinking of enrolling.
+
+
+QUESTION 3 — Are you receiving EI, or do you plan to apply?
+------------------------------------------------------------
+Block id : #q3-ei   (radio)
+Default  : addClass hidden on ".wz-g-ei, .wz-g-trade" and on "#wz-results"
+Each answer: removeClass .wz-ei-<key>, then append #q4-trades
+
+  receiving  I am receiving EI now
+  applying   I have applied, or I am about to apply
+  no         I am not receiving EI and do not plan to apply
+  unsure     I am not sure whether I qualify
+
+Drives #p-ei-note, which carries one line, the one matching the answer:
+
+  receiving  EI and courses or training programs  [link]
+             "You may be able to keep receiving EI while you take an
+             approved course or training program."
+  applying   EI and courses or training programs  [link]
+             "If you are thinking about training while your claim is
+             active, get approval first: enrolling without it can interrupt
+             your benefits."
+  no         no link, advice only
+             "Not everything here needs an active EI claim. Job Bank is
+             open to everyone, and the labour market agreements fund
+             employment and training supports delivered by your province or
+             territory."
+  unsure     no link, advice only
+             "Read the temporary EI measures above before you decide not to
+             apply: they changed who can qualify and for how long. Applying
+             costs you nothing if the answer turns out to be no."
+
+The last two lines carry no link on purpose. The links they would have used
+are already on screen in the situation panel and the training panel, and a
+second copy of a link two panels down reads as an error rather than as
+emphasis.
+
+This question is also the only route to "EI and courses or training
+programs", which is correct: that page is only meaningful to someone on EI
+or about to be.
+
+
+QUESTION 4 — Are you an apprentice or working in a skilled trade?
+------------------------------------------------------------------
+Block id : #q4-trades   (radio)
+Default  : addClass hidden on ".wz-g-trade"
+Each answer: removeClass #p-trades and .wz-trade-<key>, then
+             removeClass #wz-results   (this is what shows the results)
+The "No" answer only reveals #wz-results.
+
+  app  Yes, I am a registered apprentice in a Red Seal trade
+       -> #p-trades with all three lines:
+          Canada Apprentice Loan
+          EI for apprentices
+          Tax deductions and credits for tradespeople
+  any  I work in a skilled trade, but I am not an apprentice
+       -> #p-trades with one line:
+          Tax deductions and credits for tradespeople
+  no   No
+       -> no trades panel
+
+The two apprentice-only supports say "apprentice" in their eligibility, so
+they are gated to that answer. The tax page covers tradespeople generally,
+so both trade answers see it.
+
+
+ALWAYS ON SCREEN
+----------------
+A standing "More options" panel with no hidden class, so it survives every
+combination of answers:
+  - Support for businesses and industries impacted by tariffs
+  - "See every measure in one place" -> the source page
+  - "Didn't find what you were looking for?" -> 1 800 O-Canada
+
+This is also what makes the business-supports link reachable on every path,
+including for someone who is not self-employed.
+
+
+ONE SUPPORT, ONE PANEL
+----------------------
+Because question 2 is multi-select, up to seven panels can be on screen at
+once, so every one of the thirteen supports is listed in exactly one panel.
+Verified in-browser on the maximal path (all three needs ticked, receiving
+EI, Red Seal apprentice): fifteen links visible, zero repeats.
+
+That rule is what shaped several placements:
+  - Job Bank sits only in #p-job, not in the standing panel.
+  - The Indigenous training link sits only in #p-training.
+  - The LMDA link sits only in #p-training; #p-job's intro sentence refers
+    to it in prose instead of linking it again.
+  - Business supports sit only in the standing panel; there is no separate
+    self-employed panel.
+  - The two EI-note lines that would have repeated a link carry advice
+    instead.
+
+
+COVERAGE — all thirteen supports and where each lives
+------------------------------------------------------
+Employment
+  Temporary Employment Insurance (EI) Measures    #p-situation-note, all
+                                                  four situations
+  Job Bank                                        #p-job
+
+Skills and training
+  EI-funded LMDAs                                 #p-training
+  Skills for Success                              #p-training
+  Training Finder                                 #p-training
+  Skills and employment training for Indigenous   #p-training
+    people
+
+Educational financial aid
+  Canada Student Grants and Loans                 #p-school
+  Repayment Assistance Plan (RAP)                 #p-school
+  EI and courses or training programs             #p-ei-note, receiving
+                                                  and applying
+
+Red Seal trades
+  Canada Apprentice Loan                          #p-trades, apprentice
+  Tax deductions and credits for tradespeople     #p-trades, both trade
+                                                  answers
+  EI for apprentices                              #p-trades, apprentice
+
+Businesses and industries
+  Support for businesses and industries           standing panel
+
+
+WORKED EXAMPLES, both captured in-browser
+------------------------------------------
+Laid off > job + training + school > receiving EI > Red Seal apprentice
+  #p-situation-note  apply as soon as your job ends
+  #p-job             Job Bank
+  #p-training        LMDAs, Skills for Success, Training Finder, Indigenous
+  #p-school          Grants and Loans, RAP
+  #p-ei-note         EI and courses: approval first
+  #p-trades          Apprentice Loan, EI for apprentices, tax deductions
+  standing           business supports, source page, 1 800 O-Canada
+
+Still working > training only > not on EI and not applying > no trade
+  #p-situation-note  you cannot claim while working normal hours
+  #p-training        LMDAs, Skills for Success, Training Finder, Indigenous
+  #p-ei-note         not everything here needs an active EI claim
+  standing           business supports, source page, 1 800 O-Canada
+
+
+ANALYTICS
+---------
+The shell's click-analytics script is reused, with PREFIX changed to
+"ServCan:CanadaStrongWorkerWizard:" and the form's
+data-gc-analytics-formname set to match, so the worker tool reports
+separately from the business one.
+
+The script detects the end of the branch from the DOM rather than from a
+question count: fieldflow stamps data-wb-fieldflow-source onto every
+fieldset it renders and leaves the hidden source <div> in the document, so
+the script treats a question as terminal when neither it nor any of its
+answers contains an "append" action. A multi-select question contributes
+one entry, its ticked answers joined with " + "; questions are joined with
+" > ". Captured path:
+
+  ServCan:CanadaStrongWorkerWizard:I have been laid off, or my job has
+  ended > Finding another job + Training or new skills + Paying for school,
+  or managing a student loan > I am receiving EI now > Yes, I am a
+  registered apprentice in a Red Seal trade
+
+
+VERIFICATION PERFORMED
+----------------------
+- Every fieldflow #id and .class selector resolves to an element that
+  exists; no orphan selectors.
+- All thirteen supports present; all fifteen outbound URLs return HTTP 200.
+- Walked in a browser with the live WET/GCWeb assets:
+  * maximal path, all three needs ticked - seven panels, fifteen links,
+    zero repeated links;
+  * minimal path, one need ticked, no EI, no trade - four panels;
+  * self-employed path with the "applying" EI note and the non-apprentice
+    trade answer - #p-trades correctly down to its single tax line;
+  * multi-select appending question 3 exactly once when a second box is
+    ticked;
+  * re-answering question 1 after finishing - questions 2 to 4 torn down,
+    results collapsed;
+  * analytics firing with the multi-select path.
+
+
+NOTES AND OPEN ITEMS
+--------------------
+- The source page has an "Apply for EI" link commented out in its own HTML,
+  so it is not a live support and is not used here. A worker wizard that
+  ends at "read about the temporary measures" without an apply route is a
+  gap worth raising with the page owner rather than papering over with an
+  invented link.
+- Question 3 asks about EI status, not eligibility, and no answer tells
+  anyone whether they qualify. The "unsure" path deliberately pushes people
+  to read the measures and apply rather than self-screening out.
+- The Training Finder URL carries the source page's own utm campaign
+  parameters, kept verbatim. If this tool ships, it should get its own
+  utm_source so its referrals can be told apart from the page's.
+- The header language toggle still points at the live French business
+  wizard, inherited from the shell. It needs re-pointing when a French
+  worker wizard exists.
+- "Question N of 4" is hard-coded in the prompts, as on the live tools. The
+  analytics script does not depend on it.
