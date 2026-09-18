@@ -4,8 +4,12 @@
 <html class="no-js" dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head prefix="og: http://ogp.me/ns#">
-<!-- Local archive of https://www.canada.ca/en/services.html retrieved 2026-09-09. The <base> below is the only change: it makes the page's original relative asset and link URLs resolve against canada.ca when this file is opened from disk. -->
+<!-- Local archive of https://www.canada.ca/en/services.html retrieved 2026-09-09. Two changes only: (1) the <base> below, which makes the page's original relative asset and link URLs resolve against canada.ca when this file is opened from disk. (2) the script below, which repoints the language toggle at the local counterpart. -->
 <base href="https://www.canada.ca/en/services.html"/>
+<script>/* local-archive: repoint language toggle; falls back to the canada.ca link */
+(function(){function f(){try{var a=document.querySelector("#wb-lng a[lang=\"fr\"]");if(a){a.href=new URL("../fr/services.html",document.URL).href;}}catch(e){}}
+if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",f);}else{f();}})();
+</script>
     
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta charset="utf-8"/>
