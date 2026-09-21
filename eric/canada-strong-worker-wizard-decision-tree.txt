@@ -8,7 +8,7 @@ Supports: https://www.canada.ca/en/department-finance/programs/
           support-canadian-workers-employers.html#a1
 Shell   : https://www.canada.ca/en/campaign/canadastrong/
           find-support-for-your-business.html   (retrieved 2026-09-10)
-Date    : 2026-09-14 (rev 5: Start over now resets the prototype)
+Date    : 2026-09-21 (rev 6: Resources for job seekers added)
 Language: Both. The two files share one structure - same question ids,
           same panel ids, same classes, same fieldflow actions, same
           analytics script - so everything below describes both. French
@@ -162,6 +162,8 @@ the answers below it. Hence "Select all that apply" in the prompt.
 
   #p-job     Finding another job
              Job Bank: job postings and labour market information
+             Resources for job seekers: searching, resumes, applications
+               and interviews
              Intro notes that provinces and territories also deliver
              job-search and employment assistance services under the labour
              market agreements listed in the training results.
@@ -285,6 +287,9 @@ Employment
   Temporary Employment Insurance (EI) Measures    #p-situation-note, all
                                                   four situations
   Job Bank                                        #p-job
+
+Not on the source page, added 2026-09-21
+  Resources for job seekers (Job Bank hub)        #p-job
 
 Skills and training
   EI-funded LMDAs                                 #p-training
@@ -659,3 +664,53 @@ hidden, no panels showing - and the wizard rebuilds normally afterwards.
 Note for a real deployment: on canada.ca there is no <base> and the page
 sits at its own URL, so a plain href would work. The in-place reset is
 still the better behaviour, and costs nothing there.
+
+REV 6 (2026-09-21) - Resources for job seekers
+-----------------------------------------------
+  EN  https://www.jobbank.gc.ca/findajob/resources
+      "Resources for job seekers: searching, resumes, applications and
+      interviews"
+  FR  https://www.guichetemplois.gc.ca/trouverunemploi/ressources
+      "Ressources pour les chercheurs d'emploi : recherche, CV,
+      candidatures et entrevues"
+
+Added to #p-job in both languages. No change to the question chain, the
+panels, the classes or the analytics: one list item in one panel, so the
+252 employee combinations resolve exactly as before, with the job panel
+now holding two links instead of one.
+
+Why this one and not the rest of that hub. The page carries ten or so child
+links; four of them are the steps of a job search (search, resume, apply,
+interview) and the hub sequences those better than a flat list in a results
+panel would. The hub also reaches "Employment centres", which is the only
+in-person, local help anywhere in either tool, and "Resources for specific
+groups", which lets people self-select the same way the Indigenous training
+line does without the wizard asking about identity. One link buys all of
+that. The note under it names the employment centres so the in-person
+option is visible without a second link.
+
+Left out of scope on the same page: Green jobs, Transportation jobs and
+Equi'Vision are sector- or partner-specific rather than tariff-response
+supports, and "How to use Job Bank" is meta-help for a site the tool
+already links to.
+
+Still open from the same review, not done here:
+  - A fourth need, "figuring out what to do next", drawing on the Training
+    Finder page's career-planning block (career quizzes, job transition,
+    in-demand sectors). This is the one real gap: someone laid off from a
+    shrinking occupation may want neither another job like the last one nor
+    a course. It would take the test matrix from 255 checks per language to
+    about 544, since the need subsets go from 7 to 15.
+  - Moving "Where to find financial assistance?" into #p-school, and
+    mentioning the Training Finder's free-only and online-only filters in
+    its note.
+  - The Training Finder page now says "This is a prototype in development."
+    Worth knowing, since the tool links to it.
+
+NOTE ON HOW THESE FILES ARE MAINTAINED
+  Revisions 1 to 5 were generated from a bilingual build script that lived
+  in a session scratchpad, which has since been cleared. This revision was
+  made by editing the two HTML files directly, which is why it was kept to
+  a single list item per file. The HTML files are now the source of truth.
+  Anything larger - the fourth need option, for instance - is worth
+  rebuilding the generator for, so the two languages cannot drift.
