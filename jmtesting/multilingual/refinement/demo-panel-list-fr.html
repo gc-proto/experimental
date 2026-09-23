@@ -170,19 +170,77 @@
         max-width: 65ch;
     }
 
-    /* Column mode: added by script when the language list would wrap */
-    nav.ml-columns {
+    /* Column mode. Without JavaScript: below the large breakpoint, where the row no longer fits.
+       With JavaScript (.ml-js): only when the row actually wraps (.ml-columns). */
+    @media (max-width: 1199px) {
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) {
+            width: auto;
+        }
+
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list {
+            columns: 1;
+        column-gap: 20px;
+        }
+
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list li,
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list li:not(:last-child) {
+            display: block;
+            margin-inline-end: 0;
+            break-inside: avoid;
+        }
+    }
+
+    nav[aria-labelledby="multilingual-label"].ml-columns {
         width: auto;
     }
 
-    nav.ml-columns ul#multilingual-list {
-        columns: 3 10em;
+    nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list {
+        columns: 1;
+        column-gap: 20px;
     }
 
-    nav.ml-columns ul#multilingual-list li {
+    nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list li,
+    nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list li:not(:last-child) {
         display: block;
         margin-inline-end: 0;
         break-inside: avoid;
+    }
+
+    /* Column counts, shared by both lists: 1 on small phones, 2 from 360px, 3 from 560px, 4 from 992px */
+    @media (min-width: 360px) and (max-width: 1199px) {
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list {
+            column-count: 2;
+        }
+    }
+
+    @media (min-width: 560px) and (max-width: 1199px) {
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list {
+            column-count: 3;
+        }
+    }
+
+    @media (min-width: 360px) {
+        nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list {
+            column-count: 2;
+        }
+    }
+
+    @media (min-width: 560px) {
+        nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list {
+            column-count: 3;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list {
+            column-count: 4;
+        }
+    }
+
+    @media (min-width: 992px) {
+        nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list {
+            column-count: 4;
+        }
     }
 
 </style>
@@ -604,12 +662,14 @@ Septembre 2007</p>
         <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
         <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
 
+
         <script>
-            // Language list: switch to columns when the items would wrap onto more than one line
+            // Supplement to the CSS breakpoint: switch the language list to columns only when the row actually wraps
             (function () {
                 var nav = document.querySelector('nav[aria-labelledby="multilingual-label"]');
                 var list = document.getElementById('multilingual-list');
                 if (!nav || !list) return;
+                nav.classList.add('ml-js');
 
                 function layout() {
                     // Measure in the single-row layout

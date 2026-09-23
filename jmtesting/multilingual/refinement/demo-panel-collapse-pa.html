@@ -172,6 +172,43 @@
         max-width: 65ch;
     }
 
+    /* Column mode. Without JavaScript: below the large breakpoint, where the row no longer fits.
+       With JavaScript (.ml-js): only when the row actually wraps (.ml-columns). */
+    @media (max-width: 1199px) {
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) {
+            width: auto;
+        }
+
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list {
+            columns: 1;
+        column-gap: 20px;
+        }
+
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list li,
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list li:not(:last-child) {
+            display: block;
+            margin-inline-end: 0;
+            break-inside: avoid;
+        }
+    }
+
+    nav[aria-labelledby="multilingual-label"].ml-columns {
+        width: auto;
+    }
+
+    nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list {
+        columns: 1;
+        column-gap: 20px;
+    }
+
+    nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list li,
+    nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list li:not(:last-child) {
+        display: block;
+        margin-inline-end: 0;
+        break-inside: avoid;
+    }
+
+    /* More languages: static details/summary under the list */
     li.ml-indigenous {
         font-family: "Noto Sans Canadian Aboriginal", "Noto Sans", sans-serif;
     }
@@ -181,13 +218,13 @@
         margin-bottom: 10px;
     }
 
-    /* Language icon before the summary text; the Canada.ca details marker is left as is */
     details.ml-more .ml-icon {
         margin-inline-end: 0.4em;
     }
 
     ul#multilingual-more {
-        columns: 3 10em;
+        columns: 1;
+        column-gap: 20px;
         margin: 10px 0 0;
         padding: 0;
         list-style: none;
@@ -199,40 +236,85 @@
         break-inside: avoid;
     }
 
+    /* Column counts, shared by both lists: 1 on small phones, 2 from 360px, 3 from 560px, 4 from 992px */
+    @media (min-width: 360px) and (max-width: 1199px) {
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list {
+            column-count: 2;
+        }
+    }
+
+    @media (min-width: 560px) and (max-width: 1199px) {
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list {
+            column-count: 3;
+        }
+    }
+
+    @media (min-width: 360px) {
+        nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list,
+        ul#multilingual-more {
+            column-count: 2;
+        }
+    }
+
+    @media (min-width: 560px) {
+        nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list,
+        ul#multilingual-more {
+            column-count: 3;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        nav[aria-labelledby="multilingual-label"]:not(.ml-js) ul#multilingual-list {
+            column-count: 4;
+        }
+    }
+
+    @media (min-width: 992px) {
+        nav[aria-labelledby="multilingual-label"].ml-columns ul#multilingual-list,
+        ul#multilingual-more {
+            column-count: 4;
+        }
+    }
+
 </style>
 
 <nav aria-labelledby="multilingual-label">
 <h2 id="multilingual-label" lang="pa">28 ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਉਪਲਬਧ</h2>
-<ul id="multilingual-list" data-more-label="({n}) ਹੋਰ ਭਾਸ਼ਾਵਾਂ ਦਿਖਾਓ" data-more-label-one="({n}) ਹੋਰ ਭਾਸ਼ਾ ਦਿਖਾਓ">
+<ul id="multilingual-list">
 <li><a href="demo-panel-collapse-en.html" target="_self" lang="en">English</a></li>
 <li><a href="demo-panel-collapse-fr.html" target="_self" lang="fr">Français</a></li>
 <li><a href="demo-panel-collapse-ar.html" target="_self" lang="ar" dir="rtl">العربية</a></li>
-<li><a href="#" target="_self" lang="bn">বাংলা</a></li>
 <li><a href="#" target="_self" lang="zh-Hans">简体中文</a></li>
 <li><a href="demo-panel-collapse-zh.html" target="_self" lang="zh-Hant">繁體中文</a></li>
+<li><a href="demo-panel-collapse-fa.html" target="_self" lang="fa" dir="rtl">فارسی</a></li>
+<li><a href="#" target="_self" lang="ko">한국어</a></li>
+<li><a href="#" target="_self" lang="pt">Português</a></li>
+<li><span class="currentpage" lang="pa">ਪੰਜਾਬੀ</span></li>
+<li><a href="#" target="_self" lang="es">Español</a></li>
+<li><a href="demo-panel-collapse-tl.html" target="_self" lang="tl">Tagalog</a></li>
+<li><a href="#" target="_self" lang="ur" dir="rtl">اردو</a></li>
+</ul>
+<details class="ml-more">
+<summary><span class="fas fa-language ml-icon" aria-hidden="true"></span>(16) ਹੋਰ ਭਾਸ਼ਾਵਾਂ ਦਿਖਾਓ</summary>
+<ul id="multilingual-more">
+<li><a href="#" target="_self" lang="bn">বাংলা</a></li>
 <li class="ml-indigenous"><a href="#" target="_self" lang="cr">ᓀᐦᐃᔭᐍᐏᐣ</a></li>
 <li class="ml-indigenous"><a href="#" target="_self" lang="chp">Dëne Sųłıné</a></li>
-<li><a href="demo-panel-collapse-fa.html" target="_self" lang="fa" dir="rtl">فارسی</a></li>
 <li><a href="#" target="_self" lang="de">Deutsch</a></li>
 <li><a href="#" target="_self" lang="gu">ગુજરાતી</a></li>
 <li><a href="#" target="_self" lang="hi">हिन्दी</a></li>
 <li class="ml-indigenous"><a href="#" target="_self" lang="iu">ᐃᓄᒃᑎᑐᑦ</a></li>
 <li><a href="#" target="_self" lang="it">Italiano</a></li>
-<li><a href="#" target="_self" lang="ko">한국어</a></li>
 <li class="ml-indigenous"><a href="#" target="_self" lang="ojs">ᐊᓂᔑᓂᓃᒧᐎᓐ</a></li>
 <li class="ml-indigenous"><a href="#" target="_self" lang="oj">ᐊᓂᔑᓈᐯᒧᐎᓐ</a></li>
 <li><a href="#" target="_self" lang="pl">Polski</a></li>
-<li><a href="#" target="_self" lang="pt">Português</a></li>
-<li><span class="currentpage" lang="pa">ਪੰਜਾਬੀ</span></li>
 <li><a href="#" target="_self" lang="ru">Русский</a></li>
 <li><a href="#" target="_self" lang="so">Soomaali</a></li>
-<li><a href="#" target="_self" lang="es">Español</a></li>
-<li><a href="demo-panel-collapse-tl.html" target="_self" lang="tl">Tagalog</a></li>
 <li><a href="#" target="_self" lang="ta">தமிழ்</a></li>
 <li><a href="#" target="_self" lang="uk">Українська</a></li>
-<li><a href="#" target="_self" lang="ur" dir="rtl">اردو</a></li>
 <li><a href="#" target="_self" lang="vi">Tiếng Việt</a></li>
 </ul>
+</details>
 </nav>
 
 
@@ -638,49 +720,22 @@
         <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
         <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
 
+
         <script>
-            // Language list: show the languages that fit on one line; the rest go in a details/summary below
+            // Supplement to the CSS breakpoint: switch the language list to columns only when the row actually wraps
             (function () {
+                var nav = document.querySelector('nav[aria-labelledby="multilingual-label"]');
                 var list = document.getElementById('multilingual-list');
-                if (!list) return;
-
-                var items = Array.prototype.slice.call(list.children);
-                var current = list.querySelector('.currentpage');
-                current = current && current.parentNode;
-                var numbers = new Intl.NumberFormat(list.getAttribute('data-number-locale') || 'en');
-                var plurals = new Intl.PluralRules(document.getElementById('multilingual-label').getAttribute('lang') || document.documentElement.lang);
-
-                var details = document.createElement('details');
-                details.className = 'ml-more';
-                details.hidden = true;
-                var summary = document.createElement('summary');
-                summary.innerHTML = '<span class="fas fa-language ml-icon" aria-hidden="true"></span><span></span>';
-                var summaryText = summary.querySelector('span:not(.ml-icon)');
-                var moreList = document.createElement('ul');
-                moreList.id = 'multilingual-more';
-                details.appendChild(summary);
-                details.appendChild(moreList);
-                list.parentNode.insertBefore(details, list.nextSibling);
+                if (!nav || !list) return;
+                nav.classList.add('ml-js');
 
                 function layout() {
-                    // Put every language back in the main list, in the original order
-                    items.forEach(function (item) { list.appendChild(item); });
-
-                    var nextOverflow = null;
-
-                    // Move languages from the end (never the current page) into the details until the rest fit on one line
-                    var top = list.firstElementChild.offsetTop;
-                    for (var i = items.length - 1; i > 0; i--) {
-                        if (list.lastElementChild.offsetTop === top) break;
-                        if (items[i] === current || items[i].parentNode !== list) continue;
-                        nextOverflow = moreList.insertBefore(items[i], nextOverflow);
+                    // Measure in the single-row layout
+                    nav.classList.remove('ml-columns');
+                    var items = list.children;
+                    if (items[items.length - 1].offsetTop > items[0].offsetTop) {
+                        nav.classList.add('ml-columns');
                     }
-
-                    var count = moreList.children.length;
-                    details.hidden = count === 0;
-                    var form = plurals.select(count);
-                    var label = list.getAttribute('data-more-label-' + form) || list.getAttribute('data-more-label');
-                    summaryText.textContent = label.replace('{n}', numbers.format(count));
                 }
 
                 var frame;
