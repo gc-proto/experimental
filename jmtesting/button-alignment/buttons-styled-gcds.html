@@ -135,8 +135,6 @@
 
 <style>
 
-    /* final colours will be decided when GCDS releases new colour scale, so check in at that time */
-
     .btn.active {
         box-shadow: none !important;
     }
@@ -185,52 +183,67 @@
         min-height: 58px !important;
     }
     .btn {
-        font-family: "Noto Sans" !important;
+        font-family: "Noto Sans", sans-serif !important;
         font-size: 20px !important; /* small screen sizes down to 18px */
         min-height: 52px !important;
     }
+    /* Secondary button (GC DS role="secondary") */
     .btn-default {
         border-radius: 6px;
-        background-color: white !important;
-        border: 2px #373d80 solid !important;
-        color: #373d80 !important;
+        background-color: transparent !important; /* --gcds-button-secondary-default-background */
+        border: 2px #26374a solid !important; /* --gcds-button-secondary-default-text (border uses text colour) */
+        color: #26374a !important; /* --gcds-button-secondary-default-text */
         }
 
     .btn-default:hover {
-        background-color: #d7e5f5 !important; 
+        background-color: #d6e4f5 !important; /* --gcds-button-secondary-hover-background */
         }
-    
+
     .active.btn-default {
-        background-color: #d7e5f5 !important; 
+        background-color: #d6e4f5 !important; /* --gcds-button-secondary-hover-background */
     }
+    /* Primary button (GC DS role="primary") */
      .btn-primary {
         border-radius: 6px;
-        border: 2px #26374a solid !important;
+        background-color: #26374a !important; /* --gcds-button-primary-default-background */
+        border: 2px #26374a solid !important; /* --gcds-button-primary-default-background */
+        color: #fff !important; /* --gcds-button-primary-default-text */
      }
 
+    .btn-primary:hover {
+        background-color: #1f497a !important; /* --gcds-button-primary-hover-background */
+        border: 2px #1f497a solid !important; /* --gcds-button-primary-hover-background */
+    }
+
+    /* Danger button (GC DS role="danger") */
     .btn-danger {
         border-radius: 6px;
-        background-color: #a62a1e !important;
-        border: 2px #a62a1e solid !important;
+        background-color: #b3192e !important; /* --gcds-button-danger-default-background */
+        border: 2px #b3192e solid !important; /* --gcds-button-danger-default-background */
+        color: #fff !important; /* --gcds-button-danger-default-text */
     }
 
     .btn-danger:hover {
-        background-color: #822117 !important;
-        border: 2px #822117 solid !important;
+        background-color: #861322 !important; /* --gcds-button-danger-hover-background */
+        border: 2px #861322 solid !important; /* --gcds-button-danger-hover-background */
     }
 
+    /* Start button (GC DS role="start") */
     .btn-success {
         border-radius: 6px;
-        background-color: #1b6c1c !important;
-        border: 2px #1b6c1c solid !important;
-        color: white !important;
+        background-color: #196636 !important; /* --gcds-button-start-default-background */
+        border: 2px #196636 solid !important; /* --gcds-button-start-default-background */
+        color: #fff !important; /* --gcds-button-start-default-text */
     }
 
     .btn-success:hover {
-        background-color: #114311 !important;
-        border: 2px #114311 solid !important;
+        background-color: #0f3d20 !important; /* --gcds-button-start-hover-background */
+        border: 2px #0f3d20 solid !important; /* --gcds-button-start-hover-background */
     }
 
+    /* btn-info and btn-warning are GCWeb theme colours, not GC Design System
+       tokens. GCWeb is the current styling here and these values match
+       theme.min.css. */
     .btn-info {
         border-radius: 6px;
         background-color: #4d4d4d !important;
@@ -253,20 +266,22 @@
         border: 2px #A08C09 solid !important;
     }
 
+    /* Supertask / Call to action button (GC DS role="start") */
     .btn-call-to-action {
         border-radius: 6px  !important;
-        font-weight: 500 !important; /* this font weight will need to be loaded */
+        font-weight: 600 !important; /* --gcds-button-start-font-desktop */
         text-shadow: none !important;
-        background-color: #03662a !important;
-        border: 2px #03662a solid !important;
+        background-color: #196636 !important; /* --gcds-button-start-default-background */
+        border: 2px #196636 solid !important; /* --gcds-button-start-default-background */
+        color: #fff !important; /* --gcds-button-start-default-text */
 
     }
     .btn.btn-call-to-action {
        min-height: 62px !important;
     }
     .btn-call-to-action:hover {
-        background-color: #023b1a !important;
-        border: 2px #023b1a solid !important;
+        background-color: #0f3d20 !important; /* --gcds-button-start-hover-background */
+        border: 2px #0f3d20 solid !important; /* --gcds-button-start-hover-background */
     }
 
 
