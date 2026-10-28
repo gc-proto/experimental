@@ -16,11 +16,13 @@
 	/* GC DS header sub-components use 16px (GCWeb sets 1.25rem here) */
 	#wb-bnr + hr + .container { font-size: 1rem; }
 	/* Breadcrumb sits directly under the header line */
-	#wb-bc ol { margin-top: 5px; }
+	#wb-bc ol { margin-top: 0; }
+	/* GC DS account spacing: 0.25rem (spacing-50), 0.5rem on mobile (spacing-100) */
+	#wb-so .btn { margin-top: 0.25rem; }
 	/* GC DS mobile (GCWeb xxs): stack and full width sign in */
 	@media (max-width: 479px) {
 		#wb-bc, #wb-so { width: 100%; }
-		#wb-so .btn { display: block; width: 100%; }
+		#wb-so .btn { display: block; width: 100%; margin-top: 0.5rem; }
 	}
 </style>
 </head>
